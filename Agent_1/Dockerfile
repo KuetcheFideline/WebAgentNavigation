@@ -17,4 +17,4 @@ WORKDIR  /app
 COPY ./Agent1 /app
 
 EXPOSE 8000
-ENTRYPOINT [ "python", "run.py" ]
+ENTRYPOINT ["python","Task.py"]

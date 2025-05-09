@@ -1,0 +1,17 @@
+services:
+  llm:
+    image: c52f7dbdec90
+    ports:
+      - 11434:11434
+    volumes:
+      - ollama:/root/.ollama
+
+  service-1:
+    build:
+      context: ./Agent_1
+      dockerfile: Dockerfile
+    volumes:
+      - ./Agent_1/Agent1:/app
+
+volumes:
+  ollama:
