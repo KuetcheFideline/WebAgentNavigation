@@ -1,0 +1,44 @@
+
+Démographie : Fournit un contexte pour des choix réalistes (par exemple, un étudiant peut préférer des ressources gratuites).
+
+Personnalité : Les scores (0.0 à 1.0) influencent le style des actions (par exemple, un utilisateur curieux explorera plus de liens).
+
+Intérêts : Oriente les choix de contenu (par exemple, un intérêt pour la technologie priorise les articles sur l'IA).
+
+Habitudes de navigation : Détermine les types d'actions privilégiées (par exemple, recherche vs clic direct).
+
+Contexte : Adapte les actions au but immédiat et aux contraintes (par exemple, temps limité).
+
+
+{
+  "user_id": "unique_identifier",
+  "demographics": {
+    "name": "string",
+    "age": integer,
+    "gender": "string",
+    "location": "string",
+    "occupation": "string",
+    "education": "string"
+  },
+  "personality": {
+    "curiosity": float,  // 0.0 à 1.0 (niveau d'exploration)
+    "efficiency": float, // 0.0 à 1.0 (préférence pour la rapidité)
+    "detail_level": float, // 0.0 à 1.0 (préférence pour les détails)
+    "risk_aversion": float // 0.0 à 1.0 (prudence dans les actions)
+  },
+  "interests": [
+    "string" // Exemple: "technologie", "politique", "éducation"
+  ],
+  "navigation_habits": {
+    "preferred_content": ["string"], // Exemple: "articles", "vidéos", "cours"
+    "search_frequency": float, // 0.0 à 1.0 (tendance à utiliser la recherche)
+    "link_exploration": float, // 0.0 à 1.0 (tendance à cliquer sur des liens)
+    "form_submission": float // 0.0 à 1.0 (tendance à remplir des formulaires)
+  },
+  "context": {
+    "current_goal": "string", // Exemple: "apprendre Python", "lire des news sur l'IA"
+    "device": "string", // Exemple: "ordinateur", "smartphone"
+    "time_available": integer // Temps en minutes pour la tâche
+  }
+}
+
