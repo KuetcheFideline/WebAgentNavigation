@@ -23,14 +23,14 @@ class AIAgent1:
                 template = json.load(f)
                 for key, value in template.items():
                     if isinstance(value, str):
-                        value = value.replace("{{", "{").replace("}}", "}")  # pour sécurité
+                        value = value.replace("{{", "{").replace("}}", "}")  
                         template[key] = value.format(**data)
                
         
             prompt = (
                 
                 f"{template['instruction']}\n\n"
-                f"Domaine: {template['domaine']}\n\n"
+                f"Data: {template['data']}\n\n"
             )
 
             return prompt
