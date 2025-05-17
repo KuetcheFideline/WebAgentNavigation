@@ -20,7 +20,7 @@ class AIAgent1:
             self.chunksize = chunksize
             self.chunk_overlap = chunk_overlap
            # self.model = OllamaLLM(base_url="http://localhost:11434/",model = model,temperature=0)
-            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
 
 
 
@@ -49,9 +49,22 @@ class AIAgent1:
 
 
     def call_lm(self,PromptFirst,example):
+        def escape_curly_braces(text):
+            if isinstance(text, str):
+                return text.replace("{", "{{").replace("}", "}}")
+            return text
+
+        processed_examples = [
+            {
+                "question": ex["question"],
+                "answer": escape_curly_braces(ex["answer"])
+            }
+            for ex in example
+        ]
+       # print(processed_examples)
         example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
         Prompt = FewShotPromptTemplate(
-             examples =example,
+             examples =processed_examples,
              example_prompt =example_prompt,
              suffix ="Question: {input}",
              input_variables=["input"],
@@ -83,7 +96,7 @@ class AIAgent1:
                 
                 f"{template['question']}\n\n"
             )
-
+           # print(prompt)
             return prompt
         except FileNotFoundError:
             print("fichier intouvable")
