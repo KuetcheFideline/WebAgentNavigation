@@ -3,7 +3,7 @@ from llms.Model import AIAgent1
 import requests
 from bs4 import BeautifulSoup
 
-from utils.utils import write_on_json ,get_site ,get_site_description ,read_from_json
+from utils.utils import write_on_json ,get_site ,get_site_description ,read_from_json , extract_category,extract_result
 
 Agent1 = AIAgent1()
 
@@ -46,23 +46,27 @@ Agent1 = AIAgent1()
 
 
 
-def siteCategorisation():
-    site = get_site(21)
-    description = get_site_description(site)
-    data = {
-        "data" :{
-            site:description
+def siteCategorisation(n):
+    sites = get_site(n)
+    for site in sites :
+        description = get_site_description(site)
+        data = {
+            "data" :{
+                site:description
+            }
         }
-    }
-    Prompt_first = Agent1.Promt_generation("Categorisation",data)
-    example = read_from_json("./prompts/ExampleCategorisation.json")
-    response = Agent1.call_lm(Prompt_first,example)
-    print (response.content,"bueueuu")
+        Prompt_first = Agent1.Promt_generation("Categorisation",data)
+        example = read_from_json("./prompts/ExampleCategorisation.json")
+        response = Agent1.call_lm(Prompt_first,example)
+        result= extract_result(response.content,site)
+        extract_category(result)
 
 
 
 
-siteCategorisation()
+def process_sites_in_batches(total_sites: int, batch_size: int = 20):
+    for i in range(0, total_sites, batch_size):
+        siteCategorisation(i + batch_size)
 
 
 
@@ -70,3 +74,6 @@ siteCategorisation()
 
 
 
+
+
+process_sites_in_batches(20)
