@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "twitter"
+  ],
+  "task_id": "5",
+  "require_login": "False",
+  "start_url": "https://twitter.com",
+  "geolocation": null,
+  "intent_template": "Find and save articles about",
+  "instantiation_dict": {
+    "topic": "legal tech advancements"
+  },
+  "intent": "Find and save articles aboutlegal tech advancements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

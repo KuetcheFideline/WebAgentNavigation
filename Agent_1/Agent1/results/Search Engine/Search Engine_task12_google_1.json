@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "12",
+  "require_login": "True",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Explore online courses related to",
+  "instantiation_dict": {
+    "topic": "legal research"
+  },
+  "intent": "Explore online courses related tolegal research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

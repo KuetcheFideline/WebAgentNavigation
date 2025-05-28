@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "github"
+  ],
+  "task_id": "6",
+  "require_login": "False",
+  "start_url": "https://github.com",
+  "geolocation": null,
+  "intent_template": "Find events, conferences, or meetups related to",
+  "instantiation_dict": {
+    "topic": "access to justice events"
+  },
+  "intent": "Find events, conferences, or meetups related toaccess to justice events",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

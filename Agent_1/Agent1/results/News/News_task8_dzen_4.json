@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "dzen"
+  ],
+  "task_id": "8",
+  "require_login": "False",
+  "start_url": "https://dzen.ru",
+  "geolocation": null,
+  "intent_template": "Explore in-depth analysis of news stories related to",
+  "instantiation_dict": {
+    "topic": "human rights and social justice"
+  },
+  "intent": "Explore in-depth analysis of news stories related tohuman rights and social justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

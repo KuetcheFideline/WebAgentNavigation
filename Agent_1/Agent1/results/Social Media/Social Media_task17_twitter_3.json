@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "twitter"
+  ],
+  "task_id": "17",
+  "require_login": "True",
+  "start_url": "https://twitter.com",
+  "geolocation": null,
+  "intent_template": "Collaborate with others on a project related to",
+  "instantiation_dict": {
+    "topic": "legal research projects"
+  },
+  "intent": "Collaborate with others on a project related tolegal research projects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

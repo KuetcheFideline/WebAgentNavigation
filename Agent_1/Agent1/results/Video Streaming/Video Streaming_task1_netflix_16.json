@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "netflix"
+  ],
+  "task_id": "1",
+  "require_login": "False",
+  "start_url": "https://netflix.com",
+  "geolocation": null,
+  "intent_template": "Browse videos on",
+  "instantiation_dict": {
+    "topic": "education and skills"
+  },
+  "intent": "Browse videos oneducation and skills",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

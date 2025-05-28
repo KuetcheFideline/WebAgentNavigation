@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "mail"
+  ],
+  "task_id": "15",
+  "require_login": "True",
+  "start_url": "https://mail.ru",
+  "geolocation": null,
+  "intent_template": "Connect with professionals in the field of",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Connect with professionals in the field ofeducation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

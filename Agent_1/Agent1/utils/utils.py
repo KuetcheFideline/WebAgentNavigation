@@ -5,29 +5,63 @@ from bs4 import BeautifulSoup
 import re 
 from pathlib import Path
 import os
+from urllib.parse import urlparse
+
+base_dir = os.path.dirname(__file__)
+
+def clean_domain(url):
+    netloc = urlparse(url).netloc
+    if netloc.startswith('www.'):
+        netloc = netloc[4:]
+    name = netloc.split('.')[0]  
+    return name
 
 
-# def get_sites_from_rank(start_rank: int) -> list:
+def get_site(start=0 ,end =20):
     
-#     return ["http://" + domain for domain in latest_list.top(start=start_rank)]
+    cache_dir = os.path.join(base_dir, '..', '.tranco')
+    t = Tranco(cache=True, cache_dir=cache_dir)
+    sites = t.list(list_id='6683X')
+    urls = [(i, f"https://{site}") for i, site in enumerate(sites.top(end)[start:end], start=start + 1)]
+    return urls 
 
-def get_site(n=20):
-    t = Tranco(cache=True, cache_dir=".tranco")
-    sites = t.list(n)
-   
-    urls = [f"https://{site}" for site in sites]
-    return urls
+
+
+def getEnd():
+    
+    filename = os.path.join(os.path.dirname(__file__),'..','..','experimentation.txt')
+    with open(filename ,'r', encoding='utf-8') as f :
+        content = f.read()
+        end = re.findall(r'end\s*=\s*(\d+)',content)
+        if end :
+            last_end = int(end[-1])
+            return last_end
+        else :
+            raise ValueError("Aucune valeur 'end' trouvée dans le fichier.")
+
+
+def WriteIntervale(start ,end ):
+    filename = os.path.join(os.path.dirname(__file__),'..','..','experimentation.txt')
+
+    with open(filename,'a',encoding='utf-8') as f :
+        Intervale = f'start = {start}, end = {end}'
+        f.write(Intervale)
+
+
+
+
+
 # def get_site(rank: int, ) -> str:
-    #   print("y")
-    #   t = Tranco(cache=True, cache_dir=".tranco")
-    #   print("y")
-    #   list_id = t.latest_list_id()
-    #   print(list_id)
-    #   sites = latest_list.top("6683X")
-    #   print("ok")
+#     #   print("y")
+#     #   t = Tranco(cache=True, cache_dir=".tranco")
+#     #   print("y")
+#     #   list_id = t.latest_list_id()
+#     #   print(list_id)
+#     #   sites = latest_list.top("6683X")
+#     #   print("ok")
     
-    #   domain = sites[rank - 1]
-    #   return f"https://feuwofranck.tech"
+#     #   domain = sites[rank - 1]
+#       return f"https://feuwofranck.tech"
 
 # def get_sites_range(start_rank: int, count: int) -> list:
 #     return ["http://" + domain for domain in latest_list.top(n=count, start=start_rank)]
@@ -102,18 +136,14 @@ def extract_result(result, site):
 def extract_category(result,result_dir:str="results"):
 
 
-        # Extract_result et save dans un fichier la categorie et et les urls associés 
         """
             model_output:  
                 #Category: [category]\n#Configence: [score]\n#Url: [url]\n#Explanation: [explanation]
         """
-        #create the save dir if needed
         Path(result_dir).mkdir(exist_ok=True)
 
-        #defining the path to the json file
         category_file = Path(result_dir)/ f"{result['category']}.json"
 
-        #initialise or load file content 
 
         if category_file.exists():
             with open(category_file,'r',encoding="utf-8") as f:
@@ -158,6 +188,7 @@ def get_category_list_from_folder(folder_path):
             os.path.splitext(f)[0]
             for f in os.listdir(folder_path)
             if os.path.isfile(os.path.join(folder_path, f)) and f.endswith(".json")
+            and os.path.splitext(f)[0] != "result"
         ]
     except FileNotFoundError:
         print(f"Folder not found: {folder_path}")

@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": "16",
+  "require_login": "True",
+  "start_url": "https://wikipedia.org",
+  "geolocation": null,
+  "intent_template": "Follow a topic feed for updates on",
+  "instantiation_dict": {
+    "topic": "human rights issues"
+  },
+  "intent": "Follow a topic feed for updates onhuman rights issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

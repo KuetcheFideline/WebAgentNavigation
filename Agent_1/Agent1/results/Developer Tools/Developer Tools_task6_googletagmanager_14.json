@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "googletagmanager"
+  ],
+  "task_id": "6",
+  "require_login": "False",
+  "start_url": "https://googletagmanager.com",
+  "geolocation": null,
+  "intent_template": "Find events, conferences, or meetups related to",
+  "instantiation_dict": {
+    "topic": "court technology workshops"
+  },
+  "intent": "Find events, conferences, or meetups related tocourt technology workshops",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

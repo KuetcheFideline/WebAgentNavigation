@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "netflix"
+  ],
+  "task_id": "16",
+  "require_login": "True",
+  "start_url": "https://netflix.com",
+  "geolocation": null,
+  "intent_template": "Save a video on",
+  "instantiation_dict": {
+    "topic": "comparative law"
+  },
+  "intent": "Save a video oncomparative law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "6",
+  "require_login": "False",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Visit a website on",
+  "instantiation_dict": {
+    "topic": "security blogs"
+  },
+  "intent": "Visit a website onsecurity blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

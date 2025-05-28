@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "8",
+  "require_login": "False",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Take a free online quiz on",
+  "instantiation_dict": {
+    "topic": "cybersecurity quizzes"
+  },
+  "intent": "Take a free online quiz oncybersecurity quizzes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

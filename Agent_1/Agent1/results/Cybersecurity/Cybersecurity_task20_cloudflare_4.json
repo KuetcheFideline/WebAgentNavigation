@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "20",
+  "require_login": "True",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Reflect on your learning journey in",
+  "instantiation_dict": {
+    "topic": "industry trends"
+  },
+  "intent": "Reflect on your learning journey inindustry trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

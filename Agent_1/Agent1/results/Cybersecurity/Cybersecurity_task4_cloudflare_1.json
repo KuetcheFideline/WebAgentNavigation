@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "4",
+  "require_login": "False",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Search for online courses on",
+  "instantiation_dict": {
+    "topic": "cybersecurity courses"
+  },
+  "intent": "Search for online courses oncybersecurity courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

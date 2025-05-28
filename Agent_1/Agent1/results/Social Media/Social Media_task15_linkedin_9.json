@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "linkedin"
+  ],
+  "task_id": "15",
+  "require_login": "True",
+  "start_url": "https://linkedin.com",
+  "geolocation": null,
+  "intent_template": "Participate in a live session about",
+  "instantiation_dict": {
+    "topic": "human rights issues"
+  },
+  "intent": "Participate in a live session abouthuman rights issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

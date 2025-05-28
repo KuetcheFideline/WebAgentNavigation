@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "13",
+  "require_login": "True",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Find relevant LinkedIn groups discussing",
+  "instantiation_dict": {
+    "topic": "technology and governance"
+  },
+  "intent": "Find relevant LinkedIn groups discussingtechnology and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

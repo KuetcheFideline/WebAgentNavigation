@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "17",
+  "require_login": "True",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Find online resources for learning about",
+  "instantiation_dict": {
+    "topic": "edX"
+  },
+  "intent": "Find online resources for learning aboutedX",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

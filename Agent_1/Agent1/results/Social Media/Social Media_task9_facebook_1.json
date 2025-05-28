@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "facebook"
+  ],
+  "task_id": "9",
+  "require_login": "False",
+  "start_url": "https://facebook.com",
+  "geolocation": null,
+  "intent_template": "Identify key organizations involved in",
+  "instantiation_dict": {
+    "topic": "human rights organizations"
+  },
+  "intent": "Identify key organizations involved inhuman rights organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

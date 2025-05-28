@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "11",
+  "require_login": "True",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Take an online course on",
+  "instantiation_dict": {
+    "topic": "data protection"
+  },
+  "intent": "Take an online course ondata protection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

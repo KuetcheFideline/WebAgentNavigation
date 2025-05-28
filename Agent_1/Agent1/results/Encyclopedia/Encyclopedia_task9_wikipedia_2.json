@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": "9",
+  "require_login": "False",
+  "start_url": "https://wikipedia.org",
+  "geolocation": null,
+  "intent_template": "Listen to a podcast about",
+  "instantiation_dict": {
+    "topic": "human rights discussions"
+  },
+  "intent": "Listen to a podcast abouthuman rights discussions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

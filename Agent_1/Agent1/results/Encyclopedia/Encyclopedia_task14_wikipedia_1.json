@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": "14",
+  "require_login": "True",
+  "start_url": "https://wikipedia.org",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge about",
+  "instantiation_dict": {
+    "topic": "constitutional law principles"
+  },
+  "intent": "Take a quiz to test knowledge aboutconstitutional law principles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

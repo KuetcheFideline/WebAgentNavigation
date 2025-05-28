@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "15",
+  "require_login": "True",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Download a resource guide on",
+  "instantiation_dict": {
+    "topic": "risk management"
+  },
+  "intent": "Download a resource guide onrisk management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

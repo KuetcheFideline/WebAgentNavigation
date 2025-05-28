@@ -8,49 +8,24 @@ def task_generation():
     examples = read_from_json("./prompts/FewShotTask.json")
     #print(examples)
     categories = get_category_list_from_folder("./results")
-    """"
-    categories = [
-    "e-learning",
-    "ecommerce",
-    "health",
-    "news",
-        "food_and_recipes",
-    "social_media",
-    "finance",
-    "education",
-    "entertainment",
-    "travel",
-    "job_search",
-    "real_estate",
-    "government",
-    "non_profit",
-    "legal_services",
-    "productivity_tools",
-    "cloud_storage",
-    "forum_community",
-    "sports",
-    "food_and_recipes",
-    "personal_blogging",
-    "portfolio",
-    "tech_review",
-    "music_streaming",
-    "video_streaming",
-    "gaming",
-    "automotive",
-    "fashion_and_beauty",
-    "parenting",
-    "event_management",
-    "spirituality_and_religion"
-]
-    """
+    print("######################deve#######################################""")
 
     print(categories)
+    print("######################deve#######################################""")
+
     for category in categories:
         data = {
             "website_category" :category
         }
+        print(data)
+        print("######################deve#######################################""")
+
         Prompt_first = model.Promt_generation("Tasks",data=data)
+        print(Prompt_first)
+        print("######################deve#######################################""")
+
         response = model.call_lm(PromptFirst=Prompt_first,example=examples)
+        print(response,"##########################################################################")
         format_res = extract_json_from_output(response.content)
         #json.dumps(format_res,indent=2)
         # print(format_res['website_category'])

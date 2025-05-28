@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "coursera"
+  ],
+  "task_id": "16",
+  "require_login": "True",
+  "start_url": "https://www.coursera.com",
+  "geolocation": null,
+  "intent_template": "Join a study group for",
+  "instantiation_dict": {
+    "topic": "bar exam preparation"
+  },
+  "intent": "Join a study group forbar exam preparation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

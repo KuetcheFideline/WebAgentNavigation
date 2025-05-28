@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "twitter"
+  ],
+  "task_id": "12",
+  "require_login": "True",
+  "start_url": "https://twitter.com",
+  "geolocation": null,
+  "intent_template": "Join a discussion group focused on",
+  "instantiation_dict": {
+    "topic": "public policy"
+  },
+  "intent": "Join a discussion group focused onpublic policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}
