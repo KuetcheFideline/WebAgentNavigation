@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "facebook"
+  ],
+  "task_id": "15",
+  "require_login": true,
+  "login_selector": "jumial logon ",
+  "start_url": "https://facebook.com",
+  "geolocation": null,
+  "intent_template": "Participate in a live session about",
+  "instantiation_dict": {
+    "topic": "governance challenges"
+  },
+  "intent": "Participate in a live session aboutgovernance challenges",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

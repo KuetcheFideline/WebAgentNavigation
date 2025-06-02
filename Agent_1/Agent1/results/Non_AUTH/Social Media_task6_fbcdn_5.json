@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fbcdn"
+  ],
+  "task_id": "6",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fbcdn.net",
+  "geolocation": null,
+  "intent_template": "Watch videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research tutorials"
+  },
+  "intent": "Watch videos aboutlegal research tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dzen"
+  ],
+  "task_id": "16",
+  "require_login": true,
+  "login_selector": "fidelinehhhh",
+  "start_url": "https://dzen.ru",
+  "geolocation": null,
+  "intent_template": "Share a news article about",
+  "instantiation_dict": {
+    "topic": "judicial reviews"
+  },
+  "intent": "Share a news article aboutjudicial reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

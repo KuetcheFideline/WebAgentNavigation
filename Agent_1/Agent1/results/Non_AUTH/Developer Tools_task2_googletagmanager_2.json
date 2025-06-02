@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "googletagmanager"
+  ],
+  "task_id": "2",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://googletagmanager.com",
+  "geolocation": null,
+  "intent_template": "Watch webinars or videos on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "introductions to legal coding"
+  },
+  "intent": "Watch webinars or videos onintroductions to legal coding",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

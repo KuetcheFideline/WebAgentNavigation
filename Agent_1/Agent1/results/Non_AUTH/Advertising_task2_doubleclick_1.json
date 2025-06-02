@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "doubleclick"
+  ],
+  "task_id": "2",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://doubleclick.net",
+  "geolocation": null,
+  "intent_template": "Watch a video on how to create an effective ad for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Watch a video on how to create an effective ad forconstitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

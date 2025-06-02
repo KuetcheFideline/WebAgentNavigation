@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "linkedin"
+  ],
+  "task_id": "1",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://linkedin.com",
+  "geolocation": null,
+  "intent_template": "Read about recent developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Read about recent developments inlegal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

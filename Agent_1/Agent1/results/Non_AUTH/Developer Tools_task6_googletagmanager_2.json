@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "googletagmanager"
+  ],
+  "task_id": "6",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://googletagmanager.com",
+  "geolocation": null,
+  "intent_template": "Find events, conferences, or meetups related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech conferences"
+  },
+  "intent": "Find events, conferences, or meetups related tolegal tech conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

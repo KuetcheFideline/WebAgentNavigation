@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "16",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Research scholarly articles on",
+  "instantiation_dict": {
+    "topic": "Google Scholar"
+  },
+  "intent": "Research scholarly articles onGoogle Scholar",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

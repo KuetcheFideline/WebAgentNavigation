@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "11",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Search for academic articles on",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Search for academic articles onconstitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

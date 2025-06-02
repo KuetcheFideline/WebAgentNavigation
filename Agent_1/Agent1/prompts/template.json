@@ -1,25 +1,22 @@
 {
-    "sites": [
-      "{{site}}"
-    ],
-    "task_id": "{{task_id}}",
-    "require_login": "{{require_login}}",
-    "start_url": "{{start_url}}",
-    "geolocation": null,
-    "intent_template": "{{intent_template}}",
-    "instantiation_dict": {
-      "topic": "{{topic}}"
-    },
-    "intent": "{{intent}}",
-    "require_reset": false,
-    "eval": {
-      "eval_types": [
-        "program_html"
-      ],
-      "reference_answers": null,
-      "reference_url": "",
-      "program_html": []
-    },
-    "intent_template_id": "{{intent_template_id}}"
-  }
-  
+  "sites": ["{{ site }}"],
+  "task_id": "{{ task_id }}",
+  "require_login": {{ require_login}},
+  "login_selector" :"{{login_selector}}" ,
+
+  "start_url": "{{ start_url }}",
+  "geolocation": null,
+  "intent_template": "{{ intent_template }}",
+  "instantiation_dict": {
+    "topic": "{{ topic }}"
+  },
+  "intent": "{{ intent }}",
+  "require_reset": false,
+  "eval": {
+    "eval_types": ["program_html"],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netflix"
+  ],
+  "task_id": "15",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://netflix.com",
+  "geolocation": null,
+  "intent_template": "Rate and review a video on",
+  "instantiation_dict": {
+    "topic": "artificial intelligence"
+  },
+  "intent": "Rate and review a video onartificial intelligence",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

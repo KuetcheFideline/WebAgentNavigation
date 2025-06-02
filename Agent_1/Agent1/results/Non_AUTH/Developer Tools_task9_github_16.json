@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "github"
+  ],
+  "task_id": "9",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://github.com",
+  "geolocation": null,
+  "intent_template": "Take a free introductory course or tutorial on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "court technology essentials"
+  },
+  "intent": "Take a free introductory course or tutorial oncourt technology essentials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "2"
+  ],
+  "task_id": "7",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://www.2.com",
+  "geolocation": null,
+  "intent_template": "Find a study guide for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "bar exam study materials"
+  },
+  "intent": "Find a study guide forbar exam study materials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

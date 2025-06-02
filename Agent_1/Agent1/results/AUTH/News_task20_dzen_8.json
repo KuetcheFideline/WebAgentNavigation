@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dzen"
+  ],
+  "task_id": "20",
+  "require_login": true,
+  "login_selector": "fidelinehhhh",
+  "start_url": "https://dzen.ru",
+  "geolocation": null,
+  "intent_template": "Organize news articles about",
+  "instantiation_dict": {
+    "topic": "policy analysis and advocacy"
+  },
+  "intent": "Organize news articles aboutpolicy analysis and advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

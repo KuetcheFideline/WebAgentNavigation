@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mail"
+  ],
+  "task_id": "13",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://mail.ru",
+  "geolocation": null,
+  "intent_template": "Download a resource related to",
+  "instantiation_dict": {
+    "topic": "law journals"
+  },
+  "intent": "Download a resource related tolaw journals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

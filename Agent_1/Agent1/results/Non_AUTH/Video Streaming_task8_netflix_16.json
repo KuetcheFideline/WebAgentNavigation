@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netflix"
+  ],
+  "task_id": "8",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://netflix.com",
+  "geolocation": null,
+  "intent_template": "Identify videos with closed captions on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and accommodation"
+  },
+  "intent": "Identify videos with closed captions oneducation and accommodation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

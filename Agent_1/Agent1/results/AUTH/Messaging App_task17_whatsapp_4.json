@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "whatsapp"
+  ],
+  "task_id": "17",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://whatsapp.net",
+  "geolocation": null,
+  "intent_template": "Create a poll about",
+  "instantiation_dict": {
+    "topic": "technology and law"
+  },
+  "intent": "Create a poll abouttechnology and law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

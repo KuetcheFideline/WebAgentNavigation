@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "facebook"
+  ],
+  "task_id": "9",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://facebook.com",
+  "geolocation": null,
+  "intent_template": "Identify key organizations involved in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education providers"
+  },
+  "intent": "Identify key organizations involved ineducation providers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

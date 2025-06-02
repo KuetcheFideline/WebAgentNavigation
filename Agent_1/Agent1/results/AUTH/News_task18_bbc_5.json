@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bbc"
+  ],
+  "task_id": "18",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://www.bbc.com",
+  "geolocation": null,
+  "intent_template": "Create a note summarizing a news article on",
+  "instantiation_dict": {
+    "topic": "legal tech and access to justice"
+  },
+  "intent": "Create a note summarizing a news article onlegal tech and access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "instagram"
+  ],
+  "task_id": "5",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://instagram.com",
+  "geolocation": null,
+  "intent_template": "Find and save articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law updates"
+  },
+  "intent": "Find and save articles aboutconstitutional law updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

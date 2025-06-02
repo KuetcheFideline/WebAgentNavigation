@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "youtu"
+  ],
+  "task_id": "9",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://youtu.be",
+  "geolocation": null,
+  "intent_template": "Look for videos with transcripts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and literacy"
+  },
+  "intent": "Look for videos with transcripts onlaw and literacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

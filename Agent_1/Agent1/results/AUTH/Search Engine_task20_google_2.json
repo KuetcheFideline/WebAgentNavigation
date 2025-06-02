@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "20",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Look up books and eBooks related to",
+  "instantiation_dict": {
+    "topic": "educational texts"
+  },
+  "intent": "Look up books and eBooks related toeducational texts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

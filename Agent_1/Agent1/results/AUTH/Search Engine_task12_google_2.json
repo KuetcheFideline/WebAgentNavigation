@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "12",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://google.com",
+  "geolocation": null,
+  "intent_template": "Explore online courses related to",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Explore online courses related topolicy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

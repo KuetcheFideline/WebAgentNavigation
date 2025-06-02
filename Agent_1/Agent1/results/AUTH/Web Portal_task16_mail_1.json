@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mail"
+  ],
+  "task_id": "16",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://mail.ru",
+  "geolocation": null,
+  "intent_template": "Create a personalized learning plan for",
+  "instantiation_dict": {
+    "topic": "legal studies"
+  },
+  "intent": "Create a personalized learning plan forlegal studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

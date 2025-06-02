@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudflare"
+  ],
+  "task_id": "19",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://cloudflare.com",
+  "geolocation": null,
+  "intent_template": "Take a certification exam on",
+  "instantiation_dict": {
+    "topic": "CISSP"
+  },
+  "intent": "Take a certification exam onCISSP",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

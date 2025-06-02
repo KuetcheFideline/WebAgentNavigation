@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bbc"
+  ],
+  "task_id": "12",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://www.bbc.com",
+  "geolocation": null,
+  "intent_template": "Comment on a news story related to",
+  "instantiation_dict": {
+    "topic": "international law"
+  },
+  "intent": "Comment on a news story related tointernational law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bbc"
+  ],
+  "task_id": "1",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://www.bbc.com",
+  "geolocation": null,
+  "intent_template": "Read a news article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech innovations"
+  },
+  "intent": "Read a news article aboutlegal tech innovations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

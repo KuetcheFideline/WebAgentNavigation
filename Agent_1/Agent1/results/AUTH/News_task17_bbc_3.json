@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bbc"
+  ],
+  "task_id": "17",
+  "require_login": true,
+  "login_selector": "",
+  "start_url": "https://www.bbc.com",
+  "geolocation": null,
+  "intent_template": "Save a news article about",
+  "instantiation_dict": {
+    "topic": "governance and leadership"
+  },
+  "intent": "Save a news article aboutgovernance and leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

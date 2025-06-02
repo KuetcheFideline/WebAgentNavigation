@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dzen"
+  ],
+  "task_id": "12",
+  "require_login": true,
+  "login_selector": "fidelinehhhh",
+  "start_url": "https://dzen.ru",
+  "geolocation": null,
+  "intent_template": "Comment on a news story related to",
+  "instantiation_dict": {
+    "topic": "judicial decisions"
+  },
+  "intent": "Comment on a news story related tojudicial decisions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

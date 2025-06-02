@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "googlevideo"
+  ],
+  "task_id": "5",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://googlevideo.com",
+  "geolocation": null,
+  "intent_template": "Discover new videos on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "current issues in education"
+  },
+  "intent": "Discover new videos oncurrent issues in education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}
