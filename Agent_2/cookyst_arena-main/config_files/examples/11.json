@@ -1,0 +1,77 @@
+[{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": 811,
+  "require_login": false,
+  "start_url": "https://en.wikipedia.org",
+  "geolocation": null,
+  "intent_template": "Search for the topic {{topic}} on Wikipedia.",
+  "instantiation_dict": {
+    "topic": "quantum computing"
+  },
+  "intent": "Search for the topic quantum computing on Wikipedia.",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 1000
+},
+
+{
+  "sites": [
+    "wordpress"
+  ],
+  "task_id": 814,
+  "require_login": true,
+  "login_url":"https://wordpress.com/",
+  "start_url": "https://wordpress.com/post",
+  "login_selector":"a[href='https://wordpress.com/log-in/']",
+  "geolocation": null,
+  "intent_template": " create a new blog post titled '{{title}}' with the content '{{content}}'.",
+  "instantiation_dict": {
+    "title": "My First Automated Post",
+    "content": "This is a test post created as part of an automation task to explore WordPress publishing capabilities."
+  },
+  "intent": "Log in to WordPress.com and create a new blog post titled 'My First Automated Post' with the content 'This is a test post created as part of an automation task to explore WordPress publishing capabilities.'",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 1004
+},
+{
+  "sites": [
+    "arxiv"
+  ],
+  "task_id": 812,
+  "require_login": false,
+  "start_url": "https://arxiv.org",
+  "geolocation": null,
+  "intent_template": "Search for papers on {{topic}} on arXiv.",
+  "instantiation_dict": {
+    "topic": "Quantum Computing"
+  },
+  "intent": "Search for papers on Quantum Computing on arXiv.",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 1001
+}
+]

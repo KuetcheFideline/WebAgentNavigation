@@ -21,7 +21,8 @@ class AIAgent1:
            # self.model = OllamaLLM(base_url="http://localhost:11434/",model = model,temperature=0)
            
         #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
-            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+        #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
+            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
 
 
 
@@ -71,9 +72,7 @@ class AIAgent1:
              input_variables=["input"],
 
          )
-        print("#################################################################ddddddddddddddddddddddddddddddddddddddddddddd")
 
-        print(Prompt,"YREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE")
         chain = Prompt | self.model
         return chain.invoke({"input": PromptFirst})
 
