@@ -21,6 +21,8 @@ mind2web_keep_attrs = [
     'title',
     'type',
     'value',
+    'id',
+    'href'
 ]
 
 miniwob_attrs = [

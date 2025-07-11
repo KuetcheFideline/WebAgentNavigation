@@ -1,3 +1,6 @@
+
+
+
 def call_pretrain_model(query: str, model, tokenizer, cuda, sample_times: int=1):        
     def chatglm3_base_template(query, history=None, system=None):
         prompt = f'Q: {query}\n\nA: '

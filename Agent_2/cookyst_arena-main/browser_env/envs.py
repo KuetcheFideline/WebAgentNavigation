@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 import re
 import time
 from collections import defaultdict
@@ -81,7 +82,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         consent:str,
         persistent:bool,
         max_page_length: int = 8192,
-        headless: bool = False,
+        headless: bool = True,
         slow_mo: int = 0,
         observation_type: str = "html",
         current_viewport_only: bool = False,
@@ -248,13 +249,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             - un parametre est ajouter dans ScriptBrowserEnv qui defini le type
             - dans l'env on precise la configuration de consent omatic souhaité ( consent = none | partial | all)
         """
-
-        # Ensure all pages have a client attribute
-        def initialize_page(page: Page) -> None:
-            client = page.context.new_cdp_session(page)
-            if self.text_observation_type == "accessibility_tree":
-                client.send("Accessibility.enable")
-            page.client = client 
 
      
         self.context = self.browser
@@ -463,3 +457,58 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "marked_image": marked_image,
         }
    
+
+    def load_cookies(self):
+         return self.context.cookies()
+       
+
+
+        
+    def  save_cookies(self ,init, url ,path="cookies/cookies.json") :
+                    
+            # sauvegarde des donnes des cookies         
+                    final = self.context.cookies()
+                    set_init = {tuple(sorted(d.items())) for d in init}
+                    set_final = {tuple(sorted(d.items())) for d in final}
+                    diff = set_final - set_init
+                    final_cookie = []
+                    for cookie in diff :
+                        cookie_dict = dict(cookie)
+                        cookie_dict['origin_url'] = url
+                        cookie_dict['creation_time'] = datetime.now()
+                        final_cookie.append(cookie_dict)
+                
+                    
+                    
+                    if os.path.exists(path) and os.path.getsize(path) > 0:
+                        with open(path, 'r', encoding='utf-8') as f:
+                          try:
+                             cookies_list = json.load(f)
+                          except json.JSONDecodeError :
+                              cookies_list =[]
+                    else:
+                        cookies_list = []
+                    
+
+                    new = len(cookies_list)
+                    final_cookie.extend(cookies_list)
+
+                    try:
+                        
+                        with open(path, 'w', encoding='utf-8') as f:
+                            json.dump(final_cookie, f, indent=4, ensure_ascii=False)
+                        
+                        print(f"✅ {new} nouveau(x) cookie(s) ajouté(s).")
+
+                    except TypeError as e:
+                        print(f" Erreur de sérialisation JSON inattendue : {e}")
+                    except Exception as e:
+                        print(f"Erreur lors de l'écriture du fichier : {e}")
+                                
+    
+    def save_SessionStorage(self,path="cookies/session.json"):
+        print ("bonjour ")
+        # JS_GET_SESSION_STORAGE= "()=> Object.fromEntries(Object.entries(sessionStorage))"
+        # session_storage = self.page.evaluate(JS_GET_SESSION_STORAGE)
+        # with open(path,'w',encoding='utf-8') as f :
+        #     json.dumps(f,session_storage)

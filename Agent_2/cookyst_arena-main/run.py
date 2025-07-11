@@ -259,8 +259,10 @@ def test(
         save_trace_enabled=args.save_trace_enabled,
         sleep_after_execution=args.sleep_after_execution,
     )
+    
 
     for config_file in tqdm(config_file_list):
+        init_cookies = []
         try:
         # if True:
             # render_helper = RenderHelper(
@@ -270,6 +272,7 @@ def test(
             # get intent
             with open(config_file) as f:
                 _c = json.load(f)
+                url = _c["start_url"]
                 intent = _c["intent"]
                 task_id = _c["task_id"]
                 # automatically login
@@ -314,7 +317,7 @@ def test(
 
             meta_data = {"action_history": ["None"],"user_persona":user_profile}
 
-            
+            init_cookies =env.load_cookies()
             trace = []
             while True:
                 # image_data = state_info["observation"]["image"]
@@ -416,7 +419,11 @@ def test(
                 f.write(traceback.format_exc())  # write stack trace to file
 
         # render_helper.close()
-    
+   
+
+        env.save_cookies(init_cookies,url)
+    # La correction (CORRECT)
+    env.save_SessionStorage()
     env.close()
     # if len(scores) > 0:
     #     logger.info(f"Average score: {sum(scores) / len(scores)}")

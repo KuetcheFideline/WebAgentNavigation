@@ -1057,3 +1057,725 @@ Traceback (most recent call last):
   File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
     raise self._make_status_error_from_response(err.response) from None
 groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98732, Requested 2411. Please try again in 16m27.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] InternalServerError('no healthy upstream')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 337, in test
+    try:
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7eeaf7be1630>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.InternalServerError: no healthy upstream
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99575, Requested 1212. Please try again in 11m19.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7e4c1990d6c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99575, Requested 1212. Please try again in 11m19.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 1107. Please try again in 13m58.409s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x75b715bf96c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99864, Requested 1107. Please try again in 13m58.409s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99681, Requested 1076. Please try again in 10m53.863s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x705b937f16c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99681, Requested 1076. Please try again in 10m53.863s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99245, Requested 1086. Please try again in 4m45.942s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x76c8941ed6c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99245, Requested 1086. Please try again in 4m45.942s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99232, Requested 1076. Please try again in 4m25.538s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x76c8941ed6c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99232, Requested 1076. Please try again in 4m25.538s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99130, Requested 1125. Please try again in 3m40.286999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7c82a8b056c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99130, Requested 1125. Please try again in 3m40.286999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99118, Requested 1077. Please try again in 2m48.263999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7c82a8b056c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99118, Requested 1077. Please try again in 2m48.263999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99310, Requested 1105. Please try again in 5m57.95s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x743b3fded6c0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99310, Requested 1105. Please try again in 5m57.95s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AttributeError("'ScriptBrowserEnv' object has no attribute 'load_cookies'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 320, in test
+    init_cookies =env.load_cookies()
+AttributeError: 'ScriptBrowserEnv' object has no attribute 'load_cookies'
+[Config file]: config_files/12.json
+[Unhandled Error] AttributeError("'ScriptBrowserEnv' object has no attribute 'load_cookies'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 320, in test
+    init_cookies =env.load_cookies()
+AttributeError: 'ScriptBrowserEnv' object has no attribute 'load_cookies'
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99472, Requested 1148. Please try again in 8m55.533s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7288351f9750>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99472, Requested 1148. Please try again in 8m55.533s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99423, Requested 1077. Please try again in 7m11.331s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x77a50c7f9750>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99423, Requested 1077. Please try again in 7m11.331s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99622, Requested 2522. Please try again in 30m51.681s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7fa7cfbcd750>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99622, Requested 2522. Please try again in 30m51.681s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99593, Requested 2438. Please try again in 29m14.016999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7cba63de1750>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99593, Requested 2438. Please try again in 29m14.016999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 2438. Please try again in 33m48.622999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x6fffe21f5750>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 2438. Please try again in 33m48.622999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99013, Requested 3146. Please try again in 31m4.514999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x70a7b79f97e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99013, Requested 3146. Please try again in 31m4.514999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99751, Requested 2441. Please try again in 31m33.357999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7ec7525f97e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99751, Requested 2441. Please try again in 31m33.357999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99578, Requested 2436. Please try again in 28m59.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7b8b63df17e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99578, Requested 2436. Please try again in 28m59.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98459, Requested 2436. Please try again in 12m52.453s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7b737ed117e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98459, Requested 2436. Please try again in 12m52.453s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98406, Requested 2436. Please try again in 12m7.412999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x74634ffe97e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 4, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jvcpase9fvqbh5p567x4kjne` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98406, Requested 2436. Please try again in 12m7.412999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98732, Requested 2893. Please try again in 23m23.998s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71b86f7f57e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 6, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98732, Requested 2893. Please try again in 23m23.998s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99912, Requested 2441. Please try again in 33m52.589s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7423dd5057e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 6, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99912, Requested 2441. Please try again in 33m52.589s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99415, Requested 2436. Please try again in 26m38.662s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x747e9ef057e0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 6, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99415, Requested 2436. Please try again in 26m38.662s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99028, Requested 2685. Please try again in 24m39.267s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7e8cb37f5870>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 6, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99028, Requested 2685. Please try again in 24m39.267s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98235, Requested 2436. Please try again in 9m39.127999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7a17de105870>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 75, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 6, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98235, Requested 2436. Please try again in 9m39.127999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/13.json
+[Unhandled Error] TypeError("call_grop_llama() missing 1 required positional argument: 'client_class'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x772cc03f1ab0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+TypeError: call_grop_llama() missing 1 required positional argument: 'client_class'
+[Config file]: config_files/13.json
+[Unhandled Error] TypeError("call_grop_llama() missing 1 required positional argument: 'client_class'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7009cbfe9ab0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+TypeError: call_grop_llama() missing 1 required positional argument: 'client_class'
+[Config file]: config_files/13.json
+[Unhandled Error] TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://login.mailchimp.com/signup/", waiting until "load"\n')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 309, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x775fc53ae440>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x775fc53ae170>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 275, in setup
+    page.goto(url)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://login.mailchimp.com/signup/", waiting until "load"
+
+[Config file]: config_files/13.json
+[Unhandled Error] TypeError("call_grop_llama() missing 1 required positional argument: 'client_class'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7fc74d901bd0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+TypeError: call_grop_llama() missing 1 required positional argument: 'client_class'
+[Config file]: config_files/13.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 339, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x76af6c9f5bd0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 25, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/12.json
+[Unhandled Error] TargetClosedError('Page.evaluate: Target page, context or browser has been closed')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 372, in test
+    obs, _, terminated, _, info = env.step(action)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 398, in step
+    images = self.modify_page()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 449, in modify_page
+    items = self.page.evaluate(label_marker_script, items)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 8514, in evaluate
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 468, in evaluate
+    return await self._main_frame.evaluate(expression, arg)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 292, in evaluate
+    await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.evaluate: Target page, context or browser has been closed
+[Config file]: config_files/13.json
+[Unhandled Error] TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://login.mailchimp.com/signup/", waiting until "load"\n')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 309, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x748b08922440>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x748b08922170>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 275, in setup
+    page.goto(url)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://login.mailchimp.com/signup/", waiting until "load"
+
+[Config file]: config_files/14.json
+[Unhandled Error] TypeError('HtmlPrompt() takes no arguments')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 309, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x71b70e358700>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x71b70e358430>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 258, in connect_to_browser_and_login
+    simplified_home = simplify_content(content=content_h)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 244, in simplify_content
+    hp = HtmlParser(content, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+TypeError: HtmlPrompt() takes no arguments
+[Config file]: config_files/14.json
+[Unhandled Error] TypeError('HtmlPrompt() takes no arguments')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 309, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7d03e5c70550>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7d03e5c70280>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 258, in connect_to_browser_and_login
+    simplified_home = simplify_content(content=content_h)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 244, in simplify_content
+    hp = HtmlParser(content, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+TypeError: HtmlPrompt() takes no arguments
+[Config file]: config_files/14.json
+[Unhandled Error] TypeError('HtmlPrompt() takes no arguments')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7bb8e1254700>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7bb8e1254430>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 258, in connect_to_browser_and_login
+    simplified_home = simplify_content(content=content_h)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 244, in simplify_content
+    hp = HtmlParser(content, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+TypeError: HtmlPrompt() takes no arguments
+[Config file]: config_files/13.json
+[Unhandled Error] TypeError('HtmlPrompt() takes no arguments')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 309, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x793aebb7c700>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 354, in reset
+    observation = self._get_obs()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 311, in _get_obs
+    obs = self.observation_handler.get_observation(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/processors.py", line 872, in get_observation
+    text_obs = self.text_processor.process(page, client, context)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/processors.py", line 757, in process
+    raw_html, content, obs_nodes_info, hp = self.parse_my_html(dom_tree)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/processors.py", line 429, in parse_my_html
+    hp = HtmlParser(html, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+TypeError: HtmlPrompt() takes no arguments
+[Config file]: config_files/13.json
+[Unhandled Error] TypeError('HtmlPrompt() takes no arguments')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x739fd5660700>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 354, in reset
+    observation = self._get_obs()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 311, in _get_obs
+    obs = self.observation_handler.get_observation(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/processors.py", line 872, in get_observation
+    text_obs = self.text_processor.process(page, client, context)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/processors.py", line 757, in process
+    raw_html, content, obs_nodes_info, hp = self.parse_my_html(dom_tree)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/processors.py", line 429, in parse_my_html
+    hp = HtmlParser(html, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+TypeError: HtmlPrompt() takes no arguments
+[Config file]: config_files/14.json
+[Unhandled Error] TypeError('HtmlPrompt() takes no arguments')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7307bc684550>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7307bc684280>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 258, in connect_to_browser_and_login
+    simplified_home = simplify_content(content=content_h)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 244, in simplify_content
+    hp = HtmlParser(content, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+TypeError: HtmlPrompt() takes no arguments

@@ -24,3 +24,10 @@ def load_persona_from_json(path: str) -> dict:
     except json.JSONDecodeError as e:
         print(f"Erreur de formatage dans le fichier JSON '{path}': {e}")
         raise
+
+
+
+def cookies_collection() : 
+    """ cette fonction est utiliser pour colllecter les cookies avec leur nom de domaine """
+
+    
