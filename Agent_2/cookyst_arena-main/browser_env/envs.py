@@ -1,5 +1,5 @@
 import json
-from datetime import datetime
+from datetime import datetime ,date
 import re
 import time
 from collections import defaultdict
@@ -21,6 +21,8 @@ from playwright.sync_api import (
     expect,
     sync_playwright,
 )
+
+from .utils import diff_dictionaries
 from .auto_login_with_google import connect_to_browser_and_login
 from .actions import Action, execute_action, get_action_space
 from .processors import ObservationHandler, ObservationMetadata
@@ -464,51 +466,108 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
         
-    def  save_cookies(self ,init, url ,path="cookies/cookies.json") :
+    # def  save_cookies(self ,init, url ,path) :
                     
-            # sauvegarde des donnes des cookies         
-                    final = self.context.cookies()
-                    set_init = {tuple(sorted(d.items())) for d in init}
-                    set_final = {tuple(sorted(d.items())) for d in final}
-                    diff = set_final - set_init
-                    final_cookie = []
-                    for cookie in diff :
-                        cookie_dict = dict(cookie)
-                        cookie_dict['origin_url'] = url
-                        cookie_dict['creation_time'] = datetime.now()
-                        final_cookie.append(cookie_dict)
+    #                 name = path + "cookies.json"
+                    
+    #         # sauvegarde des donnes des cookies         
+    #                 final = self.context.cookies()
+    #                 set_init = {tuple(sorted(d.items())) for d in init}
+    #                 set_final = {tuple(sorted(d.items())) for d in final}
+    #                 diff = set_final - set_init
+    #                 final_cookie = []
+    #                 for cookie in diff :
+    #                     cookie_dict = dict(cookie)
+    #                     cookie_dict['origin_url'] = url
+    #                     cookie_dict['creation_time'] = datetime.now().isoformat()
+    #                     final_cookie.append(cookie_dict)
                 
                     
                     
-                    if os.path.exists(path) and os.path.getsize(path) > 0:
-                        with open(path, 'r', encoding='utf-8') as f:
-                          try:
-                             cookies_list = json.load(f)
-                          except json.JSONDecodeError :
-                              cookies_list =[]
-                    else:
-                        cookies_list = []
+    #                 if os.path.exists(name) and os.path.getsize(name) > 0:
+    #                     with open(name, 'r', encoding='utf-8') as f:
+    #                       try:
+    #                          cookies_list = json.load(f)
+    #                       except json.JSONDecodeError :
+    #                           cookies_list =[]
+    #                 else:
+    #                     cookies_list = []
                     
 
-                    new = len(cookies_list)
-                    final_cookie.extend(cookies_list)
+    #                 new = len(cookies_list)
+    #                 final_cookie.extend(cookies_list)
 
-                    try:
+    #                 try:
                         
-                        with open(path, 'w', encoding='utf-8') as f:
-                            json.dump(final_cookie, f, indent=4, ensure_ascii=False)
+    #                     with open(name, 'w', encoding='utf-8') as f:
+    #                         json.dump(final_cookie, f, indent=4, ensure_ascii=False)
                         
-                        print(f"✅ {new} nouveau(x) cookie(s) ajouté(s).")
+    #                     print(f"✅ {new} nouveau(x) cookie(s) ajouté(s).")
 
-                    except TypeError as e:
-                        print(f" Erreur de sérialisation JSON inattendue : {e}")
-                    except Exception as e:
-                        print(f"Erreur lors de l'écriture du fichier : {e}")
+    #                 except TypeError as e:
+    #                     print(f" Erreur de sérialisation JSON inattendue : {e}")
+    #                 except Exception as e:
+    #                     print(f"Erreur lors de l'écriture du fichier : {e}")
                                 
     
-    def save_SessionStorage(self,path="cookies/session.json"):
-        print ("bonjour ")
-        # JS_GET_SESSION_STORAGE= "()=> Object.fromEntries(Object.entries(sessionStorage))"
-        # session_storage = self.page.evaluate(JS_GET_SESSION_STORAGE)
-        # with open(path,'w',encoding='utf-8') as f :
-        #     json.dumps(f,session_storage)
+
+    def get_session_storage(self) -> dict:
+        """Récupère le contenu du sessionStorage sous forme de dictionnaire."""
+        return self.page.evaluate("() => Object.fromEntries(Object.entries(sessionStorage))")
+
+    def get_local_storage(self) -> dict:
+        """Récupère le contenu du localStorage sous forme de dictionnaire."""
+        return self.page.evaluate("() => Object.fromEntries(Object.entries(localStorage))")
+
+    def get_cookies(self) -> list:
+        return self.context.cookies()
+    def get_all_storage_state(self) -> dict:
+        """Récupère l'état complet du stockage et le retourne."""
+        return {
+            "cookies": self.get_cookies(),
+            "localStorage": self.get_local_storage(),
+            "sessionStorage": self.get_session_storage()
+        }     
+
+
+   # N'oubliez pas d'avoir cette fonction d'aide définie quelque part
+    def json_serializer(obj):
+        if isinstance(obj, (datetime, date)):
+            return obj.isoformat()
+        raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
+
+    def save_storage(self, initial_state, file):
+        """
+        Compare l'état initial du stockage avec l'état final, 
+        calcule la différence et la sauvegarde dans un fichier.
+        """
+        print("Calcul et sauvegarde de la différence de stockage...")
+        
+        final_state = self.get_all_storage_state()
+
+        local_storage_diff = diff_dictionaries(initial_state["localStorage"], final_state["localStorage"])
+        session_storage_diff = diff_dictionaries(initial_state["sessionStorage"], final_state["sessionStorage"])
+
+        # --- CORRECTION ICI ---
+        # On crée une clé sous forme de chaîne pour identifier un cookie
+        initial_cookies = { f"{c.get('name', '')}|{c.get('domain', '')}|{c.get('path', '')}": c for c in initial_state["cookies"] }
+        final_cookies = { f"{c.get('name', '')}|{c.get('domain', '')}|{c.get('path', '')}": c for c in final_state["cookies"] }
+        
+        cookies_diff = diff_dictionaries(initial_cookies, final_cookies)
+
+        diff_report = {
+            "metadata": {
+                "final_url": self.page.url,
+                "timestamp":datetime.now().isoformat()
+            },
+            "cookies": cookies_diff,
+            "localStorage": local_storage_diff,
+            "sessionStorage": session_storage_diff,
+        }
+        file = Path(file)
+        file.parent.mkdir(parents=True, exist_ok=True)
+        with open(file, 'w', encoding='utf-8') as f:
+        # Assuming `json_serializer` is an attribute of the class
+            json.dump(diff_report, f, indent=4, default=getattr(self, 'json_serializer', str))
+
+        print(f"✅ Rapport de différence de stockage sauvegardé dans : {file}")

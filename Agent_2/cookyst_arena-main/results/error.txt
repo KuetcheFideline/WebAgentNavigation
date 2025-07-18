@@ -1779,3 +1779,1111 @@ Traceback (most recent call last):
   File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
     self.prompt = HtmlPrompt(prompt)
 TypeError: HtmlPrompt() takes no arguments
+[Config file]: config_files/14.json
+[Unhandled Error] KeyError('refine_attr')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x71c739c5c700>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x71c739c5c430>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 258, in connect_to_browser_and_login
+    simplified_home = simplify_content(content=content_h)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 244, in simplify_content
+    hp = HtmlParser(content, args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 20, in __init__
+    self.parse_args(args)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/html_parser.py", line 78, in parse_args
+    self.prompt = HtmlPrompt(prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/html_tools/prompt.py", line 17, in __init__
+    self.constructor = constructors[prompt]
+KeyError: 'refine_attr'
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99422, Requested 2436. Please try again in 26m44.650999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x75bb97b2ce50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99422, Requested 2436. Please try again in 26m44.650999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/14.json
+[Unhandled Error] AttributeError("'NoneType' object has no attribute 'click'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7788c5960700>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7788c5960430>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 271, in connect_to_browser_and_login
+    locate_robustly_without_labels(page=page, llm_data=data).click(timeout=10000)
+AttributeError: 'NoneType' object has no attribute 'click'
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99340, Requested 2447. Please try again in 25m43.508s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x724a07940ee0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99340, Requested 2447. Please try again in 25m43.508s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99144, Requested 2437. Please try again in 22m45.867s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7eaf70d40ee0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99144, Requested 2437. Please try again in 22m45.867s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98091, Requested 2437. Please try again in 7m35.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x75ba66344e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98091, Requested 2437. Please try again in 7m35.568s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97926, Requested 2445. Please try again in 5m20.534s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x717a22930ee0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97926, Requested 2445. Please try again in 5m20.534s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97803, Requested 2529. Please try again in 4m46.367999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x79a4fd138ee0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97803, Requested 2529. Please try again in 4m46.367999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97743, Requested 2457. Please try again in 2m52.021999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7be24b938ee0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97743, Requested 2457. Please try again in 2m52.021999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/12.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99616, Requested 2471. Please try again in 30m2.31s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 340, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7ba357148b80>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99616, Requested 2471. Please try again in 30m2.31s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/14.json
+[Unhandled Error] AttributeError("'NoneType' object has no attribute 'click'")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7e8ed7032560>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 339, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7e8ed7032290>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 271, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 271, in connect_to_browser_and_login
+    locate_robustly_without_labels(page=page, llm_data=data).click(timeout=10000)
+AttributeError: 'NoneType' object has no attribute 'click'
+[Config file]: config_files/11.json
+[Unhandled Error] Error('Page.goto: net::ERR_CONNECTION_CLOSED at https://en.wikipedia.org/\nCall log:\n  - navigating to "https://en.wikipedia.org/", waiting until "load"\n')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x779d2051e680>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 341, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x779d2051e3b0>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 277, in setup
+    page.goto(url)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_CONNECTION_CLOSED at https://en.wikipedia.org/
+Call log:
+  - navigating to "https://en.wikipedia.org/", waiting until "load"
+
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 100023, Requested 2466. Please try again in 35m51.106s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x76389fe4cf70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 100023, Requested 2466. Please try again in 35m51.106s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99969, Requested 2448. Please try again in 34m47.890999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x764c3bb54f70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99969, Requested 2448. Please try again in 34m47.890999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99953, Requested 2448. Please try again in 34m34.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7f2333544f70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 24, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99953, Requested 2448. Please try again in 34m34.424s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99784, Requested 2448. Please try again in 32m7.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x74b26a748f70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 25, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv7jg0rmfrkajgh16vpyeahz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99784, Requested 2448. Please try again in 32m7.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] TimeoutError('Page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 310, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x71d1b2322710>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 353, in reset
+    images = self.modify_page()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 428, in modify_page
+    img_bytes = self.page.screenshot(path="output/screenshot_raw.png")
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9767, in screenshot
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 819, in screenshot
+    encoded_binary = await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.screenshot: Timeout 30000ms exceeded.
+Call log:
+  - taking page screenshot
+  - waiting for fonts to load...
+  - fonts loaded
+
+[Config file]: config_files/13.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv5hgtezeavrem0zmkwkkvzc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98660, Requested 2546. Please try again in 17m21.766s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7bece6450f70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 25, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv5hgtezeavrem0zmkwkkvzc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98660, Requested 2546. Please try again in 17m21.766s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/14.json
+[Unhandled Error] RateLimitError("Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv5hgtezeavrem0zmkwkkvzc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98651, Requested 2373. Please try again in 14m44.006s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7bece6450f70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 25, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jv5hgtezeavrem0zmkwkkvzc` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98651, Requested 2373. Please try again in 14m44.006s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71f7a3d0cf70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 26, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/12.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71f7a3d0cf70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 26, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/13.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71f7a3d0cf70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 26, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/14.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 341, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71f7a3d0cf70>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 26, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x764ba2734dc0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x72a54f244e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7db79832ce50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x73b929f3ce50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x796056740ca0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7f51b8d38e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x737272d30e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/11.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7622aa848e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7f8c4c51ce50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7a4e84120ca0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/2.json
+[Unhandled Error] TargetClosedError('Page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to "https://www.datacamp.com/", waiting until "load"\n')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 312, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7117d513e5f0>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 341, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7117d513e320>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 273, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 251, in connect_to_browser_and_login
+    page.goto(login_url)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://www.datacamp.com/", waiting until "load"
+
+[Config file]: config_files/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x794443140e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7806dc320e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x78e471348e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 343, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x79019d344ca0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/NotAuth/2.json/2.json
+[Unhandled Error] NotADirectoryError(20, 'Not a directory')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 275, in test
+    with open(config_file) as f:
+NotADirectoryError: [Errno 20] Not a directory: 'config_files/NotAuth/2.json/2.json'
+[Config file]: config_files/NotAuth/2.json/2.json
+[Unhandled Error] NotADirectoryError(20, 'Not a directory')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 275, in test
+    with open(config_file) as f:
+NotADirectoryError: [Errno 20] Not a directory: 'config_files/NotAuth/2.json/2.json'
+[Config file]: config_files/NotAuth/2.json/2.json
+[Unhandled Error] NotADirectoryError(20, 'Not a directory')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 275, in test
+    with open(config_file) as f:
+NotADirectoryError: [Errno 20] Not a directory: 'config_files/NotAuth/2.json/2.json'
+[Config file]: config_files/NotAuth/2.json/2.json
+[Unhandled Error] NotADirectoryError(20, 'Not a directory')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 275, in test
+    with open(config_file) as f:
+NotADirectoryError: [Errno 20] Not a directory: 'config_files/NotAuth/2.json/2.json'
+[Config file]: config_files/NotAuth/2.json/2.json
+[Unhandled Error] NotADirectoryError(20, 'Not a directory')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 276, in test
+    with open(config_file) as f:
+NotADirectoryError: [Errno 20] Not a directory: 'config_files/NotAuth/2.json/2.json'
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] TimeoutError('Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to "https://www.datacamp.com/", waiting until "load"\n')
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 315, in test
+    obs, info = env.reset(options={"config_file": config_file})
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.reset) at 0x7b7bd8f36440>", line 51, in reset
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 341, in reset
+    self.setup(config_file=config_file)
+  File "<@beartype(browser_env.envs.ScriptBrowserEnv.setup) at 0x7b7bd8f36170>", line 36, in setup
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/envs.py", line 273, in setup
+    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/browser_env/auto_login_with_google.py", line 251, in connect_to_browser_and_login
+    page.goto(login_url)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/sync_api/_generated.py", line 9002, in goto
+    self._sync(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_page.py", line 556, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_frame.py", line 146, in goto
+    await self._channel.send(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/playwright/_impl/_connection.py", line 558, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://www.datacamp.com/", waiting until "load"
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 346, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7c32f7d10e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 346, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x786fde138e50>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 346, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71b6a7320c10>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 346, in test
+    action = agent.next_action(
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x718b1b548dc0>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 186, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7d9494d20b80>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 186, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x71c7c9930d30>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 186, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x76dc2bd40d30>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 189, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7b8ad431cd30>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 188, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7ba44f730b80>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 188, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7f9e61b24b80>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+
+[Config file]: config_files/NotAuth/2.json
+[Unhandled Error] AuthenticationError("Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}")
+Traceback (most recent call last):
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/run.py", line 188, in test
+    action = agent.next_action(trajectory, intent, meta_data=meta_data)
+  File "<@beartype(agent.agent.PromptAgent.next_action) at 0x7b96f011cc10>", line 84, in next_action
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/agent/agent.py", line 134, in next_action
+    response = call_llm(lm_config, prompt)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/utils.py", line 77, in call_llm
+    response = call_grop_llama(prompt=prompt,model=Groq)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/apikey_manager.py", line 77, in wrapper_function
+    result = func(*args, **kwargs)
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/llms/providers/cookyst.py", line 27, in call_grop_llama
+    completion = client.chat.completions.create(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/resources/chat/completions.py", line 368, in create
+    return self._post(
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1232, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/fidelinekuetche/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/webrl2/lib/python3.10/site-packages/groq/_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+
+

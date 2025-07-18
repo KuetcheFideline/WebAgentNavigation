@@ -2,6 +2,8 @@ from langchain_ollama import OllamaLLM
 from langchain.prompts import FewShotPromptTemplate, PromptTemplate
 from langchain_groq import ChatGroq
 import re
+from groq import Groq
+from llms.providers.cookyst import call_grop_llama
 
 
 OLLAMA_BASE_URL = "http://localhost:11434"
@@ -130,19 +132,19 @@ def detect_login_with_google(s_html: str):
     Fonction principale pour détecter l'option de connexion Google et renvoyer
     les données parsées prêtes pour Playwright.
     """
-    try:
-        #llm = OllamaLLM(base_url=OLLAMA_BASE_URL, model=MODEL_NAME, temperature=0.0)
-        model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
-    except Exception as e:
-        print(f"Error connecting to Ollama: {e}")
-        return {'action': 'error', 'details': f"Ollama connection failed: {e}"}
+    # try:
+    #     #llm = OllamaLLM(base_url=OLLAMA_BASE_URL, model=MODEL_NAME, temperature=0.0)
+    #     # model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+    # except Exception as e:
+    #     print(f"Error connecting to Ollama: {e}")
+    #     return {'action': 'error', 'details': f"Ollama connection failed: {e}"}
 
     google_prompt_template = create_google_login_prompt_template()
     final_google_prompt = google_prompt_template.format(final_input=s_html) 
 
     try:
         print("⏳ Searching for Google login option...")
-        response_text = model.invoke(final_google_prompt)
+        response_text = call_grop_llama(final_google_prompt,Groq)
     
         print("\n Model Response (Google Login):\n---\n" + response_text.content.strip() + "\n---")
         

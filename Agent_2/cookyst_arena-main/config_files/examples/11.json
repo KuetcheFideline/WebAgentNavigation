@@ -73,5 +73,58 @@
     "program_html": []
   },
   "intent_template_id": 1001
+},
+{
+  "sites": [
+    "youtube"
+  ],
+  "task_id": 815,
+  "require_login": true,
+  "login_url": "https://www.youtube.com/",
+  "start_url": "https://studio.youtube.com/",
+  "login_selector": "a[href*='accounts.google.com/ServiceLogin']",
+  "geolocation": null,
+  "intent_template": "upload a new video titled '{{title}}' with the description '{{description}}'.",
+  "instantiation_dict": {
+    "title": "My First Automated Video",
+    "description": "This is a test video uploaded as part of an automation task to explore YouTube publishing capabilities."
+  },
+  "intent": "Log in to YouTube Studio and upload a new video titled 'My First Automated Video' with the description 'This is a test video uploaded as part of an automation task to explore YouTube publishing capabilities.'",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 1005
+},
+{
+  "sites": [
+    "twitter"
+  ],
+  "task_id": 816,
+  "require_login": true,
+  "login_url": "https://x.com/",
+  "start_url": "https://x.com/compose/post",
+  "login_selector": "a[href*='/login']",
+  "geolocation": null,
+  "intent_template": "create a new tweet with the content '{{content}}'.",
+  "instantiation_dict": {
+    "content": "This is my first automated tweet to explore X's posting capabilities! #Automation"
+  },
+  "intent": "create a new tweet with the content 'This is my first automated tweet to explore X's posting capabilities! #Automation'",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 1006
 }
 ]

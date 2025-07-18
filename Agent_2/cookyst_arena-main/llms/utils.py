@@ -76,7 +76,8 @@ def call_llm(
     elif lm_config.provider == "groq":
         response = call_grop_llama(prompt=prompt,model=Groq)
     elif lm_config.provider == "webrl":
-        response = call_webrl_llama(model=Llama,prompt=prompt)
+        response = call_webrl_llama(lm_config=lm_config,prompt=prompt)
+
     else:
         raise NotImplementedError(
             f"Provider {lm_config.provider} not implemented"

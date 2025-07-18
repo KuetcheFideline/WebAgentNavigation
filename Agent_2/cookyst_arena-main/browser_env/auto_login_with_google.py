@@ -267,7 +267,10 @@ def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
         return page
     else:
         try:
+
             initial_page_count = len(browser.pages)
+            if locate_robustly_without_labels(page=page, llm_data=data) == None:
+                return page
             locate_robustly_without_labels(page=page, llm_data=data).click(timeout=10000)
             sleep(2)
             if len(browser.pages) > initial_page_count:
@@ -308,12 +311,15 @@ def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
             print("LLM 3 (Analyse de l'iframe) a détecté:", data_inside_iframe)
 
             if data_inside_iframe.get("action") != "negatif":
-          
+                
                 locator_logger.info("Bouton détecté dans l'iframe. Tentative de clic.")
                 button_locator_in_frame = locate_robustly_without_labels(
                     page=frame_locator, 
                     llm_data=data_inside_iframe
                 )
+                if button_locator_in_frame == None:
+                    page.goto(login_url)
+                    return page
                 
                 try_google_login_elements(
                     page=page, 
@@ -339,6 +345,9 @@ def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
         locator_logger.info("Élément de connexion Google détecté directement sur la page.")
         try:
             locator = locate_robustly_without_labels(page=page, llm_data=data_g)
+            if locator == None:
+                page.goto(login_url)
+                return page
             try_google_login_elements(page=page, locator=locator, tag_name=data_g.get('tag'))
         except PlaywrightTimeoutError:
             locator_logger.error(f"Timeout en essayant de localiser/cliquer sur l'élément direct sur {page.url}")

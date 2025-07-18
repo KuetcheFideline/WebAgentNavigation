@@ -10,6 +10,7 @@ class HtmlPrompt:
             'refine': self.normal_prompt_constructor,
             'xml': self.normal_prompt_constructor,
             'new_data': self.new_data_prompt_constructor,
+            'refine_attr':self.normal_prompt_constructor
         }
 
         self.name = prompt

@@ -3,6 +3,9 @@ from langchain.prompts import FewShotPromptTemplate, PromptTemplate
 from ..html_tools.html_parser  import HtmlParser
 from ..html_tools.configs.config import basic_attrs,mind2web_keep_attrs
 from langchain_groq import ChatGroq
+from groq import Groq
+from llms.providers.cookyst import call_grop_llama
+
 import requests
 
 
@@ -100,12 +103,14 @@ def parse_llm_response(response_text: str) -> dict:
 def detect_sigin(s_html):
     try:
         #llm = OllamaLLM(base_url="http://localhost:11434", model="llama3.1:8b", temperature=1)
-        model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+
+        # model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
         few_shot_prompt = create_google_signin_prompt_template()
         final_prompt = few_shot_prompt.format(final_input=s_html)
         #print(final_prompt)
         print("⏳ Waiting for a response...")
-        response_text = model.invoke(final_prompt)
+        response_text  = call_grop_llama(final_prompt,Groq)
+        # response_text = model.invoke(final_prompt)
         
         print("\nModel Response:\n---\n" + response_text.content.strip() + "\n---")
         

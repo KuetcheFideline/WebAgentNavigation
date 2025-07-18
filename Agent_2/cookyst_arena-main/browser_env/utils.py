@@ -13,6 +13,29 @@ class DetachedPage:
     content: str  # html
 
 
+def diff_dictionaries(initial:dict ,final: dict ) ->dict :
+    "comparer deux dictionnaires et donner l'etat d'avancement de chacun "
+    initial_keys = set(initial.keys())
+    final_keys = set(final.keys())
+    added_keys = final_keys-initial_keys
+    removed_keys = initial_keys - final_keys
+
+    common_keys = initial_keys & final_keys
+
+    diff = {
+        "added": {key: final[key] for key in added_keys},
+        "removed": {key: initial[key] for key in removed_keys},
+        "modified": {}
+    }
+    for key in common_keys:
+        if initial[key] != final[key]:
+            diff["modified"][key] = {
+                "from": initial[key],
+                "to": final[key]
+            }
+    return diff
+
+
 def png_bytes_to_numpy(png: bytes) -> npt.NDArray[np.uint8]:
     """Convert png bytes to numpy array
 
