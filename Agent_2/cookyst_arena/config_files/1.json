@@ -1,0 +1,26 @@
+{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": 811,
+  "require_login": false,
+  "start_url": "https://en.wikipedia.org",
+  "geolocation": null,
+  "intent_template": "Search for the topic {{topic}} on Wikipedia.",
+  "instantiation_dict": {
+    "topic": "quantum computing"
+  },
+  "intent": "Search for the topic quantum computing on Wikipedia.",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": [
+     
+    ]
+  },
+  "intent_template_id": 1000
+}

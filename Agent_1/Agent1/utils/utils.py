@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 import os
 from urllib.parse import urlparse
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 base_dir = os.path.dirname(__file__)
 
@@ -70,6 +71,7 @@ def WriteIntervale(start ,end ):
 #     return ["http://" + domain for domain in latest_list.top(n=count, start=start_rank)]
 
 
+<<<<<<< HEAD
 def get_site_content(site:str)->str:
     try :
         response = requests.get(site,timeout=5)
@@ -87,39 +89,80 @@ def get_site_content(site:str)->str:
 
        
 def get_site_description(site:str) -> str :
+=======
+def get_site_description(site: str, max_length: int = 500, timeout: int = 20000) -> str:
+
+    site = site.strip().lower()
+    if not site.startswith(('http://', 'https://')):
+        site = f"https://{site}"
+    
+    with sync_playwright() as p:
+>>>>>>> 0db2c43 (pu)
         try:
-            response = requests.get(site,timeout=5)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text,'html.parser')
-            meta_desc = soup.find("meta", attrs={"name": "description"})
-            if meta_desc and "content" in meta_desc.attrs:
-                description = meta_desc["content"]
+            # Lancer un navigateur headless
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
             
-            else:
-                for tag in soup(["script", "style"]):
-                  tag.decompose()
-                  text = soup.get_text(separator=' ', strip=True)
-                  description= text[:300] + "..." if len(text) > 300 else text
-        except requests.RequestException as e:
-            description = f"Erreur lors de la requête : {e}"
+            try:
+                page.goto(site, timeout=timeout, wait_until="domcontentloaded")
+            except PlaywrightTimeoutError:
+                site = site.replace('https://', 'http://')
+                try:
+                    page.goto(site, timeout=timeout, wait_until="domcontentloaded")
+                except PlaywrightTimeoutError:
+                    browser.close()
+                    return f"Erreur : Timeout lors du chargement de {site}"
+            
+            html_content = page.content()
+            browser.close()
+            
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            meta_desc = soup.find('meta', attrs={'name': re.compile(r'^description$', re.I)})
+            if meta_desc and 'content' in meta_desc.attrs:
+                description = meta_desc['content'].strip()
+                if description:
+                    return _clean_text(description, max_length)
+            
+            for tag in soup(['script', 'style', 'nav', 'footer', 'header']):
+                tag.decompose()
+            
+            text_parts = []
+            
+            for tag in soup.find_all(['title', 'h1', 'h2', 'h3', 'p']):
+                text = tag.get_text(separator=' ', strip=True)
+                if text:
+                    text_parts.append(text)
+            
+            if not text_parts:
+                text = soup.get_text(separator=' ', strip=True)
+                text_parts.append(text)
+            
+            description = ' '.join(text_parts)
+            description = _clean_text(description, max_length)
+            
+            return description if description else "Aucun contenu textuel pertinent trouvé."
         
-        return description
+        except Exception as e:
+            return f"Erreur lors du traitement du site {site} : {str(e)}"
 
-def write_on_json(data,path):
-    with open (path,'w',encoding='utf-8') as f :
-        json.dump(data,f,ensure_ascii=False,indent=4)
-
-def read_from_json(file):
-    try:
-        with open(file,'r',encoding='utf-8') as f :
-            data = json.load(f)
-            return data
-    except FileNotFoundError :
-          print(f"Fichier non trouvé : {file}")
-          return None
-    except json.JSONDecodeError as e :
-        print(f"Erreur de décodage JSON dans {file} : {e}")
-        return None
+def _clean_text(text: str, max_length: int) -> str:
+    """
+    Nettoie et normalise le texte extrait pour la classification.
+    
+    Args:
+        text (str): Texte brut à nettoyer.
+        max_length (int): Longueur maximale du texte.
+    
+    Returns:
+        str: Texte nettoyé et tronqué si nécessaire.
+    """
+    text = re.sub(r'\s+', ' ', text.strip())
+    text = re.sub(r'[^\w\s.,!?]', '', text)
+    # Tronquer si nécessaire
+    if len(text) > max_length:
+        text = text[:max_length].rsplit(' ', 1)[0] + '...'
+    return text
 
 
 import json
@@ -219,7 +262,21 @@ def extract_category(result,result_dir:str="results"):
             return result
 
 
+def write_on_json(data,path):
+    with open (path,'w',encoding='utf-8') as f :
+        json.dump(data,f,ensure_ascii=False,indent=4)
 
+def read_from_json(file):
+    try:
+        with open(file,'r',encoding='utf-8') as f :
+            data = json.load(f)
+            return data
+    except FileNotFoundError :
+          print(f"Fichier non trouvé : {file}")
+          return None
+    except json.JSONDecodeError as e :
+        print(f"Erreur de décodage JSON dans {file} : {e}")
+        return None
 def get_category_list_from_folder(folder_path):
     
     try:

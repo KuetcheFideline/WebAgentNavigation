@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from langchain_core.prompts import FewShotPromptTemplate
 from langchain_core.prompts import PromptTemplate
-
+import requests
 import re
 from pathlib import Path
 import json
@@ -48,7 +48,7 @@ class AIAgent1:
         return chunks
 
     
-
+    
 
     def call_lm3(self, PromptFirst, example):
         def escape_curly_braces(text):
@@ -128,6 +128,53 @@ class AIAgent1:
 
 
 
+    def call_lm3(self, PromptFirst, example):
+        def escape_curly_braces(text):
+            if isinstance(text, str):
+                return text.replace("{", "{{").replace("}", "}}")
+            return text
+
+
+        processed_examples = [
+            {
+                "question": ex["question"],
+                "answer": escape_curly_braces(ex["answer"])
+            }
+            for ex in example
+        ]
+
+
+        example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
+        prompt_template = FewShotPromptTemplate(
+            examples=processed_examples,
+            example_prompt=example_prompt,
+            suffix="Question: {input}",
+            input_variables=["input"],
+        )
+
+
+        final_prompt = prompt_template.format(input=PromptFirst)
+
+
+        formatted_prompt = f"<s>[INST] {final_prompt} [/INST]</s>"
+
+        payload = {
+            "prompt": formatted_prompt,
+            "temperature": 0.2,
+            "top_p": 0.9,
+            "max_new_tokens": 300  
+        }
+
+        try:
+            response = requests.post(
+                "http://localhost:8001/generate",
+                json=payload,
+                headers={"Content-Type": "application/json"}
+            )
+            response.raise_for_status()
+            return response.json().get("generated_text", "[ERROR] No output returned.")
+        except requests.RequestException as e:
+            return f"[ERROR] Request failed: {e}"
 
 
 

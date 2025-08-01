@@ -55,7 +55,6 @@ def siteCategorisation(sites):
 
         try:
             description = get_site_description(site)
-
             data = {
                 "data": {
                     site: description
