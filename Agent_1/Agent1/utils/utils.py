@@ -69,6 +69,23 @@ def WriteIntervale(start ,end ):
 # def get_sites_range(start_rank: int, count: int) -> list:
 #     return ["http://" + domain for domain in latest_list.top(n=count, start=start_rank)]
 
+
+def get_site_content(site:str)->str:
+    try :
+        response = requests.get(site,timeout=5)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text,'html.parser')
+        for tag in soup (["script","style","noscript"]):
+            tag.decompose
+        text = soup.get_text(separator="",strip=True)
+
+        return text 
+    except Exception   as e  :
+        print(f"Erreur lors de la récupération de {site} : {e}")
+        return ""
+
+
+       
 def get_site_description(site:str) -> str :
         try:
             response = requests.get(site,timeout=5)
@@ -106,8 +123,10 @@ def read_from_json(file):
 
 
 import json
-
 def extract_result(result, site):
+    import os
+    from pathlib import Path
+
     lines = result.split("\n")
     data = {}
     current_key = None
@@ -129,11 +148,28 @@ def extract_result(result, site):
 
     data['url'] = site
 
-    with open("./results/result.json", "a", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False)
-        f.write("\n")
-    return data 
+    def append_json_to_list_file(file_path, new_data):
+        Path(file_path).parent.mkdir(parents=True, exist_ok=True)
 
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                try:
+                    existing = json.load(f)
+                except json.JSONDecodeError:
+                    existing = []
+        else:
+            existing = []
+
+        existing.append(new_data)
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
+
+    if data["confidence"] <= 75:
+        append_json_to_list_file("./results/confidence.json", data)
+    else:
+        append_json_to_list_file("./results/result.json", data)
+        extract_category(data)
 
 
 def extract_category(result,result_dir:str="results"):
