@@ -17,6 +17,33 @@ def clean_domain(url):
     return name
 
 
+
+
+def append_json_to_list_file(file_path, new_data):
+        
+        '''
+        Ajouter les donnés a un json valide 
+        
+        '''
+        Path(file_path).parent.mkdir(parents=True, exist_ok=True)
+
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                try:
+                    existing = json.load(f)
+                except json.JSONDecodeError:
+                    existing = []
+        else:
+            existing = []
+
+        existing.append(new_data)
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
+
+
+
+
 def get_site(start=0 ,end =20):
     
     cache_dir = os.path.join(base_dir, '..', '.tranco')
@@ -105,9 +132,6 @@ def get_site_description(site:str) -> str :
         
         return description
 
-def write_on_json(data,path):
-    with open (path,'w',encoding='utf-8') as f :
-        json.dump(data,f,ensure_ascii=False,indent=4)
 
 def read_from_json(file):
     try:
@@ -148,22 +172,7 @@ def extract_result(result, site):
 
     data['url'] = site
 
-    def append_json_to_list_file(file_path, new_data):
-        Path(file_path).parent.mkdir(parents=True, exist_ok=True)
-
-        if os.path.exists(file_path):
-            with open(file_path, "r", encoding="utf-8") as f:
-                try:
-                    existing = json.load(f)
-                except json.JSONDecodeError:
-                    existing = []
-        else:
-            existing = []
-
-        existing.append(new_data)
-
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(existing, f, indent=2, ensure_ascii=False)
+    
 
     if data["confidence"] <= 75:
         append_json_to_list_file("./results/confidence.json", data)

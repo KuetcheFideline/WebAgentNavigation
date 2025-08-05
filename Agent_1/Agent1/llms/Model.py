@@ -121,7 +121,6 @@ class AIAgent1:
 
          )
         
-        print(Prompt,'la prompt')
 
         chain = Prompt | self.model
         return chain.invoke({"input": PromptFirst})
