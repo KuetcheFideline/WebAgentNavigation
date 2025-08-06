@@ -1,18 +1,19 @@
 {
   "sites": [
-    "datacamp"
+    "wordpress"
   ],
-  "task_id": 815,
+  "task_id": 814,
   "require_login": true,
-  "login_url": "https://www.datacamp.com",
-  "start_url": "https://www.datacamp.com/dashboard",
-  "login_selector": "a[href='/login']",
+  "login_url":"https://wordpress.com/",
+  "start_url": "https://wordpress.com/post",
+  "login_selector":"a[href='https://wordpress.com/log-in/']",
   "geolocation": null,
-  "intent_template": "Log in to DataCamp and start the course '{{course_name}}'.",
+  "intent_template": " create a new blog post titled '{{title}}' with the content '{{content}}'.",
   "instantiation_dict": {
-    "course_name": "Introduction to Python"
+    "title": "My First Automated Post",
+    "content": "This is a test post created as part of an automation task to explore WordPress publishing capabilities."
   },
-  "intent": "Log in to DataCamp and start the course 'Introduction to Python'.",
+  "intent": "Log in to WordPress.com and create a new blog post titled 'My First Automated Post' with the content 'This is a test post created as part of an automation task to explore WordPress publishing capabilities.'",
   "require_reset": false,
   "eval": {
     "eval_types": [
@@ -22,5 +23,5 @@
     "reference_url": "",
     "program_html": []
   },
-  "intent_template_id": 1005
+  "intent_template_id": 1004
 }
