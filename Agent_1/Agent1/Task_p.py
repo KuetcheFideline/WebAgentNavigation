@@ -76,7 +76,7 @@ def process_single_site(site, batch_file):
         data = {"data": {site: description}}
         prompt = Agent1.Promt_generation("Categorisation", data)
         example = read_from_json("./prompts/ExampleCategorisation.json")
-        response = Agent1.call_lm(prompt, example)
+        response = Agent1.call_lm3(prompt, example)
         result = extract_result_pp(response, site)
         if result is not None and isinstance(result, dict):
             write_queue.put({"operation": "result", "data": result})
@@ -97,7 +97,7 @@ def process_single_site(site, batch_file):
 
 def siteCategorisation(sites, batch_file):
     results = {}
-    with ThreadPoolExecutor(max_workers=20) as executor:
+    with ThreadPoolExecutor(max_workers=10) as executor:
         future_to_site = {executor.submit(process_single_site, site, batch_file): site for site in sites}
         for future in as_completed(future_to_site):
             result = future.result()

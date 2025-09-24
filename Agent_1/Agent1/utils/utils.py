@@ -189,8 +189,8 @@ def extract_category(result,result_dir:str="results"):
                 try:
                     print("exist file")
                     category_data = json.load(f)
-                    print(category_data["sites"])
-                    print(result)
+                    #print(category_data["sites"])
+                    #print(result)
                     if result["url"] not in category_data["sites"]:
                         print("not In")
                         category_data["sites"].append(result["url"])
@@ -388,3 +388,26 @@ def read_progress(result_dir: str = "results"):
                 print(f"Erreur : fichier de suivi {progress_file} corrompu, réinitialisation.")
                 return {"batch_file": None, "last_site": None}
     return {"batch_file": None, "last_site": None}
+
+
+def append_json_to_list_file(file_path, new_data):
+        
+        '''
+        Ajouter les donnés a un json valide 
+        
+        '''
+        Path(file_path).parent.mkdir(parents=True, exist_ok=True)
+
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                try:
+                    existing = json.load(f)
+                except json.JSONDecodeError:
+                    existing = []
+        else:
+            existing = []
+
+        existing.append(new_data)
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
