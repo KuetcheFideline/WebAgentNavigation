@@ -11,7 +11,6 @@ import time
 from pathlib import Path
 
 import openai
-from PIL import Image
 from tqdm import tqdm
 
 from agent import (Agent, PromptAgent, TeacherForcingAgent,

@@ -150,10 +150,16 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         """
         Ici le navigateur est lancé, donc c'est la qu'on charge les config et les extensions
         """
-        extensionPaths = {
+        consentPaths = {
             "none":"browser_env/Consent-O-Matic/config/consent-accept-none",
             "all":"browser_env/Consent-O-Matic/config/consent-accept-all",
             "partial":"browser_env/Consent-O-Matic/config/consent-accept-partial",
+        }
+
+        cookieblockPaths = {
+            "none":"browser_env/Cookie-Block/none_cookies_cookie_block",
+            "all":"browser_env/Cookie-Block/all_cookies_cookie_block",
+            "partial":"browser_env/Cookie-Block/partial_cookies_cookie_block",
         }
         persistent_chromium = {
             "none":"browser_env/profiles/persistent/google-profile-none",
@@ -171,7 +177,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "none": {"storage_file": "state_reject_all.json"},
             "partial": {"storage_file": "state_partial.json"}
         }
-        selectedConset = extensionPaths[self.consent]
+
+        selecteConsent =consentPaths[self.consent]
+        selectedCookieBlock = cookieblockPaths[self.consent]
+
+
+        selectedConset = f"{selecteConsent},{selectedCookieBlock}"
         storage_dir="browser_env/profiles/storage_state"
         self.storage_file = storage_file = os.path.join(storage_dir, storage[self.consent]["storage_file"])
         self.initialize_storage_state(storage_file=storage_file)
