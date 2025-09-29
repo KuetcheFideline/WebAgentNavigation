@@ -198,8 +198,8 @@ def extract_category(result,result_dir:str="results"):
                 try:
                     print("exist file")
                     category_data = json.load(f)
-                    print(category_data["sites"])
-                    print(result)
+                    #print(category_data["sites"])
+                    #print(result)
                     if result["url"] not in category_data["sites"]:
                         print("not In")
                         category_data["sites"].append(result["url"])
@@ -227,7 +227,34 @@ def extract_category(result,result_dir:str="results"):
             print(f"Succès: URL {result['url']} ajoutée à {category_file}")
             return result
 
+def extract_category_p(result, result_dir: str = "results"):
+    """
+    Écrit le résultat dans le fichier JSON de la catégorie correspondante.
+    """
+    Path(result_dir).mkdir(exist_ok=True)
+    category_file = Path(result_dir) / f"{result['category']}.json"
 
+    if category_file.exists():
+        with open(category_file, 'r', encoding="utf-8") as f:
+            try:
+                category_data = json.load(f)
+                if result["url"] not in category_data["sites"]:
+                    category_data["sites"].append(result["url"])
+                else:
+                    print(f"Info: URL {result['url']} déjà présente dans {category_file}, ignorée.")
+            except json.JSONDecodeError:
+                print(f"ERROR: corrupted file {category_file}, initialising a new file")
+                category_data = {"sites": [], "tasks": []}
+                category_data["sites"].append(result["url"])
+    else:
+        category_data = {"sites": [], "tasks": []}
+        category_data["sites"].append(result["url"])
+
+    with open(category_file, "w", encoding="utf-8") as f:
+        json.dump(category_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Succès: URL {result['url']} ajoutée à {category_file}")
+    return result
 
 def get_category_list_from_folder(folder_path):
     
@@ -295,3 +322,101 @@ def add_task_to_category_json(file,res):
                     
         except json.JSONDecodeError:
             print(f"ERROR: corrupted file ")
+def extract_result_pp(result, site):
+    lines = result.split("\n")
+    data = {}
+    current_key = None
+
+    for line in lines:
+        if ':' in line:
+            key, value = line.split(':', 1)
+            current_key = key.strip().lower()
+            data[current_key] = value.strip()
+        else:
+            if current_key:
+                data[current_key] += ' ' + line.strip()
+
+    if "confidence" in data:
+        try:
+            data["confidence"] = int(data["confidence"])
+        except ValueError:
+            data["confidence"] = 0
+    else:
+        data["confidence"] = 0
+
+    data['url'] = site
+
+    if not data or "category" not in data:
+        print(f"Erreur : données incomplètes pour le site {site} : {data}")
+        return None
+
+    return data
+
+def extract_category_pp(result, result_dir: str = "results"):
+    if not isinstance(result, dict) or "category" not in result or "url" not in result:
+        print(f"Erreur : données invalides pour extract_category : {result}")
+        return
+    Path(result_dir).mkdir(exist_ok=True)
+    category_file = Path(result_dir) / f"{result['category']}.json"
+
+    if category_file.exists():
+        with open(category_file, 'r', encoding="utf-8") as f:
+            try:
+                category_data = json.load(f)
+                if result["url"] not in category_data["sites"]:
+                    category_data["sites"].append(result["url"])
+                else:
+                    print(f"Info: URL {result['url']} déjà présente dans {category_file}, ignorée.")
+            except json.JSONDecodeError:
+                print(f"ERROR: corrupted file {category_file}, initialising a new file")
+                category_data = {"sites": [], "tasks": []}
+                category_data["sites"].append(result["url"])
+    else:
+        category_data = {"sites": [], "tasks": []}
+        category_data["sites"].append(result["url"])
+
+    with open(category_file, "w", encoding="utf-8") as f:
+        json.dump(category_data, f, indent=2, ensure_ascii=False)
+    
+    print(f"Succès: URL {result['url']} ajoutée à {category_file}")
+
+def update_progress(batch_file: str, last_site: str, result_dir: str = "results"):
+    """Met à jour le fichier de suivi avec le batch en cours et le dernier site traité."""
+    progress_file = Path(result_dir) / "progress.json"
+    progress_data = {"batch_file": batch_file, "last_site": last_site}
+    with open(progress_file, "w", encoding="utf-8") as f:
+        json.dump(progress_data, f, indent=2, ensure_ascii=False)
+
+def read_progress(result_dir: str = "results"):
+    progress_file = Path(result_dir) / "progress.json"
+    if progress_file.exists():
+        with open(progress_file, "r", encoding="utf-8") as f:
+            try:
+                return json.load(f)
+            except json.JSONDecodeError:
+                print(f"Erreur : fichier de suivi {progress_file} corrompu, réinitialisation.")
+                return {"batch_file": None, "last_site": None}
+    return {"batch_file": None, "last_site": None}
+
+
+def append_json_to_list_file(file_path, new_data):
+        
+        '''
+        Ajouter les donnés a un json valide 
+        
+        '''
+        Path(file_path).parent.mkdir(parents=True, exist_ok=True)
+
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                try:
+                    existing = json.load(f)
+                except json.JSONDecodeError:
+                    existing = []
+        else:
+            existing = []
+
+        existing.append(new_data)
+
+        with open(file_path, "w", encoding="utf-8") as f:
+            json.dump(existing, f, indent=2, ensure_ascii=False)
