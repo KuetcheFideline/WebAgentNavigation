@@ -365,13 +365,13 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
         observation = self._get_obs()
+        
 
         observation_metadata = self._get_obs_metadata()
         info = {
             "page": DetachedPage(self.page.url, ""),
             "fail_error": "",
             "observation_metadata": observation_metadata,
-            "images": images,
         } 
 
  
@@ -417,7 +417,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "page": DetachedPage(self.page.url, self.page.content()),
             "fail_error": fail_error,
             "observation_metadata": observation_metadata,
-            "images": images,
         }
         
         msg = (
@@ -428,6 +427,43 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             info,
         )
         return msg
+
+    def remove_image(self,path):
+        files = os.listdir(path)
+        
+        marked_files = [file for file in files if file.startswith('marked')]
+        
+        if len(marked_files) == 3:
+            if "marked3.png" in marked_files:
+                os.remove(os.path.join(path, "marked3.png"))
+            
+            if "marked2.png" in marked_files:
+                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
+            
+            if "marked1.png" in marked_files:
+                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
+            
+        
+        elif len(marked_files) == 2:
+            if "marked2.png" in marked_files:
+                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
+            
+            if "marked1.png" in marked_files:
+                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
+            
+        
+        elif len(marked_files) == 1:
+            if "marked1.png" in marked_files:
+                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
+        else :
+            pass
+        
+        print("bonjour")
+
+        return "marked1.png"
+
+
+
 
     def modify_page(self):
         self.page.wait_for_timeout(500)
@@ -460,7 +496,11 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
         # mark our own labels and get the images
         items = self.page.evaluate(label_marker_script, items)
-        img_bytes = self.page.screenshot(path="output/marked.png")
+        path = self.remove_image("output/")
+
+
+        img_bytes = self.page.screenshot(path="output/marked1.png")
+
         marked_image = base64.b64encode(img_bytes).decode()
         
         self.page.evaluate(remove_label_mark_script)

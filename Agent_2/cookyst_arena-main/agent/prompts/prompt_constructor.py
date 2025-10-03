@@ -26,6 +26,7 @@ class PromptConstructor(object):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        orm_path :str |Path ,
     ):
         self.instruction_path = Path(instruction_path)
         self.obs_modality = "text"
@@ -561,11 +562,85 @@ class NewASPromptConstructor(PromptConstructor):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        orm_path :str |Path,
+
     ):
-        super().__init__(instruction_path, lm_config, tokenizer)
+        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path))
+        import os
+        print("Current working directory:", os.getcwd())
+
+        self.orm = json.load(open(orm_path))
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.state = {}
 
+
+
+    def ORM (
+            self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+        
+
+        intro = self.orm["intro"]
+        examples = self.orm["examples"]
+        template = self.orm["template"]
+        keywords = self.orm["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-2]  # type: ignore[assignment]
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            obs = obs[:max_obs_length]
+
+        info = state_info["info"]
+        obs_metadata = info["observation_metadata"]["text"]
+        nodes = obs_metadata["obs_nodes_info"]
+        position_info = obs_metadata["position_info"]
+        html_parser = obs_metadata["html_parser"]
+        self.nodes = nodes
+        
+        page = info["page"]
+        url = page.url
+        #url = self.map_url_to_real(page.url)
+        position_bar = self._get_position_bar(position_info)
+        
+        history = meta_data["action_history"]
+        if len(history) == 1:
+            previous_action_str = "None"
+        else:
+            previous_action_str = '\n'.join(history[1:])
+            
+        
+        self.state.update({
+            "url": url,
+            "html": obs,
+            "html_parser": html_parser,
+            "segment": "None",
+            "operation": "None",
+        })
+        
+        current = template.format(
+            objective=intent,
+            url=url,
+            html=obs,
+            position=position_bar,
+            previous_action=previous_action_str,
+        )
+
+       
+        assert all([f"{{k}}" not in current for k in keywords])
+
+        # prompt = self.get_lm_api_input(intro, examples, current)
+
+        
+        return current
+
+        
+
+
+
+        
     def construct(
         self,
         trajectory: Trajectory,
@@ -731,11 +806,80 @@ class NewUserPromptConstructor(PromptConstructor):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        orm_path :str |Path,
+
     ):
-        super().__init__(instruction_path, lm_config, tokenizer)
+        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path))
+        import os
+        print("Current working directory:", os.getcwd())
+
+        self.orm = json.load(open(orm_path))
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.state = {}
-    
+
+
+
+    def ORM (
+            self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+        
+
+        intro = self.orm["intro"]
+        examples = self.orm["examples"]
+        template = self.orm["template"]
+        keywords = self.orm["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-2]  # type: ignore[assignment]
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            obs = obs[:max_obs_length]
+
+        info = state_info["info"]
+        obs_metadata = info["observation_metadata"]["text"]
+        nodes = obs_metadata["obs_nodes_info"]
+        position_info = obs_metadata["position_info"]
+        html_parser = obs_metadata["html_parser"]
+        self.nodes = nodes
+        
+        page = info["page"]
+        url = page.url
+        #url = self.map_url_to_real(page.url)
+        position_bar = self._get_position_bar(position_info)
+        
+        history = meta_data["action_history"]
+        if len(history) == 1:
+            previous_action_str = "None"
+        else:
+            previous_action_str = '\n'.join(history[1:])
+            
+        
+        self.state.update({
+            "url": url,
+            "html": obs,
+            "html_parser": html_parser,
+            "segment": "None",
+            "operation": "None",
+        })
+        
+        current = template.format(
+            objective=intent,
+            url=url,
+            html=obs,
+            position=position_bar,
+            previous_action=previous_action_str,
+        )
+
+       
+        assert all([f"{{k}}" not in current for k in keywords])
+
+
+        
+        return current
+
+
 
     @staticmethod
 
@@ -786,6 +930,8 @@ class NewUserPromptConstructor(PromptConstructor):
                 
             return "\n\n".join(persona_str)
             
+    
+    
 
     def construct(self,
                    trajectory:Trajectory,
@@ -911,3 +1057,87 @@ class NewUserPromptConstructor(PromptConstructor):
             
 
    
+class DescribeImagePromptConstructor(PromptConstructor):
+    "the agent to describe the image first"
+    def __init__(
+        self,
+        instruction_path: str | Path,
+        lm_config: lm_config.LMConfig,
+        tokenizer: Tokenizer,
+    ):
+        super().__init__(instruction_path, lm_config, tokenizer)
+        self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
+        self.state = {}
+
+    @staticmethod
+    def _get_position_bar(data):
+        position = data.get("position", 0.0)
+        page_height = data.get("page_height", 1.0)
+        return f"{round(position, 1)} / {round(page_height, 1)}"
+
+    def construct(
+            self,
+            trajectory:Trajectory,  
+            intent:str,
+            meta_data:dict[str,Any] = {},
+            )->APIInput:    
+        
+
+        print(self.instruction["finale"])
+        
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        template = self.instruction["template"]
+        keywords = self.instruction["meta_data"]["keywords"]
+        finale = self.instruction["finale"]
+        state_info: StateInfo = trajectory[-1]  
+    
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:  
+            #obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
+            obs = obs[:max_obs_length]
+        
+        info = state_info["info"]
+        obs_metadata = info["observation_metadata"]["text"]
+        nodes = obs_metadata["obs_nodes_info"]
+        position_info = obs_metadata["position_info"]
+        html_parser = obs_metadata["html_parser"]
+        self.nodes = nodes
+        
+        page = info["page"]
+        url = page.url
+        position_bar = self._get_position_bar(position_info)
+        history = [f"{ix}. {his}" for ix, his in enumerate(meta_data["action_history"])]
+        if len(history) == 1:
+            previous_action_str = "None"
+        else:
+            previous_action_str = '\n'.join(history[1:])   
+        self.state.update({
+            "url": url,
+            "html": obs,
+            "html_parser": html_parser,
+            "segment": "None",
+            "operation": "None",
+        })
+
+        current = template.format(
+            objective=intent,
+            url=url,
+            html=obs,
+            position=position_bar,
+            previous_action=previous_action_str,
+        )   
+
+        assert all([f"{{{k}}}" not in current for k in keywords])
+
+        prompt = current + finale   
+
+        print("Using DescribeImagePromptConstructor")
+
+        return  prompt
+        
+        
+        # print(meta_data)clea
+            
+
