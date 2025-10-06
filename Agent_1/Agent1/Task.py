@@ -23,26 +23,21 @@ def siteCategorisation(site, file):
         prompt = Agent1.Promt_generation("Categorisation", data)
         example = read_from_json("./prompts/ExampleCategorisation.json")
 
-        # Appel au modèle
         response = Agent1.call_lm(prompt, example)
         
-        # Extraction du résultat
         result = extract_result(response, site)
-        # NOTE : Vous pouvez ici sauvegarder le 'result' si nécessaire.
         
         return True # Succès
 
     except Exception as e:
         print(f"❌ Erreur sur {site} dans {file} : {e}")
-        # Log de l'erreur
         error_details = {"file": file, "site": site, "error": str(e)}
         if "confidence" in str(e).lower():
              append_json_to_list_file("./results/confidence.json", error_details)
         else:
              append_json_to_list_file("./results/error.json", error_details)
-        return False # Échec
+        return False 
 
-# --- FONCTIONS POUR GÉRER L'ÉTAT DE PROGRESSION ---
 
 def save_progress(filename, last_url):
     """Sauvegarde le fichier et la dernière URL traitée avec succès."""
@@ -66,7 +61,6 @@ def clear_progress():
     if os.path.exists(STATE_FILE):
         os.remove(STATE_FILE)
 
-# --- FONCTION PRINCIPALE MODIFIÉE ---
 
 def process_sites_in_batches(path: str):
     """
@@ -80,7 +74,6 @@ def process_sites_in_batches(path: str):
         print(f"ERREUR: Le dossier spécifié n'existe pas : {path}")
         return
 
-    # Charge le point de reprise
     resume_file, resume_url = load_progress()
 
     if resume_file:
@@ -88,11 +81,9 @@ def process_sites_in_batches(path: str):
     else:
         print("INFO: Aucun état de reprise trouvé. Démarrage normal depuis le début.")
 
-    # Permet de sauter les fichiers déjà traités
     start_processing = not resume_file
 
     for file in sorted_csv_files:
-        # Si on n'a pas encore atteint le fichier de reprise, on saute
         if not start_processing and file != resume_file:
             print(f"⏭️ Fichier {file} déjà traité, on passe au suivant.")
             continue
@@ -106,9 +97,7 @@ def process_sites_in_batches(path: str):
                 urls = [f"https://{row[1]}" for row in csv_file if len(row) >= 2]
         except Exception as e:
             print(f"ERREUR: Impossible de lire le fichier {file}. Erreur: {e}")
-            continue # Passe au fichier suivant
-
-        # Si on est dans le fichier de reprise, on cherche où reprendre
+            continue
         urls_to_process = urls
         if file == resume_file and resume_url in urls:
             try:
@@ -124,17 +113,11 @@ def process_sites_in_batches(path: str):
         
         print(f"\n📂 Traitement du fichier {file} ({len(urls_to_process)} URLs)")
 
-        # Boucle sur chaque URL pour un suivi précis
         for site_url in urls_to_process:
             if siteCategorisation(site_url, file):
-                # Si le traitement réussit, on sauvegarde la progression
                 save_progress(file, site_url)
-            # Si ça échoue, on continue simplement ; l'erreur est déjà loggée
-            # et le fichier d'état n'est pas mis à jour, donc on recommencera ici.
 
-    # Une fois que tout est terminé avec succès
     clear_progress()
     print("\n--- ✅ Traitement terminé. Le fichier d'état a été nettoyé. ---")
 
-# Lancement du processus
 process_sites_in_batches("folder_1")
