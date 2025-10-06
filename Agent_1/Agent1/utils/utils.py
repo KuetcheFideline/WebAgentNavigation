@@ -151,7 +151,7 @@ def extract_result(result, site):
     import os
     from pathlib import Path
 
-    lines = result.split("\n")
+    lines = result.content.split("\n")
     data = {}
     current_key = None
 

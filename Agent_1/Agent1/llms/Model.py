@@ -120,7 +120,7 @@ class AIAgent1:
              input_variables=["input"],
 
          )
-        print(Prompt)
+        #print(Prompt)
         #print(Prompt,'la prompt')
 
         chain = Prompt | self.model
@@ -175,39 +175,6 @@ class AIAgent1:
         except requests.RequestException as e:
             return f"[ERROR] Request failed: {e}"
 
-<<<<<<< HEAD
-    def call_lm(self,PromptFirst,example):
-        def escape_curly_braces(text):
-            if isinstance(text, str):
-                return text.replace("{", "{{").replace("}", "}}")
-            return text
-
-        processed_examples = [
-            {
-                "question": ex["question"],
-                "answer": escape_curly_braces(ex["answer"])
-            }
-            for ex in example
-        ]
-       # print(processed_examples)
-        example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
-        Prompt = FewShotPromptTemplate(
-             examples =processed_examples,
-             example_prompt =example_prompt,
-             suffix ="Question: {input}",
-             input_variables=["input"],
-
-         )
-        
-
-        chain = Prompt | self.model
-        return chain.invoke({"input": PromptFirst})
-
-
-
-
-=======
->>>>>>> 7db49677f76405bec807ab01e01446310fa6205c
 
 
 

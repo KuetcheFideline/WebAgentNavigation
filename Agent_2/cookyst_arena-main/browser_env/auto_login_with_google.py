@@ -7,7 +7,7 @@ from typing import List, Dict
 from time import sleep
 import asyncio
 from .login_utils.sigin import detect_sigin
-from .login_utils.utils import locate_robustly_without_labels
+from .login_utils.utils import locate_robustly_without_labels,get_viewport_html
 from .login_utils.google import detect_login_with_google
 from .html_tools.configs.config import basic_attrs,mind2web_keep_attrs
 from .html_tools.html_parser import HtmlParser
@@ -232,6 +232,7 @@ def try_google_login_elements(page:Page,locator:Locator,tag_name):
     #     else:
     #         print(" Aucun élément de connexion Google trouvé.")
     #         return False
+
 def simplify_content(content):
     args = {
     'use_position': False,  
@@ -249,11 +250,13 @@ def simplify_content(content):
 def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
     page = browser.new_page()
     page.goto(login_url)
-    
+    client = page.context.new_cdp_session(page)
+    viewport_size = {"width": 1280, "height": 720}
     # ================================ Call LLM 1 (Sign-in Button) =================================
 
     page.wait_for_load_state('domcontentloaded')
-    content_h = page.content()
+    #content_h = page.content()
+    content_h = get_viewport_html(page=page, client=client, viewport_size=viewport_size)
     
     simplified_home = simplify_content(content=content_h)
     content_logger.info(f" LLM1 Content URL: {page.url} \n : {simplified_home}")
@@ -287,8 +290,9 @@ def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
     # ============================ CALL LLM 2 (Google Button) ===================================
     
     page.wait_for_load_state('domcontentloaded')
-
-    content_login_simplified = simplify_content(page.content())
+    client = page.context.new_cdp_session(page)
+    content_h = get_viewport_html(page=page, client=client, viewport_size=viewport_size)
+    content_login_simplified = simplify_content(content_h)
     content_logger.info(f" LLM2 Content URL: {page.url} \n : {content_login_simplified}")
     data_g = detect_login_with_google(s_html=content_login_simplified)
     print("LLM 2 (Bouton Google - sur la page principale) a détecté:", data_g)
