@@ -22,7 +22,7 @@ class AIAgent1:
            
         #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
         #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
-            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
 
 
 

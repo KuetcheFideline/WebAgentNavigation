@@ -8,10 +8,9 @@ from llms.Model import AIAgent1
 
 Agent1 = AIAgent1()
 
-# ⚠️ Limite de parallélisme à adapter à ta rate limit réelle
-MAX_WORKERS = 10  # exemple : 50 requêtes en parallèle
-RETRY_LIMIT = 3   # nombre de retries max par URL en cas d'erreur
-STATE_FILE = "processing_state.json" # NOUVEAU : Nom du fichier pour sauvegarder l'état
+MAX_WORKERS = 10  
+RETRY_LIMIT = 3   
+STATE_FILE = "processing_state.json" 
 
 def process_single_site(site, file):
     """
@@ -55,7 +54,6 @@ def siteCategorisation_parallel(sites, file):
                 print(f"⚠️ Exception inattendue pour {site}: {e}")
     return results
 
-# --- NOUVELLES FONCTIONS POUR GÉRER L'ÉTAT ---
 
 def save_progress(filename, last_index):
     """Sauvegarde le fichier et l'index du batch en cours de traitement."""
@@ -71,14 +69,12 @@ def load_progress():
             state = json.load(f)
             return state.get("last_processed_file"), state.get("last_processed_index", 0)
         except json.JSONDecodeError:
-            return None, 0 # Fichier corrompu ou vide
-
+            return None, 0 
 def clear_progress():
     """Supprime le fichier d'état une fois le traitement terminé."""
     if os.path.exists(STATE_FILE):
         os.remove(STATE_FILE)
 
-# --- FONCTION PRINCIPALE MODIFIÉE ---
 
 def process_sites_in_batches_parallel(folder_path, batch_size=500):
     """
@@ -87,16 +83,14 @@ def process_sites_in_batches_parallel(folder_path, batch_size=500):
     """
     all_files = sorted([f for f in os.listdir(folder_path) if f.endswith('.csv')])
     
-    # NOUVEAU : Chargement du point de reprise
     last_file, last_index = load_progress()
-    start_processing = not last_file  # Si aucun fichier sauvegardé, on commence dès le début
+    start_processing = not last_file 
 
     for file in all_files:
         if not start_processing and file != last_file:
             print(f"⏭️ Fichier {file} déjà traité, on passe au suivant.")
             continue
         
-        # On a trouvé le fichier où reprendre, on peut commencer le traitement
         start_processing = True
 
         filepath = os.path.join(folder_path, file)
@@ -106,33 +100,26 @@ def process_sites_in_batches_parallel(folder_path, batch_size=500):
 
         print(f"\n📂 Fichier {file} → {len(urls)} URLs à traiter")
 
-        # Découpage en batchs
         for i in range(0, len(urls), batch_size):
             
-            # NOUVEAU : Si on est dans le bon fichier, on saute les batches déjà traités
             if file == last_file and i < last_index:
                 print(f"⏭️ Batch {i//batch_size + 1} déjà traité, on passe au suivant.")
                 continue
 
             batch = urls[i:i+batch_size]
             
-            # NOUVEAU : Sauvegarde le progrès AVANT de lancer le traitement du batch
             print(f"💾 Sauvegarde du point de reprise : {file}, index {i}")
             save_progress(file, i)
             
             print(f"🚀 Traitement batch {i//batch_size + 1} / {len(urls)//batch_size + 1}")
             siteCategorisation_parallel(batch, file)
             
-            # ⏸ petite pause entre batchs pour éviter rate limit
             time.sleep(1)
             
-        # Réinitialise l'index pour le prochain fichier
         last_index = 0
 
-    # NOUVEAU : Nettoyage du fichier d'état après un succès complet
     clear_progress()
     print("\n✅ Traitement terminé (parallélisé). Le fichier d'état a été nettoyé.")
 
 
-# Lancement du processus
 process_sites_in_batches_parallel(folder_path='folder_1')
