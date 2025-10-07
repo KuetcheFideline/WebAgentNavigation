@@ -12,19 +12,32 @@ MAX_WORKERS = 10
 RETRY_LIMIT = 3   
 STATE_FILE = "processing_state.json" 
 
+
+# Fonction décorée pour réessayer automatiquement en cas d'erreur (429, timeout, etc.)
+@retry(
+    wait=wait_exponential(multiplier=2, min=2, max=60),  
+    stop=stop_after_attempt(5),                         # max 5 tentatives
+    retry=retry_if_exception_type(Exception)            
+)
+def safe_call_lm(prompt_first, examples):
+    """Appel au modèle avec retry automatique en cas d'échec temporaire."""
+    return Agent1.call_lm(PromptFirst=prompt_first, example=examples)
+
 def process_single_site(site, file):
     """
     Fonction qui traite une URL individuellement.
     Elle sera exécutée en parallèle dans le pool de threads.
     """
+    description = get_site_description(site)
     try:
-        description = get_site_description(site)
+        
         data = {"data": {site: description}}
         prompt = Agent1.Promt_generation("Categorisation", data)
         example = read_from_json("./prompts/ExampleCategorisation.json")
 
         # Appel au modèle
-        response = Agent1.call_lm(prompt, example)
+        #response = Agent1.call_lm(prompt, example)
+        response = safe_call_lm(prompt, example)
         result = extract_result(response, site)
         return {"site": site, "result": result, "status": "ok"}
 

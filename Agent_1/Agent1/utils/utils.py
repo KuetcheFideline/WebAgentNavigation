@@ -311,8 +311,8 @@ def add_task_to_category_json(file,res):
         try:
             print("exist file")
             category_data = json.load(f)
-            print(category_data["tasks"])
-            print(res["tasks"])
+            #print(category_data["tasks"])
+            #print(res["tasks"])
             
             category_data["tasks"].append(res["tasks"])
                     

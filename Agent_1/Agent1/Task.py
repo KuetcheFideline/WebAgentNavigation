@@ -96,10 +96,10 @@ def process_sites_in_batches(path:str):
                             print(f"INFO: Dans {file}, reprise après '{last_error_url}'. {len(urls)} URLs restantes à traiter.")
                         except ValueError:
                           pass 
-                        if urls :
-                             siteCategorisation(urls,file)
-                        else :
-                            print(f"INFO: Aucune nouvelle URL à traiter dans {file}.")
+                    if urls :
+                         siteCategorisation(urls,file)
+                    else :
+                        print(f"INFO: Aucune nouvelle URL à traiter dans {file}.")
 
                             
             except Exception as e :
