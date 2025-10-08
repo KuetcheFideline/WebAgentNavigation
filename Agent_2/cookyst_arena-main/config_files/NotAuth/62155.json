@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "litnet"
+  ],
+  "task_id": "62155",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://litnet.com",
+  "geolocation": null,
+  "intent_template": "Learn about the authors of e-books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal education"
+  },
+  "intent": "Learn about the authors of e-books on legal education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

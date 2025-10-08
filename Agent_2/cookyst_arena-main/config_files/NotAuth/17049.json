@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "adxcorp"
+  ],
+  "task_id": "17049",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://adxcorp.kr",
+  "geolocation": null,
+  "intent_template": "Read about the latest trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law education"
+  },
+  "intent": "Read about the latest trends in constitutional law education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "balad"
+  ],
+  "task_id": "111354",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://balad.ir",
+  "geolocation": null,
+  "intent_template": "Get directions to a location related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-governmental organizations"
+  },
+  "intent": "Get directions to a location related to non-governmental organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "xtime"
+  ],
+  "task_id": "34280",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://xtime.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech products"
+  },
+  "intent": "Browse a catalog of legal tech products",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

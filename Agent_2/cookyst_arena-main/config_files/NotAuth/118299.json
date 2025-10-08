@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freemusicarchive"
+  ],
+  "task_id": "118299",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freemusicarchive.org",
+  "geolocation": null,
+  "intent_template": "Explore music from {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international music"
+  },
+  "intent": "Explore music from international music",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

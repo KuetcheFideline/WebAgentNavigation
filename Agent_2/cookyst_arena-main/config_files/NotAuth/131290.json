@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "humanesociety"
+  ],
+  "task_id": "131290",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://humanesociety.org",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development"
+  },
+  "intent": "Take a quiz or assessment to learn about education and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "teamwork"
+  ],
+  "task_id": "141100",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://teamwork.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and advocacy tests"
+  },
+  "intent": "Take a quiz or assessment on human rights and advocacy tests",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

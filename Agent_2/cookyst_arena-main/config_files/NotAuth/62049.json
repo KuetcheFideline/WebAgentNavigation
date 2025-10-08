@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "avidreaders"
+  ],
+  "task_id": "62049",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://avidreaders.ru",
+  "geolocation": null,
+  "intent_template": "Find e-books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research papers"
+  },
+  "intent": "Find e-books about legal research papers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

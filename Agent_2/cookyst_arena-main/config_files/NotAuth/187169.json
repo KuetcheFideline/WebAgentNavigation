@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eplus"
+  ],
+  "task_id": "187169",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eplus.jp",
+  "geolocation": null,
+  "intent_template": "Take notes on an event topic {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law"
+  },
+  "intent": "Take notes on an event topic law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

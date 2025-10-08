@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "asurion"
+  ],
+  "task_id": "103900",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://asurion.com",
+  "geolocation": null,
+  "intent_template": "Research insurance options for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public insurance"
+  },
+  "intent": "Research insurance options for public insurance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

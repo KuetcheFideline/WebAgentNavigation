@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tmz"
+  ],
+  "task_id": "66051",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tmz.com",
+  "geolocation": null,
+  "intent_template": "Search for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "lifestyle news"
+  },
+  "intent": "Search for lifestyle news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

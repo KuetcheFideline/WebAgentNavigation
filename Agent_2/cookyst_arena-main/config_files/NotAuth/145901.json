@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "splashtop"
+  ],
+  "task_id": "145901",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://splashtop.com",
+  "geolocation": null,
+  "intent_template": "Search for remote database solutions for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legislative history"
+  },
+  "intent": "Search for remote database solutions for legislative history",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

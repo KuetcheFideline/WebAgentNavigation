@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "adjust"
+  ],
+  "task_id": "112911",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://adjust.com",
+  "geolocation": null,
+  "intent_template": "Explore a blog on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "marketing automation"
+  },
+  "intent": "Explore a blog on marketing automation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

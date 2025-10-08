@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sika"
+  ],
+  "task_id": "40895",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sika.com",
+  "geolocation": null,
+  "intent_template": "Search for industry reports and research studies on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "building codes research reports"
+  },
+  "intent": "Search for industry reports and research studies on building codes research reports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

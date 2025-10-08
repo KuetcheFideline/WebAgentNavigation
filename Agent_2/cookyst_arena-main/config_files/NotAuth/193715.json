@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "capcut"
+  ],
+  "task_id": "193715",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://capcut.com",
+  "geolocation": null,
+  "intent_template": "Browse a video editing community for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conferences"
+  },
+  "intent": "Browse a video editing community for conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

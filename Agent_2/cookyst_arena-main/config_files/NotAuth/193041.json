@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tokbox"
+  ],
+  "task_id": "193041",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tokbox.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a video presentation about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation and entrepreneurship"
+  },
+  "intent": "Take notes on a video presentation about legal innovation and entrepreneurship",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

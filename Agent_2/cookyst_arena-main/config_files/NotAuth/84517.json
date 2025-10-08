@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hoyolab"
+  ],
+  "task_id": "84517",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hoyolab.com",
+  "geolocation": null,
+  "intent_template": "Download a guide to getting started with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game tutorials"
+  },
+  "intent": "Download a guide to getting started with game tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

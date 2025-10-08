@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gdpr"
+  ],
+  "task_id": "107328",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gdpr.eu",
+  "geolocation": null,
+  "intent_template": "Download a guide or checklist for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal leadership"
+  },
+  "intent": "Download a guide or checklist for legal leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

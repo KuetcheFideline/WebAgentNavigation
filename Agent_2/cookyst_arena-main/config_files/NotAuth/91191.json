@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ancestry"
+  ],
+  "task_id": "91191",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ancestry.com.au",
+  "geolocation": null,
+  "intent_template": "Learn about the basics of genealogy research and its application to education {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tutorial videos"
+  },
+  "intent": "Learn about the basics of genealogy research and its application to education tutorial videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

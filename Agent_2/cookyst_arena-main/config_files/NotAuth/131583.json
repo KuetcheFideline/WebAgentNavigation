@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bobibanking"
+  ],
+  "task_id": "131583",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bobibanking.com",
+  "geolocation": null,
+  "intent_template": "Discover banking tips and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "budgeting"
+  },
+  "intent": "Discover banking tips and resources for budgeting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

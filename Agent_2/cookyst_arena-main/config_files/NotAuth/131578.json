@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bobibanking"
+  ],
+  "task_id": "131578",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bobibanking.com",
+  "geolocation": null,
+  "intent_template": "Understand the process of opening an account for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "account features"
+  },
+  "intent": "Understand the process of opening an account for account features",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

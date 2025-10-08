@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lider"
+  ],
+  "task_id": "153228",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lider.cl",
+  "geolocation": null,
+  "intent_template": "Understand the importance of security awareness in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security policies"
+  },
+  "intent": "Understand the importance of security awareness in security policies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

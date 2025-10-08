@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dotloop"
+  ],
+  "task_id": "143703",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dotloop.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the real estate market in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "emerging markets"
+  },
+  "intent": "Get an overview of the real estate market in emerging markets",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

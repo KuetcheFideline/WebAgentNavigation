@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "justgiving"
+  ],
+  "task_id": "132617",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://justgiving.com",
+  "geolocation": null,
+  "intent_template": "Watch a video about the impact of fundraising for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education for all documentaries"
+  },
+  "intent": "Watch a video about the impact of fundraising for education for all documentaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

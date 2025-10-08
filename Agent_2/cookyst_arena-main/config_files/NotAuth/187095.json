@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ticketmaster"
+  ],
+  "task_id": "187095",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ticketmaster.ca",
+  "geolocation": null,
+  "intent_template": "Find events recommended for professionals in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy"
+  },
+  "intent": "Find events recommended for professionals in policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

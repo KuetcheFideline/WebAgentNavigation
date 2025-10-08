@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "doi"
+  ],
+  "task_id": "1070",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://doi.org",
+  "geolocation": null,
+  "intent_template": "Download free resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ebooks"
+  },
+  "intent": "Download free resources about ebooks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

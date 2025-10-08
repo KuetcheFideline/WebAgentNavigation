@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "birdeye"
+  ],
+  "task_id": "114000",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://birdeye.com",
+  "geolocation": null,
+  "intent_template": "Watch a video on the role of social media in promoting {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to education"
+  },
+  "intent": "Watch a video on the role of social media in promoting access to education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

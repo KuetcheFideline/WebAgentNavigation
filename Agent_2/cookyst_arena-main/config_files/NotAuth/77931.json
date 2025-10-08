@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fxstreet"
+  ],
+  "task_id": "77931",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fxstreet.com",
+  "geolocation": null,
+  "intent_template": "Find tips on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "frugal living"
+  },
+  "intent": "Find tips on frugal living",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

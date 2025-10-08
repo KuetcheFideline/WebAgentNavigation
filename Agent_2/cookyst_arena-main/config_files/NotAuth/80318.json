@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mynt"
+  ],
+  "task_id": "80318",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mynt.xyz",
+  "geolocation": null,
+  "intent_template": "Research financial institutions and organizations for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investment firms"
+  },
+  "intent": "Research financial institutions and organizations for investment firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

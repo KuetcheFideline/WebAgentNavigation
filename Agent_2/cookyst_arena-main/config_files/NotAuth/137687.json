@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "winzip"
+  ],
+  "task_id": "137687",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://winzip.com",
+  "geolocation": null,
+  "intent_template": "Compare different {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Compare different education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

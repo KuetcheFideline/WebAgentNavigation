@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dnv"
+  ],
+  "task_id": "34197",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dnv.com",
+  "geolocation": null,
+  "intent_template": "Browse a directory of professionals in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation"
+  },
+  "intent": "Browse a directory of professionals in legal innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

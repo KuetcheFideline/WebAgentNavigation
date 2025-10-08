@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "charter"
+  ],
+  "task_id": "105519",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://charter.com",
+  "geolocation": null,
+  "intent_template": "Find tips on optimizing internet performance for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "bandwidth management"
+  },
+  "intent": "Find tips on optimizing internet performance for bandwidth management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

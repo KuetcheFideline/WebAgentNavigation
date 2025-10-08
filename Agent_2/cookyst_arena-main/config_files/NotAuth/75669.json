@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jpmchase"
+  ],
+  "task_id": "75669",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jpmchase.com",
+  "geolocation": null,
+  "intent_template": "Read about the financial aspects of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economic policy"
+  },
+  "intent": "Read about the financial aspects of economic policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

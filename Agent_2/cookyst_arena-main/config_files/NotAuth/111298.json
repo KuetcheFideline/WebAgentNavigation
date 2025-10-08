@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mapquest"
+  ],
+  "task_id": "111298",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mapquest.com",
+  "geolocation": null,
+  "intent_template": "Explore maps of regions with significant human rights or governance issues in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Politically Unstable Areas"
+  },
+  "intent": "Explore maps of regions with significant human rights or governance issues in Politically Unstable Areas",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

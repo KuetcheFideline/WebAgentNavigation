@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "msdmanuals"
+  ],
+  "task_id": "99236",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://msdmanuals.com",
+  "geolocation": null,
+  "intent_template": "Take a short online test or quiz to assess prior knowledge of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health concepts"
+  },
+  "intent": "Take a short online test or quiz to assess prior knowledge of health concepts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

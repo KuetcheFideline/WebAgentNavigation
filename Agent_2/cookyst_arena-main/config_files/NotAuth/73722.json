@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sched"
+  ],
+  "task_id": "73722",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sched.com",
+  "geolocation": null,
+  "intent_template": "Summarize the agenda for a conference on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Summarize the agenda for a conference on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

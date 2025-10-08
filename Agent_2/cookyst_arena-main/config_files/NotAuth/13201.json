@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "classificadosx"
+  ],
+  "task_id": "13201",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://classificadosx.net",
+  "geolocation": null,
+  "intent_template": "Look for upcoming events and webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conferences on digital law and governance"
+  },
+  "intent": "Look for upcoming events and webinars on conferences on digital law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

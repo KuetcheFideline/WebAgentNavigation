@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nrf"
+  ],
+  "task_id": "187574",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nrf.com",
+  "geolocation": null,
+  "intent_template": "Discover upcoming events and webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Discover upcoming events and webinars on legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

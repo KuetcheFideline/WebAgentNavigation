@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "clideo"
+  ],
+  "task_id": "193737",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://clideo.com",
+  "geolocation": null,
+  "intent_template": "Take an online course on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "learning platforms"
+  },
+  "intent": "Take an online course on learning platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

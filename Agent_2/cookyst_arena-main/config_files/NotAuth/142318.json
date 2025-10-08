@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kcrw"
+  ],
+  "task_id": "142318",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kcrw.com",
+  "geolocation": null,
+  "intent_template": "Share a radio show about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and justice"
+  },
+  "intent": "Share a radio show about law and justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

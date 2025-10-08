@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "zoom"
+  ],
+  "task_id": "193138",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://zoom.us",
+  "geolocation": null,
+  "intent_template": "Watch a video tutorial on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal technology and innovation"
+  },
+  "intent": "Watch a video tutorial on legal technology and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

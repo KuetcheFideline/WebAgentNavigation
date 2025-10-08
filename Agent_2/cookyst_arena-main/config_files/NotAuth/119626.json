@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudtrax"
+  ],
+  "task_id": "119626",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudtrax.com",
+  "geolocation": null,
+  "intent_template": "Read about network security best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "encryption"
+  },
+  "intent": "Read about network security best practices for encryption",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

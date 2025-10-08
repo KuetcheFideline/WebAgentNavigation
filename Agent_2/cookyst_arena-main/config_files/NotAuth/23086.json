@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fpjs"
+  ],
+  "task_id": "23086",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fpjs.io",
+  "geolocation": null,
+  "intent_template": "Read an article about data analytics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Read an article about data analytics in human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

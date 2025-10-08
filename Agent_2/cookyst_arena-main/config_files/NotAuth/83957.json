@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "readwrite"
+  ],
+  "task_id": "83957",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://readwrite.com",
+  "geolocation": null,
+  "intent_template": "Look up FAQs about the legal aspects and governance of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "answers to questions about problem gambling"
+  },
+  "intent": "Look up FAQs about the legal aspects and governance of answers to questions about problem gambling",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

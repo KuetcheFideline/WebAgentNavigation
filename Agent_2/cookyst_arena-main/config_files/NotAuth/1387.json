@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "avaaz"
+  ],
+  "task_id": "1387",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://avaaz.org",
+  "geolocation": null,
+  "intent_template": "Download and read reports and publications about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "political reform and governance"
+  },
+  "intent": "Download and read reports and publications about political reform and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

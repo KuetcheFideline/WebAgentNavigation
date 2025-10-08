@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "modyolo"
+  ],
+  "task_id": "61656",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://modyolo.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the download process for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "time tracking"
+  },
+  "intent": "Get an overview of the download process for time tracking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

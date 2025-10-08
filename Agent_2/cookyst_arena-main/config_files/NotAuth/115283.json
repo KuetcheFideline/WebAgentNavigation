@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tenor"
+  ],
+  "task_id": "115283",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tenor.com",
+  "geolocation": null,
+  "intent_template": "View presentations about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and governance"
+  },
+  "intent": "View presentations about constitutional law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

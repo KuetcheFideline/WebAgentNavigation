@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pof"
+  ],
+  "task_id": "53778",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pof.com",
+  "geolocation": null,
+  "intent_template": "Consider offline activities related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "volunteering"
+  },
+  "intent": "Consider offline activities related to volunteering",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

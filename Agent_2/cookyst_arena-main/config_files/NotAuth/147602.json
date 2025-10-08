@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "inaturalist"
+  ],
+  "task_id": "147602",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://inaturalist.org",
+  "geolocation": null,
+  "intent_template": "Explore a library of free resources and study materials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and policy"
+  },
+  "intent": "Explore a library of free resources and study materials on legal tech and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "n-tv"
+  ],
+  "task_id": "128109",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://n-tv.de",
+  "geolocation": null,
+  "intent_template": "Read a news summary about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "global governance"
+  },
+  "intent": "Read a news summary about global governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

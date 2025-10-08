@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "grammarly"
+  ],
+  "task_id": "210316",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://grammarly.com",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-reflection"
+  },
+  "intent": "Offline self-reflection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

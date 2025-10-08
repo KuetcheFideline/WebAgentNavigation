@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "adyen"
+  ],
+  "task_id": "79954",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://adyen.com",
+  "geolocation": null,
+  "intent_template": "Download financial guides and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "money management tips"
+  },
+  "intent": "Download financial guides and resources for money management tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

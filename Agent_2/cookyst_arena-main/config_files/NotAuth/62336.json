@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shopeepay"
+  ],
+  "task_id": "62336",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shopeepay.sg",
+  "geolocation": null,
+  "intent_template": "Find information on payment security measures for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "password protection"
+  },
+  "intent": "Find information on payment security measures for password protection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "research"
+  ],
+  "task_id": "169155",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://research.net",
+  "geolocation": null,
+  "intent_template": "Watch tutorials on how to create and deploy surveys on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "survey deployment"
+  },
+  "intent": "Watch tutorials on how to create and deploy surveys on survey deployment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

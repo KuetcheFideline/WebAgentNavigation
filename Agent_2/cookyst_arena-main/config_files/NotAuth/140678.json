@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shrm"
+  ],
+  "task_id": "140678",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shrm.org",
+  "geolocation": null,
+  "intent_template": "Explore resources and tools for professionals in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research databases"
+  },
+  "intent": "Explore resources and tools for professionals in legal research databases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ozbargain"
+  ],
+  "task_id": "153521",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ozbargain.com.au",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development videos"
+  },
+  "intent": "Watch a video about education and development videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

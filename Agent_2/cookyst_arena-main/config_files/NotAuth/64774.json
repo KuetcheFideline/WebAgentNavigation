@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gridx"
+  ],
+  "task_id": "64774",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gridx.ai",
+  "geolocation": null,
+  "intent_template": "Search for energy management solutions and services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy auditing services"
+  },
+  "intent": "Search for energy management solutions and services in energy auditing services",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

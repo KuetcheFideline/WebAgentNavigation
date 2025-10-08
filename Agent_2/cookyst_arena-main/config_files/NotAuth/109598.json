@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "streamlabs"
+  ],
+  "task_id": "109598",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://streamlabs.com",
+  "geolocation": null,
+  "intent_template": "Take offline notes on key points from a live stream about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Take offline notes on key points from a live stream about human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

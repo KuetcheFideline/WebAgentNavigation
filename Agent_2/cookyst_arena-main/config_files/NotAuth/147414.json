@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "auctollo"
+  ],
+  "task_id": "147414",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://auctollo.com",
+  "geolocation": null,
+  "intent_template": "Browse a list of recommended SEO tools for law firms on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "SEO tools"
+  },
+  "intent": "Browse a list of recommended SEO tools for law firms on SEO tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

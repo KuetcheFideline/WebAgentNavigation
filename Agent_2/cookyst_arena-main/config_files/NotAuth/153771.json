@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "change"
+  ],
+  "task_id": "153771",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://change.org",
+  "geolocation": null,
+  "intent_template": "Read about social justice issues related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "discrimination and inequality"
+  },
+  "intent": "Read about social justice issues related to discrimination and inequality",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

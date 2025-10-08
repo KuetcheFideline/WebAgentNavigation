@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mediaset"
+  ],
+  "task_id": "115350",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mediaset.it",
+  "geolocation": null,
+  "intent_template": "Find a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and reform"
+  },
+  "intent": "Find a video about education and reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

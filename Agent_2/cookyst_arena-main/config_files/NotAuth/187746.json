@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lingojam"
+  ],
+  "task_id": "187746",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lingojam.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the translation process for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal translation process"
+  },
+  "intent": "Get an overview of the translation process for legal translation process",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

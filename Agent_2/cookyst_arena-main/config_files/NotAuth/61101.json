@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "godaddy"
+  ],
+  "task_id": "61101",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://godaddy.com",
+  "geolocation": null,
+  "intent_template": "Discover domain name suggestions for a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocates"
+  },
+  "intent": "Discover domain name suggestions for a website about human rights advocates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

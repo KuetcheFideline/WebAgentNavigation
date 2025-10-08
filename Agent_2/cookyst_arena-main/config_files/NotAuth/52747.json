@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purestorage"
+  ],
+  "task_id": "52747",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purestorage.com",
+  "geolocation": null,
+  "intent_template": "Find out how to choose the right data storage solution for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "scalability requirements"
+  },
+  "intent": "Find out how to choose the right data storage solution for scalability requirements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sli"
+  ],
+  "task_id": "74107",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sli.do",
+  "geolocation": null,
+  "intent_template": "Read success stories and case studies on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and events"
+  },
+  "intent": "Read success stories and case studies on legal tech and events",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

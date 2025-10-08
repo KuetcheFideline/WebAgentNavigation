@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "giallozafferano"
+  ],
+  "task_id": "82320",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://giallozafferano.it",
+  "geolocation": null,
+  "intent_template": "Search for recipes related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "gluten-free recipes"
+  },
+  "intent": "Search for recipes related to gluten-free recipes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

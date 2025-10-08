@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bumbcdn"
+  ],
+  "task_id": "53138",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bumbcdn.com",
+  "geolocation": null,
+  "intent_template": "Watch videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conversation starters"
+  },
+  "intent": "Watch videos about conversation starters",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

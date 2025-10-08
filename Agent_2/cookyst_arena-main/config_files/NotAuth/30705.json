@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "finecobank"
+  ],
+  "task_id": "30705",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://finecobank.com",
+  "geolocation": null,
+  "intent_template": "Research banking regulations and laws related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "consumer protection"
+  },
+  "intent": "Research banking regulations and laws related to consumer protection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

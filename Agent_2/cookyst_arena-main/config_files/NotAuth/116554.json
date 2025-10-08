@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "telegram"
+  ],
+  "task_id": "116554",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://telegram.im",
+  "geolocation": null,
+  "intent_template": "Reflect on your understanding of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Reflect on your understanding of education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

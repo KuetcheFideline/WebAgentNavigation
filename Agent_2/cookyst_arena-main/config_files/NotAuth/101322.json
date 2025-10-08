@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freshdesk"
+  ],
+  "task_id": "101322",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freshdesk.com",
+  "geolocation": null,
+  "intent_template": "Explore the FAQ section for answers about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Explore the FAQ section for answers about governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

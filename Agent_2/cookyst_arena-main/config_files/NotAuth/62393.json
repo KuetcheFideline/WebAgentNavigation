@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "magento"
+  ],
+  "task_id": "62393",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://magento.cloud",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of products related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Browse a catalog of products related to governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

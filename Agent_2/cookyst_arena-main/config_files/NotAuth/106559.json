@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "topcv"
+  ],
+  "task_id": "106559",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://topcv.vn",
+  "geolocation": null,
+  "intent_template": "Read articles about career development in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Read articles about career development in education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

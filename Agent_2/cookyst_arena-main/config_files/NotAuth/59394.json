@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "screamingfrog"
+  ],
+  "task_id": "59394",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://screamingfrog.co.uk",
+  "geolocation": null,
+  "intent_template": "Create an offline plan about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and digital marketing plan"
+  },
+  "intent": "Create an offline plan about legal tech and digital marketing plan",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "garant"
+  ],
+  "task_id": "107421",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://garant.ru",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events, conferences, or workshops on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international humanitarian law"
+  },
+  "intent": "Learn about upcoming events, conferences, or workshops on international humanitarian law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

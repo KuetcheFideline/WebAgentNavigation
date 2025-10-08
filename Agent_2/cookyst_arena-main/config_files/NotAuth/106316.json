@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "melcloud"
+  ],
+  "task_id": "106316",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://melcloud.com",
+  "geolocation": null,
+  "intent_template": "Participate in online forums discussing IoT applications in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "healthcare"
+  },
+  "intent": "Participate in online forums discussing IoT applications in healthcare",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

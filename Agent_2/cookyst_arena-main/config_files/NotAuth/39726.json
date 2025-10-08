@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "photobucket"
+  ],
+  "task_id": "39726",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://photobucket.com",
+  "geolocation": null,
+  "intent_template": "Reflect on how cloud storage can improve your productivity and organization for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "productivity tips"
+  },
+  "intent": "Reflect on how cloud storage can improve your productivity and organization for productivity tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

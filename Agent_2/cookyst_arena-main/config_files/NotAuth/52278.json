@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ctrls"
+  ],
+  "task_id": "52278",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ctrls.in",
+  "geolocation": null,
+  "intent_template": "Download a brochure about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to justice"
+  },
+  "intent": "Download a brochure about access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

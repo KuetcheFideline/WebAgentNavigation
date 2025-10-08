@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vonage"
+  ],
+  "task_id": "185084",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vonage.net",
+  "geolocation": null,
+  "intent_template": "Search for a definition of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "telecom glossary"
+  },
+  "intent": "Search for a definition of telecom glossary",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

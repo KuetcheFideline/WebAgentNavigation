@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "poperblocker"
+  ],
+  "task_id": "33667",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://poperblocker.com",
+  "geolocation": null,
+  "intent_template": "Explore browser extensions that offer study materials and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology"
+  },
+  "intent": "Explore browser extensions that offer study materials and resources for education technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

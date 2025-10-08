@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "findmykids"
+  ],
+  "task_id": "74182",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://findmykids.org",
+  "geolocation": null,
+  "intent_template": "Download a family safety guide or resource about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "emergency contact lists"
+  },
+  "intent": "Download a family safety guide or resource about emergency contact lists",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

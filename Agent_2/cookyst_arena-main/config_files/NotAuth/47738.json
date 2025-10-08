@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "knowbe4"
+  ],
+  "task_id": "47738",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://knowbe4.com",
+  "geolocation": null,
+  "intent_template": "Search for a specific topic on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and compliance resources"
+  },
+  "intent": "Search for a specific topic on governance and compliance resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

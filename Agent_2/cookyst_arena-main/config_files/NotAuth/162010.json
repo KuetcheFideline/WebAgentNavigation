@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dazn"
+  ],
+  "task_id": "162010",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dazn.com",
+  "geolocation": null,
+  "intent_template": "Search for live streams of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tennis"
+  },
+  "intent": "Search for live streams of tennis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

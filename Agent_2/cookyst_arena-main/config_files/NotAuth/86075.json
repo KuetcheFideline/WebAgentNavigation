@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wargaming"
+  ],
+  "task_id": "86075",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wargaming.net",
+  "geolocation": null,
+  "intent_template": "Read about games related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance games"
+  },
+  "intent": "Read about games related to governance games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

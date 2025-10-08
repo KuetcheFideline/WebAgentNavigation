@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "coursera"
+  ],
+  "task_id": "132562",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://coursera.org",
+  "geolocation": null,
+  "intent_template": "Browse a blog about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal technology blogs"
+  },
+  "intent": "Browse a blog about legal technology blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

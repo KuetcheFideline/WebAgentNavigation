@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sonnenbatterie"
+  ],
+  "task_id": "146148",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sonnenbatterie.de",
+  "geolocation": null,
+  "intent_template": "Browse through online forums or discussion boards related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "climate change debates"
+  },
+  "intent": "Browse through online forums or discussion boards related to climate change debates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

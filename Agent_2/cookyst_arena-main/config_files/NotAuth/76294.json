@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "myfin"
+  ],
+  "task_id": "76294",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://myfin.by",
+  "geolocation": null,
+  "intent_template": "Explore online resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "webinars"
+  },
+  "intent": "Explore online resources for webinars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

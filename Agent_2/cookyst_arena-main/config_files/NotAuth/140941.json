@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "python"
+  ],
+  "task_id": "140941",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://python.org",
+  "geolocation": null,
+  "intent_template": "Watch video tutorials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "software engineering"
+  },
+  "intent": "Watch video tutorials on software engineering",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

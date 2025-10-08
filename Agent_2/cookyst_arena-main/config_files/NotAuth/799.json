@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jstor"
+  ],
+  "task_id": "799",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jstor.org",
+  "geolocation": null,
+  "intent_template": "Practice with sample questions on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "practice tests"
+  },
+  "intent": "Practice with sample questions on practice tests",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

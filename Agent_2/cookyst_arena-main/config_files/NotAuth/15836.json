@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sparteo"
+  ],
+  "task_id": "15836",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sparteo.com",
+  "geolocation": null,
+  "intent_template": "Summarize a research paper or article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech article summaries"
+  },
+  "intent": "Summarize a research paper or article about legal tech article summaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

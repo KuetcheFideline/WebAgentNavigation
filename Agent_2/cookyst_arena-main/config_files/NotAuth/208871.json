@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wjx"
+  ],
+  "task_id": "208871",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wjx.cn",
+  "geolocation": null,
+  "intent_template": "Take notes on a topic related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "summary techniques"
+  },
+  "intent": "Take notes on a topic related to summary techniques",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

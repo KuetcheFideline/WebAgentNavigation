@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "evite"
+  ],
+  "task_id": "73832",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://evite.com",
+  "geolocation": null,
+  "intent_template": "Search for events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education workshops"
+  },
+  "intent": "Search for events related to education workshops",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

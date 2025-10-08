@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "instreamatic"
+  ],
+  "task_id": "16168",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://instreamatic.com",
+  "geolocation": null,
+  "intent_template": "Attend a free webinar or online seminar about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech online seminars"
+  },
+  "intent": "Attend a free webinar or online seminar about legal tech online seminars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

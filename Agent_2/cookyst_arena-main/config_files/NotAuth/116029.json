@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rtp"
+  ],
+  "task_id": "116029",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rtp.pt",
+  "geolocation": null,
+  "intent_template": "Explore a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and international relations"
+  },
+  "intent": "Explore a website about governance and international relations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

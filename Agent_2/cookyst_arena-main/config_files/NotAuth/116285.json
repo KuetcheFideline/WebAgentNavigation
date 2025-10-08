@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amboss"
+  ],
+  "task_id": "116285",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amboss.com",
+  "geolocation": null,
+  "intent_template": "Explore a database of information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "clinical trials registry"
+  },
+  "intent": "Explore a database of information on clinical trials registry",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

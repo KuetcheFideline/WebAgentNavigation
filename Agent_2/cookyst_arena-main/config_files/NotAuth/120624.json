@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "he"
+  ],
+  "task_id": "120624",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://he.net",
+  "geolocation": null,
+  "intent_template": "Take notes on an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technological advancements"
+  },
+  "intent": "Take notes on an article about technological advancements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

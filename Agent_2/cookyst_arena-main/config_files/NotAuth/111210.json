@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "openstreetmap"
+  ],
+  "task_id": "111210",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://openstreetmap.fr",
+  "geolocation": null,
+  "intent_template": "Take notes on key map-based findings related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economic indicators"
+  },
+  "intent": "Take notes on key map-based findings related to economic indicators",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

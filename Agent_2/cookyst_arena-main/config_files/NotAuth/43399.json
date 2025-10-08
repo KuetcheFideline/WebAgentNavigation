@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "coingecko"
+  ],
+  "task_id": "43399",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://coingecko.com",
+  "geolocation": null,
+  "intent_template": "Find and download a research paper on the governance implications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Regulatory compliance"
+  },
+  "intent": "Find and download a research paper on the governance implications of Regulatory compliance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

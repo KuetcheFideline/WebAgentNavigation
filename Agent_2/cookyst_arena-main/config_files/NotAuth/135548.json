@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paykeeper"
+  ],
+  "task_id": "135548",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paykeeper.ru",
+  "geolocation": null,
+  "intent_template": "Get an overview of the payment process for a {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cancellation policy"
+  },
+  "intent": "Get an overview of the payment process for a cancellation policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

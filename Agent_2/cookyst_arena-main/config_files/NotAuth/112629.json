@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eloqua"
+  ],
+  "task_id": "112629",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eloqua.com",
+  "geolocation": null,
+  "intent_template": "Learn about the role of marketing automation in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "revenue growth"
+  },
+  "intent": "Learn about the role of marketing automation in revenue growth",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

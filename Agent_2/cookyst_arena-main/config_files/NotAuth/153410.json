@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "canadapost-postescanada"
+  ],
+  "task_id": "153410",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://canadapost-postescanada.ca",
+  "geolocation": null,
+  "intent_template": "Learn about the basics of shipping and logistics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "shipping 101"
+  },
+  "intent": "Learn about the basics of shipping and logistics in shipping 101",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

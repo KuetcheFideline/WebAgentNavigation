@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "photobucket"
+  ],
+  "task_id": "39798",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://photobucket.com",
+  "geolocation": null,
+  "intent_template": "Explore the different cloud storage options available for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "pCloud"
+  },
+  "intent": "Explore the different cloud storage options available for pCloud",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

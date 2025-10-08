@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "videolan"
+  ],
+  "task_id": "134595",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://videolan.org",
+  "geolocation": null,
+  "intent_template": "Read about the benefits of using open-source software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational technology"
+  },
+  "intent": "Read about the benefits of using open-source software for educational technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

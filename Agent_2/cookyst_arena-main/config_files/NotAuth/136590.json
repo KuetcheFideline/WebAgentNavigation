@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "frameo"
+  ],
+  "task_id": "136590",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://frameo.net",
+  "geolocation": null,
+  "intent_template": "Browse photos related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "courthouses"
+  },
+  "intent": "Browse photos related to courthouses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

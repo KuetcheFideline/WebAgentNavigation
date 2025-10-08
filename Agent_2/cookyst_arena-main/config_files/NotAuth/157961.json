@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "atlassian"
+  ],
+  "task_id": "157961",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://atlassian.net",
+  "geolocation": null,
+  "intent_template": "Discover online communities discussing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and technology groups"
+  },
+  "intent": "Discover online communities discussing law and technology groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shuminoengei"
+  ],
+  "task_id": "91099",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shuminoengei.jp",
+  "geolocation": null,
+  "intent_template": "Take a free course on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "gardening principles"
+  },
+  "intent": "Take a free course on gardening principles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

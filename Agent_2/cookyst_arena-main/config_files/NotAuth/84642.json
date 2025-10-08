@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pcgamer"
+  ],
+  "task_id": "84642",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pcgamer.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the educational value of a game related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "teaching strategies"
+  },
+  "intent": "Reflect on the educational value of a game related to teaching strategies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

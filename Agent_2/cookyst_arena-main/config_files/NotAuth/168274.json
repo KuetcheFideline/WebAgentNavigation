@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ycombinator"
+  ],
+  "task_id": "168274",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ycombinator.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the potential impact of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech career paths"
+  },
+  "intent": "Reflect on the potential impact of legal tech career paths",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

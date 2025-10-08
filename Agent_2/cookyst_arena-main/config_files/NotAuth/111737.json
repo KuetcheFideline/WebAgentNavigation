@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "scorecardresearch"
+  ],
+  "task_id": "111737",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://scorecardresearch.com",
+  "geolocation": null,
+  "intent_template": "Read reviews and testimonials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educators"
+  },
+  "intent": "Read reviews and testimonials on educators",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

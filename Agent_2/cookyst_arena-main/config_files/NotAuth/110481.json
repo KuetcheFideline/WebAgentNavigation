@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ekartlogistics"
+  ],
+  "task_id": "110481",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ekartlogistics.com",
+  "geolocation": null,
+  "intent_template": "Research the different types of logistics equipment and machinery used in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conveyors"
+  },
+  "intent": "Research the different types of logistics equipment and machinery used in conveyors",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

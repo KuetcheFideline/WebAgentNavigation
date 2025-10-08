@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "slotvip"
+  ],
+  "task_id": "134046",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://slotvip.ph",
+  "geolocation": null,
+  "intent_template": "Look for upcoming games that will feature {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game previews"
+  },
+  "intent": "Look for upcoming games that will feature game previews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

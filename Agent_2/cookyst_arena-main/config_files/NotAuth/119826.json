@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "haproxy"
+  ],
+  "task_id": "119826",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://haproxy.org",
+  "geolocation": null,
+  "intent_template": "Watch tutorials on network setup and management for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network installation"
+  },
+  "intent": "Watch tutorials on network setup and management for network installation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

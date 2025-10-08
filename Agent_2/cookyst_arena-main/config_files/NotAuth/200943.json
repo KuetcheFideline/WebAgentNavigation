@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "opera"
+  ],
+  "task_id": "200943",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://opera.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology experiences"
+  },
+  "intent": "Take a quiz about education technology experiences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

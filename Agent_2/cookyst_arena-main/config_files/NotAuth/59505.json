@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "superpages"
+  ],
+  "task_id": "59505",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://superpages.com",
+  "geolocation": null,
+  "intent_template": "Browse a directory of experts in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy"
+  },
+  "intent": "Browse a directory of experts in policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

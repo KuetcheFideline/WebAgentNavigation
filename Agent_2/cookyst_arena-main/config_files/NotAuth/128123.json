@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nbcmiami"
+  ],
+  "task_id": "128123",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nbcmiami.com",
+  "geolocation": null,
+  "intent_template": "Read a news summary about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "African Union news"
+  },
+  "intent": "Read a news summary about African Union news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

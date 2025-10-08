@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freeimages"
+  ],
+  "task_id": "168422",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freeimages.com",
+  "geolocation": null,
+  "intent_template": "Read about the benefits of using stock photos related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Read about the benefits of using stock photos related to education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

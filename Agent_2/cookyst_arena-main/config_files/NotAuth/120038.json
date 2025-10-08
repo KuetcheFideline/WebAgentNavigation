@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ipcheckhost"
+  ],
+  "task_id": "120038",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ipcheckhost.com",
+  "geolocation": null,
+  "intent_template": "Discover network career paths and certifications related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network engineering"
+  },
+  "intent": "Discover network career paths and certifications related to network engineering",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

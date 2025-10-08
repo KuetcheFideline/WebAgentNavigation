@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rescuetime"
+  ],
+  "task_id": "139980",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rescuetime.com",
+  "geolocation": null,
+  "intent_template": "Find offline resources for improving productivity in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "planners"
+  },
+  "intent": "Find offline resources for improving productivity in planners",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

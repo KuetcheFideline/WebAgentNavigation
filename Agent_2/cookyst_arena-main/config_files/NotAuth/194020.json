@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "onnetwork"
+  ],
+  "task_id": "194020",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://onnetwork.tv",
+  "geolocation": null,
+  "intent_template": "Browse video courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity"
+  },
+  "intent": "Browse video courses on cybersecurity",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cookieyes"
+  ],
+  "task_id": "137297",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cookieyes.com",
+  "geolocation": null,
+  "intent_template": "Identify key terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "privacy laws"
+  },
+  "intent": "Identify key terms related to privacy laws",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

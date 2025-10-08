@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rmf"
+  ],
+  "task_id": "142244",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rmf.fm",
+  "geolocation": null,
+  "intent_template": "Read reviews and ratings of radio shows about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "debates and opinions"
+  },
+  "intent": "Read reviews and ratings of radio shows about debates and opinions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

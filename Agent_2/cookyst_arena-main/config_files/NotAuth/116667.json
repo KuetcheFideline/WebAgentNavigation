@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rocketapps"
+  ],
+  "task_id": "116667",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rocketapps.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of mobile apps focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Read reviews of mobile apps focused on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "astrosage"
+  ],
+  "task_id": "26266",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://astrosage.com",
+  "geolocation": null,
+  "intent_template": "Learn about the astrological influences on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cosmological events and their impact on human history"
+  },
+  "intent": "Learn about the astrological influences on cosmological events and their impact on human history",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

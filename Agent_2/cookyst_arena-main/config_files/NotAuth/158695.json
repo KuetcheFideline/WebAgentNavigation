@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pagerduty"
+  ],
+  "task_id": "158695",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pagerduty.com",
+  "geolocation": null,
+  "intent_template": "Learn about a success story in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy successes"
+  },
+  "intent": "Learn about a success story in governance and policy successes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ada"
+  ],
+  "task_id": "99034",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ada.com",
+  "geolocation": null,
+  "intent_template": "Download or access free resources, such as e-books or whitepapers, about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical whitepapers"
+  },
+  "intent": "Download or access free resources, such as e-books or whitepapers, about medical whitepapers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

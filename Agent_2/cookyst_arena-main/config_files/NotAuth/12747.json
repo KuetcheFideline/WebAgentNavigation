@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "xhtube"
+  ],
+  "task_id": "12747",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://xhtube.life",
+  "geolocation": null,
+  "intent_template": "Discover books and eBooks on the legal implications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "publications on legal aspects of online content"
+  },
+  "intent": "Discover books and eBooks on the legal implications of publications on legal aspects of online content",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ziprecruiter"
+  ],
+  "task_id": "106959",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ziprecruiter.com",
+  "geolocation": null,
+  "intent_template": "Find job search guides for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "job search books"
+  },
+  "intent": "Find job search guides for job search books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

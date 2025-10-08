@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ancestry"
+  ],
+  "task_id": "91177",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ancestry.com.au",
+  "geolocation": null,
+  "intent_template": "Discover famous individuals related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "biographical dictionaries"
+  },
+  "intent": "Discover famous individuals related to biographical dictionaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

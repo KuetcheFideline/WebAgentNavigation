@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "instreamatic"
+  ],
+  "task_id": "16038",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://instreamatic.com",
+  "geolocation": null,
+  "intent_template": "Browse a library of e-books and research papers on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights e-books"
+  },
+  "intent": "Browse a library of e-books and research papers on human rights e-books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

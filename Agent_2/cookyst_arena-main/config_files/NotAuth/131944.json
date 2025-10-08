@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arionplay"
+  ],
+  "task_id": "131944",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arionplay.com",
+  "geolocation": null,
+  "intent_template": "Browse FAQs related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game rules"
+  },
+  "intent": "Browse FAQs related to game rules",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "listennotes"
+  ],
+  "task_id": "136785",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://listennotes.com",
+  "geolocation": null,
+  "intent_template": "Read descriptions of podcasts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and policy"
+  },
+  "intent": "Read descriptions of podcasts on education and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

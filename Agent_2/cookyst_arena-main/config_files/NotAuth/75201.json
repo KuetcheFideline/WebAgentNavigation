@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pastebin"
+  ],
+  "task_id": "75201",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pastebin.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the content of a file about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "analysis"
+  },
+  "intent": "Reflect on the content of a file about analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

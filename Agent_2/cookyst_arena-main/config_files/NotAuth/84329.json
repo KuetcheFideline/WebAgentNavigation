@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unity"
+  ],
+  "task_id": "84329",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unity.cn",
+  "geolocation": null,
+  "intent_template": "Learn about the history of games related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "retro games"
+  },
+  "intent": "Learn about the history of games related to retro games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

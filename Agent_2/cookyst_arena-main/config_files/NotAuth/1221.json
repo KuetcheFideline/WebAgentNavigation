@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "szamlazz"
+  ],
+  "task_id": "1221",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://szamlazz.hu",
+  "geolocation": null,
+  "intent_template": "Research the role of technology in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain"
+  },
+  "intent": "Research the role of technology in blockchain",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

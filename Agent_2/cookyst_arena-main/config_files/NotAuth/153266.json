@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pressbooks"
+  ],
+  "task_id": "153266",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pressbooks.pub",
+  "geolocation": null,
+  "intent_template": "Search for self-publishing communities focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal writing communities"
+  },
+  "intent": "Search for self-publishing communities focused on legal writing communities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

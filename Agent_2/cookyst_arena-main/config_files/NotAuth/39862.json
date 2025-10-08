@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "me"
+  ],
+  "task_id": "39862",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://me.com",
+  "geolocation": null,
+  "intent_template": "Understand the pricing plans for cloud storage services related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "free plans"
+  },
+  "intent": "Understand the pricing plans for cloud storage services related to free plans",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

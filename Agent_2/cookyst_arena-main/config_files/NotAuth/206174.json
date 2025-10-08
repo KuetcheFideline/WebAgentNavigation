@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "novel543"
+  ],
+  "task_id": "206174",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://novel543.com",
+  "geolocation": null,
+  "intent_template": "Read a web novel about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal fiction"
+  },
+  "intent": "Read a web novel about legal fiction",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

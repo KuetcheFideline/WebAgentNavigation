@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trip"
+  ],
+  "task_id": "188558",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trip.com",
+  "geolocation": null,
+  "intent_template": "Explore travel guides for destinations associated with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cultural heritage sites"
+  },
+  "intent": "Explore travel guides for destinations associated with cultural heritage sites",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

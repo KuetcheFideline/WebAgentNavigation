@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mgm"
+  ],
+  "task_id": "199170",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mgm.gov.tr",
+  "geolocation": null,
+  "intent_template": "Read about weather-related news and updates for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "weather blogs"
+  },
+  "intent": "Read about weather-related news and updates for weather blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

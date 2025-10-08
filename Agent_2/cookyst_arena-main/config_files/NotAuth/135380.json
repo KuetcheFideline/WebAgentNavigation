@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bitwarden"
+  ],
+  "task_id": "135380",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bitwarden.com",
+  "geolocation": null,
+  "intent_template": "Watch a tutorial on how to use a password manager for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "advanced features"
+  },
+  "intent": "Watch a tutorial on how to use a password manager for advanced features",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

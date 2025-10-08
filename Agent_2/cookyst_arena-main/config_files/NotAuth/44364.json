@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "birdie"
+  ],
+  "task_id": "44364",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://birdie.so",
+  "geolocation": null,
+  "intent_template": "Search for answers related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "quick start guides"
+  },
+  "intent": "Search for answers related to quick start guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

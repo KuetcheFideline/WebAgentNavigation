@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "so-net"
+  ],
+  "task_id": "105455",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://so-net.ne.jp",
+  "geolocation": null,
+  "intent_template": "Check the availability of internet services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "rural areas"
+  },
+  "intent": "Check the availability of internet services in rural areas",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

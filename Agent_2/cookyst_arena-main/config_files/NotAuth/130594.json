@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "actionnetwork"
+  ],
+  "task_id": "130594",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://actionnetwork.org",
+  "geolocation": null,
+  "intent_template": "Find {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education program employment"
+  },
+  "intent": "Find education program employment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

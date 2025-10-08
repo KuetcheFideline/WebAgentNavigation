@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudflarestatus"
+  ],
+  "task_id": "169260",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudflarestatus.com",
+  "geolocation": null,
+  "intent_template": "Research system trends related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "market analysis"
+  },
+  "intent": "Research system trends related to market analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

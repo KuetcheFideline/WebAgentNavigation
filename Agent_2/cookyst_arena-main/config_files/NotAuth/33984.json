@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crunchbase"
+  ],
+  "task_id": "33984",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crunchbase.com",
+  "geolocation": null,
+  "intent_template": "Take a free online course to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Coursera"
+  },
+  "intent": "Take a free online course to learn about Coursera",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

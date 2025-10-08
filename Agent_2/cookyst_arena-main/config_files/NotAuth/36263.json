@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wanuncios"
+  ],
+  "task_id": "36263",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wanuncios.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the usefulness of services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law firms"
+  },
+  "intent": "Reflect on the usefulness of services in law firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "weddingwire"
+  ],
+  "task_id": "210068",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://weddingwire.com",
+  "geolocation": null,
+  "intent_template": "Browse wedding dresses and attire for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cultural inspirations"
+  },
+  "intent": "Browse wedding dresses and attire for cultural inspirations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

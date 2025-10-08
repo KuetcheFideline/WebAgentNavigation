@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "happy-gambler"
+  ],
+  "task_id": "132700",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://happy-gambler.com",
+  "geolocation": null,
+  "intent_template": "Read an article about the regulatory environment of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "compliance issues"
+  },
+  "intent": "Read an article about the regulatory environment of compliance issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

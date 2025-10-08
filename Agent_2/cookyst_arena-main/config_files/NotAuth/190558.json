@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "viamichelin"
+  ],
+  "task_id": "190558",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://viamichelin.fr",
+  "geolocation": null,
+  "intent_template": "Find travel deals for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy meeting packages"
+  },
+  "intent": "Find travel deals for policy meeting packages",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

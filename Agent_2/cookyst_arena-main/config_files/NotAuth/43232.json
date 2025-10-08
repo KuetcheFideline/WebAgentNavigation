@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pump"
+  ],
+  "task_id": "43232",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pump.fun",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on the regulatory environment of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Digital assets"
+  },
+  "intent": "Watch a video lecture on the regulatory environment of Digital assets",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

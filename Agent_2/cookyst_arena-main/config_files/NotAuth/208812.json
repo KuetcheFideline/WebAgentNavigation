@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eftydns"
+  ],
+  "task_id": "208812",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eftydns.com",
+  "geolocation": null,
+  "intent_template": "Read about server backup strategies for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "continuous backups"
+  },
+  "intent": "Read about server backup strategies for continuous backups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

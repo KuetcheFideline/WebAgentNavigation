@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smartthings"
+  ],
+  "task_id": "101396",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smartthings.com",
+  "geolocation": null,
+  "intent_template": "Summarize {{topic}} ",
+  "instantiation_dict": {
+    "topic": "news articles"
+  },
+  "intent": "Summarize news articles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

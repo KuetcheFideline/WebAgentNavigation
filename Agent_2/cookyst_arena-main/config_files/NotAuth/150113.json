@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "altavista"
+  ],
+  "task_id": "150113",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://altavista.com",
+  "geolocation": null,
+  "intent_template": "Explore Wikipedia pages on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and justice"
+  },
+  "intent": "Explore Wikipedia pages on law and justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

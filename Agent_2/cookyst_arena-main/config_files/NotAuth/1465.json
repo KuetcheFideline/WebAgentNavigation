@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bidster"
+  ],
+  "task_id": "1465",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bidster.net",
+  "geolocation": null,
+  "intent_template": "Take offline notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital marketing summaries"
+  },
+  "intent": "Take offline notes on digital marketing summaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

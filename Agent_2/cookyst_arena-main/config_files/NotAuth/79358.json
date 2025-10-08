@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "refinitiv"
+  ],
+  "task_id": "79358",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://refinitiv.com",
+  "geolocation": null,
+  "intent_template": "Explore financial calculators and tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investment trackers"
+  },
+  "intent": "Explore financial calculators and tools for investment trackers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "transcend"
+  ],
+  "task_id": "52358",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://transcend.io",
+  "geolocation": null,
+  "intent_template": "Write a short essay or reflection on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "information security essay"
+  },
+  "intent": "Write a short essay or reflection on information security essay",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

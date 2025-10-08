@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "afrinic"
+  ],
+  "task_id": "120459",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://afrinic.net",
+  "geolocation": null,
+  "intent_template": "Discover upcoming events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy seminars"
+  },
+  "intent": "Discover upcoming events related to policy seminars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

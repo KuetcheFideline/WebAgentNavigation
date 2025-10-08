@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "angieslist"
+  ],
+  "task_id": "146923",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://angieslist.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Read reviews of online courses on legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

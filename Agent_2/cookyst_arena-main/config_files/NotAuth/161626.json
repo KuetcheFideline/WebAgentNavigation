@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hkjc"
+  ],
+  "task_id": "161626",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hkjc.com",
+  "geolocation": null,
+  "intent_template": "Find out about the latest sports betting trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "virtual sports"
+  },
+  "intent": "Find out about the latest sports betting trends in virtual sports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

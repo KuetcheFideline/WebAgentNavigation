@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tenor"
+  ],
+  "task_id": "115216",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tenor.co",
+  "geolocation": null,
+  "intent_template": "Reflect on what you have learned about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Reflect on what you have learned about human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

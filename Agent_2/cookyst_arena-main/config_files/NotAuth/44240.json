@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "frontapp"
+  ],
+  "task_id": "44240",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://frontapp.com",
+  "geolocation": null,
+  "intent_template": "Get help with placing an order for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "order guides"
+  },
+  "intent": "Get help with placing an order for order guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

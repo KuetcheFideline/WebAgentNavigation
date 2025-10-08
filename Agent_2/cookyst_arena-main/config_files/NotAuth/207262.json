@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "liveinternet"
+  ],
+  "task_id": "207262",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://liveinternet.ru",
+  "geolocation": null,
+  "intent_template": "Read about career paths in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal technologist"
+  },
+  "intent": "Read about career paths in legal technologist",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

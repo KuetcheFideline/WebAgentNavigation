@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "drdrab"
+  ],
+  "task_id": "208712",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://drdrab.com",
+  "geolocation": null,
+  "intent_template": "Understand server scalability for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "autoscaling"
+  },
+  "intent": "Understand server scalability for autoscaling",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

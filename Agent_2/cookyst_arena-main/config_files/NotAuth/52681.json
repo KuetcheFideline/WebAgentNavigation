@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gpmdata"
+  ],
+  "task_id": "52681",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gpmdata.ru",
+  "geolocation": null,
+  "intent_template": "Discover tools and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech tools"
+  },
+  "intent": "Discover tools and resources for legal tech tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

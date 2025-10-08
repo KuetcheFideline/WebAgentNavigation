@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "uxfeedback"
+  ],
+  "task_id": "192473",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://uxfeedback.ru",
+  "geolocation": null,
+  "intent_template": "Reflect on your own experiences with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational resources"
+  },
+  "intent": "Reflect on your own experiences with educational resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

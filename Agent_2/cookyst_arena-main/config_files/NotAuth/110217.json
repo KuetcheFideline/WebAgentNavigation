@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bluedart"
+  ],
+  "task_id": "110217",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bluedart.com",
+  "geolocation": null,
+  "intent_template": "Find information on logistics regulations and compliance in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "logistics standards"
+  },
+  "intent": "Find information on logistics regulations and compliance in logistics standards",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

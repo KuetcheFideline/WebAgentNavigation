@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vrtcal"
+  ],
+  "task_id": "1460",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vrtcal.com",
+  "geolocation": null,
+  "intent_template": "Browse through infographics or visual guides on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ad tech infographics"
+  },
+  "intent": "Browse through infographics or visual guides on ad tech infographics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

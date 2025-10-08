@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "octopus"
+  ],
+  "task_id": "64842",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://octopus.energy",
+  "geolocation": null,
+  "intent_template": "Read articles about the intersection of energy and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy news"
+  },
+  "intent": "Read articles about the intersection of energy and energy news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

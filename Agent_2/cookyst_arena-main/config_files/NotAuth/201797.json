@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wp-royal-themes"
+  ],
+  "task_id": "201797",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wp-royal-themes.com",
+  "geolocation": null,
+  "intent_template": "Summarize a research paper on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "thesis papers"
+  },
+  "intent": "Summarize a research paper on thesis papers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

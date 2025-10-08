@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ada"
+  ],
+  "task_id": "99032",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ada.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment to test knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health technology tests"
+  },
+  "intent": "Take a quiz or assessment to test knowledge about health technology tests",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

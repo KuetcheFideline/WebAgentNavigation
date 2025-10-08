@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "announcekit"
+  ],
+  "task_id": "137450",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://announcekit.app",
+  "geolocation": null,
+  "intent_template": "Join a community or forum to discuss {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal professionals"
+  },
+  "intent": "Join a community or forum to discuss legal professionals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

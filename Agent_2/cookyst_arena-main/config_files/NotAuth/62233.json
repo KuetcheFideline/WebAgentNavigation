@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "booklive"
+  ],
+  "task_id": "62233",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://booklive.jp",
+  "geolocation": null,
+  "intent_template": "Learn about new releases in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Learn about new releases in human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

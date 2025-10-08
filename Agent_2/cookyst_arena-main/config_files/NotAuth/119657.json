@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudtrax"
+  ],
+  "task_id": "119657",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudtrax.com",
+  "geolocation": null,
+  "intent_template": "Research network security threats related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "DDoS attacks"
+  },
+  "intent": "Research network security threats related to DDoS attacks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

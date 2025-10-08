@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "avaaz"
+  ],
+  "task_id": "1378",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://avaaz.org",
+  "geolocation": null,
+  "intent_template": "Search for and discover new organizations and initiatives related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "community development and empowerment"
+  },
+  "intent": "Search for and discover new organizations and initiatives related to community development and empowerment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

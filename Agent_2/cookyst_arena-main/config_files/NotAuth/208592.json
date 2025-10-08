@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mobshark"
+  ],
+  "task_id": "208592",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mobshark.net",
+  "geolocation": null,
+  "intent_template": "Read about server security best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "encryption methods"
+  },
+  "intent": "Read about server security best practices for encryption methods",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

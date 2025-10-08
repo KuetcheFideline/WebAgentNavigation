@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikimedia"
+  ],
+  "task_id": "130352",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikimedia.org",
+  "geolocation": null,
+  "intent_template": "Find volunteer opportunities with non-profit organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "community development projects"
+  },
+  "intent": "Find volunteer opportunities with non-profit organizations focused on community development projects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

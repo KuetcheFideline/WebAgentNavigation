@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "datezone"
+  ],
+  "task_id": "53477",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://datezone.com",
+  "geolocation": null,
+  "intent_template": "Discover events and meetups centered around {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social mixers"
+  },
+  "intent": "Discover events and meetups centered around social mixers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

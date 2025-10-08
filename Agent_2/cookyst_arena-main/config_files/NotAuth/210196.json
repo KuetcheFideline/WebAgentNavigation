@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ebird"
+  ],
+  "task_id": "210196",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ebird.org",
+  "geolocation": null,
+  "intent_template": "Stay updated on the latest research about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sustainable development research findings"
+  },
+  "intent": "Stay updated on the latest research about sustainable development research findings",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

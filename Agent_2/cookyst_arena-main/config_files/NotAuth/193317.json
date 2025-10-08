@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ssyoutube"
+  ],
+  "task_id": "193317",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ssyoutube.com",
+  "geolocation": null,
+  "intent_template": "Watch a video introduction to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public policy"
+  },
+  "intent": "Watch a video introduction to public policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

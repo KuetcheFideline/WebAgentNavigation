@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "city-data"
+  ],
+  "task_id": "103526",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://city-data.com",
+  "geolocation": null,
+  "intent_template": "Browse through a library of resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law texts"
+  },
+  "intent": "Browse through a library of resources on constitutional law texts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

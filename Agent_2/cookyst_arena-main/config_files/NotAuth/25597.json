@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "openai"
+  ],
+  "task_id": "25597",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://openai.com",
+  "geolocation": null,
+  "intent_template": "Read a newsletter about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "AI governance and policy"
+  },
+  "intent": "Read a newsletter about AI governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

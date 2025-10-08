@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dazn"
+  ],
+  "task_id": "162108",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dazn.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports analysis"
+  },
+  "intent": "Take notes on a video about sports analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "novel543"
+  ],
+  "task_id": "206247",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://novel543.com",
+  "geolocation": null,
+  "intent_template": "Get recommendations for web novels related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy-making and social change"
+  },
+  "intent": "Get recommendations for web novels related to policy-making and social change",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

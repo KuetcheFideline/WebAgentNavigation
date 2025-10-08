@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vrtcal"
+  ],
+  "task_id": "1428",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vrtcal.com",
+  "geolocation": null,
+  "intent_template": "Explore online resources and guides on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ad tech glossary"
+  },
+  "intent": "Explore online resources and guides on ad tech glossary",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

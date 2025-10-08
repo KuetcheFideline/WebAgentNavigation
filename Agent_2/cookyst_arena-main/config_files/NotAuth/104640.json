@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lacnic"
+  ],
+  "task_id": "104640",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lacnic.net",
+  "geolocation": null,
+  "intent_template": "Take an online course about domain registration and management for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights organizations"
+  },
+  "intent": "Take an online course about domain registration and management for human rights organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

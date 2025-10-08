@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "express"
+  ],
+  "task_id": "110009",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://express.dhl",
+  "geolocation": null,
+  "intent_template": "Learn about the importance of logistics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "transportation and logistics"
+  },
+  "intent": "Learn about the importance of logistics in transportation and logistics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

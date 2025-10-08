@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "teamviewer"
+  ],
+  "task_id": "145943",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://teamviewer.com",
+  "geolocation": null,
+  "intent_template": "Participate in a public discussion on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Participate in a public discussion on legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

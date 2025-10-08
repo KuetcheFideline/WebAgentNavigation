@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "slideshare"
+  ],
+  "task_id": "42179",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://slideshare.net",
+  "geolocation": null,
+  "intent_template": "Explore a blog on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "philosophy of law"
+  },
+  "intent": "Explore a blog on philosophy of law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

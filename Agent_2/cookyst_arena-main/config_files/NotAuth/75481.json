@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "stockcharts"
+  ],
+  "task_id": "75481",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://stockcharts.com",
+  "geolocation": null,
+  "intent_template": "Explore the relationship between {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economic growth"
+  },
+  "intent": "Explore the relationship between economic growth",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

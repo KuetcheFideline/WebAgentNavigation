@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cogeco"
+  ],
+  "task_id": "105527",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cogeco.ca",
+  "geolocation": null,
+  "intent_template": "Find tips on optimizing internet performance for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "router placement"
+  },
+  "intent": "Find tips on optimizing internet performance for router placement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

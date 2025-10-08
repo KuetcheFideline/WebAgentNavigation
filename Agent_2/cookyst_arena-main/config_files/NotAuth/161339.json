@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "speedsmart"
+  ],
+  "task_id": "161339",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://speedsmart.net",
+  "geolocation": null,
+  "intent_template": "Find tips on how to improve {{topic}} ",
+  "instantiation_dict": {
+    "topic": "upgrading hardware"
+  },
+  "intent": "Find tips on how to improve upgrading hardware",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

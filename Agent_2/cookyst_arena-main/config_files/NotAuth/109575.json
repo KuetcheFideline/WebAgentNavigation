@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "twitcasting"
+  ],
+  "task_id": "109575",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://twitcasting.tv",
+  "geolocation": null,
+  "intent_template": "Share a live stream about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and technology"
+  },
+  "intent": "Share a live stream about law and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

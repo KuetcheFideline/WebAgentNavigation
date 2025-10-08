@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "findmykids"
+  ],
+  "task_id": "74186",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://findmykids.org",
+  "geolocation": null,
+  "intent_template": "Find and contact local organizations or services related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit organizations"
+  },
+  "intent": "Find and contact local organizations or services related to non-profit organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

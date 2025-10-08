@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "up-manga"
+  ],
+  "task_id": "209886",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://up-manga.com",
+  "geolocation": null,
+  "intent_template": "Explore webtoons about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Explore webtoons about governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

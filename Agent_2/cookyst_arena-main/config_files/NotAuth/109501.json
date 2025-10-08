@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "streamlabs"
+  ],
+  "task_id": "109501",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://streamlabs.com",
+  "geolocation": null,
+  "intent_template": "View the schedule for upcoming live streams on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal education"
+  },
+  "intent": "View the schedule for upcoming live streams on legal education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

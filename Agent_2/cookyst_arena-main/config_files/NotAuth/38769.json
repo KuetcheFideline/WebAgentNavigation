@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloud"
+  ],
+  "task_id": "38769",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloud.gov",
+  "geolocation": null,
+  "intent_template": "Research cloud providers for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "compliance standards"
+  },
+  "intent": "Research cloud providers for compliance standards",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "myfitnesspal"
+  ],
+  "task_id": "99061",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://myfitnesspal.com",
+  "geolocation": null,
+  "intent_template": "Find inspiration for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fitness motivation stories"
+  },
+  "intent": "Find inspiration for fitness motivation stories",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikidot"
+  ],
+  "task_id": "210089",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikidot.com",
+  "geolocation": null,
+  "intent_template": "Browse wiki categories related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legislative drafting"
+  },
+  "intent": "Browse wiki categories related to legislative drafting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

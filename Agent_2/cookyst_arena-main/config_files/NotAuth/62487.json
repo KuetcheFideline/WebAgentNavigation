@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "signifyd"
+  ],
+  "task_id": "62487",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://signifyd.com",
+  "geolocation": null,
+  "intent_template": "Find a FAQ section on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security questions"
+  },
+  "intent": "Find a FAQ section on security questions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

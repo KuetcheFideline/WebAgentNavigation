@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "panorama9"
+  ],
+  "task_id": "102543",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://panorama9.com",
+  "geolocation": null,
+  "intent_template": "Find a definition for a term related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "acronyms"
+  },
+  "intent": "Find a definition for a term related to acronyms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

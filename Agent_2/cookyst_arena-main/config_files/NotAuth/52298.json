@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ctrls"
+  ],
+  "task_id": "52298",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ctrls.in",
+  "geolocation": null,
+  "intent_template": "Search for FAQs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocacy"
+  },
+  "intent": "Search for FAQs about human rights advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

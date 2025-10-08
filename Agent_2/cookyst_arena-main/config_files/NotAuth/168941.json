@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hdtodayz"
+  ],
+  "task_id": "168941",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hdtodayz.to",
+  "geolocation": null,
+  "intent_template": "Look up the release date of a documentary about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Look up the release date of a documentary about constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chocolatey"
+  ],
+  "task_id": "160899",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chocolatey.org",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal software knowledge test"
+  },
+  "intent": "Take a quiz to test knowledge about legal software knowledge test",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

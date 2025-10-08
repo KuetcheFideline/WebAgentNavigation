@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thebalancecareers"
+  ],
+  "task_id": "34691",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thebalancecareers.com",
+  "geolocation": null,
+  "intent_template": "Read articles and blogs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Read articles and blogs about human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

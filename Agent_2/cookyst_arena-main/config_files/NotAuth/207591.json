@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "web"
+  ],
+  "task_id": "207591",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://web.de",
+  "geolocation": null,
+  "intent_template": "Discover books and publications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Discover books and publications on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

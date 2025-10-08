@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lockton"
+  ],
+  "task_id": "104148",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lockton.com",
+  "geolocation": null,
+  "intent_template": "Browse insurance products for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "property insurance products"
+  },
+  "intent": "Browse insurance products for property insurance products",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

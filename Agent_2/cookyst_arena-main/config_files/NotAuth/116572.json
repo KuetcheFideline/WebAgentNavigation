@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "globalsecurity"
+  ],
+  "task_id": "116572",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://globalsecurity.org",
+  "geolocation": null,
+  "intent_template": "Read an article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international law and military operations"
+  },
+  "intent": "Read an article on international law and military operations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

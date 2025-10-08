@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yota"
+  ],
+  "task_id": "186323",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yota.ru",
+  "geolocation": null,
+  "intent_template": "Create a list of questions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry trends"
+  },
+  "intent": "Create a list of questions about industry trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

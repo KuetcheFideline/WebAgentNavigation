@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sarkariresult"
+  ],
+  "task_id": "103628",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sarkariresult.com.cm",
+  "geolocation": null,
+  "intent_template": "Browse a list of recommended resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research guides"
+  },
+  "intent": "Browse a list of recommended resources on legal research guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mysql"
+  ],
+  "task_id": "52884",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mysql.com",
+  "geolocation": null,
+  "intent_template": "Take an online course on database management for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational outcomes"
+  },
+  "intent": "Take an online course on database management for educational outcomes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

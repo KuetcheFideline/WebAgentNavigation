@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "office365"
+  ],
+  "task_id": "140353",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://office365.us",
+  "geolocation": null,
+  "intent_template": "Explore podcasts on productivity and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-improvement podcasts"
+  },
+  "intent": "Explore podcasts on productivity and self-improvement podcasts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

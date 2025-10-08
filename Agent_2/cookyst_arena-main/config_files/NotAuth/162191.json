@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yinzcam"
+  ],
+  "task_id": "162191",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yinzcam.com",
+  "geolocation": null,
+  "intent_template": "Download and use mobile apps related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports news"
+  },
+  "intent": "Download and use mobile apps related to sports news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

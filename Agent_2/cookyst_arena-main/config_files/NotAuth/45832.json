@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "spamhaus"
+  ],
+  "task_id": "45832",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://spamhaus.net",
+  "geolocation": null,
+  "intent_template": "Read an article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection regulations"
+  },
+  "intent": "Read an article on data protection regulations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

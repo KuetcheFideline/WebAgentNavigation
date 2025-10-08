@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "retailmenot"
+  ],
+  "task_id": "42431",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://retailmenot.com",
+  "geolocation": null,
+  "intent_template": "Find limited-time offers for legal resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Find limited-time offers for legal resources on policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "samba"
+  ],
+  "task_id": "134640",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://samba.org",
+  "geolocation": null,
+  "intent_template": "Read a blog post about the impact of open-source software on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech innovation"
+  },
+  "intent": "Read a blog post about the impact of open-source software on legal tech innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

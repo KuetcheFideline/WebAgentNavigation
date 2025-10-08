@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "melcloud"
+  ],
+  "task_id": "106307",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://melcloud.com",
+  "geolocation": null,
+  "intent_template": "Read articles about the impact of IoT on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economy"
+  },
+  "intent": "Read articles about the impact of IoT on economy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

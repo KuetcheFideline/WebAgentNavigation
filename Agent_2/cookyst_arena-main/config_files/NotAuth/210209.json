@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ebird"
+  ],
+  "task_id": "210209",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ebird.org",
+  "geolocation": null,
+  "intent_template": "Explore a photo gallery about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ecosystem management visuals"
+  },
+  "intent": "Explore a photo gallery about ecosystem management visuals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

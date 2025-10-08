@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "myfin"
+  ],
+  "task_id": "75717",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://myfin.by",
+  "geolocation": null,
+  "intent_template": "Read about the financial aspects of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "trade law"
+  },
+  "intent": "Read about the financial aspects of trade law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

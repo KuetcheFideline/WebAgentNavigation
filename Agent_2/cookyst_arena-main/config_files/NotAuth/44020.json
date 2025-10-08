@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "frontapp"
+  ],
+  "task_id": "44020",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://frontapp.com",
+  "geolocation": null,
+  "intent_template": "Contact customer service for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "phone numbers"
+  },
+  "intent": "Contact customer service for phone numbers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

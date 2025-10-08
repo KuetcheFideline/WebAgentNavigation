@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nfcube"
+  ],
+  "task_id": "63412",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nfcube.com",
+  "geolocation": null,
+  "intent_template": "Take notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online course market analysis"
+  },
+  "intent": "Take notes on online course market analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

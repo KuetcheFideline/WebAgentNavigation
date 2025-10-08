@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pingtest"
+  ],
+  "task_id": "120088",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pingtest.net",
+  "geolocation": null,
+  "intent_template": "Research network news and trends related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry developments"
+  },
+  "intent": "Research network news and trends related to industry developments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

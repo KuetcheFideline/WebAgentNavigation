@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "radiosarajevo"
+  ],
+  "task_id": "120805",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://radiosarajevo.ba",
+  "geolocation": null,
+  "intent_template": "Search for news articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "court decisions"
+  },
+  "intent": "Search for news articles about court decisions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

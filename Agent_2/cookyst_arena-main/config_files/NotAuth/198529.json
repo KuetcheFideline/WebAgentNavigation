@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "flareflow"
+  ],
+  "task_id": "198529",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://flareflow.tv",
+  "geolocation": null,
+  "intent_template": "Find videos related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "evidence law"
+  },
+  "intent": "Find videos related to evidence law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

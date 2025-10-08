@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pensador"
+  ],
+  "task_id": "142116",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pensador.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the plot and characters in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "plot diagrams"
+  },
+  "intent": "Get an overview of the plot and characters in plot diagrams",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

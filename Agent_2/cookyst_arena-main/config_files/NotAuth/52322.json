@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "soax"
+  ],
+  "task_id": "52322",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://soax.com",
+  "geolocation": null,
+  "intent_template": "Read an article about data extraction techniques in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights research"
+  },
+  "intent": "Read an article about data extraction techniques in human rights research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

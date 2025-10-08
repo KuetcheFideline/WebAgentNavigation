@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "follow"
+  ],
+  "task_id": "120680",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://follow.it",
+  "geolocation": null,
+  "intent_template": "Explore a news series on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law reforms"
+  },
+  "intent": "Explore a news series on constitutional law reforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

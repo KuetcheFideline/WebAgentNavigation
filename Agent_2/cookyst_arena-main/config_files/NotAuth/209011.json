@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "flagcounter"
+  ],
+  "task_id": "209011",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://flagcounter.com",
+  "geolocation": null,
+  "intent_template": "Download mobile apps or browser extensions related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy tools"
+  },
+  "intent": "Download mobile apps or browser extensions related to governance and policy tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

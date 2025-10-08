@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "knowbe4"
+  ],
+  "task_id": "51280",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://knowbe4.com",
+  "geolocation": null,
+  "intent_template": "Identify a career path related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection professions"
+  },
+  "intent": "Identify a career path related to data protection professions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

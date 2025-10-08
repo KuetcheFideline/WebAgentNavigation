@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "oszar"
+  ],
+  "task_id": "208482",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://oszar.com",
+  "geolocation": null,
+  "intent_template": "Read articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech articles"
+  },
+  "intent": "Read articles about legal tech articles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

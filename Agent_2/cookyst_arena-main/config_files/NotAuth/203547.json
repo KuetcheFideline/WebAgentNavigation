@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "serverstack"
+  ],
+  "task_id": "203547",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://serverstack.com",
+  "geolocation": null,
+  "intent_template": "Read reviews about web hosting services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blogging platforms"
+  },
+  "intent": "Read reviews about web hosting services for blogging platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

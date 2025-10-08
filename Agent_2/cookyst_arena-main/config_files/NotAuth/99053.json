@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "myfitnesspal"
+  ],
+  "task_id": "99053",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://myfitnesspal.com",
+  "geolocation": null,
+  "intent_template": "Learn about the benefits of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "yoga for flexibility"
+  },
+  "intent": "Learn about the benefits of yoga for flexibility",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

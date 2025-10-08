@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "n8n"
+  ],
+  "task_id": "210280",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://n8n.cloud",
+  "geolocation": null,
+  "intent_template": "Learn about workflow automation for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "webinars"
+  },
+  "intent": "Learn about workflow automation for webinars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

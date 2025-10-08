@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "iucn"
+  ],
+  "task_id": "73358",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://iucn.org",
+  "geolocation": null,
+  "intent_template": "Explore infographics about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sustainable development indicators"
+  },
+  "intent": "Explore infographics about sustainable development indicators",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

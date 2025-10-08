@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "atomex"
+  ],
+  "task_id": "43663",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://atomex.net",
+  "geolocation": null,
+  "intent_template": "Read a blog post about the intersection of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Smart contracts and policy"
+  },
+  "intent": "Read a blog post about the intersection of Smart contracts and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

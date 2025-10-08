@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "baby-calendar"
+  ],
+  "task_id": "135249",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://baby-calendar.jp",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance in parenting study notes"
+  },
+  "intent": "Summarize notes on governance in parenting study notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

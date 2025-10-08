@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "charter"
+  ],
+  "task_id": "105246",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://charter.net",
+  "geolocation": null,
+  "intent_template": "Discover internet services available for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "satellite internet"
+  },
+  "intent": "Discover internet services available for satellite internet",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

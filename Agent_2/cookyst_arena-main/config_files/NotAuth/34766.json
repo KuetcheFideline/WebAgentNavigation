@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazon"
+  ],
+  "task_id": "34766",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazon.work",
+  "geolocation": null,
+  "intent_template": "Explore online resources and tools for learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Explore online resources and tools for learning about policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

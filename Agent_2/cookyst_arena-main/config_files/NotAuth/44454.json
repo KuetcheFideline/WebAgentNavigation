@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "reamaze"
+  ],
+  "task_id": "44454",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://reamaze.com",
+  "geolocation": null,
+  "intent_template": "Read a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "product updates"
+  },
+  "intent": "Read a blog post about product updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trip"
+  ],
+  "task_id": "188528",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trip.com",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "destination guides"
+  },
+  "intent": "Offline destination guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

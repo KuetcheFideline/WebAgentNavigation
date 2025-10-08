@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amfam"
+  ],
+  "task_id": "103814",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amfam.com",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy selection"
+  },
+  "intent": "Offline policy selection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

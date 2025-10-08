@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "calendly"
+  ],
+  "task_id": "139457",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://calendly.com",
+  "geolocation": null,
+  "intent_template": "Discover apps for tracking progress on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "task managers"
+  },
+  "intent": "Discover apps for tracking progress on task managers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

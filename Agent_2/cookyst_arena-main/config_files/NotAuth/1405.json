@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vrtcal"
+  ],
+  "task_id": "1405",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vrtcal.com",
+  "geolocation": null,
+  "intent_template": "Plan a personal project to apply {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital marketing campaigns"
+  },
+  "intent": "Plan a personal project to apply digital marketing campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

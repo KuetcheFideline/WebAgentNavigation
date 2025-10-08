@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wechatpay"
+  ],
+  "task_id": "135780",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wechatpay.cn",
+  "geolocation": null,
+  "intent_template": "Find answers to frequently asked questions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "transaction fees"
+  },
+  "intent": "Find answers to frequently asked questions about transaction fees",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

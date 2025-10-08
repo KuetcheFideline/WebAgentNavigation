@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazoncognito"
+  ],
+  "task_id": "36691",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazoncognito.com",
+  "geolocation": null,
+  "intent_template": "Learn about cloud services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity"
+  },
+  "intent": "Learn about cloud services for cybersecurity",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

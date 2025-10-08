@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "evidence"
+  ],
+  "task_id": "107245",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://evidence.com",
+  "geolocation": null,
+  "intent_template": "Read articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law enforcement technology advancements"
+  },
+  "intent": "Read articles about law enforcement technology advancements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

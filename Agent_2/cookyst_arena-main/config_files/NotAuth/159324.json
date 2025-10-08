@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "oupeng"
+  ],
+  "task_id": "159324",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://oupeng.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "software for legal research"
+  },
+  "intent": "Read an article about software for legal research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

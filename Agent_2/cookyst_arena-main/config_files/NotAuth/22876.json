@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "latam"
+  ],
+  "task_id": "22876",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://latam.com",
+  "geolocation": null,
+  "intent_template": "Learn about airline policies and procedures for trips related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "check-in procedures"
+  },
+  "intent": "Learn about airline policies and procedures for trips related to check-in procedures",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

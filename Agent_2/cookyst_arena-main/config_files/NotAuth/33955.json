@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "looker"
+  ],
+  "task_id": "33955",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://looker.com",
+  "geolocation": null,
+  "intent_template": "Find resources on getting started with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online courses"
+  },
+  "intent": "Find resources on getting started with online courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

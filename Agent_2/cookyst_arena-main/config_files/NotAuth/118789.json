@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pandora"
+  ],
+  "task_id": "118789",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pandora.net",
+  "geolocation": null,
+  "intent_template": "Learn about the music industry and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "music business"
+  },
+  "intent": "Learn about the music industry and music business",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

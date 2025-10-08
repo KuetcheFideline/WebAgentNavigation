@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "osticket"
+  ],
+  "task_id": "101343",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://osticket.com",
+  "geolocation": null,
+  "intent_template": "Take a tour of the help desk software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Take a tour of the help desk software for policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

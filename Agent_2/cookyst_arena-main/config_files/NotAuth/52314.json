@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ctrls"
+  ],
+  "task_id": "52314",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ctrls.in",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and data privacy"
+  },
+  "intent": "Take a quiz to test knowledge about human rights and data privacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

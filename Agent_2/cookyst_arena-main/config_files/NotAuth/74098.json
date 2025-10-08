@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sli"
+  ],
+  "task_id": "74098",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sli.do",
+  "geolocation": null,
+  "intent_template": "Find tips and advice on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "event planning and management"
+  },
+  "intent": "Find tips and advice on event planning and management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

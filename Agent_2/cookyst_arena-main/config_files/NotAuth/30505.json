@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mbank"
+  ],
+  "task_id": "30505",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mbank.pl",
+  "geolocation": null,
+  "intent_template": "Learn about mobile banking apps for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "account alerts"
+  },
+  "intent": "Learn about mobile banking apps for account alerts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

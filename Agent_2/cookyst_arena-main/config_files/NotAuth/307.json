@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "springernature"
+  ],
+  "task_id": "307",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://springernature.com",
+  "geolocation": null,
+  "intent_template": "Read and download a free chapter on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Read and download a free chapter on education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "logdna"
+  ],
+  "task_id": "51900",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://logdna.com",
+  "geolocation": null,
+  "intent_template": "Explore a dataset related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education system data"
+  },
+  "intent": "Explore a dataset related to education system data",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

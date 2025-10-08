@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mailjet"
+  ],
+  "task_id": "64532",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mailjet.com",
+  "geolocation": null,
+  "intent_template": "Understand how to use email for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "time management"
+  },
+  "intent": "Understand how to use email for time management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

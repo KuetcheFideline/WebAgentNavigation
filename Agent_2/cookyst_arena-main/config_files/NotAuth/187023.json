@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tiqets"
+  ],
+  "task_id": "187023",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tiqets.com",
+  "geolocation": null,
+  "intent_template": "Read about past events on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to justice"
+  },
+  "intent": "Read about past events on access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

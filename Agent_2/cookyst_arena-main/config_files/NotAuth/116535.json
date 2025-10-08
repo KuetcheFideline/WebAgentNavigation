@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "telegram"
+  ],
+  "task_id": "116535",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://telegram.im",
+  "geolocation": null,
+  "intent_template": "Browse public messages about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law discussions"
+  },
+  "intent": "Browse public messages about constitutional law discussions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

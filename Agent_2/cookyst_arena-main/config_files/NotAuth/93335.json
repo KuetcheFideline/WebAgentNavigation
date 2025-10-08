@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nyc"
+  ],
+  "task_id": "93335",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nyc.gov",
+  "geolocation": null,
+  "intent_template": "Read about the government's stance on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Read about the government's stance on human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "up-manga"
+  ],
+  "task_id": "209839",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://up-manga.com",
+  "geolocation": null,
+  "intent_template": "Read a webtoon about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital governance"
+  },
+  "intent": "Read a webtoon about digital governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

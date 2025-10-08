@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "author"
+  ],
+  "task_id": "62044",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://author.today",
+  "geolocation": null,
+  "intent_template": "Find e-books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance reports"
+  },
+  "intent": "Find e-books about governance reports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

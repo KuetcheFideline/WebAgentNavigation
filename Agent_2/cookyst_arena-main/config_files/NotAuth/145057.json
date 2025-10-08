@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freepatentsonline"
+  ],
+  "task_id": "145057",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freepatentsonline.com",
+  "geolocation": null,
+  "intent_template": "Look up FAQs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy questions"
+  },
+  "intent": "Look up FAQs on governance and policy questions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

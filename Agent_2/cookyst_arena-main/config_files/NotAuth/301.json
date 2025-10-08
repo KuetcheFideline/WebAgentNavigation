@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sciencedirect"
+  ],
+  "task_id": "301",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sciencedirect.com",
+  "geolocation": null,
+  "intent_template": "Read and download a free chapter on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal reform"
+  },
+  "intent": "Read and download a free chapter on legal reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

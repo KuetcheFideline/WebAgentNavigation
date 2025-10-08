@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "solarweb"
+  ],
+  "task_id": "146159",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://solarweb.com",
+  "geolocation": null,
+  "intent_template": "Find and watch documentaries or videos related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sustainable energy videos"
+  },
+  "intent": "Find and watch documentaries or videos related to sustainable energy videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

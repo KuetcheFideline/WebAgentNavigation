@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "carscoops"
+  ],
+  "task_id": "26633",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://carscoops.com",
+  "geolocation": null,
+  "intent_template": "Find a list of recommended books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sustainable energy"
+  },
+  "intent": "Find a list of recommended books about sustainable energy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "santandernetibe"
+  ],
+  "task_id": "30563",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://santandernetibe.com.br",
+  "geolocation": null,
+  "intent_template": "Learn about mobile banking apps for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "mobile deposit"
+  },
+  "intent": "Learn about mobile banking apps for mobile deposit",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boschsecurity"
+  ],
+  "task_id": "153193",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boschsecurity.com",
+  "geolocation": null,
+  "intent_template": "Search for information about security standards in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "HIPAA"
+  },
+  "intent": "Search for information about security standards in HIPAA",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

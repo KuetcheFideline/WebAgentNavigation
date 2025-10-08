@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ccleaner"
+  ],
+  "task_id": "192631",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ccleaner.com",
+  "geolocation": null,
+  "intent_template": "Read reviews and testimonials from users of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy tools"
+  },
+  "intent": "Read reviews and testimonials from users of policy tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "action-media"
+  ],
+  "task_id": "115550",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://action-media.ru",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "the importance of human rights"
+  },
+  "intent": "Read an article about the importance of human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

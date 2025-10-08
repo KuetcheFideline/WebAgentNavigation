@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "depor"
+  ],
+  "task_id": "167120",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://depor.com",
+  "geolocation": null,
+  "intent_template": "Find online resources for learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports data visualization"
+  },
+  "intent": "Find online resources for learning about sports data visualization",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

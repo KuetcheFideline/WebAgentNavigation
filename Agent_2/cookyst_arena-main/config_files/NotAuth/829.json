@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ingentaconnect"
+  ],
+  "task_id": "829",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ingentaconnect.com",
+  "geolocation": null,
+  "intent_template": "Search for academic articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legislative analysis"
+  },
+  "intent": "Search for academic articles about legislative analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

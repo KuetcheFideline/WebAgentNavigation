@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smhi"
+  ],
+  "task_id": "199814",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smhi.se",
+  "geolocation": null,
+  "intent_template": "Read about weather forecasts for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Yaoundé"
+  },
+  "intent": "Read about weather forecasts for Yaoundé",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "zillow"
+  ],
+  "task_id": "144306",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://zillow.com",
+  "geolocation": null,
+  "intent_template": "Calculate the costs of buying a property in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "mortgage calculator"
+  },
+  "intent": "Calculate the costs of buying a property in mortgage calculator",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

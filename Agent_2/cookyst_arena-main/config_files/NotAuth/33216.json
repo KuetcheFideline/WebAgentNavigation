@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "werite"
+  ],
+  "task_id": "33216",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://werite.net",
+  "geolocation": null,
+  "intent_template": "Take notes on a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "note-taking on legal tech articles"
+  },
+  "intent": "Take notes on a blog post about note-taking on legal tech articles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

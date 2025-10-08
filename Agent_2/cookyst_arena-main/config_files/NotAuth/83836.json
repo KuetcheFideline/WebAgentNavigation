@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "readwrite"
+  ],
+  "task_id": "83836",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://readwrite.com",
+  "geolocation": null,
+  "intent_template": "Find and download a guide to responsible gaming practices in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "resources for problem gamblers"
+  },
+  "intent": "Find and download a guide to responsible gaming practices in resources for problem gamblers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

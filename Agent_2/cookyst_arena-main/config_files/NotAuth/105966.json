@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netcologne"
+  ],
+  "task_id": "105966",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://netcologne.de",
+  "geolocation": null,
+  "intent_template": "Get information on internet-related careers in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "IT project management"
+  },
+  "intent": "Get information on internet-related careers in IT project management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

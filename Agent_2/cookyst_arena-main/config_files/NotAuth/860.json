@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ingentaconnect"
+  ],
+  "task_id": "860",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ingentaconnect.com",
+  "geolocation": null,
+  "intent_template": "Look for upcoming events about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conferences"
+  },
+  "intent": "Look for upcoming events about conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

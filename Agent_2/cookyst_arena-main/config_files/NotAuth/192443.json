@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "uxfeedback"
+  ],
+  "task_id": "192443",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://uxfeedback.ru",
+  "geolocation": null,
+  "intent_template": "Learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "usability testing"
+  },
+  "intent": "Learn about usability testing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

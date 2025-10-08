@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unionbankonline"
+  ],
+  "task_id": "131549",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unionbankonline.co.in",
+  "geolocation": null,
+  "intent_template": "Find a branch or ATM location for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "zip code search"
+  },
+  "intent": "Find a branch or ATM location for zip code search",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

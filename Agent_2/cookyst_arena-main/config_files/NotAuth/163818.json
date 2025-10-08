@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "runsignup"
+  ],
+  "task_id": "163818",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://runsignup.com",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on the fundamentals of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports management"
+  },
+  "intent": "Watch a video lecture on the fundamentals of sports management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

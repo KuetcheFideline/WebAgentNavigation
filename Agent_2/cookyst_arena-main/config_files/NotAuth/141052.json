@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lua"
+  ],
+  "task_id": "141052",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lua.org",
+  "geolocation": null,
+  "intent_template": "Get an introduction to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "beginner's guide"
+  },
+  "intent": "Get an introduction to beginner's guide",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

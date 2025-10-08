@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thegamer"
+  ],
+  "task_id": "84695",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thegamer.com",
+  "geolocation": null,
+  "intent_template": "Learn about the latest news and updates related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game releases"
+  },
+  "intent": "Learn about the latest news and updates related to game releases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

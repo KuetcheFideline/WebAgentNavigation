@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sierraclub"
+  ],
+  "task_id": "73572",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sierraclub.org",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conservation efforts"
+  },
+  "intent": "Take a quiz to test your knowledge about conservation efforts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

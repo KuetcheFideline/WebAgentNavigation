@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikidot"
+  ],
+  "task_id": "210107",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikidot.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a wiki article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy papers"
+  },
+  "intent": "Take notes on a wiki article about policy papers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

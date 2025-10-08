@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rescuetime"
+  ],
+  "task_id": "139181",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rescuetime.com",
+  "geolocation": null,
+  "intent_template": "Explore online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "task management"
+  },
+  "intent": "Explore online courses on task management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

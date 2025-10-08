@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wireshark"
+  ],
+  "task_id": "119589",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wireshark.org",
+  "geolocation": null,
+  "intent_template": "Discover network analysis research papers on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research repositories"
+  },
+  "intent": "Discover network analysis research papers on research repositories",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

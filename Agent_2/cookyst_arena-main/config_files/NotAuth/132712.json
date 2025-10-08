@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "betlive"
+  ],
+  "task_id": "132712",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://betlive.com",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on the technology and innovation in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain"
+  },
+  "intent": "Watch a video lecture on the technology and innovation in blockchain",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

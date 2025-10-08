@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "taimi"
+  ],
+  "task_id": "53705",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://taimi.com",
+  "geolocation": null,
+  "intent_template": "Research the importance of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "trust"
+  },
+  "intent": "Research the importance of trust",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

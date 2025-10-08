@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bnbchain"
+  ],
+  "task_id": "32018",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bnbchain.org",
+  "geolocation": null,
+  "intent_template": "Understand the challenges of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "smart contract security risks"
+  },
+  "intent": "Understand the challenges of smart contract security risks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

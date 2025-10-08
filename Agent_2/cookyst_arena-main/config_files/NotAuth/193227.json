@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "heygen"
+  ],
+  "task_id": "193227",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://heygen.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Take notes on a video about human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

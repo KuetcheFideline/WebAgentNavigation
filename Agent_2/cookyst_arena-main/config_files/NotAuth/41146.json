@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unilever"
+  ],
+  "task_id": "41146",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unilever.com",
+  "geolocation": null,
+  "intent_template": "Discover new products related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "emerging technologies"
+  },
+  "intent": "Discover new products related to emerging technologies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "globalpoker"
+  ],
+  "task_id": "133776",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://globalpoker.com",
+  "geolocation": null,
+  "intent_template": "Find reviews of games that focus on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game reviews"
+  },
+  "intent": "Find reviews of games that focus on game reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

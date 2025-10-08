@@ -36,7 +36,7 @@ def get_nodes(dom_tree, nodes_info, attr, attrval, mode: int=0, use_elem: int=0)
  
 def step_once(env, trajectory, render_helper, traces, state_info, agent, args, intent, meta_data, target_action):    
     obs_info = state_info["info"]["observation_metadata"]["text"]
-    images = state_info["info"]["images"]
+    # images = state_info["info"]["images"]
     dom_info, nodes_info = obs_info["dom_info"], obs_info["obs_nodes_info"]
     dom_tree = dom_info["dom_tree"]
     raw_html = dom_info["raw_html"]
@@ -48,8 +48,7 @@ def step_once(env, trajectory, render_helper, traces, state_info, agent, args, i
         trajectory, intent, meta_data, target_action
     )
 
-    print('[prompt] ', prompt)
-    print('[action] ', action)
+   
     
     # our_dom_tree = copy.deepcopy(dom_tree)
     # for elem in our_dom_tree:
@@ -82,7 +81,7 @@ def step_once(env, trajectory, render_helper, traces, state_info, agent, args, i
                 'raw_html': raw_html,
                 'nodes_info': nodes_info,
                 'raw_action': myaction,
-                'images': images,
+                # 'images': images,
             },
         })
     

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "baby-calendar"
+  ],
+  "task_id": "135272",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://baby-calendar.jp",
+  "geolocation": null,
+  "intent_template": "Find and save a checklist on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "child rights checklist"
+  },
+  "intent": "Find and save a checklist on child rights checklist",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

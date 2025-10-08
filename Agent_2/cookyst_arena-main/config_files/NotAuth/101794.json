@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudbeds"
+  ],
+  "task_id": "101794",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudbeds.com",
+  "geolocation": null,
+  "intent_template": "Browse through a catalog of courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal technology and innovation"
+  },
+  "intent": "Browse through a catalog of courses on legal technology and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

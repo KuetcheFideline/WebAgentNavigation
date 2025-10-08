@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sundaysky"
+  ],
+  "task_id": "194108",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sundaysky.com",
+  "geolocation": null,
+  "intent_template": "Find videos with subtitles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "jurisprudence"
+  },
+  "intent": "Find videos with subtitles about jurisprudence",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ldplayer"
+  ],
+  "task_id": "159064",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ldplayer.net",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech note-taking"
+  },
+  "intent": "Summarize notes on legal tech note-taking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "playbill"
+  ],
+  "task_id": "26016",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://playbill.com",
+  "geolocation": null,
+  "intent_template": "Read an article or blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "theater styles"
+  },
+  "intent": "Read an article or blog post about theater styles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

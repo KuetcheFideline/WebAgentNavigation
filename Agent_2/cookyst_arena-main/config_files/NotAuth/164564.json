@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tycsports"
+  ],
+  "task_id": "164564",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tycsports.com",
+  "geolocation": null,
+  "intent_template": "Explore a podcast series on the intersection of sports and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economics"
+  },
+  "intent": "Explore a podcast series on the intersection of sports and economics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "harpercollins"
+  ],
+  "task_id": "141825",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://harpercollins.com",
+  "geolocation": null,
+  "intent_template": "Take notes on an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights in the digital age"
+  },
+  "intent": "Take notes on an article about human rights in the digital age",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

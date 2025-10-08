@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kotak"
+  ],
+  "task_id": "30998",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kotak.com",
+  "geolocation": null,
+  "intent_template": "Find information on banking career opportunities for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "professional certifications"
+  },
+  "intent": "Find information on banking career opportunities for professional certifications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

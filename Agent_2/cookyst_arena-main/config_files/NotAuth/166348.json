@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "terrikon"
+  ],
+  "task_id": "166348",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://terrikon.com",
+  "geolocation": null,
+  "intent_template": "Discover a new book on the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "championships"
+  },
+  "intent": "Discover a new book on the history of championships",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

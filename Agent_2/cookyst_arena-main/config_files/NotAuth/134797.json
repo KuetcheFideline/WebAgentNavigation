@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "weblate"
+  ],
+  "task_id": "134797",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://weblate.org",
+  "geolocation": null,
+  "intent_template": "Find tutorials and guides for getting started with open-source projects in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech tutorials"
+  },
+  "intent": "Find tutorials and guides for getting started with open-source projects in legal tech tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

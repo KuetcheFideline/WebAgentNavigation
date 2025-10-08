@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freeimages"
+  ],
+  "task_id": "168376",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freeimages.com",
+  "geolocation": null,
+  "intent_template": "Learn about the different types of stock photos available for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "image types"
+  },
+  "intent": "Learn about the different types of stock photos available for image types",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

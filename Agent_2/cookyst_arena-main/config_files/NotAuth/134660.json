@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wordpress"
+  ],
+  "task_id": "134660",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wordpress.org",
+  "geolocation": null,
+  "intent_template": "Browse a directory of open-source projects related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational software for language learning"
+  },
+  "intent": "Browse a directory of open-source projects related to educational software for language learning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

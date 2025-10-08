@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unionbankonline"
+  ],
+  "task_id": "131605",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unionbankonline.co.in",
+  "geolocation": null,
+  "intent_template": "Explore career opportunities in banking for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "professional development"
+  },
+  "intent": "Explore career opportunities in banking for professional development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

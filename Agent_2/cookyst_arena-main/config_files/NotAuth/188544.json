@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trip"
+  ],
+  "task_id": "188544",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trip.com",
+  "geolocation": null,
+  "intent_template": "Search for flights to destinations relevant to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law hubs"
+  },
+  "intent": "Search for flights to destinations relevant to constitutional law hubs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

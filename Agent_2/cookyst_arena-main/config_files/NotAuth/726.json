@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crossref"
+  ],
+  "task_id": "726",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crossref.org",
+  "geolocation": null,
+  "intent_template": "Summarize a research article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "abstract writing"
+  },
+  "intent": "Summarize a research article on abstract writing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

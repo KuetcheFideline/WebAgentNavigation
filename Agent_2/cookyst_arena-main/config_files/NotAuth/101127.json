@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "doxy"
+  ],
+  "task_id": "101127",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://doxy.me",
+  "geolocation": null,
+  "intent_template": "Find information about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health policymakers"
+  },
+  "intent": "Find information about health policymakers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

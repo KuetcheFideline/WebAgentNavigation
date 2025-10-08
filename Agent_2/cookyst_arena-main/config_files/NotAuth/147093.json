@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "commonsensemedia"
+  ],
+  "task_id": "147093",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://commonsensemedia.org",
+  "geolocation": null,
+  "intent_template": "Compare features and reviews of different legal tech platforms for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "practice management"
+  },
+  "intent": "Compare features and reviews of different legal tech platforms for practice management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

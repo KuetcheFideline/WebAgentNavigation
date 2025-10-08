@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "baza-knig"
+  ],
+  "task_id": "115020",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://baza-knig.rip",
+  "geolocation": null,
+  "intent_template": "Read reviews of audiobooks on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Read reviews of audiobooks on human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

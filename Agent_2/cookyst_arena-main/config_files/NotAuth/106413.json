@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "computrabajo"
+  ],
+  "task_id": "106413",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://computrabajo.com",
+  "geolocation": null,
+  "intent_template": "Search for job openings in the field of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Search for job openings in the field of governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

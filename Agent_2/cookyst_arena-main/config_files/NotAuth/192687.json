@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "duke-energy"
+  ],
+  "task_id": "192687",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://duke-energy.com",
+  "geolocation": null,
+  "intent_template": "View a map of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "water distribution networks"
+  },
+  "intent": "View a map of water distribution networks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

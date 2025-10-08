@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gotoassist"
+  ],
+  "task_id": "160927",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gotoassist.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech quiz"
+  },
+  "intent": "Take a quiz to test knowledge about legal tech quiz",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

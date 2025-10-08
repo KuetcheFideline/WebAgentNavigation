@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fec"
+  ],
+  "task_id": "96872",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fec.gov",
+  "geolocation": null,
+  "intent_template": "Browse through a gallery of images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech innovations"
+  },
+  "intent": "Browse through a gallery of images related to legal tech innovations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

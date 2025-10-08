@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boschsecurity"
+  ],
+  "task_id": "153201",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boschsecurity.com",
+  "geolocation": null,
+  "intent_template": "Explore a list of security resources in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online courses"
+  },
+  "intent": "Explore a list of security resources in online courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

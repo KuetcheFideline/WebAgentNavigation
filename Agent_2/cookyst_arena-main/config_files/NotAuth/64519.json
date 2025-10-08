@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazonses"
+  ],
+  "task_id": "64519",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazonses.com",
+  "geolocation": null,
+  "intent_template": "Understand how to use email for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "email client settings"
+  },
+  "intent": "Understand how to use email for email client settings",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

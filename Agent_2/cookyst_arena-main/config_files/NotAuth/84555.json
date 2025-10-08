@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hoyolab"
+  ],
+  "task_id": "84555",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hoyolab.com",
+  "geolocation": null,
+  "intent_template": "Browse a forum discussion about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game development chat rooms"
+  },
+  "intent": "Browse a forum discussion about game development chat rooms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

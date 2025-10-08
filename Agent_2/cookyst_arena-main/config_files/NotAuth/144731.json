@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "qrz"
+  ],
+  "task_id": "144731",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://qrz.com",
+  "geolocation": null,
+  "intent_template": "Summarize an article or chapter on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights reports"
+  },
+  "intent": "Summarize an article or chapter on human rights reports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

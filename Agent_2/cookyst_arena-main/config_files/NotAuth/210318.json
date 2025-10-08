@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "grammarly"
+  ],
+  "task_id": "210318",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://grammarly.com",
+  "geolocation": null,
+  "intent_template": "Read articles and guides on effective writing in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal writing tips"
+  },
+  "intent": "Read articles and guides on effective writing in legal writing tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

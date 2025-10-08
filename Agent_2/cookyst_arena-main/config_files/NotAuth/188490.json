@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "realtimetrains"
+  ],
+  "task_id": "188490",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://realtimetrains.co.uk",
+  "geolocation": null,
+  "intent_template": "Explore a transportation-related topic in depth {{topic}} ",
+  "instantiation_dict": {
+    "topic": "transportation topics"
+  },
+  "intent": "Explore a transportation-related topic in depth transportation topics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

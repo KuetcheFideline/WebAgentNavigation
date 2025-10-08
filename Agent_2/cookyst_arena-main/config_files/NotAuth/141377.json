@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ipidea"
+  ],
+  "task_id": "141377",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ipidea.io",
+  "geolocation": null,
+  "intent_template": "Read about proxy server types for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "SOCKS proxies"
+  },
+  "intent": "Read about proxy server types for SOCKS proxies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

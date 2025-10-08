@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "free2move"
+  ],
+  "task_id": "34621",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://free2move.com",
+  "geolocation": null,
+  "intent_template": "Get inspired for your next trip with car rental options in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "city guides"
+  },
+  "intent": "Get inspired for your next trip with car rental options in city guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

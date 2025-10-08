@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gotomeet"
+  ],
+  "task_id": "146081",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gotomeet.me",
+  "geolocation": null,
+  "intent_template": "Evaluate the benefits of virtual meetings for discussing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "enhanced collaboration"
+  },
+  "intent": "Evaluate the benefits of virtual meetings for discussing enhanced collaboration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

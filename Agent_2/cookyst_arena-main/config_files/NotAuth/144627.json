@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "recruit"
+  ],
+  "task_id": "144627",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://recruit.co.jp",
+  "geolocation": null,
+  "intent_template": "Discover new job opportunities in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government agencies"
+  },
+  "intent": "Discover new job opportunities in government agencies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

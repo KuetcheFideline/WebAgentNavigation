@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "frontapp"
+  ],
+  "task_id": "44283",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://frontapp.com",
+  "geolocation": null,
+  "intent_template": "Understand the product warranty and support for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "troubleshooting tips"
+  },
+  "intent": "Understand the product warranty and support for troubleshooting tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

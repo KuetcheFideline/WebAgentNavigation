@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "infor"
+  ],
+  "task_id": "65543",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://infor.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of courses or training programs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "training programs for governance and technology"
+  },
+  "intent": "Browse a catalog of courses or training programs on training programs for governance and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

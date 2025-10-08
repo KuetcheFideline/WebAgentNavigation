@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "biblegateway"
+  ],
+  "task_id": "145674",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://biblegateway.com",
+  "geolocation": null,
+  "intent_template": "Learn about the history and development of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Religious education and history"
+  },
+  "intent": "Learn about the history and development of Religious education and history",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

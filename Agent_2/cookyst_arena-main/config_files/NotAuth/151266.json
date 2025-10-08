@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "151266",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://google.com.my",
+  "geolocation": null,
+  "intent_template": "Discover podcasts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal podcasts"
+  },
+  "intent": "Discover podcasts on legal podcasts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

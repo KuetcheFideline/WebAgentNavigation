@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "govee"
+  ],
+  "task_id": "153617",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://govee.com",
+  "geolocation": null,
+  "intent_template": "Discover new {{topic}} ",
+  "instantiation_dict": {
+    "topic": "smart displays"
+  },
+  "intent": "Discover new smart displays",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

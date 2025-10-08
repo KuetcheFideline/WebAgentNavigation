@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "livesport"
+  ],
+  "task_id": "165537",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://livesport.cz",
+  "geolocation": null,
+  "intent_template": "Search for research papers on the impact of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "artificial intelligence"
+  },
+  "intent": "Search for research papers on the impact of artificial intelligence",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "onnetwork"
+  ],
+  "task_id": "193999",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://onnetwork.tv",
+  "geolocation": null,
+  "intent_template": "Search for videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "comparative law"
+  },
+  "intent": "Search for videos about comparative law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

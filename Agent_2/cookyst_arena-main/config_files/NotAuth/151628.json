@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cludo"
+  ],
+  "task_id": "151628",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cludo.com",
+  "geolocation": null,
+  "intent_template": "Search for infographics and visualizations on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance data"
+  },
+  "intent": "Search for infographics and visualizations on governance data",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

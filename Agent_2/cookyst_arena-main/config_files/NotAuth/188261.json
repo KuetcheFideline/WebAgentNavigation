@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bolt"
+  ],
+  "task_id": "188261",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bolt.eu",
+  "geolocation": null,
+  "intent_template": "Discover new transportation options for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "bike-sharing systems"
+  },
+  "intent": "Discover new transportation options for bike-sharing systems",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

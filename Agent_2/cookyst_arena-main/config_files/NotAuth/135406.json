@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bitwarden"
+  ],
+  "task_id": "135406",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bitwarden.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge of password management for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "password manager features"
+  },
+  "intent": "Take a quiz to test your knowledge of password management for password manager features",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

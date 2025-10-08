@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "extreme-ip-lookup"
+  ],
+  "task_id": "120001",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://extreme-ip-lookup.com",
+  "geolocation": null,
+  "intent_template": "Explore network tools and software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network management"
+  },
+  "intent": "Explore network tools and software for network management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

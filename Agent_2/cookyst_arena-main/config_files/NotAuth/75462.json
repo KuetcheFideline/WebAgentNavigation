@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "polymarket"
+  ],
+  "task_id": "75462",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://polymarket.com",
+  "geolocation": null,
+  "intent_template": "Explore the relationship between {{topic}} ",
+  "instantiation_dict": {
+    "topic": "poverty reduction"
+  },
+  "intent": "Explore the relationship between poverty reduction",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

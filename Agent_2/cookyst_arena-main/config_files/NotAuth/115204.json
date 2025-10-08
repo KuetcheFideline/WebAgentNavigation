@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "riverside"
+  ],
+  "task_id": "115204",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://riverside.fm",
+  "geolocation": null,
+  "intent_template": "Read a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and governance in the media"
+  },
+  "intent": "Read a blog post about human rights and governance in the media",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

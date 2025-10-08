@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "creativecommons"
+  ],
+  "task_id": "130531",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://creativecommons.org",
+  "geolocation": null,
+  "intent_template": "Read blog posts and articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and governance"
+  },
+  "intent": "Read blog posts and articles about constitutional law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

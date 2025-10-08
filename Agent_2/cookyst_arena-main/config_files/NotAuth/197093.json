@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bilibili"
+  ],
+  "task_id": "197093",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bilibili.tv",
+  "geolocation": null,
+  "intent_template": "Learn about the latest developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "bar exam preparation"
+  },
+  "intent": "Learn about the latest developments in bar exam preparation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

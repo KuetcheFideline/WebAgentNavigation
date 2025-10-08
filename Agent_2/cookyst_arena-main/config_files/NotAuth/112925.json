@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "esputnik"
+  ],
+  "task_id": "112925",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://esputnik.com",
+  "geolocation": null,
+  "intent_template": "Explore a blog on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "influencer marketing"
+  },
+  "intent": "Explore a blog on influencer marketing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

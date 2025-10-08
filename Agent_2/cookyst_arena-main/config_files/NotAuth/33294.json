@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "writeablog"
+  ],
+  "task_id": "33294",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://writeablog.net",
+  "geolocation": null,
+  "intent_template": "Reflect on the content of a post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "pondering education policy effects"
+  },
+  "intent": "Reflect on the content of a post about pondering education policy effects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

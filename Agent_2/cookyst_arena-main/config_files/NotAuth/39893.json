@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "photobucket"
+  ],
+  "task_id": "39893",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://photobucket.com",
+  "geolocation": null,
+  "intent_template": "Learn about the mobile apps available for accessing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "mobile optimization"
+  },
+  "intent": "Learn about the mobile apps available for accessing mobile optimization",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

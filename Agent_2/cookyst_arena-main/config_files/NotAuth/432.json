@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "taylorandfrancis"
+  ],
+  "task_id": "432",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://taylorandfrancis.com",
+  "geolocation": null,
+  "intent_template": "Explore the archives of a academic journal on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research ethics"
+  },
+  "intent": "Explore the archives of a academic journal on research ethics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arcgisonline"
+  ],
+  "task_id": "91259",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arcgisonline.com",
+  "geolocation": null,
+  "intent_template": "Watch a video introduction to GIS and its relevance to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "location-based services"
+  },
+  "intent": "Watch a video introduction to GIS and its relevance to location-based services",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

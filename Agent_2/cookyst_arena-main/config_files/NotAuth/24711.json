@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gemini"
+  ],
+  "task_id": "24711",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gemini.google",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "AI for governance"
+  },
+  "intent": "Read an article about AI for governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

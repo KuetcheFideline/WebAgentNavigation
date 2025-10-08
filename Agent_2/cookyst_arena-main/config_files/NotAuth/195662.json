@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "animeunity"
+  ],
+  "task_id": "195662",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://animeunity.so",
+  "geolocation": null,
+  "intent_template": "Read the description of a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "judicial review"
+  },
+  "intent": "Read the description of a video about judicial review",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

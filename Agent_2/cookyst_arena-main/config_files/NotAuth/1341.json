@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bookstime"
+  ],
+  "task_id": "1341",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bookstime.com",
+  "geolocation": null,
+  "intent_template": "Search for a specific topic or keyword related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial terms"
+  },
+  "intent": "Search for a specific topic or keyword related to financial terms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

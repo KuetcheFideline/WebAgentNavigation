@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "3bmeteo"
+  ],
+  "task_id": "199450",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://3bmeteo.com",
+  "geolocation": null,
+  "intent_template": "Find weather-related tools and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "weather APIs"
+  },
+  "intent": "Find weather-related tools and resources for weather APIs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

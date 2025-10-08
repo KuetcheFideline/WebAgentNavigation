@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "waze"
+  ],
+  "task_id": "119546",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://waze.com",
+  "geolocation": null,
+  "intent_template": "Find information about public transportation options in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ride-hailing"
+  },
+  "intent": "Find information about public transportation options in ride-hailing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

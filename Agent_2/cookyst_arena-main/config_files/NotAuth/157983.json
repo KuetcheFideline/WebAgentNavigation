@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "atlassian"
+  ],
+  "task_id": "157983",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://atlassian.net",
+  "geolocation": null,
+  "intent_template": "Take notes on the key concepts of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "important concepts in software development for law"
+  },
+  "intent": "Take notes on the key concepts of important concepts in software development for law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

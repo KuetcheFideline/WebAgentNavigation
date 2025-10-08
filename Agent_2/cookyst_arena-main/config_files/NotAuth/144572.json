@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lever"
+  ],
+  "task_id": "144572",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lever.co",
+  "geolocation": null,
+  "intent_template": "Discover companies hiring in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit organizations"
+  },
+  "intent": "Discover companies hiring in non-profit organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

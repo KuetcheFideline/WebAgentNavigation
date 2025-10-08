@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ifit"
+  ],
+  "task_id": "81153",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ifit.com",
+  "geolocation": null,
+  "intent_template": "Find motivational stories about overcoming {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fitness journeys"
+  },
+  "intent": "Find motivational stories about overcoming fitness journeys",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

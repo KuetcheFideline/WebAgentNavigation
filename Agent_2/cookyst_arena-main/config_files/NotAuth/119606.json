@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wireshark"
+  ],
+  "task_id": "119606",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wireshark.org",
+  "geolocation": null,
+  "intent_template": "Read blogs or articles on network analysis for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Towards Data Science"
+  },
+  "intent": "Read blogs or articles on network analysis for Towards Data Science",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

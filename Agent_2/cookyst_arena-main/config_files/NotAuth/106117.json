@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mender"
+  ],
+  "task_id": "106117",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mender.io",
+  "geolocation": null,
+  "intent_template": "Learn about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Timeline of IoT milestones"
+  },
+  "intent": "Learn about the history of Timeline of IoT milestones",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

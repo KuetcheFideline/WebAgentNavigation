@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nationbuilder"
+  ],
+  "task_id": "137129",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nationbuilder.com",
+  "geolocation": null,
+  "intent_template": "Reflect on current events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "opinion pieces"
+  },
+  "intent": "Reflect on current events related to opinion pieces",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

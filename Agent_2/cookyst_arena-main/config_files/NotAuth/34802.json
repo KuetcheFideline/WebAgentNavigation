@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chatango"
+  ],
+  "task_id": "34802",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chatango.com",
+  "geolocation": null,
+  "intent_template": "Browse public discussions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy updates"
+  },
+  "intent": "Browse public discussions about policy updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

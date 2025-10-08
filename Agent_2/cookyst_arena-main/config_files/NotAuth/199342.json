@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yr"
+  ],
+  "task_id": "199342",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yr.no",
+  "geolocation": null,
+  "intent_template": "Search for weather-related information and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "mobile apps"
+  },
+  "intent": "Search for weather-related information and resources for mobile apps",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "oszar"
+  ],
+  "task_id": "208502",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://oszar.com",
+  "geolocation": null,
+  "intent_template": "Find online communities about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech communities"
+  },
+  "intent": "Find online communities about legal tech communities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

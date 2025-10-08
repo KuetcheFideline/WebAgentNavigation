@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ntt"
+  ],
+  "task_id": "184911",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ntt.com",
+  "geolocation": null,
+  "intent_template": "Search for a definition of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry jargon"
+  },
+  "intent": "Search for a definition of industry jargon",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "okcupid"
+  ],
+  "task_id": "53265",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://okcupid.com",
+  "geolocation": null,
+  "intent_template": "Browse through profiles highlighting {{topic}} ",
+  "instantiation_dict": {
+    "topic": "hobbies"
+  },
+  "intent": "Browse through profiles highlighting hobbies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

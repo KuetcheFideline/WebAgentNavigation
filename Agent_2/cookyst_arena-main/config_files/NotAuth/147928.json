@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ebi"
+  ],
+  "task_id": "147928",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ebi.ac.uk",
+  "geolocation": null,
+  "intent_template": "Discover educational institutions offering programs in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "schools with education for innovation programs"
+  },
+  "intent": "Discover educational institutions offering programs in schools with education for innovation programs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

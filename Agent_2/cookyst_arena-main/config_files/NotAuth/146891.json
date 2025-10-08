@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "angieslist"
+  ],
+  "task_id": "146891",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://angieslist.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the relevance of reviews and ratings for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Reflect on the relevance of reviews and ratings for education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

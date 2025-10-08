@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "constellix"
+  ],
+  "task_id": "119709",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://constellix.com",
+  "geolocation": null,
+  "intent_template": "Learn about network fundamentals for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network protocols"
+  },
+  "intent": "Learn about network fundamentals for network protocols",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

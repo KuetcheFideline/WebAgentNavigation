@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "appbrain"
+  ],
+  "task_id": "24268",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://appbrain.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of apps related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law enforcement apps"
+  },
+  "intent": "Get an overview of apps related to law enforcement apps",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

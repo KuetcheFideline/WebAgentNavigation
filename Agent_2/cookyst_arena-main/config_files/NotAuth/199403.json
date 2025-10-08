@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amberweather"
+  ],
+  "task_id": "199403",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amberweather.com",
+  "geolocation": null,
+  "intent_template": "Get an introduction to weather forecasting and its applications for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "meteorology 101"
+  },
+  "intent": "Get an introduction to weather forecasting and its applications for meteorology 101",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

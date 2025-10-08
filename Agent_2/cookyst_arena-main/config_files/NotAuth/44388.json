@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "birdie"
+  ],
+  "task_id": "44388",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://birdie.so",
+  "geolocation": null,
+  "intent_template": "Get an overview of the support process for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "process maps"
+  },
+  "intent": "Get an overview of the support process for process maps",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

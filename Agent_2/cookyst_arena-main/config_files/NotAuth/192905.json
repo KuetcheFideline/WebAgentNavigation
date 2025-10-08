@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wlvpn"
+  ],
+  "task_id": "192905",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wlvpn.com",
+  "geolocation": null,
+  "intent_template": "Learn about the common uses of VPNs for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online education and research"
+  },
+  "intent": "Learn about the common uses of VPNs for online education and research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

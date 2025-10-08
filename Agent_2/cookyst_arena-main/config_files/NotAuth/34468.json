@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "inc"
+  ],
+  "task_id": "34468",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://inc.com",
+  "geolocation": null,
+  "intent_template": "Find a business or professional organization related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "networking groups"
+  },
+  "intent": "Find a business or professional organization related to networking groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

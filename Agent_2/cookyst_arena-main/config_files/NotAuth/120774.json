@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "radiosarajevo"
+  ],
+  "task_id": "120774",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://radiosarajevo.ba",
+  "geolocation": null,
+  "intent_template": "Evaluate the impact of a news story related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "global governance"
+  },
+  "intent": "Evaluate the impact of a news story related to global governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "libramemoria"
+  ],
+  "task_id": "131507",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://libramemoria.com",
+  "geolocation": null,
+  "intent_template": "Read a biography or memoir about a notable figure in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Read a biography or memoir about a notable figure in legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

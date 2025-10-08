@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "justgiving"
+  ],
+  "task_id": "132629",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://justgiving.com",
+  "geolocation": null,
+  "intent_template": "Find fundraising tips and strategies for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education for all fundraising tips"
+  },
+  "intent": "Find fundraising tips and strategies for education for all fundraising tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

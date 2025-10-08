@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jci"
+  ],
+  "task_id": "116383",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jci.org",
+  "geolocation": null,
+  "intent_template": "Discover a new medical research tool or technology related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical research tools"
+  },
+  "intent": "Discover a new medical research tool or technology related to medical research tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

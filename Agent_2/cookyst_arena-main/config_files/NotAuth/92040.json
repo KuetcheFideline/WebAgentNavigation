@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "masothue"
+  ],
+  "task_id": "92040",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://masothue.com",
+  "geolocation": null,
+  "intent_template": "Discover government initiatives for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "environmental protection"
+  },
+  "intent": "Discover government initiatives for environmental protection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

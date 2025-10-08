@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goodsync"
+  ],
+  "task_id": "28556",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goodsync.com",
+  "geolocation": null,
+  "intent_template": "Find tips on how to manage your backup storage for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "storage management"
+  },
+  "intent": "Find tips on how to manage your backup storage for storage management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

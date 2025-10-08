@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "spacex"
+  ],
+  "task_id": "22583",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://spacex.com",
+  "geolocation": null,
+  "intent_template": "Read an article about the latest developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "space news"
+  },
+  "intent": "Read an article about the latest developments in space news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

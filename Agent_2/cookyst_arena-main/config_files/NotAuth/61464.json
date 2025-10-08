@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nic"
+  ],
+  "task_id": "61464",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nic.xyz",
+  "geolocation": null,
+  "intent_template": "Understand the difference between domain registration and web hosting for websites about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research"
+  },
+  "intent": "Understand the difference between domain registration and web hosting for websites about legal research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

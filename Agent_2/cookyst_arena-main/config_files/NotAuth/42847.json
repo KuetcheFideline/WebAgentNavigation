@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bitfinex"
+  ],
+  "task_id": "42847",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bitfinex.com",
+  "geolocation": null,
+  "intent_template": "Understand the risks associated with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "regulatory risks"
+  },
+  "intent": "Understand the risks associated with regulatory risks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bet365"
+  ],
+  "task_id": "31525",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bet365.es",
+  "geolocation": null,
+  "intent_template": "Discover how {{topic}} ",
+  "instantiation_dict": {
+    "topic": "licensing authorities"
+  },
+  "intent": "Discover how licensing authorities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

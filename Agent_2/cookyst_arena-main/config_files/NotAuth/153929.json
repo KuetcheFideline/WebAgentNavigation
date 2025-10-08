@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "7tv"
+  ],
+  "task_id": "153929",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://7tv.app",
+  "geolocation": null,
+  "intent_template": "Create an outline about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Create an outline about human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

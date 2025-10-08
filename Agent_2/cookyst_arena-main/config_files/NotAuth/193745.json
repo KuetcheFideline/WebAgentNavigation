@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "inshot"
+  ],
+  "task_id": "193745",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://inshot.cc",
+  "geolocation": null,
+  "intent_template": "Take an online course on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "learning platforms"
+  },
+  "intent": "Take an online course on learning platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

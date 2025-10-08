@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "samsunghealth"
+  ],
+  "task_id": "99625",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://samsunghealth.com",
+  "geolocation": null,
+  "intent_template": "Explore wellness resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "mental health"
+  },
+  "intent": "Explore wellness resources related to mental health",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

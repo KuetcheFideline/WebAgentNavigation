@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "moveyourhand"
+  ],
+  "task_id": "9330",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://moveyourhand.com",
+  "geolocation": null,
+  "intent_template": "Learn about organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "organizations advocating for digital privacy"
+  },
+  "intent": "Learn about organizations focused on organizations advocating for digital privacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "researchandmarkets"
+  ],
+  "task_id": "111877",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://researchandmarkets.com",
+  "geolocation": null,
+  "intent_template": "Watch videos and webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights concerns"
+  },
+  "intent": "Watch videos and webinars on human rights concerns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

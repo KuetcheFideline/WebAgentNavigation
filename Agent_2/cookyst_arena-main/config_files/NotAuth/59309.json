@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "overdrive"
+  ],
+  "task_id": "59309",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://overdrive.com",
+  "geolocation": null,
+  "intent_template": "Discover new authors and their works on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "biographies of lawyers"
+  },
+  "intent": "Discover new authors and their works on biographies of lawyers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

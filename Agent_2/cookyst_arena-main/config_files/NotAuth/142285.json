@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wnyc"
+  ],
+  "task_id": "142285",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wnyc.org",
+  "geolocation": null,
+  "intent_template": "Discover new radio podcasts about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and technology"
+  },
+  "intent": "Discover new radio podcasts about education and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

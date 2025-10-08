@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rmg"
+  ],
+  "task_id": "187546",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rmg.co.uk",
+  "geolocation": null,
+  "intent_template": "Read travel stories and testimonials related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "travel blogs"
+  },
+  "intent": "Read travel stories and testimonials related to travel blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "stihi"
+  ],
+  "task_id": "109355",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://stihi.ru",
+  "geolocation": null,
+  "intent_template": "Find blogs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal education blogs"
+  },
+  "intent": "Find blogs on legal education blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

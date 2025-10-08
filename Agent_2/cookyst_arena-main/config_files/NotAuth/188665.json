@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "redbus"
+  ],
+  "task_id": "188665",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://redbus.in",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "photo albums"
+  },
+  "intent": "Offline photo albums",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

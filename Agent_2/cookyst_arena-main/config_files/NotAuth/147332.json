@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tapsi"
+  ],
+  "task_id": "147332",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tapsi.ir",
+  "geolocation": null,
+  "intent_template": "Estimate the time of arrival for a ride related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance schedule"
+  },
+  "intent": "Estimate the time of arrival for a ride related to governance schedule",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

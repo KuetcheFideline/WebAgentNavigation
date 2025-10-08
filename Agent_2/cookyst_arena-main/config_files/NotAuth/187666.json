@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "snowmtl"
+  ],
+  "task_id": "187666",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://snowmtl.ru",
+  "geolocation": null,
+  "intent_template": "Find a translation service that offers certified translations for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "certified translation services"
+  },
+  "intent": "Find a translation service that offers certified translations for certified translation services",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

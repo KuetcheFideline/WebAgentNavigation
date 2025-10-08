@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mckesson"
+  ],
+  "task_id": "100701",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mckesson.com",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "telemedicine"
+  },
+  "intent": "Watch a video lecture about telemedicine",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

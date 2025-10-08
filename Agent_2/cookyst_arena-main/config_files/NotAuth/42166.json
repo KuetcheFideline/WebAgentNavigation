@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "slideshare"
+  ],
+  "task_id": "42166",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://slideshare.net",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "intellectual property"
+  },
+  "intent": "Watch a video lecture on intellectual property",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

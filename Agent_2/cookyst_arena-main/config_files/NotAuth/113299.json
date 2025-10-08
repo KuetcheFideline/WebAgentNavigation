@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "buzzsumo"
+  ],
+  "task_id": "113299",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://buzzsumo.com",
+  "geolocation": null,
+  "intent_template": "Read about marketing strategies for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law firms"
+  },
+  "intent": "Read about marketing strategies for law firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikidot"
+  ],
+  "task_id": "210096",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikidot.com",
+  "geolocation": null,
+  "intent_template": "Explore wiki-based learning resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance capacity building"
+  },
+  "intent": "Explore wiki-based learning resources about governance capacity building",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

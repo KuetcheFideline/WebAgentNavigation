@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "swannsecurity"
+  ],
+  "task_id": "153145",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://swannsecurity.com",
+  "geolocation": null,
+  "intent_template": "Discover security resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security communities"
+  },
+  "intent": "Discover security resources for security communities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jdownloader"
+  ],
+  "task_id": "61553",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jdownloader.org",
+  "geolocation": null,
+  "intent_template": "Explore free downloadable materials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "free online courses"
+  },
+  "intent": "Explore free downloadable materials on free online courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

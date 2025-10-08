@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "braintree-api"
+  ],
+  "task_id": "135551",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://braintree-api.com",
+  "geolocation": null,
+  "intent_template": "Find a payment service that supports {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online courses"
+  },
+  "intent": "Find a payment service that supports online courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

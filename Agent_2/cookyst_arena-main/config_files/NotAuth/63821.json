@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ankiweb"
+  ],
+  "task_id": "63821",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ankiweb.net",
+  "geolocation": null,
+  "intent_template": "Take a free online course or tutorial on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public speaking"
+  },
+  "intent": "Take a free online course or tutorial on public speaking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

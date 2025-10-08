@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tapsi"
+  ],
+  "task_id": "147365",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tapsi.ir",
+  "geolocation": null,
+  "intent_template": "Read an article about the benefits of ride-sharing related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education ride-sharing benefits"
+  },
+  "intent": "Read an article about the benefits of ride-sharing related to education ride-sharing benefits",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

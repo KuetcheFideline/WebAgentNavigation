@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudtrax"
+  ],
+  "task_id": "119647",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudtrax.com",
+  "geolocation": null,
+  "intent_template": "Understand network performance metrics for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network monitoring tools"
+  },
+  "intent": "Understand network performance metrics for network monitoring tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

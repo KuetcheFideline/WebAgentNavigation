@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "consentmanager"
+  ],
+  "task_id": "137292",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://consentmanager.net",
+  "geolocation": null,
+  "intent_template": "Identify key terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "compliance"
+  },
+  "intent": "Identify key terms related to compliance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

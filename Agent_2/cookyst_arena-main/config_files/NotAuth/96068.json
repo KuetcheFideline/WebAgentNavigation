@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yok"
+  ],
+  "task_id": "96068",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yok.gov.tr",
+  "geolocation": null,
+  "intent_template": "Find contact information for government offices related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public administration"
+  },
+  "intent": "Find contact information for government offices related to public administration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

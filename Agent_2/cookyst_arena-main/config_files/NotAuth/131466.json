@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "funeral-notices"
+  ],
+  "task_id": "131466",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://funeral-notices.co.uk",
+  "geolocation": null,
+  "intent_template": "Search for information about a deceased lawyer or policy advisor in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and policy analysis"
+  },
+  "intent": "Search for information about a deceased lawyer or policy advisor in education and policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

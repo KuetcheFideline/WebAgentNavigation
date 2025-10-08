@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazonbot"
+  ],
+  "task_id": "201036",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazonbot.amazon",
+  "geolocation": null,
+  "intent_template": "Summarize notes and key takeaways from learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal outlines"
+  },
+  "intent": "Summarize notes and key takeaways from learning about legal outlines",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

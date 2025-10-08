@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "justgiving"
+  ],
+  "task_id": "132637",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://justgiving.com",
+  "geolocation": null,
+  "intent_template": "Discover new fundraising platforms for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education for all platforms"
+  },
+  "intent": "Discover new fundraising platforms for education for all platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ecobee"
+  ],
+  "task_id": "153648",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ecobee.com",
+  "geolocation": null,
+  "intent_template": "Find tutorials and guides for setting up and using {{topic}} ",
+  "instantiation_dict": {
+    "topic": "setup instructions"
+  },
+  "intent": "Find tutorials and guides for setting up and using setup instructions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

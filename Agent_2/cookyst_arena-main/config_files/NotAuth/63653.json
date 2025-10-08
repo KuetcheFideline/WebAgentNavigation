@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "toytheater"
+  ],
+  "task_id": "63653",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://toytheater.com",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and freedoms"
+  },
+  "intent": "Summarize notes on human rights and freedoms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

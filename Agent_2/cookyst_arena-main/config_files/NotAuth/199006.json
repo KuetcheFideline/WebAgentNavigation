@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wm"
+  ],
+  "task_id": "199006",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wm.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of waste management products and services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "waste reduction"
+  },
+  "intent": "Browse a catalog of waste management products and services for waste reduction",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

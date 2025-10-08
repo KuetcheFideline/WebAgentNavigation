@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "transparency"
+  ],
+  "task_id": "131241",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://transparency.org",
+  "geolocation": null,
+  "intent_template": "Stay updated on news and trends related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development"
+  },
+  "intent": "Stay updated on news and trends related to education and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

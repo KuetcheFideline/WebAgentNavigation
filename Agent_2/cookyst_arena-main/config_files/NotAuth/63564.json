@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "apptegy"
+  ],
+  "task_id": "63564",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://apptegy.net",
+  "geolocation": null,
+  "intent_template": "Find books or e-books related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights literature"
+  },
+  "intent": "Find books or e-books related to human rights literature",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

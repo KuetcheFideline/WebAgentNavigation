@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "artic"
+  ],
+  "task_id": "25780",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://artic.edu",
+  "geolocation": null,
+  "intent_template": "Explore online exhibitions and collections on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "contemporary art"
+  },
+  "intent": "Explore online exhibitions and collections on contemporary art",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

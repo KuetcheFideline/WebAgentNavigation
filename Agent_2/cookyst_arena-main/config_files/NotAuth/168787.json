@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tricolor"
+  ],
+  "task_id": "168787",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tricolor.tv",
+  "geolocation": null,
+  "intent_template": "Read reviews of videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and education"
+  },
+  "intent": "Read reviews of videos about human rights and education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

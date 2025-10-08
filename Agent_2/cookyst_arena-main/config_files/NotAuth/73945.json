@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eventbrite"
+  ],
+  "task_id": "73945",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eventbrite.ca",
+  "geolocation": null,
+  "intent_template": "Find event sponsors for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance institutions"
+  },
+  "intent": "Find event sponsors for governance institutions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

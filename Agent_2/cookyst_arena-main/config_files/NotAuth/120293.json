@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "juniper"
+  ],
+  "task_id": "120293",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://juniper.net",
+  "geolocation": null,
+  "intent_template": "Read articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry news"
+  },
+  "intent": "Read articles about industry news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

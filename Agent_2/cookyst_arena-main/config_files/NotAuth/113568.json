@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "getallmylinks"
+  ],
+  "task_id": "113568",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://getallmylinks.com",
+  "geolocation": null,
+  "intent_template": "Take an online course on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "marketing for legal tech companies"
+  },
+  "intent": "Take an online course on marketing for legal tech companies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

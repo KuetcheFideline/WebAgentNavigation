@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "soax"
+  ],
+  "task_id": "52323",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://soax.com",
+  "geolocation": null,
+  "intent_template": "Read an article about data extraction techniques in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance studies"
+  },
+  "intent": "Read an article about data extraction techniques in governance studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

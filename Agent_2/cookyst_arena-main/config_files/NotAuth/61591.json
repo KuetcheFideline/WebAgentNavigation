@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jdownloader"
+  ],
+  "task_id": "61591",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jdownloader.org",
+  "geolocation": null,
+  "intent_template": "Understand the importance of downloading resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "skill development"
+  },
+  "intent": "Understand the importance of downloading resources on skill development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

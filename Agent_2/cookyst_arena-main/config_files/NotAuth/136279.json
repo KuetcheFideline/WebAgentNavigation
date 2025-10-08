@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wiz"
+  ],
+  "task_id": "136279",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wiz.biz",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "seminars"
+  },
+  "intent": "Learn about upcoming events related to seminars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

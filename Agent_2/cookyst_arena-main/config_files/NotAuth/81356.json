@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wolt"
+  ],
+  "task_id": "81356",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wolt.com",
+  "geolocation": null,
+  "intent_template": "Search for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "curry"
+  },
+  "intent": "Search for curry",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

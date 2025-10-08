@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "datadoghq"
+  ],
+  "task_id": "116920",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://datadoghq.eu",
+  "geolocation": null,
+  "intent_template": "Browse a directory of monitoring tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights organization tools"
+  },
+  "intent": "Browse a directory of monitoring tools for human rights organization tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "food52"
+  ],
+  "task_id": "82373",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://food52.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of cookbooks related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "food writing"
+  },
+  "intent": "Read reviews of cookbooks related to food writing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

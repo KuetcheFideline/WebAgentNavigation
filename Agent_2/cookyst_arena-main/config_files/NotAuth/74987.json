@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "utorrent"
+  ],
+  "task_id": "74987",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://utorrent.com",
+  "geolocation": null,
+  "intent_template": "Read about the benefits of file sharing for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "efficiency"
+  },
+  "intent": "Read about the benefits of file sharing for efficiency",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

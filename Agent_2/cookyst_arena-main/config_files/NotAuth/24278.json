@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "appbrain"
+  ],
+  "task_id": "24278",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://appbrain.com",
+  "geolocation": null,
+  "intent_template": "Discover apps for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "document editing apps"
+  },
+  "intent": "Discover apps for document editing apps",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

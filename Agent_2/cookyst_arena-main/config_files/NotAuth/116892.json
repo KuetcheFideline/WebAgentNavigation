@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ddog-gov"
+  ],
+  "task_id": "116892",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ddog-gov.com",
+  "geolocation": null,
+  "intent_template": "Watch tutorials on using monitoring tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "keyword tracking"
+  },
+  "intent": "Watch tutorials on using monitoring tools for keyword tracking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

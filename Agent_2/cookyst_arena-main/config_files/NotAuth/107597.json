@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "termly"
+  ],
+  "task_id": "107597",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://termly.io",
+  "geolocation": null,
+  "intent_template": "Search for legal jobs and career opportunities in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government agencies"
+  },
+  "intent": "Search for legal jobs and career opportunities in government agencies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

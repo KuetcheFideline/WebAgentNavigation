@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geemee"
+  ],
+  "task_id": "16210",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geemee.ai",
+  "geolocation": null,
+  "intent_template": "Search for job openings or career opportunities in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational technology job openings"
+  },
+  "intent": "Search for job openings or career opportunities in educational technology job openings",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

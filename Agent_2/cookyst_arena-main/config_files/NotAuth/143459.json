@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "zillow"
+  ],
+  "task_id": "143459",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://zillow.com",
+  "geolocation": null,
+  "intent_template": "Learn about the home buying process in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "appraisals"
+  },
+  "intent": "Learn about the home buying process in appraisals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

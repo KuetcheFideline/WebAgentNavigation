@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nha"
+  ],
+  "task_id": "98358",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nha.gov.in",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Take a quiz to test your knowledge on human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

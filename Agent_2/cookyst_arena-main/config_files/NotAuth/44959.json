@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nofraud"
+  ],
+  "task_id": "44959",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nofraud.com",
+  "geolocation": null,
+  "intent_template": "Summarize a news article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and compliance analysis"
+  },
+  "intent": "Summarize a news article on governance and compliance analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

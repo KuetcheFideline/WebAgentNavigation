@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "starwoodhotels"
+  ],
+  "task_id": "101841",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://starwoodhotels.com",
+  "geolocation": null,
+  "intent_template": "Look for restaurants that offer catering services for events on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cultural heritage and preservation"
+  },
+  "intent": "Look for restaurants that offer catering services for events on cultural heritage and preservation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

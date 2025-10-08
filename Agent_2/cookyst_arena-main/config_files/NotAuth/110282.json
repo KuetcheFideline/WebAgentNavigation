@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbantz"
+  ],
+  "task_id": "110282",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbantz.com",
+  "geolocation": null,
+  "intent_template": "Find information on logistics regulations and compliance in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "supply chain compliance"
+  },
+  "intent": "Find information on logistics regulations and compliance in supply chain compliance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

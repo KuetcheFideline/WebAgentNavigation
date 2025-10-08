@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "justgiving"
+  ],
+  "task_id": "132611",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://justgiving.com",
+  "geolocation": null,
+  "intent_template": "Read about different types of fundraising campaigns for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocacy campaigns"
+  },
+  "intent": "Read about different types of fundraising campaigns for human rights advocacy campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

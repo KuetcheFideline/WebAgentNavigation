@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lakakids"
+  ],
+  "task_id": "63614",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lakakids.com",
+  "geolocation": null,
+  "intent_template": "Browse game categories related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and governance"
+  },
+  "intent": "Browse game categories related to law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

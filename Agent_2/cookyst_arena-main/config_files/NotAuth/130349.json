@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "msf"
+  ],
+  "task_id": "130349",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://msf.org",
+  "geolocation": null,
+  "intent_template": "Find volunteer opportunities with non-profit organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy reform"
+  },
+  "intent": "Find volunteer opportunities with non-profit organizations focused on governance and policy reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

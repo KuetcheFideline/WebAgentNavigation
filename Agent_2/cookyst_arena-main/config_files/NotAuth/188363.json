@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "realtimetrains"
+  ],
+  "task_id": "188363",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://realtimetrains.co.uk",
+  "geolocation": null,
+  "intent_template": "Get an overview of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry introduction"
+  },
+  "intent": "Get an overview of industry introduction",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

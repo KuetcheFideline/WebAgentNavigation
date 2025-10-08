@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lokalise"
+  ],
+  "task_id": "187776",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lokalise.com",
+  "geolocation": null,
+  "intent_template": "Watch a video on the process of translating a legal document about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "client communication"
+  },
+  "intent": "Watch a video on the process of translating a legal document about client communication",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

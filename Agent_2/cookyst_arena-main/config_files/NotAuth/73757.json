@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sched"
+  ],
+  "task_id": "73757",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sched.com",
+  "geolocation": null,
+  "intent_template": "Learn about seminars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public policy and innovation"
+  },
+  "intent": "Learn about seminars on public policy and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

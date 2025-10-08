@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "scribd"
+  ],
+  "task_id": "59666",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://scribd.com",
+  "geolocation": null,
+  "intent_template": "Browse documents related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and collaboration"
+  },
+  "intent": "Browse documents related to legal tech and collaboration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

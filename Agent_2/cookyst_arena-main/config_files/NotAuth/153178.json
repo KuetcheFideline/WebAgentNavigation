@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lider"
+  ],
+  "task_id": "153178",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lider.cl",
+  "geolocation": null,
+  "intent_template": "Read an article about security challenges in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity"
+  },
+  "intent": "Read an article about security challenges in cybersecurity",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

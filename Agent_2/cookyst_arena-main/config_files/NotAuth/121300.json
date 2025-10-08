@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "7sur7"
+  ],
+  "task_id": "121300",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://7sur7.be",
+  "geolocation": null,
+  "intent_template": "Reflect on a news story about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Reflect on a news story about legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "corppn"
+  ],
+  "task_id": "153382",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://corppn.ru",
+  "geolocation": null,
+  "intent_template": "Discover new tools and technologies for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "devops"
+  },
+  "intent": "Discover new tools and technologies for devops",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

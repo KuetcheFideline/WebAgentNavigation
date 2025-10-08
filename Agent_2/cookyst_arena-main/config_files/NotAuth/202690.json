@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "regway"
+  ],
+  "task_id": "202690",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://regway.com",
+  "geolocation": null,
+  "intent_template": "Learn about web hosting options for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "VPS hosting"
+  },
+  "intent": "Learn about web hosting options for VPS hosting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

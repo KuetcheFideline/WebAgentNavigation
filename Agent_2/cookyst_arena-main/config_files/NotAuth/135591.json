@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cybersource"
+  ],
+  "task_id": "135591",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cybersource.com",
+  "geolocation": null,
+  "intent_template": "Read an article about payment processing for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance tools"
+  },
+  "intent": "Read an article about payment processing for governance tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "atlassian"
+  ],
+  "task_id": "157977",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://atlassian.net",
+  "geolocation": null,
+  "intent_template": "Browse repositories of open-source legal software related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "open-source legal platforms"
+  },
+  "intent": "Browse repositories of open-source legal software related to open-source legal platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

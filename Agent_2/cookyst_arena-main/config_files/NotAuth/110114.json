@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "packzy"
+  ],
+  "task_id": "110114",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://packzy.com",
+  "geolocation": null,
+  "intent_template": "Read about the latest trends and innovations in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "logistics technology"
+  },
+  "intent": "Read about the latest trends and innovations in logistics technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

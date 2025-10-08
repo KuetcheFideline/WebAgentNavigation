@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "embedgooglemap"
+  ],
+  "task_id": "201171",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://embedgooglemap.net",
+  "geolocation": null,
+  "intent_template": "Read a blog about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "web development for human rights"
+  },
+  "intent": "Read a blog about web development for human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

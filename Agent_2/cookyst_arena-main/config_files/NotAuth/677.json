@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crossref"
+  ],
+  "task_id": "677",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crossref.org",
+  "geolocation": null,
+  "intent_template": "Read a book chapter on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law textbooks"
+  },
+  "intent": "Read a book chapter on constitutional law textbooks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

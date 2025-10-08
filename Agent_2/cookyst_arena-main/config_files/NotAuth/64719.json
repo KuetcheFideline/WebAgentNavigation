@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": "64719",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikipedia.org",
+  "geolocation": null,
+  "intent_template": "Discover new topics related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international criminal law"
+  },
+  "intent": "Discover new topics related to international criminal law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

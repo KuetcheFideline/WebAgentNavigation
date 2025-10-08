@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bunkr-albums"
+  ],
+  "task_id": "118934",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bunkr-albums.io",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "music and technology"
+  },
+  "intent": "Read an article about music and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

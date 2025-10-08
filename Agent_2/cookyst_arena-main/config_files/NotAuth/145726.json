@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gotquestions"
+  ],
+  "task_id": "145726",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gotquestions.org",
+  "geolocation": null,
+  "intent_template": "Download or print resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "faith-based education"
+  },
+  "intent": "Download or print resources related to faith-based education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

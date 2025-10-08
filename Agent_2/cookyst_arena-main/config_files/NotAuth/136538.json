@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "photoroom"
+  ],
+  "task_id": "136538",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://photoroom.com",
+  "geolocation": null,
+  "intent_template": "Find photo editing resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "photo editing software"
+  },
+  "intent": "Find photo editing resources on photo editing software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

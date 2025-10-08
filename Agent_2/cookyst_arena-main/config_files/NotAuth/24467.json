@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "deviantart"
+  ],
+  "task_id": "24467",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://deviantart.net",
+  "geolocation": null,
+  "intent_template": "Learn about the history of art and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "community engagement"
+  },
+  "intent": "Learn about the history of art and community engagement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

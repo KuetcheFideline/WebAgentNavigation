@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vidyard"
+  ],
+  "task_id": "194091",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vidyard.com",
+  "geolocation": null,
+  "intent_template": "Learn about video creators who focus on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "alternative dispute resolution"
+  },
+  "intent": "Learn about video creators who focus on alternative dispute resolution",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

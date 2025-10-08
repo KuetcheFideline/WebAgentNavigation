@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "linkmake"
+  ],
+  "task_id": "192199",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://linkmake.in",
+  "geolocation": null,
+  "intent_template": "Access a shortened link to a discussion forum about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational communities"
+  },
+  "intent": "Access a shortened link to a discussion forum about educational communities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dynect"
+  ],
+  "task_id": "119801",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dynect.net",
+  "geolocation": null,
+  "intent_template": "Find network configuration guides for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "router configuration"
+  },
+  "intent": "Find network configuration guides for router configuration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

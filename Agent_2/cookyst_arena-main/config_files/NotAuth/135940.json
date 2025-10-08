@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ynab"
+  ],
+  "task_id": "135940",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ynab.com",
+  "geolocation": null,
+  "intent_template": "Reflect on personal financial values and goals related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial priorities"
+  },
+  "intent": "Reflect on personal financial values and goals related to financial priorities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

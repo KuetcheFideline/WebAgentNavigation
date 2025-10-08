@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "weddingwire"
+  ],
+  "task_id": "210056",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://weddingwire.com",
+  "geolocation": null,
+  "intent_template": "Find inspiration for wedding decorations and themes related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "floral arrangements"
+  },
+  "intent": "Find inspiration for wedding decorations and themes related to floral arrangements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kaggle"
+  ],
+  "task_id": "52580",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kaggle.com",
+  "geolocation": null,
+  "intent_template": "Watch a webinar on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public sector data"
+  },
+  "intent": "Watch a webinar on public sector data",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

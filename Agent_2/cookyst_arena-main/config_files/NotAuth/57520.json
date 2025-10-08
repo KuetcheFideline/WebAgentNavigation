@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "web"
+  ],
+  "task_id": "57520",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://web.app",
+  "geolocation": null,
+  "intent_template": "Take a free online course or tutorial on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and tech primer"
+  },
+  "intent": "Take a free online course or tutorial on human rights and tech primer",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

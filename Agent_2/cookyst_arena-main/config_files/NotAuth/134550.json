@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "indown"
+  ],
+  "task_id": "134550",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://indown.io",
+  "geolocation": null,
+  "intent_template": "Browse a directory of legal professionals specializing in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "corporate law firms"
+  },
+  "intent": "Browse a directory of legal professionals specializing in corporate law firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

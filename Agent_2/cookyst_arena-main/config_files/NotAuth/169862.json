@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dellsupportcenter"
+  ],
+  "task_id": "169862",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dellsupportcenter.com",
+  "geolocation": null,
+  "intent_template": "Explore {{topic}} ",
+  "instantiation_dict": {
+    "topic": "leadership skills"
+  },
+  "intent": "Explore leadership skills",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

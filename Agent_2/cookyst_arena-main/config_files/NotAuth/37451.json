@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eukdns"
+  ],
+  "task_id": "37451",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eukdns.com",
+  "geolocation": null,
+  "intent_template": "Explore cloud-based resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry reports"
+  },
+  "intent": "Explore cloud-based resources for industry reports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

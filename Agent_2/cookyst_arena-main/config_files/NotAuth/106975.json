@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freejobalert"
+  ],
+  "task_id": "106975",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freejobalert.com",
+  "geolocation": null,
+  "intent_template": "Research professional organizations in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry associations"
+  },
+  "intent": "Research professional organizations in industry associations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

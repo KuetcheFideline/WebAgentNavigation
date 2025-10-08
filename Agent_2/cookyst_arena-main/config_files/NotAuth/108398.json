@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "insidehook"
+  ],
+  "task_id": "108398",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://insidehook.com",
+  "geolocation": null,
+  "intent_template": "Browse a list of recommended books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Browse a list of recommended books on governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

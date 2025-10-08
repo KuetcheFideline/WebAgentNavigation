@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "register"
+  ],
+  "task_id": "60890",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://register.it",
+  "geolocation": null,
+  "intent_template": "Understand the importance of domain privacy for websites about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Understand the importance of domain privacy for websites about governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netdata"
+  ],
+  "task_id": "117108",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://netdata.cloud",
+  "geolocation": null,
+  "intent_template": "Browse through reports and publications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights monitoring"
+  },
+  "intent": "Browse through reports and publications on human rights monitoring",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "home"
+  ],
+  "task_id": "32311",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://home.blog",
+  "geolocation": null,
+  "intent_template": "Summarize a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Summarize a blog post about governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nintendolife"
+  ],
+  "task_id": "84770",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nintendolife.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "esports and policy"
+  },
+  "intent": "Read an article about esports and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

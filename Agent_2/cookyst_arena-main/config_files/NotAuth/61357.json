@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thnic"
+  ],
+  "task_id": "61357",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thnic.co.th",
+  "geolocation": null,
+  "intent_template": "Learn about domain name system (DNS) for websites focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy updates"
+  },
+  "intent": "Learn about domain name system (DNS) for websites focused on policy updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

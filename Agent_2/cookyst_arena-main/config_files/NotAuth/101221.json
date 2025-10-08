@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sanofi"
+  ],
+  "task_id": "101221",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sanofi.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the current state of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "healthcare quality improvement"
+  },
+  "intent": "Get an overview of the current state of healthcare quality improvement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

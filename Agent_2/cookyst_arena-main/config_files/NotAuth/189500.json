@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "qantas"
+  ],
+  "task_id": "189500",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://qantas.com",
+  "geolocation": null,
+  "intent_template": "Read about travel requirements for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international law"
+  },
+  "intent": "Read about travel requirements for international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

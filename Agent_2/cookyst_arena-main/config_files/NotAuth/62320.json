@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shopeepay"
+  ],
+  "task_id": "62320",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shopeepay.sg",
+  "geolocation": null,
+  "intent_template": "Offline equivalent {{topic}} ",
+  "instantiation_dict": {
+    "topic": "personal expenses"
+  },
+  "intent": "Offline equivalent personal expenses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

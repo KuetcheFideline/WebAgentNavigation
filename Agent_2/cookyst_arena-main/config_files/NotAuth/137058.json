@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ivoox"
+  ],
+  "task_id": "137058",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ivoox.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a podcast episode about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy and reform"
+  },
+  "intent": "Take notes on a podcast episode about education policy and reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

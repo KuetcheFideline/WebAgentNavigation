@@ -10,7 +10,7 @@ import tempfile
 import time
 from pathlib import Path
 
-import openai
+from openai import OpenAIError
 from tqdm import tqdm
 
 from agent import (Agent, PromptAgent, TeacherForcingAgent,
@@ -61,6 +61,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--save_trace_enabled", action="store_true")
     parser.add_argument("--sleep_after_execution", type=float, default=0.0)
     parser.add_argument("--max_steps", type=int, default=30)
+    parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -168,23 +169,25 @@ def test(
             agent.reset(config_file)
             obs, info = env.reset(options={"config_file": config_file})
             
+            
             trajectory: Trajectory = [{"observation": obs, "info": info}]
             user_profile = load_persona_from_json("./user/user_1.json")
             meta_data = {"action_history": ["None"], "user_persona": user_profile}
             
             logger.info("Capturing initial storage state...")
             initial_storage_state = env.get_all_storage_state()
-            
             trace = []
             
             while True:
                 early_stop_flag, stop_info = early_stop(trajectory, max_steps, early_stop_thresholds)
                 if early_stop_flag:
                     action = create_stop_action(f"Early stop: {stop_info}")
+                    
                 else:
                     try:
                         prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
                         action = agent.next_action(trajectory, intent, meta_data=meta_data)
+                        # description = agent.describe_action(trajectory, intent, meta_data=meta_data)
                     except ValueError as e:
                         logger.error(f"Error during agent action generation: {e}")
                         action = create_stop_action(f"ERROR: {str(e)}")
@@ -197,6 +200,7 @@ def test(
                     action_set_tag=args.action_set_tag,
                     prompt_constructor=agent.prompt_constructor if isinstance(agent, PromptAgent) else None,
                 )
+
                 
                 meta_data["action_history"].append(action_str)
                 trace.append({
@@ -204,33 +208,56 @@ def test(
                     "target": action_str.split(' #HTML Segment')[0],
                 })
 
+
+
+
                 if action["action_type"] == ActionTypes.STOP:
                     break
 
+                
                 obs, _, terminated, _, info = env.step(action)
+
                 trajectory.append({"observation": obs, "info": info})
+
+
 
                 if terminated:
                     trajectory.append(create_stop_action("Terminated"))
                     break
             
             # --- LOGIQUE DE SAUVEGARDE PLACÉE ICI (DANS LE TRY) ---
-            result = {"id": task_id, "trace": trace}
-            
+            orm = agent.verify_action(trajectory,intent,meta_data)
+            response_text = orm.output[0].content[0].text
+            result = {"id": task_id, "trace": trace,"verdict" :response_text }
+
+
             # Correction de la construction du chemin
             storage_dir = Path(args.result_dir) / "storage_state" / args.connected / args.consent
             diff_filepath = storage_dir / f"{task_id}.json"
 
 
-            traces_dir = Path(args.result_dir) / "traces"
+
+            traces_dir = Path(args.result_dir) / "traces" / args.connected / args.consent
+
             traces_dir.mkdir(parents=True, exist_ok=True)
+            
+            
+
+
             with open(traces_dir / f"trace_{task_id}.json", "w") as f:
                 json.dump(result, f, indent=4)
 
-            # L'appel à save_storage est maintenant ici, pour s'assurer qu'il s'exécute uniquement en cas de succès
-            env.save_storage(initial_storage_state, diff_filepath)
+            fileO = os.getcwd()
+
+            output_dir = Path(fileO) / "output"
+            for file_path in output_dir.iterdir():
+                if file_path.is_file():
+                    file_path.unlink()  
             
-        except openai.error.OpenAIError as e:
+
+
+            env.save_storage(initial_storage_state, diff_filepath)
+        except OpenAIError as e:
             logger.error(f"[OpenAI Error] {repr(e)}")
         except Exception as e:
             logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")

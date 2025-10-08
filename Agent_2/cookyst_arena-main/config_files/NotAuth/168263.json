@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "astm"
+  ],
+  "task_id": "168263",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://astm.org",
+  "geolocation": null,
+  "intent_template": "Explore the different types of standards in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "categorization"
+  },
+  "intent": "Explore the different types of standards in categorization",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

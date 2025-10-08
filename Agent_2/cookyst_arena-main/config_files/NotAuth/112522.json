@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sendpulse"
+  ],
+  "task_id": "112522",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sendpulse.com",
+  "geolocation": null,
+  "intent_template": "Research the applications of marketing automation in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conversion rate improvement"
+  },
+  "intent": "Research the applications of marketing automation in conversion rate improvement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

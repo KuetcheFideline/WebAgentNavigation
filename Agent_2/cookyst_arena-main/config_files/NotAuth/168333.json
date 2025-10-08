@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gettyimages"
+  ],
+  "task_id": "168333",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gettyimages.com",
+  "geolocation": null,
+  "intent_template": "Browse stock photos related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "freedom"
+  },
+  "intent": "Browse stock photos related to freedom",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

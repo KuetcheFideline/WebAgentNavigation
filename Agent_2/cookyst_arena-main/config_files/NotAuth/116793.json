@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "datadoghq"
+  ],
+  "task_id": "116793",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://datadoghq.eu",
+  "geolocation": null,
+  "intent_template": "Read reviews of monitoring tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational resources"
+  },
+  "intent": "Read reviews of monitoring tools for educational resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

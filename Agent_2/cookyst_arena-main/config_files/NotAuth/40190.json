@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "matrix"
+  ],
+  "task_id": "40190",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://matrix.org",
+  "geolocation": null,
+  "intent_template": "Visit a website on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "protocol design"
+  },
+  "intent": "Visit a website on protocol design",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

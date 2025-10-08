@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "monsido"
+  ],
+  "task_id": "201177",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://monsido.com",
+  "geolocation": null,
+  "intent_template": "Read a blog about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology for law students"
+  },
+  "intent": "Read a blog about education technology for law students",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

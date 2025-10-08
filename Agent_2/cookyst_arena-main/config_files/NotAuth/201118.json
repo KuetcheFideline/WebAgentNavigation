@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "monsido"
+  ],
+  "task_id": "201118",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://monsido.com",
+  "geolocation": null,
+  "intent_template": "Download a free e-book or guide about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech guide"
+  },
+  "intent": "Download a free e-book or guide about legal tech guide",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

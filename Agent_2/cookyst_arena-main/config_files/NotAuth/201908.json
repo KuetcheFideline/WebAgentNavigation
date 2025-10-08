@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purl"
+  ],
+  "task_id": "201908",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purl.org",
+  "geolocation": null,
+  "intent_template": "Explore a list of recommended resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "regulatory changes"
+  },
+  "intent": "Explore a list of recommended resources on regulatory changes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

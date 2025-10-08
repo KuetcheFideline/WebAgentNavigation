@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ooma"
+  ],
+  "task_id": "184315",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ooma.com",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "internet of things devices"
+  },
+  "intent": "Watch a video about internet of things devices",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

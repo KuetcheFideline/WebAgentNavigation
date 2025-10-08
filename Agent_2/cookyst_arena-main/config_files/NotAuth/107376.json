@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gdpr"
+  ],
+  "task_id": "107376",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gdpr.eu",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of online courses and training programs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "contract law"
+  },
+  "intent": "Browse a catalog of online courses and training programs on contract law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

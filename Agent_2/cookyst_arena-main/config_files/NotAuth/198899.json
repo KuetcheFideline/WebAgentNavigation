@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gliacloud"
+  ],
+  "task_id": "198899",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gliacloud.com",
+  "geolocation": null,
+  "intent_template": "Read articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "video-based legal education and training"
+  },
+  "intent": "Read articles about video-based legal education and training",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nber"
+  ],
+  "task_id": "146299",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nber.org",
+  "geolocation": null,
+  "intent_template": "Discover research opportunities on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research and academia"
+  },
+  "intent": "Discover research opportunities on legal research and academia",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

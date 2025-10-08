@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ozbargain"
+  ],
+  "task_id": "153519",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ozbargain.com.au",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and justice videos"
+  },
+  "intent": "Watch a video about human rights and justice videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

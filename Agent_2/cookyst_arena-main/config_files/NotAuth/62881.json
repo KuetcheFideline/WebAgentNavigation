@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "syndigo"
+  ],
+  "task_id": "62881",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://syndigo.com",
+  "geolocation": null,
+  "intent_template": "Search for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "e-commerce phrases"
+  },
+  "intent": "Search for e-commerce phrases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eppo"
+  ],
+  "task_id": "158544",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eppo.cloud",
+  "geolocation": null,
+  "intent_template": "Explore a resource page about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and law resources"
+  },
+  "intent": "Explore a resource page about education and law resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "corppn"
+  ],
+  "task_id": "153370",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://corppn.ru",
+  "geolocation": null,
+  "intent_template": "Learn about server management best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "server administration"
+  },
+  "intent": "Learn about server management best practices for server administration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

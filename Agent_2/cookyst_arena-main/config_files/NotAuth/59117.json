@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbandictionary"
+  ],
+  "task_id": "59117",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbandictionary.com",
+  "geolocation": null,
+  "intent_template": "Take notes on word meanings related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal language"
+  },
+  "intent": "Take notes on word meanings related to legal language",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

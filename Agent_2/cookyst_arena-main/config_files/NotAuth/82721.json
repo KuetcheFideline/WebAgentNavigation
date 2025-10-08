@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "somethingawful"
+  ],
+  "task_id": "82721",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://somethingawful.com",
+  "geolocation": null,
+  "intent_template": "Take notes on key points related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-assessment"
+  },
+  "intent": "Take notes on key points related to self-assessment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

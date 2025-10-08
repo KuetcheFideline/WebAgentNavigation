@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "aspca"
+  ],
+  "task_id": "24220",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://aspca.org",
+  "geolocation": null,
+  "intent_template": "Search for information about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "search terms for animal law"
+  },
+  "intent": "Search for information about search terms for animal law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

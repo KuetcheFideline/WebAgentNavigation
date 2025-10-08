@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazonses"
+  ],
+  "task_id": "64399",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazonses.com",
+  "geolocation": null,
+  "intent_template": "Discover how to automate email tasks related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "task delegation"
+  },
+  "intent": "Discover how to automate email tasks related to task delegation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

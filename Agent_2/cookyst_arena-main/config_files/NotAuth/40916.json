@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sika"
+  ],
+  "task_id": "40916",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sika.com",
+  "geolocation": null,
+  "intent_template": "Download a free resource on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "zoning regulations resources"
+  },
+  "intent": "Download a free resource on zoning regulations resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

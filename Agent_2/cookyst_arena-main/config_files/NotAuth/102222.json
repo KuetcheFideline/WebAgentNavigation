@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paycor"
+  ],
+  "task_id": "102222",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paycor.com",
+  "geolocation": null,
+  "intent_template": "Discover a glossary of terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "organizational behavior"
+  },
+  "intent": "Discover a glossary of terms related to organizational behavior",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

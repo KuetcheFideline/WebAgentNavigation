@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "facepunch"
+  ],
+  "task_id": "84589",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://facepunch.com",
+  "geolocation": null,
+  "intent_template": "Search for information about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "gaming industry trends"
+  },
+  "intent": "Search for information about gaming industry trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

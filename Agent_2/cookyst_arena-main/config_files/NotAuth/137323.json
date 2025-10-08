@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "complianz"
+  ],
+  "task_id": "137323",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://complianz.io",
+  "geolocation": null,
+  "intent_template": "Search for resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "GDPR"
+  },
+  "intent": "Search for resources on GDPR",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

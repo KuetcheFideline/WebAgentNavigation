@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "betcity"
+  ],
+  "task_id": "31449",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://betcity.ru",
+  "geolocation": null,
+  "intent_template": "Understand the role of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "betting traditions"
+  },
+  "intent": "Understand the role of betting traditions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

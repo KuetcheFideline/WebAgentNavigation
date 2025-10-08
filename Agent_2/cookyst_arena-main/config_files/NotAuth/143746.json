@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "housing"
+  ],
+  "task_id": "143746",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://housing.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the real estate market in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "global real estate market"
+  },
+  "intent": "Get an overview of the real estate market in global real estate market",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

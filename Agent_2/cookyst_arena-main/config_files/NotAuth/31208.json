@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bpexch"
+  ],
+  "task_id": "31208",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bpexch.net",
+  "geolocation": null,
+  "intent_template": "Learn about the basics of betting and odds calculation in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "betting types"
+  },
+  "intent": "Learn about the basics of betting and odds calculation in betting types",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

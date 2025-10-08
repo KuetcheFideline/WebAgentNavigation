@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "talend"
+  ],
+  "task_id": "52432",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://talend.com",
+  "geolocation": null,
+  "intent_template": "Read about data architecture design for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy data architecture"
+  },
+  "intent": "Read about data architecture design for education policy data architecture",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

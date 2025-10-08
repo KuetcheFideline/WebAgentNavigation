@@ -10,8 +10,11 @@ from typing import Any
 
 import aiolimiter
 import openai
-import openai.error
+from  openai import OpenAIError ,RateLimitError
 from tqdm.asyncio import tqdm_asyncio
+
+from  openai import OpenAI
+import base64
 
 
 def retry_with_exponential_backoff(  # type: ignore
@@ -20,7 +23,7 @@ def retry_with_exponential_backoff(  # type: ignore
     exponential_base: float = 2,
     jitter: bool = True,
     max_retries: int = 10,
-    errors: tuple[Any] = (openai.error.RateLimitError,),
+    errors: tuple[Any] = (RateLimitError,),
 ):
     """Retry a function with exponential backoff."""
 
@@ -75,12 +78,12 @@ async def _throttled_openai_completion_acreate(
                     max_tokens=max_tokens,
                     top_p=top_p,
                 )
-            except openai.error.RateLimitError:
+            except RateLimitError:
                 logging.warning(
                     "OpenAI API rate limit exceeded. Sleeping for 10 seconds."
                 )
                 await asyncio.sleep(10)
-            except openai.error.APIError as e:
+            except OpenAIError as e:
                 logging.warning(f"OpenAI API error: {e}")
                 break
         return {"choices": [{"message": {"content": ""}}]}
@@ -130,6 +133,51 @@ async def agenerate_from_openai_completion(
     return [x["choices"][0]["text"] for x in responses]
 
 
+
+
+def encode_image(image_path ="/home/fideline/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/output/marked1.png"):
+       with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode("utf-8")
+
+
+def generate_from_openai_modal( 
+    prompt: str,
+    model: str,
+    temperature: float,
+    max_tokens: int,
+    top_p: float,
+    stop_token: str | None = None,   
+):
+    if "OPENAI_API_KEY" not in os.environ:
+        raise ValueError(
+            "OPENAI_API_KEY environment variable must be set when using OpenAI API."
+        )
+    openai.api_key = os.environ["OPENAI_API_KEY"]
+    image = encode_image()
+    client = OpenAI()
+    response = client.responses.create(
+    model="gpt-4.1",
+    input=[
+        {
+            "role": "user",
+            "content": [
+                {
+                    "type": "input_image",
+                    "image_url": f"data:image/jpeg;base64,{image}",
+                },
+                { "type": "input_text", "text": prompt},
+                
+            ],
+        }
+    ],
+) 
+    time.sleep(30)
+
+    return response
+
+    
+
+
 #@retry_with_exponential_backoff
 def generate_from_openai_completion(
     prompt: str,
@@ -177,7 +225,7 @@ async def _throttled_openai_chat_completion_acreate(
                     max_tokens=max_tokens,
                     top_p=top_p,
                 )
-            except openai.error.RateLimitError:
+            except RateLimitError:
                 logging.warning(
                     "OpenAI API rate limit exceeded. Sleeping for 10 seconds."
                 )
@@ -185,7 +233,7 @@ async def _throttled_openai_chat_completion_acreate(
             except asyncio.exceptions.TimeoutError:
                 logging.warning("OpenAI API timeout. Sleeping for 10 seconds.")
                 await asyncio.sleep(10)
-            except openai.error.APIError as e:
+            except OpenAIError as e:
                 logging.warning(f"OpenAI API error: {e}")
                 break
         return {"choices": [{"message": {"content": ""}}]}
@@ -233,6 +281,7 @@ async def agenerate_from_openai_chat_completion(
     ]
     responses = await tqdm_asyncio.gather(*async_responses)
     return [x["choices"][0]["message"]["content"] for x in responses]
+
 
 
 @retry_with_exponential_backoff

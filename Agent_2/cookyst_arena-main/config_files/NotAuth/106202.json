@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "internalfb"
+  ],
+  "task_id": "106202",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://internalfb.com",
+  "geolocation": null,
+  "intent_template": "Browse the intranet for information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Browse the intranet for information on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

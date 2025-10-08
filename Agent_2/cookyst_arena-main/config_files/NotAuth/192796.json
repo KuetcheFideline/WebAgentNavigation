@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purevpn"
+  ],
+  "task_id": "192796",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purevpn.com",
+  "geolocation": null,
+  "intent_template": "Discover the advantages of using a VPN for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social media and messaging"
+  },
+  "intent": "Discover the advantages of using a VPN for social media and messaging",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

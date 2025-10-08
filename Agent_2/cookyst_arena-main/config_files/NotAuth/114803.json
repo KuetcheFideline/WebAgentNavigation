@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unbounce"
+  ],
+  "task_id": "114803",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unbounce.com",
+  "geolocation": null,
+  "intent_template": "Search for marketing tips for law firms specializing in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "criminal law"
+  },
+  "intent": "Search for marketing tips for law firms specializing in criminal law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

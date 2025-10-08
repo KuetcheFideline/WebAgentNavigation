@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "c-ctrip"
+  ],
+  "task_id": "190651",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://c-ctrip.com",
+  "geolocation": null,
+  "intent_template": "Watch videos about travel experiences in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "historical videos"
+  },
+  "intent": "Watch videos about travel experiences in historical videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

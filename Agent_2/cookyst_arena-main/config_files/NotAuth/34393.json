@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "evraz"
+  ],
+  "task_id": "34393",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://evraz.com",
+  "geolocation": null,
+  "intent_template": "Explore a list of resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "business books"
+  },
+  "intent": "Explore a list of resources for business books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netdata"
+  ],
+  "task_id": "117104",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://netdata.cloud",
+  "geolocation": null,
+  "intent_template": "Search for news and updates on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional amendments"
+  },
+  "intent": "Search for news and updates on constitutional amendments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

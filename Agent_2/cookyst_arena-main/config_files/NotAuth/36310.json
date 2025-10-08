@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geforcenow"
+  ],
+  "task_id": "36310",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geforcenow.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the gameplay for a game related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech in gaming"
+  },
+  "intent": "Get an overview of the gameplay for a game related to legal tech in gaming",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

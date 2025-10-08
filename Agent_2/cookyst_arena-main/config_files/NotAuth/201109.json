@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "awwwards"
+  ],
+  "task_id": "201109",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://awwwards.com",
+  "geolocation": null,
+  "intent_template": "Summarize a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and web design"
+  },
+  "intent": "Summarize a blog post about governance and web design",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

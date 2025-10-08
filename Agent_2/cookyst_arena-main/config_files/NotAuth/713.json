@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crossref"
+  ],
+  "task_id": "713",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crossref.org",
+  "geolocation": null,
+  "intent_template": "Take notes on a research paper about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "note-taking strategies"
+  },
+  "intent": "Take notes on a research paper about note-taking strategies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

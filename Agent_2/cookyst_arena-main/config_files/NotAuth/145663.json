@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "biblegateway"
+  ],
+  "task_id": "145663",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://biblegateway.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to assess your knowledge of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Faith and human rights"
+  },
+  "intent": "Take a quiz to assess your knowledge of Faith and human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

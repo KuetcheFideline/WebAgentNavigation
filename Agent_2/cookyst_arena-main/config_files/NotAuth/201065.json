@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazonbot"
+  ],
+  "task_id": "201065",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazonbot.amazon",
+  "geolocation": null,
+  "intent_template": "Network with professionals and experts in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance organizations"
+  },
+  "intent": "Network with professionals and experts in governance organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

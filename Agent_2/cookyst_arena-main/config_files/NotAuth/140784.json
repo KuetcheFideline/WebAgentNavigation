@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rust-lang"
+  ],
+  "task_id": "140784",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rust-lang.org",
+  "geolocation": null,
+  "intent_template": "Read an article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Human Rights and Technology Overview"
+  },
+  "intent": "Read an article on Human Rights and Technology Overview",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

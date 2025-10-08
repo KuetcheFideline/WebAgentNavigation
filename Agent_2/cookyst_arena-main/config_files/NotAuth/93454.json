@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "state"
+  ],
+  "task_id": "93454",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://state.gov",
+  "geolocation": null,
+  "intent_template": "Read about the government's stance on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Read about the government's stance on education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

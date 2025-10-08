@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lansweeper"
+  ],
+  "task_id": "119653",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lansweeper.com",
+  "geolocation": null,
+  "intent_template": "Understand network performance metrics for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "benchmarking"
+  },
+  "intent": "Understand network performance metrics for benchmarking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

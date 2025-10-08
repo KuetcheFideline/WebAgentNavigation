@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "indianoil"
+  ],
+  "task_id": "64810",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://indianoil.in",
+  "geolocation": null,
+  "intent_template": "Download energy-related resources and materials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy tools"
+  },
+  "intent": "Download energy-related resources and materials on energy tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

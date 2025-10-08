@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mlit"
+  ],
+  "task_id": "97046",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mlit.go.jp",
+  "geolocation": null,
+  "intent_template": "Browse through a gallery of images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights campaigns"
+  },
+  "intent": "Browse through a gallery of images related to human rights campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smiles"
+  ],
+  "task_id": "111041",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smiles.com.br",
+  "geolocation": null,
+  "intent_template": "Explore the different types of rewards available in the loyalty program for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Explore the different types of rewards available in the loyalty program for legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

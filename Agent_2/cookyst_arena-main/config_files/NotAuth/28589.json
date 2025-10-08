@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goodsync"
+  ],
+  "task_id": "28589",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goodsync.com",
+  "geolocation": null,
+  "intent_template": "Discover how to access your backup of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud access"
+  },
+  "intent": "Discover how to access your backup of cloud access",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

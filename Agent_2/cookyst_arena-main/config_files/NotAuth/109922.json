@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ekartlogistics"
+  ],
+  "task_id": "109922",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ekartlogistics.com",
+  "geolocation": null,
+  "intent_template": "Research the different modes of transportation available for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "rail transportation"
+  },
+  "intent": "Research the different modes of transportation available for rail transportation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

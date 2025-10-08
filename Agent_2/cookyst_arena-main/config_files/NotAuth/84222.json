@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sattamatkaresult"
+  ],
+  "task_id": "84222",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sattamatkaresult.net",
+  "geolocation": null,
+  "intent_template": "Search for news articles about recent developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "latest news in gambling regulation"
+  },
+  "intent": "Search for news articles about recent developments in latest news in gambling regulation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

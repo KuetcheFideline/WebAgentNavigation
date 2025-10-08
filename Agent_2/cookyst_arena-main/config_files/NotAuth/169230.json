@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "system-monitor"
+  ],
+  "task_id": "169230",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://system-monitor.com",
+  "geolocation": null,
+  "intent_template": "Take online quizzes and assessments for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "system administration"
+  },
+  "intent": "Take online quizzes and assessments for system administration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "healthline"
+  ],
+  "task_id": "100373",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://healthline.com",
+  "geolocation": null,
+  "intent_template": "Download wellness guides related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "healthy living guides"
+  },
+  "intent": "Download wellness guides related to healthy living guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

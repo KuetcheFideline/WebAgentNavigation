@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "signifyd"
+  ],
+  "task_id": "62462",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://signifyd.com",
+  "geolocation": null,
+  "intent_template": "Read a blog post on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "e-commerce security trends"
+  },
+  "intent": "Read a blog post on e-commerce security trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

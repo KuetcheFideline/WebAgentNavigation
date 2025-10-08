@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudflarestatus"
+  ],
+  "task_id": "169256",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudflarestatus.com",
+  "geolocation": null,
+  "intent_template": "Find system tutorials for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "step-by-step guides"
+  },
+  "intent": "Find system tutorials for step-by-step guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "technologyreview"
+  ],
+  "task_id": "169377",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://technologyreview.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "disruptive technologies"
+  },
+  "intent": "Read an article about disruptive technologies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

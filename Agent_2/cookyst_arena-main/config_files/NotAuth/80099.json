@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "phonepe"
+  ],
+  "task_id": "80099",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://phonepe.com",
+  "geolocation": null,
+  "intent_template": "Download financial guides and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "budgeting templates"
+  },
+  "intent": "Download financial guides and resources for budgeting templates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

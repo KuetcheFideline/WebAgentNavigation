@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vpngate2"
+  ],
+  "task_id": "192924",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vpngate2.jp",
+  "geolocation": null,
+  "intent_template": "Find out how to set up a VPN on different devices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "routers and modems"
+  },
+  "intent": "Find out how to set up a VPN on different devices for routers and modems",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

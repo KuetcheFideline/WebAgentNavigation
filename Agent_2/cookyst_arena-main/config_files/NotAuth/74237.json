@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fashionista"
+  ],
+  "task_id": "74237",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fashionista.com",
+  "geolocation": null,
+  "intent_template": "Take notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fashion and summarization"
+  },
+  "intent": "Take notes on fashion and summarization",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sber"
+  ],
+  "task_id": "30313",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sber.ru",
+  "geolocation": null,
+  "intent_template": "Compare banking services and fees for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "checking account fees"
+  },
+  "intent": "Compare banking services and fees for checking account fees",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

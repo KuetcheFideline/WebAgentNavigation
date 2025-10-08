@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "service-public"
+  ],
+  "task_id": "92220",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://service-public.fr",
+  "geolocation": null,
+  "intent_template": "Take a quiz to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "leadership skills"
+  },
+  "intent": "Take a quiz to learn about leadership skills",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

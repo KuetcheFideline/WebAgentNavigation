@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trivago"
+  ],
+  "task_id": "191504",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trivago.com",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "professional takeaways"
+  },
+  "intent": "Offline professional takeaways",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

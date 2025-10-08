@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eidos"
+  ],
+  "task_id": "193812",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eidos.com",
+  "geolocation": null,
+  "intent_template": "Watch a gameplay video for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game demos"
+  },
+  "intent": "Watch a gameplay video for game demos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

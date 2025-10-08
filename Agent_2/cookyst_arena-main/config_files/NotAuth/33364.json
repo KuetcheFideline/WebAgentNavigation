@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "writeablog"
+  ],
+  "task_id": "33364",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://writeablog.net",
+  "geolocation": null,
+  "intent_template": "Look up definitions for terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "understanding human rights jargon"
+  },
+  "intent": "Look up definitions for terms related to understanding human rights jargon",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

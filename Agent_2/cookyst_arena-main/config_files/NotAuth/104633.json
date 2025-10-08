@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cepal"
+  ],
+  "task_id": "104633",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cepal.org",
+  "geolocation": null,
+  "intent_template": "Get inspired by stories of individuals making a difference in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "global citizens"
+  },
+  "intent": "Get inspired by stories of individuals making a difference in global citizens",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

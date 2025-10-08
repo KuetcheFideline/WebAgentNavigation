@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nic"
+  ],
+  "task_id": "61167",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nic.ch",
+  "geolocation": null,
+  "intent_template": "Discover domain name suggestions for a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy advisors"
+  },
+  "intent": "Discover domain name suggestions for a website about policy advisors",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

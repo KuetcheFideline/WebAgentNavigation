@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arbada"
+  ],
+  "task_id": "3083",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arbada.net",
+  "geolocation": null,
+  "intent_template": "Read articles about the legal implications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance of digital platforms"
+  },
+  "intent": "Read articles about the legal implications of governance of digital platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

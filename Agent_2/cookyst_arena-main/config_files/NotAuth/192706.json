@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "calculator"
+  ],
+  "task_id": "192706",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://calculator.net",
+  "geolocation": null,
+  "intent_template": "Discover the latest news on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy sector developments"
+  },
+  "intent": "Discover the latest news on energy sector developments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

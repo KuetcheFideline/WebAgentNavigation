@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gdpr"
+  ],
+  "task_id": "107345",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gdpr.eu",
+  "geolocation": null,
+  "intent_template": "Read articles and blog posts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Read articles and blog posts on human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

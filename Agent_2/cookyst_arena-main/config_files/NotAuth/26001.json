@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "festival-cannes"
+  ],
+  "task_id": "26001",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://festival-cannes.com",
+  "geolocation": null,
+  "intent_template": "Summarize and reflect on a creative work or performance related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "art criticism"
+  },
+  "intent": "Summarize and reflect on a creative work or performance related to art criticism",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

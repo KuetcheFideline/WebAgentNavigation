@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sched"
+  ],
+  "task_id": "73733",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sched.com",
+  "geolocation": null,
+  "intent_template": "Search for events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public policy and leadership"
+  },
+  "intent": "Search for events related to public policy and leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

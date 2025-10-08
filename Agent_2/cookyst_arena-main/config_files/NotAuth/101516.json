@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rona"
+  ],
+  "task_id": "101516",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rona.ca",
+  "geolocation": null,
+  "intent_template": "Take notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "design ideas"
+  },
+  "intent": "Take notes on design ideas",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

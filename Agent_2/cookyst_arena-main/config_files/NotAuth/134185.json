@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "marxists"
+  ],
+  "task_id": "134185",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://marxists.org",
+  "geolocation": null,
+  "intent_template": "Read a summary of a research paper about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology in law research"
+  },
+  "intent": "Read a summary of a research paper about technology in law research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

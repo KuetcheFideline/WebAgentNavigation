@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kjvbiblenow"
+  ],
+  "task_id": "145547",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kjvbiblenow.com",
+  "geolocation": null,
+  "intent_template": "Find books and publications about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Spirituality and social justice in policy"
+  },
+  "intent": "Find books and publications about Spirituality and social justice in policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "passportindia"
+  ],
+  "task_id": "91569",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://passportindia.gov.in",
+  "geolocation": null,
+  "intent_template": "Learn about the process for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "obtaining a passport"
+  },
+  "intent": "Learn about the process for obtaining a passport",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

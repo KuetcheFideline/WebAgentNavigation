@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lacnic"
+  ],
+  "task_id": "104668",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lacnic.net",
+  "geolocation": null,
+  "intent_template": "Learn about domain name registration best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy advisory"
+  },
+  "intent": "Learn about domain name registration best practices for policy advisory",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "listennotes"
+  ],
+  "task_id": "136774",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://listennotes.com",
+  "geolocation": null,
+  "intent_template": "Browse podcasts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Browse podcasts related to governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

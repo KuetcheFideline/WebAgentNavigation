@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "werite"
+  ],
+  "task_id": "33363",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://werite.net",
+  "geolocation": null,
+  "intent_template": "Look up definitions for terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "clarifying education policy terms"
+  },
+  "intent": "Look up definitions for terms related to clarifying education policy terms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

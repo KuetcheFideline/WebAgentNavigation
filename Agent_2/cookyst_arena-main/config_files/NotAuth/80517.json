@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dailyharbour"
+  ],
+  "task_id": "80517",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dailyharbour.com",
+  "geolocation": null,
+  "intent_template": "Take online courses or certifications for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investment analysis"
+  },
+  "intent": "Take online courses or certifications for investment analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

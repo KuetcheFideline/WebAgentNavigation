@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cigna"
+  ],
+  "task_id": "98781",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cigna.com",
+  "geolocation": null,
+  "intent_template": "Discover health and wellness resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "healthy living tips"
+  },
+  "intent": "Discover health and wellness resources for healthy living tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

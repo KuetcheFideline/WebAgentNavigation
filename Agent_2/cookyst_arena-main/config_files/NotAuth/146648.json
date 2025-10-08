@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "decathlon"
+  ],
+  "task_id": "146648",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://decathlon.nl",
+  "geolocation": null,
+  "intent_template": "View product recommendations related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "office supplies"
+  },
+  "intent": "View product recommendations related to office supplies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

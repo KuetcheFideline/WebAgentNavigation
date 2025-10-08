@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yadi"
+  ],
+  "task_id": "39853",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yadi.sk",
+  "geolocation": null,
+  "intent_template": "Find out how to get started with cloud storage for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "upload instructions"
+  },
+  "intent": "Find out how to get started with cloud storage for upload instructions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

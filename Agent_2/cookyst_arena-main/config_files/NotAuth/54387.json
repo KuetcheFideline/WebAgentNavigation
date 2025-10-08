@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "stackoverflow"
+  ],
+  "task_id": "54387",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://stackoverflow.com",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and tech consideration"
+  },
+  "intent": "Offline human rights and tech consideration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

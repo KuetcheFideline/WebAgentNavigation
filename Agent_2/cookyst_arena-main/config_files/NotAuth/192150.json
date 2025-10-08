@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "page"
+  ],
+  "task_id": "192150",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://page.link",
+  "geolocation": null,
+  "intent_template": "Find shortened links to online courses teaching {{topic}} ",
+  "instantiation_dict": {
+    "topic": "edX"
+  },
+  "intent": "Find shortened links to online courses teaching edX",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bsigroup"
+  ],
+  "task_id": "34212",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bsigroup.com",
+  "geolocation": null,
+  "intent_template": "Find a local event or conference related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "leadership"
+  },
+  "intent": "Find a local event or conference related to leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "creativelive"
+  ],
+  "task_id": "132297",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://creativelive.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "property law"
+  },
+  "intent": "Read reviews of courses on property law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

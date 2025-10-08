@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amocrm"
+  ],
+  "task_id": "34551",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amocrm.ru",
+  "geolocation": null,
+  "intent_template": "Watch a webinar on CRM best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy implementation"
+  },
+  "intent": "Watch a webinar on CRM best practices for education policy implementation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

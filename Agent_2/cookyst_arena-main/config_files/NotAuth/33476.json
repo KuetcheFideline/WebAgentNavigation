@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dreamwidth"
+  ],
+  "task_id": "33476",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dreamwidth.org",
+  "geolocation": null,
+  "intent_template": "Discuss a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "discussing legal tech with classmates"
+  },
+  "intent": "Discuss a blog post about discussing legal tech with classmates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

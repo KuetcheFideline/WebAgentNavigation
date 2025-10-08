@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "easychair"
+  ],
+  "task_id": "40797",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://easychair.org",
+  "geolocation": null,
+  "intent_template": "Reflect on the relevance of conference topics to your interests in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and its applications"
+  },
+  "intent": "Reflect on the relevance of conference topics to your interests in legal tech and its applications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

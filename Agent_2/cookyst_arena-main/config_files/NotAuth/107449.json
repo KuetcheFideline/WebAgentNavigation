@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "consultant"
+  ],
+  "task_id": "107449",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://consultant.ru",
+  "geolocation": null,
+  "intent_template": "Get an introduction to key concepts and terminology in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal career development"
+  },
+  "intent": "Get an introduction to key concepts and terminology in legal career development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "housecallpro"
+  ],
+  "task_id": "159044",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://housecallpro.com",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal software review notes"
+  },
+  "intent": "Summarize notes on legal software review notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

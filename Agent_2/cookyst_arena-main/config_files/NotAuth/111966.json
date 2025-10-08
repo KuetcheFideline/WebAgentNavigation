@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "appsflyer"
+  ],
+  "task_id": "111966",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://appsflyer.com",
+  "geolocation": null,
+  "intent_template": "Summarize the key points of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital marketing strategies"
+  },
+  "intent": "Summarize the key points of digital marketing strategies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

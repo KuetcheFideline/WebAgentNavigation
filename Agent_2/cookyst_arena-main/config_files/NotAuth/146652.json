@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gamestop"
+  ],
+  "task_id": "146652",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gamestop.com",
+  "geolocation": null,
+  "intent_template": "View product recommendations related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "books"
+  },
+  "intent": "View product recommendations related to books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "coingecko"
+  ],
+  "task_id": "43059",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://coingecko.com",
+  "geolocation": null,
+  "intent_template": "Summarize a news article about the latest developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Bitcoin developments"
+  },
+  "intent": "Summarize a news article about the latest developments in Bitcoin developments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

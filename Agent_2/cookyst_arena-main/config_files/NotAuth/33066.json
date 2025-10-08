@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "squareblogs"
+  ],
+  "task_id": "33066",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://squareblogs.net",
+  "geolocation": null,
+  "intent_template": "Search for bloggers writing about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "searching for governance experts"
+  },
+  "intent": "Search for bloggers writing about searching for governance experts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

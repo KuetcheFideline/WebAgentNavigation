@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "foresee"
+  ],
+  "task_id": "24102",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://foresee.com",
+  "geolocation": null,
+  "intent_template": "Find resources for learning data analytics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights monitoring"
+  },
+  "intent": "Find resources for learning data analytics in human rights monitoring",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

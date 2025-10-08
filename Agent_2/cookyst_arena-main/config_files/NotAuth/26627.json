@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "carscoops"
+  ],
+  "task_id": "26627",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://carscoops.com",
+  "geolocation": null,
+  "intent_template": "Discover a podcast about the future of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "urban planning"
+  },
+  "intent": "Discover a podcast about the future of urban planning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

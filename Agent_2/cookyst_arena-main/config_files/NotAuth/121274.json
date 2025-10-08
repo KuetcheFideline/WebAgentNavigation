@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "refinery29"
+  ],
+  "task_id": "121274",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://refinery29.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a news article or video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development"
+  },
+  "intent": "Take notes on a news article or video about education and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

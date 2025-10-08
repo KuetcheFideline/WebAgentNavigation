@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fastdl"
+  ],
+  "task_id": "61709",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fastdl.app",
+  "geolocation": null,
+  "intent_template": "Evaluate the system requirements for downloadable tools related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "browser support"
+  },
+  "intent": "Evaluate the system requirements for downloadable tools related to browser support",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

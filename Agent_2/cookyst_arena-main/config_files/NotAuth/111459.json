@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "emarketer"
+  ],
+  "task_id": "111459",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://emarketer.com",
+  "geolocation": null,
+  "intent_template": "Browse articles and reports on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Browse articles and reports on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

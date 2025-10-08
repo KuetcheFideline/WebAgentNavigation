@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sli"
+  ],
+  "task_id": "74091",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sli.do",
+  "geolocation": null,
+  "intent_template": "Discover upcoming events and webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "event management software"
+  },
+  "intent": "Discover upcoming events and webinars on event management software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

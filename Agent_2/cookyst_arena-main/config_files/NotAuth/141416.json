@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "oxylabs"
+  ],
+  "task_id": "141416",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://oxylabs.io",
+  "geolocation": null,
+  "intent_template": "Understand the risks of using a proxy server for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "privacy concerns"
+  },
+  "intent": "Understand the risks of using a proxy server for privacy concerns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geistm"
+  ],
+  "task_id": "111904",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geistm.com",
+  "geolocation": null,
+  "intent_template": "Learn about the marketing tools used in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Learn about the marketing tools used in governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "prweb"
+  ],
+  "task_id": "120734",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://prweb.com",
+  "geolocation": null,
+  "intent_template": "Browse news headlines on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "editorials"
+  },
+  "intent": "Browse news headlines on editorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

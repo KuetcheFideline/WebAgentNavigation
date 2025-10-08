@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paykeeper"
+  ],
+  "task_id": "135531",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paykeeper.ru",
+  "geolocation": null,
+  "intent_template": "Explore payment security features for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "secure checkout"
+  },
+  "intent": "Explore payment security features for secure checkout",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

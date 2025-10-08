@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "creativecommons"
+  ],
+  "task_id": "130519",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://creativecommons.org",
+  "geolocation": null,
+  "intent_template": "Discover online courses and training programs for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law and policy"
+  },
+  "intent": "Discover online courses and training programs for human rights law and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

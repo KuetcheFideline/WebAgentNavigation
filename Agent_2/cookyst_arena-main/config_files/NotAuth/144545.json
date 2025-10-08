@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "greenhouse"
+  ],
+  "task_id": "144545",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://greenhouse.io",
+  "geolocation": null,
+  "intent_template": "Read articles about trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "development studies"
+  },
+  "intent": "Read articles about trends in development studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

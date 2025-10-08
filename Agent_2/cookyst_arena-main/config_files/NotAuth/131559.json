@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bobibanking"
+  ],
+  "task_id": "131559",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bobibanking.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of banking products for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "checking accounts"
+  },
+  "intent": "Get an overview of banking products for checking accounts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

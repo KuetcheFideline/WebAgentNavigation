@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "idealista"
+  ],
+  "task_id": "143114",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://idealista.com",
+  "geolocation": null,
+  "intent_template": "Watch videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "agent interviews"
+  },
+  "intent": "Watch videos about agent interviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

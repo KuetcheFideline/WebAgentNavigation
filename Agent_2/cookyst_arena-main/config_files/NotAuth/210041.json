@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "weddingwire"
+  ],
+  "task_id": "210041",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://weddingwire.com",
+  "geolocation": null,
+  "intent_template": "Read about different wedding traditions and their origins in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "modern trends"
+  },
+  "intent": "Read about different wedding traditions and their origins in modern trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

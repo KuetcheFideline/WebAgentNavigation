@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dow"
+  ],
+  "task_id": "34876",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dow.com",
+  "geolocation": null,
+  "intent_template": "Visit a blog or forum to stay updated on discussions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational debates"
+  },
+  "intent": "Visit a blog or forum to stay updated on discussions about educational debates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

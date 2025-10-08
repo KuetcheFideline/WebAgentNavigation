@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "meross"
+  ],
+  "task_id": "181508",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://meross.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and tech quiz"
+  },
+  "intent": "Take a quiz to test your knowledge about governance and tech quiz",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

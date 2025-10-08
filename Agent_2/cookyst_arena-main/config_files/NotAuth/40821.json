@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "easychair"
+  ],
+  "task_id": "40821",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://easychair.org",
+  "geolocation": null,
+  "intent_template": "Discover conference social events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech networking receptions"
+  },
+  "intent": "Discover conference social events related to legal tech networking receptions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

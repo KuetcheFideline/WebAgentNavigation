@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "variety"
+  ],
+  "task_id": "72396",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://variety.com",
+  "geolocation": null,
+  "intent_template": "Explore a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance institutions"
+  },
+  "intent": "Explore a website about governance institutions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

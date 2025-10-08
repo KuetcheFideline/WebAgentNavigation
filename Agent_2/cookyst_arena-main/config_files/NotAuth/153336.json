@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "glotgrx"
+  ],
+  "task_id": "153336",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://glotgrx.com",
+  "geolocation": null,
+  "intent_template": "Summarize a key concept or idea related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance frameworks"
+  },
+  "intent": "Summarize a key concept or idea related to governance frameworks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "limetorrents"
+  ],
+  "task_id": "187362",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://limetorrents.lol",
+  "geolocation": null,
+  "intent_template": "Read about the legal aspects of torrenting in the context of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fair use"
+  },
+  "intent": "Read about the legal aspects of torrenting in the context of fair use",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mobilitasostenibile"
+  ],
+  "task_id": "73190",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mobilitasostenibile.it",
+  "geolocation": null,
+  "intent_template": "Summarize a blog post about environmental news and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "environmental journalism"
+  },
+  "intent": "Summarize a blog post about environmental news and environmental journalism",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eftydns"
+  ],
+  "task_id": "208618",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eftydns.com",
+  "geolocation": null,
+  "intent_template": "Explore server management tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "command-line interfaces"
+  },
+  "intent": "Explore server management tools for command-line interfaces",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

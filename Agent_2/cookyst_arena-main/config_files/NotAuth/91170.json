@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geni"
+  ],
+  "task_id": "91170",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geni.com",
+  "geolocation": null,
+  "intent_template": "Search for online courses or tutorials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online learning platforms"
+  },
+  "intent": "Search for online courses or tutorials on online learning platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

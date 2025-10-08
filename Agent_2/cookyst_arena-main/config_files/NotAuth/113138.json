@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sailthru"
+  ],
+  "task_id": "113138",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sailthru.com",
+  "geolocation": null,
+  "intent_template": "Find marketing inspiration on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "marketing campaigns"
+  },
+  "intent": "Find marketing inspiration on marketing campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

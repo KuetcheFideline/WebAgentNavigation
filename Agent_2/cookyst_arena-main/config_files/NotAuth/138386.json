@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "connectedpdf"
+  ],
+  "task_id": "138386",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://connectedpdf.com",
+  "geolocation": null,
+  "intent_template": "Find offline resources for learning {{topic}} ",
+  "instantiation_dict": {
+    "topic": "books"
+  },
+  "intent": "Find offline resources for learning books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

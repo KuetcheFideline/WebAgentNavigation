@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "popsci"
+  ],
+  "task_id": "147704",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://popsci.com",
+  "geolocation": null,
+  "intent_template": "Search for online resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research papers"
+  },
+  "intent": "Search for online resources about research papers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

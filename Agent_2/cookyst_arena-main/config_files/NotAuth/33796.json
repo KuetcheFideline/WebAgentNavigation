@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hbr"
+  ],
+  "task_id": "33796",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hbr.org",
+  "geolocation": null,
+  "intent_template": "Summarize key points from a video or article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research"
+  },
+  "intent": "Summarize key points from a video or article on legal research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

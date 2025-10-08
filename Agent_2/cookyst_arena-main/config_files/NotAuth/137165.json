@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nationbuilder"
+  ],
+  "task_id": "137165",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nationbuilder.com",
+  "geolocation": null,
+  "intent_template": "Find online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "LinkedIn Learning"
+  },
+  "intent": "Find online courses on LinkedIn Learning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

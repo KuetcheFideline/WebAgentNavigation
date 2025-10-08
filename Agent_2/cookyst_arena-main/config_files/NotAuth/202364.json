@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "worldbyte"
+  ],
+  "task_id": "202364",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://worldbyte.net",
+  "geolocation": null,
+  "intent_template": "Take an online course about web hosting for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "e-commerce courses"
+  },
+  "intent": "Take an online course about web hosting for e-commerce courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

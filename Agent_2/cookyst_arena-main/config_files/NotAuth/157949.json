@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "devowl"
+  ],
+  "task_id": "157949",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://devowl.io",
+  "geolocation": null,
+  "intent_template": "Explore open-source software related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "free and open-source legal software"
+  },
+  "intent": "Explore open-source software related to free and open-source legal software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

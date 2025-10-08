@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bugherd"
+  ],
+  "task_id": "141207",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bugherd.com",
+  "geolocation": null,
+  "intent_template": "Find articles and research papers on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and training research"
+  },
+  "intent": "Find articles and research papers on education and training research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

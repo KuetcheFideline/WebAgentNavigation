@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ebird"
+  ],
+  "task_id": "210210",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ebird.org",
+  "geolocation": null,
+  "intent_template": "Learn about a conservation organization working on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "wildlife conservation NGOs"
+  },
+  "intent": "Learn about a conservation organization working on wildlife conservation NGOs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

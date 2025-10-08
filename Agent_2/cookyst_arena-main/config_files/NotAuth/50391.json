@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dome9"
+  ],
+  "task_id": "50391",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dome9.com",
+  "geolocation": null,
+  "intent_template": "Find a definition for a term related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection definitions"
+  },
+  "intent": "Find a definition for a term related to data protection definitions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

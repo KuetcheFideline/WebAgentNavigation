@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kwork"
+  ],
+  "task_id": "82990",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kwork.ru",
+  "geolocation": null,
+  "intent_template": "Take notes on freelance opportunities and ideas in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "note-taking"
+  },
+  "intent": "Take notes on freelance opportunities and ideas in note-taking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

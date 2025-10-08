@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mindmegette"
+  ],
+  "task_id": "82126",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mindmegette.hu",
+  "geolocation": null,
+  "intent_template": "Search for recipes related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "meal ideas"
+  },
+  "intent": "Search for recipes related to meal ideas",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

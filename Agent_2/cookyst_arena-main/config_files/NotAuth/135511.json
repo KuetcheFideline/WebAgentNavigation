@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mercadopago"
+  ],
+  "task_id": "135511",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mercadopago.com",
+  "geolocation": null,
+  "intent_template": "Discover promotions for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "discount codes"
+  },
+  "intent": "Discover promotions for discount codes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

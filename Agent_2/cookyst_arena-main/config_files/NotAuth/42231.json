@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vgwort"
+  ],
+  "task_id": "42231",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vgwort.de",
+  "geolocation": null,
+  "intent_template": "Learn about the international aspects of copyright law related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cross-border copyright issues"
+  },
+  "intent": "Learn about the international aspects of copyright law related to cross-border copyright issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

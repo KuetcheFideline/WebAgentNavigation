@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ssstwitter"
+  ],
+  "task_id": "193366",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ssstwitter.com",
+  "geolocation": null,
+  "intent_template": "Read video descriptions and reviews for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "civil law"
+  },
+  "intent": "Read video descriptions and reviews for civil law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

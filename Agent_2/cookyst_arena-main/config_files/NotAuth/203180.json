@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ventraip"
+  ],
+  "task_id": "203180",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ventraip.net.au",
+  "geolocation": null,
+  "intent_template": "Compare web hosting providers for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Bluehost"
+  },
+  "intent": "Compare web hosting providers for Bluehost",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

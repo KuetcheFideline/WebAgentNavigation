@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wireshark"
+  ],
+  "task_id": "119569",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wireshark.org",
+  "geolocation": null,
+  "intent_template": "Summarize key concepts learned from network analysis resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "concept mapping"
+  },
+  "intent": "Summarize key concepts learned from network analysis resources on concept mapping",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smugmug"
+  ],
+  "task_id": "136579",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smugmug.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a photo related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "key legal concepts"
+  },
+  "intent": "Take notes on a photo related to key legal concepts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

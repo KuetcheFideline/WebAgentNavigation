@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "melcloud"
+  ],
+  "task_id": "106242",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://melcloud.com",
+  "geolocation": null,
+  "intent_template": "Take notes on the key features and benefits of IoT devices in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "smart home devices"
+  },
+  "intent": "Take notes on the key features and benefits of IoT devices in smart home devices",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

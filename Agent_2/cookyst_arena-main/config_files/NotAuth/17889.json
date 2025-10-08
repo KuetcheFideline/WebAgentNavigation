@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mediavine"
+  ],
+  "task_id": "17889",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mediavine.com",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law firm advertising"
+  },
+  "intent": "Watch a video about law firm advertising",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

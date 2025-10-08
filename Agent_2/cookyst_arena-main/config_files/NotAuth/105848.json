@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ocn"
+  ],
+  "task_id": "105848",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ocn.ne.jp",
+  "geolocation": null,
+  "intent_template": "Explore internet resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tutorials"
+  },
+  "intent": "Explore internet resources for tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

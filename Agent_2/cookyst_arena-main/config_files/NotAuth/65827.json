@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "siteforce"
+  ],
+  "task_id": "65827",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://siteforce.com",
+  "geolocation": null,
+  "intent_template": "Find FAQs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "common questions about data analytics for policy-making"
+  },
+  "intent": "Find FAQs on common questions about data analytics for policy-making",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

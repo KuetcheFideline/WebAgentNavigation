@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ambientweather"
+  ],
+  "task_id": "199566",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ambientweather.net",
+  "geolocation": null,
+  "intent_template": "Explore current weather conditions for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Limbe"
+  },
+  "intent": "Explore current weather conditions for Limbe",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

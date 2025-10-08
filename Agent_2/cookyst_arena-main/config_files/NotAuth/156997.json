@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "note"
+  ],
+  "task_id": "156997",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://note.com",
+  "geolocation": null,
+  "intent_template": "Find online courses or resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance reform"
+  },
+  "intent": "Find online courses or resources related to governance reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

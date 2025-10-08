@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "archive-it"
+  ],
+  "task_id": "59270",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://archive-it.org",
+  "geolocation": null,
+  "intent_template": "Discover new topics and areas of interest related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights movements"
+  },
+  "intent": "Discover new topics and areas of interest related to human rights movements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

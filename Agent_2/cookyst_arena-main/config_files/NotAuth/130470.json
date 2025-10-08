@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "riseup"
+  ],
+  "task_id": "130470",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://riseup.net",
+  "geolocation": null,
+  "intent_template": "Read about the mission and vision of organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Read about the mission and vision of organizations focused on governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

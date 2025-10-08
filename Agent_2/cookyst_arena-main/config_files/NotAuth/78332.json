@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "marketscreener"
+  ],
+  "task_id": "78332",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://marketscreener.com",
+  "geolocation": null,
+  "intent_template": "Read news articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial trends"
+  },
+  "intent": "Read news articles about financial trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

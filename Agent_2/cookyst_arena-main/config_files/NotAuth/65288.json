@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloud"
+  ],
+  "task_id": "65288",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloud.sap",
+  "geolocation": null,
+  "intent_template": "Search for case studies on the successful implementation of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "impact of legal tech on access to justice"
+  },
+  "intent": "Search for case studies on the successful implementation of impact of legal tech on access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

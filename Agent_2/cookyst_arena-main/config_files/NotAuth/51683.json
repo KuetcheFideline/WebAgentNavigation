@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anycastdns"
+  ],
+  "task_id": "51683",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anycastdns.cz",
+  "geolocation": null,
+  "intent_template": "Understand the importance of DNS for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "IP addresses"
+  },
+  "intent": "Understand the importance of DNS for IP addresses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

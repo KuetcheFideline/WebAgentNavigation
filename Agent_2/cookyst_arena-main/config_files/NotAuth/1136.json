@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freshbooks"
+  ],
+  "task_id": "1136",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freshbooks.com",
+  "geolocation": null,
+  "intent_template": "Explore online courses or tutorials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial modeling"
+  },
+  "intent": "Explore online courses or tutorials on financial modeling",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

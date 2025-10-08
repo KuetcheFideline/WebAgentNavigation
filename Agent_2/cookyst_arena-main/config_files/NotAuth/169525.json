@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "golem"
+  ],
+  "task_id": "169525",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://golem.de",
+  "geolocation": null,
+  "intent_template": "Browse a list of resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online dispute resolution"
+  },
+  "intent": "Browse a list of resources about online dispute resolution",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

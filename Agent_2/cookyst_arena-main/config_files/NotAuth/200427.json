@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "windfinder"
+  ],
+  "task_id": "200427",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://windfinder.com",
+  "geolocation": null,
+  "intent_template": "Find resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "climatology"
+  },
+  "intent": "Find resources on climatology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

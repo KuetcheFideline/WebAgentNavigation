@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hsbc"
+  ],
+  "task_id": "29970",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hsbc.co.uk",
+  "geolocation": null,
+  "intent_template": "Explore financial education resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "personal finance blogs"
+  },
+  "intent": "Explore financial education resources for personal finance blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

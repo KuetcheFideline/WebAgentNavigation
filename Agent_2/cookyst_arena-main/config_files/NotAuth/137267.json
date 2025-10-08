@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cookielaw"
+  ],
+  "task_id": "137267",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cookielaw.org",
+  "geolocation": null,
+  "intent_template": "Understand the role of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity and human rights"
+  },
+  "intent": "Understand the role of cybersecurity and human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

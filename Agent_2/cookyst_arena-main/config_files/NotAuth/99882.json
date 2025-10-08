@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bestlifeonline"
+  ],
+  "task_id": "99882",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bestlifeonline.com",
+  "geolocation": null,
+  "intent_template": "Discover new wellness trends related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "healthy habits"
+  },
+  "intent": "Discover new wellness trends related to healthy habits",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

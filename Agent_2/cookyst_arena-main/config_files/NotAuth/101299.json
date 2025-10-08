@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freshdesk"
+  ],
+  "task_id": "101299",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freshdesk.com",
+  "geolocation": null,
+  "intent_template": "Discover new features related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Discover new features related to human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

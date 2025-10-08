@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "idc"
+  ],
+  "task_id": "179941",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://idc.com",
+  "geolocation": null,
+  "intent_template": "Find answers to frequently asked questions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "FAQs on education technology"
+  },
+  "intent": "Find answers to frequently asked questions about FAQs on education technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

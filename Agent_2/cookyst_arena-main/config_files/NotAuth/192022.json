@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eepurl"
+  ],
+  "task_id": "192022",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eepurl.com",
+  "geolocation": null,
+  "intent_template": "Discover new sources of information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "academic journals"
+  },
+  "intent": "Discover new sources of information on academic journals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

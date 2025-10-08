@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "remaker"
+  ],
+  "task_id": "102672",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://remaker.ai",
+  "geolocation": null,
+  "intent_template": "Search for free images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Search for free images related to human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

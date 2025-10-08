@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gtranslate"
+  ],
+  "task_id": "187681",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gtranslate.net",
+  "geolocation": null,
+  "intent_template": "Search for translation services for a document about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "interpretation services"
+  },
+  "intent": "Search for translation services for a document about interpretation services",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

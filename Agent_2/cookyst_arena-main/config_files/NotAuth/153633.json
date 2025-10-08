@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eufylife"
+  ],
+  "task_id": "153633",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eufylife.com",
+  "geolocation": null,
+  "intent_template": "Read reviews and compare {{topic}} ",
+  "instantiation_dict": {
+    "topic": "device comparisons"
+  },
+  "intent": "Read reviews and compare device comparisons",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

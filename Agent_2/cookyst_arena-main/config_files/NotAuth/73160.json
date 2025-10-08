@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mobilitasostenibile"
+  ],
+  "task_id": "73160",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mobilitasostenibile.it",
+  "geolocation": null,
+  "intent_template": "Browse a list of books about environmental law and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-fiction books"
+  },
+  "intent": "Browse a list of books about environmental law and non-fiction books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

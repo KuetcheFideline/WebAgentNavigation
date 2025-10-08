@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hoyolab"
+  ],
+  "task_id": "84551",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hoyolab.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game development challenges"
+  },
+  "intent": "Take a quiz to test your knowledge of game development challenges",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "culture"
+  ],
+  "task_id": "25809",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://culture.ru",
+  "geolocation": null,
+  "intent_template": "Read articles and blogs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cultural policy"
+  },
+  "intent": "Read articles and blogs about cultural policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

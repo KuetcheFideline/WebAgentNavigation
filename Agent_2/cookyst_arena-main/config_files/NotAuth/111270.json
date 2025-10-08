@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "openstreetmap"
+  ],
+  "task_id": "111270",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://openstreetmap.fr",
+  "geolocation": null,
+  "intent_template": "Find maps and data related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "community resources"
+  },
+  "intent": "Find maps and data related to community resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

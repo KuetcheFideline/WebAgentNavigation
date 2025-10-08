@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazonses"
+  ],
+  "task_id": "64461",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazonses.com",
+  "geolocation": null,
+  "intent_template": "Explore email templates for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "meeting invitations"
+  },
+  "intent": "Explore email templates for meeting invitations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

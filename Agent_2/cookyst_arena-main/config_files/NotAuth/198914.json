@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gliacloud"
+  ],
+  "task_id": "198914",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gliacloud.com",
+  "geolocation": null,
+  "intent_template": "Discover new video channels on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "video channels for legal news and updates"
+  },
+  "intent": "Discover new video channels on video channels for legal news and updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

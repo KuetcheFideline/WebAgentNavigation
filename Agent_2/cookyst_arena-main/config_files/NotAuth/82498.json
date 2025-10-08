@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "2chan"
+  ],
+  "task_id": "82498",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://2chan.net",
+  "geolocation": null,
+  "intent_template": "Read articles and resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "rule of law"
+  },
+  "intent": "Read articles and resources about rule of law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

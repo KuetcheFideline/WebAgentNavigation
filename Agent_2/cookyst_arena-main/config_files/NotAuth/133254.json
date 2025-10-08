@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pokerstars"
+  ],
+  "task_id": "133254",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pokerstars.com",
+  "geolocation": null,
+  "intent_template": "Watch a walkthrough of a game focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "strategy games"
+  },
+  "intent": "Watch a walkthrough of a game focused on strategy games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boosty"
+  ],
+  "task_id": "42618",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boosty.to",
+  "geolocation": null,
+  "intent_template": "Read testimonials from backers of a crowdfunding campaign for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy development"
+  },
+  "intent": "Read testimonials from backers of a crowdfunding campaign for policy development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

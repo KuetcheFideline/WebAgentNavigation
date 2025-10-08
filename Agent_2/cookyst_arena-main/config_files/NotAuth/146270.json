@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fraunhofer"
+  ],
+  "task_id": "146270",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fraunhofer.de",
+  "geolocation": null,
+  "intent_template": "Learn about research initiatives on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to justice and legal aid"
+  },
+  "intent": "Learn about research initiatives on access to justice and legal aid",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

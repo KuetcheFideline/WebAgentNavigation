@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dochord"
+  ],
+  "task_id": "119360",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dochord.com",
+  "geolocation": null,
+  "intent_template": "Take notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sound design"
+  },
+  "intent": "Take notes on sound design",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wjx"
+  ],
+  "task_id": "208866",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wjx.cn",
+  "geolocation": null,
+  "intent_template": "Discover a new book or publication about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal texts"
+  },
+  "intent": "Discover a new book or publication about legal texts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

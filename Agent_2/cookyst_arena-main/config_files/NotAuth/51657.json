@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anycastdns"
+  ],
+  "task_id": "51657",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anycastdns.cz",
+  "geolocation": null,
+  "intent_template": "Find online courses or tutorials about DNS and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "troubleshooting"
+  },
+  "intent": "Find online courses or tutorials about DNS and troubleshooting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "clideo"
+  ],
+  "task_id": "193766",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://clideo.com",
+  "geolocation": null,
+  "intent_template": "Read a blog on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tutorials"
+  },
+  "intent": "Read a blog on tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

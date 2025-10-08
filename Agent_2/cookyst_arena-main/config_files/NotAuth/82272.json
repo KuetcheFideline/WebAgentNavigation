@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mindmegette"
+  ],
+  "task_id": "82272",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mindmegette.hu",
+  "geolocation": null,
+  "intent_template": "Take a quiz about food safety related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "food safety"
+  },
+  "intent": "Take a quiz about food safety related to food safety",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

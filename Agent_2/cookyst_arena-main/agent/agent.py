@@ -15,13 +15,12 @@ from browser_env.actions import (
     create_playwright_action,
 )
 from browser_env.utils import Observation, StateInfo
-from llms import (
+from llms .utils import (
     call_llm,
-    generate_from_huggingface_completion,
-    generate_from_openai_chat_completion,
-    generate_from_openai_completion,
-    lm_config,
+    call_orm
 )
+
+from llms.lm_config import LMConfig
 from llms.tokenizers import Tokenizer
 
 
@@ -131,6 +130,7 @@ class PromptAgent(Agent):
         lm_config = self.lm_config
         n = 0
         while True:
+
             response = call_llm(lm_config, prompt)
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"
@@ -158,6 +158,18 @@ class PromptAgent(Agent):
                     break
 
         return action
+    
+
+    def describe_action (  self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
+    ) -> Action:
+        prompt = self.prompt_constructor.construct(
+            trajectory, intent, meta_data
+        )
+        lm_config = self.lm_config
+        n = 0
+        response = call_llm(lm_config, prompt)
+        
+        return response
 
     def check_action(
         self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any], target_action: str
@@ -200,7 +212,16 @@ class PromptAgent(Agent):
     
     def reset(self, test_config_file: str) -> None:
         pass
+     
+   
+    def verify_action(   self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
+    ) ->str:
+        prompt = self.prompt_constructor.ORM(
+            trajectory, intent, meta_data
+        )
+        response =  call_orm (prompt)  
 
+        return response 
 
 def construct_agent(args: argparse.Namespace) -> Agent:
     llm_config = lm_config.construct_llm_config(args)
@@ -213,7 +234,7 @@ def construct_agent(args: argparse.Namespace) -> Agent:
             constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
         tokenizer = Tokenizer(args.provider, args.model)
         prompt_constructor = eval(constructor_type)(
-            args.instruction_path, lm_config=llm_config, tokenizer=tokenizer
+            args.instruction_path, lm_config=llm_config, tokenizer=tokenizer , orm_path =args.orm_path,
         )
         agent = PromptAgent(
             action_set_tag=args.action_set_tag,

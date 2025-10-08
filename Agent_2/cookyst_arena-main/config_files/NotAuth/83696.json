@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pokernews"
+  ],
+  "task_id": "83696",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pokernews.com",
+  "geolocation": null,
+  "intent_template": "Access a glossary of terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technical terms in online gambling"
+  },
+  "intent": "Access a glossary of terms related to technical terms in online gambling",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

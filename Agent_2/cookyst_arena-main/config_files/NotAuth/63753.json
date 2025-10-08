@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "brainpop"
+  ],
+  "task_id": "63753",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://brainpop.com",
+  "geolocation": null,
+  "intent_template": "Find and follow blogs or newsletters on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and international law"
+  },
+  "intent": "Find and follow blogs or newsletters on human rights and international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

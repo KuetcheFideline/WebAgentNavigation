@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cookieyes"
+  ],
+  "task_id": "137405",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cookieyes.com",
+  "geolocation": null,
+  "intent_template": "Look up a summary of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "PCI-DSS"
+  },
+  "intent": "Look up a summary of PCI-DSS",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

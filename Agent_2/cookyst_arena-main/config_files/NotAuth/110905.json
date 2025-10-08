@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dear-lottery"
+  ],
+  "task_id": "110905",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dear-lottery.in",
+  "geolocation": null,
+  "intent_template": "Watch a documentary about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "the dark side of gaming"
+  },
+  "intent": "Watch a documentary about the dark side of gaming",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

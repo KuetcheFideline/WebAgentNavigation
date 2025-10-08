@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chatgpt4google"
+  ],
+  "task_id": "33652",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chatgpt4google.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of browser extensions that provide information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Read reviews of browser extensions that provide information on education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

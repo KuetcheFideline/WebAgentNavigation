@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "awwwards"
+  ],
+  "task_id": "201098",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://awwwards.com",
+  "geolocation": null,
+  "intent_template": "Discover new tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "web development tools for legal tech"
+  },
+  "intent": "Discover new tools for web development tools for legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

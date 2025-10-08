@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "panorama9"
+  ],
+  "task_id": "102549",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://panorama9.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the current state of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "market research"
+  },
+  "intent": "Get an overview of the current state of market research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ebird"
+  ],
+  "task_id": "210225",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ebird.org",
+  "geolocation": null,
+  "intent_template": "Find a conservation event related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ecosystem management seminars"
+  },
+  "intent": "Find a conservation event related to ecosystem management seminars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

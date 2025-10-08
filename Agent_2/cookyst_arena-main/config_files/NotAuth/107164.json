@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "indeed"
+  ],
+  "task_id": "107164",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://indeed.net",
+  "geolocation": null,
+  "intent_template": "Browse job search blogs related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry insights"
+  },
+  "intent": "Browse job search blogs related to industry insights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bibliocommons"
+  ],
+  "task_id": "107749",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bibliocommons.com",
+  "geolocation": null,
+  "intent_template": "Learn about library services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and technology resources"
+  },
+  "intent": "Learn about library services for education and technology resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

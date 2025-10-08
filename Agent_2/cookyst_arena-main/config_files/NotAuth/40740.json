@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ravelry"
+  ],
+  "task_id": "40740",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ravelry.com",
+  "geolocation": null,
+  "intent_template": "Read about community events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "meetups on legal tech"
+  },
+  "intent": "Read about community events related to meetups on legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

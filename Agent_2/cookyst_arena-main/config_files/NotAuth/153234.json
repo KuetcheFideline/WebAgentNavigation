@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lider"
+  ],
+  "task_id": "153234",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lider.cl",
+  "geolocation": null,
+  "intent_template": "Find security-related events and conferences in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity conferences"
+  },
+  "intent": "Find security-related events and conferences in cybersecurity conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

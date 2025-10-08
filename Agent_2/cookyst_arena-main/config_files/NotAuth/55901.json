@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sphinx-doc"
+  ],
+  "task_id": "55901",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sphinx-doc.org",
+  "geolocation": null,
+  "intent_template": "Explore open-source projects related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and development projects"
+  },
+  "intent": "Explore open-source projects related to governance and development projects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

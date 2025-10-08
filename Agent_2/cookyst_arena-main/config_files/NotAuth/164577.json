@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "umanity"
+  ],
+  "task_id": "164577",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://umanity.jp",
+  "geolocation": null,
+  "intent_template": "Explore a podcast series on the intersection of sports and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economics"
+  },
+  "intent": "Explore a podcast series on the intersection of sports and economics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

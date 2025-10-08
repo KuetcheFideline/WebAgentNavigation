@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "betmexico"
+  ],
+  "task_id": "132877",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://betmexico.mx",
+  "geolocation": null,
+  "intent_template": "Search for news articles about recent developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "societal impacts"
+  },
+  "intent": "Search for news articles about recent developments in societal impacts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

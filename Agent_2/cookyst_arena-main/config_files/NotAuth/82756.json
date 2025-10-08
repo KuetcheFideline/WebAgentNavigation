@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lpsg"
+  ],
+  "task_id": "82756",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lpsg.com",
+  "geolocation": null,
+  "intent_template": "Identify and bookmark relevant resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "judicial opinions"
+  },
+  "intent": "Identify and bookmark relevant resources about judicial opinions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "binbaz"
+  ],
+  "task_id": "145565",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://binbaz.org.sa",
+  "geolocation": null,
+  "intent_template": "Access a glossary of terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Glossary of religious freedom terms"
+  },
+  "intent": "Access a glossary of terms related to Glossary of religious freedom terms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kcrw"
+  ],
+  "task_id": "142305",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kcrw.com",
+  "geolocation": null,
+  "intent_template": "Take notes while listening to a radio show about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and technology"
+  },
+  "intent": "Take notes while listening to a radio show about education and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

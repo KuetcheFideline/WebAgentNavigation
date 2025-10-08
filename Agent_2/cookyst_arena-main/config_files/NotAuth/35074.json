@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kupujemprodajem"
+  ],
+  "task_id": "35074",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kupujemprodajem.com",
+  "geolocation": null,
+  "intent_template": "Browse listings for services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal consulting"
+  },
+  "intent": "Browse listings for services in legal consulting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

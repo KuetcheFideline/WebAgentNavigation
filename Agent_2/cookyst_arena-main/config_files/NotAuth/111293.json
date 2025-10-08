@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mapquest"
+  ],
+  "task_id": "111293",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mapquest.com",
+  "geolocation": null,
+  "intent_template": "Search for locations related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Government Buildings"
+  },
+  "intent": "Search for locations related to Government Buildings",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

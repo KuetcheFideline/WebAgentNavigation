@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "globalsecurity"
+  ],
+  "task_id": "116606",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://globalsecurity.org",
+  "geolocation": null,
+  "intent_template": "Access a library of e-books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security and defense policy"
+  },
+  "intent": "Access a library of e-books on security and defense policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

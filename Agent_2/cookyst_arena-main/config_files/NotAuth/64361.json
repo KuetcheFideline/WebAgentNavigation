@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "protonmail"
+  ],
+  "task_id": "64361",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://protonmail.com",
+  "geolocation": null,
+  "intent_template": "Understand the importance of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "clear subject lines"
+  },
+  "intent": "Understand the importance of clear subject lines",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

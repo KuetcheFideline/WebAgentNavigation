@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "carnegieendowment"
+  ],
+  "task_id": "186729",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://carnegieendowment.org",
+  "geolocation": null,
+  "intent_template": "Explore online courses and training programs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Explore online courses and training programs on policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tate"
+  ],
+  "task_id": "26174",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tate.org.uk",
+  "geolocation": null,
+  "intent_template": "Learn about different art forms and their relation to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy making and social justice"
+  },
+  "intent": "Learn about different art forms and their relation to policy making and social justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

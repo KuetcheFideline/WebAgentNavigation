@@ -1,18 +1,17 @@
 {
   "sites": [
-    "datacamp"
+    "cults3d"
   ],
-  "task_id": 815,
+  "task_id": "0",
   "require_login": false,
-  "login_url": "https://www.datacamp.com",
-  "start_url": "https://www.datacamp.com/dashboard",
-  "login_selector": "a[href='/login']",
+  "login_selector": "",
+  "start_url": "https://cults3d.com",
   "geolocation": null,
-  "intent_template": "Log in to DataCamp and start the course '{{course_name}}'.",
+  "intent_template": "Reflect on the potential applications of 3D printing in {{topic}} ",
   "instantiation_dict": {
-    "course_name": "Introduction to Python"
+    "topic": "legal innovation"
   },
-  "intent": "Log in to DataCamp and start the course 'Introduction to Python'.",
+  "intent": "Reflect on the potential applications of 3D printing in legal innovation",
   "require_reset": false,
   "eval": {
     "eval_types": [
@@ -22,5 +21,5 @@
     "reference_url": "",
     "program_html": []
   },
-  "intent_template_id": 1005
+  "intent_template_id": ""
 }

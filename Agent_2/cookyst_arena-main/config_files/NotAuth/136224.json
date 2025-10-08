@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wiz"
+  ],
+  "task_id": "136224",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wiz.biz",
+  "geolocation": null,
+  "intent_template": "Browse blogs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit organizations"
+  },
+  "intent": "Browse blogs about non-profit organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

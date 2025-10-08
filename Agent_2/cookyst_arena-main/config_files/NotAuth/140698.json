@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "avma"
+  ],
+  "task_id": "140698",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://avma.org",
+  "geolocation": null,
+  "intent_template": "Discover upcoming events and conferences on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technological expos"
+  },
+  "intent": "Discover upcoming events and conferences on technological expos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

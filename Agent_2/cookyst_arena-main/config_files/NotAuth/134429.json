@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pillpack"
+  ],
+  "task_id": "134429",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pillpack.com",
+  "geolocation": null,
+  "intent_template": "Find a pharmacy or healthcare provider for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "pharmacy listings"
+  },
+  "intent": "Find a pharmacy or healthcare provider for pharmacy listings",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

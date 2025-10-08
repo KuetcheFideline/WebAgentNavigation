@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mediaroom"
+  ],
+  "task_id": "141544",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mediaroom.com",
+  "geolocation": null,
+  "intent_template": "Find and download e-books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and policy"
+  },
+  "intent": "Find and download e-books on education and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

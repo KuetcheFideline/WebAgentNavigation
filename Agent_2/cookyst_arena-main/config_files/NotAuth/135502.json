@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paykeeper"
+  ],
+  "task_id": "135502",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paykeeper.ru",
+  "geolocation": null,
+  "intent_template": "Watch a tutorial on how to make a payment for a {{topic}} ",
+  "instantiation_dict": {
+    "topic": "e-books"
+  },
+  "intent": "Watch a tutorial on how to make a payment for a e-books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "civicplus"
+  ],
+  "task_id": "92271",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://civicplus.com",
+  "geolocation": null,
+  "intent_template": "Find a community of practice related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public policy networks"
+  },
+  "intent": "Find a community of practice related to public policy networks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

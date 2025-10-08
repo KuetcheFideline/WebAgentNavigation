@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "openrent"
+  ],
+  "task_id": "143819",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://openrent.co.uk",
+  "geolocation": null,
+  "intent_template": "Get an overview of the real estate market in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "emerging markets"
+  },
+  "intent": "Get an overview of the real estate market in emerging markets",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

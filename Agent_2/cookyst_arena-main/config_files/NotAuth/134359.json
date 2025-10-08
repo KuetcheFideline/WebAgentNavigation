@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paypal"
+  ],
+  "task_id": "134359",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paypal.me",
+  "geolocation": null,
+  "intent_template": "Find information on payment security for transactions related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online payment security"
+  },
+  "intent": "Find information on payment security for transactions related to online payment security",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

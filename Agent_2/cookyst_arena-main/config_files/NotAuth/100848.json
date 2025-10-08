@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mckesson"
+  ],
+  "task_id": "100848",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mckesson.com",
+  "geolocation": null,
+  "intent_template": "Search for research papers about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health literacy"
+  },
+  "intent": "Search for research papers about health literacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

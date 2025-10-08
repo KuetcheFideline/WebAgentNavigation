@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jci"
+  ],
+  "task_id": "116346",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jci.org",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical research tutorials"
+  },
+  "intent": "Watch a video lecture on medical research tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

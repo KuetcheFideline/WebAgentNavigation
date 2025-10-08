@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purelovers"
+  ],
+  "task_id": "8103",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purelovers.com",
+  "geolocation": null,
+  "intent_template": "Browse through legal resources and publications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "resources on legal aspects of online content"
+  },
+  "intent": "Browse through legal resources and publications on resources on legal aspects of online content",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

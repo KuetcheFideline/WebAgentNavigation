@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purestorage"
+  ],
+  "task_id": "52737",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purestorage.com",
+  "geolocation": null,
+  "intent_template": "Discover new features in data storage technology related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "artificial intelligence"
+  },
+  "intent": "Discover new features in data storage technology related to artificial intelligence",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

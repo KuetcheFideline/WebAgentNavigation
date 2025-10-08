@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cepal"
+  ],
+  "task_id": "104592",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cepal.org",
+  "geolocation": null,
+  "intent_template": "Browse a library of publications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "academic articles on human rights"
+  },
+  "intent": "Browse a library of publications on academic articles on human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

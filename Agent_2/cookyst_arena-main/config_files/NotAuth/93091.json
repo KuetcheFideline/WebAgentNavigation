@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "food"
+  ],
+  "task_id": "93091",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://food.gov.uk",
+  "geolocation": null,
+  "intent_template": "Read about the government's stance on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Read about the government's stance on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

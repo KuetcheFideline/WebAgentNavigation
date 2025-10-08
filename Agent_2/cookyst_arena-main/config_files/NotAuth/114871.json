@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mynewsdesk"
+  ],
+  "task_id": "114871",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mynewsdesk.com",
+  "geolocation": null,
+  "intent_template": "Find a template for a marketing plan for a legal education platform offering courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain"
+  },
+  "intent": "Find a template for a marketing plan for a legal education platform offering courses on blockchain",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

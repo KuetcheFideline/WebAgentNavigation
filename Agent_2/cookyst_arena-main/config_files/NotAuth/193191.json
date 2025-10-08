@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "synthesia"
+  ],
+  "task_id": "193191",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://synthesia.io",
+  "geolocation": null,
+  "intent_template": "Explore video playlists on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Explore video playlists on human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

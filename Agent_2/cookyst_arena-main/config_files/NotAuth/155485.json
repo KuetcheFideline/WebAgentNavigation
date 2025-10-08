@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pin"
+  ],
+  "task_id": "155485",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pin.it",
+  "geolocation": null,
+  "intent_template": "Read about news and updates in the field of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law"
+  },
+  "intent": "Read about news and updates in the field of law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

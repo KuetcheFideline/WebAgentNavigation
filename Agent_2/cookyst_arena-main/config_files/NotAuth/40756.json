@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ravelry"
+  ],
+  "task_id": "40756",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ravelry.com",
+  "geolocation": null,
+  "intent_template": "Discover community groups focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Discover community groups focused on legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

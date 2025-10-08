@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "torrentleech"
+  ],
+  "task_id": "74861",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://torrentleech.org",
+  "geolocation": null,
+  "intent_template": "Learn about file sharing best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data security"
+  },
+  "intent": "Learn about file sharing best practices for data security",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

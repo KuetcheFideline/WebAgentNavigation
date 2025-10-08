@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smugmug"
+  ],
+  "task_id": "136710",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smugmug.com",
+  "geolocation": null,
+  "intent_template": "Discover new photos related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocacy"
+  },
+  "intent": "Discover new photos related to human rights advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

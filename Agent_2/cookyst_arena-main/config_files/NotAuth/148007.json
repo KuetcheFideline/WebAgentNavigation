@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "acs"
+  ],
+  "task_id": "148007",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://acs.org",
+  "geolocation": null,
+  "intent_template": "Create offline notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and international law"
+  },
+  "intent": "Create offline notes on human rights and international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

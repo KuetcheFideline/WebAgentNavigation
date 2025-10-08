@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "helpscout"
+  ],
+  "task_id": "43933",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://helpscout.net",
+  "geolocation": null,
+  "intent_template": "Search for answers to frequently asked questions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "order tracking"
+  },
+  "intent": "Search for answers to frequently asked questions about order tracking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

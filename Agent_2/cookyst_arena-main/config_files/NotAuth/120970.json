@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "13tv"
+  ],
+  "task_id": "120970",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://13tv.co.il",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Cameroonian law and policy"
+  },
+  "intent": "Watch a video about Cameroonian law and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

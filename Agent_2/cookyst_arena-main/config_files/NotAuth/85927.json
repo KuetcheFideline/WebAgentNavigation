@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "playfootball"
+  ],
+  "task_id": "85927",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://playfootball.games",
+  "geolocation": null,
+  "intent_template": "Read about games related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law-themed games"
+  },
+  "intent": "Read about games related to law-themed games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

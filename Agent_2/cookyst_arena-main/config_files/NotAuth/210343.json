@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "grammarly"
+  ],
+  "task_id": "210343",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://grammarly.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to assess your knowledge of writing in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "style quizzes"
+  },
+  "intent": "Take a quiz to assess your knowledge of writing in style quizzes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

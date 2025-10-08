@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rebelmouse"
+  ],
+  "task_id": "42006",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rebelmouse.com",
+  "geolocation": null,
+  "intent_template": "Reflect on key takeaways from content about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-assessment"
+  },
+  "intent": "Reflect on key takeaways from content about self-assessment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

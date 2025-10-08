@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "property24"
+  ],
+  "task_id": "143619",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://property24.com",
+  "geolocation": null,
+  "intent_template": "Explore the different types of properties in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "apartments"
+  },
+  "intent": "Explore the different types of properties in apartments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "airbus"
+  ],
+  "task_id": "22620",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://airbus.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "aerospace terminology"
+  },
+  "intent": "Take a quiz to test knowledge about aerospace terminology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

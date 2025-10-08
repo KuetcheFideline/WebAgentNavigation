@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbanairship"
+  ],
+  "task_id": "113050",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbanairship.com",
+  "geolocation": null,
+  "intent_template": "Discover new marketing tools on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "customer service tools"
+  },
+  "intent": "Discover new marketing tools on customer service tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

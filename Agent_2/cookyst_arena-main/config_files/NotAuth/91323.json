@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "socpublic"
+  ],
+  "task_id": "91323",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://socpublic.com",
+  "geolocation": null,
+  "intent_template": "Browse available gigs related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data entry"
+  },
+  "intent": "Browse available gigs related to data entry",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

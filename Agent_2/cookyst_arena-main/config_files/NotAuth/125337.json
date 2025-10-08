@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "liberoquotidiano"
+  ],
+  "task_id": "125337",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://liberoquotidiano.it",
+  "geolocation": null,
+  "intent_template": "Search for news stories about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights campaigns"
+  },
+  "intent": "Search for news stories about human rights campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

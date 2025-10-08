@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ebird"
+  ],
+  "task_id": "210197",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ebird.org",
+  "geolocation": null,
+  "intent_template": "Stay updated on the latest research about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ecosystem management scientific discoveries"
+  },
+  "intent": "Stay updated on the latest research about ecosystem management scientific discoveries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

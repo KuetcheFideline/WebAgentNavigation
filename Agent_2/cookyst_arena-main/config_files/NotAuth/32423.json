@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "quadlayers"
+  ],
+  "task_id": "32423",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://quadlayers.com",
+  "geolocation": null,
+  "intent_template": "Browse through a series of posts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation"
+  },
+  "intent": "Browse through a series of posts on legal innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

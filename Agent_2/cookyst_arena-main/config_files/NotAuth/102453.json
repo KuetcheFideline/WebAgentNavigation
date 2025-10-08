@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "iplocation"
+  ],
+  "task_id": "102453",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://iplocation.net",
+  "geolocation": null,
+  "intent_template": "Search for IP jobs related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "IP career"
+  },
+  "intent": "Search for IP jobs related to IP career",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

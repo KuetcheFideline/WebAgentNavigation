@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "joinhandshake"
+  ],
+  "task_id": "106633",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://joinhandshake.com",
+  "geolocation": null,
+  "intent_template": "Explore job search resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "job search strategies"
+  },
+  "intent": "Explore job search resources related to job search strategies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

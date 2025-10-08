@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "weddingwire"
+  ],
+  "task_id": "210062",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://weddingwire.com",
+  "geolocation": null,
+  "intent_template": "Understand the legal requirements for getting married in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "marriage laws"
+  },
+  "intent": "Understand the legal requirements for getting married in marriage laws",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

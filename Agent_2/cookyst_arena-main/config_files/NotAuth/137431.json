@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "globalprivacycontrol"
+  ],
+  "task_id": "137431",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://globalprivacycontrol.org",
+  "geolocation": null,
+  "intent_template": "Reflect on your current practices for protecting your {{topic}} ",
+  "instantiation_dict": {
+    "topic": "personal data"
+  },
+  "intent": "Reflect on your current practices for protecting your personal data",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

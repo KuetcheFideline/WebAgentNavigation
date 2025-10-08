@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "heygen"
+  ],
+  "task_id": "193179",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://heygen.com",
+  "geolocation": null,
+  "intent_template": "Read video descriptions on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and governance"
+  },
+  "intent": "Read video descriptions on human rights and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

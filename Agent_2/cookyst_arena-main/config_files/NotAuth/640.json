@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crossref"
+  ],
+  "task_id": "640",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crossref.org",
+  "geolocation": null,
+  "intent_template": "Develop a list of research questions on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "methodology"
+  },
+  "intent": "Develop a list of research questions on methodology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

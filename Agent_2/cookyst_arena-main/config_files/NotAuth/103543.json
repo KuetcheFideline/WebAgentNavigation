@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "city-data"
+  ],
+  "task_id": "103543",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://city-data.com",
+  "geolocation": null,
+  "intent_template": "Discover new books and publications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law texts"
+  },
+  "intent": "Discover new books and publications on human rights law texts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

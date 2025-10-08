@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lua"
+  ],
+  "task_id": "140912",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lua.org",
+  "geolocation": null,
+  "intent_template": "Read articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "programming trends"
+  },
+  "intent": "Read articles about programming trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "blendlabs"
+  ],
+  "task_id": "81026",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://blendlabs.com",
+  "geolocation": null,
+  "intent_template": "Take online quizzes or assessments to test your knowledge of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "project management"
+  },
+  "intent": "Take online quizzes or assessments to test your knowledge of project management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "astm"
+  ],
+  "task_id": "168234",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://astm.org",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment to test knowledge on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "multiple choice questions"
+  },
+  "intent": "Take a quiz or assessment to test knowledge on multiple choice questions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

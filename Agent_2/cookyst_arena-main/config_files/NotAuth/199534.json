@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mgm"
+  ],
+  "task_id": "199534",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mgm.gov.tr",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment to test your knowledge of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "weather trivia"
+  },
+  "intent": "Take a quiz or assessment to test your knowledge of weather trivia",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

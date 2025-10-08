@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wm"
+  ],
+  "task_id": "199022",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wm.com",
+  "geolocation": null,
+  "intent_template": "View a gallery of images showcasing innovative waste management solutions in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "recycling facilities"
+  },
+  "intent": "View a gallery of images showcasing innovative waste management solutions in recycling facilities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

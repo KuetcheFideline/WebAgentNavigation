@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bain"
+  ],
+  "task_id": "40961",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bain.com",
+  "geolocation": null,
+  "intent_template": "Read articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy reforms"
+  },
+  "intent": "Read articles on policy reforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

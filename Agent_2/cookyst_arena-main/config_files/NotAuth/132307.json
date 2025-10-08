@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "creativelive"
+  ],
+  "task_id": "132307",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://creativelive.com",
+  "geolocation": null,
+  "intent_template": "Learn about instructors teaching courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "criminal law"
+  },
+  "intent": "Learn about instructors teaching courses on criminal law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

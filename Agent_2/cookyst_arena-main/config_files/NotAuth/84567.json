@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "facepunch"
+  ],
+  "task_id": "84567",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://facepunch.com",
+  "geolocation": null,
+  "intent_template": "Read an article about the legal aspects of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "virtual property rights"
+  },
+  "intent": "Read an article about the legal aspects of virtual property rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

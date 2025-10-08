@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "androidpolice"
+  ],
+  "task_id": "169446",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://androidpolice.com",
+  "geolocation": null,
+  "intent_template": "Explore a podcast about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tech for good"
+  },
+  "intent": "Explore a podcast about tech for good",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

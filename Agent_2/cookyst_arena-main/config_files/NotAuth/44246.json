@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "intercom"
+  ],
+  "task_id": "44246",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://intercom.com",
+  "geolocation": null,
+  "intent_template": "Get help with placing an order for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "product recommendations"
+  },
+  "intent": "Get help with placing an order for product recommendations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

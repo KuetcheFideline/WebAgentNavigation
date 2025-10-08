@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbandictionary"
+  ],
+  "task_id": "59134",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbandictionary.com",
+  "geolocation": null,
+  "intent_template": "Learn about idiomatic expressions related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Learn about idiomatic expressions related to human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

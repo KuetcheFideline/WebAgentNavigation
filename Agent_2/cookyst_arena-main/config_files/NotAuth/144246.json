@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "otodom"
+  ],
+  "task_id": "144246",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://otodom.pl",
+  "geolocation": null,
+  "intent_template": "Calculate the costs of buying a property in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "property taxes"
+  },
+  "intent": "Calculate the costs of buying a property in property taxes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

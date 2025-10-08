@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "e-volution"
+  ],
+  "task_id": "1482",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://e-volution.ai",
+  "geolocation": null,
+  "intent_template": "Subscribe to newsletters and newsletters on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech updates"
+  },
+  "intent": "Subscribe to newsletters and newsletters on legal tech updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

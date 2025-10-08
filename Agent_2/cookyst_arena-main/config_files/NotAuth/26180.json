@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rhizome"
+  ],
+  "task_id": "26180",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rhizome.org",
+  "geolocation": null,
+  "intent_template": "Discover new artists and their work related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social justice and activism"
+  },
+  "intent": "Discover new artists and their work related to social justice and activism",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

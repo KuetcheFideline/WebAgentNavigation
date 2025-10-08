@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dstv"
+  ],
+  "task_id": "168679",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dstv.com",
+  "geolocation": null,
+  "intent_template": "Learn about the latest trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development"
+  },
+  "intent": "Learn about the latest trends in education and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

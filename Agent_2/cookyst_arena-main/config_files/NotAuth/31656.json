@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bnbchain"
+  ],
+  "task_id": "31656",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bnbchain.org",
+  "geolocation": null,
+  "intent_template": "Summarize a research paper on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain research papers"
+  },
+  "intent": "Summarize a research paper on blockchain research papers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

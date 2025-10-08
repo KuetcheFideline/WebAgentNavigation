@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dstv"
+  ],
+  "task_id": "168726",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dstv.com",
+  "geolocation": null,
+  "intent_template": "Find out what's new in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and policy"
+  },
+  "intent": "Find out what's new in education and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

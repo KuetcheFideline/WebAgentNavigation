@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbandictionary"
+  ],
+  "task_id": "59144",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbandictionary.com",
+  "geolocation": null,
+  "intent_template": "Browse a thesaurus for words related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international human rights law"
+  },
+  "intent": "Browse a thesaurus for words related to international human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

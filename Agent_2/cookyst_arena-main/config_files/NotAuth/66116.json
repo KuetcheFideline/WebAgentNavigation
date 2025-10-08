@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "seher"
+  ],
+  "task_id": "66116",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://seher.no",
+  "geolocation": null,
+  "intent_template": "Learn about the latest {{topic}} ",
+  "instantiation_dict": {
+    "topic": "video game releases"
+  },
+  "intent": "Learn about the latest video game releases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

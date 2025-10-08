@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sierraclub"
+  ],
+  "task_id": "73428",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sierraclub.org",
+  "geolocation": null,
+  "intent_template": "Learn about success stories related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ecological restoration"
+  },
+  "intent": "Learn about success stories related to ecological restoration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

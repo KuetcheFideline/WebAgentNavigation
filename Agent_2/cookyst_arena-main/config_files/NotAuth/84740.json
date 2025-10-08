@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pcgamer"
+  ],
+  "task_id": "84740",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pcgamer.com",
+  "geolocation": null,
+  "intent_template": "Explore a game's community related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "community events"
+  },
+  "intent": "Explore a game's community related to community events",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

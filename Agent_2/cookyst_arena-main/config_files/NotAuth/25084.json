@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jetbrains"
+  ],
+  "task_id": "25084",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jetbrains.ai",
+  "geolocation": null,
+  "intent_template": "Search for online courses about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology and AI"
+  },
+  "intent": "Search for online courses about education technology and AI",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

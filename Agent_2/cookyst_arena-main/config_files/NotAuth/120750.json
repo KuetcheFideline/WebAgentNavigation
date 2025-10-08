@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "prweb"
+  ],
+  "task_id": "120750",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://prweb.com",
+  "geolocation": null,
+  "intent_template": "Explore news categories related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology and law"
+  },
+  "intent": "Explore news categories related to technology and law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

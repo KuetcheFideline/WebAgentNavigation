@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "namu"
+  ],
+  "task_id": "210142",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://namu.wiki",
+  "geolocation": null,
+  "intent_template": "Browse articles related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and technology"
+  },
+  "intent": "Browse articles related to law and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

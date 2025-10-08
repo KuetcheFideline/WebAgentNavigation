@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "audible"
+  ],
+  "task_id": "26458",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://audible.com",
+  "geolocation": null,
+  "intent_template": "Discover new audio topics on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocacy"
+  },
+  "intent": "Discover new audio topics on human rights advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

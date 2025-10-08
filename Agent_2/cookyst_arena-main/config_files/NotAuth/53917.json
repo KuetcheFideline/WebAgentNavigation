@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "codeproject"
+  ],
+  "task_id": "53917",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://codeproject.com",
+  "geolocation": null,
+  "intent_template": "Summarize notes or key points from learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech notes"
+  },
+  "intent": "Summarize notes or key points from learning about legal tech notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

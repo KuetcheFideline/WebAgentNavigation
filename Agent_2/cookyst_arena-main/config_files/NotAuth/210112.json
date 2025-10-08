@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikidot"
+  ],
+  "task_id": "210112",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikidot.com",
+  "geolocation": null,
+  "intent_template": "Summarize a wiki page about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights understanding"
+  },
+  "intent": "Summarize a wiki page about human rights understanding",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

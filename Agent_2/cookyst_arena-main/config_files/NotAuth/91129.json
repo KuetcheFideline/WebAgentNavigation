@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ancestry"
+  ],
+  "task_id": "91129",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ancestry.com.au",
+  "geolocation": null,
+  "intent_template": "Browse through historical records related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "archival collections"
+  },
+  "intent": "Browse through historical records related to archival collections",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tate"
+  ],
+  "task_id": "26138",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tate.org.uk",
+  "geolocation": null,
+  "intent_template": "Read about the history of art related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy making"
+  },
+  "intent": "Read about the history of art related to governance and policy making",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bstats"
+  ],
+  "task_id": "23321",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bstats.org",
+  "geolocation": null,
+  "intent_template": "Explore a dataset related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "crime rates"
+  },
+  "intent": "Explore a dataset related to crime rates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

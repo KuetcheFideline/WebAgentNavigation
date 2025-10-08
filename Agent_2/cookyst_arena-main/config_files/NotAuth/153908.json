@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "leofame"
+  ],
+  "task_id": "153908",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://leofame.com",
+  "geolocation": null,
+  "intent_template": "Discover upcoming events or webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology and law seminars"
+  },
+  "intent": "Discover upcoming events or webinars on technology and law seminars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

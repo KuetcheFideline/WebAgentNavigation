@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbandictionary"
+  ],
+  "task_id": "59141",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbandictionary.com",
+  "geolocation": null,
+  "intent_template": "Browse a thesaurus for words related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public international law"
+  },
+  "intent": "Browse a thesaurus for words related to public international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

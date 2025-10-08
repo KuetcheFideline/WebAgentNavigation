@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "betpawa"
+  ],
+  "task_id": "31307",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://betpawa.mw",
+  "geolocation": null,
+  "intent_template": "Read articles about the history and evolution of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "wagering"
+  },
+  "intent": "Read articles about the history and evolution of wagering",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

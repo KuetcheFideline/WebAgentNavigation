@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eplus"
+  ],
+  "task_id": "187054",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eplus.jp",
+  "geolocation": null,
+  "intent_template": "View the agenda for an event on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "View the agenda for an event on human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

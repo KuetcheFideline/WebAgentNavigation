@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arcpublishing"
+  ],
+  "task_id": "42080",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arcpublishing.com",
+  "geolocation": null,
+  "intent_template": "Explore a resource center on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "definitions"
+  },
+  "intent": "Explore a resource center on definitions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "writeablog"
+  ],
+  "task_id": "33004",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://writeablog.net",
+  "geolocation": null,
+  "intent_template": "Browse articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal reform discussions"
+  },
+  "intent": "Browse articles on legal reform discussions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "peatix"
+  ],
+  "task_id": "73940",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://peatix.com",
+  "geolocation": null,
+  "intent_template": "Discover event speakers for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education thought leaders"
+  },
+  "intent": "Discover event speakers for education thought leaders",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

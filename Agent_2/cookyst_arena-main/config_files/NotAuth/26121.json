@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rhizome"
+  ],
+  "task_id": "26121",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rhizome.org",
+  "geolocation": null,
+  "intent_template": "Summarize your thoughts on the relationship between art and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Summarize your thoughts on the relationship between art and legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

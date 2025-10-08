@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "humanitix"
+  ],
+  "task_id": "187060",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://humanitix.com",
+  "geolocation": null,
+  "intent_template": "View the agenda for an event on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation"
+  },
+  "intent": "View the agenda for an event on legal innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

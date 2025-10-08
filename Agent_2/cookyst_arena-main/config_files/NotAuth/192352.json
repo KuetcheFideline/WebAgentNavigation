@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goo"
+  ],
+  "task_id": "192352",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goo.gl",
+  "geolocation": null,
+  "intent_template": "Identify reliable sources of information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "established news sources"
+  },
+  "intent": "Identify reliable sources of information on established news sources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

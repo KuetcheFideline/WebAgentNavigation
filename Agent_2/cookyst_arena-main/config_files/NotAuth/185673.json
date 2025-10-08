@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "versatel"
+  ],
+  "task_id": "185673",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://versatel.de",
+  "geolocation": null,
+  "intent_template": "Take notes on a podcast about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "telecom podcasts"
+  },
+  "intent": "Take notes on a podcast about telecom podcasts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

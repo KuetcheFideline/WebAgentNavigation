@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "indiewire"
+  ],
+  "task_id": "65932",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://indiewire.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "celebrity news"
+  },
+  "intent": "Read an article about celebrity news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

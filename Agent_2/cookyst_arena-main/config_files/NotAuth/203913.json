@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "majordomo"
+  ],
+  "task_id": "203913",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://majordomo.ru",
+  "geolocation": null,
+  "intent_template": "Discover website building tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "WordPress"
+  },
+  "intent": "Discover website building tools for WordPress",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

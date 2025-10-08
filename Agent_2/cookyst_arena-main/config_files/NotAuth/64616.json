@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "iskur"
+  ],
+  "task_id": "64616",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://iskur.gov.tr",
+  "geolocation": null,
+  "intent_template": "Discover companies and organizations in the industry of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit organizations"
+  },
+  "intent": "Discover companies and organizations in the industry of non-profit organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

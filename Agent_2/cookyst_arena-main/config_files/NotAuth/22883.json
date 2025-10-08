@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "aeroflot"
+  ],
+  "task_id": "22883",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://aeroflot.ru",
+  "geolocation": null,
+  "intent_template": "Explore destinations and travel guides related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "travel tips"
+  },
+  "intent": "Explore destinations and travel guides related to travel tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

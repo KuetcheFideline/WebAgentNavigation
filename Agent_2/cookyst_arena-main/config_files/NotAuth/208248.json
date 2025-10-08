@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "windstream"
+  ],
+  "task_id": "208248",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://windstream.net",
+  "geolocation": null,
+  "intent_template": "Take an introductory assessment to gauge knowledge on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Take an introductory assessment to gauge knowledge on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

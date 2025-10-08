@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vaultdcr"
+  ],
+  "task_id": "19360",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vaultdcr.com",
+  "geolocation": null,
+  "intent_template": "Search for information about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance reform initiatives"
+  },
+  "intent": "Search for information about governance reform initiatives",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

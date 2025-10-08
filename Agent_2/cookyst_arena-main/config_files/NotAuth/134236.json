@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thefreelibrary"
+  ],
+  "task_id": "134236",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thefreelibrary.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of a topic related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights overview"
+  },
+  "intent": "Get an overview of a topic related to human rights overview",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

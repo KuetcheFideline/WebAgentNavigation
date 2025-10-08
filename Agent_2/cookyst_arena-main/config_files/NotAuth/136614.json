@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smugmug"
+  ],
+  "task_id": "136614",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smugmug.com",
+  "geolocation": null,
+  "intent_template": "Search for photos of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "lawmakers"
+  },
+  "intent": "Search for photos of lawmakers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arabx"
+  ],
+  "task_id": "8783",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arabx.cam",
+  "geolocation": null,
+  "intent_template": "Learn about organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "advocacy for human rights in the digital sphere"
+  },
+  "intent": "Learn about organizations focused on advocacy for human rights in the digital sphere",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

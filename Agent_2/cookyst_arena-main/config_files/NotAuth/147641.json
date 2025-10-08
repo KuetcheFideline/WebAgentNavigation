@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "discovermagazine"
+  ],
+  "task_id": "147641",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://discovermagazine.com",
+  "geolocation": null,
+  "intent_template": "Take notes and summarize key points from a lecture or video on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance structures"
+  },
+  "intent": "Take notes and summarize key points from a lecture or video on governance structures",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

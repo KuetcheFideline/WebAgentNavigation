@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wps"
+  ],
+  "task_id": "140234",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wps.cn",
+  "geolocation": null,
+  "intent_template": "Browse blogs on productivity and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "goal setting strategies"
+  },
+  "intent": "Browse blogs on productivity and goal setting strategies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

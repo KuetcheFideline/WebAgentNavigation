@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jup"
+  ],
+  "task_id": "43136",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jup.ag",
+  "geolocation": null,
+  "intent_template": "Read an article about the basics of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Cryptocurrency"
+  },
+  "intent": "Read an article about the basics of Cryptocurrency",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

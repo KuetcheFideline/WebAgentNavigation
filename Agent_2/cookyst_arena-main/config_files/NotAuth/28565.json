@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goodsync"
+  ],
+  "task_id": "28565",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goodsync.com",
+  "geolocation": null,
+  "intent_template": "Discover tools for syncing your files across devices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "file sharing"
+  },
+  "intent": "Discover tools for syncing your files across devices for file sharing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crossref"
+  ],
+  "task_id": "655",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crossref.org",
+  "geolocation": null,
+  "intent_template": "Browse academic journals related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public policy journals"
+  },
+  "intent": "Browse academic journals related to public policy journals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

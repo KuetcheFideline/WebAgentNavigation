@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anycastdns"
+  ],
+  "task_id": "51696",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anycastdns.cz",
+  "geolocation": null,
+  "intent_template": "Get familiar with DNS terminology related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry slang"
+  },
+  "intent": "Get familiar with DNS terminology related to industry slang",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

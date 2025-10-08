@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "packetstream"
+  ],
+  "task_id": "141404",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://packetstream.io",
+  "geolocation": null,
+  "intent_template": "Find proxy servers for accessing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public proxy lists"
+  },
+  "intent": "Find proxy servers for accessing public proxy lists",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mfms"
+  ],
+  "task_id": "176052",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mfms.ru",
+  "geolocation": null,
+  "intent_template": "Explore a repository of open-source projects related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech projects"
+  },
+  "intent": "Explore a repository of open-source projects related to legal tech projects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "abv"
+  ],
+  "task_id": "209121",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://abv.bg",
+  "geolocation": null,
+  "intent_template": "Take notes on key points related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "outlining techniques"
+  },
+  "intent": "Take notes on key points related to outlining techniques",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "go"
+  ],
+  "task_id": "140804",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://go.dev",
+  "geolocation": null,
+  "intent_template": "Explore a repository of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Human Rights Data Repository"
+  },
+  "intent": "Explore a repository of Human Rights Data Repository",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

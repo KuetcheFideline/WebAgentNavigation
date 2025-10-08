@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "odnoklassniki"
+  ],
+  "task_id": "156232",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://odnoklassniki.ru",
+  "geolocation": null,
+  "intent_template": "Discover influential figures or organizations in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education initiatives"
+  },
+  "intent": "Discover influential figures or organizations in education initiatives",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

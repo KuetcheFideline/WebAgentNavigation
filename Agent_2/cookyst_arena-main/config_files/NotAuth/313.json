@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "taylorandfrancis"
+  ],
+  "task_id": "313",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://taylorandfrancis.com",
+  "geolocation": null,
+  "intent_template": "Read and download a free chapter on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "judicial review"
+  },
+  "intent": "Read and download a free chapter on judicial review",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

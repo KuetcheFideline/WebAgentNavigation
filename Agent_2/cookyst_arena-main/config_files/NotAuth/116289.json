@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rsna"
+  ],
+  "task_id": "116289",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rsna.org",
+  "geolocation": null,
+  "intent_template": "Download a guide or brochure about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "bioethics"
+  },
+  "intent": "Download a guide or brochure about bioethics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

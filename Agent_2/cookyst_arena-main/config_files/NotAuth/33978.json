@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "looker"
+  ],
+  "task_id": "33978",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://looker.com",
+  "geolocation": null,
+  "intent_template": "Understand the key concepts and terminology related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "dictionary"
+  },
+  "intent": "Understand the key concepts and terminology related to dictionary",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

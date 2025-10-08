@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "theodysseyonline"
+  ],
+  "task_id": "121159",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://theodysseyonline.com",
+  "geolocation": null,
+  "intent_template": "Read a blog or opinion piece about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and policy"
+  },
+  "intent": "Read a blog or opinion piece about law and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "veoh"
+  ],
+  "task_id": "195549",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://veoh.com",
+  "geolocation": null,
+  "intent_template": "Watch a preview of a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international law"
+  },
+  "intent": "Watch a preview of a video about international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

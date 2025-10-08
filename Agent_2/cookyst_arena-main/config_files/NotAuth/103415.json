@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "endress"
+  ],
+  "task_id": "103415",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://endress.com",
+  "geolocation": null,
+  "intent_template": "Watch a video on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "automation fundamentals"
+  },
+  "intent": "Watch a video on automation fundamentals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

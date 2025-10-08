@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "medal"
+  ],
+  "task_id": "90788",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://medal.tv",
+  "geolocation": null,
+  "intent_template": "Summarize the plot or storyline of a game related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law-themed games"
+  },
+  "intent": "Summarize the plot or storyline of a game related to law-themed games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

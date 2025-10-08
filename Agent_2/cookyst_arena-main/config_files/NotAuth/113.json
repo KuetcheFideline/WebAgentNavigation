@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "scopus"
+  ],
+  "task_id": "113",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://scopus.com",
+  "geolocation": null,
+  "intent_template": "Explore topics related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance studies"
+  },
+  "intent": "Explore topics related to governance studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

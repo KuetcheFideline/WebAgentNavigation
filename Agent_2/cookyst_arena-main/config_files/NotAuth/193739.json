@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "handbrake"
+  ],
+  "task_id": "193739",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://handbrake.fr",
+  "geolocation": null,
+  "intent_template": "Take an online course on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "career development"
+  },
+  "intent": "Take an online course on career development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

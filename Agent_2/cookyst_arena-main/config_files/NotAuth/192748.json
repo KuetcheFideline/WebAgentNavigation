@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purevpn"
+  ],
+  "task_id": "192748",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purevpn.com",
+  "geolocation": null,
+  "intent_template": "Learn about the importance of using a VPN for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital rights"
+  },
+  "intent": "Learn about the importance of using a VPN for digital rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mural"
+  ],
+  "task_id": "39985",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mural.co",
+  "geolocation": null,
+  "intent_template": "Explore collaboration tools for working on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "project management software"
+  },
+  "intent": "Explore collaboration tools for working on project management software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "frontapp"
+  ],
+  "task_id": "44149",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://frontapp.com",
+  "geolocation": null,
+  "intent_template": "Find information on shipping and delivery for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "delivery times"
+  },
+  "intent": "Find information on shipping and delivery for delivery times",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

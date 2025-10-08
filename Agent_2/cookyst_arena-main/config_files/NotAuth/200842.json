@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "firefox"
+  ],
+  "task_id": "200842",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://firefox.com",
+  "geolocation": null,
+  "intent_template": "Discover online courses about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology"
+  },
+  "intent": "Discover online courses about education technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

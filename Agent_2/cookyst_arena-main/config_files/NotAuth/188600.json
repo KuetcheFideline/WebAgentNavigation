@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "redbus"
+  ],
+  "task_id": "188600",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://redbus.in",
+  "geolocation": null,
+  "intent_template": "Find travel inspiration for trips focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "travel magazines"
+  },
+  "intent": "Find travel inspiration for trips focused on travel magazines",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

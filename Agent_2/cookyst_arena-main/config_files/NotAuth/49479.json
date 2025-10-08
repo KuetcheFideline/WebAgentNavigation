@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "adguard-dns"
+  ],
+  "task_id": "49479",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://adguard-dns.com",
+  "geolocation": null,
+  "intent_template": "Explore a community forum on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and compliance discussions"
+  },
+  "intent": "Explore a community forum on governance and compliance discussions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

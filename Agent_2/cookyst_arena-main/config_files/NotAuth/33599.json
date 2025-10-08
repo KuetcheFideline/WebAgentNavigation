@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goodreads"
+  ],
+  "task_id": "33599",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goodreads.com",
+  "geolocation": null,
+  "intent_template": "Identify key themes in a book on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Identify key themes in a book on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

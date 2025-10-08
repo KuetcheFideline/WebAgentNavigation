@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unibet"
+  ],
+  "task_id": "134055",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unibet.com",
+  "geolocation": null,
+  "intent_template": "Look for upcoming games that will feature {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game announcements"
+  },
+  "intent": "Look for upcoming games that will feature game announcements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

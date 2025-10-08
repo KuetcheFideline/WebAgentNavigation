@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chelseafc"
+  ],
+  "task_id": "165891",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chelseafc.com",
+  "geolocation": null,
+  "intent_template": "Discover a new book on the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "world cups"
+  },
+  "intent": "Discover a new book on the history of world cups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

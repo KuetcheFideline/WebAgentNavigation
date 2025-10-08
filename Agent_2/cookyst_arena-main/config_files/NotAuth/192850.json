@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vpngate2"
+  ],
+  "task_id": "192850",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vpngate2.jp",
+  "geolocation": null,
+  "intent_template": "Understand the basics of VPN technology for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "firewalls and proxies"
+  },
+  "intent": "Understand the basics of VPN technology for firewalls and proxies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "internalfb"
+  ],
+  "task_id": "106200",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://internalfb.com",
+  "geolocation": null,
+  "intent_template": "Summarize your understanding of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology in law"
+  },
+  "intent": "Summarize your understanding of technology in law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

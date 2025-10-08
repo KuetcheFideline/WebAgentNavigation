@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rosintel"
+  ],
+  "task_id": "184341",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rosintel.com",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "artificial intelligence applications"
+  },
+  "intent": "Watch a video about artificial intelligence applications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

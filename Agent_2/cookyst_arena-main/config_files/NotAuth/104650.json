@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lacnic"
+  ],
+  "task_id": "104650",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lacnic.net",
+  "geolocation": null,
+  "intent_template": "Read about the importance of domain name registration for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law students"
+  },
+  "intent": "Read about the importance of domain name registration for law students",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

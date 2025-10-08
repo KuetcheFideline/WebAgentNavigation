@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "poneytelecom"
+  ],
+  "task_id": "39253",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://poneytelecom.eu",
+  "geolocation": null,
+  "intent_template": "Understand cloud pricing for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "pricing models"
+  },
+  "intent": "Understand cloud pricing for pricing models",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

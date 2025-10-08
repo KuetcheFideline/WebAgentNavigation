@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "internalfb"
+  ],
+  "task_id": "106212",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://internalfb.com",
+  "geolocation": null,
+  "intent_template": "Search for resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "intellectual property"
+  },
+  "intent": "Search for resources related to intellectual property",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

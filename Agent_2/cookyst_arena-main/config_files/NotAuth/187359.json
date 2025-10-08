@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kinozal"
+  ],
+  "task_id": "187359",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kinozal.tv",
+  "geolocation": null,
+  "intent_template": "Read about the legal aspects of torrenting in the context of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public domain works"
+  },
+  "intent": "Read about the legal aspects of torrenting in the context of public domain works",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

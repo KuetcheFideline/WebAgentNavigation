@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sonnenbatterie"
+  ],
+  "task_id": "146091",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sonnenbatterie.de",
+  "geolocation": null,
+  "intent_template": "Take notes and summarize key points related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sustainable energy summaries"
+  },
+  "intent": "Take notes and summarize key points related to sustainable energy summaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "embedgooglemap"
+  ],
+  "task_id": "201115",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://embedgooglemap.net",
+  "geolocation": null,
+  "intent_template": "Download a free e-book or guide about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "web development for lawyers"
+  },
+  "intent": "Download a free e-book or guide about web development for lawyers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

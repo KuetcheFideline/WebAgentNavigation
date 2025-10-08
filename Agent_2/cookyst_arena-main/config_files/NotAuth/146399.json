@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ornl"
+  ],
+  "task_id": "146399",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ornl.gov",
+  "geolocation": null,
+  "intent_template": "Learn about research funding opportunities on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and accountability"
+  },
+  "intent": "Learn about research funding opportunities on governance and accountability",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gpmdata"
+  ],
+  "task_id": "52699",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gpmdata.ru",
+  "geolocation": null,
+  "intent_template": "Find research papers on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance data research"
+  },
+  "intent": "Find research papers on governance data research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

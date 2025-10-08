@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "velog"
+  ],
+  "task_id": "32854",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://velog.io",
+  "geolocation": null,
+  "intent_template": "Save a blog post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "favoriting governance blogs"
+  },
+  "intent": "Save a blog post about favoriting governance blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

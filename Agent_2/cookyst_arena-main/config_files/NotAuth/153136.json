@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "swannsecurity"
+  ],
+  "task_id": "153136",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://swannsecurity.com",
+  "geolocation": null,
+  "intent_template": "Explore security solutions for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "alarm systems"
+  },
+  "intent": "Explore security solutions for alarm systems",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

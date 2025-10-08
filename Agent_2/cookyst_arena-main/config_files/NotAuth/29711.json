@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "homebank"
+  ],
+  "task_id": "29711",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://homebank.kz",
+  "geolocation": null,
+  "intent_template": "Find information on credit scores and reports related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "credit score calculation"
+  },
+  "intent": "Find information on credit scores and reports related to credit score calculation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "servers"
+  ],
+  "task_id": "203123",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://servers.com",
+  "geolocation": null,
+  "intent_template": "Compare web hosting providers for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "SiteGround"
+  },
+  "intent": "Compare web hosting providers for SiteGround",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unity"
+  ],
+  "task_id": "84249",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unity.cn",
+  "geolocation": null,
+  "intent_template": "Summarize notes on game development concepts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game programming concepts"
+  },
+  "intent": "Summarize notes on game development concepts related to game programming concepts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

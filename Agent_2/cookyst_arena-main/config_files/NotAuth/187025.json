@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tiqets"
+  ],
+  "task_id": "187025",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tiqets.com",
+  "geolocation": null,
+  "intent_template": "Read about past events on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation"
+  },
+  "intent": "Read about past events on legal innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mailfence"
+  ],
+  "task_id": "64320",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mailfence.com",
+  "geolocation": null,
+  "intent_template": "Learn about email marketing for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "awareness"
+  },
+  "intent": "Learn about email marketing for awareness",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

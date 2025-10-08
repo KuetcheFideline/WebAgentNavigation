@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "homedepot"
+  ],
+  "task_id": "146657",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://homedepot.com",
+  "geolocation": null,
+  "intent_template": "View product recommendations related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "electronics"
+  },
+  "intent": "View product recommendations related to electronics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

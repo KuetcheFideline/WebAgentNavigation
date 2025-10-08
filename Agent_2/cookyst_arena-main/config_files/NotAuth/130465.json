@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fsf"
+  ],
+  "task_id": "130465",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fsf.org",
+  "geolocation": null,
+  "intent_template": "Read about the mission and vision of organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and advocacy"
+  },
+  "intent": "Read about the mission and vision of organizations focused on education and advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "heraldcorp"
+  ],
+  "task_id": "65840",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://heraldcorp.com",
+  "geolocation": null,
+  "intent_template": "Reflect on a recent experience related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and training"
+  },
+  "intent": "Reflect on a recent experience related to education and training",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

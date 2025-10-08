@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "horsereality"
+  ],
+  "task_id": "88874",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://horsereality.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of games related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights games"
+  },
+  "intent": "Read reviews of games related to human rights games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

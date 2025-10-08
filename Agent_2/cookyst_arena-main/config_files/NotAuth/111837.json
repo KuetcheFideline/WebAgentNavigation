@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yougov"
+  ],
+  "task_id": "111837",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yougov.co.uk",
+  "geolocation": null,
+  "intent_template": "View infographics and visualizations on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocacy"
+  },
+  "intent": "View infographics and visualizations on human rights advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tkor030"
+  ],
+  "task_id": "210020",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tkor030.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the impact of a webtoon about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Reflect on the impact of a webtoon about education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

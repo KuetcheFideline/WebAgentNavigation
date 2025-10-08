@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ygosu"
+  ],
+  "task_id": "206959",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ygosu.com",
+  "geolocation": null,
+  "intent_template": "Watch video lectures on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Watch video lectures on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

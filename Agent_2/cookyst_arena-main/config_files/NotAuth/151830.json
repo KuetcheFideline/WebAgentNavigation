@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "151830",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://google.com.sa",
+  "geolocation": null,
+  "intent_template": "Search for infographics and visualizations on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal infographics"
+  },
+  "intent": "Search for infographics and visualizations on legal infographics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

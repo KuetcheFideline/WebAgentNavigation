@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "aei"
+  ],
+  "task_id": "186675",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://aei.org",
+  "geolocation": null,
+  "intent_template": "Summarize and reflect on your learning experience with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "reflection and self-assessment"
+  },
+  "intent": "Summarize and reflect on your learning experience with reflection and self-assessment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

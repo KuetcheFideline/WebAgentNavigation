@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cnki"
+  ],
+  "task_id": "120",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cnki.net",
+  "geolocation": null,
+  "intent_template": "Discover new research on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational leadership"
+  },
+  "intent": "Discover new research on educational leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

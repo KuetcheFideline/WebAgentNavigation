@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cato"
+  ],
+  "task_id": "186732",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cato.org",
+  "geolocation": null,
+  "intent_template": "Explore online courses and training programs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "judicial reform"
+  },
+  "intent": "Explore online courses and training programs on judicial reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lansweeper"
+  ],
+  "task_id": "119676",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lansweeper.com",
+  "geolocation": null,
+  "intent_template": "Watch tutorials on network troubleshooting for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "debugging tools"
+  },
+  "intent": "Watch tutorials on network troubleshooting for debugging tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

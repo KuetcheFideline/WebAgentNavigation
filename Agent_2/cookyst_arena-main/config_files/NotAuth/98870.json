@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unaids"
+  ],
+  "task_id": "98870",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unaids.org",
+  "geolocation": null,
+  "intent_template": "Search for research articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "global health disparities"
+  },
+  "intent": "Search for research articles on global health disparities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

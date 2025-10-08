@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ycombinator"
+  ],
+  "task_id": "168293",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ycombinator.com",
+  "geolocation": null,
+  "intent_template": "Watch a webinar or video on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology for social impact"
+  },
+  "intent": "Watch a webinar or video on education technology for social impact",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

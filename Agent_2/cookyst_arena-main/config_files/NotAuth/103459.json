@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rockwellautomation"
+  ],
+  "task_id": "103459",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rockwellautomation.com",
+  "geolocation": null,
+  "intent_template": "Find a community of professionals interested in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "manufacturing forum"
+  },
+  "intent": "Find a community of professionals interested in manufacturing forum",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

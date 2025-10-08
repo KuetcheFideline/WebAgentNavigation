@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "spanishdict"
+  ],
+  "task_id": "187841",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://spanishdict.com",
+  "geolocation": null,
+  "intent_template": "Read an article about translation in the context of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "translation and globalization"
+  },
+  "intent": "Read an article about translation in the context of translation and globalization",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

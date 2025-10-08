@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "parsec"
+  ],
+  "task_id": "146030",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://parsec.app",
+  "geolocation": null,
+  "intent_template": "Download guides or manuals for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "remote desktop user guide"
+  },
+  "intent": "Download guides or manuals for remote desktop user guide",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

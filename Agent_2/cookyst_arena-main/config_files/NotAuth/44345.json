@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "churnzero"
+  ],
+  "task_id": "44345",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://churnzero.net",
+  "geolocation": null,
+  "intent_template": "Find customer success templates, tools, or software related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "templates"
+  },
+  "intent": "Find customer success templates, tools, or software related to templates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

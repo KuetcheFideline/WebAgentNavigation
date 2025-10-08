@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "almalinux"
+  ],
+  "task_id": "135009",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://almalinux.org",
+  "geolocation": null,
+  "intent_template": "Find documentation for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "release notes"
+  },
+  "intent": "Find documentation for release notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lubimyczytac"
+  ],
+  "task_id": "33583",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lubimyczytac.pl",
+  "geolocation": null,
+  "intent_template": "Read an excerpt from a book on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development"
+  },
+  "intent": "Read an excerpt from a book on education and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

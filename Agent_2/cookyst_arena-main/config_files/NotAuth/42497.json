@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boosty"
+  ],
+  "task_id": "42497",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boosty.to",
+  "geolocation": null,
+  "intent_template": "Watch a video about a successful crowdfunding campaign for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational resources"
+  },
+  "intent": "Watch a video about a successful crowdfunding campaign for educational resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

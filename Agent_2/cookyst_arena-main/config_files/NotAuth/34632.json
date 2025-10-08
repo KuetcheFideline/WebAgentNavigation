@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "free2move"
+  ],
+  "task_id": "34632",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://free2move.com",
+  "geolocation": null,
+  "intent_template": "Learn about the different types of car rentals available for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economy"
+  },
+  "intent": "Learn about the different types of car rentals available for economy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

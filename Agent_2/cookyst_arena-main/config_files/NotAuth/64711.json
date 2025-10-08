@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "baike"
+  ],
+  "task_id": "64711",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://baike.com",
+  "geolocation": null,
+  "intent_template": "Discover new topics related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international human rights law"
+  },
+  "intent": "Discover new topics related to international human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

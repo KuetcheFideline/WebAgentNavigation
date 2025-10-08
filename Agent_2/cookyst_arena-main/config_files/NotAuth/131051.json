@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nationaltrust"
+  ],
+  "task_id": "131051",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nationaltrust.org.uk",
+  "geolocation": null,
+  "intent_template": "Read about success stories and impact related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Read about success stories and impact related to governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

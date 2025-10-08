@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gumtree"
+  ],
+  "task_id": "35473",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gumtree.co.za",
+  "geolocation": null,
+  "intent_template": "Learn about services offered in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy"
+  },
+  "intent": "Learn about services offered in policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

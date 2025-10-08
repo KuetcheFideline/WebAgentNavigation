@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tinypic"
+  ],
+  "task_id": "102854",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tinypic.com",
+  "geolocation": null,
+  "intent_template": "Browse images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights campaigns"
+  },
+  "intent": "Browse images related to human rights campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

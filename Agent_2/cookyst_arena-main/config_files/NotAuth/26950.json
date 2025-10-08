@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ford"
+  ],
+  "task_id": "26950",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ford.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "autonomous driving"
+  },
+  "intent": "Read an article about autonomous driving",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

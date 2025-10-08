@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arcgisonline"
+  ],
+  "task_id": "91274",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arcgisonline.com",
+  "geolocation": null,
+  "intent_template": "Search for research articles on the use of GIS in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research databases"
+  },
+  "intent": "Search for research articles on the use of GIS in research databases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

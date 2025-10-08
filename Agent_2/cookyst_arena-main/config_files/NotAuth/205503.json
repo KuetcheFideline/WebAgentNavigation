@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hostpapa"
+  ],
+  "task_id": "205503",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hostpapa.com",
+  "geolocation": null,
+  "intent_template": "Read about website security best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "website security software"
+  },
+  "intent": "Read about website security best practices for website security software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

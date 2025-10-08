@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "surveoo"
+  ],
+  "task_id": "169109",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://surveoo.com",
+  "geolocation": null,
+  "intent_template": "Discuss survey results on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "debate"
+  },
+  "intent": "Discuss survey results on debate",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

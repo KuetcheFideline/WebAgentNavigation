@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "meteored"
+  ],
+  "task_id": "199116",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://meteored.com.ar",
+  "geolocation": null,
+  "intent_template": "Browse current weather conditions for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cities"
+  },
+  "intent": "Browse current weather conditions for cities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

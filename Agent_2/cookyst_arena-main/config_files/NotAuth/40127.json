@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gather"
+  ],
+  "task_id": "40127",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gather.town",
+  "geolocation": null,
+  "intent_template": "Explore resources and tools related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Explore resources and tools related to legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unwomen"
+  ],
+  "task_id": "130381",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unwomen.org",
+  "geolocation": null,
+  "intent_template": "Read about the mission and vision of an NGO focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and development"
+  },
+  "intent": "Read about the mission and vision of an NGO focused on education and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

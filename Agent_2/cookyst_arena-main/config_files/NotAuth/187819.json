@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lokalise"
+  ],
+  "task_id": "187819",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lokalise.co",
+  "geolocation": null,
+  "intent_template": "Browse a list of recommended books on translation and localization for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "translation studies"
+  },
+  "intent": "Browse a list of recommended books on translation and localization for translation studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bancogalicia"
+  ],
+  "task_id": "28618",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bancogalicia.com.ar",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge on banking concepts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investing"
+  },
+  "intent": "Take a quiz to test knowledge on banking concepts related to investing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

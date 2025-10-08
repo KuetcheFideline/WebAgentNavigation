@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sendspace"
+  ],
+  "task_id": "74795",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sendspace.com",
+  "geolocation": null,
+  "intent_template": "Preview a file about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "free previews"
+  },
+  "intent": "Preview a file about free previews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

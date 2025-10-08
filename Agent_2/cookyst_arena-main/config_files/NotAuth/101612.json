@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ring"
+  ],
+  "task_id": "101612",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ring.com",
+  "geolocation": null,
+  "intent_template": "Explore the features of a home security system for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "maintenance needs"
+  },
+  "intent": "Explore the features of a home security system for maintenance needs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

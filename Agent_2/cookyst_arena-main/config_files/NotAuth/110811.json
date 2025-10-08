@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "xosodaiphat"
+  ],
+  "task_id": "110811",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://xosodaiphat.com",
+  "geolocation": null,
+  "intent_template": "Find information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "current lottery jackpots"
+  },
+  "intent": "Find information on current lottery jackpots",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

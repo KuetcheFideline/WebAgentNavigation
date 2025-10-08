@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fraunhofer"
+  ],
+  "task_id": "146224",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fraunhofer.de",
+  "geolocation": null,
+  "intent_template": "Explore research articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and technology"
+  },
+  "intent": "Explore research articles on education and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

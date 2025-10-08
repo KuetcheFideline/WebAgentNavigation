@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "immowelt"
+  ],
+  "task_id": "143762",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://immowelt.de",
+  "geolocation": null,
+  "intent_template": "Get an overview of the real estate market in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "regional market analysis"
+  },
+  "intent": "Get an overview of the real estate market in regional market analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

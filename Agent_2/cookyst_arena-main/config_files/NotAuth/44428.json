@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "reamaze"
+  ],
+  "task_id": "44428",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://reamaze.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "user manuals"
+  },
+  "intent": "Browse a catalog of resources related to user manuals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

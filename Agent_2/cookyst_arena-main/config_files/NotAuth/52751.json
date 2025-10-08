@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purestorage"
+  ],
+  "task_id": "52751",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purestorage.com",
+  "geolocation": null,
+  "intent_template": "Learn about the latest trends in data storage for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud gaming"
+  },
+  "intent": "Learn about the latest trends in data storage for cloud gaming",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

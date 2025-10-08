@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chatango"
+  ],
+  "task_id": "34818",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chatango.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legislative changes"
+  },
+  "intent": "Take notes on a legislative changes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

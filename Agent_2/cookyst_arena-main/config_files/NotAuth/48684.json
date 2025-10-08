@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "symantec"
+  ],
+  "task_id": "48684",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://symantec.com",
+  "geolocation": null,
+  "intent_template": "Download a free resource on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection tools"
+  },
+  "intent": "Download a free resource on data protection tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

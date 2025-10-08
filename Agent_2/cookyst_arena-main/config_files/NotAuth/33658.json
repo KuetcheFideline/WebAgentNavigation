@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "poperblocker"
+  ],
+  "task_id": "33658",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://poperblocker.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of browser extensions that provide information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology law"
+  },
+  "intent": "Read reviews of browser extensions that provide information on technology law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

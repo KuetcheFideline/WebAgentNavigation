@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "palmplaystore"
+  ],
+  "task_id": "24289",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://palmplaystore.com",
+  "geolocation": null,
+  "intent_template": "Consider offline alternatives for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-reflection and review"
+  },
+  "intent": "Consider offline alternatives for self-reflection and review",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

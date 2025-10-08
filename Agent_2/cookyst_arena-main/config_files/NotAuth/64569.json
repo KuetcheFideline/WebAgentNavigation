@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mailin"
+  ],
+  "task_id": "64569",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mailin.fr",
+  "geolocation": null,
+  "intent_template": "Learn about email analytics for tracking engagement with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "click-through rates"
+  },
+  "intent": "Learn about email analytics for tracking engagement with click-through rates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

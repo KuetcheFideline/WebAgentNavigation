@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bugherd"
+  ],
+  "task_id": "141086",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bugherd.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and compliance assessments"
+  },
+  "intent": "Take a quiz or assessment on governance and compliance assessments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

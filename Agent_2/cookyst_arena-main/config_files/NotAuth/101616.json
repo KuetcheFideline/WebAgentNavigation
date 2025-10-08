@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ring"
+  ],
+  "task_id": "101616",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ring.com",
+  "geolocation": null,
+  "intent_template": "Watch a video on how to install a home security system for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "troubleshooting"
+  },
+  "intent": "Watch a video on how to install a home security system for troubleshooting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

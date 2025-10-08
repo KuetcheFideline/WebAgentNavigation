@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "consultant"
+  ],
+  "task_id": "107334",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://consultant.ru",
+  "geolocation": null,
+  "intent_template": "Read articles and blog posts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Read articles and blog posts on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "worldbyte"
+  ],
+  "task_id": "204883",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://worldbyte.net",
+  "geolocation": null,
+  "intent_template": "Find resources on website optimization for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "website security"
+  },
+  "intent": "Find resources on website optimization for website security",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kaggle"
+  ],
+  "task_id": "52571",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kaggle.com",
+  "geolocation": null,
+  "intent_template": "Read an article about the applications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "court technology"
+  },
+  "intent": "Read an article about the applications of court technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

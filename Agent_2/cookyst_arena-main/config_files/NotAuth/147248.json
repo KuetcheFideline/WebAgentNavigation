@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ecnavi"
+  ],
+  "task_id": "147248",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ecnavi.jp",
+  "geolocation": null,
+  "intent_template": "Download a guide to getting started with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance for beginners"
+  },
+  "intent": "Download a guide to getting started with governance for beginners",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

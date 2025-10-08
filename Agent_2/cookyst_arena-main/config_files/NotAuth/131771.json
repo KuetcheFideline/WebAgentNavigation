@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "betway"
+  ],
+  "task_id": "131771",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://betway.co.mz",
+  "geolocation": null,
+  "intent_template": "Look for legal advice on the implications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law firms specializing in gaming law"
+  },
+  "intent": "Look for legal advice on the implications of law firms specializing in gaming law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

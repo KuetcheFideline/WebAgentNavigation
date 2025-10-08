@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "similarweb"
+  ],
+  "task_id": "23160",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://similarweb.com",
+  "geolocation": null,
+  "intent_template": "Read an article about data analytics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Read an article about data analytics in education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

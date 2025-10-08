@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "enabiz"
+  ],
+  "task_id": "98969",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://enabiz.gov.tr",
+  "geolocation": null,
+  "intent_template": "Learn about common health conditions and diseases related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "heart health"
+  },
+  "intent": "Learn about common health conditions and diseases related to heart health",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

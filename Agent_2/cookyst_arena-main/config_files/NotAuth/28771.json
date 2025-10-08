@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pnbibanking"
+  ],
+  "task_id": "28771",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pnbibanking.in",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge on banking concepts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial literacy"
+  },
+  "intent": "Take a quiz to test knowledge on banking concepts related to financial literacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

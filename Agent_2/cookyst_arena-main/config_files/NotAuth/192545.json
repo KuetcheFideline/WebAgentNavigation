@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pge"
+  ],
+  "task_id": "192545",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pge.com",
+  "geolocation": null,
+  "intent_template": "Find resources on the regulation of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry associations"
+  },
+  "intent": "Find resources on the regulation of industry associations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

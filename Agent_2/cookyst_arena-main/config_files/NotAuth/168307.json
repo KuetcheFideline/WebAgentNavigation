@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ycombinator"
+  ],
+  "task_id": "168307",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ycombinator.com",
+  "geolocation": null,
+  "intent_template": "Find news and updates on the latest developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy updates"
+  },
+  "intent": "Find news and updates on the latest developments in governance and policy updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

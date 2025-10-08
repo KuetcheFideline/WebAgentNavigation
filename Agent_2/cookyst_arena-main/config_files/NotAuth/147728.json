@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "earthsky"
+  ],
+  "task_id": "147728",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://earthsky.org",
+  "geolocation": null,
+  "intent_template": "Download educational materials about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education for sustainable development toolkits"
+  },
+  "intent": "Download educational materials about education for sustainable development toolkits",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

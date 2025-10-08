@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "1exch"
+  ],
+  "task_id": "76101",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://1exch.net",
+  "geolocation": null,
+  "intent_template": "Explore online resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "podcasts"
+  },
+  "intent": "Explore online resources for podcasts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

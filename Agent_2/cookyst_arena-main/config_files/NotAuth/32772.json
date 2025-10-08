@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "googleblog"
+  ],
+  "task_id": "32772",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://googleblog.com",
+  "geolocation": null,
+  "intent_template": "Reflect on a post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law school experiences"
+  },
+  "intent": "Reflect on a post about law school experiences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

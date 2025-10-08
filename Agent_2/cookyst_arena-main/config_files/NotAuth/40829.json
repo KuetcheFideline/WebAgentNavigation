@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "easychair"
+  ],
+  "task_id": "40829",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://easychair.org",
+  "geolocation": null,
+  "intent_template": "Read conference news and updates related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech conference news"
+  },
+  "intent": "Read conference news and updates related to legal tech conference news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

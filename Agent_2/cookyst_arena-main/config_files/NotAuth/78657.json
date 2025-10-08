@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "whatspos"
+  ],
+  "task_id": "78657",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://whatspos.com",
+  "geolocation": null,
+  "intent_template": "Reflect on your financial goals and progress for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investment goals"
+  },
+  "intent": "Reflect on your financial goals and progress for investment goals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

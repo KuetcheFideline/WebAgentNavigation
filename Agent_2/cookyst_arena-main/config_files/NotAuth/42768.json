@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bitfinex"
+  ],
+  "task_id": "42768",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bitfinex.com",
+  "geolocation": null,
+  "intent_template": "Explore the features of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cryptocurrency exchange"
+  },
+  "intent": "Explore the features of cryptocurrency exchange",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "coingecko"
+  ],
+  "task_id": "43468",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://coingecko.com",
+  "geolocation": null,
+  "intent_template": "Take notes on the potential applications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Financial inclusion"
+  },
+  "intent": "Take notes on the potential applications of Financial inclusion",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geni"
+  ],
+  "task_id": "91194",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geni.com",
+  "geolocation": null,
+  "intent_template": "Learn about the basics of genealogy research and its application to education {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research guides"
+  },
+  "intent": "Learn about the basics of genealogy research and its application to education research guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

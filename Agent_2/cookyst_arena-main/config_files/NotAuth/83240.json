@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "veikkaus"
+  ],
+  "task_id": "83240",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://veikkaus.fi",
+  "geolocation": null,
+  "intent_template": "Read an article about the legal and regulatory environment of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "emerging trends in gambling legislation"
+  },
+  "intent": "Read an article about the legal and regulatory environment of emerging trends in gambling legislation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

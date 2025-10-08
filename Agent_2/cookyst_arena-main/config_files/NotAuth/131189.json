@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freecycle"
+  ],
+  "task_id": "131189",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freecycle.org",
+  "geolocation": null,
+  "intent_template": "Stay updated on news and trends related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Stay updated on news and trends related to governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

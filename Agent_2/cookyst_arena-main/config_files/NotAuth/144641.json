@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "recruit"
+  ],
+  "task_id": "144641",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://recruit.co.jp",
+  "geolocation": null,
+  "intent_template": "Research salary ranges for roles in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tech companies"
+  },
+  "intent": "Research salary ranges for roles in tech companies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

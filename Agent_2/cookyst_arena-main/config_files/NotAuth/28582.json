@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goodsync"
+  ],
+  "task_id": "28582",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goodsync.com",
+  "geolocation": null,
+  "intent_template": "Explore automatic backup options for your files on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud backup"
+  },
+  "intent": "Explore automatic backup options for your files on cloud backup",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

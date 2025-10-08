@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nestle"
+  ],
+  "task_id": "81820",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nestle.com",
+  "geolocation": null,
+  "intent_template": "Explore a list of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "restaurants"
+  },
+  "intent": "Explore a list of restaurants",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

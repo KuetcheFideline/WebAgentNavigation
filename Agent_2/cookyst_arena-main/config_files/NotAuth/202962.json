@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "host-food"
+  ],
+  "task_id": "202962",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://host-food.ru",
+  "geolocation": null,
+  "intent_template": "Compare web hosting providers for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "HostGator"
+  },
+  "intent": "Compare web hosting providers for HostGator",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

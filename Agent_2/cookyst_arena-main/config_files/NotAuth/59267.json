@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "archive-it"
+  ],
+  "task_id": "59267",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://archive-it.org",
+  "geolocation": null,
+  "intent_template": "Look up definitions and explanations of key terms in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and education"
+  },
+  "intent": "Look up definitions and explanations of key terms in governance and education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

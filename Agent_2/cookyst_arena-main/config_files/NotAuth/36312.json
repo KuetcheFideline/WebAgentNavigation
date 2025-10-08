@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geforcenow"
+  ],
+  "task_id": "36312",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geforcenow.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the gameplay for a game related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance in esports"
+  },
+  "intent": "Get an overview of the gameplay for a game related to governance in esports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

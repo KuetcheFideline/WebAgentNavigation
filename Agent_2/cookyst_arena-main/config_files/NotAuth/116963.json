@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "logicmonitor"
+  ],
+  "task_id": "116963",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://logicmonitor.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to determine the best monitoring tool for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research"
+  },
+  "intent": "Take a quiz to determine the best monitoring tool for legal research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

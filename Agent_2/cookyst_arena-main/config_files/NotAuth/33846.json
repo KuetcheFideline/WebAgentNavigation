@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "opencorporates"
+  ],
+  "task_id": "33846",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://opencorporates.com",
+  "geolocation": null,
+  "intent_template": "Read a blog post or article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law updates"
+  },
+  "intent": "Read a blog post or article about human rights law updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

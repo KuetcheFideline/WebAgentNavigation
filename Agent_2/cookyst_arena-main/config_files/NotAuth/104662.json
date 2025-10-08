@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lacnic"
+  ],
+  "task_id": "104662",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lacnic.net",
+  "geolocation": null,
+  "intent_template": "Discover tips for choosing a domain name related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law firms"
+  },
+  "intent": "Discover tips for choosing a domain name related to law firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

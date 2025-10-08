@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "deltaork"
+  ],
+  "task_id": "133993",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://deltaork.com",
+  "geolocation": null,
+  "intent_template": "Look for upcoming games that will feature {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game previews"
+  },
+  "intent": "Look for upcoming games that will feature game previews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

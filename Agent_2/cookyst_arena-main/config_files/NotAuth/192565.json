@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mahadiscom"
+  ],
+  "task_id": "192565",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mahadiscom.in",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "private utilities"
+  },
+  "intent": "Take a quiz to test your knowledge of private utilities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

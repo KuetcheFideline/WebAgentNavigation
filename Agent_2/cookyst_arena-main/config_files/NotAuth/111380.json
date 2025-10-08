@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mapy"
+  ],
+  "task_id": "111380",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mapy.com",
+  "geolocation": null,
+  "intent_template": "Learn about geographical features related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "African geography"
+  },
+  "intent": "Learn about geographical features related to African geography",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

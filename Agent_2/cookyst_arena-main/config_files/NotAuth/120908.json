@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "onedio"
+  ],
+  "task_id": "120908",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://onedio.com",
+  "geolocation": null,
+  "intent_template": "Reflect on a news article or video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Reflect on a news article or video about legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

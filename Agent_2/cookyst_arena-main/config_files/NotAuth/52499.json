@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "clarip"
+  ],
+  "task_id": "52499",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://clarip.com",
+  "geolocation": null,
+  "intent_template": "Explore a glossary of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "regulatory vocabulary"
+  },
+  "intent": "Explore a glossary of regulatory vocabulary",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

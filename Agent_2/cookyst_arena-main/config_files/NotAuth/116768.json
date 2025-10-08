@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "grafana"
+  ],
+  "task_id": "116768",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://grafana.net",
+  "geolocation": null,
+  "intent_template": "Explore tools for monitoring {{topic}} ",
+  "instantiation_dict": {
+    "topic": "keyword tracking"
+  },
+  "intent": "Explore tools for monitoring keyword tracking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

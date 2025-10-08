@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "clarip"
+  ],
+  "task_id": "52478",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://clarip.com",
+  "geolocation": null,
+  "intent_template": "Summarize what you have learned about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "supporting details"
+  },
+  "intent": "Summarize what you have learned about supporting details",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

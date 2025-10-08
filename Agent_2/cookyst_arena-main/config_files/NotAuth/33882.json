@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "looker"
+  ],
+  "task_id": "33882",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://looker.com",
+  "geolocation": null,
+  "intent_template": "Summarize a report on the impact of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "report highlights"
+  },
+  "intent": "Summarize a report on the impact of report highlights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

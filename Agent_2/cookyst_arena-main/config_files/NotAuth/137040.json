@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ivoox"
+  ],
+  "task_id": "137040",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ivoox.com",
+  "geolocation": null,
+  "intent_template": "Read the description of a podcast series about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and social justice"
+  },
+  "intent": "Read the description of a podcast series about human rights and social justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

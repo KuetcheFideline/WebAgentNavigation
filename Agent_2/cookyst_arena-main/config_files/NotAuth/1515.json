@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "e-volution"
+  ],
+  "task_id": "1515",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://e-volution.ai",
+  "geolocation": null,
+  "intent_template": "Browse through case studies and success stories on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology governance best practices"
+  },
+  "intent": "Browse through case studies and success stories on technology governance best practices",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "procareconnect"
+  ],
+  "task_id": "160519",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://procareconnect.com",
+  "geolocation": null,
+  "intent_template": "Learn about the benefits and challenges of implementing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "future of law and technology"
+  },
+  "intent": "Learn about the benefits and challenges of implementing future of law and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

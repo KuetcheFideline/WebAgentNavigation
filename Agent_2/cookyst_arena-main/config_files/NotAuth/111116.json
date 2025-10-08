@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "louisvuitton"
+  ],
+  "task_id": "111116",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://louisvuitton.com",
+  "geolocation": null,
+  "intent_template": "Learn about the craftsmanship behind luxury items in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "luxury watches"
+  },
+  "intent": "Learn about the craftsmanship behind luxury items in luxury watches",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

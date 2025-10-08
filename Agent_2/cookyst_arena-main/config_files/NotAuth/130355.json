@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "adl"
+  ],
+  "task_id": "130355",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://adl.org",
+  "geolocation": null,
+  "intent_template": "Take a quiz or assessment to learn more about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education for development"
+  },
+  "intent": "Take a quiz or assessment to learn more about education for development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

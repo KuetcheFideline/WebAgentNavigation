@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "iplocation"
+  ],
+  "task_id": "102467",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://iplocation.net",
+  "geolocation": null,
+  "intent_template": "Find IP glossary terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "trademark terminology"
+  },
+  "intent": "Find IP glossary terms related to trademark terminology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

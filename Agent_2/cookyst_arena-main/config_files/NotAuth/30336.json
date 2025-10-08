@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sg"
+  ],
+  "task_id": "30336",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sg.fr",
+  "geolocation": null,
+  "intent_template": "Compare banking services and fees for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "loan interest rates"
+  },
+  "intent": "Compare banking services and fees for loan interest rates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

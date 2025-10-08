@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bolt"
+  ],
+  "task_id": "188322",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bolt.eu",
+  "geolocation": null,
+  "intent_template": "Get an overview of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "transportation overview"
+  },
+  "intent": "Get an overview of transportation overview",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

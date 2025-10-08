@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bund"
+  ],
+  "task_id": "96126",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bund.de",
+  "geolocation": null,
+  "intent_template": "Discover upcoming events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy conferences"
+  },
+  "intent": "Discover upcoming events related to policy conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

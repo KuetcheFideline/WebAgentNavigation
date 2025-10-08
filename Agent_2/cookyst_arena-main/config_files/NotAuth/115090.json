@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mdstrm"
+  ],
+  "task_id": "115090",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mdstrm.com",
+  "geolocation": null,
+  "intent_template": "Reflect on an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights issues"
+  },
+  "intent": "Reflect on an article about human rights issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

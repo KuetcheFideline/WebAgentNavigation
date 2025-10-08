@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vlr"
+  ],
+  "task_id": "73712",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vlr.gg",
+  "geolocation": null,
+  "intent_template": "Look for a book or eBook about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "player biographies"
+  },
+  "intent": "Look for a book or eBook about player biographies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

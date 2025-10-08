@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "it"
+  ],
+  "task_id": "60661",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://it.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of domain registrars for websites focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government agencies"
+  },
+  "intent": "Read reviews of domain registrars for websites focused on government agencies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

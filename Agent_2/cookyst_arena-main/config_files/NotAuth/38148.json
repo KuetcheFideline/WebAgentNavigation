@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "forticloud"
+  ],
+  "task_id": "38148",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://forticloud.com",
+  "geolocation": null,
+  "intent_template": "Find cloud services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "collaboration platforms"
+  },
+  "intent": "Find cloud services for collaboration platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

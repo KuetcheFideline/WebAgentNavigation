@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "provenexpert"
+  ],
+  "task_id": "146882",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://provenexpert.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a review or resource related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online courses"
+  },
+  "intent": "Take notes on a review or resource related to online courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

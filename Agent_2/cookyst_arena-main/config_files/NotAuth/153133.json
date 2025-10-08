@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "swannsecurity"
+  ],
+  "task_id": "153133",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://swannsecurity.com",
+  "geolocation": null,
+  "intent_template": "Learn about the basics of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network security"
+  },
+  "intent": "Learn about the basics of network security",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

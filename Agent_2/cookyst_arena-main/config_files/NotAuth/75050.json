@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wetransfer"
+  ],
+  "task_id": "75050",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wetransfer.com",
+  "geolocation": null,
+  "intent_template": "Discover new files on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "personalized suggestions"
+  },
+  "intent": "Discover new files on personalized suggestions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

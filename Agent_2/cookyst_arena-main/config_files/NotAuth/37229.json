@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "qcloud"
+  ],
+  "task_id": "37229",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://qcloud.com",
+  "geolocation": null,
+  "intent_template": "Read articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation"
+  },
+  "intent": "Read articles on legal innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

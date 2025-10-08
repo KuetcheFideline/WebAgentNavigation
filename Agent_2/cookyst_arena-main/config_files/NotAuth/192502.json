@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mahadiscom"
+  ],
+  "task_id": "192502",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mahadiscom.in",
+  "geolocation": null,
+  "intent_template": "Learn about the different types of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public utilities"
+  },
+  "intent": "Learn about the different types of public utilities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

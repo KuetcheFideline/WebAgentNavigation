@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "iskur"
+  ],
+  "task_id": "64618",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://iskur.gov.tr",
+  "geolocation": null,
+  "intent_template": "Watch videos about career paths in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "lawyer"
+  },
+  "intent": "Watch videos about career paths in lawyer",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

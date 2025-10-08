@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "socpublic"
+  ],
+  "task_id": "91356",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://socpublic.com",
+  "geolocation": null,
+  "intent_template": "Learn about opportunities for freelance writing about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "creative writing"
+  },
+  "intent": "Learn about opportunities for freelance writing about creative writing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

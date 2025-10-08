@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "samsungknox"
+  ],
+  "task_id": "45068",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://samsungknox.com",
+  "geolocation": null,
+  "intent_template": "Summarize a news article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection news updates"
+  },
+  "intent": "Summarize a news article on data protection news updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

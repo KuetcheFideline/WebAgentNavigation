@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "afterpay"
+  ],
+  "task_id": "79203",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://afterpay.com",
+  "geolocation": null,
+  "intent_template": "Explore financial calculators and tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "credit score estimators"
+  },
+  "intent": "Explore financial calculators and tools for credit score estimators",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

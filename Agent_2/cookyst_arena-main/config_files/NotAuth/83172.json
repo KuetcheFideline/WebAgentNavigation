@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lotto-italia"
+  ],
+  "task_id": "83172",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lotto-italia.it",
+  "geolocation": null,
+  "intent_template": "Read an article about the legal and regulatory environment of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international cooperation in gambling regulation"
+  },
+  "intent": "Read an article about the legal and regulatory environment of international cooperation in gambling regulation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

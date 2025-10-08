@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hootsuite"
+  ],
+  "task_id": "153836",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hootsuite.com",
+  "geolocation": null,
+  "intent_template": "Explore social media platforms for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance groups"
+  },
+  "intent": "Explore social media platforms for governance groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

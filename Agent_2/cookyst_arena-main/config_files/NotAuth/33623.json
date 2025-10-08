@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "goodreads"
+  ],
+  "task_id": "33623",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://goodreads.com",
+  "geolocation": null,
+  "intent_template": "Read a summary of a book on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international law"
+  },
+  "intent": "Read a summary of a book on international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

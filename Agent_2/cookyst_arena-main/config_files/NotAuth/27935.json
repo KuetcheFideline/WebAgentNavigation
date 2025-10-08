@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "skoda-auto"
+  ],
+  "task_id": "27935",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://skoda-auto.com",
+  "geolocation": null,
+  "intent_template": "Discover a book about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "intellectual property"
+  },
+  "intent": "Discover a book about intellectual property",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

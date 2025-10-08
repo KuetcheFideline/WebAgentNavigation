@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lakakids"
+  ],
+  "task_id": "63634",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lakakids.com",
+  "geolocation": null,
+  "intent_template": "Read game descriptions and summaries related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law game descriptions"
+  },
+  "intent": "Read game descriptions and summaries related to law game descriptions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

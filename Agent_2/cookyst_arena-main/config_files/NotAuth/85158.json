@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ib-game"
+  ],
+  "task_id": "85158",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ib-game.jp",
+  "geolocation": null,
+  "intent_template": "Brainstorm ideas for a game related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance games"
+  },
+  "intent": "Brainstorm ideas for a game related to governance games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

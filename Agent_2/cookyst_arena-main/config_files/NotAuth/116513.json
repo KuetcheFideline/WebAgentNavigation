@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "telegram"
+  ],
+  "task_id": "116513",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://telegram.im",
+  "geolocation": null,
+  "intent_template": "Explore a gallery of images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law illustrations"
+  },
+  "intent": "Explore a gallery of images related to constitutional law illustrations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

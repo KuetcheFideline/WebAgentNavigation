@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ipcheckhost"
+  ],
+  "task_id": "120014",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ipcheckhost.com",
+  "geolocation": null,
+  "intent_template": "Explore network tools and software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network monitoring"
+  },
+  "intent": "Explore network tools and software for network monitoring",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

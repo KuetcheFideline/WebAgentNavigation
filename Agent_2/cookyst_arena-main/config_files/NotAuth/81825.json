@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "resy"
+  ],
+  "task_id": "81825",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://resy.com",
+  "geolocation": null,
+  "intent_template": "Explore a list of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "recipes"
+  },
+  "intent": "Explore a list of recipes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

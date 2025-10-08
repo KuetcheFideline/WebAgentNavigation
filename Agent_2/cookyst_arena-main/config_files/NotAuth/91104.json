@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shuminoengei"
+  ],
+  "task_id": "91104",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shuminoengei.jp",
+  "geolocation": null,
+  "intent_template": "Explore a list of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "gardening communities"
+  },
+  "intent": "Explore a list of gardening communities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

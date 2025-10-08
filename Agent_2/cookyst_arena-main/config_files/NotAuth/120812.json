@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "radiosarajevo"
+  ],
+  "task_id": "120812",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://radiosarajevo.ba",
+  "geolocation": null,
+  "intent_template": "Read a news analysis about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional amendments"
+  },
+  "intent": "Read a news analysis about constitutional amendments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

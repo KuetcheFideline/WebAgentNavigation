@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pitchbook"
+  ],
+  "task_id": "78137",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pitchbook.com",
+  "geolocation": null,
+  "intent_template": "Discover financial tools and resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial software"
+  },
+  "intent": "Discover financial tools and resources for financial software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

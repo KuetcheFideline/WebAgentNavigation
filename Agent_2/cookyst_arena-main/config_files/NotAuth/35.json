@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cults3d"
+  ],
+  "task_id": "35",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cults3d.com",
+  "geolocation": null,
+  "intent_template": "Read articles about the impact of 3D printing on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational applications"
+  },
+  "intent": "Read articles about the impact of 3D printing on educational applications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

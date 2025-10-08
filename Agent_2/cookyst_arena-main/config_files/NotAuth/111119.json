@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cartier"
+  ],
+  "task_id": "111119",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cartier.com",
+  "geolocation": null,
+  "intent_template": "Discover luxury gift ideas in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "high-end fashion"
+  },
+  "intent": "Discover luxury gift ideas in high-end fashion",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

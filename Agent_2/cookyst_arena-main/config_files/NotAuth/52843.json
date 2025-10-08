@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mariadb"
+  ],
+  "task_id": "52843",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mariadb.com",
+  "geolocation": null,
+  "intent_template": "Discover data visualization tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law trends"
+  },
+  "intent": "Discover data visualization tools for constitutional law trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

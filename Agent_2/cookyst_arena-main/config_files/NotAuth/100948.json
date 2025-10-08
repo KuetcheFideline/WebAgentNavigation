@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "upmc"
+  ],
+  "task_id": "100948",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://upmc.com",
+  "geolocation": null,
+  "intent_template": "Explore a database of healthcare resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "healthcare technology reviews"
+  },
+  "intent": "Explore a database of healthcare resources related to healthcare technology reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

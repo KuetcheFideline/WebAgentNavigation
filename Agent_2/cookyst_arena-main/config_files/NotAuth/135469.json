@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paykeeper"
+  ],
+  "task_id": "135469",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paykeeper.ru",
+  "geolocation": null,
+  "intent_template": "Read reviews for a {{topic}} ",
+  "instantiation_dict": {
+    "topic": "payment gateways"
+  },
+  "intent": "Read reviews for a payment gateways",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

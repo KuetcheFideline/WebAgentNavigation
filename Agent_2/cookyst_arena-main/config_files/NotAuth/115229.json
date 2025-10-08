@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tenor"
+  ],
+  "task_id": "115229",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tenor.com",
+  "geolocation": null,
+  "intent_template": "Browse videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Browse videos about legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "blend"
+  ],
+  "task_id": "79490",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://blend.com",
+  "geolocation": null,
+  "intent_template": "Discover financial products and services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "insurance policies"
+  },
+  "intent": "Discover financial products and services for insurance policies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purevolume"
+  ],
+  "task_id": "68828",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purevolume.com",
+  "geolocation": null,
+  "intent_template": "Search for information about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "theater governance"
+  },
+  "intent": "Search for information about theater governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

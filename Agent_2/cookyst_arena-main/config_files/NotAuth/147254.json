@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ecnavi"
+  ],
+  "task_id": "147254",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ecnavi.jp",
+  "geolocation": null,
+  "intent_template": "Discover rewards programs for learners of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law student rewards"
+  },
+  "intent": "Discover rewards programs for learners of law student rewards",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

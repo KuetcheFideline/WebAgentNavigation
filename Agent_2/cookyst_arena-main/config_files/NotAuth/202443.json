@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boardhost"
+  ],
+  "task_id": "202443",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boardhost.com",
+  "geolocation": null,
+  "intent_template": "Learn about web hosting options for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "dedicated hosting"
+  },
+  "intent": "Learn about web hosting options for dedicated hosting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

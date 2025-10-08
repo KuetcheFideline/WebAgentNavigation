@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "handbrake"
+  ],
+  "task_id": "193659",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://handbrake.fr",
+  "geolocation": null,
+  "intent_template": "Watch a video tutorial on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tips and tricks"
+  },
+  "intent": "Watch a video tutorial on tips and tricks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

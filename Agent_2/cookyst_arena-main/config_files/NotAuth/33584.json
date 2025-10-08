@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lubimyczytac"
+  ],
+  "task_id": "33584",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lubimyczytac.pl",
+  "geolocation": null,
+  "intent_template": "Learn about the author of a book on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and governance"
+  },
+  "intent": "Learn about the author of a book on constitutional law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

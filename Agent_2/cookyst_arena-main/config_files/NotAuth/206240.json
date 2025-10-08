@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "metruyencv"
+  ],
+  "task_id": "206240",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://metruyencv.biz",
+  "geolocation": null,
+  "intent_template": "Get recommendations for web novels related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal fiction and society"
+  },
+  "intent": "Get recommendations for web novels related to legal fiction and society",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

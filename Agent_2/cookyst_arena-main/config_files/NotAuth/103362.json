@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "4cdn"
+  ],
+  "task_id": "103362",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://4cdn.org",
+  "geolocation": null,
+  "intent_template": "Browse boards related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Browse boards related to constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

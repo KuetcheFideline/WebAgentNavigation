@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sensualpepper"
+  ],
+  "task_id": "3898",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sensualpepper.com",
+  "geolocation": null,
+  "intent_template": "Read articles about the legal implications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital privacy laws"
+  },
+  "intent": "Read articles about the legal implications of digital privacy laws",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

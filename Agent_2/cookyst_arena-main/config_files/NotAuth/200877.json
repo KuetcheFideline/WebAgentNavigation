@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "uc"
+  ],
+  "task_id": "200877",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://uc.cn",
+  "geolocation": null,
+  "intent_template": "Learn about a new topic related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech guides"
+  },
+  "intent": "Learn about a new topic related to legal tech guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

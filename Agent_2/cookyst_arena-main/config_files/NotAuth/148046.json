@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "acs"
+  ],
+  "task_id": "148046",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://acs.org",
+  "geolocation": null,
+  "intent_template": "Browse a library collection on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and human rights"
+  },
+  "intent": "Browse a library collection on constitutional law and human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

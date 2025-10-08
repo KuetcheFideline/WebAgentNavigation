@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "adjust"
+  ],
+  "task_id": "112818",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://adjust.com",
+  "geolocation": null,
+  "intent_template": "Read an article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social media marketing"
+  },
+  "intent": "Read an article on social media marketing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

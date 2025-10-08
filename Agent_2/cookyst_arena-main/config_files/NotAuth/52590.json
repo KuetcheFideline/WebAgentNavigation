@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anaconda"
+  ],
+  "task_id": "52590",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anaconda.com",
+  "geolocation": null,
+  "intent_template": "Browse a repository of projects involving {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy projects"
+  },
+  "intent": "Browse a repository of projects involving policy projects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

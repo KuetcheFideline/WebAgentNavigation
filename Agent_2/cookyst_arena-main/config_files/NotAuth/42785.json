@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "okx"
+  ],
+  "task_id": "42785",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://okx.cab",
+  "geolocation": null,
+  "intent_template": "Explore the features of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain platform"
+  },
+  "intent": "Explore the features of blockchain platform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

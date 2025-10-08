@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wwd"
+  ],
+  "task_id": "74376",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wwd.com",
+  "geolocation": null,
+  "intent_template": "Read a blog post on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fashion and market trends"
+  },
+  "intent": "Read a blog post on fashion and market trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

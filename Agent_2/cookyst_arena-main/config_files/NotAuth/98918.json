@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "unaids"
+  ],
+  "task_id": "98918",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://unaids.org",
+  "geolocation": null,
+  "intent_template": "Download a guide on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "global health policy"
+  },
+  "intent": "Download a guide on global health policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

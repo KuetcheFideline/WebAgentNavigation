@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "revjet"
+  ],
+  "task_id": "113179",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://revjet.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital marketing"
+  },
+  "intent": "Take a quiz on digital marketing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

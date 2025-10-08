@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "glotgrx"
+  ],
+  "task_id": "153311",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://glotgrx.com",
+  "geolocation": null,
+  "intent_template": "Browse a collection of resources and materials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights materials"
+  },
+  "intent": "Browse a collection of resources and materials on human rights materials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dealertrack"
+  ],
+  "task_id": "26673",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dealertrack.com",
+  "geolocation": null,
+  "intent_template": "Check a FAQ page on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "vehicle technology questions"
+  },
+  "intent": "Check a FAQ page on vehicle technology questions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

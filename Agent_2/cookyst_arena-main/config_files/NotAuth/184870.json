@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mobilevikings"
+  ],
+  "task_id": "184870",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mobilevikings.be",
+  "geolocation": null,
+  "intent_template": "Search for a definition of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technical dictionary"
+  },
+  "intent": "Search for a definition of technical dictionary",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

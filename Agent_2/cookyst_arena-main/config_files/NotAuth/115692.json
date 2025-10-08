@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sky"
+  ],
+  "task_id": "115692",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sky.it",
+  "geolocation": null,
+  "intent_template": "Listen to a podcast about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and governance"
+  },
+  "intent": "Listen to a podcast about constitutional law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

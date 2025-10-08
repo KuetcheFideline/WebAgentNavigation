@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "care"
+  ],
+  "task_id": "34646",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://care.com",
+  "geolocation": null,
+  "intent_template": "Search for care providers and services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "service directory"
+  },
+  "intent": "Search for care providers and services in service directory",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

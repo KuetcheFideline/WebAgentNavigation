@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wordpress"
+  ],
+  "task_id": "41977",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wordpress.net",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal conferences"
+  },
+  "intent": "Learn about upcoming events related to legal conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

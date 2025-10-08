@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nt"
+  ],
+  "task_id": "16136",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nt.technology",
+  "geolocation": null,
+  "intent_template": "Download a guide or whitepaper about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech whitepapers"
+  },
+  "intent": "Download a guide or whitepaper about legal tech whitepapers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mbank"
+  ],
+  "task_id": "30255",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mbank.pl",
+  "geolocation": null,
+  "intent_template": "Compare banking services and fees for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "savings account interest rates"
+  },
+  "intent": "Compare banking services and fees for savings account interest rates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

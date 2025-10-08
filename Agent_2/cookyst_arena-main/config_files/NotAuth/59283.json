@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "overdrive"
+  ],
+  "task_id": "59283",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://overdrive.com",
+  "geolocation": null,
+  "intent_template": "Browse through a collection of articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal technology"
+  },
+  "intent": "Browse through a collection of articles on legal technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

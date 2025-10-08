@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "info"
+  ],
+  "task_id": "97581",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://info.gov.hk",
+  "geolocation": null,
+  "intent_template": "Watch a video on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy explanations"
+  },
+  "intent": "Watch a video on policy explanations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "151945",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://google.ee",
+  "geolocation": null,
+  "intent_template": "Search for infographics and visualizations on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education statistics"
+  },
+  "intent": "Search for infographics and visualizations on education statistics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

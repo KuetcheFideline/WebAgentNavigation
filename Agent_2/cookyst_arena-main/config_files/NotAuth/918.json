@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "researchgate"
+  ],
+  "task_id": "918",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://researchgate.net",
+  "geolocation": null,
+  "intent_template": "Browse online courses about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and law"
+  },
+  "intent": "Browse online courses about education and law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

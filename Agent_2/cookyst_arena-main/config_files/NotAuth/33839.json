@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "opencorporates"
+  ],
+  "task_id": "33839",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://opencorporates.com",
+  "geolocation": null,
+  "intent_template": "Reflect on your current knowledge and skills in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "business and education self-assessment"
+  },
+  "intent": "Reflect on your current knowledge and skills in business and education self-assessment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "glotgrx"
+  ],
+  "task_id": "153327",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://glotgrx.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a topic or concept related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "intellectual property notes"
+  },
+  "intent": "Take notes on a topic or concept related to intellectual property notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

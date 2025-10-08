@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "urbandictionary"
+  ],
+  "task_id": "59139",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://urbandictionary.com",
+  "geolocation": null,
+  "intent_template": "Discover word roots and prefixes related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "comparative law"
+  },
+  "intent": "Discover word roots and prefixes related to comparative law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

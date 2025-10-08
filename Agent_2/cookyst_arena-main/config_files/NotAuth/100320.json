@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "womenshealthmag"
+  ],
+  "task_id": "100320",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://womenshealthmag.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fitness trivia"
+  },
+  "intent": "Take a quiz to learn about fitness trivia",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

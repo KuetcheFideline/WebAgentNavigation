@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thnic"
+  ],
+  "task_id": "60595",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thnic.co.th",
+  "geolocation": null,
+  "intent_template": "Compare domain registrars for a project on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Compare domain registrars for a project on education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

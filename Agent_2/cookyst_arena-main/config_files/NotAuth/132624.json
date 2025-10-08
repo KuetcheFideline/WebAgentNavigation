@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "justgiving"
+  ],
+  "task_id": "132624",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://justgiving.com",
+  "geolocation": null,
+  "intent_template": "Learn about the benefits of donating to a cause related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech project benefits"
+  },
+  "intent": "Learn about the benefits of donating to a cause related to legal tech project benefits",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

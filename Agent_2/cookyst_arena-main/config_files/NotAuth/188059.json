@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "uber"
+  ],
+  "task_id": "188059",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://uber.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industry trends"
+  },
+  "intent": "Read an article about industry trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

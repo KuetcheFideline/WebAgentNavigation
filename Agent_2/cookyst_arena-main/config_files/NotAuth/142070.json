@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "quora"
+  ],
+  "task_id": "142070",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://quora.com",
+  "geolocation": null,
+  "intent_template": "Learn from the experiences of others who have asked questions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and technology"
+  },
+  "intent": "Learn from the experiences of others who have asked questions about law and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

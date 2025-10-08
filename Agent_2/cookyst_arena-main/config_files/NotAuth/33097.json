@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "blogger"
+  ],
+  "task_id": "33097",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://blogger.com",
+  "geolocation": null,
+  "intent_template": "Explore topics related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "delving into human rights law"
+  },
+  "intent": "Explore topics related to delving into human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

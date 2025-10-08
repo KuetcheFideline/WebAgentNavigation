@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "globalsecurity"
+  ],
+  "task_id": "116603",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://globalsecurity.org",
+  "geolocation": null,
+  "intent_template": "Access a library of e-books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "classics in military law"
+  },
+  "intent": "Access a library of e-books on classics in military law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

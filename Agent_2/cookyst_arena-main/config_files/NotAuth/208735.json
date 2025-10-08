@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "uubb"
+  ],
+  "task_id": "208735",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://uubb.website",
+  "geolocation": null,
+  "intent_template": "Understand server scalability for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "load balancing"
+  },
+  "intent": "Understand server scalability for load balancing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

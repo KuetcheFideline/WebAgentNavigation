@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ssstwitter"
+  ],
+  "task_id": "193254",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ssstwitter.com",
+  "geolocation": null,
+  "intent_template": "Reflect on the relevance of a video to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "administrative law"
+  },
+  "intent": "Reflect on the relevance of a video to administrative law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

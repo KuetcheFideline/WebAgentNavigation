@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eastmoney"
+  ],
+  "task_id": "76180",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eastmoney.com",
+  "geolocation": null,
+  "intent_template": "Explore online resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "podcasts"
+  },
+  "intent": "Explore online resources for podcasts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

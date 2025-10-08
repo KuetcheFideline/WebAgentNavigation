@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nerdwallet"
+  ],
+  "task_id": "80322",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nerdwallet.com",
+  "geolocation": null,
+  "intent_template": "Research financial institutions and organizations for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial regulatory bodies"
+  },
+  "intent": "Research financial institutions and organizations for financial regulatory bodies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

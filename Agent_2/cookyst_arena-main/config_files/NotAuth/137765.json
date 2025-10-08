@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "announcekit"
+  ],
+  "task_id": "137765",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://announcekit.app",
+  "geolocation": null,
+  "intent_template": "Discover new {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud computing"
+  },
+  "intent": "Discover new cloud computing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

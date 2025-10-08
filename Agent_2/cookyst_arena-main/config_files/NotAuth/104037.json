@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "allianz"
+  ],
+  "task_id": "104037",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://allianz.de",
+  "geolocation": null,
+  "intent_template": "Watch videos explaining {{topic}} ",
+  "instantiation_dict": {
+    "topic": "claims processes"
+  },
+  "intent": "Watch videos explaining claims processes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

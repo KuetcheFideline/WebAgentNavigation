@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "artic"
+  ],
+  "task_id": "25972",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://artic.edu",
+  "geolocation": null,
+  "intent_template": "Take online quizzes and assessments to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cultural theory"
+  },
+  "intent": "Take online quizzes and assessments to learn about cultural theory",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

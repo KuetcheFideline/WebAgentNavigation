@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "notube"
+  ],
+  "task_id": "193468",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://notube.net",
+  "geolocation": null,
+  "intent_template": "Get an overview of video content related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "professional development"
+  },
+  "intent": "Get an overview of video content related to professional development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

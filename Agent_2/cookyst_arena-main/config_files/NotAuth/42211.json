@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vgwort"
+  ],
+  "task_id": "42211",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vgwort.de",
+  "geolocation": null,
+  "intent_template": "Read about notable copyright cases related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "copyright disputes"
+  },
+  "intent": "Read about notable copyright cases related to copyright disputes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

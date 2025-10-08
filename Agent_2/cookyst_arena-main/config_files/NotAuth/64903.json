@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "enel"
+  ],
+  "task_id": "64903",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://enel.com.br",
+  "geolocation": null,
+  "intent_template": "Learn about energy-related career paths in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy professions"
+  },
+  "intent": "Learn about energy-related career paths in energy professions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

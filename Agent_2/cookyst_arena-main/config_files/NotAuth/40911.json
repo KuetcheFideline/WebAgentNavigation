@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sika"
+  ],
+  "task_id": "40911",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sika.com",
+  "geolocation": null,
+  "intent_template": "Listen to a podcast on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "building codes podcast"
+  },
+  "intent": "Listen to a podcast on building codes podcast",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

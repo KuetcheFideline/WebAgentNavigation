@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fcix"
+  ],
+  "task_id": "120526",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fcix.net",
+  "geolocation": null,
+  "intent_template": "Explore online courses about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Explore online courses about education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

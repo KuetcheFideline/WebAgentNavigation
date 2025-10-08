@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "alibabacloud"
+  ],
+  "task_id": "38720",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://alibabacloud.com",
+  "geolocation": null,
+  "intent_template": "Research cloud providers for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud security"
+  },
+  "intent": "Research cloud providers for cloud security",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

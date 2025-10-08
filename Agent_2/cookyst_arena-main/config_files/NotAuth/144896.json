@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "merriam-webster"
+  ],
+  "task_id": "144896",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://merriam-webster.com",
+  "geolocation": null,
+  "intent_template": "Search for definitions of key terms in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law terminology"
+  },
+  "intent": "Search for definitions of key terms in constitutional law terminology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

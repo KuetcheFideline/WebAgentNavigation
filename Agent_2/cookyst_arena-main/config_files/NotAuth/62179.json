@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "litnet"
+  ],
+  "task_id": "62179",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://litnet.com",
+  "geolocation": null,
+  "intent_template": "Read reviews from other readers about e-books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "negotiation techniques"
+  },
+  "intent": "Read reviews from other readers about e-books on negotiation techniques",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

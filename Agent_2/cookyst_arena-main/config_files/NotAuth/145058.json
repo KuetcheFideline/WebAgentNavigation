@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jewishvirtuallibrary"
+  ],
+  "task_id": "145058",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jewishvirtuallibrary.org",
+  "geolocation": null,
+  "intent_template": "Look up FAQs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal questions"
+  },
+  "intent": "Look up FAQs on legal questions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

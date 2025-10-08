@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gaijinent"
+  ],
+  "task_id": "193863",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gaijinent.com",
+  "geolocation": null,
+  "intent_template": "Watch a game tutorial for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game guides"
+  },
+  "intent": "Watch a game tutorial for game guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

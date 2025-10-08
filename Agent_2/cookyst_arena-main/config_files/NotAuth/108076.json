@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "glamour"
+  ],
+  "task_id": "108076",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://glamour.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and technology"
+  },
+  "intent": "Read an article about governance and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

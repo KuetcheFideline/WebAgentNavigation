@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rmg"
+  ],
+  "task_id": "187542",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rmg.co.uk",
+  "geolocation": null,
+  "intent_template": "Explore travel photos and galleries related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "travel photography"
+  },
+  "intent": "Explore travel photos and galleries related to travel photography",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

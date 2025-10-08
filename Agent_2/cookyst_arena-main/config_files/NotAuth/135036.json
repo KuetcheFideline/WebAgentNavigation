@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ubuntu"
+  ],
+  "task_id": "135036",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ubuntu.com",
+  "geolocation": null,
+  "intent_template": "Find documentation for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technical specifications"
+  },
+  "intent": "Find documentation for technical specifications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

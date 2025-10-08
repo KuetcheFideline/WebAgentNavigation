@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "purl"
+  ],
+  "task_id": "201874",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://purl.org",
+  "geolocation": null,
+  "intent_template": "Take notes on a resource or topic for later review {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research papers"
+  },
+  "intent": "Take notes on a resource or topic for later review research papers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

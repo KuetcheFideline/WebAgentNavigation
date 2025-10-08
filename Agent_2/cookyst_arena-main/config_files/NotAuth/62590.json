@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yotpo"
+  ],
+  "task_id": "62590",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yotpo.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Browse a catalog of books on policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wikidot"
+  ],
+  "task_id": "210090",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wikidot.com",
+  "geolocation": null,
+  "intent_template": "Access a wiki-based resource about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal terminology"
+  },
+  "intent": "Access a wiki-based resource about legal terminology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

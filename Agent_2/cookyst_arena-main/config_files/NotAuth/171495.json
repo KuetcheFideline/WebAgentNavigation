@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "confirmit"
+  ],
+  "task_id": "171495",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://confirmit.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "latest tech trends"
+  },
+  "intent": "Read an article about latest tech trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

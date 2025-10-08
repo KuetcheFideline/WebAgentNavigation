@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "serverfault"
+  ],
+  "task_id": "141935",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://serverfault.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a topic {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-assessment"
+  },
+  "intent": "Take notes on a topic self-assessment",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

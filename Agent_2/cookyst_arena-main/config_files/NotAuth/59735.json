@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "manualslib"
+  ],
+  "task_id": "59735",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://manualslib.com",
+  "geolocation": null,
+  "intent_template": "Watch a video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights lectures"
+  },
+  "intent": "Watch a video about human rights lectures",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

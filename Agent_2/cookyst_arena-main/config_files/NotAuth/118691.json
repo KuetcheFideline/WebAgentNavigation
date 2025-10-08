@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tunein"
+  ],
+  "task_id": "118691",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tunein.com",
+  "geolocation": null,
+  "intent_template": "Read reviews of albums related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "genre exploration"
+  },
+  "intent": "Read reviews of albums related to genre exploration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "forcedcinema"
+  ],
+  "task_id": "14756",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://forcedcinema.net",
+  "geolocation": null,
+  "intent_template": "Utilize offline resources like books and notes to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "books on governance and regulation of digital platforms"
+  },
+  "intent": "Utilize offline resources like books and notes to learn about books on governance and regulation of digital platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

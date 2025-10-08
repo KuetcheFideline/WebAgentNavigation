@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "retailmenot"
+  ],
+  "task_id": "42415",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://retailmenot.com",
+  "geolocation": null,
+  "intent_template": "Discover new legal tech tools on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "e-discovery"
+  },
+  "intent": "Discover new legal tech tools on e-discovery",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

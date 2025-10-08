@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "onnetwork"
+  ],
+  "task_id": "194041",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://onnetwork.tv",
+  "geolocation": null,
+  "intent_template": "Read video descriptions about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to justice"
+  },
+  "intent": "Read video descriptions about access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

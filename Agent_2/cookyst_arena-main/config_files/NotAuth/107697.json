@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "brocardi"
+  ],
+  "task_id": "107697",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://brocardi.it",
+  "geolocation": null,
+  "intent_template": "Browse a directory of legal professionals and experts in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "lawyers"
+  },
+  "intent": "Browse a directory of legal professionals and experts in lawyers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "swannsecurity"
+  ],
+  "task_id": "153140",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://swannsecurity.com",
+  "geolocation": null,
+  "intent_template": "Read about security best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "email security"
+  },
+  "intent": "Read about security best practices for email security",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

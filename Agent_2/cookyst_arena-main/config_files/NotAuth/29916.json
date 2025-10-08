@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "centrum24"
+  ],
+  "task_id": "29916",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://centrum24.pl",
+  "geolocation": null,
+  "intent_template": "Explore financial education resources for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online courses"
+  },
+  "intent": "Explore financial education resources for online courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

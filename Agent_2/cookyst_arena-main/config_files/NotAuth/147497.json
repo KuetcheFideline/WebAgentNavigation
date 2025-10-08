@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "clearbit"
+  ],
+  "task_id": "147497",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://clearbit.com",
+  "geolocation": null,
+  "intent_template": "Read an article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sales and marketing insights"
+  },
+  "intent": "Read an article on sales and marketing insights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

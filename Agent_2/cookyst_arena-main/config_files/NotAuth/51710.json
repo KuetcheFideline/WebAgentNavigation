@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudns"
+  ],
+  "task_id": "51710",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudns.net",
+  "geolocation": null,
+  "intent_template": "Learn about DNS tools and software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "troubleshooting software"
+  },
+  "intent": "Learn about DNS tools and software for troubleshooting software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

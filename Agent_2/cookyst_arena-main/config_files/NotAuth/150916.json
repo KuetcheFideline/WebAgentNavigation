@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "150916",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://google.com.do",
+  "geolocation": null,
+  "intent_template": "Look up quotes and speeches on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "famous legal quotes"
+  },
+  "intent": "Look up quotes and speeches on famous legal quotes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

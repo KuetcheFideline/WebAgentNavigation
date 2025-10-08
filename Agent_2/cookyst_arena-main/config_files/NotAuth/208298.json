@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "excite"
+  ],
+  "task_id": "208298",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://excite.co.jp",
+  "geolocation": null,
+  "intent_template": "Access a glossary of key terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal technology"
+  },
+  "intent": "Access a glossary of key terms related to legal technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

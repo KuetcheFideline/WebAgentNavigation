@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smhi"
+  ],
+  "task_id": "200294",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smhi.se",
+  "geolocation": null,
+  "intent_template": "Browse weather-related articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "weather forecasting"
+  },
+  "intent": "Browse weather-related articles on weather forecasting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

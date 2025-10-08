@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "videolan"
+  ],
+  "task_id": "134681",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://videolan.org",
+  "geolocation": null,
+  "intent_template": "Download a free e-book on open-source software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights investigation software"
+  },
+  "intent": "Download a free e-book on open-source software for human rights investigation software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

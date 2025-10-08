@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "serverfault"
+  ],
+  "task_id": "141855",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://serverfault.com",
+  "geolocation": null,
+  "intent_template": "Organize your thoughts and ideas on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "idea generation"
+  },
+  "intent": "Organize your thoughts and ideas on idea generation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

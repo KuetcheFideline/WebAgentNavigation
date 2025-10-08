@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "e-estekhdam"
+  ],
+  "task_id": "106695",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://e-estekhdam.com",
+  "geolocation": null,
+  "intent_template": "Learn about the job market in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "salary ranges"
+  },
+  "intent": "Learn about the job market in salary ranges",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

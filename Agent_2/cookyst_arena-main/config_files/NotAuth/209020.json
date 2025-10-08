@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "flagcounter"
+  ],
+  "task_id": "209020",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://flagcounter.com",
+  "geolocation": null,
+  "intent_template": "Participate in online communities or forums related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights groups"
+  },
+  "intent": "Participate in online communities or forums related to human rights groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "iarc"
+  ],
+  "task_id": "99216",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://iarc.fr",
+  "geolocation": null,
+  "intent_template": "Explore a website or online resource about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health policy institutes"
+  },
+  "intent": "Explore a website or online resource about health policy institutes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

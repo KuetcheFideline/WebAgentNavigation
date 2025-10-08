@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rozmusic"
+  ],
+  "task_id": "117648",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rozmusic.com",
+  "geolocation": null,
+  "intent_template": "Search for songs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Search for songs about governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

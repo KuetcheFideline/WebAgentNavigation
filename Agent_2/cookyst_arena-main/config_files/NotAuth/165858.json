@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bold"
+  ],
+  "task_id": "165858",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bold.dk",
+  "geolocation": null,
+  "intent_template": "Discover a new book on the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "olympics"
+  },
+  "intent": "Discover a new book on the history of olympics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

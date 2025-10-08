@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pewinternet"
+  ],
+  "task_id": "146457",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pewinternet.org",
+  "geolocation": null,
+  "intent_template": "Explore online courses related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "LinkedIn Learning"
+  },
+  "intent": "Explore online courses related to LinkedIn Learning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

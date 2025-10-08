@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lingojam"
+  ],
+  "task_id": "187718",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lingojam.com",
+  "geolocation": null,
+  "intent_template": "Search for translations of legal terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal definitions"
+  },
+  "intent": "Search for translations of legal terms related to legal definitions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

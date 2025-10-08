@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "signalfx"
+  ],
+  "task_id": "117056",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://signalfx.com",
+  "geolocation": null,
+  "intent_template": "Learn about best practices in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance conferences"
+  },
+  "intent": "Learn about best practices in governance conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

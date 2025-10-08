@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "indown"
+  ],
+  "task_id": "134556",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://indown.io",
+  "geolocation": null,
+  "intent_template": "Find a legal form for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "last will and testament"
+  },
+  "intent": "Find a legal form for last will and testament",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

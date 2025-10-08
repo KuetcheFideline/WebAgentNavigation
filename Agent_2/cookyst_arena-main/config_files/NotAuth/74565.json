@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudconvert"
+  ],
+  "task_id": "74565",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudconvert.com",
+  "geolocation": null,
+  "intent_template": "Read about the benefits of converting files for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "file conversion advantages"
+  },
+  "intent": "Read about the benefits of converting files for file conversion advantages",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

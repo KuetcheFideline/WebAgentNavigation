@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "agenciatributaria"
+  ],
+  "task_id": "94815",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://agenciatributaria.gob.es",
+  "geolocation": null,
+  "intent_template": "Learn about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Learn about the history of legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

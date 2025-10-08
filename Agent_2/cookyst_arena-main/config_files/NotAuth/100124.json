@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "doctolib"
+  ],
+  "task_id": "100124",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://doctolib.fr",
+  "geolocation": null,
+  "intent_template": "Browse wellness products related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "self-care products"
+  },
+  "intent": "Browse wellness products related to self-care products",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "elitedaily"
+  ],
+  "task_id": "121258",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://elitedaily.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a news article or video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and accountability"
+  },
+  "intent": "Take notes on a news article or video about governance and accountability",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

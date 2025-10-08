@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "onelogin"
+  ],
+  "task_id": "51350",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://onelogin.com",
+  "geolocation": null,
+  "intent_template": "Identify a career path related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech jobs"
+  },
+  "intent": "Identify a career path related to legal tech jobs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

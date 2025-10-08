@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "huggingface"
+  ],
+  "task_id": "25560",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://huggingface.co",
+  "geolocation": null,
+  "intent_template": "Read a newsletter about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and innovation"
+  },
+  "intent": "Read a newsletter about legal tech and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

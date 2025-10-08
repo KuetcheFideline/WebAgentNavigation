@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dstv"
+  ],
+  "task_id": "168630",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dstv.com",
+  "geolocation": null,
+  "intent_template": "Watch a preview of a lecture series on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public policy"
+  },
+  "intent": "Watch a preview of a lecture series on public policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

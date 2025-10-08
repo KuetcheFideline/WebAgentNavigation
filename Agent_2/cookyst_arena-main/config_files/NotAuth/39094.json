@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bahnhof"
+  ],
+  "task_id": "39094",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bahnhof.net",
+  "geolocation": null,
+  "intent_template": "Understand cloud pricing for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "budget planning"
+  },
+  "intent": "Understand cloud pricing for budget planning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

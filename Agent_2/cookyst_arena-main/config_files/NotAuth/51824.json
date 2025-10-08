@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anonymised"
+  ],
+  "task_id": "51824",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anonymised.io",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "introduction to data science for law"
+  },
+  "intent": "Watch a video lecture on introduction to data science for law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

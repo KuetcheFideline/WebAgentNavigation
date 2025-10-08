@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dnszi"
+  ],
+  "task_id": "51620",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dnszi.com",
+  "geolocation": null,
+  "intent_template": "Learn about DNS basics and how they apply to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "name servers"
+  },
+  "intent": "Learn about DNS basics and how they apply to name servers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

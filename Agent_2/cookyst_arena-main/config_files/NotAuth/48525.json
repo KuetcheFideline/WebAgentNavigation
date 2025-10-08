@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "openssl"
+  ],
+  "task_id": "48525",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://openssl.org",
+  "geolocation": null,
+  "intent_template": "Download a free resource on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech guides"
+  },
+  "intent": "Download a free resource on legal tech guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

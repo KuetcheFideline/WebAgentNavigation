@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shopeepay"
+  ],
+  "task_id": "62355",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shopeepay.sg",
+  "geolocation": null,
+  "intent_template": "Learn about payment trends and innovations in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "mobile wallets"
+  },
+  "intent": "Learn about payment trends and innovations in mobile wallets",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

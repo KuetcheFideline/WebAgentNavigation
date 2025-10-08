@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hotelkit"
+  ],
+  "task_id": "101652",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hotelkit.net",
+  "geolocation": null,
+  "intent_template": "Explore a website or blog about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "event planning"
+  },
+  "intent": "Explore a website or blog about event planning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

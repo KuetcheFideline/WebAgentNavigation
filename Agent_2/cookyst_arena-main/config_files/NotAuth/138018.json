@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sejda"
+  ],
+  "task_id": "138018",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sejda.com",
+  "geolocation": null,
+  "intent_template": "Find free online courses for learning {{topic}} ",
+  "instantiation_dict": {
+    "topic": "edX"
+  },
+  "intent": "Find free online courses for learning edX",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

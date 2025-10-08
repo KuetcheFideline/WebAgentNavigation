@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "speedtest"
+  ],
+  "task_id": "120140",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://speedtest.net",
+  "geolocation": null,
+  "intent_template": "Join online communities and forums related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "IT discussion boards"
+  },
+  "intent": "Join online communities and forums related to IT discussion boards",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

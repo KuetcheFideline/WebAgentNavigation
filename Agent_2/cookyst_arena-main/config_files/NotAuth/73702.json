@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vlr"
+  ],
+  "task_id": "73702",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vlr.gg",
+  "geolocation": null,
+  "intent_template": "Discuss {{topic}} ",
+  "instantiation_dict": {
+    "topic": "conversation starters"
+  },
+  "intent": "Discuss conversation starters",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

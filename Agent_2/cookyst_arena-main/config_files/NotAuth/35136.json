@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "somon"
+  ],
+  "task_id": "35136",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://somon.tj",
+  "geolocation": null,
+  "intent_template": "Browse listings for services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational services"
+  },
+  "intent": "Browse listings for services in educational services",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

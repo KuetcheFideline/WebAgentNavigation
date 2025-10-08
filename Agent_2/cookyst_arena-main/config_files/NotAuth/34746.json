@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thebalancecareers"
+  ],
+  "task_id": "34746",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thebalancecareers.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of courses and training programs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Browse a catalog of courses and training programs on policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

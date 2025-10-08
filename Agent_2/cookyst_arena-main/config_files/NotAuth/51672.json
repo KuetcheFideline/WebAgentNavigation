@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anycastdns"
+  ],
+  "task_id": "51672",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anycastdns.cz",
+  "geolocation": null,
+  "intent_template": "Research DNS-related news and trends in the {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security threats"
+  },
+  "intent": "Research DNS-related news and trends in the security threats",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

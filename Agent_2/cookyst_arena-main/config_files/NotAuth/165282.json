@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "championat"
+  ],
+  "task_id": "165282",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://championat.asia",
+  "geolocation": null,
+  "intent_template": "Search for research papers on the impact of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "climate change"
+  },
+  "intent": "Search for research papers on the impact of climate change",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

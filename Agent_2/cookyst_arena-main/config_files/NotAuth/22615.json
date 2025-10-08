@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boeing"
+  ],
+  "task_id": "22615",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boeing.com",
+  "geolocation": null,
+  "intent_template": "Search for information about the career paths in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "career development"
+  },
+  "intent": "Search for information about the career paths in career development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

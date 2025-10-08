@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jci"
+  ],
+  "task_id": "116377",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jci.org",
+  "geolocation": null,
+  "intent_template": "Learn about a medical research organization focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "clinical trial organizations"
+  },
+  "intent": "Learn about a medical research organization focused on clinical trial organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

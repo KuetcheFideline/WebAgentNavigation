@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chatra"
+  ],
+  "task_id": "44469",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chatra.io",
+  "geolocation": null,
+  "intent_template": "Find contact information for customer support about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social media handles"
+  },
+  "intent": "Find contact information for customer support about social media handles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

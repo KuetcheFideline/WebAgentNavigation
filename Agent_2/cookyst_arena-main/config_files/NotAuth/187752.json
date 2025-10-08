@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lingojam"
+  ],
+  "task_id": "187752",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lingojam.com",
+  "geolocation": null,
+  "intent_template": "Read a blog about the challenges of translation in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy translation problems"
+  },
+  "intent": "Read a blog about the challenges of translation in governance and policy translation problems",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

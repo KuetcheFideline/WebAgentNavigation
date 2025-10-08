@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fco"
+  ],
+  "task_id": "98131",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fco.gov.uk",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Take a quiz to test your knowledge on legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

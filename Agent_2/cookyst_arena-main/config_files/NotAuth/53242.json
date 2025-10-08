@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gaym"
+  ],
+  "task_id": "53242",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gaym.com",
+  "geolocation": null,
+  "intent_template": "Browse through profiles highlighting {{topic}} ",
+  "instantiation_dict": {
+    "topic": "travel experiences"
+  },
+  "intent": "Browse through profiles highlighting travel experiences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

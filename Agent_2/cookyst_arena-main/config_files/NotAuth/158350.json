@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "f-droid"
+  ],
+  "task_id": "158350",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://f-droid.org",
+  "geolocation": null,
+  "intent_template": "Take notes on the features and functionalities of a software related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal document management"
+  },
+  "intent": "Take notes on the features and functionalities of a software related to legal document management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nic"
+  ],
+  "task_id": "145361",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nic.cr",
+  "geolocation": null,
+  "intent_template": "Take notes on key concepts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Take notes on key concepts related to governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

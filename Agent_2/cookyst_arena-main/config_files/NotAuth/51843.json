@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "idmap"
+  ],
+  "task_id": "51843",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://idmap.ai",
+  "geolocation": null,
+  "intent_template": "Watch a video lecture on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data visualization for policy making"
+  },
+  "intent": "Watch a video lecture on data visualization for policy making",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "usabilla"
+  ],
+  "task_id": "43810",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://usabilla.com",
+  "geolocation": null,
+  "intent_template": "Explore a website or platform focused on customer experience in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "user experience design tools"
+  },
+  "intent": "Explore a website or platform focused on customer experience in user experience design tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

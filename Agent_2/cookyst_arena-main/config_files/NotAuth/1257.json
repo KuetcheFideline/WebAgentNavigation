@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freshbooks"
+  ],
+  "task_id": "1257",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freshbooks.com",
+  "geolocation": null,
+  "intent_template": "Find a community or forum discussing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online groups"
+  },
+  "intent": "Find a community or forum discussing online groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

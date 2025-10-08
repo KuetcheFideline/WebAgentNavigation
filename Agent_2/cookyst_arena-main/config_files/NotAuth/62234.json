@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "litres"
+  ],
+  "task_id": "62234",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://litres.ru",
+  "geolocation": null,
+  "intent_template": "Learn about new releases in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal ethics"
+  },
+  "intent": "Learn about new releases in legal ethics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

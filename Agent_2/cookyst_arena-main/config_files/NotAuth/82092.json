@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "food"
+  ],
+  "task_id": "82092",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://food.com",
+  "geolocation": null,
+  "intent_template": "Watch a video recipe for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "recipe videos"
+  },
+  "intent": "Watch a video recipe for recipe videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

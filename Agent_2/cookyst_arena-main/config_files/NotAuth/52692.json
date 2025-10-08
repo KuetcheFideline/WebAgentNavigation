@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gpmdata"
+  ],
+  "task_id": "52692",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gpmdata.ru",
+  "geolocation": null,
+  "intent_template": "Participate in a forum discussion about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy research group"
+  },
+  "intent": "Participate in a forum discussion about education policy research group",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

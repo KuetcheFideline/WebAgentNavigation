@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "imslp"
+  ],
+  "task_id": "118962",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://imslp.org",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "music and technology"
+  },
+  "intent": "Read an article about music and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trahkino"
+  ],
+  "task_id": "11169",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trahkino.me",
+  "geolocation": null,
+  "intent_template": "Find blogs and forums discussing legal aspects of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online communities for legal professionals on digital issues"
+  },
+  "intent": "Find blogs and forums discussing legal aspects of online communities for legal professionals on digital issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

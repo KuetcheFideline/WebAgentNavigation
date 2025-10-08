@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hyros"
+  ],
+  "task_id": "113686",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hyros.com",
+  "geolocation": null,
+  "intent_template": "Read a blog post on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational marketing advice"
+  },
+  "intent": "Read a blog post on educational marketing advice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

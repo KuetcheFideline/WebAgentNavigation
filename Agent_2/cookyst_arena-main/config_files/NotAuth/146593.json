@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wal-mart"
+  ],
+  "task_id": "146593",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wal-mart.com",
+  "geolocation": null,
+  "intent_template": "Search for products related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Search for products related to governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

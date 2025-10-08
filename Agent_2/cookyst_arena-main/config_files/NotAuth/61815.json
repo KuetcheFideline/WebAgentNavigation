@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "novlove"
+  ],
+  "task_id": "61815",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://novlove.com",
+  "geolocation": null,
+  "intent_template": "Read a preview or sample of an e-book about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Read a preview or sample of an e-book about governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

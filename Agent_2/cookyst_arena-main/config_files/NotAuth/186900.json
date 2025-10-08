@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cato"
+  ],
+  "task_id": "186900",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cato.org",
+  "geolocation": null,
+  "intent_template": "Download and read e-books and guides on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research summaries"
+  },
+  "intent": "Download and read e-books and guides on research summaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

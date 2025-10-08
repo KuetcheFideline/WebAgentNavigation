@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "blogspot"
+  ],
+  "task_id": "33032",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://blogspot.com.au",
+  "geolocation": null,
+  "intent_template": "Search for bloggers writing about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "looking for human rights advocates"
+  },
+  "intent": "Search for bloggers writing about looking for human rights advocates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

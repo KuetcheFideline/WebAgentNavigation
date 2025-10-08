@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "giz"
+  ],
+  "task_id": "131430",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://giz.de",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events and conferences for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and community development"
+  },
+  "intent": "Learn about upcoming events and conferences for education and community development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

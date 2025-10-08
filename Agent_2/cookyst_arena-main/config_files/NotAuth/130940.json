@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "citizensadvice"
+  ],
+  "task_id": "130940",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://citizensadvice.org.uk",
+  "geolocation": null,
+  "intent_template": "Discover online courses and certifications in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law and advocacy"
+  },
+  "intent": "Discover online courses and certifications in human rights law and advocacy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

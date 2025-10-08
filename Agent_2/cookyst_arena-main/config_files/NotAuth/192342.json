@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geni"
+  ],
+  "task_id": "192342",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geni.us",
+  "geolocation": null,
+  "intent_template": "Identify reliable sources of information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government websites"
+  },
+  "intent": "Identify reliable sources of information on government websites",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

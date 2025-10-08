@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geistm"
+  ],
+  "task_id": "111907",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geistm.com",
+  "geolocation": null,
+  "intent_template": "Discover the social media presence of a {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law firm"
+  },
+  "intent": "Discover the social media presence of a law firm",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

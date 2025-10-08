@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "megapersonals"
+  ],
+  "task_id": "53095",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://megapersonals.eu",
+  "geolocation": null,
+  "intent_template": "Read articles about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "heart health"
+  },
+  "intent": "Read articles about heart health",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

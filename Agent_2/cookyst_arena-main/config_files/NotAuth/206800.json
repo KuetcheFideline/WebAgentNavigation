@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "freenet"
+  ],
+  "task_id": "206800",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://freenet.de",
+  "geolocation": null,
+  "intent_template": "Watch video lectures on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Watch video lectures on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

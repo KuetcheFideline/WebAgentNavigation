@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fsc"
+  ],
+  "task_id": "73491",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fsc.org",
+  "geolocation": null,
+  "intent_template": "Browse a library of resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "climate change"
+  },
+  "intent": "Browse a library of resources on climate change",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

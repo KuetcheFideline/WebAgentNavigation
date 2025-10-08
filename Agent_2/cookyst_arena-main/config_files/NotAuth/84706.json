@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thegamer"
+  ],
+  "task_id": "84706",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thegamer.com",
+  "geolocation": null,
+  "intent_template": "Discover new games related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game recommendations"
+  },
+  "intent": "Discover new games related to game recommendations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rrv"
+  ],
+  "task_id": "136179",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rrv.ru",
+  "geolocation": null,
+  "intent_template": "Watch videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public speaking"
+  },
+  "intent": "Watch videos about public speaking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

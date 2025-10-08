@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rev"
+  ],
+  "task_id": "187626",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rev.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test knowledge on transcription services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and governance"
+  },
+  "intent": "Take a quiz to test knowledge on transcription services for constitutional law and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

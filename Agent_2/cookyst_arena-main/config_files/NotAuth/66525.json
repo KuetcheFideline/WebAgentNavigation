@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ingresso"
+  ],
+  "task_id": "66525",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ingresso.com",
+  "geolocation": null,
+  "intent_template": "Summarize an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance issues"
+  },
+  "intent": "Summarize an article about governance issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

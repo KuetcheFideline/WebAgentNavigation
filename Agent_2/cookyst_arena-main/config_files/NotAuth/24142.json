@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "matomo"
+  ],
+  "task_id": "24142",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://matomo.cloud",
+  "geolocation": null,
+  "intent_template": "Find resources for learning data analytics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education outcomes"
+  },
+  "intent": "Find resources for learning data analytics in education outcomes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "resultadofacil"
+  ],
+  "task_id": "110628",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://resultadofacil.com.br",
+  "geolocation": null,
+  "intent_template": "Find information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "case studies"
+  },
+  "intent": "Find information on case studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

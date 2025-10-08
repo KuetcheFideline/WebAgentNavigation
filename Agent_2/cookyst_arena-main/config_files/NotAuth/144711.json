@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "encyclopedia"
+  ],
+  "task_id": "144711",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://encyclopedia.com",
+  "geolocation": null,
+  "intent_template": "Summarize an article or chapter on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law chapters"
+  },
+  "intent": "Summarize an article or chapter on constitutional law chapters",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

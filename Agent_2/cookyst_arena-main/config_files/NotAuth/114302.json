@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "poshvine"
+  ],
+  "task_id": "114302",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://poshvine.com",
+  "geolocation": null,
+  "intent_template": "Browse a directory of law firms specializing in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "international law"
+  },
+  "intent": "Browse a directory of law firms specializing in international law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

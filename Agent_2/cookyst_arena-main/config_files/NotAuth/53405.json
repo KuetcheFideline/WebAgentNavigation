@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "folkd"
+  ],
+  "task_id": "53405",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://folkd.com",
+  "geolocation": null,
+  "intent_template": "Learn about the platform's features related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "matching algorithms"
+  },
+  "intent": "Learn about the platform's features related to matching algorithms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

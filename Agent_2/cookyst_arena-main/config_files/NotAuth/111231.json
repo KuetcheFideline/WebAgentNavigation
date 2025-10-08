@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "openstreetmap"
+  ],
+  "task_id": "111231",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://openstreetmap.org",
+  "geolocation": null,
+  "intent_template": "View map layers and data related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "demographic trends"
+  },
+  "intent": "View map layers and data related to demographic trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "overdrive"
+  ],
+  "task_id": "59308",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://overdrive.com",
+  "geolocation": null,
+  "intent_template": "Discover new authors and their works on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal fiction"
+  },
+  "intent": "Discover new authors and their works on legal fiction",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

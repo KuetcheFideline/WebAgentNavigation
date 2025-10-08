@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rapid7"
+  ],
+  "task_id": "51413",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rapid7.com",
+  "geolocation": null,
+  "intent_template": "Identify a career path related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity careers"
+  },
+  "intent": "Identify a career path related to cybersecurity careers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

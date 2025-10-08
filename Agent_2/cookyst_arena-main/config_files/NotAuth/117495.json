@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "radio"
+  ],
+  "task_id": "117495",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://radio.com",
+  "geolocation": null,
+  "intent_template": "Take notes on a music-related topic {{topic}} ",
+  "instantiation_dict": {
+    "topic": "music production"
+  },
+  "intent": "Take notes on a music-related topic music production",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

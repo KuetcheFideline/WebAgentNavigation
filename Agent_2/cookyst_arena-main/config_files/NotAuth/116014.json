@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "history"
+  ],
+  "task_id": "116014",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://history.com",
+  "geolocation": null,
+  "intent_template": "Explore a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and policy making"
+  },
+  "intent": "Explore a website about education and policy making",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

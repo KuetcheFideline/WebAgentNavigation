@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ktrackers"
+  ],
+  "task_id": "74896",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ktrackers.com",
+  "geolocation": null,
+  "intent_template": "Find files on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "open educational resources"
+  },
+  "intent": "Find files on open educational resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

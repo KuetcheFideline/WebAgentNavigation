@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "suunto"
+  ],
+  "task_id": "161882",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://suunto.com",
+  "geolocation": null,
+  "intent_template": "Read articles and blogs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fitness trends"
+  },
+  "intent": "Read articles and blogs about fitness trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

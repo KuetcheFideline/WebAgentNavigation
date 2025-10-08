@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "world"
+  ],
+  "task_id": "74285",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://world.co.jp",
+  "geolocation": null,
+  "intent_template": "Browse a collection of articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fashion and policy"
+  },
+  "intent": "Browse a collection of articles on fashion and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

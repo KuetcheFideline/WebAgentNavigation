@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "internetdownloadmanager"
+  ],
+  "task_id": "159050",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://internetdownloadmanager.com",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal innovation summaries"
+  },
+  "intent": "Summarize notes on legal innovation summaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

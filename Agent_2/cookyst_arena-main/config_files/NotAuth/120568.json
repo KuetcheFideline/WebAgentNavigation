@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dfn"
+  ],
+  "task_id": "120568",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dfn.de",
+  "geolocation": null,
+  "intent_template": "Find books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy changes"
+  },
+  "intent": "Find books about policy changes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

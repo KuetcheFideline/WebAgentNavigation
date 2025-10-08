@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "womenshealthmag"
+  ],
+  "task_id": "99758",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://womenshealthmag.com",
+  "geolocation": null,
+  "intent_template": "Watch videos about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "exercise routines"
+  },
+  "intent": "Watch videos about exercise routines",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "waze"
+  ],
+  "task_id": "119565",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://waze.com",
+  "geolocation": null,
+  "intent_template": "Explore a street view of a location in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Bamenda market"
+  },
+  "intent": "Explore a street view of a location in Bamenda market",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

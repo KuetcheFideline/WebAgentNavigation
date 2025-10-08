@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nestle"
+  ],
+  "task_id": "81699",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nestle.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "food culture"
+  },
+  "intent": "Read an article about food culture",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

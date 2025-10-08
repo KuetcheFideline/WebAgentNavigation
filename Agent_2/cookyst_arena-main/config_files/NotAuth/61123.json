@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jpn"
+  ],
+  "task_id": "61123",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jpn.com",
+  "geolocation": null,
+  "intent_template": "Discover domain name suggestions for a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law students"
+  },
+  "intent": "Discover domain name suggestions for a website about law students",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "msdmanuals"
+  ],
+  "task_id": "99299",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://msdmanuals.com",
+  "geolocation": null,
+  "intent_template": "Join a public forum or discussion group to engage with others interested in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical discussion groups"
+  },
+  "intent": "Join a public forum or discussion group to engage with others interested in medical discussion groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

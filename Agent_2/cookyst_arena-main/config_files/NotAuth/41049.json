@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ottadvisors"
+  ],
+  "task_id": "41049",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ottadvisors.com",
+  "geolocation": null,
+  "intent_template": "Find consulting firms specializing in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance consulting firms"
+  },
+  "intent": "Find consulting firms specializing in governance consulting firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

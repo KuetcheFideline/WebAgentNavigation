@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pastelink"
+  ],
+  "task_id": "74727",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pastelink.net",
+  "geolocation": null,
+  "intent_template": "Search for public files on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "open-source documents"
+  },
+  "intent": "Search for public files on open-source documents",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

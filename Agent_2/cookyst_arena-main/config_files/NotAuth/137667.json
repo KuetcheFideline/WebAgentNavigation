@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloud"
+  ],
+  "task_id": "137667",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloud.microsoft",
+  "geolocation": null,
+  "intent_template": "Compare different {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Compare different governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

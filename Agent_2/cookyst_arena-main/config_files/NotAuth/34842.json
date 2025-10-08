@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dow"
+  ],
+  "task_id": "34842",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dow.com",
+  "geolocation": null,
+  "intent_template": "Read about the history and development of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "pharmaceutical history"
+  },
+  "intent": "Read about the history and development of pharmaceutical history",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "aboutamazon"
+  ],
+  "task_id": "42265",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://aboutamazon.com",
+  "geolocation": null,
+  "intent_template": "Watch a video on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital transformation"
+  },
+  "intent": "Watch a video on digital transformation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

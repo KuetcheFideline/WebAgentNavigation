@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bancogalicia"
+  ],
+  "task_id": "30633",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bancogalicia.com.ar",
+  "geolocation": null,
+  "intent_template": "Research banking regulations and laws related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "consumer protection"
+  },
+  "intent": "Research banking regulations and laws related to consumer protection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

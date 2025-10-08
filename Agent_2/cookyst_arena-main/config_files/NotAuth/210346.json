@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "grammarly"
+  ],
+  "task_id": "210346",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://grammarly.com",
+  "geolocation": null,
+  "intent_template": "Read a blog on writing and communication in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "writing blogs"
+  },
+  "intent": "Read a blog on writing and communication in writing blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

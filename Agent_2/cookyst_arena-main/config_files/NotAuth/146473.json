@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pewinternet"
+  ],
+  "task_id": "146473",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pewinternet.org",
+  "geolocation": null,
+  "intent_template": "Discover books and other resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "academic publishers"
+  },
+  "intent": "Discover books and other resources on academic publishers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

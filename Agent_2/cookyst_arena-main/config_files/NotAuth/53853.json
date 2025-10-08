@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pantone"
+  ],
+  "task_id": "53853",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pantone.com",
+  "geolocation": null,
+  "intent_template": "Get introduced to the basics of design for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal design basics"
+  },
+  "intent": "Get introduced to the basics of design for legal design basics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

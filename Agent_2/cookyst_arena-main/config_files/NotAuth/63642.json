@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nezakr"
+  ],
+  "task_id": "63642",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nezakr.net",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and principles"
+  },
+  "intent": "Summarize notes on constitutional law and principles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "7tv"
+  ],
+  "task_id": "154022",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://7tv.app",
+  "geolocation": null,
+  "intent_template": "Browse social media profiles of professionals in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology"
+  },
+  "intent": "Browse social media profiles of professionals in technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

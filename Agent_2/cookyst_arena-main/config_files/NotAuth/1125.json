@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "szamlazz"
+  ],
+  "task_id": "1125",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://szamlazz.hu",
+  "geolocation": null,
+  "intent_template": "Read about the basics of accounting for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tax accounting"
+  },
+  "intent": "Read about the basics of accounting for tax accounting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

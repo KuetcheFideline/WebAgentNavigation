@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "youcanbook"
+  ],
+  "task_id": "138098",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://youcanbook.me",
+  "geolocation": null,
+  "intent_template": "Read articles on productivity tips for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law students"
+  },
+  "intent": "Read articles on productivity tips for law students",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

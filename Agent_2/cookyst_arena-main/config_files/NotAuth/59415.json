@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yumpu"
+  ],
+  "task_id": "59415",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yumpu.com",
+  "geolocation": null,
+  "intent_template": "Explore a blog on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights issues"
+  },
+  "intent": "Explore a blog on human rights issues",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

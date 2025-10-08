@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kerala"
+  ],
+  "task_id": "94466",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kerala.gov.in",
+  "geolocation": null,
+  "intent_template": "Explore the website's section on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legislative information"
+  },
+  "intent": "Explore the website's section on legislative information",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

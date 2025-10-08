@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lyft"
+  ],
+  "task_id": "188224",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lyft.com",
+  "geolocation": null,
+  "intent_template": "Learn about the benefits of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sustainable transportation"
+  },
+  "intent": "Learn about the benefits of sustainable transportation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "samba"
+  ],
+  "task_id": "134569",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://samba.org",
+  "geolocation": null,
+  "intent_template": "Reflect on the potential applications of open-source software in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights data analysis"
+  },
+  "intent": "Reflect on the potential applications of open-source software in human rights data analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

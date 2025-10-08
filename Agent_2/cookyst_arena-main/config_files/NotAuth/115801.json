@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wbd"
+  ],
+  "task_id": "115801",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wbd.com",
+  "geolocation": null,
+  "intent_template": "Browse a list of resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy institutes"
+  },
+  "intent": "Browse a list of resources about governance and policy institutes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

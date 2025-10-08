@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pcmax"
+  ],
+  "task_id": "53775",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pcmax.jp",
+  "geolocation": null,
+  "intent_template": "Consider offline activities related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "taking classes"
+  },
+  "intent": "Consider offline activities related to taking classes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "1und1"
+  ],
+  "task_id": "183862",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://1und1.de",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network fundamentals"
+  },
+  "intent": "Read an article about network fundamentals",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

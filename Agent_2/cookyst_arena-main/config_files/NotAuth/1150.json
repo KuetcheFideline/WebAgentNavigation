@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "szamlazz"
+  ],
+  "task_id": "1150",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://szamlazz.hu",
+  "geolocation": null,
+  "intent_template": "Explore online courses or tutorials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "accounting software"
+  },
+  "intent": "Explore online courses or tutorials on accounting software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

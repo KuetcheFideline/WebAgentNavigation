@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "extreme-ip-lookup"
+  ],
+  "task_id": "120047",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://extreme-ip-lookup.com",
+  "geolocation": null,
+  "intent_template": "Watch tutorials on network configuration and troubleshooting for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "switch configuration"
+  },
+  "intent": "Watch tutorials on network configuration and troubleshooting for switch configuration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

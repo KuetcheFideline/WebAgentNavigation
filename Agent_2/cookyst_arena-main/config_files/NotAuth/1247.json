@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "szamlazz"
+  ],
+  "task_id": "1247",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://szamlazz.hu",
+  "geolocation": null,
+  "intent_template": "Understand the regulatory environment surrounding {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tax law"
+  },
+  "intent": "Understand the regulatory environment surrounding tax law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

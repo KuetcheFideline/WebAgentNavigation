@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dokuwiki"
+  ],
+  "task_id": "210186",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dokuwiki.org",
+  "geolocation": null,
+  "intent_template": "Identify key concepts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and technology"
+  },
+  "intent": "Identify key concepts related to law and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

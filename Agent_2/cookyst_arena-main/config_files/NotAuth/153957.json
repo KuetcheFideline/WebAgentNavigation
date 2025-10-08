@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "linkr"
+  ],
+  "task_id": "153957",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://linkr.bio",
+  "geolocation": null,
+  "intent_template": "Read about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights updates"
+  },
+  "intent": "Read about human rights updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

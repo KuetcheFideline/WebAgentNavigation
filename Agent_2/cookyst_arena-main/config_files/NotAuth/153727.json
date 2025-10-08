@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ecobee"
+  ],
+  "task_id": "153727",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ecobee.com",
+  "geolocation": null,
+  "intent_template": "Compare prices and features of different {{topic}} ",
+  "instantiation_dict": {
+    "topic": "product catalogs"
+  },
+  "intent": "Compare prices and features of different product catalogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

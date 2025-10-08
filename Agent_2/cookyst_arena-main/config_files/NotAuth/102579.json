@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pccc"
+  ],
+  "task_id": "102579",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pccc.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "webinars"
+  },
+  "intent": "Browse a catalog of webinars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

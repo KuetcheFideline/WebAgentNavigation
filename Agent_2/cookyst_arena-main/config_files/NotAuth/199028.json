@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wm"
+  ],
+  "task_id": "199028",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wm.com",
+  "geolocation": null,
+  "intent_template": "Listen to a podcast on waste management issues and solutions in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "debates"
+  },
+  "intent": "Listen to a podcast on waste management issues and solutions in debates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

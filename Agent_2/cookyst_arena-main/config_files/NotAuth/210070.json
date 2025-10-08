@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "weddingwire"
+  ],
+  "task_id": "210070",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://weddingwire.com",
+  "geolocation": null,
+  "intent_template": "Watch videos or tutorials on wedding planning and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "wedding planning tips"
+  },
+  "intent": "Watch videos or tutorials on wedding planning and wedding planning tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

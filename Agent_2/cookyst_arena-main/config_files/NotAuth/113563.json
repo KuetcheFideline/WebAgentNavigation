@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "callrail"
+  ],
+  "task_id": "113563",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://callrail.com",
+  "geolocation": null,
+  "intent_template": "Take an online course on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital marketing for law firms"
+  },
+  "intent": "Take an online course on digital marketing for law firms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

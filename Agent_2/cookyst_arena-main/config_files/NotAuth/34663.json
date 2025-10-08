@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "care"
+  ],
+  "task_id": "34663",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://care.com",
+  "geolocation": null,
+  "intent_template": "Download care-related resources and tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "care service provider guides"
+  },
+  "intent": "Download care-related resources and tools for care service provider guides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

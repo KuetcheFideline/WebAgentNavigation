@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "angi"
+  ],
+  "task_id": "147015",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://angi.com",
+  "geolocation": null,
+  "intent_template": "Search for reviews of educational resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "webinars"
+  },
+  "intent": "Search for reviews of educational resources on webinars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

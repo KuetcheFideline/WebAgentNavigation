@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "google"
+  ],
+  "task_id": "148294",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://google.com.vc",
+  "geolocation": null,
+  "intent_template": "Look up news and current events on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights updates"
+  },
+  "intent": "Look up news and current events on human rights updates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

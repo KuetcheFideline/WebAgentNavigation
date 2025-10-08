@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hotelkit"
+  ],
+  "task_id": "101655",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hotelkit.net",
+  "geolocation": null,
+  "intent_template": "Search for jobs or internships in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "event planning"
+  },
+  "intent": "Search for jobs or internships in event planning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

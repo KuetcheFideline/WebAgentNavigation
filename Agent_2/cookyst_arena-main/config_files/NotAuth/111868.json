@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nielsen"
+  ],
+  "task_id": "111868",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nielsen.com",
+  "geolocation": null,
+  "intent_template": "Watch videos and webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech innovations"
+  },
+  "intent": "Watch videos and webinars on legal tech innovations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

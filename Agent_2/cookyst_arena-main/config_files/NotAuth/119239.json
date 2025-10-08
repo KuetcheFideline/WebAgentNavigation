@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "musicbrainz"
+  ],
+  "task_id": "119239",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://musicbrainz.org",
+  "geolocation": null,
+  "intent_template": "Search for information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "music theory"
+  },
+  "intent": "Search for information on music theory",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

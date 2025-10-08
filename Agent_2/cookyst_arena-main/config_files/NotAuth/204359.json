@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "planethoster"
+  ],
+  "task_id": "204359",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://planethoster.net",
+  "geolocation": null,
+  "intent_template": "Explore website templates for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit templates"
+  },
+  "intent": "Explore website templates for non-profit templates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

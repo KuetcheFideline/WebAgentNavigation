@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "secondlife"
+  ],
+  "task_id": "198979",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://secondlife.com",
+  "geolocation": null,
+  "intent_template": "Take a virtual tour of a facility related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legislative buildings"
+  },
+  "intent": "Take a virtual tour of a facility related to legislative buildings",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

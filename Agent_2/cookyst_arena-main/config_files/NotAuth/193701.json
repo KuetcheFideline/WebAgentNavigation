@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "capcut"
+  ],
+  "task_id": "193701",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://capcut.com",
+  "geolocation": null,
+  "intent_template": "Search for royalty-free music for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "genre selection"
+  },
+  "intent": "Search for royalty-free music for genre selection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

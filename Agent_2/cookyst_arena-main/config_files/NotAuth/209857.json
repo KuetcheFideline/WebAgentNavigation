@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tkor032"
+  ],
+  "task_id": "209857",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tkor032.com",
+  "geolocation": null,
+  "intent_template": "Browse comic strips related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social justice"
+  },
+  "intent": "Browse comic strips related to social justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

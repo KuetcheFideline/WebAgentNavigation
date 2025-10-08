@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vogue"
+  ],
+  "task_id": "74336",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vogue.mx",
+  "geolocation": null,
+  "intent_template": "Explore a gallery of images on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fashion and design"
+  },
+  "intent": "Explore a gallery of images on fashion and design",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

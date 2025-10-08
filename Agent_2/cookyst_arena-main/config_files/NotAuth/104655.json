@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lacnic"
+  ],
+  "task_id": "104655",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lacnic.net",
+  "geolocation": null,
+  "intent_template": "Find domain registration services for websites related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights organizations"
+  },
+  "intent": "Find domain registration services for websites related to human rights organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

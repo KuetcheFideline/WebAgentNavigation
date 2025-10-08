@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ixbt"
+  ],
+  "task_id": "182725",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ixbt.com",
+  "geolocation": null,
+  "intent_template": "Download a guide or ebook about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "guides to education technology"
+  },
+  "intent": "Download a guide or ebook about guides to education technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tripadvisor"
+  ],
+  "task_id": "188917",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tripadvisor.ru",
+  "geolocation": null,
+  "intent_template": "Discover new {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance hubs"
+  },
+  "intent": "Discover new governance hubs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

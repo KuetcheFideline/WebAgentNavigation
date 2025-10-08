@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netsuite"
+  ],
+  "task_id": "65069",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://netsuite.com",
+  "geolocation": null,
+  "intent_template": "Summarize an article on the impact of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "publications on the effects of digital governance"
+  },
+  "intent": "Summarize an article on the impact of publications on the effects of digital governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "delhivery"
+  ],
+  "task_id": "110387",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://delhivery.com",
+  "geolocation": null,
+  "intent_template": "Learn about the role of technology in logistics and supply chain management in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "supply chain software"
+  },
+  "intent": "Learn about the role of technology in logistics and supply chain management in supply chain software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

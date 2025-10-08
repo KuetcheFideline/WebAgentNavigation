@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "devowl"
+  ],
+  "task_id": "157974",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://devowl.io",
+  "geolocation": null,
+  "intent_template": "Find books and research papers on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "software development for legal applications"
+  },
+  "intent": "Find books and research papers on software development for legal applications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

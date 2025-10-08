@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jci"
+  ],
+  "task_id": "116359",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jci.org",
+  "geolocation": null,
+  "intent_template": "Explore a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical research websites"
+  },
+  "intent": "Explore a website about medical research websites",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

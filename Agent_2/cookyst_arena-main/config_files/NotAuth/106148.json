@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thingspeak"
+  ],
+  "task_id": "106148",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thingspeak.com",
+  "geolocation": null,
+  "intent_template": "Explore a repository of open-source {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Bitbucket repositories"
+  },
+  "intent": "Explore a repository of open-source Bitbucket repositories",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

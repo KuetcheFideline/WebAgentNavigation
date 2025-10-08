@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arcgisonline"
+  ],
+  "task_id": "91306",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arcgisonline.com",
+  "geolocation": null,
+  "intent_template": "Take notes on the basics of GIS and spatial analysis for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "projections"
+  },
+  "intent": "Take notes on the basics of GIS and spatial analysis for projections",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "opencorporates"
+  ],
+  "task_id": "33843",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://opencorporates.com",
+  "geolocation": null,
+  "intent_template": "Browse through a list of free online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "business and education essentials"
+  },
+  "intent": "Browse through a list of free online courses on business and education essentials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

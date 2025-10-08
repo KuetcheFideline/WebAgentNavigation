@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "phantom"
+  ],
+  "task_id": "43630",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://phantom.app",
+  "geolocation": null,
+  "intent_template": "Browse a list of upcoming events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Cryptocurrency conferences"
+  },
+  "intent": "Browse a list of upcoming events related to Cryptocurrency conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "toprecepty"
+  ],
+  "task_id": "82179",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://toprecepty.cz",
+  "geolocation": null,
+  "intent_template": "Explore different cooking techniques for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "kitchen tips"
+  },
+  "intent": "Explore different cooking techniques for kitchen tips",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

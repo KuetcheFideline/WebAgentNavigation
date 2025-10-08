@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "santander"
+  ],
+  "task_id": "30804",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://santander.co.uk",
+  "geolocation": null,
+  "intent_template": "Research banking regulations and laws related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "compliance"
+  },
+  "intent": "Research banking regulations and laws related to compliance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

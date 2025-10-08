@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nber"
+  ],
+  "task_id": "146395",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nber.org",
+  "geolocation": null,
+  "intent_template": "Learn about research funding opportunities on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and access to justice"
+  },
+  "intent": "Learn about research funding opportunities on legal tech and access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

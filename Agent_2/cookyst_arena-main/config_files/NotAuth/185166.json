@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "macomnet"
+  ],
+  "task_id": "185166",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://macomnet.ru",
+  "geolocation": null,
+  "intent_template": "Explore a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "telecom news"
+  },
+  "intent": "Explore a website about telecom news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

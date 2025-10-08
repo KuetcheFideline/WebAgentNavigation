@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "prlog"
+  ],
+  "task_id": "141509",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://prlog.org",
+  "geolocation": null,
+  "intent_template": "Watch webinars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and community engagement"
+  },
+  "intent": "Watch webinars on education and community engagement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

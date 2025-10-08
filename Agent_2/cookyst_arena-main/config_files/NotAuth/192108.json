@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shorturl"
+  ],
+  "task_id": "192108",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shorturl.at",
+  "geolocation": null,
+  "intent_template": "Read about the applications of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology industry"
+  },
+  "intent": "Read about the applications of technology industry",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

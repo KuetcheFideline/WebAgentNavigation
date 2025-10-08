@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "telenet"
+  ],
+  "task_id": "106013",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://telenet.be",
+  "geolocation": null,
+  "intent_template": "Get information on internet-related careers in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data science"
+  },
+  "intent": "Get information on internet-related careers in data science",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

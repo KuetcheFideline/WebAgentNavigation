@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "aftership"
+  ],
+  "task_id": "109812",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://aftership.com",
+  "geolocation": null,
+  "intent_template": "Take notes on key concepts and terminology related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "supply chain terminology"
+  },
+  "intent": "Take notes on key concepts and terminology related to supply chain terminology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

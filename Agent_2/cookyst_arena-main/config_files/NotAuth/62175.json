@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dreame"
+  ],
+  "task_id": "62175",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dreame.com",
+  "geolocation": null,
+  "intent_template": "Read reviews from other readers about e-books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy analysis"
+  },
+  "intent": "Read reviews from other readers about e-books on policy analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

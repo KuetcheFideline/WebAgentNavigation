@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "caddyserver"
+  ],
+  "task_id": "208740",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://caddyserver.com",
+  "geolocation": null,
+  "intent_template": "Find tutorials on server setup for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security hardening"
+  },
+  "intent": "Find tutorials on server setup for security hardening",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

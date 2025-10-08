@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rojadirectaenvivo"
+  ],
+  "task_id": "165021",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rojadirectaenvivo.pl",
+  "geolocation": null,
+  "intent_template": "Browse a collection of online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports coaching"
+  },
+  "intent": "Browse a collection of online courses on sports coaching",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

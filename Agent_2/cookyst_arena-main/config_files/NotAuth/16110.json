@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bidmachine"
+  ],
+  "task_id": "16110",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bidmachine.io",
+  "geolocation": null,
+  "intent_template": "Download a guide or whitepaper about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational technology reports"
+  },
+  "intent": "Download a guide or whitepaper about educational technology reports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

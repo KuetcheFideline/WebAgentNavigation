@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wenthemes"
+  ],
+  "task_id": "201791",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wenthemes.com",
+  "geolocation": null,
+  "intent_template": "Summarize a research paper on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research articles"
+  },
+  "intent": "Summarize a research paper on research articles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

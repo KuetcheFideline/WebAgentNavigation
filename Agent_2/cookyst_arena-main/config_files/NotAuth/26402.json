@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "broadcastify"
+  ],
+  "task_id": "26402",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://broadcastify.com",
+  "geolocation": null,
+  "intent_template": "Take a tour of the audio streaming platform for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tort law"
+  },
+  "intent": "Take a tour of the audio streaming platform for tort law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

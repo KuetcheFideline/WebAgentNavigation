@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "azquotes"
+  ],
+  "task_id": "142126",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://azquotes.com",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "inspiration"
+  },
+  "intent": "Offline inspiration",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "drpc"
+  ],
+  "task_id": "31722",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://drpc.org",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain use cases"
+  },
+  "intent": "Read an article about blockchain use cases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

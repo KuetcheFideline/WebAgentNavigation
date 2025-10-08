@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "warp"
+  ],
+  "task_id": "25149",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://warp.dev",
+  "geolocation": null,
+  "intent_template": "Search for online courses about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "AI and machine learning for law"
+  },
+  "intent": "Search for online courses about AI and machine learning for law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

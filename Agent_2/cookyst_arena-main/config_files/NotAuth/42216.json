@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vgwort"
+  ],
+  "task_id": "42216",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vgwort.de",
+  "geolocation": null,
+  "intent_template": "Discover resources for finding public domain works related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government websites"
+  },
+  "intent": "Discover resources for finding public domain works related to government websites",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

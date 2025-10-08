@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "serverfault"
+  ],
+  "task_id": "141984",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://serverfault.com",
+  "geolocation": null,
+  "intent_template": "Identify key concepts and themes in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "concept mapping"
+  },
+  "intent": "Identify key concepts and themes in concept mapping",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

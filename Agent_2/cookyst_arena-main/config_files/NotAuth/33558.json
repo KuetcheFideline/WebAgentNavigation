@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lubimyczytac"
+  ],
+  "task_id": "33558",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lubimyczytac.pl",
+  "geolocation": null,
+  "intent_template": "Take notes on a book on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and policy"
+  },
+  "intent": "Take notes on a book on legal tech and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

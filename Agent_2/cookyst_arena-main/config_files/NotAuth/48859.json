@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bromium-online"
+  ],
+  "task_id": "48859",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bromium-online.com",
+  "geolocation": null,
+  "intent_template": "Take a free quiz on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection evaluations"
+  },
+  "intent": "Take a free quiz on data protection evaluations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

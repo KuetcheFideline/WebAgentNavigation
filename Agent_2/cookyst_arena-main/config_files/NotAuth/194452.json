@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mubi"
+  ],
+  "task_id": "194452",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mubi.com",
+  "geolocation": null,
+  "intent_template": "Explore the video library on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Explore the video library on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

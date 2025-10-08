@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "steamcommunity"
+  ],
+  "task_id": "87253",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://steamcommunity.com",
+  "geolocation": null,
+  "intent_template": "Explore a game's website or wiki for information on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights games"
+  },
+  "intent": "Explore a game's website or wiki for information on human rights games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

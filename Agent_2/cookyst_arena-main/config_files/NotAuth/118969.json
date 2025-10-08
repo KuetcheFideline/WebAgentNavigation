@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "musicbrainz"
+  ],
+  "task_id": "118969",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://musicbrainz.org",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "music and education"
+  },
+  "intent": "Read an article about music and education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

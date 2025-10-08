@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "deere"
+  ],
+  "task_id": "111154",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://deere.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of online courses and certifications in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "inventory management"
+  },
+  "intent": "Browse a catalog of online courses and certifications in inventory management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

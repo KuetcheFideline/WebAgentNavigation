@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "scopus"
+  ],
+  "task_id": "177",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://scopus.com",
+  "geolocation": null,
+  "intent_template": "Get an overview of the field of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and public policy"
+  },
+  "intent": "Get an overview of the field of governance and public policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudtrax"
+  ],
+  "task_id": "119631",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudtrax.com",
+  "geolocation": null,
+  "intent_template": "Explore network management tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network monitoring software"
+  },
+  "intent": "Explore network management tools for network monitoring software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

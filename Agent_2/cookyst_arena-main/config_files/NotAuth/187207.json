@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trackmytime"
+  ],
+  "task_id": "187207",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trackmytime.com",
+  "geolocation": null,
+  "intent_template": "Explore different time management tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "task managers"
+  },
+  "intent": "Explore different time management tools for task managers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

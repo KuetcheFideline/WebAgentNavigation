@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "zedge"
+  ],
+  "task_id": "61619",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://zedge.net",
+  "geolocation": null,
+  "intent_template": "Search for downloads related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "contract law"
+  },
+  "intent": "Search for downloads related to contract law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

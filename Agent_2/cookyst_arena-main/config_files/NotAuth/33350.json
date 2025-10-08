@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "over-blog"
+  ],
+  "task_id": "33350",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://over-blog.com",
+  "geolocation": null,
+  "intent_template": "Look up definitions for terms related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "explaining governance concepts"
+  },
+  "intent": "Look up definitions for terms related to explaining governance concepts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

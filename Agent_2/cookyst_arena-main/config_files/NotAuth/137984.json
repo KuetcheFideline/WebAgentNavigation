@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "contactout"
+  ],
+  "task_id": "137984",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://contactout.com",
+  "geolocation": null,
+  "intent_template": "Find free online courses for learning {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Udemy"
+  },
+  "intent": "Find free online courses for learning Udemy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

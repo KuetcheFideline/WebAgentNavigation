@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudtrax"
+  ],
+  "task_id": "119617",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudtrax.com",
+  "geolocation": null,
+  "intent_template": "Learn about network fundamentals related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "DNS"
+  },
+  "intent": "Learn about network fundamentals related to DNS",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

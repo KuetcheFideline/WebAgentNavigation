@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "procareconnect"
+  ],
+  "task_id": "159810",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://procareconnect.com",
+  "geolocation": null,
+  "intent_template": "Watch a video introduction to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "overview of legal software"
+  },
+  "intent": "Watch a video introduction to overview of legal software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

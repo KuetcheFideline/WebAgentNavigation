@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "technetbloggers"
+  ],
+  "task_id": "32529",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://technetbloggers.de",
+  "geolocation": null,
+  "intent_template": "Explore a blog about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech applications"
+  },
+  "intent": "Explore a blog about legal tech applications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

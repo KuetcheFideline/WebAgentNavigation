@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "amazonbot"
+  ],
+  "task_id": "201044",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://amazonbot.amazon",
+  "geolocation": null,
+  "intent_template": "Explore online resources and datasets related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal databases"
+  },
+  "intent": "Explore online resources and datasets related to legal databases",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

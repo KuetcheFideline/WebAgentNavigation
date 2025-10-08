@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "aib"
+  ],
+  "task_id": "30623",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://aib.ie",
+  "geolocation": null,
+  "intent_template": "Research banking regulations and laws related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "banking laws"
+  },
+  "intent": "Research banking regulations and laws related to banking laws",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

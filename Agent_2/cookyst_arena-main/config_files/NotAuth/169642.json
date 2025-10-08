@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "infoworld"
+  ],
+  "task_id": "169642",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://infoworld.com",
+  "geolocation": null,
+  "intent_template": "Search for information about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data analysis for law"
+  },
+  "intent": "Search for information about data analysis for law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

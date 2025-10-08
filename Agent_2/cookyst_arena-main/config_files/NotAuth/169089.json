@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "surveoo"
+  ],
+  "task_id": "169089",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://surveoo.com",
+  "geolocation": null,
+  "intent_template": "Discover new surveys and research studies on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social science research"
+  },
+  "intent": "Discover new surveys and research studies on social science research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

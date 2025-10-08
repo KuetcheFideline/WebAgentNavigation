@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dhakapost"
+  ],
+  "task_id": "126867",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dhakapost.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz on a news story related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Take a quiz on a news story related to education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

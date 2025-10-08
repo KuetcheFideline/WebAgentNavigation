@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "1password"
+  ],
+  "task_id": "135344",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://1password.eu",
+  "geolocation": null,
+  "intent_template": "Take notes on password management best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "password complexity"
+  },
+  "intent": "Take notes on password management best practices for password complexity",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

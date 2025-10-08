@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "academic"
+  ],
+  "task_id": "144911",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://academic.ru",
+  "geolocation": null,
+  "intent_template": "Explore a timeline of major events in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional amendments"
+  },
+  "intent": "Explore a timeline of major events in constitutional amendments",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

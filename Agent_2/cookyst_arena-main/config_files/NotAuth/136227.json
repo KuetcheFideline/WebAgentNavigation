@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ajay"
+  ],
+  "task_id": "136227",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ajay.app",
+  "geolocation": null,
+  "intent_template": "Search for books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Search for books about human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

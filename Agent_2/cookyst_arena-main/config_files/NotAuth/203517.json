@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "page"
+  ],
+  "task_id": "203517",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://page.tl",
+  "geolocation": null,
+  "intent_template": "Read reviews about web hosting services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "web hosting forums"
+  },
+  "intent": "Read reviews about web hosting services for web hosting forums",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

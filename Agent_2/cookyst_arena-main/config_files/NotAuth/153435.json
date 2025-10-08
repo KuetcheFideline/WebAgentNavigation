@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "canadapost-postescanada"
+  ],
+  "task_id": "153435",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://canadapost-postescanada.ca",
+  "geolocation": null,
+  "intent_template": "Learn about the importance of insurance in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "shipment insurance"
+  },
+  "intent": "Learn about the importance of insurance in shipment insurance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

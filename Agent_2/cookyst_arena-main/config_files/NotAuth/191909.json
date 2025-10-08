@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "explodingtopics"
+  ],
+  "task_id": "191909",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://explodingtopics.com",
+  "geolocation": null,
+  "intent_template": "Search for information on the trend of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech indicators"
+  },
+  "intent": "Search for information on the trend of legal tech indicators",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

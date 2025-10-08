@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "retailmenot"
+  ],
+  "task_id": "42427",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://retailmenot.com",
+  "geolocation": null,
+  "intent_template": "Read about exclusive content on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "rule of law"
+  },
+  "intent": "Read about exclusive content on rule of law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

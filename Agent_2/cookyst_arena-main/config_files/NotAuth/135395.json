@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bitwarden"
+  ],
+  "task_id": "135395",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bitwarden.com",
+  "geolocation": null,
+  "intent_template": "Discover the different types of password managers available for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud-based"
+  },
+  "intent": "Discover the different types of password managers available for cloud-based",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

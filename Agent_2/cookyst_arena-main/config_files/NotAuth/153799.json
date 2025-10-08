@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "change"
+  ],
+  "task_id": "153799",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://change.org",
+  "geolocation": null,
+  "intent_template": "Learn about different social justice movements related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "women's rights movement"
+  },
+  "intent": "Learn about different social justice movements related to women's rights movement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

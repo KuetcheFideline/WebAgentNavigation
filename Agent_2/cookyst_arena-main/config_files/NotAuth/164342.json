@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mlb"
+  ],
+  "task_id": "164342",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mlb.com",
+  "geolocation": null,
+  "intent_template": "Explore a podcast series on the intersection of sports and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "society"
+  },
+  "intent": "Explore a podcast series on the intersection of sports and society",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

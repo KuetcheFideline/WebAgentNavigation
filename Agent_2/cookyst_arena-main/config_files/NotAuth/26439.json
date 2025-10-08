@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "broadcastify"
+  ],
+  "task_id": "26439",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://broadcastify.com",
+  "geolocation": null,
+  "intent_template": "Browse audio courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Browse audio courses on governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

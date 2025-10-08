@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ameli"
+  ],
+  "task_id": "99103",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ameli.fr",
+  "geolocation": null,
+  "intent_template": "Find FAQs and answers about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical billing and coding"
+  },
+  "intent": "Find FAQs and answers about medical billing and coding",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

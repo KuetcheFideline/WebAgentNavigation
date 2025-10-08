@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "govee"
+  ],
+  "task_id": "153695",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://govee.com",
+  "geolocation": null,
+  "intent_template": "Stay updated on the latest {{topic}} ",
+  "instantiation_dict": {
+    "topic": "market analysis"
+  },
+  "intent": "Stay updated on the latest market analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

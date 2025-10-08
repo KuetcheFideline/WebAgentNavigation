@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "healthgrades"
+  ],
+  "task_id": "99812",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://healthgrades.com",
+  "geolocation": null,
+  "intent_template": "Learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fitness basics"
+  },
+  "intent": "Learn about fitness basics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

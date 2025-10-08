@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ada"
+  ],
+  "task_id": "99001",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ada.com",
+  "geolocation": null,
+  "intent_template": "Read articles about the latest developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health IT trends"
+  },
+  "intent": "Read articles about the latest developments in health IT trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

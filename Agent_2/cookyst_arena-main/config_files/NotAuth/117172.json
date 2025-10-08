@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ushmm"
+  ],
+  "task_id": "117172",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ushmm.org",
+  "geolocation": null,
+  "intent_template": "Read about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technological innovations"
+  },
+  "intent": "Read about the history of technological innovations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

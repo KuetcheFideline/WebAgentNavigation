@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "matrix"
+  ],
+  "task_id": "40172",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://matrix.org",
+  "geolocation": null,
+  "intent_template": "Explore a tutorial on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "information exchange"
+  },
+  "intent": "Explore a tutorial on information exchange",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

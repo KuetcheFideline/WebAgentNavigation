@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ina"
+  ],
+  "task_id": "114993",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ina.fr",
+  "geolocation": null,
+  "intent_template": "Learn about the latest developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and policy"
+  },
+  "intent": "Learn about the latest developments in legal tech and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

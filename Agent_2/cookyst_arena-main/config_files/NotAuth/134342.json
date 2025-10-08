@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paysafecard"
+  ],
+  "task_id": "134342",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paysafecard.com",
+  "geolocation": null,
+  "intent_template": "Learn about online payment options for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational programs"
+  },
+  "intent": "Learn about online payment options for educational programs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "superbet"
+  ],
+  "task_id": "161856",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://superbet.ro",
+  "geolocation": null,
+  "intent_template": "Consider the potential for sports betting to support community development in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "charity events"
+  },
+  "intent": "Consider the potential for sports betting to support community development in charity events",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

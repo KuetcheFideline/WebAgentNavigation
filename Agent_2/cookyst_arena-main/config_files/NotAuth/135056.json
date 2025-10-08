@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "opensuse"
+  ],
+  "task_id": "135056",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://opensuse.org",
+  "geolocation": null,
+  "intent_template": "Watch video tutorials on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "troubleshooting"
+  },
+  "intent": "Watch video tutorials on troubleshooting",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

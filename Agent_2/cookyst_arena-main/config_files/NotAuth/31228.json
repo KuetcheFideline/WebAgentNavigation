@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bpexch"
+  ],
+  "task_id": "31228",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bpexch.net",
+  "geolocation": null,
+  "intent_template": "Read an article on the economic benefits of betting exchanges in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "job creation"
+  },
+  "intent": "Read an article on the economic benefits of betting exchanges in job creation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "4cdn"
+  ],
+  "task_id": "103379",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://4cdn.org",
+  "geolocation": null,
+  "intent_template": "Explore the community's perspectives on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights practices"
+  },
+  "intent": "Explore the community's perspectives on human rights practices",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pewinternet"
+  ],
+  "task_id": "146459",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pewinternet.org",
+  "geolocation": null,
+  "intent_template": "Read about recent developments in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blog posts"
+  },
+  "intent": "Read about recent developments in blog posts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

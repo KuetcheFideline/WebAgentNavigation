@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudflarestatus"
+  ],
+  "task_id": "169248",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudflarestatus.com",
+  "geolocation": null,
+  "intent_template": "Discover system tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security scanners"
+  },
+  "intent": "Discover system tools for security scanners",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

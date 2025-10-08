@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "provenexpert"
+  ],
+  "task_id": "146865",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://provenexpert.com",
+  "geolocation": null,
+  "intent_template": "View policy briefs and analysis on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "economic development"
+  },
+  "intent": "View policy briefs and analysis on economic development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

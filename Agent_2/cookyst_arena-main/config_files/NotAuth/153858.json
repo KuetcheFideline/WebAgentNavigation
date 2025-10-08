@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hootsuite"
+  ],
+  "task_id": "153858",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hootsuite.com",
+  "geolocation": null,
+  "intent_template": "Find online courses teaching social media management for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech marketing courses"
+  },
+  "intent": "Find online courses teaching social media management for legal tech marketing courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

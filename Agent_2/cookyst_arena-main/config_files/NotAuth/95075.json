@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jatengprov"
+  ],
+  "task_id": "95075",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jatengprov.go.id",
+  "geolocation": null,
+  "intent_template": "Learn about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Learn about the history of governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

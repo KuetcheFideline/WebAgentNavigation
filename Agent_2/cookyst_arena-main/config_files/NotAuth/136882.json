@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "simplecast"
+  ],
+  "task_id": "136882",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://simplecast.com",
+  "geolocation": null,
+  "intent_template": "Browse podcast categories related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to justice"
+  },
+  "intent": "Browse podcast categories related to access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

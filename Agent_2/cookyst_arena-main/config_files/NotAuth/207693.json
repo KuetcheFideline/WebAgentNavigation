@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "livedoor"
+  ],
+  "task_id": "207693",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://livedoor.com",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events and conferences on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights law"
+  },
+  "intent": "Learn about upcoming events and conferences on human rights law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

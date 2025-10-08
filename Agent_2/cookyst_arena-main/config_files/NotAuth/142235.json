@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rmf"
+  ],
+  "task_id": "142235",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rmf.fm",
+  "geolocation": null,
+  "intent_template": "Get the schedule for radio shows about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "culture"
+  },
+  "intent": "Get the schedule for radio shows about culture",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

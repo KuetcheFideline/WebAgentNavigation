@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lightricks"
+  ],
+  "task_id": "181421",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lightricks.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education tech quiz"
+  },
+  "intent": "Take a quiz to test your knowledge about education tech quiz",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pcgamer"
+  ],
+  "task_id": "84655",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pcgamer.com",
+  "geolocation": null,
+  "intent_template": "Watch a walkthrough video for a game related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "strategy guide"
+  },
+  "intent": "Watch a walkthrough video for a game related to strategy guide",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

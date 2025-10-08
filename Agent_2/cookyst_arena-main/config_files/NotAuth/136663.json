@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "flic"
+  ],
+  "task_id": "136663",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://flic.kr",
+  "geolocation": null,
+  "intent_template": "Find photos of documents related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "treaty documents"
+  },
+  "intent": "Find photos of documents related to treaty documents",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

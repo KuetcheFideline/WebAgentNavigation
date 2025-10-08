@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "eidos"
+  ],
+  "task_id": "193797",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://eidos.com",
+  "geolocation": null,
+  "intent_template": "Take notes on game development for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "game testing notes"
+  },
+  "intent": "Take notes on game development for game testing notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

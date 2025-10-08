@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bpexch"
+  ],
+  "task_id": "31206",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bpexch.net",
+  "geolocation": null,
+  "intent_template": "Explore how betting exchanges operate in different jurisdictions in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tax implications"
+  },
+  "intent": "Explore how betting exchanges operate in different jurisdictions in tax implications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

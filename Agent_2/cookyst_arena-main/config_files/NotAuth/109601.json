@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "twitcasting"
+  ],
+  "task_id": "109601",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://twitcasting.tv",
+  "geolocation": null,
+  "intent_template": "Take offline notes on key points from a live stream about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Take offline notes on key points from a live stream about constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

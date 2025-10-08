@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "canadapost-postescanada"
+  ],
+  "task_id": "153429",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://canadapost-postescanada.ca",
+  "geolocation": null,
+  "intent_template": "Discover the benefits of using technology in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "supply chain visibility"
+  },
+  "intent": "Discover the benefits of using technology in supply chain visibility",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

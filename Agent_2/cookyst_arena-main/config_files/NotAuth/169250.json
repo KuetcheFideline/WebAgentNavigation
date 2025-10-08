@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudflarestatus"
+  ],
+  "task_id": "169250",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudflarestatus.com",
+  "geolocation": null,
+  "intent_template": "Read about system best practices for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security guidelines"
+  },
+  "intent": "Read about system best practices for security guidelines",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

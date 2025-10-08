@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vigo"
+  ],
+  "task_id": "59778",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vigo.software",
+  "geolocation": null,
+  "intent_template": "Find resources for learning about domain name management and {{topic}} ",
+  "instantiation_dict": {
+    "topic": "domainnamemanagement"
+  },
+  "intent": "Find resources for learning about domain name management and domainnamemanagement",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

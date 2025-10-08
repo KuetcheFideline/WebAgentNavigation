@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "homegate"
+  ],
+  "task_id": "143948",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://homegate.ch",
+  "geolocation": null,
+  "intent_template": "Find a real estate agent in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "agent directory"
+  },
+  "intent": "Find a real estate agent in agent directory",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

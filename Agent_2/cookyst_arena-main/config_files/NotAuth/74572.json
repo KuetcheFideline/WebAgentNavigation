@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudconvert"
+  ],
+  "task_id": "74572",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudconvert.com",
+  "geolocation": null,
+  "intent_template": "Learn about different file formats for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "file format types"
+  },
+  "intent": "Learn about different file formats for file format types",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

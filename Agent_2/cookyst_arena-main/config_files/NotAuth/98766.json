@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cigna"
+  ],
+  "task_id": "98766",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cigna.com",
+  "geolocation": null,
+  "intent_template": "Research health insurance providers and their ratings for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "customer reviews"
+  },
+  "intent": "Research health insurance providers and their ratings for customer reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

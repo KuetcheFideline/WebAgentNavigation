@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dataannotation"
+  ],
+  "task_id": "82903",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dataannotation.tech",
+  "geolocation": null,
+  "intent_template": "Read articles about freelance best practices in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "productivity"
+  },
+  "intent": "Read articles about freelance best practices in productivity",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

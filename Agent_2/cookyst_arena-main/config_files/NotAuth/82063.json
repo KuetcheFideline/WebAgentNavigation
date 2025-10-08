@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "epicurious"
+  ],
+  "task_id": "82063",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://epicurious.com",
+  "geolocation": null,
+  "intent_template": "Read about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "culinary history"
+  },
+  "intent": "Read about the history of culinary history",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

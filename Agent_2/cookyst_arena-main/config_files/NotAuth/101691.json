@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mandarinoriental"
+  ],
+  "task_id": "101691",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mandarinoriental.com",
+  "geolocation": null,
+  "intent_template": "Take notes on the key points of an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and community development"
+  },
+  "intent": "Take notes on the key points of an article about education and community development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crowdstrike"
+  ],
+  "task_id": "48215",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crowdstrike.com",
+  "geolocation": null,
+  "intent_template": "Download a free resource on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity ebooks"
+  },
+  "intent": "Download a free resource on cybersecurity ebooks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

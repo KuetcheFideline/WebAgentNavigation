@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "msn"
+  ],
+  "task_id": "120809",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://msn.cn",
+  "geolocation": null,
+  "intent_template": "Read a news analysis about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance reforms"
+  },
+  "intent": "Read a news analysis about governance reforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

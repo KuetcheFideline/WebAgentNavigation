@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "synology"
+  ],
+  "task_id": "52457",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://synology.com",
+  "geolocation": null,
+  "intent_template": "Understand data privacy regulations for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "GDPR"
+  },
+  "intent": "Understand data privacy regulations for GDPR",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "softonic"
+  ],
+  "task_id": "158057",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://softonic.com",
+  "geolocation": null,
+  "intent_template": "Browse software options for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "e-discovery"
+  },
+  "intent": "Browse software options for e-discovery",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

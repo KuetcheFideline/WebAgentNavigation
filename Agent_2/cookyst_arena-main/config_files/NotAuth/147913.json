@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ptb"
+  ],
+  "task_id": "147913",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ptb.de",
+  "geolocation": null,
+  "intent_template": "Learn about career paths related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "technology and governance jobs"
+  },
+  "intent": "Learn about career paths related to technology and governance jobs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

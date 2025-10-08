@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "clockify"
+  ],
+  "task_id": "139461",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://clockify.me",
+  "geolocation": null,
+  "intent_template": "Discover apps for tracking progress on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "task managers"
+  },
+  "intent": "Discover apps for tracking progress on task managers",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

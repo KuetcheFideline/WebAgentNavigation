@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "prlog"
+  ],
+  "task_id": "141538",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://prlog.org",
+  "geolocation": null,
+  "intent_template": "Look for podcasts discussing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech and media"
+  },
+  "intent": "Look for podcasts discussing legal tech and media",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

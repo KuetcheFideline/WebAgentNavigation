@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "perl"
+  ],
+  "task_id": "141054",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://perl.com",
+  "geolocation": null,
+  "intent_template": "Get an introduction to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online course"
+  },
+  "intent": "Get an introduction to online course",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

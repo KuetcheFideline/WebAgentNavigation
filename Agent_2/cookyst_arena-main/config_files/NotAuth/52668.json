@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gpmdata"
+  ],
+  "task_id": "52668",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gpmdata.ru",
+  "geolocation": null,
+  "intent_template": "Explore a dataset related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy metrics"
+  },
+  "intent": "Explore a dataset related to education policy metrics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

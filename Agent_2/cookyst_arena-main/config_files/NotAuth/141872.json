@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "serverfault"
+  ],
+  "task_id": "141872",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://serverfault.com",
+  "geolocation": null,
+  "intent_template": "Browse questions and answers on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law school"
+  },
+  "intent": "Browse questions and answers on law school",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

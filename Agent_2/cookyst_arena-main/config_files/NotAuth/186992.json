@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ticketmaster"
+  ],
+  "task_id": "186992",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ticketmaster.co.uk",
+  "geolocation": null,
+  "intent_template": "Search for events on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Search for events on constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

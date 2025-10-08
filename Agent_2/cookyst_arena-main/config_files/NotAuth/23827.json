@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "airbridge"
+  ],
+  "task_id": "23827",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://airbridge.io",
+  "geolocation": null,
+  "intent_template": "Participate in a discussion forum about data analytics in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Participate in a discussion forum about data analytics in governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

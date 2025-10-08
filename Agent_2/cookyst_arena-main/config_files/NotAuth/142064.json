@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "quora"
+  ],
+  "task_id": "142064",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://quora.com",
+  "geolocation": null,
+  "intent_template": "Explore the most popular questions and answers about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data protection"
+  },
+  "intent": "Explore the most popular questions and answers about data protection",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

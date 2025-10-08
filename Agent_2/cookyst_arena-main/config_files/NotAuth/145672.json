@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "biblegateway"
+  ],
+  "task_id": "145672",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://biblegateway.com",
+  "geolocation": null,
+  "intent_template": "Search for online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Spirituality and human rights activism"
+  },
+  "intent": "Search for online courses on Spirituality and human rights activism",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

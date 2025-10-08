@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shinobi"
+  ],
+  "task_id": "81417",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shinobi.jp",
+  "geolocation": null,
+  "intent_template": "View menus for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "vegan"
+  },
+  "intent": "View menus for vegan",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

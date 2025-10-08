@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "inshot"
+  ],
+  "task_id": "193775",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://inshot.cc",
+  "geolocation": null,
+  "intent_template": "Read a blog on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "case studies"
+  },
+  "intent": "Read a blog on case studies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

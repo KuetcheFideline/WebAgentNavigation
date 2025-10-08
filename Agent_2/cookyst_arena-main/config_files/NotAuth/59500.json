@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pagesjaunes"
+  ],
+  "task_id": "59500",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pagesjaunes.fr",
+  "geolocation": null,
+  "intent_template": "Browse a directory of experts in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law"
+  },
+  "intent": "Browse a directory of experts in law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

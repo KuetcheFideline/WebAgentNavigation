@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "seg-social"
+  ],
+  "task_id": "91816",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://seg-social.pt",
+  "geolocation": null,
+  "intent_template": "Read about the benefits of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education loans"
+  },
+  "intent": "Read about the benefits of education loans",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

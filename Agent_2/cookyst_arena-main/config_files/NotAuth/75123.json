@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "files"
+  ],
+  "task_id": "75123",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://files.fm",
+  "geolocation": null,
+  "intent_template": "Take notes on a file about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "analysis notes"
+  },
+  "intent": "Take notes on a file about analysis notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

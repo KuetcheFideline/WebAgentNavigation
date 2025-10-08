@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rekhta"
+  ],
+  "task_id": "25824",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rekhta.org",
+  "geolocation": null,
+  "intent_template": "Read articles and blogs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "creative industries"
+  },
+  "intent": "Read articles and blogs about creative industries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

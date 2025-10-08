@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "vrtcal"
+  ],
+  "task_id": "1436",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://vrtcal.com",
+  "geolocation": null,
+  "intent_template": "Discover blogs or podcasts discussing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ad tech blogs"
+  },
+  "intent": "Discover blogs or podcasts discussing ad tech blogs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

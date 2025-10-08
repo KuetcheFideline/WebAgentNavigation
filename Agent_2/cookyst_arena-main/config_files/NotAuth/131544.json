@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bobibanking"
+  ],
+  "task_id": "131544",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bobibanking.com",
+  "geolocation": null,
+  "intent_template": "Find a branch or ATM location for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "city search"
+  },
+  "intent": "Find a branch or ATM location for city search",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

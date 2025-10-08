@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tunnelbear"
+  ],
+  "task_id": "192798",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tunnelbear.com",
+  "geolocation": null,
+  "intent_template": "Discover the advantages of using a VPN for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "torrenting and file sharing"
+  },
+  "intent": "Discover the advantages of using a VPN for torrenting and file sharing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

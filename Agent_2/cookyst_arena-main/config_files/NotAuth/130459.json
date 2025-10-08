@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "creativecommons"
+  ],
+  "task_id": "130459",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://creativecommons.org",
+  "geolocation": null,
+  "intent_template": "Read about the mission and vision of organizations focused on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and social justice"
+  },
+  "intent": "Read about the mission and vision of organizations focused on human rights and social justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

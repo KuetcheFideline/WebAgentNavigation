@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hotpic"
+  ],
+  "task_id": "103190",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hotpic.cc",
+  "geolocation": null,
+  "intent_template": "Find images of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law"
+  },
+  "intent": "Find images of constitutional law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

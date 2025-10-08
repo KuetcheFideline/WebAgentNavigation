@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "instructables"
+  ],
+  "task_id": "40408",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://instructables.com",
+  "geolocation": null,
+  "intent_template": "Read a discussion thread about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance challenges"
+  },
+  "intent": "Read a discussion thread about governance challenges",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

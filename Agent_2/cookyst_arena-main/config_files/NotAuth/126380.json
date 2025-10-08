@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nyheter24"
+  ],
+  "task_id": "126380",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nyheter24.se",
+  "geolocation": null,
+  "intent_template": "Explore news archives related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights violations"
+  },
+  "intent": "Explore news archives related to human rights violations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

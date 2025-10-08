@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "magento"
+  ],
+  "task_id": "62383",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://magento.cloud",
+  "geolocation": null,
+  "intent_template": "Compare prices for products related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance books"
+  },
+  "intent": "Compare prices for products related to governance books",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rev"
+  ],
+  "task_id": "187625",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rev.com",
+  "geolocation": null,
+  "intent_template": "Browse a list of recommended reading on transcription services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and innovation"
+  },
+  "intent": "Browse a list of recommended reading on transcription services for education and innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "movember"
+  ],
+  "task_id": "100291",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://movember.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to learn about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health awareness"
+  },
+  "intent": "Take a quiz to learn about health awareness",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

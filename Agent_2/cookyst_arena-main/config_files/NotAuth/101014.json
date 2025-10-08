@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "uhcprovider"
+  ],
+  "task_id": "101014",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://uhcprovider.com",
+  "geolocation": null,
+  "intent_template": "Learn about the role of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medical entrepreneurship"
+  },
+  "intent": "Learn about the role of medical entrepreneurship",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

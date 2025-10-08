@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wandb"
+  ],
+  "task_id": "25265",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wandb.ai",
+  "geolocation": null,
+  "intent_template": "Find and download a free e-book on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "AI for legal research"
+  },
+  "intent": "Find and download a free e-book on AI for legal research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

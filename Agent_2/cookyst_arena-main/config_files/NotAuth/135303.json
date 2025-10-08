@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "1password"
+  ],
+  "task_id": "135303",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://1password.eu",
+  "geolocation": null,
+  "intent_template": "Read about the best practices for creating strong passwords for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "password length"
+  },
+  "intent": "Read about the best practices for creating strong passwords for password length",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

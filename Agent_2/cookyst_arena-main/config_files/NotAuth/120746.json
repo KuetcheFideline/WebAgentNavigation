@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "prweb"
+  ],
+  "task_id": "120746",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://prweb.com",
+  "geolocation": null,
+  "intent_template": "Watch a news video about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "public lectures on human rights"
+  },
+  "intent": "Watch a news video about public lectures on human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

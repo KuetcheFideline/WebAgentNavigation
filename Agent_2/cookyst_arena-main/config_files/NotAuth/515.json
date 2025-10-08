@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "taylorandfrancis"
+  ],
+  "task_id": "515",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://taylorandfrancis.com",
+  "geolocation": null,
+  "intent_template": "Summarize the main points of an article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "collaborative research"
+  },
+  "intent": "Summarize the main points of an article on collaborative research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "systeme"
+  ],
+  "task_id": "62413",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://systeme.io",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "gadgets"
+  },
+  "intent": "Read an article about gadgets",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

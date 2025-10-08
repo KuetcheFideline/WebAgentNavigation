@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smbcnikko"
+  ],
+  "task_id": "78301",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smbcnikko.co.jp",
+  "geolocation": null,
+  "intent_template": "Learn about financial planning in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "retirement planning"
+  },
+  "intent": "Learn about financial planning in retirement planning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

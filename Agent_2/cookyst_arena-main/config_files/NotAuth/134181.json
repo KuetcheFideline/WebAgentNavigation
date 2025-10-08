@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "thefreelibrary"
+  ],
+  "task_id": "134181",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://thefreelibrary.com",
+  "geolocation": null,
+  "intent_template": "Browse through a catalog of books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance publications"
+  },
+  "intent": "Browse through a catalog of books about governance publications",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

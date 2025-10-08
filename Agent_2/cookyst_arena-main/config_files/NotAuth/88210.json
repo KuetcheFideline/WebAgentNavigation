@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "garena"
+  ],
+  "task_id": "88210",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://garena.vn",
+  "geolocation": null,
+  "intent_template": "Discover new games related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance games"
+  },
+  "intent": "Discover new games related to governance games",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

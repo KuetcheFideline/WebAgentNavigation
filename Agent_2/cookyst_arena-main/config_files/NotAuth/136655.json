@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pbase"
+  ],
+  "task_id": "136655",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pbase.com",
+  "geolocation": null,
+  "intent_template": "Look at photos from a conference on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "Look at photos from a conference on education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "enabiz"
+  ],
+  "task_id": "98968",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://enabiz.gov.tr",
+  "geolocation": null,
+  "intent_template": "Read about healthy habits and wellness tips for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sleep hygiene"
+  },
+  "intent": "Read about healthy habits and wellness tips for sleep hygiene",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

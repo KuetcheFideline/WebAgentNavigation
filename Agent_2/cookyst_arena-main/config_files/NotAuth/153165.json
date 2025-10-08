@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "swannsecurity"
+  ],
+  "task_id": "153165",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://swannsecurity.com",
+  "geolocation": null,
+  "intent_template": "Research security degree programs for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "university programs"
+  },
+  "intent": "Research security degree programs for university programs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

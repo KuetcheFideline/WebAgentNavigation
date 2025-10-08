@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "webwiki"
+  ],
+  "task_id": "201897",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://webwiki.com",
+  "geolocation": null,
+  "intent_template": "Browse a directory of websites related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government institutions"
+  },
+  "intent": "Browse a directory of websites related to government institutions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

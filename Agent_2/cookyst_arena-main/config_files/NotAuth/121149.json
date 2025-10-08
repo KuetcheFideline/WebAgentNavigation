@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "onedio"
+  ],
+  "task_id": "121149",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://onedio.com",
+  "geolocation": null,
+  "intent_template": "Read a blog or opinion piece about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational leadership and policy"
+  },
+  "intent": "Read a blog or opinion piece about educational leadership and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

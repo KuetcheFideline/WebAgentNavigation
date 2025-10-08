@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tapsi"
+  ],
+  "task_id": "147355",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tapsi.ir",
+  "geolocation": null,
+  "intent_template": "Take a quiz about ride safety related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights ride safety"
+  },
+  "intent": "Take a quiz about ride safety related to human rights ride safety",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

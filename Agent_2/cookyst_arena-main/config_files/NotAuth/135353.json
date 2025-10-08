@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "1password"
+  ],
+  "task_id": "135353",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://1password.eu",
+  "geolocation": null,
+  "intent_template": "Reflect on your current password management habits for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "password sharing"
+  },
+  "intent": "Reflect on your current password management habits for password sharing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

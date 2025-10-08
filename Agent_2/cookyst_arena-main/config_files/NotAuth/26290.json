@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "astrosage"
+  ],
+  "task_id": "26290",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://astrosage.com",
+  "geolocation": null,
+  "intent_template": "Browse articles on the intersection of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "astronomy and education policy articles"
+  },
+  "intent": "Browse articles on the intersection of astronomy and education policy articles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

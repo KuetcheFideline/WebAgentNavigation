@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "avaaz"
+  ],
+  "task_id": "1397",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://avaaz.org",
+  "geolocation": null,
+  "intent_template": "Learn about and explore different career paths and opportunities related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "environmental sustainability and conservation"
+  },
+  "intent": "Learn about and explore different career paths and opportunities related to environmental sustainability and conservation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

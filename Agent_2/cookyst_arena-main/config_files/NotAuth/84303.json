@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "epicgames"
+  ],
+  "task_id": "84303",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://epicgames.dev",
+  "geolocation": null,
+  "intent_template": "Explore games that incorporate themes of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "games for change"
+  },
+  "intent": "Explore games that incorporate themes of games for change",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

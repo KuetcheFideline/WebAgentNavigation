@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "civicplus"
+  ],
+  "task_id": "92253",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://civicplus.com",
+  "geolocation": null,
+  "intent_template": "Browse a list of FAQs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government services online"
+  },
+  "intent": "Browse a list of FAQs about government services online",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "whowhatwear"
+  ],
+  "task_id": "74450",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://whowhatwear.com",
+  "geolocation": null,
+  "intent_template": "Learn about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fashion and society"
+  },
+  "intent": "Learn about the history of fashion and society",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

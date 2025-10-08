@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "embedgooglemap"
+  ],
+  "task_id": "201180",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://embedgooglemap.net",
+  "geolocation": null,
+  "intent_template": "Find a list of recommended {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and technology policy"
+  },
+  "intent": "Find a list of recommended governance and technology policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

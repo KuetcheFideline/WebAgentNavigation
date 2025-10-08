@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anycastdns"
+  ],
+  "task_id": "51708",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anycastdns.cz",
+  "geolocation": null,
+  "intent_template": "Learn about DNS tools and software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "security tools"
+  },
+  "intent": "Learn about DNS tools and software for security tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

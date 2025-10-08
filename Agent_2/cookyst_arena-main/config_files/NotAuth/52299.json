@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ctrls"
+  ],
+  "task_id": "52299",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ctrls.in",
+  "geolocation": null,
+  "intent_template": "Search for FAQs about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech innovation"
+  },
+  "intent": "Search for FAQs about legal tech innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

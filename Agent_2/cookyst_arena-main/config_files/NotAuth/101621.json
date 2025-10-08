@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ring"
+  ],
+  "task_id": "101621",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ring.com",
+  "geolocation": null,
+  "intent_template": "Find a local security system installer for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "installer directory"
+  },
+  "intent": "Find a local security system installer for installer directory",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

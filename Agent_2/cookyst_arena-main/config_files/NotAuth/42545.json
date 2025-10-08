@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "fundable"
+  ],
+  "task_id": "42545",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://fundable.com",
+  "geolocation": null,
+  "intent_template": "Learn about the process of creating a crowdfunding campaign for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Learn about the process of creating a crowdfunding campaign for human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ankiweb"
+  ],
+  "task_id": "63831",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ankiweb.net",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events or conferences on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "seminars"
+  },
+  "intent": "Learn about upcoming events or conferences on seminars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

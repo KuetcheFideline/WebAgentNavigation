@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "supabase"
+  ],
+  "task_id": "55947",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://supabase.com",
+  "geolocation": null,
+  "intent_template": "Explore open-source projects related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and innovation repositories"
+  },
+  "intent": "Explore open-source projects related to education and innovation repositories",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

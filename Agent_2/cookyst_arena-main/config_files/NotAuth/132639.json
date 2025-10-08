@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "justgiving"
+  ],
+  "task_id": "132639",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://justgiving.com",
+  "geolocation": null,
+  "intent_template": "Take a quiz to learn more about fundraising for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights advocacy quizzes"
+  },
+  "intent": "Take a quiz to learn more about fundraising for human rights advocacy quizzes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

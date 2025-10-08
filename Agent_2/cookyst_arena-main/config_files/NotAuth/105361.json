@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "3bb"
+  ],
+  "task_id": "105361",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://3bb.co.th",
+  "geolocation": null,
+  "intent_template": "Check the availability of internet services in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "suburbs"
+  },
+  "intent": "Check the availability of internet services in suburbs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "retailmenot"
+  ],
+  "task_id": "42420",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://retailmenot.com",
+  "geolocation": null,
+  "intent_template": "Learn about coupons for certification courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "blockchain"
+  },
+  "intent": "Learn about coupons for certification courses on blockchain",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "audacityteam"
+  ],
+  "task_id": "26344",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://audacityteam.org",
+  "geolocation": null,
+  "intent_template": "Discover new audio editing software for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "audio editing software options"
+  },
+  "intent": "Discover new audio editing software for audio editing software options",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

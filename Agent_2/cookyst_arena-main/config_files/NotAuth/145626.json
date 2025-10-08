@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kashoob"
+  ],
+  "task_id": "145626",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kashoob.com",
+  "geolocation": null,
+  "intent_template": "Discover a collection of online courses about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "religious leadership"
+  },
+  "intent": "Discover a collection of online courses about religious leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

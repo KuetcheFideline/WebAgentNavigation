@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "f-droid"
+  ],
+  "task_id": "158339",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://f-droid.org",
+  "geolocation": null,
+  "intent_template": "Discover new projects related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights initiatives"
+  },
+  "intent": "Discover new projects related to human rights initiatives",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

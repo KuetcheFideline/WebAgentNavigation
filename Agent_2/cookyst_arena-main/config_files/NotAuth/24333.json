@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "myket"
+  ],
+  "task_id": "24333",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://myket.ir",
+  "geolocation": null,
+  "intent_template": "Explore apps that provide news and updates on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal news"
+  },
+  "intent": "Explore apps that provide news and updates on legal news",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sched"
+  ],
+  "task_id": "73756",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sched.com",
+  "geolocation": null,
+  "intent_template": "Learn about seminars on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and leadership"
+  },
+  "intent": "Learn about seminars on education and leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

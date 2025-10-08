@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kone"
+  ],
+  "task_id": "111196",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kone.com",
+  "geolocation": null,
+  "intent_template": "Read a blog about the latest news and trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "industrial innovation"
+  },
+  "intent": "Read a blog about the latest news and trends in industrial innovation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "icoremail"
+  ],
+  "task_id": "64283",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://icoremail.net",
+  "geolocation": null,
+  "intent_template": "Find resources on email privacy for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "anonymity"
+  },
+  "intent": "Find resources on email privacy for anonymity",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

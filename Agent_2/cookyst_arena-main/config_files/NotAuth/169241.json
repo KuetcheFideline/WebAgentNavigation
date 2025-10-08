@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cloudflarestatus"
+  ],
+  "task_id": "169241",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cloudflarestatus.com",
+  "geolocation": null,
+  "intent_template": "Learn about system basics related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cloud computing"
+  },
+  "intent": "Learn about system basics related to cloud computing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

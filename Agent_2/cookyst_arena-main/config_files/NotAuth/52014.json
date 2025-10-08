@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "segment"
+  ],
+  "task_id": "52014",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://segment.io",
+  "geolocation": null,
+  "intent_template": "Discover online resources for learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data science courses for law students"
+  },
+  "intent": "Discover online resources for learning about data science courses for law students",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

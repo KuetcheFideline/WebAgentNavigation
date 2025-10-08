@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "monsido"
+  ],
+  "task_id": "201182",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://monsido.com",
+  "geolocation": null,
+  "intent_template": "Find a list of recommended {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech resources"
+  },
+  "intent": "Find a list of recommended legal tech resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

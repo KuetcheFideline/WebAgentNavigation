@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pwc"
+  ],
+  "task_id": "41076",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pwc.com",
+  "geolocation": null,
+  "intent_template": "Browse a directory of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy experts"
+  },
+  "intent": "Browse a directory of policy experts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

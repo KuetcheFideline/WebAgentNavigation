@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "cyberark"
+  ],
+  "task_id": "44683",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://cyberark.cloud",
+  "geolocation": null,
+  "intent_template": "Summarize a news article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech article reviews"
+  },
+  "intent": "Summarize a news article on legal tech article reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

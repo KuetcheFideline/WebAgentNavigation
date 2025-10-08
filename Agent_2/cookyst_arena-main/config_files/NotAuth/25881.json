@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "culture"
+  ],
+  "task_id": "25881",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://culture.ru",
+  "geolocation": null,
+  "intent_template": "Learn about upcoming events and festivals related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "dance events"
+  },
+  "intent": "Learn about upcoming events and festivals related to dance events",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

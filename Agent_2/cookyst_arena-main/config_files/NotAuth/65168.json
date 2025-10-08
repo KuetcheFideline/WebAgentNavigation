@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "salesforce-setup"
+  ],
+  "task_id": "65168",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://salesforce-setup.com",
+  "geolocation": null,
+  "intent_template": "Read an overview of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fundamentals of e-discovery"
+  },
+  "intent": "Read an overview of fundamentals of e-discovery",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

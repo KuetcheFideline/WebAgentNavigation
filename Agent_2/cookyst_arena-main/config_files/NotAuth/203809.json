@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hosteurope"
+  ],
+  "task_id": "203809",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hosteurope.de",
+  "geolocation": null,
+  "intent_template": "Discover website building tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Weebly"
+  },
+  "intent": "Discover website building tools for Weebly",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

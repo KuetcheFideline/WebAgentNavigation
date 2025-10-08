@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "credit-agricole"
+  ],
+  "task_id": "29432",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://credit-agricole.fr",
+  "geolocation": null,
+  "intent_template": "Read about online banking security measures for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "firewalls"
+  },
+  "intent": "Read about online banking security measures for firewalls",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

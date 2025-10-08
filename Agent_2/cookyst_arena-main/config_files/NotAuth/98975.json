@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "enabiz"
+  ],
+  "task_id": "98975",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://enabiz.gov.tr",
+  "geolocation": null,
+  "intent_template": "Find health and wellness events and workshops in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fitness classes"
+  },
+  "intent": "Find health and wellness events and workshops in fitness classes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

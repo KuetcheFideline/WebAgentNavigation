@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "grafana"
+  ],
+  "task_id": "116992",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://grafana.net",
+  "geolocation": null,
+  "intent_template": "Download a guide to getting started with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy platforms"
+  },
+  "intent": "Download a guide to getting started with governance and policy platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

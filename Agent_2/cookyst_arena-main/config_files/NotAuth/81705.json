@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "resy"
+  ],
+  "task_id": "81705",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://resy.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "restaurant reviews"
+  },
+  "intent": "Read an article about restaurant reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

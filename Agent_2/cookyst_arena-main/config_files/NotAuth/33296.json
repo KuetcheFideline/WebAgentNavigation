@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "zenwriting"
+  ],
+  "task_id": "33296",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://zenwriting.net",
+  "geolocation": null,
+  "intent_template": "Reflect on the content of a post about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "considering human rights perspectives"
+  },
+  "intent": "Reflect on the content of a post about considering human rights perspectives",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tinyurl"
+  ],
+  "task_id": "191963",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tinyurl.com",
+  "geolocation": null,
+  "intent_template": "Explore offline resources related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "libraries"
+  },
+  "intent": "Explore offline resources related to libraries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

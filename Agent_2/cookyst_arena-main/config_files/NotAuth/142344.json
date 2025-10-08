@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "random"
+  ],
+  "task_id": "142344",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://random.org",
+  "geolocation": null,
+  "intent_template": "Discover how random number generators are used in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "medicine"
+  },
+  "intent": "Discover how random number generators are used in medicine",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

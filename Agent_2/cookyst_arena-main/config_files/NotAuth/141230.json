@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bugherd"
+  ],
+  "task_id": "141230",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bugherd.com",
+  "geolocation": null,
+  "intent_template": "Watch webinars or videos on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and compliance videos"
+  },
+  "intent": "Watch webinars or videos on governance and compliance videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

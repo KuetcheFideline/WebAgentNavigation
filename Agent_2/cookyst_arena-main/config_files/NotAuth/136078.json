@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mint"
+  ],
+  "task_id": "136078",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mint.com",
+  "geolocation": null,
+  "intent_template": "Stay up-to-date with news and trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial market trends"
+  },
+  "intent": "Stay up-to-date with news and trends in financial market trends",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

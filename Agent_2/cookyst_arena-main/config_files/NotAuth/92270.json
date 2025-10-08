@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "civicplus"
+  ],
+  "task_id": "92270",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://civicplus.com",
+  "geolocation": null,
+  "intent_template": "Find a community of practice related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "government technology forums"
+  },
+  "intent": "Find a community of practice related to government technology forums",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

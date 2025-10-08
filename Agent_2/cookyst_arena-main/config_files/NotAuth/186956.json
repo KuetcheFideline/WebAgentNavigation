@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ticketmaster"
+  ],
+  "task_id": "186956",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ticketmaster.co.uk",
+  "geolocation": null,
+  "intent_template": "Browse upcoming events related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance"
+  },
+  "intent": "Browse upcoming events related to governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

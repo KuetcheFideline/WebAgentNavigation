@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bet365"
+  ],
+  "task_id": "31565",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bet365.es",
+  "geolocation": null,
+  "intent_template": "Browse through a directory of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "responsible betting initiatives"
+  },
+  "intent": "Browse through a directory of responsible betting initiatives",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

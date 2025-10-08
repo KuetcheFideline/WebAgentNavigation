@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chevron"
+  ],
+  "task_id": "64973",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chevron.com",
+  "geolocation": null,
+  "intent_template": "Search for energy-related research papers and publications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy research"
+  },
+  "intent": "Search for energy-related research papers and publications on energy research",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

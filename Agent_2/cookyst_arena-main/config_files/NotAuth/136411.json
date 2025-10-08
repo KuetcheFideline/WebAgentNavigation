@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pho"
+  ],
+  "task_id": "136411",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pho.to",
+  "geolocation": null,
+  "intent_template": "Read about the basics of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "photo manipulation"
+  },
+  "intent": "Read about the basics of photo manipulation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "polki"
+  ],
+  "task_id": "99117",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://polki.pl",
+  "geolocation": null,
+  "intent_template": "Summarize notes on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "wellness tips for law students"
+  },
+  "intent": "Summarize notes on wellness tips for law students",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "hangikredi"
+  ],
+  "task_id": "75640",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://hangikredi.com",
+  "geolocation": null,
+  "intent_template": "Read about the financial aspects of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "financial regulation"
+  },
+  "intent": "Read about the financial aspects of financial regulation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

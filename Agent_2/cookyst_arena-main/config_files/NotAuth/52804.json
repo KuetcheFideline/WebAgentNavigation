@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mysql"
+  ],
+  "task_id": "52804",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mysql.com",
+  "geolocation": null,
+  "intent_template": "Watch a tutorial on database design for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights tracking"
+  },
+  "intent": "Watch a tutorial on database design for human rights tracking",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wechatpay"
+  ],
+  "task_id": "135783",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wechatpay.cn",
+  "geolocation": null,
+  "intent_template": "Compare payment services for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fees"
+  },
+  "intent": "Compare payment services for fees",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

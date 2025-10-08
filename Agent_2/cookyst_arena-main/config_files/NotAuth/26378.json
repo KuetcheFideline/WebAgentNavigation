@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shure"
+  ],
+  "task_id": "26378",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shure.com",
+  "geolocation": null,
+  "intent_template": "Explore a gallery of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "headphones"
+  },
+  "intent": "Explore a gallery of headphones",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "waze"
+  ],
+  "task_id": "119560",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://waze.com",
+  "geolocation": null,
+  "intent_template": "Read reviews and ratings of locations in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "courts"
+  },
+  "intent": "Read reviews and ratings of locations in courts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

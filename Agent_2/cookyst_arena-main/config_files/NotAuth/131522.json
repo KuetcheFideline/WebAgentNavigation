@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "funeral-notices"
+  ],
+  "task_id": "131522",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://funeral-notices.co.uk",
+  "geolocation": null,
+  "intent_template": "View a photo gallery or exhibition about the life and work of a notable figure in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and community development"
+  },
+  "intent": "View a photo gallery or exhibition about the life and work of a notable figure in education and community development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

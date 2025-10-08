@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sphinx-doc"
+  ],
+  "task_id": "54368",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sphinx-doc.org",
+  "geolocation": null,
+  "intent_template": "Offline {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech application"
+  },
+  "intent": "Offline legal tech application",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

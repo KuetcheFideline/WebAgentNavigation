@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "indiarailinfo"
+  ],
+  "task_id": "188216",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://indiarailinfo.com",
+  "geolocation": null,
+  "intent_template": "Learn about the benefits of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "electric vehicles"
+  },
+  "intent": "Learn about the benefits of electric vehicles",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

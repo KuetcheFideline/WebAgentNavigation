@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pillpack"
+  ],
+  "task_id": "134422",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pillpack.com",
+  "geolocation": null,
+  "intent_template": "Watch videos or webinars about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "health promotion"
+  },
+  "intent": "Watch videos or webinars about health promotion",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

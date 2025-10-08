@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lansweeper"
+  ],
+  "task_id": "119670",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lansweeper.com",
+  "geolocation": null,
+  "intent_template": "Find network configuration guides for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "network configuration templates"
+  },
+  "intent": "Find network configuration guides for network configuration templates",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

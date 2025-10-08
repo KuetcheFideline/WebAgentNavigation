@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gitbook"
+  ],
+  "task_id": "57675",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gitbook.io",
+  "geolocation": null,
+  "intent_template": "Read reviews or testimonials from other users about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech reviews"
+  },
+  "intent": "Read reviews or testimonials from other users about legal tech reviews",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ornl"
+  ],
+  "task_id": "146353",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ornl.gov",
+  "geolocation": null,
+  "intent_template": "Access a library of research articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "constitutional law and jurisprudence"
+  },
+  "intent": "Access a library of research articles on constitutional law and jurisprudence",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

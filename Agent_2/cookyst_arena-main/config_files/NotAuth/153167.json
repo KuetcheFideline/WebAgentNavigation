@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "boschsecurity"
+  ],
+  "task_id": "153167",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://boschsecurity.com",
+  "geolocation": null,
+  "intent_template": "Download a security guide or checklist in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "vulnerability scans"
+  },
+  "intent": "Download a security guide or checklist in vulnerability scans",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

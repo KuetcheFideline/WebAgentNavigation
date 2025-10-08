@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kcrw"
+  ],
+  "task_id": "142273",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kcrw.com",
+  "geolocation": null,
+  "intent_template": "Search for radio shows about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy"
+  },
+  "intent": "Search for radio shows about education policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

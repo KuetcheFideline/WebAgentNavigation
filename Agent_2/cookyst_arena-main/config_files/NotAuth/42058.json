@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "storyblok"
+  ],
+  "task_id": "42058",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://storyblok.com",
+  "geolocation": null,
+  "intent_template": "Browse a library of content on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "research reports"
+  },
+  "intent": "Browse a library of content on research reports",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "castorama"
+  ],
+  "task_id": "101559",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://castorama.fr",
+  "geolocation": null,
+  "intent_template": "Explore a directory of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "landscape architects"
+  },
+  "intent": "Explore a directory of landscape architects",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

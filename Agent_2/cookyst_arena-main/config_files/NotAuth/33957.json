@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "netvibes"
+  ],
+  "task_id": "33957",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://netvibes.com",
+  "geolocation": null,
+  "intent_template": "Find resources on getting started with {{topic}} ",
+  "instantiation_dict": {
+    "topic": "tutorials"
+  },
+  "intent": "Find resources on getting started with tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

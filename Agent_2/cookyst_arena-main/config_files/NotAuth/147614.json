@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "discovermagazine"
+  ],
+  "task_id": "147614",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://discovermagazine.com",
+  "geolocation": null,
+  "intent_template": "Discover new topics and areas of study related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy and development"
+  },
+  "intent": "Discover new topics and areas of study related to education policy and development",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

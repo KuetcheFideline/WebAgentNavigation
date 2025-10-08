@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dayforcehcm"
+  ],
+  "task_id": "102398",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dayforcehcm.com",
+  "geolocation": null,
+  "intent_template": "Take notes on key concepts related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "change management"
+  },
+  "intent": "Take notes on key concepts related to change management",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

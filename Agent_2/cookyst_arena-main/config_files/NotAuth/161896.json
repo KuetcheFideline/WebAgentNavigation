@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "suunto"
+  ],
+  "task_id": "161896",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://suunto.com",
+  "geolocation": null,
+  "intent_template": "Compare prices and features of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports gear"
+  },
+  "intent": "Compare prices and features of sports gear",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "spanishdict"
+  ],
+  "task_id": "187850",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://spanishdict.com",
+  "geolocation": null,
+  "intent_template": "Search for translation jobs or opportunities related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "translation career paths"
+  },
+  "intent": "Search for translation jobs or opportunities related to translation career paths",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

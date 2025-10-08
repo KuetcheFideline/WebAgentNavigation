@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "resume"
+  ],
+  "task_id": "34741",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://resume.com",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of courses and training programs on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech"
+  },
+  "intent": "Browse a catalog of courses and training programs on legal tech",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

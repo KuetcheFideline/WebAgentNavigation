@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "f-droid"
+  ],
+  "task_id": "158319",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://f-droid.org",
+  "geolocation": null,
+  "intent_template": "Browse open-source projects related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights software"
+  },
+  "intent": "Browse open-source projects related to human rights software",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

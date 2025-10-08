@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "glovoapp"
+  ],
+  "task_id": "81288",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://glovoapp.com",
+  "geolocation": null,
+  "intent_template": "Browse restaurants serving {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Mexican"
+  },
+  "intent": "Browse restaurants serving Mexican",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

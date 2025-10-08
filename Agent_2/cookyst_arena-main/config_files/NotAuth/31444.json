@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bet365"
+  ],
+  "task_id": "31444",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bet365.mx",
+  "geolocation": null,
+  "intent_template": "Understand the role of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "gaming communities"
+  },
+  "intent": "Understand the role of gaming communities",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

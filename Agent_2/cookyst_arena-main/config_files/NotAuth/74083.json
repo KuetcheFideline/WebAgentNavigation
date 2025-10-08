@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sli"
+  ],
+  "task_id": "74083",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sli.do",
+  "geolocation": null,
+  "intent_template": "Explore articles and blog posts on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "virtual event platforms"
+  },
+  "intent": "Explore articles and blog posts on virtual event platforms",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

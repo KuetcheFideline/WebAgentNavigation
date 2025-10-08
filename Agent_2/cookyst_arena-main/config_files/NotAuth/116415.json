@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wildapricot"
+  ],
+  "task_id": "116415",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wildapricot.org",
+  "geolocation": null,
+  "intent_template": "Read articles and blog posts about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal research and analysis"
+  },
+  "intent": "Read articles and blog posts about legal research and analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "shareasale"
+  ],
+  "task_id": "22737",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://shareasale.com",
+  "geolocation": null,
+  "intent_template": "Search for affiliate programs in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational affiliate programs"
+  },
+  "intent": "Search for affiliate programs in educational affiliate programs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

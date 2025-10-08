@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "funeral-notices"
+  ],
+  "task_id": "131513",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://funeral-notices.co.uk",
+  "geolocation": null,
+  "intent_template": "Listen to a podcast or audio recording about the legacy of a deceased figure in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and politics"
+  },
+  "intent": "Listen to a podcast or audio recording about the legacy of a deceased figure in governance and politics",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "random"
+  ],
+  "task_id": "142362",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://random.org",
+  "geolocation": null,
+  "intent_template": "Explore the ethical implications of using random number generators in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "fairness"
+  },
+  "intent": "Explore the ethical implications of using random number generators in fairness",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

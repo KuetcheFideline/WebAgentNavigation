@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "video"
+  ],
+  "task_id": "194626",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://video.az",
+  "geolocation": null,
+  "intent_template": "Explore the video library on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "access to justice"
+  },
+  "intent": "Explore the video library on access to justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "litmarket"
+  ],
+  "task_id": "61912",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://litmarket.ru",
+  "geolocation": null,
+  "intent_template": "Learn about the authors or contributors of e-books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "prominent legal scholars"
+  },
+  "intent": "Learn about the authors or contributors of e-books about prominent legal scholars",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

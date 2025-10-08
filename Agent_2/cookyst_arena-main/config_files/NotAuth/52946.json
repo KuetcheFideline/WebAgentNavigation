@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "postgresql"
+  ],
+  "task_id": "52946",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://postgresql.org",
+  "geolocation": null,
+  "intent_template": "Research the applications of database technology in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights uses"
+  },
+  "intent": "Research the applications of database technology in human rights uses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

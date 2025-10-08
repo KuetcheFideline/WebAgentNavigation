@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "enel"
+  ],
+  "task_id": "64952",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://enel.com.br",
+  "geolocation": null,
+  "intent_template": "Browse energy-related courses and certifications on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy degree programs"
+  },
+  "intent": "Browse energy-related courses and certifications on energy degree programs",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

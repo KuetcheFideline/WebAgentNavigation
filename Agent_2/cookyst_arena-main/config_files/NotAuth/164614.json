@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "365scores"
+  ],
+  "task_id": "164614",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://365scores.com",
+  "geolocation": null,
+  "intent_template": "Browse a collection of online courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "sports journalism"
+  },
+  "intent": "Browse a collection of online courses on sports journalism",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

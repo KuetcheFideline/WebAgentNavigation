@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "marketscreener"
+  ],
+  "task_id": "78356",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://marketscreener.com",
+  "geolocation": null,
+  "intent_template": "Watch videos or documentaries about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investment videos"
+  },
+  "intent": "Watch videos or documentaries about investment videos",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

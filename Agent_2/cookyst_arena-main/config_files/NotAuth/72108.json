@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mangatoto"
+  ],
+  "task_id": "72108",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mangatoto.net",
+  "geolocation": null,
+  "intent_template": "Explore a website about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights organizations"
+  },
+  "intent": "Explore a website about human rights organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

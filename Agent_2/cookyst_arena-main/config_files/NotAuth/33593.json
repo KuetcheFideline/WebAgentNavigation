@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "lubimyczytac"
+  ],
+  "task_id": "33593",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://lubimyczytac.pl",
+  "geolocation": null,
+  "intent_template": "Get suggestions for books on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights and governance"
+  },
+  "intent": "Get suggestions for books on human rights and governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

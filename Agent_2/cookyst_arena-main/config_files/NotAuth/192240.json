@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "geni"
+  ],
+  "task_id": "192240",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://geni.us",
+  "geolocation": null,
+  "intent_template": "Use a shortened link to download a resource related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "presentations"
+  },
+  "intent": "Use a shortened link to download a resource related to presentations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

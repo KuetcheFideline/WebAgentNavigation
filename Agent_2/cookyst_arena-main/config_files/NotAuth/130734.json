@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "nationaltrust"
+  ],
+  "task_id": "130734",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://nationaltrust.org.uk",
+  "geolocation": null,
+  "intent_template": "Explore articles and resources about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit management and leadership"
+  },
+  "intent": "Explore articles and resources about non-profit management and leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

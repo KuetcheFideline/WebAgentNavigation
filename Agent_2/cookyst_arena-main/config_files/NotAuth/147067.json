@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rtings"
+  ],
+  "task_id": "147067",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rtings.com",
+  "geolocation": null,
+  "intent_template": "View feedback on policy briefs related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education"
+  },
+  "intent": "View feedback on policy briefs related to education",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

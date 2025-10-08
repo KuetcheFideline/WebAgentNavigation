@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "roborock"
+  ],
+  "task_id": "170861",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://roborock.com",
+  "geolocation": null,
+  "intent_template": "Summarize your understanding of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education tech notes"
+  },
+  "intent": "Summarize your understanding of education tech notes",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

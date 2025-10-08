@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "savethechildren"
+  ],
+  "task_id": "131154",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://savethechildren.org",
+  "geolocation": null,
+  "intent_template": "Find organizations and initiatives working on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "non-profit management and leadership"
+  },
+  "intent": "Find organizations and initiatives working on non-profit management and leadership",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

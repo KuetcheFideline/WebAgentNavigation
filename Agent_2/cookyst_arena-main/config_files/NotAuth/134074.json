@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yapigames"
+  ],
+  "task_id": "134074",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yapigames.com",
+  "geolocation": null,
+  "intent_template": "Look for upcoming games that will feature {{topic}} ",
+  "instantiation_dict": {
+    "topic": "developer diaries"
+  },
+  "intent": "Look for upcoming games that will feature developer diaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

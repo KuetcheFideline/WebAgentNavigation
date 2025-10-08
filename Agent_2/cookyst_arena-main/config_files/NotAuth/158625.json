@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "magicline"
+  ],
+  "task_id": "158625",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://magicline.com",
+  "geolocation": null,
+  "intent_template": "Discover a new tool for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "document automation tools"
+  },
+  "intent": "Discover a new tool for document automation tools",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

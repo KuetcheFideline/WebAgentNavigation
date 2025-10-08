@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "1password"
+  ],
+  "task_id": "135328",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://1password.eu",
+  "geolocation": null,
+  "intent_template": "Find resources on how to use a password manager for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "1Password"
+  },
+  "intent": "Find resources on how to use a password manager for 1Password",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

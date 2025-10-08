@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "yuewen"
+  ],
+  "task_id": "24792",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://yuewen.cn",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech innovations"
+  },
+  "intent": "Read an article about legal tech innovations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

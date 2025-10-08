@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "readnovelfull"
+  ],
+  "task_id": "61784",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://readnovelfull.com",
+  "geolocation": null,
+  "intent_template": "Browse e-books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights"
+  },
+  "intent": "Browse e-books about human rights",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "robbreport"
+  ],
+  "task_id": "108147",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://robbreport.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and law"
+  },
+  "intent": "Read an article about education and law",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

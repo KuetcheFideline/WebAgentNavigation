@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "heytapimg"
+  ],
+  "task_id": "102981",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://heytapimg.com",
+  "geolocation": null,
+  "intent_template": "Discover new images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "educational resources"
+  },
+  "intent": "Discover new images related to educational resources",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

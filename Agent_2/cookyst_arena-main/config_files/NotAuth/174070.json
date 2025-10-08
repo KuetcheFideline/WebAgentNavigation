@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "arcelik"
+  ],
+  "task_id": "174070",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://arcelik.com.tr",
+  "geolocation": null,
+  "intent_template": "Browse a catalog of courses on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education technology courses"
+  },
+  "intent": "Browse a catalog of courses on education technology courses",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

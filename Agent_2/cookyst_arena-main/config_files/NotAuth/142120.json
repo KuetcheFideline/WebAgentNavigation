@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "pensador"
+  ],
+  "task_id": "142120",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://pensador.com",
+  "geolocation": null,
+  "intent_template": "Find resources for teaching or learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "activity ideas"
+  },
+  "intent": "Find resources for teaching or learning about activity ideas",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

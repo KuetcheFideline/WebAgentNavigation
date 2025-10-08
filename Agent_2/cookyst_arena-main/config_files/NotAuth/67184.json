@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "guinnessworldrecords"
+  ],
+  "task_id": "67184",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://guinnessworldrecords.com",
+  "geolocation": null,
+  "intent_template": "Read an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights awareness"
+  },
+  "intent": "Read an article about human rights awareness",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

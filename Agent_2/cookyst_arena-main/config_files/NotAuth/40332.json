@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "skype"
+  ],
+  "task_id": "40332",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://skype.com",
+  "geolocation": null,
+  "intent_template": "Discover a new perspective or opinion about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education and technology"
+  },
+  "intent": "Discover a new perspective or opinion about education and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

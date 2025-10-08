@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paypal"
+  ],
+  "task_id": "134369",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paypal.me",
+  "geolocation": null,
+  "intent_template": "Discover new payment methods for services related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "policy advising organizations"
+  },
+  "intent": "Discover new payment methods for services related to policy advising organizations",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

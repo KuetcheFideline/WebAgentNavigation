@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mbc"
+  ],
+  "task_id": "116194",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mbc.net",
+  "geolocation": null,
+  "intent_template": "Summarize an article about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy and reform"
+  },
+  "intent": "Summarize an article about education policy and reform",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

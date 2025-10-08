@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kjvbiblenow"
+  ],
+  "task_id": "145548",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kjvbiblenow.com",
+  "geolocation": null,
+  "intent_template": "Find books and publications about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Ethics and policy-making"
+  },
+  "intent": "Find books and publications about Ethics and policy-making",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

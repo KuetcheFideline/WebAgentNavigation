@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "jharkhand"
+  ],
+  "task_id": "96975",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://jharkhand.gov.in",
+  "geolocation": null,
+  "intent_template": "Browse through a gallery of images related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights campaigns"
+  },
+  "intent": "Browse through a gallery of images related to human rights campaigns",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

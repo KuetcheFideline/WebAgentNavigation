@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "kinozal"
+  ],
+  "task_id": "187335",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://kinozal.tv",
+  "geolocation": null,
+  "intent_template": "Browse through torrents of educational videos on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal tech tutorials"
+  },
+  "intent": "Browse through torrents of educational videos on legal tech tutorials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

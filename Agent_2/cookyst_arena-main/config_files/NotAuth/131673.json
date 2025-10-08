@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "betway"
+  ],
+  "task_id": "131673",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://betway.co.za",
+  "geolocation": null,
+  "intent_template": "Explore the different types of bets available in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "point spreads"
+  },
+  "intent": "Explore the different types of bets available in point spreads",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

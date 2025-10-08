@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "postgresql"
+  ],
+  "task_id": "52928",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://postgresql.org",
+  "geolocation": null,
+  "intent_template": "Read about database design principles for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "data quality"
+  },
+  "intent": "Read about database design principles for data quality",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

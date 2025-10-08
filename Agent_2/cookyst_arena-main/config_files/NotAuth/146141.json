@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sonnenbatterie"
+  ],
+  "task_id": "146141",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sonnenbatterie.de",
+  "geolocation": null,
+  "intent_template": "Search for and download research papers or academic articles on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy efficiency analysis"
+  },
+  "intent": "Search for and download research papers or academic articles on energy efficiency analysis",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

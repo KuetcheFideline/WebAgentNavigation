@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "wanadoo"
+  ],
+  "task_id": "105071",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://wanadoo.fr",
+  "geolocation": null,
+  "intent_template": "Compare internet speeds for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "upload speed"
+  },
+  "intent": "Compare internet speeds for upload speed",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

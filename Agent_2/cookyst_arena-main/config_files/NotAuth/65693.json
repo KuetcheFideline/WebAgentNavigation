@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "elastic"
+  ],
+  "task_id": "65693",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://elastic.co",
+  "geolocation": null,
+  "intent_template": "Discover the latest news and trends in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "current issues in digital governance"
+  },
+  "intent": "Discover the latest news and trends in current issues in digital governance",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

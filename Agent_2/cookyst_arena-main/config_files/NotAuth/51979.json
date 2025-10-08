@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "anonymised"
+  ],
+  "task_id": "51979",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://anonymised.io",
+  "geolocation": null,
+  "intent_template": "Discover online resources for learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "education policy and data analytics websites"
+  },
+  "intent": "Discover online resources for learning about education policy and data analytics websites",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

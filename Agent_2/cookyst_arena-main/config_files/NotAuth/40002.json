@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mural"
+  ],
+  "task_id": "40002",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mural.co",
+  "geolocation": null,
+  "intent_template": "Discover new collaboration techniques for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "lean startup"
+  },
+  "intent": "Discover new collaboration techniques for lean startup",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

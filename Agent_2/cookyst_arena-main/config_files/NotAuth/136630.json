@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smugmug"
+  ],
+  "task_id": "136630",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smugmug.com",
+  "geolocation": null,
+  "intent_template": "View a photo gallery about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights movements"
+  },
+  "intent": "View a photo gallery about human rights movements",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

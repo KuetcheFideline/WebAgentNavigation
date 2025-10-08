@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dreame"
+  ],
+  "task_id": "62188",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dreame.com",
+  "geolocation": null,
+  "intent_template": "Get recommendations for e-books about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "bar exam review"
+  },
+  "intent": "Get recommendations for e-books about bar exam review",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

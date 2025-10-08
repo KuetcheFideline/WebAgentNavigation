@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "moneysavingexpert"
+  ],
+  "task_id": "136050",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://moneysavingexpert.com",
+  "geolocation": null,
+  "intent_template": "Find tips and advice on managing {{topic}} ",
+  "instantiation_dict": {
+    "topic": "saving strategies"
+  },
+  "intent": "Find tips and advice on managing saving strategies",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

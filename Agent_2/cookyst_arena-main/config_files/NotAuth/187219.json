@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "trackmytime"
+  ],
+  "task_id": "187219",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://trackmytime.com",
+  "geolocation": null,
+  "intent_template": "Find offline resources for learning about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "productivity podcasts"
+  },
+  "intent": "Find offline resources for learning about productivity podcasts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

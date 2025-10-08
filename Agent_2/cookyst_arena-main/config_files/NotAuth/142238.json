@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "rmf"
+  ],
+  "task_id": "142238",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://rmf.fm",
+  "geolocation": null,
+  "intent_template": "Find radio shows about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "law and technology"
+  },
+  "intent": "Find radio shows about law and technology",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

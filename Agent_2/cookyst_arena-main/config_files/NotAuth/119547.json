@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "waze"
+  ],
+  "task_id": "119547",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://waze.com",
+  "geolocation": null,
+  "intent_template": "View a list of nearby points of interest in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "restaurants"
+  },
+  "intent": "View a list of nearby points of interest in restaurants",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tanium"
+  ],
+  "task_id": "47987",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tanium.com",
+  "geolocation": null,
+  "intent_template": "Search for a specific topic on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity search engines"
+  },
+  "intent": "Search for a specific topic on cybersecurity search engines",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "drpc"
+  ],
+  "task_id": "31842",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://drpc.org",
+  "geolocation": null,
+  "intent_template": "Explore a blockchain platform for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "hyperledger"
+  },
+  "intent": "Explore a blockchain platform for hyperledger",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

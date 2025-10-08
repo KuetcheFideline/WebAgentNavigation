@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "mercadopago"
+  ],
+  "task_id": "135449",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://mercadopago.com",
+  "geolocation": null,
+  "intent_template": "Compare pricing plans for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "online course fees"
+  },
+  "intent": "Compare pricing plans for online course fees",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

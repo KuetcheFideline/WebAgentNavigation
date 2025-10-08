@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "celtra"
+  ],
+  "task_id": "16070",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://celtra.com",
+  "geolocation": null,
+  "intent_template": "Join a community forum to discuss {{topic}} ",
+  "instantiation_dict": {
+    "topic": "ad tech community forums"
+  },
+  "intent": "Join a community forum to discuss ad tech community forums",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

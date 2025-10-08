@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "voskhod"
+  ],
+  "task_id": "182107",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://voskhod.ru",
+  "geolocation": null,
+  "intent_template": "Take a quiz to test your knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "digital skills quiz"
+  },
+  "intent": "Take a quiz to test your knowledge about digital skills quiz",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "paykeeper"
+  ],
+  "task_id": "135515",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://paykeeper.ru",
+  "geolocation": null,
+  "intent_template": "Discover promotions for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "free trials"
+  },
+  "intent": "Discover promotions for free trials",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

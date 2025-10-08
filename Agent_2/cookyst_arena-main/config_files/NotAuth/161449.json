@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "worldsportsbetting"
+  ],
+  "task_id": "161449",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://worldsportsbetting.co.za",
+  "geolocation": null,
+  "intent_template": "Read about the history of sports betting regulations in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Monte Carlo"
+  },
+  "intent": "Read about the history of sports betting regulations in Monte Carlo",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

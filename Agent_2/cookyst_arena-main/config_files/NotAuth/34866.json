@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "dow"
+  ],
+  "task_id": "34866",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://dow.com",
+  "geolocation": null,
+  "intent_template": "Search for job listings or career advice in fields related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "legal professions"
+  },
+  "intent": "Search for job listings or career advice in fields related to legal professions",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "tapsi"
+  ],
+  "task_id": "147315",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://tapsi.ir",
+  "geolocation": null,
+  "intent_template": "Read reviews of drivers for rides related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "human rights rides"
+  },
+  "intent": "Read reviews of drivers for rides related to human rights rides",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ecnavi"
+  ],
+  "task_id": "147260",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ecnavi.jp",
+  "geolocation": null,
+  "intent_template": "Learn about the benefits of joining a community on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "interest groups"
+  },
+  "intent": "Learn about the benefits of joining a community on interest groups",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

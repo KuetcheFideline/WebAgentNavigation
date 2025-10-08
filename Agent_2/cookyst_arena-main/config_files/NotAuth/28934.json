@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "discover"
+  ],
+  "task_id": "28934",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://discover.com",
+  "geolocation": null,
+  "intent_template": "Learn about different types of bank accounts for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "savings accounts"
+  },
+  "intent": "Learn about different types of bank accounts for savings accounts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

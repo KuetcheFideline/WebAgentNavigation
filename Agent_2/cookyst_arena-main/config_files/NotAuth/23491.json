@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "inspectlet"
+  ],
+  "task_id": "23491",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://inspectlet.com",
+  "geolocation": null,
+  "intent_template": "Learn about data analytics tools for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance evaluation"
+  },
+  "intent": "Learn about data analytics tools for governance evaluation",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

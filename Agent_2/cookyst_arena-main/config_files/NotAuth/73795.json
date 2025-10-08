@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "sched"
+  ],
+  "task_id": "73795",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://sched.com",
+  "geolocation": null,
+  "intent_template": "Take notes on key speakers for an event on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance and policy"
+  },
+  "intent": "Take notes on key speakers for an event on governance and policy",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

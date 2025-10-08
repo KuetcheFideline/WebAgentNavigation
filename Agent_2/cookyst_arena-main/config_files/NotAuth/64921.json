@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "chargepoint"
+  ],
+  "task_id": "64921",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://chargepoint.com",
+  "geolocation": null,
+  "intent_template": "Discover energy-related events and conferences on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "energy conferences"
+  },
+  "intent": "Discover energy-related events and conferences on energy conferences",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

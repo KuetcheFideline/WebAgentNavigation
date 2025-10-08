@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "manhuagui"
+  ],
+  "task_id": "209915",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://manhuagui.com",
+  "geolocation": null,
+  "intent_template": "Learn about the creative process behind a webtoon about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "social justice"
+  },
+  "intent": "Learn about the creative process behind a webtoon about social justice",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

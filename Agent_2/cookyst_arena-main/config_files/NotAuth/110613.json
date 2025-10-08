@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "resultadofacil"
+  ],
+  "task_id": "110613",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://resultadofacil.com.br",
+  "geolocation": null,
+  "intent_template": "Read about the history of {{topic}} ",
+  "instantiation_dict": {
+    "topic": "milestones"
+  },
+  "intent": "Read about the history of milestones",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

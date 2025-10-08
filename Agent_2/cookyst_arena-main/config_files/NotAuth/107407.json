@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "gdpr"
+  ],
+  "task_id": "107407",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://gdpr.eu",
+  "geolocation": null,
+  "intent_template": "Explore a library of e-books, podcasts, or other resources on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "artificial intelligence"
+  },
+  "intent": "Explore a library of e-books, podcasts, or other resources on artificial intelligence",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

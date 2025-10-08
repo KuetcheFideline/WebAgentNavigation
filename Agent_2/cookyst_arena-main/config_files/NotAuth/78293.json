@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "ifc"
+  ],
+  "task_id": "78293",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://ifc.org",
+  "geolocation": null,
+  "intent_template": "Learn about financial planning in {{topic}} ",
+  "instantiation_dict": {
+    "topic": "investment planning"
+  },
+  "intent": "Learn about financial planning in investment planning",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

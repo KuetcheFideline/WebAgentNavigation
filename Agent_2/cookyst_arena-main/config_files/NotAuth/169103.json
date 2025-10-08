@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "surveoo"
+  ],
+  "task_id": "169103",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://surveoo.com",
+  "geolocation": null,
+  "intent_template": "Take notes on key findings from a survey on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "summary writing"
+  },
+  "intent": "Take notes on key findings from a survey on summary writing",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

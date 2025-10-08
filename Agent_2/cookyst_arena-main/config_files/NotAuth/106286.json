@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "crestron"
+  ],
+  "task_id": "106286",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://crestron.io",
+  "geolocation": null,
+  "intent_template": "Understand the basics of IoT programming for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "Python"
+  },
+  "intent": "Understand the basics of IoT programming for Python",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

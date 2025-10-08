@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "smugmug"
+  ],
+  "task_id": "136675",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://smugmug.com",
+  "geolocation": null,
+  "intent_template": "Find photos of documents related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "court transcripts"
+  },
+  "intent": "Find photos of documents related to court transcripts",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

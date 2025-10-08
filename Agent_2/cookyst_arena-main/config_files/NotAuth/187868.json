@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "spanishdict"
+  ],
+  "task_id": "187868",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://spanishdict.com",
+  "geolocation": null,
+  "intent_template": "Take a free online course or tutorial on translation for {{topic}} ",
+  "instantiation_dict": {
+    "topic": "translation skills"
+  },
+  "intent": "Take a free online course or tutorial on translation for translation skills",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

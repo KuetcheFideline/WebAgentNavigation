@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "bromium-online"
+  ],
+  "task_id": "44612",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://bromium-online.com",
+  "geolocation": null,
+  "intent_template": "Summarize a news article on {{topic}} ",
+  "instantiation_dict": {
+    "topic": "cybersecurity news summaries"
+  },
+  "intent": "Summarize a news article on cybersecurity news summaries",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

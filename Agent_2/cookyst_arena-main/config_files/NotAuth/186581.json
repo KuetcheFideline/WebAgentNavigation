@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "telstra"
+  ],
+  "task_id": "186581",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://telstra.com",
+  "geolocation": null,
+  "intent_template": "Reflect on your current knowledge about {{topic}} ",
+  "instantiation_dict": {
+    "topic": "knowledge gaps"
+  },
+  "intent": "Reflect on your current knowledge about knowledge gaps",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}

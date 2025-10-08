@@ -1,0 +1,25 @@
+{
+  "sites": [
+    "malaysiaairlines"
+  ],
+  "task_id": "189158",
+  "require_login": false,
+  "login_selector": "",
+  "start_url": "https://malaysiaairlines.com",
+  "geolocation": null,
+  "intent_template": "Search for destinations related to {{topic}} ",
+  "instantiation_dict": {
+    "topic": "governance landmarks"
+  },
+  "intent": "Search for destinations related to governance landmarks",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": ""
+}
