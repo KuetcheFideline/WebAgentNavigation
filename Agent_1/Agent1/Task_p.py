@@ -121,7 +121,7 @@ def process_sites_in_batches(path: str):
         # Si un batch précédent a été partiellement traité, reprendre à ce batch
         if not start_processing and last_batch != file:
             continue
-        start_processing = True  # Commencer à traiter à partir du batch trouvé ou le premier
+        start_processing = True  
 
         try:
             with open(name, 'r', encoding='utf-8') as f:

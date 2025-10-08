@@ -15,21 +15,25 @@ Agent1 = AIAgent1()
 
 
 def siteCategorisation(sites,file):
-    for site in sites:
-        print(f"Traitement du site : {site}")
-        description = get_site_description(site)
 
-        data = {
-                "data": {
-                    site: description
-                }
-            }
 
+    for i in range(0,len(sites),5):
+        batch =sites[i:i +5]
+        data = {"data":{}}
+        for site in batch :
+        
+          description = get_site_description(site)
+          data["data"][site]= description
+        print("bonsoir")
         prompt = Agent1.Promt_generation("Categorisation", data)
+        print("bonsoir")
+
         example = read_from_json("./prompts/ExampleCategorisation.json")
+        print("demain")
 
         try:
-            response = Agent1.call_lm3(prompt, example)
+            response = Agent1.call_lm(prompt, example)
+            print("bonjour")
             
         except Exception as  e :
             append_json_to_list_file("./results/error.json",{"file": file, "site": site, "error": str(e)})
@@ -37,8 +41,8 @@ def siteCategorisation(sites,file):
             raise
 
         try:
+            print("bonjour")
             result = extract_result(response, site)
-            
 
         except Exception as e:
             print(f" Erreur lors de l'extraction des resultats  {site} ,{file} : {e}")
@@ -80,30 +84,33 @@ def process_sites_in_batches(path:str):
         name = os.path.join(path, file)
         if file.endswith('.csv'):
             name = os.path.join(path,file)
-            try :
-                with open(name,'r',encoding='utf-8') as f :
-                    cvs_file = csv.reader(f)
-                    urls = []
-                    for row in cvs_file:
-                        if len(row) >= 2: 
-                            urls.append(f"https://{row[1]}")
+            try:
+                    with open(name, 'r', encoding='utf-8') as f:
+                        csv_file = csv.reader(f)
+                        urls = []
+                        for row in csv_file:
+                            if len(row) >= 2:
+                                urls.append(f"https://{row[1]}")
+                            else:
+                                print("Ligne ignorée (malformée) :", row)
+                                
+                        if last_error_file and last_error_url in urls:
+                            try:
+                                index = urls.index(last_error_url)
+                                urls = urls[index + 1:]
+                                print(f"INFO: Dans {name}, reprise après '{last_error_url}'. {len(urls)} URLs restantes à traiter.")
+                            except ValueError:
+                                pass
+                                
+                        if urls:
+                            siteCategorisation(urls, name)
                         else:
-                            print("Ligne ignorée (malformée) :", row)
-                    if file ==last_error_file and last_error_url in urls :
-                        try :
-                            index= urls.index(last_error_url)
-                            urls = urls[index+1:]
-                            print(f"INFO: Dans {file}, reprise après '{last_error_url}'. {len(urls)} URLs restantes à traiter.")
-                        except ValueError:
-                          pass 
-                        if urls :
-                             siteCategorisation(urls,file)
-                        else :
-                            print(f"INFO: Aucune nouvelle URL à traiter dans {file}.")
+                            print(f"INFO: Aucune nouvelle URL à traiter dans {name}.")
 
-                            
-            except Exception as e :
-                print("erreur ",e)
+            except Exception as e:
+                    print(f"Erreur lors du traitement du fichier {name}: {e}")
+                    print(f"Fichier: {name}, URLs: {urls}")
+
                     
     print("--- Traitement terminé ---")
 

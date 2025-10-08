@@ -11,8 +11,10 @@ from utils.utils import write_on_json ,get_site ,get_site_description ,read_from
 Agent1 = AIAgent1()
 
 def siteCategorisation(sites):
+
+
     for site in sites:
-        print(f"Traitement du site : {site}")
+        print(f"Traitement du site : {len(site)}")
 
         try:
             description = get_site_content(site)

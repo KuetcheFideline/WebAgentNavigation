@@ -22,7 +22,7 @@ class AIAgent1:
            
         #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
         #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
-            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
 
 
 
@@ -98,33 +98,10 @@ class AIAgent1:
     #     except requests.RequestException as e:
     #         return f"[ERROR] Request failed: {e}"
 
-    def call_lm(self,PromptFirst,example):
-        def escape_curly_braces(text):
-            if isinstance(text, str):
-                return text.replace("{", "{{").replace("}", "}}")
-            return text
 
-        processed_examples = [
-            {
-                "question": ex["question"],
-                "answer": escape_curly_braces(ex["answer"])
-            }
-            for ex in example
-        ]
-       # print(processed_examples)
-        example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
-        Prompt = FewShotPromptTemplate(
-             examples =processed_examples,
-             example_prompt =example_prompt,
-             suffix ="Question: {input}",
-             input_variables=["input"],
 
-         )
-        print(Prompt)
-        #print(Prompt,'la prompt')
 
-        chain = Prompt | self.model
-        return chain.invoke({"input": PromptFirst})
+
 
 
 
@@ -175,21 +152,19 @@ class AIAgent1:
         except requests.RequestException as e:
             return f"[ERROR] Request failed: {e}"
 
-<<<<<<< HEAD
     def call_lm(self,PromptFirst,example):
         def escape_curly_braces(text):
             if isinstance(text, str):
                 return text.replace("{", "{{").replace("}", "}}")
             return text
 
+       
         processed_examples = [
             {
-                "question": ex["question"],
-                "answer": escape_curly_braces(ex["answer"])
+                "question": example["question"],
+                "answer":escape_curly_braces(example["answer"]) 
             }
-            for ex in example
         ]
-       # print(processed_examples)
         example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
         Prompt = FewShotPromptTemplate(
              examples =processed_examples,
@@ -198,6 +173,7 @@ class AIAgent1:
              input_variables=["input"],
 
          )
+
         
 
         chain = Prompt | self.model
@@ -206,12 +182,11 @@ class AIAgent1:
 
 
 
-=======
->>>>>>> 7db49677f76405bec807ab01e01446310fa6205c
 
 
 
     def Promt_generation(self,file,data):
+
         filename = f"./prompts/{file}.json"
         try:
             with open(filename, 'r', encoding="utf-8") as f:

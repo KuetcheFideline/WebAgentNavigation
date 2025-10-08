@@ -112,6 +112,7 @@ def get_site_content(site:str)->str:
         return ""
 
 
+
        
 def get_site_description(site:str) -> str :
         try:
@@ -119,6 +120,7 @@ def get_site_description(site:str) -> str :
             response.raise_for_status()
             soup = BeautifulSoup(response.text,'html.parser')
             meta_desc = soup.find("meta", attrs={"name": "description"})
+            description = ""
             if meta_desc and "content" in meta_desc.attrs:
                 description = meta_desc["content"]
             
@@ -146,40 +148,31 @@ def read_from_json(file):
         return None
 
 
+import os
+from pathlib import Path
 import json
 def extract_result(result, site):
-    import os
-    from pathlib import Path
 
-    lines = result.split("\n")
-    data = {}
-    current_key = None
 
-    for line in lines:
-        if ':' in line:
-            key, value = line.split(':', 1)
-            current_key = key.strip().lower()
-            data[current_key] = value.strip()
+   
+    datas = result.content
+    data =json.loads(datas)
+    for elt in data :
+        cat = {elt :data[elt]}
+
+        print(elt)
+        print(cat)
+        print( data[elt]["Confidence"])
+        if data[elt]["Confidence"] <= 75:
+            append_json_to_list_file("./results/confidence.json", cat)
         else:
-            if current_key:
-                data[current_key] += ' ' + line.strip()
+            print("yu")
 
-    if "confidence" in data:
-        try:
-            data["confidence"] = int(data["confidence"])
-        except ValueError:
-            pass
+            append_json_to_list_file("./results/result.json", cat)
+            print("lil")
+            extract_category(cat)
 
-    data['url'] = site
-
-    
-
-    if data["confidence"] <= 75:
-        append_json_to_list_file("./results/confidence.json", data)
-    else:
-        append_json_to_list_file("./results/result.json", data)
-        extract_category(data)
-
+            
 
 def extract_category(result,result_dir:str="results"):
 
@@ -189,43 +182,48 @@ def extract_category(result,result_dir:str="results"):
                 #Category: [category]\n#Configence: [score]\n#Url: [url]\n#Explanation: [explanation]
         """
         Path(result_dir).mkdir(exist_ok=True)
-
-        category_file = Path(result_dir)/ f"{result['category']}.json"
-
-
-        if category_file.exists():
-            with open(category_file,'r',encoding="utf-8") as f:
-                try:
-                    print("exist file")
-                    category_data = json.load(f)
-                    #print(category_data["sites"])
-                    #print(result)
-                    if result["url"] not in category_data["sites"]:
-                        print("not In")
-                        category_data["sites"].append(result["url"])
-                    
-                    else:
-                         print(f"Info: URL {result['url']} déjà présente dans {category_file}, ignorée.")
-                    with open(category_file, "w", encoding="utf-8") as f:
-                        json.dump(category_data, f, indent=2, ensure_ascii=False)
-                    return result
-                    
-                except json.JSONDecodeError:
-                    print(f"ERROR: corrupted file {category_file}, initialising a new file")
-                    category_data = {"sites":[],"tasks":[]}
-        else:
-            category_data = {"sites":[],"tasks":[]}
-        
-            if result["url"] not in category_data["sites"]:
-                category_data["sites"].append(result["url"])
+        category_file = ""
+        for elt in result :
+            category_file = Path(result_dir)/ f"{result[elt]['category']}.json"
+            if category_file.exists():
+                with open(category_file,'r',encoding="utf-8") as f:
+                    try:
+                        print("exist file")
+                        category_data = json.load(f)
+                        #print(category_data["sites"])
+                        #print(result)
+                        if result[elt] not in category_data["sites"]:
+                            print("not In")
+                            category_data["sites"].append(result[elt])
+                        
+                        else:
+                            print(f"Info: URL {result[elt]} déjà présente dans {category_file}, ignorée.")
+                        with open(category_file, "w", encoding="utf-8") as f:
+                            json.dump(category_data, f, indent=2, ensure_ascii=False)
+                        return result
+                        
+                    except json.JSONDecodeError:
+                        print(f"ERROR: corrupted file {category_file}, initialising a new file")
+                        category_data = {"sites":[],"tasks":[]}
             else:
-                print(f"Info: URL {result['url']} déjà présente dans {category_file}, ignorée.")
+                category_data = {"sites":[],"tasks":[]}
             
-            with open(category_file, "w", encoding="utf-8") as f:
-                json.dump(category_data, f, indent=2, ensure_ascii=False)
-            
-            print(f"Succès: URL {result['url']} ajoutée à {category_file}")
+                if result[elt] not in category_data["sites"]:
+                    category_data["sites"].append(result[elt])
+                else:
+                    print(f"Info: URL {result[elt]} déjà présente dans {category_file}, ignorée.")
+                
+                with open(category_file, "w", encoding="utf-8") as f:
+                    json.dump(category_data, f, indent=2, ensure_ascii=False)
+                
+                print(f"Succès: URL {result[elt]} ajoutée à {category_file}")
             return result
+
+
+
+
+
+
 
 def extract_category_p(result, result_dir: str = "results"):
     """
