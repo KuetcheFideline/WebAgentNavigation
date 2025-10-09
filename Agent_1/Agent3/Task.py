@@ -110,5 +110,5 @@ def process_sites_in_batches(path:str):
 
 
 
-process_sites_in_batches("folder_1")
+process_sites_in_batches("folder_2")
                                            
