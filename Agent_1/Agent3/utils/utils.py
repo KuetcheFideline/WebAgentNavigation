@@ -148,105 +148,99 @@ def read_from_json(file):
         return None
 
 
-def extract_result(result, site,fil):
-  
-
+def extract_result(result, site, fil):
     data = result.split("```")
     json_remove = data[1].split("json")
-    json_data = json.loads(json_remove[0])
+    json_data = json.loads(json_remove[0] if json_remove[0] != '' else json_remove[1])
 
     user_id = "./results/id.txt"
     if os.path.exists(user_id):
         with open(user_id, 'r', encoding='utf-8') as f:
             used_id = set(map(int, f.read().split()))
     else:
-         used_id = set()
+        used_id = set()
 
-    remove= ["auth_task","unauth_task"]
-    if int(json_data["confidence"] )<= 75 or "error" in json_data["category"].lower():
-          for key in remove :
-              if key in json_data :
-                  del json_data[key]
-          json_data["site"]= site
-          append_json_to_list_file("./results/confidence.json",json_data)
+    remove = ["auth_task", "unauth_task"]
+    if int(json_data["confidence"]) <= 75 or "error" in json_data["category"].lower():
+        for key in remove:
+            if key in json_data:
+                del json_data[key]
+        json_data["site"] = site
+        append_json_to_list_file("./results/confidence.json", json_data)
 
-    else :
-         # conserver le site dans sa categories 
-         file = Path("./results") / json_data["category"]
+    else:
+        # Conserver le site dans sa catégorie
+        file = Path("./results") / json_data["category"]
 
-         if file.exists():
-              try:
-                 with open(file,'r',encoding="utf-8") as f:
-                
-                    print("exist file")
+        if file.exists():
+            try:
+                with open(file, 'r', encoding="utf-8") as f:
                     category_data = json.load(f)
                     if site not in category_data["sites"]:
-                        print("not In")
                         category_data["sites"].append(site)
-                    
                     else:
-                         print(f"Info: URL {site} déjà présente dans {file}, ignorée.")
-                    with open(file, "w", encoding="utf-8") as f:
-                        json.dump(category_data, f, indent=2, ensure_ascii=False)
-              except Exception as e :
-                  print("erreur d'ecriture dans category existante")
-                  append_json_to_list_file("./results/error.json",json_data)
+                        print(f"Info: URL {site} déjà présente dans {file}, ignorée.")
 
-         else:
-            category_data = {"sites":[site]}  
+                with open(file, "w", encoding="utf-8") as f:
+                    json.dump(category_data, f, indent=2, ensure_ascii=False)
 
+            except Exception as e:
+                print("erreur d'écriture dans catégorie existante")
+                append_json_to_list_file("./results/error.json", json_data)
+
+        else:
+            category_data = {"sites": [site]}
             with open(file, "w", encoding="utf-8") as f:
-
                 json.dump(category_data, f, indent=2, ensure_ascii=False)
-            
             print(f"Succès: URL {site} ajoutée")
 
+        # Formater les tâches dans les dossiers correspondants
+        with open("./prompts/template.json", 'r', encoding='utf-8') as f:
+            template = json.load(f)
 
-### formater les taches dans les dossiers correspondant 
-    with open("./prompts/template.json", 'r', encoding='utf-8') as f:
-        template = json.load(f)
-    combined_task = []
-    for elt in json_data["unauth_task"]:
-        combined_task.append({"false": elt})
-    for elt in json_data["auth_task"]:
-        combined_task.append({"true": elt})
+        combined_task = []
+        for elt in json_data["unauth_task"]:
+            combined_task.append({"false": elt})
+        for elt in json_data["auth_task"]:
+            combined_task.append({"true": elt})
 
-    base_folder = "./results"
+        base_folder = "./results"
 
-    for elt in combined_task:
-        task_id = random.randint(0, 1000)
-    
-        while task_id in used_id:
+        for elt in combined_task:
             task_id = random.randint(0, 1000)
-            
-        used_id.add(task_id)
-        with open(user_id, 'w', encoding='utf-8') as f:
-         f.write(" ".join(map(str, used_id)))
-        if "true" in elt:
-            template["require_login"] = True
-            folder = os.path.join(base_folder, "auth")
-        else:
-            template["require_login"] = False
-            folder = os.path.join(base_folder, "unAuth")
+            while task_id in used_id:
+                task_id = random.randint(0, 1000)
 
-        os.makedirs(folder, exist_ok=True)
-        template["task_id"] = task_id
-        
-        template["site"] = site
-        template["intent"] = next(iter(elt.values()))
-        template["start_url"] = site
+            used_id.add(task_id)
 
-        output_file = os.path.join(folder, f"{task_id}.json")
+            with open(user_id, 'w', encoding='utf-8') as f:
+                f.write(" ".join(map(str, used_id)))
 
-        with open(output_file, 'w', encoding='utf-8') as f_out:
-            json.dump(template, f_out, indent=4, ensure_ascii=False)
-    print("fini un peu de repos")
-   
-    dume = {"file":fil, "url": site}
-    with open("./results/process.json", 'w', encoding='utf-8') as f:
-         json.dump(dume, f, ensure_ascii=False, indent=2)
+            if "true" in elt:
+                template["require_login"] = True
+                folder = os.path.join(base_folder, "auth")
+            else:
+                template["require_login"] = False
+                folder = os.path.join(base_folder, "unAuth")
 
-    time.sleep(10)
+            os.makedirs(folder, exist_ok=True)
+
+            template["task_id"] = task_id
+            template["site"] = site
+            template["intent"] = next(iter(elt.values()))
+            template["start_url"] = site
+
+            output_file = os.path.join(folder, f"{task_id}.json")
+            with open(output_file, 'w', encoding='utf-8') as f_out:
+                json.dump(template, f_out, indent=4, ensure_ascii=False)
+
+
+        dume = {"file": fil, "url": site}
+        with open("./results/process.json", 'w', encoding='utf-8') as f:
+            json.dump(dume, f, ensure_ascii=False, indent=2)
+
+
+#    time.sleep(10)
 
 def extract_category(result,result_dir:str="results"):
 
