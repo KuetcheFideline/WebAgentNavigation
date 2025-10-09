@@ -146,9 +146,9 @@ def detect_login_with_google(s_html: str):
         print("⏳ Searching for Google login option...")
         response_text = call_grop_llama(final_google_prompt,Groq)
     
-        print("\n Model Response (Google Login):\n---\n" + response_text.content.strip() + "\n---")
+        print("\n Model Response (Google Login):\n---\n" + response_text.strip() + "\n---")
         
-        parsed_data = parse_llm_response(response_text.content)
+        parsed_data = parse_llm_response(response_text)
         return parsed_data
 
     except Exception as e:

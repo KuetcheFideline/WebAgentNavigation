@@ -22,7 +22,11 @@ class AIAgent1:
            
         #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
         #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
+<<<<<<< HEAD
             self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+=======
+            self.model= ChatGroq(temperature=0, groq_api_key="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", model_name="llama-3.3-70b-versatile")
+>>>>>>> origin/Franck
 
 
 
@@ -100,6 +104,12 @@ class AIAgent1:
 
 
 
+<<<<<<< HEAD
+=======
+         )
+        #print(Prompt)
+        #print(Prompt,'la prompt')
+>>>>>>> origin/Franck
 
 
 
@@ -152,6 +162,7 @@ class AIAgent1:
         except requests.RequestException as e:
             return f"[ERROR] Request failed: {e}"
 
+<<<<<<< HEAD
     def call_lm(self,PromptFirst,example):
         def escape_curly_braces(text):
             if isinstance(text, str):
@@ -182,6 +193,8 @@ class AIAgent1:
 
 
 
+=======
+>>>>>>> origin/Franck
 
 
 
