@@ -113,26 +113,45 @@ def get_site_content(site:str)->str:
         print(f"Erreur lors de la récupération de {site} : {e}")
         return ""
 
-
-       
-def get_site_description(site:str) -> str :
-        try:
-            response = requests.get(site,timeout=5)
-            response.raise_for_status()
-            soup = BeautifulSoup(response.text,'html.parser')
-            meta_desc = soup.find("meta", attrs={"name": "description"})
-            if meta_desc and "content" in meta_desc.attrs:
-                description = meta_desc["content"]
-            
-            else:
-                for tag in soup(["script", "style"]):
-                  tag.decompose()
-                  text = soup.get_text(separator=' ', strip=True)
-                  description= text[:300] + "..." if len(text) > 300 else text
-        except requests.RequestException as e:
-            description = f"Erreur lors de la requête : {e}"
+def sanitize_filename(name: str) -> str:
+    """
+    Nettoie une chaîne de caractères pour qu'elle soit un nom de fichier valide.
+    Remplace les caractères système réservés (comme / \ : * ? " < > |) par un underscore.
+    Supprime aussi les espaces ou points en début/fin de nom qui peuvent poser problème.
+    """
+    if not isinstance(name, str):
+        name = str(name)
         
-        return description
+    # Remplace les slashes et autres caractères invalides par un underscore
+    name = re.sub(r'[\\/*?:"<>|]', "_", name)
+    
+    # Supprime les points et espaces superflus au début et à la fin
+    name = name.strip('. ')
+    
+    # Optionnel : si le nom est vide après nettoyage, on retourne un nom par défaut
+    if not name:
+        return "uncategorized_invalid_name"
+        
+    return name
+       
+# def get_site_description(site:str) -> str :
+#         try:
+#             response = requests.get(site,timeout=5)
+#             response.raise_for_status()
+#             soup = BeautifulSoup(response.text,'html.parser')
+#             meta_desc = soup.find("meta", attrs={"name": "description"})
+#             if meta_desc and "content" in meta_desc.attrs:
+#                 description = meta_desc["content"]
+            
+#             else:
+#                 for tag in soup(["script", "style"]):
+#                   tag.decompose()
+#                   text = soup.get_text(separator=' ', strip=True)
+#                   description= text[:300] + "..." if len(text) > 300 else text
+#         except requests.RequestException as e:
+#             description = f"Erreur lors de la requête : {e}"
+        
+#         return description
 
 
 def read_from_json(file):
@@ -207,9 +226,9 @@ def extract_result(result, site, fil):
         base_folder = "./results"
 
         for elt in combined_task:
-            task_id = random.randint(0, 1000)
+            task_id = random.randint(30001, 80000)
             while task_id in used_id:
-                task_id = random.randint(0, 1000)
+                task_id = random.randint(30001, 80000)
 
             used_id.add(task_id)
 
@@ -460,24 +479,120 @@ def read_progress(result_dir: str = "results"):
     return {"batch_file": None, "last_site": None}
 
 
-def append_json_to_list_file(file_path, new_data):
+# def append_json_to_list_file(file_path, new_data):
         
-        '''
-        Ajouter les donnés a un json valide 
+#         '''
+#         Ajouter les donnés a un json valide 
         
-        '''
-        Path(file_path).parent.mkdir(parents=True, exist_ok=True)
+#         '''
+#         Path(file_path).parent.mkdir(parents=True, exist_ok=True)
 
-        if os.path.exists(file_path):
-            with open(file_path, "r", encoding="utf-8") as f:
-                try:
-                    existing = json.load(f)
-                except json.JSONDecodeError:
-                    existing = []
+#         if os.path.exists(file_path):
+#             with open(file_path, "r", encoding="utf-8") as f:
+#                 try:
+#                     existing = json.load(f)
+#                 except json.JSONDecodeError:
+#                     existing = []
+#         else:
+#             existing = []
+
+#         existing.append(new_data)
+
+#         with open(file_path, "w", encoding="utf-8") as f:
+#             json.dump(existing, f, indent=2, ensure_ascii=False)
+
+# def get_site_description(site: str) -> str:
+#     try:
+#         # Un User-Agent réaliste peut aider à éviter les blocages
+#         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+#         response = requests.get(site, timeout=10, headers=headers)
+#         response.raise_for_status()
+#         soup = BeautifulSoup(response.text, 'html.parser')
+#         meta_desc = soup.find("meta", attrs={"name": "description"})
+#         if meta_desc and "content" in meta_desc.attrs:
+#             return meta_desc["content"]
+        
+#         # Fallback si pas de meta description
+#         for tag in soup(["script", "style", "nav", "footer"]):
+#             tag.decompose()
+#         text = soup.get_text(separator=' ', strip=True)
+#         return text[:400] + "..." if len(text) > 400 else text
+#     except requests.RequestException as e:
+#         # Retourne une erreur claire au lieu d'une description vide
+#         return f"REQUEST_ERROR: {e}"
+def get_site_description(site:str) -> str :
+        try:
+            headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
+            response = requests.get(site,timeout=5, headers=headers)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text,'html.parser')
+            meta_desc = soup.find("meta", attrs={"name": "description"})
+            if meta_desc and "content" in meta_desc.attrs:
+                description = meta_desc["content"]
+            
+            else:
+                for tag in soup(["script", "style"]):
+                  tag.decompose()
+                  text = soup.get_text(separator=' ', strip=True)
+                  description= text[:300] + "..." if len(text) > 300 else text
+        except requests.RequestException as e:
+            description = f"Erreur lors de la requête : {e}"
+        
+        return description
+
+def parse_llm_result(llm_content: str, site: str, origin_file: str):
+    """
+    Parse la sortie du LLM et retourne un dictionnaire structuré pour le processus écrivain.
+    Ne fait AUCUNE opération de lecture/écriture de fichier.
+    """
+    nb=0
+    try:
+        data = llm_content.split("```")
+        #print(data)
+        json_str = data[0].replace("json", "").strip() if data[0] != '' else data[1].replace("json", "").strip()
+        json_data = json.loads(json_str)
+
+        # Ajoute les métadonnées nécessaires pour le writer
+        json_data["site"] = site
+        json_data["origin_file"] = origin_file
+
+        if int(json_data.get("confidence", 0)) <= 75 or "error" in json_data.get("category", "").lower():
+            json_data.pop("auth_task", None)
+            json_data.pop("unauth_task", None)
+            return {"type": "confidence_issue", "data": json_data}
         else:
-            existing = []
+            if "auth_task" not in json_data: json_data["auth_task"] = []
+            if "unauth_task" not in json_data: json_data["unauth_task"] = []
+            return {"type": "success", "data": json_data}
 
-        existing.append(new_data)
+    except Exception as e:
+        return {
+            "type": "parsing_error",
+            "data": {
+                "site": site,
+                "origin_file": origin_file,
+                "error": str(e),
+                "llm_content": llm_content
+            }
+        }
+def append_json_to_list_file(file_path, new_data_list):
+    """
+    Version optimisée qui ajoute une LISTE d'objets à un fichier JSON.
+    Utilisée uniquement par le processus écrivain.
+    """
+    if not new_data_list:
+        return
 
-        with open(file_path, "w", encoding="utf-8") as f:
-            json.dump(existing, f, indent=2, ensure_ascii=False)
+    Path(file_path).parent.mkdir(parents=True, exist_ok=True)
+    existing_data = []
+    if os.path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as f:
+            try:
+                existing_data = json.load(f)
+            except json.JSONDecodeError:
+                pass  # Le fichier est corrompu, il sera écrasé
+
+    existing_data.extend(new_data_list)
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(existing_data, f, indent=2, ensure_ascii=False)

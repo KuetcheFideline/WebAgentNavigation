@@ -62,53 +62,79 @@
 # if __name__ == "__main__":
 #     main()
 
+# import os
+# import json
+
+# RESULTS_DIR = "results_batch1"
+# VISITED_SITES_FILE = "./results_batch1/visited_sites.json"
+
+# def extract_visited_sites():
+#     visited = set()
+#     total_urls = 0
+#     total_files = 0
+
+#     print(f"📊 Scan des fichiers JSON dans {RESULTS_DIR}...\n")
+
+#     for filename in os.listdir(RESULTS_DIR):
+#         if not filename.endswith(".json"):
+#             continue
+
+#         filepath = os.path.join(RESULTS_DIR, filename)
+#         try:
+#             with open(filepath, "r", encoding="utf-8") as f:
+#                 data = json.load(f)
+#         except Exception as e:
+#             print(f"❌ {filename} → Erreur de lecture JSON : {e}")
+#             continue
+
+#         if "sites" in data and isinstance(data["sites"], list):
+#             urls = data["sites"]
+#             visited.update(urls)
+#             total_urls += len(urls)
+#             total_files += 1
+#             print(f"✅ {filename} → {len(urls)} URLs ajoutées")
+#         else:
+#             print(f"⚠️ {filename} → pas de clé 'sites' valide")
+
+#     # Sauvegarde dans le fichier final
+#     os.makedirs(os.path.dirname(VISITED_SITES_FILE), exist_ok=True)
+#     with open(VISITED_SITES_FILE, "w", encoding="utf-8") as f:
+#         json.dump(sorted(list(visited)), f, ensure_ascii=False, indent=2)
+
+#     print("\n📌 Statistiques globales :")
+#     print(f" - Fichiers JSON analysés : {total_files}")
+#     print(f" - Total d'URLs trouvées  : {total_urls}")
+#     print(f" - Total unique de sites  : {len(visited)}")
+#     print(f"✅ Liste sauvegardée dans {VISITED_SITES_FILE}")
+
+#     return visited
+
+
+# if __name__ == "__main__":
+#     extract_visited_sites()
+
 import os
 import json
 
-RESULTS_DIR = "results_batch1"
-VISITED_SITES_FILE = "./results_batch1/visited_sites.json"
+# Chemin du dossier contenant vos fichiers
+folder_path = "./results"  # à modifier selon votre dossier
 
-def extract_visited_sites():
-    visited = set()
-    total_urls = 0
-    total_files = 0
+total_urls = 0
 
-    print(f"📊 Scan des fichiers JSON dans {RESULTS_DIR}...\n")
+# Parcourir tous les fichiers dans le dossier
+for filename in os.listdir(folder_path):
+    file_path = os.path.join(folder_path, filename)
 
-    for filename in os.listdir(RESULTS_DIR):
-        if not filename.endswith(".json"):
-            continue
-
-        filepath = os.path.join(RESULTS_DIR, filename)
+    # Vérifier que c'est bien un fichier et pas un dossier
+    if os.path.isfile(file_path):
         try:
-            with open(filepath, "r", encoding="utf-8") as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-        except Exception as e:
-            print(f"❌ {filename} → Erreur de lecture JSON : {e}")
-            continue
+                # Vérifier que la clé "sites" existe et est une liste
+                if "sites" in data and isinstance(data["sites"], list):
+                    total_urls += len(data["sites"])
+        except json.JSONDecodeError:
+            print(f"Erreur de lecture JSON dans le fichier {filename}, ignoré.")
 
-        if "sites" in data and isinstance(data["sites"], list):
-            urls = data["sites"]
-            visited.update(urls)
-            total_urls += len(urls)
-            total_files += 1
-            print(f"✅ {filename} → {len(urls)} URLs ajoutées")
-        else:
-            print(f"⚠️ {filename} → pas de clé 'sites' valide")
+print(f"Nombre total d'URLs dans tous les fichiers : {total_urls}")
 
-    # Sauvegarde dans le fichier final
-    os.makedirs(os.path.dirname(VISITED_SITES_FILE), exist_ok=True)
-    with open(VISITED_SITES_FILE, "w", encoding="utf-8") as f:
-        json.dump(sorted(list(visited)), f, ensure_ascii=False, indent=2)
-
-    print("\n📌 Statistiques globales :")
-    print(f" - Fichiers JSON analysés : {total_files}")
-    print(f" - Total d'URLs trouvées  : {total_urls}")
-    print(f" - Total unique de sites  : {len(visited)}")
-    print(f"✅ Liste sauvegardée dans {VISITED_SITES_FILE}")
-
-    return visited
-
-
-if __name__ == "__main__":
-    extract_visited_sites()
