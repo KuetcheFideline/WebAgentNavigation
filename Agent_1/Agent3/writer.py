@@ -46,7 +46,8 @@ def run_writer(results_queue):
     buffers = {
         "confidence": [],
         "errors": [],
-        "categories": {}
+        "categories": {},
+        "success": []
     }
     
     BATCH_SIZE = 100
@@ -62,33 +63,34 @@ def run_writer(results_queue):
         
         if result_type == "success":
             logging.info(f"Writer: Processing success for site {data.get('site')}")
+            buffers["success"].append(data)
             # 1. Mise en buffer de la catégorie (comme avant)
-            category = data.get("category", "Uncategorized")
-            if category not in buffers["categories"]:
-                buffers["categories"][category] = []
-            buffers["categories"][category].append(data["site"])
+            # category = data.get("category", "Uncategorized")
+            # if category not in buffers["categories"]:
+            #     buffers["categories"][category] = []
+            # buffers["categories"][category].append(data["site"])
             
-            # 2. NOUVEAU: Création des fichiers de tâches individuels
-            if task_template:
-                create_task_files(data, task_template, used_ids)
+            # # 2. NOUVEAU: Création des fichiers de tâches individuels
+            # if task_template:
+            #     create_task_files(data, task_template, used_ids)
             
         elif result_type == "confidence_issue":
             buffers["confidence"].append(data)
         else: # request_error, processing_error, parsing_error
             buffers["errors"].append(data)
 
-        total_buffered_items =  sum(len(lst) for lst in buffers["categories"].values() if isinstance(lst, list))
+        total_buffered_items =  len(buffers["success"])
         logging.info(f"total_buffered_items: {total_buffered_items}")
         logging.info(f"Writer: Buffered items count: {total_buffered_items}")
         if total_buffered_items >= BATCH_SIZE or time.time() - last_write_time > 30:
             logging.info(f"Writer: Writing buffers to disk...")
-            write_buffers_to_disk(buffers, used_ids)
+            write_batch_to_disk(buffers=buffers, used_ids_set=used_ids,task_template=task_template)
             if data.get("site"):
                 update_progress(data["origin_file"], data["site"])
             last_write_time = time.time()
 
     # Écriture finale des données restantes avant de quitter
-    write_buffers_to_disk(buffers, used_ids)
+    #write_buffers_to_disk(buffers, used_ids)
     logging.info("Writer process finished.")
 
 def create_task_files(data, template, used_ids_set):
@@ -131,49 +133,124 @@ def create_task_files(data, template, used_ids_set):
         with open(output_file, 'w', encoding='utf-8') as f_out:
             json.dump(task_data, f_out, indent=4, ensure_ascii=False)
 
-def write_buffers_to_disk(buffers, used_ids_set):
-    """
-    Effectue les écritures sur le disque pour les fichiers de logs et de catégories.
-    Met également à jour le fichier des IDs utilisés.
-    """
-    logging.info(f"Writing buffers to disk... ({len(used_ids_set)} total unique task IDs generated)")
+# def write_buffers_to_disk(buffers, used_ids_set):
+#     """
+#     Effectue les écritures sur le disque pour les fichiers de logs et de catégories.
+#     Met également à jour le fichier des IDs utilisés.
+#     """
+#     logging.info(f"Writing buffers to disk... ({len(used_ids_set)} total unique task IDs generated)")
     
-    # Écriture des logs et des cas de faible confiance
-    append_json_to_list_file("./results/confidence.json", buffers["confidence"])
-    append_json_to_list_file("./results/errors.json", buffers["errors"])
+#     # Écriture des logs et des cas de faible confiance
+#     append_json_to_list_file("./results/confidence.json", buffers["confidence"])
+#     append_json_to_list_file("./results/errors.json", buffers["errors"])
     
-    # Écriture dans les fichiers de catégories (logique optimisée)
-    for category, sites in buffers["categories"].items():
-        if not sites: continue
-        try:
-            safe_category_name = sanitize_filename(category)
-            category_file = Path("./results") / f"{safe_category_name}.json"
+#     # Écriture dans les fichiers de catégories (logique optimisée)
+#     for category, sites in buffers["categories"].items():
+#         if not sites: continue
+#         try:
+#             safe_category_name = sanitize_filename(category)
+#             category_file = Path("./results") / f"{safe_category_name}.json"
             
-            existing_sites = set()
+#             existing_sites = set()
+#             if category_file.exists():
+#                 with open(category_file, 'r', encoding="utf-8") as f:
+#                     try:
+#                         category_data = json.load(f)
+#                         existing_sites.update(category_data.get("sites", []))
+#                     except json.JSONDecodeError: pass
+            
+#             existing_sites.update(sites)
+            
+#             with open(category_file, "w", encoding="utf-8") as f:
+#                 json.dump({"sites": sorted(list(existing_sites))}, f, indent=2, ensure_ascii=False)
+#         except Exception as e:
+#             logging.error(f"Erreur lors de l'écriture du fichier de catégorie '{category}': {e}")
+
+#     # NOUVEAU: Sauvegarde de l'état des IDs utilisés sur le disque
+#     with open("./results/id.txt", 'w', encoding='utf-8') as f:
+#         f.write(" ".join(map(str, sorted(list(used_ids_set)))))
+
+#     # Vider les buffers après écriture
+#     buffers["confidence"].clear()
+#     buffers["errors"].clear()
+#     buffers["categories"].clear()
+#     logging.info("Finished writing.")
+def write_batch_to_disk(buffers, used_ids_set, task_template):
+    """
+    Fonction unique qui écrit TOUT un batch : logs, catégories et tâches.
+    Cette version est complète et intègre la logique de fusion pour les catégories.
+    """
+    logger = logging.getLogger(__name__)
+    total_items = sum(len(b) for b in buffers.values())
+    if total_items == 0:
+        return 
+
+    logger.info(f"Writing batch of {total_items} items to disk...")
+
+    try:
+        if buffers["confidence"]:
+            append_json_to_list_file("./results/confidence.json", buffers["confidence"])
+        if buffers["errors"]:
+            append_json_to_list_file("./results/errors.json", buffers["errors"])
+    except Exception as e:
+        logger.error(f"CRITICAL: Failed to write confidence/error logs: {e}")
+    try:
+        if buffers["success"]:
+            with open("./results/success_log.jsonl", "a", encoding="utf-8") as f:
+                for success_data in buffers["success"]:
+                    f.write(json.dumps(success_data, ensure_ascii=False) + "\n")
+    except Exception as e:
+        logger.error(f"CRITICAL: Failed to write to success_log.jsonl: {e}")
+
+    for data in buffers["success"]:
+        site = data.get("site", "URL_INCONNUE")
+        
+        try:
+            category = sanitize_filename(data.get("category", "Uncategorized"))
+            if not category:
+                logger.warning(f"Skipping category for site {site} due to invalid/empty category name.")
+                continue
+
+            category_file = Path("./results") / f"{category}.json"
+            
+            category_file.parent.mkdir(parents=True, exist_ok=True)
+            
+            category_data = {"sites": []}
             if category_file.exists():
                 with open(category_file, 'r', encoding="utf-8") as f:
                     try:
                         category_data = json.load(f)
-                        existing_sites.update(category_data.get("sites", []))
-                    except json.JSONDecodeError: pass
-            
-            existing_sites.update(sites)
+                        if "sites" not in category_data or not isinstance(category_data["sites"], list):
+                            category_data["sites"] = []
+                    except json.JSONDecodeError:
+                        logger.warning(f"Corrupted JSON in {category_file}, it will be overwritten.")
+                        category_data = {"sites": []}
+
+            if site not in category_data["sites"]:
+                category_data["sites"].append(site)
             
             with open(category_file, "w", encoding="utf-8") as f:
-                json.dump({"sites": sorted(list(existing_sites))}, f, indent=2, ensure_ascii=False)
+                json.dump(category_data, f, indent=2, ensure_ascii=False)
+
         except Exception as e:
-            logging.error(f"Erreur lors de l'écriture du fichier de catégorie '{category}': {e}")
+            logger.error(f"Failed to write category for site {site}: {e}")
 
-    # NOUVEAU: Sauvegarde de l'état des IDs utilisés sur le disque
-    with open("./results/id.txt", 'w', encoding='utf-8') as f:
-        f.write(" ".join(map(str, sorted(list(used_ids_set)))))
+        if task_template:
+            try:
+                create_task_files(data, task_template, used_ids_set)
+            except Exception as e:
+                logger.error(f"Failed to create task files for site {site}: {e}")
 
-    # Vider les buffers après écriture
-    buffers["confidence"].clear()
-    buffers["errors"].clear()
-    buffers["categories"].clear()
-    logging.info("Finished writing.")
+    try:
+        with open("./results/id.txt", 'w', encoding='utf-8') as f:
+            f.write(" ".join(map(str, sorted(list(used_ids_set)))))
+    except Exception as e:
+        logger.error(f"CRITICAL: Failed to write id.txt: {e}")
 
+    for buffer_list in buffers.values():
+        buffer_list.clear()
+        
+    logger.info("Batch written and buffers cleared.")
 def update_progress(file, url):
     """ Met à jour le fichier de progression. """
     with open("./results/process.json", 'w', encoding='utf-8') as f:
