@@ -99,6 +99,9 @@ class AIAgent1:
     #         return f"[ERROR] Request failed: {e}"
 
     def call_lm(self,PromptFirst,example):
+
+        print("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
+
         def escape_curly_braces(text):
             if isinstance(text, str):
                 return text.replace("{", "{{").replace("}", "}}")
@@ -123,6 +126,7 @@ class AIAgent1:
         #print(Prompt,'la prompt')
 
         chain = Prompt | self.model
+        print("appel")
         return chain.invoke({"input": PromptFirst})
 
 

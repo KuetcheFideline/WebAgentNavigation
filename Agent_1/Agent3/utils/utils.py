@@ -207,9 +207,10 @@ def extract_result(result, site, fil):
         base_folder = "./results"
 
         for elt in combined_task:
-            task_id = random.randint(0, 1000)
+            task_id = random.randint(25000 , 30000)
+            print(task_id)
             while task_id in used_id:
-                task_id = random.randint(0, 1000)
+                task_id = random.randint(25000, 30000)
 
             used_id.add(task_id)
 
