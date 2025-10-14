@@ -27,7 +27,7 @@ def run_worker(task_queue, results_queue):
             description = get_site_description(site)
 
             data_for_prompt = {"data": {site: description}}
-            prompt_text = agent.Promt_generation("Tasks_Category_France", data_for_prompt)
+            prompt_text = agent.Promt_generation("Task_category_France", data_for_prompt)
 
             # Appel au modèle de langage
             response = agent.call_lm(prompt_text, examples)
