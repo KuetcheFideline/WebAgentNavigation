@@ -98,7 +98,6 @@ def get_action_description(
     
     match action_set_tag:
         case "id_html_tree":
-            print("je suis ")
 
             # old_op_prompt = "Website: %s; Thinking process: %s; Html segment: %s; Operation: %s; Result: %s"
             op_prompt = "Html segment: %s; Operation: %s;"
@@ -143,7 +142,6 @@ def get_action_description(
             #     action_str,
             #     result,
             # )
-            print("je suis ")
             
             action_str = op_prompt % (
                 prompt_constructor.state["segment"],

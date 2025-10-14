@@ -62,6 +62,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--sleep_after_execution", type=float, default=0.0)
     parser.add_argument("--max_steps", type=int, default=30)
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
+    parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -128,6 +129,19 @@ def early_stop(trajectory: Trajectory, max_steps: int, thresholds: dict[str, int
     return False, ""
 
 
+
+
+def define_path_banner():
+
+
+
+    pass
+
+
+
+
+
+
 def test(
     args: argparse.Namespace,
     agent: Agent | PromptAgent | TeacherForcingAgent,
@@ -159,6 +173,7 @@ def test(
                 _c = json.load(f)
                 intent = _c["intent"]
                 task_id = _c["task_id"]
+                url = _c["start_url"]
 
             if "map" in _c.get("sites", []):
                 continue
@@ -185,91 +200,104 @@ def test(
                     
                 else:
                     try:
-                        prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
-                        action = agent.next_action(trajectory, intent, meta_data=meta_data)
-                        # description = agent.describe_action(trajectory, intent, meta_data=meta_data)
-                    except ValueError as e:
-                        logger.error(f"Error during agent action generation: {e}")
-                        action = create_stop_action(f"ERROR: {str(e)}")
+                       
+                        # detection de la baniere 
 
-                trajectory.append(action)
+                        banner = agent.detect_banner(trajectory, intent, meta_data,url)
+                        
 
-                action_str = get_action_description(
-                    action,
-                    trajectory[-2]["info"]["observation_metadata"],
-                    action_set_tag=args.action_set_tag,
-                    prompt_constructor=agent.prompt_constructor if isinstance(agent, PromptAgent) else None,
-                )
+                        # time.sleep(20000)
+                        break
+
+                    except Exception as e :
+                         print(e)
+        except Exception as e :
+            print(e)
+    #                     prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
+    #                     action = agent.next_action(trajectory, intent, meta_data=meta_data)
+    #                     # description = agent.describe_action(trajectory, intent, meta_data=meta_data)
+    #                 except ValueError as e:
+    #                     logger.error(f"Error during agent action generation: {e}")
+    #                     action = create_stop_action(f"ERROR: {str(e)}")
+
+    #             trajectory.append(action)
+
+    #             action_str = get_action_description(
+    #                 action,
+    #                 trajectory[-2]["info"]["observation_metadata"],
+    #                 action_set_tag=args.action_set_tag,
+    #                 prompt_constructor=agent.prompt_constructor if isinstance(agent, PromptAgent) else None,
+    #             )
 
                 
-                meta_data["action_history"].append(action_str)
-                trace.append({
-                    "source": prompt,
-                    "target": action_str.split(' #HTML Segment')[0],
-                })
+    #             meta_data["action_history"].append(action_str)
+    #             trace.append({
+    #                 "source": prompt,
+    #                 "target": action_str.split(' #HTML Segment')[0],
+    #             })
 
 
 
 
-                if action["action_type"] == ActionTypes.STOP:
-                    break
+    #             if action["action_type"] == ActionTypes.STOP:
+    #                 break
 
                 
-                obs, _, terminated, _, info = env.step(action)
+    #             obs, _, terminated, _, info = env.step(action)
 
-                trajectory.append({"observation": obs, "info": info})
+    #             trajectory.append({"observation": obs, "info": info})
 
 
 
-                if terminated:
-                    trajectory.append(create_stop_action("Terminated"))
-                    break
+    #             if terminated:
+    #                 trajectory.append(create_stop_action("Terminated"))
+    #                 break
             
-            # --- LOGIQUE DE SAUVEGARDE PLACÉE ICI (DANS LE TRY) ---
-            orm = agent.verify_action(trajectory,intent,meta_data)
-            response_text = orm.output[0].content[0].text
-            result = {"id": task_id, "trace": trace,"verdict" :response_text }
+    #         # --- LOGIQUE DE SAUVEGARDE PLACÉE ICI (DANS LE TRY) ---
+    #         orm = agent.verify_action(trajectory,intent,meta_data)
+    #         response_text = orm.output[0].content[0].text
+    #         result = {"id": task_id, "trace": trace,"verdict" :response_text }
 
 
-            # Correction de la construction du chemin
-            storage_dir = Path(args.result_dir) / "storage_state" / args.connected / args.consent
-            diff_filepath = storage_dir / f"{task_id}.json"
+    #         # Correction de la construction du chemin
+    #         storage_dir = Path(args.result_dir) / "storage_state" / args.connected / args.consent
+    #         diff_filepath = storage_dir / f"{task_id}.json"
 
 
 
-            traces_dir = Path(args.result_dir) / "traces" / args.connected / args.consent
+    #         traces_dir = Path(args.result_dir) / "traces" / args.connected / args.consent
 
-            traces_dir.mkdir(parents=True, exist_ok=True)
+    #         traces_dir.mkdir(parents=True, exist_ok=True)
             
-            
-
-
-            with open(traces_dir / f"trace_{task_id}.json", "w") as f:
-                json.dump(result, f, indent=4)
-
-            fileO = os.getcwd()
-
-            output_dir = Path(fileO) / "output"
-            for file_path in output_dir.iterdir():
-                if file_path.is_file():
-                    file_path.unlink()  
             
 
 
-            env.save_storage(initial_storage_state, diff_filepath)
-        except OpenAIError as e:
-            logger.error(f"[OpenAI Error] {repr(e)}")
-        except Exception as e:
-            logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")
-            import traceback
-            error_file = Path(args.result_dir) / "error.txt"
-            with open(error_file, "a") as f:
-                f.write(f"[Config file]: {config_file}\n")
-                f.write(f"[Unhandled Error] {repr(e)}\n")
-                f.write(traceback.format_exc() + "\n\n")
+    #         with open(traces_dir / f"trace_{task_id}.json", "w") as f:
+    #             json.dump(result, f, indent=4)
+
+    #         fileO = os.getcwd()
+
+    #         output_dir = Path(fileO) / "output"
+    #         for file_path in output_dir.iterdir():
+    #             if file_path.is_file():
+    #                 file_path.unlink()  
+            
+
+
+    #         env.save_storage(initial_storage_state, diff_filepath)
+    #     except OpenAIError as e:
+    #         logger.error(f"[OpenAI Error] {repr(e)}")
+    #     except Exception as e:
+    #         logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")
+    #         import traceback
+    #         error_file = Path(args.result_dir) / "error.txt"
+    #         with open(error_file, "a") as f:
+    #             f.write(f"[Config file]: {config_file}\n")
+    #             f.write(f"[Unhandled Error] {repr(e)}\n")
+    #             f.write(traceback.format_exc() + "\n\n")
         
 
-    env.close()
+    # env.close()
 
 
 def prepare(args: argparse.Namespace) -> None:

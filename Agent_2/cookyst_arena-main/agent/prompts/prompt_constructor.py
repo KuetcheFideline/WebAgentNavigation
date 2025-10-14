@@ -2,7 +2,7 @@ import json
 import re
 from pathlib import Path
 from typing import Any, TypedDict
-
+import time 
 from browser_env import Action, ActionParsingError, Trajectory
 #from browser_env.env_config import URL_MAPPINGS
 from browser_env.utils import StateInfo
@@ -27,6 +27,7 @@ class PromptConstructor(object):
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
         orm_path :str |Path ,
+        banner_path :str|Path
     ):
         self.instruction_path = Path(instruction_path)
         self.obs_modality = "text"
@@ -126,6 +127,14 @@ class PromptConstructor(object):
     ) -> APIInput:
         raise NotImplementedError
 
+
+    def banner_construct(
+                 self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+        raise NotImplementedError
     # def map_url_to_real(self, url: str) -> str:
     #     """Map the urls to their real world counterparts"""
     #     for i, j in URL_MAPPINGS.items():
@@ -563,15 +572,33 @@ class NewASPromptConstructor(PromptConstructor):
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
         orm_path :str |Path,
+        banner_path:str |Path
 
     ):
-        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path))
+        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path),banner_path=Path(banner_path))
         import os
         print("Current working directory:", os.getcwd())
 
         self.orm = json.load(open(orm_path))
+        self.banner = json.load(open(banner_path))
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.state = {}
+
+
+    def banner (
+                 self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+            print("moi aussi je suis la ")
+            state_info: StateInfo = trajectory[-1]
+
+            obs = state_info["observation"][self.obs_modality]
+
+            print(obs,"kuetche ngoufack ")
+
+    
 
 
 
@@ -807,15 +834,73 @@ class NewUserPromptConstructor(PromptConstructor):
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
         orm_path :str |Path,
+        banner_path:str |Path
 
     ):
-        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path))
+        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path),banner_path=banner_path)
         import os
         print("Current working directory:", os.getcwd())
 
         self.orm = json.load(open(orm_path))
+        self.banner = json.load(open(banner_path))
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.state = {}
+
+
+    def banner_construct (
+                 self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+             
+            print("yoooo")
+
+            intro = self.banner["intro"]
+            examples = self.banner["examples"]
+            template = self.banner["template"]
+
+            keywords = self.banner["meta_data"]["keywords"]
+            state_info: StateInfo = trajectory[-1]
+        
+            obs = state_info["observation"][self.obs_modality]
+            max_obs_length = self.lm_config.gen_config["max_obs_length"]
+
+            if max_obs_length:
+              obs = obs[:max_obs_length]
+            info = state_info["info"]
+            obs_metadata = info["observation_metadata"]["text"]
+            nodes = obs_metadata["obs_nodes_info"]
+            position_info = obs_metadata["position_info"]
+            html_parser = obs_metadata["html_parser"]
+            tabs_str = obs_metadata["tab_title"]
+            self.nodes = nodes
+            page = info["page"]
+            url = page.url
+            #url = self.map_url_to_local(page.url)
+            position_bar = self._get_position_bar(position_info)
+            
+            history = meta_data["action_history"]
+            if len(history) == 1:
+                previous_action_str = "None"
+            else:
+                previous_action_str = '\n'.join(history[1:])
+                
+            self.state.update({
+                "url": url,
+                "html": obs,
+                "html_parser": html_parser,
+                "segment": "None",
+                "operation": "None",
+            })
+        
+            
+            current = template.format(html=obs)
+
+
+            return current
+
+
 
 
 
@@ -1010,12 +1095,13 @@ class NewUserPromptConstructor(PromptConstructor):
                     exact_act = m
                     param = []
                 
-                print(exact_act, param)
                 param = list(param)
                 if act in ['click', 'hover', 'type', 'select']:
                     if len(param) == 0:
                         continue
                     
+
+
                     for node_id, node in self.nodes.items():
                         if node['label'] == param[0]:
                             label = param[0]

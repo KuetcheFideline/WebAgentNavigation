@@ -1,0 +1,24 @@
+{
+  "sites": [
+    "wikipedia"
+  ],
+  "task_id": 811,
+  "require_login": false,
+  "start_url": "https://www.feuwofranck.tech/",
+  "geolocation": null,
+  "intent_template": "Describe the page an determine the category of the site",
+  "instantiation_dict": {
+    "topic": ""
+  },
+  "intent": "Describe the page an determine the category of the site",
+  "require_reset": false,
+  "eval": {
+    "eval_types": [
+      "program_html"
+    ],
+    "reference_answers": null,
+    "reference_url": "",
+    "program_html": []
+  },
+  "intent_template_id": 1000
+}

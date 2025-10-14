@@ -36,6 +36,46 @@ def encode_image(image_path):
         return base64.b64encode(image_file.read()).decode("utf-8")
 
 
+
+
+
+
+
+
+
+
+
+def call_banner(prompt):
+
+    print("bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb")
+
+
+    if "OPENAI_API_KEY" not in os.environ:
+            raise ValueError(
+                "OPENAI_API_KEY environment variable must be set when using OpenAI API."
+            )
+    openai.api_key = os.environ["OPENAI_API_KEY"]
+    client = OpenAI()
+    image_path = os.path.join(os.getcwd(), 'output', 'marked1.png')
+    print("valere boude ")
+    response = client.responses.create(
+        model="gpt-4.1",
+        input=[
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "input_image",
+                        "image_url": f"data:image/jpeg;base64,{encode_image(image_path)}",
+                    },
+                    { "type": "input_text", "text": prompt},
+                ],
+            }
+    ],
+)
+
+    return response 
+
 def call_orm(prompt):
 
 

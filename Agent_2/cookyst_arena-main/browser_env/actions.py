@@ -1709,7 +1709,6 @@ def create_id_based_action(action_str: str) -> Action:
             if not match:
                 raise ActionParsingError(f"Invalid scroll action {action_str}")
             direction = match.group(1)
-            print("yoooooooooooooooooo")
             return create_scroll_action(direction=direction)
         case "goto":
             match = re.search(r"goto ?\[(.+)\] \[(\d+)\]", action_str)
