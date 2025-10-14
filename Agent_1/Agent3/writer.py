@@ -110,9 +110,9 @@ def create_task_files(data, template, used_ids_set):
 
     for task_info in combined_tasks:
         # Génération d'un ID unique (rapide, car tout est en mémoire)
-        task_id = random.randint(80001, 100000)
+        task_id = random.randint(1, 500000)
         while task_id in used_ids_set:
-            task_id = random.randint(80001, 100000)
+            task_id = random.randint(1, 500000)
         used_ids_set.add(task_id)
 
         # Préparation du dossier de destination

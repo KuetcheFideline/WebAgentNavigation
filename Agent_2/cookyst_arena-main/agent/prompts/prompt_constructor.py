@@ -854,7 +854,6 @@ class NewUserPromptConstructor(PromptConstructor):
                     meta_data:dict[str,Any] = {},
                     )->APIInput:
              
-            print("yoooo")
 
             intro = self.banner["intro"]
             examples = self.banner["examples"]

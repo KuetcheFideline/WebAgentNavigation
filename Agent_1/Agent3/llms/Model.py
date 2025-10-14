@@ -100,7 +100,6 @@ class AIAgent1:
 
     def call_lm(self,PromptFirst,example):
 
-        print("yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
 
         def escape_curly_braces(text):
             if isinstance(text, str):
@@ -126,7 +125,6 @@ class AIAgent1:
         #print(Prompt,'la prompt')
 
         chain = Prompt | self.model
-        print("appel")
         return chain.invoke({"input": PromptFirst})
 
 

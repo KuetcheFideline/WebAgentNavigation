@@ -7,7 +7,7 @@ from worker import run_worker
 from writer import run_writer
 import json
 
-DATA_FOLDER = "folder_2"
+DATA_FOLDER = "folder_1"
 NUM_WORKERS = 16 
 
 
@@ -126,7 +126,6 @@ if __name__ == '__main__':
     for worker in worker_pool:
         worker.join()
 
-    # Une fois que tous les travailleurs ont terminé, envoyer le signal d'arrêt à l'écrivain
     results.put(None)
     writer_proc.join()
 
