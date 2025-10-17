@@ -98,13 +98,34 @@ class AIAgent1:
     #     except requests.RequestException as e:
     #         return f"[ERROR] Request failed: {e}"
 
+    def call_lm(self, PromptFirst, example):
 
+        def escape_curly_braces(text):
+            if isinstance(text, str):
+                return text.replace("{", "{{").replace("}", "}}")
+            return text
 
-         #)
-        #print(Prompt)
-        #print(Prompt,'la prompt')
+        # 🔒 sécurité : si ce n’est pas une liste, on l’encapsule
+        if isinstance(example, dict):
+            example = [example]
+        processed_examples = [
+            {
+                "question": ex["question"],
+                "answer": escape_curly_braces(ex["answer"])
+            }
+            for ex in example
+        ]
 
+        example_prompt = PromptTemplate.from_template("Question: {question}\n{answer}")
+        Prompt = FewShotPromptTemplate(
+            examples=processed_examples,
+            example_prompt=example_prompt,
+            suffix="Question: {input}",
+            input_variables=["input"],
+        )
 
+        chain = Prompt | self.model
+        return chain.invoke({"input": PromptFirst})
 
 
 
@@ -159,7 +180,6 @@ class AIAgent1:
 
 
     def Promt_generation(self,file,data):
-
         filename = f"./prompts/{file}.json"
         try:
             with open(filename, 'r', encoding="utf-8") as f:
@@ -174,7 +194,6 @@ class AIAgent1:
                 
                 f"{template['question']}\n\n"
             )
-           # print(prompt)
             return prompt
         except FileNotFoundError:
             print("fichier intouvable")

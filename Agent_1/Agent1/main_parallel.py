@@ -1,15 +1,20 @@
 # main_parallel.py
+
 import multiprocessing
 import os
 import csv
-from utils.utils import read_from_json
+import json
+import time
+import logging
+import re
 from worker import run_worker
 from writer import run_writer
-import json
 
-DATA_FOLDER = "folder_1"
-NUM_WORKERS = 16 
+DATA_FOLDER = "../../Cookyst_CrUX_Dataset/folder_1000"
+HISTORY_FILE = "total.json"
+NUM_WORKERS = 16
 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(processName)s - %(message)s')
 
 def load_already_processed_urls(filepath):
     """
@@ -17,121 +22,134 @@ def load_already_processed_urls(filepath):
     Retourne un set pour une recherche ultra-rapide.
     """
     processed_set = set()
-    print(f"Chargement des URLs déjà traitées depuis {filepath}...")
+    logging.info(f"Chargement des URLs déjà traitées depuis {filepath}...")
     
     if not os.path.exists(filepath):
-        print("Aucun fichier d'historique trouvé, traitement complet.")
+        logging.warning("Aucun fichier d'historique trouvé, traitement complet.")
         return processed_set
 
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            
             if "sites" in data and isinstance(data["sites"], list):
                 processed_set = set(data["sites"])
             else:
-                print(f"AVERTISSEMENT: Le fichier {filepath} n'a pas la structure attendue {{'sites': [...]}}.")
-
-    except json.JSONDecodeError:
-        print(f"ERREUR: Le fichier {filepath} n'est pas un JSON valide. Impossible de charger l'historique.")
+                logging.warning(f"Le fichier {filepath} n'a pas la structure attendue {{'sites': [...]}}.")
     except Exception as e:
-        print(f"Erreur inattendue lors du chargement de l'historique: {e}")
+        logging.error(f"Erreur lors du chargement de l'historique: {e}")
     
-    print(f"--> {len(processed_set)} URLs déjà traitées chargées en mémoire.")
+    logging.info(f"--> {len(processed_set)} URLs déjà traitées chargées en mémoire.")
     return processed_set
 
-def read_and_queue_urls(path, task_queue):
-    """
-    Processus lecteur : lit les CSV, gère la reprise, filtre les URLs déjà traitées,
-    et alimente la task_queue.
-    """
-    print("Reader process started.")
-
-    already_processed = load_already_processed_urls("total.json")
-     
-    last_processed = read_from_json("./results/process.json")
-    last_file = last_processed.get('file') if last_processed else None
-    last_url = last_processed.get('url') if last_processed else None
-    
+def read_from_json(file):
+    """Lit le fichier de progression."""
     try:
-        all_files = sorted([f for f in os.listdir(path) if f.endswith('.csv')])
-    except FileNotFoundError:
-        print(f"ERREUR: Le dossier spécifié n'existe pas : {path}")
-        return
+        with open(file, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
 
-    start_index = 0
-    if last_file in all_files:
-        start_index = all_files.index(last_file)
-
-    total_skipped = 0
-    total_queued = 0
-
-    for filename in all_files[start_index:]:
-        filepath = os.path.join(path, filename)
-        urls_in_file = []
-        with open(filepath, 'r', encoding='utf-8') as f:
-            reader = csv.reader(f)
-            for row in reader:
-                if len(row) >= 2:
-                    urls_in_file.append(f"https://{row[1]}")
-        
-        urls_to_process = urls_in_file
-        if filename == last_file and last_url in urls_in_file:
-            try:
-                url_index = urls_in_file.index(last_url)
-                urls_to_process = urls_in_file[url_index + 1:]
-            except ValueError:
-                pass
-
-        urls_actually_queued = 0
-        
-        for url in urls_to_process:
-            if url in already_processed:
-                total_skipped += 1
-                continue 
-            
-            task_queue.put((url, filename))
-            urls_actually_queued += 1
-            total_queued += 1
-        
-        print(f"Reader: {filename} -> {urls_actually_queued}  URLs mises en file.")
-
-    print(f"Reader: All files queued. Total envoyé: {total_queued}. Total ignoré (déjà traité): {total_skipped}.")
-    
-    for _ in range(NUM_WORKERS): 
-        task_queue.put(None)
+def update_progress(filename, url):
+    """ Met à jour le fichier de progression. """
+    try:
+        with open("./results/process.json", 'w', encoding='utf-8') as f:
+            json.dump({"file": filename, "url": url}, f, ensure_ascii=False, indent=2)
+    except Exception as e:
+        logging.error(f"Erreur lors de la mise à jour de process.json: {e}")
 
 if __name__ == '__main__':
     multiprocessing.set_start_method('spawn')
+
     manager = multiprocessing.Manager()
-    tasks = manager.Queue()
-    results = manager.Queue()
+    tasks_queue = manager.Queue()
+    results_queue = manager.Queue()
+    completion_queue = manager.Queue()
 
-
-    reader_proc = multiprocessing.Process(target=read_and_queue_urls, args=(DATA_FOLDER, tasks))
-    reader_proc.start()
-
-
-    writer_proc = multiprocessing.Process(target=run_writer, args=(results,))
+    writer_proc = multiprocessing.Process(target=run_writer, args=(results_queue,), name="Writer")
     writer_proc.start()
     
-
     worker_pool = []
-    for _ in range(NUM_WORKERS):
- 
-        worker = multiprocessing.Process(target=run_worker, args=(tasks, results))
-
+    for i in range(NUM_WORKERS):
+        worker = multiprocessing.Process(
+            target=run_worker,
+            args=(tasks_queue, results_queue, completion_queue),
+            name=f"Worker-{i+1}"
+        )
         worker.start()
         worker_pool.append(worker)
 
-    # Attendre la fin des processus
-    reader_proc.join()
+    try:
+        logging.info("Main: Démarrage du traitement par lots synchrones.")
+        already_processed = load_already_processed_urls(HISTORY_FILE)
+        last_processed = read_from_json("./results/process.json")
+        start_file = last_processed.get('file') if last_processed else None
+
+        all_files_unsorted = [f for f in os.listdir(DATA_FOLDER) if f.endswith('.csv')]
+        
+        def get_number_key(filename):
+            match = re.search(r'(\d+)', filename)
+            return int(match.group(1)) if match else -1
+        all_files = sorted(all_files_unsorted, key=get_number_key)
+        start_index = 0
+        if start_file in all_files:
+            start_index = all_files.index(start_file) + 1
+            logging.info(f"Reprise détectée. Démarrage après le fichier: {start_file}")
+
+        for filename in all_files[start_index:]:
+            logging.info(f"\n--- Main: Démarrage du lot '{filename}' ---")
+            
+            urls_in_batch = []
+            last_url_in_file = None
+            filepath = os.path.join(DATA_FOLDER, filename)
+            with open(filepath, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if len(row) >= 2:
+                        url = f"https://{row[1]}"
+                        if url not in already_processed:
+                            urls_in_batch.append(url)
+                        last_url_in_file = url
+            
+            if not urls_in_batch:
+                logging.info(f"Main: Aucune nouvelle URL à traiter dans '{filename}'. Passage au suivant.")
+                update_progress(filename, last_url_in_file)
+                continue
+
+            num_tasks_in_batch = len(urls_in_batch)
+            for url in urls_in_batch:
+                tasks_queue.put((url, filename))
+            
+            logging.info(f"Main: {num_tasks_in_batch} URLs mises en file. En attente de la complétion du lot...")
+
+            for i in range(num_tasks_in_batch):
+                completion_queue.get()
+                print(f"  -> Progression du lot '{filename}': {i + 1}/{num_tasks_in_batch} tâches terminées.", end='\r')
+            
+            print()
+            logging.info(f"Main: Lot '{filename}' entièrement confirmé par les workers.")
+            
+            time.sleep(5) 
+            
+            update_progress(filename, last_url_in_file)
+            logging.info(f"--- Main: Lot '{filename}' terminé et progression sauvegardée. ---")
+
+    except KeyboardInterrupt:
+        logging.warning("\nCtrl+C détecté. Le lot en cours ne sera PAS marqué comme terminé. Arrêt des processus...")
     
-    for worker in worker_pool:
-        worker.join()
+    finally:
+        logging.info("\nMain: Tous les lots sont terminés ou arrêt demandé. Arrêt des processus...")
+        
+        for _ in range(NUM_WORKERS):
+            tasks_queue.put(None)
+        for worker in worker_pool:
+            worker.join(timeout=10) 
+            if worker.is_alive():
+                worker.terminate() 
+        logging.info("Main: Attente finale pour le Writer...")
+        time.sleep(15) 
+        results_queue.put(None)
+        writer_proc.join(timeout=30)
+        if writer_proc.is_alive():
+            writer_proc.terminate()
 
-    # Une fois que tous les travailleurs ont terminé, envoyer le signal d'arrêt à l'écrivain
-    results.put(None)
-    writer_proc.join()
-
-    print("--- Traitement parallèle terminé ---")
+        logging.info("--- Traitement parallèle terminé ---")

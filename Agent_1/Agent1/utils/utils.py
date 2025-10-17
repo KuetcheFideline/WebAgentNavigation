@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 import re 
 from pathlib import Path
 import os
+import ast
 from urllib.parse import urlparse
 
 base_dir = os.path.dirname(__file__)
@@ -17,6 +18,71 @@ def clean_domain(url):
     return name
 
 
+def sanitize_filename(name: str) -> str:
+    """
+    Nettoie une chaîne de caractères pour qu'elle soit un nom de fichier valide.
+    Remplace les caractères système réservés (comme / \ : * ? " < > |) par un underscore.
+    Supprime aussi les espaces ou points en début/fin de nom qui peuvent poser problème.
+    """
+    if not isinstance(name, str):
+        name = str(name)
+        
+    # Remplace les slashes et autres caractères invalides par un underscore
+    name = re.sub(r'[\\/*?:"<>|]', "_", name)
+    
+    # Supprime les points et espaces superflus au début et à la fin
+    name = name.strip('. ')
+    
+    # Optionnel : si le nom est vide après nettoyage, on retourne un nom par défaut
+    if not name:
+        return "uncategorized_invalid_name"
+        
+    return name
+
+
+
+
+def parse_llm_output(llm_content):
+    parts = llm_content.split("```")
+    json_str = max(parts, key=len).replace("json", "").strip()
+
+    if not json_str:
+        raise ValueError("Contenu vide")
+
+    try:
+        return json.loads(json_str)
+    except json.JSONDecodeError:
+        pass
+
+    try:
+        return ast.literal_eval(json_str)
+    except Exception as e:
+        raise ValueError(f"Impossible de parser le contenu : {e}")
+
+def parse_llm_result(llm_content: str, site: str, origin_file: str):
+    """
+    Parse la sortie du LLM et retourne un dictionnaire structuré pour le processus écrivain.
+    Ne fait AUCUNE opération de lecture/écriture de fichier.
+    """
+    nb=0
+    try:
+        json_data = parse_llm_output(llm_content)
+
+        for key ,value in json_data.items():
+          if value.get("Confidence") <=75 or "error" in value.get("Category") :
+            return {"type": "confidence_issue", "data": json_data}
+          else:
+            return {"type": "success", "data": json_data}
+    except Exception as e:
+        return {
+            "type": "parsing_error",
+            "data": {
+                "site": site,
+                "origin_file": origin_file,
+                "error": str(e),
+                "llm_content": llm_content
+            }
+        }
 
 
 def append_json_to_list_file(file_path, new_data):
@@ -153,12 +219,9 @@ from pathlib import Path
 import json
 def extract_result(result, site):
 
-<<<<<<< HEAD
-=======
     lines = result.content.split("\n")
     data = {}
     current_key = None
->>>>>>> origin/Franck
 
    
     datas = result.content
