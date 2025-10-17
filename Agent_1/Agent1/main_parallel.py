@@ -10,9 +10,9 @@ import re
 from worker import run_worker
 from writer import run_writer
 
-DATA_FOLDER = "../../Cookyst_CrUX_Dataset/folder_1000"
-HISTORY_FILE = "total.json"
-NUM_WORKERS = 16
+DATA_FOLDER = "../../Cookyst_CrUX_Dataset/folder_5000"
+HISTORY_FILE = "total.json" 
+NUM_WORKERS = 8
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(processName)s - %(message)s')
 

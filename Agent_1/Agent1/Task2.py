@@ -47,7 +47,7 @@ def siteCategorisation(sites):
 
 def process_sites_in_batches():
 
-    with open("./results/confidence.json",'r',encoding='utf_8') as file :
+    with open("./results100/confidence.json",'r',encoding='utf_8') as file :
         data = json.load(file)
         url = []
         for elt in data:
