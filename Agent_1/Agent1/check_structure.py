@@ -65,7 +65,7 @@
 import os
 import json
 
-RESULTS_DIR = "results_batch1"
+RESULTS_DIR = "results5000"
 VISITED_SITES_FILE = "./results_batch1/visited_sites.json"
 
 def extract_visited_sites():
