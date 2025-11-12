@@ -133,36 +133,35 @@ class PromptAgent(Agent):
         while True:
 
             response = call_llm(lm_config, prompt)
+            print("le response du llm est ici  ",response)
 
-            print("je suis la reponse du modele",response)
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"
             ].get("force_prefix", "")
 
-            print("lundi")
             response = f"{force_prefix}{response}"
-            print("je suis le prefixe",response)
 
             n += 1
             try:
                 parsed_response = self.prompt_constructor.extract_action(
                     response
                 )
-                print(parsed_response,"yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyye")
                 
+                print("le parsed response est ici ",parsed_response)
                 if self.action_set_tag in ["id_html_tree", "id_html_nasc_tree", "id_accessibility_tree"]:
                     action = create_id_based_action(parsed_response)
-                    print("je suis l'action",action)
                 elif self.action_set_tag == "playwright":
                     action = create_playwright_action(parsed_response)
-                    print("je suis l'action",action)
                 else:
+                    print("le action set tag est ici ",self.action_set_tag)
                     raise ValueError(
                         f"Unknown action type {self.action_set_tag}"
                     )
                 action["raw_prediction"] = response
+                print("je suis l'action finale ",action)
                 break
             except ActionParsingError as e:
+                print(f"Action parsing error: {e}")
                 if n >= lm_config.gen_config["max_retry"]:
                     action = create_none_action()
                     action["raw_prediction"] = response
@@ -196,7 +195,6 @@ class PromptAgent(Agent):
         le but de cette fonction est de detecter la  baniere des cookies sur les sites 
 
         '''
-        print("ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg")
         prompt = self.prompt_constructor.banner_construct(
             trajectory, intent, meta_data
         )
@@ -290,6 +288,7 @@ class PromptAgent(Agent):
         return prompt, action
     
     def reset(self, test_config_file: str) -> None:
+        print("je ne sers a rien pour l'instant")
         pass
      
    

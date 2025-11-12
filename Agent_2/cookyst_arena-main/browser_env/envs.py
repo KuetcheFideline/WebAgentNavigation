@@ -196,6 +196,11 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         else:
             instance_config = {}
         geolocation = instance_config.get("geolocation", None)
+
+
+
+
+
         # login with google operation
         login_require = instance_config.get("require_login",False)
         login_url = instance_config.get("login_url",None)
@@ -224,6 +229,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             f'--load-extension={selectedConset}'
         ]
         
+
        
         self.browser = self.playwright.chromium.launch_persistent_context(
             headless=False,
@@ -263,7 +269,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             - dans l'env on precise la configuration de consent omatic souhaité ( consent = none | partial | all)
         """
 
-     
         self.context = self.browser
             # for page in self.context.pages:
             #     try:
@@ -273,20 +278,26 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             # if login_require:
             #     page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
       
+        
         if self.save_trace_enabled:
             self.context.tracing.start(screenshots=True, snapshots=True)
+
         if start_url:
+
             start_urls = start_url.split(" |AND| ")
             created_pages=[]
             for url in start_urls:
                 if login_require :
-                    
-                    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
-                else:
-
                     page = self.context.new_page()
                     page.goto(url)
 
+                    
+                    # page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+                else:
+                    page = self.context.new_page()
+                    page.goto(url)
+
+             
                 client = page.context.new_cdp_session(
                     page
                 )
@@ -346,18 +357,24 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         if self.reset_finished:
             self.context_manager.__exit__()
 
+        
         if options is not None and "config_file" in options:
             config_file = Path(options["config_file"])
             if config_file.exists():
                 self.setup(config_file=config_file)
 
-                
+
+           
             else:
+
                 raise ValueError(f"Config file {config_file} does not exist.")
+                
         else:
             self.setup()
         self.reset_finished = True
 
+
+        
         if self.sleep_after_execution > 0:
             time.sleep(self.sleep_after_execution)
            
@@ -394,6 +411,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         success = False
         fail_error = ""
         try:
+            print("Executing action:", action)
             self.page = execute_action(
                 action,
                 self.page,

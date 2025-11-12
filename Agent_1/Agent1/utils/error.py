@@ -191,7 +191,7 @@ def extract_result(result, site):
             extract_category(data)
 
 
-def extract_category(result,result_dir:str="results5000"):
+def extract_category(result,result_dir:str="results_10000"):
 
 
         """

@@ -35,6 +35,7 @@ class PromptConstructor(object):
         instruction = json.load(open(self.instruction_path))
         instruction["examples"] = [tuple(e) for e in instruction["examples"]]
         self.instruction: Instruction = instruction
+        self.autInstruction= json.load(open(Path("agent/prompts/jsons/Authentification.json")))
         self.tokenizer = tokenizer
 
     def get_lm_api_input(
@@ -664,16 +665,27 @@ class NewASPromptConstructor(PromptConstructor):
         return current
 
         
+    def construct_Authenticate(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        meta_data: dict[str, Any] = {},
+    )->APIInput:    
+        print("je suis dans create account")
 
 
 
-        
+   
+
+
     def construct(
         self,
         trajectory: Trajectory,
         intent: str,
         meta_data: dict[str, Any] = {},
     ) -> APIInput:
+        
+
         intro = self.instruction["intro"]
         examples = self.instruction["examples"]
         template = self.instruction["template"]
@@ -789,6 +801,19 @@ class NewASPromptConstructor(PromptConstructor):
         return f"{round(position, 1)} / {round(page_height, 1)}"
 
 
+     
+    @staticmethod
+    def _extract_intention(response, lang='en'):
+        if lang == 'en':
+            matches = re.findall(r"#Thinking Process:\s*(.+)\s*#Operation:", response)
+            print('[Try to match]', matches)
+        else:
+            matches = re.findall(r"#思考过程: (.+)", response)
+
+        if matches:
+            return matches[-1]
+        else:
+            return None
 
 class NewUserPromptConstructor(PromptConstructor):
      
@@ -810,7 +835,8 @@ class NewUserPromptConstructor(PromptConstructor):
             r"(finish)\(\s*\)",
             r"(finish)\(\s*(.+)\s*\)",
             r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
-            r"(switch_tab)\([\d]+\)"
+            r"(switch_tab)\([\d]+\)",
+            r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"](\d+)[\'\"]\s*,\s*(True|False)\s*\)",
         ]
         
     translate = [
@@ -827,6 +853,7 @@ class NewUserPromptConstructor(PromptConstructor):
             "stop",
             "record",
             "page_focus",
+            "code_email",
         ]
     def __init__(
         self,
@@ -1022,13 +1049,20 @@ class NewUserPromptConstructor(PromptConstructor):
                     intent:str,
                     meta_data:dict[str,Any] = {},
                     )->APIInput:
+            
+
+            if intent.startswith("Authenticate"):
+                Instruction = self.autInstruction
+            else:
+                Instruction = self.instruction
+
             user_persona = meta_data.get("user_persona",{})
             user_persona_str = self._format_persona_to_string(user_persona)
-            intro = self.instruction["intro"]
-            examples = self.instruction["examples"]
-            template = self.instruction["template"]
-            keywords = self.instruction["meta_data"]["keywords"]
-            finale = self.instruction["finale"]
+            intro = Instruction["intro"]
+            examples =  Instruction["examples"]
+            template =  Instruction["template"]
+            keywords =  Instruction["meta_data"]["keywords"]
+            finale =  Instruction["finale"]
             state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
 
             obs = state_info["observation"][self.obs_modality]
@@ -1095,7 +1129,7 @@ class NewUserPromptConstructor(PromptConstructor):
                     param = []
                 
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select']:
+                if act in ['click', 'hover', 'type', 'select','code_email']:
                     if len(param) == 0:
                         continue
                     
@@ -1125,7 +1159,7 @@ class NewUserPromptConstructor(PromptConstructor):
                 for p in param:
                     command += f" [{p}]"
                 
-                print(command)
+                print(command,"je suis la commande a executer ")
                 return command
             
         raise ActionParsingError(

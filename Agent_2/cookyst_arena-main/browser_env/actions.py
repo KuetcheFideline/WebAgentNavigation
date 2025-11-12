@@ -3,12 +3,15 @@ Browser Env action space.
 Inspited by Farama-Foundation/miniwob-plusplus
 """
 import ast
+import smtplib
 import random
 import re
 import string
 from enum import IntEnum
 from itertools import chain
 from typing import Any, TypedDict, Union, cast
+import imaplib 
+import email
 
 import numpy as np
 import numpy.typing as npt
@@ -807,6 +810,8 @@ def create_our_type_action(
             "flag": flag,
         }
     )
+
+    print("Created our type action:", action) 
     return action
 
 
@@ -1208,7 +1213,9 @@ async def aexecute_playwright_type(
     pw_action_args = [text] + pw_action_args  # text is the first argument
     await locator.type(*pw_action_args, **pw_action_kwargs)
 
+def execute_code_verification() :
 
+    pass
 def execute_playwright_select_option(
     locator_code: list[ParsedPlaywrightCode],
     page: Page,
@@ -1216,6 +1223,7 @@ def execute_playwright_select_option(
     pw_action_kwargs: dict[str, Any] = {},
 ) -> None:
     locator = locate(locator_code, page)
+
     # perform the action
     locator.select_option(*pw_action_args, **pw_action_kwargs)
 
@@ -1360,14 +1368,26 @@ def execute_action(
                 page = browser_ctx.pages[-1]
             else:
                 page = browser_ctx.new_page()
+        case ActionTypes.CODE :
+            print("code executed")
 
         case ActionTypes.SELECT_OPTION:
+            print("select option executed")
             if action["pw_code"]:
                 parsed_code = parse_playwright_code(action["pw_code"])
+                print("yooo")
+
                 locator_code = parsed_code[:-1]
+                print("yooo")
+
                 pw_action_args = parsed_code[-1].get('arguments', [])
+                print("yooo")
+
                 execute_playwright_select_option(locator_code, page, pw_action_args)
+                print("yooo")
+
             else:
+                print("no proper locator found for select option actioncccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc")
                 raise NotImplementedError(
                     "No proper locator found for select option action"
                 )
@@ -1518,18 +1538,34 @@ async def aexecute_action(
 
 
 def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
+    print("yoooooooooooooooooooooooooooooooooooooooo")
+    print(code)
+    match = re.search(
+    r"(page\.[a-zA-Z0-9_]+\([^)]*\)(?:\.[a-zA-Z0-9_]+\([^)]*\))*)",
+    code,)
+
+
+    
+    if match:
+        code = match.group(1)
+
+    print("==== CLEANED CODE ====")
+    print(code)
     # extract function calls
     if not code.startswith("page."):
         raise ValueError(
             f'Playwright action must start with "page.", but got {code}'
         )
-
+    print("yoooooooooooooooooooooooooooooooooooooooo")
+    
     regex = r"\.(?![^\(\)]*\))"
     chain = re.split(regex, code)[1:]
 
     parsed_chain = []
 
     for item in chain:
+        print("Parsing item:", repr(item))
+
         tree = ast.parse(item)
         funcs = []
         for node in ast.walk(tree):
@@ -1552,14 +1588,17 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
                         }
                     )
                 )
+        print("yoooooooooooooooooooooooooooooooooooooooo")
 
         if len(funcs) != 1:
+            print("luuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"  )
             raise ValueError(f"Fail to parse {item} in {code}")
 
         if (
             funcs[0]["function_name"]
             not in PLAYWRIGHT_LOCATORS + PLAYWRIGHT_ACTIONS
         ):
+            print("moooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
             raise ValueError(
                 f"Invalid playwright code {item}, ",
                 f"the function needs to be one of {PLAYWRIGHT_LOCATORS + PLAYWRIGHT_ACTIONS}",
@@ -1568,6 +1607,8 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
         parsed_chain.append(funcs[0])
 
     last_action = parsed_chain[-1]
+    print("yoooooooooooooooooooooooooooooooooooooooo")
+
     if last_action["function_name"] not in PLAYWRIGHT_ACTIONS:
         raise ValueError(
             f"Invalid playwright action {last_action},",
@@ -1656,6 +1697,39 @@ def create_playwright_action(playwright_code: str) -> Action:
     raise ActionParsingError(f"Unknown playwright action {action}")
 
 
+def receive_mail() :
+    Email= 'fidoknn@gmail.com'
+    Password= 'puxvrrzujtxyibyo'
+    SERVEUR = 'imap.gmail.com'
+
+    try :
+
+        mail =imaplib.IMAP4_SSL(SERVEUR)
+
+        mail.login(Email,Password)
+
+        mail.select('inbox')
+
+        status ,data = mail.search(None,'ALL')
+        mail_ids=[]
+        for block in data :
+            mail_ids+=block.split()
+        for i in mail_ids:
+            status ,data = mail.fetch(i,'(RFC822)')
+            print(data)
+
+
+
+    except imaplib.IMAP4.error as e:
+         print("IMAP4 error:", e)
+    except Exception as e:
+        print("An error occurred:", e)
+
+    # print(data)
+    
+
+    print("mail received")
+
 @beartype
 def create_id_based_action(action_str: str) -> Action:
     """Main function to return individual id based action"""
@@ -1665,6 +1739,7 @@ def create_id_based_action(action_str: str) -> Action:
         if "[" in action_str
         else action_str.split()[0].strip()
     )
+    print("je suis l'action :", action_str)
     match action:
         case "click":
             match = re.search(r"click ?\[(\d+)\]", action_str)
@@ -1755,5 +1830,26 @@ def create_id_based_action(action_str: str) -> Action:
             match = re.search(r"record ?\[(.+)\]", action_str)
             text = match.group(1)
             return create_record_action(text)
-
+        case "code_email":
+            """Create code email action."""
+            print("code email action created")
+            receive_mail()
+            print("je recupere le code email")
+            if not (action_str.endswith("[0]") or action_str.endswith("[1]")):
+                action_str += " [1]"
+            match = re.search(
+                r"code_email ?\[(\d+)\] ?\[(.+)\] ?\[(\d+)\]", action_str
+            )
+            if not match:
+                raise ActionParsingError(f"Invalid type action {action_str}")
+            element_id, text0, enter_flag = (
+                match.group(1),
+                match.group(2),
+                match.group(3),
+            )
+            text ="00000"
+            enter_flag = True if enter_flag == "1" else False
+            if enter_flag:
+                text += "\n"
+            return create_our_type_action(text=text, element_id=element_id, flag=enter_flag)
     raise ActionParsingError(f"Invalid action {action_str}")

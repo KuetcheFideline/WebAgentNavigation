@@ -24,11 +24,16 @@ def siteCategorisation(sites):
                     site: description
                 }
             }
-
             prompt = Agent1.Promt_generation("Categorisation", data)
-            example = read_from_json("./prompts/ExampleCategorisation.json")
-            response = Agent1.call_lm(prompt, example)
 
+            try :
+             example = read_from_json("./prompts/ExampleCategorisation.json")
+             response = Agent1.call_lm(prompt, example)
+
+            except Exception as e:
+                 print(f" Erreur lors de l'extraction des resultats  {site}  : {e}")
+                 append_json_to_list_file("./results/confidence.json", {"message":response.content ,"site": site, "error": str(e)})
+               
 
             try:
                 result = extract_result(response.content, site)
@@ -51,7 +56,7 @@ def siteCategorisation(sites):
 
 
 def process_sites_in_batches():
-    with open("./results5000/confidence.json", 'r', encoding='utf_8') as file:
+    with open("./results_10000/confidence.json", 'r', encoding='utf_8') as file:
         data = json.load(file)
         url = []
         for elt in data:

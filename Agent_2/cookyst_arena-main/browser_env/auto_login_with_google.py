@@ -248,8 +248,11 @@ def simplify_content(content):
     return simplified_home
 
 def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
+    print("je suis de ce cote ma ")
+
     page = browser.new_page()
     page.goto(login_url)
+
     client = page.context.new_cdp_session(page)
     viewport_size = {"width": 1280, "height": 720}
     # ================================ Call LLM 1 (Sign-in Button) =================================
@@ -257,9 +260,14 @@ def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
     page.wait_for_load_state('domcontentloaded')
     #content_h = page.content()
     content_h = get_viewport_html(page=page, client=client, viewport_size=viewport_size)
+    print("je suis de ce cote ma ")
+
     
     simplified_home = simplify_content(content=content_h)
+    print("je suis de ce cote ma ")
+
     content_logger.info(f" LLM1 Content URL: {page.url} \n : {simplified_home}")
+
     data = detect_sigin(s_html=simplified_home)
     print("LLM 1 (Bouton Sign-In) a détecté:", data)
     timeout_click = False

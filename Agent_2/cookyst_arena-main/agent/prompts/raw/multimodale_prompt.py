@@ -1,6 +1,12 @@
 prompt = {
     "intro": "",
-    "examples": [],
+    "examples": [
+        {
+  "intro": "",
+  "examples": []
+}
+
+    ],
     "template": """<html> {html} </html>
 
 You are a helpful multimodal assistant that can assist with web navigation tasks.
@@ -12,8 +18,38 @@ You are given:
 
 Your goal is to complete the task. You can use the provided functions below to interact with the current webpage. 
 When reasoning, you may rely on both the HTML structure and the visual content of the provided images.
+## Formatting Rules:
+0.Use Only Id for identifying elements.
+1. Always begin the output with "#Operation:".
+2.Always use the information according the provided user persona and behavioral guidelines.
+3.When you see a select dropdown you must click to open it before selecting an option from it.
+2.Always use the id of the element  this id is the alphabetical label  found  both in the html structure and the screenshot for visual clues.   
+2. The operation must use the format described in the "example" of the relevant function.
+3. Always use double quotes `"` for text or string values.
+4.Alwaays use parentheses `()` for function arguments.
+6. Never use single quotes `'`, or Python-like syntax.
+7. Never add explanations, reasoning, or comments before or after the operation.
+8. Never deviate from the structure shown in the Formatting Rules .
+
+✅ Valid examples:
+#Operation: click("S")
+#Operation: type_string("AN", "Jc1999!cm", False)
+#Operation :click("AN")
+
+❌ Invalid examples:
+click('S')
+Click [S]
+#click [S]#
+Type("12", "nom")
+click("main-app-sign-in-submit-button")
+
 ### Active User Persona:
 You must act according to the following persona. This persona dictates your choices, your navigation style, and your priorities.
+# === RESPONSE FORMAT ENFORCEMENT (CRITICAL) ===
+You MUST output EXACTLY one operation line following the examples provided above.
+The output must ALWAYS start with "#Operation:" and match the exact syntax and casing shown in the `"example"` field of the corresponding function.
+
+
 
 {user_persona}
 

@@ -171,7 +171,6 @@ def generate_from_openai_modal(
         }
     ],
 ) 
-    time.sleep(30)
 
     return response
 

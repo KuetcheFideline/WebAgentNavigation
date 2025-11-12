@@ -51,13 +51,13 @@ def config() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Run end-to-end evaluation on the benchmark")
     parser.add_argument("--render", action="store_true", help="Render the browser")
     parser.add_argument("--slow_mo", type=int, default=0, help="Slow down the browser by the specified amount")
-    parser.add_argument("--action_set_tag", default="id_accessibility_tree", help="Action type")
+    parser.add_argument("--action_set_tag", default="id_html_nasc_tree", help="Action type")
     parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="accessibility_tree", help="Observation type")
     parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
     parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
     parser.add_argument("--connected", type=str, default="NotAuth", help="Authentication status folder")
-    parser.add_argument("--viewport_width", type=int, default=1280)
-    parser.add_argument("--viewport_height", type=int, default=720)
+    parser.add_argument("--viewport_width", type=int, default=1920)
+    parser.add_argument("--viewport_height", type=int, default=1080)
     parser.add_argument("--save_trace_enabled", action="store_true")
     parser.add_argument("--sleep_after_execution", type=float, default=0.0)
     parser.add_argument("--max_steps", type=int, default=30)
@@ -152,6 +152,7 @@ def test(
         sleep_after_execution=args.sleep_after_execution,
     )
 
+
     for config_file in tqdm(config_file_list):
 
 
@@ -173,14 +174,23 @@ def test(
             
             
             trajectory: Trajectory = [{"observation": obs, "info": info}]
+
+
+
+
             user_profile = load_persona_from_json("./user/user_1.json")
             meta_data = {"action_history": ["None"], "user_persona": user_profile}
+
+
+
+            #Debut de la logique de creation de compte  et 
             
             logger.info("Capturing initial storage state...")
             initial_storage_state = env.get_all_storage_state()
             trace = []
             
             while True:
+                
                 early_stop_flag, stop_info = early_stop(trajectory, max_steps, early_stop_thresholds)
                 if early_stop_flag:
                     action = create_stop_action(f"Early stop: {stop_info}")
@@ -205,6 +215,7 @@ def test(
                         action = create_stop_action(f"ERROR: {str(e)}")
 
                 trajectory.append(action)
+                print("Action taken actionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn:", args.action_set_tag)
 
                 action_str = get_action_description(
                     action,
@@ -226,6 +237,7 @@ def test(
                 if action["action_type"] == ActionTypes.STOP:
                     break
 
+                print("je suis l'actii a executer :", action)
                 
                 obs, _, terminated, _, info = env.step(action)
 
