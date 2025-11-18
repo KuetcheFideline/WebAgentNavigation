@@ -2,6 +2,7 @@ import json
 from datetime import datetime ,date
 import re
 import time
+import shutil
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -82,6 +83,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
     def __init__(
         self,
         consent:str,
+        connect:str,
+        country:str,
+        user:str,
         persistent:bool,
         max_page_length: int = 8192,
         headless: bool = True,
@@ -109,6 +113,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         #login_require = persistent
         self.context = None
         self.browser = None
+        self.country = country
+        self.connect = connect
+        self.user= user
 
         match observation_type:
             case "html" | "accessibility_tree":
@@ -143,6 +150,19 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             with open(storage_file, "w") as f:
                 json.dump({"cookies": [], "origins": []}, f)
 
+
+    def create_profil_user(self):
+        '''
+        cette fonction est utiliser pour configurer le navigateur en fonction de chaque utilsateur 
+        '''
+
+        datadir =os.path.join(f"browser_env/profiles/{self.connect.lower()}/{self.consent}/{self.user}")
+        base= os.path.join("browser_env/profiles/unauth_all_config")
+        if not os.path.exists(datadir):
+            shutil.copytree(base,datadir)
+
+        return datadir            
+        
     @beartype
     def setup(self, config_file: Path | None = None) -> None:
         self.context_manager = sync_playwright()
@@ -150,133 +170,72 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         """
         Ici le navigateur est lancé, donc c'est la qu'on charge les config et les extensions
         """
-        consentPaths = {
-            "none":"browser_env/Consent-O-Matic/config/consent-accept-none",
-            "all":"browser_env/Consent-O-Matic/config/consent-accept-all",
-            "partial":"browser_env/Consent-O-Matic/config/consent-accept-partial",
-        }
+        langue = {
+                'fr': 'fr-FR',
+                'en': 'en-GB',
+                'de': 'de-DE',
+                'es': 'es-ES',
+                'it': 'it-IT',
+                'nl': 'nl-NL',
+                'pt': 'pt-PT',
+                'pl': 'pl-PL',
+                'sv': 'sv-SE',
+                'da': 'da-DK',
+                'fi': 'fi-FI',
+                'cs': 'cs-CZ',
+                'sk': 'sk-SK',
+                'ro': 'ro-RO',
+                'bg': 'bg-BG',
+                'el': 'el-GR'
+            }
 
-        cookieblockPaths = {
-            "none":"browser_env/Cookie-Block/none_cookies_cookie_block",
-            "all":"browser_env/Cookie-Block/all_cookies_cookie_block",
-            "partial":"browser_env/Cookie-Block/partial_cookies_cookie_block",
-        }
-        persistent_chromium = {
-            "none":"browser_env/profiles/persistent/google-profile-none",
-            "all":"browser_env/profiles/persistent/google-profile-all",
-            "partial":"browser_env/profiles/persistent/google-profile-partial"
-        }
-
-        persistent_not_chromium = {
-            "none":"browser_env/profiles/not_persistent/google-profile-none",
-            "all":"browser_env/profiles/not_persistent/google-profile-all",
-            "partial":"browser_env/profiles/not_persistent/google-profile-partial"
-        }
-        storage = {
-            "all": {"storage_file": "state_accept_all.json"},
-            "none": {"storage_file": "state_reject_all.json"},
-            "partial": {"storage_file": "state_partial.json"}
-        }
-
-        selecteConsent =consentPaths[self.consent]
-        selectedCookieBlock = cookieblockPaths[self.consent]
-
-
-        selectedConset = f"{selecteConsent},{selectedCookieBlock}"
-        storage_dir="browser_env/profiles/storage_state"
-        self.storage_file = storage_file = os.path.join(storage_dir, storage[self.consent]["storage_file"])
-        self.initialize_storage_state(storage_file=storage_file)
-
-                    # Charger le storage_state s'il existe
-        
-
+        userDataDir= self.create_profil_user()
         if config_file:
             with open(config_file, "r") as f:
                 instance_config = json.load(f)
         else:
             instance_config = {}
-        geolocation = instance_config.get("geolocation", None)
-
-
-
-
-
-        # login with google operation
-        login_require = instance_config.get("require_login",False)
-        login_url = instance_config.get("login_url",None)
-        login_selector = instance_config.get("login_selector",None)
-        self.login_require = login_require
-        if login_require:
-            profile_dictionary = persistent_chromium
-        else:
-            profile_dictionary = persistent_not_chromium
+          
+        extension_path = os.path.abspath("../Navigateur/Extension/auth_all/3.38_0")
+        recaptcha_path= os.path.abspath("../Navigateur/Extension/hlifkpholllijblknnmbfagnkjneagid/1.0.19_0")
         
-        selectedContext = profile_dictionary[self.consent]
-
-        
-        
-
-            
-       
-        selectedContext = profile_dictionary[self.consent]
-
+        google_require = instance_config.get("google_login",False)
+        self.login_require = google_require
+        path_to_load = f"{extension_path},{recaptcha_path}"
         args_commun = [
             '--disable-blink-features=AutomationControlled',
             '--start-maximized',
             '--no-sandbox',
-            '--disable-dev-shm-usage',
-            f'--disable-extensions-except={selectedConset}',
-            f'--load-extension={selectedConset}'
-        ]
-        
-
-       
+            f"--disable-extensions-except={path_to_load}",
+                f"--load-extension={path_to_load}",
+                "--no-sandbox",
+                "--start-maximized",
+            ]
         self.browser = self.playwright.chromium.launch_persistent_context(
-            headless=False,
-            slow_mo=self.slow_mo, 
-            args=args_commun,
-            user_data_dir=selectedContext,
-            viewport=self.viewport_size,
-            geolocation=geolocation,
-            device_scale_factor=1,
-        )
+                    user_data_dir=userDataDir,
+                    headless=False,
+                    slow_mo=self.slow_mo,
+                    args=args_commun,
+                    viewport=self.viewport_size,
+                    locale=f"{langue[self.country]}"
+                    # proxy={
+                    #     "server": "brd.superproxy.io:33335",
+                    #     "username": f"brd-customer-hl_efb03598-zone-residential_proxy1-country-{self.country}",
+                    #     "password": "gwynyg0rp09g",
+                    # },
+                )
 
-
-        # if config_file:
-        #     with open(config_file, "r") as f:
-        #         instance_config = json.load(f)
-        # else:
-        #     instance_config = {}
-        """
-        Ici se sont les config du json de la tache qui sont extraits
-        """
-      
+        time.sleep(200)
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
-
-
-        
-        
-
-        """
-        Creation d'un nouveau contexte de Navigateur
-
-        ici on rajoutera une condition pour lancer un context persistant comme on l'a fait avev gdpr_on_cookies 
-
-        ce context contiendra le compte de jean tagne 
-
-            - un parametre est ajouter dans ScriptBrowserEnv qui defini le type
-            - dans l'env on precise la configuration de consent omatic souhaité ( consent = none | partial | all)
-        """
-
         self.context = self.browser
             # for page in self.context.pages:
             #     try:
             #         page.close()
             #     except Exception as e:
             #         print(f"Could not close page: {e}")
-            # if login_require:
-            #     page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
+        if google_require:
+                page = connect_to_browser_and_login(self.browser,login_url=start_url)
       
         
         if self.save_trace_enabled:
@@ -287,7 +246,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             start_urls = start_url.split(" |AND| ")
             created_pages=[]
             for url in start_urls:
-                if login_require :
+                if google_require :
                     page = self.context.new_page()
                     page.goto(url)
 
@@ -319,8 +278,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             client = self.page.context.new_cdp_session(self.page)
             if self.text_observation_type == "accessibility_tree":
                 client.send("Accessibility.enable")
-            self.page.client = client  # type: ignore
-
+            self.page.client = client 
         
 
     def get_page_client(self, page: Page) -> CDPSession:
@@ -361,6 +319,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         if options is not None and "config_file" in options:
             config_file = Path(options["config_file"])
             if config_file.exists():
+
                 self.setup(config_file=config_file)
 
 
@@ -370,6 +329,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 raise ValueError(f"Config file {config_file} does not exist.")
                 
         else:
+            print("non je suis plutot pas ici et de ton cote ")
+
             self.setup()
         self.reset_finished = True
 

@@ -831,12 +831,16 @@ class NewUserPromptConstructor(PromptConstructor):
             r"(jump_to)\(\s*[\'\"](.+)[\'\"]\s*,\s*(True|False)\s*\)",
             r"(go)\(\s*[\'\"]backward[\'\"]\s*\)",
             r"(go)\(\s*[\'\"]forward[\'\"]\s*\)",
+            r"(go)\(\s*[\'\"]mail[\'\"]\s*\)",
+
             r"(hover)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
             r"(finish)\(\s*\)",
             r"(finish)\(\s*(.+)\s*\)",
             r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
             r"(switch_tab)\([\d]+\)",
             r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"](\d+)[\'\"]\s*,\s*(True|False)\s*\)",
+            r"(switch_tab)\([\d]+\)",
+            
         ]
         
     translate = [
@@ -848,12 +852,14 @@ class NewUserPromptConstructor(PromptConstructor):
             "goto",
             "go_back",
             "go_forward",
+            "go_mail",
             "hover",
             "stop",
             "stop",
             "record",
             "page_focus",
             "code_email",
+            "email_goto",
         ]
     def __init__(
         self,
@@ -998,9 +1004,14 @@ class NewUserPromptConstructor(PromptConstructor):
             """
             Formate le dictionnaire user en une forme utilisable.
             """ 
+
+            print("######################################################################################")
+            print(persona_data)
             if not persona_data:
                 return " no user"
             
+            print("######################################################################################")
+
             persona_str = []
 
             # Demographics
@@ -1038,8 +1049,8 @@ class NewUserPromptConstructor(PromptConstructor):
             if 'context' in persona_data:
                 context_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['context'].items()])
                 persona_str.append(f"### Context:\n{context_str}")
-                
-            return "\n\n".join(persona_str)
+            
+            return persona_data
             
     
     
@@ -1100,7 +1111,7 @@ class NewUserPromptConstructor(PromptConstructor):
         
 
             current = template.format(
-             html=obs,
+            html=obs,
             user_persona=user_persona_str, # Injection de la persona formatée
             previous_action=previous_action_str,
             tabs=tabs_str,
@@ -1111,6 +1122,7 @@ class NewUserPromptConstructor(PromptConstructor):
             assert all([f"{{{k}}}" not in current for k in keywords])
 
             prompt = current + finale
+            print(prompt)
             return prompt
     
     def _extract_action(self, response: str) -> str:
@@ -1125,6 +1137,7 @@ class NewUserPromptConstructor(PromptConstructor):
                     exact_act = m[0]
                     param = m[1:]
                 else:
+                    print(m,"moi aussi je suis la dans le m")
                     exact_act = m
                     param = []
                 

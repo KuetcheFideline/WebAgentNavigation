@@ -123,7 +123,7 @@ class PromptAgent(Agent):
 
     @beartype
     def next_action(
-        self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
+        self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any] ,url :str
     ) -> Action:
         prompt = self.prompt_constructor.construct(
             trajectory, intent, meta_data
@@ -133,7 +133,6 @@ class PromptAgent(Agent):
         while True:
 
             response = call_llm(lm_config, prompt)
-            print("le response du llm est ici  ",response)
 
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"
@@ -149,7 +148,7 @@ class PromptAgent(Agent):
                 
                 print("le parsed response est ici ",parsed_response)
                 if self.action_set_tag in ["id_html_tree", "id_html_nasc_tree", "id_accessibility_tree"]:
-                    action = create_id_based_action(parsed_response)
+                    action = create_id_based_action(parsed_response,url)
                 elif self.action_set_tag == "playwright":
                     action = create_playwright_action(parsed_response)
                 else:

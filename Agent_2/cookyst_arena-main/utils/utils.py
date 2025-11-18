@@ -1,6 +1,7 @@
 import json
+import time 
 
-def load_persona_from_json(path: str) -> dict:
+def load_persona_from_json(path: str,user:str) -> dict:
     """
     Charge un persona utilisateur détaillé à partir d'un fichier JSON.
 
@@ -14,10 +15,14 @@ def load_persona_from_json(path: str) -> dict:
         FileNotFoundError: Si le fichier n'est pas trouvé.
         json.JSONDecodeError: Si le fichier contient du JSON invalide.
     """
+    user = user.replace('/','_')
+
     try:
         with open(path, 'r', encoding='utf-8') as f:
             persona_data = json.load(f)
-        return persona_data
+        for elt in persona_data :
+            if elt["id"] ==user :
+                return elt
     except FileNotFoundError:
         print(f"Erreur : Le fichier persona '{path}' est introuvable.")
         raise

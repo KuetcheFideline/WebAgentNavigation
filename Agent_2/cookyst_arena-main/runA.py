@@ -55,7 +55,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="accessibility_tree", help="Observation type")
     parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
     parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
-    parser.add_argument("--connected", type=str, default="NotAuth", help="Authentication status folder")
+    parser.add_argument("--connected", type=str, default="Auth", help="Authentication status folder")
     parser.add_argument("--viewport_width", type=int, default=1920)
     parser.add_argument("--viewport_height", type=int, default=1080)
     parser.add_argument("--save_trace_enabled", action="store_true")
@@ -63,6 +63,8 @@ def config() -> argparse.Namespace:
     parser.add_argument("--max_steps", type=int, default=30)
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
+    parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
+    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK'],default='DE')
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -84,7 +86,12 @@ def config() -> argparse.Namespace:
     parser.add_argument("--max_obs_length", type=int, default=1920)
     parser.add_argument("--model_endpoint", help="huggingface model endpoint", type=str, default="")
 
+
+
     # Example config
+    parser.add_argument("--user_start_idx",type= int ,default=0000)
+    parser.add_argument("--user_end_idx",type= int ,default=1000)
+
     parser.add_argument("--test_start_idx", type=int, default=0)
     parser.add_argument("--test_end_idx", type=int, default=1000)
     parser.add_argument("--sample", type=int, default=1)
@@ -129,10 +136,10 @@ def early_stop(trajectory: Trajectory, max_steps: int, thresholds: dict[str, int
     return False, ""
 
 
-def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env,agent) -> tuple[Trajectory, dict, list[dict]]:
+def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env,agent,url,user) -> tuple[Trajectory, dict, list[dict]]:
 
 
-    user_profile = load_persona_from_json("./user/user_1.json")
+    user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
     trajectory:Trajectory =[{"observation": obs, "info": info}]
     meta_data  = {"action_history": ["None"], "user_persona": user_profile}
     trace = []
@@ -145,7 +152,7 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                 else:
                     try:
                         prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
-                        action = agent.next_action(trajectory, intent, meta_data=meta_data)
+                        action = agent.next_action(trajectory, intent, meta_data=meta_data,url=url)
                     except ValueError as e:
                         logger.error(f"Error during agent action generation: {e}")
                         action = create_stop_action(f"ERROR: {str(e)}")
@@ -191,6 +198,7 @@ def test(
     args: argparse.Namespace,
     agent: Agent | PromptAgent | TeacherForcingAgent,
     config_file_list: list[str],
+    user:str,
 ) -> None:
     max_steps = args.max_steps
     early_stop_thresholds = {
@@ -200,6 +208,8 @@ def test(
 
     env = ScriptBrowserEnv(
         persistent=args.persistent,
+        connect=args.connected,
+        user=user,
         consent=args.consent,
         headless=not args.render,
         slow_mo=args.slow_mo,
@@ -208,6 +218,7 @@ def test(
         viewport_size={"width": args.viewport_width, "height": args.viewport_height},
         save_trace_enabled=args.save_trace_enabled,
         sleep_after_execution=args.sleep_after_execution,
+        country=args.country.lower()
     )
 
 
@@ -234,21 +245,18 @@ def test(
             
             if login :
                     logger.info("La tache  demande une authentification")
+                    print("je suis la moi aussi et toi tu es ou ??")
                     obsA,infoA = env.reset(options={"config_file": config_file})
                     logger.info("Capturing initial storage state...")
-                    # on verifie si c'est creation ou login sur le site
-                    
-                
-
-                    intentA = "Authenticate : create or login to account on the website . "
+                    intentA = "Authenticate : create an account on the website . "
                     initial_storage_state = env.get_all_storage_state()
 
-                    trajectoryA ,meta_dataA, traceA = task_execution_command(obsA,infoA,intentA,max_steps, early_stop_thresholds,env,agent)
+                    trajectoryA ,meta_dataA, traceA = task_execution_command(obsA,infoA,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 
                     ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
                     response_textA = ormA.output[0].content[0].text
                     resultA = {"id": task_id, "trace": traceA,"verdict" :response_textA }
-                    tracesA_dir = Path(args.result_dir) / "tracesA" / args.connected / args.consent
+                    tracesA_dir = Path(args.result_dir) /user / "tracesA" / args.connected / args.consent
                     tracesA_dir.mkdir(parents=True, exist_ok=True)
                     with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
                         json.dump({"id": task_id, "trace": resultA}, f, indent=4)
@@ -262,16 +270,16 @@ def test(
 
             logger.info("Capturing initial storage state...")
             initial_storage_state = env.get_all_storage_state()
-            trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent)
+            trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
             orm = agent.verify_action(trajectory,intent,meta_data)
             response_text = orm.output[0].content[0].text
             result = {"id": task_id, "trace": trace,"verdict" :response_text }
-            storage_dir = Path(args.result_dir) / "storage_state" / args.connected / args.consent
+            storage_dir = Path(args.result_dir) / user /"storage_state" / args.connected / args.consent
             diff_filepath = storage_dir / f"{task_id}.json"
 
 
 
-            traces_dir = Path(args.result_dir) / "traces" / args.connected / args.consent
+            traces_dir = Path(args.result_dir)/user / "traces" / args.connected / args.consent
 
             traces_dir.mkdir(parents=True, exist_ok=True)
             
@@ -319,8 +327,8 @@ def prepare(args: argparse.Namespace) -> None:
     Path(result_dir).mkdir(parents=True, exist_ok=True)
     logger.info(f"Created result dir: {result_dir}")
     
-    (Path(result_dir) / "traces").mkdir(exist_ok=True)
-    (Path(result_dir) / "storage_state").mkdir(exist_ok=True)
+    # (Path(result_dir) / "traces").mkdir(exist_ok=True)
+    # (Path(result_dir) / "storage_state").mkdir(exist_ok=True)
 
     with open(Path(result_dir) / "log_files.txt", "a+") as f:
         f.write(f"{LOG_FILE_NAME}\n")
@@ -359,24 +367,33 @@ if __name__ == "__main__":
     if not config_dir.exists():
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
-        for i in range(args.test_start_idx, args.test_end_idx):
-            if i % args.sample == 0:
-                config_file = config_dir / f"{i}.json"
-                if config_file.exists():
-                    test_file_list.append(str(config_file))
+        for user in os.listdir(config_dir) :
+            if user == args.country :
+                for i in range(args.user_start_idx,args.user_end_idx):
 
-    if "debug" not in args.result_dir:
-        test_file_list = get_unfinished(test_file_list, args.result_dir)
+                    for j in range(args.test_start_idx, args.test_end_idx):
+                            formatted_id = f"{i:04}"
+                            if j % args.sample == 0:
+                                config_file = config_dir / user /formatted_id / f"{j}.json"   
+                                if config_file.exists():
 
-    if not test_file_list:
-        logger.info("No tasks left to run.")
-    else:
-        logger.info(f"Total tasks to run: {len(test_file_list)}")
-        # Override args for test run
-        args.render = False
-        args.save_trace_enabled = True
-        args.current_viewport_only = True
+                                    test_file_list.append(str(config_file))
+
+                                if "debug" not in args.result_dir:
+                                    test_file_list = get_unfinished(test_file_list, args.result_dir)
+
+                                if not test_file_list:
+                                        logger.info("No tasks left to run.")
+                                else:
+                                        logger.info(f"Total tasks to run: {len(test_file_list)}")
+                                        # Override args for test run
+                                        args.render = False
+                                        args.save_trace_enabled = True
+                                        args.current_viewport_only = True
+                                        
+                                        dump_config(args)
+                                        agent = construct_agent(args)
+                                        file = f"{user}/{formatted_id}"
+
+                                        test(args, agent, test_file_list,file)
         
-        dump_config(args)
-        agent = construct_agent(args)
-        test(args, agent, test_file_list)

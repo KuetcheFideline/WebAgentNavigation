@@ -247,8 +247,7 @@ def simplify_content(content):
     simplified_home = packet['html']
     return simplified_home
 
-def connect_to_browser_and_login(browser, login_url: str, login_selector: str):
-    print("je suis de ce cote ma ")
+def connect_to_browser_and_login(browser, login_url: str):
 
     page = browser.new_page()
     page.goto(login_url)

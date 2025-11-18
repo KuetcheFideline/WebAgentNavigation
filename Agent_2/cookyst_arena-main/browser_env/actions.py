@@ -12,6 +12,9 @@ from itertools import chain
 from typing import Any, TypedDict, Union, cast
 import imaplib 
 import email
+import time
+
+from urllib.parse import urlparse
 
 import numpy as np
 import numpy.typing as npt
@@ -1697,41 +1700,133 @@ def create_playwright_action(playwright_code: str) -> Action:
     raise ActionParsingError(f"Unknown playwright action {action}")
 
 
-def receive_mail() :
-    Email= 'fidoknn@gmail.com'
-    Password= 'puxvrrzujtxyibyo'
+
+def receive_mail(url: str):
+    code = 0000 
+    Email = 'fidoknn@gmail.com'
+    Password = 'puxvrrzujtxyibyo'
     SERVEUR = 'imap.gmail.com'
+    url = urlparse(url).netloc
+    urls = url.split('.')[:-1]  
 
-    try :
-
-        mail =imaplib.IMAP4_SSL(SERVEUR)
-
-        mail.login(Email,Password)
+    try:
+        mail = imaplib.IMAP4_SSL(SERVEUR)
+        mail.login(Email, Password)
 
         mail.select('inbox')
 
-        status ,data = mail.search(None,'ALL')
-        mail_ids=[]
-        for block in data :
-            mail_ids+=block.split()
-        for i in mail_ids:
-            status ,data = mail.fetch(i,'(RFC822)')
-            print(data)
+        n = 0
+        while n < 5:  
+            status, data = mail.search(None, 'ALL') 
+            mail_ids = []
+            for block in data:
+                mail_ids += block.split()
 
+            n += 1
+          
+            mail_id = mail_ids[-1]
+            status, data = mail.fetch(mail_id, '(RFC822)')
 
+            for response_part in data:
+                if isinstance(response_part, tuple):
+                    message = email.message_from_bytes(response_part[1])
+                    mail_from = message['from']
+                    mail_subject = message['subject']
+
+                    if message.is_multipart():
+                        mail_content = ''
+                        for part in message.get_payload():
+                            if part.get_content_type() == 'text/plain':
+                                mail_content += part.get_payload()
+                    else:
+                        mail_content = message.get_payload()
+
+                    for j in urls:
+                        print(mail_from.lower(), "je veux voir ")
+                        match = re.search(r'\b(\d{4,})\b', mail_content)
+
+                        if j.lower() in mail_from.lower() and match:
+                            code = match.group(1)
+                            print("Le code est :", code)
+                            return str(code)
+                        else:
+                            print("No code found yet")
+            
+        return str(code)  
 
     except imaplib.IMAP4.error as e:
-         print("IMAP4 error:", e)
+        print("IMAP4 error:", e)
     except Exception as e:
         print("An error occurred:", e)
 
-    # print(data)
-    
 
-    print("mail received")
+def receive_link(url: str,Email = "pehexev151@gusronk.com", Password = ""):
+    link  =  "https://mail.google.com/"
+    # Email = 'fidelinekuetche@gmail.com'
+    # Password = 'batiyhfkjyjblkmo '
+    
+    Password = ""
+    SERVEUR = 'imap.gmail.com'
+    url = urlparse(url).netloc
+    urls = url.split('.')[:-1]  
+
+    try:
+        mail = imaplib.IMAP4_SSL(SERVEUR)
+        mail.login(Email, Password)
+
+        mail.select('inbox')
+
+        n = 0
+        while n < 5:  
+            status, data = mail.search(None, 'ALL') 
+            mail_ids = []
+            for block in data:
+                mail_ids += block.split()
+
+            n += 1
+          
+            mail_id = mail_ids[-1]
+            status, data = mail.fetch(mail_id, '(RFC822)')
+
+            for response_part in data:
+                if isinstance(response_part, tuple):
+                    message = email.message_from_bytes(response_part[1])
+                    mail_from = message['from']
+                    mail_subject = message['subject']
+
+                    if message.is_multipart():
+                        mail_content = ''
+                        for part in message.get_payload():
+                            if part.get_content_type() == 'text/plain':
+                                mail_content += part.get_payload()
+                    else:
+                        mail_content = message.get_payload()
+
+                    for j in urls:
+                        print(mail_from.lower(), "je veux voir ")
+                        Email = "develine@gmail.com"
+                        match = re.search(r'https?://[^\s]+', mail_content)
+
+
+
+                        if j.lower() in mail_from.lower() and match:
+                            link = match.group(1)
+                            print("Le code est :", link)
+                            return link 
+                        else:
+                            print("No code found yet")
+            
+        return link 
+
+    except imaplib.IMAP4.error as e:
+        print("IMAP4 error:", e)
+    except Exception as e:
+        print("An error occurred:", e)
+
+
 
 @beartype
-def create_id_based_action(action_str: str) -> Action:
+def create_id_based_action(action_str: str,url :str) -> Action:
     """Main function to return individual id based action"""
     action_str = action_str.strip()
     action = (
@@ -1832,8 +1927,7 @@ def create_id_based_action(action_str: str) -> Action:
             return create_record_action(text)
         case "code_email":
             """Create code email action."""
-            print("code email action created")
-            receive_mail()
+            
             print("je recupere le code email")
             if not (action_str.endswith("[0]") or action_str.endswith("[1]")):
                 action_str += " [1]"
@@ -1847,9 +1941,13 @@ def create_id_based_action(action_str: str) -> Action:
                 match.group(2),
                 match.group(3),
             )
-            text ="00000"
+            text =receive_mail(url)
             enter_flag = True if enter_flag == "1" else False
             if enter_flag:
                 text += "\n"
             return create_our_type_action(text=text, element_id=element_id, flag=enter_flag)
+        case "go_mail":
+            url = receive_link(url)
+            return create_our_goto_url_action(url=url, flag=True)
+
     raise ActionParsingError(f"Invalid action {action_str}")
