@@ -154,9 +154,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         '''
         cette fonction est utiliser pour configurer le navigateur en fonction de chaque utilsateur 
         '''
-        print("########################################################################################""""""",user)
-        datadir =os.path.join(f"browser_env/profiles/{self.connect.lower()}/{self.consent}/{user}")
-        base= os.path.join("browser_env/profiles/unauth_all_config")
+
+        datadir =os.path.join(f"browser_env/profiles/{self.connect.lower()}/{self.consent}/{self.user}")
+        base= os.path.join("../Navigateur/unauth_all_config")
         if not os.path.exists(datadir):
             shutil.copytree(base,datadir)
 
@@ -234,6 +234,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     # },
                 )
 
+        storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
         self.context = self.browser
             # for page in self.context.pages:
