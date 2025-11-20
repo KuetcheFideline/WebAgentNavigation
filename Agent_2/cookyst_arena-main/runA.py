@@ -245,7 +245,6 @@ def test(
             logger.info(f"[Config file]: {config_file}")
             obs,info = env.reset(options= {"config_file":config_file})
 
-            time.sleep(20)
             if  google_login :
                 initial_storage_state = env.get_all_storage_state()
 

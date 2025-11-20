@@ -156,7 +156,6 @@ def call_llm(
                 stop_token=lm_config.gen_config["stop_token"],
             )
         elif lm_config.mode == "modal":
-            print("Modal mode implemented yet")
             response = generate_from_openai_modal(
                 prompt=prompt,
                 model=lm_config.model,

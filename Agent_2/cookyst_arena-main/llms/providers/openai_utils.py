@@ -135,8 +135,9 @@ async def agenerate_from_openai_completion(
 
 
 
-def encode_image(image_path ="/home/fideline/Documents/WebAgentNavigation/Agent_2/cookyst_arena-main/output/marked1.png"):
-       with open(image_path, "rb") as image_file:
+def encode_image(image_path ="output/marked1.png"):
+    image_path = os.path.join(os.getcwd(),image_path)  
+    with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
 
@@ -153,8 +154,10 @@ def generate_from_openai_modal(
             "OPENAI_API_KEY environment variable must be set when using OpenAI API."
         )
     openai.api_key = os.environ["OPENAI_API_KEY"]
+
     image = encode_image()
     client = OpenAI()
+
     response = client.responses.create(
     model="gpt-4.1",
     input=[
@@ -171,6 +174,7 @@ def generate_from_openai_modal(
         }
     ],
 ) 
+    
 
     return response
 
