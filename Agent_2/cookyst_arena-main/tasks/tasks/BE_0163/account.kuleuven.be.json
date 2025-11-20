@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.kuleuven.be",
+      "intent": "Je souhaite consulter les informations générales sur la gestion de mon compte pour comprendre les fonctionnalités disponibles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.kuleuven.be",
+      "intent": "J'ai besoin de trouver de l'aide pour résoudre un problème de connexion, donc je vais visiter la page d'aide pour obtenir des informations utiles."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.kuleuven.be",
+      "intent": "Je veux explorer les différentes options de gestion de compte proposées par le site pour voir ce que je peux faire sans être connecté."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.kuleuven.be",
+      "intent": "Maintenant que je suis connecté, je souhaite accéder à ma page de compte pour vérifier et mettre à jour mes informations personnelles si nécessaire."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.kuleuven.be",
+      "intent": "En tant qu'utilisateur connecté, je veux activer ou désactiver certaines fonctionnalités de mon compte pour personnaliser mon expérience sur le site."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.kuleuven.be",
+      "intent": "Je souhaite changer mon mot de passe pour améliorer la sécurité de mon compte et garantir que mes informations restent protégées."
+    }
+  ]
+}

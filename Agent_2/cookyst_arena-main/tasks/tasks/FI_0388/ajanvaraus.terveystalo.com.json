@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Varata aika lääkärille puolison sairauden vuoksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Etsi tietoa Alzheimerin taudin hoidosta ja oireista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Selvitä, miten voin varata ajan terveydenhuoltopalveluihin verkossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tarkista puolison lääkärikäynneistä ja hoitosuunnitelman seuranta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Varmista, että olen ilmoittanut kaikki puolison lääkkeet ja allergiat oikein"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tee uusi varaus lääkärille, kun puolison tila vaatii uuden käynnin"
+    }
+  ]
+}

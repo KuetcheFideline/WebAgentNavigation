@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://entrada.um.es",
+      "intent": "Buscar información sobre los servicios que ofrece la Universidad de Murcia para profesores"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://entrada.um.es",
+      "intent": "Explorar las secciones de noticias y eventos en el portal de entrada de la Universidad de Murcia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://entrada.um.es",
+      "intent": "Leer las preguntas frecuentes sobre el uso del portal de entrada y la autenticación"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://entrada.um.es",
+      "intent": "Acceder a mis datos personales y actualizar mi perfil en el sistema de la Universidad de Murcia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://entrada.um.es",
+      "intent": "Consultar y gestionar mis cursos y materias como profesor en el portal de la Universidad de Murcia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://entrada.um.es",
+      "intent": "Descargar documentos y recursos necesarios para mis clases y tareas como profesor en la Universidad de Murcia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vf-auktion.dk",
+      "intent": "Jeg søger efter information om auktioner på hjemmesiden for at se, hvilke frimærker der er til salg."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vf-auktion.dk",
+      "intent": "Jeg ønsker at se kalenderen over kommende auktioner for at planlægge mine køb."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vf-auktion.dk",
+      "intent": "Jeg vil læse om auktionsbetingelserne for at forstå, hvordan auktionerne fungerer og hvad der forventes af mig som bruger."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vf-auktion.dk",
+      "intent": "Jeg ønsker at logge ind for at se mine tidligere køb og følge med i mine aktive bud."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vf-auktion.dk",
+      "intent": "Jeg vil indsætte et nyt bud på en frimærkeauktion, som jeg har fundet interessant efter at have gennemset hjemmesiden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vf-auktion.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer og opdaterer min adresse for at sikre, at mine køb leveres korrekt."
+    }
+  ]
+}

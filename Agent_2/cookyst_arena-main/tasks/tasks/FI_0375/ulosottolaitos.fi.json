@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ulosottolaitos.fi",
+      "intent": "Hae sivustolta tietoa ulosotosta ja sen tehtävistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ulosottolaitos.fi",
+      "intent": "Selvitä miten ulosottomenettely toimii ja mitä se tarkoittaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ulosottolaitos.fi",
+      "intent": "Lue tietoa velalliselle ja miten hän voi hoitaa ulosottoasiat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ulosottolaitos.fi",
+      "intent": "Tee ulosottohakemus sähköisessä asiointipalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ulosottolaitos.fi",
+      "intent": "Tarkastele omia ulosottoasiakirjoja ja -tiedostoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ulosottolaitos.fi",
+      "intent": "Maksaa ulosotossa oleva velkasi sähköisessä asiointipalvelussa"
+    }
+  ]
+}

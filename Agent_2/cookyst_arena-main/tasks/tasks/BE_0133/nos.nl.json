@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nos.nl",
+      "intent": "Rechercher des informations sur les dernières actualités en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nos.nl",
+      "intent": "Consulter les vidéos de sport pour suivre les résultats des équipes belges"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nos.nl",
+      "intent": "Lire les articles sur la politique européenne pour me tenir informé sur les décisions de la Commission Européenne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nos.nl",
+      "intent": "Participer à un forum de discussion sur les actualités pour partager mes opinions avec d'autres utilisateurs"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nos.nl",
+      "intent": "Créer une liste de lectures pour sauvegarder les articles qui m'intéressent et les consulter plus tard"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nos.nl",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les sujets qui m'intéressent"
+    }
+  ]
+}

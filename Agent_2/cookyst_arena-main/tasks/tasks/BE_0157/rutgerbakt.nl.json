@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rutgerbakt.nl",
+      "intent": "Je souhaite trouver des recettes de gâteaux pour une fête d'anniversaire de ton enfant, tu vas donc chercher des idées sur le site de Rutger Bakt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rutgerbakt.nl",
+      "intent": "Tu es à la recherche de conseils pour améliorer tes compétences en pâtisserie, tu vas donc consulter la section 'Bakhulp' du site."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rutgerbakt.nl",
+      "intent": "Tu veux te tenir au courant des dernières recettes et astuces de Rutger Bakt, tu vas donc t'inscrire à sa newsletter."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rutgerbakt.nl",
+      "intent": "Tu as déjà un compte sur le site de Rutger Bakt et tu veux accéder à tes recettes préférées, tu vas donc te connecter à ton compte pour les consulter."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rutgerbakt.nl",
+      "intent": "Tu es connecté à ton compte et tu veux partager une de tes recettes préférées de Rutger Bakt avec tes amis sur les réseaux sociaux, tu vas donc utiliser la fonction de partage du site."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rutgerbakt.nl",
+      "intent": "Tu es abonné à la newsletter de Rutger Bakt et tu veux télécharger un livre de recettes exclusif réservé aux abonnés, tu vas donc te connecter à ton compte pour accéder au téléchargement."
+    }
+  ]
+}

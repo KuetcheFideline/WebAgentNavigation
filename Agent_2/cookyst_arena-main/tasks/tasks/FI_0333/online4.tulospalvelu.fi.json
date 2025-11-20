@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://online4.tulospalvelu.fi",
+      "intent": "Hae kilpailutuloksia vuodelta 2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://online4.tulospalvelu.fi",
+      "intent": "Selaa Offline-kilpailujen tuloksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://online4.tulospalvelu.fi",
+      "intent": "Etsi tietoa Muut kilpailut -osiosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://online4.tulospalvelu.fi",
+      "intent": "Tallenna suosikkikilpailuni ja seuraa tuloksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://online4.tulospalvelu.fi",
+      "intent": "Lähetä palaute kilpailun järjestäjille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://online4.tulospalvelu.fi",
+      "intent": "Näe henkilökohtaiset kilpailutulokset ja analyysi"
+    }
+  ]
+}

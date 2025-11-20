@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://digicampus.fi",
+      "intent": "Tutkin DigiCampuksen etusivun ja etsin tietoa korkeakoulujen yhteisistä kursseista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://digicampus.fi",
+      "intent": "Selailen DigiCampuksen kurssitarjontaa ja etsin kiinnostavia kursseja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://digicampus.fi",
+      "intent": "Luen DigiCampuksen tukipalvelun tiedotteita ja huoltokatkoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://digicampus.fi",
+      "intent": "Kirjaudun sisään ja siirryn työpöydälle, josta näen omat kurssini ja tilastoni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://digicampus.fi",
+      "intent": "Tarkastan DigiCampuksen huoltokatkot ja suunnitelmiani niiden mukaisesti"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://digicampus.fi",
+      "intent": "Osallistun yhteisökeskusteluun ja kyselen neuvoa DigiCampuksen asiantuntijoilta"
+    }
+  ]
+}

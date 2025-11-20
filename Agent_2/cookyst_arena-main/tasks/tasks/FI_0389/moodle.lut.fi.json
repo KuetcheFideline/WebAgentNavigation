@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Etsin tietoa LUT-korkeakoulujen opinto-ohjelmista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Haluan lukea opiskelijoiden ohjeita ja etsiä kursseja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Tutkin LUT-korkeakoulujen kurssikategorioita ja etsin tietoa opetusohjelmista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Kirjaudun sisään ja tarkistan opintotiedot ja kurssisuoritukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Osallistun keskusteluihin ja luen opettajien viestejä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Teeän kurssien arviointeja ja annan palautetta opettajille"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Hae kaikista aineistoista lainsäädäntöä liittyen maahanmuuttovirastoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Selaa uusimmat julkaistut säädökset ja etsi tietoa hallituksen esityksistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Etsi tietoa oikeuskäytännöstä ja viranomaisten määräyskokoelmista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Tallenna ja merkitse suosikkeihin tärkeitä lainsäädäntöjä ja oikeuskäytäntöjä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Luo ja tallenna omia hakuehtoja ja säännöllisiä hakujen uusimiseksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Anna palautetta ja ehdotuksia Finlexin kehittämiseksi ja parantamiseksi"
+    }
+  ]
+}

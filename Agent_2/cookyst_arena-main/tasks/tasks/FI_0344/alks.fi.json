@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://alks.fi",
+      "intent": "Hae tuotteita, jotka ovat tällä hetkellä alennuksessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://alks.fi",
+      "intent": "Selaa olutvalikoimaa ja etsi suosittuja tuotteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://alks.fi",
+      "intent": "Lisää ostoskoriin joitain tuotteita, kuten Sandels Special Edition 4.7% 24×0.33 l"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://alks.fi",
+      "intent": "Tarkista tilaushistoria ja etsi aiemmin ostettuja tuotteita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://alks.fi",
+      "intent": "Muokkaa profiilia ja päivitä osoitetiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://alks.fi",
+      "intent": "Tee uusi tilaus ja valitse toimitustapa"
+    }
+  ]
+}

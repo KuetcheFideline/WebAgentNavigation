@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Hae tietoa masennuksesta ja sen oireista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Selaa laboratoriotutkimuksia ja niiden tulkinnoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Lue lisää terveydestä ja sairauksista, erityisesti niskakivun hoidosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Tallenna suosikkeihin artikkeli niskakivun hoidosta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Lähetä kysymys asiantuntijalle masennuksen hoidosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Merkitse käydyksi artikkeli terveydestä ja sairauksista, jotta voin palata siihen myöhemmin"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vliegtickets.be",
+      "intent": "Rechercher des vols pas chers pour un voyage en Espagne, en comparant les prix et les horaires de différents vols"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vliegtickets.be",
+      "intent": "Consulter les informations sur les destinations populaires en Europe, notamment en Italie et en France, pour planifier un prochain voyage"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vliegtickets.be",
+      "intent": "Vérifier les exigences de visa et les vaccinations nécessaires pour un voyage à l'étranger, en fonction de la destination choisie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vliegtickets.be",
+      "intent": "Réserver un vol pour un voyage déjà planifié, en utilisant les informations de paiement et de contact enregistrées dans mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vliegtickets.be",
+      "intent": "Consulter l'historique de mes réservations de vols et modifier ou annuler une réservation existante si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vliegtickets.be",
+      "intent": "Gérer mes informations de compte et mettre à jour mes coordonnées personnelles et de paiement pour éviter tout problème lors de futures réservations"
+    }
+  ]
+}

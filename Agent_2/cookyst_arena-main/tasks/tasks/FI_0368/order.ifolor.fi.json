@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://order.ifolor.fi",
+      "intent": "Tutkin valokuvatulosteiden hintoja ja laadun vaikutusta lopputuotteeseen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://order.ifolor.fi",
+      "intent": "Selailen eri valokuvatuotteita, kuten albumi- ja kehysvaihtoehtoja, ja vertailen niiden ominaisuuksia."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://order.ifolor.fi",
+      "intent": "Etsin ohjeita siitä, miten voin tehdä tilauksen ja mitä maksuvaihtoehtoja on tarjolla."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://order.ifolor.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuraan tilausteni etenemistä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://order.ifolor.fi",
+      "intent": "Muokkaan profiiliini liittyviä tietoja, kuten osoitetta ja maksutietoja."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://order.ifolor.fi",
+      "intent": "Lisään uusia valokuvia ja tuotteita ostoskoriini ja vahvistan tilauksen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dierenasielgent.be",
+      "intent": "Découvrir les chiens disponibles pour l'adoption"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dierenasielgent.be",
+      "intent": "Rechercher des informations sur les événements organisés par le refuge"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dierenasielgent.be",
+      "intent": "S'inscrire à la newsletter pour rester informé des actualités du refuge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dierenasielgent.be",
+      "intent": "Réserver une séance de promenade avec un chien"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dierenasielgent.be",
+      "intent": "Faire un don pour soutenir les activités du refuge"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dierenasielgent.be",
+      "intent": "Devenir membre du refuge pour bénéficier d'avantages exclusifs"
+    }
+  ]
+}

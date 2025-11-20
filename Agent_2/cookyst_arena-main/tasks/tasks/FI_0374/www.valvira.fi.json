@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.valvira.fi",
+      "intent": "Hae sivustolta tietoa sosiaali- ja terveydenhuollon ammattioikeuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.valvira.fi",
+      "intent": "Selvitä miten haen ammattioikeutta sähköisesti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.valvira.fi",
+      "intent": "Lue ajankohtaiset uutiset Valviran toiminnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.valvira.fi",
+      "intent": "Täytä sähköinen asiointilomake ammattioikeuksien hakemiseksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.valvira.fi",
+      "intent": "Tarkista omat ammattioikeudet ja -velvollisuudet sähköisessä asiointipalvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.valvira.fi",
+      "intent": "Lähetä kysely tai ilmoitus Valviralle sähköisen asiointipalvelun kautta"
+    }
+  ]
+}

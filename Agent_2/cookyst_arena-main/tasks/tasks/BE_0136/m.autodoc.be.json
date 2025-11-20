@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.autodoc.be",
+      "intent": "Rechercher des pièces de rechange pour ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.autodoc.be",
+      "intent": "Comparer les prix de différents types de pneus pour mon véhicule"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.autodoc.be",
+      "intent": "Explorer les outils et les équipements de diagnostic pour les voitures"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.autodoc.be",
+      "intent": "Ajouter mon véhicule à ma garage virtuelle pour faciliter les recherches de pièces"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.autodoc.be",
+      "intent": "Consulter l'historique de mes commandes pour suivre mes achats de pièces de rechange"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.autodoc.be",
+      "intent": "Gérer mes informations de compte et mes préférences pour améliorer mon expérience d'achat"
+    }
+  ]
+}

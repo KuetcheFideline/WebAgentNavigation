@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kannus.inschool.fi",
+      "intent": "Luen Juhani Vuorisen koulun tiedotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kannus.inschool.fi",
+      "intent": "Selvitan, mitä Wilma on ja miten sitä käytetään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kannus.inschool.fi",
+      "intent": "Etsin tietoa Wilman huoltajaliittymän toiminnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kannus.inschool.fi",
+      "intent": "Tarkastan lapseni poissaoloja ja suorituksia Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kannus.inschool.fi",
+      "intent": "Viestin opettajalle lapseni suoritusten ja poissaolojen asiasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kannus.inschool.fi",
+      "intent": "Päivitän lapseni henkilötietoja Wilman kautta"
+    }
+  ]
+}

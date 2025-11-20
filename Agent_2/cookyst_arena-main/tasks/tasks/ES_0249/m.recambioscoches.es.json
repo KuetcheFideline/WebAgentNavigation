@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.recambioscoches.es",
+      "intent": "Buscar repuestos para mi coche, un SEAT, para arreglar los frenos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.recambioscoches.es",
+      "intent": "Comparar precios de discos de freno de diferentes marcas como BOSCH y MONROE"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.recambioscoches.es",
+      "intent": "Explorar la sección de ofertas y descuentos para encontrar gangas en recambios de coche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.recambioscoches.es",
+      "intent": "Agregar un kit de embrague VALEO a mi cesta de compras y proceder al pago"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.recambioscoches.es",
+      "intent": "Revisar mi historial de pedidos y verificar el estado de entrega de mi último pedido"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.recambioscoches.es",
+      "intent": "Editar mi información de perfil y agregar una dirección de entrega alternativa"
+    }
+  ]
+}

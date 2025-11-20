@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.thegearpage.net",
+      "intent": "Selvittää, mitä uutta on The Gear Page -sivustolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.thegearpage.net",
+      "intent": "Etsiä tietoa sivuston foorumilta aiheesta 'Korikorjaus'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.thegearpage.net",
+      "intent": "Ladata uusimmat uutiset ja päivitykset sivustolta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.thegearpage.net",
+      "intent": "Kirjautua sisään ja tarkistaa omat viestit ja yksityiset viestit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.thegearpage.net",
+      "intent": "Osallistua keskusteluun aiheesta 'Kitaran säätö' foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.thegearpage.net",
+      "intent": "Lisätä uusi aihe foorumille aiheesta 'Uudet kitarat'"
+    }
+  ]
+}

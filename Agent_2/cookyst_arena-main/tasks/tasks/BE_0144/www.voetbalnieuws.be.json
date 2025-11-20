@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.voetbalnieuws.be",
+      "intent": "Rechercher les dernières nouvelles sur le RSC Anderlecht"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.voetbalnieuws.be",
+      "intent": "Consulter les résultats et les classements de la Jupiler Pro League"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.voetbalnieuws.be",
+      "intent": "Lire les articles sur les transferts de joueurs belges à l'étranger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.voetbalnieuws.be",
+      "intent": "Participer à un sondage sur les chances de la Belgique de gagner le prochain Mondial"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.voetbalnieuws.be",
+      "intent": "Écrire un commentaire sur un article concernant le match entre la Belgique et le Liechtenstein"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.voetbalnieuws.be",
+      "intent": "Créer une alerte personnalisée pour recevoir des notifications sur les résultats des matchs de Club Brugge"
+    }
+  ]
+}

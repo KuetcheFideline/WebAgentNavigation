@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.guidetv.be",
+      "intent": "Rechercher les programmes télé du soir pour savoir ce que je vais regarder après le travail"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.guidetv.be",
+      "intent": "Consulter la grille des programmes télé pour les 3 heures à venir"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.guidetv.be",
+      "intent": "Voter pour mon programme télé préféré du soir dans le sondage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.guidetv.be",
+      "intent": "Personnaliser ma sélection de chaînes pour n'afficher que mes chaînes favorites"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.guidetv.be",
+      "intent": "Enregistrer mon programme télé préféré pour le regarder plus tard"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.guidetv.be",
+      "intent": "Participer à la discussion sur les programmes télé dans la section commentaire"
+    }
+  ]
+}

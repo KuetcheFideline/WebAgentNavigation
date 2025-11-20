@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.findit.fi",
+      "intent": "Etsin käytettyjä kalastusvälineitä läheltä Pikkukaupunkia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.findit.fi",
+      "intent": "Selailen ilmoituksia mökkien myyntiin Keski-Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.findit.fi",
+      "intent": "Tutkin miten voin myydä vanhan veneeni Findit.fi:ssä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.findit.fi",
+      "intent": "Lisään ilmoituksen mökin vuokrauksesta lähellä Keuruuta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.findit.fi",
+      "intent": "Vastaan kaikki viestit, jotka olen saanut ilmoitukseni koskien"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.findit.fi",
+      "intent": "Muokkaan profiiliani, jotta se vastaa paremmin minun tarpeitani"
+    }
+  ]
+}

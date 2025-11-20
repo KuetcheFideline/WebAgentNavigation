@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forum.voo.be",
+      "intent": "Rechercher des solutions pour résoudre les problèmes de connexion internet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forum.voo.be",
+      "intent": "Explorer les catégories de discussion pour trouver des informations sur les services de téléphonie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forum.voo.be",
+      "intent": "Lire les annonces officielles de la communauté VOO pour rester informé sur les mises à jour et les changements"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forum.voo.be",
+      "intent": "Publier une question sur le forum pour demander de l'aide pour configurer mon compte myVOO"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forum.voo.be",
+      "intent": "Répondre à une question d'un autre membre de la communauté pour partager mon expérience et mes connaissances"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forum.voo.be",
+      "intent": "Consulter mes messages privés pour discuter avec les modérateurs ou les autres membres de la communauté"
+    }
+  ]
+}

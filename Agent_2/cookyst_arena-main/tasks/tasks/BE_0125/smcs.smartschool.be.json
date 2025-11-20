@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://smcs.smartschool.be",
+      "intent": "Rechercher les informations sur les cours en ligne pour mon apprentissage d'aide-soignant"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://smcs.smartschool.be",
+      "intent": "Explorer les ressources disponibles pour les étudiants en formation professionnelle sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://smcs.smartschool.be",
+      "intent": "Trouver des informations sur les événements scolaires et les activités parascolaires proposées par l'établissement"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://smcs.smartschool.be",
+      "intent": "Consulter mon emploi du temps scolaire et mes notes en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://smcs.smartschool.be",
+      "intent": "Accéder à la plateforme de communication avec mes enseignants pour discuter de mes progrès"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://smcs.smartschool.be",
+      "intent": "Télécharger les documents et les ressources pédagogiques mis à disposition par mes enseignants"
+    }
+  ]
+}

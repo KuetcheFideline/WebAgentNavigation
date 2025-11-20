@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://xn--hlytyslista-l8a.fi",
+      "intent": "Hae Vantaan alueen hälytykset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://xn--hlytyslista-l8a.fi",
+      "intent": "Selaa uusimmat uutiset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://xn--hlytyslista-l8a.fi",
+      "intent": "Etsi tietoa liikenneonnettomuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://xn--hlytyslista-l8a.fi",
+      "intent": "Tallenna Vantaan hälytyslista suosikkeihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://xn--hlytyslista-l8a.fi",
+      "intent": "Luo ilmoitus Vantaan alueen hälytyksistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://xn--hlytyslista-l8a.fi",
+      "intent": "Muokkaa oman tilannehuoneen asetuksia"
+    }
+  ]
+}

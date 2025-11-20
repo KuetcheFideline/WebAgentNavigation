@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://foorumi.kameralaukku.com",
+      "intent": "Selata kameralaukku-foorumin etusivua ja etsiä tietoa uusimmista viestiketjuista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://foorumi.kameralaukku.com",
+      "intent": "Lukea foorumin sääntöjä ja ohjeita ennen rekisteröitymistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://foorumi.kameralaukku.com",
+      "intent": "Etsiä tietoa kameralaukku-foorumin eri osioista, kuten kuvagalleriasta ja kuvakilpailuista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://foorumi.kameralaukku.com",
+      "intent": "Kirjautua sisään ja aloittaa uusi viestiketju aiheesta 'Kameran valinta aloittelijalle'"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://foorumi.kameralaukku.com",
+      "intent": "Vastata olemassaolevaan viestiketjuun ja osallistua keskusteluun aiheesta 'Kuvankäsittelyohjelmistot'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://foorumi.kameralaukku.com",
+      "intent": "Lähettää yksityisviesti toiselle foorumin käyttäjälle aiheesta 'Kameran huolto ja korjaus'"
+    }
+  ]
+}

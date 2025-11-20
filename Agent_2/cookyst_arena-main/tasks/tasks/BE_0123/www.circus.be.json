@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.circus.be",
+      "intent": "Découvrir les événements à venir au Circus pour planifier une soirée avec mes amis"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.circus.be",
+      "intent": "Rechercher des informations sur les artistes qui se produiront au Circus pour choisir le spectacle qui m'intéresse"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.circus.be",
+      "intent": "Consulter les tarifs et les offres spéciales pour réserver des billets à un prix raisonnable"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.circus.be",
+      "intent": "Réserver des billets pour un spectacle en utilisant mon compte pour bénéficier de réductions ou d'avantages"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.circus.be",
+      "intent": "Gérer mes réservations et mes billets pour un spectacle à venir et imprimer ou télécharger mes billets"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.circus.be",
+      "intent": "Participer à un concours ou à un jeu organisé par le Circus en utilisant mon compte pour augmenter mes chances de gagner"
+    }
+  ]
+}

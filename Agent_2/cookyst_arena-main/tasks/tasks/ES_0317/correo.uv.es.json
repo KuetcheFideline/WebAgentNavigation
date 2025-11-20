@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Buscar información sobre cómo configurar el correo electrónico en mi dispositivo móvil para acceder a mi cuenta de correo de la Universitat de València"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Leer las noticias y avisos de seguridad publicados en la página de inicio del correo electrónico de la UV para estar al tanto de posibles amenazas y medidas de seguridad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Explorar las opciones de ayuda y soporte técnico disponibles en la página de inicio del correo electrónico de la UV para resolver posibles problemas técnicos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Iniciar sesión en mi cuenta de correo electrónico de la UV para leer y responder a mensajes importantes relacionados con mi trabajo como profesor"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Configurar las preferencias de seguridad de mi cuenta de correo electrónico de la UV, como la autenticación de dos factores, para proteger mi información personal"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Organizar y archivar mis correos electrónicos en carpetas y etiquetas para mantener mi bandeja de entrada limpia y facilitar la búsqueda de información importante"
+    }
+  ]
+}

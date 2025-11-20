@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rops-online.be",
+      "intent": "Rechercher des objets d'art pour ma collection personnelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rops-online.be",
+      "intent": "Consulter les catalogues des ventes à venir pour planifier mes achats"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rops-online.be",
+      "intent": "Explorer les différentes catégories de vente pour découvrir de nouveaux objets"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rops-online.be",
+      "intent": "Enchérir sur un objet d'art qui correspond à mes goûts et à mon budget"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rops-online.be",
+      "intent": "Consulter l'historique de mes enchères pour suivre mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rops-online.be",
+      "intent": "Gérer mes préférences de notification pour être informé des ventes à venir"
+    }
+  ]
+}

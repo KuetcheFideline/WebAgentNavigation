@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.top-chef.net",
+      "intent": "Buscar recetas de tapas y aperitivos fríos para una cena con amigos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.top-chef.net",
+      "intent": "Explorar la sección de postres y ver las recetas de churros caseros"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.top-chef.net",
+      "intent": "Ver el vídeo de cómo preparar un mojito y seguir la receta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.top-chef.net",
+      "intent": "Guardar la receta de salmón en escabeche en mi lista de favoritos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.top-chef.net",
+      "intent": "Comentar en la sección de recetas de aguacates rellenos y compartir mi propia experiencia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.top-chef.net",
+      "intent": "Crear una lista de compras para la receta de huevos rellenos de salmón y enviarla a mi correo electrónico"
+    }
+  ]
+}

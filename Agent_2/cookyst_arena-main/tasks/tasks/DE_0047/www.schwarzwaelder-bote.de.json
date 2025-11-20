@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte nach aktuellen Nachrichten aus dem Schwarzwald suchen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich will die Seite 'Polizeibericht' aus dem Menü aufrufen, um mich über die neuesten Ereignisse in der Region zu informieren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte den Bereich 'Gastronomie' erkunden, um neue Restaurants oder Cafes in der Nähe zu entdecken."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte mein Profil verwalten und meine Abonnement-Einstellungen überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich will Push-Benachrichtigungen aktivieren, um immer auf dem neuesten Stand über wichtige Nachrichten zu bleiben."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte einen Leserbrief verfassen und meine Meinung zu einem aktuellen Thema äußern."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://digicampus.fi",
+      "intent": "Selata kaikille avoimia kursseja MOOC-kategorian alta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://digicampus.fi",
+      "intent": "Lukea tietoa DigiCampuksen tukipalvelusta ja sen käytöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://digicampus.fi",
+      "intent": "Etsiä tietoa korkeakoulujen yhteisistä kurssitarjonnista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://digicampus.fi",
+      "intent": "Kirjautua sisään ja tarkastaa omat kurssisuoritukset Työpöydän kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://digicampus.fi",
+      "intent": "Osallistua kurssin keskustelupalstalle ja jakaa omia ajatuksia aiheesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://digicampus.fi",
+      "intent": "Tarkastaa ja hallita omia kursseja ja suorituksia DigiCampuksen järjestelmässä"
+    }
+  ]
+}

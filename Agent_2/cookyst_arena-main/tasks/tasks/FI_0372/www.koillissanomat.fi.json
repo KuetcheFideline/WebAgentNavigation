@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Luen uutisia Koillissanomista, erityisesti Kajaanin ja ympäristön tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Etsin urheilu-uutisia, etenkin lentopallon otteluista ja tuloksista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Selvitan, miten voin osallistua Koillissanomien juttuvinkkien ja kirjoitusten lähettämiseen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Tilaa Koillissanomat ja hallinoidan tilaustani, sekä tarkistan, mitä etuja tilaajana minulla on."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Lähetän juttuvinkin tai kirjoituksen Koillissanomille, jotta voin jakaa ajatuksiani ja kokemuksiani yleisölle."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Kommentoin uutisartikkeleita ja osallistun keskusteluun Koillissanomien sivuilla, jotta voin vaikuttaa yhteisöön ja jakaa mielipidettäni."
+    }
+  ]
+}

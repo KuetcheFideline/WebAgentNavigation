@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gerrit.ext.net.nokia.com",
+      "intent": "Selvitän, mitä tällä sivustolla voi tehdä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gerrit.ext.net.nokia.com",
+      "intent": "Etsin tietoa Nokia-yhtiöstä ja sen tuotteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gerrit.ext.net.nokia.com",
+      "intent": "Katselen, mitä sivustolla on tarjolla uutisia ja blogipostauksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gerrit.ext.net.nokia.com",
+      "intent": "Tarkastan omia asetuksia ja profiilia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gerrit.ext.net.nokia.com",
+      "intent": "Lähetän viestin ylläpitoon tai asiakastukeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gerrit.ext.net.nokia.com",
+      "intent": "Muokkaan joitakin asetuksia tai profiilitietoja"
+    }
+  ]
+}

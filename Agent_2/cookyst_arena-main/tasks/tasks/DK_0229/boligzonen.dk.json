@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://boligzonen.dk",
+      "intent": "Jeg søger efter en lejebolig i Roskilde, så jeg vil bruge søgefunktionen på BoligZonen til at finde en passende bolig."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://boligzonen.dk",
+      "intent": "Jeg vil læse anmeldelserne af BoligZonen for at se, hvad andre brugere synes om hjemmesiden og dens services."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://boligzonen.dk",
+      "intent": "Jeg vil udforske de forskellige funktioner på BoligZonen, herunder BoligMatcher og søgeresultater, for at se, hvordan jeg bedst kan finde en lejebolig, der passer til mine behov."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://boligzonen.dk",
+      "intent": "Jeg vil logge ind på min konto på BoligZonen for at gemme mine søgekriterier og modtage beskeder, når der er nye lejeboliger, der matcher mine kriterier."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://boligzonen.dk",
+      "intent": "Jeg vil bruge min konto på BoligZonen til at kontakte udlejere om lejeboliger, der interesserer mig, og spørge om flere oplysninger eller en visning."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://boligzonen.dk",
+      "intent": "Jeg vil bruge BoligZonens kundeservice til at få hjælp med at løse et problem eller stille spørgsmål om en lejebolig, jeg er interesseret i."
+    }
+  ]
+}

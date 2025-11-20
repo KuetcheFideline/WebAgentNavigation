@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaperalia.es",
+      "intent": "Buscar un kit electrónico de vapeo para principiantes en la sección de Kits Electrónicos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaperalia.es",
+      "intent": "Explorar las diferentes marcas de mods electrónicos disponibles en la tienda en línea"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaperalia.es",
+      "intent": "Comparar los precios y características de diferentes atomizadores en la sección de Tipos de atomizadores"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaperalia.es",
+      "intent": "Agregar un kit de vapeo a mi carrito de compras y proceder a pagar con mi cuenta de cliente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaperalia.es",
+      "intent": "Verificar el historial de pedidos y el estado de mi cuenta en la sección de Mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaperalia.es",
+      "intent": "Editar la información de mi perfil de cliente y cambiar mi dirección de envío en la sección de Mi cuenta"
+    }
+  ]
+}

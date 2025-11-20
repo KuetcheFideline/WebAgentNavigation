@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://administracion.gob.es",
+      "intent": "Buscar información sobre ayudas para jóvenes desempleados en Sevilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://administracion.gob.es",
+      "intent": "Explorar las ofertas de empleo público disponibles en la Administración Pública"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://administracion.gob.es",
+      "intent": "Descargar la guía de tramites y servicios electrónicos para ciudadanos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://administracion.gob.es",
+      "intent": "Solicitar una cita previa para realizar un trámite en la oficina de empleo más cercana"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://administracion.gob.es",
+      "intent": "Consultar el estado de una solicitud de ayuda o subvención presentada anteriormente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://administracion.gob.es",
+      "intent": "Modificar mis datos personales y de contacto en la carpeta ciudadana"
+    }
+  ]
+}

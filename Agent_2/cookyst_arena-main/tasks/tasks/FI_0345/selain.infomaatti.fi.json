@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://selain.infomaatti.fi",
+      "intent": "Tarkastan Infomaatin etusivun sisältöä ja etsin tietoa sovelluksen käytöstä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://selain.infomaatti.fi",
+      "intent": "Luen Infomaatin tietosuojaselosteen, jotta ymmärrän, miten he käsittelevät henkilötietojani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://selain.infomaatti.fi",
+      "intent": "Kokeilen Infomaatin sovellusta ilman kirjautumista, jotta näen, mitä ominaisuuksia on tarjolla vieraana käyttäjänä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://selain.infomaatti.fi",
+      "intent": "Kirjaudun sisään ja tarkastan sovelluksen pääsivun, jotta voin aloittaa työni ja käyttää sovelluksen ominaisuuksia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://selain.infomaatti.fi",
+      "intent": "Muokkaan profiiliini ja tarkastan, että kaikki tietoni ovat ajan tasalla, jotta voin varmistaa, että sovellus toimii odotetusti."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://selain.infomaatti.fi",
+      "intent": "Käyn sovelluksen asetuksissa ja määritän, mitä tietoja haluan jakaa muiden käyttäjien kanssa, jotta voin hallita yksityisyyttäni sovelluksessa."
+    }
+  ]
+}

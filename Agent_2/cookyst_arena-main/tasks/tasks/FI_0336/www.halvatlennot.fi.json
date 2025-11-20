@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.halvatlennot.fi",
+      "intent": "Etsin halpoja lentoja Helsingistä Berliiniin joulukuussa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.halvatlennot.fi",
+      "intent": "Vertailen lentojen hintoja eri lentoyhtiöiden välillä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.halvatlennot.fi",
+      "intent": "Selvitan, mitä kaikkea sivustolla on tarjolla matkustamiseen liittyen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.halvatlennot.fi",
+      "intent": "Tallennan suosikkikohteeni, jotta voin helposti tarkistaa sen saatavuuden"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.halvatlennot.fi",
+      "intent": "Luo uusi matkahaku ja tallennan sen omiin suosikkeihini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.halvatlennot.fi",
+      "intent": "Tarkastan aiemmin tehtyjä varauksia ja tulostan niiden vahvistukset"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tapahtumakalenteri.kennelliitto.fi",
+      "intent": "Hae kaikki tulevat näyttelyt Espoon alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tapahtumakalenteri.kennelliitto.fi",
+      "intent": "Selaa eri rotujen näyttelyitä ja etsi tietoa afgaaninvinttikoirasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tapahtumakalenteri.kennelliitto.fi",
+      "intent": "Tutki kuukausittaisia näyttelyitä ja suunnittele vierailu yhdessä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tapahtumakalenteri.kennelliitto.fi",
+      "intent": "Ilmoita osallistuvaksi tulevaan näyttelyyn ja tallenna siihen liittyvät tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tapahtumakalenteri.kennelliitto.fi",
+      "intent": "Lisää uusi rotu suosikkilistalle ja seuraa sen kehittymistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tapahtumakalenteri.kennelliitto.fi",
+      "intent": "Vaihda salasana ja tarkista profiilin tiedot"
+    }
+  ]
+}

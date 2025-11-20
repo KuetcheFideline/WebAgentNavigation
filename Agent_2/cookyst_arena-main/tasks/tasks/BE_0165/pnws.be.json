@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pnws.be",
+      "intent": "Rechercher des articles sur les dernières actualités en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pnws.be",
+      "intent": "Découvrir les différentes rubriques proposées par le site, notamment les sections Nieuws et Sport"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pnws.be",
+      "intent": "Lire les derniers articles publiés dans la section Showbizz pour rester informé sur les célébrités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pnws.be",
+      "intent": "Abonner à la newsletter pour recevoir les dernières actualités et offres spéciales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pnws.be",
+      "intent": "Gérer mon compte pour mettre à jour mes informations personnelles et mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pnws.be",
+      "intent": "Accéder à la section Abonneren pour gérer mon abonnement et découvrir les avantages réservés aux abonnés"
+    }
+  ]
+}

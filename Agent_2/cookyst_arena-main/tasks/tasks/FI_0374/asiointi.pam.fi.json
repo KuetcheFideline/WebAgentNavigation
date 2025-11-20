@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiointi.pam.fi",
+      "intent": "Tutustun PAMin sähköiseen asiointiin ja etsin tietoa koulutusmahdollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiointi.pam.fi",
+      "intent": "Selailen PAMin verkkokauppaa ja etsin tuotteita, jotka ovat relevantteja minun ammattialalleni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiointi.pam.fi",
+      "intent": "Luen lisää PAMin tapahtumakalenterista ja etsin tapahtumia, joissa voisin osallistua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiointi.pam.fi",
+      "intent": "Kirjaudun sisään ja tarkistan jäsenmaksuni sekä vahvistan, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiointi.pam.fi",
+      "intent": "Päivitän sähköpostiosoitteeni PAMin järjestelmässä, jotta voin vastaanottaa tärkeitä ilmoituksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiointi.pam.fi",
+      "intent": "Ilmoittaudun maksuttomaan koulutukseen, joka on tarpeen minun ammattikehitykseni kannalta"
+    }
+  ]
+}

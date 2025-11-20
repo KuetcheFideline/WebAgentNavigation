@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.edpnet.be",
+      "intent": "Je veux vérifier si je peux accéder à mon compte webmail sans problème"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.edpnet.be",
+      "intent": "Je souhaite lire les instructions pour activer JavaScript dans mon navigateur pour utiliser le service de webmail"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.edpnet.be",
+      "intent": "Je veux explorer les fonctionnalités de base du service de webmail sans me connecter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.edpnet.be",
+      "intent": "Je veux consulter mes emails reçus aujourd'hui pour voir si j'ai des messages importants de l'université"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.edpnet.be",
+      "intent": "Je souhaite configurer les paramètres de sécurité de mon compte webmail pour éviter les problèmes de spam"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.edpnet.be",
+      "intent": "Je veux envoyer un email à mon professeur pour lui demander des informations sur le prochain examen de quadrimestre"
+    }
+  ]
+}

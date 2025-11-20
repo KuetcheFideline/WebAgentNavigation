@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.toyota.fi",
+      "intent": "Tutustun uusiin Toyota-malleihin ja etsin tietoa uusista autoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.toyota.fi",
+      "intent": "Etsin vaihtoautoja ja vertailen eri malleja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.toyota.fi",
+      "intent": "Löydän lähimmän Toyota-jälleenmyyjän ja tutustun heidän tarjontaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.toyota.fi",
+      "intent": "Kirjaudun MyToyota-tililleni ja tarkastan autoni huoltohistorian"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.toyota.fi",
+      "intent": "Varaan huoltoajan autolleni ja valitsen tarvittavat huoltotyöt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.toyota.fi",
+      "intent": "Tutustun Toyota Relax -turvaan ja tarkastan sen edut"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.mitma.gob.es",
+      "intent": "Buscar información sobre los trámites destacados disponibles en la sede electrónica del Ministerio de Transportes y Movilidad Sostenible"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.mitma.gob.es",
+      "intent": "Descargar la Resolución de modificación de la Resolución del Secretario de Estado de Transportes y Movilidad Sostenible por la que se establecen las condiciones de aplicación de las medidas de fomento del transporte colectivo en Renfe Viajeros SME"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.mitma.gob.es",
+      "intent": "Explorar la sección de Novedades normativas para estar al tanto de las últimas resoluciones y medidas adoptadas por el Ministerio de Transportes y Movilidad Sostenible"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.mitma.gob.es",
+      "intent": "Consultar el estado de mis trámites pendientes en la sede electrónica del Ministerio de Transportes y Movilidad Sostenible"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.mitma.gob.es",
+      "intent": "Realizar el pago de tasas autoliquidables para uno de mis trámites en curso"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.mitma.gob.es",
+      "intent": "Subsanar o anexar documentación adicional a uno de mis trámites en la sede electrónica del Ministerio de Transportes y Movilidad Sostenible"
+    }
+  ]
+}

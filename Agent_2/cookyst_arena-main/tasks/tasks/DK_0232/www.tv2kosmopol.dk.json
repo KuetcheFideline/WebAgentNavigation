@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tv2kosmopol.dk",
+      "intent": "Læs om kommunalvalget og hvilke kandidater der stiller op"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tv2kosmopol.dk",
+      "intent": "Søg efter nyheder om valgdebatter og kommunalvalg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tv2kosmopol.dk",
+      "intent": "Tilmeld dig nyhedsbrevet for at få de seneste nyheder om kommunalvalget"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tv2kosmopol.dk",
+      "intent": "Del en artikel om kommunalvalget på min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tv2kosmopol.dk",
+      "intent": "Kommenter på en artikel om kommunalvalget og del mine tanker"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tv2kosmopol.dk",
+      "intent": "Gem en artikel om kommunalvalget til min personlige samling"
+    }
+  ]
+}

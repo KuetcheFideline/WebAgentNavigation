@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lalibre.be",
+      "intent": "Rechercher les dernières actualités sur l'économie belge pour me tenir informé sur l'évolution du marché du travail"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lalibre.be",
+      "intent": "Lire les articles de la section 'Culture' pour découvrir de nouveaux livres et auteurs belges"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lalibre.be",
+      "intent": "Consulter la section 'Sports' pour suivre les résultats des matchs de football belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lalibre.be",
+      "intent": "Accéder à mon compte 'Ma Libre' pour personnaliser mes préférences de lecture et recevoir des notifications sur les sujets qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lalibre.be",
+      "intent": "Participer à un débat en ligne sur le site pour discuter avec d'autres lecteurs sur des sujets d'actualité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lalibre.be",
+      "intent": "Gérer mes abonnements et mes préférences de notification pour optimiser mon expérience de lecture sur le site"
+    }
+  ]
+}

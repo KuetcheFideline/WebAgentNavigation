@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://support.spotify.com",
+      "intent": "Hae apua Spotify-tilin hallintaan liittyvissä asioissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://support.spotify.com",
+      "intent": "Selvitä miten voin muuttaa maksutietojani Spotify-tilillä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://support.spotify.com",
+      "intent": "Lue lisää Spotifyn maksu- ja laskutusasioista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://support.spotify.com",
+      "intent": "Tarkista tilini maksu- ja laskutustiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://support.spotify.com",
+      "intent": "Muuta tilini salasanaa turvallisuuden vuoksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://support.spotify.com",
+      "intent": "Poista vanha maksukortti tilini maksutiedoista"
+    }
+  ]
+}

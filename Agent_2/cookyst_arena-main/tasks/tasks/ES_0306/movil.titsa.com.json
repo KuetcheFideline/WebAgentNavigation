@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://movil.titsa.com",
+      "intent": "Consultar los horarios de los autobuses para planificar mi viaje diario al trabajo en Martorell"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://movil.titsa.com",
+      "intent": "Buscar información sobre las rutas y paradas de autobús cerca de mi casa en Martorell"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://movil.titsa.com",
+      "intent": "Descargar la aplicación móvil de TITSA para tener acceso a información de transporte en tiempo real"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://movil.titsa.com",
+      "intent": "Comprar un billete de autobús con descuento para mi viaje semanal a la huerta utilizando mi cuenta de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://movil.titsa.com",
+      "intent": "Consultar mi historial de viajes y gastos en transporte público para hacer un seguimiento de mis gastos mensuales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://movil.titsa.com",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre cambios en los horarios de autobús o promociones especiales"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.if.fi",
+      "intent": "Hae vakuutusyhtiö Ifin kotisivuilta tietoa omakotitalon vakuutuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.if.fi",
+      "intent": "Vertaile eri vakuutusvaihtoehtoja Ifin sivuilla ja etsi edullisin vaihtoehto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.if.fi",
+      "intent": "Lue Ifin asiakaspalvelun usein kysytyt kysymykset ja etsi vastauksia yleisiin vakuutusaiheisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.if.fi",
+      "intent": "Kirjaudu sisään Omat sivut -palveluun ja tarkastele omia vakuutuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.if.fi",
+      "intent": "Tee vahinkoilmoitus Omat sivut -palvelun kautta, jos sinulla on vahinko"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.if.fi",
+      "intent": "Muuta omia tietoja Omat sivut -palvelussa, jos tarpeen"
+    }
+  ]
+}

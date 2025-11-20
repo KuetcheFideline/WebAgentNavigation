@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://myapps.microsoft.com",
+      "intent": "Selvittää, mitä sovelluksia on tarjolla Microsoftin sivustolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://myapps.microsoft.com",
+      "intent": "Etsiä tietoa Microsoftin tuotteista ja palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://myapps.microsoft.com",
+      "intent": "Ladata uusia sovelluksia työpaikan tarpeisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://myapps.microsoft.com",
+      "intent": "Hallita omia sovelluksia ja asetuksia Microsoft-tilillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://myapps.microsoft.com",
+      "intent": "Tarkastella ja hallita työpaikan sovelluslupia ja käyttöoikeuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://myapps.microsoft.com",
+      "intent": "Varmistaa, että kaikki sovellukset ovat ajan tasalla ja turvallisia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sedepkd.red.gob.es",
+      "intent": "Buscar información sobre los servicios de la Junta de Andalucía en el sitio web oficial"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sedepkd.red.gob.es",
+      "intent": "Explorar las secciones de noticias y actualidad para mantenerme informada sobre los temas de interés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sedepkd.red.gob.es",
+      "intent": "Descargar formularios y documentos necesarios para realizar trámites administrativos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sedepkd.red.gob.es",
+      "intent": "Acceder a mi perfil de usuario para consultar mis solicitudes y trámites en curso"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sedepkd.red.gob.es",
+      "intent": "Realizar una solicitud de cita previa para un trámite específico en la sede electrónica"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sedepkd.red.gob.es",
+      "intent": "Consultar y descargar mis documentos personales y profesionales almacenados en la plataforma"
+    }
+  ]
+}

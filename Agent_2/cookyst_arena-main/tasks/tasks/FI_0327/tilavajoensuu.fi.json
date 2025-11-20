@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tilavajoensuu.fi",
+      "intent": "Hae vapaata tilaa kuntosaliin, jotta voisin harjoitella salibandya"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tilavajoensuu.fi",
+      "intent": "Selvitä Joensuun kaupungin tarjoamien liikuntatilojen ja -alueiden hinnat ja varausajat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tilavajoensuu.fi",
+      "intent": "Tutki verkkokaupan tarjontaa ja etsi edullisia kuntosalikortteja maaseutualueiden kuntosaleille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tilavajoensuu.fi",
+      "intent": "Varaa tila Joensuu Areenalle salibandyharjoitteluun ja maksaa varaus verkkomaksulla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tilavajoensuu.fi",
+      "intent": "Tarkista varauskalenteri ja tee varaus Konservatorion konserttisalille bändin harjoitteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tilavajoensuu.fi",
+      "intent": "Ostetaan verkkokaupasta kuntosalikortti ja varataan aika kuntosaliin seuraavalle viikolle"
+    }
+  ]
+}

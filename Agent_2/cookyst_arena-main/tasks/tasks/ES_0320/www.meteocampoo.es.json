@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.meteocampoo.es",
+      "intent": "Buscar el pronóstico del tiempo para mi pueblo natal en Soria"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.meteocampoo.es",
+      "intent": "Explorar las secciones de noticias y actualidad sobre el clima en la región de Campoo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.meteocampoo.es",
+      "intent": "Ver las imágenes y vídeos de la nieve en la zona de Alto Campoo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.meteocampoo.es",
+      "intent": "Configurar mis preferencias de temperatura y unidades de medida para una mejor experiencia de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.meteocampoo.es",
+      "intent": "Guardar mis lugares favoritos para acceder rápidamente a sus pronósticos del tiempo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.meteocampoo.es",
+      "intent": "Participar en la sección de comentarios para compartir mis experiencias y opiniones sobre el clima en la región"
+    }
+  ]
+}

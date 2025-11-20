@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rudersdal.dk",
+      "intent": "Jeg søger efter information om kommunalvalget 2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rudersdal.dk",
+      "intent": "Jeg vil læse mere om Rudersdal Kommunes arbejde med at forbedre vandmiljøet i søerne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rudersdal.dk",
+      "intent": "Jeg søger efter oplysninger om hvordan jeg kan bestille tid i Borgerservice"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rudersdal.dk",
+      "intent": "Jeg vil se mit betalingsoversigt og kontrollere mine betalinger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rudersdal.dk",
+      "intent": "Jeg ønsker at sende en digital post til kommunen om et problem med affaldssortering"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rudersdal.dk",
+      "intent": "Jeg vil tilmelde mig kommunens nyhedsbrev for at modtage opdateringer om kommunens aktiviteter"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.simply.com",
+      "intent": "Jeg skal åbne min webmail og se, om jeg har nogen nye beskeder"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.simply.com",
+      "intent": "Jeg vil gerne læse mere om, hvordan jeg kan konfigurere min e-mail konto på Simply.com"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.simply.com",
+      "intent": "Jeg søger efter en vejledning til, hvordan jeg kan bruge WordPress på Simply.com"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.simply.com",
+      "intent": "Jeg vil gerne ændre min adgangskode, da jeg har brugt den samme på et andet site"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.simply.com",
+      "intent": "Jeg skal konfigurere en automatisk svar på min e-mail, så mine kontakter ved, at jeg er på ferie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.simply.com",
+      "intent": "Jeg vil gerne se, hvilke e-mails der er blevet sorteret som spam, og se, om der er nogen vigtige beskeder, der er havnet der"
+    }
+  ]
+}

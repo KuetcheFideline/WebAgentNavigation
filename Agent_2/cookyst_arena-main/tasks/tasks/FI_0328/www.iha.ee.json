@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.iha.ee",
+      "intent": "Selvitän, mitä tyyppisiä ilmoituksia sivustolla on tarjolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.iha.ee",
+      "intent": "Luen sivuston käyttöehdoista ja yksityisyyskäytännöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.iha.ee",
+      "intent": "Etsin tietoa siitä, miten sivuston ilmoitukset ovat järjestetty"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.iha.ee",
+      "intent": "Luo uusi ilmoitus omasta profiilistani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.iha.ee",
+      "intent": "Vastaan viesteihin, jotka olen saanut profiililleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.iha.ee",
+      "intent": "Muokkaan profiiliani ja lisään uusia kuvia"
+    }
+  ]
+}

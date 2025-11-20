@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.forex.fi",
+      "intent": "Tutkin valuuttakursseja ja etsin edullisinta vaihtoehtoa matkalle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.forex.fi",
+      "intent": "Selailen sivuston tarjoamia palveluita ja etsin tietoa rahansiirroista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.forex.fi",
+      "intent": "Luen asiakasarvosteluita ja etsin tietoa sivuston luotettavuudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.forex.fi",
+      "intent": "Tee tilisiirtoja ja hallinnoi tilieni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.forex.fi",
+      "intent": "Tarkastan tilin saldon ja etsin tietoa siirtojen tilasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.forex.fi",
+      "intent": "Muokkaan tilin asetuksia ja vaihdan salasanaani"
+    }
+  ]
+}

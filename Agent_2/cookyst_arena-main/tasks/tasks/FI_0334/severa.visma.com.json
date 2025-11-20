@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://severa.visma.com",
+      "intent": "Tutustun Severan etusivuun ja etsin tietoa heidän projektihallintatyökaluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://severa.visma.com",
+      "intent": "Vertailen eri projektihallintatyökaluja ja niiden ominaisuuksia Severan sivuilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://severa.visma.com",
+      "intent": "Luen asiakastarinoiden kautta, miten Severa on auttanut yrityksiä parantamaan projektiensa hallintaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://severa.visma.com",
+      "intent": "Kirjaudun sisään ja tarkastan oman tilini tiedot ja asetukset Severan järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://severa.visma.com",
+      "intent": "Luo uusi projekti ja määritän sille budjetin ja tehtävät Severan projektihallintatyökalun avulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://severa.visma.com",
+      "intent": "Raportoin projektiemme edistymistä ja analysoin kustannuksia Severan raportointityökalujen avulla"
+    }
+  ]
+}

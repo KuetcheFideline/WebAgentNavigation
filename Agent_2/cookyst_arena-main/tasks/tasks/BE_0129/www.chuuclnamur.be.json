@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.chuuclnamur.be",
+      "intent": "Rechercher un médecin spécialisé en gynécologie pour une consultation"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.chuuclnamur.be",
+      "intent": "Consulter les horaires de visite pour les patients hospitalisés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.chuuclnamur.be",
+      "intent": "Trouver les coordonnées du service des urgences pour une situation d'urgence"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.chuuclnamur.be",
+      "intent": "Prendre rendez-vous en ligne pour une consultation de suivi avec mon médecin traitant"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.chuuclnamur.be",
+      "intent": "Consulter mes résultats d'analyses en ligne pour suivre l'évolution de mon traitement"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.chuuclnamur.be",
+      "intent": "Gérer mes informations personnelles et médicales pour assurer la confidentialité de mes données"
+    }
+  ]
+}

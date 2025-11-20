@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.autodoc.es",
+      "intent": "Buscar recambios para mi coche para arreglar el freno que está haciendo un ruido extraño"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.autodoc.es",
+      "intent": "Comparar precios de neumáticos de diferentes marcas para mi vehículo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.autodoc.es",
+      "intent": "Explorar la sección de ofertas y descuentos para encontrar piezas baratas para mi coche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.autodoc.es",
+      "intent": "Agregar un nuevo vehículo a mi cuenta para poder buscar recambios específicos para él"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.autodoc.es",
+      "intent": "Revisar mi historial de compras para ver si puedo encontrar algún recambio que ya he comprado antes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.autodoc.es",
+      "intent": "Configurar mis preferencias de cuenta para recibir notificaciones sobre ofertas y promociones de recambios para mi vehículo"
+    }
+  ]
+}

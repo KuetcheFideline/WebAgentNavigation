@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://notifica.xunta.gal",
+      "intent": "Consultar la información general sobre el Sistema de Notificacións de Galicia para entender cómo funciona y qué servicios ofrece."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://notifica.xunta.gal",
+      "intent": "Buscar información sobre cómo darse de alta en la aplicación Notifica.gal y qué requisitos son necesarios para ello."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://notifica.xunta.gal",
+      "intent": "Explorar las preguntas frecuentes para resolver dudas sobre el uso del sistema de notificacións electrónicas y sus beneficios."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://notifica.xunta.gal",
+      "intent": "Acceder a mis notificaciones electrónicas para ver si hay alguna nueva notificación pendiente de leer o gestionar."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://notifica.xunta.gal",
+      "intent": "Modificar mis datos personales y de contacto para asegurarme de que la información es correcta y actualizada."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://notifica.xunta.gal",
+      "intent": "Autorizar a otra persona a acceder a mis notificaciones en mi nombre para facilitar la gestión de mis asuntos administrativos."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vuokra-asunnot.rettaasuntovuokraus.fi",
+      "intent": "Hae asuntoa Helsingin alueelta, jossa on vähintään 2 huonetta ja maksimivuokra on 800 euroa kuukaudessa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vuokra-asunnot.rettaasuntovuokraus.fi",
+      "intent": "Vertaile eri asuntotyyppejä, kuten kerrostaloja ja rivitaloja, ja niiden hintoja eri kaupunginosissa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vuokra-asunnot.rettaasuntovuokraus.fi",
+      "intent": "Selaa asuntoja, joissa on parveke ja huoneistosauna, ja tarkastele niiden sijainteja kartalla."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vuokra-asunnot.rettaasuntovuokraus.fi",
+      "intent": "Tallenna haussa käytetyt hakuehdot ja asuntoja, joihin olen kiinnostunut, jotta voin nopeasti tarkastella niitä myöhemmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vuokra-asunnot.rettaasuntovuokraus.fi",
+      "intent": "Jätä hakemus asuntoon, joka vastaa hakuehtojani, ja liitä mukaan tarvittavat asiakirjat, kuten tulostodistus ja vuokrasopimus."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vuokra-asunnot.rettaasuntovuokraus.fi",
+      "intent": "Muokkaa profiiliaani ja tallenna muutokset, jotta voin helpommin löytää asunnon, joka sopii minun tarpeisiini ja budjettiini."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.asturias.es",
+      "intent": "Buscar información sobre ayudas para la financiación de prestaciones oculares a menores de 12 años en la página de miPrincipado"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.asturias.es",
+      "intent": "Explorar la sección de Tramita con miPrincipado para conocer los servicios de la Sede Electrónica"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.asturias.es",
+      "intent": "Consultar el Boletín Oficial del Principado de Asturias para estar al tanto de las últimas disposiciones y legislaciones"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.asturias.es",
+      "intent": "Iniciar sesión en miPrincipado para acceder a la carpeta personal y realizar trámites electrónicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.asturias.es",
+      "intent": "Solicitar un certificado digital a través de la plataforma de miPrincipado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.asturias.es",
+      "intent": "Presentar una queja o sugerencia a través del formulario de contacto para empresas en miPrincipado"
+    }
+  ]
+}

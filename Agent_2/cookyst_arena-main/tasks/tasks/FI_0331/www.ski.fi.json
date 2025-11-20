@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ski.fi",
+      "intent": "Haluaisin tietää, mitkä hiihtokeskukset ovat avoinna tällä hetkellä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ski.fi",
+      "intent": "Luen uusimmat uutiset laskettelusta ja lumilautailusta Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ski.fi",
+      "intent": "Tilataan ski.fi uutiskirje, jotta saan tietoa laskettelusta ja lumilautailusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ski.fi",
+      "intent": "Tarkistaisin, mitä etuja Ski.fi-kortti tarjoaa minulle ja ystävilleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ski.fi",
+      "intent": "Selvittäisin, miten voin ostaa liput hiihtokeskuksiin kätevästi verkkokaupasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ski.fi",
+      "intent": "Tallennan suosikkihiihtokeskukseni, jotta voin nopeasti tarkistaa niiden aukioloajat ja tarjoamat palvelut"
+    }
+  ]
+}

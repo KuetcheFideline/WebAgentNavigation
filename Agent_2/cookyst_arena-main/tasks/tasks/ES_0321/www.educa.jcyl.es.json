@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.educa.jcyl.es",
+      "intent": "Buscar información sobre becas y ayudas para estudiantes de educación secundaria en Castilla y León"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.educa.jcyl.es",
+      "intent": "Consultar el calendario escolar para centros docentes no universitarios de Castilla y León"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.educa.jcyl.es",
+      "intent": "Explorar los recursos y materiales disponibles para el alumnado en el portal de educación de la Junta de Castilla y León"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.educa.jcyl.es",
+      "intent": "Acceder a la sección de gestiones y consultas para profesores y solicitar un concurso de traslados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.educa.jcyl.es",
+      "intent": "Consultar y descargar los materiales y recursos didácticos disponibles para el profesorado en el portal de educación"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.educa.jcyl.es",
+      "intent": "Realizar una búsqueda avanzada en el portal de educación para encontrar información sobre programas de gratuidad de libros de texto y otros recursos educativos"
+    }
+  ]
+}

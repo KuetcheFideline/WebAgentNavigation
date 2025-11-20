@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkokauppa.traktorivaruste.fi",
+      "intent": "Hae traktorin varaosia ja tarvikkeita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkokauppa.traktorivaruste.fi",
+      "intent": "Vertaile eri tuotteiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkokauppa.traktorivaruste.fi",
+      "intent": "Selaa tarjouksia ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkokauppa.traktorivaruste.fi",
+      "intent": "Tilaa tuotteita ostoskorista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkokauppa.traktorivaruste.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkokauppa.traktorivaruste.fi",
+      "intent": "Muokkaa profiilia ja tallenna suosikkituotteita"
+    }
+  ]
+}

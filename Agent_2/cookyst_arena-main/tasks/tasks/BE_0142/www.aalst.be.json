@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aalst.be",
+      "intent": "Rechercher les informations sur les événements à venir dans la ville d'Aalst pour planifier des activités de loisirs"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aalst.be",
+      "intent": "Consulter les informations sur les services de la ville, notamment les heures d'ouverture et les adresses des différents services"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aalst.be",
+      "intent": "Utiliser le formulaire de recherche pour trouver des informations spécifiques sur les activités et les services proposés par la ville"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aalst.be",
+      "intent": "Accéder à son compte personnel pour gérer ses informations et ses demandes de services en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aalst.be",
+      "intent": "Déposer une demande de document ou de service en ligne via le portail digital de la ville"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aalst.be",
+      "intent": "Prendre rendez-vous avec un agent de la ville pour discuter de ses besoins et de ses demandes de services"
+    }
+  ]
+}

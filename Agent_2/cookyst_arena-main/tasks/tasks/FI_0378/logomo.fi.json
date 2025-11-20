@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://logomo.fi",
+      "intent": "Hae tapahtumakalenterista tulevia konsertteja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://logomo.fi",
+      "intent": "Selvitä Logomon ravintoloiden lounaslistat ja hintataso"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://logomo.fi",
+      "intent": "Tutki Logomon tilat ja kokouspaketit yrityksen seuraavaa kokousta varten"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://logomo.fi",
+      "intent": "Tilaa liput tulevaan EUROVIISUT KAUTTA AIKOJEN -tapahtumaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://logomo.fi",
+      "intent": "Varaa pöytä Logomo Kitcheniin seuraavan viikon lounaalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://logomo.fi",
+      "intent": "Jätä palautetta viimeksi käydystä tapahtumasta Logomossa"
+    }
+  ]
+}

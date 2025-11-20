@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cevo.be",
+      "intent": "Rechercher des produits de peinture pour la maison"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cevo.be",
+      "intent": "Comparer les prix des différents types de verf pour les murs"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cevo.be",
+      "intent": "Explorer les différentes catégories de produits pour la maison et le jardin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cevo.be",
+      "intent": "Consulter mes commandes précédentes pour vérifier les produits que j'ai déjà achetés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cevo.be",
+      "intent": "Gérer mes informations de compte et mettre à jour mes coordonnées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cevo.be",
+      "intent": "Créer une liste de produits à acheter pour mon prochain projet de bricolage"
+    }
+  ]
+}

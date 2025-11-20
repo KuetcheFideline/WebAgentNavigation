@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://antwerpen.bibliotheek.be",
+      "intent": "Rechercher des livres pour la chorale dont je fais partie, afin de préparer notre prochain concert."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://antwerpen.bibliotheek.be",
+      "intent": "Découvrir les activités proposées pendant le mois de novembre, notamment les rencontres avec des auteurs et les événements liés à la lecture."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://antwerpen.bibliotheek.be",
+      "intent": "Consulter les conseils de lecture proposés par les bibliothécaires et les lecteurs, pour trouver de nouveaux auteurs et titres à découvrir."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://antwerpen.bibliotheek.be",
+      "intent": "Réserver un livre épuisé dont j'ai besoin pour un projet personnel, en utilisant mon compte pour accéder à la fonction de réservation en ligne."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://antwerpen.bibliotheek.be",
+      "intent": "Gérer mes prêts en cours et prolonger la durée d'emprunt d'un ouvrage qui m'intéresse particulièrement, via mon espace personnel sur le site de la bibliothèque."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://antwerpen.bibliotheek.be",
+      "intent": "Participer à un forum de discussion en ligne proposé par la bibliothèque, pour échanger des idées et des recommandations de lecture avec d'autres lecteurs."
+    }
+  ]
+}

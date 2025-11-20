@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lensonline.be",
+      "intent": "Rechercher des lentilles de contact pour mes yeux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lensonline.be",
+      "intent": "Comparer les prix des lentilles de contact de différentes marques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lensonline.be",
+      "intent": "Lire les avis des clients sur les produits et services de LensOnline"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lensonline.be",
+      "intent": "Consulter mes commandes précédentes et mes lentilles de contact actuelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lensonline.be",
+      "intent": "Mettre à jour mes informations de compte et mes préférences de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lensonline.be",
+      "intent": "Renouveler ma commande de lentilles de contact en utilisant mon abonnement LensPlan"
+    }
+  ]
+}

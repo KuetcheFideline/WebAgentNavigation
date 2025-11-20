@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.alandstidningen.ax",
+      "intent": "Lue uusimmat uutiset Ålandissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.alandstidningen.ax",
+      "intent": "Etsi tietoa paikallisista urheilutapahtumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.alandstidningen.ax",
+      "intent": "Selaa sivuston arkistoa vanhojen uutisten löytämiseksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.alandstidningen.ax",
+      "intent": "Kirjaudu sisään ja tilaa uutiskirje"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.alandstidningen.ax",
+      "intent": "Luo käyttäjäprofiili ja muokkaa omia tietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.alandstidningen.ax",
+      "intent": "Ota osaa keskusteluun ja kommentoi uutisia"
+    }
+  ]
+}

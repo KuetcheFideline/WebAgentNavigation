@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rosaviinijaruoka.fi",
+      "intent": "Etsiä reseptiä lihapataan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rosaviinijaruoka.fi",
+      "intent": "Löytää uusia viinisuosituksia itsenäisyyspäivän juhliin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rosaviinijaruoka.fi",
+      "intent": "Tilata reseptit sähköpostiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rosaviinijaruoka.fi",
+      "intent": "Tallentaa suosikkireseptit ja viinisuositukset omiin suosikkeihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rosaviinijaruoka.fi",
+      "intent": "Osallistua arvontaan ja voittaa samppanjalasit itselle ja ystävälle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rosaviinijaruoka.fi",
+      "intent": "Lukemaan ja kommentoimaan muiden käyttäjien kokemuksia ja reseptejä"
+    }
+  ]
+}

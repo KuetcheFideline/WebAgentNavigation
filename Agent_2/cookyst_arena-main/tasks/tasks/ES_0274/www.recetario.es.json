@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.recetario.es",
+      "intent": "Buscar recetas de cocina española para preparar un menú para mi familia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.recetario.es",
+      "intent": "Explorar las categorías de recetas para encontrar ideas para un almuerzo rápido y fácil"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.recetario.es",
+      "intent": "Leer las reseñas y comentarios de otros usuarios sobre una receta específica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.recetario.es",
+      "intent": "Guardar una receta en mi lista de favoritos para poder acceder a ella más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.recetario.es",
+      "intent": "Compartir una receta con mis amigos y familiares a través de las redes sociales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.recetario.es",
+      "intent": "Crear una colección de recetas personalizadas para planificar mis comidas de la semana"
+    }
+  ]
+}

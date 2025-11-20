@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://selandia-trailers.dk",
+      "intent": "Jeg søger efter en ny trailer til min forretning, så jeg vil klikke på 'Ny trailer' for at se, hvad Selandia Trailers tilbyder."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://selandia-trailers.dk",
+      "intent": "Jeg vil sammenligne priser på forskellige trailermodeller, så jeg klikker på 'Trailer tilbud' for at finde de bedste tilbud."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://selandia-trailers.dk",
+      "intent": "Jeg har brug for reservedele til min eksisterende trailer, så jeg søger efter 'Reservedele og tilbehør' for at se, hvad Selandia Trailers har at tilbyde."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://selandia-trailers.dk",
+      "intent": "Jeg vil bestille en ny trailer, så jeg logger ind og klikker på 'Gå til indkøbskurv' for at fuldføre min ordre."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://selandia-trailers.dk",
+      "intent": "Jeg ønsker at tjekke status på min eksisterende ordre, så jeg logger ind og søger efter 'Min konto' eller 'Ordrestatus' for at få opdateringer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://selandia-trailers.dk",
+      "intent": "Jeg har brug for at ændre mine kontoinformationer, så jeg logger ind og klikker på 'Min konto' for at redigere mine oplysninger."
+    }
+  ]
+}

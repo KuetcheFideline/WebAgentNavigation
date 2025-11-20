@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.alvaromoreno.com",
+      "intent": "Buscar ropa de hombre para mi cónyuge en la sección de Hombre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.alvaromoreno.com",
+      "intent": "Explorar la sección de Accesorios para encontrar un regalo para mi cónyuge"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.alvaromoreno.com",
+      "intent": "Verificar los envíos gratuitos a península a partir de 40€ en la sección de Ayuda"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.alvaromoreno.com",
+      "intent": "Verificar el estado de mi pedido en la sección de Mi cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.alvaromoreno.com",
+      "intent": "Realizar un cambio o devolución de un producto en la sección de Mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.alvaromoreno.com",
+      "intent": "Suscribirme a la Newsletter para recibir descuentos y promociones en la sección de Mi cuenta"
+    }
+  ]
+}

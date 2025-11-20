@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.helsinki.fi",
+      "intent": "Tutustun yliopiston kirjautumispalvelun ominaisuuksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.helsinki.fi",
+      "intent": "Selvittelen, mitä palveluita yliopistolla on tarjolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.helsinki.fi",
+      "intent": "Etsin tietoa HAKA- ja eduGAIN-liittoumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.helsinki.fi",
+      "intent": "Muutan automaattisen kirjautumisen asetuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.helsinki.fi",
+      "intent": "Käyn läpi omia käyttäjäasetuksia ja vahvistan ne"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.helsinki.fi",
+      "intent": "Kirjaudun ulos palvelusta ja tarkistan, että kaikki istunnot ovat suljettu"
+    }
+  ]
+}

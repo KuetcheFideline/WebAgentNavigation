@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.kotisivukone.fi",
+      "intent": "Tarkastan sähköpostini Kotisivukone Webmailissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.kotisivukone.fi",
+      "intent": "Luen ohjeet Kotisivukone Webmailin käyttämisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.kotisivukone.fi",
+      "intent": "Etsin tietoa Kotisivukone Webmailin turvallisuudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.kotisivukone.fi",
+      "intent": "Lähetän uuden sähköpostiviestin työkaverilleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.kotisivukone.fi",
+      "intent": "Muokkaan sähköpostiosoitteeni asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.kotisivukone.fi",
+      "intent": "Poistan vanhan sähköpostiviestin roskapostikansiosta"
+    }
+  ]
+}

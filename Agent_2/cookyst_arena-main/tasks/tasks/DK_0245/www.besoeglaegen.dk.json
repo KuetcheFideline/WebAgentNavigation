@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg søger information om muligheder for at få hjælp til mine sundhedsproblemer på hjemmesiden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne læse om de forskellige klinikker og deres specialer på besøglaegen.dk for at finde den bedste til min situation."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at se, om der er nogen relevante sundhedsrelaterede nyheder eller opdateringer på hjemmesiden, der kunne være nyttige for mig."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne logge ind for at se mine eksisterende patientoplysninger og tilføje nye oplysninger om mine sundhedsproblemer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Efter login vil jeg gerne søge efter og downloade mine sundhedsrapporter og lægeerklæringer fra min konto på besøglaegen.dk."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at bruge min login til at tilføje en ny sundhedsbegivenhed til min kalender og få en påmindelse om den på min telefon."
+    }
+  ]
+}

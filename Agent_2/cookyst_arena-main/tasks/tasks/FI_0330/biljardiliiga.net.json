@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://biljardiliiga.net",
+      "intent": "Tarkastella biljardiliigan sääntöjä ja turnausten aikatauluja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://biljardiliiga.net",
+      "intent": "Etsiä tietoa KymppiCupista ja sen ilmoittautumisohjeista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://biljardiliiga.net",
+      "intent": "Lukea uutisia ja blogipostauksia biljardiliigan ajankohtaisista tapahtumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://biljardiliiga.net",
+      "intent": "Ilmoittautua joukkueeseen tai turnaukseen käyttäjätunnuksella ja salasanalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://biljardiliiga.net",
+      "intent": "Tarkastella omia pelaajatilastoja ja otteluhistoriaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://biljardiliiga.net",
+      "intent": "Muokata omia tietoja ja asetuksia käyttäjäprofiilissa"
+    }
+  ]
+}

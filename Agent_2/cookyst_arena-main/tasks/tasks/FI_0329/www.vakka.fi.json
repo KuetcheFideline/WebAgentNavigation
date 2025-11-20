@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vakka.fi",
+      "intent": "Luen uutisia Mynämäen alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vakka.fi",
+      "intent": "Etsin tietoa kulttuuritapahtumista Vehmaalla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vakka.fi",
+      "intent": "Selailen urheilu-uutisia Wirmon naisten joukkueesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vakka.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutista Mynämäen strategiasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vakka.fi",
+      "intent": "Tilaa uutiskirje, jotta saan päivittäin uusimmat uutiset sähköpostiini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vakka.fi",
+      "intent": "Muokkaan profiiliani, jotta voin hallita mitä uutisia näen etusivulla"
+    }
+  ]
+}

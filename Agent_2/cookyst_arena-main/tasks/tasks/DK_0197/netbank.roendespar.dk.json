@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://netbank.roendespar.dk",
+      "intent": "Jeg søger at finde information om Rønde Sparekasses åbningstider og kontaktoplysninger."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://netbank.roendespar.dk",
+      "intent": "Jeg vil læse om Rønde Sparekasses tilbud og services, såsom lån og sparekontoer."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://netbank.roendespar.dk",
+      "intent": "Jeg ønsker at sammenligne Rønde Sparekasses rentesatser og gebyrer med andre banker."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://netbank.roendespar.dk",
+      "intent": "Jeg skal overføre penge fra min sparekonto til min lønkonto."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://netbank.roendespar.dk",
+      "intent": "Jeg ønsker at se mine seneste transaktioner og kontostand."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://netbank.roendespar.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer, såsom min adresse og telefonnummer."
+    }
+  ]
+}

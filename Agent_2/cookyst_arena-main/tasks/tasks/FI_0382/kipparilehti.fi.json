@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kipparilehti.fi",
+      "intent": "Luen uusimmat artikkelit veneilystä ja veneiden huollosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kipparilehti.fi",
+      "intent": "Etsin tietoa veneiden testistä ja arvostelusta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kipparilehti.fi",
+      "intent": "Selailen veneilyyn liittyviä mainoksia ja tarjouksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kipparilehti.fi",
+      "intent": "Tilaa uusimman lehtipainoksen ja luen sen sisällön"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kipparilehti.fi",
+      "intent": "Osallistun keskusteluun veneilystä ja veneiden huollosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kipparilehti.fi",
+      "intent": "Tallennan suosikkejani ja seuraan veneilyyn liittyviä uutisia"
+    }
+  ]
+}

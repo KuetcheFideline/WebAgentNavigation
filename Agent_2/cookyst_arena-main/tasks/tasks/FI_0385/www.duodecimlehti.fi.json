@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Hae Duodecim-lehden sivustolta tietoa masennuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Lue viimeisimmän numeron artikkeleita mielenkiinnon mukaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Selaa eri aiheita ja löydä mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Tallenna mielenkiintoinen artikkeli omaan kirjastoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Lue ja kommentoi artikkeleita, joissa on mielenkiintoisia aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Muokkaa profiilia ja tallenna mielenkiintoiset aiheet kirjastoon"
+    }
+  ]
+}

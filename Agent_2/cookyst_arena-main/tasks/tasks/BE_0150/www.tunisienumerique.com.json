@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tunisienumerique.com",
+      "intent": "Rechercher des informations sur les actualités en Tunisie et dans le monde"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tunisienumerique.com",
+      "intent": "Consulter les horaires de prières pour la ville de Tunis"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tunisienumerique.com",
+      "intent": "Lire les dernières nouvelles sur l'économie tunisienne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tunisienumerique.com",
+      "intent": "Publier un commentaire sur un article d'actualité"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tunisienumerique.com",
+      "intent": "Participer à un forum de discussion sur les questions politiques en Tunisie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tunisienumerique.com",
+      "intent": "Envoyer un message privé à un autre utilisateur pour discuter d'un sujet d'intérêt commun"
+    }
+  ]
+}

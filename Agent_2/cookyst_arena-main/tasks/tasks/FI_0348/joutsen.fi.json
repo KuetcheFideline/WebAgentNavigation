@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://joutsen.fi",
+      "intent": "Tutkin Joutsen-sivuston uusimmat naisten untuvatakit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://joutsen.fi",
+      "intent": "Vertailen eri untuvatakkien ominaisuuksia ja hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://joutsen.fi",
+      "intent": "Etsin Joutsen-sivustolta lahjaideat vaimolleni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://joutsen.fi",
+      "intent": "Tarkistan tilaustani ja seurannan tilaa Joutsen-tililläni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://joutsen.fi",
+      "intent": "Ostan uuden untuvatakin Joutsen-sivustolta käyttäen tiliäni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://joutsen.fi",
+      "intent": "Arvostelun kirjoittaminen ostamastani untuvatakista Joutsen-sivustolle"
+    }
+  ]
+}

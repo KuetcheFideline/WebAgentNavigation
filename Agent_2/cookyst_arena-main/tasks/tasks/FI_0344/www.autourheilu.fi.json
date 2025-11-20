@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autourheilu.fi",
+      "intent": "Hae tietoa autourheilun kilpailukalenterista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autourheilu.fi",
+      "intent": "Selaa eri autourheilulajeja ja niiden sääntöjä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autourheilu.fi",
+      "intent": "Etsi tietoa nuorisolajien valmennusmahdollisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autourheilu.fi",
+      "intent": "Täytä ilmoittautumislomake kilpailijaksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autourheilu.fi",
+      "intent": "Tarkastele omia kilpailutuloksia ja pistetilannetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autourheilu.fi",
+      "intent": "Määritä oma autourheiluun liittyvä profiili ja oikeudet"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tunnistus.kela.fi",
+      "intent": "Tarkastan Kelan verkkosivuilla teknisen virheen syyt ja yritän ratkaista ongelman"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tunnistus.kela.fi",
+      "intent": "Etsin Kelan verkkosivuilta tietoa siitä, miten voin muodostaa yhteyden palveluun uudelleen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tunnistus.kela.fi",
+      "intent": "Lähetän sähköpostia Kelan tekniselle tuelle tekninentuki@kela.fi ja pyytän apua tekniseen ongelmaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tunnistus.kela.fi",
+      "intent": "Tarkastan omat henkilökohtaiset tiedot ja varmistan, että ne ovat ajan tasalla Kelan järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tunnistus.kela.fi",
+      "intent": "Tutkin Kelan verkkopalvelun tarjoamia etuuksia ja tarkastan, mitä etuuksia minulla on oikeus saada"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tunnistus.kela.fi",
+      "intent": "Lähetän hakemuksen Kelan etuuden saamiseksi ja seuraan hakemukseni tilaa verkkopalvelun kautta"
+    }
+  ]
+}

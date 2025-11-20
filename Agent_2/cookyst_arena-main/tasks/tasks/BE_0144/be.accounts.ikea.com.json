@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://be.accounts.ikea.com",
+      "intent": "Je veux créer un compte pour gérer mes commandes et mes informations personnelles sur le site d'IKEA."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://be.accounts.ikea.com",
+      "intent": "Je souhaite consulter les conditions générales de vente et la politique de confidentialité du site avant de créer un compte."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://be.accounts.ikea.com",
+      "intent": "Je veux savoir comment fonctionne le système de fidélité et de réduction pour les clients réguliers d'IKEA."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://be.accounts.ikea.com",
+      "intent": "Je veux accéder à mon historique de commandes pour suivre l'état de mes livraisons en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://be.accounts.ikea.com",
+      "intent": "Je souhaite modifier mes informations de compte, notamment mon adresse e-mail et mon mot de passe, pour une meilleure sécurité."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://be.accounts.ikea.com",
+      "intent": "Je veux gérer mes abonnements aux newsletters et aux offres spéciales d'IKEA pour être informé des promotions en cours."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://grados.ugr.es",
+      "intent": "Buscar información sobre los grados de Artes y Humanidades ofrecidos por la Universidad de Granada"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://grados.ugr.es",
+      "intent": "Explorar las guías docentes firmadas para los estudiantes de Ciencias Sociales y Jurídicas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://grados.ugr.es",
+      "intent": "Leer más sobre las oportunidades de dobles titulaciones en la Universidad de Granada"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://grados.ugr.es",
+      "intent": "Acceder a la Oficina Virtual para consultar mis datos personales y académicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://grados.ugr.es",
+      "intent": "Descargar las guías docentes firmadas para mis asignaturas del grado de Comunicación"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://grados.ugr.es",
+      "intent": "Enviar un mensaje al equipo de atención al usuario para solicitar información sobre los requisitos de admisión para el grado de Ciencias de la Salud"
+    }
+  ]
+}

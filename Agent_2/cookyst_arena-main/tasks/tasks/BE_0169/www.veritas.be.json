@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.veritas.be",
+      "intent": "Rechercher des vêtements de femme pour mon épouse en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.veritas.be",
+      "intent": "Comparer les prix des différents modèles de sous-vêtements pour hommes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.veritas.be",
+      "intent": "Explorer la section 'Nouveautés' pour découvrir les dernières tendances en matière de vêtements"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.veritas.be",
+      "intent": "Consulter mes commandes passées pour vérifier l'état de ma dernière livraison"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.veritas.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.veritas.be",
+      "intent": "Utiliser mes points de fidélité pour obtenir une réduction sur ma prochaine commande"
+    }
+  ]
+}

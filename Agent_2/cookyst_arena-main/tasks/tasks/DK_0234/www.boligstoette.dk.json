@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.boligstoette.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan bruge MitID til at logge ind på boligstoette.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.boligstoette.dk",
+      "intent": "Jeg vil læse mere om, hvordan NemLog-in beskytter mine personlige oplysninger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.boligstoette.dk",
+      "intent": "Jeg søger efter hjælp til, hvordan jeg kan logge ind med MitID på boligstoette.dk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.boligstoette.dk",
+      "intent": "Jeg vil se mine personlige oplysninger og sikre, at de er opdaterede efter login"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.boligstoette.dk",
+      "intent": "Jeg søger efter at ændre mine login-oplysninger og sikre, at de er sikre"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.boligstoette.dk",
+      "intent": "Jeg vil se mine tidligere aktiviteter og transaktioner på boligstoette.dk efter login"
+    }
+  ]
+}

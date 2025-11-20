@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bicimarket.com",
+      "intent": "Buscar bicicletas de montaña para comprar en la tienda en línea"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bicimarket.com",
+      "intent": "Comparar los precios de diferentes marcas de bicicletas eléctricas en la tienda"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bicimarket.com",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre los productos de la tienda"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bicimarket.com",
+      "intent": "Acceder a mi cuenta de cliente para ver mis pedidos anteriores y realizar un seguimiento de mis compras"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bicimarket.com",
+      "intent": "Agregar productos a mi lista de deseos y compartirlos con amigos y familiares"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bicimarket.com",
+      "intent": "Realizar un pedido de una bicicleta y seleccionar la opción de pago y envío"
+    }
+  ]
+}

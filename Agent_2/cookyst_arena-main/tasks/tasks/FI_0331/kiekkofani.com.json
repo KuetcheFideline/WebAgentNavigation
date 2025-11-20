@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kiekkofani.com",
+      "intent": "Luen uusimmat jääkiekko-uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kiekkofani.com",
+      "intent": "Etsin tietoa SM-liigasta ja sen joukkueista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kiekkofani.com",
+      "intent": "Selailen sivuston eri osioita, kuten NHL- ja Liiga-uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kiekkofani.com",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia jääkiekko-uutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kiekkofani.com",
+      "intent": "Lisään omaa jääkiekkoaiheista blogipostia sivustolle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kiekkofani.com",
+      "intent": "Osallistun keskusteluun jääkiekkoaiheisessa foorumissa"
+    }
+  ]
+}

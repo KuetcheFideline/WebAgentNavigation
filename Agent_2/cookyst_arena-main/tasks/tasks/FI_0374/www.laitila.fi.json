@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.laitila.fi",
+      "intent": "Hae sivustolta tietoa Laitilan kaupungin järjestämistä urheilutapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.laitila.fi",
+      "intent": "Selaa Laitilan kaupungin verkkosivuja ja etsi tietoa kaupungin kulttuuritarjonnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.laitila.fi",
+      "intent": "Lue Laitilan kaupungin uutisia ja tiedotteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.laitila.fi",
+      "intent": "Kirjaudu sisään ja tee ilmoittautuminen Laitilan kaupungin järjestämälle liikuntatapahtumalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.laitila.fi",
+      "intent": "Täytä Laitilan kaupungin verkkosivuilla oleva palautelomake ja anna palautetta kaupungin palveluista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.laitila.fi",
+      "intent": "Kirjaudu sisään ja tee varaus Laitilan kaupungin nuorisotilasta Nuokkarista"
+    }
+  ]
+}

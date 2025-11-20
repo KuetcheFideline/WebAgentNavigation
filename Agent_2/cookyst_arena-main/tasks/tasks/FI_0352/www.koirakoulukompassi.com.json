@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.koirakoulukompassi.com",
+      "intent": "Haluaisin tietää, mitä koulutusvaihtoehtoja koirakoulussa on tarjolla, jotta voisin valita oikean kurssin omalle koiralleni."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.koirakoulukompassi.com",
+      "intent": "Olen kiinnostunut koirahieronnasta ja haluaisin tietää, miten voisin varata ajan koirani hierontaan."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.koirakoulukompassi.com",
+      "intent": "Tietäisinkö, mitä verkkokaupassa on tarjolla ja voinko tehdä ostoksia sieltä koiralleni."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.koirakoulukompassi.com",
+      "intent": "Haluaisin ilmoittautua koirani kurssille, joten tarvitsen kirjautua sisään ja tarkistaa, mitä kurssivaihtoehtoja on tarjolla ja miten voin tehdä ilmoittautumisen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.koirakoulukompassi.com",
+      "intent": "Olen kiinnostunut katsomaan, mitä tietoja koirakoulun verkkopalvelussa on minun koirani osallistumisista ja miten voin seurata hänen edistymistään."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.koirakoulukompassi.com",
+      "intent": "Tietäisinkö, miten voin muuttaa tai perua jo tehtyjä varauksia tai ilmoittautumisia, jos tarve pakottaa."
+    }
+  ]
+}

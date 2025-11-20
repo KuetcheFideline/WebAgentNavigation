@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://foorumi.shakkiliitto.fi",
+      "intent": "Tutkin shakkiuutisia ja -tapahtumia foorumilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://foorumi.shakkiliitto.fi",
+      "intent": "Etsin tietoa shakkikilpailuista ja turnauksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://foorumi.shakkiliitto.fi",
+      "intent": "Luen shakkiareenan uutisia ja artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://foorumi.shakkiliitto.fi",
+      "intent": "Osallistun keskusteluun shakkiaiheista foorumilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://foorumi.shakkiliitto.fi",
+      "intent": "Ilmoittaudun shakkikilpailuun tai turnaukseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://foorumi.shakkiliitto.fi",
+      "intent": "Tarkastan shakkipeliäni ja pelaajatilastojani"
+    }
+  ]
+}

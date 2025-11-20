@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www6.agenciatributaria.gob.es",
+      "intent": "Consultar los requisitos técnicos para realizar trámites en la Sede Electrónica para asegurarme de que mi navegador esté configurado correctamente"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www6.agenciatributaria.gob.es",
+      "intent": "Buscar información sobre cómo utilizar la APP Cl@ve para la autenticación por Cl@ve Móvil, ya que no estoy seguro de cómo funciona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www6.agenciatributaria.gob.es",
+      "intent": "Leer la política de privacidad para entender cómo se utilizan las cookies en la Sede Electrónica y cómo afectan a mi privacidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www6.agenciatributaria.gob.es",
+      "intent": "Acceder a mi cuenta para consultar mi declaración de la renta del año pasado y verificar que todos los datos estén correctos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www6.agenciatributaria.gob.es",
+      "intent": "Realizar un pago de impuestos pendientes utilizando la opción de pago en línea disponible en la Sede Electrónica"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www6.agenciatributaria.gob.es",
+      "intent": "Descargar una copia de mi certificado de residencia fiscal para adjuntarlo a una solicitud de subvención que estoy preparando"
+    }
+  ]
+}

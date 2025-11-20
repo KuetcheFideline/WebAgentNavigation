@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ostnyland.fi",
+      "intent": "Lue uusimmat uutiset Itä-Uudenmaan alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ostnyland.fi",
+      "intent": "Etsi tietoa paikallisista tapahtumista ja konserteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ostnyland.fi",
+      "intent": "Selaa luontosivuja ja etsi vinkkejä retkeilyyn"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ostnyland.fi",
+      "intent": "Kirjaudu sisään ja tilaa uutiskirje"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ostnyland.fi",
+      "intent": "Lue ja kommentoi artikkeleita, joissa käsitellään Itä-Uudenmaan paikallisia asioita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ostnyland.fi",
+      "intent": "Muokkaa profiilia ja tarkista tilauksen tiedot"
+    }
+  ]
+}

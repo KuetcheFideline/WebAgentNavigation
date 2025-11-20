@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://empleados.arriva.es",
+      "intent": "Buscar información sobre cómo recuperar la contraseña en caso de que la haya olvidado"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://empleados.arriva.es",
+      "intent": "Explorar la sección de novedades para ver qué hay de nuevo en el portal de Arriva"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://empleados.arriva.es",
+      "intent": "Leer las condiciones del servicio antes de aceptarlas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://empleados.arriva.es",
+      "intent": "Verificar el estado de mi cuenta y asegurarme de que no esté bloqueada"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://empleados.arriva.es",
+      "intent": "Solicitar un turno disponible según mis preferencias y horarios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://empleados.arriva.es",
+      "intent": "Guardar una solicitud de charla con un conductor para discutir sobre mis indicadores de conducción"
+    }
+  ]
+}

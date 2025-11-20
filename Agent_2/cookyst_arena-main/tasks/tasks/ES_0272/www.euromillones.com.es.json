@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.euromillones.com.es",
+      "intent": "Consultar los resultados de Euromillones del último sorteo para ver si he ganado algo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.euromillones.com.es",
+      "intent": "Buscar información sobre cómo jugar a Euromillones y las probabilidades de ganar"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.euromillones.com.es",
+      "intent": "Explorar las diferentes categorías de premios y los importes correspondientes en la tabla de reparto de premios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.euromillones.com.es",
+      "intent": "Iniciar sesión para jugar a Euromillones online y comprar boletos para el próximo sorteo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.euromillones.com.es",
+      "intent": "Verificar mis boletos de Euromillones anteriores para comprobar si he ganado algún premio"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.euromillones.com.es",
+      "intent": "Configurar mis preferencias de juego y notificaciones para recibir actualizaciones sobre los sorteos y resultados de Euromillones"
+    }
+  ]
+}

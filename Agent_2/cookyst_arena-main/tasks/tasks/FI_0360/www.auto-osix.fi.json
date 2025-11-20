@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.auto-osix.fi",
+      "intent": "Haku Toyota Hiace varaosia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.auto-osix.fi",
+      "intent": "Selvittää hinauspalvelun saatavuus Helsingissä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.auto-osix.fi",
+      "intent": "Etsi varaosia Mercedes-Benz E-sarjaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.auto-osix.fi",
+      "intent": "Tilata varaosia verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.auto-osix.fi",
+      "intent": "Tarkistaa tilausten tila"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.auto-osix.fi",
+      "intent": "Jättää palautetta viimeisestä varaosatilauksesta"
+    }
+  ]
+}

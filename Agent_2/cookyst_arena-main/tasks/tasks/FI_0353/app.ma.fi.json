@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.ma.fi",
+      "intent": "Haku opetusmateriaaleja luokan tarpeisiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.ma.fi",
+      "intent": "Vertailen eri opetusmateriaaleja ja niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.ma.fi",
+      "intent": "Selvittää miten Ma.fi:n palvelut voivat helpottaa opettajan työtä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.ma.fi",
+      "intent": "Tallentaa suosikkimateriaalit ja luokka-aineistot omaan käyttäjätiliini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.ma.fi",
+      "intent": "Luo uusi opetusmateriaali ja jaa se muiden opettajien kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.ma.fi",
+      "intent": "Arvostelen ja kommentoin käytettyjä opetusmateriaaleja ja annan palautetta niiden kehittämiseksi"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuluttajapaneeli.fi",
+      "intent": "Liity Kuluttajapaneeliin ja aloita vastaaminen kyselyihin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuluttajapaneeli.fi",
+      "intent": "Lue lisää palkkioista ja miten niitä voidaan lunastaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuluttajapaneeli.fi",
+      "intent": "Tutki miten Kuluttajapaneeli toimii ja mitä hyötyä siitä on"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuluttajapaneeli.fi",
+      "intent": "Vastaa aktiivisiin kyselyihin ja ansaitse palkkioita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuluttajapaneeli.fi",
+      "intent": "Täydennä profiilisi tietoja, jotta voit saada enemmän kyselykutsuja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuluttajapaneeli.fi",
+      "intent": "Lunasta ansaitsemiasi palkkioita PayPal-tilille tai lahjakorttina"
+    }
+  ]
+}

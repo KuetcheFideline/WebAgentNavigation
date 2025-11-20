@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://espoo.inschool.fi",
+      "intent": "Selataan Wilman etusivun tietoja ja etsitään tietoa huoltajien Wilma-tunnuksien luomisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://espoo.inschool.fi",
+      "intent": "Ladataan Wilman mobiilisovellus ja tutkitaan sen ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://espoo.inschool.fi",
+      "intent": "Etsitään Wilman käyttöohjeita ja usein kysytyjä kysymyksiä huoltajille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://espoo.inschool.fi",
+      "intent": "Tarkastellaan lapsen opintosuorituksia ja poissaoloja Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://espoo.inschool.fi",
+      "intent": "Lähetetään viesti lapsen opettajalle Wilman viestitoiminnon kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://espoo.inschool.fi",
+      "intent": "Tutkitaan koulun lähettämiä tiedotteita ja muistutuksia Wilman kautta"
+    }
+  ]
+}

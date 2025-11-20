@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mitstromlinet.stromlinet.dk",
+      "intent": "Jeg skal finde min kundenummer, så jeg kan logge ind på mit konto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mitstromlinet.stromlinet.dk",
+      "intent": "Jeg vil oprette en bruger, så jeg kan få adgang til mine kontooplysninger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mitstromlinet.stromlinet.dk",
+      "intent": "Jeg skal læse om, hvordan jeg kan ændre min adgangskode, hvis jeg har glemt den"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mitstromlinet.stromlinet.dk",
+      "intent": "Jeg vil se mine seneste el-regninger og kontrollere, om der er nogen fejl"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mitstromlinet.stromlinet.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer, så de er opdateret og korrekte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mitstromlinet.stromlinet.dk",
+      "intent": "Jeg vil se, om der er nogen nye tilbud eller kampagner, som kan hjælpe mig med at spare penge på min el-regning"
+    }
+  ]
+}

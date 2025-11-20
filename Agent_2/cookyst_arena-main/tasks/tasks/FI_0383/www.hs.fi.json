@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Luen uusimmat uutiset Suomesta ja maailmalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Etsin tietoa Helsingin Sanomien tilausvaihtoehdoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Selailen HS:n kuukausiliitteitä ja etsin mielenkiintoista luettavaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Tarkastan oman tilauseni tiedot ja muutan tarvittaessa tilausvaihtoehtoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Luen ja kommentoin mielenkiintoisia artikkeleita ja uutisia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Muutan evästeasetuksia ja tarkastan tietosuojalausekkeen"
+    }
+  ]
+}

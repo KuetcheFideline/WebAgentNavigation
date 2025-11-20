@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.surfmarket.org",
+      "intent": "Buscar tablas de surf para principiantes en la sección de Surfing"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.surfmarket.org",
+      "intent": "Explorar la sección de Accesorios Surfing y comparar precios de diferentes marcas de neoprenos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.surfmarket.org",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre las tablas de surf en la sección de Comentarios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.surfmarket.org",
+      "intent": "Agregar un producto a la lista de deseos y configurar las notificaciones para cuando esté disponible"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.surfmarket.org",
+      "intent": "Realizar un pedido de una tabla de surf y seleccionar la opción de pago y envío"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.surfmarket.org",
+      "intent": "Consultar el historial de pedidos y verificar el estado de un pedido reciente"
+    }
+  ]
+}

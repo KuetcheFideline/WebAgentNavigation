@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.page-jaune.be",
+      "intent": "Rechercher un numéro de téléphone inconnu pour identifier son propriétaire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.page-jaune.be",
+      "intent": "Consulter les commentaires laissés par d'autres utilisateurs sur un numéro de téléphone spécifique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.page-jaune.be",
+      "intent": "Télécharger l'application Call Insider pour obtenir des informations sur les numéros de téléphone"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.page-jaune.be",
+      "intent": "Publier un commentaire sur un numéro de téléphone pour avertir la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.page-jaune.be",
+      "intent": "Signaler un numéro de téléphone comme étant gênant ou dangereux"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.page-jaune.be",
+      "intent": "Modifier mon profil pour ajouter des informations sur mes numéros de téléphone préférés"
+    }
+  ]
+}

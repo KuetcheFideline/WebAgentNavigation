@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kirjastot.fi",
+      "intent": "Etsin kirjallisuustietoa Kirjasammosta ja Sivupiiristä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kirjastot.fi",
+      "intent": "Tutkin kirjastojen tv- ja radio-ohjelmaa Kirjastokaista.fi:stä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kirjastot.fi",
+      "intent": "Löydän tietoa musiikista ja musiikkikirjastoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kirjastot.fi",
+      "intent": "Tallennan suosikkikirjani ja -kirjailijani kirjastotililleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kirjastot.fi",
+      "intent": "Varaan kirjaa tai muuta aineistoa kirjastosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kirjastot.fi",
+      "intent": "Kysyn kirjastonhoitajalta neuvoa kirjallisuuden tai tiedonhaun suhteen"
+    }
+  ]
+}

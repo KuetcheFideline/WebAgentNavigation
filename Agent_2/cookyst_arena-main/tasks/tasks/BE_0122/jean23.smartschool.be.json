@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jean23.smartschool.be",
+      "intent": "Rechercher les informations sur les cours et les professeurs disponibles sur le site du Collège Jean XXIII"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jean23.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques et les documents mis à disposition par l'établissement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jean23.smartschool.be",
+      "intent": "Consulter les actualités et les événements à venir organisés par le Collège Jean XXIII"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jean23.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes absences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jean23.smartschool.be",
+      "intent": "Télécharger les devoirs et les documents de cours mis à disposition par les professeurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jean23.smartschool.be",
+      "intent": "Participer à des discussions en ligne avec mes camarades et mes professeurs sur les forums de l'établissement"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aulavirtual.murciaeduca.es",
+      "intent": "Explorar la página principal de Aula Virtual para conocer las novedades y actualizaciones de la plataforma"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aulavirtual.murciaeduca.es",
+      "intent": "Buscar información sobre cómo acceder a la plataforma anterior para consultar cursos anteriores"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aulavirtual.murciaeduca.es",
+      "intent": "Leer las preguntas frecuentes para resolver dudas sobre la actualización de la plataforma y la autenticación unificada"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aulavirtual.murciaeduca.es",
+      "intent": "Acceder a la plataforma con mi cuenta de murciaeduca.es para empezar a utilizar la nueva versión de Aula Virtual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aulavirtual.murciaeduca.es",
+      "intent": "Configurar mi perfil y ajustar mis preferencias en la plataforma para una mejor experiencia de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aulavirtual.murciaeduca.es",
+      "intent": "Crear un nuevo curso o actividad en la plataforma para compartir con otros usuarios y aprovechar las funcionalidades de la nueva versión"
+    }
+  ]
+}

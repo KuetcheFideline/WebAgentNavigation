@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lijstje.be",
+      "intent": "Créer une liste de cadeaux pour mon anniversaire en utilisant le bouton 'Maak een lijstje'"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lijstje.be",
+      "intent": "Rechercher des idées de cadeaux pour mon meilleur ami en utilisant la fonction de recherche par nom ou adresse e-mail"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lijstje.be",
+      "intent": "Découvrir comment fonctionne le site Lijstje.be en lisant la section 'Hoe het werkt...'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lijstje.be",
+      "intent": "Gérer mes listes de cadeaux existantes en cliquant sur mon nom d'utilisateur après m'être connecté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lijstje.be",
+      "intent": "Participer à un tirage au sort de cadeaux pour mon anniversaire en cliquant sur 'Start lootjes trekken' après m'être connecté"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lijstje.be",
+      "intent": "Consulter mes paramètres de compte et mes préférences en cliquant sur 'Gebruiksvoorwaarden' ou 'Privacy statement' après m'être connecté"
+    }
+  ]
+}

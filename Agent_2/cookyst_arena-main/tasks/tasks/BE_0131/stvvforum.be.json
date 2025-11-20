@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://stvvforum.be",
+      "intent": "Rechercher des informations sur les derniers matchs de STVV"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://stvvforum.be",
+      "intent": "Explorer les différents forums pour découvrir les discussions en cours"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://stvvforum.be",
+      "intent": "Lire les dernières actualités sur l'équipe de STVV"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://stvvforum.be",
+      "intent": "Publier un message pour discuter avec d'autres supporters de STVV"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://stvvforum.be",
+      "intent": "Répondre à un message existant pour partager mon opinion sur un sujet spécifique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://stvvforum.be",
+      "intent": "Configurer mes préférences de compte pour personnaliser mon expérience sur le forum"
+    }
+  ]
+}

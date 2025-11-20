@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Rechercher les informations sur les comptes d'épargne pour les personnes âgées"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Consulter les offres de prêts pour la rénovation d'une maison de repos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Découvrir les services de banque en ligne pour les personnes âgées"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Vérifier mon solde et mes transactions récentes sur mon compte en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Effectuer un virement pour payer les frais de ma maison de repos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Gérer mes assurances et contrats en ligne pour éviter les frais inutiles"
+    }
+  ]
+}

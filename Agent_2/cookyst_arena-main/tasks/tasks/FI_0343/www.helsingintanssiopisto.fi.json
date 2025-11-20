@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.helsingintanssiopisto.fi",
+      "intent": "Hae tietoa tanssitunneista ja -kurssista Helsingin tanssiopistossa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.helsingintanssiopisto.fi",
+      "intent": "Selvitä, miten ilmoittaudun tanssitunnille Helsingin tanssiopistossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.helsingintanssiopisto.fi",
+      "intent": "Etsi tietoa Helsingin tanssiopiston toimipaikoista ja aikatauluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.helsingintanssiopisto.fi",
+      "intent": "Ilmoittaudu tanssitunnille, jonka olen valinnut aiemmin Helsingin tanssiopistossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.helsingintanssiopisto.fi",
+      "intent": "Tarkista ja muokkaa omia tietojani ja tanssituntien ilmoittautumisia Helsingin tanssiopistossa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.helsingintanssiopisto.fi",
+      "intent": "Osta lahjakortti tanssitunnille Helsingin tanssiopistossa lahjaksi ystävälle"
+    }
+  ]
+}

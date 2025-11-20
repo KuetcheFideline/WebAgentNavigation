@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.basket.fi",
+      "intent": "Tutkin sivuston uutisia ja etsin tietoa Susijengistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.basket.fi",
+      "intent": "Selailen Korisliigan tuloksia ja tilastoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.basket.fi",
+      "intent": "Etsin tietoa Naisten Korisliigasta ja sen joukkueista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.basket.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman profiilini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.basket.fi",
+      "intent": "Osallistun keskusteluun foorumilla ja kommentoin uutisia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.basket.fi",
+      "intent": "Tilaa uutiskirjeen ja muokkaan omia asetuksia"
+    }
+  ]
+}

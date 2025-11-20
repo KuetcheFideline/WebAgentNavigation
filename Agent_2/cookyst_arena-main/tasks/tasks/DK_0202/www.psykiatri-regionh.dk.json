@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.psykiatri-regionh.dk",
+      "intent": "Jeg søger information om psykiatriske behandlingsmuligheder for mine patienter"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.psykiatri-regionh.dk",
+      "intent": "Jeg ønsker at læse om de seneste nyheder og udviklinger inden for psykiatri i Region H"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.psykiatri-regionh.dk",
+      "intent": "Jeg søger kontaktoplysninger til psykiatriske afdelinger og specialister i mit område"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.psykiatri-regionh.dk",
+      "intent": "Jeg skal tilføje en ny patient til mit oversigt over patienter og følge deres behandlingsforløb"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.psykiatri-regionh.dk",
+      "intent": "Jeg ønsker at se mine patienters medicinske journaler og noter for at følge deres behandling"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.psykiatri-regionh.dk",
+      "intent": "Jeg skal indberette en patient til en psykiatrisk vurdering og behandling"
+    }
+  ]
+}

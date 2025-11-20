@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ess.fi",
+      "intent": "Luen uusimmat uutiset Etelä-Suomen Sanomista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ess.fi",
+      "intent": "Etsin tietoa Lahden koulujen uusista oppilaaksiotoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ess.fi",
+      "intent": "Selailen Päijät-Hämeen paikallisuutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ess.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ess.fi",
+      "intent": "Tilaa uutiskirje ja päivitä tilaustani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ess.fi",
+      "intent": "Luen ja vastaan uusimpiin lukijakommentteihin"
+    }
+  ]
+}

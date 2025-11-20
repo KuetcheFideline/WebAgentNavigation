@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Haluaisin etsiä tietoa masennuksesta ja sen hoidosta Terveystalon sivuilta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Olen kiinnostunut laboratoriopaketeista ja haluaisin tietää enemmän niiden hinnoista ja sisällöstä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Tiedustelen mahdollisuuksia varata aika lastenlääkärille lapseni vuoksi."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Haluan tarkastella omaa potilastietojani ja tutkia aiempia käyntejäni Terveystalossa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Olen kiinnostunut etävastaanotosta ja haluaisin varata ajan etävastaanottoon."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Tarkastan työterveystietojani ja etsin tietoa työkykyjohtamisesta ja mielen hyvinvoinnista."
+    }
+  ]
+}

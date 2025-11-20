@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hyvaterveys.fi",
+      "intent": "Luen uusimmat terveysuutiset ja etsin tietoa Alzheimerin taudista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hyvaterveys.fi",
+      "intent": "Selailen sivuston reseptihakuun ja etsin reseptejä, jotka sopivat puolisoni dieettiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hyvaterveys.fi",
+      "intent": "Käyn läpi sivuston mieli- ja hyvinvointiin liittyvät artikkelit ja etsin vinkkejä omaishoitajan stressin hallintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hyvaterveys.fi",
+      "intent": "Kirjaudun sisään ja tallennan sivuston suosituimmat artikkelit omaani kirjastoani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hyvaterveys.fi",
+      "intent": "Osallistun sivuston keskustelupalstalle ja kysyn neuvoa muilta käyttäjiltä puolisoni sairauden hoitamiseen liittyen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hyvaterveys.fi",
+      "intent": "Tilaa uutiskirje ja saat sähköpostiini viikoittain uusimmat terveysuutiset ja vinkit"
+    }
+  ]
+}

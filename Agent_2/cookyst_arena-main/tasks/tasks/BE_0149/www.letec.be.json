@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.letec.be",
+      "intent": "Je veux consulter les horaires des bus pour me rendre au travail à l'hôpital CHU de Liège."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.letec.be",
+      "intent": "Je cherche à savoir si il y a des travaux sur les lignes de bus qui pourraient affecter mon trajet quotidien."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.letec.be",
+      "intent": "Je veux télécharger l'application mobile de TEC pour avoir accès à mes itinéraires de bus en temps réel."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.letec.be",
+      "intent": "Je souhaite personnaliser mon profil utilisateur pour recevoir des alertes sur les perturbations de trafic qui concernent mes lignes de bus régulières."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.letec.be",
+      "intent": "Je veux acheter un abonnement mensuel de bus en ligne pour éviter de perdre du temps à l'achat de tickets papier."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.letec.be",
+      "intent": "Je souhaite consulter mon historique de voyages pour connaître mes dépenses totales en transport en commun sur les trois derniers mois."
+    }
+  ]
+}

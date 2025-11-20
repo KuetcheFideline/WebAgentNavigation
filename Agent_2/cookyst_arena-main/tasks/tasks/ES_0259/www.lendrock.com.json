@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lendrock.com",
+      "intent": "Buscar información sobre los requisitos para solicitar un crédito para comprar un coche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lendrock.com",
+      "intent": "Comparar las diferentes opciones de financiación de coches que ofrece Lendrock"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lendrock.com",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre sus experiencias con Lendrock"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lendrock.com",
+      "intent": "Iniciar sesión en mi panel de cliente para verificar el estado de mi solicitud de crédito"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lendrock.com",
+      "intent": "Configurar mis preferencias de pago y plazos para mi crédito de coche"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lendrock.com",
+      "intent": "Descargar y imprimir mi contrato de crédito y documentos relacionados"
+    }
+  ]
+}

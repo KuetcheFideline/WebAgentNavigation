@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hyvatyo.ttl.fi",
+      "intent": "Löytää tietoa Työterveyslaitoksen palveluista ja tutkimuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hyvatyo.ttl.fi",
+      "intent": "Selata Työterveyslaitoksen yhteystietoja ja toimipisteiden sijainteja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hyvatyo.ttl.fi",
+      "intent": "Lukea Työterveyslaitoksen tiedotteita ja uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hyvatyo.ttl.fi",
+      "intent": "Kirjautua sisään Työterveyslaitoksen asiakasportaaliin ja tarkastella omia tiedostoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hyvatyo.ttl.fi",
+      "intent": "Täyttää Työterveyslaitoksen verkkolomake ja lähettää kysely tai palautetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hyvatyo.ttl.fi",
+      "intent": "Muokata omia tietoja ja asetuksia Työterveyslaitoksen asiakasprofiilissa"
+    }
+  ]
+}

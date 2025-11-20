@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ekstrabladet.dk",
+      "intent": "Læse nyheder om dansk sport"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ekstrabladet.dk",
+      "intent": "Søge efter information om kommuneaktiviteter i Gellerup"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ekstrabladet.dk",
+      "intent": "Se hvilke underholdningsprogrammer der er på TV i denne uge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ekstrabladet.dk",
+      "intent": "Tilføje en artikel til mine favoritter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ekstrabladet.dk",
+      "intent": "Del en interessant artikel med mine venner på sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ekstrabladet.dk",
+      "intent": "Kommentere på en artikel om en aktuel begivenhed i Danmark"
+    }
+  ]
+}

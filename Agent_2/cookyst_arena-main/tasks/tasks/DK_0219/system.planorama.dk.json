@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://system.planorama.dk",
+      "intent": "Jeg søger efter information om Planoramas løsninger til vedvarende energi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://system.planorama.dk",
+      "intent": "Jeg vil sammenligne forskellige energiløsninger til mit hjem i Fredericia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://system.planorama.dk",
+      "intent": "Jeg ønsker at downloade en brochure om Planoramas tilbud til erhvervskunder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://system.planorama.dk",
+      "intent": "Jeg skal tilføje en ny bruger til mit eksisterende kundepanel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://system.planorama.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer og opdatere min adgangskode"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://system.planorama.dk",
+      "intent": "Jeg skal generere en rapport over mine energiforbrugsdata for de sidste 6 måneder"
+    }
+  ]
+}

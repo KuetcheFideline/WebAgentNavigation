@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://commerce.finqu.com",
+      "intent": "Selvittää mitä tuotteita Finqu tarjoaa ja etsii uusimmat tarjoukset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://commerce.finqu.com",
+      "intent": "Lukea asiakasarvosteluita ja etsii suosituksia tuotteiden valintaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://commerce.finqu.com",
+      "intent": "Etsii tietoa Finqu:n toimitus- ja palautuskäytännöistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://commerce.finqu.com",
+      "intent": "Tarkistaa tilaustani ja seurata tilausten etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://commerce.finqu.com",
+      "intent": "Muuttaa profiilitietojani ja päivittää osoitteeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://commerce.finqu.com",
+      "intent": "Tarkistaa ostohistoriani ja etsii suosituksia uusista tuotteista"
+    }
+  ]
+}

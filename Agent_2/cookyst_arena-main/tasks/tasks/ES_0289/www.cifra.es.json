@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cifra.es",
+      "intent": "Buscar productos de regalo para mi familia en la sección de Hogar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cifra.es",
+      "intent": "Explorar las ofertas y descuentos en la sección de Outlet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cifra.es",
+      "intent": "Leer las noticias y novedades en la sección de NEWS 2025"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cifra.es",
+      "intent": "Verificar el historial de mis pedidos y facturas en la sección de Pedidos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cifra.es",
+      "intent": "Realizar un pago de proforma pendiente en la sección de Pedidos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cifra.es",
+      "intent": "Actualizar mis direcciones de entrega en la sección de Pedidos"
+    }
+  ]
+}

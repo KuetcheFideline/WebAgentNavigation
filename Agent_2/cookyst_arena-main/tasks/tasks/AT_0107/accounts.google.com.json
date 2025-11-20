@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://accounts.google.com",
+      "intent": "Ich möchte mich über die verschiedenen Funktionen von Google Accounts informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://accounts.google.com",
+      "intent": "Ich will herausfinden, wie ich ein neues Google-Konto erstelle."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://accounts.google.com",
+      "intent": "Ich möchte die verschiedenen Sicherheitsoptionen von Google Accounts erkunden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://accounts.google.com",
+      "intent": "Ich will meine Kontoinformationen überprüfen und aktualisieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://accounts.google.com",
+      "intent": "Ich möchte meine Sicherheitseinstellungen anpassen, um mein Konto zu schützen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://accounts.google.com",
+      "intent": "Ich will meine verknüpften Geräte und Apps überprüfen und ggf. entfernen."
+    }
+  ]
+}

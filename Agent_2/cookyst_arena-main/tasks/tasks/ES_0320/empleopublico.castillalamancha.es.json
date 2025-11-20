@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://empleopublico.castillalamancha.es",
+      "intent": "Buscar ofertas de empleo público en Castilla-La Mancha para personas mayores de 65 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://empleopublico.castillalamancha.es",
+      "intent": "Consultar la información sobre procesos selectivos para acceder al empleo público en la región"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://empleopublico.castillalamancha.es",
+      "intent": "Explorar las preguntas y respuestas frecuentes sobre el proceso selectivo actual en la página de FAQ"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://empleopublico.castillalamancha.es",
+      "intent": "Iniciar sesión para consultar mis solicitudes pendientes y ver el estado de mis procesos selectivos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://empleopublico.castillalamancha.es",
+      "intent": "Presentar mi solicitud para una oferta de empleo público que se ajuste a mi perfil y experiencia laboral"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://empleopublico.castillalamancha.es",
+      "intent": "Consultar y descargar mis certificados de pruebas superadas en el portal de empleo público"
+    }
+  ]
+}

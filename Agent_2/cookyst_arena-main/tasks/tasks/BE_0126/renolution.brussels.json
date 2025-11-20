@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://renolution.brussels",
+      "intent": "Rechercher des informations sur les primes de rénovation pour mon appartement à Charleroi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://renolution.brussels",
+      "intent": "Consulter les étapes d'une rénovation pour préparer mes travaux de rénovation"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://renolution.brussels",
+      "intent": "Trouver des professionnels du bâtiment agréés pour réaliser mon projet de rénovation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://renolution.brussels",
+      "intent": "Sauvegarder mes favoris pour revenir plus tard sur les primes de rénovation qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://renolution.brussels",
+      "intent": "Envoyer par e-mail mes favoris pour les partager avec mon architecte ou mon entrepreneur"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://renolution.brussels",
+      "intent": "Réinitialiser mes favoris pour recommencer une nouvelle recherche de primes de rénovation"
+    }
+  ]
+}

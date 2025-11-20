@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://identityserver.kinepolis.com",
+      "intent": "Essayer de contourner le blocage pour accéder au site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://identityserver.kinepolis.com",
+      "intent": "Rechercher des informations sur les raisons de ce blocage pour comprendre comment résoudre le problème"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://identityserver.kinepolis.com",
+      "intent": "Vérifier si d'autres utilisateurs ont rencontré des problèmes similaires avec le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://identityserver.kinepolis.com",
+      "intent": "Tenter de me connecter pour voir si mon compte est toujours actif et si je peux accéder à mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://identityserver.kinepolis.com",
+      "intent": "Essayer de modifier mes paramètres de sécurité pour éviter d'être à nouveau bloqué à l'avenir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://identityserver.kinepolis.com",
+      "intent": "Contacter le support technique pour signaler le problème et obtenir de l'aide pour résoudre le blocage"
+    }
+  ]
+}

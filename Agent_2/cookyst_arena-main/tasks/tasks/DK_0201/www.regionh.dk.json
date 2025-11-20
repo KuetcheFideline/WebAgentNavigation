@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.regionh.dk",
+      "intent": "Jeg søger efter information om sundhedsydelser i Region Hovedstaden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.regionh.dk",
+      "intent": "Jeg vil læse om nyheder og pressemeddelelser fra Region Hovedstaden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.regionh.dk",
+      "intent": "Jeg søger efter kontaktoplysninger til en specifik afdeling i Region Hovedstaden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.regionh.dk",
+      "intent": "Jeg vil tilføje en begivenhed til min kalender fra Region Hovedstadens arrangementer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.regionh.dk",
+      "intent": "Jeg ønsker at ændre mine personlige oplysninger i mit brugerprofil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.regionh.dk",
+      "intent": "Jeg vil downloade en rapport om sundhedsdata fra Region Hovedstaden"
+    }
+  ]
+}

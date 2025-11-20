@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lions.fi",
+      "intent": "Hae sivustolta tietoa lionsklubien toiminnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lions.fi",
+      "intent": "Lue lisää käyttämistämme evästeistä ja hyväksy evästeet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lions.fi",
+      "intent": "Tutustu erilaisiin lionsklubeihin ja etsi lähin lionsklubisi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lions.fi",
+      "intent": "Kirjaudu sisään ja hallinnoi omaa lionsklubisi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lions.fi",
+      "intent": "Lahjoita liiton katastrofirahastoon ja seuraa lahjoituksesi vaikutusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lions.fi",
+      "intent": "Osallistu lionsklubin keskusteluihin ja jaksoi ajatuksia toiminnasta"
+    }
+  ]
+}

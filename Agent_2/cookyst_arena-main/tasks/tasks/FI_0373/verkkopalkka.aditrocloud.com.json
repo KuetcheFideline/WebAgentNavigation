@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Selvitän, miten voin kirjautua palveluun uudelleen verkkopankin kautta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Etsin tietoa siitä, miten voin ratkaista istuntoani päättymiseen liittyvät ongelmat."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Luen lisää palvelun ominaisuuksista ja miten ne voivat auttaa minua hallitsemaan työttömyyskassani asioita."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan työttömyyskassani saldon ja viimeisimmät tapahtumat."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Muutan salasanaani, jotta voin varmistaa, että minun tietoni ovat turvassa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Lähetän viestin asiakaspalveluun, jotta saan apua työttömyyskassani asioiden hoitamiseen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cancer.be",
+      "intent": "Rechercher des informations sur la prévention du cancer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cancer.be",
+      "intent": "Consulter les actualités sur la recherche contre le cancer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cancer.be",
+      "intent": "Découvrir les témoignages de personnes ayant vaincu le cancer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cancer.be",
+      "intent": "Faire un don pour soutenir la recherche contre le cancer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cancer.be",
+      "intent": "S'inscrire à la newsletter pour rester informé sur les activités de la Fondation contre le cancer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cancer.be",
+      "intent": "Contacter le service Cancerinfo pour obtenir des conseils et des informations sur le cancer"
+    }
+  ]
+}

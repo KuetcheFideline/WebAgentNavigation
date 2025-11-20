@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vanopstal.be",
+      "intent": "Rechercher des scharnieren pour une porte de cuisine en bois"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vanopstal.be",
+      "intent": "Comparer les prix des geleiders Accuride et Salice pour un projet de rénovation"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vanopstal.be",
+      "intent": "Télécharger le catalogue des produits de schuifdeurbeslag pour une étude de faisabilité"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vanopstal.be",
+      "intent": "Ajouter des scharnieren Salice série 200 à ma liste de souhaits pour un achat futur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vanopstal.be",
+      "intent": "Consulter mes commandes passées pour vérifier l'état d'une livraison de geleiders"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vanopstal.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Hae kohdetta 'akneihon puhdistustuotteet'"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Selaa tarjouksia ja etsi edullisia vaihtoehtoja masennuksen hoitoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Lue artikkeleita aiheesta 'kuiva suu' ja etsi oireiden lievittämiseen sopivia tuotteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Tarkista tilaushistoria ja etsi mahdollisia uusintatilauksia reseptilääkkeistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Muokkaa oman tilin tietoja, kuten osoitetta ja salasanaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja tee uusi tilaus, käyttäen aiemmin tallennettuja maksu- ja toimitustietoja"
+    }
+  ]
+}

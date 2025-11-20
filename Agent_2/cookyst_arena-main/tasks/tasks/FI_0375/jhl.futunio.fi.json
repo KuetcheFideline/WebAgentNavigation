@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jhl.futunio.fi",
+      "intent": "Tutustun sivuston etusivuun ja etsin tietoa julkishallinnon asiointipalveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jhl.futunio.fi",
+      "intent": "Selailen sivuston hakemistoa ja etsin linkkejä verohallinnon asiakirjoihin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jhl.futunio.fi",
+      "intent": "Käyn läpi sivuston uutisia ja ajankohtaisia aiheita, jotka liittyvät julkishallinnon toimintaan."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jhl.futunio.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat asiakirjani ja viestit verohallinnon asiointipalvelussa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jhl.futunio.fi",
+      "intent": "Lähetän viestin verohallinnon asiakaspalveluun kysymykseni liittyen verotukseen ja odotan vastausta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jhl.futunio.fi",
+      "intent": "Päivitän omat tiedot ja osoitetani verohallinnon asiointipalvelussa, jotta varmistan, että minulla on ajan tasalla olevat tiedot."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.avaibook.com",
+      "intent": "Buscar información sobre cómo gestionar mis reservas de hotel en la plataforma de AvaiBook"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.avaibook.com",
+      "intent": "Explorar las funcionalidades de la plataforma para ver si se adapta a mis necesidades como trabajador de recepción en un apartamento en Mallorca"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.avaibook.com",
+      "intent": "Leer las condiciones de uso y la política de cookies de AvaiBook para entender cómo se manejan mis datos personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.avaibook.com",
+      "intent": "Iniciar sesión en mi cuenta de AvaiBook para acceder a mis reservas y gestionar mis datos personales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.avaibook.com",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre mis reservas y promociones especiales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.avaibook.com",
+      "intent": "Verificar el estado de mis reservas y realizar cualquier cambio necesario para asegurarme de que todo esté en orden para la temporada de verano"
+    }
+  ]
+}

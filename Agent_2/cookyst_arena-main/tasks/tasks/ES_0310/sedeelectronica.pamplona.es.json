@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sedeelectronica.pamplona.es",
+      "intent": "Buscar información sobre los trámites destacados disponibles en la Sede Electrónica del Ayuntamiento de Pamplona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sedeelectronica.pamplona.es",
+      "intent": "Explorar la sección de 'Trámites más frecuentes' para conocer los servicios más solicitados por los ciudadanos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sedeelectronica.pamplona.es",
+      "intent": "Acceder a la sección de 'Atención Ciudadana' para obtener información sobre los canales de comunicación disponibles para los ciudadanos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sedeelectronica.pamplona.es",
+      "intent": "Acceder a la 'Carpeta Ciudadana' para consultar información personal y realizar trámites electrónicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sedeelectronica.pamplona.es",
+      "intent": "Realizar un pago en línea a través de la Sede Electrónica del Ayuntamiento de Pamplona"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sedeelectronica.pamplona.es",
+      "intent": "Solicitar un certificado digital o registrar mi cuenta en Cl@ve para acceder a la Carpeta Ciudadana"
+    }
+  ]
+}

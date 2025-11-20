@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tienda.pzes.es",
+      "intent": "Buscar peces ornamentales para mi acuario en la tienda en línea"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tienda.pzes.es",
+      "intent": "Comparar los precios de los acuarios Kryoscape 80x45x45 y otros modelos similares"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tienda.pzes.es",
+      "intent": "Explorar la sección de productos más populares para encontrar ideas para mi próximo pedido"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tienda.pzes.es",
+      "intent": "Añadir el producto Twinstar Light V Pro 900EA a mi carrito de compras"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tienda.pzes.es",
+      "intent": "Verificar el estado de mi pedido anterior y solicitar una actualización si es necesario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tienda.pzes.es",
+      "intent": "Agregar el producto eSHa Gastrobac a mi lista de favoritos para una posible compra futura"
+    }
+  ]
+}

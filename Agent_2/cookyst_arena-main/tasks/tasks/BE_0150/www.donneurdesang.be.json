@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.donneurdesang.be",
+      "intent": "Rechercher les collectes de sang près de chez moi à Liège pour savoir où je peux donner mon sang"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.donneurdesang.be",
+      "intent": "Consulter les conditions pour donner du sang pour vérifier si je suis éligible"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.donneurdesang.be",
+      "intent": "Lire les informations sur le don de plasma pour comprendre son importance et comment y contribuer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.donneurdesang.be",
+      "intent": "Prendre rendez-vous pour donner du sang en ligne pour éviter les files d'attente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.donneurdesang.be",
+      "intent": "Consulter mon historique de dons de sang pour voir quand j'ai donné pour la dernière fois"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.donneurdesang.be",
+      "intent": "Modifier mes informations de compte pour assurer que mes coordonnées sont à jour"
+    }
+  ]
+}

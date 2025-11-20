@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://finances.belgium.be",
+      "intent": "Consulter les informations sur les impôts des particuliers pour comprendre mes obligations fiscales en tant que pensionné"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://finances.belgium.be",
+      "intent": "Rechercher les services en ligne proposés par le SPF Finances pour les indépendants et les professions libérales, car mon fils est intéressé par cette voie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://finances.belgium.be",
+      "intent": "Explorer les ressources disponibles pour les ASBL, car je suis bénévole dans une association locale et je souhaite comprendre les règles fiscales applicables"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://finances.belgium.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes déclarations d'impôt précédentes et vérifier si tout est en ordre pour l'année en cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://finances.belgium.be",
+      "intent": "Effectuer une déclaration à l'impôt des non-résidents pour mon compte, car j'ai des revenus provenant de l'étranger"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://finances.belgium.be",
+      "intent": "Gérer mes informations de contact et de facturation pour les services en ligne du SPF Finances, car j'ai récemment déménagé"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg søger information om, hvordan jeg kan få adgang til mine sundhedsdata online."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg vil gerne vide mere om, hvordan Patient Access kan hjælpe mig med at styre min sundhed og mine lægemiddelordninger."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg ønsker at læse mere om Patient Access's funktioner og hvordan det kan gøre det lettere for mig at kommunikere med min læge."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg vil gerne se mine seneste sundhedsdata og lægeordninger, så jeg kan holde styr på min sundhed."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg ønsker at bestille en ny lægemiddelordning og få det leveret til mit plejehjem i Aalborg."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg vil gerne ændre mine kontaktoplysninger, så min læge kan nå mig på min nye telefonnummer."
+    }
+  ]
+}

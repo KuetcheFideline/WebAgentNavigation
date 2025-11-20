@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.omaretta.fi",
+      "intent": "Tutkin OmaRetta-palvelun etusivua, jotta voin ymmärtää, miten se voi auttaa minua taloyhtiön asioissa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.omaretta.fi",
+      "intent": "Etsin tietoa siitä, miten voin käyttää OmaRettaa maksamaan taloyhtiön maksuja ja hoitamaan muita asioita."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.omaretta.fi",
+      "intent": "Selvittelen, onko OmaRetta-palvelussa mahdollista tehdä vertailuja eri taloyhtiöiden välillä ja miten se voisi olla hyödyksi minulle."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.omaretta.fi",
+      "intent": "Kirjaudun sisään OmaRettaan ja tarkistan, että kaikki taloyhtiöni tiedot ovat ajan tasalla ja oikein."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.omaretta.fi",
+      "intent": "Käytän OmaRettaa maksamaan taloyhtiön kuukausimaksuni ja vahvistan, että kaikki maksut on tehty oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.omaretta.fi",
+      "intent": "Tutkin OmaRetta-palvelun viestintäominaisuuksia ja lähettän viestin taloyhtiön hallitukselle kysymykseni ja huoleni asiasta."
+    }
+  ]
+}

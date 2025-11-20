@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan logge ind på mit KVUC-konto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil læse mere om, hvordan jeg kan bruge min KVUC-mail som brugernavn til login"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg ønsker at downloade mobilappen for at få bedre adgang til mine KVUC-resourcer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil ændre min adgangskode for at sikre, at min konto er sikker"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg søger efter kurser og ressourcer, der kan hjælpe mig med at forbedre min sundhed og min hukommelse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil se mine personlige oplysninger og sikre, at de er opdaterede og korrekte"
+    }
+  ]
+}

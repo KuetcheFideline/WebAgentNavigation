@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.esbjergbibliotek.dk",
+      "intent": "Jeg søger efter inspiration til at låne en ny bog på biblioteket"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.esbjergbibliotek.dk",
+      "intent": "Jeg vil gerne se, hvad der sker på biblioteket i november måned"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.esbjergbibliotek.dk",
+      "intent": "Jeg søger efter information om GO! – børnenes digitale bibliotek"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.esbjergbibliotek.dk",
+      "intent": "Jeg vil gerne låne en bog online og downloade den til min e-læser"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.esbjergbibliotek.dk",
+      "intent": "Jeg ønsker at reservere en plads til et arrangement på biblioteket"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.esbjergbibliotek.dk",
+      "intent": "Jeg vil gerne se mine lånehistorik og hvilke bøger, jeg har lånt tidligere"
+    }
+  ]
+}

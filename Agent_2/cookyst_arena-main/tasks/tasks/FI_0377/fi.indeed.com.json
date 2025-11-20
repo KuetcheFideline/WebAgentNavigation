@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Hae työpaikkoja Vantaan alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Selaa työpaikkalistauksia ja etsi sopivia avoimia työpaikkoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Lue työnantajien arvosteluita ja etsi tietoa yritysten työskentelemisen ehdoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Tallenna työpaikkahaku ja saat ilmoituksia uusista työpaikoista sähköpostiisi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Lisää ansioluettelosi Indeedin tietokantaan ja tee itsestäsi näkyvämpi potentiaalisille työnantajille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Seuraa työhakemuksesi etenemistä ja vastaa työnantajien viesteihin Indeedin viestintäpalvelun kautta"
+    }
+  ]
+}

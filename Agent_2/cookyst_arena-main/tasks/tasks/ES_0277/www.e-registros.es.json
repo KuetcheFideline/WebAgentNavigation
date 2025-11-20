@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.e-registros.es",
+      "intent": "Buscar información sobre el Registro de la Propiedad en la provincia de Sevilla para obtener una Nota Simple de un inmueble familiar."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.e-registros.es",
+      "intent": "Explorar los trámites disponibles en el portal de e.Registros para entender cómo puedo realizar gestiones con los Organismos Públicos de España de forma online."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.e-registros.es",
+      "intent": "Leer las políticas de privacidad y condiciones generales del servicio de e.Registros para asegurarme de que mis datos personales están protegidos."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.e-registros.es",
+      "intent": "Iniciar sesión en mi cuenta de e.Registros para acceder a mis trámites pendientes y realizar un seguimiento de los mismos."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.e-registros.es",
+      "intent": "Solicitar una Nota Simple de un inmueble a través del portal de e.Registros, ya que necesito la información para un trámite administrativo relacionado con mi trabajo en la Junta de Andalucía."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.e-registros.es",
+      "intent": "Realizar el pago de un trámite de Registro Mercantil a través del portal de e.Registros, para registrar una modificación en la sociedad en la que trabajo como administrativa."
+    }
+  ]
+}

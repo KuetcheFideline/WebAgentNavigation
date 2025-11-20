@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Tutkin verkkopankin etusivun sisältöä ja etsin tietoa verkkopankin turvallisuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Selailen verkkopankin käyttöohjeita ja etsin tietoa verkkopankin toiminnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Etsin tietoa verkkopankin mobiilisovelluksesta ja sen ominaisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Tarkastan tilieni saldot ja etsin tietoa viimeisimmistä tapahtumista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Muokkaan verkkopankin asetuksia ja vaihdan salasanani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Lähetän rahan siirron ystävälleni ja seuraan siirron tilaa"
+    }
+  ]
+}

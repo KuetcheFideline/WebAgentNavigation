@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dofi.ibz.be",
+      "intent": "Je veux configurer les paramètres de cookies pour que seuls les cookies essentiels soient acceptés."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dofi.ibz.be",
+      "intent": "Je souhaite lire la politique en matière de cookies pour comprendre comment mes données sont utilisées."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dofi.ibz.be",
+      "intent": "Je veux sélectionner la langue française pour faciliter ma navigation sur le site."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dofi.ibz.be",
+      "intent": "Je veux accéder à mon compte pour consulter mes informations personnelles et mettre à jour mes paramètres de compte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dofi.ibz.be",
+      "intent": "Je souhaite gérer mes abonnements et mes préférences pour recevoir des mises à jour personnalisées sur les services proposés par le site."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dofi.ibz.be",
+      "intent": "Je veux consulter l'historique de mes interactions avec le site pour suivre mes activités et mes téléchargements."
+    }
+  ]
+}

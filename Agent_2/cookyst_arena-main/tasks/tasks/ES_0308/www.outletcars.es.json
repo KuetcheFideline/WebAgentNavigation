@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.outletcars.es",
+      "intent": "Buscar un coche de segunda mano para mi uso personal, considerando mi presupuesto de 10000-18000 euros al año."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.outletcars.es",
+      "intent": "Explorar las diferentes marcas y modelos de coches disponibles en el sitio web para comparar precios y características."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.outletcars.es",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre sus experiencias con los coches comprados en Outletcars."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.outletcars.es",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis coches guardados y seguir comparando precios y características."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.outletcars.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre nuevos coches que se ajusten a mis criterios de búsqueda."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.outletcars.es",
+      "intent": "Contactar con el equipo de soporte de Outletcars para obtener asesoramiento sobre la compra de un coche de segunda mano."
+    }
+  ]
+}

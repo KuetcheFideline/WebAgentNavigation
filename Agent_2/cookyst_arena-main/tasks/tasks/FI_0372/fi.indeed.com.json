@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Hae työpaikkoja Kajaanissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Selaa työnhakuindeksia ja lue työnhakuvinkkejä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Etsi tietoa työpaikkojen hakemisesta ja työnhakustrategioista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Luo ansioluettelo ja lisää se profiiliini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Tallenna työpaikkahaut ja saa ilmoituksia uusista työpaikoista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Vastaa työpaikkailmoituksiin ja lähetä ansioluetteloni työnantajille"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.tennis04.com",
+      "intent": "Ich möchte die Startseite von tennis04.com aufrufen, um zu sehen, was für Tennisangebote es gibt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.tennis04.com",
+      "intent": "Ich will die Fehlerseite analysieren, um herauszufinden, warum die Seite nicht gefunden wurde."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.tennis04.com",
+      "intent": "Ich möchte den Link zu www.tennis04.com folgen, um zu sehen, ob ich dort mehr Informationen finden kann."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.tennis04.com",
+      "intent": "Ich möchte mein Benutzerkonto einrichten, um personalisierte Tennisangebote zu erhalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.tennis04.com",
+      "intent": "Ich will meine Tennisplatzreservierungen einsehen, um zu sehen, welche Plätze ich bereits gebucht habe."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.tennis04.com",
+      "intent": "Ich möchte meine Tennisplatzreservierungen bearbeiten, um eine Reservierung zu ändern oder zu stornieren."
+    }
+  ]
+}

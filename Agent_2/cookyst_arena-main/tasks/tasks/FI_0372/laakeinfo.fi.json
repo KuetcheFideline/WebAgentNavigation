@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Hae tietoa masennuslääkkeistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Selaa lääkekohtaisia ohjeita ja varoitusta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Etsi tietoa lääkkeiden mahdollisista haittavaikutuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Tallenna lääkeohjeet omaan lääkekirjaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Luo lääkekuitti ja tulosta se"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Merkitse lääkkeet, joita olen jo noutanut apteekista"
+    }
+  ]
+}

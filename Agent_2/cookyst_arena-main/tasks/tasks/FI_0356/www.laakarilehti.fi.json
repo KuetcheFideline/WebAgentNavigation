@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.laakarilehti.fi",
+      "intent": "Luen Lääkärilehden etusivun uusimmat uutiset ja artikkelit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.laakarilehti.fi",
+      "intent": "Etsin Lääkärilehdestä tietoa terveydenhuollon uusimmista kehitystrendeistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.laakarilehti.fi",
+      "intent": "Selailen Lääkärilehden podcasteja ja kuuntelen niitä vapaanaikana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.laakarilehti.fi",
+      "intent": "Lisään omaan kansiooni kiinnostavia artikkeleita ja luon tallennuslistaa aiheesta 'terveydenhuollon tulevaisuus'"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.laakarilehti.fi",
+      "intent": "Osallistun Lääkärilehden keskustelupalstalle ja kommentoin artikkeleita aiheesta 'potilasturvallisuus'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.laakarilehti.fi",
+      "intent": "Tarkastan Oma Kansio -osion ja päivitän profiiliini ja asetuksiani"
+    }
+  ]
+}

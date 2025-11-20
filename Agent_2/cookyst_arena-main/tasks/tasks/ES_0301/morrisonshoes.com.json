@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://morrisonshoes.com",
+      "intent": "Buscar zapatillas de moda urbana para hombre en la sección de ZAPATILLAS"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://morrisonshoes.com",
+      "intent": "Explorar las colecciones de ropa y accesorios en la sección de ROPA y ACCESORIOS"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://morrisonshoes.com",
+      "intent": "Ver los productos en oferta en la sección de BLACK DAYS"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://morrisonshoes.com",
+      "intent": "Agregar un par de zapatillas a mi carrito de compras y proceder al pago"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://morrisonshoes.com",
+      "intent": "Ver el historial de mis pedidos y seguir el estado de mi última compra"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://morrisonshoes.com",
+      "intent": "Editar mis datos personales y de facturación en mi cuenta de cliente"
+    }
+  ]
+}

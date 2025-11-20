@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ura.kela.fi",
+      "intent": "Hae avoimia työpaikkoja sairaanhoitajan tehtäviin Tampereella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ura.kela.fi",
+      "intent": "Selaa Kelan urasivuja ja tutustu työnantajan tarjoamiin eduksiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ura.kela.fi",
+      "intent": "Lue lisää Kelan rekrytointiprosessista ja miten valmistautua haastatteluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ura.kela.fi",
+      "intent": "Tallenna hakemus sairaanhoitajan tehtävään ja seuraa hakemuksen etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ura.kela.fi",
+      "intent": "Vastaa avoimeen työpaikkaan ja lataa tarvittavat liitteet, kuten ansioluettelo ja tutkintotodistus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ura.kela.fi",
+      "intent": "Muokkaa oman profiilin tietoja ja päivitä työkokemus ja koulutus"
+    }
+  ]
+}

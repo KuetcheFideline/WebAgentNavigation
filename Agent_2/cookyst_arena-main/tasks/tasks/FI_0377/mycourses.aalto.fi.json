@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Etsin tietoa opiskelijoiden hyvinvoinnista ja tuista MyCourses-sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Selvitan, miten voinkäyttää MyCoursesia opintojeni suunnittelussa ja seuraamisessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Tutkin, mitä kursseja ja koulutusohjelmia on tarjolla Aalto-yliopistossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Kirjaudun sisään ja tarkistan opintotiedot ja kurssien tilan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Osallistun keskustelufoorumeille ja jaan ajatuksiani muiden opiskelijoiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Täytän kurssipalautetta ja annan palautetta opettajille"
+    }
+  ]
+}

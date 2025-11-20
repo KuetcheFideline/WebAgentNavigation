@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ucl.itslearning.com",
+      "intent": "Læse om nyheder på UCL Erhvervsakademi og Professionshøjskole"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ucl.itslearning.com",
+      "intent": "Søge efter information om WAYF-login og MitID-login"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ucl.itslearning.com",
+      "intent": "Besøge hjælpesektionen for at få mere at vide om itslearning"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ucl.itslearning.com",
+      "intent": "Tilføje en ny begivenhed til min kalender på itslearning"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ucl.itslearning.com",
+      "intent": "Delagtige i en diskussion på et kursusforum"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ucl.itslearning.com",
+      "intent": "Indsende en opgave til en af mine kurser"
+    }
+  ]
+}

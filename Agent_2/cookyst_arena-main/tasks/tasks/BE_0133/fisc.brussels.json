@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fisc.brussels",
+      "intent": "Consulter les informations générales sur les taxes à Bruxelles pour comprendre les différentes catégories de taxes et leurs applications"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fisc.brussels",
+      "intent": "Rechercher des informations spécifiques sur la taxe sur les propriétés pour une meilleure compréhension de mes obligations fiscales en tant que résident à Bruxelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fisc.brussels",
+      "intent": "Explorer les fonctionnalités de la plateforme MyTax pour découvrir comment gérer mes taxes en ligne de manière efficace"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fisc.brussels",
+      "intent": "Consulter mes factures de taxes et imprimer des duplicatas pour mes archives personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fisc.brussels",
+      "intent": "Effectuer un paiement en ligne pour régler mes taxes et demander des facilités de paiement si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fisc.brussels",
+      "intent": "Mettre à jour mes coordonnées personnelles pour m'assurer que mes informations sont à jour et exactes sur la plateforme MyTax"
+    }
+  ]
+}

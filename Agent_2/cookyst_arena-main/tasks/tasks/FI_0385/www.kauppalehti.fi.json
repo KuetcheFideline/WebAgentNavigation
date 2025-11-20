@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kauppalehti.fi",
+      "intent": "Luen uusimmat talousuutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kauppalehti.fi",
+      "intent": "Etsin tietoa osakkeiden kehityksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kauppalehti.fi",
+      "intent": "Selailen sivuston eri osioita, kuten pörssiuutisia ja talousaamua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kauppalehti.fi",
+      "intent": "Tallennan artikkeleita omaan kirjastooni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kauppalehti.fi",
+      "intent": "Kommentoin artikkeleita ja osallistun keskusteluihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kauppalehti.fi",
+      "intent": "Muokkaan omaa profiilia ja asetuksia"
+    }
+  ]
+}

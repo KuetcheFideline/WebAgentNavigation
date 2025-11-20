@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lue uusimmat uutiset ja päivitykset itslearning-tilin etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Etsi tietoa Turku AMK:n opinto-ohjelmista ja kurssitarjonnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Selaa saavutettavuusselostetta ja tietosuojaselostetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Kirjaudu sisään itslearning-tilillä ja tarkista kurssien tila"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lähetä viesti opettajalle tai kurssitoverille itslearning-tilin viestintätyökalulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Tee kurssitehtävä ja lähetä se opettajalle itslearning-tilin tehtävän palautusjärjestelmän kautta"
+    }
+  ]
+}

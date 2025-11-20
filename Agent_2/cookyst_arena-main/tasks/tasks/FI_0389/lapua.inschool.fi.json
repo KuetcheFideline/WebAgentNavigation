@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, miten voin kirjautua sisään"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten voin luoda uuden salasanan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Selvittelen, miten voin varmistaa, että olen oikealla Wilma-sivulla ja en joudu kalastelusivun uhriksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan poikani suorituksia ja poissaoloja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Viestin poikani opettajalle Wilman kautta ja kysyn tietoa hänen kurssivalinnoistaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Tarkistan Wilman kautta koulun tiedotteita ja muistutuksia poikani opiskelua koskien"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tvendirecto.es",
+      "intent": "Ver el canal de La 1 (TVE1) para ver el informativo de la noche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tvendirecto.es",
+      "intent": "Buscar canales de deportes para ver un partido de fútbol en vivo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tvendirecto.es",
+      "intent": "Explorar la sección de canales autonómicos para ver noticias de la región de Madrid"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tvendirecto.es",
+      "intent": "Crear una lista de canales favoritos para acceder rápidamente a ellos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tvendirecto.es",
+      "intent": "Configurar las preferencias de reproducción para mejorar la calidad de la señal de televisión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tvendirecto.es",
+      "intent": "Ver el historial de reproducción para recordar qué canales y programas se han visto anteriormente"
+    }
+  ]
+}

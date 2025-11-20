@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://latiendadeluca.com",
+      "intent": "Buscar ropa de mujer para una ocasión especial en la sección de VESTIDOS DE FIESTA"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://latiendadeluca.com",
+      "intent": "Comparar los precios y características de los productos en la sección de NOVEDADES"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://latiendadeluca.com",
+      "intent": "Suscribirse al boletín de noticias para recibir ofertas y descuentos exclusivos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://latiendadeluca.com",
+      "intent": "Verificar el estado de mi cuenta y mis pedidos anteriores en la sección de MI CUENTA"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://latiendadeluca.com",
+      "intent": "Realizar un pedido de un producto que he agregado a mi carrito de compras"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://latiendadeluca.com",
+      "intent": "Editar mis datos personales y de facturación en la sección de MI CUENTA"
+    }
+  ]
+}

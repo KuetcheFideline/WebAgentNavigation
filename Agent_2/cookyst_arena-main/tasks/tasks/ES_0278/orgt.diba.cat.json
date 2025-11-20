@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://orgt.diba.cat",
+      "intent": "Consultar los trámites disponibles para el Impuesto sobre Actividades Económicas (IAE) y ver si hay algún procedimiento que deba realizar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://orgt.diba.cat",
+      "intent": "Buscar información sobre el Impuesto sobre Vehículos de Tracción Mecánica (IVTM) y cómo puedo solicitar la devolución de la cuota prorrateada en caso de baja de vehículo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://orgt.diba.cat",
+      "intent": "Explorar la sección de 'Trámites y pagamentos' para ver qué opciones están disponibles para realizar pagos y trámites en línea"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://orgt.diba.cat",
+      "intent": "Iniciar sesión y acceder a la sección de 'Mi cuenta' para ver el estado de mis trámites y pagos pendientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://orgt.diba.cat",
+      "intent": "Realizar el pago de una multa de tráfico con bonificación, siguiendo las instrucciones proporcionadas en la página web"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://orgt.diba.cat",
+      "intent": "Solicitar la devolución de la cuota prorrateada del Impuesto sobre Vehículos de Tracción Mecánica (IVTM) después de dar de baja un vehículo"
+    }
+  ]
+}

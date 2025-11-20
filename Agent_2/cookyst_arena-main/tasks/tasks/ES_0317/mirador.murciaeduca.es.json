@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mirador.murciaeduca.es",
+      "intent": "Buscar información sobre los procedimientos habituales para proporcionar datos válidos en el portal de Mirador"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mirador.murciaeduca.es",
+      "intent": "Explorar la sección de ayuda para familias y alumnos en el sitio web de Mirador"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mirador.murciaeduca.es",
+      "intent": "Leer las políticas de privacidad y términos de uso del sitio web de Mirador"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mirador.murciaeduca.es",
+      "intent": "Acceder a mi cuenta de Mirador para verificar mis datos personales y actualizar mi perfil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mirador.murciaeduca.es",
+      "intent": "Consultar los recursos educativos disponibles para mis nietos en el portal de Mirador"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mirador.murciaeduca.es",
+      "intent": "Enviar un mensaje al equipo de soporte de Mirador para solicitar ayuda con una consulta sobre los procedimientos de inscripción"
+    }
+  ]
+}

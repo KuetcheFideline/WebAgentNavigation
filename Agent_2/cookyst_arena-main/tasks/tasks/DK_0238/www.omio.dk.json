@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.omio.dk",
+      "intent": "Jeg søger efter billige tog- og busbilletter fra København til Berlin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.omio.dk",
+      "intent": "Jeg vil sammenligne priser på flybilletter fra København til Paris"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.omio.dk",
+      "intent": "Jeg søger efter information om afgangstider og priser på færgebilletter fra København til Oslo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.omio.dk",
+      "intent": "Jeg vil downloade mine købte billetter til min rejse fra København til Stockholm"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.omio.dk",
+      "intent": "Jeg søger efter mine tidligere bookinger for at planlægge min næste rejse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.omio.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og tilføje et nyt rabatkort"
+    }
+  ]
+}

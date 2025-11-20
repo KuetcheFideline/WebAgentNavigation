@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://blogs.helsinki.fi",
+      "intent": "Luen uusimmat blogipostaukset Helsingin yliopiston blogialustalla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://blogs.helsinki.fi",
+      "intent": "Etsin tietoa blogien asettamisesta ja hallinnasta Helsingin yliopiston ohjeista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://blogs.helsinki.fi",
+      "intent": "Selailen eri aihealueiden blogeja ja etsin mielenkiintoista luettavaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://blogs.helsinki.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omia blogipostauksiani Helsingin yliopiston blogialustalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://blogs.helsinki.fi",
+      "intent": "Luo uusi blogipostaus aiheesta, joka kiinnostaa minua, ja julkaisen sen Helsingin yliopiston blogialustalla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://blogs.helsinki.fi",
+      "intent": "Muokkaan olemassa olevaa blogipostaukseani ja lisään siihen uusia ajatuksia ja ideoita"
+    }
+  ]
+}

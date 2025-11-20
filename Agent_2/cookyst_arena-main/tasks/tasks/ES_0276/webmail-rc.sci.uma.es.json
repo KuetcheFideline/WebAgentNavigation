@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail-rc.sci.uma.es",
+      "intent": "Verificar la información de seguridad antes de iniciar sesión"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail-rc.sci.uma.es",
+      "intent": "Buscar información sobre cómo solicitar un PIN UMA para acceder a los recursos de la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail-rc.sci.uma.es",
+      "intent": "Explorar las opciones de autenticación disponibles, como el certificado digital o DNIe, para entender mejor las opciones de inicio de sesión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail-rc.sci.uma.es",
+      "intent": "Acceder a mi correo electrónico institucional para revisar mensajes importantes relacionados con mi trabajo como profesor"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail-rc.sci.uma.es",
+      "intent": "Configurar mis preferencias de seguridad y privacidad en mi cuenta para asegurarme de que mis datos personales estén protegidos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail-rc.sci.uma.es",
+      "intent": "Buscar y unirme a grupos o foros de discusión relacionados con la educación y la enseñanza para estar al día sobre los últimos temas y recursos educativos"
+    }
+  ]
+}

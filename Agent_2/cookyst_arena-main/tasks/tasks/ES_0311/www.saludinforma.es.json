@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saludinforma.es",
+      "intent": "Buscar información sobre los derechos y deberes de los pacientes en el sistema de salud de Aragón"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saludinforma.es",
+      "intent": "Localizar centros de asistencia sanitaria cerca de mi ubicación en Teruel"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saludinforma.es",
+      "intent": "Consultar la información disponible sobre el cáncer y sus tratamientos en el sitio web de SaludInforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saludinforma.es",
+      "intent": "Acceder a mi historial médico y consultar los resultados de mis análisis clínicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saludinforma.es",
+      "intent": "Solicitar una cita con un médico especialista a través de la plataforma de SaludInforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saludinforma.es",
+      "intent": "Actualizar mis datos personales y de contacto en mi perfil de usuario de SaludInforma"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Luen Wilman etusivun ja etsin tietoa siitä, mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Selvittelen, miten voin muuttaa kieltä suomeksi ja tutkin sivun eri osioita."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten voin kirjautua sisään ja mitä vaatimuksia kirjautumiselle on."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, että voin nähdä poissaolotiedot ja viestit opettajien kanssa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Tutkin Wilman kursseja ja suorituksia ja etsin tietoa siitä, miten voin seurata opiskelijan edistymistä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Viestin opettajalle kysymällä tietoa opiskelijan suorituksista ja pyydän neuvoja, miten voin tukea opiskelijan oppimista."
+    }
+  ]
+}

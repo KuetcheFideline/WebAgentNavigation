@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eurostarshotels.com",
+      "intent": "Buscar ofertas de hoteles en la página de inicio para planificar un viaje de fin de semana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eurostarshotels.com",
+      "intent": "Explorar la sección de 'Nuestras Marcas' para conocer más sobre los diferentes hoteles de la cadena"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eurostarshotels.com",
+      "intent": "Utilizar el formulario de búsqueda para encontrar hoteles disponibles en una ciudad específica durante un período determinado"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eurostarshotels.com",
+      "intent": "Iniciar sesión en la cuenta de Star Traveler para acceder a descuentos exclusivos y reservar una habitación"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eurostarshotels.com",
+      "intent": "Consultar el historial de reservas y facturas en el área de cliente para llevar un control de los gastos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eurostarshotels.com",
+      "intent": "Editar los datos personales y de contacto en el perfil de usuario para asegurarse de que la información esté actualizada"
+    }
+  ]
+}

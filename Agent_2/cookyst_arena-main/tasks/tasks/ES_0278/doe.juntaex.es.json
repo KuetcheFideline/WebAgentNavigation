@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://doe.juntaex.es",
+      "intent": "Buscar disposiciones estatales publicadas en el Diario Oficial de Extremadura para estar al día sobre las últimas normativas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://doe.juntaex.es",
+      "intent": "Explorar la sección de 'Otras Resoluciones' para encontrar información relevante sobre procedimientos administrativos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://doe.juntaex.es",
+      "intent": "Consultar el calendario de publicaciones del Diario Oficial para planificar la búsqueda de información específica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://doe.juntaex.es",
+      "intent": "Publicar un anuncio en el Diario Oficial de Extremadura como parte de un procedimiento administrativo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://doe.juntaex.es",
+      "intent": "Acceder a la sección de 'Cálculo automático de tasa' para determinar los costos asociados con la publicación de un anuncio"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://doe.juntaex.es",
+      "intent": "Comprobar la autenticidad de una copia impresa del Diario Oficial para verificar su validez en un procedimiento legal"
+    }
+  ]
+}

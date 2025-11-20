@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ampumaurheiluliitto.fi",
+      "intent": "Lue uusimmat uutiset ampumaurheiluliitosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ampumaurheiluliitto.fi",
+      "intent": "Etsi tietoa eri ampumalajeista, kuten kivääri ja pistooli"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ampumaurheiluliitto.fi",
+      "intent": "Selvitä, miten liittyä ampumaseuraan ja osallistua kilpailuihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ampumaurheiluliitto.fi",
+      "intent": "Tarkista oma kilpailukalenteri ja ilmoittaudu tuleviin kilpailuihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ampumaurheiluliitto.fi",
+      "intent": "Lue ja kommentoi uusimmat uutiset ja artikkelit ampumaurheiluliiton foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ampumaurheiluliitto.fi",
+      "intent": "Täytä ja lähetä ilmoittautumislomake tulevaan ampumakurssiin"
+    }
+  ]
+}

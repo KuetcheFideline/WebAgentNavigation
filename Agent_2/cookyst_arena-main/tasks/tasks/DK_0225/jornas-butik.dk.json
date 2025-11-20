@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jornas-butik.dk",
+      "intent": "Jeg søger efter en ny T-shirt, så jeg vil klikke på 'T-shirts' i menuen for at se, hvad de har at tilbyde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jornas-butik.dk",
+      "intent": "Jeg vil gerne se, om de har nogen gode tilbud eller salg, så jeg vil klikke på 'Nyheder' for at se, hvad der er nyt."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jornas-butik.dk",
+      "intent": "Jeg har hørt, at de har en god kundeservice, så jeg vil klikke på 'Kundeservice' for at se, hvordan jeg kan få hjælp, hvis jeg har et problem med min ordre."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jornas-butik.dk",
+      "intent": "Jeg har allerede en konto, så jeg vil logge ind og se, om jeg har nogen aktive ordrer eller om der er noget nyt i min kurv."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jornas-butik.dk",
+      "intent": "Jeg vil gerne følge med i mine tidligere køb, så jeg vil klikke på 'Min konto' for at se min købshistorik."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jornas-butik.dk",
+      "intent": "Jeg har fundet noget, jeg gerne vil købe, så jeg vil lægge det i min kurv og gå videre til betaling for at fuldføre min ordre."
+    }
+  ]
+}

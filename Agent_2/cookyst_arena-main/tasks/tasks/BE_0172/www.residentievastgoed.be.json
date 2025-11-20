@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.residentievastgoed.be",
+      "intent": "Rechercher des maisons à vendre à Tervuren pour comparer les prix et les caractéristiques"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.residentievastgoed.be",
+      "intent": "Consulter les informations sur les nouveaux projets de construction à Oudenburg pour évaluer les possibilités d'investissement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.residentievastgoed.be",
+      "intent": "Demander un rendez-vous avec un agent immobilier pour discuter de la vente de ma propriété actuelle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.residentievastgoed.be",
+      "intent": "Accéder à mon compte pour consulter l'historique de mes recherches et mes favoris"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.residentievastgoed.be",
+      "intent": "Modifier mes préférences de recherche pour recevoir des alertes personnalisées sur les nouvelles propriétés qui correspondent à mes critères"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.residentievastgoed.be",
+      "intent": "Contacter le service client pour obtenir des conseils sur la façon de présenter ma propriété de manière attractive pour la vente"
+    }
+  ]
+}

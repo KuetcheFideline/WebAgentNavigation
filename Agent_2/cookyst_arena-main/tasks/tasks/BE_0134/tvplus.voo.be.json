@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tvplus.voo.be",
+      "intent": "Activer JavaScript pour accéder au contenu de la page d'accueil de VOO TV+"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tvplus.voo.be",
+      "intent": "Rechercher les programmes télévisés disponibles sur la plateforme VOO TV+"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tvplus.voo.be",
+      "intent": "Consulter les conditions d'utilisation des cookies sur le site de VOO TV+"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tvplus.voo.be",
+      "intent": "Configurer mes préférences de visionnage sur mon compte VOO TV+"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tvplus.voo.be",
+      "intent": "Gérer mes abonnements et mes souscriptions à des chaînes sur VOO TV+"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tvplus.voo.be",
+      "intent": "Accéder à l'historique de mes programmes regardés sur VOO TV+"
+    }
+  ]
+}

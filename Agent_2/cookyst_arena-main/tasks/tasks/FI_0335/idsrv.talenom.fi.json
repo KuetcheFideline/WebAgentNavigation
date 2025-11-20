@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://idsrv.talenom.fi",
+      "intent": "Yritän selvittää, miksi sivu ei ole käytettävissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://idsrv.talenom.fi",
+      "intent": "Etsin tietoa Talenomin palveluista ja miten ne voivat olla hyödyksi minun ohjelmistokehitystyössäni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://idsrv.talenom.fi",
+      "intent": "Tutkin, onko sivustolla olemassa ohjeita tai tukipalveluja, jotka voisivat auttaa minua ratkaisemaan teknisiä ongelmia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://idsrv.talenom.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, onko minulla oikeudet käyttää Talenomin palveluja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://idsrv.talenom.fi",
+      "intent": "Yritän muuttaa salasanaani, jotta voin varmistaa, että minun tilitani ovat turvallisia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://idsrv.talenom.fi",
+      "intent": "Tarkistan, mitä tietoja minulla on Talenomin järjestelmässä ja päivitän ne, jos tarpeen"
+    }
+  ]
+}

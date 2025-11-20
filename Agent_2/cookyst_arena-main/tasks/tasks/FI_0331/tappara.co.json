@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tappara.co",
+      "intent": "Selata Tappara-keskustelua ja etsi mielenkiintoisia aiheita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tappara.co",
+      "intent": "Lue uusimmat viestit ja keskustelut Tappara-aiheista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tappara.co",
+      "intent": "Etsi tietoa Tapparan tulevista peleistä ja otteluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tappara.co",
+      "intent": "Kirjaudu sisään ja osallistu keskusteluun Tappara-aiheista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tappara.co",
+      "intent": "Luo uusi keskusteluaihe Tappara-keskustelualueella"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tappara.co",
+      "intent": "Vastaa jonkun toisen käyttäjän viestiin Tappara-keskustelussa"
+    }
+  ]
+}

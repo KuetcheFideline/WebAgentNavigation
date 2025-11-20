@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://erepo.uef.fi",
+      "intent": "Hae opinnäytteitä aiheesta Kasvatustiede"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://erepo.uef.fi",
+      "intent": "Selaa eRepoa ja etsi mielenkiintoisia julkaisuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://erepo.uef.fi",
+      "intent": "Käy läpi eRepo-palvelun käyttöehdot ja tekijänoikeudet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://erepo.uef.fi",
+      "intent": "Lataa omia julkaisuja eRepo-palveluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://erepo.uef.fi",
+      "intent": "Tarkastele omia julkaisujen tilastoja ja kommentteja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://erepo.uef.fi",
+      "intent": "Muokkaa profiilia ja tietoja eRepo-palvelussa"
+    }
+  ]
+}

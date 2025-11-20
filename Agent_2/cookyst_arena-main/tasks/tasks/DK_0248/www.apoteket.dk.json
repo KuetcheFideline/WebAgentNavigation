@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.apoteket.dk",
+      "intent": "Jeg søger efter information om medicin til min diabetes på apoteket.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.apoteket.dk",
+      "intent": "Jeg vil finde et apotek nær mit plejehjem i Aalborg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.apoteket.dk",
+      "intent": "Jeg ønsker at læse om sundhedsråd og sygdomme på apoteket.dk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.apoteket.dk",
+      "intent": "Jeg vil bestille min medicin online efter at have logget ind på min konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.apoteket.dk",
+      "intent": "Jeg søger efter at forlænge min recept gennem en genordination efter at have logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.apoteket.dk",
+      "intent": "Jeg vil chatte med apotekets rådgivning om min medicin efter at have logget ind"
+    }
+  ]
+}

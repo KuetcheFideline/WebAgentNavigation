@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulokset.hiihtoliitto.fi",
+      "intent": "Hae kaikki maastohiihdon kilpailut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulokset.hiihtoliitto.fi",
+      "intent": "Etsi tuloksia vuodelta 2022-2023"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulokset.hiihtoliitto.fi",
+      "intent": "Selaa kilpailuluokkaa 'nuoret'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulokset.hiihtoliitto.fi",
+      "intent": "Tallenna suosikkikilpailuni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulokset.hiihtoliitto.fi",
+      "intent": "Lähetä korjauspyyntö tulokseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulokset.hiihtoliitto.fi",
+      "intent": "Muokkaa omaa urheilijaprofiilia"
+    }
+  ]
+}

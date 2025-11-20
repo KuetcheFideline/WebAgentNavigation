@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.senado.es",
+      "intent": "Buscar información sobre las últimas noticias y actualidad en el Senado de España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.senado.es",
+      "intent": "Explorar la sección de 'Conocer el Senado' para obtener más información sobre la institución y sus funciones"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.senado.es",
+      "intent": "Acceder a la sección de 'Relaciones con la ciudadanía' para conocer los derechos y oportunidades de participación ciudadana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.senado.es",
+      "intent": "Iniciar sesión para acceder a contenido restringido y personalizado en la sección de 'Mi Senado'"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.senado.es",
+      "intent": "Participar en una consulta o encuesta en línea como ciudadano registrado en el portal del Senado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.senado.es",
+      "intent": "Acceder a la sección de 'Transparencia' para consultar información sobre los gastos y presupuestos del Senado"
+    }
+  ]
+}

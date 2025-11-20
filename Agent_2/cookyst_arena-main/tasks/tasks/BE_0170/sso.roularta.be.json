@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.roularta.be",
+      "intent": "Je souhaite créer un compte pour accéder aux services de Roularta Media Group."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.roularta.be",
+      "intent": "J'aimerais savoir comment fonctionne l'inscription via les réseaux sociaux pour faciliter mon accès."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.roularta.be",
+      "intent": "Je veux lire les conditions d'utilisation et la politique de confidentialité avant de créer un compte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.roularta.be",
+      "intent": "Maintenant que je suis connectée, je souhaite configurer mes préférences pour les newsletters et les mises à jour de Roularta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.roularta.be",
+      "intent": "Je vais gérer mes informations de compte pour m'assurer que tout est à jour et sécurisé."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.roularta.be",
+      "intent": "Je souhaite accéder à l'historique de mes activités et de mes abonnements pour suivre mes interactions avec les services de Roularta."
+    }
+  ]
+}

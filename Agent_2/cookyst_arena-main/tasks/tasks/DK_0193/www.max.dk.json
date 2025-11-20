@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.max.dk",
+      "intent": "Jeg vil se hvad for slags mad MAX tilbyder"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.max.dk",
+      "intent": "Jeg søger efter information om MAX's bæredygtighedsarbejde"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.max.dk",
+      "intent": "Jeg vil downloade MAX-appen for at bestille mad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.max.dk",
+      "intent": "Jeg vil gemme mine favoritretter i min brugerprofil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.max.dk",
+      "intent": "Jeg vil se mine tidligere bestillinger og følge status på mine ordrer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.max.dk",
+      "intent": "Jeg vil tilføje eller ændre mine betalingsoplysninger i min brugerprofil"
+    }
+  ]
+}

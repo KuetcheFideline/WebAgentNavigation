@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Hae tietoa siitä, miten voin parantaa munuaisten terveyttäni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Selvitä, mitä itsehoito-ohjelmia on tarjolla ja miten niitä voi käyttää"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Lue lisää Terveyskylän taloista ja niiden tarjoamista palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Kirjaudu Omapolkuun ja tarkista omat terveystiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Käy läpi TerveyskyläPRO-palvelun sisällöt ja valmennukset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Varaa etävastaanotto TerveyskyläPRO-palvelun kautta"
+    }
+  ]
+}

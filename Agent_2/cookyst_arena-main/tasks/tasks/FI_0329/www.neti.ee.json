@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.neti.ee",
+      "intent": "Hae tietoa Turun yliopiston liiketalous opinnoista NETI:n kautta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.neti.ee",
+      "intent": "Selaa NETI:n ilmoitusosioita etsimässä osa-aikatyötä tai harjoittelupaikkaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.neti.ee",
+      "intent": "Käy läpi NETI:n tarjoamia palveluita, kuten säätilaa ja uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.neti.ee",
+      "intent": "Tallenna suosikkisivuja ja luokitteluita NETI:n käyttäjätilillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.neti.ee",
+      "intent": "Muokkaa NETI:n käyttäjäprofiilia ja asetuksia, kuten sijaintia ja kieltä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.neti.ee",
+      "intent": "Ota osaa NETI:n keskustelupalstalle ja jaa omia ajatuksia aiheista, jotka kiinnostavat"
+    }
+  ]
+}

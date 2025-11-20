@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Tutkiminen Fingridin verkkosivuston sähköntuotannon ja -jakelun palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Etsiminen tietoa Fingridin sivustolta sähkön siirtohinnasta ja -kapasiteetista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Lukeminen Fingridin uutisista ja tiedotteista sähkömarkkinoiden kehittymisestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Kirjautuminen Fingridin asiakasportaaliin tarkastamaan omat sähkösopimukset ja -kulutus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Tarkastaminen Fingridin verkkopalvelun kautta sähköverkon tilasta ja häiriöistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Muokkaaminen Fingridin asiakasprofiilia ja osoitetietoja"
+    }
+  ]
+}

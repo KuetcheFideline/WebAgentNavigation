@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tdw.taxi-dewaele.be",
+      "intent": "Rechercher les options de réservation de taxi pour un trajet entre Wavre et Anvers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tdw.taxi-dewaele.be",
+      "intent": "Consulter les tarifs et les promotions actuelles pour les déplacements en taxi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tdw.taxi-dewaele.be",
+      "intent": "Explorer les fonctionnalités de suivi de trajet et de géolocalisation proposées par l'application"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tdw.taxi-dewaele.be",
+      "intent": "Réserver un taxi pour le lendemain matin pour mon trajet habituel entre Wavre et Anvers"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tdw.taxi-dewaele.be",
+      "intent": "Gérer mes informations de paiement et mes réservations passées depuis mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tdw.taxi-dewaele.be",
+      "intent": "Paramétrer mes préférences de trajet et mes adresses favorites pour des réservations plus rapides"
+    }
+  ]
+}

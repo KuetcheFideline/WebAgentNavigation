@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tennisexplorer.com",
+      "intent": "Buscar los resultados de los partidos de tenis de la semana pasada para ver quién ganó"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tennisexplorer.com",
+      "intent": "Explorar las estadísticas de los jugadores de tenis para ver quién tiene el mejor récord de victorias"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tennisexplorer.com",
+      "intent": "Leer las noticias de tenis para estar al día sobre los últimos torneos y resultados"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tennisexplorer.com",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre los partidos de tenis que me interesan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tennisexplorer.com",
+      "intent": "Crear una lista de jugadores de tenis favoritos para seguir sus resultados y estadísticas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tennisexplorer.com",
+      "intent": "Participar en un foro de discusión sobre tenis para compartir mis opiniones y leer las de otros usuarios"
+    }
+  ]
+}

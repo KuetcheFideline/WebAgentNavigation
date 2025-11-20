@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiakastiedot.posti.fi",
+      "intent": "Tarkistaa miten Posti.fi toimii uudella selaimella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiakastiedot.posti.fi",
+      "intent": "Etsiä tietoa Postin asiakastietojen hallinnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiakastiedot.posti.fi",
+      "intent": "Ladata uusi selain, jotta Posti.fi toimii oikein"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiakastiedot.posti.fi",
+      "intent": "Tarkistaa omat asiakastiedot ja varmistaa, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiakastiedot.posti.fi",
+      "intent": "Muuttaa osoitetta, koska olen muuttanut uuteen osoitteeseen Heinolassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiakastiedot.posti.fi",
+      "intent": "Tarkistaa laskut ja maksaa niitä verkossa"
+    }
+  ]
+}

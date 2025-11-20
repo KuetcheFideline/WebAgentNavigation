@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.zol.be",
+      "intent": "Rechercher les informations sur les services de santé proposés par le Ziekenhuis Oost-Limburg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.zol.be",
+      "intent": "Consulter les horaires de visites et les coordonnées pour contacter le Ziekenhuis Oost-Limburg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.zol.be",
+      "intent": "Explorer les différentes spécialités médicales proposées par le Ziekenhuis Oost-Limburg"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.zol.be",
+      "intent": "Accéder à mon dossier médical personnel pour consulter mes résultats d'analyses et mes rendez-vous"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.zol.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux et recevoir des rappels pour les préparatifs nécessaires"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.zol.be",
+      "intent": "Consulter et gérer mes factures et paiements pour les services médicaux reçus au Ziekenhuis Oost-Limburg"
+    }
+  ]
+}

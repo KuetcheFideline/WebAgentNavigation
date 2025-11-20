@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mit.codan.dk",
+      "intent": "Jeg skal læse mere om, hvordan jeg kan bruge MitID til at logge på"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mit.codan.dk",
+      "intent": "Jeg søger efter hjælp til at forstå, hvordan MitID fungerer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mit.codan.dk",
+      "intent": "Jeg vil se, om der er nogen vejledninger eller tutorials omkring MitID"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mit.codan.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer, så de stemmer overens med mine nye arbejdsoplysninger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mit.codan.dk",
+      "intent": "Jeg vil se mine tidligere logon-aktiviteter for at sikre, at alt er i orden"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mit.codan.dk",
+      "intent": "Jeg skal tilføje en ny enhed til min MitID-konto, så jeg kan logge på fra min nye computer"
+    }
+  ]
+}

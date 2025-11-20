@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.etk.fi",
+      "intent": "Hae sivustolta tietoa työeläkkeestä ja sen laskemisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.etk.fi",
+      "intent": "Selvitä miten työeläkkeen määrä lasketaan ja mitkä tekijät vaikuttavat siihen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.etk.fi",
+      "intent": "Lue lisää eläkeuudistuksista ja niiden vaikutuksista työeläkkeisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.etk.fi",
+      "intent": "Tarkista omat eläkeasiat ja -tiedot ETK:n asiointipalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.etk.fi",
+      "intent": "Lähetä kysely tai pyynnösti ETK:lle omista eläkeasioista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.etk.fi",
+      "intent": "Tee muutos omiin eläkeasioihin liittyvissä tiedoissa ETK:n asiointipalvelussa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.avantio.com",
+      "intent": "Explorar la página de inicio para conocer las funcionalidades de Avantio VRMS"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.avantio.com",
+      "intent": "Buscar información sobre cómo funciona el sistema de gestión de alquileres vacacionales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.avantio.com",
+      "intent": "Leer la política de privacidad para entender cómo se manejan los datos personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.avantio.com",
+      "intent": "Configurar mis preferencias de idioma y notificaciones dentro de la plataforma"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.avantio.com",
+      "intent": "Crear un nuevo perfil de usuario para un miembro del equipo de la startup"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.avantio.com",
+      "intent": "Verificar y actualizar la información de contacto de la empresa en el sistema"
+    }
+  ]
+}

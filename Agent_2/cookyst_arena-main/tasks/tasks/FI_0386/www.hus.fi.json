@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Haluaisin etsiä tietoa sairaaloiden ja toimipisteiden aukioloista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tehdä haku sivustolta potilashoidon organisaatiosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Löytää tietoa laboratorion ajanvarauksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Kirjautua sisään ja tarkastaa omat terveystiedot Omapolku-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Varata aika laboratorioon kirjautumisen jälkeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tarkastella lääkkeitäni ja muuttaa niiden tilauksia kirjautumisen jälkeen"
+    }
+  ]
+}

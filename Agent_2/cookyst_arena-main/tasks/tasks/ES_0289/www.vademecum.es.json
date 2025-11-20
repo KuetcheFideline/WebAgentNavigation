@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vademecum.es",
+      "intent": "Buscar información sobre medicamentos para el tratamiento de la hipertensión"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vademecum.es",
+      "intent": "Explorar las noticias más recientes sobre avances en la investigación del cáncer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vademecum.es",
+      "intent": "Consultar la lista de principios activos actualizados para medicamentos de uso común"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vademecum.es",
+      "intent": "Guardar una lista de medicamentos para futuras consultas y comparaciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vademecum.es",
+      "intent": "Configurar alertas personalizadas para recibir notificaciones sobre actualizaciones de medicamentos específicos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vademecum.es",
+      "intent": "Crear un perfil de paciente para acceder a recomendaciones de tratamiento personalizadas"
+    }
+  ]
+}

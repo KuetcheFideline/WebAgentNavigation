@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.seiska.fi",
+      "intent": "Luen Seiskan viimeisimpiä uutisia julkkismaailmasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.seiska.fi",
+      "intent": "Selvitan, mitä uutta on kotimaan ja ulkomaan uutisissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.seiska.fi",
+      "intent": "Etsin tietoa Seiskan mobiilisovelluksesta ja sen ominaisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.seiska.fi",
+      "intent": "Kirjaudun sisään ja tilaan Seiskan uutisilmoitukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.seiska.fi",
+      "intent": "Kommentoin artikkelia julkkismaailmasta ja jaan mielipidettäni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.seiska.fi",
+      "intent": "Vinkkaan uutisen Seiskalle ja yritän tienata vinkkauksesta"
+    }
+  ]
+}

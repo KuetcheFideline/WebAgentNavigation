@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.palabreto.com",
+      "intent": "Explorar la sección de prefijos para encontrar palabras que comiencen con las letras 'co' y 'pr'."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.palabreto.com",
+      "intent": "Leer las pistas del PalabRETO para encontrar palabras que empiecen con la letra 'e' y tengan una longitud de 3 letras."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.palabreto.com",
+      "intent": "Buscar palabras que contengan la letra 'v' y tengan una longitud de 6 letras."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.palabreto.com",
+      "intent": "Compartir la solución de ayer en las redes sociales para mostrar mis habilidades en el juego."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.palabreto.com",
+      "intent": "Verificar mi puntuación actual y compararla con la de otros jugadores para ver cómo me estoy desempeñando."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.palabreto.com",
+      "intent": "Configurar mis preferencias de juego para recibir notificaciones cuando se publiquen nuevas pistas y soluciones."
+    }
+  ]
+}

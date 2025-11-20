@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portalsportinguista.com",
+      "intent": "Buscar información sobre el Real Sporting de Gijón en la temporada 2025/2026"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portalsportinguista.com",
+      "intent": "Explorar la sección de Tema Libre para ver qué temas están siendo discutidos actualmente"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portalsportinguista.com",
+      "intent": "Verificar las estadísticas del foro para saber cuántos mensajes y temas hay en total"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portalsportinguista.com",
+      "intent": "Crear un nuevo tema en la sección de Fútbol para discutir sobre el próximo partido del Real Sporting de Gijón"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portalsportinguista.com",
+      "intent": "Responder a un tema existente en la sección de Tema Libre para participar en la discusión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portalsportinguista.com",
+      "intent": "Editar mi perfil de usuario para agregar una foto y una descripción personal"
+    }
+  ]
+}

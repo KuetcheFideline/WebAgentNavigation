@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hopoti.com",
+      "intent": "Etsin ratsastuskeskuksia Helsingin lähellä, jossa voisin vuokrata hevosen ja osallistua ratsastustunteihin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hopoti.com",
+      "intent": "Haluan lukea arvosteluita eri ratsastuskeskuksista, jotta voisin valita parhaimman vaihtoehdon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hopoti.com",
+      "intent": "Tutkin Hopotin tarjoamia ratsastuspalveluita ja -tuotteita, kuten hevosten vuokrausta ja ratsastustunteja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hopoti.com",
+      "intent": "Kirjaudun sisään ja varaan ratsastustunnin lähimmästä ratsastuskeskuksesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hopoti.com",
+      "intent": "Tarkastan tilini ja vahvistan, että olen maksanut ratsastustuntien varaukset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hopoti.com",
+      "intent": "Lisään uuden hevosen omiin suosikkeihini ja seuraan sen saatavuutta ja hintaa"
+    }
+  ]
+}

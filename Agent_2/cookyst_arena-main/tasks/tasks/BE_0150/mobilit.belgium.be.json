@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mobilit.belgium.be",
+      "intent": "Je veux consulter les informations sur les transports en commun pour me rendre au travail à Liège."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mobilit.belgium.be",
+      "intent": "Je souhaite comparer les différents modes de transport pour voyager entre Liège et Bruxelles."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mobilit.belgium.be",
+      "intent": "Je cherche à en savoir plus sur les projets de développement des infrastructures de transport en Wallonie."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mobilit.belgium.be",
+      "intent": "Je veux personnaliser mes préférences de transport pour recevoir des mises à jour sur les travaux de maintenance des routes empruntées régulièrement."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mobilit.belgium.be",
+      "intent": "Je souhaite enregistrer mes itinéraires de déplacement habituels pour obtenir des statistiques sur mes déplacements et mes émissions de CO2."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mobilit.belgium.be",
+      "intent": "Je veux participer à des sondages en ligne pour donner mon avis sur l'amélioration des services de transport public en Belgique."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.verkatehdas.fi",
+      "intent": "Hae tapahtumakalenterista tulevia konsertteja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.verkatehdas.fi",
+      "intent": "Selaa ravintoloiden ja lounaiden tarjontaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.verkatehdas.fi",
+      "intent": "Tutki järjestäjien tapahtumapaketteja ja tarjoilumahdollisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.verkatehdas.fi",
+      "intent": "Tilaa uutiskirje, jotta saan tiedon tulevista tapahtumista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.verkatehdas.fi",
+      "intent": "Lähetä tarjouspyyntö tapahtuman järjestämiseksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.verkatehdas.fi",
+      "intent": "Ostetaan liput tulevaan Leevi and the Leavingsin konserttiin"
+    }
+  ]
+}

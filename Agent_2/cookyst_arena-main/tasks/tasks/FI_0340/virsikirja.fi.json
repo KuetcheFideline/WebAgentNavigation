@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://virsikirja.fi",
+      "intent": "Hae virsiä numeron, nimen tai virressä esiintyvän sanan perusteella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://virsikirja.fi",
+      "intent": "Selaa virsiä teemoittain, kuten aamu, ilta, ristiäiset, häät ja hautajaiset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://virsikirja.fi",
+      "intent": "Tutki viikon haetuimmat virret ja lue niiden sanoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://virsikirja.fi",
+      "intent": "Lisää virsiä omiin suosikkeihin ja jaa ne ystävien kanssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://virsikirja.fi",
+      "intent": "Anna palautetta virsien sisällöstä ja ehdota uusia virsiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://virsikirja.fi",
+      "intent": "Muokkaa omia suosikkeja ja poista virsiä, joita enää ei halua"
+    }
+  ]
+}

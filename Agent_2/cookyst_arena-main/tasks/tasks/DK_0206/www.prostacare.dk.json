@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.prostacare.dk",
+      "intent": "Jeg søger efter information om ProstaCare og dets virkning på prostatafunktionen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.prostacare.dk",
+      "intent": "Jeg vil sammenligne priserne på ProstaCare og andre kosttilskud til mænd."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.prostacare.dk",
+      "intent": "Jeg søger efter anmeldelser og erfaringer fra andre mænd, der har brugt ProstaCare."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.prostacare.dk",
+      "intent": "Jeg vil bestille en flaske ProstaCare og aktivere mit abonnement."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.prostacare.dk",
+      "intent": "Jeg vil ændre min betalingsinformation og opdater min kundeportal."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.prostacare.dk",
+      "intent": "Jeg vil annullere mit abonnement og returnere en ubrugt flaske ProstaCare."
+    }
+  ]
+}

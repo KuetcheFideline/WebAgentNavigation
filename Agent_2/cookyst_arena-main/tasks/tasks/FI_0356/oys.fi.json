@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oys.fi",
+      "intent": "Hae sivustolta tietoa synnytyksestä ja lastenhoitopalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oys.fi",
+      "intent": "Selaa sivuston osiot ja etsi tietoa kuntoutuspalveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oys.fi",
+      "intent": "Tutki sivuston yhteystietoja ja etsi osoitetta sairaalaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oys.fi",
+      "intent": "Kirjaudu sisään ja tee varaus ajanvaraukseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oys.fi",
+      "intent": "Täytä potilasprofiili ja anna suostumus henkilötietojen käyttöön"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oys.fi",
+      "intent": "Lue ja tulosta omat potilastiedot ja hoitosuunnitelma"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sedejudicial.justicia.es",
+      "intent": "Buscar información sobre los trámites y servicios disponibles en la Sede Judicial Electrónica"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sedejudicial.justicia.es",
+      "intent": "Consultar el estado de un expediente judicial en el apartado de Consulta Estados Expediente"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sedejudicial.justicia.es",
+      "intent": "Acceder a la información sobre las Cuentas de Depósitos y Consignaciones Judiciales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sedejudicial.justicia.es",
+      "intent": "Realizar un apoderamiento apud acta en el sistema de la Sede Judicial Electrónica"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sedejudicial.justicia.es",
+      "intent": "Presentar una queja o sugerencia sobre la Sede Judicial Electrónica en el apartado de quejas y sugerencias"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sedejudicial.justicia.es",
+      "intent": "Acceder al visor de expedientes judiciales electrónicos ATENEA IRIS para consultar un expediente específico"
+    }
+  ]
+}

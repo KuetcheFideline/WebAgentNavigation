@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fr.be.getaround.com",
+      "intent": "Rechercher une voiture de location pour un week-end à Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fr.be.getaround.com",
+      "intent": "Comparer les prix de location de voitures entre particuliers à Liège et à Charleroi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fr.be.getaround.com",
+      "intent": "Lire les témoignages de propriétaires qui louent leurs voitures sur la plateforme"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fr.be.getaround.com",
+      "intent": "Réserver une voiture pour un déplacement professionnel à Namur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fr.be.getaround.com",
+      "intent": "Ajouter un conducteur supplémentaire à ma réservation de voiture"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fr.be.getaround.com",
+      "intent": "Consulter l'historique de mes locations de voitures sur la plateforme"
+    }
+  ]
+}

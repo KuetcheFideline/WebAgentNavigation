@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kalakalenteri.fi",
+      "intent": "Tarkastella kalakalenteria ja etsiä parhaat kalastuspäivät ja kellonajat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kalakalenteri.fi",
+      "intent": "Etsiä tietoa kalastuspaikoista ja kalastussäännöistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kalakalenteri.fi",
+      "intent": "Ladata kalakalenteri sovellus ja asentaa se puhelimeeni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kalakalenteri.fi",
+      "intent": "Tallentaa suosikkikalastuspaikkani ja seurata niiden kalastussääntöjä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kalakalenteri.fi",
+      "intent": "Lukemaan muiden käyttäjien kokemuksia ja vinkkejä kalastuksesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kalakalenteri.fi",
+      "intent": "Osallistumaan keskustelufoorumiin ja jakamaan omia kalastuskokemuksiani"
+    }
+  ]
+}

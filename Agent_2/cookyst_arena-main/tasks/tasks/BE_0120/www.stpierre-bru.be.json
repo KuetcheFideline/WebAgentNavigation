@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.stpierre-bru.be",
+      "intent": "Rechercher les services de consultation pour les patients"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.stpierre-bru.be",
+      "intent": "Consulter les informations pratiques pour les visiteurs"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.stpierre-bru.be",
+      "intent": "Découvrir les actualités de l'hôpital Saint-Pierre"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.stpierre-bru.be",
+      "intent": "Accéder à mon dossier médical en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.stpierre-bru.be",
+      "intent": "Effectuer un paiement en ligne pour mes factures"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.stpierre-bru.be",
+      "intent": "Prendre rendez-vous avec un médecin via le site web"
+    }
+  ]
+}

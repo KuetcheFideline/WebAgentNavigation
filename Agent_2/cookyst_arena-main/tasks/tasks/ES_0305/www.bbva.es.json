@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Revisar la información sobre los productos de ahorro para personas mayores de 55 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Buscar información sobre los préstamos hipotecarios para la compra de una segunda vivienda en la costa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Consultar las tarifas y comisiones de las cuentas corrientes para particulares"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Realizar una transferencia bancaria a la cuenta de mi hijo para ayudarle con los gastos universitarios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Consultar el estado de mi cuenta de ahorro y verificar los movimientos recientes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Solicitar un aumento en el límite de mi tarjeta de crédito para hacer frente a los gastos de Navidad"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fcvolei.cat",
+      "intent": "Buscar información sobre los entrenamientos de voleibol en la página de la Federació Catalana de Voleibol"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fcvolei.cat",
+      "intent": "Explorar la sección de noticias de la página para estar al tanto de las últimas novedades del voleibol catalán"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fcvolei.cat",
+      "intent": "Descargar formularios y documentación relacionada con la competición de voleibol desde la sección de descargas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fcvolei.cat",
+      "intent": "Acceder al área privada de gestión de mi club para consultar licencias, facturas y horarios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fcvolei.cat",
+      "intent": "Controlar mi plantilla y estadísticas como entrenador en el área de entrenadores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fcvolei.cat",
+      "intent": "Consultar actas, liquidaciones económicas y formación en el área de árbitros"
+    }
+  ]
+}

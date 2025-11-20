@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hoboreizen.be",
+      "intent": "Rechercher des voyages en groupe pour les jeunes adultes en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hoboreizen.be",
+      "intent": "Consulter les informations sur les destinations de voyage proposées par l'agence"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hoboreizen.be",
+      "intent": "Vérifier les prix et les disponibilités des voyages pour l'été prochain"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hoboreizen.be",
+      "intent": "Réserver un voyage en groupe pour moi et mes amis après avoir vérifié les détails du voyage"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hoboreizen.be",
+      "intent": "Gérer mes réservations de voyage et imprimer mes documents de voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hoboreizen.be",
+      "intent": "Contacter le service client pour obtenir des informations supplémentaires sur un voyage qui m'intéresse"
+    }
+  ]
+}

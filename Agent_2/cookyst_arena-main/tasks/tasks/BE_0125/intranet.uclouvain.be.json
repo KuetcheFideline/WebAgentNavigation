@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://intranet.uclouvain.be",
+      "intent": "Rechercher les formations proposées par l'UCLouvain pour les jeunes en formation professionnelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://intranet.uclouvain.be",
+      "intent": "Consulter les informations sur la vie des campus et les activités proposées aux étudiants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://intranet.uclouvain.be",
+      "intent": "Explorer les ressources didactiques et les enseignements proposés par l'UCLouvain"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://intranet.uclouvain.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes horaires de cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://intranet.uclouvain.be",
+      "intent": "Inscrire à des cours ou à des activités proposées par l'UCLouvain en tant qu'étudiant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://intranet.uclouvain.be",
+      "intent": "Consulter et gérer mes informations personnelles et mes paramètres de compte"
+    }
+  ]
+}

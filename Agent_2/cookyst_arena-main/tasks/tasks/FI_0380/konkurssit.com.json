@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://konkurssit.com",
+      "intent": "Tarkastella yritysten konkurssitilannetta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://konkurssit.com",
+      "intent": "Etsiä tietoa tieliikenteen tavarankuljetuksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://konkurssit.com",
+      "intent": "Selata listausta yritysten perustamisvuosittain"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://konkurssit.com",
+      "intent": "Tallentaa suosikkeihin valitut yritykset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://konkurssit.com",
+      "intent": "Lisätä kommentti yritysten konkurssitilanteeseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://konkurssit.com",
+      "intent": "Varmistaa omien yritystietojen oikeellisuus"
+    }
+  ]
+}

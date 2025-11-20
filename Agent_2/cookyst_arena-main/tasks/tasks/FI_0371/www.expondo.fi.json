@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.expondo.fi",
+      "intent": "Selvittää ravintolalaitteiden valikoimaa ja etsiä edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.expondo.fi",
+      "intent": "Löytää tietoa siivouslaitteista ja niiden käytöstä kotitaloudessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.expondo.fi",
+      "intent": "Vertailla eri tuotteiden hintoja ja laatua ennen ostopäätöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.expondo.fi",
+      "intent": "Tarkistaa tilausten tila ja seurata lähetysten etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.expondo.fi",
+      "intent": "Muuttaa osoitetta ja muita asiakastietoja profiilissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.expondo.fi",
+      "intent": "Tarkastella ostoshistoriaa ja arvostella aiemmin ostettuja tuotteita"
+    }
+  ]
+}

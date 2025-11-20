@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ws054.juntadeandalucia.es",
+      "intent": "Buscar ofertas de empleo en la provincia de Soria para personas mayores de 60 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ws054.juntadeandalucia.es",
+      "intent": "Explorar las secciones de 'Quiero trabajar' y 'Quiero contratar' para entender las opciones de empleo disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ws054.juntadeandalucia.es",
+      "intent": "Verificar la disponibilidad de cursos de formación para personas mayores en el área de 'Área de Personas'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ws054.juntadeandalucia.es",
+      "intent": "Iniciar sesión y acceder al 'Área de Personas' para gestionar mi demanda de empleo y actualizar mi perfil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ws054.juntadeandalucia.es",
+      "intent": "Solicitar una cita en el SAE para obtener asesoramiento sobre mi búsqueda de empleo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ws054.juntadeandalucia.es",
+      "intent": "Inscribirme en una oferta de empleo que se adapte a mis habilidades y experiencia laboral"
+    }
+  ]
+}

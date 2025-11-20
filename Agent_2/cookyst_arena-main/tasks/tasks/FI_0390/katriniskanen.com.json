@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://katriniskanen.com",
+      "intent": "Selvänäkijä etsii talvikauden lämpimän matkakohteen, joten hän etsii sivustolta lämpimän matkakohteen esittelyä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://katriniskanen.com",
+      "intent": "Golffan etsii uusia golf-välineitä, joten hän selaa sivustoa golf-tuotteiden etsimiseksi."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://katriniskanen.com",
+      "intent": "Eläkeläinen vertailee eri matkakohteiden hintoja ja palveluita, joten hän vertailee sivustolla eri matkakohteiden tarjontaa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://katriniskanen.com",
+      "intent": "Käyttäjä on kirjautunut sisään ja haluaa tarkastella tilaushistoriaansa, joten hän siirtyy tilaushistoria-sivulle."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://katriniskanen.com",
+      "intent": "Käyttäjä haluaa muuttaa salasanaansa, joten hän siirtyy salasanan vaihto -sivulle."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://katriniskanen.com",
+      "intent": "Käyttäjä haluaa tarkastella ja muuttaa omia tietojaan, joten hän siirtyy profiili-sivulle."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www12.agenciatributaria.gob.es",
+      "intent": "Consultar información sobre la declaración de la renta para personas físicas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www12.agenciatributaria.gob.es",
+      "intent": "Buscar información sobre los trámites y procedimientos para obtener un certificado de residencia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www12.agenciatributaria.gob.es",
+      "intent": "Acceder al apartado de ayuda para resolver dudas sobre la identificación electrónica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www12.agenciatributaria.gob.es",
+      "intent": "Verificar el estado de mi declaración de la renta del año anterior"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www12.agenciatributaria.gob.es",
+      "intent": "Descargar un certificado de residencia fiscal para presentar en el banco"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www12.agenciatributaria.gob.es",
+      "intent": "Solicitar una cita para una consulta personalizada sobre mi situación fiscal"
+    }
+  ]
+}

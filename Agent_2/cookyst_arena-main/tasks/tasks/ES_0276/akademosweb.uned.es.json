@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://akademosweb.uned.es",
+      "intent": "Explorar la sección de información académica personalizada para conocer las opciones disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://akademosweb.uned.es",
+      "intent": "Buscar información sobre el Vicerrectorado de Tecnología y sus proyectos actuales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://akademosweb.uned.es",
+      "intent": "Configurar las cookies y aceptar las necesarias para una buena funcionalidad del sitio web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://akademosweb.uned.es",
+      "intent": "Iniciar sesión con mis claves de www.uned.es para acceder a mi información académica personalizada"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://akademosweb.uned.es",
+      "intent": "Consultar mis tutorías y horarios para planificar mis clases y reuniones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://akademosweb.uned.es",
+      "intent": "Actualizar mi perfil y datos personales para asegurarme de que la información sea precisa y actualizada"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://min.su.dk",
+      "intent": "Jeg søger efter information om min folkepension på minSU"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://min.su.dk",
+      "intent": "Jeg vil læse om nyheder og ændringer i SU-reglerne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://min.su.dk",
+      "intent": "Jeg søger efter kontaktoplysninger til minSU-kundeservice"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://min.su.dk",
+      "intent": "Jeg vil se mine betalingshistorik og kontrollere, om der er nogen fejl"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://min.su.dk",
+      "intent": "Jeg ønsker at ændre mine personlige oplysninger og adresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://min.su.dk",
+      "intent": "Jeg vil ansøge om en ændring i min SU-udbetaling på grund af ændringer i min økonomi"
+    }
+  ]
+}

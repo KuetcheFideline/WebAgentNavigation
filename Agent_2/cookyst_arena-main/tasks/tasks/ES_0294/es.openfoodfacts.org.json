@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://es.openfoodfacts.org",
+      "intent": "Buscar información sobre los productos alimenticios con menor impacto ambiental para reducir mi huella de carbono"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://es.openfoodfacts.org",
+      "intent": "Explorar la sección de productos con Nutri-Score alto para encontrar opciones saludables para mi familia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://es.openfoodfacts.org",
+      "intent": "Leer las etiquetas de los productos para entender mejor los ingredientes y los aditivos que contienen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://es.openfoodfacts.org",
+      "intent": "Añadir un producto que no está en la base de datos para contribuir a la comunidad y ayudar a otros consumidores"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://es.openfoodfacts.org",
+      "intent": "Editar la información de un producto para corregir errores y mejorar la precisión de la base de datos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://es.openfoodfacts.org",
+      "intent": "Crear una lista de productos favoritos para seguir su evolución y recibir notificaciones sobre cambios en su composición o disponibilidad"
+    }
+  ]
+}

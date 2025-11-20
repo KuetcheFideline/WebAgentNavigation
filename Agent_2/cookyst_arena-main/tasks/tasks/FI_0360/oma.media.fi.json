@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.media.fi",
+      "intent": "Haluaisin tietää, mitä lehtiä voin tilata Oma Medialta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.media.fi",
+      "intent": "Tutkin, miten voin muuttaa olemassa olevaa tilaustani Oma Medialla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.media.fi",
+      "intent": "Löytäisin tietoa siitä, miten voin ottaa yhteyttä asiakaspalveluun, jos minulla on ongelmia tilaukseni kanssa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.media.fi",
+      "intent": "Haluan tarkistaa tilauseni tiedot ja varmistaa, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.media.fi",
+      "intent": "Tilaisin uuden lehden Oma Medialta, koska haluan seurata tietyn aiheen uutisia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.media.fi",
+      "intent": "Muuttaisin tilaukseni maksutapaa, koska haluan maksaa helpommin ja nopeammin"
+    }
+  ]
+}

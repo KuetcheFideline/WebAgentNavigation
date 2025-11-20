@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Hae ohjeita ja tietoa mahdollisista palveluhäiriöistä Enter Finland -sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Valitse oikea hakemuslomake ja täytä se"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Selvitä, tarvitaanko palvelupisteessä käynti henkilöllisyyden todistamiseksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Luo käyttäjätili ja aloita uuden oleskeluluvan hakemus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Lisää liitteitä oleskeluluvan hakemukseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Maksaa käsittelymaksu ja lähetä oleskeluluvan hakemus"
+    }
+  ]
+}

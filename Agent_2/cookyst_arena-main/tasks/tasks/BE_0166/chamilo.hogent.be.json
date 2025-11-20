@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Rechercher des informations sur les cours en ligne disponibles sur la plateforme Chamilo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Explorer les ressources bibliographiques de la bibliothèque de HOGENT via le module Quick BIB"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Consulter les actualités et les annonces de l'établissement sur la page d'accueil"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Accéder à mes cours en ligne et consulter les notes et les devoirs à rendre"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Paramétrer mes préférences de notification et de confidentialité sur mon compte Chamilo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Participer à un forum de discussion en ligne avec d'autres étudiants et enseignants"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.michelin.be",
+      "intent": "Rechercher des pneus pour ma voiture en fonction de la saison actuelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.michelin.be",
+      "intent": "Trouver un revendeur de pneus Michelin près de chez moi à Ixelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.michelin.be",
+      "intent": "Consulter les conseils et astuces pour l'entretien de mes pneus"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.michelin.be",
+      "intent": "Gérer mes pneus enregistrés dans mon garage virtuel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.michelin.be",
+      "intent": "Suivre l'historique de mes achats de pneus et mes interactions avec le site"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.michelin.be",
+      "intent": "Personnaliser mes préférences de notification pour les promotions et les nouveautés"
+    }
+  ]
+}

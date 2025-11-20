@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sodankyla.fi",
+      "intent": "Hae tietoa Sodankylän asumisen ja ympäristön palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sodankyla.fi",
+      "intent": "Selaa Sodankylän vapaa-ajan harrastusmahdollisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sodankyla.fi",
+      "intent": "Etsi tietoa Sodankylän työmahdollisuuksista ja elinkeinoelämästä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sodankyla.fi",
+      "intent": "Tee ilmoitus Sodankylän asiointipalvelun kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sodankyla.fi",
+      "intent": "Täytä Sodankylän verkkolomake palautteen antamiseksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sodankyla.fi",
+      "intent": "Kirjaudu sisään Sodankylän verkkopalveluun ja selaa omia tietojani"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiointi.poliisi.fi",
+      "intent": "Hae passia varten tarvittavat asiakirjat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiointi.poliisi.fi",
+      "intent": "Selvitä miten ilmoittaa kadonneesta henkilökohtaisesta asiakirjasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiointi.poliisi.fi",
+      "intent": "Tutki poliisin verkkopalvelun turvallisuutta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiointi.poliisi.fi",
+      "intent": "Täytä poliisin verkkopalvelun kautta rikosilmoitus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiointi.poliisi.fi",
+      "intent": "Tarkista omat henkilökohtaiset tiedot poliisin rekisterissä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiointi.poliisi.fi",
+      "intent": "Pyynnön tekeminen poliisille asiakirjan korvaamisesta"
+    }
+  ]
+}

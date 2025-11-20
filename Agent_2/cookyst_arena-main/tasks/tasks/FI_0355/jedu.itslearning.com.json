@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jedu.itslearning.com",
+      "intent": "Selvitän, miten pääsen käyttämään itslearning-tiliäni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jedu.itslearning.com",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa kieltä suomeksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jedu.itslearning.com",
+      "intent": "Katselen, mitä ulkoinen kurssiluettelo tarjoaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jedu.itslearning.com",
+      "intent": "Tarkastan, mitä uusia kurssimateriaaleja on lisätty itslearning-tililleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jedu.itslearning.com",
+      "intent": "Lähetän viestin opettajalle kysymällä lisätietoa tietystä kurssista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jedu.itslearning.com",
+      "intent": "Tallennan muistiinpanoja itslearning-tililleni kurssin aiheesta"
+    }
+  ]
+}

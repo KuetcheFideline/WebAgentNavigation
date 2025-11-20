@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Tehdä nopeustesti internetyhteydelläni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Vertailla eri internetselainten nopeuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Ladata Speedtest-sovellus Android-laitteelle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Tarkastaa aiemmat nopeustestitulokset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Muuttaa käyttäjätilin asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Poistaa mainokset Speedtest-sivuilta"
+    }
+  ]
+}

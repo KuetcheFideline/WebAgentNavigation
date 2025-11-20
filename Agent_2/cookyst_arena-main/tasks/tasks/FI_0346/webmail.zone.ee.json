@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.zone.ee",
+      "intent": "Tarkastan sähköpostini viestit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.zone.ee",
+      "intent": "Etsin ohjeita sähköpostin asetusten muuttamiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.zone.ee",
+      "intent": "Selvitan, miten voin lähettää liitetiedostoja sähköpostissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.zone.ee",
+      "intent": "Lähetän uuden sähköpostiviestin tiimille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.zone.ee",
+      "intent": "Vastaan sähköpostiin, joka on odottanut vastausta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.zone.ee",
+      "intent": "Poistan vanhat ja tarpeettomat sähköpostiviestit"
+    }
+  ]
+}

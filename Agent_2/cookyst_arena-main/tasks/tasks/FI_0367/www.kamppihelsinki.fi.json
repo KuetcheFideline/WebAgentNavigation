@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kamppihelsinki.fi",
+      "intent": "Hae ravintoloita ja kahviloita Kampissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kamppihelsinki.fi",
+      "intent": "Tutustu Kampin aukioloajiin ja liikkeisiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kamppihelsinki.fi",
+      "intent": "Selaa Kampin tarjontaa ja etsi jouluostoksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kamppihelsinki.fi",
+      "intent": "Kirjaudu sisään ja tallenna suosikkiliikkeet ja ravintolat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kamppihelsinki.fi",
+      "intent": "Anna palautetta Kampin palveluista ja liikkeistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kamppihelsinki.fi",
+      "intent": "Hyödynnä Kampin etuja ja tarjouksia kirjautuneena käyttäjänä"
+    }
+  ]
+}

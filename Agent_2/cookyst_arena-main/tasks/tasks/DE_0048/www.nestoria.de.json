@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nestoria.de",
+      "intent": "Ich möchte eine Wohnung in Grünwald mieten, also gebe ich 'Grünwald' in die Suchleiste ein und wähle 'mieten' als Suchkriterium."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nestoria.de",
+      "intent": "Ich bin an Häusern in München interessiert, also klicke ich auf 'Häuser zum Kauf in München', um die entsprechenden Angebote zu sehen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nestoria.de",
+      "intent": "Ich möchte eine Wohnung mit mindestens 3 Zimmern und 2 Bädern in Düsseldorf kaufen, also passe ich die Suchfilter entsprechend an."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nestoria.de",
+      "intent": "Ich bin bereits angemeldet und möchte meine Suchanfragen speichern, also klicke ich auf 'Meine Suchanfragen' und füge eine neue Anfrage hinzu."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nestoria.de",
+      "intent": "Ich möchte meine Kontaktdaten aktualisieren, also gehe ich zu 'Mein Konto' und ändere meine Adresse und Telefonnummer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nestoria.de",
+      "intent": "Ich möchte eine Benachrichtigung erhalten, wenn eine neue Wohnung in meiner bevorzugten Gegend inseriert wird, also aktiviere ich die Benachrichtigungsfunktion in meinem Konto."
+    }
+  ]
+}

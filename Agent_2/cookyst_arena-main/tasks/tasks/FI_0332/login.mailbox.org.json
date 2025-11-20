@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.mailbox.org",
+      "intent": "Tarkistaa sähköpostiosoitteeni ja salasanani, jotta voin kirjautua sisään"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.mailbox.org",
+      "intent": "Lukemaan uutisia ja päivittäisiä päivityksiä sivustolta, jotta olen ajan tasalla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.mailbox.org",
+      "intent": "Etsimään tietoa siitä, miten voin muuttaa salasanaani, jos se on unohtunut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.mailbox.org",
+      "intent": "Lähetämään viesti ystävilleni ja perheenjäsenilleni, jotka ovat myös sivuston käyttäjiä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.mailbox.org",
+      "intent": "Tarkistamaan ja vastaamaan odottaviin viesteihini, jotta olen ajantasalla työ- ja opiskelukavereiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.mailbox.org",
+      "intent": "Muokkaamaan profiiliani ja tietojani, jotta ne ovat ajan tasalla ja oikein"
+    }
+  ]
+}

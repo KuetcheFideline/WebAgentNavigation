@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kuvaverkkokauppa.fi",
+      "intent": "Lue palvelun tietosuojakäytännöt ja käyttöehdot, jotta voin ymmärtää, miten he käsittelevät henkilötietojani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kuvaverkkokauppa.fi",
+      "intent": "Etsi kuvaverkkokaupan etusivulta tietoa siitä, miten voin käyttää palvelua ilman, että minun tarvitsee ottaa käyttöön Javascript-tuki."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kuvaverkkokauppa.fi",
+      "intent": "Selvitä, miten voin ottaa yhteyttä asiakaspalveluun, jos minulla on ongelmia palvelun käytössä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kuvaverkkokauppa.fi",
+      "intent": "Tallenna ostoskorini sisältö, jotta voin jatkaa ostoksia myöhemmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kuvaverkkokauppa.fi",
+      "intent": "Muokkaa profiiliani tietoja, jotta voin varmistaa, että osoitteeni ja muut tiedot ovat ajan tasalla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kuvaverkkokauppa.fi",
+      "intent": "Tarkista tilausteni historia, jotta voin seurata, mitkä tuotteet olen ostanut aiemmin ja miten ne on toimitettu."
+    }
+  ]
+}

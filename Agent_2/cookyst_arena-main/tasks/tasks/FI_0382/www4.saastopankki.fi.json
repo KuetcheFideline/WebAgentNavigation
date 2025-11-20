@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www4.saastopankki.fi",
+      "intent": "Tutustun verkkopankin etusivuun ja etsin tietoa Säästöpankin verkkopankkipalveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www4.saastopankki.fi",
+      "intent": "Löydän ohjeet sivustolta, miten voin muodostaa yhteyden verkkopankkiin ja miten voin käyttää Säästöpankki Tunnistus -sovellusta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www4.saastopankki.fi",
+      "intent": "Etsin tietoa verkkopankin turvallisuudesta ja miten voin suojella tiliani ja tietojani verkkopankissa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www4.saastopankki.fi",
+      "intent": "Kirjaudun verkkopankkiin ja tarkastan tilieni saldot ja viimeisimmät tapahtumat."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www4.saastopankki.fi",
+      "intent": "Muokkaan verkkopankin asetuksia, kuten tilien ja sivujen asetuksia, ja vahvistan muutokset."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www4.saastopankki.fi",
+      "intent": "Lähettän rahaa toiseen tilille verkkopankin kautta ja vahvistan maksun onnistuneen."
+    }
+  ]
+}

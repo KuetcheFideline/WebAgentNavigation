@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.radiohelsinki.fi",
+      "intent": "Kuuntelen radiota ja etsin uusia artisteja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.radiohelsinki.fi",
+      "intent": "Selailen ohjelmistoa ja etsin mielenkiintoisia podcasteja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.radiohelsinki.fi",
+      "intent": "Luen uutisia ja ajankohtaisia artikkeleita radiosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.radiohelsinki.fi",
+      "intent": "Kirjaudun sisään ja muokkaan omia tietojani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.radiohelsinki.fi",
+      "intent": "Lähetän viestin studioon ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.radiohelsinki.fi",
+      "intent": "Liityn ystäväklubiin ja hyödynnän jäsenetuja"
+    }
+  ]
+}

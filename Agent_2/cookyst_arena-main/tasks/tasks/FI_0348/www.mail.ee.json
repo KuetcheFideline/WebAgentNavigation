@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mail.ee",
+      "intent": "Tarkastan sähköpostini Mail.ee -palvelussa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mail.ee",
+      "intent": "Löydän uusimmat uutiset ja ilmoitukset sivustolta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mail.ee",
+      "intent": "Selvittelen miten voin käyttää sivuston ilmainen 20 GB sähköpostipalvelu"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mail.ee",
+      "intent": "Lähetän uuden viestin ystävälleni sähköpostipalvelun kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mail.ee",
+      "intent": "Muokkaan sähköpostiosoitteeni asetuksia ja tietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mail.ee",
+      "intent": "Tarkastan viimeisimmät viestit ja vastaan sähköpostiin"
+    }
+  ]
+}

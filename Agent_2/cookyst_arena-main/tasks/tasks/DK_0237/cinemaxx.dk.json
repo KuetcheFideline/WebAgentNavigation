@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cinemaxx.dk",
+      "intent": "Jeg vil se, hvilke film der spiller nu på biografen i Skagen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cinemaxx.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan købe billet til en film på Cinemaxx"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cinemaxx.dk",
+      "intent": "Jeg vil læse mere om de kommende film og events på Cinemaxx"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cinemaxx.dk",
+      "intent": "Jeg vil logge ind for at se mine tidligere billetkøb og få personlige anbefalinger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cinemaxx.dk",
+      "intent": "Jeg vil tilmelde mig nyhedsbrevet for at få opdateringer om nye film og tilbud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cinemaxx.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og billetindstillinger"
+    }
+  ]
+}

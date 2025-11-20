@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://egela.ehu.eus",
+      "intent": "Explorar la sección de Onarpena para conocer más sobre el proceso de admisión"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://egela.ehu.eus",
+      "intent": "Buscar información sobre los cursos y programas académicos ofrecidos por la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://egela.ehu.eus",
+      "intent": "Leer las políticas de privacidad y cookies para entender cómo se utilizan los datos personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://egela.ehu.eus",
+      "intent": "Acceder a mi cuenta para ver mis notas y calificaciones de los cursos en los que estoy inscrito"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://egela.ehu.eus",
+      "intent": "Configurar mis preferencias de privacidad y notificaciones para personalizar mi experiencia en el sitio"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://egela.ehu.eus",
+      "intent": "Descargar documentos y recursos de los cursos en los que estoy inscrito para estudiar y preparar mis exámenes"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://parismatch.be",
+      "intent": "Rechercher des articles sur les tendances et loisirs à Bruxelles pour me tenir informée sur les événements locaux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://parismatch.be",
+      "intent": "Consulter la section People et royauté pour rester au courant des dernières nouvelles sur les célébrités"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://parismatch.be",
+      "intent": "Explorer la section Culture pour découvrir de nouveaux artistes et expositions à Bruxelles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://parismatch.be",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les dernières publications dans la section Santé"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://parismatch.be",
+      "intent": "Participer à un quiz dans la section Nos quiz pour tester mes connaissances sur l'actualité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://parismatch.be",
+      "intent": "Gérer mon abonnement pour accéder à du contenu premium et soutenir le site"
+    }
+  ]
+}

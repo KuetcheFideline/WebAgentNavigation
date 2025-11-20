@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://koiratietokanta.fi",
+      "intent": "Haku koirien rotujen ja ominaisuuksien vertailua varten"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://koiratietokanta.fi",
+      "intent": "Selvittää metsästyskoirien kokeiden tuloksia ja tilastoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://koiratietokanta.fi",
+      "intent": "Etsiminen koirahaku-toiminnon kautta sopivan metsästyskoiran löytämiseksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://koiratietokanta.fi",
+      "intent": "Ilmoittautuminen pitkään kokeeseen ja kokeen tulosten seuranta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://koiratietokanta.fi",
+      "intent": "Koetallennuksen teko ja kokeiden tulosten analysointi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://koiratietokanta.fi",
+      "intent": "Virheen ilmoittaminen tai palautteen antaminen kokeen tuloksista"
+    }
+  ]
+}

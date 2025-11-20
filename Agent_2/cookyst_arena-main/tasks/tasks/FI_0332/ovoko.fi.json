@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ovoko.fi",
+      "intent": "Hae käytetyt auton varaosat ja vertaile niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ovoko.fi",
+      "intent": "Selaa etuakselin osia ja etsi sopiva vaihtoehto omalle autolle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ovoko.fi",
+      "intent": "Lue blogipostauksia ja etsi vinkkejä auton huoltoon ja korjaamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ovoko.fi",
+      "intent": "Tee tilaus käytetystä autonosasta ja valitse toimitustapa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ovoko.fi",
+      "intent": "Seuraa tilaustani ja tarkista toimituksen tila"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ovoko.fi",
+      "intent": "Jätä arvostelua ostamastani tuotteesta ja anna palautetta"
+    }
+  ]
+}

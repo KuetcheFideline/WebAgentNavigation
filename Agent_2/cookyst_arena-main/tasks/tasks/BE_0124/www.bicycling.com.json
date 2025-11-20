@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bicycling.com",
+      "intent": "Rechercher des conseils pour améliorer ma technique de conduite de vélo sur route"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bicycling.com",
+      "intent": "Découvrir les dernières tendances en matière de vélos et de matériel de cyclisme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bicycling.com",
+      "intent": "Lire des articles sur l'entraînement et la préparation pour les courses de vélo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bicycling.com",
+      "intent": "Enregistrer mes vélos préférés et suivre les mises à jour sur les nouveaux modèles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bicycling.com",
+      "intent": "Participer à des discussions en ligne avec d'autres cyclistes pour échanger des conseils et des expériences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bicycling.com",
+      "intent": "Gérer mes abonnements et mes préférences pour recevoir des contenus personnalisés sur le cyclisme"
+    }
+  ]
+}

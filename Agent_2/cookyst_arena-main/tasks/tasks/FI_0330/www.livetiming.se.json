@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.livetiming.se",
+      "intent": "Valitse kilpailu ja tarkastele sen ohjelmaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.livetiming.se",
+      "intent": "Etsi tietoa siirtymisestä uuteen LiveTiming-sivustoon osoitteeseen https://live.swimify.com"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.livetiming.se",
+      "intent": "Selaa sivuston kilpailukalenteria ja etsi tulevia tapahtumia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.livetiming.se",
+      "intent": "Kirjaudu sisään ja tallenna omia suosikkikilpailujani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.livetiming.se",
+      "intent": "Luo uusi kilpailu ja lisää siihen omat tapahtumani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.livetiming.se",
+      "intent": "Muokkaa profiilia ja lisää tietoja itsestäni"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.meteobelgique.be",
+      "intent": "Consulter les prévisions météo pour Bruxelles pour la semaine à venir"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.meteobelgique.be",
+      "intent": "Rechercher les conditions météo actuelles pour le trajet entre Tervuren et Bruxelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.meteobelgique.be",
+      "intent": "Explorer les actualités météo pour comprendre les tendances climatiques en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.meteobelgique.be",
+      "intent": "Enregistrer les prévisions météo pour Bruxelles et Tervuren dans mes favoris pour un accès rapide"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.meteobelgique.be",
+      "intent": "Personnaliser les paramètres de notification pour recevoir des alertes météo pour mes villes préférées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.meteobelgique.be",
+      "intent": "Participer à un forum de discussion sur le site pour partager mes expériences avec d'autres utilisateurs concernant les conditions météo"
+    }
+  ]
+}

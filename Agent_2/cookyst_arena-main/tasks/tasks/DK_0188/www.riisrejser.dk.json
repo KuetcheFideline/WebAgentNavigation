@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.riisrejser.dk",
+      "intent": "Jeg søger efter en rejse til New Zealand, men først skal jeg se hvad Riis Rejser tilbyder af rejser til Europa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.riisrejser.dk",
+      "intent": "Jeg vil sammenligne priser på forskellige busrejser i Danmark for at se hvilken der er billigst"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.riisrejser.dk",
+      "intent": "Jeg søger efter en flyrejse til en destination i Europa som koster under 5000 kroner"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.riisrejser.dk",
+      "intent": "Jeg vil bestille en rejse til Belgien og ønsker at se mine tidligere rejsevalg for at sammenligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.riisrejser.dk",
+      "intent": "Jeg har allerede booket en rejse og ønsker at ændre mine rejseplaner, så jeg søger efter information om hvordan jeg kan ændre min booking"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.riisrejser.dk",
+      "intent": "Jeg vil se mine personlige rejseforslag baseret på mine tidligere rejser og ønsker"
+    }
+  ]
+}

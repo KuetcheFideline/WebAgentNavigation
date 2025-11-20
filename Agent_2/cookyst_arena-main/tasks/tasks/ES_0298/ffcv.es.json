@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ffcv.es",
+      "intent": "Buscar información sobre los campeonatos de fútbol en la Comunidad Valenciana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ffcv.es",
+      "intent": "Descubrir las oportunidades de arbitraje en la FFCV y cómo convertirse en árbitro"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ffcv.es",
+      "intent": "Explorar las secciones de noticias y actualidad sobre el fútbol valenciano"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ffcv.es",
+      "intent": "Acceder a la sección de licencias y realizar una solicitud de licencia para un jugador"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ffcv.es",
+      "intent": "Consultar y descargar certificados de árbitros y técnicos disponibles en la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ffcv.es",
+      "intent": "Solicitar una cita previa con el Comité de Árbitros para tratar asuntos relacionados con el arbitraje"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.seg-social.gob.es",
+      "intent": "Consultar información sobre prestaciones y servicios de la Seguridad Social para ciudadanos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.seg-social.gob.es",
+      "intent": "Buscar información sobre trámites y procedimientos para solicitar una pensión"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.seg-social.gob.es",
+      "intent": "Acceder al apartado de noticias y novedades para estar al tanto de las últimas actualizaciones"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.seg-social.gob.es",
+      "intent": "Solicitar un certificado de vida laboral para actualizar mis datos personales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.seg-social.gob.es",
+      "intent": "Realizar un seguimiento de mi expediente administrativo para conocer el estado de mis solicitudes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.seg-social.gob.es",
+      "intent": "Actualizar mis datos personales y de contacto para asegurarme de que la Seguridad Social tenga la información más actualizada"
+    }
+  ]
+}

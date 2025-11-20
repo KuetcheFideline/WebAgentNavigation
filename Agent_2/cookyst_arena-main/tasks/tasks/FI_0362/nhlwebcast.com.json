@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nhlwebcast.com",
+      "intent": "Katso suosikkijoukkueeni ottelut ilmaiseksi netissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nhlwebcast.com",
+      "intent": "Etsi tietoa siitä, miten voin katsella NHL-otteluita eri laitteilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nhlwebcast.com",
+      "intent": "Selvitä, onko sivustolla alueellisia rajoituksia NHL-otteluiden katselulle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nhlwebcast.com",
+      "intent": "Tallenna suosikkiotteluni ja katso ne myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nhlwebcast.com",
+      "intent": "Valitse eri selostajat suosikkiotteluihani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nhlwebcast.com",
+      "intent": "Katso suosikkijoukkueeni ottelut HD-laadulla"
+    }
+  ]
+}

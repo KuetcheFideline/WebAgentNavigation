@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Luen uutisia Etusivu-osiossa, jotta voin pysyä ajan tasalla alueeni tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Etsin urheilu-uutisia, erityisesti jalkapalloa ja Huuhkajien otteluita, joista olen kiinnostunut."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Selailen Paikalliset-osioita, jotta voin löytää tietoa lähialueeni tapahtumista ja uutisista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Luen tilaajien artikkeleita, kuten Pohjanmaan hyvinvointialueen uutisia, joista olen kiinnostunut ja joita voin lukea vain kirjautuneena."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Kommentoin uutisartikkeleita, kuten Vaasan seudun elinvoimaisuudesta, jotta voin osallistua keskusteluun ja jakaa omia ajatuksiani."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Tilaa uutiskirje, jotta saan sähköpostiini uusimmat uutiset ja päivitykset alueeni tapahtumista."
+    }
+  ]
+}

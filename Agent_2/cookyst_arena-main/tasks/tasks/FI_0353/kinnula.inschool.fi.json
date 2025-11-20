@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kinnula.inschool.fi",
+      "intent": "Luen Wilman esittelyn, jotta ymmärrän mitä se on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kinnula.inschool.fi",
+      "intent": "Selvittelen, mitä tietoja Wilma tarjoaa opiskelijoille, opettajille ja huoltajille, jotta voin hyödyntää sitä parhaalla tavalla."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kinnula.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten Wilmaa voidaan käyttää opiskelijoiden suoritusten seuraamiseen ja opettajien viestintään."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kinnula.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan, jotta voin tarkastella opiskelijoideni suorituksia ja viestiä heidän kanssaan."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kinnula.inschool.fi",
+      "intent": "Tarkastelen Wilman kautta opiskelijoideni poissaoloja ja lähetän heille viestejä, jos tarve vaatii."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kinnula.inschool.fi",
+      "intent": "Päivitän Wilman kautta opiskelijoideni henkilötietoja ja varmistelen, että kaikki tiedot ovat ajan tasalla."
+    }
+  ]
+}

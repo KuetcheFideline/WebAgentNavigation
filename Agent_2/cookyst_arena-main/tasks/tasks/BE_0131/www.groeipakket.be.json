@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.groeipakket.be",
+      "intent": "Je souhaite en savoir plus sur les différentes aides financières proposées par le Groeipakket pour votre enfant, notamment la zorgtoeslag et la schooltoeslag."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.groeipakket.be",
+      "intent": "Vous souhaitez consulter les dernières actualités sur le Groeipakket, notamment les dates d'indexation des montants et les conditions d'éligibilité pour les différentes aides."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.groeipakket.be",
+      "intent": "Vous cherchez à comprendre comment fonctionne le système de demande et d'attribution des aides du Groeipakket, notamment comment choisir un payeur et comment les montants sont calculés."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.groeipakket.be",
+      "intent": "Vous souhaitez consulter votre dossier Groeipakket en ligne pour vérifier les montants que vous avez reçus et ceux que vous allez recevoir, ainsi que pour gérer vos informations personnelles."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.groeipakket.be",
+      "intent": "Vous souhaitez demander une aide spécifique du Groeipakket, comme la zorgtoeslag ou la schooltoeslag, et vous devez remplir un formulaire en ligne pour cela."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.groeipakket.be",
+      "intent": "Vous souhaitez modifier vos informations personnelles ou celles de votre enfant dans votre dossier Groeipakket en ligne, comme une adresse ou un numéro de téléphone."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://leikkipankki.fi",
+      "intent": "Hae leikkejä, joissa on mukana askartelua ja etsi leikkejä, jotka sopivat 15-24-vuotiaille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://leikkipankki.fi",
+      "intent": "Selaa sivun ajankohtaisia leikkejä ja tutustu Kekribingo-leikkiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://leikkipankki.fi",
+      "intent": "Etsi leikkejä, joissa on mukana liikunta ja valitse leikit, jotka sopivat yksinleikille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://leikkipankki.fi",
+      "intent": "Kirjaudu sisään ja ilmoita uusi leikki, joka on sopiva 15-24-vuotiaille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://leikkipankki.fi",
+      "intent": "Anna palautetta leikistä, jota olet jo kokeillut ja ehdota parannuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://leikkipankki.fi",
+      "intent": "Tutustu sivun tietosuojaselosteeseen ja tarkista, miten sivu käsittelee käyttäjien tietoja"
+    }
+  ]
+}

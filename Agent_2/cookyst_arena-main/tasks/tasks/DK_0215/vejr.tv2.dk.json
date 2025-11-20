@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vejr.tv2.dk",
+      "intent": "Jeg vil se vejret i København i dag"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vejr.tv2.dk",
+      "intent": "Jeg søger efter information om badevandstemperatur i nærheden af Roskilde"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vejr.tv2.dk",
+      "intent": "Jeg vil se 7 dages vejrudsigt for Region Hovedstaden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vejr.tv2.dk",
+      "intent": "Jeg vil ændre mine farveindstillinger til mørk tilstand på min TV 2 profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vejr.tv2.dk",
+      "intent": "Jeg vil tilføje en nyhedsregion til mine indstillinger, så jeg kan følge med i nyhederne fra Fyn"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vejr.tv2.dk",
+      "intent": "Jeg vil administrere mine TV 2 kontoindstillinger og se mine gemte artikler"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nl.leparking.be",
+      "intent": "Rechercher des voitures d'occasion à Gand pour un budget de 5000 euros"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nl.leparking.be",
+      "intent": "Comparer les prix de différents modèles de voitures électriques sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nl.leparking.be",
+      "intent": "Lire les avis des utilisateurs sur les voitures les plus populaires du site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nl.leparking.be",
+      "intent": "Enregistrer une voiture dans mes favoris pour la retrouver plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nl.leparking.be",
+      "intent": "Paramétrer les alertes pour recevoir des notifications lorsque de nouvelles voitures correspondent à mes critères de recherche"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nl.leparking.be",
+      "intent": "Publier une annonce pour vendre ma propre voiture sur le site"
+    }
+  ]
+}

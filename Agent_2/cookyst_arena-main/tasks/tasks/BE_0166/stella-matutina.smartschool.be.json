@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://stella-matutina.smartschool.be",
+      "intent": "Rechercher les informations sur les cours disponibles pour les élèves de l'institut Stella Matutina"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://stella-matutina.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques mises à disposition par l'école pour les parents et les élèves"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://stella-matutina.smartschool.be",
+      "intent": "Consulter les actualités et les événements à venir de l'institut Stella Matutina"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://stella-matutina.smartschool.be",
+      "intent": "Accéder au suivi des notes et des absences de mon enfant pour rester informé sur ses progrès scolaires"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://stella-matutina.smartschool.be",
+      "intent": "Gérer les paramètres de mon compte parent pour personnaliser mes préférences et recevoir des notifications importantes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://stella-matutina.smartschool.be",
+      "intent": "Communiquer avec les enseignants de mon enfant via la plateforme pour discuter de ses progrès et poser des questions"
+    }
+  ]
+}

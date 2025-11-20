@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://beladl.mil.be",
+      "intent": "Rechercher les informations de contact pour signaler un problème de serveur"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://beladl.mil.be",
+      "intent": "Essayer de trouver une alternative pour accéder aux ressources du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://beladl.mil.be",
+      "intent": "Vérifier si le site propose un formulaire de contact pour les visiteurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://beladl.mil.be",
+      "intent": "Accéder à mon espace personnel pour vérifier les mises à jour de sécurité"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://beladl.mil.be",
+      "intent": "Consulter les documents confidentiels liés à mon travail au sein de la Cour de Justice"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://beladl.mil.be",
+      "intent": "Gérer mes paramètres de compte pour améliorer la sécurité de ma session"
+    }
+  ]
+}

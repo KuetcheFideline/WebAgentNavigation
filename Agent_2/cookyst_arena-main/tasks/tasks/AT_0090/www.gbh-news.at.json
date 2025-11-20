@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gbh-news.at",
+      "intent": "Ich möchte die neuesten Nachrichten über die GBH auf der Startseite lesen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gbh-news.at",
+      "intent": "Ich möchte mehr über die Geschichte und die Ziele der GBH erfahren, indem ich die Rubrik 'Wer sind wir?' besuche."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gbh-news.at",
+      "intent": "Ich möchte mich über die verschiedenen Service- und Leistungsangebote der GBH informieren, um zu sehen, was für mich als Mitglied relevant sein könnte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gbh-news.at",
+      "intent": "Ich möchte mich in mein Konto einloggen, um meine persönlichen Einstellungen und Mitgliedsinformationen zu überprüfen und ggf. zu aktualisieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gbh-news.at",
+      "intent": "Ich möchte den Newsletter der GBH abonnieren, um regelmäßig über Neuigkeiten und Veranstaltungen informiert zu werden, nachdem ich mich angemeldet habe."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gbh-news.at",
+      "intent": "Ich möchte den KV-SMS-Service abonnieren, um wichtige Informationen und Updates direkt auf mein Handy zu erhalten, nachdem ich mich angemeldet und die notwendigen Daten eingegeben habe."
+    }
+  ]
+}

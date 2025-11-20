@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://odissea.xtec.cat",
+      "intent": "Explorar la página de inicio para encontrar recursos de formación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://odissea.xtec.cat",
+      "intent": "Buscar actividades de formación en el catálogo de cursos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://odissea.xtec.cat",
+      "intent": "Leer las preguntas más frecuentes para resolver dudas sobre el uso de la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://odissea.xtec.cat",
+      "intent": "Iniciar sesión para acceder a mis certificados y actividades completadas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://odissea.xtec.cat",
+      "intent": "Configurar mis preferencias de idioma y notificaciones en el panel de control"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://odissea.xtec.cat",
+      "intent": "Descargar mis certificados de formación para imprimir o compartir"
+    }
+  ]
+}

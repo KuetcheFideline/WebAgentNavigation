@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www4.poppankki.fi",
+      "intent": "Tarkastan verkkopankin etusivun ja etsin tietoa verkkopankin turvallisuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www4.poppankki.fi",
+      "intent": "Luen huijausyritysten varoituksia ja opastuksia verkkopankin sivuilta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www4.poppankki.fi",
+      "intent": "Etsin tietoa verkkopankin käyttöohjeista ja ehdosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www4.poppankki.fi",
+      "intent": "Kirjaudun verkkopankkiin ja tarkastan omat tietoni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www4.poppankki.fi",
+      "intent": "Muokkaan verkkopankin asetuksia, kuten tilien ja sivujen asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www4.poppankki.fi",
+      "intent": "Tarkastan verkkopankin maksujen maarajoituksia ja muutan niitä tarpeen mukaan"
+    }
+  ]
+}

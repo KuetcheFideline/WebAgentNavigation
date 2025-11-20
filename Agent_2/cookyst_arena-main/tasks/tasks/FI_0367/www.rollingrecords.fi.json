@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rollingrecords.fi",
+      "intent": "Olen etsimässä tietoa siitä, miten voin myydä vanhat LP-levyeni Rolling Recordsille."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rollingrecords.fi",
+      "intent": "Haluan tarkastella Rolling Recordsin ostamien levyjen hintoja ja vertailla niitä muihin myyntipaikkoihin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rollingrecords.fi",
+      "intent": "Olen kiinnostunut Rolling Recordsin asiakaspalvelun aukioloajoista ja yhteystiedoista, jotta voin ottaa heihin yhteyttä tarpeen tullen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rollingrecords.fi",
+      "intent": "Tällä hetkellä olen kirjautunut sisään ja haluan tarkastella tilaushistoriaani ja varauksiani Rolling Recordsin sivustolla."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rollingrecords.fi",
+      "intent": "Olen kirjautunut sisään ja haluan muuttaa osoitettani ja muita tietojani profiilissani, jotta voin varmistaa, että saan tilaani ja viestit oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rollingrecords.fi",
+      "intent": "Kirjautuneena käyttäjänä haluan lähettää viestin asiakaspalvelulle kysymykseni tietyistä levyistä, joita olen kiinnostunut myymästä heille."
+    }
+  ]
+}

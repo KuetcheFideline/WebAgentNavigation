@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Haluaisin lukea uusimmat artikkelit SalkunRakentaja-sivustolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Täytän sähköpostiosoitteeni uutiskirjeen tilaukseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Etsin tietoa asuntosijoittamisesta ja kiinteistörahastoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Haluan muokata käyttäjäprofiiliani ja tarkastaa tilaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Luen kommentteja ja osallistun keskusteluun aiheesta sijoittaminen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Tarkastan oman sijoitusstrategiani ja etsin uusia sijoitusideoita"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://k1katsastus.fi",
+      "intent": "Hae lähin katsastusasema Kouvolasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://k1katsastus.fi",
+      "intent": "Selvitä mitä palveluita k1katsastus tarjoaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://k1katsastus.fi",
+      "intent": "Tutki miten katsastusvaraus tehdään verkkokaupassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://k1katsastus.fi",
+      "intent": "Varmista, että olen varannut katsastuksen oikeaan ajankohtaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://k1katsastus.fi",
+      "intent": "Tarkista, mitä maksutapaa voin käyttää katsastuksen maksamiseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://k1katsastus.fi",
+      "intent": "Muokkaa aiemmin tehtyä katsastusvarausta"
+    }
+  ]
+}

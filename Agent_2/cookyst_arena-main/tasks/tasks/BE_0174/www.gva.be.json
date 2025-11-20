@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gva.be",
+      "intent": "Rechercher des informations sur les événements locaux à Anvers pour me tenir au courant de ce qui se passe dans ma ville"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gva.be",
+      "intent": "Lire les dernières nouvelles sur le site pour rester informée sur l'actualité belge et internationale"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gva.be",
+      "intent": "Consulter la rubrique 'Mijn gemeente' pour trouver des informations sur les services et les événements de ma commune"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gva.be",
+      "intent": "Accéder à la version numérique du journal en ligne pour lire les articles en détail et avoir accès à des contenus premium"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gva.be",
+      "intent": "Gérer mon abonnement pour mettre à jour mes informations de paiement et assurer la continuité de mon accès aux contenus premium"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gva.be",
+      "intent": "Participer à des discussions en ligne sur les articles pour partager mes opinions et engager des débats avec d'autres lecteurs"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://allutesti.fi",
+      "intent": "Selvitän, miten ALLU-testi toimii ja mitä se mittaa, jotta voin kertoa asiasta opetusryhmälleni."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://allutesti.fi",
+      "intent": "Luen Tietosuojailmoituksen, jotta tiedän, miten sivusto käsittelee henkilötietoja, erityisesti lasten tietoja."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://allutesti.fi",
+      "intent": "Etsin tietoa siitä, miten voinkäyttää ALLU-testiä opetustyössäni ja miten se voi hyödyttää opetusprosessia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://allutesti.fi",
+      "intent": "Kirjaudun sisään opettajan tililleni, jotta voin hallita ja seurata oppilaideni testituloksia ja kehitystä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://allutesti.fi",
+      "intent": "Luo uusi testiryhmä ja määritän testin asetukset, jotta voin aloittaa uuden testikierroksen oppilaideni kanssa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://allutesti.fi",
+      "intent": "Tarkastan ja analysoin edellisten testien tuloksia, jotta voin kehittää opetussuunnitelmaani ja parantaa opetusmenetelmiäni."
+    }
+  ]
+}

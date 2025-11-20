@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://omaelainklinikka.fi",
+      "intent": "Hae lähin eläinlääkäriasema Tampereelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://omaelainklinikka.fi",
+      "intent": "Selvitä koiran rokotusten hinta ja aikataulu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://omaelainklinikka.fi",
+      "intent": "Lue lisää kissojen hammassairauksien hoidosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://omaelainklinikka.fi",
+      "intent": "Varaa aika koiralle terveystarkastukseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://omaelainklinikka.fi",
+      "intent": "Tilaa kissoille sopiva ruoka ja lisäravinteet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://omaelainklinikka.fi",
+      "intent": "Pyydä eläinlääkärin neuvontaa koiran iho-ongelmista"
+    }
+  ]
+}

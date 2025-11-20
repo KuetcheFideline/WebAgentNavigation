@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.meteo.cat",
+      "intent": "Buscar el pronóstico del tiempo para mi pueblo en Soria para planificar mi día en el campo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.meteo.cat",
+      "intent": "Comparar el clima actual en Barcelona con el de mi región para entender mejor las diferencias climáticas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.meteo.cat",
+      "intent": "Explorar la sección de noticias meteorológicas para estar al tanto de cualquier alerta climática en mi zona"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.meteo.cat",
+      "intent": "Configurar mis alertas personalizadas de clima para recibir notificaciones importantes sobre el tiempo en mi área"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.meteo.cat",
+      "intent": "Guardar mis lugares favoritos para acceder rápidamente a los pronósticos del tiempo de mis áreas de interés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.meteo.cat",
+      "intent": "Participar en la comunidad de usuarios para compartir información y experiencias sobre el clima en diferentes regiones"
+    }
+  ]
+}

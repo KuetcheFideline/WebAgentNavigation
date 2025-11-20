@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://helsinki.vasemmisto.fi",
+      "intent": "Hae sivustolta tietoa Helsingin Vasemmistoliiton tavoitteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://helsinki.vasemmisto.fi",
+      "intent": "Lue uutisia ja ajankohtaisia tapahtumia Helsingin Vasemmistoliitosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://helsinki.vasemmisto.fi",
+      "intent": "Tutustu Helsingin Vasemmistoliiton paikallisosastoihin ja niiden toimintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://helsinki.vasemmisto.fi",
+      "intent": "Kirjaudu sisään ja muokkaa omia tietojani Helsingin Vasemmistoliiton jäsenrekisterissä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://helsinki.vasemmisto.fi",
+      "intent": "Osallistu Helsingin Vasemmistoliiton sisäiseen keskustelufoorumiin ja kommentoi aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://helsinki.vasemmisto.fi",
+      "intent": "Lahjoita rahaa Helsingin Vasemmistoliiton toimintaan ja tue puolueen tavoitteita"
+    }
+  ]
+}

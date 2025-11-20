@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.arp-gan.be",
+      "intent": "Rechercher les informations sur la collecte des déchets dans mon quartier d'Etterbeek"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.arp-gan.be",
+      "intent": "Consulter le guide de tri pour les déchets ménagers"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.arp-gan.be",
+      "intent": "Vérifier les horaires d'ouverture des Recypark pour déposer des déchets spéciaux"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.arp-gan.be",
+      "intent": "Déposer une réclamation en ligne pour un problème de collecte des déchets dans ma rue"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.arp-gan.be",
+      "intent": "Consulter mon historique de déclarations de déchets et imprimer une attestation"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.arp-gan.be",
+      "intent": "Modifier mes coordonnées personnelles pour recevoir des notifications sur les éventuels changements dans les services de propreté"
+    }
+  ]
+}

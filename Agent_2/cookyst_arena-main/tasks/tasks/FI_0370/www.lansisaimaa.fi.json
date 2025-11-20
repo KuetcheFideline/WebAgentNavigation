@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lansisaimaa.fi",
+      "intent": "Luen uusimmat uutiset Savitaipaleesta ja Lemistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lansisaimaa.fi",
+      "intent": "Etsin tietoa Taipalsaaren kunnan talousasioista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lansisaimaa.fi",
+      "intent": "Selvitan miten voinkin kommentoida uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lansisaimaa.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutista Savitaipaleen kunnan uudesta toimintalinjasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lansisaimaa.fi",
+      "intent": "Luen ja vastaan lukijan mielipidekirjoitukseen aiheesta koulunkäynti"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lansisaimaa.fi",
+      "intent": "Tallennan uutisen Savi-tai-paleen uusista latausasemista suosikkeihini"
+    }
+  ]
+}

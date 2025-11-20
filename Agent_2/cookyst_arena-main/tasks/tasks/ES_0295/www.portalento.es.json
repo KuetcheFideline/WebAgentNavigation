@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.portalento.es",
+      "intent": "Buscar ofertas de empleo para personas con discapacidad en la plataforma"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.portalento.es",
+      "intent": "Explorar las secciones de la plataforma para conocer más sobre la inclusión laboral de personas con discapacidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.portalento.es",
+      "intent": "Descargar la aplicación móvil de la plataforma para buscar empleo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.portalento.es",
+      "intent": "Crear un perfil de candidato y subir mi currículum para que las empresas puedan verlo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.portalento.es",
+      "intent": "Configurar mis preferencias de búsqueda de empleo para recibir notificaciones personalizadas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.portalento.es",
+      "intent": "Postularme a una oferta de empleo que se ajuste a mis habilidades y experiencia"
+    }
+  ]
+}

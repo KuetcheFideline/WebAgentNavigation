@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sanidad.gob.es",
+      "intent": "Buscar información sobre los servicios de salud en la Comunidad Autónoma de Andalucía"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sanidad.gob.es",
+      "intent": "Consultar las noticias y campañas informativas sobre salud pública en España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sanidad.gob.es",
+      "intent": "Acceder al portal de transparencia para obtener información sobre la gestión de fondos públicos en el Ministerio de Sanidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sanidad.gob.es",
+      "intent": "Solicitar una cita con un profesional sanitario a través del sistema de gestión de citas en línea"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sanidad.gob.es",
+      "intent": "Acceder a mi historial clínico electrónico para consultar mis resultados de análisis y pruebas médicas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sanidad.gob.es",
+      "intent": "Realizar una consulta en línea con un profesional sanitario sobre una pregunta o inquietud relacionada con mi salud"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tablonenblanco.com",
+      "intent": "Buscar información sobre oposiciones de enfermería en la Comunidad de Cataluña"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tablonenblanco.com",
+      "intent": "Explorar los temas de discusión en el foro de cuidados enfermeros COVID 19"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tablonenblanco.com",
+      "intent": "Leer las últimas noticias y actualizaciones en el tablón de anuncios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tablonenblanco.com",
+      "intent": "Crear un nuevo tema de discusión en el foro de oposiciones de enfermería"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tablonenblanco.com",
+      "intent": "Responder a un mensaje en el foro de cuidados enfermeros COVID 19"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tablonenblanco.com",
+      "intent": "Editar mi perfil de usuario y agregar información de contacto"
+    }
+  ]
+}

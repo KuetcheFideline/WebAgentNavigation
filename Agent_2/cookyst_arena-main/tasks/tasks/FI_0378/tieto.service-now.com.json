@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tieto.service-now.com",
+      "intent": "Tutustun sivuston evästeiden käyttöehdoihin ja hyväksyn ne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tieto.service-now.com",
+      "intent": "Etsin tietoa sivuston käyttöön liittyvistä ohjeista ja usein kysytyistä kysymyksistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tieto.service-now.com",
+      "intent": "Selvittelen, miten voin avata uuden istunnon ja mitä vaatimukset siihen ovat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tieto.service-now.com",
+      "intent": "Tarkastan oman käyttäjätilini tiedot ja varmistan, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tieto.service-now.com",
+      "intent": "Muutan salasanani, jotta voin varmistaa tietojeni turvallisuuden"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tieto.service-now.com",
+      "intent": "Käyn läpi sivuston tarjoamia palveluita ja etsin tietoa niiden käyttämisestä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Selaa äänikirjoja ja e-kirjoja, etsi mielenkiintoisia kirjoja luettavaksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Tutki eri kirjallisuuden tyylilajeja, kuten dekkareita ja tietokirjoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Etsi kirjoja, joissa on korkea arvostelu, ja lue niiden kuvauksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Kuuntele äänikirjoja, joita olen tallentanut kirjastooni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Lue e-kirjoja, joita olen lataillut laitteelleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Hallinnoi tilaustani, tarkista laskut ja muokkaa maksutietoja"
+    }
+  ]
+}

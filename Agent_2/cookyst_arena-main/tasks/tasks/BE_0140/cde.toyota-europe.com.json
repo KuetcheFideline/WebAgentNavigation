@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cde.toyota-europe.com",
+      "intent": "Consulter la page d'accueil pour comprendre les fonctionnalités du TME Collaboration Environment"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cde.toyota-europe.com",
+      "intent": "Rechercher des informations sur les politiques de confidentialité de Toyota pour comprendre les règles de protection des données"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cde.toyota-europe.com",
+      "intent": "Explorer les liens proposés pour en savoir plus sur l'environnement de collaboration et ses outils"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cde.toyota-europe.com",
+      "intent": "Accéder à la page principale du WIKI pour trouver des informations spécifiques sur les projets en cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cde.toyota-europe.com",
+      "intent": "Utiliser l'outil de suivi des problèmes pour signaler un bug ou une erreur rencontrée lors de l'utilisation de l'environnement de collaboration"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cde.toyota-europe.com",
+      "intent": "Consulter le dépôt de code source sur Bitbucket pour télécharger ou mettre à jour des éléments de projet"
+    }
+  ]
+}

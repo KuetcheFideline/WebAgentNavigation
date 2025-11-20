@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://esquelas.laverdad.es",
+      "intent": "Buscar esquelas de familiares y amigos fallecidos en la región de Murcia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://esquelas.laverdad.es",
+      "intent": "Explorar las noticias de actualidad y última hora en la región de Murcia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://esquelas.laverdad.es",
+      "intent": "Consultar el pronóstico del tiempo para la región de Murcia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://esquelas.laverdad.es",
+      "intent": "Crear una esquela para un familiar fallecido y publicarla en el sitio web"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://esquelas.laverdad.es",
+      "intent": "Configurar mis preferencias de noticias y recibir notificaciones personalizadas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://esquelas.laverdad.es",
+      "intent": "Acceder a la hemeroteca digital y leer artículos de periódicos anteriores"
+    }
+  ]
+}

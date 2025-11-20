@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sss.fi",
+      "intent": "Luen uutisia Salon seudun sanomista, erityisesti urheilu-uutisia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sss.fi",
+      "intent": "Etsin tietoa Salon kaupungin tapahtumista ja konserteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sss.fi",
+      "intent": "Selailen sivuston kuvagallerioita ja videojuttuja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sss.fi",
+      "intent": "Kirjoitan mielipidekirjoituksen aiheesta, joka kiinnostaa minua"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sss.fi",
+      "intent": "Osallistun keskusteluihin ja kommentoin uutisaiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sss.fi",
+      "intent": "Tilaan uutiskirjeen, jotta saan päivittäin uusimmat uutiset"
+    }
+  ]
+}

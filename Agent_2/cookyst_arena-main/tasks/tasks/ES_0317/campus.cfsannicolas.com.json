@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://campus.cfsannicolas.com",
+      "intent": "Explorar la página principal para conocer los cursos disponibles en el Centro de Formación San Nicolás"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://campus.cfsannicolas.com",
+      "intent": "Buscar información sobre cómo registrarse como usuario en el campus virtual"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://campus.cfsannicolas.com",
+      "intent": "Leer sobre las políticas de privacidad y uso de cookies en el sitio web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://campus.cfsannicolas.com",
+      "intent": "Acceder a mis cursos inscritos y verificar el progreso de mis estudios en el campus virtual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://campus.cfsannicolas.com",
+      "intent": "Descargar materiales y recursos de aprendizaje para mis cursos en el campus virtual"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://campus.cfsannicolas.com",
+      "intent": "Participar en foros de discusión con otros estudiantes y profesores en el campus virtual"
+    }
+  ]
+}

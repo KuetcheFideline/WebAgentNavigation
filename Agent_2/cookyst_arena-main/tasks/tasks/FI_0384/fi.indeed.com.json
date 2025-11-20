@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Hae työpaikkoja Savonlinnassa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Selaa työpaikkalistauksia ja etsi tehtäviä, jotka sopivat tehdastyöntekijän taitoihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Lue yritysten arvosteluita ja etsi työpaikkoja, joissa on hyvä maine"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Luo ansioluettelo ja tallenna se Indeed-profiiliin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Hae työpaikkoja, jotka ovat tallennettu suosikkeihin ja seuraa niiden tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.indeed.com",
+      "intent": "Vastaa työpaikkailmoituksiin, jotka ovat sopivia tehdastyöntekijän taitoihin ja kokemukseen"
+    }
+  ]
+}

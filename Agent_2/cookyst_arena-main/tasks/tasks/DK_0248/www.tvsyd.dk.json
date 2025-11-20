@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvsyd.dk",
+      "intent": "Jeg søger efter nyheder om kommunalvalget i Aalborg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvsyd.dk",
+      "intent": "Jeg ønsker at læse om de seneste udviklinger i Region Syddanmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvsyd.dk",
+      "intent": "Jeg vil se videoer om kommunalvalget på tvSyds hjemmeside"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvsyd.dk",
+      "intent": "Jeg ønsker at kommentere på en artikel om kommunalvalget efter at have logget ind"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvsyd.dk",
+      "intent": "Jeg vil tilføje en artikel til mine favoritter efter at have logget ind på min konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvsyd.dk",
+      "intent": "Jeg søger efter at ændre mine kontoindstillinger efter at have logget ind på tvSyd"
+    }
+  ]
+}

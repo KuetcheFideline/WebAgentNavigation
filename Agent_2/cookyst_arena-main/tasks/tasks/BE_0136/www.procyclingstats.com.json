@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.procyclingstats.com",
+      "intent": "Rechercher les résultats du Tour de France pour voir qui sont les favoris de cette année"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.procyclingstats.com",
+      "intent": "Consulter les classements des équipes de cyclisme pour voir comment se porte mon équipe favorite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.procyclingstats.com",
+      "intent": "Explorer les statistiques des cyclistes pour comparer leurs performances"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.procyclingstats.com",
+      "intent": "Créer une liste de mes cyclistes favoris pour suivre leurs performances et résultats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.procyclingstats.com",
+      "intent": "Participer au quiz pour tester mes connaissances sur le cyclisme et gagner des points"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.procyclingstats.com",
+      "intent": "Configurer mes préférences pour recevoir des notifications sur les résultats et les transferts des équipes de cyclisme"
+    }
+  ]
+}

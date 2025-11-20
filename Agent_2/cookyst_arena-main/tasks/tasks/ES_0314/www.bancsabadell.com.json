@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Buscar información sobre productos de ahorro para personas mayores"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Comparar las tasas de interés de las cuentas de ahorro disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Explorar las opciones de inversión en fondos de pensiones"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Consultar el saldo de mi cuenta de ahorro y realizar una transferencia a la cuenta de mi nieto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Configurar una alerta para cuando mi cuenta de ahorro supere un saldo determinado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Solicitar un préstamo personal para realizar una reforma en mi segunda residencia"
+    }
+  ]
+}

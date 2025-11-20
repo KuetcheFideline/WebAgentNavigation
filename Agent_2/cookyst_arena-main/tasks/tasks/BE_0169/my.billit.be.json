@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "Je souhaite configurer les cookies pour une navigation personnalisée"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "J'ai besoin de créer un compte pour accéder aux fonctionnalités de base du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "Je veux explorer les fonctionnalités de la plateforme pour comprendre comment elle peut m'aider dans mon activité de pressing"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Je souhaite accéder à mon espace personnel pour gérer mes documents et factures"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "J'ai besoin de paramétrer mes préférences de notification pour rester informé de l'activité sur mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Je veux consulter l'historique de mes transactions pour suivre mes dépenses et revenus"
+    }
+  ]
+}

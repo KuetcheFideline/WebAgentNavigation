@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cmore.fi",
+      "intent": "Haluaisin katsoa uusimmat suomalaiset sarjat ja elokuvat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cmore.fi",
+      "intent": "Täytän hakukenttään 'Mitä haluaisit katsoa?' ja etsin lempiohjelmaani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cmore.fi",
+      "intent": "Selailen 'Ohjelmat A-Ö' -osiota ja etsin kiinnostavia ohjelmia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cmore.fi",
+      "intent": "Kirjaudun sisään ja tarkastan 'Minun MTV Katsomo' -osion, jossa näen suosikkiohjelmani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cmore.fi",
+      "intent": "Muokkaan profiiliaani ja valitsemalla mielenkiintoisimmankin ohjelmat ja sarjat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cmore.fi",
+      "intent": "Käyn 'Asiakaspalvelu' -osiossa ja etsin vastausta kysymykseeni ohjelmien saatavuudesta"
+    }
+  ]
+}

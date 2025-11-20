@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.altostratus.fi",
+      "intent": "Selvitän, mitä tietoa sivustolta löytyy opiskelijoiden hyödyksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.altostratus.fi",
+      "intent": "Tutkin, onko sivustolla mainintaa opintotukien hakemisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.altostratus.fi",
+      "intent": "Etsin tietoa siitä, miten voin hyödyntää sivuston tarjoamia palveluita opiskellessani Aalto-yliopistossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.altostratus.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, löytyykö minun opintotiedot sivustolta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.altostratus.fi",
+      "intent": "Tarkistan, voinko muokata omia tietojani sivuston kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.altostratus.fi",
+      "intent": "Selvittelen, miten voin käyttää sivuston tarjoamia työkaluja opintojeni seuraamiseen"
+    }
+  ]
+}

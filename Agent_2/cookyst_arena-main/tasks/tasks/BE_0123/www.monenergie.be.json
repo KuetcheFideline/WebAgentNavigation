@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.monenergie.be",
+      "intent": "Je veux comparer les prix de l'électricité pour mon appartement à Charleroi."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.monenergie.be",
+      "intent": "Je cherche des informations sur les économies d'énergie pour réduire ma facture d'électricité."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.monenergie.be",
+      "intent": "Je veux savoir comment fonctionne le système de facturation de l'électricité en Belgique."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.monenergie.be",
+      "intent": "Je veux consulter mon historique de consommation d'électricité pour les derniers mois."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.monenergie.be",
+      "intent": "Je souhaite modifier mes coordonnées bancaires pour le paiement de ma facture d'électricité."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.monenergie.be",
+      "intent": "Je veux demander un devis pour une nouvelle offre d'électricité verte pour mon appartement."
+    }
+  ]
+}

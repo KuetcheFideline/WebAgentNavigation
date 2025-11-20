@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bikeshop.fi",
+      "intent": "Hae naistenpyörät ja vertaile niiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bikeshop.fi",
+      "intent": "Lue arvosteluita eri pyörämallien toiminnasta ja luotettavuudesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bikeshop.fi",
+      "intent": "Selvitä, miten pyörän koko ja malli vaikuttavat sen käyttöominaisuuksiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bikeshop.fi",
+      "intent": "Tilaa uusi pyörä verkkokaupasta ja valitse maksutapa ja toimitustapa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bikeshop.fi",
+      "intent": "Lisää ostoskoriin varusteita, kuten kypärää ja polkimen suojaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bikeshop.fi",
+      "intent": "Tarkista tilaustiedot ja vahvista tilaus ennen maksua"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.eneco.be",
+      "intent": "Rechercher les offres d'électricité et de gaz pour mon appartement à Ixelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.eneco.be",
+      "intent": "Comparer les tarifs et les avantages des différents forfaits énergétiques proposés par Eneco"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.eneco.be",
+      "intent": "Trouver des informations sur les options de paiement et de facturation pour les clients Eneco"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.eneco.be",
+      "intent": "Consulter mon historique de consommation d'énergie et mes factures précédentes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.eneco.be",
+      "intent": "Modifier mes coordonnées bancaires pour le prélèvement automatique de mes factures d'énergie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.eneco.be",
+      "intent": "Demander un devis pour l'installation de panneaux solaires sur mon appartement"
+    }
+  ]
+}

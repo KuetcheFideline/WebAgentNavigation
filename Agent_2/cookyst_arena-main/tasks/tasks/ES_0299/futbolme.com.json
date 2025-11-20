@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://futbolme.com",
+      "intent": "Buscar los resultados de los partidos de fútbol de la liga española para ver cómo va mi equipo favorito"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://futbolme.com",
+      "intent": "Explorar la sección de noticias de fútbol para estar al tanto de las últimas novedades y rumores"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://futbolme.com",
+      "intent": "Verificar los horarios y resultados de los partidos de la tercera división para seguir a mi equipo local"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://futbolme.com",
+      "intent": "Crear una cuenta para poder comentar en los artículos de noticias de fútbol y participar en las discusiones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://futbolme.com",
+      "intent": "Configurar mis preferencias de equipo y liga favoritos para recibir notificaciones personalizadas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://futbolme.com",
+      "intent": "Participar en una encuesta o concurso de predicciones de resultados de partidos para ganar premios"
+    }
+  ]
+}

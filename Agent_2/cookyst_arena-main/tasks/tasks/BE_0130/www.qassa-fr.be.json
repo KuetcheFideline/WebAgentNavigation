@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.qassa-fr.be",
+      "intent": "Rechercher des boutiques partenaires pour gagner des Qoins"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.qassa-fr.be",
+      "intent": "Découvrir comment fonctionne Qassa pour économiser de l'argent"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.qassa-fr.be",
+      "intent": "Consulter les derniers Qoins reçus par les utilisateurs pour avoir une idée de la récompense"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.qassa-fr.be",
+      "intent": "Créer un compte pour commencer à gagner des Qoins sur mes achats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.qassa-fr.be",
+      "intent": "Vérifier mon solde de Qoins pour voir combien j'ai gagné jusqu'à présent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.qassa-fr.be",
+      "intent": "Réclamer mes récompenses en échange de mes Qoins accumulés"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Hae sivustolta tietoa masennukseen liittyvistä Käypä hoito -suosituksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Lue Käypä hoito -suosituksia koskien työntekijöiden masennuksen ennaltaehkäisyä ja hoitoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Tutustu potilasversioihin Käypä hoito -suosituksista, jotka liittyvät oman terveyden ja hyvinvoinnin seuraamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Tallenna suosituksia ja artikkeleita, jotka liittyvät oman työn ja terveyden seuraamiseen, henkilökohtaiseen kirjastoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Osallistu keskusteluihin ja foorumeihin, jotka liittyvät Käypä hoito -suosituksiin ja niiden soveltamiseen työelämässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Lähetä palautetta ja ehdotuksia Käypä hoito -suosituksien parantamiseksi ja kehittämiseksi"
+    }
+  ]
+}

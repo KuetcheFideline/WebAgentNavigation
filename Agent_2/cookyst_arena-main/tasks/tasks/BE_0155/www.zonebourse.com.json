@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.zonebourse.com",
+      "intent": "Rechercher les actualités financières pour me tenir informée sur l'évolution des marchés"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.zonebourse.com",
+      "intent": "Consulter les cours des actions pour évaluer les performances de mes investissements"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.zonebourse.com",
+      "intent": "Lire les analyses de marché pour prendre des décisions éclairées concernant mes placements"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.zonebourse.com",
+      "intent": "Configurer mes alertes personnalisées pour recevoir des notifications sur les mouvements de marché importants"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.zonebourse.com",
+      "intent": "Gérer mon portefeuille virtuel pour simuler des investissements et tester des stratégies"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.zonebourse.com",
+      "intent": "Participer aux forums de discussion pour échanger des idées avec d'autres investisseurs et apprendre de leurs expériences"
+    }
+  ]
+}

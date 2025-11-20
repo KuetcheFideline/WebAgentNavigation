@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fluer.dk",
+      "intent": "Jeg søger efter nye fiskestænger til min næste tur"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fluer.dk",
+      "intent": "Jeg vil gerne se, hvilke fiskehjul de har tilbudt, og om de har nogen gode tilbud"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fluer.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan forbedre min fiskeudstyr, så jeg kan fange flere fisk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fluer.dk",
+      "intent": "Jeg vil gerne købe en ny fiskestang, og jeg vil se, om jeg kan få rabat som medlem"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fluer.dk",
+      "intent": "Jeg søger efter at se mine tidligere ordrer, så jeg kan se, hvad jeg har købt tidligere"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fluer.dk",
+      "intent": "Jeg vil gerne anmelde en vare, som jeg har købt tidligere, så andre kan se, hvad jeg synes om den"
+    }
+  ]
+}

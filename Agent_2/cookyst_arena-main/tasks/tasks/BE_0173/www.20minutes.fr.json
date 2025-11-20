@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Rechercher des informations sur les dernières actualités en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Lire les articles de la rubrique « Société » pour me tenir informée sur les événements actuels"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Consulter la section « Tempo » pour découvrir de nouvelles idées de sorties et d'activités à faire à Molenbeek"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Participer à un sondage en ligne sur le site pour donner mon avis sur les dernières actualités"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Commenter un article sur la situation actuelle en Ukraine pour partager mes pensées et échanger avec d'autres lecteurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Enregistrer des articles pour les lire plus tard et créer une liste de lectures personnalisée"
+    }
+  ]
+}

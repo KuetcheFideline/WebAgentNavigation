@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.equibel.be",
+      "intent": "Rechercher les informations sur les disciplines équestres proposées par la fédération"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.equibel.be",
+      "intent": "Consulter les actualités et les résultats des compétitions équestres"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.equibel.be",
+      "intent": "Explorer les possibilités d'inscription et de participation aux événements équestres"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.equibel.be",
+      "intent": "Gérer mon compte et mes informations personnelles sur le site de la fédération"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.equibel.be",
+      "intent": "Inscrire mon cheval ou ma poney pour une compétition ou un événement équestre"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.equibel.be",
+      "intent": "Consulter et gérer mes résultats et mes classements dans les compétitions équestres"
+    }
+  ]
+}

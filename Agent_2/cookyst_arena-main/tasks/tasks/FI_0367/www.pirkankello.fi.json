@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pirkankello.fi",
+      "intent": "Selata kellot ja korut valikoimasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pirkankello.fi",
+      "intent": "Etsi tiettyä kelloa tai korua hakutoiminnon avulla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pirkankello.fi",
+      "intent": "Lue arvosteluita ja kommentteja tuotteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pirkankello.fi",
+      "intent": "Lisää tuote toivelistalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pirkankello.fi",
+      "intent": "Tee ostos ostoskorista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pirkankello.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen tilaa"
+    }
+  ]
+}

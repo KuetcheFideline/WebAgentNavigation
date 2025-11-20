@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.savonsanomat.fi",
+      "intent": "Luen uusimmat uutiset Savon Sanomista, koska haluan pysyä ajan tasalla Kuopion ja koko Suomen tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.savonsanomat.fi",
+      "intent": "Etsin Savon Sanomien sivuilta tietoa Kuopion Välke-gaalasta, koska olen kiinnostunut kaupungin kulttuuritapahtumista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.savonsanomat.fi",
+      "intent": "Selailen Savon Sanomien urheiluosioita, koska olen kiinnostunut seuraamaan paikallisten joukkueiden suorituksia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.savonsanomat.fi",
+      "intent": "Kirjaudun sisään Mediatunnuksellani, jotta voin kommentoida uutisaiheita ja osallistua keskusteluihin Savon Sanomien sivuilla."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.savonsanomat.fi",
+      "intent": "Tilaa digi Savon Sanomat Black Week -hintaan, koska haluan lukea lehteä edullisemmin ja tukea paikallista journalismia."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.savonsanomat.fi",
+      "intent": "Muokkaan profiiliini Savon Sanomien sivuilla, jotta voin hallita omaa tilaustani ja muuttaa salasanaani tarpeen mukaan."
+    }
+  ]
+}

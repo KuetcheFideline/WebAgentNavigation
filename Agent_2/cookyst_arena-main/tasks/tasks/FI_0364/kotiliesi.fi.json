@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kotiliesi.fi",
+      "intent": "Hae reseptejä joulujuhliin varten"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kotiliesi.fi",
+      "intent": "Lue artikkeli siitä, miten tehdä itse joulukoristeita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kotiliesi.fi",
+      "intent": "Selaa uusimmat jouluelokuva-arvostelut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kotiliesi.fi",
+      "intent": "Tilaa Kotiliesi-lehti ja lataa e-kirja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kotiliesi.fi",
+      "intent": "Osallistu Kotiliesi-klubin keskusteluun aiheesta 'jouluaskartelu'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kotiliesi.fi",
+      "intent": "Lue klubin ajankohtaiset kuulumiset ja ilmoittaudu Muuttuja-juttuun"
+    }
+  ]
+}

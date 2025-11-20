@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.liigaporssi.fi",
+      "intent": "Selvitä, miten Liigapörssi toimii ja mitä siitä saa irti"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.liigaporssi.fi",
+      "intent": "Etsi tietoa siitä, miten voi osallistua Liigan viralliseen valmentajapeliin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.liigaporssi.fi",
+      "intent": "Lue uutisia ja artikkeleita Liigapörssistä ja sen pelaajista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.liigaporssi.fi",
+      "intent": "Luo oma joukkue ja aloita peli, valitse pelaajat ja muokkaa joukkueen kokoonpanoa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.liigaporssi.fi",
+      "intent": "Seuraa omaa joukkueen suorituksia ja vertaa niitä muiden pelaajien joukkueisiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.liigaporssi.fi",
+      "intent": "Osallistu foorumille ja keskustele muiden pelaajien kanssa Liigapörssistä ja sen pelaajista"
+    }
+  ]
+}

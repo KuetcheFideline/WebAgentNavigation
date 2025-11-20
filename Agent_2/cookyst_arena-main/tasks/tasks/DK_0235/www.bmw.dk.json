@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bmw.dk",
+      "intent": "Jeg søger efter en ny elbil, så jeg vil klikke på 'Elbiler' og se, hvilke muligheder BMW tilbyder."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bmw.dk",
+      "intent": "Jeg vil gerne vide mere om BMW iX3, så jeg klikker på 'Læs mere' for at få mere information om denne model."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bmw.dk",
+      "intent": "Jeg er interesseret i at bygge min egen BMW, så jeg vil klikke på 'Byg din BMW' for at se, hvilke muligheder der er."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bmw.dk",
+      "intent": "Jeg vil gerne tjekke min BMW's servicehistorik, så jeg logger ind og klikker på 'Service og tilbehør' for at se, hvilke serviceoplysninger der er tilgængelige."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bmw.dk",
+      "intent": "Jeg vil gerne bestille en serviceaftale for min BMW, så jeg logger ind og klikker på 'Book service' for at book en aftale."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bmw.dk",
+      "intent": "Jeg vil gerne se mine tidligere køb og serviceaftaler, så jeg logger ind og klikker på 'Min konto' for at se min historik."
+    }
+  ]
+}

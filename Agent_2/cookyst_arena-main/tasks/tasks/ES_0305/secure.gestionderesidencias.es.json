@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://secure.gestionderesidencias.es",
+      "intent": "Explorar las opciones de residencias disponibles para personas mayores en la zona de Martorell"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://secure.gestionderesidencias.es",
+      "intent": "Buscar información sobre los servicios de asistencia y cuidado que ofrece la residencia para personas con desgaste físico"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://secure.gestionderesidencias.es",
+      "intent": "Comparar los precios y servicios de diferentes residencias en la zona para encontrar la mejor opción para mi pensión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://secure.gestionderesidencias.es",
+      "intent": "Acceder a mi cuenta para verificar el estado de mi solicitud de residencia y descargar la documentación necesaria"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://secure.gestionderesidencias.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre la disponibilidad de residencias y servicios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://secure.gestionderesidencias.es",
+      "intent": "Realizar un pago en línea para la reserva de una residencia y asegurar mi plaza"
+    }
+  ]
+}

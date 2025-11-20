@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://w3.kircacs.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan logge ind på sundhedsvæsenets elektroniske brugerstyring med mit MitID"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://w3.kircacs.dk",
+      "intent": "Jeg vil læse mere om, hvilke identitetsleverandører der er tilgængelige for at logge ind på sundhedsvæsenets hjemmeside"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://w3.kircacs.dk",
+      "intent": "Jeg søger efter kontaktinformation til servicedesk@sundhedsdata.dk, hvis jeg oplever problemer med at logge ind"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://w3.kircacs.dk",
+      "intent": "Jeg vil tilføje mine personlige sundhedsdata til min profil, efter at jeg har logget ind med mit MitID"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://w3.kircacs.dk",
+      "intent": "Jeg søger efter at ændre mine kommunikationsindstillinger, så jeg modtager relevante sundhedsoplysninger via e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://w3.kircacs.dk",
+      "intent": "Jeg vil se mine tidligere sundhedsrapporter og resultater, efter at jeg har logget ind på min konto"
+    }
+  ]
+}

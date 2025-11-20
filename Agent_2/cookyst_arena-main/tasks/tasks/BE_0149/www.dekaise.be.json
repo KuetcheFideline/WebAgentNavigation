@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.dekaise.be",
+      "intent": "Rechercher des armes de chasse pour la prochaine ducasse à Liège"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.dekaise.be",
+      "intent": "Comparer les prix des carabines entre les différentes marques proposées sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.dekaise.be",
+      "intent": "Explorer les accessoires pour armes pour trouver des protections adaptées à mon usage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.dekaise.be",
+      "intent": "Consulter mes commandes précédentes pour retrouver un modèle d'arme que j'ai acheté récemment"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.dekaise.be",
+      "intent": "Gérer mon panier d'achat pour ajouter des munitions à ma commande en cours"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.dekaise.be",
+      "intent": "Contacter le service client pour obtenir des conseils sur le rechargement de mes armes"
+    }
+  ]
+}

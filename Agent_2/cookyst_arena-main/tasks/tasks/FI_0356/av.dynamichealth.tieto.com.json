@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://av.dynamichealth.tieto.com",
+      "intent": "Tutustun ajanvarauspalvelun käyttöön, jotta voin varata ajan potilailleni HUS Meilahtissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://av.dynamichealth.tieto.com",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa olemassa olevaa ajanvarausta, jos potilas tarvitsee muutosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://av.dynamichealth.tieto.com",
+      "intent": "Selvittelen, miten voin antaa palautetta ajanvarauspalvelun toiminnasta, jotta se olisi parempi hoitajille ja potilaille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://av.dynamichealth.tieto.com",
+      "intent": "Varaan uuden ajan potilaalle, joka tarvitsee lääkärin vastaanottoa HUS Meilahtissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://av.dynamichealth.tieto.com",
+      "intent": "Tarkastan potilaideni tulevia ajanvarauksia ja varmistelen, että kaikki on kunnossa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://av.dynamichealth.tieto.com",
+      "intent": "Muutan potilani lääkärin vastaanottoa, koska potilas tarvitsee erikoislääkärin apua"
+    }
+  ]
+}

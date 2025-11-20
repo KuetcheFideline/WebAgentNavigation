@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sahkovertailu.fi",
+      "intent": "Vertailla sähkösopimuksia eri sähköyhtiöiden välillä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sahkovertailu.fi",
+      "intent": "Lue artikkeleita sähkön kilpailutuksesta ja sähköyhtiöiden tarjouksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sahkovertailu.fi",
+      "intent": "Käyttää sähkönkulutuslaskuria arvioimaan oman sähkönkulutuksensa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sahkovertailu.fi",
+      "intent": "Tilata uusi sähkösopimus valitsemallaan sähköyhtiöltä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sahkovertailu.fi",
+      "intent": "Vertailla ja kilpailuttaa sähkösopimuksia eri tarjousten ja hinnoittelun perusteella"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sahkovertailu.fi",
+      "intent": "Tarkastella ja hallita omaa sähkösopimustaan ja sen ehtoja"
+    }
+  ]
+}

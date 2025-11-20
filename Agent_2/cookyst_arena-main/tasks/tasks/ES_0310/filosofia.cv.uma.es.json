@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://filosofia.cv.uma.es",
+      "intent": "Buscar información sobre las asignaturas disponibles en la Facultad de Filosofía y Letras"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://filosofia.cv.uma.es",
+      "intent": "Explorar la sección de noticias y eventos para conocer las últimas novedades de la facultad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://filosofia.cv.uma.es",
+      "intent": "Verificar el calendario de eventos para conocer las fechas importantes de la facultad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://filosofia.cv.uma.es",
+      "intent": "Acceder a mis asignaturas y consultar los materiales y tareas disponibles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://filosofia.cv.uma.es",
+      "intent": "Participar en un foro de discusión sobre un tema de interés en la facultad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://filosofia.cv.uma.es",
+      "intent": "Consultar mi horario de clases y planificar mi día"
+    }
+  ]
+}

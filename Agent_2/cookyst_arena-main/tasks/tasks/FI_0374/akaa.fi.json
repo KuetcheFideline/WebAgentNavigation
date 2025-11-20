@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://akaa.fi",
+      "intent": "Hae sivustolta tietoa Akaan kaupungin liikuntapalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://akaa.fi",
+      "intent": "Selaa Akaan kaupungin tapahtumakalenteria ja etsi mielenkiintoisia tapahtumia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://akaa.fi",
+      "intent": "Lue uutisia ja ajankohtaisia ilmoituksia Akaan kaupungin verkkosivuilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://akaa.fi",
+      "intent": "Ilmoita tapahtuma Akaan kaupungin tapahtumakalenteriin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://akaa.fi",
+      "intent": "Anna palautetta Akaan kaupungin palveluista ja toiminnasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://akaa.fi",
+      "intent": "Osallistu Akaan kaupungin yhteiskunnalliseen keskusteluun ja vaikuta päätöksentekoon"
+    }
+  ]
+}

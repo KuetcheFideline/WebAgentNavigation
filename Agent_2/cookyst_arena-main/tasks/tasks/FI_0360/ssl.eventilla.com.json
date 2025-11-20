@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ssl.eventilla.com",
+      "intent": "Tutustun tapahtumien hallintaan ja etsin mahdollisuuksia lasteni kanssa osallistumiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ssl.eventilla.com",
+      "intent": "Selvittelen, miten voin luoda oman tapahtuman ja mitä vaihtoehtoja on tarjolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ssl.eventilla.com",
+      "intent": "Luen arvosteluita ja etsin suosituksia siitä, miten tapahtumia voidaan järjestää onnistuneesti"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ssl.eventilla.com",
+      "intent": "Kirjaudun sisään ja tutkin omia tapahtumien hallintatoimia, kuten ilmoittautumisia ja maksujen seurantaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ssl.eventilla.com",
+      "intent": "Luo uusi tapahtuma ja määrittelen sen yksityiskohdat, kuten päivämäärät, paikat ja osallistujat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ssl.eventilla.com",
+      "intent": "Tarkastan ja päivitän tapahtumien asetuksia, kuten ilmoittautumisrajat ja maksutavat"
+    }
+  ]
+}

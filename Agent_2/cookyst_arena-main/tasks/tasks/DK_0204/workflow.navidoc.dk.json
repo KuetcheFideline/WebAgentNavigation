@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://workflow.navidoc.dk",
+      "intent": "Jeg søger efter en vejledning til, hvordan jeg kan logge ind med mine personlige brugeroplysninger."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://workflow.navidoc.dk",
+      "intent": "Jeg ønsker at læse mere om, hvad der er nyt på siden og hvilke funktioner der er tilgængelige."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://workflow.navidoc.dk",
+      "intent": "Jeg har glemt min adgangskode og søger efter en måde at nulstille den på."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://workflow.navidoc.dk",
+      "intent": "Jeg vil gerne se mine personlige oplysninger og sikre, at de er opdaterede og korrekte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://workflow.navidoc.dk",
+      "intent": "Jeg søger efter en måde at ændre mine brugerindstillinger og tilføje nye funktioner til min profil."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://workflow.navidoc.dk",
+      "intent": "Jeg har brug for at downloade en rapport om min aktivitet på siden og søger efter en knap til at gøre det."
+    }
+  ]
+}

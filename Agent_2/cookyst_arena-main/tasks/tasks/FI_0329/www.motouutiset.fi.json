@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.motouutiset.fi",
+      "intent": "Luen uusimmat uutiset moottoripyöräilyn maailmasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.motouutiset.fi",
+      "intent": "Etsin tietoa eri moottoripyörämerkeistä, kuten BMW ja Honda"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.motouutiset.fi",
+      "intent": "Selailen sivuston eri osioita, kuten Koeajot ja Varusteet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.motouutiset.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.motouutiset.fi",
+      "intent": "Lisään suosikkeihini tietyt moottoripyörämallit, joista haluan seurata uusimmat uutiset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.motouutiset.fi",
+      "intent": "Osallistun keskusteluun foorumilla ja kysyn neuvoa muilta käyttäjiltä"
+    }
+  ]
+}

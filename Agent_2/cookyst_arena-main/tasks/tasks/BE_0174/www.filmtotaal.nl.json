@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.filmtotaal.nl",
+      "intent": "Je souhaite regarder les dernières actualités cinématographiques sur le site FilmTotaal pour te tenir au courant des derniers films et séries TV."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.filmtotaal.nl",
+      "intent": "Tu veux faire une recherche pour trouver des critiques de films sur le site FilmTotaal afin de découvrir de nouveaux films qui t'intéressent."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.filmtotaal.nl",
+      "intent": "Tu as envie de consulter les classements des films les plus populaires sur le site FilmTotaal pour avoir une idée des tendances actuelles du cinéma."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.filmtotaal.nl",
+      "intent": "Maintenant que tu es connecté, tu veux créer une liste de films à voir pour pouvoir les retrouver facilement plus tard et partager tes recommandations avec d'autres utilisateurs."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.filmtotaal.nl",
+      "intent": "En tant qu'utilisateur connecté, tu souhaites laisser un commentaire sur un article de news pour partager tes opinions et discuter avec la communauté du site FilmTotaal."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.filmtotaal.nl",
+      "intent": "Tu veux personnaliser tes préférences de contenu sur le site FilmTotaal pour recevoir des recommandations de films et de séries TV adaptées à tes goûts."
+    }
+  ]
+}

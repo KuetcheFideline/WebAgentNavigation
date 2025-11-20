@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://alv-laskuri.fi",
+      "intent": "Laskea ALV 25,5 prosentilla verottomasta hinnasta 100 euroa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://alv-laskuri.fi",
+      "intent": "Tutustu ALV-kannoissa tapahtuneisiin muutoksiin 1.1.2025 ja 1.1.2026"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://alv-laskuri.fi",
+      "intent": "Lue artikkeli siitä, miten ALV lasketaan ja mitä se tarkoittaa yrityksille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://alv-laskuri.fi",
+      "intent": "Tallenna omat ALV-laskelmat ja tulokset omaan käyttäjäprofiiliin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://alv-laskuri.fi",
+      "intent": "Luo uusi laskelma ALV:lle 14 prosentilla verottomasta hinnasta 50 euroa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://alv-laskuri.fi",
+      "intent": "Tee vertailu eri ALV-prosenttien vaikutuksesta eri tuotteiden hinnoitteluun"
+    }
+  ]
+}

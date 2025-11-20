@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.mjusticia.gob.es",
+      "intent": "Buscar información sobre cómo obtener un certificado de nacimiento en línea"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.mjusticia.gob.es",
+      "intent": "Consultar los trámites más utilizados en la sede electrónica del Ministerio de Justicia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.mjusticia.gob.es",
+      "intent": "Verificar el estado de una solicitud de certificado de antecedentes penales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.mjusticia.gob.es",
+      "intent": "Acceder a los procedimientos en el ámbito de Presidencia y realizar una solicitud de certificado de nacionalidad española por residencia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.mjusticia.gob.es",
+      "intent": "Descargar un certificado de matrimonio electrónico una vez que se ha realizado la solicitud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.mjusticia.gob.es",
+      "intent": "Realizar una consulta sobre el estado de una solicitud de beca para la preparación de oposiciones"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flightforum.fi",
+      "intent": "Selata ilmailuvalokuvia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flightforum.fi",
+      "intent": "Lukea ilmailu-uutisia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flightforum.fi",
+      "intent": "Etsiä tietoa lentokonespottauksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flightforum.fi",
+      "intent": "Kirjoittaa viesti ilmailukeskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flightforum.fi",
+      "intent": "Lähettää yksityisviesti toiselle käyttäjälle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flightforum.fi",
+      "intent": "Muokata omaa profiilia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Rechercher les dernières actualités en Belgique pour rester informé sur l'actualité nationale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Lire les articles de presse en ligne pour me tenir au courant des événements actuels"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Consulter la rubrique 'Opinie' pour découvrir les éditoriaux et les opinions des experts"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Accéder à mes abonnements pour lire les articles premium et avoir accès à des contenus exclusifs"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Gérer mes paramètres de compte pour personnaliser mon expérience de lecture et mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Participer à des discussions en ligne avec d'autres lecteurs pour échanger des idées et des opinions"
+    }
+  ]
+}

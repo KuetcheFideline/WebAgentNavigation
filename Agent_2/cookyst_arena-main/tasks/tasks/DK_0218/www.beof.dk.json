@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.beof.dk",
+      "intent": "Jeg søger information om elpriser og leveringsbetingelser"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.beof.dk",
+      "intent": "Jeg vil sammenligne mine elforbrugspriser med andre kunder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.beof.dk",
+      "intent": "Jeg søger vejledning om, hvordan jeg kan reducere mit elforbrug"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.beof.dk",
+      "intent": "Jeg vil følge mit elforbrug og se mine regninger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.beof.dk",
+      "intent": "Jeg ønsker at ændre min elabonnement og priser"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.beof.dk",
+      "intent": "Jeg vil betale min elregning via Mobilepay"
+    }
+  ]
+}

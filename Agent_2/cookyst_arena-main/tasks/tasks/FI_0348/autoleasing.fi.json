@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://autoleasing.fi",
+      "intent": "Tutustun yksityisleasingin vaihtoehtoihin ja vertailen eri autojen hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://autoleasing.fi",
+      "intent": "Etsin tietoa Autoleasingin sopimusehdoista ja mitä ne sisältävät"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://autoleasing.fi",
+      "intent": "Selvittelen, miten voin tilata uuden auton verkkokaupasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://autoleasing.fi",
+      "intent": "Tarkastan oman tilini tiedot ja leasing-sopimustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://autoleasing.fi",
+      "intent": "Muutan oman leasing-autoni vakuutusvalintaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://autoleasing.fi",
+      "intent": "Tilaa uusi auto vanhan sopimuksen päättymisen jälkeen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nestoria.es",
+      "intent": "Buscar pisos en venta en Barcelona para mudarme con mi familia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nestoria.es",
+      "intent": "Comparar precios de pisos en alquiler en el centro de Madrid y Barcelona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nestoria.es",
+      "intent": "Explorar las características de los chalets en venta en la costa de Valencia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nestoria.es",
+      "intent": "Guardar mis búsquedas favoritas de pisos en venta en Barcelona para revisar más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nestoria.es",
+      "intent": "Configurar alertas de correo electrónico para cuando aparezcan nuevos pisos en alquiler en Madrid que se ajusten a mis criterios de búsqueda"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nestoria.es",
+      "intent": "Contactar con un agente inmobiliario para obtener más información sobre un piso en venta en Barcelona que me interesa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkoasiointi.elisa.fi",
+      "intent": "Tarkistaa sivuston yhteensopivuuden omien laitteiden kanssa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkoasiointi.elisa.fi",
+      "intent": "Etsiä tietoa siitä, miten päivittää selain uusimpaan versioon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkoasiointi.elisa.fi",
+      "intent": "Selata sivuston eri osioita ja etsiä tietoa Elisan palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkoasiointi.elisa.fi",
+      "intent": "Tarkistaa omat tilaus- ja laskutiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkoasiointi.elisa.fi",
+      "intent": "Muuttaa omia asiakastietoja ja asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkoasiointi.elisa.fi",
+      "intent": "Tarkastella ja hallita omia laskuja ja maksuja"
+    }
+  ]
+}

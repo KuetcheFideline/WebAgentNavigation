@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Lue uusimmat uutiset Forssan seudulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Etsi tietoa mökkien yhteysmahdollisuuksista ja ratkaisuista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Selaa urheilu-uutisia ja lue mielipiteitä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Kommentoi uusimpia uutisia ja osallistu keskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Tilaa digilehti ja hallinnoi tilausominaisuuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Jätä juttuvinkki toimitukselle ja ehdota aiheita"
+    }
+  ]
+}

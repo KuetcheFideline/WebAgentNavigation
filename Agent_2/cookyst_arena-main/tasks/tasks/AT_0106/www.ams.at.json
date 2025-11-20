@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ams.at",
+      "intent": "Ich möchte Informationen über die Stellensuche des Arbeitsmarktservice finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ams.at",
+      "intent": "Ich will die Adresse oder die Telefonnummer meiner AMS-Geschäftsstelle suchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ams.at",
+      "intent": "Ich möchte die Neuigkeiten vom AMS für Kärnten lesen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ams.at",
+      "intent": "Ich möchte mein Profil im MeinAMS-System bearbeiten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ams.at",
+      "intent": "Ich will meine Jobsuche im eJob-Room-System speichern und verwalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ams.at",
+      "intent": "Ich möchte meine Bewerbungen und Bewerbungsergebnisse im MeinAMS-System überprüfen."
+    }
+  ]
+}

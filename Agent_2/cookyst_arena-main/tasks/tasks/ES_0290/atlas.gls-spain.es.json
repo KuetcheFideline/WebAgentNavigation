@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://atlas.gls-spain.es",
+      "intent": "Revisar la información sobre la política de privacidad y protección de datos en la plataforma de GLS Atlas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://atlas.gls-spain.es",
+      "intent": "Buscar información sobre cómo recuperar la contraseña en caso de que se haya olvidado"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://atlas.gls-spain.es",
+      "intent": "Leer las condiciones de uso y la política de privacidad antes de iniciar sesión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://atlas.gls-spain.es",
+      "intent": "Verificar el historial de actividad y los registros de acceso a la plataforma de GLS Atlas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://atlas.gls-spain.es",
+      "intent": "Configurar las preferencias de notificación y alertas en la plataforma de GLS Atlas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://atlas.gls-spain.es",
+      "intent": "Actualizar la información de perfil y los datos personales en la plataforma de GLS Atlas"
+    }
+  ]
+}

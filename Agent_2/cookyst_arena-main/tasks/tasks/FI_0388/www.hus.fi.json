@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Haluaisin etsiä tietoa Alzheimerin taudista ja sen hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tehdä haku sivustolla oireiden mukaan, joita puolisoni on kokenut"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Selvittää, mitä palveluita HUS tarjoaa omaishoitajille ja heidän läheisilleen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Kirjautua sisään ja tarkastaa puolisoni hoitokalenteri ja lääkitys"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tarkastaa laboratoriotutkimusten tuloksia ja lääkärin kommentteja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Varata aika lääkärille tai muulle terveydenhuollon ammattilaiselle puolisoni puolesta"
+    }
+  ]
+}

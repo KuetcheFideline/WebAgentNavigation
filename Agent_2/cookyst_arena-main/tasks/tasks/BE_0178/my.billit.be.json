@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "Je souhaite configurer les cookies pour une navigation personnalisée sur le site."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "J'ai besoin de comprendre les différentes options de langues proposées sur le site pour une navigation plus aisée."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "Je veux explorer les fonctionnalités de base du site sans avoir besoin de me connecter."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Après m'être connecté, je souhaite accéder à mes documents personnels pour les consulter et les gérer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Je veux utiliser les outils de gestion de compte pour mettre à jour mes informations personnelles et de facturation."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Je souhaite contacter le support technique pour obtenir de l'aide sur une fonctionnalité spécifique du site."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.muotitalo.fi",
+      "intent": "Selata naisten muotivalikoimaa ja etsiä uusimmat trendit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.muotitalo.fi",
+      "intent": "Etsiä miesten talvitakeja ja vertailla niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.muotitalo.fi",
+      "intent": "Lukea kauppiaan blogia ja tutustua kauden juhlatrendeihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.muotitalo.fi",
+      "intent": "Tarkastaa tilaushistoriani ja seurata tilausteni etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.muotitalo.fi",
+      "intent": "Muuttaa osoitettani ja tarkastaa profiiliani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.muotitalo.fi",
+      "intent": "Tehdä lahjaostos ja lähettää se suoraan vastaanottajalle"
+    }
+  ]
+}

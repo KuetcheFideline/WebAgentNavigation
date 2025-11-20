@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.weerplaza.nl",
+      "intent": "Rechercher les prévisions météorologiques pour Liège afin de planifier mes activités en plein air pour la semaine à venir."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.weerplaza.nl",
+      "intent": "Consulter les actualités météorologiques pour rester informé sur les conditions climatiques actuelles et les prévisions à long terme."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.weerplaza.nl",
+      "intent": "Explorer les fonctionnalités de la section 'Weer in beeld' pour visualiser les conditions météorologiques actuelles à travers des images et des vidéos."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.weerplaza.nl",
+      "intent": "Personnaliser mes paramètres de notification pour recevoir des alertes météorologiques personnalisées en fonction de mes préférences et de mes activités."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.weerplaza.nl",
+      "intent": "Accéder à mon profil pour consulter et gérer mes paramètres de compte, y compris mes abonnements et mes préférences de notification."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.weerplaza.nl",
+      "intent": "Utiliser la fonctionnalité 'Mijn profiel' pour suivre mes prévisions météorologiques personnalisées et accéder à des contenus exclusifs en tant qu'abonné."
+    }
+  ]
+}

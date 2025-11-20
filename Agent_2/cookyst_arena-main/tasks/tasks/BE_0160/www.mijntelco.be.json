@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mijntelco.be",
+      "intent": "Rechercher les informations de confidentialité pour comprendre comment mes données personnelles sont traitées."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mijntelco.be",
+      "intent": "Explorer les options de gestion des cookies pour personnaliser mes préférences de navigation."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mijntelco.be",
+      "intent": "Lire les conditions d'utilisation du site pour savoir comment il utilise mes informations."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mijntelco.be",
+      "intent": "Gérer mes préférences de notification pour recevoir des mises à jour sur les services qui m'intéressent."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mijntelco.be",
+      "intent": "Consulter mon historique de navigation pour voir quels contenus j'ai consultés précédemment."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mijntelco.be",
+      "intent": "Mettre à jour mes informations de profil pour garantir que mes données sont à jour et exactes."
+    }
+  ]
+}

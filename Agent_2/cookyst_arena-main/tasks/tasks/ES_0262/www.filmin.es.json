@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.filmin.es",
+      "intent": "Buscar películas de comedia españolas para ver con mis amigos en la próxima fiesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.filmin.es",
+      "intent": "Explorar la sección de series para encontrar algo nuevo que ver durante mi tiempo libre en el hotel"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.filmin.es",
+      "intent": "Leer las reseñas de los usuarios sobre las últimas películas estrenadas para decidir qué ver"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.filmin.es",
+      "intent": "Agregar la película 'El laberinto del fauno' a mi lista de favoritos para verla más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.filmin.es",
+      "intent": "Configurar mis preferencias de recomendaciones para que me sugieran películas de acción y aventuras"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.filmin.es",
+      "intent": "Comprar un regalo de suscripción para mi hermano, que es un gran fanático del cine"
+    }
+  ]
+}

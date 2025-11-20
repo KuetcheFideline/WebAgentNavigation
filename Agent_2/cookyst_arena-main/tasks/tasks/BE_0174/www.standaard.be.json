@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Rechercher des articles sur les dernières actualités belges pour me tenir informée sur l'actualité nationale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Lire les derniers commentaires et opinions des lecteurs pour comprendre les différents points de vue sur les sujets d'actualité"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Explorer la section 'DS Avond' pour découvrir de nouveaux contenus et émissions de télévision"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Accéder à mon compte pour gérer mes abonnements et mes préférences de contenu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Lire les articles premium pour avoir accès à des contenus exclusifs et en profondeur sur les sujets qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Participer à des discussions en ligne avec d'autres lecteurs pour échanger des idées et des opinions sur les sujets d'actualité"
+    }
+  ]
+}

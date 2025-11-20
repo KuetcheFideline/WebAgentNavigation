@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.radioplayer.fi",
+      "intent": "Hae suosikkikanavani Radioplayer Suomesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.radioplayer.fi",
+      "intent": "Selaa kaikkia kanavia ja löydä uusia suosikkeja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.radioplayer.fi",
+      "intent": "Kuuntele Yle Radio Suomi Rovaniemen lähetyksiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.radioplayer.fi",
+      "intent": "Lisää Aito Iskelmä suosikkikanaviini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.radioplayer.fi",
+      "intent": "Poista Yle X3M suosikkikanavistani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.radioplayer.fi",
+      "intent": "Jaa suosikkikanavani ystävieni kanssa sosiaalisessa mediassa"
+    }
+  ]
+}

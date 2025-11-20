@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Luen uutisia Koillissanomien etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Etsin tietoa urheilu-uutisista, erityisesti lentopallosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Selvitan, miten voin osallistua Koillissanomien sanapeleihin ja -jahdeihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Tilaa Koillissanomat ja hallinoidan tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Lähetän juttuvinkin tai kirjoituksen Koillissanomille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Jätän ilmoituksen Koillissanomiin"
+    }
+  ]
+}

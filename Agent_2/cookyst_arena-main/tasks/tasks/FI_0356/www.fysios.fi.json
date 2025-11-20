@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fysios.fi",
+      "intent": "Hae tietoa fysioterapiapalveluista ja niiden hinnoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fysios.fi",
+      "intent": "Selvitä, miten voin varata ajan fysioterapeutille ilman lääkärin lähetettä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fysios.fi",
+      "intent": "Lue lisää urheilufysioterapiasta ja sen hyödyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fysios.fi",
+      "intent": "Varaa aika fysioterapeutille OmaMehiläinen-tilillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fysios.fi",
+      "intent": "Tarkastele aiempia fysioterapiakäyntejä ja hoitosuunnitelmia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fysios.fi",
+      "intent": "Anna palautetta viimekertaista fysioterapiakäynnistä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.taloon.com",
+      "intent": "Hae sivustolta tietoa puutarhakalusteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.taloon.com",
+      "intent": "Vertaile eri työkaluvalmistajien tuotteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.taloon.com",
+      "intent": "Selvitä miten sivuston etsintätoiminto toimii"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.taloon.com",
+      "intent": "Tilaa tuotteita verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.taloon.com",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen etenemistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.taloon.com",
+      "intent": "Muokkaa profiilia ja tarkastele ostoksia"
+    }
+  ]
+}

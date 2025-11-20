@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Revisar la página de inicio para ver si el problema técnico se ha resuelto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Buscar información sobre los productos y servicios que ofrece BBVA para personas en situación de paro"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Explorar las secciones de noticias y blogs para estar al tanto de las últimas tendencias y consejos financieros"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Consultar el estado de mi cuenta y realizar un seguimiento de mis movimientos bancarios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre mis cuentas y servicios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Realizar una transferencia bancaria a un amigo para ayudarle con una situación económica difícil"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://chess-results.com",
+      "intent": "Ich möchte nach einem bestimmten Schachturnier suchen, um die Ergebnisse und Ranglisten zu sehen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://chess-results.com",
+      "intent": "Ich will die laufenden Turniere aufrufen, um zu sehen, welche Schachspieler gerade spielen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://chess-results.com",
+      "intent": "Ich möchte den Schachspieler mit dem höchsten Elo-Rating finden, um seine Spiele und Ergebnisse zu analysieren."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://chess-results.com",
+      "intent": "Ich möchte mein eigenes Schachturnier erstellen und die Teilnehmer und Ergebnisse verwalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://chess-results.com",
+      "intent": "Ich will meine Schachpartien online speichern und mit anderen Schachspielern teilen, um Feedback zu erhalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://chess-results.com",
+      "intent": "Ich möchte meine Schachturnier-Ergebnisse mit anderen Schachspielern vergleichen, um meine Stärken und Schwächen zu analysieren."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://8000.cpos.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan logge på portalen med MitID"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://8000.cpos.dk",
+      "intent": "Jeg vil gerne vide, hvordan jeg kan tilføje en ny konto til min profil"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://8000.cpos.dk",
+      "intent": "Jeg ønsker at læse mere om de forskellige funktioner på portalen, såsom indbetaling af penge på et kort og tilmelding af kortet til automatisk optankning"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://8000.cpos.dk",
+      "intent": "Jeg vil gerne redigere mine stamdata og opsætte regler for brug af mit betalingskort"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://8000.cpos.dk",
+      "intent": "Jeg søger efter at spærre et af mine betalingskort og bestille et nyt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://8000.cpos.dk",
+      "intent": "Jeg vil gerne følge mit forbrug på mit betalingskort og købe varer i webshoppen"
+    }
+  ]
+}

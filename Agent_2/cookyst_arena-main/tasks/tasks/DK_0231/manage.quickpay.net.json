@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://manage.quickpay.net",
+      "intent": "Jeg søger efter information om, hvordan jeg kan konfigurere mine betalingsindstillinger på Quickpay Manager."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://manage.quickpay.net",
+      "intent": "Jeg ønsker at læse om Quickpays politik for beskyttelse af personlige oplysninger og sikkerhed."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://manage.quickpay.net",
+      "intent": "Jeg vil gerne vide, hvordan jeg kan få hjælp eller support, hvis jeg har problemer med at bruge Quickpay Manager."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://manage.quickpay.net",
+      "intent": "Jeg skal overføre penge til en af mine underleverandører og ønsker at konfigurere en ny betaling på Quickpay Manager."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://manage.quickpay.net",
+      "intent": "Jeg ønsker at se mine seneste transaktioner og kontrollere, om der er nogen fejl eller uregelmæssigheder i mine betalinger."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://manage.quickpay.net",
+      "intent": "Jeg skal ændre mine kontoinformationer og opdatere min adresse, så jeg kan modtage vigtige meddelelser fra Quickpay Manager."
+    }
+  ]
+}

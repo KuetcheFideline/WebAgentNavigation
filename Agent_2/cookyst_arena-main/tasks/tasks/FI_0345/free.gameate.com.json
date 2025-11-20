@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://free.gameate.com",
+      "intent": "Selvittää, mitä ilmaisia pelejä sivustolla on tarjolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://free.gameate.com",
+      "intent": "Etsiä tietoa sivuston käyttöehdoista ja tietosuojakäytännöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://free.gameate.com",
+      "intent": "Katsella suosittujen pelien listaa ja lukea arvosteluita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://free.gameate.com",
+      "intent": "Ladata uusi peli ja aloittaa pelin tallentaminen omaan pelikirjastooni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://free.gameate.com",
+      "intent": "Osallistua keskusteluun foorumilla ja jakaa omia kokemuksia peleistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://free.gameate.com",
+      "intent": "Tarkistaa oman pelitilini ja seurata edistymistäni eri peleissä"
+    }
+  ]
+}

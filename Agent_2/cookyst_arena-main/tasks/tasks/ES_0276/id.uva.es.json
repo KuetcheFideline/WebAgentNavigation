@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://id.uva.es",
+      "intent": "Buscar información sobre el proceso de autenticación en adAS SSO para entender cómo acceder a los recursos protegidos de la Universidad de Valladolid."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://id.uva.es",
+      "intent": "Explorar las opciones de ayuda y soporte técnico disponibles en el sitio web, como el contacto con el CAU, para resolver posibles problemas de autenticación."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://id.uva.es",
+      "intent": "Leer las políticas de privacidad y seguridad de la Universidad de Valladolid para comprender cómo se protegen los datos personales y la información de los usuarios."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://id.uva.es",
+      "intent": "Acceder a los recursos protegidos de la Universidad de Valladolid, como la plataforma de aprendizaje en línea, después de autenticarme correctamente en adAS SSO."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://id.uva.es",
+      "intent": "Configurar mis preferencias de usuario y actualizar mi perfil en el sistema de identidad digital de la Universidad de Valladolid para asegurarme de que mi información esté actualizada."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://id.uva.es",
+      "intent": "Solicitar ayuda y soporte técnico al CAU para resolver un problema de autenticación o acceso a recursos protegidos después de haber iniciado sesión en adAS SSO."
+    }
+  ]
+}

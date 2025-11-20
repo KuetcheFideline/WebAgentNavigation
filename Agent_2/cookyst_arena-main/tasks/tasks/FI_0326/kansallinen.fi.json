@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kansallinen.fi",
+      "intent": "Hae kirjoja tietojenkäsittelytiede aiheesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kansallinen.fi",
+      "intent": "Selaa kalenterivalikoimaa ja etsi sopiva kalenteri vuodelle 2026"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kansallinen.fi",
+      "intent": "Vertaile eri tuotteiden hintoja ja etsi edullisin vaihtoehto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kansallinen.fi",
+      "intent": "Tilaa uusi kalenteri vuodelle 2026 omasta tilistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kansallinen.fi",
+      "intent": "Lisää tuote ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kansallinen.fi",
+      "intent": "Tarkista tilin saldot ja historiatiedot"
+    }
+  ]
+}

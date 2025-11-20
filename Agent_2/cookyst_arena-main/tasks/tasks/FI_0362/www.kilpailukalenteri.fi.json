@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Selata tulevia kilpailuita ja etsiä jalkapallo-aiheisia tapahtumia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Lukea lisää Kilpailukalenterin ylläpidosta ja sen siirtymisestä Avenla Oylle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Etsiä tietoa kilpailuista, jotka järjestetään Espoossa tai Helsingissä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Ilmoittautua kilpailuun, joka kiinnostaa ja johon on mahdollista osallistua"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Tarkastella omia ilmoittautumisia ja kilpailuhistoriaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Annaa palautetta kilpailusta, johon on osallistunut"
+    }
+  ]
+}

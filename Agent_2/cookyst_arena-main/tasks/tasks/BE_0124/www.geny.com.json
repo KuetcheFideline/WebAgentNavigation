@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.geny.com",
+      "intent": "Consulter les résultats des courses de chevaux pour le Prix de Paimpol"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.geny.com",
+      "intent": "Rechercher des informations sur les réunions de courses à venir pour le Quinté+"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.geny.com",
+      "intent": "Découvrir les pronostics pour la course de demain à Chantilly"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.geny.com",
+      "intent": "Placer un pari en ligne sur le site de Genybet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.geny.com",
+      "intent": "Consulter mes paris en cours et suivre les résultats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.geny.com",
+      "intent": "Gérer mon compte et modifier mes informations personnelles"
+    }
+  ]
+}

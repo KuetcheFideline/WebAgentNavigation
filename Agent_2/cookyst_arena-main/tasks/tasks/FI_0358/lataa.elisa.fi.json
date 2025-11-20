@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lataa.elisa.fi",
+      "intent": "Olen etsimässä prepaid-liittymää lapselleni, haluan tietää miten voin ladata saldoa tai ostaa paketin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lataa.elisa.fi",
+      "intent": "Haluaisin tietää enemmän Elisan prepaid-eSIM:stä ja miten voin sen ostaa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lataa.elisa.fi",
+      "intent": "Olen kiinnostunut toistuvaismaksusta, haluan tietää miten voin sen aktivoida ja mitä etuja siitä on."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lataa.elisa.fi",
+      "intent": "Haluan tarkistaa saldoni ja ladata uuden paketin, koska minun on pakollista pitää yhteydeni toiminnassa työni vuoksi."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lataa.elisa.fi",
+      "intent": "Olen kiinnostunut muuttamaan liittymäni asetuksia, haluan tietää miten voin tehdä sen helposti ja nopeasti."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lataa.elisa.fi",
+      "intent": "Haluaisin tarkistaa laskuni ja maksaa sen verkkopalvelun kautta, jotta vältän myöhästymismaksut."
+    }
+  ]
+}

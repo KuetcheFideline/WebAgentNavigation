@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eliteprospects.com",
+      "intent": "Selvittää suomalaispelaajien siirtoja ja tilastoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eliteprospects.com",
+      "intent": "Etsiä tietoa suosikkijoukkueistani ja heidän pelaajistaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eliteprospects.com",
+      "intent": "Lukea uusimmat jääkiekkouutiset ja siirrot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eliteprospects.com",
+      "intent": "Lisätä omaa suosikkijoukkuettani ja pelaajiani seurantaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eliteprospects.com",
+      "intent": "Kommentoida ja keskustella muiden käyttäjien kanssa siirroista ja pelaajista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eliteprospects.com",
+      "intent": "Muokata omaa profiilia ja asetuksia"
+    }
+  ]
+}

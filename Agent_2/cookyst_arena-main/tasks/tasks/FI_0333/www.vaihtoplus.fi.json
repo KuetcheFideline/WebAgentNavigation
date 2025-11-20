@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vaihtoplus.fi",
+      "intent": "Selvittää Vaihtoplusin yhdistymisen vaikutukset Vehoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vaihtoplus.fi",
+      "intent": "Etsiä lähintä Veho-liikettä Vaasasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vaihtoplus.fi",
+      "intent": "Löytää tietoa Vehon vaihtoautovalikoimasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vaihtoplus.fi",
+      "intent": "Tarkastella omia ostohistoriaani ja suosikkejani Vehon sivustolla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vaihtoplus.fi",
+      "intent": "Tilata uutiskirje Veholta saadakseen ajankohtaiset tarjoukset ja uutiset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vaihtoplus.fi",
+      "intent": "Muokata omia tietojani ja asetuksia OmaVeho-tilillä"
+    }
+  ]
+}

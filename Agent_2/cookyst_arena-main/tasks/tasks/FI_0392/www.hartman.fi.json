@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hartman.fi",
+      "intent": "Hae vinyylilankkuja mökin lattiaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hartman.fi",
+      "intent": "Vertaa eri vinyylilaattojen hintoja ja laatua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hartman.fi",
+      "intent": "Lue arvosteluita vinyylilankkuista, jotka ovat ostaneet aiemmin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hartman.fi",
+      "intent": "Tilaa uutiskirje, jotta saan tietää uusista tarjouksista ja tuotteista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hartman.fi",
+      "intent": "Lisää ostoskoriin vinyylilankku, jonka olen valinnut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hartman.fi",
+      "intent": "Tarkista tilaustani ja varmista, että kaikki on kunnossa"
+    }
+  ]
+}

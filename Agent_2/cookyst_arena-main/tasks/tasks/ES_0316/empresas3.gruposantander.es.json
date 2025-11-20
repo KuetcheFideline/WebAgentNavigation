@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://empresas3.gruposantander.es",
+      "intent": "Intentar encontrar la página de inicio para saber si el sitio web está funcionando correctamente"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://empresas3.gruposantander.es",
+      "intent": "Buscar información sobre los productos y servicios que ofrece el banco Santander para empresas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://empresas3.gruposantander.es",
+      "intent": "Verificar si el sitio web tiene una sección de contacto o soporte para resolver dudas o problemas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://empresas3.gruposantander.es",
+      "intent": "Iniciar sesión en mi cuenta de empresa para consultar mis movimientos y saldo actual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://empresas3.gruposantander.es",
+      "intent": "Realizar una transferencia bancaria a otra cuenta para pagar a uno de mis proveedores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://empresas3.gruposantander.es",
+      "intent": "Configurar alertas y notificaciones para estar informado sobre los movimientos en mi cuenta"
+    }
+  ]
+}

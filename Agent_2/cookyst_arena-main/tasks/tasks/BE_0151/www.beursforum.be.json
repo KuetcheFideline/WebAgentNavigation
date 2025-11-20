@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.beursforum.be",
+      "intent": "Rechercher des informations sur les tendances actuelles du marché boursier belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.beursforum.be",
+      "intent": "Consulter les dernières actualités financières et les analyses de marché"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.beursforum.be",
+      "intent": "Explorer les forums de discussion sur les investissements et les stratégies de trading"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.beursforum.be",
+      "intent": "Participer à une discussion en cours sur les performances des actions de la BEL20"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.beursforum.be",
+      "intent": "Créer un nouveau sujet de discussion sur les opportunités d'investissement dans les entreprises belges"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.beursforum.be",
+      "intent": "Configurer mes abonnements pour recevoir des notifications sur les derniers développements du marché financier"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.arenberg.be",
+      "intent": "Rechercher les événements de théâtre et de musique pour le mois de décembre 2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.arenberg.be",
+      "intent": "Découvrir les projets artistiques proposés par l'Arenberg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.arenberg.be",
+      "intent": "Consulter les informations pratiques pour assister à un spectacle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.arenberg.be",
+      "intent": "Réserver des billets pour le spectacle 'WOUTER DEPREZ' le 3 décembre 2025"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.arenberg.be",
+      "intent": "Gérer mes réservations et mes billets pour les événements à venir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.arenberg.be",
+      "intent": "Laisser un commentaire ou une évaluation sur un spectacle auquel j'ai assisté"
+    }
+  ]
+}

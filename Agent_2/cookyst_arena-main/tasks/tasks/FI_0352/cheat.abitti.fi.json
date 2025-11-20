@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cheat.abitti.fi",
+      "intent": "Valitse kieli suomeksi ja lue koeympäristön ohjeet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cheat.abitti.fi",
+      "intent": "Etsi tietoa Abitti-koeympäristöstä ja sen käytöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cheat.abitti.fi",
+      "intent": "Lue saavutettavuusseloste ja ymmärrä sivuston esteettömyys"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cheat.abitti.fi",
+      "intent": "Kirjaudu sisään ja tarkastele omia koetuloksia Abitti-koeympäristössä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cheat.abitti.fi",
+      "intent": "Tee harjoituskoe ja analysoidaan tuloksia Abitti-järjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cheat.abitti.fi",
+      "intent": "Muokkaa profiilia ja tarkastele henkilökohtaisia asetuksia Abitti-koeympäristössä"
+    }
+  ]
+}

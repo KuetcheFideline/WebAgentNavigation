@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://abounderrattelser.fi",
+      "intent": "Lue uusimmat uutiset Turun seudulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://abounderrattelser.fi",
+      "intent": "Etsi tietoa Åbo Underrättelserin ilmoitusmahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://abounderrattelser.fi",
+      "intent": "Selaa sivuston kulttuuriosiota ja etsi tietoa tulevista tapahtumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://abounderrattelser.fi",
+      "intent": "Tarkista tilaus ja muokkaa tilaustietoja tarpeen mukaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://abounderrattelser.fi",
+      "intent": "Lue e-lehti ja etsi tietoa aiemmista numerosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://abounderrattelser.fi",
+      "intent": "Vastaa kyselyyn tai osallistu keskusteluun sivuston foorumilla"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cas-saml.udc.es",
+      "intent": "Recuperar mi contraseña olvidada para poder acceder a mis servicios universitarios"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cas-saml.udc.es",
+      "intent": "Activar mi cuenta de servicios para empezar a utilizar los recursos de la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cas-saml.udc.es",
+      "intent": "Buscar ayuda en el portal de soporte para solucionar problemas de acceso a los servicios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cas-saml.udc.es",
+      "intent": "Configurar mis preferencias de seguridad y privacidad después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cas-saml.udc.es",
+      "intent": "Acceder a mis cursos y recursos educativos una vez que haya iniciado sesión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cas-saml.udc.es",
+      "intent": "Actualizar mi información de perfil y contacto después de iniciar sesión para asegurarme de que esté actualizada"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pot.nl",
+      "intent": "Je souhaite comparer les prix des fauteuils relax pour mon salon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pot.nl",
+      "intent": "Je veux trouver des idées de décoration pour ma maison en regardant les tendances actuelles sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pot.nl",
+      "intent": "Je cherche à acheter un nouveau canapé pour mon salon, je veux voir les différentes options disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pot.nl",
+      "intent": "Je souhaite accéder à mon compte pour suivre mes commandes passées et mes produits préférés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pot.nl",
+      "intent": "Je veux personnaliser mes préférences de produits en fonction de mes goûts et de mes achats précédents"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pot.nl",
+      "intent": "Je souhaite gérer mes informations de paiement et de livraison pour faciliter mes prochains achats"
+    }
+  ]
+}

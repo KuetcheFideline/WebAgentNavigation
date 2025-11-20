@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ruokawiki.fi",
+      "intent": "Etsin vegaanisia reseptejä lounaaksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ruokawiki.fi",
+      "intent": "Haluan löytää helpon ja nopean reseptin aamupalaksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ruokawiki.fi",
+      "intent": "Olen kiinnostunut skandinaavisista resepteistä ja haluan tutustua niiden valmistamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ruokawiki.fi",
+      "intent": "Tallennan suosikkireseptini ja jaan niitä ystävieni kanssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ruokawiki.fi",
+      "intent": "Kirjoitan arvostelun juuri kokeilemastani reseptistä ja jaan kokemukseni muiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ruokawiki.fi",
+      "intent": "Lisään oman reseptini sivustolle ja jaan sen muille käyttäjille"
+    }
+  ]
+}

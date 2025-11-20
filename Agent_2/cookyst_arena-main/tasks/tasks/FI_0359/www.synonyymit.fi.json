@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.synonyymit.fi",
+      "intent": "Hae sanoja, joilla on sama merkitys kuin sanalla 'perhe'"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.synonyymit.fi",
+      "intent": "Etsi synonyymejä sanalle 'työ' ja tutki niiden merkitystä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.synonyymit.fi",
+      "intent": "Selvitä, mitä tarkoittaa sana 'yksinhuoltaja' ja etsi sille synonyymejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.synonyymit.fi",
+      "intent": "Tallenna sanasto, jossa on sanoja, jotka liittyvät lasten kasvatuksen ja hoitoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.synonyymit.fi",
+      "intent": "Luo lista sanoista, joita tarvitsen työssäni Asiakaspalvelussa Kelassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.synonyymit.fi",
+      "intent": "Jaa luomani sanasto ystävieni kanssa, jotka työskentelevät samalla alalla"
+    }
+  ]
+}

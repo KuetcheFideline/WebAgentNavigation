@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.mehilainen.fi",
+      "intent": "Haluaisin tietää, miten voin varata ajan lääkärille OmaMehiläisen kautta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.mehilainen.fi",
+      "intent": "Olen kiinnostunut siitä, mitä ominaisuuksia OmaMehiläinen tarjoaa potilaille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.mehilainen.fi",
+      "intent": "Löytäisinkö tietoa Mehiläisen toimipisteistä ja niiden aukioloajoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.mehilainen.fi",
+      "intent": "Haluaisin ilmoittautua vastaanotolle ja tarkistaa, mitkä tiedot ovat jo tallennettuina OmaMehiläiseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.mehilainen.fi",
+      "intent": "Tarkastelisin lääkärin antamia ohjeita ja reseptejä, jotka ovat tallennettuina OmaMehiläiseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.mehilainen.fi",
+      "intent": "Lisäisin lasteni tiedot OmaMehiläiseen, jotta voisin varata heille ajan ja tarkistaa heidän terveystietonsa"
+    }
+  ]
+}

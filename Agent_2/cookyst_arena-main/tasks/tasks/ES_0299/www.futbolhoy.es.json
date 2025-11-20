@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.futbolhoy.es",
+      "intent": "Buscar los partidos de fútbol que se juegan hoy en TV para ver si hay algún equipo español jugando."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.futbolhoy.es",
+      "intent": "Explorar la sección de 'Competiciones' para ver las diferentes ligas y torneos que se cubren en el sitio."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.futbolhoy.es",
+      "intent": "Verificar si hay algún partido de la Liga EA Sports que se juegue esta semana y que pueda ser de interés para un fanático del fútbol español."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.futbolhoy.es",
+      "intent": "Crear una lista personalizada de partidos favoritos para poder seguir fácilmente los resultados y horarios de mis equipos preferidos."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.futbolhoy.es",
+      "intent": "Configurar las notificaciones para recibir alertas cuando comiencen los partidos de mis equipos favoritos o cuando se anuncien nuevos partidos."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.futbolhoy.es",
+      "intent": "Participar en la sección de comentarios o foros para discutir con otros fanáticos sobre los últimos resultados y partidos de fútbol."
+    }
+  ]
+}

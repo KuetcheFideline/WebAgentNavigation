@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pidpa.be",
+      "intent": "Rechercher les informations sur les tarifs de l'eau dans ma commune"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pidpa.be",
+      "intent": "Consulter les actualités sur la gestion de l'eau en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pidpa.be",
+      "intent": "Trouver les coordonnées pour contacter le service client de Pidpa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pidpa.be",
+      "intent": "Consulter mes factures d'eau en ligne via mon compte Pidpa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pidpa.be",
+      "intent": "Demander une nouvelle lecture de mon compteur d'eau via mon compte Pidpa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pidpa.be",
+      "intent": "Gérer mes informations de compte et mes préférences de communication avec Pidpa"
+    }
+  ]
+}

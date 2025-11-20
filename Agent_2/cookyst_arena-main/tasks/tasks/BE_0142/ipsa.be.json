@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ipsa.be",
+      "intent": "Rechercher des informations sur les formations pour apothécaires"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ipsa.be",
+      "intent": "Consulter les actualités et les événements à venir sur le site d'IPSA"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ipsa.be",
+      "intent": "Explorer les ressources et les outils pédagogiques proposés par IPSA"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ipsa.be",
+      "intent": "S'inscrire à une formation ou à un événement en ligne après s'être connecté à son compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ipsa.be",
+      "intent": "Accéder à son espace personnel pour consulter ses inscriptions et ses formations en cours"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ipsa.be",
+      "intent": "Participer à un forum de discussion ou poser une question à la communauté après s'être connecté"
+    }
+  ]
+}

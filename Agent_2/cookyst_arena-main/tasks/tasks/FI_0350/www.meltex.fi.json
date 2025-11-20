@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.meltex.fi",
+      "intent": "Hae sivustolta tietoa MX-MOD kiinteistöpumppaamoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.meltex.fi",
+      "intent": "Vertaile eri jätevesijärjestelmien hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.meltex.fi",
+      "intent": "Lue arvosteluita Roth Tacker -eristelevyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.meltex.fi",
+      "intent": "Tilaa MX-MOD kiinteistöpumppaamo ja määritä toimitusosoite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.meltex.fi",
+      "intent": "Lisää Roth Tacker -eristelevy ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.meltex.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa viimeisimmän tilauksen toimitusta"
+    }
+  ]
+}

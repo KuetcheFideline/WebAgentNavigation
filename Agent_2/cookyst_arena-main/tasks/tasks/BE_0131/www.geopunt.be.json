@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.geopunt.be",
+      "intent": "Rechercher les informations sur les couches de données disponibles sur le site Geopunt pour comprendre les ressources cartographiques à disposition"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.geopunt.be",
+      "intent": "Explorer la section 'Catalogus' pour découvrir les différentes applications et outils de cartographie proposés par Geopunt"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.geopunt.be",
+      "intent": "Lire les conditions d'utilisation et la politique de confidentialité du site pour comprendre comment les données personnelles sont traitées"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.geopunt.be",
+      "intent": "Configurer les préférences de cookies pour personnaliser l'expérience de navigation sur le site Geopunt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.geopunt.be",
+      "intent": "Accéder à la section 'Kaarttoepassingen' pour utiliser les applications de cartographie en ligne et visualiser des données spécifiques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.geopunt.be",
+      "intent": "Télécharger des données cartographiques pour utiliser dans des projets personnels ou professionnels, en respectant les conditions d'utilisation"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://v2.sportsurge.net",
+      "intent": "Selvitän, miten voin katsoa urheilulähetyksiä ilman rekisteröitymistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://v2.sportsurge.net",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa kieltä sivustolla suomeksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://v2.sportsurge.net",
+      "intent": "Katselen mitä urheilulajeja sivusto tarjoaa ja etsin jalkapallon lähetyksiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://v2.sportsurge.net",
+      "intent": "Tallennan omaan suosikkilistaaani jalkapallon mestaruussarjan lähetyksiä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://v2.sportsurge.net",
+      "intent": "Lisään kommentin keskustelufoorumiin urheiluaiheesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://v2.sportsurge.net",
+      "intent": "Muokkaan profiiliini ja lisään kuvan itsestäni"
+    }
+  ]
+}

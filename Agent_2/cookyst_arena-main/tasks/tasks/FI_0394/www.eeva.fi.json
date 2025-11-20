@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eeva.fi",
+      "intent": "Luen uusimmat artikkelit Eevan sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eeva.fi",
+      "intent": "Etsin tietoa terveydestä ja hyvinvoinnista Eevan sivuilta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eeva.fi",
+      "intent": "Selailen Eevan muotia ja kauneutta koskevia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eeva.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkeleita Eevan sivuilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eeva.fi",
+      "intent": "Tilaa Eevan uutiskirje, jotta saan päivittäin uusimmat artikkelit"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eeva.fi",
+      "intent": "Osallistun Eevan keskusteluihin ja jaan omia ajatuksiani aiheista"
+    }
+  ]
+}

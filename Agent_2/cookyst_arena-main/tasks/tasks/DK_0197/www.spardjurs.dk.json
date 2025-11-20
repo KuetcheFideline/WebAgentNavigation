@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.spardjurs.dk",
+      "intent": "Læse mere om fusionen mellem Sparekassen Danmark og Sparekassen Djursland"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.spardjurs.dk",
+      "intent": "Se spørgsmål og svar om fusionen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.spardjurs.dk",
+      "intent": "Få information om, hvordan fusionen påvirker mine konti og betalingsserviceaftaler"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.spardjurs.dk",
+      "intent": "Logge på netbank og se mine konti og transaktioner"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.spardjurs.dk",
+      "intent": "Bestille kontanter og valuta til levering i min lokale afdeling"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.spardjurs.dk",
+      "intent": "Se mine forsikringer i Privatsikring og sikre, at de fortsætter uændret"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.metsakeskus.fi",
+      "intent": "Hae tietoa metsien käytöstä ja omistuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.metsakeskus.fi",
+      "intent": "Selvitä miten Metsäkeskus edistää kokonaiskestävää metsien käyttöä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.metsakeskus.fi",
+      "intent": "Lue uusimmat uutiset metsäomistuksesta ja metsien hoidosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.metsakeskus.fi",
+      "intent": "Kirjaudu sisään ja tee hakemus ympäristötukea varten"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.metsakeskus.fi",
+      "intent": "Tarkastele omia metsänomistajan tietoja ja päivitä ne tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.metsakeskus.fi",
+      "intent": "Hae Metsäkeskuksen tukea metsien ja luonnon hoidolle"
+    }
+  ]
+}

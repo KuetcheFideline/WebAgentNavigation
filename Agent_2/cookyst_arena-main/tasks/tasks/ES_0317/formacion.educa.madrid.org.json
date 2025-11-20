@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://formacion.educa.madrid.org",
+      "intent": "Explorar los cursos en abierto para estudiar a mi ritmo y sin certificación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://formacion.educa.madrid.org",
+      "intent": "Buscar información sobre seminarios y PFC para ampliar mis conocimientos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://formacion.educa.madrid.org",
+      "intent": "Descargar materiales destacados de los cursos en formato ePub3 para leer en mi tiempo libre"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://formacion.educa.madrid.org",
+      "intent": "Acceder a la Plataforma de Innovación y Formación para ver mis cursos inscritos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://formacion.educa.madrid.org",
+      "intent": "Iniciar un nuevo curso institucional para mejorar mis habilidades como profesor"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://formacion.educa.madrid.org",
+      "intent": "Participar en un foro de discusión para intercambiar ideas con otros profesores y estudiantes"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campusvirtual.nebrija.es",
+      "intent": "Explorar la página de inicio para conocer las opciones disponibles en el campus virtual"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campusvirtual.nebrija.es",
+      "intent": "Buscar información sobre los cursos y programas académicos ofrecidos por la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campusvirtual.nebrija.es",
+      "intent": "Leer las noticias y actualizaciones sobre la universidad y su comunidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campusvirtual.nebrija.es",
+      "intent": "Acceder a mis cursos y tareas pendientes en el campus virtual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campusvirtual.nebrija.es",
+      "intent": "Configurar mis preferencias de cuenta y ajustar la configuración de notificaciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campusvirtual.nebrija.es",
+      "intent": "Descargar recursos y materiales de los cursos en los que estoy inscrito"
+    }
+  ]
+}

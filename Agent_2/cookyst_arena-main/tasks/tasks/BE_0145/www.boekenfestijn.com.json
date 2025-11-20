@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.boekenfestijn.com",
+      "intent": "Rechercher des livres de fiction pour mon prochain voyage en France"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.boekenfestijn.com",
+      "intent": "Comparer les prix de livres de bricolage pour trouver les meilleures offres"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.boekenfestijn.com",
+      "intent": "Explorer la section 'Vrije Tijd' pour découvrir de nouveaux loisirs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.boekenfestijn.com",
+      "intent": "Ajouter des livres à ma liste de souhaits pour les acheter plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.boekenfestijn.com",
+      "intent": "Consulter mon historique d'achats pour retrouver des livres que j'ai déjà achetés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.boekenfestijn.com",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

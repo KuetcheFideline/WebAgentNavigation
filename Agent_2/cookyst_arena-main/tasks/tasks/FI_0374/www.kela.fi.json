@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kela.fi",
+      "intent": "Hae tietoa lapsen syntymästä ja hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kela.fi",
+      "intent": "Selaa Kelan tuista ja tarkista, mitä tuita voin hakea"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kela.fi",
+      "intent": "Lue lisää mielenterveyden haasteista ja siitä, miten Kela tukee toipumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kela.fi",
+      "intent": "Tarkista omasi sivuilta, mitä Kelan tuita olen jo saanut ja mitä voin hakea"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kela.fi",
+      "intent": "Hae toimeentulotukea, koska tarvitsen taloudellista tukea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kela.fi",
+      "intent": "Täytä lomake asumistuen hakemiseksi, koska olen muuttamassa uuteen kotiin"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kerava.fi",
+      "intent": "Hae tietoa Keravan kaupungin vapaa-ajan palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kerava.fi",
+      "intent": "Tutustu Keravan kaupungin asukaslehteen verkossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kerava.fi",
+      "intent": "Etsi tietoa Keravan kaupungin itsenäisyyspäivän juhlasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kerava.fi",
+      "intent": "Tee ilmoittautuminen Keravan kaupungin itsenäisyyspäivän juhlaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kerava.fi",
+      "intent": "Tilaa Keravan kaupungin uutiskirjeet valitsemillasi aihealueilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kerava.fi",
+      "intent": "Lähetä palautetta Keravan kaupungin verkkopalveluista"
+    }
+  ]
+}

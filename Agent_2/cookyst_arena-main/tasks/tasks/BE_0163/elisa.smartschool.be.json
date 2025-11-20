@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elisa.smartschool.be",
+      "intent": "Rechercher les informations sur les cours en ligne pour les élèves de BuSO Sint-Elisabeth"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elisa.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les enseignants sur la plateforme Smartschool"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elisa.smartschool.be",
+      "intent": "Consulter les actualités et les annonces de l'école BuSO Sint-Elisabeth sur la page d'accueil"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elisa.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter les notes et les progrès de mes élèves"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elisa.smartschool.be",
+      "intent": "Gérer les absences et les retards des élèves de ma classe en utilisant l'outil de suivi des présences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elisa.smartschool.be",
+      "intent": "Participer à une discussion en ligne avec mes collègues enseignants pour échanger des idées et des bonnes pratiques"
+    }
+  ]
+}

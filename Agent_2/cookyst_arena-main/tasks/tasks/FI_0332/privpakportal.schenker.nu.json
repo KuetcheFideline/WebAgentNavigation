@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://privpakportal.schenker.nu",
+      "intent": "Tutkimme, miksi Privpakportal on lopetettu ja etsimme vaihtoehtoja seurata pakettiani"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://privpakportal.schenker.nu",
+      "intent": "Selvitätään, miten voin saada lisätietoa Schenkerin API:sta ja miten se vaikuttaa pakettieni seuraamiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://privpakportal.schenker.nu",
+      "intent": "Etsimme yhteydenotto- ja asiakaspalvelutietoja, jotta voimme ottaa yhteyttä Schenkeriin pakettieni tilasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://privpakportal.schenker.nu",
+      "intent": "Tarkistamme, onko minulla olemassa olevia paketteja, joita voin seurata ja hallita Schenkerin järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://privpakportal.schenker.nu",
+      "intent": "Muokkaamme olemassa olevan pakettitilauksen toimitusosoitetta, jotta se toimitettaisiin oikeaan osoitteeseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://privpakportal.schenker.nu",
+      "intent": "Tutkimme, voinko ladata tai tulostaa pakettieni seurantatiedot ja toimitusvahvistukset Schenkerin järjestelmästä"
+    }
+  ]
+}

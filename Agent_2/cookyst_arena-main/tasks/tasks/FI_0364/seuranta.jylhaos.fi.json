@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seuranta.jylhaos.fi",
+      "intent": "Tarkastan uuden palvelun osoitteen energiaraportit.fi/jylhaos, jotta voin jatkaa sähkönkulutukseni seurantaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seuranta.jylhaos.fi",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa verkkopalvelun osoitetta sähköpostiohjelmaani, jotta voin vastaanottaa ilmoitukset uudesta osoitteesta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seuranta.jylhaos.fi",
+      "intent": "Luen lisää Jylhän Sähköosuuskunnan tarjoamista palveluista ja miten ne vaikuttavat omiin sähkönkulutusmahdollisuuksiini."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seuranta.jylhaos.fi",
+      "intent": "Kirjaudun sisään palveluun ja tarkastan sähkönkulutukseni tilastot, jotta voin suunnitella kulutukseni paremmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seuranta.jylhaos.fi",
+      "intent": "Muutan omia käyttäjätietojani, kuten osoitettani, jotta voin varmistaa, että saan ilmoitukset oikeaan osoitteeseen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seuranta.jylhaos.fi",
+      "intent": "Tarkastan laskujeni historiatietoja ja varmistan, että kaikki laskut on maksettu oikein, jotta voin hallita talouttani paremmin."
+    }
+  ]
+}

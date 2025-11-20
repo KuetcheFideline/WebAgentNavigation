@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://montfort.smartschool.be",
+      "intent": "Rechercher les informations sur les cours et les professeurs disponibles à Montfortcollege"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://montfort.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques et les liens utiles pour les étudiants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://montfort.smartschool.be",
+      "intent": "Vérifier les dates importantes et les événements à venir dans le calendrier scolaire"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://montfort.smartschool.be",
+      "intent": "Consulter mes notes et mes résultats scolaires en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://montfort.smartschool.be",
+      "intent": "Envoyer un message à mon professeur pour demander des clarifications sur un devoir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://montfort.smartschool.be",
+      "intent": "Télécharger les documents et les supports de cours pour la semaine à venir"
+    }
+  ]
+}

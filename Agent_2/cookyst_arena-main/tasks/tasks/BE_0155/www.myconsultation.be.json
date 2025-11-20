@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Rechercher un médecin généraliste disponible près de chez moi à Ixelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Consulter les informations sur les spécialistes de la santé mentale disponibles sur la plateforme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Lire les articles de blog sur les dernières tendances en matière de santé et de bien-être"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Prendre rendez-vous avec un dentiste pour une consultation de routine en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux et recevoir des rappels pour les consultations à venir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Évaluer et laisser un commentaire sur mon expérience avec un professionnel de la santé que j'ai consulté via la plateforme"
+    }
+  ]
+}

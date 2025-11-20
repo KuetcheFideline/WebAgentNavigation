@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.canesten.fi",
+      "intent": "Tutkin Canesten-sivuston saatavilla olevia tuotteita ja niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.canesten.fi",
+      "intent": "Etsin tietoa sivustolta iho-ongelmien hoidosta ja ehkäisystä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.canesten.fi",
+      "intent": "Selvittelen, miten voin hankkia Canesten-tuotteita verkkokaupasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.canesten.fi",
+      "intent": "Kirjaudun sisään ja tarkistan tilaushistoriani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.canesten.fi",
+      "intent": "Muutan tilaustani ja päivitän maksu- ja toimitustietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.canesten.fi",
+      "intent": "Lisään uuden osoitteen tilausteni toimituskohteeksi"
+    }
+  ]
+}

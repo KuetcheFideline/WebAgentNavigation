@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://subastas.boe.es",
+      "intent": "Buscar subastas de inmuebles en la provincia de Ourense"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://subastas.boe.es",
+      "intent": "Explorar la sección de subastas activas para encontrar oportunidades de inversión"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://subastas.boe.es",
+      "intent": "Leer las instrucciones para participar en una subasta electrónica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://subastas.boe.es",
+      "intent": "Iniciar sesión para acceder a mis subastas favoritas y realizar un seguimiento de mis ofertas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://subastas.boe.es",
+      "intent": "Realizar una oferta en una subasta de un inmueble en la provincia de Ourense"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://subastas.boe.es",
+      "intent": "Consultar el historial de mis participaciones en subastas y mis ofertas realizadas"
+    }
+  ]
+}

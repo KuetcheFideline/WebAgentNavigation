@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, miten voisin käyttää palvelua opettajana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Selvittelen, miten voisin vaihtaa salasanani Wilmassa ja miten monivaiheinen tunnistautuminen toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten voisin käyttää palvelua opiskelijoiden ja huoltajien kanssa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja syötän arvioinnit ja poissaolot oppilailta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Viestin opiskelijoiden ja huoltajien kanssa Wilman kautta ja päivitän heidän tietojaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Tarkastan oppilaiden poissaoloja ja viestin heidän kanssaan Wilman kautta"
+    }
+  ]
+}

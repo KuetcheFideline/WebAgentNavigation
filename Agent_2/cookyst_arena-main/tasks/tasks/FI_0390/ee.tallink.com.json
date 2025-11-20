@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ee.tallink.com",
+      "intent": "Olen etsimässä talvikauden etelämatkoja ja haluan tarkastella Tallinkin tarjontaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ee.tallink.com",
+      "intent": "Haluan vertailla eri laivareittien hintoja ja etsiä edullisinta vaihtoehtoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ee.tallink.com",
+      "intent": "Olen kiinnostunut kruiisimatkoista ja haluan lukea lisää niiden tarjoamista palveluista ja aktiviteeteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ee.tallink.com",
+      "intent": "Olen kirjautunut sisään ja haluan tarkastella oma varauksia ja matkustajatietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ee.tallink.com",
+      "intent": "Haluan muuttaa olemassa olevaa varaukseeni, esimerkiksi muuttaa matkustuspäivää tai hyttiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ee.tallink.com",
+      "intent": "Olen kiinnostunut Club One -jäsenyydestä ja haluan lukea lisää sen eduista ja hyödyistä"
+    }
+  ]
+}

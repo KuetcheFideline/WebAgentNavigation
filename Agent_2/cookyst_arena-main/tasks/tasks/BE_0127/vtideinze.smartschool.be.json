@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vtideinze.smartschool.be",
+      "intent": "Rechercher les cours disponibles pour les étudiants de l'institut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vtideinze.smartschool.be",
+      "intent": "Consulter les informations générales sur l'institut et ses programmes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vtideinze.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques mises à disposition des étudiants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vtideinze.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes absences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vtideinze.smartschool.be",
+      "intent": "Participer à un forum de discussion avec d'autres étudiants pour échanger des idées sur un projet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vtideinze.smartschool.be",
+      "intent": "Télécharger des documents et des ressources pédagogiques pour un cours spécifique"
+    }
+  ]
+}

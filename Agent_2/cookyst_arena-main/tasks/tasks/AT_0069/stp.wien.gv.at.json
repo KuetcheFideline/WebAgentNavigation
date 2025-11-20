@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://stp.wien.gv.at",
+      "intent": "Ich möchte mich über die Anmeldung informieren, um zu sehen, ob ich mich für den Zivildienst anmelden kann."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://stp.wien.gv.at",
+      "intent": "Ich will die verschiedenen Anmeldemöglichkeiten vergleichen, um zu entscheiden, ob ich mich mit meinem Benutzernamen oder mit ID Austria anmelden soll."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://stp.wien.gv.at",
+      "intent": "Ich möchte die Datenschutzbestimmungen lesen, um zu verstehen, wie meine Daten geschützt werden, wenn ich mich anmelden möchte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://stp.wien.gv.at",
+      "intent": "Ich will meine persönlichen Daten überprüfen, um sicherzustellen, dass alles korrekt ist, nachdem ich mich angemeldet habe."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://stp.wien.gv.at",
+      "intent": "Ich möchte meine Anmeldedaten ändern, um sicherzustellen, dass ich immer Zugriff auf mein Konto habe, falls ich mein Passwort vergessen sollte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://stp.wien.gv.at",
+      "intent": "Ich will meine Anmeldesitzung beenden, um die Sicherheit meines Kontos zu gewährleisten, wenn ich den Computer verlassen muss."
+    }
+  ]
+}

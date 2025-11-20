@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://biorex.fi",
+      "intent": "Haluaisin tarkastella elokuvateattereiden aikatauluja ja osta liput leffaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://biorex.fi",
+      "intent": "Tehdä haku elokuvaan ja tarkastella sen esitysajat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://biorex.fi",
+      "intent": "Selata elokuvateattereiden tarjoamia palveluita ja etsiä tietoa elokuvaohjelmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://biorex.fi",
+      "intent": "Kirjautua sisään ja tarkastella omia lippuostoksia ja elokuva-arvosteluita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://biorex.fi",
+      "intent": "Muokata omia käyttäjätietoja ja tilaustietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://biorex.fi",
+      "intent": "Tarkastella ja hallita kanta-asiakkuutta ja sen etuja"
+    }
+  ]
+}

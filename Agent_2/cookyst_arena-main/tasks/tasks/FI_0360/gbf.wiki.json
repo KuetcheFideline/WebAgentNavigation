@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gbf.wiki",
+      "intent": "Selvittää Granblue Fantasy -pelin hahmojen luokat ja taidot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gbf.wiki",
+      "intent": "Etsiä tietoa Granblue Fantasy -pelin tapahtumista ja kampanjoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gbf.wiki",
+      "intent": "Lukea Granblue Fantasy -pelin yleistä tietoa ja ohjeita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gbf.wiki",
+      "intent": "Tallentaa suosikkihahmot ja -taidot Granblue Fantasy -pelin wikiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gbf.wiki",
+      "intent": "Osallistua Granblue Fantasy -pelin yhteisökeskusteluihin ja foorumeille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gbf.wiki",
+      "intent": "Lisätä uusia tietoja Granblue Fantasy -pelin wikiin ja muokata olemassa olevia sivuja"
+    }
+  ]
+}

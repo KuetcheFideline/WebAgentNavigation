@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://application.kreditnu.dk",
+      "intent": "Jeg vil udfylde ansøgning for at starte min låneansøgning"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://application.kreditnu.dk",
+      "intent": "Jeg søger efter information om låneansøgningsprocessen og vil læse privatlivspolitikken"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://application.kreditnu.dk",
+      "intent": "Jeg vil kontakte support for at få svar på mine spørgsmål om låneansøgning"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://application.kreditnu.dk",
+      "intent": "Jeg vil logge ind på min profil for at se status på min låneansøgning"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://application.kreditnu.dk",
+      "intent": "Jeg vil underskrive min låneansøgning med MitID"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://application.kreditnu.dk",
+      "intent": "Jeg vil gennemgå og acceptere vilkårene for min låneansøgning"
+    }
+  ]
+}

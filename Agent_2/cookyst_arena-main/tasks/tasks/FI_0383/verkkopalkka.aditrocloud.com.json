@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan verkkopalkan etusivun ilmoitukset ja etsin tietoa istunnon päättymisestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Selvittelen, miten voin kirjautua palveluun uudelleen verkkopankin kautta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Etsin ohjeita verkkopalkan käyttöön liittyen, jotta voin hallita omaa palkkani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan palkkani ja laskuni, jotta voin varmistaa, että kaikki on kunnossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Muutan salasanani, jotta voin varmistaa turvallisen kirjautumisen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan työsopimukseni ja palkkani yksityiskohtia, jotta voin suunnitella talouteni"
+    }
+  ]
+}

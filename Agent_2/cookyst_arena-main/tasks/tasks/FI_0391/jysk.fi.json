@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jysk.fi",
+      "intent": "Haluaisin etsiä uusia kalusteita makuuhuoneeseeni, joten selailen JYSK:n verkkokauppaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jysk.fi",
+      "intent": "Olen kiinnostunut JYSK:n tarjouksista, joten tarkastan tarjouslehtien osion"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jysk.fi",
+      "intent": "Haluaisin tietää lisää JYSK:n myymälöistä ja aukioloajoista, joten etsin tietoa myymälöiden sijainnista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jysk.fi",
+      "intent": "Olen kirjautunut sisään ja haluaisin tarkastaa tilaustani, joten siirryn tilaushistoriaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jysk.fi",
+      "intent": "Haluaisin muuttaa osoitettani, joten siirryn asiakastietoihin ja päivitän osoitteeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jysk.fi",
+      "intent": "Olen kiinnostunut JYSK:n uutiskirjeestä, joten tilaan uutiskirjeen ja annan suostumukseni sähköpostimarkkinointiin"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg søger at finde information om bankens åbningstider i Aarhus C"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg vil læse om bankens tilbud til seniorer og pensionister"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg ønsker at sammenligne bankens forskellige kontotype og deres gebyrer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg skal overføre penge til min barnebarns konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdatere min adresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg søger at få en oversigt over mine seneste transaktioner og saldo"
+    }
+  ]
+}

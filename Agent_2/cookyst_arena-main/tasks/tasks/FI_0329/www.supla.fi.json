@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.supla.fi",
+      "intent": "Haluaisin kuunnella uusimmat podcastit Suplalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.supla.fi",
+      "intent": "Täytyy etsiä tietoa Suplan uusimmista radiolähetyksistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.supla.fi",
+      "intent": "Luen Suplan sivuilta uusimmat uutiset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.supla.fi",
+      "intent": "Haluan muokata Supla-profiiliaani, jotta voin seurata lempipodcastiani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.supla.fi",
+      "intent": "Täytyy kirjautua sisään, jotta voin ladata Suplan sovelluksen ja kuunnella podcasteja offline-tilassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.supla.fi",
+      "intent": "Lisään kommentin yhteen mielenkiintoiseen podcast-jaksoon, jotta voimme keskustella aiheesta"
+    }
+  ]
+}

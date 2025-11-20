@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Tutkin sivuston opiskelijoiden kursseja ja etsin tietoa opinto-ohjelmista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Selvittelen, miten voinkirjautua sisään ja mitä hyötyä siitä on minulle opintojeni kannalta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Etsin tietoa JAMK:n tarjoamista palveluista, kuten Peppi ja M365, ja miten niitä voidaan hyödyntää opiskelussa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat kurssini sekä opinto-ohjelmaani, jotta voin seurata etenemistäni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Osallistun keskusteluihin ja foorumeihin, joita on tarjolla kirjautuneille käyttäjille, jotta voinkeskustella opiskelijatovereideni kanssa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Tarkastan henkilökohtaiset tiedot ja asetukset, joita on saatavilla kirjautuneille käyttäjille, ja varmistan, että ne ovat ajan tasalla."
+    }
+  ]
+}

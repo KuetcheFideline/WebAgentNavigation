@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cm.be",
+      "intent": "Rechercher des informations sur les assurances maladie pour les seniors"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cm.be",
+      "intent": "Comparer les différents plans d'assurance hospitalisation proposés par CM"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cm.be",
+      "intent": "Découvrir les avantages et les promotions réservés aux membres CM"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cm.be",
+      "intent": "Consulter mes relevés de compte et mes déclarations de frais médicaux"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cm.be",
+      "intent": "Gérer mes assurances et modifier mes options de couverture"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cm.be",
+      "intent": "Demander un remboursement pour des frais médicaux engagés récemment"
+    }
+  ]
+}

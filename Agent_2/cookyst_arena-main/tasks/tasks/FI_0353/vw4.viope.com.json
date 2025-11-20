@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vw4.viope.com",
+      "intent": "Tutustun Viope-palvelun etusivuun ja etsin tietoa opettajille suunnattujen kurssien tarjoamisesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vw4.viope.com",
+      "intent": "Selvittelen, miten voin rekisteröityä Viope-palveluun ja mitä edellytyksiä rekisteröitymiselle on."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vw4.viope.com",
+      "intent": "Etsin tietoa Viope-palvelun käyttöehdoista ja tietosuojakäytännöstä, jotta voin ymmärtää, miten palvelu käsittelee henkilötietojani."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vw4.viope.com",
+      "intent": "Kirjaudun sisään Viope-palveluun ja tarkistan, mitä kursseja on tarjolla opettajille, ja valitsen kurssin, joka kiinnostaa minua."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vw4.viope.com",
+      "intent": "Käyn läpi Viope-palvelun omia opetusmateriaaleja ja etsin resursseja, joita voin hyödyntää omissa opetustöissäni."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vw4.viope.com",
+      "intent": "Tarkistan Viope-palvelun henkilökohtaiset asetukseni ja varmistan, että kaikki tietoni ovat ajan tasalla ja oikein."
+    }
+  ]
+}

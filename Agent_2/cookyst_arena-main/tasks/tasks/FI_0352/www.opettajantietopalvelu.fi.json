@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.opettajantietopalvelu.fi",
+      "intent": "Etsin uusimpia ammattikirjoja ja tarjouksia opettajan työhöni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.opettajantietopalvelu.fi",
+      "intent": "Haluan tietää lisää kauden kirjoista ja niiden valikoimasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.opettajantietopalvelu.fi",
+      "intent": "Olen kiinnostunut liittymään opettajien jäsenyyteen ja tutkimaan sen etuja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.opettajantietopalvelu.fi",
+      "intent": "Tilasin joitakin kirjoja ja haluan seurata tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.opettajantietopalvelu.fi",
+      "intent": "Haluan muuttaa olemassa olevaa tilaustani tai peruuttaa jonkin kirjan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.opettajantietopalvelu.fi",
+      "intent": "Olen kiinnostunut arvostelujen ja artikkeleiden lukemisesta ja kommentoimisesta"
+    }
+  ]
+}

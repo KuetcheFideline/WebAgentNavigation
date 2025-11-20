@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveysportti.fi",
+      "intent": "Hae tietoa terveydenhuollon ammattilaisten työkaluista Terveysportin etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveysportti.fi",
+      "intent": "Selaa Terveysportin sovelluksia ja niiden käyttöä terveydenhuollossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveysportti.fi",
+      "intent": "Lue Terveysportin käyttöehdot ja rekisteriseloste, jotta ymmärrän sivuston tietosuojakäytännöt"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveysportti.fi",
+      "intent": "Kirjaudu sisään ja selaa omia asiakirjoja ja terveydenhuollon tietoja Terveysportin käyttäjätilillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveysportti.fi",
+      "intent": "Tee haku lääketieteellisistä tiedoista ja artikkeleista Terveysportin sisällöstä kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveysportti.fi",
+      "intent": "Anna palautetta Terveysportin sisällöstä ja käytettävyydestä kirjautuneena käyttäjänä, jotta voimme parantaa palvelua"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pehkot.haukotus.net",
+      "intent": "Etsin tietoa pitkäkarvaisista collien pennuista Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pehkot.haukotus.net",
+      "intent": "Haluan tietää lisää pentueista, jotka ovat jo syntyneet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pehkot.haukotus.net",
+      "intent": "Olen kiinnostunut näkemään kaikki suunnitellut pentueet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pehkot.haukotus.net",
+      "intent": "Lisään uuden pentueen tietokantaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pehkot.haukotus.net",
+      "intent": "Muokkaan jo olemassa olevaa pentuetietoa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pehkot.haukotus.net",
+      "intent": "Poistan vanhan pentuetiedon, joka ei ole enää ajantasalla"
+    }
+  ]
+}

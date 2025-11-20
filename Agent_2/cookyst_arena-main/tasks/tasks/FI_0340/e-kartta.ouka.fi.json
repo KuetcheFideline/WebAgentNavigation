@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://e-kartta.ouka.fi",
+      "intent": "Hae Oulun kaupungin opaskartalta lähin kirjasto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://e-kartta.ouka.fi",
+      "intent": "Tulosta Oulun kaupungin keskustan kartta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://e-kartta.ouka.fi",
+      "intent": "Etsi Oulun kaupungin karttapalvelusta tietoa lähimmän bussipysäkin sijainnista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://e-kartta.ouka.fi",
+      "intent": "Lisää oma kohde Oulun kaupungin karttapalveluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://e-kartta.ouka.fi",
+      "intent": "Tee tonttihakemus Oulun kaupungin karttapalvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://e-kartta.ouka.fi",
+      "intent": "Poista omat kohteet Oulun kaupungin karttapalvelusta"
+    }
+  ]
+}

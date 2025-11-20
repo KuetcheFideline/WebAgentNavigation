@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kipa.ratsastus.fi",
+      "intent": "Tutkin sivuston ratsastusaiheisia sisältöjä ja etsin tietoa hevosten hoitamisesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kipa.ratsastus.fi",
+      "intent": "Selvittelen, miten voin osallistua ratsastustapahtumiin ja kerään tietoa mahdollisista kilpailuista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kipa.ratsastus.fi",
+      "intent": "Etsin sivustolta tietoa ratsastusvälineistä ja -varusteista sekä vertailen eri tuotteiden ominaisuuksia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kipa.ratsastus.fi",
+      "intent": "Kirjaudun sisään ja tarkistan omat ratsastuskurssien ilmoittautumiset ja maksut."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kipa.ratsastus.fi",
+      "intent": "Tarkastan ja päivitän omat henkilökohtaiset tiedot sekä varmistelen, että olen ilmoittautunut oikeisiin ratsastuskursseihin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kipa.ratsastus.fi",
+      "intent": "Osallistun sivuston keskustelupalstalle ja kysyn neuvoa muilta ratsastajilta hevosten koulutuksesta."
+    }
+  ]
+}

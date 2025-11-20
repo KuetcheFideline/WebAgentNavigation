@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://etsi-aukioloaika.fi",
+      "intent": "Etsin lähimmän S-marketin aukioloaikaa Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://etsi-aukioloaika.fi",
+      "intent": "Haluan tarkastella luetteloa suosituimmista hotelleista Helsingissä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://etsi-aukioloaika.fi",
+      "intent": "Tarkastelen aukioloaikojen hakuvaihtoehtoja eri liikkeille ja palveluille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://etsi-aukioloaika.fi",
+      "intent": "Tallennan suosikkiliikkeeni ja niiden aukioloajat omaan profiiliini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://etsi-aukioloaika.fi",
+      "intent": "Arvostelisin käymäni ravintolan aukioloaikoja ja palvelua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://etsi-aukioloaika.fi",
+      "intent": "Lisäisin uuden suosikkiliikkeen ja sen aukioloaikojen muistutuksen kalenteriini"
+    }
+  ]
+}

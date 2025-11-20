@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sundhedsvejen.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan følge mit barns sundhedsudvikling på sundhedsvejen.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sundhedsvejen.dk",
+      "intent": "Jeg vil læse mere om, hvordan sundhedsvejen.dk kan hjælpe mig med at kommunikere med min sundhedsplejerske"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sundhedsvejen.dk",
+      "intent": "Jeg søger efter en vejledning om, hvordan jeg kan logge ind på sundhedsvejen.dk med MitID"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sundhedsvejen.dk",
+      "intent": "Jeg vil se mine barns sundhedsnotater og registreringer på sundhedsvejen.dk"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sundhedsvejen.dk",
+      "intent": "Jeg ønsker at sende en besked til min sundhedsplejerske gennem sundhedsvejen.dk"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sundhedsvejen.dk",
+      "intent": "Jeg vil følge mit barns udvikling i sundhedsplejerskens notater og målinger på sundhedsvejen.dk"
+    }
+  ]
+}

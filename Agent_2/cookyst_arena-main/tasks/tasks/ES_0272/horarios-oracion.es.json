@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://horarios-oracion.es",
+      "intent": "Buscar el horario de rezo para la ciudad de València"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://horarios-oracion.es",
+      "intent": "Comparar los horarios de rezo para las ciudades de Madrid y Barcelona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://horarios-oracion.es",
+      "intent": "Leer sobre los diferentes métodos para calcular el horario salat en España"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://horarios-oracion.es",
+      "intent": "Guardar el horario de rezo para la ciudad de València en mi perfil de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://horarios-oracion.es",
+      "intent": "Configurar las notificaciones para recibir recordatorios de los horarios de rezo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://horarios-oracion.es",
+      "intent": "Compartir el horario de rezo con amigos y familiares a través de las redes sociales"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.anicura.es",
+      "intent": "Buscar información sobre clínicas veterinarias cerca de mi ubicación en Cantabria"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.anicura.es",
+      "intent": "Explorar los tratamientos y servicios que ofrece AniCura para perros y gatos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.anicura.es",
+      "intent": "Leer consejos de salud para mascotas y prevenir enfermedades comunes en perros"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.anicura.es",
+      "intent": "Solicitar una cita en una clínica veterinaria de AniCura para mi mascota"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.anicura.es",
+      "intent": "Acceder a mis historiales clínicos y seguimiento de tratamientos para mi mascota"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.anicura.es",
+      "intent": "Suscribirme a noticias y actualizaciones sobre servicios y tratamientos de AniCura"
+    }
+  ]
+}

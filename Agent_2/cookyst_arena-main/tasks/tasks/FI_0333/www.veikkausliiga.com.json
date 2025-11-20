@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.veikkausliiga.com",
+      "intent": "Tutkin Veikkausliigan sivuilta uusimmat uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.veikkausliiga.com",
+      "intent": "Etsin tietoa KuPS:n joukkueesta ja heidän otteluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.veikkausliiga.com",
+      "intent": "Selvitan sarjataulukkoa ja joukkueiden sijoituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.veikkausliiga.com",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.veikkausliiga.com",
+      "intent": "Tarkastan omaa profiiliani ja päivitän tietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.veikkausliiga.com",
+      "intent": "Osallistun keskusteluun joukkueiden ja pelaajien suorituksista"
+    }
+  ]
+}

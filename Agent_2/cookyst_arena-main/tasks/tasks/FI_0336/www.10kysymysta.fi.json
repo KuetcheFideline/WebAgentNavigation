@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.10kysymysta.fi",
+      "intent": "Selvittää mitä uusia kysymyksiä on tullut päivän ajankohtaisiin aiheisiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.10kysymysta.fi",
+      "intent": "Lukea mielenkiintoisia kysymyksiä ja vastauksia viimeisimmistä uutisista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.10kysymysta.fi",
+      "intent": "Etsiä tietoa siitä, miten voisin osallistua itse kysymysten tekemiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.10kysymysta.fi",
+      "intent": "Tallentaa suosikkikysymykseni ja seurata niiden päivittäistä päivitystä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.10kysymysta.fi",
+      "intent": "Osallistua keskusteluun muiden käyttäjien kanssa aiheista, joista olen kiinnostunut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.10kysymysta.fi",
+      "intent": "Lähettää palautetta sivuston kehittämisestä ja ehdottaa uusia ominaisuuksia"
+    }
+  ]
+}

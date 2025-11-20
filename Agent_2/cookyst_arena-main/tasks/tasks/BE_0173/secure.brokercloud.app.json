@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://secure.brokercloud.app",
+      "intent": "Je veux consulter les informations générales sur le site BrokerCloud pour comprendre ce qu'il propose."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://secure.brokercloud.app",
+      "intent": "Je souhaite rechercher des informations sur la façon de gérer mes finances en ligne de manière sécurisée avec BrokerCloud."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://secure.brokercloud.app",
+      "intent": "J'ai besoin de savoir comment contacter le support technique de BrokerCloud si j'ai des questions ou des problèmes."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://secure.brokercloud.app",
+      "intent": "Je veux consulter mon tableau de bord pour voir mes investissements et mes transactions récentes sur BrokerCloud."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://secure.brokercloud.app",
+      "intent": "J'ai besoin de mettre à jour mes informations de compte, notamment mon adresse e-mail et mon mot de passe, pour assurer ma sécurité sur BrokerCloud."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://secure.brokercloud.app",
+      "intent": "Je souhaite effectuer un virement en ligne depuis mon compte BrokerCloud vers un autre compte pour payer certaines factures."
+    }
+  ]
+}

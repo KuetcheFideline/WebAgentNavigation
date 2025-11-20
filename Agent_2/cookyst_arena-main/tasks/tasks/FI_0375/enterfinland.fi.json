@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Hae ohjeita ja tietoa oleskelulupahakemuksen täyttämiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Vertaile eri oleskelulupatyyppejä ja valitse sopivin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Lue lisää Suomen kansalaisuuden hakemisesta ja sen edellytyksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Täytä oleskelulupahakemus ja liitä tarvittavat liitteet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Maksa käsittelymaksu ja lähetä hakemus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://enterfinland.fi",
+      "intent": "Varaa aika palvelupisteeseen henkilöllisyyden todistamista varten"
+    }
+  ]
+}

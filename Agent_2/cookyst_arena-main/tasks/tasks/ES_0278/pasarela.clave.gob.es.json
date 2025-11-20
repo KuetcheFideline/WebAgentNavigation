@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Buscar información sobre los servicios del Ministerio de Asuntos Económicos y Transformación Digital"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Explorar las secciones de noticias y actualidad del sitio web para estar al tanto de las últimas novedades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Intentar acceder a la sección de contacto para obtener información sobre cómo comunicarme con el Ministerio"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Acceder a mi cuenta personal para consultar los servicios y trámites que tengo disponibles como funcionario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Realizar un trámite administrativo en línea, como solicitar un certificado o realizar una consulta sobre mi situación laboral"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Consultar y gestionar mis datos personales y profesionales en el sistema de gestión de personal del Ministerio"
+    }
+  ]
+}

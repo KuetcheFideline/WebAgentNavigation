@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.veistokone.fi",
+      "intent": "Hae sivustolta tietoa puuntyöstökoneista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.veistokone.fi",
+      "intent": "Vertaile eri mallien höyläkoneita ja niiden ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.veistokone.fi",
+      "intent": "Selvitä miten rahoitusleasing kampanja toimii ja mitä edut se tarjoaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.veistokone.fi",
+      "intent": "Tilaa uusi porakone verkkokaupasta ja määritä toimitusosoite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.veistokone.fi",
+      "intent": "Lisää tuote toivelistaan ja tarkista toivelistan sisältö"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.veistokone.fi",
+      "intent": "Tee tilaus ja valitse maksutapa, sekä vahvista tilaus"
+    }
+  ]
+}

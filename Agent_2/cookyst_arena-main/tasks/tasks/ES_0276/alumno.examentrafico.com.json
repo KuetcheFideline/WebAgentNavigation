@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://alumno.examentrafico.com",
+      "intent": "Explorar la página de inicio para entender las funcionalidades disponibles como alumno."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://alumno.examentrafico.com",
+      "intent": "Buscar información sobre cómo mejorar la cuenta a PREMIUM para acceder a más recursos y funcionalidades."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://alumno.examentrafico.com",
+      "intent": "Leer las instrucciones para finalizar el test pendiente y entender los pasos necesarios para completarlo."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://alumno.examentrafico.com",
+      "intent": "Iniciar sesión para acceder a la sesión actual y revisar el tiempo total dedicado a los tests."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://alumno.examentrafico.com",
+      "intent": "Ir al test pendiente de finalizar y completarlo para poder continuar con otras actividades en la plataforma."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://alumno.examentrafico.com",
+      "intent": "Revisar el histórico de resultados en el test para analizar el progreso y identificar áreas de mejora."
+    }
+  ]
+}

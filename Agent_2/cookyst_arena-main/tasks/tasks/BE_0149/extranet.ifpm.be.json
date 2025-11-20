@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://extranet.ifpm.be",
+      "intent": "Je veux consulter les informations générales sur l'IFPM avant de me connecter pour comprendre les services qu'ils offrent."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://extranet.ifpm.be",
+      "intent": "Je souhaite cliquer sur le lien 'Mot de passe oublié' pour voir comment récupérer mon mot de passe au cas où je l'aurais oublié."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://extranet.ifpm.be",
+      "intent": "Je veux vérifier la version du système de gestion de l'IFPM pour savoir si des mises à jour récentes ont été effectuées."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://extranet.ifpm.be",
+      "intent": "Une fois connecté, je veux accéder à mon espace personnel pour consulter mes informations de compte et les mettre à jour si nécessaire."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://extranet.ifpm.be",
+      "intent": "Je souhaite utiliser la fonction de recherche pour trouver des documents ou des ressources spécifiques liés à mon travail ou à mes intérêts sur la plateforme de l'IFPM."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://extranet.ifpm.be",
+      "intent": "Après m'être connecté, je veux participer à des discussions en ligne ou poster des commentaires sur des sujets qui m'intéressent dans les forums de l'IFPM."
+    }
+  ]
+}

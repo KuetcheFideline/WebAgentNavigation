@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Haku kilpailuista, jotka ovat kalastusaiheisia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Selaus tulevista kilpailuista, joissa on mukana moottoripyöräily"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Tietoa palvelusta ja sen tarjoamista ominaisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Ilmoittautuminen tulevaan kilpailuun, joka on Helsinki:ssä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Tarkastelu omista kilpailuista ja tuloksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Anna palautetta palvelun toiminnasta ja ehdotus uusista ominaisuuksista"
+    }
+  ]
+}

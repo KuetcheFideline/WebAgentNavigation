@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lookfantastic.nl",
+      "intent": "Rechercher des produits de soins pour le visage adaptés à ma peau sensible"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lookfantastic.nl",
+      "intent": "Comparer les prix des produits de la marque Kérastase pour les cheveux"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lookfantastic.nl",
+      "intent": "Découvrir les nouveautés en matière de parfum pour hommes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lookfantastic.nl",
+      "intent": "Consulter mes commandes passées pour retrouver un produit que j'ai déjà acheté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lookfantastic.nl",
+      "intent": "Gérer mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lookfantastic.nl",
+      "intent": "Utiliser mes points de fidélité pour obtenir une réduction sur ma prochaine commande"
+    }
+  ]
+}

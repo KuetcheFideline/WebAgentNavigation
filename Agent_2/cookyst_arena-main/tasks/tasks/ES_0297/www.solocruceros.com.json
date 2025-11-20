@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.solocruceros.com",
+      "intent": "Buscar cruceros por el Mediterráneo para unas vacaciones de verano"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.solocruceros.com",
+      "intent": "Comparar precios de cruceros de lujo en el Caribe para un viaje de novios"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.solocruceros.com",
+      "intent": "Explorar los destinos de cruceros en Europa para un viaje en familia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.solocruceros.com",
+      "intent": "Reservar un crucero por el Mediterráneo con salida desde Barcelona para mis próximas vacaciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.solocruceros.com",
+      "intent": "Consultar el estado de mi reserva de crucero por el Caribe y realizar un pago pendiente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.solocruceros.com",
+      "intent": "Cancelar mi reserva de crucero por el Mediterráneo debido a un cambio de planes"
+    }
+  ]
+}

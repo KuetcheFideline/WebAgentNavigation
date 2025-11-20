@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Rechercher des informations sur les dernières actualités politiques en Italie"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Consulter les prévisions météo pour la ville de Rome"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Lire les derniers articles de la rubrique 'Cultura'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Gérer mes abonnements aux newsletters de la Repubblica"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Accéder à la bibliothèque de la Repubblica pour télécharger des livres"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Participer à un sondage en ligne sur le site de la Repubblica"
+    }
+  ]
+}

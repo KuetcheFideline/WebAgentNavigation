@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nl.medecinbelgique.com",
+      "intent": "Rechercher un médecin spécialisé en dermatologie à Charleroi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nl.medecinbelgique.com",
+      "intent": "Consulter les profils des médecins les plus consultés en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nl.medecinbelgique.com",
+      "intent": "Utiliser le formulaire de recherche avancée pour trouver un médecin par spécialité et par ville"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nl.medecinbelgique.com",
+      "intent": "Modifier mes informations de compte pour ajouter mes coordonnées personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nl.medecinbelgique.com",
+      "intent": "Laisser un commentaire sur le profil d'un médecin que j'ai consulté"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nl.medecinbelgique.com",
+      "intent": "Gérer mes abonnements aux newsletters pour recevoir des mises à jour sur les médecins et les spécialités"
+    }
+  ]
+}

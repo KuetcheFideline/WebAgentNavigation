@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.memora.es",
+      "intent": "Buscar información sobre los servicios funerarios que ofrece Mémora en Teruel"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.memora.es",
+      "intent": "Encuentra el tanatorio más cercano a mi ubicación en Teruel"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.memora.es",
+      "intent": "Solicitar un presupuesto para un servicio funerario en Teruel"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.memora.es",
+      "intent": "Acceder a mi cuenta para gestionar mis servicios funerarios contratados con Mémora"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.memora.es",
+      "intent": "Configurar mis preferencias para la planificación de la despedida de un ser querido"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.memora.es",
+      "intent": "Descargar la documentación relacionada con los servicios funerarios que he contratado con Mémora"
+    }
+  ]
+}

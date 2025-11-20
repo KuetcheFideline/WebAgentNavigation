@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.altinget.dk",
+      "intent": "Læs om de seneste nyheder om dansk politik og kommunalvalg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.altinget.dk",
+      "intent": "Søg efter jobmuligheder i kategorien 'Job' på Altinget"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.altinget.dk",
+      "intent": "Læs artikler og analyser om emner som kommunal- og regionsvalg"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.altinget.dk",
+      "intent": "Tilføj en artikel til mine favoritter efter at have logget ind"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.altinget.dk",
+      "intent": "Del en interessant artikel om dansk politik på min profil efter login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.altinget.dk",
+      "intent": "Se mine abonnementsdetaljer og tilbud efter at have logget ind på min konto"
+    }
+  ]
+}

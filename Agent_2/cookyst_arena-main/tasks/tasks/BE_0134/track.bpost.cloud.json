@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://track.bpost.cloud",
+      "intent": "Je veux suivre mon envoi en saisissant le code-barres pour obtenir des informations détaillées sur son statut."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://track.bpost.cloud",
+      "intent": "Je souhaite consulter les astuces pour réduire les émissions de CO2 lors de mes envois pour minimiser mon impact environnemental."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://track.bpost.cloud",
+      "intent": "Je veux télécharger l'application mobile My bpost pour suivre mes colis et gérer mes préférences de livraison en déplacement."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://track.bpost.cloud",
+      "intent": "Je veux modifier mes préférences de livraison pour recevoir des notifications personnalisées sur l'état de mes envois en temps réel."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://track.bpost.cloud",
+      "intent": "Je souhaite activer les notifications push pour être informé immédiatement lorsque mon colis est livré ou si des mises à jour sont disponibles sur son statut."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://track.bpost.cloud",
+      "intent": "Je veux consulter l'historique de mes envois pour analyser mes habitudes d'expédition et planifier mes futures commandes en conséquence."
+    }
+  ]
+}

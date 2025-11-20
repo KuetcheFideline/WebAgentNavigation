@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.waseuitvaartplanner.be",
+      "intent": "Rechercher des informations sur les coûts d'une cérémonie d'adieu pour un proche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.waseuitvaartplanner.be",
+      "intent": "Découvrir les différents services offerts par Wase Uitvaartplanner pour les personnes âgées"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.waseuitvaartplanner.be",
+      "intent": "Explorer les différentes options de crémation et d'enterrement proposées par l'entreprise"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.waseuitvaartplanner.be",
+      "intent": "Consulter les détails de la cérémonie d'adieu d'un proche pour lequel j'ai déjà créé un compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.waseuitvaartplanner.be",
+      "intent": "Gérer les préférences de cérémonie d'adieu pour moi-même en tant que personne âgée"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.waseuitvaartplanner.be",
+      "intent": "Laisser un message de condoléances pour une famille en deuil après avoir consulté les informations sur la cérémonie"
+    }
+  ]
+}

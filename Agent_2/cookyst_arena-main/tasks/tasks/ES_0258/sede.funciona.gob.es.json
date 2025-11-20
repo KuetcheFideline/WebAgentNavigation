@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.funciona.gob.es",
+      "intent": "Explorar la sección de inicio para conocer los servicios electrónicos disponibles para empleados públicos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.funciona.gob.es",
+      "intent": "Buscar información sobre los procesos de movilidad profesional en el portal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.funciona.gob.es",
+      "intent": "Consultar la sección de avisos y noticias para estar al tanto de las últimas novedades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.funciona.gob.es",
+      "intent": "Acceder a mi expediente personal para consultar y actualizar mis datos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.funciona.gob.es",
+      "intent": "Presentar una nueva declaración de altos cargos y consultar las declaraciones previas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.funciona.gob.es",
+      "intent": "Consultar mis notificaciones y comunicaciones pendientes en el portal"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ventes-publiques.be",
+      "intent": "Rechercher des outils de bricolage pour mon projet de rénovation de maison"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ventes-publiques.be",
+      "intent": "Explorer les enchères en cours pour les meubles et le matériel de construction"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ventes-publiques.be",
+      "intent": "Lire les conditions générales de vente et les informations sur la facturation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ventes-publiques.be",
+      "intent": "Placer une enchère automatique sur un lot de briquettes de bois pour mon chauffage"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ventes-publiques.be",
+      "intent": "Télécharger la facture de mes achats précédents pour mes archives personnelles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ventes-publiques.be",
+      "intent": "Configurer mes préférences de notification pour les enchères à venir dans la catégorie 'Outils'"
+    }
+  ]
+}

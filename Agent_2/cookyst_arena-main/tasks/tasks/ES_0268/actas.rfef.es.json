@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://actas.rfef.es",
+      "intent": "Buscar información sobre la intranet de la RFEF para entender mejor las funcionalidades y servicios que ofrece"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://actas.rfef.es",
+      "intent": "Verificar los navegadores soportados por el sitio web para asegurarme de que mi navegador es compatible"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://actas.rfef.es",
+      "intent": "Leer las notas importantes y recordatorios publicados en la página de inicio para estar al tanto de las novedades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://actas.rfef.es",
+      "intent": "Acceder a mi cuenta para consultar y gestionar mis actas y documentos personales de manera segura"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://actas.rfef.es",
+      "intent": "Configurar mis preferencias de usuario y notificaciones para personalizar mi experiencia en el sitio web"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://actas.rfef.es",
+      "intent": "Recuperar mi clave de acceso en caso de que la haya olvidado, utilizando la función de recuperación de clave"
+    }
+  ]
+}

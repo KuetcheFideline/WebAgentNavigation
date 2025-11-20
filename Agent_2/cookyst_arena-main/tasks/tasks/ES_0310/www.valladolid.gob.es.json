@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.valladolid.gob.es",
+      "intent": "Buscar información sobre ayudas y subvenciones para personas mayores en la ciudad de Valladolid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.valladolid.gob.es",
+      "intent": "Consultar los trámites y servicios disponibles en la sede electrónica del Ayuntamiento de Valladolid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.valladolid.gob.es",
+      "intent": "Acceder al catálogo de trámites para obtener información sobre los procedimientos administrativos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.valladolid.gob.es",
+      "intent": "Solicitar un certificado de empadronamiento automático a través de la carpeta ciudadana"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.valladolid.gob.es",
+      "intent": "Realizar una instancia general para solicitar una ayuda o subvención en la ciudad de Valladolid"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.valladolid.gob.es",
+      "intent": "Verificar el estado de un trámite o solicitud en la carpeta ciudadana del Ayuntamiento de Valladolid"
+    }
+  ]
+}

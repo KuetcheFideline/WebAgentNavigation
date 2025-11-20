@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://identificacion.seg-social.es",
+      "intent": "Buscar información sobre los trámites necesarios para obtener una pensión como autónomo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://identificacion.seg-social.es",
+      "intent": "Consultar las estadísticas y estudios sobre la seguridad social en España para entender mejor mis derechos y obligaciones"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://identificacion.seg-social.es",
+      "intent": "Explorar la sección de noticias más recientes para estar al tanto de las novedades en la seguridad social"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://identificacion.seg-social.es",
+      "intent": "Acceder a mi cuenta para verificar el estado de mis cotizaciones y asegurarme de que todo esté en orden"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://identificacion.seg-social.es",
+      "intent": "Realizar un simulacro de solicitud de pensión para conocer cuánto podré recibir cuando me jubile"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://identificacion.seg-social.es",
+      "intent": "Descargar y imprimir mis documentos de cotización para tener una copia física para mis registros"
+    }
+  ]
+}

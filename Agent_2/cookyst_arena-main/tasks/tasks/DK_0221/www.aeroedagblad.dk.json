@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aeroedagblad.dk",
+      "intent": "Læs om de seneste nyheder om Ærøs ældrepleje"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aeroedagblad.dk",
+      "intent": "Søg efter artikler om boligbyg på Ærø"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aeroedagblad.dk",
+      "intent": "Tilmeld nyhedsbrev for at modtage opdateringer om Ærø"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aeroedagblad.dk",
+      "intent": "Del en artikel om Ærøs hjemmepleje på min Facebook-profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aeroedagblad.dk",
+      "intent": "Kommenter på en artikel om Ærøs færgeforbindelser"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aeroedagblad.dk",
+      "intent": "Gem en artikel om Ærøs erhvervsliv til min personlige arkiv"
+    }
+  ]
+}

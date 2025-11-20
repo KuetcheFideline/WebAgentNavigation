@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://energiaraportit.fi",
+      "intent": "Tarkastan energiaraporttien sivuston etusivun, jotta voin löytää tietoa energiayhtiöistä ja niiden palveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://energiaraportit.fi",
+      "intent": "Hae sivustolta tietoa siitä, miten voin vertailla eri energian tarjoajien hintoja ja palveluita, jotta voin tehdä paremman valinnan omiin tarpeisiini."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://energiaraportit.fi",
+      "intent": "Selvittelen, onko sivustolla mahdollista ladata tai tulostaa energiaraportteja, jotta voin käyttää niitä omassa taloudeni suunnittelussa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://energiaraportit.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat energiankulutusraporttini, jotta voin seurata kulutustani ja etsiä keinoja vähentää kulutusta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://energiaraportit.fi",
+      "intent": "Muokkaan profiiliini liittyviä tietoja, kuten osoitetta ja yhteystietoja, jotta voin varmistaa, että saan relevantteja ilmoituksia ja palveluita."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://energiaraportit.fi",
+      "intent": "Tutkin sivuston tarjoamia työkaluja ja resursseja, joilla voin analysoida ja optimoida energiankäyttöäni, jotta voin tehdä kestävämpiä valintoja."
+    }
+  ]
+}

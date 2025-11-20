@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.delhaize.be",
+      "intent": "Rechercher des produits de quincaillerie pour mon magasin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.delhaize.be",
+      "intent": "Comparer les prix des produits alimentaires pour mes besoins personnels"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.delhaize.be",
+      "intent": "Explorer les promotions du mois pour faire des économies"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.delhaize.be",
+      "intent": "Consulter mes commandes précédentes pour réapprovisionner mon magasin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.delhaize.be",
+      "intent": "Gérer mes listes de courses pour planifier mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.delhaize.be",
+      "intent": "Utiliser mon compte pour bénéficier des avantages du programme de fidélité"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sataako.fi",
+      "intent": "Tarkistaa säätilanne mökille menoa varten"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sataako.fi",
+      "intent": "Etsiä tietoa kalastuspaikoista ja sääolosuhteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sataako.fi",
+      "intent": "Katsoa sadetutkakuvaa ja salamatietoja suunniteltaessa ulkoilmaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sataako.fi",
+      "intent": "Tallentaa omat suosikkisääsivut ja kalastuspaikat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sataako.fi",
+      "intent": "Lähettää säätilanneilmoituksia ystäville ja perheenjäsenille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sataako.fi",
+      "intent": "Osallistua keskusteluun säätilanteista ja kalastuksesta foorumilla"
+    }
+  ]
+}

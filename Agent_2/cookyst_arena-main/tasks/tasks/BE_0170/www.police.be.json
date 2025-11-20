@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.police.be",
+      "intent": "Rechercher les coordonnées d'urgence pour contacter la police en cas de besoin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.police.be",
+      "intent": "Consulter les informations sur les services de police disponibles dans la région de Knokke"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.police.be",
+      "intent": "Lire les conseils de sécurité pour les seniors sur le site de la police"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.police.be",
+      "intent": "Déclarer un objet perdu ou volé en ligne via mon compte personnel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.police.be",
+      "intent": "Consulter mon historique de déclarations en ligne pour suivre l'avancement de mes affaires"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.police.be",
+      "intent": "Mettre à jour mes informations de contact dans mon compte pour être sûr de recevoir les notifications importantes de la police"
+    }
+  ]
+}

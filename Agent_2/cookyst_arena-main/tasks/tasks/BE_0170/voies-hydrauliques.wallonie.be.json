@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://voies-hydrauliques.wallonie.be",
+      "intent": "Rechercher les règles de navigation pour les bateaux de plaisance sur le réseau wallon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://voies-hydrauliques.wallonie.be",
+      "intent": "Consulter les informations pratiques pour la navigation sur le réseau hydraulique wallon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://voies-hydrauliques.wallonie.be",
+      "intent": "Explorer les sites d'intérêt pour la navigation en Wallonie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://voies-hydrauliques.wallonie.be",
+      "intent": "Télécharger les statistiques de navigation pour analyser les tendances de la navigation en Wallonie"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://voies-hydrauliques.wallonie.be",
+      "intent": "Consulter les informations sur les travaux et entretiens des voies d'eau pour planifier mes déplacements"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://voies-hydrauliques.wallonie.be",
+      "intent": "Accéder à la rubrique 'Gestion du domaine' pour obtenir des informations sur la gestion des voies d'eau"
+    }
+  ]
+}

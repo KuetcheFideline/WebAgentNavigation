@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Lue lisää diagnoosien ylikirjaamisesta ja sen vaikutuksista sote-rahoitukseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Etsi tietoa lapsitoiveiden epäröinnistä ja vanhempien luottamuksesta tulevaisuuteen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Selaa usein kysyttyjä kysymyksiä sote-rahoituksesta ja diagnoosikirjauksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Tallenna tiedote 'Diagnoositietojen ylikirjaamisesta ei ole löytynyt toistaiseksi viitteitä' omaan kirjastoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Lähetä kysely tutkimuksesta 'Luottamus tulevaisuuteen lisää perheiden lapsitoiveita' tuttavalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Merkitse alue 'Tiedote: Maailmalla yksi kuudesta bakteeri-infektiosta on vastustuskykyinen antibiooteille' suosikkeihin"
+    }
+  ]
+}

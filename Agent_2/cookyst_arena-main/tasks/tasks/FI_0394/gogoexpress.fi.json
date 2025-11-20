@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gogoexpress.fi",
+      "intent": "Tutkin GOGO Express -kuntosalien hintoja ja tarjouksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gogoexpress.fi",
+      "intent": "Etsin tietoa GOGO Express -kuntosalien sijainnista lähellä Pikkukaupunkia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gogoexpress.fi",
+      "intent": "Luen GOGO Express -kuntosalien asiakasarvosteluita ja kokemuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gogoexpress.fi",
+      "intent": "Tehdän varauksen GOGO Express -kuntosalille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gogoexpress.fi",
+      "intent": "Muutan GOGO Express -kuntosalien jäsenyydeni tietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gogoexpress.fi",
+      "intent": "Tarkastan GOGO Express -kuntosalien maksuhistoriani ja laskut"
+    }
+  ]
+}

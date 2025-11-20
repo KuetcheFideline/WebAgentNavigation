@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://chat.suomi24.fi",
+      "intent": "Etsin keskustelua terveydenhuollosta, jotta voin jakaa kokemuksiani ja oppia muilta ammattilaisilta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://chat.suomi24.fi",
+      "intent": "Haluan lukea keskustelupalstaa, jotta tiedän mitä ihmiset ajattelevat terveydenhuollosta ja miten he kokevat palvelujen laadun."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://chat.suomi24.fi",
+      "intent": "Tutkin Suomi24:n ryhmiä, kuten Ajanviete ja Ikäryhmät, jotta löytäisin samanhenkisiä ihmisiä, joilla on samanlaisia kiinnostuksia kuin minulla."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://chat.suomi24.fi",
+      "intent": "Kirjaudun sisään ja liityn keskusteluryhmään, joka on omistettu terveydenhuollon ammattilaisille, jotta voin osallistua keskusteluun ja jakaa omaa asiantuntijuuttani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://chat.suomi24.fi",
+      "intent": "Lähetän ystävälleni viestin, jotta hän liittyy samaan keskusteluryhmään ja voimme keskustella yhdessä aiheista, jotka ovat meille molemmille tärkeitä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://chat.suomi24.fi",
+      "intent": "Muokkaan profiiliaani, jotta voin lisätä tietoa itsestäni ja näyttää, millainen olen, jotta muut käyttäjät voivat löytää minut ja aloittaa keskustelun."
+    }
+  ]
+}

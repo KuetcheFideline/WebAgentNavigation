@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg skal finde information om, hvordan jeg kan logge ind på mit KVUC"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil læse om, hvordan jeg kan bruge min KVUC-mail som brugernavn til login"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg søger efter en vejledning om, hvordan jeg kan hente mobilappen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil se mine kurser og mine studieplaner, efter at jeg har logget ind"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg skal ændre min adgangskode, fordi jeg har glemt den"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil downloade mine studiematerialer og noter fra mine kurser"
+    }
+  ]
+}

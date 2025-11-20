@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.proclinic.es",
+      "intent": "Buscar productos de desinfección para la clínica dental"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.proclinic.es",
+      "intent": "Comparar precios de cementos de resina dual para restauraciones dentales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.proclinic.es",
+      "intent": "Explorar la sección de instrumental para encontrar opciones de curetas y raspadores"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.proclinic.es",
+      "intent": "Verificar el estado de mi cuenta y los pedidos recientes en la sección de mi cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.proclinic.es",
+      "intent": "Agregar productos a la lista de favoritos para futuras compras y comparaciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.proclinic.es",
+      "intent": "Realizar un pedido de productos de ortodoncia y verificar los descuentos aplicables a mi cuenta"
+    }
+  ]
+}

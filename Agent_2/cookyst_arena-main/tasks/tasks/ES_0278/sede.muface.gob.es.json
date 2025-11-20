@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.muface.gob.es",
+      "intent": "Consultar la información sobre las prestaciones sanitarias y sociales disponibles para los mutualistas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.muface.gob.es",
+      "intent": "Buscar información sobre los requisitos y procedimientos para solicitar un subsidio por incapacidad temporal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.muface.gob.es",
+      "intent": "Explorar las secciones de ayuda y contacto para resolver dudas sobre los servicios electrónicos de Muface"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.muface.gob.es",
+      "intent": "Solicitar un reintegro de gastos de farmacia a través de la sede electrónica"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.muface.gob.es",
+      "intent": "Consultar el estado de una solicitud de prestación sanitaria o social en el área personal del mutualista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.muface.gob.es",
+      "intent": "Actualizar los datos personales y de contacto en el perfil del mutualista para asegurar la recepción de notificaciones y comunicaciones importantes"
+    }
+  ]
+}

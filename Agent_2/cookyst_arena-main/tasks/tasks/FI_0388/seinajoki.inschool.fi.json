@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Selvitän miten Wilmaan kirjautuminen toimii"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeet huoltajille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Etsin tietoa Seinäjoen kaupungin Wilmatuesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Tarkastan poikani tai tyttäreni arvosanat Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Viestin opettajalle poikani tai tyttäreni opiskeluista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Tarkastan poikani tai tyttäreni läsnäoloa ja poissaoloja Wilman kalenterista"
+    }
+  ]
+}

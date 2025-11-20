@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vuorelma.net",
+      "intent": "Selata kansallispukujen valikoimaa ja etsiä uusimmat mallistot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vuorelma.net",
+      "intent": "Lukea asiakaspalautetta ja arvosteluita eri tuotteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vuorelma.net",
+      "intent": "Etsiä ohjeita kansallispukujen hoitoon ja ylläpitoon"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vuorelma.net",
+      "intent": "Tilata uutiskirje, joka sisältää tarjouksia ja uutuuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vuorelma.net",
+      "intent": "Tarkastella ostoskorin sisältöä ja vahvistaa tilaus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vuorelma.net",
+      "intent": "Muuttaa tilaustietoja, kuten toimitus- ja laskutusosoitetta"
+    }
+  ]
+}

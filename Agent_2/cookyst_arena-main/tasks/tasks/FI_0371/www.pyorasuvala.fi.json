@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pyorasuvala.fi",
+      "intent": "Selata maastopyöriä ja vertailla niiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pyorasuvala.fi",
+      "intent": "Etsiä tietoa sähkömaastopyöristä ja niiden hyödyistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pyorasuvala.fi",
+      "intent": "Löytää oikea polkupyörä itselleen ja lukea arvosteluita eri malleista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pyorasuvala.fi",
+      "intent": "Tilata uusi polkupyörä verkkokaupasta ja maksaa sen joustavasti"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pyorasuvala.fi",
+      "intent": "Tarkistaa tilausten tila ja seurata pakettien toimitusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pyorasuvala.fi",
+      "intent": "Jättää arvostelu ostetusta polkupyörästä ja antaa palautetta"
+    }
+  ]
+}

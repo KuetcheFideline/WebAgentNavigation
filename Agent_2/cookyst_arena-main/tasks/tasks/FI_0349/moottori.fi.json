@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moottori.fi",
+      "intent": "Luen uusimmat artikkelit sivustolta, erityisesti sähköautojen arvostelut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moottori.fi",
+      "intent": "Etsin tietoa käytetyistä autoista ja niiden hinnoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moottori.fi",
+      "intent": "Selailen Moottori-lehden arkistoa ja etsin vanhoja artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moottori.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimman koeajon artikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moottori.fi",
+      "intent": "Tilaa uusimman Moottori-lehden ja luen sen sisällön"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moottori.fi",
+      "intent": "Osallistun keskusteluun foorumilla ja vastaan erääseen kysymykseen"
+    }
+  ]
+}

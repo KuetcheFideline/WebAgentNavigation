@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Haluaisin lukea uusimman Apu-lehden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Tehdä haku sanomalehdistä, joissa on artikkeleita Kajaanin alueen uutisista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Selata aihealueita ja löytää mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Tarkastaa Oma luukku -osiossa, mitä lehtiä olen tilannut ja mitkä ovat saatavilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Lisätä uusi lehti Ostoskoriin ja maksaa se"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Muuttaa tilaustani ja päivittää maksu- ja toimitustietojani"
+    }
+  ]
+}

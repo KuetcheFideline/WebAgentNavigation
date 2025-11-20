@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Rechercher les informations sur les régions disponibles pour choisir la bonne option pour mon assurance maladie"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Comparer les avantages et les inconvénients de chaque région pour prendre une décision éclairée"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Lire les témoignages et les avis des autres membres pour avoir une idée plus claire de la qualité du service"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Consulter mon compte pour vérifier mes informations personnelles et mes prestations"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Gérer mes paramètres de confidentialité pour contrôler les informations partagées avec les tiers"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Contacter le service client pour obtenir des informations supplémentaires sur mes droits et obligations"
+    }
+  ]
+}

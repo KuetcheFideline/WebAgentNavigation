@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.erto.fi",
+      "intent": "Hae tietoa jäsenyydestä ja sen eduista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.erto.fi",
+      "intent": "Selvitä miten liityn jäseneksi ja mitä hyötyjä siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.erto.fi",
+      "intent": "Lue lisää työehtosopimusten ABC:stä ja niiden merkityksestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.erto.fi",
+      "intent": "Tarkista oma jäsenyyden tila ja maksut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.erto.fi",
+      "intent": "Käytä jäsenpalveluja, kuten neuvontaa tai työsopimuksen tarkistuspalvelua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.erto.fi",
+      "intent": "Osallistu jäsenyhdistyksen toimintaan ja tapahtumiin"
+    }
+  ]
+}

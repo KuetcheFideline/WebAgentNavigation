@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://opintopolku.fi",
+      "intent": "Hae tietoa opintopolun tarjoamista koulutuksista ja kurssien aikatauluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://opintopolku.fi",
+      "intent": "Selvitä miten opintopolun sivustolta voi hakea tietoa ammattiin valmistavista opinnoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://opintopolku.fi",
+      "intent": "Etsi tietoa opintopolun tarjoamista palveluista ja niiden hyödyistä opiskelijalle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://opintopolku.fi",
+      "intent": "Tallenna suosikkikoulutukset ja kurssit opintopolun sivustolle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://opintopolku.fi",
+      "intent": "Luo henkilökohtainen opintosuunnitelma opintopolun työkalujen avulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://opintopolku.fi",
+      "intent": "Ilmoittaudu kurssille tai koulutukseen opintopolun sivuston kautta"
+    }
+  ]
+}

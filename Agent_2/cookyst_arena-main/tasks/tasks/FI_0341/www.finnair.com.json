@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.finnair.com",
+      "intent": "Valitse maani ja kieleni, jotta voin etsiä lentoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.finnair.com",
+      "intent": "Tarkastellaan lentotarjouksia Helsingistä Turkkuun, koska minun on oltava työssä Hotellissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.finnair.com",
+      "intent": "Selvittääkseni, mitä palveluita Finnair tarjoaa baarimikkona työskentelevälle, kuten minulle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.finnair.com",
+      "intent": "Tee varaus lennolle, joka sopii työaikaani Hotellissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.finnair.com",
+      "intent": "Tarkastellaan omaa matkailua ja varaushistoriaani, jotta voin suunnitella tulevia työmatkoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.finnair.com",
+      "intent": "Muokatakseni olemassa olevaa varaustani, jos työaikani Hotellissa muuttuu"
+    }
+  ]
+}

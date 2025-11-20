@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kea-fronter.itslearning.com",
+      "intent": "Jeg søger efter information om mine studier på Aalborg Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kea-fronter.itslearning.com",
+      "intent": "Jeg vil læse nyheder om Erhvervsakademi København"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kea-fronter.itslearning.com",
+      "intent": "Jeg søger efter hjælp til at bruge itslearning-platformen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kea-fronter.itslearning.com",
+      "intent": "Jeg vil downloade mine studiematerialer fra sidste uge"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kea-fronter.itslearning.com",
+      "intent": "Jeg vil sende en besked til min lærer omkring mit studieforløb"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kea-fronter.itslearning.com",
+      "intent": "Jeg vil se mine karakterer og bedømmelser fra mine eksaminer"
+    }
+  ]
+}

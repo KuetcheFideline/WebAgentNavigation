@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.e5.be",
+      "intent": "Rechercher des tricots pour femme pour un achat en ligne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.e5.be",
+      "intent": "Comparer les prix des jupes pour femme dans la section 'Dames'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.e5.be",
+      "intent": "Explorer la section 'Feest' pour trouver des idées de cadeaux pour sa femme"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.e5.be",
+      "intent": "Consulter l'historique de mes commandes pour vérifier le statut de ma dernière commande"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.e5.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.e5.be",
+      "intent": "Utiliser mon compte pour accéder à mes wishlist et gérer mes produits favoris"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jalkkis.net",
+      "intent": "Selata uusimmat tiedotteet ja etsi tietoa kalastuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jalkkis.net",
+      "intent": "Lue ohjeet ja tietosuojaseloste, jotta ymmärtäisin miten palvelu toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jalkkis.net",
+      "intent": "Etsi tietoa siitä, miten voin rekisteröityä palveluun, jos minulla ei ole käyttäjätunnusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jalkkis.net",
+      "intent": "Kirjaudu palveluun ja tarkista, että kaikki tietoni ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jalkkis.net",
+      "intent": "Täytä lasku ja maksu tiedot, jotta voin maksaa jäsenmaksuni helposti"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jalkkis.net",
+      "intent": "Selaa raportteja ja viestipohjia, jotta voin seurata kalastusseuran toimintaa"
+    }
+  ]
+}

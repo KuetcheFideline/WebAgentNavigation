@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.herningfolkeblad.dk",
+      "intent": "Læse nyheder om lokale begivenheder i Herning"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.herningfolkeblad.dk",
+      "intent": "Søge efter information om sundhedsnyheder og ældrepleje"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.herningfolkeblad.dk",
+      "intent": "Se videoer om lokale kulturarrangementer og begivenheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.herningfolkeblad.dk",
+      "intent": "Del en artikel om sundhedsnyheder på min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.herningfolkeblad.dk",
+      "intent": "Kommentere på en artikel om lokale begivenheder"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.herningfolkeblad.dk",
+      "intent": "Gemme en artikel om ældrepleje til senere læsning"
+    }
+  ]
+}

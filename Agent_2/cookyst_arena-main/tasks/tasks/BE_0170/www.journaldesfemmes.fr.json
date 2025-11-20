@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.journaldesfemmes.fr",
+      "intent": "Rechercher des recettes de cuisine végétarienne pour un repas en famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.journaldesfemmes.fr",
+      "intent": "Lire les dernières actualités sur la mode féminine pour rester à la page"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.journaldesfemmes.fr",
+      "intent": "Découvrir les tendances de décoration intérieure pour réaménager mon salon"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.journaldesfemmes.fr",
+      "intent": "Participer à un forum de discussion sur les conseils de beauté pour partager mes expériences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.journaldesfemmes.fr",
+      "intent": "Créer une liste de souhaits de produits de soins personnels pour mes prochains achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.journaldesfemmes.fr",
+      "intent": "Publier un commentaire sur un article de mode pour donner mon avis"
+    }
+  ]
+}

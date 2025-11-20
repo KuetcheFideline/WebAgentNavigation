@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.omavointi.fi",
+      "intent": "Selvittää, miten Omavointi-palvelun kautta voi osallistua hoitooni ja mitä tietoa voin jakaa lääkärilleni ja hoitohenkilökunnalle."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.omavointi.fi",
+      "intent": "Etsiä tietoa siitä, miten voin siirtyä Helsingin ja Uudenmaan sairaanhoitopiirin Omavointi-palveluun, koska asun Helsingissä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.omavointi.fi",
+      "intent": "Lukea lisää siitä, miten Omavointi-palvelu voi auttaa minua terveydeni seuraamisessa ja hoitoni suunnittelussa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.omavointi.fi",
+      "intent": "Kirjautua sisään Omavointi-palveluun ja tarkistaa, mitä tietoa minulla on jo tallennettuna palveluun, ja päivittää tarvittaessa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.omavointi.fi",
+      "intent": "Lähettää viestiä lääkärilleni tai hoitohenkilökunnalle Omavointi-palvelun kautta, koska minulla on kysymyksiä hoitoni suhteen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.omavointi.fi",
+      "intent": "Tarkastaa, mitä aikaisempia terveysasioita minulla on ollut ja miten ne on hoidettu, jotta voin seurata terveyteni kehittymistä."
+    }
+  ]
+}

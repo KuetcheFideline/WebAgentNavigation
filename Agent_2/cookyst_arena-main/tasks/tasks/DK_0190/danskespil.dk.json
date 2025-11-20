@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danskespil.dk",
+      "intent": "Jeg vil gerne se, hvad der er nydt på siden for Sport & Casino"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danskespil.dk",
+      "intent": "Jeg søger efter information om Lotteri & Skrab, for at se om det er noget for mig"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danskespil.dk",
+      "intent": "Jeg vil gerne læse mere om sunde spillevaner og hvordan Danske Spil arbejder med ansvarligt spil"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danskespil.dk",
+      "intent": "Jeg vil gerne se mine tilgængelige midler og saldo på min konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danskespil.dk",
+      "intent": "Jeg vil gerne indsætte penge på min konto for at kunne spille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danskespil.dk",
+      "intent": "Jeg vil gerne se mine spilhistorik og hvordan mine spillene har udviklet sig over tid"
+    }
+  ]
+}

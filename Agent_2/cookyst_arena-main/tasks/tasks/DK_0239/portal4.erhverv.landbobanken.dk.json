@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal4.erhverv.landbobanken.dk",
+      "intent": "Jeg søger at finde information om bankens åbningstider i Skagen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal4.erhverv.landbobanken.dk",
+      "intent": "Jeg vil læse om bankens tilbud til små virksomheder i Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal4.erhverv.landbobanken.dk",
+      "intent": "Jeg ønsker at sammenligne bankens forskellige kontotype"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal4.erhverv.landbobanken.dk",
+      "intent": "Jeg vil overføre penge til min husbands konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal4.erhverv.landbobanken.dk",
+      "intent": "Jeg søger at ændre mine kontoinformationer og opdatere min adresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal4.erhverv.landbobanken.dk",
+      "intent": "Jeg vil downloade en kopi af min seneste kontoudtog"
+    }
+  ]
+}

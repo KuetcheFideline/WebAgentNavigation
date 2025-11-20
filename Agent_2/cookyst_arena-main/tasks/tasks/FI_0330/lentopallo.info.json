@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lentopallo.info",
+      "intent": "Luen uusimmat lentopallouutiset Mestaruusliigasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lentopallo.info",
+      "intent": "Etsin tietoa siirto- ja sopimusuutisista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lentopallo.info",
+      "intent": "Selailen naisten Mestaruusliigan uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lentopallo.info",
+      "intent": "Kirjaudun sisään ja kommentoin uusinta artikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lentopallo.info",
+      "intent": "Lisään uuden artikkelin suosikkeihini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lentopallo.info",
+      "intent": "Vastaan lentopalloliigan keskusteluun foorumilla"
+    }
+  ]
+}

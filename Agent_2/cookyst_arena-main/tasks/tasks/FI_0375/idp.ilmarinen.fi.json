@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://idp.ilmarinen.fi",
+      "intent": "Tarkastan Ilmarisen verkkosivujen tietosuojakäytäntöjä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://idp.ilmarinen.fi",
+      "intent": "Etsin tietoa Ilmarisen eläkevakuutuksista ja niiden edistämisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://idp.ilmarinen.fi",
+      "intent": "Katselen Ilmarisen verkkosivujen virheilmoitusta ja yritän ratkaista ongelman"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://idp.ilmarinen.fi",
+      "intent": "Tarkastan omat eläkevakuutukseni tiedot ja varmistan, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://idp.ilmarinen.fi",
+      "intent": "Lähetän viestin Ilmarisen asiakaspalvelulle kysymykseni eläkevakuutukseni koskien"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://idp.ilmarinen.fi",
+      "intent": "Muokkaan omia tietojani ja varmistan, että ne ovat ajan tasalla ja oikein"
+    }
+  ]
+}

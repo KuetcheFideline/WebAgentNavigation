@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hispaloto.es",
+      "intent": "Explorar las opciones de juegos de lotería disponibles en la página de inicio para ver qué tipo de apuestas puedo hacer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hispaloto.es",
+      "intent": "Buscar información sobre cómo funciona la lotería Euromillones y cuáles son las probabilidades de ganar"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hispaloto.es",
+      "intent": "Verificar los premios actuales de la lotería Bonoloto y ver si hay alguna apuesta rápida disponible"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hispaloto.es",
+      "intent": "Iniciar sesión en mi cuenta para ver mis apuestas anteriores y verificar si he ganado algo en la lotería Quiniela"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hispaloto.es",
+      "intent": "Unirme a un grupo público de la lotería La Primitiva para aumentar mis posibilidades de ganar"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hispaloto.es",
+      "intent": "Crear una nueva apuesta para el sorteo de la lotería Eurodreams y agregarla a mi carrito de compras"
+    }
+  ]
+}

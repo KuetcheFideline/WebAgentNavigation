@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.gazeteler.com",
+      "intent": "Ich möchte die neuesten Nachrichten aus Deutschland auf der Startseite von gazeteler.com lesen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.gazeteler.com",
+      "intent": "Ich will die Liste der türkischen Zeitungen auf gazeteler.com durchsuchen, um die neuesten Nachrichten aus der Türkei zu finden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.gazeteler.com",
+      "intent": "Ich möchte die Kategorie 'Spor Gazeteleri' auf gazeteler.com besuchen, um die neuesten Sportnachrichten zu lesen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.gazeteler.com",
+      "intent": "Ich möchte mich auf gazeteler.com anmelden, um meine Lieblingszeitungen zu speichern und die neuesten Nachrichten zu erhalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.gazeteler.com",
+      "intent": "Ich will meine Benutzerprofilseite auf gazeteler.com besuchen, um meine Abonnements und Lesegeschichte zu überprüfen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.gazeteler.com",
+      "intent": "Ich möchte die Kommentarfunktion auf gazeteler.com nutzen, um meine Meinung zu den neuesten Nachrichten zu äußern."
+    }
+  ]
+}

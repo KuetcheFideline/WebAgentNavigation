@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.iloinenviivi.fi",
+      "intent": "Selvitän, mitä tällä sivustolla on tarjolla ja etsin mielenkiintoista luettavaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.iloinenviivi.fi",
+      "intent": "Katselen, mitä tällä sivustolla on tarjolla harrastuksille ja vapaa-ajalle."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.iloinenviivi.fi",
+      "intent": "Etsin tietoa siitä, miten voin osallistua keskusteluihin ja foorumeille."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.iloinenviivi.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä uutta on tapahtunut sivustolla viime aikoina."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.iloinenviivi.fi",
+      "intent": "Lisään uuden viestin foorumille ja vastaan toisten käyttäjien viesteihin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.iloinenviivi.fi",
+      "intent": "Muokkaan profiiliani ja lisään uusia tietoja itsestäni."
+    }
+  ]
+}

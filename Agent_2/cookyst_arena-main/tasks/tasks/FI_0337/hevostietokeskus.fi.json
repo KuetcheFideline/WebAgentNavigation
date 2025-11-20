@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hevostietokeskus.fi",
+      "intent": "Selvitän hevosten ruokinnasta ja etsin tietoa siitä, miten voin parantaa hevoseni ravitsemusta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hevostietokeskus.fi",
+      "intent": "Tutkin verkkokaupan tarjontaa ja etsin julkaisuja, jotka liittyvät hevosten hoidosta ja terveydestä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hevostietokeskus.fi",
+      "intent": "Käyn läpi Tallin terveysohjelman ja etsin tietoa siitä, miten voin parantaa hevostallini hygieniatasoa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hevostietokeskus.fi",
+      "intent": "Kirjaudun sisään ja tilaan valmiin ruokintasuunnitelman hevoseni tarpeisiin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hevostietokeskus.fi",
+      "intent": "Käytän Hopti-ruokintalaskuria laskea hevoseni ruokintatarpeita ja säädän ruokintasuunnitelmaa tarpeiden mukaan."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hevostietokeskus.fi",
+      "intent": "Tilaaan käyttööni Hokki-hevosyritysten talouslaskentaohjelman ja aloitan sen käytön hevostallini taloushallinnossa."
+    }
+  ]
+}

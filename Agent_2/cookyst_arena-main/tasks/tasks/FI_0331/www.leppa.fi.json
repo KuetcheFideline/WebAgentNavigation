@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leppa.fi",
+      "intent": "Selata sivuston etusivun uusimmat artikkelit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leppa.fi",
+      "intent": "Etsiä tietoa Grand Prix of Leppa.fi -tapahtumasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leppa.fi",
+      "intent": "Lukea viimeisimpiä kommentteja ampumaurheiluun liittyvistä aiheista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leppa.fi",
+      "intent": "Kirjautua sisään ja kommentoida uusimpaan artikkeliin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leppa.fi",
+      "intent": "Osallistua keskusteluun ampumaurheilun yhteisössä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leppa.fi",
+      "intent": "Tarkastella omia kommentteja ja profiilia sivustolla"
+    }
+  ]
+}

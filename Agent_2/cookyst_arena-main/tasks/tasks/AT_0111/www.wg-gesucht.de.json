@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wg-gesucht.de",
+      "intent": "Ich möchte eine Wohnung in Wien finden, also werde ich nach WG-Zimmern in Wien suchen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wg-gesucht.de",
+      "intent": "Ich bin neugierig auf die verschiedenen Arten von Wohngemeinschaften, also werde ich die Seite 'WG-Arten' besuchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wg-gesucht.de",
+      "intent": "Ich möchte mehr über die Kosten für eine Wohnung in Wien erfahren, also werde ich die Preise für WG-Zimmer und 1-Zimmer-Wohnungen vergleichen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wg-gesucht.de",
+      "intent": "Ich habe bereits eine Wohnung gefunden, die mir gefällt, also werde ich ein Gesuch für diese Wohnung inserieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wg-gesucht.de",
+      "intent": "Ich möchte meine Chancen auf eine erfolgreiche Wohnungssuche erhöhen, also werde ich mein Profil auf der Plattform vervollständigen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wg-gesucht.de",
+      "intent": "Ich bin an einem WG-Zimmer in einer bestimmten Gegend von Wien interessiert, also werde ich eine Anzeige für ein WG-Zimmer in dieser Gegend erstellen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.footnews.be",
+      "intent": "Rechercher les dernières actualités sur le championnat de football belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.footnews.be",
+      "intent": "Consulter les résultats et les classements de la Jupiler Pro League"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.footnews.be",
+      "intent": "Lire les articles d'analyse sur les performances des Diables Rouges"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.footnews.be",
+      "intent": "Participer à un sondage sur les chances de la Belgique de gagner la Coupe du Monde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.footnews.be",
+      "intent": "Publier un commentaire sur un article concernant le transfert d'un joueur belge"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.footnews.be",
+      "intent": "Créer une discussion dans le forum sur les perspectives de l'équipe nationale pour les prochains matchs"
+    }
+  ]
+}

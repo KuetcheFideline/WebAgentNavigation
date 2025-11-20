@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://print.kb.dk",
+      "intent": "Læse mere om print og kopi for at forstå, hvordan jeg kan bruge min printkonto effektivt"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://print.kb.dk",
+      "intent": "Vælge sprog til dansk for at sikre, at jeg kan navigere på siden let"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://print.kb.dk",
+      "intent": "Se, om der er nogen vejledninger eller FAQ om, hvordan man logger ind og bruger printkontoen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://print.kb.dk",
+      "intent": "Tjekke mit printkonto for at se, hvor mange sider jeg har til rådighed til udskrivning"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://print.kb.dk",
+      "intent": "Indstille mine printkontoindstillinger for at sikre, at jeg kan udskrive dokumenter på den rigtige printer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://print.kb.dk",
+      "intent": "Udskrive et vigtigt dokument, som jeg har brug for til min arbejde som ingeniør"
+    }
+  ]
+}

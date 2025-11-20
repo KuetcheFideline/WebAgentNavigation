@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.clarin.com",
+      "intent": "Buscar noticias sobre el dólar blue para entender su impacto en la economía argentina"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.clarin.com",
+      "intent": "Explorar la sección de deportes para leer sobre los últimos resultados del fútbol argentino"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.clarin.com",
+      "intent": "Leer las últimas noticias de la sección de sociedad para estar al tanto de los acontecimientos en Argentina"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.clarin.com",
+      "intent": "Configurar mis preferencias de noticias para recibir actualizaciones sobre los temas que me interesan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.clarin.com",
+      "intent": "Comentar en un artículo sobre la situación política en Argentina para expresar mi opinión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.clarin.com",
+      "intent": "Guardar un artículo sobre la economía argentina para leerlo más tarde y analizar sus implicaciones"
+    }
+  ]
+}

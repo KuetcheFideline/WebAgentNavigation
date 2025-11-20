@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://matkabongaukset.fi",
+      "intent": "Etsin halpoja lentoja Joensuusta Helsinkiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://matkabongaukset.fi",
+      "intent": "Vertailen eri lentoyhtiöiden hintoja matkalle Kuressaarelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://matkabongaukset.fi",
+      "intent": "Luen lisää äkkilähtötarjouksista Välimeren rannoille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://matkabongaukset.fi",
+      "intent": "Tallennan suosikkimatkoja ja lentoreittejä omaan profiiliini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://matkabongaukset.fi",
+      "intent": "Tilaa uutiskirje, joka sisältää viimeisimmät matkatarjoukset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://matkabongaukset.fi",
+      "intent": "Arvostelen ja kommentoin aiempia matkakokemuksiani sivustolla"
+    }
+  ]
+}

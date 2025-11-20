@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dekamer.be",
+      "intent": "Rechercher les informations sur les membres de la Chambre des représentants pour comprendre leur rôle et leurs responsabilités"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dekamer.be",
+      "intent": "Consulter le calendrier des séances plénières pour suivre les débats et les décisions importantes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dekamer.be",
+      "intent": "Explorer les ressources éducatives proposées par la Chambre pour en apprendre davantage sur le fonctionnement du Parlement"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dekamer.be",
+      "intent": "Déposer une demande d'accès à des documents parlementaires pour effectuer des recherches approfondies"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dekamer.be",
+      "intent": "Participer à une consultation publique en ligne pour donner son avis sur un projet de loi ou une politique publique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dekamer.be",
+      "intent": "Gérer mes abonnements aux newsletters et aux alertes pour rester informé des dernières actualités parlementaires"
+    }
+  ]
+}

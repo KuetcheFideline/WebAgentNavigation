@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://surveys.mobrog.com",
+      "intent": "Liity MOBROG:iin ja aloita tienaus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://surveys.mobrog.com",
+      "intent": "Selvitä, miten voin osallistua verkkokyselyihin ja ansaita rahaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://surveys.mobrog.com",
+      "intent": "Lue MOBROG:n asiakasarvosteluita ja tutustu heidän tarjoamiin palkintoihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://surveys.mobrog.com",
+      "intent": "Täytä profiili ja aloita kyselyiden tekeminen, jotta voin ansaita rahaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://surveys.mobrog.com",
+      "intent": "Osallistu verkkokyselyihin ja anna mielipiteitäsi, jotta voin ansaita palkintoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://surveys.mobrog.com",
+      "intent": "Nouda ansaitsemani rahaa PayPalin tai pankkisiirron kautta, kun olen saavuttanut 5 euron kynnysrajan"
+    }
+  ]
+}

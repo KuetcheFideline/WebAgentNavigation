@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://control-center.1und1.de",
+      "intent": "Ich möchte die Hilfe-Seite besuchen, um Informationen über den Login-Prozess zu erhalten."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://control-center.1und1.de",
+      "intent": "Ich will die Seite 'Zugang anlegen' aufrufen, um einen neuen Zugang zu erstellen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://control-center.1und1.de",
+      "intent": "Ich möchte die Seite 'Hilfe zum Login' aufrufen, um Hilfe bei meinem Login-Prozess zu erhalten."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://control-center.1und1.de",
+      "intent": "Ich möchte meine Rechnungen einsehen, um meine aktuellen Kosten zu überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://control-center.1und1.de",
+      "intent": "Ich will meine Kontodaten ändern, um meine persönlichen Informationen auf dem neuesten Stand zu halten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://control-center.1und1.de",
+      "intent": "Ich möchte meine Vertragsdetails einsehen, um meine aktuellen Verträge und Tarife zu überprüfen."
+    }
+  ]
+}

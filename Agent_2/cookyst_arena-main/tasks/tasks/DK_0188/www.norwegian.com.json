@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.norwegian.com",
+      "intent": "Jeg søger efter billige flyrejser fra Aarhus til New Zealand"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.norwegian.com",
+      "intent": "Jeg vil sammenligne priser på forskellige flyrejser for at finde den billigste mulighed"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.norwegian.com",
+      "intent": "Jeg søger efter inspiration til min næste rejse og vil gerne se, hvilke destinationer Norwegian flyver til"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.norwegian.com",
+      "intent": "Jeg vil logge ind for at se mine eksisterende flyrejser og ændre mine bookingdetaljer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.norwegian.com",
+      "intent": "Jeg vil gerne tjene CashPoints på min næste flyrejse og vil logge ind for at se mine nuværende point"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.norwegian.com",
+      "intent": "Jeg vil gerne downloade Norwegian-appen for at få adgang til mine flyrejser og tjene CashPoints"
+    }
+  ]
+}

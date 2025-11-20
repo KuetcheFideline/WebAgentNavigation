@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dagelijksekost.een.be",
+      "intent": "Je veux trouver une recette de cuisine simple et rapide pour ce soir, je vais chercher des idées sur le site."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dagelijksekost.een.be",
+      "intent": "J'ai envie de regarder les dernières émissions de Jeroen Meus, je vais voir si je peux trouver des liens vers ses vidéos sur le site."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dagelijksekost.een.be",
+      "intent": "Je veux découvrir de nouvelles recettes de cuisine belge, je vais parcourir les sections du site pour trouver des idées."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dagelijksekost.een.be",
+      "intent": "Je veux sauvegarder mes recettes préférées dans mon compte, je vais les ajouter à mon receptenboekje."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dagelijksekost.een.be",
+      "intent": "J'ai une question sur une recette, je vais contacter le support technique via mon compte pour obtenir de l'aide."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dagelijksekost.een.be",
+      "intent": "Je veux partager mes propres recettes avec la communauté, je vais les télécharger sur le site via mon compte."
+    }
+  ]
+}

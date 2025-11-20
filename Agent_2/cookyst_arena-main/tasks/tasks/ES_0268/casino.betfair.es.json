@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://casino.betfair.es",
+      "intent": "Intentar acceder al contenido del casino para ver las opciones de juegos disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://casino.betfair.es",
+      "intent": "Buscar información sobre los métodos de pago y retirada de fondos en el casino en línea"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://casino.betfair.es",
+      "intent": "Leer las reseñas y comentarios de otros jugadores sobre sus experiencias en el casino"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://casino.betfair.es",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis fondos y realizar una apuesta en uno de los juegos de azar"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://casino.betfair.es",
+      "intent": "Configurar mis límites de apuesta y establecer un presupuesto para evitar el juego excesivo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://casino.betfair.es",
+      "intent": "Participar en un torneo de juegos de mesa en vivo para competir con otros jugadores y ganar premios"
+    }
+  ]
+}

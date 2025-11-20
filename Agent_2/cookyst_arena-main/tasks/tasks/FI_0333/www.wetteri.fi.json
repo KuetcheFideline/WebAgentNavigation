@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wetteri.fi",
+      "intent": "Hae uusia autoja, jotka ovat heti ajoon valmiit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wetteri.fi",
+      "intent": "Vertaile eri merkkien vaihtoautoja ja niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wetteri.fi",
+      "intent": "Selvitä miten kotiinkuljetuspalvelu toimii ja mitä se maksaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wetteri.fi",
+      "intent": "Tee tarjouspyyntö halutusta autosta ja odota vastausta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wetteri.fi",
+      "intent": "Varaa koeajo autosta, joka kiinnosti minua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wetteri.fi",
+      "intent": "Tarkista Wetteri-tilin saldoni ja tee tarvittavat muutokset"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ylakainuu.fi",
+      "intent": "Luen uusimmat uutiset Ylä-Kainuusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ylakainuu.fi",
+      "intent": "Etsin tietoa Suomussalmen joulunavausten ajankohdista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ylakainuu.fi",
+      "intent": "Selailen Kotiseutu-osioon ja luen paikallisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ylakainuu.fi",
+      "intent": "Tilaa uutispaketti lahjaksi ystävälleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ylakainuu.fi",
+      "intent": "Tee osoitteenmuutos tilaukseeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ylakainuu.fi",
+      "intent": "Anna palautetta asiakaspalvelulle"
+    }
+  ]
+}

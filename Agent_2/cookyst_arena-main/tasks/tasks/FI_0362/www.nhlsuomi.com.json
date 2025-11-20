@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Luen uusimmat NHL-uutiset suomalaisista pelaajista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Etsin tietoa siitä, miten voin seurata suomalaisia joukkueita ja pelaajia NHL:ssä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Selvitan, miten voin ostaa NHL-otteluiden lippuja suomalaisille joukkueille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Kirjaudun sisään ja kommentoin artikkelia suomalaisen pelaajan urheilusaavutuksista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Lisään suosikkini NHL-pelaajat ja joukkueet profiiliini, jotta voin seurata heidän otteluitaan helpommin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Osallistun keskustelufoorumiin ja keskustelen muiden käyttäjien kanssa suomalaisista NHL-pelaajista ja joukkueista"
+    }
+  ]
+}

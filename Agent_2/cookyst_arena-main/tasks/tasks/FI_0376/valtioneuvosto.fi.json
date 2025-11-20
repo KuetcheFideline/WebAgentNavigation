@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Hae Valtioneuvoston verkkosivuilta tietoa hallituksen toiminnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Selaa Valtioneuvoston julkaisuja ja raportteja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Lue Valtioneuvoston uutisia ja tiedotteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Tee Valtioneuvoston verkkopalvelussa kirjautumisen jälkeen oikeudellinen kysely"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Lähetä Valtioneuvoston asiakaspalvelun kautta sähköpostia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Täytä Valtioneuvoston verkkopalvelussa kirjautumisen jälkeen asiakastiedustelu"
+    }
+  ]
+}

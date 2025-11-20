@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Tutustun Learn-Moodlen etusivuun ja etsin tietoa opiskelijan oikeuksista ja velvollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Selailen Learn-Moodlen huoltokatkoja ja aikatauluja, jotta voin suunnitella opiskeluni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Etsin tietoa Learn-Moodlen saavutettavuudesta ja ohjeista, jotta voin käyttää palvelua helpommin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Kirjaudun sisään Learn-Moodleen ja tarkistan omat työtilani ja kurssit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Lisään uuden kurssin työtilaani ja konfiguroin sen asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Tarkistan ja päivitän omat opiskelijatietoni ja osoitteeni Learn-Moodlessa"
+    }
+  ]
+}

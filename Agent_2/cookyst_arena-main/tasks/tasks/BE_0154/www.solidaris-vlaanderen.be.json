@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Sélectionner la région où je vis pour obtenir des informations sur les services de santé disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Rechercher les informations sur les mutuelles de santé pour moi et ma famille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Consulter les pages d'aide pour comprendre les avantages et les inconvénients de chaque option de mutuelle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Gérer mon compte pour accéder à mes informations personnelles et à mes factures"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Effectuer une demande de remboursement pour une consultation médicale récente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.solidaris-vlaanderen.be",
+      "intent": "Modifier mes coordonnées bancaires pour recevoir mes remboursements de manière sécurisée"
+    }
+  ]
+}

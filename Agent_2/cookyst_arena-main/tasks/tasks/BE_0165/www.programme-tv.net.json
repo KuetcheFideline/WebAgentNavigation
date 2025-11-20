@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.programme-tv.net",
+      "intent": "Rechercher les programmes TV de la soirée pour choisir ce que je vais regarder"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.programme-tv.net",
+      "intent": "Consulter les dernières news et actualités sur les séries TV et les films"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.programme-tv.net",
+      "intent": "Explorer les différentes chaînes de télévision disponibles pour découvrir de nouveaux programmes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.programme-tv.net",
+      "intent": "Personnaliser mon programme TV en ajoutant mes chaînes préférées pour un accès rapide"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.programme-tv.net",
+      "intent": "Filtrer les programmes TV par genre pour trouver des séries ou des films qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.programme-tv.net",
+      "intent": "Gérer mes abonnements et mes préférences pour recevoir des recommandations personnalisées"
+    }
+  ]
+}

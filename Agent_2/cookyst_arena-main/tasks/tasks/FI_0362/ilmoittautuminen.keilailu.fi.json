@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ilmoittautuminen.keilailu.fi",
+      "intent": "Tutkin SM-kilpailujen tietoja ja aikatauluja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ilmoittautuminen.keilailu.fi",
+      "intent": "Selvittelen miten voin osallistua tuleviin SM-kilpailuihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ilmoittautuminen.keilailu.fi",
+      "intent": "Luen SM-kilpailujen sääntöjä ja ohjeita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ilmoittautuminen.keilailu.fi",
+      "intent": "Ilmoittaudun SM-kilpailuihin ja valitsen osallistumiseni tapahtumat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ilmoittautuminen.keilailu.fi",
+      "intent": "Tarkastan ja päivitän omat kilpailutiedot ja profiiliani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ilmoittautuminen.keilailu.fi",
+      "intent": "Seuraan omia kilpailutuloksiani ja vertailen muiden suorituksia"
+    }
+  ]
+}

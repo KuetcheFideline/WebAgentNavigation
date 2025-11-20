@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajokortti-info.fi",
+      "intent": "Hae tietoa ajokortin hankkimisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajokortti-info.fi",
+      "intent": "Selaa ajokorttien voimassaoloaikoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajokortti-info.fi",
+      "intent": "Tutustu opetuslupaa haettaessa tarvittaviin asiakirjoihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajokortti-info.fi",
+      "intent": "Tilaa uusi ajokortti kadonneen tilalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajokortti-info.fi",
+      "intent": "Uudista ajokorttisi sen voimassaolon päättyessä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajokortti-info.fi",
+      "intent": "Hae ajokorttilupaa ajokortin korottamiseen"
+    }
+  ]
+}

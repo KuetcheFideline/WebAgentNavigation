@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Rechercher des actualités sur la région Île-de-France pour rester informée sur les événements locaux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Lire les dernières nouvelles sur la politique française pour comprendre les décisions du gouvernement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Consulter la rubrique « Société » pour découvrir des articles sur la famille, les religions et l'intime"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Accéder à mon compte pour gérer mes abonnements et mes préférences de lecture"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Participer à des discussions en ligne sur les articles pour échanger des opinions avec d'autres lecteurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Gérer mes notifications pour recevoir des alertes sur les actualités qui m'intéressent"
+    }
+  ]
+}

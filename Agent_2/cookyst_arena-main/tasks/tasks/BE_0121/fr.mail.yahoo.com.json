@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fr.mail.yahoo.com",
+      "intent": "Je veux créer un nouveau compte Yahoo pour avoir accès à mes emails et à d'autres services Yahoo."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fr.mail.yahoo.com",
+      "intent": "Je souhaite consulter les conditions générales d'utilisation de Yahoo avant de créer un compte."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fr.mail.yahoo.com",
+      "intent": "J'ai oublié mon mot de passe, je veux utiliser l'option 'Mot de passe oublié' pour le récupérer."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fr.mail.yahoo.com",
+      "intent": "Je veux envoyer un email à mon ami pour lui donner des détails sur notre prochaine réunion d'étudiants en architecture."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fr.mail.yahoo.com",
+      "intent": "Je souhaite configurer mes paramètres de compte pour recevoir des notifications lorsque j'ai de nouveaux emails importants."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fr.mail.yahoo.com",
+      "intent": "Je veux organiser mes emails en dossiers pour mieux gérer mes communications avec mes professeurs et mes collègues de travail au Delhaize."
+    }
+  ]
+}

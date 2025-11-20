@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danskebank.mitid.dk",
+      "intent": "Jeg skal finde information om, hvordan jeg kan bruge MitID til at logge ind på min Danske Bank-konto."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danskebank.mitid.dk",
+      "intent": "Jeg vil læse om, hvordan MitID kan hjælpe mig med at beskytte min identitet og sikre mine online-transaktioner."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danskebank.mitid.dk",
+      "intent": "Jeg søger efter en vejledning om, hvordan jeg kan aktivere MitID på min computer eller mobiltelefon."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danskebank.mitid.dk",
+      "intent": "Jeg skal overføre penge fra min konto til min partners konto, efter at jeg har logget ind med MitID."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danskebank.mitid.dk",
+      "intent": "Jeg vil se mine kontoudtog og transaktioner for de sidste måneder, efter at jeg har logget ind med MitID."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danskebank.mitid.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer og opdaterer min adresse, efter at jeg har logget ind med MitID."
+    }
+  ]
+}

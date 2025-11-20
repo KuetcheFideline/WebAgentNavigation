@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nrk.no",
+      "intent": "Læse nyheder om det seneste fra Norge og hele verden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nrk.no",
+      "intent": "Søge efter information om lokale begivenheder i Tingbjerg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nrk.no",
+      "intent": "Se videoer om emner, der interesserer mig, som fx 'P3 Gull' 2025"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nrk.no",
+      "intent": "Del en artikel om en vigtig begivenhed i mit netværk"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nrk.no",
+      "intent": "Kommentere på en artikel om et emne, der interesserer mig"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nrk.no",
+      "intent": "Gemme en artikel til senere læsning"
+    }
+  ]
+}

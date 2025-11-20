@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aktia.fi",
+      "intent": "Hae sivustolta tietoa yrityspankin palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aktia.fi",
+      "intent": "Lue lisää Aktian tarjoamista vakuutuksista ja etsi sopiva vakuutus"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aktia.fi",
+      "intent": "Tutustu Aktian blogiin ja artikkeleihin talousaiheista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aktia.fi",
+      "intent": "Tarkista omat säästötilisi ja tee siirtoja tarpeen mukaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aktia.fi",
+      "intent": "Hallinnoi omia lainoja ja tee tarvittavat muutokset lainasopimuksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aktia.fi",
+      "intent": "Tee sijoituksia ja seuraa niiden kehittymistä"
+    }
+  ]
+}

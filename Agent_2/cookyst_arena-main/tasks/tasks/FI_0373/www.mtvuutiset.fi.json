@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Luen uusimmat uutiset MTV Uutisista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Etsin tietoa urheilu-uutisista, erityisesti jääkiekosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Selailen elokuvauutisia ja etsin uusimmat elokuva-arvostelut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Kirjaudun sisään ja tallennan uutisartikkeleita muistilistaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Osallistun keskusteluun mielipide-osiossa ja kommentoin ajankohtaisia aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Määrittelen säätilan Kajaanissa ja tutkin urheilusääennusteita"
+    }
+  ]
+}

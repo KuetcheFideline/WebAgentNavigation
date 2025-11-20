@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hofor.dk",
+      "intent": "Jeg søger information om vandpriser i København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hofor.dk",
+      "intent": "Jeg vil læse om HOFORs fjernvarme tilbud og priser"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hofor.dk",
+      "intent": "Jeg søger at forstå, hvordan jeg kan reducere mit vandforbrug og spare penge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hofor.dk",
+      "intent": "Jeg vil logge ind for at se mine nuværende vand- og fjernvarmeaftaler"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hofor.dk",
+      "intent": "Jeg ønsker at ændre mine betalingsoplysninger for min vandregning"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hofor.dk",
+      "intent": "Jeg vil downloade mine tidligere regninger for vand og fjernvarme"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dsalogin.dk",
+      "intent": "Jeg skal oprette en DSA-profil, så jeg kan få adgang til mine personlige oplysninger og services."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dsalogin.dk",
+      "intent": "Jeg vil gerne se, hvad der sker, hvis jeg klikker på 'Tilbage til logintyper'-linket og finder en anden måde at logge ind på."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dsalogin.dk",
+      "intent": "Jeg skal klikke på 'Glemt password'-linket og se, hvordan jeg kan nulstille mit kodeord, hvis jeg har glemt det."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dsalogin.dk",
+      "intent": "Efter at jeg har logget ind, skal jeg gå til min profilside og se, om der er nogen opdateringer eller beskeder, som jeg skal læse og svare på."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dsalogin.dk",
+      "intent": "Jeg vil gerne ændre mit kodeord til noget mere sikkerhedsorienteret, så jeg føler mig mere tryg, når jeg logger ind på min konto."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dsalogin.dk",
+      "intent": "Jeg skal gå til mine kontoindstillinger og se, om der er nogen services eller funktioner, som jeg kan aktivere eller deaktivere for at tilpasse min oplevelse på siden."
+    }
+  ]
+}

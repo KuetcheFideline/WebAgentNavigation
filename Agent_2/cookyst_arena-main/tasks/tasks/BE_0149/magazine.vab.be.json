@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://magazine.vab.be",
+      "intent": "Je souhaite consulter les derniers articles publiés sur le site pour me tenir au courant de l'actualité"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://magazine.vab.be",
+      "intent": "Rechercher des informations sur les événements à venir dans la région de Liège pour pouvoir m'y rendre avec mes amis"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://magazine.vab.be",
+      "intent": "Lire les commentaires des lecteurs sur les articles pour avoir une idée de l'opinion générale sur les sujets traités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://magazine.vab.be",
+      "intent": "Publier un commentaire sur un article qui m'a particulièrement intéressé pour partager mon point de vue avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://magazine.vab.be",
+      "intent": "M'abonner à la newsletter du site pour recevoir des mises à jour régulières sur les nouveaux articles et les événements à venir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://magazine.vab.be",
+      "intent": "Participer à un sondage en ligne pour donner mon avis sur un sujet d'actualité et voir les résultats en temps réel"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://viranomaisuutiset.fi",
+      "intent": "Luen uutisia Etelä-Savon alueelta, koska haluan tietää, mitä on tapahtunut lähialueillani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://viranomaisuutiset.fi",
+      "intent": "Etsin tietoa liikenneonnettomuuksista, joissa on mukana hirviä, jotta voin varoa niitä ajon aikana."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://viranomaisuutiset.fi",
+      "intent": "Selailen rikosuutisia, jotta voin pysyä ajan tasalla siitä, mitä on tapahtunut Suomessa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://viranomaisuutiset.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutista, joka koskee Etelä-Savon alueen liikenneonnettomuutta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://viranomaisuutiset.fi",
+      "intent": "Lisään suosikkikategorioihini 'Pohjois-Savo', jotta voin seurata alueen uutisia helpommin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://viranomaisuutiset.fi",
+      "intent": "Muokkaan profiiliaani, jotta voin lisätä oman sijaintini ja saada alueelliset uutiset helpommin."
+    }
+  ]
+}

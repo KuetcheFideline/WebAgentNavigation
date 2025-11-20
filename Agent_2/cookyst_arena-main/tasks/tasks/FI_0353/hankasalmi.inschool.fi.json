@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hankasalmi.inschool.fi",
+      "intent": "Luen Wilman esittelysivun, jotta voin ymmärtää, mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hankasalmi.inschool.fi",
+      "intent": "Selvittelen, miten Wilman kautta voi lukea koulun tiedotteita ilman kirjautumista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hankasalmi.inschool.fi",
+      "intent": "Tutkin, mitä tietoa Wilman etusivulla on tarjolla opiskelijoille, opettajille ja huoltajille."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hankasalmi.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkistan, mitä kursseja on tarjolla ja miten niitä voi valita."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hankasalmi.inschool.fi",
+      "intent": "Syötän Wilmaan arvioita ja päivitän henkilötietojani, jotta voin hallita opettajana olemiani tehtäviä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hankasalmi.inschool.fi",
+      "intent": "Viestin opiskelijoiden ja huoltajien kanssa Wilman kautta, jotta voin hoitaa opettajana olemiani viestintätehtäviä."
+    }
+  ]
+}

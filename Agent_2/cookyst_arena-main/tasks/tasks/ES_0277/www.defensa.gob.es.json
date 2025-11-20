@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.defensa.gob.es",
+      "intent": "Buscar información sobre las misiones de las Fuerzas Armadas españolas en el extranjero"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.defensa.gob.es",
+      "intent": "Explorar la sección de 'La Defensa y yo' para conocer las oportunidades laborales en el Ministerio de Defensa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.defensa.gob.es",
+      "intent": "Leer las noticias de prensa sobre las actividades del Ministerio de Defensa en la sección 'Prensa'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.defensa.gob.es",
+      "intent": "Acceder a la zona de descargas de documentos clasificados como personal con acceso autorizado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.defensa.gob.es",
+      "intent": "Consultar el estado de mi solicitud de ingreso en las Fuerzas Armadas como personal con cuenta activa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.defensa.gob.es",
+      "intent": "Participar en un foro de discusión sobre temas de defensa nacional como usuario registrado"
+    }
+  ]
+}

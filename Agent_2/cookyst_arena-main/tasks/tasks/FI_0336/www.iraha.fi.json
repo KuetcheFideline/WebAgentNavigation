@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.iraha.fi",
+      "intent": "Hae lainaa nopeasti ja helposti iRahalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.iraha.fi",
+      "intent": "Lue lisää iRahan lainoista ja palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.iraha.fi",
+      "intent": "Vertaile eri lainavaihtoehtoja ja valitse paras laina itsellesi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.iraha.fi",
+      "intent": "Täytä lainahakemus ja odota lainapäätöstä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.iraha.fi",
+      "intent": "Seuraa lainan tilaa ja tee tarvittavat muutokset lainasopimukseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.iraha.fi",
+      "intent": "Maksa laina takaisin sovittuun maksuaikaan mennessä"
+    }
+  ]
+}

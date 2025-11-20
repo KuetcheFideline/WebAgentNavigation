@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tuco.net",
+      "intent": "Buscar ofertas de muebles de salón en la sección de BLACK FRIDAY"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tuco.net",
+      "intent": "Comparar precios de sofás en la sección de SOFÁS BLACK FRIDAY"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tuco.net",
+      "intent": "Explorar la sección de DORMITORIOS BLACK FRIDAY para encontrar descuentos en camas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tuco.net",
+      "intent": "Agregar un mueble de salón a mi carrito de compras y proceder al pago"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tuco.net",
+      "intent": "Verificar el estado de mi pedido en la sección de Mi Cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tuco.net",
+      "intent": "Cancelar un pedido en la sección de Mi Cuenta y solicitar un reembolso"
+    }
+  ]
+}

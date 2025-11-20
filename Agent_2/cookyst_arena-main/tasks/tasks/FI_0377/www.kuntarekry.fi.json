@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Hae avoimia työpaikkoja Uudellamaalla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tutustu työnantajiin, esimerkiksi Vihdin kuntaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Lue artikkeleita työnhausta ja työelämästä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Jätä avoin hakemus hallinto- ja toimistotyöhön"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tallenna työpaikka suosikkeihin, esimerkiksi sosiaalialan työpaikka"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Muokkaa oman profiilin tietoja, kuten koulutustaustaa"
+    }
+  ]
+}

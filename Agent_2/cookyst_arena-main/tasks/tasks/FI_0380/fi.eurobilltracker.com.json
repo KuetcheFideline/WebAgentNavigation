@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.eurobilltracker.com",
+      "intent": "Tutkin sivuston etusivua, jotta voin ymmärtää, miten seuraa euroseteleiden matkaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.eurobilltracker.com",
+      "intent": "Luen usein kysytyt kysymykset (FAQ / Apua) -osion, jotta voin löytää vastauksia yleisiin kysymyksiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.eurobilltracker.com",
+      "intent": "Selailen tilastojen osiota, jotta voin nähdä, kuinka monia seteleitä on kirjattu ja mitkä maat ovat mukana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.eurobilltracker.com",
+      "intent": "Luo uusi seteli ja kirjaan sen, jotta voin seurata sen matkaa ympäri maailmaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.eurobilltracker.com",
+      "intent": "Tarkastan oman setelini sijainnin ja matkan, jotta voin nähdä, minne se on matkannut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.eurobilltracker.com",
+      "intent": "Osallistun keskustelupalstaan, jotta voin keskustella muiden käyttäjien kanssa seteleiden seuraamisesta"
+    }
+  ]
+}

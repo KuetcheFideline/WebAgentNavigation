@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://foro.aupazaragoza.com",
+      "intent": "Buscar información sobre el Real Zaragoza en el foro"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://foro.aupazaragoza.com",
+      "intent": "Explorar la sección de 'Historia y Efemérides' para conocer más sobre la historia del equipo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://foro.aupazaragoza.com",
+      "intent": "Leer las últimas noticias y comentarios sobre el Real Zaragoza en la sección de 'Actualidad'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://foro.aupazaragoza.com",
+      "intent": "Crear un nuevo tema en la sección de 'Mercado de Fichajes' para discutir sobre los posibles fichajes del equipo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://foro.aupazaragoza.com",
+      "intent": "Responder a un tema existente en la sección de 'Jugadores' para dar mi opinión sobre el rendimiento de un jugador en particular"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://foro.aupazaragoza.com",
+      "intent": "Votar en la encuesta de 'Vota tu alineación' para elegir mi once ideal para el próximo partido"
+    }
+  ]
+}

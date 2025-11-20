@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pirlotv.fr",
+      "intent": "Buscar información sobre cómo acceder al contenido de la página web pese a las restricciones legales."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pirlotv.fr",
+      "intent": "Explorar las opciones de configuración de cookies para habilitarlas y acceder al contenido de la página."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pirlotv.fr",
+      "intent": "Leer las políticas de privacidad y términos de uso para entender las razones legales detrás de la restricción de acceso."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pirlotv.fr",
+      "intent": "Acceder a la sección de mi cuenta para verificar si hay alguna notificación o mensaje relacionado con el acceso restringido."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pirlotv.fr",
+      "intent": "Intentar acceder a contenido premium o restringido para ver si el acceso es posible después de iniciar sesión."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pirlotv.fr",
+      "intent": "Contactar con el soporte técnico a través de la plataforma para solicitar ayuda y resolver el problema de acceso."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.flaschenpost.de",
+      "intent": "Ich möchte das Mitarbeiter-Portal erkunden, um zu sehen, was es bietet."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.flaschenpost.de",
+      "intent": "Ich will die Einstellungen-Seite finden, um meine persönlichen Daten zu überprüfen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.flaschenpost.de",
+      "intent": "Ich möchte den Menübereich untersuchen, um zu sehen, welche Optionen verfügbar sind."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.flaschenpost.de",
+      "intent": "Ich will mich abmelden, um meine Sitzung zu beenden und die Sicherheit meines Kontos zu gewährleisten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.flaschenpost.de",
+      "intent": "Ich möchte die Einstellungen ändern, um meine persönlichen Vorlieben anzupassen und das Portal an meine Bedürfnisse anzupassen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.flaschenpost.de",
+      "intent": "Ich will zurück zur Startseite navigieren, um die wichtigsten Funktionen des Portals zu überprüfen."
+    }
+  ]
+}

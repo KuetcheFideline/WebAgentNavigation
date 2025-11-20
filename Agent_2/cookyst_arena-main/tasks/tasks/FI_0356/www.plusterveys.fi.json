@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.plusterveys.fi",
+      "intent": "Hae hammashoitoa Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.plusterveys.fi",
+      "intent": "Vertaile eri hammashoitoloiden hintoja ja palveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.plusterveys.fi",
+      "intent": "Lue lisää suunterveyden perusteista ja vinkkejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.plusterveys.fi",
+      "intent": "Varaa aika hammashoitoon oman lääkärin luona"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.plusterveys.fi",
+      "intent": "Tarkastele omaa hoitohistoriaa ja tuloksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.plusterveys.fi",
+      "intent": "Anna palautetta viimekertaista hammashoitoa koskien"
+    }
+  ]
+}

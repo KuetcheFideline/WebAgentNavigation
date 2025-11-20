@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.abvv.be",
+      "intent": "Rechercher les informations sur les droits des travailleurs en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.abvv.be",
+      "intent": "Trouver un bureau ABVV près de chez moi à Uccle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.abvv.be",
+      "intent": "Lire les actualités sur les campagnes de l'ABVV pour les droits des travailleurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.abvv.be",
+      "intent": "Consulter mon dossier de travailleur sur Mijn ABVV pour vérifier mes droits"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.abvv.be",
+      "intent": "Calculer mon salaire net sur Mijn ABVV pour planifier mes finances"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.abvv.be",
+      "intent": "Contacter le service client de l'ABVV via Mijn ABVV pour obtenir des conseils sur mes droits de travailleur"
+    }
+  ]
+}

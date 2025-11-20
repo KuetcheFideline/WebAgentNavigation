@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ara.cat",
+      "intent": "Buscar noticias sobre el cambio climático en la sección de medio ambiente del diario ARA"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ara.cat",
+      "intent": "Leer el artículo sobre la situación en Ucrania y la visita de Zelenski a España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ara.cat",
+      "intent": "Explorar la sección de opinión y leer los artículos de los columnistas sobre temas de actualidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ara.cat",
+      "intent": "Comentar en el artículo sobre la situación en Gaza y expresar mi opinión sobre el tema"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ara.cat",
+      "intent": "Guardar el artículo sobre la Amazónica en mi biblioteca personal para leerlo más tarde"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ara.cat",
+      "intent": "Participar en la discusión en el foro sobre el futuro del Barça y la candidatura de Víctor Font"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://arkisto.biljardi.com",
+      "intent": "Selata biljardiliigan tuloksia ja ottelutuloksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://arkisto.biljardi.com",
+      "intent": "Etsiä tietoa biljarditurnauksista ja -tapahtumista Vaasassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://arkisto.biljardi.com",
+      "intent": "Lukea uutisia ja artikkeleita biljardista ja sen kehittymisestä Suomessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://arkisto.biljardi.com",
+      "intent": "Kirjautua sisään ja tarkastaa oma biljardiseuransa sivut ja tilastot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://arkisto.biljardi.com",
+      "intent": "Osallistua keskusteluihin ja foorumeille biljardin ystäville"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://arkisto.biljardi.com",
+      "intent": "Tarkastaa ja muokata omia pelaajatietoja ja -tilastoja"
+    }
+  ]
+}

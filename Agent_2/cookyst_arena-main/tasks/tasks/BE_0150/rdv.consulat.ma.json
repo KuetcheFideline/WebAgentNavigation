@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rdv.consulat.ma",
+      "intent": "Je veux consulter les informations générales sur les services consulaires proposés par le consulat du Maroc à l'étranger."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rdv.consulat.ma",
+      "intent": "Je souhaite prendre rendez-vous pour une démarche administrative sans créer de compte préalablement."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rdv.consulat.ma",
+      "intent": "Je désire explorer les différentes sections du site pour comprendre les procédures et les exigences pour les services consulaires."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rdv.consulat.ma",
+      "intent": "Je veux accéder à mon espace personnel pour gérer mes rendez-vous et mes démarches administratives en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rdv.consulat.ma",
+      "intent": "Je souhaite modifier mes informations personnelles et de contact dans mon compte pour assurer que tout est à jour."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rdv.consulat.ma",
+      "intent": "Je veux imprimer ou télécharger une preuve de rendez-vous ou un document lié à une démarche administrative que j'ai entamée."
+    }
+  ]
+}

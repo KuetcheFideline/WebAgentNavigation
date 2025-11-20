@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvoost.be",
+      "intent": "Rechercher des informations sur les événements à venir dans la région d'Oost-Vlaanderen sur le site de TV Oost"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvoost.be",
+      "intent": "Lire les dernières actualités sur le site de TV Oost, en particulier les articles liés à la politique et à l'économie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvoost.be",
+      "intent": "Consulter la section 'Programma's' pour découvrir les émissions télévisées proposées par TV Oost"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvoost.be",
+      "intent": "Se connecter à son compte pour accéder à la section 'Mijn profiel' et gérer ses préférences de notification"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvoost.be",
+      "intent": "Participer à un concours ou à un jeu proposé par TV Oost en se connectant à son compte et en suivant les instructions"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvoost.be",
+      "intent": "Configurer ses préférences de notification pour recevoir des alertes sur les dernières actualités et les émissions télévisées"
+    }
+  ]
+}

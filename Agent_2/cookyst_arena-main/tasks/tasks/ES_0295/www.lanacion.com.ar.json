@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lanacion.com.ar",
+      "intent": "Buscar noticias sobre la economía argentina en la sección de Economía"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lanacion.com.ar",
+      "intent": "Explorar la sección de Deportes para ver las últimas noticias sobre el fútbol argentino"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lanacion.com.ar",
+      "intent": "Leer el artículo sobre las medidas de Milei en la sección de Política"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lanacion.com.ar",
+      "intent": "Crear una nota personal en la sección de Mis notas sobre la situación económica actual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lanacion.com.ar",
+      "intent": "Comentar en un artículo de la sección de Opinión sobre la política económica del gobierno"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lanacion.com.ar",
+      "intent": "Guardar un artículo sobre el dólar hoy en la sección de Economía para leer más tarde"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rakkausrunot.fi",
+      "intent": "Etsin runoja, joissa on aiheena rakkaus ja kesä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rakkausrunot.fi",
+      "intent": "Haluan lukea uusimpia runoja ja kommentteja niistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rakkausrunot.fi",
+      "intent": "Tutkin sivuston sääntöjä ja käytäntöjä ennen kuin liityn jäseneksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rakkausrunot.fi",
+      "intent": "Kirjaudun sisään ja lisään uuden runon aiheesta ystävyys"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rakkausrunot.fi",
+      "intent": "Kommentoin yhtä mielenkiintoista runoa ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rakkausrunot.fi",
+      "intent": "Muokkaan profiiliani ja lisään tietoa itsestäni ja runoharrastuksestani"
+    }
+  ]
+}

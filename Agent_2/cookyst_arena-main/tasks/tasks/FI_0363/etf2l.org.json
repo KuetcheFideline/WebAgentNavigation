@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://etf2l.org",
+      "intent": "Etsin tietoa siitä, miten liityn ETF2L-liigaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://etf2l.org",
+      "intent": "Haluan tarkastella 6v6-sarjan taulukkoa ja otteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://etf2l.org",
+      "intent": "Luen uusimmat uutiset ja päivitykset ETF2L-sivustolta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://etf2l.org",
+      "intent": "Tarkastan joukkueeni sijoituksen ja ottelutiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://etf2l.org",
+      "intent": "Osallistun keskusteluun foorumilla ja kysyn neuvoa muilta pelaajilta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://etf2l.org",
+      "intent": "Ilmoitan joukkueeni osallistuvan tulevaan turnaukseen"
+    }
+  ]
+}

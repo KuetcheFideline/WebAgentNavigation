@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://talliosake.fi",
+      "intent": "Hae vapaat myytävät autotallit Espoosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://talliosake.fi",
+      "intent": "Selvitä miten Talliosakkeen tilat soveltuvat harrastetiloiksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://talliosake.fi",
+      "intent": "Lue lisää Talliosakkeen rahoitusvaihtoehdoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://talliosake.fi",
+      "intent": "Tee varaus vapaasta vuokrattavasta toimitilasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://talliosake.fi",
+      "intent": "Täytä lomake osakkaan mahdollisuudesta alv-palautukseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://talliosake.fi",
+      "intent": "Ota yhteyttä myyntipalveluun kysymyksellä Talliosakkeen lämmitysmuotovertailusta"
+    }
+  ]
+}

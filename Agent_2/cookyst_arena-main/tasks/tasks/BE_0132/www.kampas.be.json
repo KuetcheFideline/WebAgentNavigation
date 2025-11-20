@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kampas.be",
+      "intent": "Rechercher un hébergement pour un groupe d'étudiants en Flandre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kampas.be",
+      "intent": "Consulter les tarifs et les disponibilités des hébergements pour un séjour de plusieurs jours"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kampas.be",
+      "intent": "Lire les avis et les commentaires d'autres groupes sur les hébergements proposés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kampas.be",
+      "intent": "Réserver un hébergement en ligne pour un groupe d'étudiants et gérer les détails de la réservation"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kampas.be",
+      "intent": "Laisser un commentaire ou une évaluation sur un hébergement récemment visité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kampas.be",
+      "intent": "Gérer les réservations en cours et les détails de paiement pour les hébergements réservés"
+    }
+  ]
+}

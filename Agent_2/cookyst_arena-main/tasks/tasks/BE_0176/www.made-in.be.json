@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.made-in.be",
+      "intent": "Rechercher des informations sur les entreprises en difficulté dans la région d'Anvers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.made-in.be",
+      "intent": "Consulter les actualités économiques régionales pour rester informé sur les tendances et les opportunités"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.made-in.be",
+      "intent": "Explorer les secteurs d'activité présents sur le site pour découvrir de nouvelles entreprises et initiatives"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.made-in.be",
+      "intent": "Publier un commentaire sur un article pour partager son opinion et engager la discussion avec d'autres utilisateurs"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.made-in.be",
+      "intent": "Créer un compte pour recevoir la newsletter et rester informé des dernières actualités et événements"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.made-in.be",
+      "intent": "Gérer son profil pour mettre à jour ses informations personnelles et préférences"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.polttoaine.net",
+      "intent": "Etsin polttoaineen hintatietoja läheltäni Keuruuta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.polttoaine.net",
+      "intent": "Haluan tarkastella polttoaineen hintoja eri kaupungeissa Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.polttoaine.net",
+      "intent": "Tutkin miten ilmoitan polttoaineen hinnan muutoksen sivustolle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.polttoaine.net",
+      "intent": "Kirjaudun sisään järjestelmään, jotta voin ilmoittaa polttoaineen hinnan muutoksen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.polttoaine.net",
+      "intent": "Tallennan suosikkikaupungit, jotta voin nopeasti tarkastella niiden polttoaineen hintoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.polttoaine.net",
+      "intent": "Lähetän palautetta sivuston kehittämiseksi ja parantamiseksi"
+    }
+  ]
+}

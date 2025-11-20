@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.oulu.fi",
+      "intent": "Hae tietoa opiskelijoiden ohjeista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.oulu.fi",
+      "intent": "Selaa Moodlen etusivun uutisia ja päivityksiä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.oulu.fi",
+      "intent": "Lue tietosuojailmoitus ja saavutettavuusseloste"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.oulu.fi",
+      "intent": "Kirjaudu sisään ja tarkastele omia kursseja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.oulu.fi",
+      "intent": "Luo uusi kurssi tai ryhmä opiskelijoille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.oulu.fi",
+      "intent": "Vaihda käyttäjän omia asetuksia ja tietoja"
+    }
+  ]
+}

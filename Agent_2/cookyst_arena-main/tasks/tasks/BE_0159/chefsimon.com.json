@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://chefsimon.com",
+      "intent": "Rechercher des recettes de cuisine pour préparer un repas pour mes enfants en week-end"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://chefsimon.com",
+      "intent": "Découvrir les dernières actualités culinaires et les tendances de la saison"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://chefsimon.com",
+      "intent": "Explorer les différentes catégories de recettes proposées par le site, comme les plats principaux ou les desserts"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://chefsimon.com",
+      "intent": "Participer au forum pour partager mes expériences culinaires et demander des conseils aux autres membres"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://chefsimon.com",
+      "intent": "Créer et gérer ma liste de recettes préférées pour faciliter mes recherches futures"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://chefsimon.com",
+      "intent": "Publier mes propres recettes et les partager avec la communauté pour obtenir des commentaires et des évaluations"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.basketballstatsvlaanderen.be",
+      "intent": "Je souhaite consulter les statistiques des compétitions de basketball en Belgique pour mieux comprendre les performances de ton fils qui joue dans un club local."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.basketballstatsvlaanderen.be",
+      "intent": "Tu veux explorer les fonctionnalités du site pour voir si tu peux trouver des informations sur les clubs de basketball près de Tervuren où tu habites."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.basketballstatsvlaanderen.be",
+      "intent": "Tu cherches à comprendre comment utiliser les outils de statistiques pour analyser les performances de ton équipe favorite de basketball en Belgique."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.basketballstatsvlaanderen.be",
+      "intent": "Maintenant que tu es connecté, tu veux accéder à tes paramètres de compte pour mettre à jour tes préférences de notification sur les mises à jour des statistiques de basketball."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.basketballstatsvlaanderen.be",
+      "intent": "En tant qu'utilisateur connecté, tu souhaites exporter les données de statistiques d'une compétition spécifique pour les analyser plus en détail avec tes collègues."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.basketballstatsvlaanderen.be",
+      "intent": "Tu veux utiliser la fonction de messagerie du site pour contacter un autre utilisateur qui a publié des commentaires intéressants sur les statistiques de basketball pour discuter de stratégies d'analyse de données."
+    }
+  ]
+}

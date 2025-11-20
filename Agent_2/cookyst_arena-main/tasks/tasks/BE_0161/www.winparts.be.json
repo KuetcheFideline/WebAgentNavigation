@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.winparts.be",
+      "intent": "Rechercher des pièces de rechange pour ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.winparts.be",
+      "intent": "Comparer les prix de différents types de pneus pour mon véhicule"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.winparts.be",
+      "intent": "Lire les avis des clients sur les produits de la boutique en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.winparts.be",
+      "intent": "Consulter mes commandes passées pour suivre l'historique de mes achats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.winparts.be",
+      "intent": "Gérer mes informations personnelles et de facturation pour une meilleure expérience d'achat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.winparts.be",
+      "intent": "Utiliser le système de retours pour renvoyer un produit qui ne me convient pas"
+    }
+  ]
+}

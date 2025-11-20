@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dff-netsalg.dk",
+      "intent": "Jeg søger efter frimærker fra Danmark til min samling"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dff-netsalg.dk",
+      "intent": "Jeg ønsker at se alle kategorier af postkort og frimærker"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dff-netsalg.dk",
+      "intent": "Jeg vil gerne læse om de forskellige auktionslots og deres priser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dff-netsalg.dk",
+      "intent": "Jeg vil gerne byde på et auktionslot med frimærker fra Norden"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dff-netsalg.dk",
+      "intent": "Jeg ønsker at se mine tidligere køb og auktioner"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dff-netsalg.dk",
+      "intent": "Jeg vil gerne tilføje et nyt bud på et auktionslot med postkort"
+    }
+  ]
+}

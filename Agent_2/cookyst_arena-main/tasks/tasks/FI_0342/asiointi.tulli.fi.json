@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiointi.tulli.fi",
+      "intent": "Tutkin tullin verkkopalveluja, miten voin tehdä ilmoituksen tuontitavaroista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiointi.tulli.fi",
+      "intent": "Etsin tietoa siitä, miten voin maksaa tullimaksuni verkkopalvelun kautta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiointi.tulli.fi",
+      "intent": "Selvittelen, miten voin tulostaa tullausilmoitukseni verkkopalvelun kautta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiointi.tulli.fi",
+      "intent": "Tarkastan omaa tullausilmoitustani ja teen tarvittavat muutokset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiointi.tulli.fi",
+      "intent": "Lähetän uuden tullausilmoituksen verkkopalvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiointi.tulli.fi",
+      "intent": "Tarkastan maksuhistoriani ja tulostan tarvittavat kuitit"
+    }
+  ]
+}

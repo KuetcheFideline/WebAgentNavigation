@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.viagogo.es",
+      "intent": "Buscar entradas para el concierto de Dani Martín en Sevilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.viagogo.es",
+      "intent": "Explorar las secciones de deportes y conciertos para encontrar eventos en directo en España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.viagogo.es",
+      "intent": "Descargar la aplicación de viagogo para seguir a mis artistas favoritos y recibir notificaciones sobre eventos próximos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.viagogo.es",
+      "intent": "Comprar entradas para el partido de la Selección Española con mi cuenta de viagogo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.viagogo.es",
+      "intent": "Vender mis entradas para el concierto de Aitana que ya no puedo asistir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.viagogo.es",
+      "intent": "Seguir a André Rieu para recibir notificaciones sobre sus próximas giras y eventos en España"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://liikunta.nivala.fi",
+      "intent": "Tutustun Liikuntakeskus Uikon uimapaikkoihin ja etsin tietoa uinnin aikatauluista ja hinnoista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://liikunta.nivala.fi",
+      "intent": "Etsin tietoa keilahallin aukioloajoista ja hinnoista, jotta voisin suunnitella keilailuillan ystävieni kanssa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://liikunta.nivala.fi",
+      "intent": "Selvittelen, mitä liikuntapalveluita Liikuntakeskus Uikko tarjoaa ja etsin tietoa ryhmäliikuntatunneista, joissa voisin osallistua."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://liikunta.nivala.fi",
+      "intent": "Varaan ajan kuntosalille ja teetän varauksen Liikuntakeskus Uikon verkkopalvelun kautta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://liikunta.nivala.fi",
+      "intent": "Ilmoittaudun osallistumaan ryhmäliikuntatunnille, joka on tarkoitettu kuntosalin asiakkaille, ja teen varauksen verkkopalvelun kautta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://liikunta.nivala.fi",
+      "intent": "Tarkastan tilisiirtojen historiani ja varauskalenterini Liikuntakeskus Uikon verkkopalvelussa, jotta voisin seurata varauksiani ja maksujeni tilannetta."
+    }
+  ]
+}

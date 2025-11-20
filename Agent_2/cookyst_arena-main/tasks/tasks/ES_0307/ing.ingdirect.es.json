@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Consultar las tasas de interés actuales para cuentas de ahorro"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Buscar información sobre préstamos hipotecarios para comprar una segunda vivienda en la costa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Descargar el formulario de solicitud de tarjeta de crédito para personas físicas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Realizar una transferencia bancaria a mi hijo para ayudarle con los gastos universitarios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Consultar el extracto de mi cuenta corriente para verificar los cobros de las últimas facturas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Configurar una alerta para cuando el saldo de mi cuenta caiga por debajo de un umbral determinado"
+    }
+  ]
+}

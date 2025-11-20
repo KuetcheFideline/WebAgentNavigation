@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://agenda.mya-agenda.be",
+      "intent": "Rechercher un rendez-vous disponible pour une consultation dentaire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://agenda.mya-agenda.be",
+      "intent": "Explorer les fonctionnalités de l'agenda en ligne pour gérer mes rendez-vous"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://agenda.mya-agenda.be",
+      "intent": "Vérifier les disponibilités pour planifier une réunion avec mes confrères dentistes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://agenda.mya-agenda.be",
+      "intent": "Consulter mon agenda personnel pour vérifier mes prochains rendez-vous"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://agenda.mya-agenda.be",
+      "intent": "Modifier les détails d'un rendez-vous existant pour un patient"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://agenda.mya-agenda.be",
+      "intent": "Gérer les notifications de rappel pour mes rendez-vous à venir"
+    }
+  ]
+}

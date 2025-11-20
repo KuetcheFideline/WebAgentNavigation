@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://play.seppo.io",
+      "intent": "Hae pelikoodi ja aloita uusi peli"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://play.seppo.io",
+      "intent": "Lue lisää Sepposta ja sen ominaisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://play.seppo.io",
+      "intent": "Tutki pelin eri vaihtoehtoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://play.seppo.io",
+      "intent": "Kirjaudu sisään pelitilille ja tarkastele pelihistoriaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://play.seppo.io",
+      "intent": "Luo uusi peli ja määritä sen asetukset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://play.seppo.io",
+      "intent": "Hallinnoi olemassa olevia pelejä ja pelaajien tilastoja"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kiinteistoasiat.fi",
+      "intent": "Tutkin kiinteistövaihdannan palvelun etusivua, jotta voin löytää tietoa kiinteistöni arvosta ja myyntimahdollisuuksista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kiinteistoasiat.fi",
+      "intent": "Selailen kiinteistövaihdannan palvelun ohjeita ja sanastoa, jotta voin ymmärtää kiinteistökaupan kulun ja tarvittavat asiakirjat."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kiinteistoasiat.fi",
+      "intent": "Luen kiinteistövaihdannan palvelun yhteystietoja, jotta voin ottaa yhteyttä asiakaspalveluun, jos minulla on kysymyksiä kiinteistöni myyntiin liittyen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kiinteistoasiat.fi",
+      "intent": "Kirjaudun sisään palveluun, jotta voin tarkastella oman kiinteistöni perustietoja ja luonnostella asiakirjoja, kuten kiinteistön kauppakirjaa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kiinteistoasiat.fi",
+      "intent": "Tunnistaudun palveluun, jotta voin allekirjoittaa sähköisesti kiinteistönvälittäjän lähettämän kauppakirjan tai pankin lähettämän kiinnityshakemuksen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kiinteistoasiat.fi",
+      "intent": "Ostan rekisteritulosteita palvelussa tehtävän asiakirjan kohteesta, jotta voin saada tarvittavat tiedot kiinteistöni myyntiin liittyen."
+    }
+  ]
+}

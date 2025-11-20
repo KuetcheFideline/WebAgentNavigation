@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://folketidende.dk",
+      "intent": "Læse nyheder om kommunalvalget i Lolland og Falster"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://folketidende.dk",
+      "intent": "Søge efter artikler om sundhedsproblemer i Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://folketidende.dk",
+      "intent": "Se videoer om lokale begivenheder i Gellerup"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://folketidende.dk",
+      "intent": "Logge ind og læse min e-avis abonnement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://folketidende.dk",
+      "intent": "Betale for et abonnement på Folketidende"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://folketidende.dk",
+      "intent": "Kommentere på en artikel om kommunalpolitik"
+    }
+  ]
+}

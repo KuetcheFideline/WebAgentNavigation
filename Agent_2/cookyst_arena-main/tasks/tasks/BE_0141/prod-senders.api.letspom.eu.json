@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://prod-senders.api.letspom.eu",
+      "intent": "Je veux comprendre pourquoi j'ai accès refusé à cette page pour identifier la cause du problème."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://prod-senders.api.letspom.eu",
+      "intent": "Je souhaite trouver des informations sur les conditions d'accès à cette application pour éviter les erreurs 403 à l'avenir."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://prod-senders.api.letspom.eu",
+      "intent": "Je veux explorer les fonctionnalités publiques de cette application pour voir ce que je peux faire sans être connecté."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://prod-senders.api.letspom.eu",
+      "intent": "Je vais essayer de me connecter pour accéder à mes données personnelles et voir si mon compte est à jour."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://prod-senders.api.letspom.eu",
+      "intent": "Je souhaite configurer mes paramètres de compte pour améliorer la sécurité et la confidentialité de mes informations."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://prod-senders.api.letspom.eu",
+      "intent": "Je veux consulter l'historique de mes activités sur cette application pour suivre mes interactions et identifier les éventuelles erreurs."
+    }
+  ]
+}

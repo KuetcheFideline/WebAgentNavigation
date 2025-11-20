@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg søger at finde information om mine nuværende kontosaldoer på portalen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg ønsker at læse om de seneste nyheder og tilbud fra Landbobanken på deres hjemmeside."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg vil gerne se, om der er nogen nye funktioner eller services, som Landbobanken tilbyder på deres portal."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg skal overføre penge fra mit lån til min hovedkonto, så jeg kan betale min husleje på Sommerhus."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer og opdatere min adresse, så jeg kan modtage mine kontoudtog digitalt."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg skal downloade mine kvartalsrapporter for at holde styr på mine økonomiske transaktioner og planlægge mine fremtidige udgifter."
+    }
+  ]
+}

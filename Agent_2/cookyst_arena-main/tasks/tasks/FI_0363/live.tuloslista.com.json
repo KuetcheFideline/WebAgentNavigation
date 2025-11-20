@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://live.tuloslista.com",
+      "intent": "Hae kilpailun tuloksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://live.tuloslista.com",
+      "intent": "Selaa eri kilpailujen tuloksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://live.tuloslista.com",
+      "intent": "Etsi tiettyä kilpailua haulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://live.tuloslista.com",
+      "intent": "Tallenna suosikkikilpailuni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://live.tuloslista.com",
+      "intent": "Lisää kilpailu omalle seurantalistalleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://live.tuloslista.com",
+      "intent": "Vertaile eri kilpailujen tuloksia omassa profiilissani"
+    }
+  ]
+}

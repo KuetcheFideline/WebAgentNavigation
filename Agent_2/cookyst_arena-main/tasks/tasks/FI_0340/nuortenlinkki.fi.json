@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nuortenlinkki.fi",
+      "intent": "Tutkin sivuston evästeiden käyttöä ja yksityisyyden suojaamista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nuortenlinkki.fi",
+      "intent": "Etsin tietoa nuorten mielenterveyden tuista ja palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nuortenlinkki.fi",
+      "intent": "Selvitan, miten voin osallistua sivuston keskusteluihin ja foorumeihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nuortenlinkki.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman profiilini ja asetukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nuortenlinkki.fi",
+      "intent": "Lisään uuden keskustelun tai viestin sivuston foorumille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nuortenlinkki.fi",
+      "intent": "Muokkaan profiiliani ja lisään uusia tietoja itsestäni"
+    }
+  ]
+}

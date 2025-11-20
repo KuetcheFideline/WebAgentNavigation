@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.issf-sports.org",
+      "intent": "Lue uusimmat uutiset ammuntalajista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.issf-sports.org",
+      "intent": "Etsi tietoa tulevista kilpailuista ja turnauksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.issf-sports.org",
+      "intent": "Selaa ISSF:n verkkokauppaa ja etsi uusimmat tuotteet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.issf-sports.org",
+      "intent": "Kirjaudu sisään ja muokkaa profiiliaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.issf-sports.org",
+      "intent": "Osallistu keskusteluun ammuntalajin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.issf-sports.org",
+      "intent": "Tilaa uutiskirje ja pysy ajan tasalla ammuntalajin uutisista"
+    }
+  ]
+}

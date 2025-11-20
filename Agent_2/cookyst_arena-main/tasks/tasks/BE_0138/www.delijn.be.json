@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.delijn.be",
+      "intent": "Rechercher les horaires de train pour mon trajet quotidien de Wavre à Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.delijn.be",
+      "intent": "Consulter les informations sur les abonnements pour les pendelaars"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.delijn.be",
+      "intent": "Trouver les coordonnées d'un point de vente de tickets près de chez moi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.delijn.be",
+      "intent": "Gérer mon abonnement en ligne pour éviter les files d'attente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.delijn.be",
+      "intent": "Consulter mon historique d'achats de tickets pour faire une déclaration de frais"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.delijn.be",
+      "intent": "Modifier mes informations de compte pour recevoir des mises à jour sur les horaires et les tarifs"
+    }
+  ]
+}

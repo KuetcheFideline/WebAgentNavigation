@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://suomi.netvisor.fi",
+      "intent": "Tutustun Netvisorin etusivun tarjouksiin ja etsin tietoa pimeistä tarjouksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://suomi.netvisor.fi",
+      "intent": "Selailen Netvisorin mobiilivarmennepalveluita ja vertailen eri pankkien tarjoamia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://suomi.netvisor.fi",
+      "intent": "Luen Netvisorin tukisivuja ja etsin ohjeita kirjautumiseen ja salasanan vaihtamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://suomi.netvisor.fi",
+      "intent": "Tarkastan tilin saldoa ja luen viimeisimpiä transaktioita Netvisor-tililläni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://suomi.netvisor.fi",
+      "intent": "Muokkaan profiiliini ja päivitän yhteystietojani Netvisor-järjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://suomi.netvisor.fi",
+      "intent": "Luen ja vastaanottan viimeisimmät tiedotteet ja uutiset Netvisorin asiakastililleni"
+    }
+  ]
+}

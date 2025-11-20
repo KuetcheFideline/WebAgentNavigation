@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laitonlehti.net",
+      "intent": "Yritän etsiä tietoa sivuston virheestä ja miten voin ratkaista ongelman"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laitonlehti.net",
+      "intent": "Selvittelen, onko sivustolla hakutoiminto, jolla voisin etsiä tietoa aiheesta, josta olen kiinnostunut"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laitonlehti.net",
+      "intent": "Katselen, onko sivustolla sosiaalisen median linkkejä, joista voisin seurata heidän viestejään ja päivityksiään"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laitonlehti.net",
+      "intent": "Yritän kirjautua sisään ja tarkistaa, onko minulla oikeuksia muokata sivuston sisältöä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laitonlehti.net",
+      "intent": "Selvittelen, voinko lähettää viestin sivuston ylläpitäjälle tai muille käyttäjille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laitonlehti.net",
+      "intent": "Katselen, voinko muokata omaa profiilia tai asetuksia, jotka liittyvät sivuston toiminnallisuuteen"
+    }
+  ]
+}

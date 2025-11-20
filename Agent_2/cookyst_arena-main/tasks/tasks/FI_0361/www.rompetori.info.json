@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rompetori.info",
+      "intent": "Etsin joulumyyjäisiä tapahtumia Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rompetori.info",
+      "intent": "Haluan tietää miten voin ilmoittaa oman tapahtumani sivustolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rompetori.info",
+      "intent": "Luen lisää sivuston evästekäytännöstä ja tietosuojasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rompetori.info",
+      "intent": "Kirjaudun sisään ja lisään oman joulumyyjäistäni tapahtumakalenteriin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rompetori.info",
+      "intent": "Muokkaan profiiliani ja lisään kuvan itsestäni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rompetori.info",
+      "intent": "Ostan mainospaikan sivustolta joulumyyjäistäni varten"
+    }
+  ]
+}

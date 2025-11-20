@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Rechercher les dernières actualités sur le site pour rester informé sur les événements actuels en Belgique."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Consulter la section 'Sport' pour suivre les résultats et les actualités des équipes belges de football."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Lire les articles de la section 'Showbizz' pour découvrir les dernières nouvelles sur les célébrités belges et internationales."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Accéder à la section 'Digitale krant' pour lire les éditions numériques du journal et rester informé sur les actualités belges."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Gérer mon abonnement pour modifier mes préférences de contenu ou mettre à jour mes informations de paiement."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Participer à la section 'Luister' pour écouter les podcasts et les émissions audio proposés par le site."
+    }
+  ]
+}

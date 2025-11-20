@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aena.es",
+      "intent": "Buscar información sobre los requisitos de documentación para viajar desde España a Alemania"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aena.es",
+      "intent": "Explorar las opciones de parking en el aeropuerto Adolfo Suárez Madrid-Barajas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aena.es",
+      "intent": "Leer sobre las medidas de seguridad en los aeropuertos españoles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aena.es",
+      "intent": "Reservar un parking en el aeropuerto de Barcelona-El Prat para un viaje próximo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aena.es",
+      "intent": "Acceder a los descuentos exclusivos para socios en salas VIP"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aena.es",
+      "intent": "Consultar el estado de mi reserva de parking en el aeropuerto de Madrid-Barajas"
+    }
+  ]
+}

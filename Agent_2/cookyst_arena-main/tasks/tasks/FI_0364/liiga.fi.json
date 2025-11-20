@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://liiga.fi",
+      "intent": "Tutkin Liiga-sivustoa, jotta voin seurata suosikkijoukkueeni uutisia ja tuloksia."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://liiga.fi",
+      "intent": "Etsin sivustolta tietoa siitä, miten voinkirjautua tapahtumiin ja ostaa liput joukkueeni peleihin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://liiga.fi",
+      "intent": "Selailen sivuston uutisia ja artikkeleita, jotta voin pysyä ajan tasalla Liiga-kilpailusta ja sen joukkueista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://liiga.fi",
+      "intent": "Kirjaudun sisään ja muokkaan profiiliini, jotta voin vastaanottaa henkilökohtaisia tarjouksia ja uutisia suosikkijoukkueestani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://liiga.fi",
+      "intent": "Ostan lippuja tulevaan peliin kirjautumalla sisään ja käyttämällä etuja, joita tarjoaa sivuston jäsenyys."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://liiga.fi",
+      "intent": "Osallistun keskusteluihin ja foorumeille, joissa käydään keskustelua Liiga-joukkueista ja -pelaajista, ja jaan omaa asiantuntijuuttani muiden kanssa."
+    }
+  ]
+}

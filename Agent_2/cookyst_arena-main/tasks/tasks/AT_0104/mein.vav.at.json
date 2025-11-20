@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mein.vav.at",
+      "intent": "Ich möchte mich auf der Startseite über die Vorteile einer Registrierung informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mein.vav.at",
+      "intent": "Ich will die verschiedenen Anmeldemöglichkeiten wie Login und Registrierung auf der Seite erkunden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mein.vav.at",
+      "intent": "Ich möchte die Seite nach Informationen über die Kundennummer und das Passwort durchsuchen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mein.vav.at",
+      "intent": "Ich möchte nach dem Einloggen meine persönlichen Daten wie Vorname und Nachname überprüfen und ggf. aktualisieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mein.vav.at",
+      "intent": "Ich will nach dem Login meine Kontoinformationen wie die Kundennummer und das Passwort ändern."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mein.vav.at",
+      "intent": "Ich möchte mich nach dem Einloggen aus meinem Konto abmelden und die Logout-Funktion testen."
+    }
+  ]
+}

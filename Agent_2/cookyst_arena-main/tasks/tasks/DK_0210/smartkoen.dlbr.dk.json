@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://smartkoen.dlbr.dk",
+      "intent": "Jeg søger efter information om ko-kortet på SmartKoen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://smartkoen.dlbr.dk",
+      "intent": "Jeg vil se, hvordan jeg kan finde dyrelisten på SmartKoen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://smartkoen.dlbr.dk",
+      "intent": "Jeg ønsker at lære mere om reproduktionshændelser på SmartKoen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://smartkoen.dlbr.dk",
+      "intent": "Jeg vil registrere en ny behandling for et dyr på SmartKoen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://smartkoen.dlbr.dk",
+      "intent": "Jeg søger efter at se mine dyrs reproduktionsstatus på SmartKoen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://smartkoen.dlbr.dk",
+      "intent": "Jeg vil opdatere en eksisterende behandling for et dyr på SmartKoen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dodsannoncer.dk",
+      "intent": "Jeg søger efter at indrykke en dødsannonce for min afdøde slægtning, så jeg vil udfylde tekstboksen med den ønskede annoncetekst og vælge det relevante symbol og teksteksempel."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dodsannoncer.dk",
+      "intent": "Jeg vil se eksempler på dødsannoncer og takkeannoncer for at få inspiration til min egen annonce, så jeg kan vælge det mest passende udtryk for min situation."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dodsannoncer.dk",
+      "intent": "Jeg søger efter at finde en avis, hvor jeg kan indrykke min dødsannonce, så jeg vil bruge søgefunktionen til at finde den rigtige avis og se deadline for indrykning."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dodsannoncer.dk",
+      "intent": "Jeg vil indrykke en dødsannonce og har allerede en konto, så jeg logger ind og udfylder annoncen med den ønskede tekst og vælger det relevante symbol og teksteksempel."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dodsannoncer.dk",
+      "intent": "Jeg søger efter at se mine tidligere indrykkede annoncer, så jeg logger ind og checker min konto for at se, om der er nogen opdateringer eller ændringer, jeg skal foretage."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dodsannoncer.dk",
+      "intent": "Jeg vil betale for min dødsannonce, så jeg logger ind og følger betalingsprocessen for at sikre, at annoncen bliver offentliggjort i den valgte avis og på nettet."
+    }
+  ]
+}

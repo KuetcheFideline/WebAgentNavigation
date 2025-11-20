@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://donorportaal.rodekruis.be",
+      "intent": "Rechercher les informations sur les exigences pour devenir donateur de sang"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://donorportaal.rodekruis.be",
+      "intent": "Consulter les questions fréquentes sur le don de sang, de plasma et de plaquettes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://donorportaal.rodekruis.be",
+      "intent": "Explorer les avantages et les inconvénients du don de sang pour les donneurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://donorportaal.rodekruis.be",
+      "intent": "Planifier un rendez-vous pour un don de sang en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://donorportaal.rodekruis.be",
+      "intent": "Vérifier les informations personnelles et les antécédents médicaux pour s'assurer de la compatibilité avec le don de sang"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://donorportaal.rodekruis.be",
+      "intent": "Consulter l'historique des dons de sang et de plasma pour suivre les progrès et les statistiques"
+    }
+  ]
+}

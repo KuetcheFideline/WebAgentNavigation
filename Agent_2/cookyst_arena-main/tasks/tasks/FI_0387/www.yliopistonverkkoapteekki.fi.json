@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Hae akneihon puhdistustuotteita äidilleni, jolla on Alzheimerin tauti."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Selvitä, mitä tuotteita on tarjolla allergisen nuhan hoitoon, koska minulla on ollut ongelmia siitepölyallergian kanssa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Etsi tietoa kuivan suun hoitotuotteista, koska minun on vaikea syödä ja juoda äidilleni tarkoitettuja ruokia ja juomia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Tilaa äidilleni tarpeellisia lääkkeitä ja hoitotuotteita, joita olemme aiemmin käyttäneet."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Tarkista tilaamieni tuotteiden toimitustilanne, jotta voimme suunnitella äidin hoitoa tehokkaammin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Muokkaa olemassa olevaa tilausta, koska äidin lääke- ja hoitotuotteiden tarpeet ovat muuttuneet."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://agenda-en-ligne.be",
+      "intent": "Rechercher les conditions d'utilisation du site pour comprendre les règles de confidentialité"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://agenda-en-ligne.be",
+      "intent": "Consulter la page d'accueil pour découvrir les fonctionnalités proposées par le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://agenda-en-ligne.be",
+      "intent": "Cliquez sur le lien 'Vie privée' pour en savoir plus sur la politique de protection des données personnelles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://agenda-en-ligne.be",
+      "intent": "Consulter mon agenda en ligne pour gérer mes rendez-vous médicaux"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://agenda-en-ligne.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mes coordonnées personnelles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://agenda-en-ligne.be",
+      "intent": "Gérer mes paramètres de confidentialité pour contrôler l'accès à mes données personnelles"
+    }
+  ]
+}

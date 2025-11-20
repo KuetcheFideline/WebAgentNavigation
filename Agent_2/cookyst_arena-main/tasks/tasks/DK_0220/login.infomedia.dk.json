@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.infomedia.dk",
+      "intent": "Jeg skal klikke på 'Log me back ind' for at forsøge at logge ind igen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.infomedia.dk",
+      "intent": "Jeg skal klikke på 'Forgot your password?' for at nulstille min adgangskode"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.infomedia.dk",
+      "intent": "Jeg skal vælge sprog til dansk for at fortsætte med login-processen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.infomedia.dk",
+      "intent": "Jeg skal klikke på 'Auto Login' for at aktivere automatisk login"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.infomedia.dk",
+      "intent": "Jeg skal klikke på 'Reset Password' for at ændre min adgangskode efter login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.infomedia.dk",
+      "intent": "Jeg skal klikke på 'Login' for at bekræfte min login og få adgang til Infomedia Insight"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.skyscanner.net",
+      "intent": "Rechercher des vols pour un week-end à Paris en utilisant le comparateur de prix de Skyscanner."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.skyscanner.net",
+      "intent": "Explorer les destinations les plus populaires en Europe pour un voyage en solo, en fonction de mes préférences de loisirs."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.skyscanner.net",
+      "intent": "Lire les avis et les commentaires des utilisateurs sur les compagnies aériennes low-cost pour mieux planifier mes voyages futurs."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.skyscanner.net",
+      "intent": "Enregistrer mes préférences de voyage pour recevoir des alertes personnalisées sur les vols et les offres spéciales."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.skyscanner.net",
+      "intent": "Consulter mon historique de recherche pour suivre mes voyages précédents et planifier de nouveaux itinéraires en fonction de mes expériences passées."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.skyscanner.net",
+      "intent": "Gérer mes alertes de prix pour être informé des meilleures offres sur les routes que je fréquente le plus, comme Bruxelles-Paris."
+    }
+  ]
+}

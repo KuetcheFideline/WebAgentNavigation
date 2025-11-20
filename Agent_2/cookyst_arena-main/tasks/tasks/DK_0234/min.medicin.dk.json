@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger information om medicin til min skulderpine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil læse om nyheder om sundhedsfaglige emner"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger efter instruktionsfilm om, hvordan jeg bruger min inhalator"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil se mine gemte medicinliste og læse om mine medicin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger efter information om mine mulige bivirkninger af min medicin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil tilføje en ny medicin til min liste over medicin, som jeg tager"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.virtasenmaalitehdas.fi",
+      "intent": "Hae sivustolta Virtasen maaleja, joilla voisi maalata oman talon ulkoseinät"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.virtasenmaalitehdas.fi",
+      "intent": "Lue lisää Virtasen maaleista ja niiden ominaisuuksista, jotta voisin päättää, mikä maali sopii parhaiten minun tarpeisiini"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.virtasenmaalitehdas.fi",
+      "intent": "Tilaa ilmainen Virtasnäyte, jotta voisin testata maalia ennen ostopäätöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.virtasenmaalitehdas.fi",
+      "intent": "Kirjaudu sisään ja tilaa Virtasen maalia, jonka olen valinnut taloni ulkoseiniin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.virtasenmaalitehdas.fi",
+      "intent": "Lisää Virtasen maali ostoskoriin ja siirry kassalle maksamaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.virtasenmaalitehdas.fi",
+      "intent": "Täytä tilauksen toimitus- ja laskutusosoitteet, jotta maali toimitettaisiin oikeaan osoitteeseen"
+    }
+  ]
+}

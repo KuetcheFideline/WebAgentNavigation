@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://immo.notaire.be",
+      "intent": "Rechercher une maison à vendre dans la région de Bruxelles pour un budget maximum de 300 000€"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://immo.notaire.be",
+      "intent": "Consulter les derniers biens publiés sur le site pour avoir une idée des prix et des types de biens disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://immo.notaire.be",
+      "intent": "Utiliser la fonction de recherche par filtres pour trouver un appartement à louer dans le centre-ville de Bruxelles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://immo.notaire.be",
+      "intent": "Enregistrer une alerte pour recevoir des notifications lorsqu'un nouveau bien correspondant à mes critères de recherche est publié"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://immo.notaire.be",
+      "intent": "Contacter un notaire pour obtenir plus d'informations sur un bien qui m'intéresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://immo.notaire.be",
+      "intent": "Gérer mes biens favoris et mes alertes pour suivre l'évolution du marché immobilier"
+    }
+  ]
+}

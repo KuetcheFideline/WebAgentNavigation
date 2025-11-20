@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mbworld.org",
+      "intent": "Selvittää Mercedes-Benz -mallien hintoja Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mbworld.org",
+      "intent": "Lukea arvosteluita Mercedes-Benz S-Class -mallista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mbworld.org",
+      "intent": "Etsiä tietoa Mercedes-Benz -huoltoon liittyvistä kysymyksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mbworld.org",
+      "intent": "Kirjautua sisään ja osallistua keskusteluun Mercedes-Benz -foorumilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mbworld.org",
+      "intent": "Julkaista oma Mercedes-Benz -aiheinen kysymys ja odottaa vastauksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mbworld.org",
+      "intent": "Vastata toisten käyttäjien kysymyksiin ja osallistua yhteisöön"
+    }
+  ]
+}

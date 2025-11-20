@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://prieres.date",
+      "intent": "Rechercher les horaires de prières pour la ville de Gand"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://prieres.date",
+      "intent": "Explorer les pays populaires pour les horaires de prières"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://prieres.date",
+      "intent": "Consulter les informations sur les heures de prière pour la ville de Paris"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://prieres.date",
+      "intent": "Enregistrer mes préférences de localisation pour les horaires de prières"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://prieres.date",
+      "intent": "Créer un widget pour afficher les horaires de prières sur mon site web personnel"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://prieres.date",
+      "intent": "Paramétrer les notifications pour les horaires de prières de la journée"
+    }
+  ]
+}

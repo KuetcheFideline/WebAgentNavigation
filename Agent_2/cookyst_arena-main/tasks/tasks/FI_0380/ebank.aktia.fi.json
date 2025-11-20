@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Tarkistin verkkopankin toimintahäiriön syyt ja korjausajan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Etsin tietoa verkkopankin teknisen virheen aiheuttamista häiriöistä ja miten vian korjaus vaikuttaa asiakkaisiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Selvittäisin, miten voin jatkaa pankkitoimia teknisen virheen aikana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Tarkistin tilieni saldon ja viimeaikaiset tapahtumat verkkopankissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Muutin verkkopankin käyttäjätunnusteni ja salasanan, koska en ole muuttanut niitä pitkään aikaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Lähettäisin viestin asiakaspalveluun teknisen virheen aiheuttamista ongelmista ja pyytäisin apua"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://admin.onlinefact.be",
+      "intent": "Je veux consulter la politique de confidentialité pour comprendre comment mes données personnelles sont traitées."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://admin.onlinefact.be",
+      "intent": "J'aimerais savoir comment récupérer mon mot de passe si je l'oublie, pour éviter les problèmes d'accès à mon compte."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://admin.onlinefact.be",
+      "intent": "Je souhaite explorer les fonctionnalités de base du site pour comprendre ce que je peux faire sans avoir à me connecter."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://admin.onlinefact.be",
+      "intent": "Une fois connectée, je veux accéder à mon tableau de bord pour voir les dernières mises à jour et les notifications importantes."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://admin.onlinefact.be",
+      "intent": "Je veux configurer mes préférences de compte pour personnaliser mon expérience sur le site et recevoir des informations pertinentes."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://admin.onlinefact.be",
+      "intent": "Après m'être connectée, je souhaite consulter l'historique de mes activités pour suivre mes interactions avec le site et gérer mes données."
+    }
+  ]
+}

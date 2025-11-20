@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je souhaite consulter les dernières actualités sur le site de De Telegraaf pour rester informé sur les événements actuels en Belgique et aux Pays-Bas."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Vous cherchez à lire les articles de sport, notamment les actualités sur l'équipe de football néerlandaise, pour suivre vos équipes préférées."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Vous souhaitez explorer la section 'Nieuwsbrieven' pour vous abonner à des newsletters sur des sujets qui vous intéressent, tels que la politique ou les actualités locales."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Après vous être connecté, vous souhaitez accéder à vos paramètres de compte pour mettre à jour vos préférences de notification et personnaliser votre expérience sur le site."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Une fois connecté, vous souhaitez consulter vos archives d'articles pour relire des publications qui vous ont intéressé précédemment et suivre l'évolution des sujets qui vous tiennent à cœur."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Après avoir accédé à votre compte, vous souhaitez vous abonner à des contenus premium pour avoir accès à des articles et des analyses en profondeur sur les sujets qui vous passionnent."
+    }
+  ]
+}

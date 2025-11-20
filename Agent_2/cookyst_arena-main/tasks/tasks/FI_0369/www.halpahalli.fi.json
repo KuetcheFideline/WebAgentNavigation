@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.halpahalli.fi",
+      "intent": "Hae verkkokaupasta uusimmat joulukoristeet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.halpahalli.fi",
+      "intent": "Vertaa eri valmistajien valoketjujen hinnat ja ominaisuudet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.halpahalli.fi",
+      "intent": "Lue asiakasarvosteluita Muumi-mukien laadusta ja suunnittelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.halpahalli.fi",
+      "intent": "Tarkista tilaustani historiatiedot ja seuranta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.halpahalli.fi",
+      "intent": "Muuta osoitetietojani ja päivitä profiili"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.halpahalli.fi",
+      "intent": "Lisää tuoteostoskoriin ja tee maksu varauksella"
+    }
+  ]
+}

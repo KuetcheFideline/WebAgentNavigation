@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fantasy.formula1.com",
+      "intent": "Selvitän, miten F1-fantasiapeli toimii ja mitä sääntöjä siinä on."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fantasy.formula1.com",
+      "intent": "Luen kaikki F1-uutiset ja tulokset, jotta voin päivittää tietäni ja tehdä parempia valintoja fantasiapeliin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fantasy.formula1.com",
+      "intent": "Etsin tietoa siitä, miten voin asentaa sovelluksen ja millaisia ominaisuuksia siinä on."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fantasy.formula1.com",
+      "intent": "Luo uusi joukkue ja valitsen kuljettajat, jotka uskon voittavan seuraavan kilpailun."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fantasy.formula1.com",
+      "intent": "Tarkistan joukkueeni nykyisen kokoonpanon ja teen tarvittavat muutokset ennen seuraavaa kilpailua."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fantasy.formula1.com",
+      "intent": "Vertailen joukkueeni tilastoa muiden pelaajien kanssa ja etsin vinkkejä, joilla voin parantaa omaa suoritustani."
+    }
+  ]
+}

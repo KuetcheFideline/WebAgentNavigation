@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mysaldo.tact.fi",
+      "intent": "Tutkin miten voin tehdä nostoja ja maksusuorituksia 24/7"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mysaldo.tact.fi",
+      "intent": "Etsin tietoa siitä, miten voin käyttää palvelua turvallisesti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mysaldo.tact.fi",
+      "intent": "Selvitan, mitä ominaisuuksia palvelussa on ja miten ne toimivat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mysaldo.tact.fi",
+      "intent": "Tarkastan tilin saldoa ja tekemäni maksusuoritukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mysaldo.tact.fi",
+      "intent": "Muutan tilin asetuksia, kuten maksukorttien tietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mysaldo.tact.fi",
+      "intent": "Lähettän viestiä asiakaspalveluun, koska minulla on ongelmia palvelun kanssa"
+    }
+  ]
+}

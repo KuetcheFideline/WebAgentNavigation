@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Buscar noticias sobre el Real Madrid en la sección de Fichajes y precios"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Leer artículos de opinión en la sección de Tertulias para conocer las últimas tendencias del fútbol"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Explorar la sección de Curiosidades para descubrir hechos interesantes sobre el Real Madrid"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Comentar en un artículo de la sección de Actualidad sobre el futuro de Xabi Alonso en el Real Madrid"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Crear un tema de discusión en la sección de Chafarderías sobre los posibles fichajes del Real Madrid en el mercado de verano"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Enviar un mensaje privado a otro usuario para discutir sobre la estrategia del Real Madrid en la próxima temporada"
+    }
+  ]
+}

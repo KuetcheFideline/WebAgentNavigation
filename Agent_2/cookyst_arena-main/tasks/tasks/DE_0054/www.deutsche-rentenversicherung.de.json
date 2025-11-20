@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.deutsche-rentenversicherung.de",
+      "intent": "Ich möchte Informationen über die Möglichkeiten der Rehabilitation für Rentner finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.deutsche-rentenversicherung.de",
+      "intent": "Ich will den Rentenschätzer nutzen, um meine zukünftige Rente zu berechnen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.deutsche-rentenversicherung.de",
+      "intent": "Ich suche nach allgemeinen Informationen über die Rente und wie ich sie beantrage."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.deutsche-rentenversicherung.de",
+      "intent": "Ich möchte mein Rentenkonto einsehen und meine Versicherungsnummer überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.deutsche-rentenversicherung.de",
+      "intent": "Ich will meine Renteninformationen online abrufen und eventuelle Änderungen vornehmen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.deutsche-rentenversicherung.de",
+      "intent": "Ich möchte meine Reha-Antragsstellung online durchführen und den Status meines Antrags überprüfen."
+    }
+  ]
+}

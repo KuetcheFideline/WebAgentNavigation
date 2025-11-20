@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.marcaentradas.com",
+      "intent": "Buscar entradas para un concierto de rock en Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.marcaentradas.com",
+      "intent": "Comparar precios de entradas para un partido de fútbol de La Liga"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.marcaentradas.com",
+      "intent": "Explorar la sección de eventos de música en vivo en Barcelona"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.marcaentradas.com",
+      "intent": "Comprar entradas para un concierto de Katy Perry en Madrid después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.marcaentradas.com",
+      "intent": "Configurar mis preferencias de notificación para eventos de deportes en directo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.marcaentradas.com",
+      "intent": "Ver el historial de mis compras de entradas y descargar mis tickets para un evento de teatro"
+    }
+  ]
+}

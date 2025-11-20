@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lappeenranta.digitransit.fi",
+      "intent": "Hae reitti Lappeenrannan keskustasta kauppakeskuksen puolelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lappeenranta.digitransit.fi",
+      "intent": "Tutki Lappeenrannan joukkoliikenteen aikatauluja ja hinnastoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lappeenranta.digitransit.fi",
+      "intent": "Etsi Lappeenrannan bussien reitit ja pysäkit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lappeenranta.digitransit.fi",
+      "intent": "Tallenna suosikkireitit ja -pysäkit Lappeenrannan joukkoliikenteessä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lappeenranta.digitransit.fi",
+      "intent": "Osta matkakortti tai lataa joukkoliikennelippu Lappeenrannan matkailuun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lappeenranta.digitransit.fi",
+      "intent": "Ilmoita havainto tai palaute Lappeenrannan joukkoliikenteen palveluista"
+    }
+  ]
+}

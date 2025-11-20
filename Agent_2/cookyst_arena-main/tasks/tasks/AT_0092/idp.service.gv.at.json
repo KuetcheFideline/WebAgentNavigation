@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://idp.service.gv.at",
+      "intent": "Ich möchte mich über die Anmeldemethoden am Serviceportal Bund informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://idp.service.gv.at",
+      "intent": "Ich will die Informationen zur ID Austria und Handysignatur lesen, um zu verstehen, wie ich mich anmelden kann."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://idp.service.gv.at",
+      "intent": "Ich möchte die Datenschutzinformationen und das Impressum des Serviceportals Bund einsehen, um sicherzustellen, dass meine Daten geschützt sind."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://idp.service.gv.at",
+      "intent": "Ich möchte mich mit meiner Benutzer-ID und meinem Passwort anmelden, um auf die Dienste des Serviceportals Bund zuzugreifen und meine persönlichen Daten zu verwalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://idp.service.gv.at",
+      "intent": "Ich will meine persönlichen Daten und Einstellungen im Serviceportal Bund überprüfen und ggf. aktualisieren, um sicherzustellen, dass alles korrekt ist."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://idp.service.gv.at",
+      "intent": "Ich möchte die Funktionen des Serviceportals Bund nutzen, um meine Beantragung von Förderungen oder anderen Dienstleistungen zu bearbeiten und zu verfolgen."
+    }
+  ]
+}

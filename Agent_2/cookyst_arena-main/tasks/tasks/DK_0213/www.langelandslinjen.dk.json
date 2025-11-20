@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.langelandslinjen.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan booke en billet til Langeland med LANGELANDSLINJEN."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.langelandslinjen.dk",
+      "intent": "Jeg vil gerne læse mere om de forskellige billettyper og priser, som LANGELANDSLINJEN tilbyder."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.langelandslinjen.dk",
+      "intent": "Jeg ønsker at downloade LANGELANDSLINJENs app for at kunne booke billetter og få information om afgangstider."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.langelandslinjen.dk",
+      "intent": "Jeg vil gerne logge ind for at ændre min billet og få refunderet, hvis jeg har ændret mine rejseplaner."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.langelandslinjen.dk",
+      "intent": "Jeg søger efter at booke en billet til Langeland og ønsker at administrere mine gemte kreditkort og lave tilkøb i LANGELANDSLINJENs app."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.langelandslinjen.dk",
+      "intent": "Jeg vil gerne se mine tidligere rejser og billetkøb i LANGELANDSLINJENs kundeportal for at planlægge min næste rejse."
+    }
+  ]
+}

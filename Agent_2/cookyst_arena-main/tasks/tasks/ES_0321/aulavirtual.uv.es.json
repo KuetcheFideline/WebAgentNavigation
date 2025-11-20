@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aulavirtual.uv.es",
+      "intent": "Buscar información sobre los cursos disponibles en la plataforma de Aula Virtual"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aulavirtual.uv.es",
+      "intent": "Explorar la sección de ayuda y recursos para estudiantes en la plataforma"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aulavirtual.uv.es",
+      "intent": "Leer las noticias y actualizaciones sobre la plataforma de Aula Virtual"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aulavirtual.uv.es",
+      "intent": "Iniciar sesión y acceder a mis cursos y materiales de estudio en la plataforma"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aulavirtual.uv.es",
+      "intent": "Configurar mis preferencias y ajustes de cuenta en la plataforma de Aula Virtual"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aulavirtual.uv.es",
+      "intent": "Descargar materiales y recursos de mis cursos en la plataforma de Aula Virtual"
+    }
+  ]
+}

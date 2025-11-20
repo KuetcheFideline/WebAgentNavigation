@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pyhajarvensanomat.fi",
+      "intent": "Luen uutisia Pyhäjärven Sanomista, koska haluan tietää, mitä on tapahtunut kaupungissani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pyhajarvensanomat.fi",
+      "intent": "Etsin artikkeleita luonnosta ja ympäristöstä, koska olen kiinnostunut luonnon säilyttämisestä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pyhajarvensanomat.fi",
+      "intent": "Selailen arkistoa, jotta voin lukea vanhoja uutisia ja artikkeleita Pyhäjärven historiasta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pyhajarvensanomat.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkeleita, joissa käsitellään Pyhäjärven kulttuurimatkailun kehittämistä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pyhajarvensanomat.fi",
+      "intent": "Tilaa uutiskirje, jotta saan sähköpostiini uusimmat uutiset ja artikkelit Pyhäjärven Sanomista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pyhajarvensanomat.fi",
+      "intent": "Lähetän palaute Pyhäjärven Sanomille, koska haluan antaa palautetta heidän artikkeleistaan ja uutispalvelustaan."
+    }
+  ]
+}

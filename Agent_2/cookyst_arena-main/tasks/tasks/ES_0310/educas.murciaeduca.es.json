@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://educas.murciaeduca.es",
+      "intent": "Buscar información sobre cómo reestablecer la contraseña en caso de que la haya olvidado"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://educas.murciaeduca.es",
+      "intent": "Explorar las opciones de acceso con Certificado Digital y Cl@ve para entender mejor las alternativas de inicio de sesión"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://educas.murciaeduca.es",
+      "intent": "Leer la información proporcionada en el portal sobre el ID de usuario y cómo se determina según el tipo de usuario"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://educas.murciaeduca.es",
+      "intent": "Acceder a los servicios electrónicos disponibles una vez iniciada la sesión para explorar las funcionalidades del portal"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://educas.murciaeduca.es",
+      "intent": "Consultar y gestionar la información personal y de acceso en el perfil de usuario una vez dentro del sistema"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://educas.murciaeduca.es",
+      "intent": "Utilizar el sistema para realizar tareas relacionadas con la educación, como consultar notas o programar reuniones con profesores"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uv.es",
+      "intent": "Buscar información sobre los estudios de grado en electricidad en la Universitat de València"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uv.es",
+      "intent": "Explorar las oportunidades de investigación y transferencia en el campo de la electricidad en la UV"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uv.es",
+      "intent": "Descubrir los recursos y servicios disponibles para los estudiantes de la Universitat de València"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uv.es",
+      "intent": "Acceder al aula virtual para consultar mis notas y tareas como estudiante de la Universitat de València"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uv.es",
+      "intent": "Gestionar mi perfil de estudiante y actualizar mis datos personales en la plataforma de la Universitat de València"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uv.es",
+      "intent": "Solicitar una beca o ayuda económica para apoyar mis estudios en la Universitat de València"
+    }
+  ]
+}

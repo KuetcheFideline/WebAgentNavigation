@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.prd.itsme.be",
+      "intent": "Je veux explorer les fonctionnalités de base du site pour comprendre ce que je peux faire ici."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.prd.itsme.be",
+      "intent": "Je souhaite chercher des informations sur la façon de gérer mes données personnelles sur ce site."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.prd.itsme.be",
+      "intent": "Je veux vérifier si le site propose des outils de gestion de compte ou de connexion pour faciliter mes futures visites."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.prd.itsme.be",
+      "intent": "Maintenant que je suis connecté, je veux configurer mes paramètres de profil pour personnaliser mon expérience sur le site."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.prd.itsme.be",
+      "intent": "Je souhaite accéder à mes informations personnelles stockées sur le site pour les mettre à jour si nécessaire."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.prd.itsme.be",
+      "intent": "Je veux explorer les fonctionnalités avancées réservées aux utilisateurs connectés pour voir ce que je peux faire de plus par rapport à un utilisateur non connecté."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://support-leagueoflegends.riotgames.com",
+      "intent": "Hae tietoa siitä, miten voin muuttaa Riot-tilinani salasanaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://support-leagueoflegends.riotgames.com",
+      "intent": "Lue lisää siitä, miten voin suojella tiliäni huijareilta ja tietosuojaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://support-leagueoflegends.riotgames.com",
+      "intent": "Selvitä, miten voin ladata ja asentaa League of Legends -pelin uudelleen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://support-leagueoflegends.riotgames.com",
+      "intent": "Tarkista tilini tiedot ja varmista, että kaikki on kunnossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://support-leagueoflegends.riotgames.com",
+      "intent": "Lähetä viesti Riotin asiakastukeen, koska minulla on ongelmia pelin kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://support-leagueoflegends.riotgames.com",
+      "intent": "Muuta tilinani asetuksia, kuten sähköpostiosoitetta tai salasanaa"
+    }
+  ]
+}

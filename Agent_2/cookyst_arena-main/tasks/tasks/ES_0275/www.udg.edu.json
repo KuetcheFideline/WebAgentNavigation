@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.udg.edu",
+      "intent": "Buscar información sobre los programas de doctorado en la Universidad de Girona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.udg.edu",
+      "intent": "Explorar las opciones de becas y ayudas para estudiantes de grado y máster"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.udg.edu",
+      "intent": "Consultar el calendario académico para el curso 2025-2026"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.udg.edu",
+      "intent": "Acceder a la plataforma de gestión de matrícula para realizar cambios en mi horario de clases"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.udg.edu",
+      "intent": "Solicitar un certificado de estudios a través de la plataforma de servicios electrónicos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.udg.edu",
+      "intent": "Consultar mis notas y resultados de evaluación en la plataforma de gestión de estudiantes"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gzaziekenhuizen.be",
+      "intent": "Je souhaite en savoir plus sur les services de santé proposés par l'hôpital Ziekenhuis aan de Stroom (ZAS) à Anvers."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gzaziekenhuizen.be",
+      "intent": "Vous cherchez à prendre rendez-vous pour une consultation médicale à l'hôpital ZAS."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gzaziekenhuizen.be",
+      "intent": "Vous souhaitez consulter les informations relatives aux soins et aux traitements disponibles à l'hôpital ZAS."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gzaziekenhuizen.be",
+      "intent": "Vous souhaitez accéder à vos dossiers médicaux personnels en ligne via le portail patient de l'hôpital ZAS."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gzaziekenhuizen.be",
+      "intent": "Vous souhaitez modifier vos coordonnées personnelles et vos informations de contact dans votre compte patient sur le site de l'hôpital ZAS."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gzaziekenhuizen.be",
+      "intent": "Vous souhaitez prendre rendez-vous en ligne pour une consultation de suivi avec votre médecin traitant à l'hôpital ZAS."
+    }
+  ]
+}

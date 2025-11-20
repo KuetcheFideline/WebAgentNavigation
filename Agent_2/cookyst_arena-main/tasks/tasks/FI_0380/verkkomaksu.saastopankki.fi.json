@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkomaksu.saastopankki.fi",
+      "intent": "Tee maksu uudelleen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkomaksu.saastopankki.fi",
+      "intent": "Ole yhteydessä palveluntarjoajaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkomaksu.saastopankki.fi",
+      "intent": "Lue Säästöpankin Verkkomaksun käyttöohjeet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkomaksu.saastopankki.fi",
+      "intent": "Tarkista maksuhistoria"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkomaksu.saastopankki.fi",
+      "intent": "Muuta maksutietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkomaksu.saastopankki.fi",
+      "intent": "Lähetä maksuvaatimus"
+    }
+  ]
+}

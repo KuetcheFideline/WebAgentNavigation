@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.voresskole.net",
+      "intent": "Læs om, hvordan jeg kan bruge forskellige udbydere til at logge ind på VoresSkole.net"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.voresskole.net",
+      "intent": "Find ud af, hvordan jeg kan acceptere eller afvise cookies på VoresSkole.net"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.voresskole.net",
+      "intent": "Se, hvilke funktionelle cookies der er tilgængelige på VoresSkole.net og hvordan de kan hjælpe mig"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.voresskole.net",
+      "intent": "Log ind med MitId og se mine personlige oplysninger på VoresSkole.net"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.voresskole.net",
+      "intent": "Tjek mine statistikker og se, hvordan jeg kan bruge dem til at forbedre min oplevelse på VoresSkole.net"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.voresskole.net",
+      "intent": "Rediger mine personlige indstillinger og præferencer på VoresSkole.net efter login"
+    }
+  ]
+}

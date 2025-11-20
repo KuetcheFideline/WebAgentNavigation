@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lvitarvikkeet.fi",
+      "intent": "Hae kylpyhuonekalusteita varten tarvittavia hanatarvikkeita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lvitarvikkeet.fi",
+      "intent": "Vertaile eri valikoiman suihkusekoittimia ja niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lvitarvikkeet.fi",
+      "intent": "Selvitä ilmanvaihtokoneiden toimitusaika ja saatavuus"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lvitarvikkeet.fi",
+      "intent": "Tilaa aiemmin ostetut lämmitystarvikkeet uudelleen tilaushistorian kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lvitarvikkeet.fi",
+      "intent": "Lisää uusi osoite osoitekirjaan ja määritä se oletusosoitteeksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lvitarvikkeet.fi",
+      "intent": "Tarkista tilausten tila ja seuraa lähetyksen etenemistä"
+    }
+  ]
+}

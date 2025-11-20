@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.renmans.be",
+      "intent": "Rechercher des promotions pour le mois en cours sur le site de Renmans"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.renmans.be",
+      "intent": "Trouver une boucherie Renmans à proximité de chez moi à Gand"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.renmans.be",
+      "intent": "Consulter les offres d'emploi disponibles chez Renmans pour un poste de responsable export"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.renmans.be",
+      "intent": "Accéder à mon compte pour vérifier mes points Extra et mes chèques Extra"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.renmans.be",
+      "intent": "Passer une commande en ligne avec ma carte Extra pour bénéficier de réductions"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.renmans.be",
+      "intent": "Gérer mes informations de compte et mettre à jour mon adresse e-mail"
+    }
+  ]
+}

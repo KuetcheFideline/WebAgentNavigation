@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.sanoma.fi",
+      "intent": "Tutkin Sanoman asiakastuen sivuja, jotta voin löytää apua mahdollisiin sanomalehtiin liittyviin ongelmiini."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.sanoma.fi",
+      "intent": "Selailen Oma Sanoman etusivua, jotta voin tarkastella eri sanomalehtien tarjouksia ja etsiä sopivaa tilausvaihtoehtoa itselleni."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.sanoma.fi",
+      "intent": "Etsin Oma Sanomasta tietoa siitä, miten voin muuttaa sanomalehtitilaukseni osoitetta, koska olen muuttamassa uuteen asuntoon Helsingissä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.sanoma.fi",
+      "intent": "Tarkastan tilaustani ja muokkaan sanomalehtiä, joita tilaan, jotta voin varmistaa, että saan ne lehdet, joista olen kiinnostunut."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.sanoma.fi",
+      "intent": "Lähettän asiakaspalvelulle viestin, jossa kysyn neuvoa siitä, miten voin maksaa tilaani helpoiten ja nopeasti verkkopalvelun kautta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.sanoma.fi",
+      "intent": "Tarkastan tilausvaihtoehtoja ja hinnat, jotta voin päivittää tilaustani ja varmistaa, että olen hyödyntänyt parhaat tarjoukset."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kfc.fi",
+      "intent": "Tilaa KFC:n lounastarjoukset klo 11:00-14:00"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kfc.fi",
+      "intent": "Selvitä KFC:n ravintoloiden sijainnit ja aukioloajat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kfc.fi",
+      "intent": "Lue lisää KFC:n uutuuksista, kuten Red Bull Winter Infusion"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kfc.fi",
+      "intent": "Tilaa KFC:n tuotteita verkkokaupasta ja nouda ne ravintolasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kfc.fi",
+      "intent": "Kirjaudu sisään ja tarkista tilaus- ja maksuhistoria"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kfc.fi",
+      "intent": "Anna palautetta KFC:n tuotteista ja palveluista"
+    }
+  ]
+}

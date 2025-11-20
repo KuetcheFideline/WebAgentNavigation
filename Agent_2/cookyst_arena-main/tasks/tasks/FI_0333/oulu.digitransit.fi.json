@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oulu.digitransit.fi",
+      "intent": "Hae reitti Vaasan ja Oulun välillä junalla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oulu.digitransit.fi",
+      "intent": "Selvitä bussien aikataulut Vaasan keskustasta Wärtsilän tehtaalle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oulu.digitransit.fi",
+      "intent": "Etsi lähin pysäkki kotiosoitteestani Uskalikonbulevardi 234"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oulu.digitransit.fi",
+      "intent": "Tallenna suosikkireitit Vaasa-Oulu matkalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oulu.digitransit.fi",
+      "intent": "Luo oma reittikartta kalastuskohteisiini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oulu.digitransit.fi",
+      "intent": "Ilmoittaudu saamaan hälytyksiä liikenteen muutoksista Vaasan alueella"
+    }
+  ]
+}

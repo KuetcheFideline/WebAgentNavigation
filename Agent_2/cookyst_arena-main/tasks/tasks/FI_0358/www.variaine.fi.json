@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.variaine.fi",
+      "intent": "Hae tulostimen tarvikkeita, kuten muste- ja tonerkasetteja, työpaikalle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.variaine.fi",
+      "intent": "Vertaile eri tulostimien hintoja ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.variaine.fi",
+      "intent": "Selvitä, miten nopeasti tilaukset toimitetaan ja mitkä ovat toimituskulut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.variaine.fi",
+      "intent": "Tarkista tilaushistoria ja seuraa tilauksen tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.variaine.fi",
+      "intent": "Muokkaa osoitetietoja ja varmista, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.variaine.fi",
+      "intent": "Käytä alennuskoodia tai etuutta, jos sellainen on saatavilla"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://restolution.fi",
+      "intent": "Tutkin mitä tietoa Restolution tarjoaa etusivullaan, jotta voin ymmärtää heidän palvelunsa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://restolution.fi",
+      "intent": "Etsin tietoa siitä, miten voin ottaa yhteyttä Restolutioniin, koska minulla on kysymyksiä heidän palveluistaan."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://restolution.fi",
+      "intent": "Selvittelen, onko Restolutionilla jokin yhteys Kela-tukeen tai työttömyyskorttiin, joka voisi olla minulle hyödyllinen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://restolution.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, onko minulla oikeuksia käyttää tiettyjä työkaluja tai palveluita, joita tarvitsen työttömyyden aikana."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://restolution.fi",
+      "intent": "Tarkistan, voinko muokata profiiliaani tai tietojani, jotta voin varmistaa, että kaikki on ajan tasalla ja oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://restolution.fi",
+      "intent": "Katselen, löytyykö minulle soveltuvia kursseja tai koulutuksia, joilla voisin parantaa työllistymismahdollisuuksiani."
+    }
+  ]
+}

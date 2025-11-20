@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://inberlinwohnen.de",
+      "intent": "Ich möchte eine Wohnung in Berlin finden, die zu meinem Budget passt, also werde ich den Wohnungsfinder nutzen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://inberlinwohnen.de",
+      "intent": "Ich bin neugierig auf die verschiedenen Wohnungsbaugesellschaften in Berlin, also werde ich die Seite 'Sechs Unternehmen für Berlin' besuchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://inberlinwohnen.de",
+      "intent": "Ich möchte mehr über die Mietpreise in Berlin erfahren, also werde ich die Seite 'Mieten in Berlin' aufrufen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://inberlinwohnen.de",
+      "intent": "Ich bin bereits Mieter bei den Landeseigenen und möchte mein Profil bearbeiten, also werde ich mich anmelden und mein Benutzerkonto aufrufen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://inberlinwohnen.de",
+      "intent": "Ich möchte eine Wohnung tauschen, also werde ich mich anmelden und das Wohnungstauschportal nutzen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://inberlinwohnen.de",
+      "intent": "Ich bin an einem Neubauprojekt interessiert und möchte mehr Informationen erhalten, also werde ich mich anmelden und die Seite 'Neue Wohnungen für Berlin' besuchen."
+    }
+  ]
+}

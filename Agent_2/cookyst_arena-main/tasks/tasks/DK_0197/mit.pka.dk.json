@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mit.pka.dk",
+      "intent": "Jeg søger efter information om min pensionsordning på pka.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mit.pka.dk",
+      "intent": "Jeg vil læse nyheder om PKA og deres investeringer på hjemmesiden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mit.pka.dk",
+      "intent": "Jeg ønsker at kontakte PKA via deres kontaktformular eller telefonnummer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mit.pka.dk",
+      "intent": "Jeg vil logge ind for at se min pensionsopsparing og årsoversigt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mit.pka.dk",
+      "intent": "Jeg ønsker at ændre mine betalingsoplysninger og indbetalinger i selvbetjeningen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mit.pka.dk",
+      "intent": "Jeg vil downloade mine pensionsdokumenter og årsrapporter fra min konto"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.noticiasdegipuzkoa.eus",
+      "intent": "Buscar noticias de actualidad en la sección de Gipuzkoa para estar al tanto de lo que sucede en mi región"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.noticiasdegipuzkoa.eus",
+      "intent": "Explorar la sección de deportes para ver las últimas noticias sobre el equipo de fútbol de la Real Sociedad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.noticiasdegipuzkoa.eus",
+      "intent": "Leer artículos de opinión en la sección de Opinión para conocer diferentes perspectivas sobre temas de actualidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.noticiasdegipuzkoa.eus",
+      "intent": "Crear un comentario en un artículo de la sección de Actualidad para participar en la discusión y compartir mi opinión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.noticiasdegipuzkoa.eus",
+      "intent": "Guardar un artículo en mi lista de favoritos para poder leerlo más tarde y compartirlo con amigos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.noticiasdegipuzkoa.eus",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre noticias de la sección de Deportes"
+    }
+  ]
+}

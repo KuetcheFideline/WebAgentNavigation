@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://voima.fi",
+      "intent": "Luen uusimman lehden numeron 7/2023 ja etsin artikkeleita aiheesta metsäosaaminen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://voima.fi",
+      "intent": "Selailen Voiman verkkokauppaa ja etsin kirjoja aiheesta ympäristönsuojelu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://voima.fi",
+      "intent": "Etsin tapahtumakalenterista tulevia tapahtumia aiheesta kulttuuri ja taide"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://voima.fi",
+      "intent": "Kirjaudun sisään ja tilaan Voiman lehden vuosikerran, jotta voin lukea kaikki artikkelit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://voima.fi",
+      "intent": "Lisään tapahtuman Voiman tapahtumakalenteriin, jotta voin jakaa sen muiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://voima.fi",
+      "intent": "Kommentoin artikkelia aiheesta moderni orjuus, jotta voin osallistua keskusteluun"
+    }
+  ]
+}

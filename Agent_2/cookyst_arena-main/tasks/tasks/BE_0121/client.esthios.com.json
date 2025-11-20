@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://client.esthios.com",
+      "intent": "Je veux créer un compte pour accéder aux services d'Esthios."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://client.esthios.com",
+      "intent": "Je souhaite explorer les fonctionnalités du site pour comprendre comment cela peut m'aider dans mes études d'architecture."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://client.esthios.com",
+      "intent": "Je veux comparer les avantages de créer un compte sur Esthios par rapport à utiliser le site en tant qu'invité."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://client.esthios.com",
+      "intent": "Je veux configurer mes préférences de compte pour recevoir des mises à jour sur les nouveaux services d'Esthios."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://client.esthios.com",
+      "intent": "Je souhaite accéder à mes informations personnelles pour mettre à jour mon adresse e-mail et mon numéro de téléphone."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://client.esthios.com",
+      "intent": "Je veux explorer les options de paiement disponibles pour les services d'Esthios et configurer mon mode de paiement préféré."
+    }
+  ]
+}

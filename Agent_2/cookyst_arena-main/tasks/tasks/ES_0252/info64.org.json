@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://info64.org",
+      "intent": "Buscar información sobre los próximos torneos de ajedrez en España para planificar mis próximas competiciones."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://info64.org",
+      "intent": "Explorar la sección de noticias para estar al día sobre los últimos acontecimientos en el mundo del ajedrez."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://info64.org",
+      "intent": "Leer las políticas de privacidad y cookies para entender cómo se manejan mis datos personales en el sitio web."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://info64.org",
+      "intent": "Iniciar sesión para acceder a mis partidas guardadas y continuar desde donde lo dejé."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://info64.org",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre los torneos que me interesan."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://info64.org",
+      "intent": "Crear un nuevo torneo para invitar a mis amigos y competir en línea."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bibliotheek.be",
+      "intent": "Rechercher des livres en français pour améliorer mes compétences linguistiques"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bibliotheek.be",
+      "intent": "Découvrir les activités proposées par la bibliothèque pour les seniors"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bibliotheek.be",
+      "intent": "Consulter les recommandations de lecture pour les adultes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bibliotheek.be",
+      "intent": "Réserver un livre épuisé pour le retirer plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bibliotheek.be",
+      "intent": "Gérer mes emprunts en cours et prolonger les délais de retour"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bibliotheek.be",
+      "intent": "Participer à un forum de discussion en ligne sur un livre que j'ai lu"
+    }
+  ]
+}

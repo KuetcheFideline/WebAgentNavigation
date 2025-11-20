@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://varaosa.fi",
+      "intent": "Etsin varaosia autoni, joten aloitan valitsemalla autoni merkin ja mallin sivustolta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://varaosa.fi",
+      "intent": "Haluan tietää, miten sivusto toimii, joten luen ohjeet ja yleiset tiedot sivustosta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://varaosa.fi",
+      "intent": "Olen kiinnostunut siitä, miten voinkin etsiä varaosia, joten kokeilen hakutoimintoa sivustolla."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://varaosa.fi",
+      "intent": "Olen löytänyt varaosan, jota tarvitsen, ja haluan tilata sen, joten siirryn ostoskoriin ja vahvistan tilaukseni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://varaosa.fi",
+      "intent": "Haluan tarkistaa tilausteni tilan, joten siirryn tilini-sivulle ja tarkistan tilausteni statuksen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://varaosa.fi",
+      "intent": "Minulla on kysymys tilaani liittyen, joten otan yhteyttä asiakaspalveluun sivuston kautta."
+    }
+  ]
+}

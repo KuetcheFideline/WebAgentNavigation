@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.iba.dk",
+      "intent": "Jeg søger efter information om fuldtidsuddannelser på IBA Erhvervsakademi Kolding"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.iba.dk",
+      "intent": "Jeg vil læse om mulighederne for at studere på IBA efter gymnasiet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.iba.dk",
+      "intent": "Jeg søger efter kontaktoplysninger for at spørge om uddannelsesmuligheder på IBA"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.iba.dk",
+      "intent": "Jeg vil tilmelde mig til en uddannelse på IBA og følge min ansøgning"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.iba.dk",
+      "intent": "Jeg søger efter information om mine studieforløb og eksamensresultater på IBA"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.iba.dk",
+      "intent": "Jeg vil ændre mine personlige oplysninger og studievalg på min IBA-studieprofil"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rockwerchter.be",
+      "intent": "Consulter la programmation du festival Rock Werchter 2026 pour découvrir les artistes qui vont se produire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rockwerchter.be",
+      "intent": "Rechercher des informations sur les billets et les tarifs pour le festival Rock Werchter 2026"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rockwerchter.be",
+      "intent": "S'inscrire à la newsletter de Rock Werchter pour être informé des dernières nouvelles et des préventes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rockwerchter.be",
+      "intent": "Acheter des billets pour le festival Rock Werchter 2026 en ligne après m'être connecté à mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rockwerchter.be",
+      "intent": "Gérer mes informations personnelles et mes préférences dans mon compte Rock Werchter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rockwerchter.be",
+      "intent": "Participer à un concours ou à un jeu organisé par Rock Werchter en tant que membre connecté"
+    }
+  ]
+}

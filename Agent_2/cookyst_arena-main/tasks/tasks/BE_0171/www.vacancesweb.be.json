@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vacancesweb.be",
+      "intent": "Rechercher des séjours en Espagne pour mon prochain voyage"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vacancesweb.be",
+      "intent": "Comparer les prix des locations de voitures pour un voyage en famille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vacancesweb.be",
+      "intent": "Lire les reportages sur les destinations de rêve pour trouver l'inspiration pour mon prochain voyage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vacancesweb.be",
+      "intent": "Réserver un séjour en Nouvelle-Zélande que j'ai trouvé sur le site après m'être connecté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vacancesweb.be",
+      "intent": "Consulter mes réservations précédentes pour planifier mon prochain voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vacancesweb.be",
+      "intent": "Publier une annonce pour une location de vacances que je possède en Espagne"
+    }
+  ]
+}

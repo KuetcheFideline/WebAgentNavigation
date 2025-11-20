@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nimark.fi",
+      "intent": "Hae auton varaosia syöttämällä rekisterinumero"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nimark.fi",
+      "intent": "Selaa tarvikkeita ja työkaluja moottoripyörään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nimark.fi",
+      "intent": "Lue usein kysytyt kysymykset (FAQ) ennen tilausta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nimark.fi",
+      "intent": "Tarkista tilausHistoria ja seuranta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nimark.fi",
+      "intent": "Muokkaa osoitetietoja ja tilaushistoriaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nimark.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja tee maksu"
+    }
+  ]
+}

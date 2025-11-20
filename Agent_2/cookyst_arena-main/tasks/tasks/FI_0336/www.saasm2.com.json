@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saasm2.com",
+      "intent": "Tarkistaa millä selaimilla Visma M2 toimii"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saasm2.com",
+      "intent": "Etsiä tietoa Visma M2:n tuotteista ja palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saasm2.com",
+      "intent": "Ladata uusin versio selaimesta, jotta Visma M2 toimisi oikein"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saasm2.com",
+      "intent": "Tarkastella omia tilastoja ja raportteja Visma M2:ssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saasm2.com",
+      "intent": "Muokata ja päivittää omia asetuksia Visma M2:ssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saasm2.com",
+      "intent": "Lähettää viesti Visma M2:n asiakastukeen ongelman ratkaisemiseksi"
+    }
+  ]
+}

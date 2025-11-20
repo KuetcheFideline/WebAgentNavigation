@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.almamedia.fi",
+      "intent": "Hae avoimia työpaikkoja Alma Medialla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.almamedia.fi",
+      "intent": "Tutustu Alma Median vuosikertomukseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.almamedia.fi",
+      "intent": "Lue uutisia Alma Median uutishuoneesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.almamedia.fi",
+      "intent": "Tallenna Alma Median vuosikertomus PDF-muodossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.almamedia.fi",
+      "intent": "Lähetä viesti Alma Median asiakaspalveluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.almamedia.fi",
+      "intent": "Tilaa Alma Median uutiskirje"
+    }
+  ]
+}

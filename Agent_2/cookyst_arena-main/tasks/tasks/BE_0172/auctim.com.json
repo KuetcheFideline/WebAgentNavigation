@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://auctim.com",
+      "intent": "Rechercher des véhicules utilitaires pour mon entreprise de transport"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://auctim.com",
+      "intent": "Découvrir les enchères en cours dans la catégorie de l'immobilier"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://auctim.com",
+      "intent": "Consulter les conditions d'utilisation du site pour comprendre les règles des enchères"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://auctim.com",
+      "intent": "Déposer une enchère sur un véhicule utilitaire pour mon entreprise"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://auctim.com",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les enchères qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://auctim.com",
+      "intent": "Consulter l'historique de mes enchères pour suivre mes activités sur le site"
+    }
+  ]
+}

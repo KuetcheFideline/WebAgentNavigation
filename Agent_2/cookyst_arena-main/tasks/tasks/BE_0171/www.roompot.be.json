@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.roompot.be",
+      "intent": "Rechercher un parc de vacances en Belgique pour un court séjour en famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.roompot.be",
+      "intent": "Comparer les prix et les équipements des différents parcs de vacances en Flandre"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.roompot.be",
+      "intent": "Consulter les avis et les commentaires des clients sur les parcs de vacances Roompot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.roompot.be",
+      "intent": "Réserver un bungalow pour un week-end en amoureux dans le parc de vacances de Knokke"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.roompot.be",
+      "intent": "Gérer mes réservations et imprimer mes factures pour mes prochaines vacances"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.roompot.be",
+      "intent": "Modifier mes préférences de notification pour recevoir des offres spéciales et des promotions"
+    }
+  ]
+}

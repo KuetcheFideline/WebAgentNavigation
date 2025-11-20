@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.leroidumeubles.be",
+      "intent": "Rechercher des meubles de salle à manger pour ma maison à Wavre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.leroidumeubles.be",
+      "intent": "Comparer les prix des canapés en cuir avec ceux des canapés en tissu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.leroidumeubles.be",
+      "intent": "Explorer les collections de meubles de jardin pour l'été"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.leroidumeubles.be",
+      "intent": "Enregistrer mes meubles préférés dans une liste de souhaits pour une future commande"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.leroidumeubles.be",
+      "intent": "Consulter l'historique de mes commandes pour vérifier l'état de ma dernière livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.leroidumeubles.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

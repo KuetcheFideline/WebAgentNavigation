@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.mahl.fi",
+      "intent": "Tarkastelen salibandy-runkosarjan tilannetta ja etsin tietoa seurasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.mahl.fi",
+      "intent": "Selvittelen, mitkä ottelut on tänään ja huomenna, ja etsin tietoa joukkueista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.mahl.fi",
+      "intent": "Luen uutisia ja artikkeleita salibandy- ja jääkiekkoturnauksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.mahl.fi",
+      "intent": "Kirjaudun sisään ja tarkastelen omaa profiilia ja salibandy-joukkueeni tietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.mahl.fi",
+      "intent": "Ilmoittaudun osallistumaan tulevaan salibandy-turnaukseen ja etsin tietoa turnauksesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.mahl.fi",
+      "intent": "Lähetän viestin joukkuekavereille ja keskustelen heidän kanssaan tulevasta ottelusta"
+    }
+  ]
+}

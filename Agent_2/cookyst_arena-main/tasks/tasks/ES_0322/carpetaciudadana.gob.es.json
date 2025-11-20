@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://carpetaciudadana.gob.es",
+      "intent": "Explorar la sección de Educación y formación para conocer los datos sobre mi expediente educativo y de formación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://carpetaciudadana.gob.es",
+      "intent": "Buscar información sobre cómo puedo acceder a Mi Carpeta Ciudadana y qué servicios ofrece"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://carpetaciudadana.gob.es",
+      "intent": "Leer las políticas de cookies y privacidad del portal para entender cómo se utilizan mis datos personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://carpetaciudadana.gob.es",
+      "intent": "Consultar mis notificaciones pendientes de leer y el estado de los expedientes en trámite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://carpetaciudadana.gob.es",
+      "intent": "Acceder a la sección de Ciudadanía y residencia para consultar el estado y la validez de mis datos y documentos de identidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://carpetaciudadana.gob.es",
+      "intent": "Comunicarme con las Administraciones a través de la plataforma para solicitar información sobre mis prestaciones y servicios"
+    }
+  ]
+}

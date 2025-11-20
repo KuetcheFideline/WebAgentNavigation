@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Buscar información sobre el valor de referencia de mis bienes inmuebles urbanos y rústicos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Acceder al buscador de inmuebles y visor cartográfico para conocer la información catastral de mis propiedades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Descargar información cartográfica y alfanumérica sobre mis inmuebles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Consultar el estado de los procedimientos catastrales en los que estoy involucrado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Acceder a las notificaciones y comunicaciones oficiales relacionadas con mis inmuebles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Realizar una declaración o solicitud de cambio en la información catastral de mis propiedades"
+    }
+  ]
+}

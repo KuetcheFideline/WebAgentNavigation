@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.xt50.apcasdata.es",
+      "intent": "Intentar identificarme con mi usuario y contraseña para acceder al servicio web"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.xt50.apcasdata.es",
+      "intent": "Buscar información sobre cómo actualizar mi navegador web para que sea compatible con el servicio web"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.xt50.apcasdata.es",
+      "intent": "Leer las instrucciones para recuperar mi contraseña por si la he olvidado"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.xt50.apcasdata.es",
+      "intent": "Verificar mi perfil de usuario y asegurarme de que mis datos estén actualizados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.xt50.apcasdata.es",
+      "intent": "Acceder a la sección de configuración para personalizar mis preferencias de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.xt50.apcasdata.es",
+      "intent": "Buscar ayuda o soporte técnico para resolver cualquier problema que tenga con el servicio web"
+    }
+  ]
+}

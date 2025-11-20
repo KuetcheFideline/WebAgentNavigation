@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mobile.tallink.com",
+      "intent": "Varata matka Tallinnasta Helsingin kautta Tukholmaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mobile.tallink.com",
+      "intent": "Etsiä edullisia risteilyjä Viroon ja Ruotsiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mobile.tallink.com",
+      "intent": "Selvitä, mitkä laivat liikennöivät Helsingin ja Tallinnan välillä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mobile.tallink.com",
+      "intent": "Tarkistaa varaukseni ja muuttaa matkustajien tietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mobile.tallink.com",
+      "intent": "Kirjautua sisään ja tarkistaa Club One -jäsenyyden edut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mobile.tallink.com",
+      "intent": "Varata hytti ja ruokailla laivalla"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Buscar información sobre los servicios del Ministerio de Asuntos Económicos y Transformación Digital para personas mayores como yo."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Intentar acceder a la página de inicio para ver si hay algún enlace a recursos para pensionistas como yo."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Verificar si hay algún formulario de contacto para hacer preguntas sobre los servicios del ministerio relacionados con la pensión mínima."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Iniciar sesión para acceder a mi cuenta y verificar el estado de mi pensión mínima."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Descargar documentos relacionados con mi pensión mínima una vez que haya iniciado sesión en mi cuenta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pasarela.clave.gob.es",
+      "intent": "Actualizar mis datos personales en la plataforma para asegurarme de que mi información esté actualizada y pueda recibir notificaciones importantes sobre mi pensión."
+    }
+  ]
+}

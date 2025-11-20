@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.arwag.at",
+      "intent": "Ich möchte eine provisionsfreie Wohnung in Wien finden, also werde ich die Immobiliensuche nutzen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.arwag.at",
+      "intent": "Ich bin interessiert an den aktuellen Projekten von ARWAG, also werde ich die Projekte-Seite besuchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.arwag.at",
+      "intent": "Ich möchte mehr über die Gewerbe- und Büroflächen von ARWAG erfahren, also werde ich die entsprechende Seite aufrufen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.arwag.at",
+      "intent": "Ich bin bereits registriert und möchte meine Suchagenten anlegen, also werde ich mich im Service Center anmelden."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.arwag.at",
+      "intent": "Ich möchte eine Wohnung anfragen, also werde ich meine Kontaktdaten im persönlichen ARWAG-Account überprüfen und die Anfrage absenden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.arwag.at",
+      "intent": "Ich möchte meine Dokumente und Formulare im ARWAG-Account downloaden, um meine Wohnungssuche zu dokumentieren."
+    }
+  ]
+}

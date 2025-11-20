@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://azmonica.be",
+      "intent": "Rechercher les services médicaux disponibles à l'hôpital AZ Monica pour un proche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://azmonica.be",
+      "intent": "Consulter les horaires de visites pour les patients à l'hôpital AZ Monica"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://azmonica.be",
+      "intent": "Trouver les coordonnées de contact du service des admissions pour prendre rendez-vous"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://azmonica.be",
+      "intent": "Accéder à mes dossiers médicaux personnels pour consulter mes résultats d'analyses"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://azmonica.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux et recevoir des rappels"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://azmonica.be",
+      "intent": "Mettre à jour mes informations de contact pour assurer la communication avec l'hôpital"
+    }
+  ]
+}

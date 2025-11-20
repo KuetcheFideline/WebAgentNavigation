@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Tutkin sivuston ajankohtaisia uutisia ja tiedotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Etsin tietoa maahanmuuttovirastoon liittyvistä aiheista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Selvittelen, miten voin hakea tietoa THL:n julkaisuarkistosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Tallennan omaan kirjastooni joitain THL:n julkaisuja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Osallistun THL:n verkkokoulutuksiin, jotka liittyvät maahanmuuttovirastoon"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Lähetän kysymyksen THL:n asiakaspalveluun liittyen maahanmuuttoviraston toimintaan"
+    }
+  ]
+}

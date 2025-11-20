@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://motocafe.fi",
+      "intent": "Hae moottoripyörän varaosia verkkokaupasta, koska minun pitää korjata omat pyöräni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://motocafe.fi",
+      "intent": "Selvitä, onko verkkokaupassa tarjolla laadukkaita lumilingoja talven tuloa varten"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://motocafe.fi",
+      "intent": "Lue arvosteluita ja vertaile eri merkkien moottorikelkkoja, jotta voisin tehdä perusteltu ostopäätös"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://motocafe.fi",
+      "intent": "Tilaa varaosia omalle moottoripyörälle, koska olen jo aiemmin rekisteröitynyt ja tiedot ovat tallessa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://motocafe.fi",
+      "intent": "Tarkista tilaustani historia ja seuraa viimeisimmän tilaukseni toimitusta, jotta tiedän, milloin se saapuu"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://motocafe.fi",
+      "intent": "Muokkaa omia tietojani ja osoitetta, jotta varmistun, että tilaukset toimitetaan oikeaan osoitteeseen"
+    }
+  ]
+}

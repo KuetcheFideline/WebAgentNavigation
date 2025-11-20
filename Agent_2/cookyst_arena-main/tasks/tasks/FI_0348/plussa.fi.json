@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://plussa.fi",
+      "intent": "Tutustu Plussa-jäsenyyden etuihin ja tarjouksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://plussa.fi",
+      "intent": "Lataa K-Ruoka-sovellus ja selvitä miten se toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://plussa.fi",
+      "intent": "Etsi tietoa Plussa-kortin liittämisestä maksukorttiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://plussa.fi",
+      "intent": "Tarkista Plussa-pisteiden saldo ja hyödynnä niitä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://plussa.fi",
+      "intent": "Selvitä miten henkilökohtaiset OmaPlussa-edut toimivat ja mitä niistä on tarjolla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://plussa.fi",
+      "intent": "Kerro Plussa-jäsenyydestä ystäville ja perheenjäsenille ja kehota heitä liittymään"
+    }
+  ]
+}

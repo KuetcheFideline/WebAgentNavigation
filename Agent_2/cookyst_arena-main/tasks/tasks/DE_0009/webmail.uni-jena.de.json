@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.uni-jena.de",
+      "intent": "Ich möchte die verfügbaren Sprachoptionen für die Webmail-Oberfläche überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.uni-jena.de",
+      "intent": "Ich will die Hilfe-Seite aufrufen, um Anweisungen zur Abfrage der Mailboxeinstellungen und Quota zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.uni-jena.de",
+      "intent": "Ich möchte den Link zum Impressum und Datenschutz der Friedrich-Schiller-Universität Jena aufrufen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.uni-jena.de",
+      "intent": "Ich will mein Passwort ändern, um die Sicherheit meines Webmail-Kontos zu erhöhen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.uni-jena.de",
+      "intent": "Ich möchte die Einstellungen für meine Abwesenheitsbenachrichtigungen und Weiterleitung überprüfen und gegebenenfalls anpassen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.uni-jena.de",
+      "intent": "Ich will ein neues X.509-Zertifikat beantragen, um meine E-Mails sicher zu verschlüsseln."
+    }
+  ]
+}

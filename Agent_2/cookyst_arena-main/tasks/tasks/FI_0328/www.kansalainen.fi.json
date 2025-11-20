@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kansalainen.fi",
+      "intent": "Luen uusimmat uutiset Kansalaisen etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kansalainen.fi",
+      "intent": "Etsin tietoa maahanmuuttopolitiikasta Kansalaisen verkkolehdestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kansalainen.fi",
+      "intent": "Selailen Kolumnit-osioon kirjoitettuja artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kansalainen.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusinta uutisartikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kansalainen.fi",
+      "intent": "Lähetän uutisvinkin Kansalaisen toimitukselle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kansalainen.fi",
+      "intent": "Tilaan Kansalaisen uutiskirjeen, jotta saan päivittäin uusimmat uutiset"
+    }
+  ]
+}

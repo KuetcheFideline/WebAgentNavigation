@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://yrityksille.elisa.fi",
+      "intent": "Tutustun Elisan yritysten liittymätarjontaan, jotta voin löytää sopivan liittymän oman yritykseni tarpeisiin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://yrityksille.elisa.fi",
+      "intent": "Selvittelen, miten Elisan tietoturvapalvelut voivat auttaa yritykseni suojelemaan itseään kyberuhilta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://yrityksille.elisa.fi",
+      "intent": "Luen Elisan ajankohtaisista aiheista, kuten Suomen kyberturvallisuuden tilasta vuonna 2025, jotta voin pysyä ajan tasalla alan kehityksestä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://yrityksille.elisa.fi",
+      "intent": "Tarkastan yritykseni liittymien tilaa ja muokkaan tarvittaessa liittymien asetuksia OmaElisa-palvelun kautta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://yrityksille.elisa.fi",
+      "intent": "Tilaa uuden laitteen yritykselleni ja määrittelen sen asetukset OmaElisa-palvelun kautta, jotta laite on valmiina käyttöön."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://yrityksille.elisa.fi",
+      "intent": "Tarkastan yritykseni laskuja ja maksan niitä OmaElisa-palvelun kautta, jotta voin hallita yritykseni taloutta tehokkaasti."
+    }
+  ]
+}

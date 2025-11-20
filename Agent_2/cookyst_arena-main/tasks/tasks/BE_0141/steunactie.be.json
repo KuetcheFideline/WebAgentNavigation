@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://steunactie.be",
+      "intent": "Rechercher des informations sur la façon de créer une campagne de don pour financer un projet caritatif en faveur d'une association locale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://steunactie.be",
+      "intent": "Explorer les différentes catégories de campagnes de don disponibles sur le site, telles que les campagnes pour les animaux ou les campagnes pour les personnes dans le besoin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://steunactie.be",
+      "intent": "Lire les témoignages de personnes qui ont déjà utilisé le site pour créer une campagne de don et découvrir comment cela leur a aidé à atteindre leurs objectifs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://steunactie.be",
+      "intent": "Créer une nouvelle campagne de don pour financer un projet de rénovation d'un parc local et configurer les paramètres de la campagne, tels que le montant cible et la date de fin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://steunactie.be",
+      "intent": "Gérer les dons reçus pour une campagne de don existante et voir les mises à jour en temps réel sur le montant collecté et les donateurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://steunactie.be",
+      "intent": "Partager une campagne de don sur les réseaux sociaux pour atteindre un public plus large et augmenter les chances de collecter des fonds"
+    }
+  ]
+}

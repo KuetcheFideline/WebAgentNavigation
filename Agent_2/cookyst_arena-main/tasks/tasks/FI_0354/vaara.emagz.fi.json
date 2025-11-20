@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaara.emagz.fi",
+      "intent": "Etsin lehtiä aiheesta mökki ja vapaa-aika"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaara.emagz.fi",
+      "intent": "Haluan lukea uusimmat numerot lehdistä Allas ja Apu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaara.emagz.fi",
+      "intent": "Tutkin eri lehden kategorioita, kuten sanomalehdet ja aikakauslehdet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaara.emagz.fi",
+      "intent": "Lisään lehti Allas suosikkeihini ja tallennan sen lukemiseksi myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaara.emagz.fi",
+      "intent": "Muokkaan profiiliaani ja valitsemiaani lehden kategorioita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaara.emagz.fi",
+      "intent": "Tarkastan tilaushistoriaani ja etsin uusia lehtiä tilattavaksi"
+    }
+  ]
+}

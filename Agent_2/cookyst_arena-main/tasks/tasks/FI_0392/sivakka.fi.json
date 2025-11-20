@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sivakka.fi",
+      "intent": "Hae vuokra-asuntoja Oulussa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sivakka.fi",
+      "intent": "Selaa vuokra-asuntoja eri kaupunginosissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sivakka.fi",
+      "intent": "Lue vuokra-asuntojen esittelyjä ja arvosteluita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sivakka.fi",
+      "intent": "Tallenna suosikkivuokra-asunnot ja seuraa niiden saatavuutta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sivakka.fi",
+      "intent": "Lähetä viesti vuokranantajalle vuokra-asunnosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sivakka.fi",
+      "intent": "Tee varaus vuokra-asunnosta ja maksaa vuokra"
+    }
+  ]
+}

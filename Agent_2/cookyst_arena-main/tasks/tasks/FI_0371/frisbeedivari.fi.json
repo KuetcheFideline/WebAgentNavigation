@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://frisbeedivari.fi",
+      "intent": "Hae sivustolta frisbeegolf-kiekkoja, joissa on mukana valmistajan nimi 'Innova'"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://frisbeedivari.fi",
+      "intent": "Selaa sivuston 'Kiekot' -osio, jossa on listattu eri valmistajien kiekot ja niiden ominaisuudet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://frisbeedivari.fi",
+      "intent": "Vertaile kahta eri kiekkoa, 'Latitude Pioneer Prototype' ja 'Innova Star TL', niiden ominaisuuksien ja hintojen perusteella"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://frisbeedivari.fi",
+      "intent": "Lisää ostoskoriin 'Discmania C-line PDx European Open (Innova)' -kiekko ja siirry kassalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://frisbeedivari.fi",
+      "intent": "Tarkastele tilaushistoriaa ja etsi tietoa aiemmista tilauksista, joissa on ollut mukana 'Prodigy' -valmistajan kiekkoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://frisbeedivari.fi",
+      "intent": "Muokkaa profiilia ja päivitä osoitetietoja, jotta ne ovat ajantasalla seuraavan tilauksen yhteydessä"
+    }
+  ]
+}

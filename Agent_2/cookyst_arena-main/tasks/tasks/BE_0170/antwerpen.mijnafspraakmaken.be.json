@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://antwerpen.mijnafspraakmaken.be",
+      "intent": "Prendre rendez-vous pour une démarche administrative en ligne sans créer de compte"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://antwerpen.mijnafspraakmaken.be",
+      "intent": "Rechercher les différents services proposés par la ville d'Anvers pour les citoyens"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://antwerpen.mijnafspraakmaken.be",
+      "intent": "Consulter les horaires d'ouverture des guichets de la ville pour planifier une visite"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://antwerpen.mijnafspraakmaken.be",
+      "intent": "Gérer mes rendez-vous en ligne pour éviter les files d'attente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://antwerpen.mijnafspraakmaken.be",
+      "intent": "Modifier mes informations personnelles pour assurer la bonne organisation de mes rendez-vous"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://antwerpen.mijnafspraakmaken.be",
+      "intent": "Annuler un rendez-vous pour éviter les pénalités et libérer un créneau pour quelqu'un d'autre"
+    }
+  ]
+}

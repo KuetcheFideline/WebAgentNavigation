@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ruotuvaki.fi",
+      "intent": "Lue uusimmat uutiset puolustusvoimista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ruotuvaki.fi",
+      "intent": "Etsi tietoa Suomen puolustusyhteistyöstä Ruotsin kanssa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ruotuvaki.fi",
+      "intent": "Selaa digilehtiarkistoa ja lue vanhempien artikkeleiden aiheita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ruotuvaki.fi",
+      "intent": "Kommentoi artikkelia aiheesta 'Puolustusvoimat etsii erikoisjoukkokurssille hiljaisia taistelijoita'"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ruotuvaki.fi",
+      "intent": "Tilaa Ruotuväki-lehti kotiin kuljetettuna 12 kertaa vuodessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ruotuvaki.fi",
+      "intent": "Osallistu keskusteluun aiheesta 'Maailmanluokan merimiina' ja jaa oma mielipide"
+    }
+  ]
+}

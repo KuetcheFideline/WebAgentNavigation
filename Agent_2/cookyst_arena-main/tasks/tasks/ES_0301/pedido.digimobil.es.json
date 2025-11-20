@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pedido.digimobil.es",
+      "intent": "Comprobar el estado de mi pedido de tarjeta SIM para asegurarme de que esté en camino"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pedido.digimobil.es",
+      "intent": "Buscar información sobre cómo cambiar la dirección de entrega de mi pedido en caso de que no esté en casa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pedido.digimobil.es",
+      "intent": "Consultar las preguntas frecuentes para resolver dudas sobre el seguimiento de pedidos y la entrega"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pedido.digimobil.es",
+      "intent": "Acceder a mi cuenta para verificar el estado de mi pedido y realizar cambios si es necesario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pedido.digimobil.es",
+      "intent": "Contactar con el soporte técnico a través del chat para resolver problemas con mi pedido"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pedido.digimobil.es",
+      "intent": "Actualizar mi información de contacto en mi cuenta para asegurarme de que reciba notificaciones actualizadas sobre mi pedido"
+    }
+  ]
+}

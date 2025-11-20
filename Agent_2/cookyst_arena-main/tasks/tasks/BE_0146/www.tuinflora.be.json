@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tuinflora.be",
+      "intent": "Rechercher des plantes pour le jardin de ma maison à Gand"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tuinflora.be",
+      "intent": "Comparer les prix des kamerplanten pour choisir les moins chers"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tuinflora.be",
+      "intent": "Découvrir les dernières tendances en matière de décoration de jardin pour mon entreprise de logistique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tuinflora.be",
+      "intent": "Ajouter des plantes à mon panier d'achat pour les commander en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tuinflora.be",
+      "intent": "Consulter mes commandes passées pour suivre mes achats de plantes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tuinflora.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Rechercher les informations sur les comptes épargne pour mes enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Comparer les différents plans d'assurance vie pour moi et mes enfants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Trouver des conseils pour gérer mes finances en tant que parent solo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Vérifier le solde de mon compte et les transactions récentes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Effectuer un virement pour le paiement de la garde d'enfants"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Consulter mes relevés de compte pour faire mes déclarations d'impôts"
+    }
+  ]
+}

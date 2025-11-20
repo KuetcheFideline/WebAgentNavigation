@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://skolemad-klub.kk.dk",
+      "intent": "Læse mere om eat og hvordan jeg kan bestille mad til min søn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://skolemad-klub.kk.dk",
+      "intent": "Søge efter information omkring madskoler og hvordan jeg kan tilmelde min søn"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://skolemad-klub.kk.dk",
+      "intent": "Find ud af hvordan jeg kan købe et klubkort til min søns klubaktiviteter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://skolemad-klub.kk.dk",
+      "intent": "Bestille eat til min søn og betale med mit klubkort"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://skolemad-klub.kk.dk",
+      "intent": "Tilmelde min søn til en madskole og betale for abonnementet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://skolemad-klub.kk.dk",
+      "intent": "Ansøge om økonomisk tilskud til min søns skolemad og klubaktiviteter"
+    }
+  ]
+}

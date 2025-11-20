@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.busbud.com",
+      "intent": "Buscar billetes de autobús baratos para viajar a visitar a mis nietos que viven en una ciudad lejana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.busbud.com",
+      "intent": "Comparar precios y horarios de autobuses para un viaje de ida y vuelta desde Madrid a Barcelona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.busbud.com",
+      "intent": "Explorar las opciones de pago y descuentos disponibles para viajeros frecuentes en la página de Busbud"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.busbud.com",
+      "intent": "Reservar un billete de autobús con tarifa preferente como usuario registrado en la plataforma de Busbud"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.busbud.com",
+      "intent": "Verificar y actualizar mis datos personales y de pago en mi cuenta de Busbud para asegurarme de que estén actualizados"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.busbud.com",
+      "intent": "Acceder a mis reservas anteriores y verificar el estado de mis viajes programados en la sección de 'Mis viajes' de mi cuenta de Busbud"
+    }
+  ]
+}

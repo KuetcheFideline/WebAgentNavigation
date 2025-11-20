@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lue uutisia itslearning-tilin etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Etsi tietoa iOS-sovelluksen päivityksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Selaa saavutettavuusselostetta ja tietosuojaselostetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Kirjaudu sisään itslearning-tilillä ja tarkista viimeisimmät päivitykset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Muokkaa käyttäjätietojani itslearning-tilillä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lähetä viesti opettajalle itslearning-tilin kautta"
+    }
+  ]
+}

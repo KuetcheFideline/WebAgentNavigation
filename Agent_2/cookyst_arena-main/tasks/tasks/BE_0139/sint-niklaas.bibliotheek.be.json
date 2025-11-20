@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sint-niklaas.bibliotheek.be",
+      "intent": "Rechercher des livres pour enfants pour la semaine de lecture du 22 au 30 novembre 2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sint-niklaas.bibliotheek.be",
+      "intent": "Explorer les dernières acquisitions de la bibliothèque, notamment les livres et les DVD"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sint-niklaas.bibliotheek.be",
+      "intent": "Consulter les informations sur les activités et les événements organisés par la bibliothèque"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sint-niklaas.bibliotheek.be",
+      "intent": "Réserver un livre ou un DVD en ligne pour le retirer plus tard à la bibliothèque"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sint-niklaas.bibliotheek.be",
+      "intent": "Gérer mes emprunts en cours et mes réservations de livres ou de DVD"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sint-niklaas.bibliotheek.be",
+      "intent": "Consulter mon historique d'emprunts et mes préférences de lecture pour découvrir de nouveaux livres"
+    }
+  ]
+}

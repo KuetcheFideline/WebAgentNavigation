@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://helpdesk.ugent.be",
+      "intent": "Rechercher des informations sur la configuration de l'e-mail pour mon compte UGent"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://helpdesk.ugent.be",
+      "intent": "Consulter les directives de sécurité pour les étudiants afin de protéger mes données personnelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://helpdesk.ugent.be",
+      "intent": "Explorer les options de stockage disponibles pour mes fichiers universitaires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://helpdesk.ugent.be",
+      "intent": "Modifier mon mot de passe UGent pour améliorer la sécurité de mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://helpdesk.ugent.be",
+      "intent": "Configurer l'authentification multifacteur pour renforcer la protection de mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://helpdesk.ugent.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes informations de compte et paramètres"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gpas-games.pt.veikkaus.fi",
+      "intent": "Selvitän, mitä pelejä sivustolla on tarjolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gpas-games.pt.veikkaus.fi",
+      "intent": "Luen sivuston ohjeita ja ehtoja, jotta voin ymmärtää, miten se toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gpas-games.pt.veikkaus.fi",
+      "intent": "Etsin tietoa siitä, miten voitan rahaa peleissä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gpas-games.pt.veikkaus.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä pelejä voin pelata omalla tililläni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gpas-games.pt.veikkaus.fi",
+      "intent": "Osallistun yhdessä peleistä, jossa on mahdollisuus voittaa palkintoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gpas-games.pt.veikkaus.fi",
+      "intent": "Tarkistan, miten voin muokata omia peliasetuksiani ja tilin tietoja"
+    }
+  ]
+}

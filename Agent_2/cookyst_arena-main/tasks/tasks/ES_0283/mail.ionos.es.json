@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mail.ionos.es",
+      "intent": "Configurar las cookies en mi navegador para acceder al correo electrónico"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mail.ionos.es",
+      "intent": "Activar JavaScript en mi navegador para utilizar la oferta de Webmail"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mail.ionos.es",
+      "intent": "Buscar información sobre la política de privacidad de IONOS Cloud S.L.U."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mail.ionos.es",
+      "intent": "Revisar mi bandeja de entrada para ver si tengo nuevos correos electrónicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mail.ionos.es",
+      "intent": "Enviar un correo electrónico a mi amiga para quedar para tomar un café"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mail.ionos.es",
+      "intent": "Configurar mi cuenta de Webmail para que se sincronice con mi dispositivo móvil"
+    }
+  ]
+}

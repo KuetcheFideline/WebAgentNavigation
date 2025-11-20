@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Tutkin verkkopankin etusivun sisältöä ja etsin tietoa verkkopankin turvallisuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Luen verkkopankin käyttöohjeita ja ehtoja, jotta voin ymmärtää miten verkkopankki toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Etsin tietoa verkkopankin saatavilla olevista palveluista, kuten verkkopalkasta ja ilmoituspalvelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Kirjaudun verkkopankkiin ja tarkistan omat tietoni, kuten osoitteeni ja puhelinnumeroni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Muokkaan verkkopankkia ja vaihdan salasanani, jotta voin varmistaa turvallisen käytön"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Tarkistan tilieni ja suoritan maksun, jotta voin hoitaa raha-asiat verkkopankin kautta"
+    }
+  ]
+}

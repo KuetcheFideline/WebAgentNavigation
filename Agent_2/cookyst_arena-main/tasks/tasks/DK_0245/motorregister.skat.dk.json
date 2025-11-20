@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan registrere mit køretøj på hjemmesiden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg vil læse om de seneste driftsstatusser for motorregistret, for at se om der er nogen planlagte nedlukninger."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg ønsker at se, hvordan jeg kan abonnere på 'Nyt om Motorregistret', for at få opdateringer om ændringer og nye funktioner."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg vil logge ind og se detaljer om mine registrerede køretøjer, for at sikre, at alt er opdateret korrekt."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg søger efter at udskrive en kopi af min kvittering for en tidligere betaling af registreringsafgift, for at have det til min bogføring."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg vil ændre mine kontaktoplysninger, for at sikre, at jeg modtager alle relevante opdateringer og meddelelser fra motorregistret."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Haluaisin lukea uusimman Apu-lehden ja etsiä sieltä mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Tehdä haku sanoilla 'puutarhanhoito' ja löytää aiheeseen liittyviä lehtiä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Selata eri lehden kategorioita, kuten 'Aihealueet' ja 'Lehdet A-Ö', ja tutustua eri aiheisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Kirjautua sisään ja tarkastaa Oma luukku -osion, jossa näen tilaamani lehdet ja voitan hallita tilauksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Lisätä lehti 'Suomen Luonto' ostoskoriin ja maksaa se verkkomaksulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lehtiluukku.fi",
+      "intent": "Tarkastaa tilaushistoriani ja muuttaa tilausasetuksia, kuten lehden toimitustaajuutta"
+    }
+  ]
+}

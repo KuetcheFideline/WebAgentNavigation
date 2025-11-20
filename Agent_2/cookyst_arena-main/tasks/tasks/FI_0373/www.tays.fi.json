@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tays.fi",
+      "intent": "Hae tietoa masennuksesta ja sen hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tays.fi",
+      "intent": "Etsi lääkärin ja hoitajan vastaanottoja Kajaanissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tays.fi",
+      "intent": "Selvitä, miten voin hakea apua väkivaltaan liittyvissä asioissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tays.fi",
+      "intent": "Varaa aika lääkärin vastaanotolle omilla tunnuksilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tays.fi",
+      "intent": "Tarkista omat terveystiedot ja hoitosuunnitelma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tays.fi",
+      "intent": "Kirjaudu sisään ja tee terveystarkastusajanvaraus"
+    }
+  ]
+}

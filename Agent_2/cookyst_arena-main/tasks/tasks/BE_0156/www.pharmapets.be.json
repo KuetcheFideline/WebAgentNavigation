@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pharmapets.be",
+      "intent": "Rechercher des aliments pour chiens de la marque Royal Canin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pharmapets.be",
+      "intent": "Comparer les prix des accessoires pour chats entre les marques Trixie et Flamingo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pharmapets.be",
+      "intent": "Lire les conseils de santé pour les chiens sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pharmapets.be",
+      "intent": "Consulter mes commandes précédentes pour mes chiens"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pharmapets.be",
+      "intent": "Gérer mon abonnement pour la livraison régulière de nourriture pour chats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pharmapets.be",
+      "intent": "Demander un conseil à un vétérinaire en ligne pour un problème de santé de mon chien"
+    }
+  ]
+}

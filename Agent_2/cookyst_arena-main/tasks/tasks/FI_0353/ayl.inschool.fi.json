@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ayl.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, miten opettajat voivat hyödyntää Wilmaa opetustyössään."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ayl.inschool.fi",
+      "intent": "Selvittelen, miten Wilman käyttäjätunnus ja salasana voidaan muuttaa, jos niitä unohtaa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ayl.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten opiskelijat voivat valita kursseja ja seurata suorituksiaan Wilman kautta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ayl.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkistan opiskelijoideni poissaoloja ja suorituksia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ayl.inschool.fi",
+      "intent": "Viestin opiskelijalle, joka on jäänyt pois tunnilta, ja kysyn häneltä syyt poissaoloon."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ayl.inschool.fi",
+      "intent": "Päivitän omaa henkilökohtaista tietoaani Wilman kautta ja varmistelen, että tietoni ovat ajan tasalla."
+    }
+  ]
+}

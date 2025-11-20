@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.raadvst-consetat.be",
+      "intent": "Rechercher les informations sur les procédures de recours contre les décisions de l'administration"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.raadvst-consetat.be",
+      "intent": "Consulter les arrêts et les décisions de non-admissibilité publiés par le Conseil d'État"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.raadvst-consetat.be",
+      "intent": "Télécharger la brochure explicative sur le rôle du Conseil d'État dans la protection de l'État de droit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.raadvst-consetat.be",
+      "intent": "Accéder à la plateforme de dépôt de recours en ligne pour introduire une demande de suspension d'une décision administrative"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.raadvst-consetat.be",
+      "intent": "Consulter les dossiers en cours de traitement par le Conseil d'État et suivre l'évolution de mes propres dossiers"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.raadvst-consetat.be",
+      "intent": "Participer à une consultation publique en ligne sur un projet de loi ou de règlement soumis à l'examen du Conseil d'État"
+    }
+  ]
+}

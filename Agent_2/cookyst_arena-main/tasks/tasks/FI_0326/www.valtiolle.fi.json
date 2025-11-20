@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.valtiolle.fi",
+      "intent": "Etsin uusimpia työpaikkoja valtiolle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.valtiolle.fi",
+      "intent": "Tutkin työnhakuvaihtoehtoja opiskelijana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.valtiolle.fi",
+      "intent": "Luen lisää valtion työelämästä ja urapoluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.valtiolle.fi",
+      "intent": "Luon hakuvahtin työpaikkojen seuraamiseksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.valtiolle.fi",
+      "intent": "Hae työpaikkaa valtiolle kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.valtiolle.fi",
+      "intent": "Tutkin valtion sisäisiä työnhakumahdollisuuksia"
+    }
+  ]
+}

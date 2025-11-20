@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://airportinfo.live",
+      "intent": "Ich möchte die Ankunfts- und Abflugzeiten für den Flughafen Hamburg finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://airportinfo.live",
+      "intent": "Ich will die Flugstatistiken für die letzten 24 Stunden auf dem Flughafen Frankfurt einsehen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://airportinfo.live",
+      "intent": "Ich möchte die Abflugzeiten für den Flughafen Berlin auf der Website überprüfen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://airportinfo.live",
+      "intent": "Ich will meine Favoriten-Flughäfen und -Flüge in meinem Benutzerkonto speichern, um sie später schnell finden zu können."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://airportinfo.live",
+      "intent": "Ich möchte meine Flugbenachrichtigungen anpassen, um nur Informationen über Flüge von bestimmten Airlines zu erhalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://airportinfo.live",
+      "intent": "Ich will meine Flugverlaufsdaten aus dem letzten Monat analysieren, um meine Reisepläne zu optimieren."
+    }
+  ]
+}

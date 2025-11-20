@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://horoscopo.abc.es",
+      "intent": "Buscar mi signo del zodiaco para leer mi horóscopo diario"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://horoscopo.abc.es",
+      "intent": "Explorar las diferentes secciones del sitio web para encontrar contenido relacionado con la astrología y el zodiaco"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://horoscopo.abc.es",
+      "intent": "Leer las noticias y artículos relacionados con la astrología y la espiritualidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://horoscopo.abc.es",
+      "intent": "Guardar mi horóscopo diario en mi cuenta para poder acceder a él más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://horoscopo.abc.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre mi horóscopo diario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://horoscopo.abc.es",
+      "intent": "Compartir mi horóscopo diario en las redes sociales para que mis amigos y familiares puedan leerlo"
+    }
+  ]
+}

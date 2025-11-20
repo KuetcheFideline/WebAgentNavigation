@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.etlehti.fi",
+      "intent": "Luen uusimmat terveysuutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.etlehti.fi",
+      "intent": "Etsin reseptejä ja ruokaohjeita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.etlehti.fi",
+      "intent": "Selailen matkailuosiota ja etsin vinkkejä seuraavalle matkallemme"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.etlehti.fi",
+      "intent": "Osallistun keskusteluun ja kommentoin artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.etlehti.fi",
+      "intent": "Tilaa uutiskirje ja päivitä tilaustani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.etlehti.fi",
+      "intent": "Vastaan kilpailuun ja yritän voittaa palkinto"
+    }
+  ]
+}

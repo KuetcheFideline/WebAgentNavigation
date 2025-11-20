@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://digitaleksamen.aau.dk",
+      "intent": "Jeg skal finde information omkring digital eksamen på Aalborg Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://digitaleksamen.aau.dk",
+      "intent": "Jeg vil prøve en demoeksamen for at se, hvordan det fungerer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://digitaleksamen.aau.dk",
+      "intent": "Jeg søger efter vejledning til, hvordan jeg kan tilgå mine opgavesæt og lave besvarelser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://digitaleksamen.aau.dk",
+      "intent": "Jeg skal logge ind for at tilgå mine opgavesæt og lave besvarelser som studerende"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://digitaleksamen.aau.dk",
+      "intent": "Jeg vil afgive bedømmelser på mine studerendes besvarelser efter at have logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://digitaleksamen.aau.dk",
+      "intent": "Jeg skal opsætte prøver og afgive administrative bedømmelser efter at have logget ind som administrator"
+    }
+  ]
+}

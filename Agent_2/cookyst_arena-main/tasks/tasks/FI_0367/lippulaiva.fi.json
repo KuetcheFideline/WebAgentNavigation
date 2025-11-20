@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lippulaiva.fi",
+      "intent": "Etsin lounasvaihtoehtoja Lippulaivassa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lippulaiva.fi",
+      "intent": "Haluan tietää Lippulaivan aukioloajat ja liikkeiden aukioloaikoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lippulaiva.fi",
+      "intent": "Olen kiinnostunut Lippulaivan tarjouksista ja vinkkeistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lippulaiva.fi",
+      "intent": "Tilasin uutiskirjeen ja haluan nyt muuttaa tilauksen tietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lippulaiva.fi",
+      "intent": "Olen kiinnostunut Lippulaivan asiakasohjelmasta ja haluan tarkastella omaa tilaani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lippulaiva.fi",
+      "intent": "Haluan antaa palautetta Lippulaivan palveluista ja tuotteista"
+    }
+  ]
+}

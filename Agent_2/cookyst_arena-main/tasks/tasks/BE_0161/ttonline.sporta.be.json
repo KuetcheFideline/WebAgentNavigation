@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ttonline.sporta.be",
+      "intent": "Rechercher les résultats des tournois de tennis de table pour la saison en cours."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ttonline.sporta.be",
+      "intent": "Consulter les informations sur les clubs de tennis de table dans la région d'Oost-Vlaanderen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ttonline.sporta.be",
+      "intent": "Explorer le calendrier des tournois à venir pour planifier sa participation."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ttonline.sporta.be",
+      "intent": "S'inscrire à un tournoi de tennis de table en ligne pour la saison en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ttonline.sporta.be",
+      "intent": "Consulter et modifier ses informations personnelles dans son compte utilisateur."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ttonline.sporta.be",
+      "intent": "Vérifier ses résultats et classements dans les tournois auxquels il a participé."
+    }
+  ]
+}

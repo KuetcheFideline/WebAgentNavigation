@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.socialsecurity.be",
+      "intent": "Rechercher les informations sur les prestations de sécurité sociale pour les citoyens belges"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.socialsecurity.be",
+      "intent": "Consulter les services en ligne pour les entreprises et les travailleurs indépendants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.socialsecurity.be",
+      "intent": "Explorer les ressources pour les expatriés et les personnes venant de l'étranger pour travailler en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.socialsecurity.be",
+      "intent": "Gérer mon compte de sécurité sociale en ligne et consulter mes prestations"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.socialsecurity.be",
+      "intent": "Déclarer un changement d'adresse ou de situation professionnelle pour mettre à jour mes informations de sécurité sociale"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.socialsecurity.be",
+      "intent": "Demander un certificat de sécurité sociale pour une demande de visa ou de permis de travail"
+    }
+  ]
+}

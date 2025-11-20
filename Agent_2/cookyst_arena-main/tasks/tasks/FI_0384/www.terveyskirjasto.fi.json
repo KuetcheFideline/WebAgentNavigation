@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Hae tietoa masennuksesta ja sen oireista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Lue artikkeleita terveydestä ja hyvinvoinnista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Selaa laboratoriotutkimuksia ja niiden tuloksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Tallenna suosikkioireita ja sairauksia ja seuraa niiden kehittymistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Luo henkilökohtainen terveyssuunnitelma ja aseta tavoitteita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Osallistu keskusteluihin ja foorumeihin terveydestä ja hyvinvoinnista"
+    }
+  ]
+}

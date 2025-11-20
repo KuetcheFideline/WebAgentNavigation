@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jv.dk",
+      "intent": "Læs nyheder fra Syd- og Sønderjylland"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jv.dk",
+      "intent": "Søg efter lokale begivenheder i Aalborg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jv.dk",
+      "intent": "Se hvilke spil og underholdning der er tilgængelige på JFM Play"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jv.dk",
+      "intent": "Læs mine abonnementsdetaljer og selvbetjening"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jv.dk",
+      "intent": "Administrer mine præferencer for nyhedsbreve og annoncering"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jv.dk",
+      "intent": "Log ud af min konto efter at have læst mine nyheder"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mbosa.fi",
+      "intent": "Etsin Mercedes-Benz -huoltopalveluja Vaasassa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mbosa.fi",
+      "intent": "Haluan tietää enemmän M-B Osa Oy:n yrityksestä ja sen palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mbosa.fi",
+      "intent": "Olen kiinnostunut verkkokaupan tuotteista, erityisesti alkuperäisistä varaosista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mbosa.fi",
+      "intent": "Tilasin varaosan verkkokaupasta, haluan seurata tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mbosa.fi",
+      "intent": "Olen varannut huoltoajan, haluan vahvistaa varaukseni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mbosa.fi",
+      "intent": "Haluan tarkastaa aiemmat tilaukseni ja huoltohistoriani"
+    }
+  ]
+}

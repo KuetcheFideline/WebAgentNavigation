@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dantaxi.dk",
+      "intent": "Jeg skal bestille en taxa til mit arbejde i København, så jeg søger efter en taxa, der kan hente mig ved Roskilde Station og sætte mig af ved mit kontor i København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dantaxi.dk",
+      "intent": "Jeg vil gerne vide mere om Dantaxis priser og hvordan jeg kan få en fast pris på min taxa, så jeg søger efter information om deres priser og fastpris-model"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dantaxi.dk",
+      "intent": "Jeg har mistet min telefon i en taxa, så jeg søger efter information om, hvordan jeg kan få den returneret og hvem jeg skal kontakte"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dantaxi.dk",
+      "intent": "Jeg vil gerne booke en taxa med fast pris til min næste tur til lufthavnen, så jeg søger efter at booke en taxa med fast pris i Dantaxis internetbooking-system"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dantaxi.dk",
+      "intent": "Jeg vil gerne se mine tidligere bookinger og printe en kvittering for en af mine tidligere turer, så jeg søger efter min bookningshistorik i Dantaxis internetbooking-system"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dantaxi.dk",
+      "intent": "Jeg vil gerne ændre mine kontoinformationer og opdaterer min adresse, så jeg søger efter at ændre mine kontoinformationer i Dantaxis internetbooking-system"
+    }
+  ]
+}

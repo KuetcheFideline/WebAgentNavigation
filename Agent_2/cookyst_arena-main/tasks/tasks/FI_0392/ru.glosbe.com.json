@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ru.glosbe.com",
+      "intent": "Etsin sanan 'kalastus' käännöstä suomen ja englannin kielillä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ru.glosbe.com",
+      "intent": "Selailen Glosben suomen ja venäjän kielen sanastoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ru.glosbe.com",
+      "intent": "Tutkin Glosben tarjoamia ääntämiseen liittyviä resursseja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ru.glosbe.com",
+      "intent": "Lisään uuden käännöksen suomen ja ruotsin kielillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ru.glosbe.com",
+      "intent": "Merkin sanan 'mökki' käännöksen suosikiksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ru.glosbe.com",
+      "intent": "Luo uusi sanasto omiin tarpeisiin"
+    }
+  ]
+}

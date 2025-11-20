@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.onnion.fi",
+      "intent": "Hae sivustolta tietoa kotisiivouspalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.onnion.fi",
+      "intent": "Selvitä miten voin ostaa lahjakortin Onnin palveluihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.onnion.fi",
+      "intent": "Lue lisää Onnin avoimista työpaikoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.onnion.fi",
+      "intent": "Tilaa palveluseteli ja varaa aika avustajalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.onnion.fi",
+      "intent": "Kirjaudu sisään ja tee kotitalousvähennysilmoitus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.onnion.fi",
+      "intent": "Ota yhteyttä Onnin asiakaspalveluun ja kysy lisää palveluista"
+    }
+  ]
+}

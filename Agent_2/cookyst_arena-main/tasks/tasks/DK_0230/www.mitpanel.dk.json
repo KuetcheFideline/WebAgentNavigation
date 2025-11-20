@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mitpanel.dk",
+      "intent": "Jeg vil gerne vide mere om, hvordan jeg kan blive betalt for min mening, så jeg klikker på 'SÅDAN VIRKER DET' for at lære mere om processen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mitpanel.dk",
+      "intent": "Jeg er interesseret i at se, hvilke belønninger der er tilgængelige, så jeg klikker på 'BELØNNINGER' for at se, hvad jeg kan få ud af det."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mitpanel.dk",
+      "intent": "Jeg vil gerne læse mere om Mitpanels historie og hvordan de er blevet til, så jeg klikker på 'LÆS VORES HISTORIE' for at få en bedre forståelse."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mitpanel.dk",
+      "intent": "Jeg er logget ind og vil gerne se, hvilke undersøgelser der er tilgængelige for mig, så jeg klikker på 'DEL' for at deltage i en undersøgelse og få point."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mitpanel.dk",
+      "intent": "Jeg har samlet nok point og vil gerne indløse dem, så jeg klikker på 'HURRA' for at vælge min belønning og se, hvad jeg kan få ud af det."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mitpanel.dk",
+      "intent": "Jeg vil gerne se, hvordan mine point og belønninger ser ud, så jeg klikker på 'MIT KONTO' for at få en oversigt over min aktivitet og belønninger."
+    }
+  ]
+}

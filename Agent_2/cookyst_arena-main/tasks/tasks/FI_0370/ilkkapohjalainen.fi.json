@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Luen uutisia Etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Selailen urheilu-uutisia Huuhkajat-sivulta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Etsin tietoa paikallishistoriasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Luen tilaajien artikkeleita Tilaajille-sivulta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Kommentoin artikkeleita ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ilkkapohjalainen.fi",
+      "intent": "Hallinoidan tilaustani ja tarkastan tilaajaedut"
+    }
+  ]
+}

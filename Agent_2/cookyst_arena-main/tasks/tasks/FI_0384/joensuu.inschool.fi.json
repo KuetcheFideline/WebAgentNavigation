@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Luen uusimmat tiedotteet Tulliportin normaalikoulusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Tutkin mahdollisuuksia ilta- ja uimakoulutoiminnan hakemiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Selvitan, miten Wilma toimii ja mitä sen kautta voi tehdä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Tarkastan lasteni poissaoloja ja suorituksia Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Viestin opettajalle lasteni opiskeluista ja kurssivalinnoista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Muutan salasanani ja tarkastan Wilman asetuksia"
+    }
+  ]
+}

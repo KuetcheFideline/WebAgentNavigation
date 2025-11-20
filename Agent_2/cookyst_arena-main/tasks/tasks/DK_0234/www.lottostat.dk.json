@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lottostat.dk",
+      "intent": "Jeg søger efter lørdagslotto resultaterne for at se, om jeg har vundet noget"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lottostat.dk",
+      "intent": "Jeg vil tilmelde mig lørdagslotto resultat e-mails, så jeg kan få besked, når resultaterne er klar"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lottostat.dk",
+      "intent": "Jeg ønsker at se de seneste vikinglotto resultater for at sammenligne med mine egne tal"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lottostat.dk",
+      "intent": "Jeg vil logge ind for at se mine personlige lotto resultater og spillehistorik"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lottostat.dk",
+      "intent": "Jeg ønsker at ændre mine e-mail-indstillinger for at modtage resultaterne på en anden e-mail-adresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lottostat.dk",
+      "intent": "Jeg vil logge ind for at spille i lørdagslotto og onsdagslotto med mine favorittal"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.artemiranda.es",
+      "intent": "Buscar productos de arte y manualidades para decorar mi piso compartido en Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.artemiranda.es",
+      "intent": "Comparar precios de diferentes productos de arte y manualidades para encontrar los más asequibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.artemiranda.es",
+      "intent": "Explorar la sección de 'Conócenos' para saber más sobre la tienda y su misión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.artemiranda.es",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis pedidos y seguimiento de compras"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.artemiranda.es",
+      "intent": "Agregar productos a mi carrito y proceder a la compra para enviarlos a mi dirección en Guadalajara"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.artemiranda.es",
+      "intent": "Configurar mis preferencias de cuenta y cambiar mi contraseña para mejorar la seguridad"
+    }
+  ]
+}

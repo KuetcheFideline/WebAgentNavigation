@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.blabloom.com",
+      "intent": "Rechercher des produits pour bébé en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.blabloom.com",
+      "intent": "Consulter les articles du blog pour obtenir des conseils sur les produits écologiques pour enfants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.blabloom.com",
+      "intent": "Explorer la section 'Geboortelijsten' pour découvrir les possibilités de création de liste de naissance"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.blabloom.com",
+      "intent": "Accéder à mon compte pour consulter mes commandes précédentes et mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.blabloom.com",
+      "intent": "Créer une liste de naissance en ligne pour mon futur enfant et la partager avec mes proches"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.blabloom.com",
+      "intent": "Réserver une place pour une démonstration de produits pour bébé dans la boutique de Genk"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kuka-soitti.fi",
+      "intent": "Hae puhelinnumeroa, joka soitti minulle eilen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kuka-soitti.fi",
+      "intent": "Lue mitä käyttäjät ovat kertoneet numerosta +358406335680"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kuka-soitti.fi",
+      "intent": "Selvitä kuka omistaa puhelinnumero +358580784052"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kuka-soitti.fi",
+      "intent": "Raportoi puhelinnumero +358265082495, joka soitti minulle viimeksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kuka-soitti.fi",
+      "intent": "Poista puhelinnumero +358634680240 hakemistosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kuka-soitti.fi",
+      "intent": "Lisää uusi puhelinnumero +358746904233 hakemistoon"
+    }
+  ]
+}

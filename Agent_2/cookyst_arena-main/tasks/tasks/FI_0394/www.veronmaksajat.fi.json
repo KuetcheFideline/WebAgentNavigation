@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.veronmaksajat.fi",
+      "intent": "Tutustun veroneuvontapalveluihin ja etsin tietoa aiheesta 'verotus ja eläkkeen vaikutus'"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.veronmaksajat.fi",
+      "intent": "Luen uutisia ja artikkeleita aiheesta 'veromuutokset 2026' ja 'veronmaksajien linjaukset'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.veronmaksajat.fi",
+      "intent": "Etsin tietoa jäsenyydestä ja sen hyödyistä, kuten 'jäsenetuja' ja 'veroneuvontaa'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.veronmaksajat.fi",
+      "intent": "Kirjaudun sisään ja tutkin 'Omat tiedot' -osioon, jossa voit tarkastella ja päivittää omia tietojani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.veronmaksajat.fi",
+      "intent": "Käyn 'Veroneuvonta' -osiossa ja etsin apua verotusongelmiini, kuten 'veroprosentit' ja 'verovähennykset'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.veronmaksajat.fi",
+      "intent": "Tutkin 'Taloustaito' -osioon, jossa voit lukea artikkeleita ja uutisia aiheesta 'talous ja raha'"
+    }
+  ]
+}

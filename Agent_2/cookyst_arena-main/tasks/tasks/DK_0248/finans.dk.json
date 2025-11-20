@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://finans.dk",
+      "intent": "Læse om de seneste nyheder om erhvervslivet i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://finans.dk",
+      "intent": "Søge efter jobmuligheder indenfor erhverv og finans"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://finans.dk",
+      "intent": "Følge med i udviklingen af aktier og obligationer på det danske marked"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://finans.dk",
+      "intent": "Læse artikler og nyheder om erhvervslivet, som kun er tilgængelige for abonnenter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://finans.dk",
+      "intent": "Tilføje kommentarer til artikler og nyheder om erhvervslivet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://finans.dk",
+      "intent": "Administrere mit abonnement og ændre mine præferencer"
+    }
+  ]
+}

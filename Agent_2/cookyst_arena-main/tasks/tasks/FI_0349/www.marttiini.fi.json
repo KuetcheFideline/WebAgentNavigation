@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.marttiini.fi",
+      "intent": "Hae kalastusveitset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.marttiini.fi",
+      "intent": "Selaa Marttiinin tuotteita ja etsi uusimmat mallit"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.marttiini.fi",
+      "intent": "Lue Marttiinin tarina ja historia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.marttiini.fi",
+      "intent": "Tilaa uusi puukko ja hyödy tuotteen mukauttamisesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.marttiini.fi",
+      "intent": "Tarkista tilausten tila ja seuraa lähetyksen etenemistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.marttiini.fi",
+      "intent": "Kirjaudu sisään ja liity Marttiini Clubiin saadaksesi 20% alennuksen"
+    }
+  ]
+}

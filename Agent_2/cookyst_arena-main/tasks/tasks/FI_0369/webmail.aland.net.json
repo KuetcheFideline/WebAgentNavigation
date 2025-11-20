@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.aland.net",
+      "intent": "Kirjaudu sisään Ålcom Webmailiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.aland.net",
+      "intent": "Etsi ohjeita Ålcom Webmailin käyttöön"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.aland.net",
+      "intent": "Tutki Ålcom Webmailin tietosuojakäytäntöjä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.aland.net",
+      "intent": "Lähetä sähköpostia liiketoimintakumppanille Ålcom Webmailin kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.aland.net",
+      "intent": "Muokkaa Ålcom Webmailin asetuksia, kuten allekirjoitusta ja viestinlähetysasetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.aland.net",
+      "intent": "Poista vanhoja sähköpostiviestejä ja tyhjennä roskapostikansio Ålcom Webmailista"
+    }
+  ]
+}

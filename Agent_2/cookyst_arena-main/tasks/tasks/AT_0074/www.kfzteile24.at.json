@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kfzteile24.at",
+      "intent": "Ich möchte ein neues Autoersatzteil für mein Fahrzeug finden, also werde ich auf der Startseite nach dem passenden Teil suchen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kfzteile24.at",
+      "intent": "Ich will mich über die verschiedenen Autoteile und ihre Preise informieren, also werde ich die Kategorien wie Abgasanlage, Achsaufhängung und Anhängerkupplung durchsehen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kfzteile24.at",
+      "intent": "Ich möchte herausfinden, ob es bei kfzteile24.at eine Möglichkeit gibt, mein Fahrzeug zu konfigurieren und passende Teile zu finden, also werde ich nach der Fahrzeugauswahl suchen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kfzteile24.at",
+      "intent": "Ich bin bereits angemeldet und möchte mein Konto überprüfen, also werde ich auf mein Konto zugreifen und meine Bestellungen und den Warenkorb überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kfzteile24.at",
+      "intent": "Ich möchte ein bestimmtes Autoersatzteil kaufen, also werde ich es in den Warenkorb legen und den Bestellprozess starten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kfzteile24.at",
+      "intent": "Ich will mich über den Status meiner Bestellungen informieren, also werde ich die Bestellhistorie überprüfen und den Versandstatus meiner Artikel einsehen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.brondby-gym.dk",
+      "intent": "Jeg søger efter information om Grundforløb 23 på Brøndby Gymnasiums hjemmeside."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.brondby-gym.dk",
+      "intent": "Jeg vil se, hvilke kurser der er tilgængelige under kategorien 'Kursuskategorier' uden at være logget ind."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.brondby-gym.dk",
+      "intent": "Jeg ønsker at læse om 'Elevområde - elevråd, tutorer o.lign' på skolens hjemmeside uden at være logget ind."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.brondby-gym.dk",
+      "intent": "Jeg skal logge ind for at se mine kurser og følge med i mine studier på Brøndby Gymnasium."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.brondby-gym.dk",
+      "intent": "Jeg vil downloade vejledninger og ressourcer relateret til mine studier fra 'IT kompetencer, vejledninger og downloads' efter login."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.brondby-gym.dk",
+      "intent": "Jeg søger efter at deltage i eller følge med i diskussioner og aktiviteter i 'Lærerområde 1 - administration og didaktik' efter at være logget ind."
+    }
+  ]
+}

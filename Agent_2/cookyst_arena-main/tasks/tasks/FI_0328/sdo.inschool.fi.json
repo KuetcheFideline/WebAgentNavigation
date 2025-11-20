@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sdo.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa opiskelijoiden kirjautumisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sdo.inschool.fi",
+      "intent": "Selvittelen miten voin vaihtaa salasanani, jos se on unohtunut"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sdo.inschool.fi",
+      "intent": "Etsin tietoa Wilman saavutettavuudesta ja miten se liittyy opiskelijoiden tarpeisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sdo.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan omat opintotiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sdo.inschool.fi",
+      "intent": "Tutkin Wilman opiskelijaliittymän toimintoja ja etsin tietoa opintojen seuraamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sdo.inschool.fi",
+      "intent": "Vaihdan salasanani Wilman salasana-vaihtosivulla, jos se on tarpeen"
+    }
+  ]
+}

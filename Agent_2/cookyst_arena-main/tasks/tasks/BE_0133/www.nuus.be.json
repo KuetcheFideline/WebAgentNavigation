@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nuus.be",
+      "intent": "Rechercher des informations sur les événements à venir dans la région de Zottegem"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nuus.be",
+      "intent": "Lire les dernières actualités sur le site NUUS pour me tenir informé sur les nouvelles de la région"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nuus.be",
+      "intent": "Explorer la section 'Andere regio’s' pour découvrir les actualités des communes voisines"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nuus.be",
+      "intent": "Publier un commentaire sur un article pour partager mon opinion avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nuus.be",
+      "intent": "Ajouter un événement à la section 'Uw evenement toevoegen' pour promouvoir une activité locale"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nuus.be",
+      "intent": "Gérer mes préférences de cookies pour personnaliser mon expérience de navigation sur le site"
+    }
+  ]
+}

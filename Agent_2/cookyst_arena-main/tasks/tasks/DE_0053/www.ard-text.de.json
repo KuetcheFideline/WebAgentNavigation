@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte die neuesten Nachrichten im Teletext im Ersten lesen, um mich über aktuelle Ereignisse in Deutschland und der Welt zu informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich will die Sendungen im TV-Programm des Ersten überprüfen, um zu sehen, ob es interessante Sendungen gibt, die ich verpasst habe."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte die Mobilversion des ARD Text aufrufen, um auch unterwegs Zugang zu den neuesten Nachrichten und Sendungen zu haben."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich will meine persönlichen Einstellungen im Benutzerkonto anpassen, um die Darstellung des Teletext im Ersten an meine Bedürfnisse anzupassen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte meine Lieblingssendungen im Mediathek-Bereich des Ersten aufrufen, um sie später anzusehen, wenn ich Zeit habe."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich will die Zuschauerredaktion kontaktieren, um mein Feedback zu einer bestimmten Sendung oder einem bestimmten Thema zu geben und meine Meinung zu äußern."
+    }
+  ]
+}

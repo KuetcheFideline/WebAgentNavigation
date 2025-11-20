@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tennis.fi",
+      "intent": "Tutustun Suomen Tennisliiton sivustoon ja etsin tietoa tenniksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tennis.fi",
+      "intent": "Selailen sivuston uutisia ja artikkeleita tenniksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tennis.fi",
+      "intent": "Etsin tietoa tennisturnauksista ja -kilpailuista Suomessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tennis.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omani tennistilastot ja -saavutukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tennis.fi",
+      "intent": "Osallistun keskustelufoorumiin ja keskustelen muiden käyttäjien kanssa tenniksesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tennis.fi",
+      "intent": "Tilaan uutiskirjeen ja saan päivittäin tietoa tenniksesta ja tennisturnauksista"
+    }
+  ]
+}

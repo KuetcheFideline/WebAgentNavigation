@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.paimio.fi",
+      "intent": "Hae tietoa Paimion kaupungin joukkoliikenteestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.paimio.fi",
+      "intent": "Selaa Paimion kaupungin kulttuuritapahtumia ja etsi mielenkiintoisia aktiviteetteja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.paimio.fi",
+      "intent": "Etsi tietoa Paimion kaupungin opetus- ja kasvatuspalveluista lapsille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.paimio.fi",
+      "intent": "Kirjaudu sisään ja tee ilmoittautuminen Paimion opiston kevään kursseille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.paimio.fi",
+      "intent": "Vastaa Vaski-kirjastojen asiakaskyselyyn kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.paimio.fi",
+      "intent": "Tee hakemus tontin ostamiseksi tai vuokraamiseksi Paimion kaupungista kirjautuneena käyttäjänä"
+    }
+  ]
+}

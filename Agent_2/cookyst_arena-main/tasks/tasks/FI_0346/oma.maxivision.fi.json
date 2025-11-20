@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.maxivision.fi",
+      "intent": "Tutkin Maxivisionin Palvelukeskuksen etusivun sisältöä ja etsin tietoa heidän palveluistaan."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.maxivision.fi",
+      "intent": "Selvittelen, miten voin rekisteröityä Maxivisionin asiakkaaksi ja mitä hyötyjä siitä on."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.maxivision.fi",
+      "intent": "Luen lisää Maxivisionin evästeiden käytöstä ja ymmärrän, miten ne vaikuttavat sivuston toimintaan."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.maxivision.fi",
+      "intent": "Kirjaudun sisään Palvelukeskukseen ja tarkastan tilinumeroni ja laskutietoni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.maxivision.fi",
+      "intent": "Muokkaan profiiliani ja päivitän yhteystietoni, jotta voin hallita asiakastiliäni tehokkaammin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.maxivision.fi",
+      "intent": "Tarkastan laskujeni maksutilannetta ja suoritan tarvittavat maksut, jotta voin pitää tilini ajan tasalla."
+    }
+  ]
+}

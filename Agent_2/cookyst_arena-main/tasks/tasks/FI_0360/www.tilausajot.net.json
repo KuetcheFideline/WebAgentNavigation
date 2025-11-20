@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tilausajot.net",
+      "intent": "Hae tietoa siitä, miten palvelu toimii ja miten voin kilpailuttaa tilausajot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tilausajot.net",
+      "intent": "Selvitä, miten voin tehdä tarjouspyynnön ja mitä tietoja minun on annettava"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tilausajot.net",
+      "intent": "Lue arvosteluita ja kokemuksia palvelun käytöstä ja sen toimivuudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tilausajot.net",
+      "intent": "Tee uusi tarjouspyyntö ja määritä kuljetuksen tiedot, kuten lähtö- ja määränpää sekä matkustajamäärä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tilausajot.net",
+      "intent": "Tarkastele saatuja tarjouksia ja vertaile niiden hintoja ja palvelujen laatua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tilausajot.net",
+      "intent": "Hyväksy tai hylkää saapuneet tarjoukset ja anna palautetta toteutuneesta kuljetuksesta"
+    }
+  ]
+}

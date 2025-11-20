@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://horaire-priere.be",
+      "intent": "Rechercher l'horaire de prière pour la ville de Gand"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://horaire-priere.be",
+      "intent": "Comprendre les méthodes de calcul des horaires de prière en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://horaire-priere.be",
+      "intent": "Consulter les horaires de prière pour les cinq prières quotidiennes à Bruxelles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://horaire-priere.be",
+      "intent": "Enregistrer mes préférences de calcul d'horaire de prière pour une utilisation future"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://horaire-priere.be",
+      "intent": "Recevoir des notifications pour les horaires de prière de ma ville natale"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://horaire-priere.be",
+      "intent": "Partager l'horaire de prière de ma communauté avec mes proches"
+    }
+  ]
+}

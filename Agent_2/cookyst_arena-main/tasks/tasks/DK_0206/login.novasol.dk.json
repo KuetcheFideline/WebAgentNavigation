@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.novasol.dk",
+      "intent": "Jeg skal finde en måde at få adgang til Novasol på, selvom jeg ikke kan logge ind lige nu."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.novasol.dk",
+      "intent": "Jeg vil søge efter en Sommerhus i nærheden af Esbjerg, hvor jeg kan tilbringe min fritid."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.novasol.dk",
+      "intent": "Jeg skal læse mere om Novasols privatlivspolitik og sikkerhed, før jeg forsøger at logge ind."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.novasol.dk",
+      "intent": "Jeg vil book en feriebolig til min næste sommerferie, når jeg er logget ind på min konto."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.novasol.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer og opdatere min e-mail-adresse, når jeg er logget ind."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.novasol.dk",
+      "intent": "Jeg vil se mine tidligere booking og printe ud mine kvitteringer, når jeg er logget ind på min konto."
+    }
+  ]
+}

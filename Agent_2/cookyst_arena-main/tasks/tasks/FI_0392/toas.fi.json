@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://toas.fi",
+      "intent": "Haluaisin löytää uuden kotini TOASin sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://toas.fi",
+      "intent": "Tutkisin TOASin asumismuotoja ja etsisin sopivaa asuntoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://toas.fi",
+      "intent": "Löytäisin tietoa TOASin palveluista ja lomakkeista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://toas.fi",
+      "intent": "Täyttäisin hakemuksen uudesta asunnosta ja muokkaisin hakemustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://toas.fi",
+      "intent": "Tarkastelisin asunnon vastaanottoa ja vuokrasopimusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://toas.fi",
+      "intent": "Ilmoittaisin vikailmoituksen ja seuraisin sen käsittelyä"
+    }
+  ]
+}

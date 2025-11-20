@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kermaruusu.com",
+      "intent": "Hae blogista reseptejä syntymäpäiväkakkuja varten"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kermaruusu.com",
+      "intent": "Selaa juhlien kakkuja ja etsi inspiraatiota"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kermaruusu.com",
+      "intent": "Lue kommentteja ja arvosteluita eri kakkuista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kermaruusu.com",
+      "intent": "Jaa oma suosikkikakku ja anna palautetta muiden jakamista resepteistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kermaruusu.com",
+      "intent": "Luo oma profiili ja tallenna suosikkireseptit"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kermaruusu.com",
+      "intent": "Osallistu keskusteluun kakkuja koskien ja pyydä neuvoja"
+    }
+  ]
+}

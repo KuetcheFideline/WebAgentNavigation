@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.spard.dk",
+      "intent": "Jeg søger efter information om pension og forsikring på Sparekassen Danmarks hjemmeside."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.spard.dk",
+      "intent": "Jeg ønsker at sammenligne forskellige typer af konti og opsparing på Sparekassen Danmark."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.spard.dk",
+      "intent": "Jeg søger efter vejledning om, hvordan jeg kan åbne et nyt betalingskonto på Sparekassen Danmark."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.spard.dk",
+      "intent": "Jeg ønsker at overføre penge fra mit betalingskonto til mit opsparingskonto via Netbank."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.spard.dk",
+      "intent": "Jeg søger efter at se mine nuværende kontosalder og transaktioner på mine konti via Netbank."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.spard.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer og adresse via Netbank på Sparekassen Danmarks hjemmeside."
+    }
+  ]
+}

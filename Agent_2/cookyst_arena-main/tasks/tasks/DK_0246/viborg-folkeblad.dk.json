@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://viborg-folkeblad.dk",
+      "intent": "Læse nyheder om Viborg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://viborg-folkeblad.dk",
+      "intent": "Søge efter information om lokale begivenheder i Viborg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://viborg-folkeblad.dk",
+      "intent": "Se hvad der sker i Viborgs sportsliv"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://viborg-folkeblad.dk",
+      "intent": "Læse artikler om Viborg HK som abonnent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://viborg-folkeblad.dk",
+      "intent": "Deltage i debatten om lokale emner som abonnent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://viborg-folkeblad.dk",
+      "intent": "Få adgang til eksklusive indhold som abonnent"
+    }
+  ]
+}

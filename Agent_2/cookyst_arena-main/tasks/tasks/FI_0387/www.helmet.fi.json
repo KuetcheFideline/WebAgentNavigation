@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.helmet.fi",
+      "intent": "Hae kirjaa kirjastosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.helmet.fi",
+      "intent": "Tutustu Helmet-kirjastojen monikielisiin palveluihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.helmet.fi",
+      "intent": "Lue uusimmat uutiset ja tiedotteet Helmet-kirjaston palvelujen käytöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.helmet.fi",
+      "intent": "Varaa kirja kirjastosta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.helmet.fi",
+      "intent": "Uusi lainat kirjastosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.helmet.fi",
+      "intent": "Tulosta asiakirja kirjastossa"
+    }
+  ]
+}

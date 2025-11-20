@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.uclouvain.be",
+      "intent": "Je veux parcourir les catégories de cours pour voir ce que propose l'université de Louvain"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.uclouvain.be",
+      "intent": "Je souhaite consulter le manuel étudiant pour comprendre comment utiliser la plateforme Moodle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.uclouvain.be",
+      "intent": "Je veux chercher un cours spécifique en utilisant la fonction de recherche de la plateforme"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.uclouvain.be",
+      "intent": "Je veux accéder à mes cours en ligne pour suivre mes études à distance"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.uclouvain.be",
+      "intent": "Je souhaite contacter le helpdesk pour obtenir de l'aide sur une difficulté que j'éprouve avec la plateforme"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.uclouvain.be",
+      "intent": "Je veux consulter mes notes et mes évaluations pour suivre mes progrès dans mes cours"
+    }
+  ]
+}

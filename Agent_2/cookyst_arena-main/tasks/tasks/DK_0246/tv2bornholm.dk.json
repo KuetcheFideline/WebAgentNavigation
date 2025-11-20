@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tv2bornholm.dk",
+      "intent": "Jeg søger efter nyheder om kommunalvalget på TV2 Bornholm"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tv2bornholm.dk",
+      "intent": "Jeg vil se vejret på Bornholm i dag og i morgen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tv2bornholm.dk",
+      "intent": "Jeg ønsker at læse om det sidste ord før kommunalvalget"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tv2bornholm.dk",
+      "intent": "Jeg vil kommentere på en artikel om kommunalvalget efter at have logget ind"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tv2bornholm.dk",
+      "intent": "Jeg ønsker at se mine gemte artikler på min profilside efter login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tv2bornholm.dk",
+      "intent": "Jeg vil ændre mine cookie-indstillinger efter at have logget ind på min konto"
+    }
+  ]
+}

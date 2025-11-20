@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.medecinbelgique.com",
+      "intent": "Rechercher un médecin généraliste à Charleroi pour un rendez-vous de routine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.medecinbelgique.com",
+      "intent": "Comparer les profils de différents dermatologues à Liège pour trouver le meilleur spécialiste pour un problème de peau"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.medecinbelgique.com",
+      "intent": "Trouver les coordonnées d'un ophtalmologue à Bruxelles pour prendre rendez-vous pour une consultation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.medecinbelgique.com",
+      "intent": "Laisser un commentaire sur le profil d'un médecin que j'ai consulté récemment pour partager mon expérience"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.medecinbelgique.com",
+      "intent": "Modifier mes préférences de recherche pour recevoir des recommandations de médecins personnalisées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.medecinbelgique.com",
+      "intent": "Gérer mes rendez-vous en ligne pour annuler ou modifier un rendez-vous avec un médecin"
+    }
+  ]
+}

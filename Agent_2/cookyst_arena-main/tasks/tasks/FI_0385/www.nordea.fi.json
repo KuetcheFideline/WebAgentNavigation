@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Hae tietoa lapsen säästämiseen liittyvistä tuotteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Selvitä miten voin avata uuden tilin lapselleni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Lue lisää Nordean tarjoamista vakuutuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Tarkista tilieni saldo ja viimeisimmät tapahtumat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Määritä uusi maksuohje yhdelle tililleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Tee siirto toiselle tilille"
+    }
+  ]
+}

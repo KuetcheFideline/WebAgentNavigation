@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://frankiespizza.dk",
+      "intent": "Jeg søger efter en god pizza i København, så jeg vil besøge Frankies Pizza for at se deres menu"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://frankiespizza.dk",
+      "intent": "Jeg vil gerne bestille en pizza til afhentning, så jeg søger efter en takeaway-mulighed på Frankies Pizza"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://frankiespizza.dk",
+      "intent": "Jeg er interesseret i at lære mere om Frankies Pizzas forskellige locations, så jeg vil klikke på 'Locations' for at se hvor de ligger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://frankiespizza.dk",
+      "intent": "Jeg vil gerne gemme min yndlingspizza, så jeg logger ind og tilføjer den til mine favoritter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://frankiespizza.dk",
+      "intent": "Jeg vil gerne se mine tidligere bestillinger, så jeg logger ind og checker min ordrehistorik"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://frankiespizza.dk",
+      "intent": "Jeg vil gerne ændre mine kontoinformationer, så jeg logger ind og redigerer min profil"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://top4running.es",
+      "intent": "Buscar zapatillas de running para mujer con descuento para comprar como regalo de Navidad"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://top4running.es",
+      "intent": "Comparar precios de zapatillas de running de diferentes marcas como Nike y Adidas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://top4running.es",
+      "intent": "Leer artículos del blog sobre consejos para correr en invierno y encontrar ropa adecuada"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://top4running.es",
+      "intent": "Iniciar sesión para acceder a mi cuenta y ver mis pedidos anteriores de zapatillas de running"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://top4running.es",
+      "intent": "Cancelar un pedido de zapatillas de running que realicé la semana pasada"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://top4running.es",
+      "intent": "Reclamar un artículo defectuoso de mi último pedido de ropa de running y solicitar un reembolso"
+    }
+  ]
+}

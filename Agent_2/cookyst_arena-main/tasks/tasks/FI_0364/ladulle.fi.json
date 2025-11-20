@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ladulle.fi",
+      "intent": "Hae lähimmät ladut Helsingistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ladulle.fi",
+      "intent": "Vertaile eri latureiden vaikeustasoa ja valitse sopivin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ladulle.fi",
+      "intent": "Etsi tietoa lähialueen latureiden kunnossapidosta ja hoitourakoitsijoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ladulle.fi",
+      "intent": "Kirjaudu sisään ja lisää oma latureiden arvosteluni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ladulle.fi",
+      "intent": "Tallenna suosikkiladut ja jaettu niiden sijainti ystävien kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ladulle.fi",
+      "intent": "Osallistu keskusteluun latureiden kunnossapidosta ja anna palautetta"
+    }
+  ]
+}

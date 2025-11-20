@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://edutampere.inschool.fi",
+      "intent": "Tutkin Tampereen kaupungin toisen asteen Wilman etusivun ja etsin tietoa opiskelijoiden ja henkilökunnan kirjautumisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://edutampere.inschool.fi",
+      "intent": "Selailen Wilman käyttöohjeita ja etsin tietoa salasanan vaihtamisesta ja vahvan tunnistautumisen ohjeista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://edutampere.inschool.fi",
+      "intent": "Etsin tietoa Wilman mobiilsovelluksen lataamisesta ja asentamisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://edutampere.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan opiskelijoiden ja henkilökunnan kirjautumisnappulalla ja tarkistan omat tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://edutampere.inschool.fi",
+      "intent": "Tutkin Wilman kurssien ja opintojen hallintaa ja etsin tietoa opintojen suunnittelusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://edutampere.inschool.fi",
+      "intent": "Lähetän viestin opettajalle tai muulle henkilökunnalle Wilman viestitoiminnon kautta"
+    }
+  ]
+}

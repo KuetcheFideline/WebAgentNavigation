@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tableonline.fi",
+      "intent": "Etsin lähelläni sijaitsevia ravintoloita, joissa on hyvät arvostelut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tableonline.fi",
+      "intent": "Haluan tarkastella eri ravintoloiden ruokalistaa ja hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tableonline.fi",
+      "intent": "Luen ravintola-arvosteluja ja etsin suosituksia ystäviltäni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tableonline.fi",
+      "intent": "Tee varaus suosikkiravintolaani ja lisää se suosikkilistalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tableonline.fi",
+      "intent": "Kirjaudun sisään ja tarkastan varaukseni ja arvosteluni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tableonline.fi",
+      "intent": "Lisään uuden arvostelun ja annan palautetta suosikkiravintolalle"
+    }
+  ]
+}

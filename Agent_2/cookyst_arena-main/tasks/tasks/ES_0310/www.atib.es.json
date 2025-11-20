@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.atib.es",
+      "intent": "Buscar información sobre el período voluntario de pagamento de tributos de mi municipio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.atib.es",
+      "intent": "Consultar las novedades y comunicados sobre los tributos autonómicos para el año 2025"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.atib.es",
+      "intent": "Explorar la sección de contacto para obtener información sobre cómo realizar pagos de tributos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.atib.es",
+      "intent": "Acceder a mi cartera virtual para consultar el estado de mis pagos de tributos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.atib.es",
+      "intent": "Realizar el pago de mis tributos correspondientes al año 2025 a través de la plataforma en línea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.atib.es",
+      "intent": "Descargar y imprimir mis recibos de pago de tributos para el año 2025"
+    }
+  ]
+}

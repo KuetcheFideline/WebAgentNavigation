@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://secure.myglobalbenefits.aginsurance.be",
+      "intent": "Je souhaite créer un compte pour accéder aux avantages AG Insurance en tant qu'employé."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://secure.myglobalbenefits.aginsurance.be",
+      "intent": "J'ai besoin d'en savoir plus sur les méthodes de connexion disponibles, notamment avec itsme ou mon eID."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://secure.myglobalbenefits.aginsurance.be",
+      "intent": "Je veux lire la notice de confidentialité d'AG Insurance pour comprendre comment mes données personnelles sont traitées."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://secure.myglobalbenefits.aginsurance.be",
+      "intent": "Maintenant que je suis connecté, je souhaite consulter mes avantages sociaux et les détails de mon compte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://secure.myglobalbenefits.aginsurance.be",
+      "intent": "Je veux modifier mes coordonnées personnelles, notamment mon adresse et mon numéro de téléphone, pour garantir que mes informations sont à jour."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://secure.myglobalbenefits.aginsurance.be",
+      "intent": "J'ai besoin de télécharger des documents relatifs à mes avantages, tels que des attestations ou des relevés, pour les utiliser à des fins administratives."
+    }
+  ]
+}

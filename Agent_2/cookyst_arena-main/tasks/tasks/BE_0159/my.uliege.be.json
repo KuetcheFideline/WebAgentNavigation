@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je veux découvrir les différentes méthodes d'authentification proposées par l'ULiège pour comprendre comment accéder à mes ressources universitaires en ligne."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.uliege.be",
+      "intent": "J'aimerais en savoir plus sur les avantages de l'authentification fédérale et comment elle peut faciliter mon accès aux services de l'université."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je souhaite explorer les ressources disponibles pour les étudiants et les enseignants sur le site de l'ULiège sans avoir besoin de me connecter."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.uliege.be",
+      "intent": "Maintenant que je suis connecté, je veux accéder à mon espace personnel pour consulter mes notes et mes horaires de cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je souhaite configurer mes paramètres de compte et de sécurité pour garantir la confidentialité de mes données personnelles et universitaires."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je veux utiliser les outils de communication en ligne pour contacter mes enseignants ou mes camarades de classe pour discuter de projets ou de travaux universitaires."
+    }
+  ]
+}

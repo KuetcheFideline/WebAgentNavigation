@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leijonat.com",
+      "intent": "Luen uusimmat jääkiekkouutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leijonat.com",
+      "intent": "Etsin tietoa Leijonien tulevista otteluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leijonat.com",
+      "intent": "Selailen sivuston eri osioita, kuten Luetuimmat ja Uusimmat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leijonat.com",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leijonat.com",
+      "intent": "Lisään suosikkeihini joukkueita ja pelaajia, joiden seuraamista olen kiinnostunut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leijonat.com",
+      "intent": "Osallistun keskusteluihin foorumilla ja jaan omia mielipiteitäni jääkiekosta"
+    }
+  ]
+}

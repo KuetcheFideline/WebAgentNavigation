@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Buscar información sobre préstamos hipotecarios para comprar un piso en Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Comparar las diferentes opciones de cuentas corrientes para personas físicas y jurídicas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Descargar el formulario de solicitud de tarjeta de crédito para personas con ingresos variables"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Realizar un pago de una factura de la luz a través de la plataforma de banca online"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Consultar el extracto de la cuenta corriente para verificar los movimientos realizados en los últimos 30 días"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Solicitar un aumento del límite de la tarjeta de crédito para hacer frente a gastos imprevistos"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://onderwijs.vlaanderen.be",
+      "intent": "Rechercher des informations sur les écoles et les centres d'éducation en Flandre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://onderwijs.vlaanderen.be",
+      "intent": "Consulter les actualités et les événements liés à l'éducation en Flandre"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://onderwijs.vlaanderen.be",
+      "intent": "Explorer les ressources et les outils pédagogiques mis à disposition des enseignants et des élèves"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://onderwijs.vlaanderen.be",
+      "intent": "Accéder à son espace personnel pour consulter les informations relatives à son établissement scolaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://onderwijs.vlaanderen.be",
+      "intent": "Gérer les paramètres de son compte et mettre à jour ses informations personnelles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://onderwijs.vlaanderen.be",
+      "intent": "Participer à des forums de discussion ou à des groupes de travail en ligne pour échanger avec d'autres utilisateurs"
+    }
+  ]
+}

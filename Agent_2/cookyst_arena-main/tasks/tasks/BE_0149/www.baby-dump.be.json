@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.baby-dump.be",
+      "intent": "Rechercher des produits pour bébé en solde sur le site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.baby-dump.be",
+      "intent": "Comparer les prix des autostoels pour bébé de différentes marques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.baby-dump.be",
+      "intent": "Lire les avis des clients sur les produits de puériculture"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.baby-dump.be",
+      "intent": "Ajouter des produits pour bébé à ma liste de souhaits pour un futur achat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.baby-dump.be",
+      "intent": "Consulter l'historique de mes commandes passées pour suivre mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.baby-dump.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

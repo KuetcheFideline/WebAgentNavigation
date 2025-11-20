@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://finanzamt-bw.fv-bwl.de",
+      "intent": "Ich möchte die Informationen über die Steuererklärung für mein Kind überprüfen, um sicherzustellen, dass ich alle notwendigen Unterlagen habe."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://finanzamt-bw.fv-bwl.de",
+      "intent": "Ich will die verschiedenen Formulare für die Steuererklärung herunterladen, um sie auszudrucken und zu bearbeiten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://finanzamt-bw.fv-bwl.de",
+      "intent": "Ich möchte den Steuerchatbot öffnen, um Fragen zu meiner Steuererklärung zu stellen und Hilfe zu erhalten."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://finanzamt-bw.fv-bwl.de",
+      "intent": "Ich will mein ELSTER-Konto überprüfen, um sicherzustellen, dass alle meine Steuerunterlagen und Zahlungen korrekt sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://finanzamt-bw.fv-bwl.de",
+      "intent": "Ich möchte meine Bankverbindung im ELSTER-System aktualisieren, um sicherzustellen, dass meine Steuerzahlungen korrekt abgebucht werden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://finanzamt-bw.fv-bwl.de",
+      "intent": "Ich will meine Steuererklärung online einreichen, um sicherzustellen, dass ich alle Fristen einhalte und keine Strafzahlungen riskiere."
+    }
+  ]
+}

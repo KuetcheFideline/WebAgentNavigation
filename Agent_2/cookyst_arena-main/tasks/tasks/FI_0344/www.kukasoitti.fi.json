@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kukasoitti.fi",
+      "intent": "Hae puhelinnumeroa, joka on soittanut minulle usein"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kukasoitti.fi",
+      "intent": "Lue arvosteluita puhelinnumerosta, joka on ärsyttänyt minua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kukasoitti.fi",
+      "intent": "Etsi tietoa puhelinnumerosta, joka on soitettu minulle viimeksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kukasoitti.fi",
+      "intent": "Kirjaa puhelinnumero, joka on soitettu minulle, ja anna arvosteluni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kukasoitti.fi",
+      "intent": "Muokkaa aiempaa arvostelua, jonka olen antanut puhelinnumerosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kukasoitti.fi",
+      "intent": "Poista aiemmin kirjaamani puhelinnumero ja arvostelu"
+    }
+  ]
+}

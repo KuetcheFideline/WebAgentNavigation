@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bib.kuleuven.be",
+      "intent": "Rechercher des ressources pour un projet de recherche sur l'histoire de l'Union européenne dans les collections de la bibliothèque de KU Leuven"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bib.kuleuven.be",
+      "intent": "Consulter les horaires d'ouverture et les disponibilités des salles de lecture pour planifier une visite à la bibliothèque"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bib.kuleuven.be",
+      "intent": "Explorer les ressources en ligne de la bibliothèque, notamment les bases de données et les revues électroniques, pour trouver des informations sur un sujet spécifique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bib.kuleuven.be",
+      "intent": "Réserver un ouvrage ou un document électronique pour un projet de recherche en utilisant mon compte de bibliothèque"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bib.kuleuven.be",
+      "intent": "Accéder à mes emprunts en cours et gérer mes réservations de documents pour éviter les retards et les pénalités"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bib.kuleuven.be",
+      "intent": "Utiliser les outils de gestion de références bibliographiques pour créer une bibliographie pour un rapport de recherche"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.home24.be",
+      "intent": "Rechercher des meubles pour la maison en vente en ligne pour rénover ma boulangerie et mon logement"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.home24.be",
+      "intent": "Comparer les prix des canapés et des fauteuils pour trouver les meilleures offres"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.home24.be",
+      "intent": "Explorer les collections de décoration intérieure pour trouver des idées pour ma boulangerie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.home24.be",
+      "intent": "Gérer mes commandes en ligne pour suivre l'état de mes livraisons de meubles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.home24.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.home24.be",
+      "intent": "Consulter mon historique d'achats pour retrouver des meubles que j'ai déjà achetés"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://simo.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://simo.inschool.fi",
+      "intent": "Luen usein kysytyt kysymykset ja Wilman huoltajaliittymän toiminnot, jotta voin ymmärtää Wilman käytön paremmin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://simo.inschool.fi",
+      "intent": "Selvittelen, miten voin muuttaa kieltä suomeksi, ruotsiksi tai englanniksi Wilman sivustolla."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://simo.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan, että kaikki kurssit ja suoritukset ovat kunnossa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://simo.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta, koska minulla on kysymyksiä tietystä kurssista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://simo.inschool.fi",
+      "intent": "Tarkistan Wilman kautta, onko minulla uusia viestejä opettajilta tai huoltajilta."
+    }
+  ]
+}

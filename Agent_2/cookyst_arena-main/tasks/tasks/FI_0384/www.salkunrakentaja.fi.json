@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Haluaisin lukea uusimmat artikkelit sijoittamisesta ja taloudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Tehdä haku sivustolla aiheesta 'Kasvuosakkeet' ja lukea vastaavat artikkelit"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Selata sivuston 'Markkinat' osiota ja tarkastella eri markkinoiden tilannetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Kirjautua sisään ja tarkastella omaa käyttäjäprofiilia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Tilata uutiskirje ja hallita omia tilauksia kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Osallistua keskusteluun aiheesta 'Sijoittaminen' ja kommentoida artikkeleita"
+    }
+  ]
+}

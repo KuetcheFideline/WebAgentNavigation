@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://flb.be",
+      "intent": "Je veux consulter le programme de la Foire du livre pour savoir quels auteurs seront présents et à quelles heures."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://flb.be",
+      "intent": "Je souhaite visiter la page des exposants pour découvrir les maisons d'édition qui seront présentes à la foire."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://flb.be",
+      "intent": "Je veux me renseigner sur les tarifs et les horaires d'ouverture de la foire pour planifier ma visite."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://flb.be",
+      "intent": "Je veux accéder à mon espace personnel pour réserver des places pour les rencontres avec les auteurs."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://flb.be",
+      "intent": "Je souhaite participer au concours « Un livre pour… » en déposant ma candidature en ligne."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://flb.be",
+      "intent": "Je veux consulter mes informations personnelles pour mettre à jour mes coordonnées et mes préférences."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, miten Wilma toimii ja mitä sen avulla voi tehdä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Selailen Wilman oppilaitosten listaa ja etsin tietoa siitä, mitkä koulut ovat mukana Wilman käyttäjien joukossa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten Wilman eri toimintoja voidaan käyttää."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan opiskelijan poissaoloja ja arvioita, sekä luen koulun tiedotteita."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta ja kysyn tietoa opiskelijan suorituksista ja kehityksestä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Tarkastan Wilman asetuksia ja muokkaan henkilökohtaisia tietoja, kuten salasanaa ja yhteystietoja."
+    }
+  ]
+}

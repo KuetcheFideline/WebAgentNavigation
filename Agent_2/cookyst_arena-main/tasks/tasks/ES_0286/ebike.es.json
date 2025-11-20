@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ebike.es",
+      "intent": "Buscar bicicletas eléctricas para hombre en la sección de outlet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ebike.es",
+      "intent": "Comparar los precios de las bicicletas eléctricas de la marca Cube con otras marcas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ebike.es",
+      "intent": "Leer las reseñas y valoraciones de los clientes sobre las bicicletas eléctricas en la tienda"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ebike.es",
+      "intent": "Agregar una bicicleta eléctrica al carrito de compras y proceder a la compra"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ebike.es",
+      "intent": "Verificar el estado de un pedido de bicicleta eléctrica realizado anteriormente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ebike.es",
+      "intent": "Contactar con el equipo de soporte de la tienda para solicitar asesoramiento sobre la elección de una bicicleta eléctrica"
+    }
+  ]
+}

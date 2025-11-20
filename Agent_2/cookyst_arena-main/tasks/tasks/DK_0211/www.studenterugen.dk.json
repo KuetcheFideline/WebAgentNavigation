@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.studenterugen.dk",
+      "intent": "Jeg søger efter information om studenterkørsel i København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.studenterugen.dk",
+      "intent": "Jeg vil se udvalget af studieturstøj og vognpakker"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.studenterugen.dk",
+      "intent": "Jeg ønsker at læse om studenterugens historie og mission"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.studenterugen.dk",
+      "intent": "Jeg vil book en studenterkørsel til min ven og behøver at logge ind for at se mine tidligere bestillinger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.studenterugen.dk",
+      "intent": "Jeg skal ændre min adresse i mit brugerprofil for at sikre, at min studenterkørsel kommer til det rigtige sted"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.studenterugen.dk",
+      "intent": "Jeg vil anmode om et tilbud på en studenterkørsel og har brug for at logge ind for at se mine tidligere anmodninger"
+    }
+  ]
+}

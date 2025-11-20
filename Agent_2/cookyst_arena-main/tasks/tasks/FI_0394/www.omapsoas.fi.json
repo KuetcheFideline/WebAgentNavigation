@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.omapsoas.fi",
+      "intent": "Tutkin OmaPSOASin etusivun sisältöä ja etsin tietoa palvelun tarjoamista ominaisuuksista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.omapsoas.fi",
+      "intent": "Selvittelen, miten voin muuttaa salasanani ja mitä vaihtoehtoja on, jos unohdan salasanani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.omapsoas.fi",
+      "intent": "Etsin tietoa siitä, miten voin varata ajan ja miten varausjärjestelmä toimii."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.omapsoas.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä tietoja minulla on käytettävissäni ja mitä asetuksia voin muuttaa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.omapsoas.fi",
+      "intent": "Vaihdan salasanani turvallisuuden vuoksi ja varmistelen, että kaikki tietoni ovat ajan tasalla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.omapsoas.fi",
+      "intent": "Tutkin OmaPSOASin tarjoamia palveluita ja teen varauksen, jos se on tarpeen."
+    }
+  ]
+}

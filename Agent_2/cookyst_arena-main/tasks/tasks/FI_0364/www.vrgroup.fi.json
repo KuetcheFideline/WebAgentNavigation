@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vrgroup.fi",
+      "intent": "Tutkin VR Kaukoliikenteen aikatauluja ja hintoja Helsingin ja Turun välillä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vrgroup.fi",
+      "intent": "Luen uutisia VR:n liiketoimintakatsauksesta ja kannattavuudesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vrgroup.fi",
+      "intent": "Etsin tietoa VR Logistiikan palveluista ja hinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vrgroup.fi",
+      "intent": "Tarkastan oman tilini tiedot ja matkustushistoriani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vrgroup.fi",
+      "intent": "Varaan junalipun Helsingistä Turkuun ja maksan sen verkkomaksulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vrgroup.fi",
+      "intent": "Muutan oman profiilini tietoja, kuten osoitettani ja puhelinnumeroni"
+    }
+  ]
+}

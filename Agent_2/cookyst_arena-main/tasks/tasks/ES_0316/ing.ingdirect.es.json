@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Consultar las opciones de ahorro para personas mayores de 65 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Buscar información sobre los productos de inversión con bajo riesgo para mi pensión"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Explorar las opciones de préstamos hipotecarios para comprar una segunda residencia en la costa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Verificar el saldo de mi cuenta y realizar una transferencia a mi nieto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Configurar las alertas de seguridad para recibir notificaciones sobre movimientos sospechosos en mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Descargar el extracto de mi cuenta del último trimestre para revisar mis gastos y ahorros"
+    }
+  ]
+}

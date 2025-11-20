@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pds-eupen.schulen.be",
+      "intent": "Rechercher les informations sur les échanges scolaires pour mon enfant"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pds-eupen.schulen.be",
+      "intent": "Consulter les actualités de l'école pour rester informé sur les événements à venir"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pds-eupen.schulen.be",
+      "intent": "Trouver les coordonnées de contact de l'école pour poser des questions sur les activités parascolaires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pds-eupen.schulen.be",
+      "intent": "Consulter les notes et les bulletins scolaires de mon enfant pour suivre ses progrès"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pds-eupen.schulen.be",
+      "intent": "Gérer les autorisations et les permissions pour les activités extrascolaires de mon enfant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pds-eupen.schulen.be",
+      "intent": "Accéder au portail des parents pour discuter avec les enseignants et suivre les progrès de mon enfant"
+    }
+  ]
+}

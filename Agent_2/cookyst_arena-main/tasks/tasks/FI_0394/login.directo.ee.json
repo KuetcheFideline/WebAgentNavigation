@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.directo.ee",
+      "intent": "Valitsen sisenemisviisi ja tutkin eri vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.directo.ee",
+      "intent": "Luen keeleasetuksia ja valitsen suomen kielen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.directo.ee",
+      "intent": "Tutkin portaalissa olevia linkkejä ja etsin tietoa palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.directo.ee",
+      "intent": "Kirjaudun sisään ID-kaartilla ja tarkastan profiiliani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.directo.ee",
+      "intent": "Muutan salasanaani ja tallennan muutokset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.directo.ee",
+      "intent": "Tarkastan viimeaikaiset toiminnot ja vahvistan, että kaikki on kunnossa"
+    }
+  ]
+}

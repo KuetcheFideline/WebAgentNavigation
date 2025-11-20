@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://puutukkuri.fi",
+      "intent": "Hae verkkokaupasta puukkoja ja vertaile niiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://puutukkuri.fi",
+      "intent": "Selaa metsästys- ja kalastusvälineitä ja etsi sopivia tuotteita perheen retkeilytarpeisiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://puutukkuri.fi",
+      "intent": "Lue arvosteluita ja kommentteja eri tuotteista ja valitse luotettavimmat ja laadukkaimmat vaihtoehdot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://puutukkuri.fi",
+      "intent": "Tilaa verkkokaupasta polttopuut ja määritä toimitusosoite ja -aika"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://puutukkuri.fi",
+      "intent": "Lisää ostoskoriin haluttuja tuotteita ja siirry kassalle maksamaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://puutukkuri.fi",
+      "intent": "Tarkista tilaushistoria ja seuraa tilauksen etenemistä ja toimitusta"
+    }
+  ]
+}

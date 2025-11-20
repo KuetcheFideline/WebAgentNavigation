@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.upv.es",
+      "intent": "Intentar acceder al correo electrónico para ver si tengo algún mensaje importante de la universidad"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.upv.es",
+      "intent": "Explorar las diferentes opciones de configuración del correo electrónico para personalizar mi experiencia de usuario"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.upv.es",
+      "intent": "Buscar información sobre cómo configurar mi correo electrónico en mi dispositivo móvil para tener acceso en cualquier momento"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.upv.es",
+      "intent": "Revisar mi bandeja de entrada para responder a los correos electrónicos pendientes de mis nietos y familiares"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.upv.es",
+      "intent": "Crear un nuevo filtro para organizar mis correos electrónicos y evitar el spam en mi bandeja de entrada"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.upv.es",
+      "intent": "Actualizar mi información de contacto y cambiar mi contraseña para mantener mi cuenta segura"
+    }
+  ]
+}

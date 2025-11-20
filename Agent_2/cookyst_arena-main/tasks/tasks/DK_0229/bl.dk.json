@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bl.dk",
+      "intent": "Jeg søger efter information om almene boliger i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bl.dk",
+      "intent": "Jeg vil læse om hvordan jeg kan søge om en bolig"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bl.dk",
+      "intent": "Jeg søger efter kontaktinformation til BL's kundeservice"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bl.dk",
+      "intent": "Jeg vil se mine ansøgninger om almene boliger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bl.dk",
+      "intent": "Jeg vil ændre mine kontaktoplysninger i mit brugerprofil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bl.dk",
+      "intent": "Jeg vil se status på min ansøgning om en bestemt bolig"
+    }
+  ]
+}

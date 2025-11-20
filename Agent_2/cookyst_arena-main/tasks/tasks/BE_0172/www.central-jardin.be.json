@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.central-jardin.be",
+      "intent": "Rechercher des conseils pour l'entretien de mon gazon en automne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.central-jardin.be",
+      "intent": "Découvrir les différentes sortes de plantes de haies disponibles pour mon jardin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.central-jardin.be",
+      "intent": "Explorer les collections de bulbes à planter pour l'automne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.central-jardin.be",
+      "intent": "Consulter mes commandes précédentes pour retrouver des plantes que j'ai déjà achetées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.central-jardin.be",
+      "intent": "Gérer mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.central-jardin.be",
+      "intent": "Utiliser mon programme de fidélité pour obtenir des réductions sur mes prochaines achats"
+    }
+  ]
+}

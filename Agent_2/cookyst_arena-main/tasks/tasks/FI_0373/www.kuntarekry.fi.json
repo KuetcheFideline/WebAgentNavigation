@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Hae avoimia työpaikkoja Kajaanin alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Selaa työnhakuvinkkejä ja artikkeleita työnhausta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tutustu työnantajiin ja katso mitä he tarjoavat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Jätä avoin hakemus työnantajalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tallenna suosikkityöpaikat ja seuraa niiden tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Lähetä viesti työnantajalle työpaikasta"
+    }
+  ]
+}

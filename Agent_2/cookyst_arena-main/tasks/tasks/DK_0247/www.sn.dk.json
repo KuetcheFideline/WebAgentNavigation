@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sn.dk",
+      "intent": "Læs om de seneste nyheder fra Odense"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sn.dk",
+      "intent": "Søg efter information om lokale begivenheder i Midtsjælland"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sn.dk",
+      "intent": "Find ud af, hvordan man kan købe abonnement til Sjællandske Nyheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sn.dk",
+      "intent": "Tilføj en artikel til mine favoritter for at læse senere"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sn.dk",
+      "intent": "Del en interessant artikel med mine venner på sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sn.dk",
+      "intent": "Indstil mine nyhedspræferencer for at modtage relevante artikler"
+    }
+  ]
+}

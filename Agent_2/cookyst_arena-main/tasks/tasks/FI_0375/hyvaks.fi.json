@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hyvaks.fi",
+      "intent": "Tutustun sivuston etusivuun ja etsin tietoa hyvinvointialueen palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hyvaks.fi",
+      "intent": "Selailen sivuston yksityiskohdat ja evästeiden käytön"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hyvaks.fi",
+      "intent": "Etsin tietoa sivuston käyttäjien kokemuksista ja arvostelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hyvaks.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omani tilin tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hyvaks.fi",
+      "intent": "Muokkaan profiiliani tietoja ja asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hyvaks.fi",
+      "intent": "Lähetän viestin sivuston asiakaspalveluun"
+    }
+  ]
+}

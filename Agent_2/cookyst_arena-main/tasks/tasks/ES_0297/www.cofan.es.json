@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cofan.es",
+      "intent": "Buscar herramientas de bricolaje para arreglar la recepción del hotel"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cofan.es",
+      "intent": "Explorar la sección de electrodomésticos para encontrar opciones para la cocina del hotel"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cofan.es",
+      "intent": "Leer las reseñas de otros clientes sobre los productos de limpieza para determinar cuál es el más efectivo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cofan.es",
+      "intent": "Realizar un pedido de herramientas de fontanería para el mantenimiento del hotel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cofan.es",
+      "intent": "Verificar el estado de mi cuenta y el historial de pedidos para asegurarme de que todo esté en orden"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cofan.es",
+      "intent": "Configurar las preferencias de notificación para recibir actualizaciones sobre promociones y nuevos productos"
+    }
+  ]
+}

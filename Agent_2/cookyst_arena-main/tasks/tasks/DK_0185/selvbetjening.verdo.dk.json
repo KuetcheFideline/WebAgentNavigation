@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://selvbetjening.verdo.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan bruge MitID til at logge ind på selvbetjeningssiden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://selvbetjening.verdo.dk",
+      "intent": "Jeg vil læse mere om, hvordan jeg kan få hjælp, hvis jeg har problemer med at logge ind"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://selvbetjening.verdo.dk",
+      "intent": "Jeg søger efter kontaktinformation for kundeservice, så jeg kan ringe til dem, hvis jeg har spørgsmål"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://selvbetjening.verdo.dk",
+      "intent": "Jeg vil se mine nuværende el-forbrugsdata og sammenligning med tidligere perioder"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://selvbetjening.verdo.dk",
+      "intent": "Jeg ønsker at ændre mine betalingsoplysninger, så jeg kan få min el-regning på en anden måde"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://selvbetjening.verdo.dk",
+      "intent": "Jeg vil downloade en kopi af min seneste el-regning, så jeg kan have den til min bogføring"
+    }
+  ]
+}

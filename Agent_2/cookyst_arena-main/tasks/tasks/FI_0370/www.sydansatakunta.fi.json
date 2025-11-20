@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sydansatakunta.fi",
+      "intent": "Luen uutisia Sydän-Satakunnan sivuilta, jotta voin pysyä ajan tasalla paikallisista tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sydansatakunta.fi",
+      "intent": "Etsin Sydän-Satakunnan sivuilta tietoa urheilutapahtumista, joissa paikalliset joukkueet ovat mukana."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sydansatakunta.fi",
+      "intent": "Selailen Sydän-Satakunnan elämänmeno-osioon, jotta löytäisin mielenkiintoisia artikkeleita vapaa-ajasta ja kulttuuritapahtumista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sydansatakunta.fi",
+      "intent": "Tilaa uutiskirje, jotta saan säännöllisesti tietoa paikallisista uutisista ja tapahtumista suoraan sähköpostiini."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sydansatakunta.fi",
+      "intent": "Jätän palautetta Sydän-Satakunnan artikkeleista, jotta voisin vaikuttaa sivuston sisällön kehittämiseen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sydansatakunta.fi",
+      "intent": "Muokkaan tilaustani, jotta voisin valita, mitä tietoa haluan vastaanottaa Sydän-Satakunnalta."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://intranet.ffgalicia.novanet.es",
+      "intent": "Buscar información sobre los requisitos para acceder a la intranet de la Real Federación Gallega de Fútbol"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://intranet.ffgalicia.novanet.es",
+      "intent": "Verificar los navegadores soportados por la intranet para asegurarme de que mi navegador es compatible"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://intranet.ffgalicia.novanet.es",
+      "intent": "Leer el mensaje importante de la Real Federación Gallega de Fútbol sobre la obligatoriedad de leer el correo remitido"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://intranet.ffgalicia.novanet.es",
+      "intent": "Acceder a mi cuenta para verificar mis datos personales y asegurarme de que estén actualizados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://intranet.ffgalicia.novanet.es",
+      "intent": "Consultar los recursos disponibles para los miembros de la Real Federación Gallega de Fútbol en la intranet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://intranet.ffgalicia.novanet.es",
+      "intent": "Descargar documentos importantes relacionados con mi afiliación a la Real Federación Gallega de Fútbol"
+    }
+  ]
+}

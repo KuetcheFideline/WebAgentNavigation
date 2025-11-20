@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nuorisoala.fi",
+      "intent": "Hae sivustolta tietoa nuorisoalan vaikuttamistyöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nuorisoala.fi",
+      "intent": "Selaa tapahtuma- ja koulutuskalenteria ja etsi mielenkiintoisia tapahtumia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nuorisoala.fi",
+      "intent": "Lue nuorisoalan uutisia ja blogikirjoituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nuorisoala.fi",
+      "intent": "Kirjaudu sisään ja tilaa uutiskirje, jotta voin pysyä ajan tasalla nuorisoalan tapahtumista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nuorisoala.fi",
+      "intent": "Osallistu nuorisoalan verkostoihin ja ryhmiin, joissa voimme keskustella nuorisoalan aiheista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nuorisoala.fi",
+      "intent": "Tee ehdotuksia nuorisoalan kehittämiseksi ja anna palautetta sivuston sisällöstä"
+    }
+  ]
+}

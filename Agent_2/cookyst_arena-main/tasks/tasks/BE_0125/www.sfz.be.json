@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sfz.be",
+      "intent": "Rechercher les spécialités médicales disponibles à l'hôpital Sint-Franciscus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sfz.be",
+      "intent": "Trouver les informations de contact pour prendre rendez-vous avec un médecin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sfz.be",
+      "intent": "Consulter les horaires de visites pour les patients hospitalisés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sfz.be",
+      "intent": "Accéder à mon dossier médical en ligne pour consulter mes résultats d'examens"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sfz.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux et recevoir des rappels"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sfz.be",
+      "intent": "Consulter mes factures et effectuer des paiements en ligne pour mes soins médicaux"
+    }
+  ]
+}

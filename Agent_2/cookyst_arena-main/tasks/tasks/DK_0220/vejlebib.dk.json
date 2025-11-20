@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vejlebib.dk",
+      "intent": "Jeg søger efter information om kommende arrangementer på biblioteket i Vejle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vejlebib.dk",
+      "intent": "Jeg vil læse mere om de faste aktiviteter for voksne på biblioteket"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vejlebib.dk",
+      "intent": "Jeg søger efter nyheder og artikler om bibliotekets tilbud og arrangementer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vejlebib.dk",
+      "intent": "Jeg vil bestille en bog eller anden medie fra bibliotekets katalog"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vejlebib.dk",
+      "intent": "Jeg vil tilmelde mig til et arrangement eller en aktivitet på biblioteket"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vejlebib.dk",
+      "intent": "Jeg vil se mine udlånte medier og deres tilbageleveringsdatoer"
+    }
+  ]
+}

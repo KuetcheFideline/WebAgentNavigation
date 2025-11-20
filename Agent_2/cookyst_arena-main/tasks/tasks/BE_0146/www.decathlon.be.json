@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.decathlon.be",
+      "intent": "Rechercher des chaussures de cyclotourisme pour homme"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.decathlon.be",
+      "intent": "Comparer les prix des vélos de montagne pour enfant"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.decathlon.be",
+      "intent": "Découvrir les promotions du moment sur les articles de sport pour femme"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.decathlon.be",
+      "intent": "Consulter mes commandes précédentes pour vérifier l'état de ma commande de chaussures de running"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.decathlon.be",
+      "intent": "Gérer mes informations de compte pour mettre à jour mon adresse e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.decathlon.be",
+      "intent": "Utiliser mes points de fidélité pour obtenir une remise sur mon prochain achat"
+    }
+  ]
+}

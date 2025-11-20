@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lesoir.be",
+      "intent": "Rechercher les actualités locales pour me tenir informé sur les événements qui se déroulent dans ma région."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lesoir.be",
+      "intent": "Lire les articles de fond sur les sujets qui m'intéressent, tels que la sidérurgie et l'industrie, pour me tenir au courant des dernières tendances."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lesoir.be",
+      "intent": "Consulter la rubrique sport pour suivre les résultats et les actualités de mon équipe de football préférée."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lesoir.be",
+      "intent": "Publier un commentaire sur un article pour partager mon opinion et engager une discussion avec d'autres lecteurs."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lesoir.be",
+      "intent": "Gérer mes abonnements pour recevoir des notifications sur les sujets qui m'intéressent et personnaliser mon expérience de lecture."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lesoir.be",
+      "intent": "Accéder à mes archives pour revoir les articles que j'ai lu précédemment et suivre les développements sur les sujets qui me tiennent à cœur."
+    }
+  ]
+}

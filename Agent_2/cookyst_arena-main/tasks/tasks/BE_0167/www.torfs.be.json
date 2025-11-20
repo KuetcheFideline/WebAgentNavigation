@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.torfs.be",
+      "intent": "Rechercher des chaussures pour femme pour un événement spécial en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.torfs.be",
+      "intent": "Comparer les prix et les caractéristiques de différentes marques de chaussures pour homme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.torfs.be",
+      "intent": "Explorer la section des ventes et des promotions pour trouver des chaussures à prix réduits pour les enfants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.torfs.be",
+      "intent": "Consulter l'historique des commandes pour suivre l'état de mes commandes passées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.torfs.be",
+      "intent": "Gérer mes informations de compte et mettre à jour mes coordonnées personnelles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.torfs.be",
+      "intent": "Utiliser les points de fidélité accumulés pour obtenir des réductions sur mes prochaines achats"
+    }
+  ]
+}

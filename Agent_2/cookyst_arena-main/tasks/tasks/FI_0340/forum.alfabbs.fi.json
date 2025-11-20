@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forum.alfabbs.fi",
+      "intent": "Etsin tietoa Alfa Romeo -autojen huolto- ja korjausvinkkejä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forum.alfabbs.fi",
+      "intent": "Haluan lukea keskustelua Alfa Romeo -merkin uusimmista malleista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forum.alfabbs.fi",
+      "intent": "Tutkin foorumin sääntöjä ja ohjeita ennen viestien lähettämistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forum.alfabbs.fi",
+      "intent": "Kirjaudun sisään ja vastaan aiheeseen liittyvään keskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forum.alfabbs.fi",
+      "intent": "Lähetän uuden viestin Alfa Romeo -aiheiseen ketjuun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forum.alfabbs.fi",
+      "intent": "Muokkaan profiiliani ja lisään tietoa itsestäni"
+    }
+  ]
+}

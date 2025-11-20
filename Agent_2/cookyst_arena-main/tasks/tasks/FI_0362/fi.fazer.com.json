@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.fazer.com",
+      "intent": "Haluaisin löytää uusimmat Fazerin leivontatuotteet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.fazer.com",
+      "intent": "Täytyy tarkistaa Fazerin verkkokaupan toimitusehdot"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.fazer.com",
+      "intent": "Löytäisin mieluusti Fazerin tuotteiden ravintoarvoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.fazer.com",
+      "intent": "Haluan tilata Fazerin tuotteita verkkokaupasta ja käyttää etuja, jotka ovat vain kirjautuneille asiakkaille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.fazer.com",
+      "intent": "Tilataan Fazerin tuotteita verkkokaupasta ja tarkistetaan tilausHistoria"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.fazer.com",
+      "intent": "Lisätään uusi osoite osoitekirjaan, jotta voisin nopeasti valita toimitusosoitteen tulevissa tilauksissa"
+    }
+  ]
+}

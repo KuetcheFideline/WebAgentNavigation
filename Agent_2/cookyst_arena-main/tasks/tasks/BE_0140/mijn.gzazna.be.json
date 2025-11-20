@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mijn.gzazna.be",
+      "intent": "Je souhaite en savoir plus sur le portail des patients de l'hôpital Ziekenhuis aan de Stroom (ZAS) et consulter les informations disponibles pour les patients."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mijn.gzazna.be",
+      "intent": "Vous voulez télécharger la brochure du portail des patients pour mieux comprendre les services offerts par l'hôpital."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mijn.gzazna.be",
+      "intent": "Vous souhaitez consulter les informations sur la fusion entre les réseaux hospitaliers ZNA et GZA pour comprendre les changements dans les services de santé."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mijn.gzazna.be",
+      "intent": "Vous voulez accéder à vos dossiers médicaux personnels pour suivre vos rendez-vous et vos traitements en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mijn.gzazna.be",
+      "intent": "Vous souhaitez prendre rendez-vous avec un médecin spécialiste via le portail des patients pour discuter de vos problèmes de santé."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mijn.gzazna.be",
+      "intent": "Vous voulez modifier vos informations personnelles et de contact dans votre compte pour assurer que vos données sont à jour et exactes."
+    }
+  ]
+}

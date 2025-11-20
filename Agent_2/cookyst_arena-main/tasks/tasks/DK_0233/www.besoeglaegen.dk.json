@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg søger efter information om klinikker i nærheden af min bopæl"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at læse om mulighederne for at få en tid hos en læge på denne hjemmeside"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne se, om der er nogen anmeldelser eller bedømmelser af klinikkerne på denne hjemmeside"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne logge ind for at se mine eksisterende patientoplysninger og tidligere besøg"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at bestille en tid hos en læge via denne hjemmeside, efter at jeg har logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne se mine recepter og medicinliste, efter at jeg har logget ind på min konto"
+    }
+  ]
+}

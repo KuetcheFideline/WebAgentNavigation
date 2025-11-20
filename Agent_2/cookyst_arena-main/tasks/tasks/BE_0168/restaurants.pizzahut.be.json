@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://restaurants.pizzahut.be",
+      "intent": "Rechercher les restaurants Pizza Hut près de Tournai pour planifier une soirée en famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://restaurants.pizzahut.be",
+      "intent": "Consulter le menu du Pizza Buffet pour savoir si des options sans gluten sont disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://restaurants.pizzahut.be",
+      "intent": "Vérifier les horaires d'ouverture et les coordonnées d'un restaurant Pizza Hut à proximité"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://restaurants.pizzahut.be",
+      "intent": "Réserver une table pour une fête d'anniversaire avec des amis et bénéficier des avantages du programme de fidélité"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://restaurants.pizzahut.be",
+      "intent": "Commander en ligne une pizza pour la soirée et suivre l'état de la commande en ligne"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://restaurants.pizzahut.be",
+      "intent": "Gérer mes informations de compte et mes préférences de commande pour des réservations futures"
+    }
+  ]
+}

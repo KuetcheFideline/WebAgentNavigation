@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ylioppilaslehti.fi",
+      "intent": "Luen uusimmat uutiset Ylioppilaslehdestä, jotta voin pysyä ajan tasalla tapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ylioppilaslehti.fi",
+      "intent": "Etsin artikkeleita aiheesta 'Helsingin yliopiston ylioppilaskunta', jotta voin ymmärtää sen toimintaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ylioppilaslehti.fi",
+      "intent": "Selailen Ylioppilaslehden kulttuuriosiota, jotta löytäisin uusia kirjoja ja elokuvia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ylioppilaslehti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkelia 'Hyy myy Uuden ja Vanhan ylioppilastalon', jotta voin osallistua keskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ylioppilaslehti.fi",
+      "intent": "Luen ja vastaan uutiskirjeeseen, jotta voin pysyä ajan tasalla Ylioppilaslehden tarjonnasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ylioppilaslehti.fi",
+      "intent": "Tilaan Ylioppilaslehden näköislehden, jotta voin lukea lehteä missä tahansa"
+    }
+  ]
+}

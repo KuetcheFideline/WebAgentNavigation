@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.immobilien.net",
+      "intent": "Ich möchte eine Wohnung in Wien mieten, also werde ich die Suchfunktion nutzen, um Angebote zu finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.immobilien.net",
+      "intent": "Ich bin an einem Haus in Niederösterreich interessiert, also werde ich die entsprechende Kategorie durchsuchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.immobilien.net",
+      "intent": "Ich möchte mehr über die verschiedenen Arten von Immobilien erfahren, also werde ich den Ratgeber auf der Website lesen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.immobilien.net",
+      "intent": "Ich bin bereits angemeldet und möchte meine Suchanfragen speichern, um später darauf zurückkommen zu können."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.immobilien.net",
+      "intent": "Ich möchte meine Favoritenliste mit den interessantesten Immobilienangeboten aktualisieren."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.immobilien.net",
+      "intent": "Ich bin bereit, ein Angebot zu kaufen, also werde ich den Kaufprozess auf der Website starten."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://frdb.dk",
+      "intent": "Læs om de seneste nyheder i Fredericia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://frdb.dk",
+      "intent": "Søg efter information om valgkampen i Fredericia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://frdb.dk",
+      "intent": "Se hvilke artikler der er mest læste på hjemmesiden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://frdb.dk",
+      "intent": "Læs min profil og se mine abonnementsdetaljer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://frdb.dk",
+      "intent": "Se hvilke eksklusive artikler der er tilgængelige for abonnenter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://frdb.dk",
+      "intent": "Log ud af min konto når jeg er færdig med at læse"
+    }
+  ]
+}

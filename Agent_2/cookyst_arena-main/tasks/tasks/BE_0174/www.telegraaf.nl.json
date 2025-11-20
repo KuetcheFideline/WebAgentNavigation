@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je veux lire les dernières nouvelles sur le site de De Telegraaf pour rester informée sur l'actualité néerlandaise et internationale."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je souhaite consulter la section 'Sport' pour suivre les résultats et les actualités sur l'équipe de football néerlandaise."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je veux explorer la rubrique 'VROUW' pour découvrir des articles sur la mode, la beauté et les tendances actuelles."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je veux accéder à mon compte pour gérer mes abonnements et mes préférences de lecture sur le site de De Telegraaf."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je souhaite commenter un article sur le site pour partager mes opinions et engager une discussion avec d'autres lecteurs."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.telegraaf.nl",
+      "intent": "Je veux consulter mes newsletters personnalisées pour rester informée sur les sujets qui m'intéressent."
+    }
+  ]
+}

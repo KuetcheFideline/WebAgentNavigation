@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://menu.kaarea.fi",
+      "intent": "Selvittää, mitä ruokaa tarjolla on tänään"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://menu.kaarea.fi",
+      "intent": "Etsiä vegaanisia ruoka vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://menu.kaarea.fi",
+      "intent": "Tarkastella ruokalistaa ja etsiä suosituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://menu.kaarea.fi",
+      "intent": "Tilata ruokaa verkkokaupasta ja maksaa sen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://menu.kaarea.fi",
+      "intent": "Lisätä ruokaa ostoskoriin ja muokata tilausta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://menu.kaarea.fi",
+      "intent": "Arvioida aiemmin tilattuja ruokia ja antaa palautetta"
+    }
+  ]
+}

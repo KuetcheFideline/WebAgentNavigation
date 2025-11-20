@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://admin.booksalon.fi",
+      "intent": "Selvittää, miten pääsee kirjautumaan sisään, jos se on mahdollista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://admin.booksalon.fi",
+      "intent": "Etsiä tietoa kirjakaupasta ja sen tuotteista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://admin.booksalon.fi",
+      "intent": "Katsella kirjakaupan etusivun suosituksia ja uutuuksia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://admin.booksalon.fi",
+      "intent": "Tarkistaa tilausten ja ostosten historiat."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://admin.booksalon.fi",
+      "intent": "Muokata omia käyttäjätietoja ja tilaustietoja."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://admin.booksalon.fi",
+      "intent": "Lisätä uusia kirjoja tai tuotteita ostoskoriin ja vahvistaa tilaus."
+    }
+  ]
+}

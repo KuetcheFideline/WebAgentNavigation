@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.embalses.net",
+      "intent": "Buscar información sobre el estado actual de los embalses en la Comunidad de Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.embalses.net",
+      "intent": "Explorar las estadísticas históricas de los embalses en la región de Castilla y León"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.embalses.net",
+      "intent": "Suscribirme al boletín semanal para recibir actualizaciones sobre el estado de los embalses en España"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.embalses.net",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre cambios significativos en el nivel de agua de los embalses en mi región"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.embalses.net",
+      "intent": "Guardar una lista de embalses favoritos para acceder rápidamente a su información y estadísticas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.embalses.net",
+      "intent": "Compartir en redes sociales un gráfico que muestra la evolución del nivel de agua en un embalse específico durante el último año"
+    }
+  ]
+}

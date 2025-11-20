@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ath.be",
+      "intent": "Consulter les informations sur les services communaux pour les seniors"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ath.be",
+      "intent": "Rechercher les activités culturelles proposées par la commune d'Ath"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ath.be",
+      "intent": "Trouver les coordonnées de la bibliothèque de la commune d'Ath"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ath.be",
+      "intent": "Accéder à mon compte pour consulter mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ath.be",
+      "intent": "Déposer une demande de location de salle pour un événement familial"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ath.be",
+      "intent": "Consulter les informations sur les aides et les services proposés par la commune pour les personnes âgées"
+    }
+  ]
+}

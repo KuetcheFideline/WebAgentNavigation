@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cmsnl.com",
+      "intent": "Rechercher des pièces de rechange pour ma moto Honda"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cmsnl.com",
+      "intent": "Comparer les prix des pièces de rechange pour les motos Yamaha et Suzuki"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cmsnl.com",
+      "intent": "Explorer la section des pièces de rechange pour les motos Kawasaki"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cmsnl.com",
+      "intent": "Consulter l'historique de mes commandes passées pour retrouver des pièces de rechange que j'ai déjà achetées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cmsnl.com",
+      "intent": "Gérer mes informations de compte et mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cmsnl.com",
+      "intent": "Utiliser mon compte pour suivre l'état de ma commande en cours et contacter le service client si nécessaire"
+    }
+  ]
+}

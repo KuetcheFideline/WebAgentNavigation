@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pakkaustukku.fi",
+      "intent": "Selata pahvilaatikon valikoimaa ja etsiä edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pakkaustukku.fi",
+      "intent": "Ladata Kuormalavoja ilmaiseksi -lomake ja tulostaa se"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pakkaustukku.fi",
+      "intent": "Etsiä tietoa postituspussien hinnoista ja mitoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pakkaustukku.fi",
+      "intent": "Tilata 10 kpl mustia 50 ml suihkepulloja ja maksaa ne verkkomaksulla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pakkaustukku.fi",
+      "intent": "Lisätä 100 ml lasipullo 'taskumatti' ostoskoriin ja siirtyä kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pakkaustukku.fi",
+      "intent": "Tarkastaa tilaushistoria ja etsiä tietoa aiemmista tilauksista"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://timetable.au.dk",
+      "intent": "Jeg søger efter en oversigt over mine kommende forelæsninger på Aarhus Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://timetable.au.dk",
+      "intent": "Jeg ønsker at se, hvilke lokale der er ledige i næste uge, så jeg kan planlægge mine møder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://timetable.au.dk",
+      "intent": "Jeg vil gerne finde information om, hvordan jeg kan bruge kalenderfunktionen til at koordinere mine arbejdstider med mine kollegaer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://timetable.au.dk",
+      "intent": "Jeg skal tilføje en ny begivenhed til min personlige kalender, så jeg ikke glemmer mit møde med rektor"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://timetable.au.dk",
+      "intent": "Jeg ønsker at se mine personlige mødetider og -lokaler for de næste 14 dage, så jeg kan planlægge min arbejdstid"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://timetable.au.dk",
+      "intent": "Jeg skal ændre en eksisterende begivenhed i min kalender, da mødetiden er blevet ændret"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.synlab.fi",
+      "intent": "Hae laboratoriopalveluita ja tutustu eri tutkimuksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.synlab.fi",
+      "intent": "Selvitä miten varata aika laboratorioon ja mitä valmistelututkimukset vaativat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.synlab.fi",
+      "intent": "Lue lisää SYNLABin tarjoamista terveydenhuollon palveluista ja niiden hinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.synlab.fi",
+      "intent": "Kirjaudu sisään ja tarkastele omia tutkimustuloksia ja lähetettyjä tutkimuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.synlab.fi",
+      "intent": "Varaa aika laboratorioon ja valitse haluamasi tutkimukset ja palvelut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.synlab.fi",
+      "intent": "Tutustu omiin lääkityksiin ja hoitosuunnitelmiin, sekä pyydä uusia reseptejä tarpeen mukaan"
+    }
+  ]
+}

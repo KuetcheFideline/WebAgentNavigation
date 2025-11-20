@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kokkola.inschool.fi",
+      "intent": "Tutkin Wilman etusivun uutisia ja ilmoituksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kokkola.inschool.fi",
+      "intent": "Etsin tietoa Kokkolan sivistyskeskuksen oppilaitoksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kokkola.inschool.fi",
+      "intent": "Selvitan, miten voin muuttaa Wilman käyttäjätunnusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kokkola.inschool.fi",
+      "intent": "Tarkastan Wilman viestitoimintoja ja luen viestejäni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kokkola.inschool.fi",
+      "intent": "Muokkaan Wilman asetuksia ja tarkastan käyttäjätietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kokkola.inschool.fi",
+      "intent": "Kirjaudun ulos Wilman järjestelmästä turvallisuuden vuoksi"
+    }
+  ]
+}

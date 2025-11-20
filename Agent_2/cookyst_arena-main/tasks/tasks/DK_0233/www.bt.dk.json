@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bt.dk",
+      "intent": "Læse nyheder om dansk politik og følge med i de seneste udviklinger"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bt.dk",
+      "intent": "Søge efter artikler om sundhed og træning for at forbedre min fysik"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bt.dk",
+      "intent": "Følge med i sportsnyheder, især fodbold, for at holde mig opdateret om mine yndlingshold"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bt.dk",
+      "intent": "Kommentere på en artikel om en aktuel begivenhed for at dele mine tanker og meninger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bt.dk",
+      "intent": "Gemme en artikel om en vigtig begivenhed til senere læsning for at kunne referere tilbage til den"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bt.dk",
+      "intent": "Tilføje en artikel til mine personlige nyhedsarkiver for at følge med i udviklingen af en bestemt sag"
+    }
+  ]
+}

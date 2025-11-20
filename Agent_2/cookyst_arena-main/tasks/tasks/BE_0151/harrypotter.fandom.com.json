@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://harrypotter.fandom.com",
+      "intent": "Rechercher les informations sur les personnages principaux de la série Harry Potter"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://harrypotter.fandom.com",
+      "intent": "Explorer les différentes sections du site, notamment les livres, les films et les jeux"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://harrypotter.fandom.com",
+      "intent": "Lire les derniers articles de blog et les discussions récentes sur la communauté"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://harrypotter.fandom.com",
+      "intent": "Créer une nouvelle page pour partager mes connaissances sur un personnage spécifique de la série"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://harrypotter.fandom.com",
+      "intent": "Participer à une discussion en cours sur les forums pour partager mon avis sur un sujet spécifique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://harrypotter.fandom.com",
+      "intent": "Modifier ma page utilisateur pour ajouter des informations sur mes livres préférés de la série Harry Potter"
+    }
+  ]
+}

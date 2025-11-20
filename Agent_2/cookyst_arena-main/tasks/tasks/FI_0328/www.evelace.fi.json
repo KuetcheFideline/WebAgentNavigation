@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.evelace.fi",
+      "intent": "Haluaisin etsiä uusimmat alusvaatteet juhlaan ja arkeen Evelacen sivuilta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.evelace.fi",
+      "intent": "Täytän kokolaskurin selvittääkseni omani liivikoon ja löytääkseni itselleni sopivan koon."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.evelace.fi",
+      "intent": "Luen lehdistötiedotetta saadakseni tietoa Evelacen liiketoiminnan siirtymisestä uusiin käsiin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.evelace.fi",
+      "intent": "Tilaisin itselleni uuden alusvaatteen, koska minulla on jo aiemmin rekisteröitynyt ja olen kirjautunut sisään palveluun."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.evelace.fi",
+      "intent": "Tarkastaisin tilaushistoriani ja seuraisin tilausteni tilaa, koska olen aiemmin tehnyt tilauksia ja haluan varmistaa, että kaikki on kunnossa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.evelace.fi",
+      "intent": "Muuttaisin salasanani, koska haluan varmistaa, että tietoni ovat turvassa ja päivittäin muokata profiiliaani."
+    }
+  ]
+}

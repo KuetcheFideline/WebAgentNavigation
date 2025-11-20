@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dartsrankings.com",
+      "intent": "Consulter le classement actuel des joueurs de fléchettes"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dartsrankings.com",
+      "intent": "Rechercher des informations sur les tournois de fléchettes à venir"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dartsrankings.com",
+      "intent": "Lire les dernières nouvelles sur le monde des fléchettes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dartsrankings.com",
+      "intent": "Personnaliser mes paramètres de notification pour les mises à jour de classement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dartsrankings.com",
+      "intent": "Participer à un sondage sur les joueurs de fléchettes préférés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dartsrankings.com",
+      "intent": "Créer une liste de joueurs de fléchettes favoris pour un suivi personnalisé"
+    }
+  ]
+}

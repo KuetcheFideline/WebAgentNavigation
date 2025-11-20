@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.autokorjaamo.fi",
+      "intent": "Tutkin autokorjaamon palveluita ja etsin tietoa autojen huollosta ja korjauksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.autokorjaamo.fi",
+      "intent": "Selailen sivustoa ja etsin tietoa autokorjaamon tarjoamista hinnoista ja tarjouksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.autokorjaamo.fi",
+      "intent": "Käyn läpi sivuston usein kysytyt kysymykset ja etsin vastauksia yleisiin autokorjaamoon liittyviin kysymyksiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.autokorjaamo.fi",
+      "intent": "Kirjaudun sisään ja tarkastan tilaani, jotta voin seurata autojen huolto- ja korjaustöitä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.autokorjaamo.fi",
+      "intent": "Varaan ajan auton huoltoon ja korjaukseen, jotta voin varmistaa, että auto on kunnossa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.autokorjaamo.fi",
+      "intent": "Tarkastan laskuja ja maksuja, jotta voin hallita talouttani ja varmistaa, että kaikki on kunnossa"
+    }
+  ]
+}

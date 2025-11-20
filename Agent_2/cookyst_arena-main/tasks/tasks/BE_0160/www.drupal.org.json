@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.drupal.org",
+      "intent": "Contacter l'équipe d'assistance pour signaler le blocage de mon accès à la page d'accueil"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.drupal.org",
+      "intent": "Rechercher des informations sur les raisons possibles de blocage de mon accès au site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.drupal.org",
+      "intent": "Vérifier si mon navigateur prend en charge les cookies et si le Javascript est activé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.drupal.org",
+      "intent": "Accéder à mon compte pour vérifier si les paramètres de sécurité ont été modifiés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.drupal.org",
+      "intent": "Consulter les messages de l'équipe d'administration pour comprendre les raisons de mon blocage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.drupal.org",
+      "intent": "Modifier mes paramètres de compte pour éviter les blocages futurs"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.css-gestion.es",
+      "intent": "Buscar información sobre soluciones de gestión para empresas de tecnología en Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.css-gestion.es",
+      "intent": "Explorar las redes sociales de la empresa para conocer más sobre su cultura y valores"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.css-gestion.es",
+      "intent": "Contactar con el soporte técnico para resolver dudas sobre el acceso a la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.css-gestion.es",
+      "intent": "Acceder al área privada para consultar mis datos personales y configuración de cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.css-gestion.es",
+      "intent": "Realizar una consulta sobre el estado de mi cuenta y solicitar soporte técnico si es necesario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.css-gestion.es",
+      "intent": "Configurar mis preferencias de notificación y actualizar mi información de contacto"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vanpeltnv.com",
+      "intent": "Je souhaite parcourir le site pour découvrir les différentes espèces de plantes et d'arbres proposées par Van Pelt nv."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vanpeltnv.com",
+      "intent": "Vous cherchez à en savoir plus sur l'entreprise Van Pelt nv et son histoire, vous souhaitez donc consulter la section 'Over ons' du site."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vanpeltnv.com",
+      "intent": "Vous souhaitez commander des plantes en ligne, vous allez donc visiter la section 'Webshop' pour voir les produits disponibles et passer commande."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vanpeltnv.com",
+      "intent": "Vous êtes déjà client chez Van Pelt nv et vous souhaitez accéder à votre espace personnel pour gérer vos commandes et vos informations, vous vous connectez donc à votre compte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vanpeltnv.com",
+      "intent": "Vous souhaitez profiter des avantages réservés aux clients enregistrés, tels que des promotions exclusives, vous vous connectez donc à votre compte pour accéder à ces offres."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vanpeltnv.com",
+      "intent": "Vous souhaitez suivre l'état de vos commandes en ligne, vous vous connectez donc à votre compte pour consulter l'historique de vos commandes et les détails de livraison."
+    }
+  ]
+}

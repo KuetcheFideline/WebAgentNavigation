@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://itvcitaprevia.juntaex.es",
+      "intent": "Solicitar una cita previa para la inspección técnica de vehículos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://itvcitaprevia.juntaex.es",
+      "intent": "Consultar los teléfonos disponibles para consultas y cita previa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://itvcitaprevia.juntaex.es",
+      "intent": "Buscar información sobre las estaciones de inspección técnica de vehículos disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://itvcitaprevia.juntaex.es",
+      "intent": "Acceder a mi cuenta para consultar el historial de citas previas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://itvcitaprevia.juntaex.es",
+      "intent": "Anular una cita previa existente para la inspección técnica de vehículos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://itvcitaprevia.juntaex.es",
+      "intent": "Modificar la información de contacto asociada a mi cuenta"
+    }
+  ]
+}

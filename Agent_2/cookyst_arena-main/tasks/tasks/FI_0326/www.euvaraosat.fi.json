@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.euvaraosat.fi",
+      "intent": "Hae auton varaosia valitsemalla ajoneuvon ominaisuudet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.euvaraosat.fi",
+      "intent": "Selaa tuotteita ja vertaile hintoja eri valmistajien välillä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.euvaraosat.fi",
+      "intent": "Lue asiakasarvosteluita ja etsi vinkkejä oikean varaosan valintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.euvaraosat.fi",
+      "intent": "Tee tilaus ja määritä toimitustapa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.euvaraosat.fi",
+      "intent": "Seuraa tilaustasi ja tarkista tilausHistoria"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.euvaraosat.fi",
+      "intent": "Jätä arvosteluita ja palaute tuotteista, joita olet ostanut"
+    }
+  ]
+}

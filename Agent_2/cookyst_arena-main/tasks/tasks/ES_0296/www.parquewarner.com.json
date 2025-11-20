@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.parquewarner.com",
+      "intent": "Quiero buscar información sobre los precios de las entradas para el Parque Warner Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.parquewarner.com",
+      "intent": "Necesito encontrar la sección de compras para adquirir un Bono Anual con descuento"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.parquewarner.com",
+      "intent": "Deseo explorar las diferentes áreas temáticas del parque para planificar mi visita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.parquewarner.com",
+      "intent": "Quiero acceder a mi cuenta para ver mis compras anteriores y gestionar mis bonos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.parquewarner.com",
+      "intent": "Necesito actualizar mi información de pago para renovar mi Bono Anual"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.parquewarner.com",
+      "intent": "Deseo reservar un paquete VIP que incluya acceso a atracciones exclusivas"
+    }
+  ]
+}

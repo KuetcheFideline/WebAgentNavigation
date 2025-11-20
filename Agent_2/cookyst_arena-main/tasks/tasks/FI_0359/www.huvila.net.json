@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.huvila.net",
+      "intent": "Hae mökki lomalle Vantaan läheltä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.huvila.net",
+      "intent": "Vertaile eri mökkien hintoja ja varustelua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.huvila.net",
+      "intent": "Lue asiakasarvosteluita eri mökeistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.huvila.net",
+      "intent": "Varaa mökki viikonlopuksi ja maksaa sen verkkomaksulla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.huvila.net",
+      "intent": "Tallenna suosikkimökkejä ja jaettu niitä ystävien kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.huvila.net",
+      "intent": "Kirjaudu sisään ja tarkista varaukseni tila"
+    }
+  ]
+}

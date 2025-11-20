@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://jultika.oulu.fi",
+      "intent": "Hakuaiheena on yliopiston julkaisut, haluan tietää mitä aiheita on käsitelty viimeaikaisissa tutkimuksissa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://jultika.oulu.fi",
+      "intent": "Olen kiinnostunut tietämään miten yliopiston julkaisuarkistossa voi hakea tietoa aiheesta matematiikan oppimisen vaikeudet."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://jultika.oulu.fi",
+      "intent": "Haluan selventää miten OuluREPO -julkaisuarkistossa voi tehdä hakuja ja miten sivuston hakutoiminto toimii."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://jultika.oulu.fi",
+      "intent": "Olen kirjautunut sisään ja haluan tallentaa joitain julkaisuja omaan kirjastooni, jotta voin myöhemmin lukea niitä tarkemmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://jultika.oulu.fi",
+      "intent": "Kirjautuneena käyttäjänä haluan muokata omaa profiiliaani ja päivittää sähköpostiosoitteeni, jotta voin saada ilmoituksia uusista julkaisuista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://jultika.oulu.fi",
+      "intent": "Olen kiinnostunut tietämään miten voin ladata ja tulostaa julkaisuja, joita olen tallentanut omaan kirjastooni."
+    }
+  ]
+}

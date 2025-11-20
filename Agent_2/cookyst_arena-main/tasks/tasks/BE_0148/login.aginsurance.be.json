@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.aginsurance.be",
+      "intent": "Rechercher les raisons pour lesquelles la page d'accueil est inaccessible pour comprendre si cela affecte mes assurances"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.aginsurance.be",
+      "intent": "Essayer de trouver une page de contact ou de support pour signaler l'erreur 404 et obtenir de l'aide"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.aginsurance.be",
+      "intent": "Vérifier si d'autres utilisateurs ont rencontré le même problème en cherchant des forums ou des discussions en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.aginsurance.be",
+      "intent": "Consulter mon compte pour vérifier si mes informations d'assurance sont à jour et accessibles malgré l'erreur sur la page d'accueil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.aginsurance.be",
+      "intent": "Télécharger mes documents d'assurance pour les conserver en local au cas où le site reste inaccessible"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.aginsurance.be",
+      "intent": "Contacter le service client par messagerie interne pour signaler l'erreur et demander des mises à jour sur la résolution du problème"
+    }
+  ]
+}

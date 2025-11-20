@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://neckermann.be",
+      "intent": "Rechercher des offres de vacances en famille pour les prochaines vacances scolaires"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://neckermann.be",
+      "intent": "Comparer les prix et les avantages des différents types de vacances proposés par Neckermann"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://neckermann.be",
+      "intent": "Lire les blogs et les témoignages de clients pour avoir une idée plus précise des destinations et des offres proposées"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://neckermann.be",
+      "intent": "Réserver une vacance en ligne après avoir comparé les offres et avoir lu les commentaires des autres clients"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://neckermann.be",
+      "intent": "Gérer mes réservations et mes préférences de voyage en ligne pour optimiser mon expérience de voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://neckermann.be",
+      "intent": "Consulter mes factures et mes reçus de paiement pour mes réservations de vacances"
+    }
+  ]
+}

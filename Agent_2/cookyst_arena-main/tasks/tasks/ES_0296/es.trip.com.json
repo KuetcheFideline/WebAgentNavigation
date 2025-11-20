@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://es.trip.com",
+      "intent": "Buscar vuelos baratos de Mallorca a Madrid para un fin de semana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://es.trip.com",
+      "intent": "Comparar precios de hoteles en Palma de Mallorca para una estancia de 3 noches"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://es.trip.com",
+      "intent": "Explorar destinos de vuelos populares desde el aeropuerto de Palma de Mallorca"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://es.trip.com",
+      "intent": "Reservar un vuelo de ida y vuelta de Mallorca a Barcelona para una reunión de trabajo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://es.trip.com",
+      "intent": "Cancelar una reserva de hotel en Madrid realizada anteriormente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://es.trip.com",
+      "intent": "Verificar el estado de una reserva de vuelo de Mallorca a Madrid para asegurarme de que esté confirmada"
+    }
+  ]
+}

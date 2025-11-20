@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.posti.fi",
+      "intent": "Tarkastan miten voin lähettää joulukortin perheenjäsenilleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.posti.fi",
+      "intent": "Selvitan mitkä ovat Postin joulupakettien toimitusaikataulut"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.posti.fi",
+      "intent": "Etsin tietoa siitä, miten voin seurata pakettini tilaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.posti.fi",
+      "intent": "Tarkastan OmaPosti-tililleni liittyvät tiedot ja tilaukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.posti.fi",
+      "intent": "Muutan osoitettani OmaPosti-tililläni, koska olen muuttamassa toisaalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.posti.fi",
+      "intent": "Tilaa uusi pakettiautomaatti osoitteeseeni, jotta voin noutaa pakettejani helpommin"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kabelshop.nl",
+      "intent": "Rechercher des câbles pour la maison en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kabelshop.nl",
+      "intent": "Comparer les prix et les caractéristiques de différents types de câbles électriques pour trouver le meilleur choix pour mon projet de rénovation"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kabelshop.nl",
+      "intent": "Explorer la section 'Klussen' pour trouver des outils et des matériaux nécessaires pour mes projets de bricolage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kabelshop.nl",
+      "intent": "Consulter mes commandes passées pour vérifier l'état de mes livraisons et gérer mes retours éventuels"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kabelshop.nl",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison et mes coordonnées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kabelshop.nl",
+      "intent": "Utiliser la fonction de suivi de commande pour suivre l'état de ma commande en cours et planifier la réception de mes colis"
+    }
+  ]
+}

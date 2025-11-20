@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bentz.be",
+      "intent": "Rechercher les informations sur les services de pompes funèbres proposés par la Maison Bentz"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bentz.be",
+      "intent": "Consulter les derniers décès et les faire-part pour rendre hommage aux défunts"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bentz.be",
+      "intent": "Découvrir les différents funérariums proposés par la Maison Bentz et leurs équipements"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bentz.be",
+      "intent": "Gérer mon compte et mes informations personnelles pour une meilleure expérience sur le site"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bentz.be",
+      "intent": "Accéder à mes conventions funéraires et modifier mes préférences si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bentz.be",
+      "intent": "Contacter le service client de la Maison Bentz pour obtenir des informations supplémentaires sur les services proposés"
+    }
+  ]
+}

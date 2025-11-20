@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://spigo.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan oprette en bruger på Spigo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://spigo.dk",
+      "intent": "Jeg vil læse betingelserne for brug af Spigo, før jeg opretter en bruger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://spigo.dk",
+      "intent": "Jeg søger efter en liste over de forskellige spil, der er tilgængelige på Spigo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://spigo.dk",
+      "intent": "Jeg vil ændre min profilinformation, så den er mere opdateret"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://spigo.dk",
+      "intent": "Jeg vil deltage i et spil og se, om jeg kan vinde nogen præmier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://spigo.dk",
+      "intent": "Jeg vil se, om jeg har nogen ubesvarede meddelelser eller beskeder fra andre brugere på Spigo"
+    }
+  ]
+}

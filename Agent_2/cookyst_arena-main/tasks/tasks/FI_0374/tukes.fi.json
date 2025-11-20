@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tukes.fi",
+      "intent": "Hae tietoa turvallisuudesta ja kemikaaleista kotiin ja puutarhaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tukes.fi",
+      "intent": "Selvitä miten toimia jos epäilee tuotteen olevan vaarallinen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tukes.fi",
+      "intent": "Lue uutisia ja tiedotteita koskien turvallisuutta ja kemikaaleja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tukes.fi",
+      "intent": "Tee ilmoitus vaaralliseksi epäiltystä tuotteesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tukes.fi",
+      "intent": "Tilaa uutiset ja tiedotteet sähköpostiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tukes.fi",
+      "intent": "Anna palautetta Tukesin toiminnasta"
+    }
+  ]
+}

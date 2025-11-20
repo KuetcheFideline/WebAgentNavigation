@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.skkm.fi",
+      "intent": "Selata konkurssien esittelyä irtaimistosta ja kiinteistöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.skkm.fi",
+      "intent": "Lue lisää evästeiden käytöstä ja hyväksy niiden käyttö"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.skkm.fi",
+      "intent": "Etsi tietoa yrityssaneerauksista ja kuolinpesistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.skkm.fi",
+      "intent": "Osallistu huutokauppaan ja tee tarjous Sisu koneenkuljetusautosta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.skkm.fi",
+      "intent": "Tarkastele omaa huutokauppa historiaani ja seuraa aktiivisia huutoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.skkm.fi",
+      "intent": "Muokkaa omia käyttäjätietoja ja salasanaa"
+    }
+  ]
+}

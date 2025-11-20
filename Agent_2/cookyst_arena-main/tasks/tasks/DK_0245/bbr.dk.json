@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bbr.dk",
+      "intent": "Jeg vil gerne se, hvad der er registreret om min ejendom i Bygnings- og Boligregistret"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bbr.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan rette fejl i mine BBR-oplysninger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bbr.dk",
+      "intent": "Jeg ønsker at læse mere om, hvad Bygnings- og Boligregistret indeholder og hvordan det fungerer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bbr.dk",
+      "intent": "Jeg vil gerne logge ind for at se og rette mine BBR-oplysninger, så jeg kan sikre, at de er korrekte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bbr.dk",
+      "intent": "Jeg søger efter at sende en ændringsforslag til mine BBR-oplysninger, da jeg har skiftet varmeforsyning"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bbr.dk",
+      "intent": "Jeg ønsker at kontakte min kommune gennem kontaktformularen for at få hjælp til at rette mine BBR-oplysninger"
+    }
+  ]
+}

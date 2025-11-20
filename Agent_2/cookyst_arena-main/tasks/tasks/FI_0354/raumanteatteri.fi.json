@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://raumanteatteri.fi",
+      "intent": "Haluaisin tietää lisää Rauman teatterin tulevista esityksistä ja ostaa liput Kultalampi-näytelmään"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://raumanteatteri.fi",
+      "intent": "Löytäisin teatterin yhteystiedot ja soittaisin heille kysyäkseni lisää näytelmästä Ansa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://raumanteatteri.fi",
+      "intent": "Kävisin sivuston kalenteriosiossa ja etsisin tietoa tulevista tapahtumista ja esityksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://raumanteatteri.fi",
+      "intent": "Tilaisin teatterin lahjakortin itselleni ja tulostaisin sen tai lähetttäisin sen sähköpostilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://raumanteatteri.fi",
+      "intent": "Muokkaisin olemassa olevaa varaukseani ja vaihtaisin paikat toisiin näytökseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://raumanteatteri.fi",
+      "intent": "Tarkastaisin tilini ja ostoskorini, sekä vahvistaisin varaukseni ja maksaisin loput lippujen hinnasta"
+    }
+  ]
+}

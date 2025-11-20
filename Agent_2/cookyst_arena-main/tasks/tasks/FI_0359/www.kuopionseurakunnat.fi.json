@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuopionseurakunnat.fi",
+      "intent": "Hae sivustolta tietoa jumalanpalveluksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuopionseurakunnat.fi",
+      "intent": "Selaa seurakunnan tapahtumakalenteria"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuopionseurakunnat.fi",
+      "intent": "Lue lisää seurakunnan diakoniatyöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuopionseurakunnat.fi",
+      "intent": "Ilmoittaudu seurakunnan vapaaehtoistyöhön"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuopionseurakunnat.fi",
+      "intent": "Tee lahjoitus seurakunnan hyväksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuopionseurakunnat.fi",
+      "intent": "Lähetä viesti seurakunnan työntekijälle"
+    }
+  ]
+}

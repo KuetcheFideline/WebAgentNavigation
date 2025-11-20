@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://citaten.net",
+      "intent": "Rechercher des citations d'auteurs belges pour enrichir mes connaissances littéraires"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://citaten.net",
+      "intent": "Explorer les différentes catégories de citations pour découvrir de nouveaux auteurs et thèmes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://citaten.net",
+      "intent": "Lire les citations du jour pour me donner une idée de la sagesse et de la philosophie des grands auteurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://citaten.net",
+      "intent": "Créer une liste de citations favorites pour les partager avec mes collègues et amis sur les réseaux sociaux"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://citaten.net",
+      "intent": "Participer à des discussions en ligne sur les citations pour échanger des idées et des points de vue avec d'autres utilisateurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://citaten.net",
+      "intent": "Gérer mes préférences de notification pour recevoir des mises à jour sur les nouvelles citations et les activités de la communauté"
+    }
+  ]
+}

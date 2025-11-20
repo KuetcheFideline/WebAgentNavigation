@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bib.ballerup.dk",
+      "intent": "Jeg søger efter information om kommende arrangementer på biblioteket i Ballerup"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bib.ballerup.dk",
+      "intent": "Jeg vil gerne læse om de nyeste udgivelser og anbefalinger på bibliotekets hjemmeside"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bib.ballerup.dk",
+      "intent": "Jeg søger efter vejledning om, hvordan jeg kan bruge bibliotekets digitale ressourcer, såsom e-bøger og streamingtjenester"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bib.ballerup.dk",
+      "intent": "Jeg vil gerne låne en bog eller en film gennem bibliotekets hjemmeside, efter at jeg har logget ind"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bib.ballerup.dk",
+      "intent": "Jeg ønsker at reservere en plads til et arrangement eller en aktivitet på biblioteket, efter at jeg har logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bib.ballerup.dk",
+      "intent": "Jeg vil gerne se mine lånehistorik og mine reserveringer på min brugerprofil, efter at jeg har logget ind"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cpnl.cat",
+      "intent": "Buscar información sobre los cursos de catalán disponibles en la zona de Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cpnl.cat",
+      "intent": "Explorar las noticias destacadas sobre la promoción del catalán en la región"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cpnl.cat",
+      "intent": "Descubrir los próximos eventos culturales organizados por el Consorci per a la Normalització Lingüística"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cpnl.cat",
+      "intent": "Inscribirse en un curso de catalán para mejorar mis habilidades lingüísticas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cpnl.cat",
+      "intent": "Acceder a mis datos personales y actualizar mi perfil en el sitio web del CPNL"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cpnl.cat",
+      "intent": "Participar en un programa de voluntariado para la promoción del catalán en mi comunidad"
+    }
+  ]
+}

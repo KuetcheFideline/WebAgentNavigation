@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://downdetector.fi",
+      "intent": "Tarkistaa jos Suomessa on ongelmia verkkoyhteyksissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://downdetector.fi",
+      "intent": "Etsiä tietoa siitä, miten välttää verkkoyhteyksien katkeamisia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://downdetector.fi",
+      "intent": "Lukea arvosteluita eri internetsivujen toimivuudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://downdetector.fi",
+      "intent": "Raportoida ongelmia, joita olen kokenut verkkoyhteyksissä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://downdetector.fi",
+      "intent": "Seurata tilastoa siitä, kuinka usein verkkoyhteykseni on katkennut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://downdetector.fi",
+      "intent": "Vertailla eri palveluntarjoajien luotettavuutta"
+    }
+  ]
+}

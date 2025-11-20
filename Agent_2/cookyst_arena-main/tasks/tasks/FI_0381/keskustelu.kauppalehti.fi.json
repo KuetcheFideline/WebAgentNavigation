@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Selata sijoittamiseen liittyviä keskusteluja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Etsiä tietoa talous- ja talouspolitiikkaan liittyvistä aiheista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Lukea uusimmat viestit ja keskustelut sijoittamiseen liittyvistä aiheista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Kirjoittaa oma viesti sijoittamiseen liittyvään keskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Vastata toisen käyttäjän viestiin talous- ja talouspolitiikkaan liittyvässä keskustelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Muokata omaa profiilia ja asetuksia käyttäjätilillä"
+    }
+  ]
+}

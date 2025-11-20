@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.osao.fi",
+      "intent": "Hae koulutusta, joka sopii minun opettajan ammattiini"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.osao.fi",
+      "intent": "Selaa OSAOn tarjoamia palveluita opiskelijalle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.osao.fi",
+      "intent": "Etsi tietoa OSAOn kulttuuriagenttitoiminnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.osao.fi",
+      "intent": "Täytä opiskelijapalautelomake omasta opiskelukokemuksestani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.osao.fi",
+      "intent": "Tarkista omat opintorekisteritiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.osao.fi",
+      "intent": "Ilmoittaudu kurssille, joka kiinnostaa minua"
+    }
+  ]
+}

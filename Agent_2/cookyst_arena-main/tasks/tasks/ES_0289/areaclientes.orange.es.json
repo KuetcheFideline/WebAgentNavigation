@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://areaclientes.orange.es",
+      "intent": "Consultar los planes de telefonía móvil disponibles para mi familia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://areaclientes.orange.es",
+      "intent": "Buscar ofertas y promociones de internet en mi área de Madrid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://areaclientes.orange.es",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre los servicios de Orange"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://areaclientes.orange.es",
+      "intent": "Verificar mi consumo de datos y minutos de llamada del mes actual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://areaclientes.orange.es",
+      "intent": "Realizar un pago pendiente de mi factura de telefonía móvil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://areaclientes.orange.es",
+      "intent": "Configurar y gestionar los dispositivos conectados a mi red de hogar"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jamsa.fi",
+      "intent": "Hae sivustolta Jämsän kaupungin viestintäkysely"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jamsa.fi",
+      "intent": "Selaa Jämsän kaupungin asumisen ja eläminen -sivua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jamsa.fi",
+      "intent": "Lue Jämsän kaupungin uutisia ja tiedotteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jamsa.fi",
+      "intent": "Vastaa Jämsän viestintäkyselyyn kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jamsa.fi",
+      "intent": "Tee ilmoitus Jämsän kaupungin sivustolla kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jamsa.fi",
+      "intent": "Muokkaa omia tietoja Jämsän kaupungin asiointipalvelussa"
+    }
+  ]
+}

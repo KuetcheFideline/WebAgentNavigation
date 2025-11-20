@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://id.fak.dk",
+      "intent": "Jeg skal undersøge, om der er en mulighed for at oprette en ny konto på id.fak.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://id.fak.dk",
+      "intent": "Jeg vil se, om der er nogen vejledninger eller FAQ'er på id.fak.dk, der kan hjælpe mig med at forstå, hvordan jeg kan bruge siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://id.fak.dk",
+      "intent": "Jeg skal prøve at søge efter information om, hvordan jeg kan ændre mine kontoinformationer på id.fak.dk, selvom jeg ikke er logget ind"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://id.fak.dk",
+      "intent": "Jeg vil logge ind og se, om jeg kan ændre mine kontoinformationer, såsom mit navn og min adresse"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://id.fak.dk",
+      "intent": "Jeg skal prøve at tilføje en ny adresse til min konto på id.fak.dk, så jeg kan modtage breve og pakker på min arbejdsplads"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://id.fak.dk",
+      "intent": "Jeg vil se, om jeg kan downloade en kopi af mine kontoudskrifter fra id.fak.dk, så jeg kan holde styr på mine transaktioner"
+    }
+  ]
+}

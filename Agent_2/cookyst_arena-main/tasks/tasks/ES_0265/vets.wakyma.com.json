@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vets.wakyma.com",
+      "intent": "Buscar información sobre los servicios de veterinaria disponibles en la plataforma"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vets.wakyma.com",
+      "intent": "Explorar las secciones de la página web para conocer mejor la oferta de la plataforma"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vets.wakyma.com",
+      "intent": "Leer las reseñas y comentarios de otros usuarios sobre la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vets.wakyma.com",
+      "intent": "Configurar mis datos personales y preferencias en mi cuenta de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vets.wakyma.com",
+      "intent": "Solicitar una cita con un veterinario a través de la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vets.wakyma.com",
+      "intent": "Verificar el historial de mis citas y tratamientos en la plataforma"
+    }
+  ]
+}

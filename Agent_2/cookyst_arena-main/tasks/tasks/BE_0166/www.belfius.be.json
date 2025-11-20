@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.belfius.be",
+      "intent": "Je veux essayer de comprendre pourquoi j'ai été redirigé vers cette page d'erreur pour pouvoir accéder à mes informations bancaires en ligne."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.belfius.be",
+      "intent": "Je souhaite chercher des informations sur les produits et services bancaires proposés par Belfius pour mieux gérer mes finances personnelles."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.belfius.be",
+      "intent": "Je veux trouver le numéro de téléphone du service client de Belfius pour obtenir de l'aide concernant mon compte en ligne."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.belfius.be",
+      "intent": "Je veux consulter mes relevés de compte pour vérifier mes transactions récentes et mes soldes actuels."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.belfius.be",
+      "intent": "Je souhaite effectuer un virement vers un compte tiers pour payer une facture impayée."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.belfius.be",
+      "intent": "Je veux modifier mes coordonnées personnelles pour que Belfius puisse me joindre plus facilement en cas de problème avec mon compte."
+    }
+  ]
+}

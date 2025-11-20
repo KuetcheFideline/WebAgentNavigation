@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flashscore.fi",
+      "intent": "Tarkastan jalkapallon tulokset ja liveseurannan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flashscore.fi",
+      "intent": "Selvittän Suomen Veikkausliigan sarjataulukkoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flashscore.fi",
+      "intent": "Luen uutisia jalkapallosta ja jääkiekosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flashscore.fi",
+      "intent": "Lisään suosikkeihini HJK:n ja seuraan heidän otteluitaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flashscore.fi",
+      "intent": "Muokkaan profiiliini ja vaihdan salasanani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flashscore.fi",
+      "intent": "Konfiguroin ilmoitukset ja valitsemani urheilulajit"
+    }
+  ]
+}

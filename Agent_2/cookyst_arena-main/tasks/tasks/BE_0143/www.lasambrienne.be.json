@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lasambrienne.be",
+      "intent": "Je veux consulter les logements sociaux disponibles à louer pour moi et ma famille."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lasambrienne.be",
+      "intent": "Je souhaite en savoir plus sur les conditions d'admission pour un logement social et comment je peux m'inscrire."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lasambrienne.be",
+      "intent": "Je veux explorer les différents types de logements proposés par La Sambrienne, notamment les logements moyens et les biens à vendre."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lasambrienne.be",
+      "intent": "Je veux accéder à mon espace locataire pour consulter mon contrat de bail et payer mon loyer en ligne."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lasambrienne.be",
+      "intent": "Je souhaite demander une intervention technique pour un problème dans mon logement et suivre l'avancement de ma demande."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lasambrienne.be",
+      "intent": "Je veux mettre à jour mes informations personnelles et mes coordonnées dans mon espace locataire pour être sûr que La Sambrienne puisse me contacter facilement."
+    }
+  ]
+}

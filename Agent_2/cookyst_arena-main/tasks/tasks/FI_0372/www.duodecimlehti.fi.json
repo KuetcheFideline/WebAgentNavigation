@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Hae Duodecim-lehden sivustolta tietoa masennuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Selaa Duodecim-lehden viimeisintä numeroa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Lue artikkeleita Terveysportti.fi-sivustolta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Tallenna suosikkijulkaisut Duodecim-lehden sivustolla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Lähetä palautetta Duodecim-lehden toimitukselle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.duodecimlehti.fi",
+      "intent": "Tilaa Duodecim-lehden uusimman numeron digitaalinen versio"
+    }
+  ]
+}

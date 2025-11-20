@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://travius.eu",
+      "intent": "Selvittää mitä Travius tarjoaa ja etsii tietoa yrityksestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://travius.eu",
+      "intent": "Etsii Traviuksen verkkosivuilta tietoa työpaikoista ja uramahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://travius.eu",
+      "intent": "Luo uuden käyttäjätilin Traviuksen verkkosivuilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://travius.eu",
+      "intent": "Tarkistaa omat käyttäjätiedot ja asetukset Traviuksen verkkosivuilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://travius.eu",
+      "intent": "Osallistuu keskusteluihin ja foorumeille Traviuksen verkkosivuilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://travius.eu",
+      "intent": "Hallinnoi ja seuraa omia projekteja ja tehtäviä Traviuksen verkkosivuilla"
+    }
+  ]
+}

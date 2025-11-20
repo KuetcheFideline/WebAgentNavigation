@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hockey.fantasysports.yahoo.com",
+      "intent": "Löydä uusimmat jääkiekon uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hockey.fantasysports.yahoo.com",
+      "intent": "Selvitä, miten liityn fantasy-jääkiekkoliigaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hockey.fantasysports.yahoo.com",
+      "intent": "Tutki eri fantasy-jääkiekkoliigojen sääntöjä ja ominaisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hockey.fantasysports.yahoo.com",
+      "intent": "Luo uusi fantasy-jääkiekkotiimi ja valitse pelaajat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hockey.fantasysports.yahoo.com",
+      "intent": "Muokkaa olemassa olevan fantasy-jääkiekkotiimin kokoonpanoa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hockey.fantasysports.yahoo.com",
+      "intent": "Osallistu fantasy-jääkiekkoliigan kauppaan ja tee tarjous toisen tiimin pelaajasta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.calendrier-365.be",
+      "intent": "Consulter le calendrier du mois en cours pour planifier mes activités de stagiaire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.calendrier-365.be",
+      "intent": "Rechercher les jours fériés de l'année 2025 pour prévoir mes congés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.calendrier-365.be",
+      "intent": "Explorer les fonctionnalités du site pour trouver des informations sur les phases lunaires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.calendrier-365.be",
+      "intent": "Personnaliser mon calendrier en ligne en y ajoutant des événements importants pour mon stage"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.calendrier-365.be",
+      "intent": "Partager mon calendrier avec mes collègues de stage pour coordonner nos tâches"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.calendrier-365.be",
+      "intent": "Réceptionner des notifications pour les événements à venir et rester organisé"
+    }
+  ]
+}

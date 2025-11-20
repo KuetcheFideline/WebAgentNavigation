@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hiihtoliitto.fi",
+      "intent": "Löytää tietoa hiihtoliiton tapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hiihtoliitto.fi",
+      "intent": "Selata hiihtoliiton verkkokauppaa ja etsiä uusimmat hiihtovarusteet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hiihtoliitto.fi",
+      "intent": "Lue hiihtoliiton uutisia ja artikkeleita hiihtourheilun maailmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hiihtoliitto.fi",
+      "intent": "Kirjautua sisään ja tarkistaa oman hiihtoseuran tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hiihtoliitto.fi",
+      "intent": "Osallistua hiihtoliiton verkkokeskusteluihin ja kommentoida aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hiihtoliitto.fi",
+      "intent": "Tarkistaa oman kilpailukalenterini ja ilmoittautua tuleviin hiihtotapahtumiin"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tappara.co",
+      "intent": "Selatakseni uusimmat viestiketjut Tappara.co:lla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tappara.co",
+      "intent": "Löytääkseni tietoa Tapparan tulevasta päävalmentajasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tappara.co",
+      "intent": "Keskustelemaan Liigan sarjajärjestelmästä muiden käyttäjien kanssa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tappara.co",
+      "intent": "Kirjaudumaan sisään ja tarkastamaan omat viestiketjuni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tappara.co",
+      "intent": "Vastamaan keskusteluun Tapparan pelaajahaaveiluista 2026-27 kaudelle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tappara.co",
+      "intent": "Luomaan uusi viestiketju aiheesta Liiga-televisiotuotteiden tilausasioista"
+    }
+  ]
+}

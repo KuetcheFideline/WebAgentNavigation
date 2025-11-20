@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://checkout.novasol.com",
+      "intent": "Jeg søger efter en feriebolig i København til min familie"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://checkout.novasol.com",
+      "intent": "Jeg vil sammenligne priser på forskellige ferieboliger i Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://checkout.novasol.com",
+      "intent": "Jeg søger efter information om Novasols betalingsmuligheder og -politik"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://checkout.novasol.com",
+      "intent": "Jeg vil tilføje en ny feriebolig til min ønskeliste"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://checkout.novasol.com",
+      "intent": "Jeg vil ændre mine betalingsoplysninger i min Novasol-konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://checkout.novasol.com",
+      "intent": "Jeg vil se mine tidligere bookinghistorik og printe en kvittering"
+    }
+  ]
+}

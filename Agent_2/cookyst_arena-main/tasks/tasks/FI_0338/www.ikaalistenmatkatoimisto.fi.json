@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ikaalistenmatkatoimisto.fi",
+      "intent": "Selvittää mitä matkakohteita sivustolla on tarjolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ikaalistenmatkatoimisto.fi",
+      "intent": "Etsiä tietoa Pärnun kylpylälomasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ikaalistenmatkatoimisto.fi",
+      "intent": "Katsoa mitä tarjouksia sivustolla on"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ikaalistenmatkatoimisto.fi",
+      "intent": "Tarkistaa omat matkat ja varaukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ikaalistenmatkatoimisto.fi",
+      "intent": "Varata lomamatka Tallinnaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ikaalistenmatkatoimisto.fi",
+      "intent": "Muuttaa aiemmin tehtyä varaus"
+    }
+  ]
+}

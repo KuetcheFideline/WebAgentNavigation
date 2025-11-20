@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sjk.fi",
+      "intent": "Tutkin SJK:n uusimmat uutiset ja ottelutulokset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sjk.fi",
+      "intent": "Selvittän miten voin hankkia kausikortin SJK:n peleihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sjk.fi",
+      "intent": "Etsin tietoa SJK:n juniorijoukkueista ja heidän otteluistaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sjk.fi",
+      "intent": "Tilasin uudet SJK:n fanipaidat verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sjk.fi",
+      "intent": "Muutin omia tietojani ja salasanaani SJK:n jäsenprofiilissani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sjk.fi",
+      "intent": "Ostin liput tulevaan SJK:n kotiotteluun verkkokaupasta"
+    }
+  ]
+}

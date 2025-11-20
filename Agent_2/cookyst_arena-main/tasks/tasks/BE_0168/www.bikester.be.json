@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bikester.be",
+      "intent": "Rechercher des vélos de gravel pour une utilisation régulière en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bikester.be",
+      "intent": "Comparer les prix et les caractéristiques des vélos électriques pour adultes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bikester.be",
+      "intent": "Explorer les accessoires de vélo pour améliorer la sécurité et le confort lors des déplacements"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bikester.be",
+      "intent": "Consulter l'historique des commandes pour suivre les achats précédents de vélos et d'accessoires"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bikester.be",
+      "intent": "Gérer les informations de compte pour mettre à jour les coordonnées et les préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bikester.be",
+      "intent": "Utiliser le programme de fidélité pour accumuler des points et bénéficier de réductions sur les prochains achats"
+    }
+  ]
+}

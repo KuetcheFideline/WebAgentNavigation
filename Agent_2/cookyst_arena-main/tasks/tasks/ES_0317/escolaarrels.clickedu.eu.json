@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://escolaarrels.clickedu.eu",
+      "intent": "Explorar la página de inicio para conocer las funcionalidades de la plataforma Escola Arrels"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://escolaarrels.clickedu.eu",
+      "intent": "Buscar información sobre la política de privacidad y cookies de la plataforma"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://escolaarrels.clickedu.eu",
+      "intent": "Leer las condiciones de uso y privacidad de la plataforma antes de iniciar sesión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://escolaarrels.clickedu.eu",
+      "intent": "Iniciar sesión para acceder a las funcionalidades de la plataforma como profesor y ver mis clases asignadas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://escolaarrels.clickedu.eu",
+      "intent": "Configurar mis preferencias de notificación y comunicación con los alumnos y padres dentro de la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://escolaarrels.clickedu.eu",
+      "intent": "Crear y asignar tareas a mis alumnos dentro de la plataforma para seguir su progreso"
+    }
+  ]
+}

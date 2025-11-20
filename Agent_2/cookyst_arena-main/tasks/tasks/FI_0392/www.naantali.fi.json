@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.naantali.fi",
+      "intent": "Tutkin Naantalin kaupungin verkkosivuja, jotta voin löytää tietoa paikallisten palveluiden saatavuudesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.naantali.fi",
+      "intent": "Etsin tietoa Naantalin kaupungin järjestämistä tapahtumista ja aktiviteeteista, joissa voisin osallistua."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.naantali.fi",
+      "intent": "Selvittelen, miten voin hakea Naantalin kaupungin tarjoamia palveluja, kuten esimerkiksi kirjaston tai urheilukeskuksen käyttöä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.naantali.fi",
+      "intent": "Kirjaudun sisään Naantalin kaupungin verkkopalveluun, jotta voin hallita omia tietojani ja seurata kaupungin palvelujen saatavuutta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.naantali.fi",
+      "intent": "Tarkastan Naantalin kaupungin verkkopalvelun kautta, mitä palveluita olen jo tilannut tai mitä asiointeja minulla on kesken."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.naantali.fi",
+      "intent": "Muokkaan omia tietojani Naantalin kaupungin verkkopalvelussa, jotta voin varmistaa, että ne ovat ajan tasalla ja oikein."
+    }
+  ]
+}

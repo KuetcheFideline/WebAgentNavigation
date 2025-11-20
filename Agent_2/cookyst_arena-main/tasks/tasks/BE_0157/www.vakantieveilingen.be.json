@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vakantieveilingen.be",
+      "intent": "Rechercher des offres de vacances pour une semaine en famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vakantieveilingen.be",
+      "intent": "Comparer les prix des voyages en fonction des destinations et des périodes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vakantieveilingen.be",
+      "intent": "Lire les commentaires et les avis des autres utilisateurs sur les offres de vacances"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vakantieveilingen.be",
+      "intent": "Enregistrer mes préférences de recherche pour recevoir des alertes personnalisées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vakantieveilingen.be",
+      "intent": "Participer à une enchère pour une offre de vacances qui m'intéresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vakantieveilingen.be",
+      "intent": "Consulter l'historique de mes enchères et de mes réservations précédentes"
+    }
+  ]
+}

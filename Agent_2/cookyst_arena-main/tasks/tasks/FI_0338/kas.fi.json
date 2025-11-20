@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kas.fi",
+      "intent": "Hae vapaata vuokra-asuntoa Joensuussa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kas.fi",
+      "intent": "Selaa asumisoikeusasuntoja ja tee hakemus"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kas.fi",
+      "intent": "Lue vuokra-asunnon hakemisesta ja asumisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kas.fi",
+      "intent": "Tarkista vuokranmaksu ja tee muutos vuokrasopimukseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kas.fi",
+      "intent": "Ilmoita vikaa tai ongelmia vuokra-asunnossa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kas.fi",
+      "intent": "Tee asukasedustus ja pyydä apua asumiseen liittyvissä asioissa"
+    }
+  ]
+}

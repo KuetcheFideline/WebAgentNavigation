@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://piketa.com",
+      "intent": "Hae kodinkoneiden varaosia ja tarvikkeita verkkokaupasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://piketa.com",
+      "intent": "Selaa tuoteryhmää 'Astianpesukoneiden varaosat ja tarvikkeet' ja etsi sopivia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://piketa.com",
+      "intent": "Vertaile eri merkkien ja mallien varaosia ja tarvikkeita, kuten AEG- ja Electrolux-astianpesukoneiden varaosia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://piketa.com",
+      "intent": "Tee tilaus valitsemistasi varaosista ja tarvikkeista kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://piketa.com",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen etenemistä kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://piketa.com",
+      "intent": "Jätä arvostelua ja palautetta ostetuista tuotteista kirjautuneena käyttäjänä"
+    }
+  ]
+}

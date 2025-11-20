@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.booky.fi",
+      "intent": "Selata kirjavalikoimaa ja etsiä uusia jännityskirjoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.booky.fi",
+      "intent": "Tutkia Suomenkielisen kaunokirjallisuuden osiota ja löytää kotimaisia kirjailijoita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.booky.fi",
+      "intent": "Etsiä tietokirjoja aiheesta kalastus ja luonto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.booky.fi",
+      "intent": "Tarkastaa tilausten historiaa ja arvosteluita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.booky.fi",
+      "intent": "Lisätä kirjoja toivelistalle ja seurata uusimpien julkaisujen ilmestymistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.booky.fi",
+      "intent": "Muokata omia kirjahyllyjä ja jakaa suosikkikirjoja ystäville"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kouvolansanomat.fi",
+      "intent": "Luen uusimmat uutiset Kouvolasta, jotta voin pysyä ajan tasalla kaupungin tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kouvolansanomat.fi",
+      "intent": "Etsin artikkeleita Kouvolan yrityksistä, joista voisin löytää mielenkiintoisia tarinoita menestyksestä ja yrittäjyydestä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kouvolansanomat.fi",
+      "intent": "Selailen Kouvolan kaupunkikulttuuria ja etsin tietoa paikallisista tapahtumista, joissa voisin osallistua."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kouvolansanomat.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkeleita, joista olen kiinnostunut, jotta voisin osallistua keskusteluun ja jakaa omia ajatuksiani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kouvolansanomat.fi",
+      "intent": "Tilaa uutiskirjeen, jotta saan sähköpostiini uusimmat uutiset ja päivitykset Kouvolasta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kouvolansanomat.fi",
+      "intent": "Muokkaan profiiliaani, jotta voisin pitää tietoni ajan tasalla ja hallita omia asetuksiani."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mynet.haaga-helia.fi",
+      "intent": "Selvitän, mitä Peppi-järjestelmä on ja miten se toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mynet.haaga-helia.fi",
+      "intent": "Etsin tietoa siitä, miten voin hyödyntää Peppi-järjestelmää omassa opiskelussani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mynet.haaga-helia.fi",
+      "intent": "Luen lisää Haaga-Helian opiskelumahdollisuuksista ja kurssitarjonnasta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mynet.haaga-helia.fi",
+      "intent": "Kirjaudun Peppi-järjestelmään ja tarkistan omat opintotiedot."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mynet.haaga-helia.fi",
+      "intent": "Ilmoittaudun kurssille, joka kiinnostaa minua ja sopii opintoihini."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mynet.haaga-helia.fi",
+      "intent": "Tarkistan ja päivitän omat yhteystietoni Peppi-järjestelmässä."
+    }
+  ]
+}

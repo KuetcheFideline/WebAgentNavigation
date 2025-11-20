@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.zooplus.be",
+      "intent": "Rechercher des aliments pour mon chien en utilisant la barre de recherche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.zooplus.be",
+      "intent": "Comparer les prix des croquettes pour chiens de différentes marques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.zooplus.be",
+      "intent": "Explorer les produits pour les chats et découvrir les dernières offres spéciales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.zooplus.be",
+      "intent": "Consulter mon compte et mes commandes précédentes pour retrouver des produits que j'ai déjà achetés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.zooplus.be",
+      "intent": "Utiliser mes zooPoints pour obtenir des réductions sur mes prochaines commandes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.zooplus.be",
+      "intent": "Gérer mes informations de livraison et de facturation pour faciliter mes futures commandes"
+    }
+  ]
+}

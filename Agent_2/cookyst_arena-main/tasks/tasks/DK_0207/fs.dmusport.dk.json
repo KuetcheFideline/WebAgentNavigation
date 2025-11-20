@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fs.dmusport.dk",
+      "intent": "Jeg søger efter information om medlemskab og licenser hos Danmarks Motor Union"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fs.dmusport.dk",
+      "intent": "Jeg vil læse om nyheder og begivenheder indenfor motorsport i Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fs.dmusport.dk",
+      "intent": "Jeg søger efter kontaktoplysninger til Danmarks Motor Union, så jeg kan stille spørgsmål om medlemskab"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fs.dmusport.dk",
+      "intent": "Jeg vil tjekke min licensstatus og sikre, at mine oplysninger er opdaterede"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fs.dmusport.dk",
+      "intent": "Jeg søger efter muligheder for at deltage i motorsportbegivenheder og turneringer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fs.dmusport.dk",
+      "intent": "Jeg vil ændre mine adgangskode og sikre, at min konto er sikker"
+    }
+  ]
+}

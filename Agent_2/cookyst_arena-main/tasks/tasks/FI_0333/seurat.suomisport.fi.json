@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seurat.suomisport.fi",
+      "intent": "Tutustun urheiluseuran jäsenpalveluihin ja etsin tietoa siitä, miten seura voi hyödyntää Suomisportia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seurat.suomisport.fi",
+      "intent": "Luen seurojen kokemuksia Suomisportista ja etsin vinkkejä siitä, miten urheiluseura voi parantaa jäsenpalvelujaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seurat.suomisport.fi",
+      "intent": "Selvittelen, miten Suomisportin palvelut voivat auttaa urheiluseurani hallinnossa ja viestinnässä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seurat.suomisport.fi",
+      "intent": "Kirjaudun sisään ja tarkastelen urheiluseurani jäsenrekisteriä ja maksutoimintoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seurat.suomisport.fi",
+      "intent": "Luo uusi tapahtuma ja ilmoittautumislinkki Suomisportin tapahtumahallinnassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seurat.suomisport.fi",
+      "intent": "Tarkastelen urheiluseurani taloushallintoa ja maksujen tilannetta Suomisportin avulla"
+    }
+  ]
+}

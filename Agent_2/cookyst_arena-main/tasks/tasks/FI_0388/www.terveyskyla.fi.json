@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Hae tietoa Alzheimerin taudista Terveyskylän sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Selaa Terveyskylän itsehoito-ohjelmia ja etsi ohjelmaa, joka sopii omaishoitajalle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Lue Terveyskylän blogia ja etsi vinkkejä omaishoidon tukeen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Kirjaudu Omapolkuun ja tarkastele puolisolleni liittyviä terveydenhuollon asiakirjoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Käytä TerveyskyläPRO-palvelua ja etsi tietoa ammattilaisten koulutusohjelmista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Tee etävastaanotto Terveyskylän sivujen kautta ja keskustele lääkärin kanssa puolisolleni liittyvistä terveydenhuollon asioista"
+    }
+  ]
+}

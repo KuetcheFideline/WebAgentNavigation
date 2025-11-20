@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulikivi.fi",
+      "intent": "Hae sivustolta tietoa vuolukivitakasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulikivi.fi",
+      "intent": "Lataa ilmainen kuvasto takkaohjaimista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulikivi.fi",
+      "intent": "Selaa takat-uutuuksia ja etsi tietoa Black Friday -etuista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulikivi.fi",
+      "intent": "Tilaa rahoituspalvelu ja hae korotonta maksuaikaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulikivi.fi",
+      "intent": "Rekisteröi takkasi ja pyydä tarjous uudesta takasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulikivi.fi",
+      "intent": "Lähetä tarjouspyyntö ja pyydä asiantuntijan yksilöllinen tarjous"
+    }
+  ]
+}

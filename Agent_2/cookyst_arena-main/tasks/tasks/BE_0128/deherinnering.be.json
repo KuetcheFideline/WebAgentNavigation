@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://deherinnering.be",
+      "intent": "Rechercher des informations sur les services d'organisation de funérailles proposés par l'entreprise"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://deherinnering.be",
+      "intent": "Consulter les témoignages et les avis des clients satisfaits pour évaluer la qualité des services"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://deherinnering.be",
+      "intent": "Explorer les différentes options de planification de funérailles et de services associés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://deherinnering.be",
+      "intent": "Gérer mon compte et mes informations personnelles pour une planification de funérailles personnalisée"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://deherinnering.be",
+      "intent": "Accéder à mes documents et contrats de planification de funérailles pour les télécharger ou les imprimer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://deherinnering.be",
+      "intent": "Contacter le service client pour obtenir des conseils et une assistance personnalisée pour la planification de funérailles"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://talmaski.fi",
+      "intent": "Tarkistaa hiihtokeskuksen aukioloajat ja hinnat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://talmaski.fi",
+      "intent": "Etsiä tietoa hiihtokoulun kurssitarjonnasta ja hinnoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://talmaski.fi",
+      "intent": "Selvitä, miten voi varata välineitä ja mitkä ovat vuokrauspalvelun ehdot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://talmaski.fi",
+      "intent": "Tehdä varaus hiihtokoulun kurssille ja maksaa se verkkomaksulla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://talmaski.fi",
+      "intent": "Tarkastella omaa asiakastiliä ja tarkistaa varauksien ja maksujen tiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://talmaski.fi",
+      "intent": "Muuttaa olemassa olevan varauksen päivämääriä tai peruuttaa varaus"
+    }
+  ]
+}

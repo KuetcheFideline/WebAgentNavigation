@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.heste-nettet.dk",
+      "intent": "Læse om nyheder og debatter om heste og pony"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.heste-nettet.dk",
+      "intent": "Søge efter heste til salg i Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.heste-nettet.dk",
+      "intent": "Udforske billedgalleriet med heste og pony"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.heste-nettet.dk",
+      "intent": "Oprette en annonce for salg af min egen hest"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.heste-nettet.dk",
+      "intent": "Deltage i en debat om hestepleje og -opdræt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.heste-nettet.dk",
+      "intent": "Tilføje en kommentar til en eksisterende debat om heste"
+    }
+  ]
+}

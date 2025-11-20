@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Buscar películas en cartelera para planificar una noche de cine con amigos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Explorar las opciones de comida y bebida disponibles en el cine para decidir si comprar snacks o cenar antes de la película"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Comparar los precios de las entradas para diferentes películas y horarios para encontrar la mejor opción según mi presupuesto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Reservar entradas para una película con descuento utilizando mis puntos acumulados en el programa de fidelidad del cine"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Configurar mis preferencias de asiento y formato de proyección para una película que ya he reservado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Verificar el saldo de mi tarjeta de regalo para decidir si puedo invitarte a una película o necesito recargarla"
+    }
+  ]
+}

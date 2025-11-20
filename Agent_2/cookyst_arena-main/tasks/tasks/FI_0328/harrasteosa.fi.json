@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://harrasteosa.fi",
+      "intent": "Etsin mönkijän varaosia Harrasteosasta, koska minun mönkijäni tarvitsee uuden vinssin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://harrasteosa.fi",
+      "intent": "Haluan tarkastella Harrasteosan tarjouksia, jotta voisin löytää edullisia varaosia mönkijääni varten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://harrasteosa.fi",
+      "intent": "Tutkin Harrasteosan veneilytuotteita, koska minulla on vene ja tarvitsen uusia osia siihen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://harrasteosa.fi",
+      "intent": "Tilasin juuri uuden mönkijän vinssin ja haluan seurata tilaukseni tilaa kirjautumalla sisään."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://harrasteosa.fi",
+      "intent": "Lisään ostoskoriin mönkijän puskulevysarjan, jotta voisin maksaa sen myöhemmin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://harrasteosa.fi",
+      "intent": "Muokkaan profiiliini Harrasteosassa, jotta voisin tallentaa ostoshistoriani ja seurata tilauksiani helpommin."
+    }
+  ]
+}

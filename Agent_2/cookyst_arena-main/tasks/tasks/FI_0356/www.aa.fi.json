@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aa.fi",
+      "intent": "Hae sivustolta tietoa alkoholiongelmasta ja sen ratkaisemisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aa.fi",
+      "intent": "Selaa AA-ryhmien tapahtumia ja etsi lähin ryhmä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aa.fi",
+      "intent": "Lue AA:n 12 askelta ja ymmärrä toipumisprosessi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aa.fi",
+      "intent": "Tilaa omat lehtilaskut suoraan sähköpostiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aa.fi",
+      "intent": "Lähetä ilmoitus Tiedotuksia-lehteen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aa.fi",
+      "intent": "Ota yhteyttä AA-toimistoon ja kysy lisää ryhmätuesta"
+    }
+  ]
+}

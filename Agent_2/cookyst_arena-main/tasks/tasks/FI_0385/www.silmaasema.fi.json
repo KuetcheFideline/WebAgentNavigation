@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.silmaasema.fi",
+      "intent": "Haluaisin tietää, mitä silmälasi- ja aurinkolasmalleja on saatavilla naisille."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.silmaasema.fi",
+      "intent": "Olen kiinnostunut optikon palveluista, erityisesti silmänpaineenmittauksesta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.silmaasema.fi",
+      "intent": "Tietoa piilolinssien käytöstä ja sovittamisesta kiinnostaa, sillä olen ajatellut hankkia niitä itselleni."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.silmaasema.fi",
+      "intent": "Haluan varata ajan optikon näöntarkastukseen, koska minulla on jo aiemmin tehty tilaus silmälaseista."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.silmaasema.fi",
+      "intent": "Olen kiinnostunut tarkastamaan tilaushistoriani ja seuraavan tilauksen toimitusajankohtaa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.silmaasema.fi",
+      "intent": "Haluaisin muuttaa olemassa olevan silmälasi- tai piilolinssitilaukseni toimitusosoitetta."
+    }
+  ]
+}

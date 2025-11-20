@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mangamovil.net",
+      "intent": "Explorar la sección de noticias para enterarme de las últimas actualizaciones del sitio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mangamovil.net",
+      "intent": "Buscar información sobre cómo puedo configurar mis notificaciones para recibir actualizaciones sobre mis publicaciones"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mangamovil.net",
+      "intent": "Leer los términos y condiciones del sitio para entender mejor cómo funciona la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mangamovil.net",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre comentarios en mis publicaciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mangamovil.net",
+      "intent": "Crear una nueva publicación para compartir mis pensamientos y opiniones con la comunidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mangamovil.net",
+      "intent": "Editar mi perfil para asegurarme de que mi información esté actualizada y sea precisa"
+    }
+  ]
+}

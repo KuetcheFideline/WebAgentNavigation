@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eduskunta.fi",
+      "intent": "Tutustun Eduskunnan sivuille, jotta voin seurata maamme lainsäädäntöä ja poliittista ilmapiiriä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eduskunta.fi",
+      "intent": "Hae Eduskunnan jäseniä ja heidän yhteystietoja, jotta voin ottaa heihin yhteyttä tarpeen tullen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eduskunta.fi",
+      "intent": "Lue Eduskunnan uutisia ja tiedotteita, jotta olen ajan tasalla maamme tapahtumista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eduskunta.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat asiakirjani ja dokumentit, joita olen tallentanut Eduskunnan sivuille."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eduskunta.fi",
+      "intent": "Osallistun keskusteluihin ja äänestän eri aiheista, jotta voin vaikuttaa maamme päätöksentekoon."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eduskunta.fi",
+      "intent": "Tallennan ja muokkaan omia asiakirjojani ja dokumenttejani, joita tarvitsen työssäni Maahanmuuttovirastossa."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://katiha.kansallisarkisto.fi",
+      "intent": "Hae tietoja luovutetun alueen kirkonarkistoista 1600-luvulta 1900-luvulle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://katiha.kansallisarkisto.fi",
+      "intent": "Selaa Karjala-tietokantaa ja etsi tietoa omasta suvusta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://katiha.kansallisarkisto.fi",
+      "intent": "Lue Kansallisarkiston yhteystiedot ja ota yhteyttä, jos tarvitsee apua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://katiha.kansallisarkisto.fi",
+      "intent": "Tallenna etsitty tieto ja lisää se omiin muistiinpanoihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://katiha.kansallisarkisto.fi",
+      "intent": "Anna palautetta Kansallisarkistosta ja ehdota parannuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://katiha.kansallisarkisto.fi",
+      "intent": "Tee tilastohaku ja analyysi omasta suvun historiasta"
+    }
+  ]
+}

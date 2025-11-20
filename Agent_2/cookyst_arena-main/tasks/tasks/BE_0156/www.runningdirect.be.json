@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.runningdirect.be",
+      "intent": "Rechercher des chaussures de running pour femme avec une bonne amorti pour les longues distances"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.runningdirect.be",
+      "intent": "Comparer les prix des chaussures de running Brooks et Asics pour homme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.runningdirect.be",
+      "intent": "Lire les avis des clients sur les chaussures de running Nike pour femme"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.runningdirect.be",
+      "intent": "Ajouter des chaussures de running à ma liste de souhaits pour plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.runningdirect.be",
+      "intent": "Vérifier l'historique de mes commandes pour voir si j'ai déjà acheté des chaussures de running chez RunningDirect"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.runningdirect.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

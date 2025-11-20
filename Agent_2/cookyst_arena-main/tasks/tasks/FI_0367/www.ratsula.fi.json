@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ratsula.fi",
+      "intent": "Tutkin Ratsulan verkkokaupan valikoimaa etsimällä uusimpia muotituotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ratsula.fi",
+      "intent": "Selvittelen Ratsulan aukioloaikoja tarkistamalla sivun yläosan tietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ratsula.fi",
+      "intent": "Löydän tietoa Ratsulan lounaslistasta ja hintoista sivun lounas-osiossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ratsula.fi",
+      "intent": "Tilasin Ratsulan uutiskirjeen, jotta saan tietoa uusimmista tarjouksista ja tuotteista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ratsula.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuratan tilausteni etenemistä Ratsulan verkkokaupassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ratsula.fi",
+      "intent": "Muokkaisin profiiliini liittyviä tietoja, kuten osoitettani ja salasanaani, Ratsulan asiakasprofiilissani"
+    }
+  ]
+}

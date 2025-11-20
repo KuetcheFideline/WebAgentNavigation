@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://liikennemerkkeja.fi",
+      "intent": "Hae tietoa liikennemerkistä C44.2: Vuoropysäköinti"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://liikennemerkkeja.fi",
+      "intent": "Selaa katsotuimmat liikennemerkit ja etsi tietoa pysäköintimerkeistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://liikennemerkkeja.fi",
+      "intent": "Lue lisää liikennemerkkien selitteistä ja niiden merkityksestä liikenteessä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://liikennemerkkeja.fi",
+      "intent": "Jaa linkki facebookissa suosikkiliikennemerkkisi ja kerro miksi se on sinulle tärkeä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://liikennemerkkeja.fi",
+      "intent": "Lähetä palaute sivuston sisällöstä ja ehdota parannuksia liikennemerkkien esittämiseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://liikennemerkkeja.fi",
+      "intent": "Tallenna suosikkiliikennemerkit ja jaettu sisältö omalle profiilille"
+    }
+  ]
+}

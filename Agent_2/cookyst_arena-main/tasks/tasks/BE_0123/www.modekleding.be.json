@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.modekleding.be",
+      "intent": "Rechercher des vêtements pour une soirée en ville"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.modekleding.be",
+      "intent": "Comparer les prix des pulls en solde"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.modekleding.be",
+      "intent": "Découvrir les dernières tendances de la mode féminine"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.modekleding.be",
+      "intent": "Ajouter des articles à mes favoris pour une future commande"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.modekleding.be",
+      "intent": "Vérifier l'historique de mes commandes pour suivre mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.modekleding.be",
+      "intent": "Modifier mes informations de compte pour une meilleure personnalisation"
+    }
+  ]
+}

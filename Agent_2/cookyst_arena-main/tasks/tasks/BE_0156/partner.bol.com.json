@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://partner.bol.com",
+      "intent": "Contacter le service client pour résoudre le problème de blocage de l'adresse IP"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://partner.bol.com",
+      "intent": "Rechercher des informations sur les raisons possibles du blocage de l'adresse IP"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://partner.bol.com",
+      "intent": "Visiter la page des développeurs pour obtenir des informations sur les API et les outils de développement"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://partner.bol.com",
+      "intent": "Consulter les statistiques de vente et les performances de mes produits en tant que partenaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://partner.bol.com",
+      "intent": "Gérer mes listings de produits et mettre à jour les descriptions et les prix"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://partner.bol.com",
+      "intent": "Configurer les paramètres de mon compte partenaire et les préférences de notification"
+    }
+  ]
+}

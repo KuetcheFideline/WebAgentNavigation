@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bdb.be",
+      "intent": "Rechercher des informations sur les analyses de sol pour améliorer les rendements des cultures dans la région de Liège"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bdb.be",
+      "intent": "Consulter les prévisions météorologiques pour planifier les activités agricoles de la semaine"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bdb.be",
+      "intent": "Découvrir les outils et les ressources proposés par le site pour aider les agriculteurs à améliorer leur production"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bdb.be",
+      "intent": "Accéder à la zone client pour consulter les résultats d'analyses de sol précédentes et planifier de nouvelles analyses"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bdb.be",
+      "intent": "Utiliser l'outil BDBrekenmee pour calculer les besoins en engrais pour les cultures et optimiser les rendements"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bdb.be",
+      "intent": "Consulter les informations sur les certificats et les accréditations pour s'assurer de la qualité des services proposés par le site"
+    }
+  ]
+}

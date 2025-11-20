@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://jokkis.net",
+      "intent": "Tutustua Jokkis-sivuston pääsivuun ja etsimään tietoa jalkapallo-otteluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://jokkis.net",
+      "intent": "Selata sivuston kalenteria ja etsimään tietoa tulevista tapahtumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://jokkis.net",
+      "intent": "Lukea uutisia ja artikkeleita sivuston etusivulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://jokkis.net",
+      "intent": "Kirjautua sisään ja tarkastaa omat kilpailutulokset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://jokkis.net",
+      "intent": "Osallistua keskusteluun foorumilla ja kommentoida uutisia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://jokkis.net",
+      "intent": "Tarkastaa ja muokata omia profiilitietoja ja asetuksia"
+    }
+  ]
+}

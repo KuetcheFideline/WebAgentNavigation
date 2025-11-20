@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://optima.itslearning.com",
+      "intent": "Tutkin Optiman etusivun ja etsin tietoa itslearning-järjestelmästä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://optima.itslearning.com",
+      "intent": "Selvittelen miten voin muuttaa kieltä ruotsista suomeksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://optima.itslearning.com",
+      "intent": "Etsin Optiman sivuilta tietoa siitä, miten voin ottaa yhteyttä helpdeskiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://optima.itslearning.com",
+      "intent": "Kirjaudun sisään itslearning-järjestelmään ja tarkastan kurssien tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://optima.itslearning.com",
+      "intent": "Tutkin itslearning-tililleni liittyvää tietoa ja muokkaan profiilia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://optima.itslearning.com",
+      "intent": "Etsin ja osallistun keskusteluihin ja foorumeihin, joissa käsitellään aiheita, jotka ovat minulle kiinnostavia"
+    }
+  ]
+}

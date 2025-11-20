@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lappeenranta.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa Lappeenrannan perusopetuksen ja lukiokoulutuksen opiskelijoiden kursseista ja suorituksista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lappeenranta.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten opiskelijat voivat valita kursseja ja seurata suorituksiaan."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lappeenranta.inschool.fi",
+      "intent": "Selvittelen, miten huoltajat voivat seurata opiskelijan poissaoloja ja viestittää opettajien kanssa Wilman kautta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lappeenranta.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan opiskelijan suorituksia ja poissaoloja."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lappeenranta.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta kysymällä lisätietoa opiskelijan suorituksista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lappeenranta.inschool.fi",
+      "intent": "Tarkastan Wilman käyttöohjeita ja etsin tietoa siitä, miten opiskelijat voivat muuttaa henkilötietojaan ja salasanaa."
+    }
+  ]
+}

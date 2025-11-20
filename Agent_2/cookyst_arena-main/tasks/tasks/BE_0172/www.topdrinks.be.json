@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.topdrinks.be",
+      "intent": "Rechercher des whiskies écossais pour un cadeau à mon petit-fils"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.topdrinks.be",
+      "intent": "Comparer les prix des différents types de rhum pour mon prochain voyage en Espagne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.topdrinks.be",
+      "intent": "Découvrir les dernières offres spéciales sur les vins pour mon club de dégustation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.topdrinks.be",
+      "intent": "Ajouter une bouteille de gin à ma liste de souhaits pour mon anniversaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.topdrinks.be",
+      "intent": "Consulter l'historique de mes commandes pour retrouver un whisky que j'ai acheté précédemment"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.topdrinks.be",
+      "intent": "Modifier mes informations de livraison pour que mes commandes soient livrées à mon adresse de vacances"
+    }
+  ]
+}

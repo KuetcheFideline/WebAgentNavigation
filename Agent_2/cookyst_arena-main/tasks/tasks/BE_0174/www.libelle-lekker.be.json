@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.libelle-lekker.be",
+      "intent": "Rechercher des recettes végétariennes pour le dîner de ce soir"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.libelle-lekker.be",
+      "intent": "Découvrir les derniers articles sur les tendances culinaires actuelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.libelle-lekker.be",
+      "intent": "Explorer les recettes de Noël pour trouver des idées pour les prochaines fêtes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.libelle-lekker.be",
+      "intent": "Enregistrer mes recettes préférées dans mon compte pour les consulter plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.libelle-lekker.be",
+      "intent": "Créer un menu hebdomadaire personnalisé en fonction de mes goûts et de mes besoins"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.libelle-lekker.be",
+      "intent": "Participer à un concours culinaire en ligne pour gagner des prix"
+    }
+  ]
+}

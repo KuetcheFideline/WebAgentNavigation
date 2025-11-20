@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://editiepajot.com",
+      "intent": "Rechercher les actualités locales sur le site d'Editiepajot pour me tenir informée des événements dans ma région"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://editiepajot.com",
+      "intent": "Consulter la rubrique 'Agenda' pour connaître les prochains événements dans le Pajottenland et la Zennevallei"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://editiepajot.com",
+      "intent": "Lire les articles de marc colpaert pour avoir son point de vue sur les actualités locales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://editiepajot.com",
+      "intent": "Publier un commentaire sur un article pour partager mon opinion avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://editiepajot.com",
+      "intent": "M'abonner à la newsletter pour recevoir les dernières actualités locales directement dans ma boîte de réception"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://editiepajot.com",
+      "intent": "Participer à un sondage en ligne pour donner mon avis sur un sujet d'actualité locale"
+    }
+  ]
+}

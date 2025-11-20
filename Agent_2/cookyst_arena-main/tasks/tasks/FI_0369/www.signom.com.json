@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.signom.com",
+      "intent": "Selvitän, miten voin allekirjoittaa asiakirjan sähköisesti"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.signom.com",
+      "intent": "Luen Signomin käyttäjäsopimusta ja tietosuojakäytäntöä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.signom.com",
+      "intent": "Etsin tietoa siitä, miten voin aloittaa ilmainen kokeilu"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.signom.com",
+      "intent": "Kirjaudun sisään palveluun pankkitunnuksillani ja allekirjoitan asiakirjan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.signom.com",
+      "intent": "Tallennan allekirjoitetun asiakirjan omalle työasemalleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.signom.com",
+      "intent": "Tarkistan, voinko myöhemmin todentaa allekirjoitetun asiakirjan alkuperäisyyden palvelun kautta"
+    }
+  ]
+}

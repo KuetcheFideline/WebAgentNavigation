@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nuohousaika.fi",
+      "intent": "Tutkin Nuohousaika-palvelun etusivua, jotta voin löytää tietoa siitä, miten voin varata nuohouksen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nuohousaika.fi",
+      "intent": "Selvittelen, miten voin tarkastella vapaita nuohousaikoja ilman rekisteröitymistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nuohousaika.fi",
+      "intent": "Luen lisää Nuohousaika-palvelun ominaisuuksista, kuten laskutuksesta ja kalenterinhallinnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nuohousaika.fi",
+      "intent": "Kirjaudun sisään palveluun, jotta voin varata nuohouksen ja hallinnoida kalenteriani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nuohousaika.fi",
+      "intent": "Tarkastelen vapaita nuohousaikoja ja varaan ajan, joka sopii minulle parhaiten"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nuohousaika.fi",
+      "intent": "Lähetän ennakkoilmoituksen asiakkaalleni nuohousajasta ja vahvistan varauksen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Revisar la página de inicio para asegurarme de que el sitio web esté funcionando correctamente después del mensaje de error"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Buscar información sobre los productos y servicios de BBVA para particulares y empresas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bbva.es",
+      "intent": "Explorar la sección de noticias y actualidad financiera para mantenerme informado sobre los últimos acontecimientos en el sector"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Iniciar sesión en mi cuenta de BBVA para revisar mis movimientos y saldo actual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre mis cuentas y transacciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bbva.es",
+      "intent": "Realizar una transferencia bancaria a una cuenta de un familiar para ayudar con una emergencia"
+    }
+  ]
+}

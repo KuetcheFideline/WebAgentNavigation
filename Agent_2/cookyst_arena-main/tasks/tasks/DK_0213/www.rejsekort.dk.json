@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rejsekort.dk",
+      "intent": "Jeg søger efter information omkring Rejsekort-appen og hvordan jeg kan downloade den."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rejsekort.dk",
+      "intent": "Jeg vil læse mere om Rejsebillet og hvordan jeg kan købe enkeltrejser og Pendlerkort på forhånd."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rejsekort.dk",
+      "intent": "Jeg søger efter hjælp til at vælge det rigtige Rejsekort til mine behov, og jeg vil læse mere om Basiskort og Rejsekort som kort."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rejsekort.dk",
+      "intent": "Jeg vil logge ind på min Rejsekort-konto for at checke mit saldo og se mine rejsehistorik."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rejsekort.dk",
+      "intent": "Jeg vil bestille et nyt Rejsekort som kort, da mit nuværende kort er næsten slidt op."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rejsekort.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdatere min profil med nye oplysninger omkring mine rejser."
+    }
+  ]
+}

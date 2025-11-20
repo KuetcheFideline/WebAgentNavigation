@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autocom.dk",
+      "intent": "Jeg søger at sælge min bil på 24 timer, så jeg vil klikke på 'Tilmeld min bil nu' for at starte processen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autocom.dk",
+      "intent": "Jeg vil gerne vide mere om priserne for at sælge min bil, så jeg vil klikke på 'Læs mere om priser her' for at få mere information."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autocom.dk",
+      "intent": "Jeg er interesseret i at få en bedre forståelse af, hvordan auktionen fungerer, så jeg vil klikke på 'Sælg din bil hos Autocom' for at læse mere om processen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autocom.dk",
+      "intent": "Jeg har allerede en konto, så jeg vil logge ind og klikke på 'Tilmeld min bil' for at starte salgsprocessen af min bil."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autocom.dk",
+      "intent": "Jeg vil gerne se mine tidligere salg og køb, så jeg vil klikke på 'Min konto' for at se mine tidligere transaktioner."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autocom.dk",
+      "intent": "Jeg har spørgsmål omkring salget af min bil, så jeg vil klikke på 'Kontakt os' for at sende en besked til kundeservice."
+    }
+  ]
+}

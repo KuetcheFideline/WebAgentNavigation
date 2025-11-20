@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mammothbikes.com",
+      "intent": "Buscar bicicletas de montaña para mujeres en la sección de bicicletas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mammothbikes.com",
+      "intent": "Comparar precios de bicicletas eléctricas de paseo en la sección de bicicletas eléctricas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mammothbikes.com",
+      "intent": "Explorar la sección de ropa y equipamiento para mujeres y buscar chaquetas de ciclismo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mammothbikes.com",
+      "intent": "Agregar una bicicleta de montaña a la lista de deseos después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mammothbikes.com",
+      "intent": "Configurar un pedido de una bicicleta personalizada en la sección de bicicletas después de iniciar sesión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mammothbikes.com",
+      "intent": "Ver el historial de pedidos y buscar información sobre el estado de un pedido reciente después de iniciar sesión"
+    }
+  ]
+}

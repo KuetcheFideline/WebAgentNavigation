@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hukka.net",
+      "intent": "Tutustun Liikuntakeskus Hukka -sivuston tarjoamiin palveluihin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hukka.net",
+      "intent": "Etsin tietoa Liikuntakeskus Hukka -sivuston evästeiden käytöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hukka.net",
+      "intent": "Selvittelen miten voin hallita evästevalintojani Liikuntakeskus Hukka -sivustolla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hukka.net",
+      "intent": "Kirjaudun sisään Liikuntakeskus Hukka -sivustolle ja tarkastan omani tilin tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hukka.net",
+      "intent": "Tee varaus Liikuntakeskus Hukka -sivuston kautta ja maksan sen verkkomaksulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hukka.net",
+      "intent": "Lähetän palautetta Liikuntakeskus Hukka -sivuston asiakaspalveluun"
+    }
+  ]
+}

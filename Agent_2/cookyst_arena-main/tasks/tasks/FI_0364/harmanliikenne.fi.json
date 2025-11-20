@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://harmanliikenne.fi",
+      "intent": "Tarkastan Härmän Liikenteen reittiliikenteen hinnastoa, jotta voin suunnitella matkani Helsingistä Helsinkiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://harmanliikenne.fi",
+      "intent": "Etsin tietoa Härmän Liikenteen bussien aikatauluista, jotta voin ajoittaa kalastusmatkani oikein"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://harmanliikenne.fi",
+      "intent": "Selvitan, miten voin ladata matkakorttini Härmän Liikenteen verkkokaupasta, jotta voin käyttää sitä työmatkoillani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://harmanliikenne.fi",
+      "intent": "Tilasin Härmän Liikenteen verkkokaupasta uuden matkakortin, koska vanha on vanhentunut, ja haluan varmistaa, että voin käyttää sitä tulevalla kalastusmatkallani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://harmanliikenne.fi",
+      "intent": "Muokkasin Härmän Liikenteen asiakasprofiilia, jotta voin muuttaa osoitteeni ja varmistaa, että saan tietoa tulevista bussien aikataulumuutoksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://harmanliikenne.fi",
+      "intent": "Tarkastin Härmän Liikenteen asiakaspalvelun sivuilta, miten voin hakea korvausta myöhästyneestä bussista, jotta voin korvata aiheutuneet kustannukset"
+    }
+  ]
+}

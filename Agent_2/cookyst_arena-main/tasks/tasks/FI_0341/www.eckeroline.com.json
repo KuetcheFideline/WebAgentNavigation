@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eckeroline.com",
+      "intent": "Hae matkoja Helsingistä Tallinnaan ja vertaile hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eckeroline.com",
+      "intent": "Selaa risteilytarjouksia ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eckeroline.com",
+      "intent": "Tutki hotellipaketteja ja vertaile eri vaihtoehtoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eckeroline.com",
+      "intent": "Tee varaus matkalle ja hotellille kirjautuneena"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eckeroline.com",
+      "intent": "Muokkaa olemassa olevaa varausta ja lisää matkalle lisäpalveluita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eckeroline.com",
+      "intent": "Tarkista varaus ja lataa matkustusasiakirjat kirjautuneena"
+    }
+  ]
+}

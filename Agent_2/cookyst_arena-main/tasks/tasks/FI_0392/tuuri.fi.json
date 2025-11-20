@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuuri.fi",
+      "intent": "Selata Kyläkaupan tarjouksia ja etsi edullisia ostoksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuuri.fi",
+      "intent": "Tutkia Kyläkaupan ravintolamaailmaa ja etsiä herkkuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuuri.fi",
+      "intent": "Etsiä tietoa Kyläkaupan majoitusvaihtoehdoista, kuten Hotelli OnnenTähti"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuuri.fi",
+      "intent": "Tilata Kyläkaupan lahjakortti ja lahjoittaa se ystävälle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuuri.fi",
+      "intent": "Varata huone Hotelli OnnenTähdestä tai Hotelli Alavudesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuuri.fi",
+      "intent": "Kirjautua Kyläkaupan asiakasomistajaksi ja hyödyntää etuja"
+    }
+  ]
+}

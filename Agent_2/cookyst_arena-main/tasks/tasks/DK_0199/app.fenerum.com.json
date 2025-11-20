@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.fenerum.com",
+      "intent": "Jeg skal finde ud af, hvordan jeg kan logge ind på min arbejdskonto via Fenerum"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.fenerum.com",
+      "intent": "Jeg vil læse mere om, hvordan Fenerum håndterer single sign-on og multiple organisationer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.fenerum.com",
+      "intent": "Jeg søger efter en vejledning til at nulstille mit password, da jeg har glemt det"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.fenerum.com",
+      "intent": "Jeg vil se mine tilgængelige organisationer og vælge, hvilken en jeg vil arbejde med i dag"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.fenerum.com",
+      "intent": "Jeg skal ændre mine kontoinstillinger for at sikre, at min arbejdskonto er korrekt konfigureret"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.fenerum.com",
+      "intent": "Jeg vil se mine tidligere logge og kontrollere, om der er nogen usædvanlige aktiviteter på min konto"
+    }
+  ]
+}

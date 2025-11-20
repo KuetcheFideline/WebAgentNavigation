@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.kela.fi",
+      "intent": "Tarkastan sivuston etusivun linkkejä ja etsin tietoa palvelun käytöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.kela.fi",
+      "intent": "Selvittelen miten voin antaa palautetta palvelun toiminnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.kela.fi",
+      "intent": "Luen saavutettavuusselosteen ja tietosuojaselosteen, jotta ymmärrän miten palvelu käsittelee henkilötietojani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.kela.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat tiedot ja hakemukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.kela.fi",
+      "intent": "Täytän uuden hakemuksen ja lähettän sen Kansaneläkelaitokselle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.kela.fi",
+      "intent": "Muokkaan profiiliini ja päivitän yhteystietoni, jotta ne ovat ajan tasalla"
+    }
+  ]
+}

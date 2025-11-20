@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.turku.fi",
+      "intent": "Hae tietoa Turun kaupungin julkisista liikennevälitteistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.turku.fi",
+      "intent": "Etsi tietoa Turun kaupungin vapaa-ajan tarjonnasta, kuten liikuntapaikoista ja kirjastoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.turku.fi",
+      "intent": "Selvitä miten voit osallistua Turun kaupungin kehittämiseen ja antaa palautetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.turku.fi",
+      "intent": "Tee varaus liikuntavuorolle Timmi-palvelun kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.turku.fi",
+      "intent": "Tarkastele ja hallinnoi omia asiointipalveluja, kuten Föli-kauppaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.turku.fi",
+      "intent": "Kirjaudu Vaski-verkkokirjastoon ja tee kirjavarauksia"
+    }
+  ]
+}

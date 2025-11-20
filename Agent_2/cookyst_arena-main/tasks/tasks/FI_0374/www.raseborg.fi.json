@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.raseborg.fi",
+      "intent": "Hae tietoa Raseborgin kaupungin palveluista ja tapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.raseborg.fi",
+      "intent": "Etsi tietoa Raseborgin kaupungin kouluista ja opetusmahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.raseborg.fi",
+      "intent": "Selvitä Raseborgin kaupungin liikenne- ja kulkuyhteyksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.raseborg.fi",
+      "intent": "Tee ilmoittautuminen Raseborgin kaupungin järjestämään tapahtumaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.raseborg.fi",
+      "intent": "Hae Raseborgin kaupungin asiakirjoja ja lomakkeita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.raseborg.fi",
+      "intent": "Anna palautetta Raseborgin kaupungin palveluista"
+    }
+  ]
+}

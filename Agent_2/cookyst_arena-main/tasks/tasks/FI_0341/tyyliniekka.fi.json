@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tyyliniekka.fi",
+      "intent": "Etsin tietoa uusimmista kellomalleista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tyyliniekka.fi",
+      "intent": "Haluan lukea artikkeleita autouutisista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tyyliniekka.fi",
+      "intent": "Tutkin eri kellomerkkien valikoimaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tyyliniekka.fi",
+      "intent": "Kirjaudun sisään kommentoidaksesi artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tyyliniekka.fi",
+      "intent": "Lisään suosikkikelloni suosikkilistalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tyyliniekka.fi",
+      "intent": "Osallistun keskusteluun kellomerkistä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://resultats.aftt.be",
+      "intent": "Rechercher les résultats des tournois de tennis de table en Belgique francophone pour me tenir au courant des dernières nouvelles du sport"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://resultats.aftt.be",
+      "intent": "Consulter le calendrier des tournois à venir pour planifier ma participation et mes déplacements"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://resultats.aftt.be",
+      "intent": "Explorer les statistiques et les classements des joueurs pour analyser les performances et les tendances dans le tennis de table belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://resultats.aftt.be",
+      "intent": "Mettre à jour mes informations de joueur pour garantir l'exactitude de mes données personnelles et de mes résultats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://resultats.aftt.be",
+      "intent": "Inscrire mon équipe ou moi-même à un tournoi pour participer à des compétitions et défier d'autres joueurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://resultats.aftt.be",
+      "intent": "Consulter et gérer mes résultats personnels pour suivre mon évolution et identifier les domaines d'amélioration"
+    }
+  ]
+}

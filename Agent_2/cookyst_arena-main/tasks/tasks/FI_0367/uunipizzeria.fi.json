@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://uunipizzeria.fi",
+      "intent": "Hae lähin UUNI-pizzeria Oulusta ja tarkastele heidän ruokalistaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://uunipizzeria.fi",
+      "intent": "Vertaile eri pizzojen hintoja ja valitse edullisin vaihtoehto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://uunipizzeria.fi",
+      "intent": "Lue arvosteluita UUNI-pizzerian palveluista ja ruoasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://uunipizzeria.fi",
+      "intent": "Tilaa Perus-Jugi pizza kanta-asiakkaan alennuksella"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://uunipizzeria.fi",
+      "intent": "Lisää aurajuusto tilaukseen ja tarkastele lopullista hintaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://uunipizzeria.fi",
+      "intent": "Tarkastele tilaushistoriaa ja arvioi UUNI-pizzerian palvelun laatua"
+    }
+  ]
+}

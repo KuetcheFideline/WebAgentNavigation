@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wico.smartschool.be",
+      "intent": "Rechercher les informations sur les cours en ligne disponibles sur la plateforme Smartschool"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wico.smartschool.be",
+      "intent": "Consulter les ressources pédagogiques mises à disposition par l'établissement WICO vzw"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wico.smartschool.be",
+      "intent": "Explorer les fonctionnalités de la plateforme Smartschool pour comprendre comment elle peut faciliter mon travail d'étudiant"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wico.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes évaluations en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wico.smartschool.be",
+      "intent": "Participer à un forum de discussion en ligne avec mes camarades de classe pour discuter d'un projet de groupe"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wico.smartschool.be",
+      "intent": "Télécharger des documents et des ressources pédagogiques mis à disposition par mes enseignants pour préparer mes examens"
+    }
+  ]
+}

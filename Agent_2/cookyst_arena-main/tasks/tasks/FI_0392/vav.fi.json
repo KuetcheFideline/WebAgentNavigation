@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vav.fi",
+      "intent": "Hae vuokra-asuntoa Vantaalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vav.fi",
+      "intent": "Lue lisää asunnon hakemisesta ja asuntohakemuksen muokkaamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vav.fi",
+      "intent": "Tutustu VAV:n asuntoihin yli 40 asuinalueella Vantaalla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vav.fi",
+      "intent": "Tarkista ja muokkaa omia tietojani OmaVAV-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vav.fi",
+      "intent": "Lähetä viesti asiakaspalvelulle OmaVAV-palvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vav.fi",
+      "intent": "Tee uusi asuntohakemus tai muokkaa aiempaa hakemustani"
+    }
+  ]
+}

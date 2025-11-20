@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je veux explorer les différentes méthodes d'authentification proposées par l'Université de Liège pour comprendre les options disponibles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je souhaite consulter les informations relatives à l'authentification fédérale pour voir si cela pourrait être une option pratique pour moi."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.uliege.be",
+      "intent": "J'aimerais en savoir plus sur les avantages et les inconvénients de l'authentification forte Microsoft par rapport aux autres méthodes proposées."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.uliege.be",
+      "intent": "Maintenant que je suis connecté, je veux accéder à mes informations personnelles pour vérifier que tout est à jour et exact."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je souhaite consulter les ressources et les services proposés par l'Université de Liège auxquels j'ai accès en tant qu'utilisateur connecté."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.uliege.be",
+      "intent": "Je veux modifier mes paramètres de compte pour personnaliser mon expérience sur le site et garantir ma sécurité en ligne."
+    }
+  ]
+}

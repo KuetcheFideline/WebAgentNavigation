@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.retrade.eu",
+      "intent": "Jeg søger efter en brugt lastvogn til min fars virksomhed, så jeg vil gå til auktionerne og se, hvad der er tilbudt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.retrade.eu",
+      "intent": "Jeg vil læse mere om Retrade og deres auktioner, så jeg klikker på 'Om Retrade' for at få mere information."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.retrade.eu",
+      "intent": "Jeg er interesseret i at se, hvad slags auktioner der er i Danmark, så jeg søger efter 'Danmark' i søgefeltet."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.retrade.eu",
+      "intent": "Jeg vil tilføje en auktion til mine favoritter, så jeg kan holde øje med den, så jeg klikker på 'Favorit' knappen ved auktionen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.retrade.eu",
+      "intent": "Jeg vil byde på en auktion, så jeg klikker på 'Byd nu' knappen og følger instruktionerne."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.retrade.eu",
+      "intent": "Jeg vil se mine tidligere bud og auktioner, så jeg går til 'Min konto' og klikker på 'Mine auktioner'."
+    }
+  ]
+}

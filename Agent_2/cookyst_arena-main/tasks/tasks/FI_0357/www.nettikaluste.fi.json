@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nettikaluste.fi",
+      "intent": "Hae sohvia olohuoneeseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nettikaluste.fi",
+      "intent": "Vertaile eri vuodesohvien hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nettikaluste.fi",
+      "intent": "Selaa keittiökalusteita ja etsi inspiraatiota uuden keittiön suunnitteluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nettikaluste.fi",
+      "intent": "Tilaa uusi sohva ja määritä toimitusosoite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nettikaluste.fi",
+      "intent": "Seuraa tilaustani ja tarkista toimitusajankohta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nettikaluste.fi",
+      "intent": "Jätä arvosteluni juuri ostamastani tuotteesta"
+    }
+  ]
+}

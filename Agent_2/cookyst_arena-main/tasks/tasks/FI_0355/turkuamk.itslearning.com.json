@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lue uutisia ja päivitystiedotteita itslearning-tilin sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Etsi tietoa saavutettavuusselosteesta ja tietosuojaselosteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Vaihda kieli suomeksi ja selaa etusivun sisältöä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Kirjaudu sisään itslearning-tilillä ja tarkastele omia kursseja ja tehtäviä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lähetä viesti opettajalle tai muille käyttäjille itslearning-tilin viestintätyökalulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Tee tehtävä ja lähetä se opettajalle arvostelua varten itslearning-tilin tehtävätyökalulla"
+    }
+  ]
+}

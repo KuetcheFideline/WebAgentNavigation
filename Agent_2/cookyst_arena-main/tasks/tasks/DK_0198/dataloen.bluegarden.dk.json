@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dataloen.bluegarden.dk",
+      "intent": "Jeg skal finde min CVR-nummer og brugernavn for at logge ind på DataLøn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dataloen.bluegarden.dk",
+      "intent": "Jeg vil læse om vigtig information omkring login-modul på DataLøn"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dataloen.bluegarden.dk",
+      "intent": "Jeg skal klikke på 'Glemt brugernavn?' for at få hjælp til at gensende min brugernavn"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dataloen.bluegarden.dk",
+      "intent": "Jeg skal ændre min adgangskode efter at have logget ind på DataLøn"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dataloen.bluegarden.dk",
+      "intent": "Jeg vil downloade mine lønsedler efter at have logget ind på DataLøn"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dataloen.bluegarden.dk",
+      "intent": "Jeg skal opdatere mine personlige oplysninger efter at have logget ind på DataLøn"
+    }
+  ]
+}

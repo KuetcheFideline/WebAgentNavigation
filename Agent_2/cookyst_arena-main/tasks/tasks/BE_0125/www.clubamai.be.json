@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.clubamai.be",
+      "intent": "Consulter l'agenda des événements du club pour trouver une soirée qui correspond à mes goûts"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.clubamai.be",
+      "intent": "Lire les règles du club pour comprendre ce qui est attendu de moi si je décide de m'inscrire"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.clubamai.be",
+      "intent": "Rechercher des informations sur les événements à venir pour planifier ma visite"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.clubamai.be",
+      "intent": "M'inscrire à la newsletter pour rester informé des nouveaux événements et des mises à jour du club"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.clubamai.be",
+      "intent": "Consulter mon profil pour vérifier mes informations personnelles et mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.clubamai.be",
+      "intent": "Réserver une place pour un événement spécifique qui m'intéresse"
+    }
+  ]
+}

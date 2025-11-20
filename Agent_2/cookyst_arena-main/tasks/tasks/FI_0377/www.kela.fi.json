@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kela.fi",
+      "intent": "Hae tietoa lapsen syntymästä ja hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kela.fi",
+      "intent": "Selaa Kelan tuen mahdollisuuksia opiskelun aikana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kela.fi",
+      "intent": "Lue lisää mielenterveyden tukemisesta ja haasteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kela.fi",
+      "intent": "Tarkista oma asiointi ja tilitiedot OmaKelassa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kela.fi",
+      "intent": "Hae asumistukea ja täytä hakemuslomake"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kela.fi",
+      "intent": "Tee muutosilmoitus osoitteen muutostilanteessa"
+    }
+  ]
+}

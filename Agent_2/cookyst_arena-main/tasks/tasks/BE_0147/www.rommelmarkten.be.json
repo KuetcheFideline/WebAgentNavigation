@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rommelmarkten.be",
+      "intent": "Rechercher les rommelmarkten à proximité de Roulers pour le week-end"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rommelmarkten.be",
+      "intent": "Consulter les détails de la rommelmarkt de Booischot pour savoir quels types de produits seront proposés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rommelmarkten.be",
+      "intent": "Comparer les prix d'entrée et de stand pour les différentes rommelmarkten de la région"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rommelmarkten.be",
+      "intent": "Ajouter une nouvelle rommelmarkt à la liste des événements pour que d'autres utilisateurs puissent la consulter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rommelmarkten.be",
+      "intent": "Modifier les détails de ma propre rommelmarkt pour mettre à jour les informations sur les produits proposés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rommelmarkten.be",
+      "intent": "Contacter l'organisateur de la rommelmarkt de Temse pour réserver un stand pour le mois prochain"
+    }
+  ]
+}

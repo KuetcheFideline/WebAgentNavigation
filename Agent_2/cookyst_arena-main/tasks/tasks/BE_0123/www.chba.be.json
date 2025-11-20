@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.chba.be",
+      "intent": "Rechercher les services médicaux proposés par le CHBA pour trouver un médecin spécialisé en électricité médicale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.chba.be",
+      "intent": "Consulter les horaires des consultations pour planifier une visite chez un médecin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.chba.be",
+      "intent": "Trouver des informations sur les droits du patient pour comprendre mes droits en tant que patient"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.chba.be",
+      "intent": "Prendre un rendez-vous en ligne pour une consultation avec un médecin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.chba.be",
+      "intent": "Consulter mes résultats d'examens médicaux en ligne pour suivre mon état de santé"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.chba.be",
+      "intent": "Gérer mes informations personnelles pour mettre à jour mes coordonnées"
+    }
+  ]
+}

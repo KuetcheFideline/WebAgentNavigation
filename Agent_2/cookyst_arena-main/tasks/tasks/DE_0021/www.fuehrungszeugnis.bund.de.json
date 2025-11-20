@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fuehrungszeugnis.bund.de",
+      "intent": "Ich möchte die Informationen über das Führungszeugnis auf der Homepage des Bundesamts für Justiz lesen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fuehrungszeugnis.bund.de",
+      "intent": "Ich will die verschiedenen Dienstleistungen des Bundesamts für Justiz im Bereich Bürgerdienste erkunden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fuehrungszeugnis.bund.de",
+      "intent": "Ich möchte die Datenschutzerklärung und die Erklärung zur Barrierefreiheit der Website lesen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fuehrungszeugnis.bund.de",
+      "intent": "Ich möchte mein Führungszeugnis online beantragen und benötige dafür mein elektronisches Personalausweis oder elektronischem Aufenthaltstitel."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fuehrungszeugnis.bund.de",
+      "intent": "Ich will meine Auskünfte aus dem Gewerbezentralregister online abrufen und benötige dafür meine 6-stellige PIN."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fuehrungszeugnis.bund.de",
+      "intent": "Ich möchte meine persönlichen Daten im Online-Portal des Bundesamts für Justiz überprüfen und ggf. aktualisieren."
+    }
+  ]
+}

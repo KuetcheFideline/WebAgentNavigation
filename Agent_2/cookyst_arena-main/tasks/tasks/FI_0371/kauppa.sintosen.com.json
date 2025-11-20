@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kauppa.sintosen.com",
+      "intent": "Hae 3D-tulostimia ja vertaile niiden ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kauppa.sintosen.com",
+      "intent": "Selaa filamenttien valikoimaa ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kauppa.sintosen.com",
+      "intent": "Lue arvosteluita ja kommentteja eri tuotteista ennen ostopäätöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kauppa.sintosen.com",
+      "intent": "Tarkista tilausseuranta ja seuraa tilausten etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kauppa.sintosen.com",
+      "intent": "Muokkaa profiilia ja päivitä osoitetietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kauppa.sintosen.com",
+      "intent": "Lisää tuotteita suosikkeihin ja seuraa niiden saatavuutta"
+    }
+  ]
+}

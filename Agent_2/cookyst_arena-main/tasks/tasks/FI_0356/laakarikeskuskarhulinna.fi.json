@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laakarikeskuskarhulinna.fi",
+      "intent": "Haluaisin varata ajan lääkärille verkosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laakarikeskuskarhulinna.fi",
+      "intent": "Tiedustelen työterveyshuollon palveluita ja hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laakarikeskuskarhulinna.fi",
+      "intent": "Luen ajankohtaisia uutisia ja artikkeleita lääkärikeskuksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laakarikeskuskarhulinna.fi",
+      "intent": "Tarkastan omaa potilastietojani ja varattuja aikoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laakarikeskuskarhulinna.fi",
+      "intent": "Tee ennakkoilmoittautuminen lääkärin vastaanotolle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laakarikeskuskarhulinna.fi",
+      "intent": "Muutan tai perun aikani etävastaanotolle"
+    }
+  ]
+}

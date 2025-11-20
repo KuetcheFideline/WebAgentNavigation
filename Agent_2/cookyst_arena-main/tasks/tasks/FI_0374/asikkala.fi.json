@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asikkala.fi",
+      "intent": "Hae tietoa Asikkalan kunnan palveluista ja tapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asikkala.fi",
+      "intent": "Selaa Asikkalan kunnan verkkosivuja ja etsi tietoa lapsiperheiden palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asikkala.fi",
+      "intent": "Etsi tietoa Asikkalan kunnan urheilumahdollisuuksista ja liikuntatiloista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asikkala.fi",
+      "intent": "Kirjaudu sisään ja tee ilmoittautuminen Asikkalan kunnan järjestämään liikuntatapahtumaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asikkala.fi",
+      "intent": "Kirjaudu sisään ja tee asiointi Asikkalan kunnan verkkopalvelussa, esimerkiksi tee ilmoittautuminen kunnan järjestämään kurssiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asikkala.fi",
+      "intent": "Kirjaudu sisään ja tee palautetta Asikkalan kunnan palveluista"
+    }
+  ]
+}

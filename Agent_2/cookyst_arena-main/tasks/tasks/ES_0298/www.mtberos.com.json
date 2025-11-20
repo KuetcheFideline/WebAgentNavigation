@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mtberos.com",
+      "intent": "Buscar información sobre bicicletas de montaña para principiantes en el foro de MTBeros"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mtberos.com",
+      "intent": "Explorar las secciones del foro para conocer las diferentes categorías de discusión sobre ciclismo MTB"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mtberos.com",
+      "intent": "Leer las últimas noticias y novedades sobre el mundo del ciclismo de montaña en la página de inicio de MTBeros"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mtberos.com",
+      "intent": "Crear un nuevo tema en el foro para preguntar sobre la mejor bicicleta de montaña para un principiante con un presupuesto limitado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mtberos.com",
+      "intent": "Responder a un tema existente en el foro sobre consejos para mejorar la técnica de descenso en bicicleta de montaña"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mtberos.com",
+      "intent": "Enviar un mensaje privado a un miembro del foro que ha publicado una pregunta sobre la mejor ruta para principiantes en la zona de Ibiza"
+    }
+  ]
+}

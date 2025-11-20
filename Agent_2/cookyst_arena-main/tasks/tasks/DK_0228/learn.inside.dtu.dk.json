@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://learn.inside.dtu.dk",
+      "intent": "Jeg skal finde ud af, hvordan jeg kan aktivere JavaScript i min webbrowser for at få adgang til siden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://learn.inside.dtu.dk",
+      "intent": "Jeg vil læse mere om, hvordan DTU-studerende kan logge ind på siden med deres brugerkonto og adgangskode."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://learn.inside.dtu.dk",
+      "intent": "Jeg skal se, om der er nogen vejledninger eller hjælp til, hvordan man logger ind på siden med MitID."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://learn.inside.dtu.dk",
+      "intent": "Jeg vil ændre min adgangskode, så jeg kan sikre, at min konto er beskyttet med en stærk adgangskode."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://learn.inside.dtu.dk",
+      "intent": "Jeg skal finde ud af, hvordan jeg kan tilføje eller redigere mine personlige oplysninger på min profilside efter login."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://learn.inside.dtu.dk",
+      "intent": "Jeg vil se, om der er nogen mulighed for at tilpasse mine indstillinger for, hvordan jeg modtager beskeder og opdateringer fra siden efter login."
+    }
+  ]
+}

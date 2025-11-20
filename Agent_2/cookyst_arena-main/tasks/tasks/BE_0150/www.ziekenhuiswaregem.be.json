@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ziekenhuiswaregem.be",
+      "intent": "Rechercher les informations sur les services de santé mentale proposés par l'hôpital"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ziekenhuiswaregem.be",
+      "intent": "Consulter les horaires de visites pour les patients hospitalisés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ziekenhuiswaregem.be",
+      "intent": "Trouver des informations sur les spécialités médicales disponibles à l'hôpital"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ziekenhuiswaregem.be",
+      "intent": "Consulter mon dossier médical en ligne pour vérifier mes résultats d'analyses"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ziekenhuiswaregem.be",
+      "intent": "Prendre rendez-vous avec un médecin spécialiste pour une consultation"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ziekenhuiswaregem.be",
+      "intent": "Accéder à mes factures et paiements pour régler mes frais hospitaliers"
+    }
+  ]
+}

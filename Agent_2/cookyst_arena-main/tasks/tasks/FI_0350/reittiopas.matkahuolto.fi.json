@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://reittiopas.matkahuolto.fi",
+      "intent": "Hae reitti Kouvolasta Helsinkiin, koska minun täytyy osallistua konferenssiin siellä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://reittiopas.matkahuolto.fi",
+      "intent": "Vertaile eri reittivaihtoehtoja junalla ja bussilla, jotta voin valita nopeimman ja edullisimman vaihtoehdon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://reittiopas.matkahuolto.fi",
+      "intent": "Tutki reittiopasta, jotta voin suunnitella matkani helposti ja nopeasti"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://reittiopas.matkahuolto.fi",
+      "intent": "Tallenna suosikkireitit, jotta voin nopeasti hakea ne uudelleen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://reittiopas.matkahuolto.fi",
+      "intent": "Ostetaan matkalippu verkkokaupasta, jotta voin säästää aikaa ja rahaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://reittiopas.matkahuolto.fi",
+      "intent": "Muokataan olemassa olevaa matkavarauksta, koska minun täytyy muuttaa matkani aikataulua"
+    }
+  ]
+}

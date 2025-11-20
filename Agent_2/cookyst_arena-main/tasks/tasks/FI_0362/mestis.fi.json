@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mestis.fi",
+      "intent": "Tutkia Mestiksen sarjataulukkoa ja vertailla joukkueiden tilastoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mestis.fi",
+      "intent": "Lukea uutisia ja artikkeleita Mestiksen otteluista ja joukkueista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mestis.fi",
+      "intent": "Etsiä tietoa Hengenpelastajaliigasta ja sen tavoitteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mestis.fi",
+      "intent": "Kirjautua sisään ja muuttaa käyttäjäprofiilia, kuten salasanaa tai sähköpostiosoitetta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mestis.fi",
+      "intent": "Ostaa lippuja Mestiksen otteluihin ja hallinnoida omia lipputilauskoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mestis.fi",
+      "intent": "Osallistua keskusteluihin ja foorumeihin Mestiksen yhteisössä"
+    }
+  ]
+}

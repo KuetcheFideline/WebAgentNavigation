@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kuksa.partio.fi",
+      "intent": "Tutkin sivuston etusivua, jotta voin löytää tietoa PartioID:stä ja sen käytöstä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kuksa.partio.fi",
+      "intent": "Luen käyttöehdot ja rekisteriselosteen, jotta ymmärrän, miten sivusto käsittelee henkilötietojani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kuksa.partio.fi",
+      "intent": "Katselen sivuston eri osioita, kuten Mikä on PartioID?, jotta saan paremman ymmärryksen siitä, mitä sivusto tarjoaa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kuksa.partio.fi",
+      "intent": "Kirjaudun sisään olemassa olevalla PartioID-tunnillani, jotta voin käyttää sivuston tarjoamia palveluita."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kuksa.partio.fi",
+      "intent": "Tarkastan profiiliani ja päivitän tarvittaessa tietojani, jotta ne ovat ajan tasalla ja oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kuksa.partio.fi",
+      "intent": "Selailen sivuston sisältöä, joka on saatavilla vain kirjautuneille käyttäjille, jotta voin hyödyntää kaikki tarjoamat palvelut ja ominaisuudet."
+    }
+  ]
+}

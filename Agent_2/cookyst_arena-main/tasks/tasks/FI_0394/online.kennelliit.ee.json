@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://online.kennelliit.ee",
+      "intent": "Tutustun Eesti Kennelliitin verkkopalveluihin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://online.kennelliit.ee",
+      "intent": "Etsin tietoa koirani rekisteröintiin liittyvistä asiakirjoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://online.kennelliit.ee",
+      "intent": "Selvittelen miten voin ottaa yhteyttä Kennelliitin tukitiimiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://online.kennelliit.ee",
+      "intent": "Kirjaudun sisään ja tarkistan koirani omistajatiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://online.kennelliit.ee",
+      "intent": "Täytän koirani rotu- ja jalostustiedot Kennelliitin järjestelmään"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://online.kennelliit.ee",
+      "intent": "Tarkistan ja päivitän koirani terveystietoja Kennelliitin verkkopalvelussa"
+    }
+  ]
+}

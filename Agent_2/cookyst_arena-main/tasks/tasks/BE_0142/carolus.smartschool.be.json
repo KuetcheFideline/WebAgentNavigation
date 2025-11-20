@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://carolus.smartschool.be",
+      "intent": "Rechercher les informations sur les écoles européennes disponibles sur le site de Sint-Carolus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://carolus.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques proposées par Smartschool pour les élèves de l'École européenne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://carolus.smartschool.be",
+      "intent": "Télécharger l'application Smartschool pour accéder aux fonctionnalités du site en mobilité"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://carolus.smartschool.be",
+      "intent": "Consulter les notes et les bulletins scolaires de mon enfant sur le portail Smartschool"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://carolus.smartschool.be",
+      "intent": "Gérer les autorisations d'accès aux informations de mon enfant pour les autres membres de la famille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://carolus.smartschool.be",
+      "intent": "Communiquer avec les enseignants de mon enfant via le système de messagerie de Smartschool"
+    }
+  ]
+}

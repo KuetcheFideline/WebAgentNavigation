@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aalborg.dk",
+      "intent": "Jeg søger efter information om kommunal- og regionsrådsvalget den 18. november"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aalborg.dk",
+      "intent": "Jeg vil se hvad der sker i mit område og finde arrangementer for min familie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aalborg.dk",
+      "intent": "Jeg søger efter jobmuligheder i kommunen, specielt inden for sundhedssektoren"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aalborg.dk",
+      "intent": "Jeg ønsker at tilføje en begivenhed til kalenderen for at informere mine medborgere"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aalborg.dk",
+      "intent": "Jeg skal ændre mine kontaktoplysninger i mit brugerprofil, så jeg kan modtage relevante opdateringer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aalborg.dk",
+      "intent": "Jeg vil se mine tidligere høringssvar og kommentarer for at følge med i mine sager"
+    }
+  ]
+}

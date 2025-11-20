@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal undersøge, om der er et problem med min internetforbindelse, der forhindrer adgang til applikationen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil prøve at genstarte min computer og se, om det løser problemet med adgang til applikationen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal kontrollere, om der er nogen opdateringer eller fejlmeddelelser på Danske Banks hjemmeside, der kan forklare, hvorfor applikationen ikke er tilgængelig."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal logge ind og kontrollere, om mine kontoudtog er opdateret og om der er nogen problemer med mine betalinger."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil overføre penge fra mit lønkonto til mit sparekonto, så jeg kan sikre, at jeg har nok penge til mine udgifter."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal ændre mine kontoinformationer, så mine kontoudtog kommer til min nye adresse, efter at jeg er flyttet til en ny bolig."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.brico.be",
+      "intent": "Rechercher des outils pour une future rénovation de ma maison en tant que parent solo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.brico.be",
+      "intent": "Consulter les horaires d'ouverture et les coordonnées du magasin le plus proche d'Anvers"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.brico.be",
+      "intent": "Explorer les produits de bricolage pour les enfants afin de les occuper pendant mes weekends de garde"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.brico.be",
+      "intent": "Gérer mes commandes en ligne précédentes pour suivre l'état de mes livraisons"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.brico.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.brico.be",
+      "intent": "Utiliser mon compte pour bénéficier de réductions et de promotions exclusives sur les produits de bricolage"
+    }
+  ]
+}

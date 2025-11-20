@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.natuurenbos.be",
+      "intent": "Rechercher les activités de plein air disponibles dans les parcs naturels de la région de Flandre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.natuurenbos.be",
+      "intent": "Consulter les cartes de randonnée et les itinéraires proposés par l'Agence pour la nature et les forêts"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.natuurenbos.be",
+      "intent": "Découvrir les initiatives de conservation de la nature et les projets de protection de l'environnement en Flandre"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.natuurenbos.be",
+      "intent": "Déposer une demande de subvention pour un projet de conservation de la nature dans ma commune"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.natuurenbos.be",
+      "intent": "Consulter mes demandes de permis de chasse et de pêche en ligne"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.natuurenbos.be",
+      "intent": "Participer à une consultation publique en ligne sur un projet d'aménagement d'un espace naturel"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://stshy.helsinki.fi",
+      "intent": "Etsin tietoa sivuston sisällöstä, koska en tiedä, mitä tällä sivustolla voi tehdä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://stshy.helsinki.fi",
+      "intent": "Yritän löytää yhteystietoja, jotta voisin ottaa yhteyttä sivuston ylläpitäjiin ja kysyä, miksi sivu ei ole käytössä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://stshy.helsinki.fi",
+      "intent": "Selailen sivuston mahdollisia linkkejä tai vaihtoehtoisia sivuja, joilta löytäisin tarvitsemani tiedon."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://stshy.helsinki.fi",
+      "intent": "Tarkastan omia asiakirjojani ja tiedostojaani, joita olen tallentanut sivustolle aiemmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://stshy.helsinki.fi",
+      "intent": "Yritän muuttaa profiiliani tietoja, kuten osoitettani tai puhelinnumeroni, jotta ne olisivat ajan tasalla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://stshy.helsinki.fi",
+      "intent": "Lähetän viestin sivuston hallinnolle tai ylläpitäjille, koska haluan ilmoittaa heille, että sivu ei toimi odotusten mukaan."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.naturbasen.dk",
+      "intent": "Jeg søger efter information om danske arter og vil bruge søgefeltet til at finde artsbeskrivelser"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.naturbasen.dk",
+      "intent": "Jeg vil downloade Naturbasens app til min iPhone for at dele mine naturobservationer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.naturbasen.dk",
+      "intent": "Jeg vil læse om de senest indberettede arter i Naturbasen og se, hvad andre brugere har observeret"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.naturbasen.dk",
+      "intent": "Jeg vil oprette en ny observation og dele den med andre brugere i fællesskabet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.naturbasen.dk",
+      "intent": "Jeg vil se mine tidligere observationer og redigere dem, hvis nødvendigt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.naturbasen.dk",
+      "intent": "Jeg vil søge efter andre brugere med lignende interesser og følge deres observationer"
+    }
+  ]
+}

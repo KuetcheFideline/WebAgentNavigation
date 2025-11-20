@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hekaoy.fi",
+      "intent": "Tutustun Hekan asuntotarjontaan ja etsin sopivaa asuntoa perheelleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hekaoy.fi",
+      "intent": "Luen Hekan vuokrasopimusten yhtenäistämisestä ja sen vaikutuksista asumiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hekaoy.fi",
+      "intent": "Selvittelen, miten voin hakea asunnonvaihtoa Hekan asunnosta toiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hekaoy.fi",
+      "intent": "Tarkistan vuokranmaksutietoni ja päivitän yhteystietoni OmaHeka-asukassivuilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hekaoy.fi",
+      "intent": "Lähetän viestin asiakaspalvelulle OmaHeka-asukassivuilla, koskien asunnon korjaustarpeita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hekaoy.fi",
+      "intent": "Tee kiireetön vikailmoitus OmaHeka-asukassivuilla, koskien asunnon lämmitysjärjestelmää"
+    }
+  ]
+}

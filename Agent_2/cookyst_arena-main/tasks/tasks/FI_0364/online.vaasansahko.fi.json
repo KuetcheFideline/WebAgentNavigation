@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://online.vaasansahko.fi",
+      "intent": "Lue lisää sivuston evästeistä ja tietosuojaselosteesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://online.vaasansahko.fi",
+      "intent": "Etsi sivustolta tietoa sähkön kulutuksesta ja laskujen maksamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://online.vaasansahko.fi",
+      "intent": "Selvitä miten voin muuttaa osoitettani sivuston asiakastietojärjestelmässä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://online.vaasansahko.fi",
+      "intent": "Tarkista sähkölaskuni maksutiedot ja varmista, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://online.vaasansahko.fi",
+      "intent": "Muuta sähkösopparieni ehdot ja tarjoukset, jotta ne vastaavat paremmin tarpeitani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://online.vaasansahko.fi",
+      "intent": "Lähetä viesti asiakaspalveluun, koskien sähkönjakelun katkoksia ja korjaustöistä"
+    }
+  ]
+}

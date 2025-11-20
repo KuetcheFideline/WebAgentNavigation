@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.webmail.elisa.fi",
+      "intent": "Tutkin Elisan sähköpostipalvelun ominaisuuksia ja hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.webmail.elisa.fi",
+      "intent": "Luen ohjeita sähköpostin käyttöön eri laitteilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.webmail.elisa.fi",
+      "intent": "Selvittelen, miten voin tilata Elisan sähköpostipalvelun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.webmail.elisa.fi",
+      "intent": "Tarkastan sähköpostilaatikkoani ja vastaan viesteihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.webmail.elisa.fi",
+      "intent": "Muokkaan sähköpostiosoitteeni asetuksia ja turvatoimia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.webmail.elisa.fi",
+      "intent": "Lähetän uuden sähköpostiviestin ystävälleni"
+    }
+  ]
+}

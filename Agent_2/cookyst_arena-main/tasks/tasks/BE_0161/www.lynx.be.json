@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lynx.be",
+      "intent": "Rechercher les informations sur les frais de transaction pour les investissements en ligne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lynx.be",
+      "intent": "Consulter les cours en temps réel des actions de la bourse de Bruxelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lynx.be",
+      "intent": "Lire les analyses et les actualités sur les marchés financiers"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lynx.be",
+      "intent": "Gérer mon portefeuille d'actions et consulter l'historique de mes transactions"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lynx.be",
+      "intent": "Effectuer un achat d'actions en ligne via la plateforme de trading"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lynx.be",
+      "intent": "Configurer des alertes pour les mouvements de prix des actions que je suis"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://geertnaessens.be",
+      "intent": "Rechercher les prévisions météorologiques pour Bruxelles pour la semaine à venir"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://geertnaessens.be",
+      "intent": "Consulter les actualités météorologiques récentes pour la région de Flandre occidentale"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://geertnaessens.be",
+      "intent": "Explorer les différentes sections du site, notamment les modèles météorologiques et les observations"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://geertnaessens.be",
+      "intent": "Participer à une discussion sur les prévisions météorologiques dans les commentaires d'un article"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://geertnaessens.be",
+      "intent": "Créer une alerte personnalisée pour recevoir des notifications lors de la publication de nouvelles prévisions météorologiques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://geertnaessens.be",
+      "intent": "Recevoir des recommandations de contenu personnalisées en fonction de mes préférences météorologiques"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://signin.tamigo.com",
+      "intent": "Jeg skal finde min brugernavn og adgangskode, så jeg kan logge ind på min konto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://signin.tamigo.com",
+      "intent": "Jeg vil se, om der er nogen vejledning eller hjælp til at glemte adgangskoder på siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://signin.tamigo.com",
+      "intent": "Jeg skal undersøge, om der er andre sprog tilgængelige på siden, da jeg også taler engelsk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://signin.tamigo.com",
+      "intent": "Jeg skal ændre min adgangskode, så den er mere sikker og svær at gætte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://signin.tamigo.com",
+      "intent": "Jeg vil se, om der er nogen nye meddelelser eller opdateringer på min konto, efter jeg har logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://signin.tamigo.com",
+      "intent": "Jeg skal kontrollere, om mine kontoinformationer er opdateret og korrekte, så jeg kan modtage vigtige meddelelser"
+    }
+  ]
+}

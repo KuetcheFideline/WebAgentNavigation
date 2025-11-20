@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://onderwijspersoneel.vlaanderen.be",
+      "intent": "Rechercher les informations sur les formations continues pour les enseignants à Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://onderwijspersoneel.vlaanderen.be",
+      "intent": "Consulter les actualités sur l'éducation en Flandre pour me tenir informé en tant qu'enseignant"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://onderwijspersoneel.vlaanderen.be",
+      "intent": "Trouver les coordonnées du service d'aide pour les enseignants en cas de difficultés avec mon emploi du temps"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://onderwijspersoneel.vlaanderen.be",
+      "intent": "Consulter mon compte personnel pour vérifier mes heures supplémentaires et mes congés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://onderwijspersoneel.vlaanderen.be",
+      "intent": "Mettre à jour mes informations de contact pour être sûr de recevoir les notifications importantes de l'école"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://onderwijspersoneel.vlaanderen.be",
+      "intent": "Recevoir des notifications sur les nouveaux cours de formation pour améliorer mes compétences pédagogiques"
+    }
+  ]
+}

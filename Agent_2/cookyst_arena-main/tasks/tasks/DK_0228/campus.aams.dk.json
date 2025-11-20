@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg søger efter information omkring adgang til kurser som gæst"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg vil downloade mobilappen for at få bedre adgang til campus"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg søger efter vejledning omkring brug af platformen som gæst"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg vil se mine kurser og opgaver for denne uge"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg søger efter at downloade mine studiematerialer for en bestemt kursus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg vil sende en besked til min lærer omkring en opgave"
+    }
+  ]
+}

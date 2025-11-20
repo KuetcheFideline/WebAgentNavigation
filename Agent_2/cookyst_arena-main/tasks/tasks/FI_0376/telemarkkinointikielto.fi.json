@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://telemarkkinointikielto.fi",
+      "intent": "Tarkastan, miten voin estää puhelinmyyntiä ja roskapostia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://telemarkkinointikielto.fi",
+      "intent": "Luen lisää Kilpi-sovelluksesta ja sen ominaisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://telemarkkinointikielto.fi",
+      "intent": "Liityn kannattajajäseneksi lähettämällä sana ESTO tekstiviestinä numeroon 173322"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://telemarkkinointikielto.fi",
+      "intent": "Tarkastan omat tiedot ja asetukset Kilpi-sovelluksessa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://telemarkkinointikielto.fi",
+      "intent": "Luo oma mustalista (Blacklist) ja sallittujen-lista (Whitelist) Kilpi-sovelluksessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://telemarkkinointikielto.fi",
+      "intent": "Ilmiannan spämmääjät ja huijaajat Kilpi-sovelluksessa"
+    }
+  ]
+}

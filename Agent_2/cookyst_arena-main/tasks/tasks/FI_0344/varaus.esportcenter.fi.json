@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://varaus.esportcenter.fi",
+      "intent": "Tutkin ryhmäliikuntatuntien aikatauluja ja hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://varaus.esportcenter.fi",
+      "intent": "Selvittelen, miten voin varata paikan mailapelitunnille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://varaus.esportcenter.fi",
+      "intent": "Luen lisää Esport Centerin asiakaspalvelun yhteystiedoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://varaus.esportcenter.fi",
+      "intent": "Varaan paikan ryhmäliikuntatunnille ja maksan sen verkkovarausjärjestelmän kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://varaus.esportcenter.fi",
+      "intent": "Peruutan aiemmin varatun paikan mailapelitunnille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://varaus.esportcenter.fi",
+      "intent": "Tarkastan omaa varaus- ja maksuhistoriaani"
+    }
+  ]
+}

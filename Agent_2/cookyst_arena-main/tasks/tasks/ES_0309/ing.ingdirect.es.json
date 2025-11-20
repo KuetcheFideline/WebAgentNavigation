@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Consultar las ofertas de cuentas de ahorro para personas mayores de 55 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Buscar información sobre los productos de inversión disponibles para personas con bajos ingresos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Explorar las opciones de préstamos personales con tasas de interés bajas para personas en situación de paro"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Verificar el saldo de mi cuenta de ahorro y realizar una transferencia a otra cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Configurar las notificaciones de movimientos en mi cuenta para recibir alertas en mi teléfono móvil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Descargar el extracto de mi cuenta de los últimos 3 meses para revisar mis gastos y ahorros"
+    }
+  ]
+}

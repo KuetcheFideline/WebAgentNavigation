@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.netticket.fi",
+      "intent": "Hae tapahtumia Turussa tänä viikonloppuna"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.netticket.fi",
+      "intent": "Selaa konsertteja ja oopperaa Helsingissä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.netticket.fi",
+      "intent": "Etsi rock-konsertteja Tampereella"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.netticket.fi",
+      "intent": "Tarkista omat liput ja tilaukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.netticket.fi",
+      "intent": "Muokkaa asiakastietoja ja osoitetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.netticket.fi",
+      "intent": "Osta lippuja Solala - Köket på turné -tapahtumaan"
+    }
+  ]
+}

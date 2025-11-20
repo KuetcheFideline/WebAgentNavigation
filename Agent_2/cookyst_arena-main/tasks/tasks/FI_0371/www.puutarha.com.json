@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.puutarha.com",
+      "intent": "Hae sivustolta tietoa kukkien hoitamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.puutarha.com",
+      "intent": "Selaa puutarhatuotteita ja vertaile hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.puutarha.com",
+      "intent": "Lue arvosteluita eri tuotteista ennen ostopäätöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.puutarha.com",
+      "intent": "Tilaa uutiskirje, jotta saan tietoa uusista tuotteista ja tarjouksista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.puutarha.com",
+      "intent": "Lisää tuotteita ostoskoriin ja tee tilaus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.puutarha.com",
+      "intent": "Tarkista tilausten seuranta ja lähetysajat"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger information om medicin til min søvnproblemer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil se instruktionsfilm om, hvordan jeg bruger min inhalator rigtigt"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger nyheder om vægttabsmedicin og hvordan det virker"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil tilføje en ny medicin til min liste over medicin, som jeg tager"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil se mine tidligere ordninger af medicin og læse om deres virkning"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil ændre mine personlige oplysninger og tilføje en ny læge"
+    }
+  ]
+}

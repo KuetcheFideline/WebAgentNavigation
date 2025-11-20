@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dzen.ru",
+      "intent": "Ich möchte nach Nachrichten über die jüngsten Entwicklungen in der Welt suchen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dzen.ru",
+      "intent": "Ich möchte die neuesten Artikel über Technologie und Gadgets lesen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dzen.ru",
+      "intent": "Ich möchte die Wettervorhersage für Tulln und Wien vergleichen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dzen.ru",
+      "intent": "Ich möchte meine Lieblingsartikel und -autoren auf Dzen speichern und teilen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dzen.ru",
+      "intent": "Ich möchte meine persönlichen Einstellungen auf Dzen anpassen, um relevantere Inhalte zu sehen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dzen.ru",
+      "intent": "Ich möchte meine Kommentare und Bewertungen zu Artikeln auf Dzen verwalten"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eurokangas.fi",
+      "intent": "Hae kangasta varten verhoja, joissa on Marimekon kuosia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eurokangas.fi",
+      "intent": "Selaa vaatetuskankaat ja etsi merinovillakankaita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eurokangas.fi",
+      "intent": "Lue lisää verhojen ompelupalvelusta ja sen edistämisestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eurokangas.fi",
+      "intent": "Tilaa kangas ja hyödy verhojen ompelupalvelusta, joka on kaupan päälle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eurokangas.fi",
+      "intent": "Lisää tuote ostoskoriin ja siirry kassalle maksamaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eurokangas.fi",
+      "intent": "Tarkista tilaushistoria ja seuraa tilauksen etenemistä"
+    }
+  ]
+}

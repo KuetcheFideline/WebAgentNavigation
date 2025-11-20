@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.jubii.dk",
+      "intent": "Jeg skal finde vej til min e-mail konto, så jeg kan læse mine breve."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.jubii.dk",
+      "intent": "Jeg vil gerne se, om der er nogen vejledning eller support til min webmail-konto, hvis jeg har problemer med at logge ind."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.jubii.dk",
+      "intent": "Jeg skal klikke på linket 'Få support' for at se, om der er nogen hjælp til min webmail-konto, hvis jeg har glemt min adgangskode."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.jubii.dk",
+      "intent": "Jeg vil gerne se mine nyeste e-mails og slette nogen af dem, som jeg ikke længere har brug for, efter at jeg har logget ind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.jubii.dk",
+      "intent": "Jeg skal skrive en ny e-mail til min ven og dele nogen billeder fra min sidste ferie, efter at jeg har logget ind på min konto."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.jubii.dk",
+      "intent": "Jeg vil gerne ændre mine kontoindstillinger, så jeg får besked, når jeg modtager en ny e-mail, efter at jeg har logget ind på min konto."
+    }
+  ]
+}

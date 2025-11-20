@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bussit.kuopio.fi",
+      "intent": "Tarkastan bussien reitit ja aikataulut Kuopion alueella, jotta voin suunnitella työmatkani UPM:lle helpommin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bussit.kuopio.fi",
+      "intent": "Etsin tietoa bussien lipunhinnasta ja maksutavoista, jotta voin budjetoida työmatkani kustannukset."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bussit.kuopio.fi",
+      "intent": "Selvitan, onko Kuopion bussiliikenteessä mahdollista käyttää matkakorttia, jotta voin helpottaa matkustamistani."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bussit.kuopio.fi",
+      "intent": "Tallennan suosikkireitit ja aikataulut, jotta voin nopeasti tarkastaa ne myöhempinä kerroin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bussit.kuopio.fi",
+      "intent": "Ostan bussilippuja etukäteen, jotta voin varmistaa paikkani bussissa ja säästää aikaa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bussit.kuopio.fi",
+      "intent": "Tarkastan matkustamiseni historiatiedot, jotta voin seurata matkustamiseni ja budjetoida tulevia matkoja."
+    }
+  ]
+}

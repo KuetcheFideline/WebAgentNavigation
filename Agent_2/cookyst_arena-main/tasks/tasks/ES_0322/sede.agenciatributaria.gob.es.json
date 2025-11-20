@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.agenciatributaria.gob.es",
+      "intent": "Consultar la información sobre la campaña de Renta 2024 para saber cuándo debo presentar mi declaración de la renta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.agenciatributaria.gob.es",
+      "intent": "Buscar información sobre los impuestos especiales y medioambientales que debo pagar como pensionista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.agenciatributaria.gob.es",
+      "intent": "Descargar la aplicación móvil de la Agencia Tributaria para realizar mis gestiones de forma más cómoda"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.agenciatributaria.gob.es",
+      "intent": "Presentar mi declaración de la renta de forma electrónica para evitar errores y agilizar el proceso"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.agenciatributaria.gob.es",
+      "intent": "Consultar el estado de mis declaraciones y pagos para asegurarme de que todo esté al día"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.agenciatributaria.gob.es",
+      "intent": "Solicitar una cita con un asesor de la Agencia Tributaria para resolver dudas sobre mis impuestos y declaraciones"
+    }
+  ]
+}

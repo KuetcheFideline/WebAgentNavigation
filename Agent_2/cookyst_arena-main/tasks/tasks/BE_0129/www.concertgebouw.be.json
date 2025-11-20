@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.concertgebouw.be",
+      "intent": "Rechercher les événements de danse pour le mois de décembre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.concertgebouw.be",
+      "intent": "Découvrir les possibilités de location de salles pour un événement personnel"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.concertgebouw.be",
+      "intent": "Explorer les activités éducatives proposées par le Concertgebouw"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.concertgebouw.be",
+      "intent": "Réserver des billets pour le festival de danse de décembre"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.concertgebouw.be",
+      "intent": "Gérer mes abonnements et mes réservations de billets"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.concertgebouw.be",
+      "intent": "Participer à un atelier ou un cours de danse proposé par le Concertgebouw"
+    }
+  ]
+}

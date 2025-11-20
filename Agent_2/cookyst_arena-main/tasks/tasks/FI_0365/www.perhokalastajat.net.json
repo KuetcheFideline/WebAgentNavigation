@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Etsin tietoa perhokalastuksesta ja kalapaikoista Espoon lähialueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Haluan lukea uusimmat viestit ja keskustelut perhokalastuksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Tutkin perhonsidontaa ja etsin vinkkejä perhojen valmistamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Kirjaudun sisään ja osallistun keskusteluun perhokalastuksesta ja jaan omia kokemuksiani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Lisään oman ilmoituksen kalapaikkojen vaihtoehdoista ja etsin muita kalastajia yhteistyöhön"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Seuraan perhokalastuskilpailujen tuloksia ja osallistun keskusteluun kilpailuista"
+    }
+  ]
+}

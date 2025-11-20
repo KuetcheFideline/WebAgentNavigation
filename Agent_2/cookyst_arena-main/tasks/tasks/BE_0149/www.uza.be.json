@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uza.be",
+      "intent": "Rechercher les services de gynécologie et de pédiatrie pour ma famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uza.be",
+      "intent": "Consulter les informations sur les spécialités médicales disponibles à l'UZA"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uza.be",
+      "intent": "Trouver les coordonnées d'un médecin spécialiste pour prendre rendez-vous"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uza.be",
+      "intent": "Accéder à mes dossiers médicaux personnels pour suivre mon historique de soins"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uza.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux et recevoir des rappels"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uza.be",
+      "intent": "Consulter les résultats de mes examens médicaux en ligne"
+    }
+  ]
+}

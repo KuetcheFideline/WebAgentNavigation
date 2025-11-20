@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Tutkin opiskelijoiden rekisteröitymisohjeita Haka-tunnukselle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Etsin tietoa vieraan kirjautumisesta ja sen edellytyksistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Selvittelen miten pääsen käsiksi Laurean Canvas-oppimisympäristöön ilman Haka-tunnusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Tarkastan omia opintotietojani ja kurssisuorituksia Laurean Canvas-järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Lähetän viestin opettajalle kysymykseni kurssin sisällöstä ja suoritustavasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Tallennan ja tulostan omat opintosuoritukset ja todistukset Laurean Canvas-järjestelmästä"
+    }
+  ]
+}

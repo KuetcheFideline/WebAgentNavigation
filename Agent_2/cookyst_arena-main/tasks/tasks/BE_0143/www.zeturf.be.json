@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.zeturf.be",
+      "intent": "Consulter le programme des courses du jour pour voir les prochains départs"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.zeturf.be",
+      "intent": "Rechercher des informations sur les résultats des derniers ZE5Ordre pour mieux comprendre les tendances"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.zeturf.be",
+      "intent": "Explorer la section 'Aide' pour comprendre les règles et les conditions de pari"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.zeturf.be",
+      "intent": "Créditer mon compte pour pouvoir parier sur les courses qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.zeturf.be",
+      "intent": "Consulter mes paris en cours pour suivre l'évolution de mes mises"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.zeturf.be",
+      "intent": "Configurer mes préférences de communication pour recevoir des notifications sur les résultats des courses"
+    }
+  ]
+}

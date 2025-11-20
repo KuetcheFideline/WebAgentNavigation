@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.alppimatkat.fi",
+      "intent": "Tutkin hiihtomatkoja Itävaltaan, erityisesti Bad Gasteiniin ja Saalbachiin, ja vertailen hintoja ja palveluita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.alppimatkat.fi",
+      "intent": "Etsin tietoa pikkujoulumatkoista Ranskaan, etenkin Les Menuiresiin, ja katson mitä aktiviteetteja ja palveluita matkoilla tarjotaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.alppimatkat.fi",
+      "intent": "Selvittelen mitä ryhmämatkoja tarjotaan Alpeille ja miten ryhmävarauksia voi tehdä, sekä tutkin eri kohteiden ja hotellien tarjoamia palveluita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.alppimatkat.fi",
+      "intent": "Varaan hiihtomatkan Bad Gasteiniin ja teen varauksen puolihoitona, sisältäen hissiliput ja majoituksen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.alppimatkat.fi",
+      "intent": "Muokkaan aiemmin tehtyä varaukseeni, vaihdan hotellia Saalbachiin ja päivitän varauksen hintaa ja palveluita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.alppimatkat.fi",
+      "intent": "Tarkastan tililleni varattujen matkojen tilaa, katson laskuja ja vahvistan matkani yksityiskohdat ennen lähtöä"
+    }
+  ]
+}

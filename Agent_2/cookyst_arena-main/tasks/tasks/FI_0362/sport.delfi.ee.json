@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sport.delfi.ee",
+      "intent": "Luen uusimmat jalkapallon uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sport.delfi.ee",
+      "intent": "Etsin tietoa Eestin jalgpallimaajoukkueen tulevista otteluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sport.delfi.ee",
+      "intent": "Selailen urheiluvälineitä ja etsin uusimmat uutiset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sport.delfi.ee",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia jalkapallouutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sport.delfi.ee",
+      "intent": "Luen ja vastaan urheiluaiheisiin keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sport.delfi.ee",
+      "intent": "Tallennan suosikkijalkapallojoukkueeni ja seuraan heidän uusimpia uutisiaan"
+    }
+  ]
+}

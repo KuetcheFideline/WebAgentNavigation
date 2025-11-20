@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://accesoclientes.directseguros.es",
+      "intent": "Buscar información sobre seguros de accidentes personales para jóvenes en la página de Direct Seguros"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://accesoclientes.directseguros.es",
+      "intent": "Explorar las diferentes opciones de seguros de vehículos para motos en la página de Direct Seguros"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://accesoclientes.directseguros.es",
+      "intent": "Leer las preguntas frecuentes sobre seguros de hogar en la página de Direct Seguros para entender mejor las opciones disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://accesoclientes.directseguros.es",
+      "intent": "Consultar el estado de mi póliza de seguro de accidentes personales en el área de clientes de Direct Seguros"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://accesoclientes.directseguros.es",
+      "intent": "Descargar la documentación de mi seguro de vehículo en el área de clientes de Direct Seguros para tenerla a mano"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://accesoclientes.directseguros.es",
+      "intent": "Realizar un pago pendiente de mi seguro de hogar a través del área de clientes de Direct Seguros"
+    }
+  ]
+}

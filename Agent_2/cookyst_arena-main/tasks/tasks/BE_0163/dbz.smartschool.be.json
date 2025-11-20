@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dbz.smartschool.be",
+      "intent": "Rechercher les informations sur les cours disponibles pour les étudiants du Don Boscocollege Zwijnaarde"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dbz.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques mises à disposition par l'établissement pour les enseignants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dbz.smartschool.be",
+      "intent": "Consulter les actualités et les événements à venir organisés par le Don Boscocollege Zwijnaarde"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dbz.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes absences en tant qu'enseignant"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dbz.smartschool.be",
+      "intent": "Gérer mes cours et mes devoirs à attribuer aux élèves en utilisant les outils de Smartschool"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dbz.smartschool.be",
+      "intent": "Consulter et répondre aux messages des élèves et des collègues via la messagerie interne de Smartschool"
+    }
+  ]
+}

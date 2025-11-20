@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lomalista.fi",
+      "intent": "Hae lomakohde, joka sopii eläkeläisen budjettiin ja mieltymyksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lomalista.fi",
+      "intent": "Vertaile eri lomakohteiden hintoja ja palveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lomalista.fi",
+      "intent": "Etsi tietoa lomakohteiden sääolosuhteista ja aktiviteeteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lomalista.fi",
+      "intent": "Tallenna suosikkilomakohde ja seuraa sen hintamuutoksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lomalista.fi",
+      "intent": "Varaa lomamatka ja maksaa se turvallisesti verkkopalvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lomalista.fi",
+      "intent": "Arvostele ja kommentoi käytyjä lomakohteita ja palveluita"
+    }
+  ]
+}

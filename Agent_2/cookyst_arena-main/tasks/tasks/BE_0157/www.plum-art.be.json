@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.plum-art.be",
+      "intent": "Rechercher un matelas pour des nuits reposantes en utilisant le formulaire de recherche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.plum-art.be",
+      "intent": "Explorer les différentes catégories de produits tels que les matelas, sommiers et lits"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.plum-art.be",
+      "intent": "Consulter les promotions et les offres spéciales proposées par le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.plum-art.be",
+      "intent": "Accéder à mon compte client pour consulter mes commandes précédentes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.plum-art.be",
+      "intent": "Utiliser le configurateur de matelas pour personnaliser mon achat en fonction de mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.plum-art.be",
+      "intent": "Gérer mes informations de livraison et de facturation pour une commande en cours"
+    }
+  ]
+}

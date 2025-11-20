@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan logge ind på mit KVUC-konto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil læse mere om, hvordan jeg kan bruge min KVUC-mail som brugernavn til login"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg søger efter vejledning om, hvordan jeg kan få adgang til mine kurser og studiematerialer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil downloade mine studieplaner og kurser for dette semester"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg søger efter at ændre mine kontoinformationer og opdaterer min adgangskode"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mit.kvuc.dk",
+      "intent": "Jeg vil se mine karakterer og eksamensresultater fra mine tidligere kurser"
+    }
+  ]
+}

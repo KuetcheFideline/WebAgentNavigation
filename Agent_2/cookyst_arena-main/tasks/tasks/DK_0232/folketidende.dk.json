@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://folketidende.dk",
+      "intent": "Læse nyheder om valget i Lolland og Falster"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://folketidende.dk",
+      "intent": "Søge efter opskrifter på traditionelle lollandske retter"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://folketidende.dk",
+      "intent": "Læse om lokale begivenheder og arrangementer i kalenderen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://folketidende.dk",
+      "intent": "Logge ind og læse mine gemte artikler i selvbetjeningen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://folketidende.dk",
+      "intent": "Købe abonnement og downloade e-avisen til min tablet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://folketidende.dk",
+      "intent": "Administrere mine abonnementsindstillinger og ændre mit password"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cvrapi.dk",
+      "intent": "Jeg søger at finde information om virksomheder i Danmark via CVR API"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cvrapi.dk",
+      "intent": "Jeg ønsker at se eksempler på, hvordan man kan bruge CVR API til at hente data om danske virksomheder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cvrapi.dk",
+      "intent": "Jeg vil læse om vilkårene for at bruge CVR API og hvordan jeg kan få hjælp, hvis jeg har spørgsmål"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cvrapi.dk",
+      "intent": "Jeg søger at downloade en liste over alle virksomheder i mit område, efter at jeg har logget ind på min konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cvrapi.dk",
+      "intent": "Jeg ønsker at oprette en ny søgning efter virksomheder i bestemte brancher, efter at jeg har logget ind på min konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cvrapi.dk",
+      "intent": "Jeg vil se mine tidligere søgninger og resultater, efter at jeg har logget ind på min konto, for at kunne sammenligne og analysere data"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.ine.gob.es",
+      "intent": "Consultar los trámites disponibles en la Sede Electrónica del INE para saber qué opciones tengo para realizar como ciudadano"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.ine.gob.es",
+      "intent": "Buscar información sobre las elecciones a la Asamblea de Extremadura de 21 de diciembre de 2025 para entender mejor el proceso electoral"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.ine.gob.es",
+      "intent": "Explorar la sección de 'Datos padronales' para ver qué tipo de información se puede consultar y cómo se puede utilizar"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.ine.gob.es",
+      "intent": "Iniciar sesión para consultar mis datos personales en el padrón de residentes en España y verificar que la información sea correcta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.ine.gob.es",
+      "intent": "Solicitar un certificado telemático del IPC después de haber iniciado sesión para obtener la información necesaria para una solicitud de ayuda"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.ine.gob.es",
+      "intent": "Realizar una reclamación a los datos de inscripción en el Censo Electoral después de haber iniciado sesión para asegurarme de que mi información esté actualizada"
+    }
+  ]
+}

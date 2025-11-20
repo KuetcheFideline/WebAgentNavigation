@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dtf.ru",
+      "intent": "Luen haluat tietää uusimmista peleistä ja sarjoista DTF-sivustolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dtf.ru",
+      "intent": "Etsin tietoa siitä, miten voin osallistua DTF-keskusteluihin ilman rekisteröitymistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dtf.ru",
+      "intent": "Haluan tarkastella DTF-sivuston suosittuja aiheita ja löytää uusia kiinnostuksenkohteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dtf.ru",
+      "intent": "Lisään kommentin yhteen DTF-keskusteluihin, jotta voin osallistua yhteisöön"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dtf.ru",
+      "intent": "Seuraan joitakin DTF-käyttäjiä, joiden mielipiteet ja kommentit ovat minulle kiinnostavia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dtf.ru",
+      "intent": "Luo uusi viesti DTF-foorumille, jossa kysyn neuvoa jonkin pelin tai sarjan suhteen"
+    }
+  ]
+}

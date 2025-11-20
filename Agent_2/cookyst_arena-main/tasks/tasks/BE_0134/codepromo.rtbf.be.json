@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://codepromo.rtbf.be",
+      "intent": "Rechercher les dernières actualités sur le site pour rester informé sur l'actualité belge et internationale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://codepromo.rtbf.be",
+      "intent": "Consulter la section 'Sport' pour suivre les résultats et les actualités des Diables Rouges"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://codepromo.rtbf.be",
+      "intent": "Explorer la rubrique 'Culture' pour découvrir les dernières sorties cinéma, les nouveaux albums de musique et les événements culturels à venir"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://codepromo.rtbf.be",
+      "intent": "Personnaliser mon flux d'actualités en sélectionnant les rubriques qui m'intéressent pour ne recevoir que les informations qui me concernent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://codepromo.rtbf.be",
+      "intent": "Participer à un sondage ou une enquête en ligne pour donner mon avis sur un sujet d'actualité et voir les résultats en temps réel"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://codepromo.rtbf.be",
+      "intent": "Gérer mes abonnements aux newsletters et aux alertes pour recevoir des mises à jour régulières sur les sujets qui m'intéressent"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fr.news.yahoo.com",
+      "intent": "Rechercher des actualités sur la situation politique en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fr.news.yahoo.com",
+      "intent": "Lire les dernières nouvelles sur le sport en France"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fr.news.yahoo.com",
+      "intent": "Consulter la météo pour la semaine à venir à Paris"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fr.news.yahoo.com",
+      "intent": "Personnaliser mes préférences de contenu pour recevoir des actualités sur la santé"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fr.news.yahoo.com",
+      "intent": "Gérer mes abonnements à des newsletters sur des sujets d'actualité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fr.news.yahoo.com",
+      "intent": "Participer à un sondage en ligne sur un sujet d'actualité"
+    }
+  ]
+}

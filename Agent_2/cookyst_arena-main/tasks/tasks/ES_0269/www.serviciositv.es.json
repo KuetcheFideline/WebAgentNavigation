@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.serviciositv.es",
+      "intent": "Solicitar una cita para la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.serviciositv.es",
+      "intent": "Consultar los precios y los plazos para realizar la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.serviciositv.es",
+      "intent": "Buscar información sobre los requisitos y la documentación necesaria para la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.serviciositv.es",
+      "intent": "Acceder a mi área de cliente para ver el historial de mis citas y resultados de inspección técnica"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.serviciositv.es",
+      "intent": "Modificar o anular una cita previa para la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.serviciositv.es",
+      "intent": "Imprimir o descargar el informe de inspección técnica de mi vehículo"
+    }
+  ]
+}

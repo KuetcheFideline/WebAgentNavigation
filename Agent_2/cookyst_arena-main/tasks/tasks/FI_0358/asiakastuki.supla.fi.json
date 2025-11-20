@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiakastuki.supla.fi",
+      "intent": "Etsin tietoa Supla+-tilauksen irtisanomisesta, koska haluan lopettaa tilaukseni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiakastuki.supla.fi",
+      "intent": "Olen kiinnostunut Suplan hinnastosta, jotta voin vertailla hintoja muihin palveluihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiakastuki.supla.fi",
+      "intent": "Haluan tietää, miten voin käyttää Supla+-lahjakorttia, jotta voin antaa sen lahjaksi ystävälleni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiakastuki.supla.fi",
+      "intent": "Tarkistan tilaani, jotta voin varmistaa, että kaikki toimii oikein"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiakastuki.supla.fi",
+      "intent": "Muutan salasanani, jotta voin varmistaa turvallisuuden"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiakastuki.supla.fi",
+      "intent": "Olen yhteydessä asiakaspalveluun, koska minulla on ongelmia Supla-sovelluksen kanssa"
+    }
+  ]
+}

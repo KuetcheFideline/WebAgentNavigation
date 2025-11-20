@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ssl.directferries.com",
+      "intent": "Rechercher des billets de ferry pour un voyage entre la Belgique et la Grèce, en fonction de mes préférences de prix et de durée de trajet."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ssl.directferries.com",
+      "intent": "Comparer les prix et les horaires de différents opérateurs de ferry pour un trajet spécifique, afin de choisir l'option la plus avantageuse pour mon prochain voyage."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ssl.directferries.com",
+      "intent": "Consulter les informations sur les différents types de ferry, tels que les ferries à passagers, les ferries cargo et les mini-croisières, pour mieux comprendre les options disponibles pour mon prochain voyage."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ssl.directferries.com",
+      "intent": "Gérer mes réservations de billets de ferry en ligne, en consultant mes réservations passées et en annulant ou en modifiant des réservations si nécessaire."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ssl.directferries.com",
+      "intent": "Accéder à mes informations personnelles et à mon historique de réservations sur le site, pour suivre mes voyages et mes dépenses."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ssl.directferries.com",
+      "intent": "Utiliser les fonctionnalités de personnalisation du site pour recevoir des offres et des promotions ciblées en fonction de mes préférences de voyage et de mes réservations passées."
+    }
+  ]
+}

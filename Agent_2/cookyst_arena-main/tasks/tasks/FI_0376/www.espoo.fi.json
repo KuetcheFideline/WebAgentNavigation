@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.espoo.fi",
+      "intent": "Hae tietoa Espoon kaupungin kulttuuritapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.espoo.fi",
+      "intent": "Etsi tietoa Espoon uimahalleista ja niiden aukioloista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.espoo.fi",
+      "intent": "Selvitä miten osallistua kaupungin päätöksentekoprosessiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.espoo.fi",
+      "intent": "Tee ilmoittautuminen Espoon järjestämään kulttuuritapahtumaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.espoo.fi",
+      "intent": "Anna palautetta kaupungin palveluista ja toiminnasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.espoo.fi",
+      "intent": "Tarkastele omia asiointitietoja ja -historiaa kaupungin sivustolla"
+    }
+  ]
+}

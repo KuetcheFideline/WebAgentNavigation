@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lyrics.fi",
+      "intent": "Hae sanoituksia Reino Helismaan kappaleista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lyrics.fi",
+      "intent": "Selaa uusimmat sanoitukset ja etsi Katri Helenan jouluaiheisia lauluja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lyrics.fi",
+      "intent": "Etsi Olavi Virran laulujen sanoituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lyrics.fi",
+      "intent": "Lisää Arppa - Sama pää kesät talvet sanoitukset suosikkilistalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lyrics.fi",
+      "intent": "Jätä kommentti yaya - Ääriviivoja sanoituksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lyrics.fi",
+      "intent": "Luo uusi lista nimellä 'Suomalaiset klassikot' ja lisää siihen VeePee Lehto - Mauno ylä mattilan sanoitukset"
+    }
+  ]
+}

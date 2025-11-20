@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rouwcentrum-decombele.be",
+      "intent": "Rechercher les informations sur les services de rouwcentrum pour comprendre les options disponibles pour les funérailles de famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rouwcentrum-decombele.be",
+      "intent": "Consulter les rouwberichten pour voir les derniers messages de condoléances et les informations sur les défunts"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rouwcentrum-decombele.be",
+      "intent": "Explorer la section 'Over ons' pour en savoir plus sur l'histoire et les valeurs du rouwcentrum"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rouwcentrum-decombele.be",
+      "intent": "Publier un message de condoléances pour un défunt récent en utilisant mon compte existant"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rouwcentrum-decombele.be",
+      "intent": "Gérer mes abonnements aux notifications de rouwberichten pour rester informé des nouveaux messages"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rouwcentrum-decombele.be",
+      "intent": "Mettre à jour mes informations de contact dans mon compte pour garantir que je reçois les mises à jour importantes du rouwcentrum"
+    }
+  ]
+}

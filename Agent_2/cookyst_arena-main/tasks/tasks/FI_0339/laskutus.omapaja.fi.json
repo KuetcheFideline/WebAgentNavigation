@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laskutus.omapaja.fi",
+      "intent": "Tutkin sivuston käyttöohjeita, jotta voin ymmärtää, miten laskutuspalvelu toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laskutus.omapaja.fi",
+      "intent": "Selailen sivuston usein kysytyt kysymykset -osiota, jotta löytäisin vastauksia yleisiin kysymyksiin laskutuksesta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laskutus.omapaja.fi",
+      "intent": "Katselen sivuston palkkalaskuri-työkalua, jotta voin laskea mahdollisen palkkani ja ymmärtää laskutuksen prosessia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laskutus.omapaja.fi",
+      "intent": "Kirjaudun sisään ja tarkastan laskutuspalvelun omat tiedot, jotta voin hallita omaa laskutustani ja tarkastella aiempia laskuja."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laskutus.omapaja.fi",
+      "intent": "Lähetän viestin asiakaspalvelulle, koska minulla on kysymyksiä laskutuksesta ja tarvitsen apua sen käyttämiseen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laskutus.omapaja.fi",
+      "intent": "Muokkaan profiiliani ja päivitän salasanani, jotta voin varmistaa, että tietoni ovat ajan tasalla ja turvalliset."
+    }
+  ]
+}

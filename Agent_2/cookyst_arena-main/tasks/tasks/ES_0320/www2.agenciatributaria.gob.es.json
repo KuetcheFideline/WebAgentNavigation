@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www2.agenciatributaria.gob.es",
+      "intent": "Buscar información sobre cómo solucionar el error 403 para poder acceder a mis declaraciones de impuestos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www2.agenciatributaria.gob.es",
+      "intent": "Descargar el formulario de declaración de la renta para poder hacerlo de manera manual y evitar problemas técnicos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www2.agenciatributaria.gob.es",
+      "intent": "Consultar las fechas límite para la presentación de declaraciones de impuestos y evitar multas por retraso"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www2.agenciatributaria.gob.es",
+      "intent": "Verificar el estado de mi declaración de la renta del año pasado y comprobar si hay algún problema pendiente de resolver"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www2.agenciatributaria.gob.es",
+      "intent": "Descargar una copia de mi declaración de la renta del año en curso para tenerla en mis archivos personales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www2.agenciatributaria.gob.es",
+      "intent": "Solicitar una cita para recibir asistencia personalizada en la oficina de la Agencia Tributaria más cercana a mi domicilio"
+    }
+  ]
+}

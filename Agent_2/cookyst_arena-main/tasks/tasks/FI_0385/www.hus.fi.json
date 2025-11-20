@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Hae sivustolta tietoa mielenterveyden hoitopalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Selvitä, miten pääsen yhteyteen Psykiatriakeskuksen asiantuntijoihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Lue lisää HUSin tarjoamista kuntoutuspalveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Kirjaudu Omapolkuun ja tarkista omat hoitokertani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Varaa aika laboratorion tutkimukseen kirjautumalla Maisaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Täytä potilaan oikeudet ja vastuu -lomake Omapolun kautta"
+    }
+  ]
+}

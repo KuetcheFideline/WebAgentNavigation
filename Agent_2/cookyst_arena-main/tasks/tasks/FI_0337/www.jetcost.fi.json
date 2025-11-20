@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jetcost.fi",
+      "intent": "Hae halvat lennot Rovaniemeltä Helsinkiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jetcost.fi",
+      "intent": "Vertaa eri lentoyhtiöiden hintoja Helsingin ja Oulun välillä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jetcost.fi",
+      "intent": "Etsi tietoa lentojen aikatauluista ja hinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jetcost.fi",
+      "intent": "Tallenna suosikkireitit ja lentoyhtiöt profiiliini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jetcost.fi",
+      "intent": "Luo matkasuunnitelma ja varaa lentoja ja hotelleja yhdellä kertaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jetcost.fi",
+      "intent": "Seuraa lentohintojen muutoksia ja saa ilmoituksia, kun haluamani reitti on edullinen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kaernten.orf.at",
+      "intent": "Ich möchte die aktuellen Nachrichten aus Kärnten lesen, um mich über die lokalen Ereignisse zu informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kaernten.orf.at",
+      "intent": "Ich will die Sendungen von Radio Kärnten anhören, um mich über die regionalen Themen zu informieren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kaernten.orf.at",
+      "intent": "Ich möchte die Wettervorhersage für Kärnten einsehen, um meine täglichen Pläne zu machen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kaernten.orf.at",
+      "intent": "Ich will mich anmelden, um meine persönlichen Einstellungen für die Nachrichten zu speichern und benutzerdefinierte Inhalte zu erhalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kaernten.orf.at",
+      "intent": "Ich möchte als angemeldeter Benutzer Kommentare zu Artikeln abgeben, um an der Diskussion über regionale Themen teilzunehmen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kaernten.orf.at",
+      "intent": "Ich will meine Benachrichtigungen einstellen, um wichtige Nachrichten und Updates aus Kärnten per E-Mail zu erhalten."
+    }
+  ]
+}

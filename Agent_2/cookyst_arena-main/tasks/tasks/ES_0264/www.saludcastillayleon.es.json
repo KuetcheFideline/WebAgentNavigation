@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saludcastillayleon.es",
+      "intent": "Buscar información sobre la vacunación contra la gripe y el COVID-19 en Castilla y León"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saludcastillayleon.es",
+      "intent": "Explorar la sección de 'Ciudadanos' para encontrar recursos y servicios de salud disponibles para los ciudadanos de Castilla y León"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saludcastillayleon.es",
+      "intent": "Leer sobre las últimas noticias y actualizaciones en la página de 'Noticias' de la Consejería de Sanidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saludcastillayleon.es",
+      "intent": "Acceder a la 'Carpeta del Paciente' para ver mis historiales médicos y resultados de análisis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saludcastillayleon.es",
+      "intent": "Solicitar una cita previa con mi centro de salud a través de la plataforma de 'Cita Previa'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saludcastillayleon.es",
+      "intent": "Consultar mi 'Historia Clínica Digital' para ver mis antecedentes médicos y tratamientos actuales"
+    }
+  ]
+}

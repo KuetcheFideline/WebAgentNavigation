@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vantaansanomat.fi",
+      "intent": "Luen uusimmat uutiset Vantaasta, jotta tiedän, mitä kaupungissa tapahtuu."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vantaansanomat.fi",
+      "intent": "Etsin tietoa Vantaan ratikasta, koska olen kiinnostunut sen etenemisestä ja miten se vaikuttaa kaupunkiin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vantaansanomat.fi",
+      "intent": "Selvitan, miten Vantaan kaupungin talousarvio vaikuttaa asukkaisiin, jotta ymmärrän paremmin kaupungin toimintaa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vantaansanomat.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisia, jotta voin osallistua keskusteluun ja jakaa mielipidettäni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vantaansanomat.fi",
+      "intent": "Luen ja vastaan uusimpiin mielipidekirjoituksiin, jotta voin osallistua aktiivisesti kaupungin asioihin liittyvään keskusteluun."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vantaansanomat.fi",
+      "intent": "Tilaa uutiskirje, jotta saan säännöllisesti tietoa Vantaan tapahtumista ja uutisista."
+    }
+  ]
+}

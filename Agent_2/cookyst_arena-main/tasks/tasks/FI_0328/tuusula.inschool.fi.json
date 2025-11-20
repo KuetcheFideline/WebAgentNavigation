@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Luen Wilman etusivun ja tutkin, mitä tietoa sieltä löytyy ilman kirjautumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Selvittelen, miten Wilma toimii ja mitä ominaisuuksia siinä on opiskelijan näkökulmasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa salasanani, jos unohdan sen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä kursseja minulla on valittuna ja mitä suorituksia minulla on"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Luen ja vastaan opettajien viesteihin ja kysymyksiin, jotka minulle on lähetetty Wilman kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Tarkistan poissaolojen tilanteeni ja viestin opettajalle, jos minulla on poissaoloja"
+    }
+  ]
+}

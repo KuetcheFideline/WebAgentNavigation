@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wauva.com",
+      "intent": "Selvitän, mitä tällä sivustolla on tarjolla ja etsin tietoa uusimmista peleistä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wauva.com",
+      "intent": "Katselen sivuston etusivun uutisia ja etsin mielenkiintoisia artikkeleita pelaamisesta ja pelien kehittämisestä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wauva.com",
+      "intent": "Etsin sivustolta tietoa siitä, miten voisin osallistua kilpapelaamiseen ja mitä turnauksia on tulossa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wauva.com",
+      "intent": "Kirjaudun sisään ja tarkistan omat pelitilastoni, sekä vertailen suorituksiani muiden pelaajien kanssa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wauva.com",
+      "intent": "Osallistun keskustelufoorumeille ja keskustelen muiden pelaajien kanssa uusimmista peleistä ja strategioista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wauva.com",
+      "intent": "Tarkistan ja päivitän profiiliani, sekä muokkaan pelaajaprofiilia ja asetuksia, jotta ne vastaavat paremmin minun pelaamistyyliäni."
+    }
+  ]
+}

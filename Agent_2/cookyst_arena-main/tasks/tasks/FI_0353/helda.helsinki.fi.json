@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://helda.helsinki.fi",
+      "intent": "Hae opinnäytteitä aiheesta luonto ja ympäristö"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://helda.helsinki.fi",
+      "intent": "Selaa Helsingin yliopiston tutkimusjulkaisuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://helda.helsinki.fi",
+      "intent": "Etsi tietoa opettajien burnoutista ja sen ehkäisystä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://helda.helsinki.fi",
+      "intent": "Lataa omia opinnäytteitä ja tutkimuksia Helsingin yliopiston julkaisuarkistoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://helda.helsinki.fi",
+      "intent": "Tallenna suosikkeiksi aiheita ja tutkimuksia, joita haluan seurata"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://helda.helsinki.fi",
+      "intent": "Luo uusi kokoelma opinnäytteistä ja tutkimuksista, joita olen itse tehnyt"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lbcleerplatform.be",
+      "intent": "Rechercher des informations sur les cours disponibles pour adultes sur le site www.lbconderwijs.be"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lbcleerplatform.be",
+      "intent": "Explorer la section 'Algemeen' pour découvrir les ressources disponibles sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lbcleerplatform.be",
+      "intent": "Visiter la page 'Chamilo onder de motorkap' pour en savoir plus sur les fonctionnalités du site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lbcleerplatform.be",
+      "intent": "Se connecter à son compte pour accéder aux cours en ligne et aux ressources pédagogiques"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lbcleerplatform.be",
+      "intent": "Consulter les annonces et les actualités sur le tableau de bord de son compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lbcleerplatform.be",
+      "intent": "Gérer ses paramètres de compte et ses préférences de notification"
+    }
+  ]
+}

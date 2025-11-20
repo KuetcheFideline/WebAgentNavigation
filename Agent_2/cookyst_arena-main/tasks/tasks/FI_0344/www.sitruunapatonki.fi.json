@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.sitruunapatonki.fi",
+      "intent": "Selatakseni uusimmat viestit Patonkikeskustelu-alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.sitruunapatonki.fi",
+      "intent": "Etsimään tietoa Tekniikka-aiheesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.sitruunapatonki.fi",
+      "intent": "Katsomaan mitä uutta on tapahtunut Tapahtumat-osiassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.sitruunapatonki.fi",
+      "intent": "Vastamaan jonkin viestiin Patonkikeskustelu-alueella"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.sitruunapatonki.fi",
+      "intent": "Lähetän uuden viestin Yleistä-aiheeseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.sitruunapatonki.fi",
+      "intent": "Muokkaan profiiliaani ja tarkistan viimeisimmät viestini"
+    }
+  ]
+}

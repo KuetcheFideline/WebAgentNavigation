@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eskytravel.be",
+      "intent": "Rechercher des vols pour un week-end à Barcelone"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eskytravel.be",
+      "intent": "Comparer les prix des hôtels à Madrid pour un séjour de 3 nuits"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eskytravel.be",
+      "intent": "Consulter les offres spéciales pour des citytrips en Europe"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eskytravel.be",
+      "intent": "Gérer mes réservations de vols et d'hôtels pour mon prochain voyage"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eskytravel.be",
+      "intent": "Modifier mes informations de compte pour recevoir des offres personnalisées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eskytravel.be",
+      "intent": "Consulter l'historique de mes réservations pour planifier mon prochain voyage"
+    }
+  ]
+}

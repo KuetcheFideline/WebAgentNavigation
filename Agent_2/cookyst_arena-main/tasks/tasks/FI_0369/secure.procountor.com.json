@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://secure.procountor.com",
+      "intent": "Tutustun Procountorin palveluihin ja etsin tietoa yritykseni taloushallinnosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://secure.procountor.com",
+      "intent": "Selvittelen miten voin hyödyntää Procountorin työkaluja yritykseni laskutuksessa ja kirjanpidossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://secure.procountor.com",
+      "intent": "Etsin tietoa Procountorin turvallisuudesta ja miten se suojelee yritykseni tietoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://secure.procountor.com",
+      "intent": "Tarkastan yritykseni taloushallinnon tilaa ja tarkistan laskutuksen ja kirjanpidon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://secure.procountor.com",
+      "intent": "Luo uusi lasku asiakkaalle ja seuraan laskun tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://secure.procountor.com",
+      "intent": "Päivitän yritykseni tietoja ja asetuksia Procountorin järjestelmässä"
+    }
+  ]
+}

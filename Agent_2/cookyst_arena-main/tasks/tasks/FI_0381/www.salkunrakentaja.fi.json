@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Luen uusimmat artikkelit sivustolla, erityisesti kiinnostan osakkeista ja sijoittamisesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Etsin tietoa Wärtsilä-yhtiöstä, koska olen itse työskennellyt siellä ja haluan tietää, mitä sivusto sanoo heistä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Selvitan, miten voin tilata uutiskirjeen, jotta saan säännöllisesti tietoa sijoittamisesta ja taloudesta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Kirjaudun sisään ja tarkastan käyttäjäprofiilini, jotta voin muokata asetuksia ja seurata omia sijoituksiani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Luen keskustelupalstaa ja osallistun keskusteluun aiheesta, joka kiinnostaa minua, kuten esimerkiksi asuntosijoittamisesta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Tarkastan sivuston analyysit ja ennusteet osakkeista ja rahastoista, jotta voin tehdä informoidun päätöksen omista sijoituksistani."
+    }
+  ]
+}

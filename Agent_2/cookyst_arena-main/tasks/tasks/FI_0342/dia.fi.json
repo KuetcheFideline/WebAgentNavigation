@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dia.fi",
+      "intent": "Hae tietoa diplomi-insinööriksi opiskelusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dia.fi",
+      "intent": "Selvitä miten haen arkkitehdiksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dia.fi",
+      "intent": "Lue lisää DIA-valintayhteistyön koulutuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dia.fi",
+      "intent": "Tarkista omat hakutulokset Oma Opintopolku -palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dia.fi",
+      "intent": "Muokkaa hakemukseni tietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dia.fi",
+      "intent": "Varmista, että olen kirjautunut sisään ja voi tarkistaa henkilökohtaiset tiedot"
+    }
+  ]
+}

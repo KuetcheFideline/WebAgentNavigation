@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://npinvestor.dk",
+      "intent": "Læs om de seneste nyheder om aktiekurser og fødevarer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://npinvestor.dk",
+      "intent": "Søg efter information om Bitcoin og dens prisudvikling"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://npinvestor.dk",
+      "intent": "Se hvilke nye artikler der er tilføjet under kategorien 'Nyheder'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://npinvestor.dk",
+      "intent": "Del en artikel om SoftBank og deres salg af Nvidia-aktier på min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://npinvestor.dk",
+      "intent": "Kommenter på en artikel om fødevarer og inflation i Danmark"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://npinvestor.dk",
+      "intent": "Gem en artikel om Danske kort og betalingskortforbrug til min personlige samling"
+    }
+  ]
+}

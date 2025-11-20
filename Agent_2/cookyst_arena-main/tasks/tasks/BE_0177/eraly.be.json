@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eraly.be",
+      "intent": "Rechercher des informations sur les services d'urnes funéraires pour comprendre les options disponibles pour mon propre enterrement"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eraly.be",
+      "intent": "Consulter les tarifs et les différents forfaits proposés par Eraly pour planifier mon enterrement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eraly.be",
+      "intent": "Lire les témoignages de clients satisfaits pour évaluer la qualité des services d'Eraly"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eraly.be",
+      "intent": "Gérer mes préférences de notification pour recevoir des mises à jour sur les services funéraires"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eraly.be",
+      "intent": "Accéder à mon espace personnel pour visualiser mes informations de compte et mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eraly.be",
+      "intent": "Mettre à jour mes informations de contact pour garantir que je reçois les informations les plus récentes sur les services d'Eraly"
+    }
+  ]
+}

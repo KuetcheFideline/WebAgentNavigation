@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kerava.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa huoltajien Wilma-tunnuksien luomisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kerava.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja yleisiä kysymyksiä ja vastauksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kerava.inschool.fi",
+      "intent": "Etsin tietoa oppilaiden poissaoloista ja niiden seuraamisesta Wilman kautta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kerava.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan poikani tai tyttäreni poissaolot ja arvioinnit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kerava.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta poikani tai tyttäreni opiskeluista ja edistymisestä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kerava.inschool.fi",
+      "intent": "Tarkastan Wilman kautta koulun tiedotteita ja ajankohtaisia ilmoituksia"
+    }
+  ]
+}

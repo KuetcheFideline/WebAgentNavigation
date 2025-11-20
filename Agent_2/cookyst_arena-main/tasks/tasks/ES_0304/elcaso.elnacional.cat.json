@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elcaso.elnacional.cat",
+      "intent": "Buscar noticias sobre la fuga de Quatre Camins en la página de El Caso"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elcaso.elnacional.cat",
+      "intent": "Leer la noticia sobre el incendio en el assentament de barraques de Barcelona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elcaso.elnacional.cat",
+      "intent": "Explorar la sección de 'Successos' para ver las últimas noticias de Barcelona"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elcaso.elnacional.cat",
+      "intent": "Comentar en la noticia sobre la fuga de Quatre Camins como usuario registrado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elcaso.elnacional.cat",
+      "intent": "Guardar la noticia sobre el incendio en el assentament de barraques de Barcelona en mis favoritos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elcaso.elnacional.cat",
+      "intent": "Enviar la noticia sobre la fuga de Quatre Camins a un amigo a través de la función de compartir de la página"
+    }
+  ]
+}

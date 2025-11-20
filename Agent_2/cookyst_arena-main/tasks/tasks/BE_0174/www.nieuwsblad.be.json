@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Je veux lire les dernières nouvelles sur le site Nieuwsblad pour rester informée sur l'actualité belge."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Je souhaite consulter la section 'Mijn gemeente' pour avoir des informations sur les événements locaux qui pourraient m'intéresser."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Je veux explorer la rubrique 'Puzzels' pour trouver des jeux et des divertissements en ligne qui pourraient me plaire."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Je veux accéder à mon compte pour gérer mes abonnements et mes préférences de contenu sur le site Nieuwsblad."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Je souhaite commenter un article sur le site pour partager mes opinions et engager une discussion avec d'autres lecteurs."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nieuwsblad.be",
+      "intent": "Je veux consulter mes paramètres de compte pour mettre à jour mes informations personnelles et mes préférences de notification."
+    }
+  ]
+}

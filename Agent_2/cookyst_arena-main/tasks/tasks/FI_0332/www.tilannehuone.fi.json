@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tilannehuone.fi",
+      "intent": "Tarkastella uusimmat hälytykset ja etsiä tietoa tieliikenneonnettomuuksista lähialueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tilannehuone.fi",
+      "intent": "Selata Hälytyskarttaa ja tarkastella eri alueiden hälytystilanteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tilannehuone.fi",
+      "intent": "Lukea uutisia ja artikkeleita eri onnettomuustilanteista ja pelastustoimen toimista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tilannehuone.fi",
+      "intent": "Kirjautua sisään ja tarkastella omia hälytysilmoituksia ja asetuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tilannehuone.fi",
+      "intent": "Lähettää vinkkejä ja ilmoituksia hälytystilanteista ja osallistua keskusteluihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tilannehuone.fi",
+      "intent": "Muokata profiilia ja asetuksia, kuten hälytysrajoja ja ilmoitusasetuksia"
+    }
+  ]
+}

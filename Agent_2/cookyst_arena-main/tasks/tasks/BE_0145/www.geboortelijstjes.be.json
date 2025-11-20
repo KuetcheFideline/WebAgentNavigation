@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.geboortelijstjes.be",
+      "intent": "Je veux créer une liste de naissance pour mon futur bébé, je vais donc cliquer sur le bouton 'Geboortelijst inkijken' pour commencer."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.geboortelijstjes.be",
+      "intent": "J'ai entendu parler de Paradisio, je vais donc cliquer sur le lien 'Waarom je geboortelijst leggen bij Paradisio?' pour en savoir plus sur les avantages de créer une liste de naissance chez eux."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.geboortelijstjes.be",
+      "intent": "Je suis curieux de savoir comment fonctionne le processus de création d'une liste de naissance en ligne, je vais donc cliquer sur le lien 'Hoe leg je een (online) geboortelijst aan?' pour avoir plus d'informations."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.geboortelijstjes.be",
+      "intent": "J'ai déjà créé une liste de naissance chez Paradisio, je vais donc cliquer sur le bouton 'Geboortelijst beheren' pour gérer ma liste et ajouter ou supprimer des articles."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.geboortelijstjes.be",
+      "intent": "Je veux partager ma liste de naissance avec mes proches, je vais donc cliquer sur le lien 'Beheer je geboortelijst' pour avoir accès aux options de partage et de gestion de ma liste."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.geboortelijstjes.be",
+      "intent": "J'ai des questions sur ma liste de naissance, je vais donc cliquer sur le lien 'Algemene voorwaarden' pour consulter les conditions générales et peut-être trouver des réponses à mes questions."
+    }
+  ]
+}

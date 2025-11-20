@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.toimitilat.fi",
+      "intent": "Etsin vapaata toimitilaa Vaasassa, jossa voisin perustaa oman korikorjausliikkeeni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.toimitilat.fi",
+      "intent": "Haluan tietää, mitä ominaisuuksia toimitiloissa on, esimerkiksi hissi, lastauslaituri, katutasossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.toimitilat.fi",
+      "intent": "Tutkin, miten toimitilavahti toimii ja voinko sen avulla löytää sopivan toimitilan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.toimitilat.fi",
+      "intent": "Lisään toimitilavahtiin oman haun, jotta saan sähköpostiin tietoa uusista ja päivitetyistä kohteista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.toimitilat.fi",
+      "intent": "Jätän ilmoituksen toimitilasta, joka kiinnostaa minua, ja odotan yhteydenottoa ilmoittajalta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.toimitilat.fi",
+      "intent": "Tallennan suosikkeihini toimitiloja, joita olen kiinnostunut ja haluan seurata niiden saatavuutta"
+    }
+  ]
+}

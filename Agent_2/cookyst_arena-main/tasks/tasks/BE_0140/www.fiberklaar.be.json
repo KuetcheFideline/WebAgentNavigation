@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fiberklaar.be",
+      "intent": "Vérifier si mon adresse est déjà couverte par le réseau Fiberklaar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fiberklaar.be",
+      "intent": "Consulter les informations sur les travaux de déploiement du réseau Fiberklaar dans ma région"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fiberklaar.be",
+      "intent": "Rechercher les offres de produits Fiber disponibles pour les particuliers et les entreprises"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fiberklaar.be",
+      "intent": "Gérer mon abonnement Fiberklaar et consulter mes factures en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fiberklaar.be",
+      "intent": "Configurer mes paramètres de compte et mes préférences de notification pour les mises à jour du réseau"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fiberklaar.be",
+      "intent": "Suivre l'état d'avancement de l'installation de mon réseau Fiber et planifier un rendez-vous avec un technicien"
+    }
+  ]
+}

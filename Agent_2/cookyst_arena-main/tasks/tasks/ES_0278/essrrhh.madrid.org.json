@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://essrrhh.madrid.org",
+      "intent": "Buscar información sobre los servicios de atención al empleado en el portal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://essrrhh.madrid.org",
+      "intent": "Explorar las diferentes opciones de identificación para acceder al portal del empleado"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://essrrhh.madrid.org",
+      "intent": "Leer las políticas de privacidad y seguridad del portal del empleado"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://essrrhh.madrid.org",
+      "intent": "Consultar mi historial de pagas y nóminas en el portal del empleado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://essrrhh.madrid.org",
+      "intent": "Solicitar un cambio de datos personales en mi perfil del portal del empleado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://essrrhh.madrid.org",
+      "intent": "Descargar mi certificado de empleo y antigüedad en el portal del empleado"
+    }
+  ]
+}

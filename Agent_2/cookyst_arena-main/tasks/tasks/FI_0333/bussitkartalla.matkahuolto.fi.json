@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bussitkartalla.matkahuolto.fi",
+      "intent": "Hae bussireitit Vaasasta Helsinkiin, koska minun täytyy matkustaa sinne tapaamaan ystäviäni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bussitkartalla.matkahuolto.fi",
+      "intent": "Selvitä, mitkä bussit kulkevat lähimmästä pysäkistä, jotta voin suunnitella matkani helposti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bussitkartalla.matkahuolto.fi",
+      "intent": "Vertaile eri bussiyhtiöiden hintoja ja aikatauluja, jotta löydän edullisimman ja nopeimman vaihtoehdon"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bussitkartalla.matkahuolto.fi",
+      "intent": "Tallenna suosikkireitit, jotta voin nopeasti hakea ne myöhempänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bussitkartalla.matkahuolto.fi",
+      "intent": "Osta bussilippu etukäteen, jotta varmistan paikkani ja vältän jonot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bussitkartalla.matkahuolto.fi",
+      "intent": "Tarkista matkustushistoriani, jotta voin seurata, mitä reittejä olen käyttänyt aiemmin"
+    }
+  ]
+}

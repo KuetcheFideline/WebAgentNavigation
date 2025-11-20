@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vilaweb.cat",
+      "intent": "Buscar noticias sobre la situación política actual en Cataluña para estar informado sobre los últimos acontecimientos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vilaweb.cat",
+      "intent": "Explorar la sección de opinión para leer artículos de análisis y comentarios sobre temas de actualidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vilaweb.cat",
+      "intent": "Descargar el carnet de subscriptor para acceder a descuentos y sorteos exclusivos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vilaweb.cat",
+      "intent": "Acceder a la sección de subscriptores para gestionar mi cuenta y ver los beneficios exclusivos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vilaweb.cat",
+      "intent": "Participar en la tertúlia proscrita para discutir sobre temas de actualidad con otros subscriptores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vilaweb.cat",
+      "intent": "Realizar una donación única a favor de VilaWeb para apoyar la labor del medio de comunicación"
+    }
+  ]
+}

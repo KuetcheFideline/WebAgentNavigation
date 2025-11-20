@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tickets.teatroreal.es",
+      "intent": "Comprar entradas para el próximo concierto de música clásica en el Teatro Real"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tickets.teatroreal.es",
+      "intent": "Buscar información sobre los próximos eventos y espectáculos en el Teatro Real"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tickets.teatroreal.es",
+      "intent": "Explorar la sección de noticias y blogs del Teatro Real para estar al tanto de las últimas novedades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tickets.teatroreal.es",
+      "intent": "Acceder a mi cuenta para ver el historial de compras de entradas y gestionar mis reservas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tickets.teatroreal.es",
+      "intent": "Configurar mis preferencias de asiento y recibir notificaciones sobre eventos y ofertas especiales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tickets.teatroreal.es",
+      "intent": "Realizar una donación al Teatro Real a través de mi cuenta para apoyar a la institución"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hetacv.be",
+      "intent": "Rechercher des informations sur les droits des travailleurs en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hetacv.be",
+      "intent": "Consulter les actualités sur le site de l'ACV pour me tenir informé sur les dernières nouvelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hetacv.be",
+      "intent": "Explorer les services proposés par l'ACV pour les travailleurs et les retraités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hetacv.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes informations de membre et mes avantages"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hetacv.be",
+      "intent": "Gérer mes paramètres de compte et mes préférences pour personnaliser mon expérience sur le site"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hetacv.be",
+      "intent": "Contacter le service client de l'ACV pour obtenir de l'aide et des conseils sur mes droits et mes avantages"
+    }
+  ]
+}

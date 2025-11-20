@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.outdooractive.fi",
+      "intent": "Hae retkeilyreittejä läheltä Vaasaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.outdooractive.fi",
+      "intent": "Selaa talviaktiviteetteja, kuten lumikenkäilyä ja talviretkeilyä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.outdooractive.fi",
+      "intent": "Etsi opaskirjoja ja karttoja retkeilyyn ja vaellukseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.outdooractive.fi",
+      "intent": "Luo uusi reittisuunnitelma ja tallenna se omiin suosikkeihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.outdooractive.fi",
+      "intent": "Liity ryhmään, joka keskittyy retkeilyyn ja vaellukseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.outdooractive.fi",
+      "intent": "Jaa omat retkeilykokemukset ja kuvat yhteisössä"
+    }
+  ]
+}

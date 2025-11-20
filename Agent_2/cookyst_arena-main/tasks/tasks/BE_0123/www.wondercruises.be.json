@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wondercruises.be",
+      "intent": "Rechercher des croisières en Méditerranée pour un voyage en solo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wondercruises.be",
+      "intent": "Comparer les prix des croisières MSC Musica et MSC World Europa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wondercruises.be",
+      "intent": "Lire les avis des clients sur les croisières familiales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wondercruises.be",
+      "intent": "Réserver une croisière pour deux personnes avec cabine vue mer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wondercruises.be",
+      "intent": "Gérer mes réservations de croisières et imprimer mes documents de voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wondercruises.be",
+      "intent": "Ajouter une assurance annulation à ma réservation de croisière"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lamoncloa.gob.es",
+      "intent": "Buscar información sobre las últimas noticias del presidente del Gobierno en la página de inicio de La Moncloa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lamoncloa.gob.es",
+      "intent": "Explorar la sección de 'Prensa' para leer las últimas noticias de los departamentos ministeriales del Gobierno de España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lamoncloa.gob.es",
+      "intent": "Visitar la sección de 'España' para conocer más sobre la Constitución y la organización del país"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lamoncloa.gob.es",
+      "intent": "Acceder a la sección de 'Escribir al presidente' para enviar un mensaje al presidente del Gobierno después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lamoncloa.gob.es",
+      "intent": "Suscribirse al boletín de noticias de La Moncloa después de iniciar sesión para recibir actualizaciones sobre las últimas informaciones del Gobierno"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lamoncloa.gob.es",
+      "intent": "Configurar las preferencias de idioma y notificaciones después de iniciar sesión para personalizar la experiencia en el sitio web de La Moncloa"
+    }
+  ]
+}

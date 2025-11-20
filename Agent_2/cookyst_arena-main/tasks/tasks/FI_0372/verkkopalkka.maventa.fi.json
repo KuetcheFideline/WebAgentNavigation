@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Yritän kirjautua verkkopankkini kautta, jotta voin tarkastella palkkani ja palkanmaksuja."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Selvittelen, miksi tunnistautuminen epäonnistui ja etsin ratkaisua ongelmaan."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Etsin ohjeita siitä, miten voin siirtyä palveluun uudelleen verkkopankkini kautta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Tarkastelen palkkani ja palkanmaksuja, jotta voin hallita talouttani paremmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Muokkaan palkanmaksun asetuksia, jotta voin varmistaa, että palkkani maksetaan oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Tulostan palkkani ja palkanmaksujen tiedot, jotta voin arkistoida ne talouteni hallintaan."
+    }
+  ]
+}

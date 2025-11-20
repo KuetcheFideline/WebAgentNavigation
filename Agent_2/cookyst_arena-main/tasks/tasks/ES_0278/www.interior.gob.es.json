@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.interior.gob.es",
+      "intent": "Buscar información sobre los trámites de extranjería para un familiar que va a venir a España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.interior.gob.es",
+      "intent": "Consultar la agenda del ministro para saber si hay algún acto público al que pueda asistir"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.interior.gob.es",
+      "intent": "Descargar el formulario de solicitud de DNI para mi hijo que acaba de cumplir 14 años"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.interior.gob.es",
+      "intent": "Acceder a la sección de gestión de citas para solicitar una cita en la oficina de extranjería"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.interior.gob.es",
+      "intent": "Verificar el estado de mi solicitud de pasaporte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.interior.gob.es",
+      "intent": "Imprimir la confirmación de registro de residencia para mi cuenta personal"
+    }
+  ]
+}

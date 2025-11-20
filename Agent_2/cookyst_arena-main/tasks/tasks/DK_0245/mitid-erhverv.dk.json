@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mitid-erhverv.dk",
+      "intent": "Læs om, hvordan jeg kan bruge MitID Erhverv til at håndtere mine selvbetjeninger"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mitid-erhverv.dk",
+      "intent": "Find ud af, om min organisation har brug for at tilslutte sig MitID Erhverv"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mitid-erhverv.dk",
+      "intent": "Søg efter vejledninger til, hvordan jeg kan aktivere mig som bruger i MitID Erhverv"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mitid-erhverv.dk",
+      "intent": "Log ind på MitID Erhverv for at se mine selvbetjeninger og læse min Digital Post"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mitid-erhverv.dk",
+      "intent": "Aktivér eller slet brugere i MitID Erhverv for at sikre, at mine brugere er opdateret"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mitid-erhverv.dk",
+      "intent": "Se mine rettigheder og roller i MitID Erhverv for at forstå, hvad jeg kan gøre"
+    }
+  ]
+}

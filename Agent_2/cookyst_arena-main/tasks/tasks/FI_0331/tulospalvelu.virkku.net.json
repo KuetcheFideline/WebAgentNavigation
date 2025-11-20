@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.virkku.net",
+      "intent": "Tarkastella tulevia kokeita ja etsiä sopivia kisoja osallistua"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.virkku.net",
+      "intent": "Selata menneitä kokeita ja tarkastella tuloksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.virkku.net",
+      "intent": "Etsiä tietoa eri lajeista ja kokeista, kuten Rally-toko ja FCI Erikoisjälkikoe"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.virkku.net",
+      "intent": "Ilmoittautua osallistumaan tulevaan kokeeseen, kuten Rally-tokokilpailuun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.virkku.net",
+      "intent": "Tarkastella omaa osallistumishistoriaa ja tuloksia aiemmissa kokeissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.virkku.net",
+      "intent": "Muokata omia tietoja ja asetuksia, kuten ilmoittautumisia ja kontaktitietoja"
+    }
+  ]
+}

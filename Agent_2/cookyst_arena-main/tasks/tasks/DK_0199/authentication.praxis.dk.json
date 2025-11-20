@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://authentication.praxis.dk",
+      "intent": "Jeg skal læse vejledningen til hjælp ved loginproblemer, fordi jeg har problemer med at logge ind på praxisOnline."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://authentication.praxis.dk",
+      "intent": "Jeg skal genindlæse siden, fordi der skete en fejl under min forrige forsøg på at logge ind."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://authentication.praxis.dk",
+      "intent": "Jeg skal kontakte support@praxis.dk, hvis fejlen opstår igen under mit næste forsøg på at logge ind."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://authentication.praxis.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer, så jeg kan få en bedre oversigt over mine personlige oplysninger på praxisOnline."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://authentication.praxis.dk",
+      "intent": "Jeg skal downloade mine kvitteringer fra praxisOnline, så jeg kan holde styr på mine udgifter og få en bedre økonomi."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://authentication.praxis.dk",
+      "intent": "Jeg skal se mine tidligere ordrer på praxisOnline, så jeg kan følge med i mine køb og få en bedre forståelse af mine vaner."
+    }
+  ]
+}

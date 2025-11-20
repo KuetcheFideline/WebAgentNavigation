@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forum.questionablequesting.com",
+      "intent": "Jeg søger efter nye opdateringer på forummet omkring mine favorit emner"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forum.questionablequesting.com",
+      "intent": "Jeg vil læse om nye medlemmer og deres introduktions tråde"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forum.questionablequesting.com",
+      "intent": "Jeg søger efter en specifik tråd omkring Umamusume og Youjo Senki"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forum.questionablequesting.com",
+      "intent": "Jeg vil oprette en ny tråd i Creative Writing sektionen omkring mit eget skriveprojekt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forum.questionablequesting.com",
+      "intent": "Jeg vil svare på en eksisterende tråd i Off-Topic sektionen omkring en interessant diskussion"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forum.questionablequesting.com",
+      "intent": "Jeg vil redigere min profil for at tilføje mere information omkring mine interesser og hobbyer"
+    }
+  ]
+}

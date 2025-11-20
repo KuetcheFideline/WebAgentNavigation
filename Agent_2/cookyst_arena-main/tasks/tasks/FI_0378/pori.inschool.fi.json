@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Selvitän, mitä Wilma on ja miten se toimii"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa huoltajien Wilma-tunnuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Tutkin Wilman etusivun linkkejä ja etsin tietoa opettajien ja henkilökunnan monivaiheisesta tunnistautumisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkistan poissaoloja ja arvioita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pori.inschool.fi",
+      "intent": "Tarkistan ja päivitän henkilötietojani Wilman kautta"
+    }
+  ]
+}

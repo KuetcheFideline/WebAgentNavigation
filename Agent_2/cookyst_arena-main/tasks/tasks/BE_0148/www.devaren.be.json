@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.devaren.be",
+      "intent": "Rechercher des informations sur les services d'organisation de funérailles proposés par De Varen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.devaren.be",
+      "intent": "Lire les témoignages de clients satisfaits pour évaluer la qualité des services de De Varen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.devaren.be",
+      "intent": "Consulter la page des questions fréquentes pour obtenir des réponses à des questions courantes sur les funérailles et les crémations"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.devaren.be",
+      "intent": "Accéder à mon compte pour gérer mes préférences et mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.devaren.be",
+      "intent": "Commander des fleurs ou des couronnes pour une cérémonie en ligne via mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.devaren.be",
+      "intent": "Laisser un message de condoléances ou un témoignage sur la page d'hommage d'un défunt via mon compte"
+    }
+  ]
+}

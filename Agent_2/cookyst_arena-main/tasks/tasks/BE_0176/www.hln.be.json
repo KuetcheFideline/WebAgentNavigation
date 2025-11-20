@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hln.be",
+      "intent": "Rechercher des actualités sur la ville d'Anvers pour me tenir informé sur les événements locaux."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hln.be",
+      "intent": "Lire les dernières nouvelles sur le site pour rester au courant de l'actualité belge."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hln.be",
+      "intent": "Consulter la rubrique « vie locale » pour découvrir des activités à faire dans ma région."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hln.be",
+      "intent": "Personnaliser mes préférences de contenu pour recevoir des actualités ciblées sur mes centres d'intérêt."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hln.be",
+      "intent": "Participer à des discussions en ligne sur les articles pour partager mes opinions avec d'autres lecteurs."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hln.be",
+      "intent": "Gérer mes abonnements pour recevoir des newsletters sur les sujets qui m'intéressent."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://yhdistysrekisteri.prh.fi",
+      "intent": "Hae yhdistyksen tietoja yhdistysrekisteristä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://yhdistysrekisteri.prh.fi",
+      "intent": "Tutki yhdistyksen ilmoituksia ja tietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://yhdistysrekisteri.prh.fi",
+      "intent": "Selvitä miten yhdistys voi tehdä muutoksia rekisteröidyn yhdistyksen tietoihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://yhdistysrekisteri.prh.fi",
+      "intent": "Tee ilmoitus yhdistysrekisteriin ja seuraa sen etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://yhdistysrekisteri.prh.fi",
+      "intent": "Ostetaan yhdistyksen rekisteröintitodistus ja tarkistetaan sen tiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://yhdistysrekisteri.prh.fi",
+      "intent": "Muokataan yhdistyksen tietoja ja tallennetaan ne yhdistysrekisteriin"
+    }
+  ]
+}

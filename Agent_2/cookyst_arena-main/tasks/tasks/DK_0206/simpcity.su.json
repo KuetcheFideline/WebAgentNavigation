@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://simpcity.su",
+      "intent": "Jeg søger efter nye opdateringer på SimpCity-forummet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://simpcity.su",
+      "intent": "Jeg vil se, hvilke nye tråde-emner der er tilføjet på forummet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://simpcity.su",
+      "intent": "Jeg ønsker at læse mere om reglerne for brug af SimpCity-forummet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://simpcity.su",
+      "intent": "Jeg vil oprette en ny tråd på forummet for at dele mine tanker om en bestemt emne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://simpcity.su",
+      "intent": "Jeg søger efter en bestemt bruger på forummet for at se, hvad de har skrevet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://simpcity.su",
+      "intent": "Jeg vil svare på en eksisterende tråd på forummet for at deltage i diskussionen"
+    }
+  ]
+}

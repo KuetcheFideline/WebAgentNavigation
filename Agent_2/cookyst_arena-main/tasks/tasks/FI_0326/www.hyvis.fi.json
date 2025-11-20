@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hyvis.fi",
+      "intent": "Selvitän, miten voin seurata terveyttäni Hyvis-palvelun avulla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hyvis.fi",
+      "intent": "Etsin tietoa hyvinvoinnista ja terveydestä Hyvis-sivuilta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hyvis.fi",
+      "intent": "Tutkin, miten voin asioida sähköisesti Hyvis-palvelun kautta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hyvis.fi",
+      "intent": "Kirjaudun sisään ja testaan terveyttäni Hyvis-palvelun avulla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hyvis.fi",
+      "intent": "Seuraan terveyttäni ja etsin sosiaali- ja terveyspalveluita Hyvis-palvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hyvis.fi",
+      "intent": "Täytän sähköisen asiointilomakkeen Hyvis-palvelussa"
+    }
+  ]
+}

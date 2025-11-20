@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://salo.inschool.fi",
+      "intent": "Tutkin Wilman käyttöohjeita huoltajille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://salo.inschool.fi",
+      "intent": "Etsin tietoa aikuisten perusopetuksen alku- tai päättövaiheen koulutuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://salo.inschool.fi",
+      "intent": "Luen usein kysytyt kysymykset Wilman käytöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://salo.inschool.fi",
+      "intent": "Tarkastan poikani tai tyttäreni suorituksia Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://salo.inschool.fi",
+      "intent": "Viestin opettajalle poikani tai tyttäreni opiskeluista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://salo.inschool.fi",
+      "intent": "Päivitän henkilötietojani Wilman käyttäjäprofiilissa"
+    }
+  ]
+}

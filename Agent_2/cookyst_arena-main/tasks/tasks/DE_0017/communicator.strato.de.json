@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://communicator.strato.de",
+      "intent": "Ich möchte den Fehlerbehebungsprozess starten, um die Verbindung zum Server wiederherzustellen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://communicator.strato.de",
+      "intent": "Ich will die Seite neu laden, um zu sehen, ob der Fehler behoben wurde."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://communicator.strato.de",
+      "intent": "Ich möchte den Support kontaktieren, um Hilfe bei der Fehlerbehebung zu erhalten."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://communicator.strato.de",
+      "intent": "Ich will meine Kontoeinstellungen überprüfen, um sicherzustellen, dass alles korrekt konfiguriert ist."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://communicator.strato.de",
+      "intent": "Ich möchte meine Passwörter ändern, um die Sicherheit meines Kontos zu erhöhen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://communicator.strato.de",
+      "intent": "Ich will meine Kommunikationseinstellungen anpassen, um sicherzustellen, dass ich wichtige Benachrichtigungen erhalte."
+    }
+  ]
+}

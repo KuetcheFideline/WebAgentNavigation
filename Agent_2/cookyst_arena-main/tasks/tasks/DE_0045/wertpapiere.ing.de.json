@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wertpapiere.ing.de",
+      "intent": "Ich möchte Informationen über die aktuellen Börsenkurse finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wertpapiere.ing.de",
+      "intent": "Ich will ein bestimmtes Wertpapier suchen und dessen Kursverlauf anzeigen lassen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wertpapiere.ing.de",
+      "intent": "Ich möchte die verschiedenen Anlageoptionen auf der Plattform erkunden und vergleichen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wertpapiere.ing.de",
+      "intent": "Ich will mein Depot überprüfen und den aktuellen Stand meiner Investitionen einsehen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wertpapiere.ing.de",
+      "intent": "Ich möchte eine Order für den Kauf oder Verkauf eines Wertpapiers aufgeben."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wertpapiere.ing.de",
+      "intent": "Ich will meine Kontoeinstellungen und Benachrichtigungen anpassen, um besser über Marktveränderungen informiert zu sein."
+    }
+  ]
+}

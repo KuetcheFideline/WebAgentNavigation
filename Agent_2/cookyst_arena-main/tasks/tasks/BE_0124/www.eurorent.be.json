@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eurorent.be",
+      "intent": "Rechercher des équipements de construction pour un projet de rénovation de bâtiment"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eurorent.be",
+      "intent": "Comparer les prix et les caractéristiques de différents matériels de levage"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eurorent.be",
+      "intent": "Consulter les informations sur les conditions de location et les délais de livraison"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eurorent.be",
+      "intent": "Réserver un équipement de construction pour une période déterminée"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eurorent.be",
+      "intent": "Gérer mes locations en cours et mes factures"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eurorent.be",
+      "intent": "Demander un devis personnalisé pour un projet de construction spécifique"
+    }
+  ]
+}

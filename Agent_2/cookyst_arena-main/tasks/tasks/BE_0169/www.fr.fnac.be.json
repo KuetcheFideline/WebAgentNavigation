@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fr.fnac.be",
+      "intent": "Rechercher des produits de pêche pour mon prochain week-end de loisirs"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fr.fnac.be",
+      "intent": "Comparer les prix des téléviseurs pour équiper mon commerce de pressing"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fr.fnac.be",
+      "intent": "Explorer les offres de livres sur l'histoire de Verviers pour un projet de bénévolat local"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fr.fnac.be",
+      "intent": "Consulter mes commandes passées pour vérifier si j'ai déjà acheté un produit similaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fr.fnac.be",
+      "intent": "Gérer mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fr.fnac.be",
+      "intent": "Utiliser mon solde de fidélité pour acheter un cadeau pour mon épouse"
+    }
+  ]
+}

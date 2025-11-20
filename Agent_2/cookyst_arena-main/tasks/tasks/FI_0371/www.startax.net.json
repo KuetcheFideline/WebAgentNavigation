@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.startax.net",
+      "intent": "Selata Tuoteluettelo-sivua etsimään sopivia sähkövaraosia henkilöautoon."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.startax.net",
+      "intent": "Ladata Tietosuojaseloste ja lukea siitä tietoa yhtiön tietosuojakäytännöistä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.startax.net",
+      "intent": "Etsiä Yhteystiedot-sivulta yhtiön puhelinnumero ja osoite ja ottaa yhteyttä asiakaspalveluun."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.startax.net",
+      "intent": "Tarkastella tilaushistoriaa ja seurata tilauksen etenemistä Kirjaudu sisään -osiossa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.startax.net",
+      "intent": "Muuttaa salasanaa ja päivittää henkilökohtaiset tiedot Asiakkaaksi-sivulla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.startax.net",
+      "intent": "Tehdä uusi tilaus ja valita toimitustapa ja maksutapa Kirjaudu sisään -osiossa."
+    }
+  ]
+}

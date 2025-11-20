@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.alemana.fi",
+      "intent": "Olen etsimässä uusia tanssikengät kilpailukäyttöön, haluan tarkastella Bleyer-merkin valikoimaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.alemana.fi",
+      "intent": "Tanssivaatteiden ja -varusteiden sivulle siirtymällä haluan löytää mielenkiintoisia tuotteita, kuten hameita ja toppeja, joita voisin käyttää tanssitunneillani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.alemana.fi",
+      "intent": "Kilpatanssikengät-nimisen osion kautta haluan vertailla eri merkkien, kuten Diamant ja Supadance, tarjoamia kenkiä ja niiden ominaisuuksia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.alemana.fi",
+      "intent": "Olen kirjautunut sisään ja haluan tilata uudet tanssikengät, joita olen valinnut aikaisemmin, ja vahvistaa tilaukseni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.alemana.fi",
+      "intent": "Tilaukseni seurantaan siirtymällä haluan tarkastella tilaustani ja sen tilaa, sekä mahdollisesti muokata tilaustani tai peruuttaa sen, jos se on mahdollista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.alemana.fi",
+      "intent": "Ostoskorini tarkastellessa haluan poistaa joitakin tuotteita, jotka en halua enää ostaa, ja vahvistaa lopullisen tilaukseni."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hetdepot.be",
+      "intent": "Je souhaite consulter les concerts à venir au Het Depot pour planifier une soirée avec des amis."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hetdepot.be",
+      "intent": "Vous voulez acheter des tickets pour le concert de Triggerfinger, car vous êtes un grand fan de leur musique."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hetdepot.be",
+      "intent": "Vous souhaitez explorer les différentes sections du site pour découvrir de nouveaux artistes et concerts."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hetdepot.be",
+      "intent": "Vous souhaitez accéder à vos tickets achetés précédemment pour imprimer vos billets ou les télécharger sur votre téléphone."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hetdepot.be",
+      "intent": "Vous voulez modifier vos informations personnelles pour recevoir des newsletters personnalisées sur les concerts qui vous intéressent."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hetdepot.be",
+      "intent": "Vous souhaitez consulter l'historique de vos achats pour suivre vos dépenses et planifier vos prochaines sorties."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.getyourguide.fi",
+      "intent": "Hae kaupungin nähtävyyksiä ja retkikohteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.getyourguide.fi",
+      "intent": "Vertaile eri matkapaketteja ja hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.getyourguide.fi",
+      "intent": "Lue arvosteluita eri kohteista ja palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.getyourguide.fi",
+      "intent": "Varaa retki ja maksaa sen omalla tilillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.getyourguide.fi",
+      "intent": "Lisää retki toivelistalle ja jaettuun kalenteriin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.getyourguide.fi",
+      "intent": "Kirjoita arvostelu ja antaa palautetta retkestä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hsl.fi",
+      "intent": "Tutustun HSL:n vuorokausilippujen tarjouksiin ja hinnastoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hsl.fi",
+      "intent": "Etsin tietoa HSL:n asiakaspalvelusta ja heidän yhteystiedoistaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hsl.fi",
+      "intent": "Selailen HSL:n verkkosivuja, jotta voin löytää tietoa heidän matkustamisen vaihtoehdoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hsl.fi",
+      "intent": "Ostan vuorokausilippuja HSL:n verkkokaupasta, koska haluan hyödyntää tarjouksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hsl.fi",
+      "intent": "Tarkastan matkustamiseni historiatiedot ja lipputilaukset HSL:n asiakasprofiilissani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hsl.fi",
+      "intent": "Muutan asiakastietojani, kuten osoitteeni, HSL:n verkkopalvelussa"
+    }
+  ]
+}

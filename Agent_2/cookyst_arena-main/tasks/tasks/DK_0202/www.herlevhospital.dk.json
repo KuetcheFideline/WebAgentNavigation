@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.herlevhospital.dk",
+      "intent": "Jeg søger information om Herlev Hospital's åbningstider"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.herlevhospital.dk",
+      "intent": "Jeg vil læse om hospitalets forskellige afdelinger og specialer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.herlevhospital.dk",
+      "intent": "Jeg søger kontaktoplysninger for at ringe til hospitalet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.herlevhospital.dk",
+      "intent": "Jeg vil se mine patientjournal og læse om mine tidligere behandlinger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.herlevhospital.dk",
+      "intent": "Jeg ønsker at ændre mine personlige oplysninger i patientprofilen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.herlevhospital.dk",
+      "intent": "Jeg vil bestille en tid hos en læge eller anden sundhedsfaglig"
+    }
+  ]
+}

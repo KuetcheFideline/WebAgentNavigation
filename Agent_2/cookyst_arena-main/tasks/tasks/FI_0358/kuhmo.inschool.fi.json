@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kuhmo.inschool.fi",
+      "intent": "Luen Wilman esittelyn, jotta ymmärrän mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kuhmo.inschool.fi",
+      "intent": "Selvittelen miten Wilman kautta voi seurata opiskelijan suorituksia ja poissaoloja."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kuhmo.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten Wilman käyttäjätunnus ja salasana voidaan muuttaa tai palauttaa, jos ne unohtuvat."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kuhmo.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkistan lasteni poissaolot ja suoritukset."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kuhmo.inschool.fi",
+      "intent": "Viestin lasteni opettajille Wilman kautta, jotta saan tietoa heidän edistymisestään ja mahdollisista haasteista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kuhmo.inschool.fi",
+      "intent": "Päivitän henkilötietojani Wilman käyttäjäprofiilissa, jotta varmistan, että olen saamassa kaikki relevantit tiedotteet ja viestit."
+    }
+  ]
+}

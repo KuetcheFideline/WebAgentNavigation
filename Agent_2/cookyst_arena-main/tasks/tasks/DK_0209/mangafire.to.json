@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mangafire.to",
+      "intent": "Jeg søger efter en ny manga at læse, så jeg vil bruge søgefeltet til at finde noget interessant."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mangafire.to",
+      "intent": "Jeg vil gerne se, hvilke nye mangaer der er tilføjet, så jeg klikker på 'Newest' for at se de nyeste tilføjelser."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mangafire.to",
+      "intent": "Jeg er interesseret i at læse en manga om action og eventyr, så jeg vil klikke på 'Genres' og vælge 'Action' og 'Adventure' for at finde noget, der passer mig."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mangafire.to",
+      "intent": "Jeg vil gerne følge mine yndlingsmangaer, så jeg logger ind og klikker på 'Follow' for at få opdateringer, når der kommer nye kapitler."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mangafire.to",
+      "intent": "Jeg har glemt min adgangskode, så jeg klikker på 'Forgot Your Password?' for at nulstille den og få adgang til min konto igen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mangafire.to",
+      "intent": "Jeg vil gerne anmode om en manga, der ikke er i biblioteket, så jeg logger ind og klikker på 'Send a Request' for at anmode om den manga, jeg gerne vil læse."
+    }
+  ]
+}

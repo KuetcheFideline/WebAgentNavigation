@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://futisforum2.org",
+      "intent": "Selvitän, miksi sivu ei toimi ja yritän löytää ratkaisun ongelmaan."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://futisforum2.org",
+      "intent": "Luen Cloudflaren virheilmoitusta ja yritän ymmärtää, mitä se tarkoittaa ja miten voin ratkaista ongelman."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://futisforum2.org",
+      "intent": "Katselen, onko sivulla jotain toimivaa sisältöä, josta voisin löytää tietoa futiksesta tai muusta aiheesta, josta olen kiinnostunut."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://futisforum2.org",
+      "intent": "Kirjaudun sisään ja yritän löytää omat aiemmat viestini ja keskustelut, joissa olen osallistunut."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://futisforum2.org",
+      "intent": "Lähetän yksityisviestin ystävälleni, joka on myös sivun käyttäjä, ja keskustelemme futiksesta ja tulevista peleistä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://futisforum2.org",
+      "intent": "Muokkaan profiiliani ja lisään tietoa itsestäni, kuten suosikkijoukkueeni ja -pelaajani, jotta voisin löytää samanhenkisiä keskustelijoita."
+    }
+  ]
+}

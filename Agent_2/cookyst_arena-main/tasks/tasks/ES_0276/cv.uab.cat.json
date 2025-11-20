@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cv.uab.cat",
+      "intent": "Explorar la sección de Preguntas frecuentes para resolver dudas sobre el acceso al Campus Virtual"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cv.uab.cat",
+      "intent": "Seleccionar el idioma Español para una mejor navegación en el sitio web"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cv.uab.cat",
+      "intent": "Buscar información sobre la gestión de contraseñas para tener acceso seguro al sistema"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cv.uab.cat",
+      "intent": "Acceder al Campus Virtual para consultar mis cursos y tareas pendientes como profesor"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cv.uab.cat",
+      "intent": "Configurar mis preferencias de notificación para estar al tanto de las novedades y actualizaciones del sistema"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cv.uab.cat",
+      "intent": "Consultar el calendario académico para planificar mis clases y actividades docentes"
+    }
+  ]
+}

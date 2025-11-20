@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mes-finances.be",
+      "intent": "Je souhaite comparer les différents types de prêts à la consommation pour financer l'achat d'une voiture électrique."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mes-finances.be",
+      "intent": "J'ai besoin de consulter les guides pour répondre à toutes mes questions sur les prêts sans justificatif et les prêts affectés."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mes-finances.be",
+      "intent": "Je veux utiliser le simulateur de prêt pour estimer les montants à rembourser chaque mois et déterminer si j'ai la possibilité de contracter un emprunt pour financer des travaux de rénovation."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mes-finances.be",
+      "intent": "Je souhaite accéder à mon compte pour consulter l'historique de mes demandes de prêt et suivre l'état de ma demande en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mes-finances.be",
+      "intent": "J'ai besoin de modifier mes informations personnelles et de mettre à jour mes coordonnées bancaires pour recevoir les fonds de mon prêt."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mes-finances.be",
+      "intent": "Je veux consulter les conditions générales de mon prêt et imprimer mon contrat de prêt pour mes archives personnelles."
+    }
+  ]
+}

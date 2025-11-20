@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://booking.rn.dk",
+      "intent": "Jeg skal finde ud af, om MineAftaler understøtter min nuværende browser"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://booking.rn.dk",
+      "intent": "Jeg vil se, hvilke browsere MineAftaler anbefaler, så jeg kan vælge en kompatibel browser"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://booking.rn.dk",
+      "intent": "Jeg skal klikke på 'Fortsæt alligevel' for at se, om jeg alligevel kan bruge MineAftaler med min nuværende browser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://booking.rn.dk",
+      "intent": "Jeg skal logge ind for at se mine eksisterende aftaler og planlægge nye aftaler"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://booking.rn.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer for at sikre, at mine oplysninger er opdaterede"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://booking.rn.dk",
+      "intent": "Jeg skal se mine tidligere bookinghistorik for at planlægge mine fremtidige aftaler"
+    }
+  ]
+}

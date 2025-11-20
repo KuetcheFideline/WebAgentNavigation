@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Hae sivustolta tietoa osakkeista ja markkinatilanteesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Lue uusimmat uutiset ja artikkelit taloudesta ja sijoittamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Selaa sivuston blogiosiota ja etsi vinkkejä sijoittamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Kirjaudu sisään ja muokkaa käyttäjäprofiilia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Osallistu keskusteluun ja jaa omia näkemyksiä talousaiheista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.salkunrakentaja.fi",
+      "intent": "Tilaa uutiskirje ja hallinnoi tilauksia"
+    }
+  ]
+}

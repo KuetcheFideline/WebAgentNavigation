@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://menovinkit.ts.fi",
+      "intent": "Hae tietoa tulevista konserteista ja tanssiesityksistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://menovinkit.ts.fi",
+      "intent": "Etsi avoimia perhekerhoja ja lastentapahtumia Mikkelin alueella"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://menovinkit.ts.fi",
+      "intent": "Selaa luonto- ja kirkkoon liittyviä tapahtumia ja aktiviteetteja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://menovinkit.ts.fi",
+      "intent": "Ilmoita tapahtuma: ilmoitan oman seurakunnan tapahtuman sivustolle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://menovinkit.ts.fi",
+      "intent": "Tallenna suosikkikonsertit ja tanssiesitykset omiin suosikkeihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://menovinkit.ts.fi",
+      "intent": "Lähetä palautetta tapahtumasta: annan palautetta viimeksi käydystä konsertista"
+    }
+  ]
+}

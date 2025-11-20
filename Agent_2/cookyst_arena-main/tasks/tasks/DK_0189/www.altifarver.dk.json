@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.altifarver.dk",
+      "intent": "Jeg søger efter inspiration til at male mit værelse, så jeg vil klikke på 'Om' for at se, om de har nogen gode idéer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.altifarver.dk",
+      "intent": "Jeg vil se, hvilke slags farver de har tilbud, så jeg klikker på 'Produkter' for at se deres udvalg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.altifarver.dk",
+      "intent": "Jeg vil læse om deres cookiepolitik, så jeg klikker på 'Cookiebot' for at se, hvad de bruger cookies til"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.altifarver.dk",
+      "intent": "Jeg vil købe nogle farver online, så jeg logger ind og klikker på 'Køb nu' for at fuldføre min ordre"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.altifarver.dk",
+      "intent": "Jeg vil se mine tidligere ordrer, så jeg logger ind og klikker på 'Min konto' for at se mine ordrer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.altifarver.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer, så jeg logger ind og klikker på 'Rediger profil' for at opdatere mine oplysninger"
+    }
+  ]
+}

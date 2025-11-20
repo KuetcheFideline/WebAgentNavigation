@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.taivaanvahti.fi",
+      "intent": "Hae uusimmat revontulihavainnot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.taivaanvahti.fi",
+      "intent": "Selaa havaintopaikkoja Etelä-Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.taivaanvahti.fi",
+      "intent": "Lue uutisia taivaanvahtimisen maailmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.taivaanvahti.fi",
+      "intent": "Jätä havainto tulipallosta, jonka näin eilen illalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.taivaanvahti.fi",
+      "intent": "Muokkaa omaa profiilia ja lisää kuva"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.taivaanvahti.fi",
+      "intent": "Vastaa keskusteluketjussa aiheesta revontulien esiintyminen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://recetas.lidl.es",
+      "intent": "Buscar recetas de comida saludable para cocinar con mis hijos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://recetas.lidl.es",
+      "intent": "Explorar las diferentes categorías de recetas para encontrar inspiración para la cena de esta noche"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://recetas.lidl.es",
+      "intent": "Descargar la aplicación de Lidl Plus para obtener descuentos y ofertas exclusivas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://recetas.lidl.es",
+      "intent": "Guardar mis recetas favoritas en mi cuenta de Lidl para acceder a ellas más fácilmente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://recetas.lidl.es",
+      "intent": "Compartir mis recetas favoritas con amigos y familiares a través de la función de compartir de Lidl"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://recetas.lidl.es",
+      "intent": "Crear una lista de compras personalizada con los ingredientes necesarios para mis recetas favoritas"
+    }
+  ]
+}

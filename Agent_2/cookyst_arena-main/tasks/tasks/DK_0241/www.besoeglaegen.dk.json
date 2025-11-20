@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg søger efter information om klinikker i Aarhus C"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil læse om de forskellige sundhedsydelser, som klinikken tilbyder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at sammenligne priserne på forskellige behandlinger på klinikken"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil book en tid hos min læge på klinikken"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at se mine tidligere sundhedsrapporter og resultater"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil ændre mine kontaktoplysninger i min patientprofil"
+    }
+  ]
+}

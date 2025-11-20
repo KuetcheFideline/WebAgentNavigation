@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kuulatori.fi",
+      "intent": "Selatakseni uusimmat tuotteet ja etsimällä sopivia varusteita sählyyn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kuulatori.fi",
+      "intent": "Löytääkseni edullisia vaihtoehtoja Wolt-kuljettajan varusteisiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kuulatori.fi",
+      "intent": "Tutustuakseni eri kategorioihin ja löytääkseni mielenkiintoisia tuotteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kuulatori.fi",
+      "intent": "Jätääkseni tarjous tuotteesta, joka kiinnosti minua"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kuulatori.fi",
+      "intent": "Vastatakseni ilmoituksiin, joissa pyydetään tietyn tuotteen myyntiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kuulatori.fi",
+      "intent": "Lisätäkseni omaa ilmoitusta tuotteen myyntiin"
+    }
+  ]
+}

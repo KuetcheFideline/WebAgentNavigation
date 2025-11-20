@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.telemadrid.es",
+      "intent": "Buscar noticias sobre la situación política actual en Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.telemadrid.es",
+      "intent": "Ver el pronóstico del tiempo para los próximos días en Madrid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.telemadrid.es",
+      "intent": "Explorar la sección de deportes para ver las últimas noticias sobre el fútbol madrileño"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.telemadrid.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre noticias de última hora"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.telemadrid.es",
+      "intent": "Crear una lista de reproducción personalizada con mis programas de televisión favoritos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.telemadrid.es",
+      "intent": "Participar en una encuesta sobre la calidad de los servicios públicos en Madrid"
+    }
+  ]
+}

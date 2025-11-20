@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tk-opisto.inschool.fi",
+      "intent": "Lukeminen Linnasmäen opiston tiedotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tk-opisto.inschool.fi",
+      "intent": "Selvittäminen Wilman käytöstä opiskelijana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tk-opisto.inschool.fi",
+      "intent": "Etsiminen Wilman ohjeita OneDriven tiedostojen siirtämiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tk-opisto.inschool.fi",
+      "intent": "Kurssien valitseminen ja suoritusten seuraaminen Wilmassa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tk-opisto.inschool.fi",
+      "intent": "Viestien lähettäminen opettajille Wilmassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tk-opisto.inschool.fi",
+      "intent": "Tiedostojen siirtäminen OneDrivestä Wilman kautta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.frietjesonline.be",
+      "intent": "Je veux commander des frites en ligne pour éviter les files d'attente"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.frietjesonline.be",
+      "intent": "Je cherche à savoir comment fonctionne le système de commande en ligne sur ce site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.frietjesonline.be",
+      "intent": "Je veux consulter la carte des restaurants partenaires pour choisir où commander"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.frietjesonline.be",
+      "intent": "Je veux accéder à mon compte pour suivre mes commandes passées et actuelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.frietjesonline.be",
+      "intent": "Je souhaite modifier mes informations de compte pour assurer la livraison à la bonne adresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.frietjesonline.be",
+      "intent": "Je veux utiliser mon compte pour payer ma commande en ligne de manière sécurisée"
+    }
+  ]
+}

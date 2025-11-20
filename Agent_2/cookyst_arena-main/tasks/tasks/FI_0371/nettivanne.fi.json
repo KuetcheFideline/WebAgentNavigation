@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nettivanne.fi",
+      "intent": "Hae renkaat ja vanteet omalla autolleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nettivanne.fi",
+      "intent": "Vertaa eri renkaiden ja vanteiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nettivanne.fi",
+      "intent": "Lue arvosteluita eri renkaiden ja vanteiden laadusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nettivanne.fi",
+      "intent": "Tilaa renkaat ja vanteet, jotka olen valinnut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nettivanne.fi",
+      "intent": "Tarkista tilaustani ja muokkaa sitä tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nettivanne.fi",
+      "intent": "Kirjaudu sisään ja tarkista omani tilaus- ja maksuhistoria"
+    }
+  ]
+}

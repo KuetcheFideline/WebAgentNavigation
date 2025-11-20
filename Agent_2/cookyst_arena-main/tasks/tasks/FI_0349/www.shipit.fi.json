@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.shipit.fi",
+      "intent": "Tarkastan pakettien lähetysmahdollisuuksia Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.shipit.fi",
+      "intent": "Vertailen eri pakettien lähetysvaihtoehtoja ja niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.shipit.fi",
+      "intent": "Luen lisää Shipit-palvelun käyttöehdoista ja evästeistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.shipit.fi",
+      "intent": "Kirjaudun sisään ja tarkastan lähetyshistoriani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.shipit.fi",
+      "intent": "Luo uusi paketin lähetysilmoitus ja tallennan sen omiin tallennettuihini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.shipit.fi",
+      "intent": "Muokkaan olemassa olevaa paketin lähetysilmoitusta ja vahvistan muutokset"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wohngeld.org",
+      "intent": "Ich möchte den Wohngeldrechner nutzen, um herauszufinden, ob ich Anspruch auf Wohngeld habe und wie hoch der Zuschuss sein könnte."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wohngeld.org",
+      "intent": "Ich will mehr über die Voraussetzungen für den Wohngeldbezug erfahren, insbesondere über die Einkommensgrenzen und die Mietstufen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wohngeld.org",
+      "intent": "Ich möchte die Tabelle mit den Mindesteinkommen nach Mietstufe ansehen, um zu sehen, ob mein Einkommen unter der Grenze liegt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wohngeld.org",
+      "intent": "Ich will meinen Wohngeldantrag online ausfüllen und einreichen, um den Zuschuss zu erhalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wohngeld.org",
+      "intent": "Ich möchte den Status meines Wohngeldantrags überprüfen und sehen, ob alle erforderlichen Dokumente eingereicht wurden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wohngeld.org",
+      "intent": "Ich will meine persönlichen Daten und Einkommensnachweise aktualisieren, um sicherzustellen, dass mein Wohngeldbezug korrekt berechnet wird."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uutis-jousi.fi",
+      "intent": "Luen uusimmat uutiset Siilinjärven alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uutis-jousi.fi",
+      "intent": "Etsin tietoa Siilinjärven joulukausi-tapahtumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uutis-jousi.fi",
+      "intent": "Selailen sivuston urheilu-uutisia, erityisesti salibandy-uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uutis-jousi.fi",
+      "intent": "Kirjaudun sisään ja kommentoin lukijan kirjoitusta Siilinjärven joulukausi-tapahtumista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uutis-jousi.fi",
+      "intent": "Luen ja vastaan uutisjousi.fi-keskustelupalstalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uutis-jousi.fi",
+      "intent": "Tilaa uutisjousi.fi:n uutiskirje, jotta saan päivittäin uusimmat uutiset Siilinjärven alueelta"
+    }
+  ]
+}

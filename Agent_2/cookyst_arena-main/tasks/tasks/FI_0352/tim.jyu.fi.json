@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tim.jyu.fi",
+      "intent": "Tutustun TIM-palvelun etusivuun ja etsin tietoa interaktiivisten materiaalien tuottamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tim.jyu.fi",
+      "intent": "Selailen TIM-palvelun saatavilla olevia kursseja ja dokumentteja opettajan näkökulmasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tim.jyu.fi",
+      "intent": "Luen TIM-palvelun yksityisyysilmoituksen ja käyttöehdot, jotta ymmärrän palvelun käytön ehdot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tim.jyu.fi",
+      "intent": "Kirjaudun sisään TIM-palveluun ja tutustun omiin dokumentteihini ja kurssieni hallintaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tim.jyu.fi",
+      "intent": "Luo uusi interaktiivinen materiaali TIM-palvelussa ja testaan sen toimivuutta opetusmateriaalina"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tim.jyu.fi",
+      "intent": "Muokkaan aiemmin luotua dokumenttia TIM-palvelussa ja jaan sen muiden opettajien kanssa"
+    }
+  ]
+}

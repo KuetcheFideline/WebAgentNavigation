@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.muurame.fi",
+      "intent": "Hae tietoa Muuramen uimahallin aukioloista ja hinnoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.muurame.fi",
+      "intent": "Etsi tietoa Muuramen kirjaston palveluista ja aukioloista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.muurame.fi",
+      "intent": "Selvitä miten voit hakea varhaiskasvatukseen tai esiopetukseen Muuramessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.muurame.fi",
+      "intent": "Täytä Muuramen kunnan asiointipalvelun lomake varhaiskasvatuksen hakemiseksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.muurame.fi",
+      "intent": "Tee varaus Muuramen uimahallin kuntosalille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.muurame.fi",
+      "intent": "Lähetä palautetta Muuramen kunnan palveluista"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.gymfed.be",
+      "intent": "Consulter les informations générales sur la page d'accueil pour comprendre les fonctionnalités de l'application"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.gymfed.be",
+      "intent": "Rechercher des informations sur les différentes applications proposées par Gymfed pour élargir mes connaissances"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.gymfed.be",
+      "intent": "Explorer les liens vers d'autres ressources telles que la page Trainers App pour approfondir mes connaissances"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.gymfed.be",
+      "intent": "Accéder à mes documents personnels pour gérer mes informations et suivre mes progrès"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.gymfed.be",
+      "intent": "Consulter mon calendrier de training pour planifier mes séances et mes objectifs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.gymfed.be",
+      "intent": "Gérer mes paramètres personnels pour personnaliser mon expérience utilisateur et mes préférences"
+    }
+  ]
+}

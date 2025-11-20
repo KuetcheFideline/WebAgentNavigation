@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.directferries.fi",
+      "intent": "Hae Helsinki-Tallinna laivareitit ja vertaile hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.directferries.fi",
+      "intent": "Selvitä miten varata laivamatka Turusta Tukholmaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.directferries.fi",
+      "intent": "Etsi suosittuja laivareittejä ja niiden aikatauluja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.directferries.fi",
+      "intent": "Tarkista omaa tilisi ja hallitse varaustasi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.directferries.fi",
+      "intent": "Muuta aiemmin tehtyä varausta ja tarkista uudet hinnat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.directferries.fi",
+      "intent": "Tilaa uutiskirje ja saat eksklusiivisia tarjouksia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulosarkisto.fi",
+      "intent": "Tarkastella tulevia moottoritapahtumia, kuten Enduro-kilpailuja ja katsastuskursseja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulosarkisto.fi",
+      "intent": "Etsiä tietoa eri moottorilajeista, kuten Circuit Racing ja Motocross"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulosarkisto.fi",
+      "intent": "Selata sivuston kalenteri-osio, josta löytyy tietoa tulevista tapahtumista ja kilpailuista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulosarkisto.fi",
+      "intent": "Ilmoittautua tulevaan moottoritapahtumaan, kuten Enduro-kilpailuun tai katsastuskurssille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulosarkisto.fi",
+      "intent": "Tarkastella omia osallistumisia ja tuloksia aiemmissa moottoritapahtumissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulosarkisto.fi",
+      "intent": "Muokata omia profiilitietoja, kuten moottorilajien suosikkilajeja tai kilpailuhenkilökohtaisia tietoja"
+    }
+  ]
+}

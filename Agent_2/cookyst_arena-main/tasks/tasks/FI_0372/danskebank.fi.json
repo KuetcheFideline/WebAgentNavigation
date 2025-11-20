@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Hae tietoa asuntolainojen korosta ja ehdoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Selvitä miten voin aloittaa säästämisen ja sijoittamisen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Löydä tietoa Danske Bankin tarjoamista palveluista ja tuotteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Tarkista tilieni saldo ja siirrä rahaa toiselle tilille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Hae lainaa tai muuta lainaani ja tarkista lainaehtoni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Aloita uusi sijoitus ja määritä sijoitusstrategiani"
+    }
+  ]
+}

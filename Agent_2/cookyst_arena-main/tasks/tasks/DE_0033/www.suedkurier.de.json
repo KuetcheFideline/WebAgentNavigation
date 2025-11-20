@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.suedkurier.de",
+      "intent": "Ich möchte die aktuellen Nachrichten aus der Region Konstanz lesen, um mich über die lokalen Ereignisse zu informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.suedkurier.de",
+      "intent": "Ich will die Seite 'Regionalsport' besuchen, um die neuesten Sportnachrichten aus dem Bodenseekreis zu lesen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.suedkurier.de",
+      "intent": "Ich möchte die Mediathek des SÜDKURIER durchsuchen, um Artikel und Videos über die Geschichte der Region zu finden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.suedkurier.de",
+      "intent": "Ich will mein Profil im meinSK-Bereich bearbeiten, um meine persönlichen Daten zu aktualisieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.suedkurier.de",
+      "intent": "Ich möchte meine Merkliste im SÜDKURIER einsehen, um die Artikel zu lesen, die ich zuvor gespeichert habe."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.suedkurier.de",
+      "intent": "Ich will den Heimatort in meinem Profil ändern, um die lokalen Nachrichten aus einer anderen Region zu erhalten."
+    }
+  ]
+}

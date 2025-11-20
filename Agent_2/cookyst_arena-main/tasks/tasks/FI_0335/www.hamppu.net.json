@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hamppu.net",
+      "intent": "Lue uusimmat artikkelit kannabiksen laillistamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hamppu.net",
+      "intent": "Etsi tietoa kannabiksen terveydellisistä vaikutuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hamppu.net",
+      "intent": "Selaa foorumia ja lue muiden käyttäjien kokemuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hamppu.net",
+      "intent": "Kirjaudu sisään ja kommentoi uusimpaan artikkeliin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hamppu.net",
+      "intent": "Luo uusi aihe foorumille kannabiksen laillistamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hamppu.net",
+      "intent": "Vastaa toisen käyttäjän kommenttiin foorumilla"
+    }
+  ]
+}

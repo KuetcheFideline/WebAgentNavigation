@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://studip.uni-vechta.de",
+      "intent": "Ich möchte die Startseite der Universität Vechta erkunden, um mehr über die angebotenen Studiengänge zu erfahren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://studip.uni-vechta.de",
+      "intent": "Ich will die Belegungspläne für die verschiedenen Vorlesungen überprüfen, um meine Stundenplanung zu planen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://studip.uni-vechta.de",
+      "intent": "Ich möchte die Suche-Funktion nutzen, um spezifische Informationen über die Universität und ihre Angebote zu finden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://studip.uni-vechta.de",
+      "intent": "Ich will mich anmelden, um meine persönlichen Einstellungen zu ändern und den hohen Kontrast gemäß WCAG 2.1 zu aktivieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://studip.uni-vechta.de",
+      "intent": "Ich möchte nach dem Login meine Vorlesungsverzeichnisse einsehen, um meine Kurse und Termine zu überprüfen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://studip.uni-vechta.de",
+      "intent": "Ich will meine Benutzerdaten und Einstellungen überprüfen, um sicherzustellen, dass alles korrekt ist und ich keine wichtigen Informationen verpasst habe."
+    }
+  ]
+}

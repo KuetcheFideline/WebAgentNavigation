@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://minel.app",
+      "intent": "Tutkin sivuston etusivun sisältöä ja etsin tietoa sähkönsiirrosta ja -myynnistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://minel.app",
+      "intent": "Selvittelen, miten voin kirjautua sisään sivustolle ja mitä vaihtoehtoja on käytettävissä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://minel.app",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa sähköntoimittajaa ja mitkä ovat vaihtoehtoiset sähköntarjoajat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://minel.app",
+      "intent": "Tarkastan sähkölaskujeni historiatiedot ja selvittelen, miten voin hallita sähkölaskujeni maksamista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://minel.app",
+      "intent": "Muutan sähköntoimittajaa ja vahvistan muutoksen sivustolla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://minel.app",
+      "intent": "Tarkastan sähkönkäytön tilastot ja analyysin, jotta voin optimoida sähkönkäyttöäni"
+    }
+  ]
+}

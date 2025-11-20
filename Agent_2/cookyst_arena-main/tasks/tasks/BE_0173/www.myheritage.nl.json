@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.myheritage.nl",
+      "intent": "Découvrir les fonctionnalités de base du site pour rechercher mes ancêtres"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.myheritage.nl",
+      "intent": "Consulter les témoignages d'utilisateurs pour comprendre les avantages de MyHeritage"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.myheritage.nl",
+      "intent": "Rechercher des informations générales sur la généalogie et l'histoire de ma famille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.myheritage.nl",
+      "intent": "Créer un arbre généalogique pour visualiser mes liens de parenté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.myheritage.nl",
+      "intent": "Importer des documents et des photos pour enrichir mon arbre généalogique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.myheritage.nl",
+      "intent": "Rechercher des cousins éloignés et contacter des membres de ma famille élargie"
+    }
+  ]
+}

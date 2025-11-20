@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://connect.depolder.be",
+      "intent": "Je souhaite consulter les informations générales sur le site pour comprendre son contenu et son utilité avant de créer un compte."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://connect.depolder.be",
+      "intent": "J'aimerais savoir comment fonctionne le processus de connexion et de création de compte pour éviter les erreurs lors de ma première tentative."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://connect.depolder.be",
+      "intent": "Je veux lire les conditions d'utilisation et la politique de confidentialité du site pour être informé de mes droits et de mes obligations en tant qu'utilisateur."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://connect.depolder.be",
+      "intent": "Après m'être connecté, je souhaite accéder à mon profil personnel pour vérifier que mes informations sont à jour et complètes."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://connect.depolder.be",
+      "intent": "Je veux explorer les fonctionnalités réservées aux utilisateurs connectés pour découvrir les avantages de l'inscription et les services proposés par le site."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://connect.depolder.be",
+      "intent": "Une fois connecté, j'aimerais modifier mes paramètres de compte pour personnaliser mon expérience sur le site et recevoir des notifications ciblées sur mes centres d'intérêt."
+    }
+  ]
+}

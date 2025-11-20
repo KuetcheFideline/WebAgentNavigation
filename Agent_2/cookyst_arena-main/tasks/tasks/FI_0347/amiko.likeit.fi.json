@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://amiko.likeit.fi",
+      "intent": "Tutkin sivuston ominaisuuksia ennen kirjautumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://amiko.likeit.fi",
+      "intent": "Etsin tietoa sivuston turvallisuudesta ja tietosuojasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://amiko.likeit.fi",
+      "intent": "Selailen sivuston eri osioita ja etsin mielenkiintoista sisältöä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://amiko.likeit.fi",
+      "intent": "Tarkastan profiiliani ja päivitän tietojani tarpeen mukaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://amiko.likeit.fi",
+      "intent": "Osallistun keskusteluihin ja jakaan mielipiteitäni muiden käyttäjien kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://amiko.likeit.fi",
+      "intent": "Hallinoidan tilaustani ja seuraan tilausten tilaa"
+    }
+  ]
+}

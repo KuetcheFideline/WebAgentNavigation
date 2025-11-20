@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nrk.no",
+      "intent": "Læse nyheder om det seneste fra Norge og hele verden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nrk.no",
+      "intent": "Søge efter information omkring sundhedsnyheder og råd"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nrk.no",
+      "intent": "Se videoer og billeder fra nyhedsbegivenheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nrk.no",
+      "intent": "Del en artikel om sundhed på mine sociale medier"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nrk.no",
+      "intent": "Kommentere på en artikel om politiske emner"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nrk.no",
+      "intent": "Gemme en artikel om erhverv og økonomi til senere læsning"
+    }
+  ]
+}

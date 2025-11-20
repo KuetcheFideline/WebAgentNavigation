@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.expedia.fi",
+      "intent": "Hae halpoja lentoja Turusta Helsinkiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.expedia.fi",
+      "intent": "Vertaile hotellihintoja Turun keskustassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.expedia.fi",
+      "intent": "Etsi viikonloppumatkaa Tallinnaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.expedia.fi",
+      "intent": "Varaa hotelli ja lento yhden klikkauksen varaamisominaisuudella"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.expedia.fi",
+      "intent": "Tarkista varaukseni ja muokkaa matkasuunnitelmaani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.expedia.fi",
+      "intent": "Kirjaudu sisään ja käytä Expedia-pisteitäni alennuksiin"
+    }
+  ]
+}

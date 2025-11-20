@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://modelskibet.dk",
+      "intent": "Jeg søger efter en ny modelbåd til min fritidsaktivitet, så jeg vil gå til 'Shop' og se, hvad de har at tilbyde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://modelskibet.dk",
+      "intent": "Jeg vil gerne læse mere om 'Tips & Tricks' for at forbedre mine færdigheder med modelbåde, så jeg klikker på den side."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://modelskibet.dk",
+      "intent": "Jeg er interesseret i at købe en gavekort til min ven, så jeg søger efter 'Gavekort' på siden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://modelskibet.dk",
+      "intent": "Jeg vil gerne se mine tidligere bestillinger, så jeg logger ind og går til 'Din konto' for at se min ordrehistorik."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://modelskibet.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer, så jeg logger ind og redigerer min brugerprofil."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://modelskibet.dk",
+      "intent": "Jeg har et spørgsmål om en bestilling, så jeg logger ind og kontakter kundeservice gennem 'Kontakt' siden."
+    }
+  ]
+}

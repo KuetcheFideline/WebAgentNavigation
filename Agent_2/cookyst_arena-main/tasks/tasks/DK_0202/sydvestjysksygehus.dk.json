@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sydvestjysksygehus.dk",
+      "intent": "Jeg søger information om afdelinger på sygehuset for at finde det rigtige sted til min patient"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sydvestjysksygehus.dk",
+      "intent": "Jeg ønsker at læse mere om patientinformationer og hvordan jeg kan hjælpe mine patienter med deres sundhed"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sydvestjysksygehus.dk",
+      "intent": "Jeg søger efter kontaktinformationer til sygehusets afdelinger for at kunne ringe og spørge om hjælp"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sydvestjysksygehus.dk",
+      "intent": "Jeg skal logge ind for at se mine patienters journaler og følge deres behandling"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sydvestjysksygehus.dk",
+      "intent": "Jeg ønsker at tilføje en ny patient til systemet og følge deres behandlingsplan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sydvestjysksygehus.dk",
+      "intent": "Jeg skal ændre en eksisterende patients behandlingsplan og følge deres fremgang"
+    }
+  ]
+}

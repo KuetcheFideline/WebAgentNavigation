@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hameensanomat.fi",
+      "intent": "Luen uusimmat uutiset Hämeen Sanomien etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hameensanomat.fi",
+      "intent": "Etsin tietoa paikallisista tapahtumista ja kulttuuritapahtumista Hämeen Sanomien sivuilta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hameensanomat.fi",
+      "intent": "Selailen Hämeen Sanomien verkkokaupan tarjontaa ja etsin mahdollisia alennuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hameensanomat.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisia Hämeen Sanomien verkkosivuilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hameensanomat.fi",
+      "intent": "Tilaa Hämeen Sanomien digilehti ja luen sen sisällön"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hameensanomat.fi",
+      "intent": "Lähetän juttuvinkin Hämeen Sanomien toimitukselle"
+    }
+  ]
+}

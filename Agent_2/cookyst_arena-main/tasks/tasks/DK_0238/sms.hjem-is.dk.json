@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sms.hjem-is.dk",
+      "intent": "Jeg vil se, hvornår Hjem-IS besøger min adresse i Aarhus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sms.hjem-is.dk",
+      "intent": "Jeg ønsker at tilmelde mig SMS-service for at få en GRATIS SMS, når isbilen er på vej"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sms.hjem-is.dk",
+      "intent": "Jeg vil finde ud af, hvordan jeg kan afmelde min SMS-Service, hvis jeg ikke længere ønsker at modtage beskeder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sms.hjem-is.dk",
+      "intent": "Jeg vil ændre min adresse i min eksisterende SMS-Service for at sikre, at jeg modtager beskeder på den rigtige adresse"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sms.hjem-is.dk",
+      "intent": "Jeg vil se mine tidligere beskeder fra Hjem-IS for at holde styr på, hvornår isbilen har besøgt min adresse tidligere"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sms.hjem-is.dk",
+      "intent": "Jeg vil opdatere mit mobilnummer i min eksisterende SMS-Service for at sikre, at jeg modtager beskeder på det rigtige nummer"
+    }
+  ]
+}

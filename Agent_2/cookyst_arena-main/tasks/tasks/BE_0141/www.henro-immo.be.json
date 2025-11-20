@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.henro-immo.be",
+      "intent": "Rechercher un appartement à vendre dans la région de Tournai pour un budget de 150 000€ à 200 000€"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.henro-immo.be",
+      "intent": "Consulter les informations sur les agences immobilières à Tournai et Mouscron pour comprendre leurs services"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.henro-immo.be",
+      "intent": "Demander une estimation gratuite pour une maison à vendre dans la région de Tournai"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.henro-immo.be",
+      "intent": "Gérer mes alertes immobilières pour recevoir les nouvelles offres de maisons à vendre dans la région de Tournai"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.henro-immo.be",
+      "intent": "Consulter l'historique de mes recherches immobilières pour retrouver des biens qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.henro-immo.be",
+      "intent": "Modifier mes préférences de recherche pour recevoir des offres de biens immobiliers personnalisées"
+    }
+  ]
+}

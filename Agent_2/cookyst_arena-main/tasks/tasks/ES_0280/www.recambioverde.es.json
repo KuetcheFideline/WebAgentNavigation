@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.recambioverde.es",
+      "intent": "Buscar repuestos para mi coche Renault Clio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.recambioverde.es",
+      "intent": "Comparar precios de baterías para vehículos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.recambioverde.es",
+      "intent": "Explorar las ofertas del día para accesorios de coche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.recambioverde.es",
+      "intent": "Agregar un producto a mi lista de favoritos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.recambioverde.es",
+      "intent": "Realizar un pedido de un repuesto para mi vehículo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.recambioverde.es",
+      "intent": "Consultar el historial de mis pedidos en la tienda"
+    }
+  ]
+}

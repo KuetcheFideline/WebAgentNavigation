@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://atriportal.gencat.cat",
+      "intent": "Explorar las secciones del portal para encontrar información sobre servicios públicos en Cataluña."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://atriportal.gencat.cat",
+      "intent": "Buscar información sobre trámites y procedimientos administrativos que puedo realizar en línea."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://atriportal.gencat.cat",
+      "intent": "Descubrir los recursos y herramientas disponibles para ciudadanos en el portal ATRI."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://atriportal.gencat.cat",
+      "intent": "Acceder a mi área personal para consultar el estado de mis solicitudes y trámites en curso."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://atriportal.gencat.cat",
+      "intent": "Realizar un pago en línea para un servicio público y guardar el justificante en mi perfil."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://atriportal.gencat.cat",
+      "intent": "Actualizar mis datos personales y de contacto en el perfil de usuario para asegurarme de recibir notificaciones actualizadas."
+    }
+  ]
+}

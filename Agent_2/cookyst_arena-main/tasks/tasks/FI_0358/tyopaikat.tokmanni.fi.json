@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tyopaikat.tokmanni.fi",
+      "intent": "Hae avoimia työpaikkoja Tokmannilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tyopaikat.tokmanni.fi",
+      "intent": "Tutustu myymälätyöhön ja sen edellytyksiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tyopaikat.tokmanni.fi",
+      "intent": "Lue lisää Tokmannin arvoista ja työyhteisöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tyopaikat.tokmanni.fi",
+      "intent": "Täytä työhakemus ja lähetä se Tokmannille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tyopaikat.tokmanni.fi",
+      "intent": "Seuraa työhakemuksesi etenemistä ja vastaa haastattelukutsuihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tyopaikat.tokmanni.fi",
+      "intent": "Päivitä henkilökohtaiset tiedot ja työhistoria työhakemusprofiilissani"
+    }
+  ]
+}

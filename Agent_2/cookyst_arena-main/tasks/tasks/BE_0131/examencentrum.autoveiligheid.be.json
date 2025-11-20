@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://examencentrum.autoveiligheid.be",
+      "intent": "Réserver un examen de théorie pour le permis de conduire catégorie B en ligne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://examencentrum.autoveiligheid.be",
+      "intent": "Consulter les disponibilités pour les examens de théorie pour les différentes catégories de véhicules"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://examencentrum.autoveiligheid.be",
+      "intent": "Rechercher les informations nécessaires pour annuler ou modifier une réservation d'examen de théorie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://examencentrum.autoveiligheid.be",
+      "intent": "Accéder à mon compte pour consulter l'historique de mes réservations d'examens de théorie"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://examencentrum.autoveiligheid.be",
+      "intent": "Modifier mes informations personnelles dans mon compte pour assurer la bonne réception des notifications concernant mes réservations d'examens"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://examencentrum.autoveiligheid.be",
+      "intent": "Imprimer ou télécharger une confirmation de réservation pour un examen de théorie à des fins administratives"
+    }
+  ]
+}

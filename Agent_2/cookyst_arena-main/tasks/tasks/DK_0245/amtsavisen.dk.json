@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://amtsavisen.dk",
+      "intent": "Læs om de seneste nyheder fra Randers og Østjylland"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://amtsavisen.dk",
+      "intent": "Søg efter information om valgkampen og kandidaternes profiler"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://amtsavisen.dk",
+      "intent": "Se hvilke artikler der er mest læste og populære blandt læserne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://amtsavisen.dk",
+      "intent": "Læs mine favoritartikler og gemte nyheder i min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://amtsavisen.dk",
+      "intent": "Del en interessant artikel med mine venner på sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://amtsavisen.dk",
+      "intent": "Tjek mine abonnementsdetaljer og selvbetjening i min profil"
+    }
+  ]
+}

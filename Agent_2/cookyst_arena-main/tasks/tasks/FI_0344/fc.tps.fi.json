@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fc.tps.fi",
+      "intent": "Selata sivustoa ja etsiä tietoa TPS:n juniorijoukkueista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fc.tps.fi",
+      "intent": "Lukea uutisia ja artikkeleita TPS:n edustusjoukkueen otteluista ja tuloksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fc.tps.fi",
+      "intent": "Etsiä tietoa TPS:n jalkapallokoulusta ja harjoitusmahdollisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fc.tps.fi",
+      "intent": "Kirjautua sisään ja tarkastaa omat jäsenyydetiedot ja maksuhistoria"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fc.tps.fi",
+      "intent": "Osallistua keskusteluihin ja kommentoida uutisia ja artikkeleita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fc.tps.fi",
+      "intent": "Tarkastaa ja muuttaa omia profiilitietoja ja salasanaa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Tutkin Canvas-oppimisympäristön ominaisuuksia opettajan näkökulmasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Etsin tietoa siitä, miten voin rekisteröidä Haka-tunnukseni opiskelijoiden kirjautumiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Selvittelen, miten voin kirjautua sisään vieraana ja mitä mahdollisuuksia sillä on"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Luo uusi kurssi Canvasissa ja määritän sen asetukset opettajan roolissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Lisään uusia tehtäviä ja arviointikriteerejä aiemmin luotuun kurssiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://canvas.laurea.fi",
+      "intent": "Tarkastelen opiskelijoiden edistymistä ja annan palautetta heidän suorituksistaan kurssin alussa"
+    }
+  ]
+}

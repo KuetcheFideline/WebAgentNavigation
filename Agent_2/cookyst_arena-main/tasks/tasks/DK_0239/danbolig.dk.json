@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danbolig.dk",
+      "intent": "Jeg søger efter en bolig i Skagen, så jeg vil bruge søgefunktionen til at finde en passende bolig"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danbolig.dk",
+      "intent": "Jeg vil gerne læse mere om boligmarkedet i Danmark, så jeg vil klikke på nyhedssektionen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danbolig.dk",
+      "intent": "Jeg vil gerne få en vurdering af min nuværende bolig, så jeg vil klikke på 'Få vurdering'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danbolig.dk",
+      "intent": "Jeg vil gerne følge med i mine boligsalg og -køb, så jeg vil logge ind og se mine aktive annoncer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danbolig.dk",
+      "intent": "Jeg vil gerne tilføje en ny bolig til min ønskesliste, så jeg vil logge ind og klikke på 'Tilføj til ønskesliste'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danbolig.dk",
+      "intent": "Jeg vil gerne kontakte min lokale ejendomsmægler for at få rådgivning om mit boligsalg, så jeg vil logge ind og klikke på 'Kontakt os'"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kaleva.fi",
+      "intent": "Luen uusimmat uutiset Oulun seudulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kaleva.fi",
+      "intent": "Etsin tietoa Oulun työttömyystilanteesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kaleva.fi",
+      "intent": "Selvitan miten voin lukea Kalevan uusimmat numerot verkossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kaleva.fi",
+      "intent": "Tilaa uutiskirje, jotta saan päivittäin uusimmat uutiset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kaleva.fi",
+      "intent": "Kommentoin uutista Oulun kaupungin talousasioista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kaleva.fi",
+      "intent": "Luen ja vastaan lukijoiden mielipiteisiin ja keskusteluihin"
+    }
+  ]
+}

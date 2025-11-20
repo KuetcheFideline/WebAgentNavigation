@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ipaper.ipapercms.dk",
+      "intent": "Jeg skal undersøge, om der er en mulighed for at søge efter en bestemt flipbook på siden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ipaper.ipapercms.dk",
+      "intent": "Jeg vil se, om der er en kontaktformular eller en email-adresse, hvor jeg kan kontakte udgiveren for at spørge om flipboken."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ipaper.ipapercms.dk",
+      "intent": "Jeg skal prøve at rette URL-adressen for at se, om flipboken kan findes under en anden adresse."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ipaper.ipapercms.dk",
+      "intent": "Jeg vil logge ind for at se, om jeg kan få adgang til en særlig flipbook, der kun er tilgængelig for loggede brugere."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ipaper.ipapercms.dk",
+      "intent": "Jeg skal undersøge, om der er en mulighed for at downloade eller gemme flipboken lokalt, når jeg er loggede ind."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ipaper.ipapercms.dk",
+      "intent": "Jeg vil se, om der er en funktion til at dele flipboken på sociale medier eller via email, når jeg er loggede ind."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://accounts.nike.com",
+      "intent": "Je veux essayer de contourner le message d'accès refusé pour voir si je peux accéder à mon compte Nike."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://accounts.nike.com",
+      "intent": "Je souhaite chercher des informations sur la façon de résoudre les problèmes d'accès au site web de Nike."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://accounts.nike.com",
+      "intent": "Je veux voir si je peux créer un nouveau compte Nike pour éviter les problèmes d'accès actuels."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://accounts.nike.com",
+      "intent": "Je veux accéder à mon historique d'achats sur Nike pour vérifier mes commandes précédentes."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://accounts.nike.com",
+      "intent": "Je souhaite modifier mes informations de compte Nike pour mettre à jour mon adresse e-mail et mes coordonnées."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://accounts.nike.com",
+      "intent": "Je veux consulter mes informations de compte Nike pour vérifier mes points de fidélité et mes avantages."
+    }
+  ]
+}

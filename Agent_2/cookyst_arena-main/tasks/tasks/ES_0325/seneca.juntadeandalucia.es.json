@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Explorar la sección de 'Inicio' para conocer las últimas novedades y actualizaciones del portal Séneca"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Buscar información sobre los horarios de mantenimiento del portal Séneca para planificar mis actividades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Acceder a la sección de 'Seguridad y Protección de Datos' para conocer las medidas de seguridad implementadas en el portal"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis datos personales y consultar mis actividades en el portal Séneca"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre las últimas novedades y eventos en el portal Séneca"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Acceder a la sección de 'CAUCE' para solicitar ayuda y resolver cualquier problema técnico que tenga con el portal Séneca"
+    }
+  ]
+}

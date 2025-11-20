@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.once.es",
+      "intent": "Buscar información sobre los servicios de la ONCE para personas con discapacidad en España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.once.es",
+      "intent": "Descargar la aplicación móvil de PortalONCE para acceder a los servicios en línea"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.once.es",
+      "intent": "Leer la política de privacidad y cookies de la web para entender cómo se protegen mis datos personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.once.es/empleado/",
+      "intent": "Iniciar sesión en mi cuenta de empleado para acceder a mis datos personales y laborales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.once.es/empleado/",
+      "intent": "Cambiar mi contraseña de acceso para mejorar la seguridad de mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.once.es/empleado/",
+      "intent": "Consultar mis beneficios y servicios como empleado de la ONCE para planificar mi carrera profesional"
+    }
+  ]
+}

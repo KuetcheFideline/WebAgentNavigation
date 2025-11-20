@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seura.fi",
+      "intent": "Luen Seuran viimeisimpiä uutisia ja artikkeleita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seura.fi",
+      "intent": "Selvittelen, mitä TV-ohjelmia on tarjolla tällä viikolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seura.fi",
+      "intent": "Osallistun Seuran ristikko- ja sudokukilpailuihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seura.fi",
+      "intent": "Luen Seuran näköislehtiä ja tallennan mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seura.fi",
+      "intent": "Tilaa Seuran uutiskirje ja päivän horoskooppi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seura.fi",
+      "intent": "Käyn läpi Seuran viikkohoroskoopin ja suunnitelen viikkoni sen mukaan"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ruv.is",
+      "intent": "Læse de seneste nyheder om kultur og underholdning på RÚV"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ruv.is",
+      "intent": "Søge efter information om islandske kunstnere og deres værker på RÚV"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ruv.is",
+      "intent": "Se en live-stream af et islandske tv-program på RÚV"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ruv.is",
+      "intent": "Tilføje en kommentar til en artikel om islandske forhold på RÚV"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ruv.is",
+      "intent": "Oprette en brugerprofil på RÚV for at modtage personlige anbefalinger"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ruv.is",
+      "intent": "Se mine gemte artikler og videoer på min RÚV-brugerprofil"
+    }
+  ]
+}

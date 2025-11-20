@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://helsingordagblad.dk",
+      "intent": "Læs om de seneste nyheder fra Helsingør og omegn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://helsingordagblad.dk",
+      "intent": "Søg efter information om valgkampen i Helsingør"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://helsingordagblad.dk",
+      "intent": "Se hvilke annoncer der er tilgængelige på siden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://helsingordagblad.dk",
+      "intent": "Læs mine gemte artikler og nyheder"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://helsingordagblad.dk",
+      "intent": "Tilføj en artikel til mine favoritter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://helsingordagblad.dk",
+      "intent": "Se mine abonnementsdetaljer og faktura"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fynbus.dk",
+      "intent": "Jeg søger efter køreplaner for min daglige tur fra Roskilde til København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fynbus.dk",
+      "intent": "Jeg vil gerne se priserne på billetter og kort til min næste rejse"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fynbus.dk",
+      "intent": "Jeg søger efter information om Flextrafik og hvordan jeg kan bruge det til min fordel"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fynbus.dk",
+      "intent": "Jeg vil gerne se mine købte billetter og rejseplaner i min konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fynbus.dk",
+      "intent": "Jeg søger efter at ændre mine kontoinformationer og opdaterer min e-mailadresse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fynbus.dk",
+      "intent": "Jeg vil gerne se mine tidligere rejser og købte billetter for at planlægge min næste tur"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://jlf.fi",
+      "intent": "Etsin tietoa HSL-alueen paikallisliikenteestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://jlf.fi",
+      "intent": "Haluan lukea uusimmat viestit foorumilta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://jlf.fi",
+      "intent": "Tutkin mitä uutta on tapahtunut joukkoliikennefoorumilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://jlf.fi",
+      "intent": "Kirjaudun sisään ja vastaan uusiin viesteihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://jlf.fi",
+      "intent": "Lähetän uuden viestin foorumille aiheesta junaliikenteen muutokset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://jlf.fi",
+      "intent": "Muokkaan profiiliani ja lisään tietoa itsestäni"
+    }
+  ]
+}

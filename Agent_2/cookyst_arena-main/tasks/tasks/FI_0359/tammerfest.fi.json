@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tammerfest.fi",
+      "intent": "Tammerfestin liput tulevat myyntiin loppuvuodesta, haluan tarkistaa hinnat ja ostaa liput"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tammerfest.fi",
+      "intent": "Haluan tarkastella Tammerfestin ohjelmaa ja katsoa, mitkä bändit ja artistit ovat mukana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tammerfest.fi",
+      "intent": "Tammerfestin sivuilla on maininta VIP-lipuista, haluan tietää enemmän niiden hinnoista ja eduista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tammerfest.fi",
+      "intent": "Olen jo ostanut liput, haluan tarkistaa ostohistoriani ja varmistaa, että liput ovat tallessa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tammerfest.fi",
+      "intent": "Haluan muuttaa olemassa olevan lippuvaraukseni, ja tarkistaa, mitkä vaihtoehdot ovat käytettävissä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tammerfest.fi",
+      "intent": "Olen kiinnostunut Tammerfestin kumppaneista, haluan tarkastella heidän tarjoamiaan etuja ja alennuksia"
+    }
+  ]
+}

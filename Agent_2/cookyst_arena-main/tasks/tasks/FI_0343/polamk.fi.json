@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://polamk.fi",
+      "intent": "Hae sivustolta tietoa poliisikoulutuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://polamk.fi",
+      "intent": "Lue opiskelijablogien artikkeleita poliisikoulutuksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://polamk.fi",
+      "intent": "Tutustu Poliisiammattikorkeakoulun tutkimus- ja kehittämistoimintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://polamk.fi",
+      "intent": "Täytä poliisikoulutukseen liittyvä lomake"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://polamk.fi",
+      "intent": "Kirjaudu sisään opiskelijaportaalille ja tarkastele omia tietojasi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://polamk.fi",
+      "intent": "Osallistu poliisikoulutukseen liittyvään keskustelufoorumiin"
+    }
+  ]
+}

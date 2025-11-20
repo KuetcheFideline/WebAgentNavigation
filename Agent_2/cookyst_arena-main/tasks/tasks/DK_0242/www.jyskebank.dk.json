@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jyskebank.dk",
+      "intent": "Jeg søger efter information om investering i aktier og ETF'er på Jyske Bank's hjemmeside"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jyskebank.dk",
+      "intent": "Jeg vil læse om Jyske Bank's tilbud på lån til andelsboliger og sammenligne priser"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jyskebank.dk",
+      "intent": "Jeg ønsker at finde ud af, hvordan jeg kan blive kunde hos Jyske Bank og hvad fordele det giver"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jyskebank.dk",
+      "intent": "Jeg vil logge ind og se mine nuværende kontobalance og transaktioner"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jyskebank.dk",
+      "intent": "Jeg ønsker at overføre penge fra mit konto til en anden konto i Jyske Bank"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jyskebank.dk",
+      "intent": "Jeg vil logge ind og ændre mine kontoinformationer, herunder adresse og telefonnummer"
+    }
+  ]
+}

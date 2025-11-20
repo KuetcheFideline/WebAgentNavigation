@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.azstvdeinze.be",
+      "intent": "Rechercher les services de santé mentale pour les patients atteints de dépression"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.azstvdeinze.be",
+      "intent": "Consulter les informations sur les soins de santé pour les enfants et les adolescents"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.azstvdeinze.be",
+      "intent": "Explorer les offres d'emploi dans le domaine de la santé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.azstvdeinze.be",
+      "intent": "Prendre rendez-vous avec un médecin spécialiste en ligne via le portail MijnZiekenhuis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.azstvdeinze.be",
+      "intent": "Consulter mes résultats d'analyses médicales en ligne via le portail MijnZiekenhuis"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.azstvdeinze.be",
+      "intent": "Gérer mes factures et paiements en ligne via le portail MijnZiekenhuis"
+    }
+  ]
+}

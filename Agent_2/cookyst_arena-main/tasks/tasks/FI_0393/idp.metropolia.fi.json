@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://idp.metropolia.fi",
+      "intent": "Tutkin sivun sisältöä, jotta voin ymmärtää, mitä tämä palvelin tarjoaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://idp.metropolia.fi",
+      "intent": "Etsin tietoa siitä, miten voin hyödyntää tätä palvelinta omassa elämässäni, esimerkiksi puutarhanhoitotoiminnassa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://idp.metropolia.fi",
+      "intent": "Selvittelen, onko tämä palvelin turvallinen ja luotettava, jotta voin suositella sitä ystävilleni ja perheenjäsenilleni."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://idp.metropolia.fi",
+      "intent": "Kirjaudun sisään palvelimeen, jotta voin hallita omia tietojani ja asetuksia, jotka liittyvät eläke-elämääni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://idp.metropolia.fi",
+      "intent": "Tarkastan, onko minulla oikeudet käyttää tiettyjä palveluja, jotka ovat vain kirjautuneille käyttäjille, kuten esimerkiksi sauna- ja puutarhatiloihin liittyvää tietoa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://idp.metropolia.fi",
+      "intent": "Muokkaan profiiliaani, jotta voin varmistaa, että kaikki tietoni ovat ajan tasalla ja oikein, erityisesti eläke- ja terveydenhuollon tarpeisiin liittyen."
+    }
+  ]
+}

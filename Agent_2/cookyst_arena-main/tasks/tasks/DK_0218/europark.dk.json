@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://europark.dk",
+      "intent": "Læs om hyppigt stillede spørgsmål om kontrolgebyrer og p-billetter"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://europark.dk",
+      "intent": "Betal mit kontrolgebyr via hjemmesiden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://europark.dk",
+      "intent": "Se billeder af mit kontrolgebyr og læs om processen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://europark.dk",
+      "intent": "Følg status på min sag og se, om jeg har betalt eller om den er i bero"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://europark.dk",
+      "intent": "Opret en henvendelse om mit kontrolgebyr og få svar på mine spørgsmål"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://europark.dk",
+      "intent": "Tjek mine tidligere kontrolgebyrer og betalinger for at sikre, at alt er i orden"
+    }
+  ]
+}

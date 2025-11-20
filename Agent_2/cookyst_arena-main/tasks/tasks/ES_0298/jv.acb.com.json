@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://jv.acb.com",
+      "intent": "Verificar los resultados de la Liga Endesa para ver quién es el líder actual"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://jv.acb.com",
+      "intent": "Buscar información sobre el equipo Barça y su próximo partido en la Liga Endesa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://jv.acb.com",
+      "intent": "Comparar las estadísticas de los jugadores de los equipos Barça y Baskonia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://jv.acb.com",
+      "intent": "Iniciar sesión para comentar sobre el partido entre Barça y Baskonia en el foro de la página"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://jv.acb.com",
+      "intent": "Crear una cuenta para poder guardar mis equipos favoritos y recibir notificaciones sobre sus partidos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://jv.acb.com",
+      "intent": "Verificar mis estadísticas personales como fanático del equipo Barça y compararlas con las de otros usuarios"
+    }
+  ]
+}

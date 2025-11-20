@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.klubbensport.fi",
+      "intent": "Etsin uusimmat urheiluvarusteet ja vertailen niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.klubbensport.fi",
+      "intent": "Luen asiakaspalvelukeskuksen ohjeita palautuksista ja vaihdoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.klubbensport.fi",
+      "intent": "Selailen eri tuoteryhmiä ja etsin sopivia välineitä uimahalliin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.klubbensport.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuraan pakettien tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.klubbensport.fi",
+      "intent": "Muutan salasanaani ja päivitän yhteystietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.klubbensport.fi",
+      "intent": "Lisään uuden osoitteen ostoskorin toimitusosoitteeksi"
+    }
+  ]
+}

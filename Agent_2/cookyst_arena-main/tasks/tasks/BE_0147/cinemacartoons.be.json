@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cinemacartoons.be",
+      "intent": "Rechercher les films à l'affiche pour la semaine en cours"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cinemacartoons.be",
+      "intent": "Consulter les tarifs et les promotions disponibles pour les tickets de cinéma"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cinemacartoons.be",
+      "intent": "Explorer les options de restauration et de boissons proposées par le cinéma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cinemacartoons.be",
+      "intent": "Réserver des tickets pour le film 'The Last Viking' pour la soirée du samedi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cinemacartoons.be",
+      "intent": "Gérer mes réservations de tickets et mes informations de compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cinemacartoons.be",
+      "intent": "Acheter une carte de fidélité pour bénéficier de réductions sur les tickets de cinéma"
+    }
+  ]
+}

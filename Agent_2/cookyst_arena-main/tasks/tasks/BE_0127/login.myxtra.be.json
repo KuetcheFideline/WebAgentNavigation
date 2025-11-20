@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.myxtra.be",
+      "intent": "Rechercher des informations sur la page d'accueil pour comprendre les raisons de la suppression de la ressource"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.myxtra.be",
+      "intent": "Essayer de me souvenir des coordonnées de connexion pour accéder à mon compte"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.myxtra.be",
+      "intent": "Chercher un lien de connexion ou un formulaire d'inscription pour créer un nouveau compte"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.myxtra.be",
+      "intent": "Consulter mes factures et relevés de compte pour vérifier mes dépenses mensuelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.myxtra.be",
+      "intent": "Configurer les notifications pour recevoir des alertes sur mes dépenses et mes soldes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.myxtra.be",
+      "intent": "Effectuer un virement pour payer mes factures en ligne"
+    }
+  ]
+}

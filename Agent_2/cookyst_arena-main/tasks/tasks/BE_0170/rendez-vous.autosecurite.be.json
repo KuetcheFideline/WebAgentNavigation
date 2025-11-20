@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rendez-vous.autosecurite.be",
+      "intent": "Rechercher un rendez-vous pour le contrôle technique de mon véhicule en utilisant mon numéro de plaque et de châssis."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rendez-vous.autosecurite.be",
+      "intent": "Consulter les questions fréquentes pour comprendre les exigences et les procédures pour le contrôle technique."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rendez-vous.autosecurite.be",
+      "intent": "Lire les conditions générales de vente et le respect de la vie privée pour m'assurer de la sécurité de mes données personnelles."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rendez-vous.autosecurite.be",
+      "intent": "Modifier ou annuler un rendez-vous existant pour le contrôle technique de mon véhicule en utilisant mon compte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rendez-vous.autosecurite.be",
+      "intent": "Consulter l'historique de mes rendez-vous pour le contrôle technique et imprimer les reçus de mes précédentes visites."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rendez-vous.autosecurite.be",
+      "intent": "Mettre à jour mes informations de compte et mes préférences pour recevoir des notifications personnalisées sur les rendez-vous et les résultats du contrôle technique."
+    }
+  ]
+}

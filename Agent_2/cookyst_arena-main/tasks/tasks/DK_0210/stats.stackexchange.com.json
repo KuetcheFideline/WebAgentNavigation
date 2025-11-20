@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://stats.stackexchange.com",
+      "intent": "Jeg søger efter information om statistisk analyse og data visualisering"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://stats.stackexchange.com",
+      "intent": "Jeg ønsker at læse om nyheder og tendenser inden for machine learning og kunstig intelligens"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://stats.stackexchange.com",
+      "intent": "Jeg vil gerne finde ud af, hvordan jeg kan bruge R til at analysere og visualisere data"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://stats.stackexchange.com",
+      "intent": "Jeg ønsker at stille et spørgsmål om regression og korrelation på forummet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://stats.stackexchange.com",
+      "intent": "Jeg vil gerne svare på et spørgsmål om statistisk signifikans og give min ekspertise"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://stats.stackexchange.com",
+      "intent": "Jeg søger efter at oprette en ny diskussion om emnet Bayesian inference og dens anvendelser"
+    }
+  ]
+}

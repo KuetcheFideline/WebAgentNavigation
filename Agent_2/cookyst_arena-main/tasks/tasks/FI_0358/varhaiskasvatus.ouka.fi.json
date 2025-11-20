@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://varhaiskasvatus.ouka.fi",
+      "intent": "Hae varhaiskasvatuspalveluita Tampereen alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://varhaiskasvatus.ouka.fi",
+      "intent": "Selaa sivuston pääsisältöä ja etsi tietoa varhaiskasvatuksen kehittämisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://varhaiskasvatus.ouka.fi",
+      "intent": "Tutki sivuston hakemistoa ja etsi linkkejä aiheeseen liittyviin julkaisuihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://varhaiskasvatus.ouka.fi",
+      "intent": "Kirjaudu sisään ja täytä varhaiskasvatuspalvelujen arviointilomake"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://varhaiskasvatus.ouka.fi",
+      "intent": "Luo uusi varhaiskasvatusryhmä ja määritä sen tiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://varhaiskasvatus.ouka.fi",
+      "intent": "Muokkaa olemassa olevaa varhaiskasvatussuunnitelmaa ja tallenna muutokset"
+    }
+  ]
+}

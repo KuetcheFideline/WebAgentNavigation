@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aminoporssi.fi",
+      "intent": "Selata lisäravinteita ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aminoporssi.fi",
+      "intent": "Tutkia treenivaatteita ja etsi uusimmat muodit"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aminoporssi.fi",
+      "intent": "Etsi tietoa luontaistuotteista ja niiden hyödyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aminoporssi.fi",
+      "intent": "Tilata uusia lisäravinteita ja treenivaatteita omasta tilille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aminoporssi.fi",
+      "intent": "Tarkastella tilaushistoriaa ja seurata tilauksen etenemistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aminoporssi.fi",
+      "intent": "Muokata omia tietoja ja osoitetta tilin asetuksissa"
+    }
+  ]
+}

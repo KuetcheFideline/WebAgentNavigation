@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dxtcampeon.com",
+      "intent": "Buscar noticias sobre el Deportivo de La Coruña en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dxtcampeon.com",
+      "intent": "Explorar la sección de deportes para encontrar artículos sobre fútbol"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dxtcampeon.com",
+      "intent": "Leer la última edición del diario en formato PDF"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dxtcampeon.com",
+      "intent": "Configurar las preferencias de notificación para recibir actualizaciones sobre el Deportivo de La Coruña"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dxtcampeon.com",
+      "intent": "Acceder a la sección de mi perfil para editar la información de cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dxtcampeon.com",
+      "intent": "Desconectar la sesión actual para cerrar la cuenta"
+    }
+  ]
+}

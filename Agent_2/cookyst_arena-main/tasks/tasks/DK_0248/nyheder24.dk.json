@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nyheder24.dk",
+      "intent": "Læse om de seneste nyheder om sundhed og livsstil"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nyheder24.dk",
+      "intent": "Søge efter artikler omkring emnet 'demens' og 'vitaminmangel'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nyheder24.dk",
+      "intent": "Se nyhederne i kategorien 'Udland' for at holde sig opdateret om verdensbegivenheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nyheder24.dk",
+      "intent": "Tilføje en artikel om 'aktiviteter for ældre' til mine favoritter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nyheder24.dk",
+      "intent": "Del en interessant artikel om sundhedsnyt med mine venner via e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nyheder24.dk",
+      "intent": "Kommentere på en artikel om 'plejehjem' for at dele mine erfaringer"
+    }
+  ]
+}

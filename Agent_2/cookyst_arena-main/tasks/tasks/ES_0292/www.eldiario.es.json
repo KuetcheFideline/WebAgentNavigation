@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eldiario.es",
+      "intent": "Buscar noticias sobre la situación política actual en España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eldiario.es",
+      "intent": "Explorar la sección de Economía para conocer las últimas tendencias y noticias"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eldiario.es",
+      "intent": "Leer artículos de opinión sobre temas de actualidad en la sección de Opinión y blogs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eldiario.es",
+      "intent": "Comentar en un artículo sobre la situación laboral en España como parado larga duración"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eldiario.es",
+      "intent": "Crear un artículo de opinión sobre la importancia de la formación profesional para personas en paro"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eldiario.es",
+      "intent": "Participar en un foro de discusión sobre políticas de empleo y apoyo a personas en situación de paro"
+    }
+  ]
+}

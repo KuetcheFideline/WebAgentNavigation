@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hespress.com",
+      "intent": "Rechercher des informations sur les dernières actualités au Maroc"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hespress.com",
+      "intent": "Lire les articles de la rubrique 'économie' pour me tenir informé sur la situation économique actuelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hespress.com",
+      "intent": "Consulter la section 'sports' pour suivre les dernières nouvelles sur les équipes de football marocaines"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hespress.com",
+      "intent": "Publier un commentaire sur un article pour partager mon opinion avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hespress.com",
+      "intent": "Participer à un forum de discussion pour échanger des idées avec d'autres utilisateurs sur des sujets d'actualité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hespress.com",
+      "intent": "Gérer mes abonnements aux newsletters pour recevoir des mises à jour régulières sur les sujets qui m'intéressent"
+    }
+  ]
+}

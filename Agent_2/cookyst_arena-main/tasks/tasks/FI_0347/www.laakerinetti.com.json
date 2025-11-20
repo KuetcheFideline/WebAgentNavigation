@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.laakerinetti.com",
+      "intent": "Hae kuulalaakereita Nokia-projektia varten"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.laakerinetti.com",
+      "intent": "Vertaile eri laakerituotteiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.laakerinetti.com",
+      "intent": "Lue asiakasarvosteluita eri laakerituotteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.laakerinetti.com",
+      "intent": "Tilaa kuulalaakereita työn tarpeisiin ja seuraa tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.laakerinetti.com",
+      "intent": "Lisää uusi osoite tilausosoiteksi ja tallenna se profiiliini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.laakerinetti.com",
+      "intent": "Tarkista tilaushistoriani ja etsi tiettyjä tuotteita, joita olen aiemmin ostanut"
+    }
+  ]
+}

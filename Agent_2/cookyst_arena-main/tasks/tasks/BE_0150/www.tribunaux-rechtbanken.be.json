@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tribunaux-rechtbanken.be",
+      "intent": "Rechercher les informations sur les différents types de tribunaux en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tribunaux-rechtbanken.be",
+      "intent": "Consulter les statistiques sur les tribunaux et les affaires judiciaires"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tribunaux-rechtbanken.be",
+      "intent": "Trouver les coordonnées d'un tribunal spécifique en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tribunaux-rechtbanken.be",
+      "intent": "Accéder à mon dossier personnel pour consulter les informations sur mes affaires en cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tribunaux-rechtbanken.be",
+      "intent": "Déposer une plainte ou une requête en ligne via le portail des tribunaux"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tribunaux-rechtbanken.be",
+      "intent": "Consulter les décisions de justice rendues dans mon affaire et télécharger les documents pertinents"
+    }
+  ]
+}

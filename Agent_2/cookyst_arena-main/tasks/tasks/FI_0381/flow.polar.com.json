@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Käyn sivustolla etsimässä tietoa uusimmista urheilukelloista ja sykemittareista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Luen lisää Polar Flow -palvelun ominaisuuksista ja miten se voi auttaa minua seuraamaan treeniäni ja unta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Selailen sivustoa ja etsin tietoa siitä, miten voin liittää uuden laitteen Polar Flow -palveluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Kirjaudun sisään ja tarkastan treenihistoriani ja asetan uudet tavoitteet Polar Flow -palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Määritän uuden harjoitusohjelman ja lisään sen Polar Flow -kalenteriini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tarkastan uniani ja sykettäni edellisen yön aikana ja analysoin tuloksia Polar Flow -palvelussa"
+    }
+  ]
+}

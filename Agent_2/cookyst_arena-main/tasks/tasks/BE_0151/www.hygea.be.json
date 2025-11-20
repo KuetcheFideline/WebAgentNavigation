@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hygea.be",
+      "intent": "Rechercher les points d'apport volontaire près de ma commune pour déposer des déchets spécifiques"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hygea.be",
+      "intent": "Consulter le guide du tri pour savoir comment trier correctement les déchets organiques et résiduels"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hygea.be",
+      "intent": "Trouver les horaires d'ouverture des recyparcs pour planifier une visite"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hygea.be",
+      "intent": "Accéder à mon espace personnel pour obtenir une carte d'accès aux recyparcs"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hygea.be",
+      "intent": "Recharger mon badge PAV pour continuer à utiliser les services de Hygea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hygea.be",
+      "intent": "Louer un conteneur pour les déchets de mon entreprise en ligne via mon espace personnel"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nilmoto.com",
+      "intent": "Buscar accesorios para mi moto en la tienda online de Nilmoto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nilmoto.com",
+      "intent": "Explorar las diferentes categorías de productos para motos, como accesorios y equipaje"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nilmoto.com",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre los productos de Nilmoto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nilmoto.com",
+      "intent": "Iniciar sesión en mi cuenta de Nilmoto para acceder a mis pedidos y seguimiento de envíos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nilmoto.com",
+      "intent": "Agregar productos al carrito de compras y proceder a realizar un pedido en línea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nilmoto.com",
+      "intent": "Consultar el estado de mi cuenta y realizar un seguimiento de mis pedidos anteriores en Nilmoto"
+    }
+  ]
+}

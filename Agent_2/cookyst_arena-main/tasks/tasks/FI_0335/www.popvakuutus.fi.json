@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.popvakuutus.fi",
+      "intent": "Tutustun vakuutusyhtiön tarjoamiin vakuutuksiin ja vertailen niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.popvakuutus.fi",
+      "intent": "Luen uutisia ja artikkeleita vakuutusyhtiön verkkosivuilta, jotta voin pysyä ajan tasalla vakuutusmaailman trendeistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.popvakuutus.fi",
+      "intent": "Etsin tietoa vakuutusyhtiön asiakaspalvelusta ja sen tarjoamista palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.popvakuutus.fi",
+      "intent": "Tarkastan omat vakuutustiedot ja vahinkoilmoitukset Oma Palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.popvakuutus.fi",
+      "intent": "Muutan omia vakuutustietojani, kuten osoitetta tai puhelinnumeroa, Oma Palvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.popvakuutus.fi",
+      "intent": "Lähetän viestin vakuutusyhtiön asiakaspalvelulle Oma Palvelun kautta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Etsin tietoa Suomen jalkapallomaajoukkueen otteluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Haluan tarkastella jalkapallosarjoja ja -joukkueita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Olen kiinnostunut jalkapallon turnauksista ja kausista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Lisään suosikkeihini joukkueita ja pelaajia, jotta voin seurata heidän otteluitaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Muokkaan suosikkejani, jotta voin helpommin seurata mielenkiintoisimpia otteluita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Tilaan Palloliiton uutiskirjeen, jotta saan ajantasaiset tiedot jalkapallon maailmasta"
+    }
+  ]
+}

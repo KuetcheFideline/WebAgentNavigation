@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.yhkodit.fi",
+      "intent": "Etsin vuokra-asuntoja Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.yhkodit.fi",
+      "intent": "Luen lisää asunnon hakemisesta ja tulorajoista asukasvalinnassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.yhkodit.fi",
+      "intent": "Selvitan, mitä tarkoittaa varallisuusraja vuokra-asunnoissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.yhkodit.fi",
+      "intent": "Täytän hakemuksen vuokra-asunnolle ja odotan yhteydenottoa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.yhkodit.fi",
+      "intent": "Lisään asunnon hakemukselle ja seuraan hakemukseni tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.yhkodit.fi",
+      "intent": "Tarkastan asunnoni vuokrasopimuksen ja etsin tietoa vuokran maksamisesta"
+    }
+  ]
+}

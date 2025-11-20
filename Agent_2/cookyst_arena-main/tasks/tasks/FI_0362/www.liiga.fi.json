@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Selvittää jääkiekon Liigan tulevia otteluita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Löytää tietoa suosikkijoukkueesta, HIFK:sta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Etsiä jääkiekkoon liittyviä uutisia ja artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Ostaa liput tulevaan jääkiekko-otteluun, kun olen kirjautunut sisään"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Osallistua keskusteluun jääkiekosta foorumilla, kun olen kirjautunut sisään"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Tarkistaa omat tilastot ja profiilini, kun olen kirjautunut sisään"
+    }
+  ]
+}

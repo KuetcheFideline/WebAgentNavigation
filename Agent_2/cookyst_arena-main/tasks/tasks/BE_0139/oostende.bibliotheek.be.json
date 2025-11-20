@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oostende.bibliotheek.be",
+      "intent": "Rechercher des livres en français pour mes enfants à la bibliothèque d'Oostende"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oostende.bibliotheek.be",
+      "intent": "Consulter les horaires d'ouverture de la bibliothèque pour planifier ma visite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oostende.bibliotheek.be",
+      "intent": "Découvrir les activités proposées par la bibliothèque pour les expatriés comme moi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oostende.bibliotheek.be",
+      "intent": "Réserver un livre en ligne pour le récupérer à la bibliothèque plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oostende.bibliotheek.be",
+      "intent": "Gérer ma liste de livres empruntés et les dates de retour pour éviter les pénalités"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oostende.bibliotheek.be",
+      "intent": "Suggérer l'achat d'un nouveau livre à la bibliothèque en fonction de mes lectures précédentes"
+    }
+  ]
+}

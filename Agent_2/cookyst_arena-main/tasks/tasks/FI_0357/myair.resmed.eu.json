@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://myair.resmed.eu",
+      "intent": "Valitse Suomi maana ja tutustu myAir-palvelun ominaisuuksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://myair.resmed.eu",
+      "intent": "Etsi tietoa unenlaadusta ja sen merkityksestä terveydelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://myair.resmed.eu",
+      "intent": "Selvitä, miten myAir-palvelu voi auttaa hoitajana työssäni potilaiden unihäiriöiden hoidossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://myair.resmed.eu",
+      "intent": "Tarkista omat unenlaatuani ja vertaa niitä aiempiin tuloksiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://myair.resmed.eu",
+      "intent": "Määritä uusi unen seurantajakso ja aseta hälytykset epätavallisista unenlaatuista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://myair.resmed.eu",
+      "intent": "Lataa ja tulosta unenlaatuani koskevat tiedot ja käytä niitä lääkärin kanssa käytävissä keskusteluissa"
+    }
+  ]
+}

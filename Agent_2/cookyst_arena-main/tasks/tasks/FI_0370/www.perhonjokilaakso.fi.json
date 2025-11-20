@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.perhonjokilaakso.fi",
+      "intent": "Luen uusimmat uutiset Perhonjokilaakson alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.perhonjokilaakso.fi",
+      "intent": "Etsin tietoa paikallisten yritysten menestyksestä viime vuonna"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.perhonjokilaakso.fi",
+      "intent": "Selvitan, miten voin vertailla kuvia Koulutie-aiheesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.perhonjokilaakso.fi",
+      "intent": "Tilaa uutisvinkki ja annan palautetta jutuista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.perhonjokilaakso.fi",
+      "intent": "Tee osoitteenmuutos tilaajatiedoissani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.perhonjokilaakso.fi",
+      "intent": "Tarkastan tilaajani tiedot ja tilaukseni"
+    }
+  ]
+}

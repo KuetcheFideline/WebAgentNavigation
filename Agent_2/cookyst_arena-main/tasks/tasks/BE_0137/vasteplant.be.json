@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vasteplant.be",
+      "intent": "Rechercher des plantes pour mon jardin en utilisant le catalogue en ligne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vasteplant.be",
+      "intent": "Consulter les conseils pour l'entretien des plantes dans la rubrique 'Planten van de Maand'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vasteplant.be",
+      "intent": "Acheter une carte cadeau pour offrir à un ami qui aime le jardinage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vasteplant.be",
+      "intent": "Accéder à mon compte pour gérer mes commandes et mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vasteplant.be",
+      "intent": "Créer une liste de plantes à acheter pour mon prochain projet de jardinage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vasteplant.be",
+      "intent": "Demander un devis pour un projet de conception de jardin personnalisé"
+    }
+  ]
+}

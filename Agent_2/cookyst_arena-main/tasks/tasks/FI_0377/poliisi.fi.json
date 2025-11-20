@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://poliisi.fi",
+      "intent": "Hae passia, koska minun on lähdettävä ulkomaille työmatkalle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://poliisi.fi",
+      "intent": "Tee rikosilmoitus, koska minut on ryöstetty"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://poliisi.fi",
+      "intent": "Lue lisää poliisin lupapalveluista, koska minun on haettava aselupaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://poliisi.fi",
+      "intent": "Tarkista omaan nimeeni liittyvät rikosrekisteritiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://poliisi.fi",
+      "intent": "Jätä vihje poliisille, koska olen nähnyt epäilyttävän tapahtuman"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://poliisi.fi",
+      "intent": "Tee ajanvaraus poliisiasemalle, koska minun on haettava uutta henkilökorttia"
+    }
+  ]
+}

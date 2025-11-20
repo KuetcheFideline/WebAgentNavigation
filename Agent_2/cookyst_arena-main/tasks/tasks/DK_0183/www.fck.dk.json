@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fck.dk",
+      "intent": "Jeg søger efter information om F.C. Københavns kommende kampe"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fck.dk",
+      "intent": "Jeg vil købe billetter til en af F.C. Københavns kampe"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fck.dk",
+      "intent": "Jeg ønsker at læse nyheder om F.C. København"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fck.dk",
+      "intent": "Jeg vil tilføje en kommentar til en artikel om F.C. København"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fck.dk",
+      "intent": "Jeg søger efter mine personlige billetindstillinger på F.C. Københavns hjemmeside"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fck.dk",
+      "intent": "Jeg vil se mine tidligere køb af billetter på F.C. Københavns hjemmeside"
+    }
+  ]
+}

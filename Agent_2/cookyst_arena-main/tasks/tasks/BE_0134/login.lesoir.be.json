@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.lesoir.be",
+      "intent": "Je veux comprendre pourquoi j'ai été redirigé vers cette page d'erreur pour résoudre le problème d'accès"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.lesoir.be",
+      "intent": "Je souhaite trouver des informations sur la façon de me connecter correctement pour accéder à mon compte"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.lesoir.be",
+      "intent": "Je veux rechercher des alternatives pour accéder à l'information que je cherche sans passer par cette page de connexion"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.lesoir.be",
+      "intent": "Je veux accéder à mes paramètres de compte pour mettre à jour mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.lesoir.be",
+      "intent": "Je souhaite consulter mes abonnements et gérer mes préférences de contenu"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.lesoir.be",
+      "intent": "Je veux me déconnecter de mon compte pour garantir ma sécurité en ligne"
+    }
+  ]
+}

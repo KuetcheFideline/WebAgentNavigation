@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.helatukku.com",
+      "intent": "Tutustun Helatukun verkkokaupan etusivulle ja etsin tietoa tuotteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.helatukku.com",
+      "intent": "Selailen Helatukun verkkokaupan tuotevalikoimaa ja etsin uusimmat tuotteet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.helatukku.com",
+      "intent": "Luen lisää Helatukun yhteistyöstä Vauth-Sagelin kanssa ja sen tarjoamista tuotteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.helatukku.com",
+      "intent": "Kirjaudun sisään Helatukun verkkokauppaan ja tarkastan tilaushistoriani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.helatukku.com",
+      "intent": "Muokkaan profiiliini Helatukun verkkokaupassa ja päivitän osoitetietoni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.helatukku.com",
+      "intent": "Tee tilaus Helatukun verkkokaupasta ja valitsen toimitustavan"
+    }
+  ]
+}

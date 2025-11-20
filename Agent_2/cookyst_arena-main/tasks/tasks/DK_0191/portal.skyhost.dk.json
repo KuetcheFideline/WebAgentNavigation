@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.skyhost.dk",
+      "intent": "Jeg skal finde information om, hvordan jeg kan få adgang til min konto på Skyhost WebPortal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.skyhost.dk",
+      "intent": "Jeg vil gerne vide mere om, hvordan jeg kan bruge WebPortalen til at styre mine skytjenester"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.skyhost.dk",
+      "intent": "Jeg søger efter en vejledning til, hvordan jeg kan ændre mit kodeord på Skyhost WebPortal"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.skyhost.dk",
+      "intent": "Jeg vil gerne se mine nuværende skytjenester og kontrollere, om alt fungerer korrekt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.skyhost.dk",
+      "intent": "Jeg skal opdatere mine kontoinformationer på Skyhost WebPortal for at sikre, at alt er op til dato"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.skyhost.dk",
+      "intent": "Jeg vil gerne downloade mine fakturaer fra Skyhost WebPortal for at holde styr på mine udgifter"
+    }
+  ]
+}

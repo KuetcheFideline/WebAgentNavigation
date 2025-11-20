@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Lue uusimmat uutiset Suomesta ja maailmalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Etsi tietoa Helsingin Sanomien sivuilta käyttämällä hakutoimintoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Selaa HS:n tarjoamia palveluita, kuten lehtien tilaamista ja uutiskirjeitä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Tilaa Helsingin Sanomat ja hallinnoi tilausta omassa asiakasprofiilissani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Muokkaa omia etusivun asetuksia, kuten valitse omaa etusivua varten suositeltua sisältöä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Ota yhteyttä asiakaspalveluun ja pyydä apua mahdollisiin kysymyksiini liittyen"
+    }
+  ]
+}

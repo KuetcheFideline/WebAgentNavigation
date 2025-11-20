@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://administracionelectronica.gob.es",
+      "intent": "Buscar información sobre los trámites administrativos disponibles en el portal de la Administración Electrónica"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://administracionelectronica.gob.es",
+      "intent": "Explorar las secciones de Actualidad y Noticias para estar al tanto de las últimas novedades en la Administración Pública"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://administracionelectronica.gob.es",
+      "intent": "Acceder al buscador de soluciones para encontrar herramientas y recursos útiles para mi trabajo como funcionario"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://administracionelectronica.gob.es",
+      "intent": "Identificarme en el portal para acceder a mis trámites y documentos personales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://administracionelectronica.gob.es",
+      "intent": "Registrar una nueva solución en el portal para compartir conocimientos y experiencias con otros funcionarios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://administracionelectronica.gob.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre temas de interés en la Administración Pública"
+    }
+  ]
+}

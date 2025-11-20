@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sygehussonderjylland.dk",
+      "intent": "Jeg søger efter information omkring akuthjælp på sygehuset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sygehussonderjylland.dk",
+      "intent": "Jeg vil gerne vide mere om patientrettigheder og mine rettigheder som patient"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sygehussonderjylland.dk",
+      "intent": "Jeg søger efter praktisk information omkring parkering og adgang til sygehuset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sygehussonderjylland.dk",
+      "intent": "Jeg vil gerne se mine aftaler og bookinger i Mit Sygehus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sygehussonderjylland.dk",
+      "intent": "Jeg ønsker at deltage i en videosamtale via Mit Sygehus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sygehussonderjylland.dk",
+      "intent": "Jeg vil gerne få adgang til mine sundhedsoplysninger og patientjournal i Mit Sygehus"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.starttis.fi",
+      "intent": "Etsin uusimmat uutiset Suomesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.starttis.fi",
+      "intent": "Hae Googlella tietoa Nokian uusimmista tuotteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.starttis.fi",
+      "intent": "Selaa Suomi24:n keskusteluja aiheesta 'IT-urheilu'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.starttis.fi",
+      "intent": "Tallenna Wikipedia-linkki Nokian historiaan suosikkisivuihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.starttis.fi",
+      "intent": "Lisää kommentti Suomi24:n keskustelupalstalle aiheesta 'Pilvitallennus'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.starttis.fi",
+      "intent": "Muokkaa oman profiilin tietoja, korostaen osaamista cloud-arkkitehtuurissa"
+    }
+  ]
+}

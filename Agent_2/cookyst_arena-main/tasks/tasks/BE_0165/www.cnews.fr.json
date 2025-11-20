@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cnews.fr",
+      "intent": "Je veux consulter les dernières actualités en direct pour rester informé sur les événements actuels"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cnews.fr",
+      "intent": "Je souhaite regarder les replays des émissions pour me tenir au courant des sujets qui m'intéressent"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cnews.fr",
+      "intent": "Je veux explorer les podcasts pour découvrir de nouveaux sujets et émissions"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cnews.fr",
+      "intent": "Je veux commenter un article pour partager mon opinion et engager une discussion avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cnews.fr",
+      "intent": "Je souhaite personnaliser mes préférences de contenu pour recevoir des actualités ciblées sur mes centres d'intérêt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cnews.fr",
+      "intent": "Je veux accéder à mon compte pour gérer mes abonnements et mes notifications"
+    }
+  ]
+}

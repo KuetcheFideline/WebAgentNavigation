@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://empresas.fundae.es",
+      "intent": "Descargar el esquema de Acciones Formativas para entender los requisitos de formación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://empresas.fundae.es",
+      "intent": "Buscar información sobre los trámites de devolución del Banco de España relacionados con la formación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://empresas.fundae.es",
+      "intent": "Explorar las opciones de carga masiva de acciones formativas y grupos formativos para empresas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://empresas.fundae.es",
+      "intent": "Acceder a la gestión de mi formación para seleccionar el ejercicio correspondiente y realizar operaciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://empresas.fundae.es",
+      "intent": "Descargar el fichero de ejemplo de Acciones Formativas para preparar la carga de datos de mi empresa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://empresas.fundae.es",
+      "intent": "Realizar la carga masiva de datos de acciones formativas y grupos formativos para el ejercicio seleccionado"
+    }
+  ]
+}

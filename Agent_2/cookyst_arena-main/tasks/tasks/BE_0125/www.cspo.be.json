@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cspo.be",
+      "intent": "Rechercher les services médicaux proposés par la Clinique Saint-Pierre Ottignies pour trouver des informations sur les soins de santé"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cspo.be",
+      "intent": "Consulter les coordonnées et les heures d'ouverture des différents centres médicaux de la Clinique Saint-Pierre Ottignies pour planifier une visite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cspo.be",
+      "intent": "Explorer les actualités et les événements organisés par la Clinique Saint-Pierre Ottignies pour rester informé sur les dernières nouvelles en matière de santé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cspo.be",
+      "intent": "Prendre rendez-vous en ligne pour une consultation médicale après s'être connecté à son compte sur le site de la Clinique Saint-Pierre Ottignies"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cspo.be",
+      "intent": "Accéder à mes données médicales personnelles et consulter mes résultats d'analyses en ligne après connexion à mon compte sur le site de la Clinique Saint-Pierre Ottignies"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cspo.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux et recevoir des rappels après m'être connecté à mon compte sur le site de la Clinique Saint-Pierre Ottignies"
+    }
+  ]
+}

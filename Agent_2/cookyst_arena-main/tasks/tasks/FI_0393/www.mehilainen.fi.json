@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Hae lääkärin ajanvarauksia ja vertaile eri lääkärien saatavuutta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Selaa Mehiläisen tarjoamia terveyspalveluita ja lue niiden kuvausten"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Tutustu OmaMehiläinen-sovellukseen ja sen tarjoamiin ominaisuuksiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Varmista, että oma lääkäri on oikein merkittynä OmaMehiläisen profiiliin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Tee ajanvaraus lääkärille OmaMehiläisen kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Lue ja tulosta omat lääkemääräykset ja hoitosuunnitelma OmaMehiläisestä"
+    }
+  ]
+}

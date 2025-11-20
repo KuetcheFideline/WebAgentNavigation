@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://migri.fi",
+      "intent": "Hae sivustolta tietoa oleskelulupahakemuksen täyttämisestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://migri.fi",
+      "intent": "Selvitä miten voin hakea Suomeen oleskelulupaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://migri.fi",
+      "intent": "Lue asiakastiedotteita maahanmuuttoviraston verkkopalvelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://migri.fi",
+      "intent": "Täytä oleskelulupahakemus verkkopalvelussa Enter Finland"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://migri.fi",
+      "intent": "Seuraa oleskelulupahakemukseni etenemistä verkkopalvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://migri.fi",
+      "intent": "Ilmoita muutoksista oleskelulupahakemukseni liittyen verkkopalvelussa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://auth.finnair.com",
+      "intent": "Valitse maani ja kieleni, jotta voin varata lennot helposti"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://auth.finnair.com",
+      "intent": "Etsi lentotarjouksia Etelä-Amerikkaan, koska haluan viettää talven lämpimässä ilmastossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://auth.finnair.com",
+      "intent": "Tutki Finnairin golfmatkoihin liittyviä tarjouksia, koska golf on yksi lempiharrastuksistani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://auth.finnair.com",
+      "intent": "Tarkista lennon varaustani ja tee tarvittavat muutokset, jotta matkani sujuisi suunnitelmien mukaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://auth.finnair.com",
+      "intent": "Varaa istuinpaikka lennolle, jotta voin istua mukavasti matkalla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://auth.finnair.com",
+      "intent": "Tee check-in lennolle etukäteen, jotta voin säästää aikaa lentokentällä"
+    }
+  ]
+}

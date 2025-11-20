@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Rechercher les informations sur les comptes épargne pour les particuliers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Comparer les différentes options de prêt pour l'achat d'une maison"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Trouver des informations sur les assurances pour les véhicules"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Consulter mon relevé de compte en ligne pour vérifier mes transactions récentes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Effectuer un virement bancaire vers un compte tiers"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Gérer mes paramètres de sécurité et de confidentialité pour mon compte en ligne"
+    }
+  ]
+}

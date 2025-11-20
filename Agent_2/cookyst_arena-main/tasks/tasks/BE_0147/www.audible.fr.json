@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.audible.fr",
+      "intent": "Je veux parcourir les catégories de livres audio pour trouver un titre qui m'intéresse."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.audible.fr",
+      "intent": "Je souhaite écouter un extrait d'un livre audio pour voir si je vais aimer l'histoire."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.audible.fr",
+      "intent": "Je veux découvrir les dernières nouveautés en matière de livres audio pour rester à jour sur les tendances littéraires."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.audible.fr",
+      "intent": "Je veux accéder à ma bibliothèque d'abonné pour télécharger un nouveau livre audio et continuer à écouter où j'en étais."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.audible.fr",
+      "intent": "Je souhaite gérer mes paramètres de compte pour personnaliser mon expérience d'écoute sur Audible."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.audible.fr",
+      "intent": "Je veux consulter mon historique d'écoute pour retrouver un livre audio que j'ai aimé et que je veux recommander à un ami."
+    }
+  ]
+}

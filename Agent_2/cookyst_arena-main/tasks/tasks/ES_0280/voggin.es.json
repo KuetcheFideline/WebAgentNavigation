@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://voggin.es",
+      "intent": "Buscar vestidos para una ocasión especial en la sección de VESTIDOS PREMIUM"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://voggin.es",
+      "intent": "Comparar precios de los vestidos en la sección de VESTIDOS y VESTIDOS PREMIUM"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://voggin.es",
+      "intent": "Explorar la sección de OUTLET para encontrar ofertas y descuentos en ropa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://voggin.es",
+      "intent": "Agregar el vestido Antonella a mi carrito de compras y proceder al pago"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://voggin.es",
+      "intent": "Verificar el estado de mi pedido y seguir su rastreo en mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://voggin.es",
+      "intent": "Dejar una reseña y calificación para el vestido que compré en la sección de comentarios"
+    }
+  ]
+}

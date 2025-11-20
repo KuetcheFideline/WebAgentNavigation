@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oauth.smartschool.be",
+      "intent": "Rechercher les informations de connexion pour accéder à mon compte Smartschool"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oauth.smartschool.be",
+      "intent": "Explorer les fonctionnalités de l'application Smartschool pour comprendre comment elle peut m'aider dans ma vie quotidienne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oauth.smartschool.be",
+      "intent": "Lire les informations sur la confidentialité des données pour comprendre comment mes informations personnelles sont protégées"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oauth.smartschool.be",
+      "intent": "Consulter mes notes et mes relevés de notes pour suivre mes progrès scolaires"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oauth.smartschool.be",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes importantes sur mes activités scolaires"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oauth.smartschool.be",
+      "intent": "Accéder à la plateforme de discussion pour discuter avec mes enseignants et mes camarades de classe"
+    }
+  ]
+}

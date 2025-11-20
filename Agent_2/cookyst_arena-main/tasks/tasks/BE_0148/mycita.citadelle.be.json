@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mycita.citadelle.be",
+      "intent": "Rechercher les services en ligne disponibles pour les patients sur le portail MyCITA"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mycita.citadelle.be",
+      "intent": "Consulter les informations sur le service d'accompagnement personnalisé aux personnes à besoins spécifiques (PBS) proposé par la Citadelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mycita.citadelle.be",
+      "intent": "Explorer les options de connexion et d'inscription au portail MyCITA, notamment via la carte d'identité (eID), CSAM ou login et mot de passe"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mycita.citadelle.be",
+      "intent": "Prendre un rendez-vous en ligne avec un médecin traitant après s'être connecté à son compte sur le portail MyCITA"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mycita.citadelle.be",
+      "intent": "Gérer son compte en ligne, notamment en mettant à jour les informations de contact et en consultant les résultats de laboratoire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mycita.citadelle.be",
+      "intent": "Utiliser le service de facturation en ligne pour régler les frais médicaux après une consultation ou un traitement"
+    }
+  ]
+}

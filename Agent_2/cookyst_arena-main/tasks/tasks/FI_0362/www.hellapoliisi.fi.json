@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hellapoliisi.fi",
+      "intent": "Etsin reseptejä broilerin valmistamiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hellapoliisi.fi",
+      "intent": "Haluan tietää, mitä uusia reseptejä on lisätty sivustolle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hellapoliisi.fi",
+      "intent": "Löydän Viikon ruokalistan vko 47/2025"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hellapoliisi.fi",
+      "intent": "Tallennan suosikkireseptini ja jaan niitä perheeni kanssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hellapoliisi.fi",
+      "intent": "Olen kiinnostunut ostamaan Hellapoliisin keittokirjan verkkokaupasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hellapoliisi.fi",
+      "intent": "Haluan muokata profiiliini ja lisätä kuvan itsestäni"
+    }
+  ]
+}

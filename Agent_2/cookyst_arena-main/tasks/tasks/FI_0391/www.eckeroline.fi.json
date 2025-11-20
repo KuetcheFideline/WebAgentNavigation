@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eckeroline.fi",
+      "intent": "Hae Tallinnan risteilyt ja vertaa hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eckeroline.fi",
+      "intent": "Selaa hotellipaketteja Viroon ja etsi sopiva matkustuspaketti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eckeroline.fi",
+      "intent": "Tutki Eckerö Linen laivojen valikoimaa ja etsi tietoa M/s Finlandian hyteistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eckeroline.fi",
+      "intent": "Tee varaus risteilylle ja kirjaudu sisään tilillesi vahvistamaan varaus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eckeroline.fi",
+      "intent": "Tarkastele tilin ostoshistoriaa ja etsi tietoa aiemmista risteilyvarauksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eckeroline.fi",
+      "intent": "Muuta tilin asetuksia ja päivitä henkilökohtaiset tiedot"
+    }
+  ]
+}

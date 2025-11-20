@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.antena3.com",
+      "intent": "Ver la programación de televisión de esta semana para ver si hay algún programa que me guste."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.antena3.com",
+      "intent": "Buscar noticias sobre la situación política actual en España para mantenerme informado."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.antena3.com",
+      "intent": "Explorar la sección de series y programas para ver si hay algo nuevo que me interese ver."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.antena3.com",
+      "intent": "Configurar mis preferencias de notificaciones para recibir actualizaciones sobre mis programas favoritos."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.antena3.com",
+      "intent": "Crear una lista de reproducción personalizada con mis programas y series favoritas para ver en cualquier momento."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.antena3.com",
+      "intent": "Participar en una encuesta o votación sobre un tema de actualidad para hacer oír mi opinión."
+    }
+  ]
+}

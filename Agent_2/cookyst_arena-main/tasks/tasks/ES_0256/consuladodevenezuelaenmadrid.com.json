@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://consuladodevenezuelaenmadrid.com",
+      "intent": "Solicitar información sobre los requisitos para obtener un pasaporte venezolano"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://consuladodevenezuelaenmadrid.com",
+      "intent": "Buscar información sobre los trámites necesarios para registrar un nacimiento en el consulado"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://consuladodevenezuelaenmadrid.com",
+      "intent": "Descargar el formulario de solicitud de certificado de antecedentes penales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://consuladodevenezuelaenmadrid.com",
+      "intent": "Solicitar una cita para tramitar la prórroga de un pasaporte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://consuladodevenezuelaenmadrid.com",
+      "intent": "Verificar el estado de mi solicitud de certificado de datos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://consuladodevenezuelaenmadrid.com",
+      "intent": "Imprimir la constancia de no haber sido becado"
+    }
+  ]
+}

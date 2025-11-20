@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://spc.smartschool.be",
+      "intent": "Rechercher les informations sur les cours en ligne pour mon apprentissage d'aide-soignant"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://spc.smartschool.be",
+      "intent": "Explorer les ressources disponibles pour les étudiants en formation professionnelle sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://spc.smartschool.be",
+      "intent": "Vérifier les liens vers les applications et les ressources externes proposées par l'école"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://spc.smartschool.be",
+      "intent": "Consulter mon emploi du temps scolaire et les devoirs à rendre pour la semaine"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://spc.smartschool.be",
+      "intent": "Accéder à la plateforme de communication avec mes enseignants pour discuter de mon progrès"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://spc.smartschool.be",
+      "intent": "Télécharger les documents et les supports de cours pour les prochaines séances de formation"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cozo.be",
+      "intent": "Rechercher des informations sur la façon dont CoZo peut aider les patients à gérer leurs dossiers médicaux en ligne."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cozo.be",
+      "intent": "Lire les dernières actualités sur le portail CoZo pour rester informé sur les mises à jour et les nouveautés du système de santé en ligne."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cozo.be",
+      "intent": "Consulter la section FAQ pour comprendre comment fonctionne le processus d'inscription et d'utilisation de la plateforme CoZo."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cozo.be",
+      "intent": "Accéder à mon compte patient pour consulter mes dossiers médicaux et suivre l'évolution de mes traitements en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cozo.be",
+      "intent": "Gérer mes autorisations pour permettre à mon médecin traitant d'accéder à mes informations de santé et de suivre mes soins de manière efficace."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cozo.be",
+      "intent": "Consulter les messages et les notifications reçus de la part de mon équipe de soins pour rester informé sur mon état de santé et les prochaines étapes de mon traitement."
+    }
+  ]
+}

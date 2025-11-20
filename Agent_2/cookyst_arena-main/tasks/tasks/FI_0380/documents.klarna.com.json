@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://documents.klarna.com",
+      "intent": "Selvitän, miten voin maksaa laskuni Klarnan kautta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://documents.klarna.com",
+      "intent": "Luen Klarnan asiakastarinat, jotta voin ymmärtää heidän palvelunsa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://documents.klarna.com",
+      "intent": "Etsin tietoa Klarnan turvallisuudesta ja miten he suojaavat asiakkaidensa tietoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://documents.klarna.com",
+      "intent": "Tarkastan tilini saldon ja viimeaikaiset tapahtumat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://documents.klarna.com",
+      "intent": "Muutan tilini asetuksia, jotta voin hallita laskujeni maksamista helpommin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://documents.klarna.com",
+      "intent": "Lähetän viestin Klarnan asiakaspalveluun, koska minulla on kysymys maksamisesta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Jeg søger efter nyheder om lokale begivenheder i mit område"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Jeg ønsker at læse om debat og kommentarer om aktuelle emner"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Jeg vil se, hvad der sker i underholdningsverdenen, især omkring film og tv-serier"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Jeg vil tilmelde mig nyhedsbrevet for at få opdateringer om nyheder og begivenheder"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Jeg ønsker at kommentere på en artikel om en aktuel begivenhed"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Jeg vil ændre mine nyhedsnotifikationsindstillinger for at få besked om bestemte emner"
+    }
+  ]
+}

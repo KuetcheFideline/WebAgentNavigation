@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.policia.gob.es",
+      "intent": "Buscar información sobre los trámites de extranjería disponibles en la sede electrónica de la Policía Nacional"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.policia.gob.es",
+      "intent": "Consultar la guía de navegación y normativa para entender cómo funciona la sede electrónica"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.policia.gob.es",
+      "intent": "Localizar las dependencias de Policía Nacional en Madrid para realizar trámites personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.policia.gob.es",
+      "intent": "Solicitar un permiso de viaje para menores como titular de la cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.policia.gob.es",
+      "intent": "Verificar el estado de mis solicitudes pendientes en la sede electrónica"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.policia.gob.es",
+      "intent": "Realizar un pago de tasas de Reconocimientos, Autorizaciones y Concursos mediante el formulario 790"
+    }
+  ]
+}

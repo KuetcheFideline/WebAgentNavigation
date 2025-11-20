@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jahtimedia.fi",
+      "intent": "Luen uusimmat metsästysuutiset ja artikkelit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jahtimedia.fi",
+      "intent": "Etsin tietoa hirvijahdista ja sen säännöistä Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jahtimedia.fi",
+      "intent": "Selailen metsästyskoirien ja riista-ruoan aiheisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jahtimedia.fi",
+      "intent": "Kirjaudun sisään ja kommentoin viimeisintä metsästysaiheista artikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jahtimedia.fi",
+      "intent": "Lisään oman tarinani metsästyskokemuksistani ja jaan sen muiden käyttäjien kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jahtimedia.fi",
+      "intent": "Osallistun keskusteluun metsästysaiheisessa foorumissa ja vastaan muiden kysymyksiin"
+    }
+  ]
+}

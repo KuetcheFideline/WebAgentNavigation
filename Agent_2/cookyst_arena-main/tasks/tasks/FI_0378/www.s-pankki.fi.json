@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.s-pankki.fi",
+      "intent": "Tutustun S-Pankin verkkopalveluihin ja etsin tietoa lainoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.s-pankki.fi",
+      "intent": "Selvittelen miten voin tulla S-Pankin asiakkaaksi ja mitä hyötyjä siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.s-pankki.fi",
+      "intent": "Etsin tietoa S-Pankin eri tilien ominaisuuksista ja etsin parasta vaihtoehtoa itselleni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.s-pankki.fi",
+      "intent": "Tarkastan tilieni saldot ja siirrän rahaa yhdestä tileistä toiseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.s-pankki.fi",
+      "intent": "Haelen asuntolainaa ja täytän lainahakemuslomakkeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.s-pankki.fi",
+      "intent": "Tarkastan lainojeni tilannetta ja etsin mahdollisuuksia lainojen uudelleenjärjestelyyn"
+    }
+  ]
+}

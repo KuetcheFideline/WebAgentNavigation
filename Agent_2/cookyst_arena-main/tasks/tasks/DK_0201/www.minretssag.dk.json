@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.minretssag.dk",
+      "intent": "Jeg søger efter vejledninger til at anlægge en civil sag ved domstolene."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.minretssag.dk",
+      "intent": "Jeg ønsker at læse om de seneste opdateringer og tekniske problemer på minretssag.dk."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.minretssag.dk",
+      "intent": "Jeg har brug for at kontakte den tekniske support for at få hjælp med en sag."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.minretssag.dk",
+      "intent": "Jeg vil tilføje dokumenter til min sag efter at have logget ind på minretssag.dk."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.minretssag.dk",
+      "intent": "Jeg ønsker at se status på min sag og følge med i behandlingen efter at have logget ind."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.minretssag.dk",
+      "intent": "Jeg vil ændre mine kontaktoplysninger og rettigheder i forbindelse med min sag efter at have logget ind."
+    }
+  ]
+}

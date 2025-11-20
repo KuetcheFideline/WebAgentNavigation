@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jv.dk",
+      "intent": "Læs om nyheder fra Syd- og Sønderjylland"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jv.dk",
+      "intent": "Søg efter lokale begivenheder i Aarhus"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jv.dk",
+      "intent": "Se hvilke annoncer der er tilgængelige for abonnenter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jv.dk",
+      "intent": "Tjek min selvbetjening og abonnementsdetaljer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jv.dk",
+      "intent": "Læs artikler og nyheder som er reserveret til abonnenter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jv.dk",
+      "intent": "Administrer mine abonnementsindstillinger og betalingsoplysninger"
+    }
+  ]
+}

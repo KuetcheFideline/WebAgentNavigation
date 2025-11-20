@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pxdata.stat.fi",
+      "intent": "Hae tietoa Suomen väestöstä ja yhteiskunnasta StatFin-tietokannasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pxdata.stat.fi",
+      "intent": "Selvitä miten Paavo-palvelun postinumeroalueittaista tilastotietoa voidaan hyödyntää asukasrakenteen tutkimisessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pxdata.stat.fi",
+      "intent": "Etsi tietoa kuntien avainluvuista ja niiden kehittymisestä Kuntien avainluvut -tietokannasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pxdata.stat.fi",
+      "intent": "Tallenna ja jaettu StatFin-tietokannan tilastotiedot omiin tutkimusmuistiinpanoihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pxdata.stat.fi",
+      "intent": "Luo ja konfiguroi oman tilastojen visualisoinnin Paavo-palvelun avulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pxdata.stat.fi",
+      "intent": "Lataa ja analysoi Kestävän kehityksen YK-indikaattorit -tietokannan dataa oman tutkimuksen tarpeisiin"
+    }
+  ]
+}

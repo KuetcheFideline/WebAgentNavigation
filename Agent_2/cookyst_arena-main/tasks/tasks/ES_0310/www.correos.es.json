@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.correos.es",
+      "intent": "Buscar información sobre cómo realizar un envío de paquete a Ourense"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.correos.es",
+      "intent": "Localizar oficinas de Correos cerca de mi ubicación en Ourense"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.correos.es",
+      "intent": "Descargar la nueva aplicación móvil de Correos para gestionar mis envíos de forma más fácil"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.correos.es",
+      "intent": "Verificar el estado de mis envíos pendientes y realizar un seguimiento de los mismos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.correos.es",
+      "intent": "Realizar un envío de dinero a un familiar que vive en otra ciudad de España"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.correos.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre mis envíos y promociones de Correos"
+    }
+  ]
+}

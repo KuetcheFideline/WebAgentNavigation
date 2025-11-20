@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.karelia.fi",
+      "intent": "Selataan kurssivalikoimaa ja etsitään tietoa työnhakuun liittyvistä koulutuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.karelia.fi",
+      "intent": "Tutkitaan sivuston ohjeita kirjautumiseen ja käyttäjätunnusten hallintaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.karelia.fi",
+      "intent": "Etsitään tietoa sivuston käytöstä ja sen tarjoamista palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.karelia.fi",
+      "intent": "Kirjaudutaan sisään ja tarkastellaan omia kurssitilastoja ja suorituksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.karelia.fi",
+      "intent": "Osallistutaan keskustelupalstalle ja jaetaan omia kokemuksia työnhakijana"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.karelia.fi",
+      "intent": "Tehdään kurssien arviointeja ja annetaan palautetta opettajille"
+    }
+  ]
+}

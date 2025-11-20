@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bo.fi",
+      "intent": "Selata myytäviä asuntoja Helsingin alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bo.fi",
+      "intent": "Löytää tietoa asunnon ostamisesta ja myymisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bo.fi",
+      "intent": "Tutustua Bo Living -osiota ja sen tarjoamiin palveluihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bo.fi",
+      "intent": "Tallentaa suosikkeihin valitun asunnon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bo.fi",
+      "intent": "Lähettää viesti välittäjälle asunnon myymisestä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bo.fi",
+      "intent": "Tarkastella omia asuntoilmoituksia ja niiden tilaa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://websales.lansiauto.fi",
+      "intent": "Tutkin sivuston etusivun tarjontaa ja etsin tietoa uusista autoista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://websales.lansiauto.fi",
+      "intent": "Selvittelen, miten voin hakea ja vertailla eri automalleja sivustolla."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://websales.lansiauto.fi",
+      "intent": "Etsin tietoa sivuston asiakaspalvelusta ja yhteydenottolomakkeesta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://websales.lansiauto.fi",
+      "intent": "Kirjaudun sisään ja tarkistan tilaamieni autojen tilauksen etenemisen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://websales.lansiauto.fi",
+      "intent": "Muokkaan profiiliini liittyviä tietoja, kuten osoitettani ja yhteystietojani."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://websales.lansiauto.fi",
+      "intent": "Tarkistan ja vahvistan tilaamieni autojen toimitusajat ja -osoitteet."
+    }
+  ]
+}

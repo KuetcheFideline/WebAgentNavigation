@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ssd.be",
+      "intent": "Je souhaite consulter les informations sur les avantages collectifs proposés par la SSD pour mieux comprendre les services offerts."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ssd.be",
+      "intent": "Tu veux explorer la section Horeca pour découvrir les options de restauration proposées par la SSD et leurs tarifs."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ssd.be",
+      "intent": "Tu as besoin de contacter la SSD pour poser des questions sur les services psychosociaux, donc tu cherches les coordonnées de contact sur le site."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ssd.be",
+      "intent": "Maintenant que tu es connecté, tu veux accéder à tes paramètres personnels pour mettre à jour tes informations de contact et tes préférences."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ssd.be",
+      "intent": "Après t'être connecté, tu souhaites consulter tes avantages personnels et imprimer ta carte SSD pour t'en servir lors de tes démarches."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ssd.be",
+      "intent": "Une fois connecté, tu veux modifier tes paramètres de confidentialité et de cookies pour personnaliser ton expérience sur le site de la SSD."
+    }
+  ]
+}

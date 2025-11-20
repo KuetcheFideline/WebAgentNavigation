@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ufv-es.instructure.com",
+      "intent": "Buscar información sobre los cursos disponibles en la plataforma de Canvas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ufv-es.instructure.com",
+      "intent": "Explorar las opciones de recuperación de contraseña para usuarios que olvidaron su contraseña"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ufv-es.instructure.com",
+      "intent": "Leer las políticas de privacidad y los términos de uso de la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ufv-es.instructure.com",
+      "intent": "Acceder a mis cursos y tareas pendientes en la plataforma de Canvas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ufv-es.instructure.com",
+      "intent": "Configurar mis preferencias de notificación y ajustes de cuenta en la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ufv-es.instructure.com",
+      "intent": "Descargar y guardar mis calificaciones y certificados de los cursos completados en la plataforma"
+    }
+  ]
+}

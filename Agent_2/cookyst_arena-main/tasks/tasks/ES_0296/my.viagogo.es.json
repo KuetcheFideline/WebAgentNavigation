@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.viagogo.es",
+      "intent": "Buscar entradas para un concierto de rock en Mallorca para el próximo fin de semana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.viagogo.es",
+      "intent": "Comparar precios de entradas para un partido de fútbol entre el Real Madrid y el Barcelona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.viagogo.es",
+      "intent": "Leer opiniones de otros usuarios sobre la compra de entradas en la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.viagogo.es",
+      "intent": "Comprar entradas para un festival de música electrónica en Ibiza con mis amigos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.viagogo.es",
+      "intent": "Vender mis entradas para un concierto de música clásica en el Palau de la Música de Barcelona"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.viagogo.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre eventos de música en vivo en las Islas Baleares"
+    }
+  ]
+}

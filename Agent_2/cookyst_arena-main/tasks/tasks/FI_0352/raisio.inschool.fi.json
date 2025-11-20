@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://raisio.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa Raision sivistyskeskuksen toiminnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://raisio.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten voisin hyödyntää Wilmaa opettajana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://raisio.inschool.fi",
+      "intent": "Etsin tietoa Wilman eri osioista ja niiden käytöstä, kuten kurssien valinta ja suoritusten seuraaminen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://raisio.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan omat tietoni ja asetukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://raisio.inschool.fi",
+      "intent": "Luen ja vastaan opettajien ja huoltajien viestejä Wilman kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://raisio.inschool.fi",
+      "intent": "Syötän arvioita ja poissaoloja Wilman kautta ja päivitän henkilötietojani"
+    }
+  ]
+}

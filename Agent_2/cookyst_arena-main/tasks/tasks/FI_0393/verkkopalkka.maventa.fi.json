@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Tutkin verkkopalkan sivujen sisältöä, jotta voin ymmärtää, miten voin käyttää palvelua eläkeläisenä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Etsin ohjeita siitä, miten voin siirtyä palveluun verkkopankkini kautta, jotta voin hallita eläkeasioitani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Selvittelen, mitä tietoa palvelu tarjoaa eläkeläisille, jotta voin tehdä informoidun päätöksen palvelun käytöstä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Tarkastan eläkekohtaisia tietoja ja vahvistan, että ne ovat ajan tasalla, jotta voin varmistaa, että eläkkeeni on maksettu oikein."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Muokkaan henkilökohtaisia tietoja, kuten osoitetta, jotta voin varmistaa, että eläkeasiat hoituvat oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.maventa.fi",
+      "intent": "Tulostan eläkekuittinsa, jotta voin arkistoida ne ja pitää kirjaa eläkeasioistani."
+    }
+  ]
+}

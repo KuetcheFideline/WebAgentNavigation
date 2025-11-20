@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mon-programme-tv.be",
+      "intent": "Rechercher les programmes TV de ce soir pour trouver quelque chose à regarder avant d'aller me coucher"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mon-programme-tv.be",
+      "intent": "Consulter les programmes TV de la semaine pour planifier mes soirées"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mon-programme-tv.be",
+      "intent": "Lire les actualités télé et people pour me tenir au courant des dernières tendances"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mon-programme-tv.be",
+      "intent": "Créer mon propre programme TV personnalisé pour ne voir que mes émissions préférées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mon-programme-tv.be",
+      "intent": "Gérer mes alertes pour ne pas manquer les nouveaux épisodes de mes séries favorites"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mon-programme-tv.be",
+      "intent": "Participer à des quiz et des jeux pour gagner des prix et me divertir"
+    }
+  ]
+}

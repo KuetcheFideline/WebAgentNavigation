@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.marcaapuestas.es",
+      "intent": "Buscar apuestas para el partido de fútbol de la Liga española"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.marcaapuestas.es",
+      "intent": "Explorar las secciones de deportes y ver las opciones de apuestas en vivo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.marcaapuestas.es",
+      "intent": "Verificar los resultados de los partidos de fútbol de la jornada anterior"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.marcaapuestas.es",
+      "intent": "Realizar una apuesta para el partido de la selección española en el Mundial 2026"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.marcaapuestas.es",
+      "intent": "Verificar el saldo de mi cuenta y realizar un depósito para aumentar mis fondos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.marcaapuestas.es",
+      "intent": "Configurar mis preferencias de apuestas y agregar partidos a mis favoritos"
+    }
+  ]
+}

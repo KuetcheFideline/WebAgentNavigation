@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gasteizhoy.com",
+      "intent": "Buscar noticias sobre el Ayuntamiento de Vitoria-Gasteiz en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gasteizhoy.com",
+      "intent": "Explorar la sección de Ocio Gasteiz para encontrar eventos y actividades de interés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gasteizhoy.com",
+      "intent": "Leer las últimas noticias de sucesos en Vitoria-Gasteiz en la sección correspondiente"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gasteizhoy.com",
+      "intent": "Comentar en un artículo sobre deportes en la sección de Deporte para compartir mi opinión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gasteizhoy.com",
+      "intent": "Crear un perfil personalizado para seguir a mis autores favoritos en la sección de Cultura"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gasteizhoy.com",
+      "intent": "Participar en una encuesta sobre temas de actualidad en la sección de Encuestas"
+    }
+  ]
+}

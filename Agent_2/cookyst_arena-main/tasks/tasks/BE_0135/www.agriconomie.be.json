@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.agriconomie.be",
+      "intent": "Rechercher des engrais bio pour mon jardin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.agriconomie.be",
+      "intent": "Comparer les prix des semences fourragères pour les agriculteurs belges"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.agriconomie.be",
+      "intent": "Lire les articles de blog sur les tendances actuelles en agriculture biologique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.agriconomie.be",
+      "intent": "Demander un devis pour l'achat d'un siège pneumatique pour mon tracteur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.agriconomie.be",
+      "intent": "Gérer mes commandes passées et imprimer les factures correspondantes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.agriconomie.be",
+      "intent": "Modifier mes informations de compte et mettre à jour mon adresse de livraison"
+    }
+  ]
+}

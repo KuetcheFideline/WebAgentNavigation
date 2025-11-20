@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.habicom.be",
+      "intent": "Rechercher des appartements à vendre dans la région d'Uccle pour comparer les prix et les caractéristiques."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.habicom.be",
+      "intent": "Consulter les services de l'agence immobilière, notamment la 'Klusjesdienst' et la 'Habicom Check', pour comprendre comment ils peuvent aider à vendre ou à louer un appartement."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.habicom.be",
+      "intent": "Lire les articles du blog pour rester informé sur le marché immobilier et les tendances actuelles dans la région."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.habicom.be",
+      "intent": "Accéder à mon compte client pour suivre l'état de mes biens immobiliers et recevoir des mises à jour personnalisées sur les propriétés qui m'intéressent."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.habicom.be",
+      "intent": "Demander une estimation gratuite de la valeur de mon appartement actuel pour déterminer si c'est le bon moment pour le vendre ou le louer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.habicom.be",
+      "intent": "Gérer mes préférences de recherche et mes alertes pour recevoir des notifications lorsqu'une nouvelle propriété correspondant à mes critères est ajoutée sur le site."
+    }
+  ]
+}

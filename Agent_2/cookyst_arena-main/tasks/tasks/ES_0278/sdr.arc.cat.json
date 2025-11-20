@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sdr.arc.cat",
+      "intent": "Quiero consultar la documentación necesaria para gestionar mis residuos como productor"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sdr.arc.cat",
+      "intent": "Necesito saber si soy una Actividad Potencialmente Contaminante del suelo (APC) y quiero obtener más información"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sdr.arc.cat",
+      "intent": "Quiero buscar información sobre el registro de productores de residuos de Cataluña (RGPPRC) y cómo puedo darme de alta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sdr.arc.cat",
+      "intent": "Quiero acceder a mi cuenta como productor y consultar mis informes de situación (RD 9/2005)"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sdr.arc.cat",
+      "intent": "Necesito realizar una notificación de obra como productor y quiero obtener ayuda para completar el proceso"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sdr.arc.cat",
+      "intent": "Quiero consultar el registro de mis residuos y obtener información sobre su gestión y destino final"
+    }
+  ]
+}

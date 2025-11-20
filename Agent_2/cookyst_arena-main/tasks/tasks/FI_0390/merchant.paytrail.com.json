@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://merchant.paytrail.com",
+      "intent": "Tutkin Paytrailin kauppiaspaneelin ominaisuuksia ja palveluita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://merchant.paytrail.com",
+      "intent": "Etsin tietoa Paytrailin maksujen käsittelystä ja turvallisuudesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://merchant.paytrail.com",
+      "intent": "Vertailen Paytrailin palveluita muihin maksuvaihtoehtoihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://merchant.paytrail.com",
+      "intent": "Tarkastan kauppiaspaneelin tilastot ja raportit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://merchant.paytrail.com",
+      "intent": "Määritän uuden maksutavan kauppiaspaneeliin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://merchant.paytrail.com",
+      "intent": "Lähettän tilin tiedot ja maksutiedot taloushallinnolle"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Haluaisin löytää tietoa sairaaloiden aukioloista ja päivystysajanvarauksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Olen kiinnostunut tietämään enemmän HUSin tarjoamista hoitopalveluista, kuten laboratorio- ja kuvantamistutkimuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tietoa potilashoidon organisaatiosta ja eri sairaaloista olisi hyödyllistä minulle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Haluan varata ajan laboratoriotutkimukseen kirjautumalla Omapolku-palveluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tarkastan omaa potilastietojani ja hoitokertomuksia kirjautumalla Maisa-palveluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Löytäisin mielenkiintoista tietoa tutkimuksista ja opetuksesta, joihin voin osallistua"
+    }
+  ]
+}

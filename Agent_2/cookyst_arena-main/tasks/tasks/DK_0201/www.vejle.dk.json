@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vejle.dk",
+      "intent": "Jeg søger efter information om kommunal- og regionsrådsvalget den 18. november 2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vejle.dk",
+      "intent": "Jeg vil finde vej til mit valgsted og læse om adgangsforhold og muligheder for at få hjælp til at stemme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vejle.dk",
+      "intent": "Jeg søger efter nyheder og pressemeddelelser om Vejle Kommune"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vejle.dk",
+      "intent": "Jeg vil logge ind for at se mine personlige oplysninger og tilbud i forbindelse med mit borgerskab i Vejle Kommune"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vejle.dk",
+      "intent": "Jeg vil anvende selvbetjeningstjenesterne for at bestille tid i Borgerservice eller andre tjenester, der kræver login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vejle.dk",
+      "intent": "Jeg vil deltage i en afstemning eller give mine synspunkter på et forslag, der kræver, at jeg er logget ind"
+    }
+  ]
+}

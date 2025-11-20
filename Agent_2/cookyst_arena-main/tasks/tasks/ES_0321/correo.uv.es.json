@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Buscar información sobre cómo configurar el correo electrónico en mi dispositivo para evitar problemas de compatibilidad con los nuevos certificados de seguridad"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Leer las noticias de la universidad sobre las medidas de seguridad implementadas para proteger la información de los usuarios"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Descubrir cómo puedo obtener ayuda técnica para resolver problemas con mi cuenta de correo electrónico"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Acceder a mi cuenta de correo electrónico para verificar si he recibido algún mensaje importante de la universidad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Configurar mis preferencias de seguridad para proteger mi cuenta de correo electrónico y evitar accesos no autorizados"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Enviar un mensaje de correo electrónico a un profesor o administrador de la universidad para hacer una consulta sobre un tema específico"
+    }
+  ]
+}

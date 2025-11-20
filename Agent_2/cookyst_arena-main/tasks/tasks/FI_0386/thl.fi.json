@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Haluaisin lukea uusimmat tiedotteet ja uutiset Terveyden ja hyvinvoinnin laitoksen sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Tutkisin, mitä tietoa sivustolla on tarjolla aiheesta mielenterveys, koska olen kiinnostunut omasta hyvinvoinnistani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://thl.fi",
+      "intent": "Hakisin tietoa sivustolta siitä, miten voisin osallistua tutkimuksiin tai hankkeisiin, joissa Terveyden ja hyvinvoinnin laitos on mukana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Haluaisin tallentaa joitakin sivustoilla olevia artikkeleita omaan kirjastooni, jotta voisin lukea niitä myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Osallistuisin keskusteluun tai kommentoisin jotain artikkelia, joka kiinnostaa minua ja johon minulla on omaa näkemystäni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://thl.fi",
+      "intent": "Tarkastaisin, onko minulla oikeuksia käyttää tiettyjä palveluita tai tietoja, joita Terveyden ja hyvinvoinnin laitos tarjoaa kirjautuneille käyttäjille"
+    }
+  ]
+}

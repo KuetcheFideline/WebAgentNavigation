@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.meteosat.com",
+      "intent": "Buscar el pronóstico del tiempo para mi pueblo en Soria para planificar mis actividades diarias"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.meteosat.com",
+      "intent": "Explorar las imágenes del Meteosat para ver cómo ha cambiado el clima en mi región en los últimos años"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.meteosat.com",
+      "intent": "Compartir el pronóstico del tiempo en Facebook con mis amigos y familiares para que sepan qué esperar"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.meteosat.com",
+      "intent": "Configurar mis alertas personalizadas de tiempo para recibir notificaciones cuando haya tormentas en mi área"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.meteosat.com",
+      "intent": "Guardar mis lugares favoritos para acceder rápidamente a los pronósticos del tiempo de mis áreas de interés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.meteosat.com",
+      "intent": "Ver mis estadísticas de tiempo personalizadas para analizar los patrones climáticos en mi región"
+    }
+  ]
+}

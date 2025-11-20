@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://majandus.postimees.ee",
+      "intent": "Luen uusimpia talousuutisia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://majandus.postimees.ee",
+      "intent": "Etsin tietoa Eesti taloudesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://majandus.postimees.ee",
+      "intent": "Selvitan miten säästää rahaa taloudellisesti haasteellisessa tilanteessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://majandus.postimees.ee",
+      "intent": "Kirjaudun sisään ja kommentoin talousaiheisia artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://majandus.postimees.ee",
+      "intent": "Luen ja vastaan talousaiheisiin keskusteluihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://majandus.postimees.ee",
+      "intent": "Tallennan talousaiheisia artikkeleita myöhempää lukemista varten"
+    }
+  ]
+}

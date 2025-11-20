@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lacuisinedelidl.be",
+      "intent": "Rechercher des recettes végétariennes pour un dîner en semaine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lacuisinedelidl.be",
+      "intent": "Découvrir les plats gibier proposés par La cuisine de Lidl"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lacuisinedelidl.be",
+      "intent": "Explorer les différentes catégories de recettes proposées par le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lacuisinedelidl.be",
+      "intent": "Enregistrer une recette de plat principal dans mes favoris pour la préparer plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lacuisinedelidl.be",
+      "intent": "Participer à un concours de recettes en proposant ma propre création culinaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lacuisinedelidl.be",
+      "intent": "Gérer mes abonnements à la newsletter et aux notifications pour rester informée des nouvelles recettes"
+    }
+  ]
+}

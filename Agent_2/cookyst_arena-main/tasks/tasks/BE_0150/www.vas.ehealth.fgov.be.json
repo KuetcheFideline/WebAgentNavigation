@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vas.ehealth.fgov.be",
+      "intent": "Rechercher les services de santé en ligne pour trouver des informations sur les soins de santé à Liège"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vas.ehealth.fgov.be",
+      "intent": "Consulter les ressources disponibles pour les aidants soignants dans la région de Liège"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vas.ehealth.fgov.be",
+      "intent": "Explorer les fonctionnalités du portail eGezondheid pour comprendre comment il peut aider dans mon travail d'aide-soignant"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vas.ehealth.fgov.be",
+      "intent": "Consulter mon dossier médical en ligne pour suivre mes examens et résultats de tests"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vas.ehealth.fgov.be",
+      "intent": "Gérer mes rendez-vous médicaux en ligne pour planifier mes consultations et examens"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vas.ehealth.fgov.be",
+      "intent": "Accéder à mes ordonnances et prescriptions médicales pour gérer mes traitements et médicaments"
+    }
+  ]
+}

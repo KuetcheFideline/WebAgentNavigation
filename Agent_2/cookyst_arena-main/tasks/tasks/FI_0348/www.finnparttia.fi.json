@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.finnparttia.fi",
+      "intent": "Hae sähkötarvikkeita ja vertaile hintoja eri tuotteissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.finnparttia.fi",
+      "intent": "Selaa tuoteryhmiä ja etsi uusimmat tuotteet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.finnparttia.fi",
+      "intent": "Lue asiakasarvosteluita ja etsi tietoa tuotteiden laadusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.finnparttia.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.finnparttia.fi",
+      "intent": "Muokkaa tilauksen toimitusosoitetta ja maksutapaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.finnparttia.fi",
+      "intent": "Arvostele ja kirjoita arvosteluita ostetuista tuotteista"
+    }
+  ]
+}

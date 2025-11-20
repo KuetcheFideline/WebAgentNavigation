@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://superpark.fi",
+      "intent": "Tutkin SuperPark-sivustoa, jotta voin löytää mielenkiintoisia aktiviteetteja, joissa voin osallistua Rovaniemellä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://superpark.fi",
+      "intent": "Selvittelen, mitä sisäaktiviteettipuistossa on tarjolla, ja etsin tietoa hinnoista ja aukioloajoista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://superpark.fi",
+      "intent": "Käyn läpi sivuston evästeasetuksia, jotta voin ymmärtää, miten he käyttävät tietojani ja miten voin hallita evästeitä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://superpark.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, onko minulla olemassa olevia varauksia tai tilauksia SuperParkissa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://superpark.fi",
+      "intent": "Yritän varata ajankohtaa jonkin aktiviteetin harjoittamiseen ja tarkistan, mitä maksuvaihtoehtoja on tarjolla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://superpark.fi",
+      "intent": "Käyn sivuston asiakaspalveluosiossa, jotta voin löytää vastauksia mahdollisiin kysymyksiini ja ongelmiini liittyen SuperParkiin."
+    }
+  ]
+}

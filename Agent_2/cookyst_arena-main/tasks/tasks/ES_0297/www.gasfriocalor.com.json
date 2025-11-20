@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gasfriocalor.com",
+      "intent": "Buscar calderas a gas para mi hogar en Mallorca"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gasfriocalor.com",
+      "intent": "Comparar precios de aire acondicionado split 1x1 de diferentes marcas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gasfriocalor.com",
+      "intent": "Descargar el catálogo de productos de Gasfriocalor para consultar en mi tiempo libre"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gasfriocalor.com",
+      "intent": "Realizar un pedido de un calentador a gas después de haber comparado los precios y características"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gasfriocalor.com",
+      "intent": "Consultar el estado de mi cuenta y el historial de pedidos para verificar mis compras anteriores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gasfriocalor.com",
+      "intent": "Agregar un producto a mi lista de favoritos para considerarlo en una compra futura"
+    }
+  ]
+}

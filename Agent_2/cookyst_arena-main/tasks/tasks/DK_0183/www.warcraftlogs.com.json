@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.warcraftlogs.com",
+      "intent": "Jeg søger efter information omkring World of Warcraft"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.warcraftlogs.com",
+      "intent": "Jeg vil se hvilke raids der er tilgængelige i spillet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.warcraftlogs.com",
+      "intent": "Jeg ønsker at læse nyheder om World of Warcraft"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.warcraftlogs.com",
+      "intent": "Jeg vil upload mine kampe til min profil for at analysere dem"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.warcraftlogs.com",
+      "intent": "Jeg søger efter en guild at joinde for at spille med andre spillere"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.warcraftlogs.com",
+      "intent": "Jeg vil se mine statistikker og ranglister for at forbedre min spillestil"
+    }
+  ]
+}

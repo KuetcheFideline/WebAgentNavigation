@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danskebank.dk",
+      "intent": "Jeg søger information om boliglån, fordi jeg overvejer at købe en ny bolig"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danskebank.dk",
+      "intent": "Jeg vil læse om pensionsprodukter og se, hvilke muligheder der er for at spare op til min pension"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danskebank.dk",
+      "intent": "Jeg søger efter en oversigt over de forskellige investeringsmuligheder, som Danske Bank tilbyder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danskebank.dk",
+      "intent": "Jeg vil logge ind og se min nuværende kontostatus og transaktioner"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danskebank.dk",
+      "intent": "Jeg vil overføre penge fra min konto til en anden konto, som jeg har adgang til"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danskebank.dk",
+      "intent": "Jeg vil ændre mine betalingskortindstillinger og sætte en ny beløbsgrænse"
+    }
+  ]
+}

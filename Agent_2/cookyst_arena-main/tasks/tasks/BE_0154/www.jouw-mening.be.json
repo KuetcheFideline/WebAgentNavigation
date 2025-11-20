@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jouw-mening.be",
+      "intent": "Découvrir les enquêtes disponibles pour gagner des cadeaux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jouw-mening.be",
+      "intent": "Rechercher les informations sur les récompenses proposées par le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jouw-mening.be",
+      "intent": "Lire les témoignages d'autres utilisateurs pour comprendre leur expérience sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jouw-mening.be",
+      "intent": "Remplir une enquête pour gagner des points et échanger contre des cadeaux"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jouw-mening.be",
+      "intent": "Consulter mon solde de points et mes récompenses disponibles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jouw-mening.be",
+      "intent": "Participer à un concours ou un jeu pour gagner des récompenses exclusives"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ro-des.com",
+      "intent": "Buscar recambios para mi coche siniestrado en el catálogo de recambios de desguace"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ro-des.com",
+      "intent": "Solicitar una cotización para la compra de un vehículo siniestrado"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ro-des.com",
+      "intent": "Explorar las guías de mecánica y tutoriales prácticos para aprender a reparar mi coche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ro-des.com",
+      "intent": "Acceder a mi cuenta para seguir el estado de mi solicitud de recambio"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ro-des.com",
+      "intent": "Realizar un seguimiento de mis pedidos de recambios y vehículos comprados"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ro-des.com",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre nuevos recambios y ofertas"
+    }
+  ]
+}

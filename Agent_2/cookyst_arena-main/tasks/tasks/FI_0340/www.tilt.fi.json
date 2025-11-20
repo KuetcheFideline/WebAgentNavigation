@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tilt.fi",
+      "intent": "Selata sivuston etusivua ja etsiä tietoa uusimmista peleistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tilt.fi",
+      "intent": "Etsiä tietoa PS Plus -peleistä ja niiden saatavuudesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tilt.fi",
+      "intent": "Lukea artikkeleita pelien arvostelujen ja uutisten osiossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tilt.fi",
+      "intent": "Kirjautua sisään ja tarkastaa omat tilin tiedot ja asetukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tilt.fi",
+      "intent": "Osallistua keskusteluihin ja kommentoida artikkeleita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tilt.fi",
+      "intent": "Tallentaa suosikkipelit ja seurata niiden uusimpien päivitysten ilmestymistä"
+    }
+  ]
+}

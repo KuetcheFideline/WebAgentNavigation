@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Varata aika lääkärille Mikkeliin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Etsi tietoa masennuksen hoidosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Selvitä, miten voin muuttaa ajanvaraustani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tarkista oma potilastiedoni ja varaa uusi aika"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Lue lääkärin antamat ohjeet ja hoitosuunnitelmani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Vastaa lääkärin lähettämään kyselyyn"
+    }
+  ]
+}

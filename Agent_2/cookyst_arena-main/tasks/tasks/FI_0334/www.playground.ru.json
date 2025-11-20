@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.playground.ru",
+      "intent": "Löydän uusimmat videopeliuutiset sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.playground.ru",
+      "intent": "Selailen sivuston arvosteluita uusimmista peleistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.playground.ru",
+      "intent": "Etsin tietoa tulevista peleistä ja niiden julkaisupäivämääristä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.playground.ru",
+      "intent": "Kirjaudun sisään ja kommentoin uusinta peliarvostelua"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.playground.ru",
+      "intent": "Lisään uuden viestin foorumille aiheesta 'Suosituimmat pelit'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.playground.ru",
+      "intent": "Osallistun keskusteluun aiheesta 'Tulevat pelit ja niiden odotukset'"
+    }
+  ]
+}

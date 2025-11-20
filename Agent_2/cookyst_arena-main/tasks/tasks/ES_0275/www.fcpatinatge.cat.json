@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.fcpatinatge.cat",
+      "intent": "Buscar información sobre los próximos eventos de patinaje artístico en Cataluña"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.fcpatinatge.cat",
+      "intent": "Explorar las noticias y artículos sobre el patinaje en línea y sus disciplinas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.fcpatinatge.cat",
+      "intent": "Descubrir los programas de formación y entrenamiento para patinadores de diferentes niveles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.fcpatinatge.cat",
+      "intent": "Acceder a la intranet de licencias para gestionar mi cuenta y obtener información exclusiva"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.fcpatinatge.cat",
+      "intent": "Participar en el foro de discusión para conectarme con otros patinadores y compartir experiencias"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.fcpatinatge.cat",
+      "intent": "Consultar y descargar documentos y recursos exclusivos para patinadores registrados"
+    }
+  ]
+}

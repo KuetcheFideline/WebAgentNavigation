@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.geny.com",
+      "intent": "Consulter les résultats des courses de chevaux pour le jour en cours"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.geny.com",
+      "intent": "Rechercher des informations sur les réunions de courses à venir pour planifier mes paris"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.geny.com",
+      "intent": "Explorer les différentes options de pari disponibles sur le site pour trouver celles qui me conviennent le mieux"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.geny.com",
+      "intent": "Placer un pari sur une course en utilisant mon compte pour gérer mes fonds"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.geny.com",
+      "intent": "Consulter l'historique de mes paris pour analyser mes performances et ajuster ma stratégie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.geny.com",
+      "intent": "Gérer mes paramètres de compte pour personnaliser mon expérience sur le site"
+    }
+  ]
+}

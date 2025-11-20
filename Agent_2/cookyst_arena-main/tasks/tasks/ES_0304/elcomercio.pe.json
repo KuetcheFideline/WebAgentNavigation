@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elcomercio.pe",
+      "intent": "Buscar noticias sobre la situación política actual en Perú"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elcomercio.pe",
+      "intent": "Leer artículos sobre el impacto económico de la situación política en el país"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elcomercio.pe",
+      "intent": "Explorar la sección de deportes para ver las últimas noticias sobre el fútbol peruano"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elcomercio.pe",
+      "intent": "Comentar en un artículo sobre la situación política actual en Perú como suscriptor"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elcomercio.pe",
+      "intent": "Guardar un artículo sobre el mercado financiero peruano para leer más tarde en mi biblioteca de artículos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elcomercio.pe",
+      "intent": "Participar en una encuesta sobre las expectativas económicas para el próximo año como suscriptor"
+    }
+  ]
+}

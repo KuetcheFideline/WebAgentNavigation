@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Buscar noticias sobre el Real Madrid en la sección de Actualidad"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Explorar la sección de Fichajes y precios para conocer las últimas transferencias del equipo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Leer artículos de opinión en la sección de Tertulias para conocer las perspectivas de los expertos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Comentar en un artículo de la sección de Actualidad para compartir mi opinión con la comunidad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Crear un tema de discusión en la sección de Tertulias para debatir sobre un tema de interés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.planetarealmadrid.com",
+      "intent": "Guardar un artículo de la sección de Fichajes y precios en mis favoritos para leerlo más tarde"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.trivago.be",
+      "intent": "Rechercher des hôtels à Bruxelles pour un week-end"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.trivago.be",
+      "intent": "Comparer les prix des hôtels à Uccle pour trouver le meilleur rapport qualité-prix"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.trivago.be",
+      "intent": "Explorer les offres de voyages pour les destinations les plus populaires en Europe"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.trivago.be",
+      "intent": "Enregistrer mes préférences de recherche pour recevoir des offres personnalisées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.trivago.be",
+      "intent": "Consulter mon historique de réservations pour planifier mon prochain voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.trivago.be",
+      "intent": "Gérer mes informations de paiement pour faciliter mes réservations futures"
+    }
+  ]
+}

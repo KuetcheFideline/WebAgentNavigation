@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://secure.tagged.com",
+      "intent": "Je veux créer un compte pour rencontrer de nouvelles personnes sur Tagged."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://secure.tagged.com",
+      "intent": "Je souhaite explorer les fonctionnalités du site pour comprendre comment ça marche avant de m'inscrire."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://secure.tagged.com",
+      "intent": "Je veux lire les conditions de service et la politique de confidentialité avant de créer un compte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://secure.tagged.com",
+      "intent": "Je veux configurer mon profil pour que les autres utilisateurs puissent me trouver et m'ajouter comme ami."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://secure.tagged.com",
+      "intent": "Je souhaite rechercher des personnes partageant les mêmes intérêts que moi pour élargir mon réseau sur Tagged."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://secure.tagged.com",
+      "intent": "Je veux participer à des discussions en ligne pour mieux connaître les autres membres de la communauté Tagged."
+    }
+  ]
+}

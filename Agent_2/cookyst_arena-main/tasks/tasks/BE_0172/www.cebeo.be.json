@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cebeo.be",
+      "intent": "Rechercher des produits d'éclairage pour la maison en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cebeo.be",
+      "intent": "Consulter les promotions en cours pour les produits de chauffage et de refroidissement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cebeo.be",
+      "intent": "Explorer les différentes catégories de produits proposés par le site, notamment les produits d'installation et les outils"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cebeo.be",
+      "intent": "Accéder à mon compte pour consulter mes commandes passées et mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cebeo.be",
+      "intent": "Utiliser la fonction de recherche avancée pour trouver des produits spécifiques en fonction de mes besoins et de mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cebeo.be",
+      "intent": "Gérer mes informations de paiement et de livraison pour passer une nouvelle commande en ligne"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg søger at finde information om mine pensionsopsparing på portalen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg ønsker at læse om de forskellige investeringsmuligheder, som Landbobanken tilbyder."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg vil gerne se, om der er nogen nye tilbud eller kampagner, som kunne interessere mig som pensionist."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg skal overføre nogle penge fra min pensionskonto til min lønkonto, så jeg kan betale mine regninger."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer, så jeg kan modtage mine kontoudtog digitalt i stedet for på papir."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal4.landbobanken.dk",
+      "intent": "Jeg vil gerne se mine transaktioner og kontobevægelser for de sidste måneder, så jeg kan holde styr på mine finanser."
+    }
+  ]
+}

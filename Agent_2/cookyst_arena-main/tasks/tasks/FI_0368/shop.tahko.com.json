@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shop.tahko.com",
+      "intent": "Selata majoitusvaihtoehtoja ja etsi sopiva hotelli perheeni lomaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shop.tahko.com",
+      "intent": "Tutkia elämyksiä ja aktiviteetteja, joita voin tehdä ystävieni kanssa Tahkossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shop.tahko.com",
+      "intent": "Etsiä tarjouksia ja alennuksia, joita voin hyödyntää seuraavalla matkallani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shop.tahko.com",
+      "intent": "Varata majoitus ja elämyspaketti perheeni lomaan ja maksaa se suoraan verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "ostoskori",
+      "intent": "Tarkastaa ostoskorin sisältö ja vahvistaa varaukset ennen maksua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shop.tahko.com",
+      "intent": "Tallentaa matkasuunnitelma ja varaukset omaan asiakastilille ja tulostaa vahvistusviestin"
+    }
+  ]
+}

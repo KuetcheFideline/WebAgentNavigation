@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lefigaro.fr",
+      "intent": "Rechercher des articles sur les dernières actualités en matière de santé pour rester informé sur les développements récents dans le domaine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lefigaro.fr",
+      "intent": "Consulter la rubrique 'Économie' pour avoir une idée de l'état actuel de l'économie et de ses tendances"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lefigaro.fr",
+      "intent": "Lire les articles de la section 'Culture' pour découvrir de nouveaux livres, films et expositions qui pourraient m'intéresser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lefigaro.fr",
+      "intent": "Accéder à mes newsletters personnalisées pour rester informé sur les sujets qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lefigaro.fr",
+      "intent": "Publier un commentaire sur un article pour partager mes opinions et engager une discussion avec d'autres lecteurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lefigaro.fr",
+      "intent": "Gérer mes abonnements pour m'assurer que je reçois toutes les publications et les mises à jour dont j'ai besoin"
+    }
+  ]
+}

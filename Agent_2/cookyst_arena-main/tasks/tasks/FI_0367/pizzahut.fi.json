@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pizzahut.fi",
+      "intent": "Selvittää lähin ravintola Oulussa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pizzahut.fi",
+      "intent": "Tarkastaa tarjoukset ja etsiä edullisia vaihtoehtoja lounaalle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pizzahut.fi",
+      "intent": "Ladata Pizza Hutin sovellus ja katsella menua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pizzahut.fi",
+      "intent": "Tilata ruokaa verkossa ja maksaa käyttäen tallennettua maksutietoa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pizzahut.fi",
+      "intent": "Tarkastaa tilaushistoria ja arvostella aiempia tilauksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pizzahut.fi",
+      "intent": "Muokata tilauksen toimitusosoitetta ja aikataulua"
+    }
+  ]
+}

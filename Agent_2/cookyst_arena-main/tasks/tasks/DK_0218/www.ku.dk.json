@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ku.dk",
+      "intent": "Jeg søger efter information om bacheloruddannelser på Københavns Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ku.dk",
+      "intent": "Jeg ønsker at læse om de forskellige forskningsområder på universitetet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ku.dk",
+      "intent": "Jeg søger efter kontaktoplysninger til en af universitetets medarbejdere"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ku.dk",
+      "intent": "Jeg ønsker at tilføje en ny begivenhed til min kalender på KUnet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ku.dk",
+      "intent": "Jeg søger efter mine studieplaner og eksamensresultater på KUnet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ku.dk",
+      "intent": "Jeg ønsker at ændre mine personlige oplysninger på min KUnet-profil"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lieksa.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa Lieksan lukion oppilaitoksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lieksa.inschool.fi",
+      "intent": "Luen usein kysytyt kysymykset ja Wilman huoltajaliittymän toiminnot"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lieksa.inschool.fi",
+      "intent": "Etsin tietoa Wilman käytöstä opettajana ja sen hyödyistä opetuksessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lieksa.inschool.fi",
+      "intent": "Kirjaudun sisään ja tarkastan opettajaprofiiliini ja kurssien suoritustietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lieksa.inschool.fi",
+      "intent": "Lähetän viestin opiskelijalle tai huoltajalle Wilman viestitoiminnon kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lieksa.inschool.fi",
+      "intent": "Päivitän henkilötietojani ja tarkastan Wilman asetuksia"
+    }
+  ]
+}

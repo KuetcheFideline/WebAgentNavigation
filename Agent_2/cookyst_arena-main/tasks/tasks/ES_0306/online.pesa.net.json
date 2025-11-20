@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://online.pesa.net",
+      "intent": "Buscar un billete de ida para viajar desde Bilbao a Donostia-San Sebastián el próximo fin de semana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://online.pesa.net",
+      "intent": "Comparar los precios de los billetes de ida y vuelta para un viaje de Martorell a Vitoria-Gasteiz"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://online.pesa.net",
+      "intent": "Explorar las opciones de pago y descuentos disponibles para los billetes de autobús en la ruta de Bilbao a San Sebastián"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://online.pesa.net",
+      "intent": "Reimprimir un billete de autobús que ya he comprado para un viaje de regreso a casa desde el trabajo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://online.pesa.net",
+      "intent": "Cambiar la fecha de un billete de autobús que ya he comprado para un viaje de negocios en el norte de España"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://online.pesa.net",
+      "intent": "Anular un billete de autobús que ya he comprado y solicitar un reembolso debido a un cambio en mis planes de viaje"
+    }
+  ]
+}

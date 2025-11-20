@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://order.tupperware.fi",
+      "intent": "Tarkastan sivuston saatavuutta ja yritän löytää vaihtoehtoista tapaa tehdä tilauksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://order.tupperware.fi",
+      "intent": "Etsin tietoa Tupperwaren tuotteista ja niiden saatavuudesta Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://order.tupperware.fi",
+      "intent": "Selvittelen, onko sivustolla mahdollista tehdä tilauksia ilman kirjautumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://order.tupperware.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuraan tilausteni etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://order.tupperware.fi",
+      "intent": "Muutan tilaukseni toimitusosoitetta ja/tai laskutusosoitetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://order.tupperware.fi",
+      "intent": "Lisään uuden osoitteen osoitekirjaani ja teen uuden tilauksen"
+    }
+  ]
+}

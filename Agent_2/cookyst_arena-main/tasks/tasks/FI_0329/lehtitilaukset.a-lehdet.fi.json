@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lehtitilaukset.a-lehdet.fi",
+      "intent": "Selata Apu-lehden uusimmat numerot ja etsiä mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lehtitilaukset.a-lehdet.fi",
+      "intent": "Verrata eri lehden tilausvaihtoehtoja ja hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lehtitilaukset.a-lehdet.fi",
+      "intent": "Etsiä tietoa siitä, miten tilata digilehti ja mitä etuja se tarjoaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lehtitilaukset.a-lehdet.fi",
+      "intent": "Tilata uusi lehti ja hallita olemassa olevia tilauksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lehtitilaukset.a-lehdet.fi",
+      "intent": "Ladata ja lukea tilattuja lehtiä ja digilehtiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lehtitilaukset.a-lehdet.fi",
+      "intent": "Muokata tilaustietoja ja maksutapaa"
+    }
+  ]
+}

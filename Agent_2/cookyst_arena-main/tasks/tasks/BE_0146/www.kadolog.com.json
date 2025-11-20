@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kadolog.com",
+      "intent": "Rechercher des idées de cadeaux pour mon anniversaire de mariage sur le site Kadolog"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kadolog.com",
+      "intent": "Explorer les différentes catégories de listes de cadeaux proposées par Kadolog, telles que les listes de naissance ou de mariage"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kadolog.com",
+      "intent": "Lire les témoignages d'utilisateurs satisfaits de Kadolog pour comprendre les avantages de l'utilisation du site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kadolog.com",
+      "intent": "Créer une liste de cadeaux pour mon prochain anniversaire et personnaliser les paramètres de confidentialité"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kadolog.com",
+      "intent": "Gérer mes listes de cadeaux existantes et ajouter de nouveaux éléments à ma liste de mariage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kadolog.com",
+      "intent": "Consulter mon compte et vérifier les dons reçus pour ma liste de naissance"
+    }
+  ]
+}

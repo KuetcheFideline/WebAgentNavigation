@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rakennuslehti.fi",
+      "intent": "Lue uusimmat uutiset rakennusalan trendeistä ja suhdanteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rakennuslehti.fi",
+      "intent": "Etsi artikkeleita aiheesta arkkitehtuuri"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rakennuslehti.fi",
+      "intent": "Selaa viikon luetuimmat artikkelit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rakennuslehti.fi",
+      "intent": "Kommentoi artikkelia Skanska sai 60 miljoonan euron tieurakan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rakennuslehti.fi",
+      "intent": "Lue lukittuja artikkeleita rakennusalan johtajien palkkioista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rakennuslehti.fi",
+      "intent": "Tilaa Rakennuslehti ja hallinnoi tilauksesi"
+    }
+  ]
+}

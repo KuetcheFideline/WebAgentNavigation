@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.directplant.nl",
+      "intent": "Rechercher des plantes pour le jardin de ma résidence secondaire à la campagne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.directplant.nl",
+      "intent": "Comparer les prix des arbres fruitiers pour mon jardin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.directplant.nl",
+      "intent": "Découvrir les conseils de plantation pour les débutants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.directplant.nl",
+      "intent": "Ajouter des plantes à mon panier d'achat pour une commande groupée avec mes amis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.directplant.nl",
+      "intent": "Consulter l'historique de mes commandes pour renouveler mes achats de printemps"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.directplant.nl",
+      "intent": "Modifier mes informations de livraison pour que mes plantes soient livrées à mon cabinet de dentiste"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Etsin tietoa opiskelijan oikeuksista ja velvollisuuksista Learn-Moodlessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Haluan tietää lisää Learn-Moodlen huoltokatkoista ja niiden vaikutuksista opiskeluuni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Olen kiinnostunut saavutettavuusohjeista ja niiden soveltamisesta opiskelussani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Kirjaudun sisään ja tarkistan opiskelijatilini tiedot Learn-Moodlessa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Haluan tilata työtilan ja aloittaa opiskelun Learn-Moodlessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Olen kiinnostunut katsomaan omia opiskelutietojani ja suorituksiani Learn-Moodlessa"
+    }
+  ]
+}

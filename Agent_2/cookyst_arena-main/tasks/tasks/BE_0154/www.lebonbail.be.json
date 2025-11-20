@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lebonbail.be",
+      "intent": "Je souhaite créer un contrat de bail pour mon appartement à Knokke, je vais donc consulter les modèles de baux proposés sur le site pour trouver celui qui me convient le mieux."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lebonbail.be",
+      "intent": "Je veux en savoir plus sur les services proposés par LeBonBail, notamment sur la rédaction et le suivi juridique des contrats de bail, pour comprendre comment cela peut m'aider en tant que bailleur."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lebonbail.be",
+      "intent": "Je vais consulter la section FAQ pour obtenir des réponses à mes questions sur les baux et les contrats de location, notamment sur la différence entre les baux de résidence principale et les baux de kot étudiant."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lebonbail.be",
+      "intent": "Je vais me connecter à mon compte pour accéder à mes contrats de bail en cours et suivre l'état d'avancement de la rédaction et du suivi juridique de mes baux."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lebonbail.be",
+      "intent": "Je souhaite inviter mon locataire à renseigner ses informations dans le formulaire de bail en ligne pour que nous puissions finaliser le contrat de location ensemble."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lebonbail.be",
+      "intent": "Je vais télécharger mon contrat de bail et les annexes obligatoires pour les conserver dans mes archives et les transmettre à mon locataire si nécessaire."
+    }
+  ]
+}

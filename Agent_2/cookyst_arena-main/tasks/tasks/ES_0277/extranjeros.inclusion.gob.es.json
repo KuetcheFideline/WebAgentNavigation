@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://extranjeros.inclusion.gob.es",
+      "intent": "Buscar información sobre el Ingreso Mínimo Vital para saber si puedo solicitarlo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://extranjeros.inclusion.gob.es",
+      "intent": "Explorar la sección de Trámites Destacados para ver los procedimientos más comunes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://extranjeros.inclusion.gob.es",
+      "intent": "Leer las noticias más recientes sobre migraciones y seguridad social para estar al día"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://extranjeros.inclusion.gob.es",
+      "intent": "Solicitar el Ingreso Mínimo Vital después de haberme registrado y haber iniciado sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://extranjeros.inclusion.gob.es",
+      "intent": "Consultar el estado de mi solicitud de pensión después de haber iniciado sesión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://extranjeros.inclusion.gob.es",
+      "intent": "Actualizar mis datos personales en la sección de mi cuenta después de haber iniciado sesión"
+    }
+  ]
+}

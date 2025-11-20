@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pelit.fi",
+      "intent": "Lue uusimmat uutiset pelimaailmasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pelit.fi",
+      "intent": "Etsi tietoa suosikki-pelistäni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pelit.fi",
+      "intent": "Selaa blogipostauksia ja artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pelit.fi",
+      "intent": "Kirjaudu sisään ja kommentoi uusinta artikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pelit.fi",
+      "intent": "Lisää uusi peli suosikkilistalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pelit.fi",
+      "intent": "Osallistu keskusteluun foorumilla"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.paivanlehti.fi",
+      "intent": "Luen uusimmat uutiset Päivän Lehdessä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.paivanlehti.fi",
+      "intent": "Etsin tietoa elokuva-arvosteluista ja viihteestä Valokeila-osiossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.paivanlehti.fi",
+      "intent": "Selailen urheilu-uutisia ja etsin tietoa suomalaisista urheilutapahtumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.paivanlehti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisartikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.paivanlehti.fi",
+      "intent": "Luen ja vastaan aiheeseen liittyviin keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.paivanlehti.fi",
+      "intent": "Tallennan suosikkejani ja seuraan tiettyjä aiheita ja kirjoittajia"
+    }
+  ]
+}

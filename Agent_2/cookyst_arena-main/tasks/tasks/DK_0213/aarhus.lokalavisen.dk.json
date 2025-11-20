@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aarhus.lokalavisen.dk",
+      "intent": "Læs om de seneste nyheder fra Aarhus og finde ud af, hvad der sker i byen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aarhus.lokalavisen.dk",
+      "intent": "Søg efter information om lokale begivenheder og arrangementer i Aarhus"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aarhus.lokalavisen.dk",
+      "intent": "Se, hvilke nyheder der er mest læste og populære blandt læserne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aarhus.lokalavisen.dk",
+      "intent": "Del en artikel om en lokal begivenhed på min Facebook-profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aarhus.lokalavisen.dk",
+      "intent": "Tilmeld dig nyhedsbreve for at modtage opdateringer om lokale nyheder og begivenheder"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aarhus.lokalavisen.dk",
+      "intent": "Kommenter på en artikel om en lokal politisk sag og del mine tanker med andre læsere"
+    }
+  ]
+}

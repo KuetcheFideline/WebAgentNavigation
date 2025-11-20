@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Luen uusimmat uutiset MTV Uutisista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Etsin tietoa urheilu-uutisista, erityisesti jääkiekosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Selailen elokuvien ja TV-ohjelmien arvosteluita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisaiheita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Lisään suosikkeihini joitain urheilu-uutisia ja seuraan niitä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mtvuutiset.fi",
+      "intent": "Muokkaan profiiliini ja asetuksiani MTV Uutisissa"
+    }
+  ]
+}

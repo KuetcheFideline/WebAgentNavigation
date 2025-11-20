@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fiksuruoka.fi",
+      "intent": "Etsin edullisia ruokaostoksia, joten haluan selata Fiksuruoka.fi-sivustoa ja etsiä tarjouksia ja alennuksia."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fiksuruoka.fi",
+      "intent": "Olen kiinnostunut tarkastamaan sivuston uutuustuotteita, joten etsin Uutuudet-osioa ja selailen sen sisältöä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fiksuruoka.fi",
+      "intent": "Haluan tarkastella sivuston kampanjoita ja etsiä tuotteita, joissa on edullisia tarjouksia, joten siirryn Kampanjat-osioon."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fiksuruoka.fi",
+      "intent": "Olen kirjautunut sisään ja haluan tarkastella ostoskoriani, joten etsin Ostoskori-osioa ja tarkastelen sen sisältöä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fiksuruoka.fi",
+      "intent": "Haluan tehdä tilauksen, joten siirryn Kassaan ja täytän tilauksen tiedot."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fiksuruoka.fi",
+      "intent": "Olen kiinnostunut tarkastamaan tilaushistoriani, joten etsin Tilaukset-osioa ja selailen sen sisältöä."
+    }
+  ]
+}

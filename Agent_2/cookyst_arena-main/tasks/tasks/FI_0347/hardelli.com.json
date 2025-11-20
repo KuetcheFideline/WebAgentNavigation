@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hardelli.com",
+      "intent": "Luen uusimmat uutiset Härdellin etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hardelli.com",
+      "intent": "Etsin Härdellin sivuilta tietoa urheilu-uutisista, erityisesti jääkiekosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hardelli.com",
+      "intent": "Selailen Härdellin ysäri-osiota ja etsin mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hardelli.com",
+      "intent": "Kirjaudun sisään ja kommentoin uusinta uutisartikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hardelli.com",
+      "intent": "Luen Härdellin käyttäjien kommentteja ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hardelli.com",
+      "intent": "Muokkaan profiiliini ja tarkistan tilaani Härdellin sivuilla"
+    }
+  ]
+}

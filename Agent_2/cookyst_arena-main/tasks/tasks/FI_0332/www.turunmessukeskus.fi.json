@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.turunmessukeskus.fi",
+      "intent": "Tutkin messukeskuksen tulevia tapahtumia ja etsin mielenkiintoisia konsertteja tai urheilutapahtumia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.turunmessukeskus.fi",
+      "intent": "Selvittelen, mitkä ravintolat ja kahvilat ovat avoinna messukeskuksessa ja mitä ruokaa he tarjoavat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.turunmessukeskus.fi",
+      "intent": "Etsin tietoa messukeskuksen pysäköintimahdollisuuksista ja hinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.turunmessukeskus.fi",
+      "intent": "Varaan lippuja tulevaan konserttiin ja tallennan tapahtuman kalenteriini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.turunmessukeskus.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitkä tapahtumat olen jo varannut ja mitä lippuja minulla on jo ostettu"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.turunmessukeskus.fi",
+      "intent": "Arvostelen ja kommentoin aiemmin käymääni tapahtumaa ja annan palautetta järjestäjille"
+    }
+  ]
+}

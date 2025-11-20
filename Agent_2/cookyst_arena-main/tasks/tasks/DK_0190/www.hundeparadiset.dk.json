@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hundeparadiset.dk",
+      "intent": "Jeg søger efter råfoder til min hund, så jeg vil klikke på 'Råfoder' i menuen for at se, hvad de har at tilbyde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hundeparadiset.dk",
+      "intent": "Jeg vil gerne se, hvilke typer godbidder de har til min hund, så jeg klikker på 'Godbidder' for at udforske deres udvalg."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hundeparadiset.dk",
+      "intent": "Jeg er interesseret i at læse mere om de forskellige produkter, så jeg søger efter 'Tørfoder' for at se, hvad de har at tilbyde."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hundeparadiset.dk",
+      "intent": "Jeg har fundet noget, jeg gerne vil købe, så jeg logger ind for at fuldføre købet og se mine tidligere ordrer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hundeparadiset.dk",
+      "intent": "Jeg vil gerne følge med i mine ordre og se, om der er nogen opdateringer på mine tidligere køb, så jeg checker min konto."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hundeparadiset.dk",
+      "intent": "Jeg har brug for at ændre min adresse, så jeg logger ind for at opdatere mine kontoinformationer og sikre, at mine ordrer kommer til den rigtige adresse."
+    }
+  ]
+}

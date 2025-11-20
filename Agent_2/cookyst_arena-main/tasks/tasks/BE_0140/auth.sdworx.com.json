@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://auth.sdworx.com",
+      "intent": "Rechercher les informations sur les services de paie proposés par SD Worx pour les institutions européennes."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://auth.sdworx.com",
+      "intent": "Explorer les ressources disponibles pour les employés de la Cour de Justice sur le site SD Worx."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://auth.sdworx.com",
+      "intent": "Vérifier les possibilités de connexion et les avantages d'un compte SD Worx pour les fonctionnaires européens."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://auth.sdworx.com",
+      "intent": "Consulter mon relevé de paie et mes déclarations d'impôts sur le portail SD Worx."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://auth.sdworx.com",
+      "intent": "Gérer mes informations personnelles et professionnelles sur le compte SD Worx pour assurer leur exactitude."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://auth.sdworx.com",
+      "intent": "Accéder aux avantages sociaux et aux offres exclusives proposées par SD Worx aux employés de la Cour de Justice."
+    }
+  ]
+}

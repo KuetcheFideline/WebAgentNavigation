@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gesiba.at",
+      "intent": "Ich möchte eine Wohnung in Zell am See finden, also werde ich auf der Website von Gesiba nach aktuellen Angeboten suchen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gesiba.at",
+      "intent": "Ich bin neugierig auf die Geschichte von Gesiba, also werde ich den Bereich '100 Jahre Gesiba' auf der Website erkunden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gesiba.at",
+      "intent": "Ich möchte mich über die verschiedenen Arten von Wohnungen informieren, die Gesiba anbietet, also werde ich die entsprechenden Unterseiten besuchen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gesiba.at",
+      "intent": "Ich bin bereits Kunde bei Gesiba und möchte meine Kontoinformationen überprüfen, also werde ich mich im HaVIS Kundenportal anmelden und meine Daten einsehen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gesiba.at",
+      "intent": "Ich benötige Unterstützung bei einem Problem mit meiner Wohnung, also werde ich mich im HaVIS Kundenportal anmelden und eine Anfrage an den Kundenservice stellen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gesiba.at",
+      "intent": "Ich möchte meine persönlichen Daten und Einstellungen im HaVIS Kundenportal aktualisieren, also werde ich mich anmelden und die entsprechenden Änderungen vornehmen."
+    }
+  ]
+}

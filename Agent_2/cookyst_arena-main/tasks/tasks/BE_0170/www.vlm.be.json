@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vlm.be",
+      "intent": "Rechercher des informations sur les mesures de protection de l'environnement en Flandre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vlm.be",
+      "intent": "Consulter les actualités sur le développement durable et l'environnement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vlm.be",
+      "intent": "Explorer les ressources disponibles pour les agriculteurs et les propriétaires terriens"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vlm.be",
+      "intent": "Accéder à mon compte pour gérer mes demandes de subventions agricoles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vlm.be",
+      "intent": "Déposer une demande de financement pour un projet de développement rural"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vlm.be",
+      "intent": "Consulter les détails de mes précédentes demandes de soutien financier pour mes projets agricoles"
+    }
+  ]
+}

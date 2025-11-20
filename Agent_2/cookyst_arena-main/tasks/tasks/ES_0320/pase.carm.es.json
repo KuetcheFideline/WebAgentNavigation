@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pase.carm.es",
+      "intent": "Quiero saber más sobre Cl@ve y cómo funciona para acceder a los servicios electrónicos de la CARM."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pase.carm.es",
+      "intent": "Necesito descargar la aplicación Cl@ve móvil para poder acceder a los servicios de la CARM desde mi teléfono."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pase.carm.es",
+      "intent": "Quiero leer sobre los diferentes métodos de identificación disponibles en la plataforma de la CARM, como DNIe o certificado electrónico."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pase.carm.es",
+      "intent": "Después de iniciar sesión, quiero acceder a mis datos personales y verificar que la información sea correcta y actualizada."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pase.carm.es",
+      "intent": "Necesito realizar una solicitud de servicios electrónicos a través de la plataforma de la CARM, por lo que debo iniciar sesión para acceder a la sección correspondiente."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pase.carm.es",
+      "intent": "Quiero cambiar mi contraseña de acceso a la plataforma de la CARM para asegurarme de que mi cuenta esté segura."
+    }
+  ]
+}

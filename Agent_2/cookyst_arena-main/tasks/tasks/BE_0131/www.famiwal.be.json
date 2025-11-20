@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.famiwal.be",
+      "intent": "Rechercher les informations sur les allocations familiales de base pour comprendre les montants auxquels je suis éligible en tant que stagiaire eurocrate"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.famiwal.be",
+      "intent": "Consulter les dépliants et les formulaires de base pour les allocations familiales afin de mieux comprendre les démarches à suivre"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.famiwal.be",
+      "intent": "Explorer la section 'Jeunes' pour découvrir les principes de base et les possibilités de recevoir des allocations familiales pendant mes études"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.famiwal.be",
+      "intent": "Accéder à mon compte pour consulter le résumé des montants de mes allocations familiales et vérifier les dates de paiement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.famiwal.be",
+      "intent": "Mettre à jour mon adresse dans mon compte pour garantir que je reçois les notifications et les paiements correctement"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.famiwal.be",
+      "intent": "Demander une attestation d'allocations familiales via mon compte pour les formalités administratives nécessaires"
+    }
+  ]
+}

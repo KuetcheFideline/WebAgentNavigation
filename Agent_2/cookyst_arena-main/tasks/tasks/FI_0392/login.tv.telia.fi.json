@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.tv.telia.fi",
+      "intent": "Tutkin Telia Playn tarjoamia televisio-ohjelmia ja elokuvia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.tv.telia.fi",
+      "intent": "Selvittelen miten voin rekisteröityä Telia Playhin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.tv.telia.fi",
+      "intent": "Luen Telia Playn käyttöehdoista ja tietosuojakäytännöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.tv.telia.fi",
+      "intent": "Katson suosikkiohjelmaani Telia Playssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.tv.telia.fi",
+      "intent": "Muutan tilaustani ja valitsen uudet kanavat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.tv.telia.fi",
+      "intent": "Tarkistan laskuni ja maksuhistoriani Telia Playssa"
+    }
+  ]
+}

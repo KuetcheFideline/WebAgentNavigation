@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.registradores.org",
+      "intent": "Buscar información sobre el registro de la propiedad en la sede electrónica"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.registradores.org",
+      "intent": "Consultar los trámites y procedimientos para la presentación telemática de documentos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.registradores.org",
+      "intent": "Acceder a la sección de información y ayuda para resolver dudas sobre el uso de la plataforma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.registradores.org",
+      "intent": "Iniciar sesión para acceder a la carpeta personal y consultar el estado de los trámites pendientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.registradores.org",
+      "intent": "Presentar telemáticamente un documento para su registro en la propiedad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.registradores.org",
+      "intent": "Descargar un certificado de registro de la propiedad para un inmueble específico"
+    }
+  ]
+}

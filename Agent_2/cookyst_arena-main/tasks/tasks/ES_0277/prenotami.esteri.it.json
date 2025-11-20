@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://prenotami.esteri.it",
+      "intent": "Consultar los servicios para ciudadanos italianos y extranjeros disponibles en el portal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://prenotami.esteri.it",
+      "intent": "Buscar información sobre los requisitos para obtener un visado para Italia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://prenotami.esteri.it",
+      "intent": "Explorar las opciones de registro y acceso al portal para ciudadanos españoles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://prenotami.esteri.it",
+      "intent": "Solicitar un cita para trámites consulares en la embajada de Italia en España"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://prenotami.esteri.it",
+      "intent": "Descargar y completar formularios para solicitar un visado de trabajo en Italia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://prenotami.esteri.it",
+      "intent": "Consultar el estado de mi solicitud de visado y realizar un seguimiento de los trámites"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.if.fi",
+      "intent": "Hae vakuutusyhtiö Ifin kotisivuilta tietoa mökkivakuutuksista, koska minulla on mökki ja haluan varmistaa, että se on kunnolla vakuutettu."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.if.fi",
+      "intent": "Vertaile eri vakuutusvaihtoehtoja, kuten kerros- ja rivitalon vakuutus, omakotitalon vakuutus ja paritalon vakuutus, jotta voisin valita itselleni parhaimman vakuutuksen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.if.fi",
+      "intent": "Lue lisää Ifin vakuutusyhtiön tarjoamista palveluista, kuten terveysturva, sairaus- ja tapaturmavakuutus, ja toimeentulovakuutus, jotta voisin tehdä informoidun päätöksen vakuutukseni valinnasta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.if.fi",
+      "intent": "Kirjaudu sisään Omat sivut -palveluun, jotta voisin tarkastella vakuutukseni tiedot ja tehdä tarvittavat muutokset."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.if.fi",
+      "intent": "Tarkastele vakuutukseni historiatietoja ja tarkista, onko minulla jo olemassa olevia vakuutuksia, joita voisin yhdistää tai muuttaa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.if.fi",
+      "intent": "Tee vakuutuksen muutospyyntö, koska haluan muuttaa vakuutukseni ehdot tai lisätä uuden vakuutuksen, kuten mökkivakuutuksen, olemassaolevaan vakuutukseeni."
+    }
+  ]
+}

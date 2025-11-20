@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.metromadrid.es",
+      "intent": "Quiero calcular mi ruta desde la estación de Ópera hasta la estación de Sol para ir al trabajo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.metromadrid.es",
+      "intent": "Necesito encontrar información sobre los horarios y precios de los billetes de metro para planificar mi viaje"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.metromadrid.es",
+      "intent": "Me gustaría saber más sobre las campañas de reciclaje y sostenibilidad que lleva a cabo Metro de Madrid"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.metromadrid.es",
+      "intent": "Quiero acceder a mi cuenta de usuario para consultar mi historial de viajes y puntos acumulados en el programa de fidelidad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.metromadrid.es",
+      "intent": "Necesito comprar un billete de metro con descuento para mi próximo viaje utilizando mi cuenta de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.metromadrid.es",
+      "intent": "Quiero configurar mis preferencias de notificación para recibir alertas sobre obras y cortes en la línea de metro que utilizo con frecuencia"
+    }
+  ]
+}

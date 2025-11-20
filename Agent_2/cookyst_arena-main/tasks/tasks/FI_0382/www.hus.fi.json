@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Hae sivustolta tietoa sydämen terveydestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Selvitä, miten voin varata ajan laboratorioon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hus.fi",
+      "intent": "Lue lisää potilashoidon organisaatiosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Tarkista oma hoitokuvaus ja tutkimustulokset Omapolku-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Varaa aika lääkärille kirjauduttuani Maisa-palveluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hus.fi",
+      "intent": "Täytä potilaslausunto ja anna palautetta hoidostani"
+    }
+  ]
+}

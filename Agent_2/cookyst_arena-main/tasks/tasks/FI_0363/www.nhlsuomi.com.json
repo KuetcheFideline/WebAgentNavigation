@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Selata sivuston etusivun uutisia ja löytää mielenkiintoisia artikkeleita NHL:stä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Etsiä tietoa suomalaisista pelaajista ja heidän saavutuksistaan NHL:ssä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Löytää sivuston valikosta linkki Ottelukeskukseen ja tarkastella otteluohjelmaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Kirjautua sisään ja kommentoida artikkeleita omilla mielipiteillä ja näkemyksillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Lisätä suosikkeihin omia lempijoukkueita ja pelaajia seuratakseen heidän uutisia ja tuloksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nhlsuomi.com",
+      "intent": "Osallistua sivuston foorumille ja keskustella muiden käyttäjien kanssa NHL-aiheista"
+    }
+  ]
+}

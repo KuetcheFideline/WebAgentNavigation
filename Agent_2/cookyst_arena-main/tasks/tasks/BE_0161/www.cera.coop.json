@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cera.coop",
+      "intent": "Rechercher les avantages offerts par Cera pour les actionnaires"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cera.coop",
+      "intent": "Découvrir les différents types de parts sociales proposées par Cera"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cera.coop",
+      "intent": "Consulter les informations générales sur la coopérative Cera"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cera.coop",
+      "intent": "Vérifier le solde de mon compte d'actionnaire Cera"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cera.coop",
+      "intent": "Gérer mes informations personnelles et de contact sur le site de Cera"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cera.coop",
+      "intent": "Consulter les documents et les rapports annuels de Cera en tant qu'actionnaire"
+    }
+  ]
+}

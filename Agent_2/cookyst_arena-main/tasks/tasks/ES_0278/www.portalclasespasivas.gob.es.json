@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.portalclasespasivas.gob.es",
+      "intent": "Buscar información sobre las pensiones de jubilación para funcionarios públicos en el Portal de Clases Pasivas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.portalclasespasivas.gob.es",
+      "intent": "Descargar el formulario de solicitud de pensión de jubilación desde el Portal de Clases Pasivas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.portalclasespasivas.gob.es",
+      "intent": "Consultar las novedades sobre la jubilación activa y su compatibilidad con el trabajo en el Portal de Clases Pasivas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.portalclasespasivas.gob.es",
+      "intent": "Solicitar una cita previa para obtener información sobre mi pensión de jubilación en el Portal de Clases Pasivas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.portalclasespasivas.gob.es",
+      "intent": "Realizar un autocálculo de mi pensión de jubilación utilizando la herramienta del Portal de Clases Pasivas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.portalclasespasivas.gob.es",
+      "intent": "Enviar una consulta sobre mi pensión de jubilación a través del Buzón de Consultas del Portal de Clases Pasivas"
+    }
+  ]
+}

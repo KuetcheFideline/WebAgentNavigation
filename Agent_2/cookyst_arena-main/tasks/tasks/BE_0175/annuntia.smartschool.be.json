@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://annuntia.smartschool.be",
+      "intent": "Rechercher les informations de contact de l'école pour contacter un enseignant"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://annuntia.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les élèves"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://annuntia.smartschool.be",
+      "intent": "Lire les actualités de l'école pour rester informé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://annuntia.smartschool.be",
+      "intent": "Consulter les notes et les évaluations de mon petit-enfant"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://annuntia.smartschool.be",
+      "intent": "Envoyer un message à un enseignant pour discuter des progrès de mon petit-enfant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://annuntia.smartschool.be",
+      "intent": "Gérer les autorisations d'accès pour les enseignants et les élèves"
+    }
+  ]
+}

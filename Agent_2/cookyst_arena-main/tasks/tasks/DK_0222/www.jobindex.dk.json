@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jobindex.dk",
+      "intent": "Jeg søger efter et nyt job som sygeplejerske i København, så jeg søger efter ledige stillinger på Jobindex"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jobindex.dk",
+      "intent": "Jeg vil gerne have en oversigt over mine muligheder, så jeg søger efter job i kategorien 'Social og sundhed'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jobindex.dk",
+      "intent": "Jeg vil gerne vide mere om, hvordan jeg kan forbedre mine chancer for at få et job, så jeg søger efter artikler om karriereudvikling"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jobindex.dk",
+      "intent": "Jeg har allerede en profil på Jobindex, så jeg logger ind for at se mine gemte job og min jobagent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jobindex.dk",
+      "intent": "Jeg vil gerne oprette et CV, så jeg kan blive kontaktet af arbejdsgivere, så jeg opretter mit CV på Jobindex"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jobindex.dk",
+      "intent": "Jeg vil gerne have en oversigt over mine ansøgninger, så jeg søger efter mine ansøgninger på min profil"
+    }
+  ]
+}

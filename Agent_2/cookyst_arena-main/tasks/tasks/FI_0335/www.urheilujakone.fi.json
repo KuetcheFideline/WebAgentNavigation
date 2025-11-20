@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.urheilujakone.fi",
+      "intent": "Selvitän urheiluvälineiden valikoimaa ja etsin uusimmat tuotteet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.urheilujakone.fi",
+      "intent": "Vertailen eri urheiluvälineiden hintoja ja etsin parhaat tarjoukset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.urheilujakone.fi",
+      "intent": "Luen asiakasarvosteluita ja etsin vinkkejä urheiluvälineiden valintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.urheilujakone.fi",
+      "intent": "Tilasin uuden urheiluvälineen ja seuratan tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.urheilujakone.fi",
+      "intent": "Kirjaudun sisään ja tarkistan tilaushistoriani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.urheilujakone.fi",
+      "intent": "Muokkaan profiiliini ja päivitän osoitetietoni"
+    }
+  ]
+}

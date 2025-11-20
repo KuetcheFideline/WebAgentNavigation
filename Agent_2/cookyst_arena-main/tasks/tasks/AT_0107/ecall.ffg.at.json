@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ecall.ffg.at",
+      "intent": "Ich möchte die neue Online-AGB von FFG eCall lesen, um mich über die Änderungen zu informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ecall.ffg.at",
+      "intent": "Ich will mich über die Registrierungsmöglichkeit informieren, um einen eCall-Zugang zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ecall.ffg.at",
+      "intent": "Ich möchte die Informationen zum Unternehmensserviceportal (USP) lesen, um zu sehen, ob ich mich über USP anmelden kann."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ecall.ffg.at",
+      "intent": "Ich möchte meine Profildaten überprüfen und aktualisieren, um sicherzustellen, dass alle Informationen korrekt sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ecall.ffg.at",
+      "intent": "Ich will meine Anträge und Anfragen einsehen, um den aktuellen Stand meiner Anliegen zu überprüfen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ecall.ffg.at",
+      "intent": "Ich möchte die Unterstützungsangebote von FFG eCall nutzen, um Hilfe bei meiner Forschungsförderung zu erhalten."
+    }
+  ]
+}

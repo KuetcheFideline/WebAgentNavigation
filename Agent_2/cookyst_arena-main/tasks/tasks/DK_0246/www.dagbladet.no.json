@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dagbladet.no",
+      "intent": "Læse nyheder om dagens begivenheder"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dagbladet.no",
+      "intent": "Søge efter information omkring sundhedsnyheder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dagbladet.no",
+      "intent": "Se videoer omkring nyheder og begivenheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dagbladet.no",
+      "intent": "Læse artikler i Pluss-sektionen for at få mere dybdegående information"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dagbladet.no",
+      "intent": "Delte nyhedsartikler med venner og familie via e-mail eller sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dagbladet.no",
+      "intent": "Kommentere på artikler og deltage i diskussioner med andre brugere"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.epshp.fi",
+      "intent": "Hae sivustolta tietoa ikäihmisten palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.epshp.fi",
+      "intent": "Selaa sosiaali- ja terveydenhuollon palveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.epshp.fi",
+      "intent": "Etsi tietoa lähihoitajan työstä ja koulutuksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.epshp.fi",
+      "intent": "Kirjaudu OmaEP digipalveluun ja tarkastele potilastietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.epshp.fi",
+      "intent": "Varaa aika lääkärille OmaEP digipalvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.epshp.fi",
+      "intent": "Täytä asiakas- ja potilastiedot OmaEP digipalvelussa"
+    }
+  ]
+}

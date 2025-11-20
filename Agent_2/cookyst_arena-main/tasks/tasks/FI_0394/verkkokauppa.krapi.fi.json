@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkokauppa.krapi.fi",
+      "intent": "Olen etsimässä lahjakortteja Krapin moniin palveluihin, kuten ravintolaan tai juhliin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkokauppa.krapi.fi",
+      "intent": "Haluan tarkastella Krapin keittiön ja palvaamon sesonkiherkkuja."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkokauppa.krapi.fi",
+      "intent": "Olen kiinnostunut Krapin Pajan tapahtumista ja lipuista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkokauppa.krapi.fi",
+      "intent": "Tilasin jo aiemmin lahjakortin ja haluan tarkastella tilaustani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkokauppa.krapi.fi",
+      "intent": "Olen ostamassa uutta lahjakorttia ja haluan käyttää aiemmin tallentamani osoitetietoja."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkokauppa.krapi.fi",
+      "intent": "Haluan muuttaa tilaustani, joka on jo maksamani, ja tarvitsen apua asiakaspalvelusta."
+    }
+  ]
+}

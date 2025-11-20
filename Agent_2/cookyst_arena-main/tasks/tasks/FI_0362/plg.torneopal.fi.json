@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://plg.torneopal.fi",
+      "intent": "Tutustua turnauksen sääntöihin ja kenttiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://plg.torneopal.fi",
+      "intent": "Etsiä tietoa tyttöjen jalkapalloturnauksesta ja sen tavoitteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://plg.torneopal.fi",
+      "intent": "Selata turnauksen otteluiden tuloksia ja suorien lähetyksiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://plg.torneopal.fi",
+      "intent": "Kirjautua sisään ja lisätä suosikkeja turnauksen joukkueista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://plg.torneopal.fi",
+      "intent": "Tarkastella omia suosikkeja ja seurata turnauksen kehittymistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://plg.torneopal.fi",
+      "intent": "Osallistua turnauksen keskusteluihin ja kommentoida otteluita"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kaksikitaraa.com",
+      "intent": "Hae sähkökitaroita ja vertaile niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kaksikitaraa.com",
+      "intent": "Selaa akustisten kitaroiden valikoimaa ja lue arvosteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kaksikitaraa.com",
+      "intent": "Etsi käytettyjä bassoja ja tarkastele niiden teknisiä tietoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kaksikitaraa.com",
+      "intent": "Lisää tuote ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kaksikitaraa.com",
+      "intent": "Tee tilaus ja valitse toimitustapa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kaksikitaraa.com",
+      "intent": "Kirjaudu sisään ja tarkastele tilaushistoriaa"
+    }
+  ]
+}

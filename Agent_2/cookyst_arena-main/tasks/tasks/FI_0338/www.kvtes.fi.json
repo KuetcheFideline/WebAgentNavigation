@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kvtes.fi",
+      "intent": "Hae sivustolta tietoa vuosiloman määräytyminen taulukosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kvtes.fi",
+      "intent": "Selaa kysymyksiä ja vastauksia aiheesta työaika"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kvtes.fi",
+      "intent": "Lue uusimmat kysymykset ja vastaukset kategorian Yleinen alta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kvtes.fi",
+      "intent": "Lähetä uusi kysymys aiheesta palkkaus ja odottele vastausta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kvtes.fi",
+      "intent": "Vastaa johonkin aiemmin esitettyyn kysymykseen aiheesta työmatkat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kvtes.fi",
+      "intent": "Muokkaa omaa profiilia ja tarkista omat kysymykset ja vastaukset"
+    }
+  ]
+}

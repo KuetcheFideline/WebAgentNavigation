@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.geneanet.org",
+      "intent": "Etsin sukutietojani ja aloitan oman sukupuuni luomisen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.geneanet.org",
+      "intent": "Selailen Geneanetin kokoelmia ja etsin esivanhempiani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.geneanet.org",
+      "intent": "Löydän sukunimeni alkuperän ja merkityksen Geneanetin avulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.geneanet.org",
+      "intent": "Lisään valokuvia sukupuuhuni ja jaa niitä perheenjäsenieni kanssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.geneanet.org",
+      "intent": "Tallennan hautakuvia ja muistomerkkejä Geneanetiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.geneanet.org",
+      "intent": "Olen mukana sukututkimusyhteisössä ja etsin keskinäistä sukututkimustukea"
+    }
+  ]
+}

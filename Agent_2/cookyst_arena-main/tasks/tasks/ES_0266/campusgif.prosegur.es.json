@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campusgif.prosegur.es",
+      "intent": "Explorar la página principal para conocer las opciones de acceso y navegación disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campusgif.prosegur.es",
+      "intent": "Buscar información sobre la política de privacidad y el aviso legal para entender cómo se manejan los datos personales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campusgif.prosegur.es",
+      "intent": "Intentar acceder a la sección de identificación para ver si se puede obtener más información sin necesidad de iniciar sesión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campusgif.prosegur.es",
+      "intent": "Iniciar sesión para acceder a las herramientas de gestión de la formación y ver los cursos disponibles para empleados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campusgif.prosegur.es",
+      "intent": "Configurar el perfil de usuario y ajustar las preferencias de idioma y notificaciones una vez dentro del sistema"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campusgif.prosegur.es",
+      "intent": "Buscar y registrar un nuevo curso de formación para mejorar las habilidades profesionales y avanzar en la carrera"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.akpool.de",
+      "intent": "Ich möchte alte Ansichtskarten von Deutschland kaufen und möchte daher die Kategorie 'Deutschland' auf der Startseite auswählen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.akpool.de",
+      "intent": "Ich bin auf der Suche nach einem bestimmten Motiv und möchte daher die Suche auf der Startseite nutzen, um nach 'Motive / Themen' zu suchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.akpool.de",
+      "intent": "Ich möchte mehr über die Premiumbox erfahren und möchte daher den Link 'Premiumbox' auf der Startseite anklicken."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.akpool.de",
+      "intent": "Ich möchte meine Merkzettel aufrufen, um meine gespeicherten Artikel zu überprüfen und möchte daher den Link 'Meine Merkzettel' anklicken."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.akpool.de",
+      "intent": "Ich möchte meine Bestellungen überprüfen und möchte daher den Link 'Mein Konto' anklicken, um meine Bestellhistorie zu sehen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.akpool.de",
+      "intent": "Ich möchte meine Kontaktdaten ändern und möchte daher den Link 'Mein Konto' anklicken, um meine Profildaten zu bearbeiten."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cm.be",
+      "intent": "Rechercher les informations sur les assurances maladie pour les enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cm.be",
+      "intent": "Consulter les offres de CM-Verzekeringen pour les comptables"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cm.be",
+      "intent": "Découvrir les avantages de l'adhésion à CM pour les parents célibataires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cm.be",
+      "intent": "Gérer mes informations personnelles et mes assurances sur mon compte CM"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cm.be",
+      "intent": "Demander un devis pour une assurance hospitalisation pour moi et mes enfants"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cm.be",
+      "intent": "Consulter mes relevés de compte et mes factures de CM en ligne"
+    }
+  ]
+}

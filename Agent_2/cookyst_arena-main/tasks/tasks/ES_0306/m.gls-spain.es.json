@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.gls-spain.es",
+      "intent": "Buscar información sobre los servicios de envío de paquetes en España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.gls-spain.es",
+      "intent": "Comparar los precios y tiempos de entrega de los diferentes servicios de envío"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.gls-spain.es",
+      "intent": "Descargar la aplicación móvil de GLS para realizar seguimiento de mis paquetes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.gls-spain.es",
+      "intent": "Configurar mis preferencias de envío y agregar mis direcciones habituales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.gls-spain.es",
+      "intent": "Realizar un seguimiento detallado de mis paquetes en curso y ver el historial de mis envíos anteriores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.gls-spain.es",
+      "intent": "Imprimir etiquetas de envío y preparar mis paquetes para ser recogidos por GLS"
+    }
+  ]
+}

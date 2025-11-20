@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dasu.dk",
+      "intent": "Jeg søger efter information om DASUs reglementer for banesport"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dasu.dk",
+      "intent": "Jeg vil læse nyheder om rally på DASUs hjemmeside"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dasu.dk",
+      "intent": "Jeg søger efter en liste over DASUs medlemmer og deres kontaktoplysninger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dasu.dk",
+      "intent": "Jeg vil bestille en licens til banesport gennem DASUs medlemssystem"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dasu.dk",
+      "intent": "Jeg søger efter mine personlige oplysninger og medlemsinformation i DASUs medlemssystem"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dasu.dk",
+      "intent": "Jeg vil downloade DASUs reglementer for dragracing fra medlemssystemet"
+    }
+  ]
+}

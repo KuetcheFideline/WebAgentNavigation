@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tuifly.be",
+      "intent": "Rechercher des vols pour un week-end à Barcelone en utilisant les filtres de recherche avancée"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tuifly.be",
+      "intent": "Comparer les prix des vols pour un aller-retour Bruxelles-Madrid sur les prochaines semaines"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tuifly.be",
+      "intent": "Consulter les informations sur les bagages autorisés et les frais associés pour un vol en classe économique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tuifly.be",
+      "intent": "Réserver un vol pour un ami en utilisant mon compte TUI fly et en bénéficiant de mes miles accumulés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tuifly.be",
+      "intent": "Consulter mon historique de réservations et imprimer ma carte d'embarquement pour mon prochain vol"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tuifly.be",
+      "intent": "Modifier mes informations de compte et ajouter une nouvelle adresse e-mail pour recevoir les offres promotionnelles de TUI fly"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.stripinfo.be",
+      "intent": "Je souhaite découvrir les dernières bandes dessinées ajoutées à la base de données pour trouver de nouvelles lectures."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.stripinfo.be",
+      "intent": "Vous cherchez à en savoir plus sur les auteurs de bandes dessinées belges pour élargir vos connaissances sur le sujet."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.stripinfo.be",
+      "intent": "Vous souhaitez parcourir les différentes catégories de bandes dessinées proposées par le site pour trouver des titres qui vous intéressent."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.stripinfo.be",
+      "intent": "Après vous être connecté, vous souhaitez ajouter une bande dessinée à votre collection personnelle pour la suivre et la noter."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.stripinfo.be",
+      "intent": "Une fois connecté, vous souhaitez participer à un concours ou un sondage sur le site pour gagner des bandes dessinées ou des goodies."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.stripinfo.be",
+      "intent": "Connecté, vous voulez laisser une critique ou un commentaire sur une bande dessinée que vous avez lue pour partager votre avis avec la communauté."
+    }
+  ]
+}

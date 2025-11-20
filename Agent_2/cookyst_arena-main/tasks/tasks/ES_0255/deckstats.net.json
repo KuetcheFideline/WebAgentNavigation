@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://deckstats.net",
+      "intent": "Explorar la página de inicio para ver qué tipo de estadísticas de decks de cartas ofrece el sitio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://deckstats.net",
+      "intent": "Buscar información sobre cómo crear un deck personalizado para jugar con amigos en el parque"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://deckstats.net",
+      "intent": "Leer las reseñas y comentarios de otros usuarios sobre el sitio para ver si es confiable"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://deckstats.net",
+      "intent": "Crear un nuevo deck de cartas personalizado con mis cartas favoritas y guardar mis progresos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://deckstats.net",
+      "intent": "Compartir mi deck de cartas favorito con amigos en las redes sociales para que puedan ver mis creaciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://deckstats.net",
+      "intent": "Participar en un torneo en línea de decks de cartas para competir con otros jugadores y mejorar mis habilidades"
+    }
+  ]
+}

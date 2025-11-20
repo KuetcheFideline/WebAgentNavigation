@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Rechercher des informations sur les dernières actualités en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Lire les articles de la rubrique « Sport » pour suivre les résultats des matchs de football"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Consulter la section « Conso » pour trouver des conseils d'achat et des comparatifs de produits"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Participer à un sondage en ligne sur le site pour donner mon avis sur les actualités"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Créer une liste de mes articles préférés pour les consulter plus tard"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.20minutes.fr",
+      "intent": "Publier un commentaire sur un article pour partager mes opinions avec la communauté"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tickets.kaagent.be",
+      "intent": "Je veux consulter les tarifs et les disponibilités des billets pour le prochain match de KAA Gent afin de planifier une sortie avec mes amis."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tickets.kaagent.be",
+      "intent": "Je souhaite comparer les prix des billets pour différents matchs à domicile de KAA Gent pour trouver la meilleure affaire."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tickets.kaagent.be",
+      "intent": "Je veux explorer les différentes catégories de billets disponibles pour le match de KAA Gent contre son rival traditionnel afin de choisir les places idéales."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tickets.kaagent.be",
+      "intent": "Je vais acheter des billets pour le match de KAA Gent en utilisant mon compte existant pour bénéficier des avantages réservés aux membres."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tickets.kaagent.be",
+      "intent": "Je souhaite consulter l'historique de mes achats de billets sur le site de KAA Gent pour suivre mes dépenses et mes réservations."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tickets.kaagent.be",
+      "intent": "Je veux modifier mes informations de compte et mes préférences de notification pour être informé des prochains matchs et des offres spéciales de KAA Gent."
+    }
+  ]
+}

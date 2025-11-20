@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://itorrents-igruha.org",
+      "intent": "Etsin uusimmat pelit, jotka on ladattavissa torrentin kautta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://itorrents-igruha.org",
+      "intent": "Haluan tarkastella suosittujen pelien luetteloa ja ladata yksi niistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://itorrents-igruha.org",
+      "intent": "Tutkin sivuston hakutoimintoa ja etsin tiettyjä pelejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://itorrents-igruha.org",
+      "intent": "Kirjaudun sisään ja tarkastelen ladattavien pelien historiaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://itorrents-igruha.org",
+      "intent": "Ladatan uuden pelin ja kommentoin sitä sivuston foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://itorrents-igruha.org",
+      "intent": "Muokkaan profiiliani ja vaihdan salasanani"
+    }
+  ]
+}

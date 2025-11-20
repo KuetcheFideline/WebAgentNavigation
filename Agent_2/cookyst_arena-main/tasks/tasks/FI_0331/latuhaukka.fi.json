@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://latuhaukka.fi",
+      "intent": "Valitsen alueeni Oulun seutu ja tarkastelen laturaportteja hiihtäjiltä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://latuhaukka.fi",
+      "intent": "Lähetän palautetta Latuhaukka-palvelusta ja ehdotan uutta paikkakuntaa Vaasa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://latuhaukka.fi",
+      "intent": "Selvitan miten Latuhaukka-palvelu mahdollistaa laturaporttien jakamisen hiihtäjien kesken"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://latuhaukka.fi",
+      "intent": "Kirjaudun hallintaportaaliin ja tarkastelen omia laturaporttejani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://latuhaukka.fi",
+      "intent": "Lisään uuden laturaportin alueeltani Oulun seutu"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://latuhaukka.fi",
+      "intent": "Muokkaan profiiliani ja lisään kuvan itsestäni hiihtäessä"
+    }
+  ]
+}

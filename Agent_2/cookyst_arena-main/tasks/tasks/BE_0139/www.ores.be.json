@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ores.be",
+      "intent": "Je souhaite comparer les offres d'énergie pour mon appartement à Ixelles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ores.be",
+      "intent": "J'ai besoin de contacter le service client d'ORES pour obtenir des informations sur le compteur communicant."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ores.be",
+      "intent": "Je veux en savoir plus sur les tarifs et les promotions actuelles pour les particuliers sur le site d'ORES."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ores.be",
+      "intent": "Je souhaite consulter mes factures d'énergie en ligne et gérer mes paramètres de compte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ores.be",
+      "intent": "J'ai besoin de modifier mon adresse de facturation et de mettre à jour mes informations de compte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ores.be",
+      "intent": "Je veux programmer une lecture de compteur pour mon appartement et suivre l'historique de mes consommations."
+    }
+  ]
+}

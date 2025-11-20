@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.public.fr",
+      "intent": "Rechercher des informations sur les dernières actualités people et télé"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.public.fr",
+      "intent": "Lire les articles à la une sur les sujets de société et de lifestyle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.public.fr",
+      "intent": "Écouter la radio en ligne pour rester informé des dernières actualités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.public.fr",
+      "intent": "S'abonner à la newsletter pour recevoir des mises à jour régulières sur les actualités people"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.public.fr",
+      "intent": "Participer à un sondage en ligne pour donner son avis sur les dernières actualités"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.public.fr",
+      "intent": "Consulter son historique de lectures pour revoir les articles qui l'intéressent"
+    }
+  ]
+}

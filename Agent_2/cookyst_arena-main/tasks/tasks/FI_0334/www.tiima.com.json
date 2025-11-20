@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tiima.com",
+      "intent": "Tutkin Visma Tiiman uusimman version 2.25.9 päivitystietoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tiima.com",
+      "intent": "Valitsen suomen kielen sivuston kielivaihtoehdoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tiima.com",
+      "intent": "Etsin tietoa Visma Tiiman tuotteista ja palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tiima.com",
+      "intent": "Tarkastan Visma Tiiman tilisiirtotiedot ja vahvistan ne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tiima.com",
+      "intent": "Luo uusi lasku Visma Tiiman laskutusjärjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tiima.com",
+      "intent": "Muokkaan Visma Tiiman käyttäjäprofiilia ja vahvistan muutokset"
+    }
+  ]
+}

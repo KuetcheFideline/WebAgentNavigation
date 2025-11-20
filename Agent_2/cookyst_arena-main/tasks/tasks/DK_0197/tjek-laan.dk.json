@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tjek-laan.dk",
+      "intent": "Jeg vil sammenligne forbrugslån fra forskellige banker for at finde det bedste tilbud"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tjek-laan.dk",
+      "intent": "Jeg søger efter information om renter og gebyrer på forskellige lån"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tjek-laan.dk",
+      "intent": "Jeg vil læse artikler om personlige finanser og lån for at blive bedre informeret"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tjek-laan.dk",
+      "intent": "Jeg vil logge ind for at få adgang til mine låneansøgninger og følge med i min lånehistorik"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tjek-laan.dk",
+      "intent": "Jeg vil opdatere mine personlige oplysninger og ændre mine lånepræferencer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tjek-laan.dk",
+      "intent": "Jeg vil ansøge om et nyt lån og følge med i ansøgningsprocessen"
+    }
+  ]
+}

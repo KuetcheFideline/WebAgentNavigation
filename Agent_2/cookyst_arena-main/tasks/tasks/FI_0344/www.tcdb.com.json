@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tcdb.com",
+      "intent": "Selaa sivustoa ja etsi tietoa baseball-kortteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tcdb.com",
+      "intent": "Etsi ja vertaile eri urheilulajien kortteja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tcdb.com",
+      "intent": "Lue ja osallistu keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tcdb.com",
+      "intent": "Luo uusi lista suosikkikortteistani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tcdb.com",
+      "intent": "Muokkaa profiilia ja lisää tietoja itsestäni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tcdb.com",
+      "intent": "Ostetaan ja myydään kortteja muiden käyttäjien kanssa"
+    }
+  ]
+}

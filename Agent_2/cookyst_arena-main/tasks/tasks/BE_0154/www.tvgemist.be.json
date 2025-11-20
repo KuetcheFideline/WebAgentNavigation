@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvgemist.be",
+      "intent": "Rechercher les programmes télévisés diffusés récemment pour regarder avec ma famille le soir"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvgemist.be",
+      "intent": "Consulter les recommandations de la rédaction pour découvrir de nouveaux programmes intéressants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvgemist.be",
+      "intent": "Explorer les programmes pour enfants pour trouver quelque chose à regarder avec mes enfants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvgemist.be",
+      "intent": "Gérer mes programmes préférés pour accéder rapidement à mes émissions favorites"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvgemist.be",
+      "intent": "Configurer mes paramètres de compte pour personnaliser mon expérience de navigation"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvgemist.be",
+      "intent": "Accéder à l'historique de mes programmes regardés pour revoir quelque chose que j'ai aimé"
+    }
+  ]
+}

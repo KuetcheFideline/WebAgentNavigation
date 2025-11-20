@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.termino.gv.at",
+      "intent": "Ich möchte eine Abstimmung erstellen, um mit meinen Kollegen einen Termin für unsere nächste Besprechung zu finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.termino.gv.at",
+      "intent": "Ich will die Anleitung für die Terminabstimmung lesen, um zu verstehen, wie die Plattform funktioniert."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.termino.gv.at",
+      "intent": "Ich möchte die FAQ-Seite besuchen, um Antworten auf häufige Fragen zu finden, bevor ich eine Abstimmung erstelle."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.termino.gv.at",
+      "intent": "Ich möchte mich einloggen, um meine bereits erstellten Abstimmungen und Buchungslisten zu bearbeiten und zu verwalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.termino.gv.at",
+      "intent": "Ich will eine Buchungsliste erstellen, um Termine für meine nächste Projektbesprechung zu buchen und zu verwalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.termino.gv.at",
+      "intent": "Ich möchte meine Kontoeinstellungen überprüfen und aktualisieren, um sicherzustellen, dass meine Daten korrekt sind und ich Benachrichtigungen über neue Abstimmungen und Buchungen erhalte."
+    }
+  ]
+}

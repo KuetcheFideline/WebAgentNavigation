@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://minduu.fi",
+      "intent": "Hae psykoterapeutti Helsingistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://minduu.fi",
+      "intent": "Lue lisää mielenterveyden huollosta ja terveydenhuollosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://minduu.fi",
+      "intent": "Selvitä, miten voin hyödyntää psykoterapiaa omassa elämässäni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://minduu.fi",
+      "intent": "Varaa aika psykoterapeutille ja tee maksu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://minduu.fi",
+      "intent": "Täytä terveydenhuollon ja mielenterveyden huollon kysely"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://minduu.fi",
+      "intent": "Lue ja allekirjoita asiakirjat, jotka liittyvät hoitoon"
+    }
+  ]
+}

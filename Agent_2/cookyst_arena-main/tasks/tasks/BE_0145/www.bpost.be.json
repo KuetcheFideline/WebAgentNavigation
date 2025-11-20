@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bpost.be",
+      "intent": "Je veux trouver un point de service bpost près de chez moi à Alost pour envoyer un colis à ma famille en France."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bpost.be",
+      "intent": "J'ai besoin de calculer le prix d'envoi d'un colis de 5 kg de Alost à Paris pour mes prochaines vacances."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bpost.be",
+      "intent": "Je souhaite suivre l'état d'avancement de mon envoi en utilisant le numéro de suivi pour être sûr que mon colis arrive à destination."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bpost.be",
+      "intent": "Je veux accéder à l'historique de mes envois pour voir si j'ai déjà envoyé des colis à la même adresse et ainsi gagner du temps."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bpost.be",
+      "intent": "J'ai besoin de modifier mon adresse de livraison pour que mes colis soient livrés à mon nouveau domicile à Alost."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bpost.be",
+      "intent": "Je souhaite configurer les notifications par e-mail pour recevoir des mises à jour sur l'état de mes envois et ainsi mieux planifier mes activités."
+    }
+  ]
+}

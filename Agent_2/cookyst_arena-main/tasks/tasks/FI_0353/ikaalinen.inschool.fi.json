@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ikaalinen.inschool.fi",
+      "intent": "Tutkin Ikaalisten kaupungin Wilman etusivun ja etsin tietoa opetusohjelmista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ikaalinen.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja vinkkejä opiskelijoiden ja huoltajien Wilma-ohjeista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ikaalinen.inschool.fi",
+      "intent": "Etsin tietoa monivaiheisesta tunnistautumisesta ja sen aktivoimisesta huoltajien tileille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ikaalinen.inschool.fi",
+      "intent": "Tarkastan opiskelijoideni tiedot ja kurssit Wilman opiskelijahallinto-ohjelmassa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ikaalinen.inschool.fi",
+      "intent": "Vaihdan salasanani ja tarkastan Wilman salasanan vaihtamisen ja monivaiheisen kirjautumisen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ikaalinen.inschool.fi",
+      "intent": "Lähettän viestejä opiskelijoille ja huoltajille Wilman viestitoiminnon kautta"
+    }
+  ]
+}

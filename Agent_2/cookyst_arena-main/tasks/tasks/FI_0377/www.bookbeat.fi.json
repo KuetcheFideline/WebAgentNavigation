@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Selaa äänikirjoja ja e-kirjoja, jotka ovat nousussa nyt"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Etsi kirjoja, joissa on aiheena kulttuuri, joka kiinnostaa minua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Lue lisää BookBeatin tarjoamista lahjakorteista ja miten niitä voi käyttää"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Kuuntele äänikirjaa, jonka olen tallentanut kirjastooni aiemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Tarkista tilauspakettini tiedot ja muokkaa niitä, jos tarpeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Arvostele äänikirja, jonka kuuntelin viimeksi, ja anna palautetta"
+    }
+  ]
+}

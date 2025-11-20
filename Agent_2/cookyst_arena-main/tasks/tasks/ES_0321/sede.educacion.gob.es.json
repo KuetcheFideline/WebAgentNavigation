@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.educacion.gob.es",
+      "intent": "Buscar información sobre becas y ayudas para alumnos de niveles postobligatorios"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.educacion.gob.es",
+      "intent": "Explorar la sección de trámites destacados para conocer las opciones disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.educacion.gob.es",
+      "intent": "Leer las preguntas frecuentes sobre el uso de la Sede electrónica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.educacion.gob.es",
+      "intent": "Acceder a mis expedientes personales para verificar el estado de mis solicitudes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.educacion.gob.es",
+      "intent": "Solicitar la homologación de un título extranjero no universitario a través de la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.educacion.gob.es",
+      "intent": "Consultar mis notificaciones personales para estar al tanto de las actualizaciones"
+    }
+  ]
+}

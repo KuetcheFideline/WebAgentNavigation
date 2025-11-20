@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lukki.finna.fi",
+      "intent": "Hae kirjaa aiheesta luonto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lukki.finna.fi",
+      "intent": "Selaa lastenkirjoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lukki.finna.fi",
+      "intent": "Tutki e-aineistojen tarjontaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lukki.finna.fi",
+      "intent": "Tee varaus kirjasta, joka kiinnostaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lukki.finna.fi",
+      "intent": "Uusi laina-aikaa kirjalle, jota en ole ehtinyt lukea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lukki.finna.fi",
+      "intent": "Lisää suosikki kirjailija, jonka teoksia haluan seurata"
+    }
+  ]
+}

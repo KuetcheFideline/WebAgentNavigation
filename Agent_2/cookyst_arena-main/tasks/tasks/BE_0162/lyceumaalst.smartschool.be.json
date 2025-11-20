@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lyceumaalst.smartschool.be",
+      "intent": "Rechercher les informations sur les cours disponibles pour les élèves de l'école"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lyceumaalst.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques proposées par l'école pour les enseignants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lyceumaalst.smartschool.be",
+      "intent": "Consulter les actualités et les événements à venir de l'école"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lyceumaalst.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes absences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lyceumaalst.smartschool.be",
+      "intent": "Télécharger les documents et les ressources nécessaires pour mes cours"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lyceumaalst.smartschool.be",
+      "intent": "Communiquer avec mes enseignants et mes camarades de classe via le système de messagerie interne"
+    }
+  ]
+}

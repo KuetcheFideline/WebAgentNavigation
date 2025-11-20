@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autokeuringinfo.be",
+      "intent": "Rechercher les informations sur les centres de contrôle technique pour les véhicules dans la région de Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autokeuringinfo.be",
+      "intent": "Consulter les webcams des centres de contrôle technique pour vérifier les temps d'attente"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autokeuringinfo.be",
+      "intent": "Lire les actualités et les mises à jour sur les règles et procédures de contrôle technique des véhicules"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autokeuringinfo.be",
+      "intent": "Prendre rendez-vous pour un contrôle technique de mon véhicule en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autokeuringinfo.be",
+      "intent": "Consulter mes rendez-vous précédents et imprimer les rapports de contrôle technique de mon véhicule"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autokeuringinfo.be",
+      "intent": "Modifier mes informations personnelles et de contact pour les rendez-vous de contrôle technique"
+    }
+  ]
+}

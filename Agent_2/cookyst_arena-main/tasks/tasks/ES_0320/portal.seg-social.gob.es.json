@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.seg-social.gob.es",
+      "intent": "Consultar los trámites disponibles para personas mayores en el portal de la Seguridad Social"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.seg-social.gob.es",
+      "intent": "Buscar información sobre los servicios de la Tesorería General de la Seguridad Social"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.seg-social.gob.es",
+      "intent": "Acceder a la sección de 'Otros recursos' para encontrar enlaces a la Sede Electrónica de la Seguridad Social y otros servicios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.seg-social.gob.es",
+      "intent": "Consultar mi informe de vida laboral y verificar mis datos personales en el área personal"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.seg-social.gob.es",
+      "intent": "Realizar un trámite de alta o modificación en mi cuenta de la Seguridad Social"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.seg-social.gob.es",
+      "intent": "Descargar certificados y documentos relacionados con mi cuenta de la Seguridad Social desde el área personal"
+    }
+  ]
+}

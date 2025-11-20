@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://booking-hoas.tampuuri.fi",
+      "intent": "Selvitän, miten varauspalvelu toimii ja mitä asioita voin varata"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://booking-hoas.tampuuri.fi",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa varaukseni tai peruuttaa sen, jos tarve vaatii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://booking-hoas.tampuuri.fi",
+      "intent": "Tutkin, mitä eri vaihtoehtoja on tarjolla varauspalvelussa ja mitkä niistä sopivat parhaiten minun tarpeisiini"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://booking-hoas.tampuuri.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä varauksia minulla on jo tehtynä ja mitä muutoksia voin tehdä niihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://booking-hoas.tampuuri.fi",
+      "intent": "Tee uusi varaus ja valitse sopiva ajankohta ja paikka, joka sopii minun aikatauluuni ja tarpeisiini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://booking-hoas.tampuuri.fi",
+      "intent": "Tarkistan, mitä maksutapaa voin käyttää varauksen maksamiseen ja miten voin varmistaa, että maksu on tehty oikein"
+    }
+  ]
+}

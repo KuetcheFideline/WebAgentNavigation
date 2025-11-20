@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kauhajoki-lehti.fi",
+      "intent": "Luen uusimmat uutiset Kauhajoen alueelta, jotta voin pysyä ajan tasalla tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kauhajoki-lehti.fi",
+      "intent": "Etsin tietoa paikallisista tapahtumista ja kulttuuritapahtumista, joissa voisin osallistua."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kauhajoki-lehti.fi",
+      "intent": "Selvitan, miten voin tilata lehtiä tai muuta sisältöä sivustolta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kauhajoki-lehti.fi",
+      "intent": "Kirjaudun sisään ja muokkaan omaa profiilia, jotta voin hallita tilaustani ja muuta tietoani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kauhajoki-lehti.fi",
+      "intent": "Luen vanhempia uutisartikkeleita, joita olen tallentanut omaan kirjastooni."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kauhajoki-lehti.fi",
+      "intent": "Osallistun keskusteluun tai kommentoin artikkeleita, joissa olen kiinnostunut."
+    }
+  ]
+}

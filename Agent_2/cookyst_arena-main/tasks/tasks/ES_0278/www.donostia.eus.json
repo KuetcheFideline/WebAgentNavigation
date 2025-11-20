@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.donostia.eus",
+      "intent": "Buscar información sobre los servicios de tramitación de documentos en el Ayuntamiento de Donostia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.donostia.eus",
+      "intent": "Explorar las noticias y actualizaciones sobre la ciudad de Donostia en la sección de 'Berriak'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.donostia.eus",
+      "intent": "Descubrir los eventos y actividades culturales programados en la ciudad de Donostia a través de la sección 'Agenda'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.donostia.eus",
+      "intent": "Acceder a la sección de 'Udalinfo' para obtener información personalizada sobre los servicios y trámites disponibles para los ciudadanos registrados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.donostia.eus",
+      "intent": "Realizar un pago en línea a través de la sección 'Online ordainketa' para un servicio o trámite específico"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.donostia.eus",
+      "intent": "Consultar y descargar documentos personales o certificados a través de la sección 'Egiaztagiri digitala B@kQ'"
+    }
+  ]
+}

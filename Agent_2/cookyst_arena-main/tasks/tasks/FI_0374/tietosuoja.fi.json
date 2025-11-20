@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tietosuoja.fi",
+      "intent": "Hae sivustolta tietosuojavaltuutetun toimiston uusimmat tiedotteet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tietosuoja.fi",
+      "intent": "Selaa tietosuojavaltuutetun toimiston blogia ja etsi artikkeleita tekoälyjärjestelmien tietosuojasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tietosuoja.fi",
+      "intent": "Tutki tietosuojavaltuutetun toimiston ohjeita yksityishenkilöille ja etsi tietoa henkilötietojen käsittelystä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tietosuoja.fi",
+      "intent": "Tee ilmoitus tietosuojavaltuutetulle koskien henkilötietojen käsittelyä Maahanmuuttovirastossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tietosuoja.fi",
+      "intent": "Pyynnä tietosuojavaltuutetun toimistolta neuvoja tietovuodon uhreille ja tutki toimiston suosituksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tietosuoja.fi",
+      "intent": "Tilaa tietosuojavaltuutetun toimiston uutiskirje ja seuraa toimiston ajankohtaisia aiheita"
+    }
+  ]
+}

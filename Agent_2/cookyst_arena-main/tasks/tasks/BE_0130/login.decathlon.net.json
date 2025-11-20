@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.decathlon.net",
+      "intent": "Je veux créer un compte Decathlon pour bénéficier des offres exclusives et gérer mes commandes en ligne."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.decathlon.net",
+      "intent": "Je souhaite consulter les produits disponibles sur le site Decathlon sans créer de compte pour l'instant."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.decathlon.net",
+      "intent": "Je veux comparer les prix des différents produits de sport sur Decathlon pour trouver les meilleures affaires."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.decathlon.net",
+      "intent": "Je vais accéder à mon compte Decathlon pour suivre l'état de mes commandes et gérer mes informations personnelles."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.decathlon.net",
+      "intent": "Je souhaite personnaliser mes préférences de produits et recevoir des recommandations personnalisées sur le site Decathlon."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.decathlon.net",
+      "intent": "Je vais utiliser mon compte Decathlon pour acheter des produits en ligne et bénéficier des avantages liés à mon compte."
+    }
+  ]
+}

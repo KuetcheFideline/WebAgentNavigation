@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aqua-web.fi",
+      "intent": "Hae akvaariokalastuksen vinkkejä ja neuvoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aqua-web.fi",
+      "intent": "Selaa keskustelupalstaa ja etsi tietoa akvaarioharrastuksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aqua-web.fi",
+      "intent": "Lue uusimmat artikkelit ja uutiset akvaariomaailmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aqua-web.fi",
+      "intent": "Kirjaudu sisään ja osallistu keskusteluun akvaarioaiheista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aqua-web.fi",
+      "intent": "Luo uusi viestiketju ja kysy neuvoa akvaariokalastuksen aloittamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aqua-web.fi",
+      "intent": "Muokkaa profiilia ja lisää tietoa itsestäni akvaarioharrastajana"
+    }
+  ]
+}

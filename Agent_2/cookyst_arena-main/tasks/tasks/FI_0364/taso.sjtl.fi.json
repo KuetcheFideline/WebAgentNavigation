@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://taso.sjtl.fi",
+      "intent": "Etsin tietoa jääkiekon harrastemahdollisuuksista Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://taso.sjtl.fi",
+      "intent": "Haluan tarkastella eri jääkiekkosarjoja ja niiden otteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://taso.sjtl.fi",
+      "intent": "Tutkin mahdollisuuksia liittyä jääkiekkoseuraan tai -joukkueeseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://taso.sjtl.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman jääkiekkoseurani tietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://taso.sjtl.fi",
+      "intent": "Ilmoittaudun jääkiekko-otteluun erotuomariksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://taso.sjtl.fi",
+      "intent": "Tarkastan ja päivitän oman jääkiekkokalenterini"
+    }
+  ]
+}

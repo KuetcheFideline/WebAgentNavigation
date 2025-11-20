@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.odinsklinge.dk",
+      "intent": "Jeg søger efter en gave til min søn, der er interesseret i vikingesmykker, så jeg vil gå til 'Gaver til de små vikinger' og se, hvad de har at tilbyde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.odinsklinge.dk",
+      "intent": "Jeg vil gerne læse mere om Odins Klinge og deres historie, så jeg vil klikke på 'Om Odins Klinge' for at få mere information."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.odinsklinge.dk",
+      "intent": "Jeg søger efter en bestemt type smykke, så jeg vil bruge søgefunktionen til at finde 'Vikingesmykker med Thors Hammer'."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.odinsklinge.dk",
+      "intent": "Jeg har allerede en konto og ønsker at købe et smykke, så jeg vil gå til 'Min konto' og se, om jeg har nogen aktive ordrer eller ønsker at tilføje et nyt produkt til min kurv."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.odinsklinge.dk",
+      "intent": "Jeg vil gerne se mine tidligere ordrer og tracking-information, så jeg vil klikke på 'Mine ordrer' i min konto for at få mere information."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.odinsklinge.dk",
+      "intent": "Jeg har fundet et smykke, jeg gerne vil købe, så jeg vil gå til 'Kurv' og fuldføre købet, efter at jeg har valgt størrelse og andre relevante detaljer."
+    }
+  ]
+}

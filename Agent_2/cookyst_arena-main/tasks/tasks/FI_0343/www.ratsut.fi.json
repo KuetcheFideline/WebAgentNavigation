@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ratsut.fi",
+      "intent": "Selata myytävien hevosten ilmoituksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ratsut.fi",
+      "intent": "Etsiä tietoa hevosten hoidosta ja kasvattamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ratsut.fi",
+      "intent": "Ladata hevosten kuvia ja videoita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ratsut.fi",
+      "intent": "Jättää myynti-ilmoitus hevosesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ratsut.fi",
+      "intent": "Vastata käyttäjien kysymyksiin hevosten myynti-ilmoituksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ratsut.fi",
+      "intent": "Muokata omia hevosten myynti-ilmoituksia"
+    }
+  ]
+}

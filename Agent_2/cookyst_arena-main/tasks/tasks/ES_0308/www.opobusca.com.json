@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.opobusca.com",
+      "intent": "Buscar ofertas de empleo público en Ourense para personas con experiencia en albañilería"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.opobusca.com",
+      "intent": "Explorar las convocatorias de oposiciones por CCAA para encontrar oportunidades en Galicia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.opobusca.com",
+      "intent": "Consultar las ofertas de oposiciones por provincia para encontrar vacantes en la provincia de Ourense"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.opobusca.com",
+      "intent": "Guardar las búsquedas de ofertas de empleo público en mi cuenta para tener un acceso rápido a ellas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.opobusca.com",
+      "intent": "Configurar alertas de convocatorias de oposiciones para recibir notificaciones cuando se publiquen nuevas ofertas en mi área de interés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.opobusca.com",
+      "intent": "Ver mis ofertas de empleo público guardadas y realizar un seguimiento de mis solicitudes"
+    }
+  ]
+}

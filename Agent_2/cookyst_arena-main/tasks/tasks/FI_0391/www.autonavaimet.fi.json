@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autonavaimet.fi",
+      "intent": "Hae tietoa autonavaimien korjaamisesta ja hinnoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autonavaimet.fi",
+      "intent": "Vertaa eri autonavaimien ominaisuuksia ja hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autonavaimet.fi",
+      "intent": "Ota yhteyttä asiakaspalveluun kysymyksellä autonavaimien toimitusajoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autonavaimet.fi",
+      "intent": "Tilaa uusi autonavain ja määritä sen toimitusosoite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autonavaimet.fi",
+      "intent": "Seuraa tilaustani ja tarkista toimitusstatus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autonavaimet.fi",
+      "intent": "Anna palautetta ja arvostelua aiemmin tilatusta autonavaimesta"
+    }
+  ]
+}

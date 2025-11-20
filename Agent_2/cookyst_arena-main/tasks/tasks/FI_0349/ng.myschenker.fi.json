@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ng.myschenker.fi",
+      "intent": "Tutkin mySchenker-palvelun ominaisuuksia ja etsin tietoa hinnoittelusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ng.myschenker.fi",
+      "intent": "Selailen sivustoa ja etsin tietoa kuljetustilausmahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ng.myschenker.fi",
+      "intent": "Luen mySCHENKER-tiedotteita ja etsin tietoa uusimmista palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ng.myschenker.fi",
+      "intent": "Tarkastan tilausteni tilaa ja seuraan kuljetusten etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ng.myschenker.fi",
+      "intent": "Luo uusi kuljetustilaus ja määritän tarvittavat tiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ng.myschenker.fi",
+      "intent": "Tutkin hinnoittelumahdollisuuksia ja vertailen eri vaihtoehtoja"
+    }
+  ]
+}

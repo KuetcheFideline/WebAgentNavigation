@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://worker.likeit.fi",
+      "intent": "Tarkastan sivuston ominaisuuksia ennen kirjautumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://worker.likeit.fi",
+      "intent": "Etsin tietoa työnhakuun liittyvistä palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://worker.likeit.fi",
+      "intent": "Selvittelen, miten voin luoda käyttäjätilin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://worker.likeit.fi",
+      "intent": "Täytän profiiliani työkokemukseni ja taitojeni kanssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://worker.likeit.fi",
+      "intent": "Hae työpaikkoja, jotka sopivat minun taitojeni ja kiinnostukseni mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://worker.likeit.fi",
+      "intent": "Muokkaan työhakemukseni ja lähettän sen valitsemaani työpaikkaan"
+    }
+  ]
+}

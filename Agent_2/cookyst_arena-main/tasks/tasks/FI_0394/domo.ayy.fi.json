@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://domo.ayy.fi",
+      "intent": "Selata AYY:n asuntoja ja etsiä sopiva asunto läheltä Aalto-yliopistoa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://domo.ayy.fi",
+      "intent": "Lukea lisää AYY:n asumispalveluista ja tutustua asuntohakuun"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://domo.ayy.fi",
+      "intent": "Tutustua Domo-palvelun kautta tarjottaviin asuntoihin ja niiden sijainteihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://domo.ayy.fi",
+      "intent": "Kirjautua sisään ja tehdä hakemus halutuun asuntoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://domo.ayy.fi",
+      "intent": "Ilmoittaa huoltoyhtiölle mahdollisista ongelmista asunnon siisteydessä tai laitteissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://domo.ayy.fi",
+      "intent": "Varata pyykkitupa ja hallita asunnon huolto- ja korjaustarpeita"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mypages.verisure.com",
+      "intent": "Je veux télécharger l'application mobile pour accéder à mes paramètres de sécurité en déplacement."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mypages.verisure.com",
+      "intent": "J'ai oublié mon mot de passe, je vais cliquer sur 'Mot de passe oublié' pour le réinitialiser."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mypages.verisure.com",
+      "intent": "Je n'ai pas encore de compte, je vais cliquer sur 'S'inscrire' pour créer un nouveau compte et accéder aux services de Verisure."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mypages.verisure.com",
+      "intent": "Je veux configurer les paramètres de sécurité de mon système d'alarme pour personnaliser les notifications et les réponses en cas d'intrusion."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mypages.verisure.com",
+      "intent": "J'ai besoin de consulter l'historique des événements de sécurité pour comprendre les activités récentes sur mon système d'alarme."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mypages.verisure.com",
+      "intent": "Je souhaite modifier mes informations de compte, notamment mon adresse e-mail et mon mot de passe, pour assurer la sécurité de mon compte Verisure."
+    }
+  ]
+}

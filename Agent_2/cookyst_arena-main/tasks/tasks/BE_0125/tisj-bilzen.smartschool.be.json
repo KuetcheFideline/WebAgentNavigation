@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tisj-bilzen.smartschool.be",
+      "intent": "Rechercher les informations sur les cours et les programmes scolaires proposés par l'institut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tisj-bilzen.smartschool.be",
+      "intent": "Explorer les ressources et les outils pédagogiques mis à disposition des élèves"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tisj-bilzen.smartschool.be",
+      "intent": "Consulter les actualités et les événements organisés par l'institut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tisj-bilzen.smartschool.be",
+      "intent": "Accéder à mes notes et mes évaluations en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tisj-bilzen.smartschool.be",
+      "intent": "Participer à des discussions en ligne avec mes enseignants et mes camarades de classe"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tisj-bilzen.smartschool.be",
+      "intent": "Télécharger des documents et des ressources pédagogiques pour mes cours"
+    }
+  ]
+}

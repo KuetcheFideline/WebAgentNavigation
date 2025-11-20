@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.infranken.de",
+      "intent": "Ich möchte die aktuellen Nachrichten aus Franken lesen, um mich über die lokalen Ereignisse zu informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.infranken.de",
+      "intent": "Ich möchte die Rubrik 'Ratgeber' durchsuchen, um Tipps für mein tägliches Leben zu finden, wie zum Beispiel Rezepte oder Gartenpflege."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.infranken.de",
+      "intent": "Ich möchte die Veranstaltungskalender durchsuchen, um herauszufinden, was in den nächsten Wochen in Franken los ist und welche Events ich besuchen kann."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.infranken.de",
+      "intent": "Ich möchte mich anmelden, um meine persönlichen Nachrichten und Artikel zu speichern und um Kommentare zu den Artikeln abzugeben."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.infranken.de",
+      "intent": "Ich möchte meine Benutzerdaten bearbeiten, um sicherzustellen, dass meine Kontaktdaten aktuell sind und ich wichtige Benachrichtigungen nicht verpasse."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.infranken.de",
+      "intent": "Ich möchte den Newsletter abonnieren, um regelmäßig über die neuesten Nachrichten und Veranstaltungen in Franken informiert zu werden."
+    }
+  ]
+}

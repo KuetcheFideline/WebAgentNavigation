@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Tutustun sivuston etusivuun ja etsin tietoa JAMK:n opiskelumahdollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Selailen opiskelijoiden kurssivalikoimaa ja etsin tietoa opinto-ohjelmista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Käyn läpi sivuston hakutoimintoa ja etsin tietoa eri aiheista, kuten opiskelijapalveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Kirjaudun sisään ja tarkastan opiskelijaprofiiliini, sekä etsin tietoa opinto-oikeuksistani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Osallistun opiskelijakeskusteluihin ja luen opettajien viestejä, sekä etsin tietoa kurssimateriaaleista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Täytän opiskelijapalautelomakkeita ja annan palautetta opintojaksoista, sekä etsin tietoa opintojen etenemisestä"
+    }
+  ]
+}

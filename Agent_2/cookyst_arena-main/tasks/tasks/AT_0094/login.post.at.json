@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.post.at",
+      "intent": "Ich möchte herausfinden, warum die Ressource, die ich suche, nicht verfügbar ist."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.post.at",
+      "intent": "Ich will die Startseite von Post.at aufrufen, um zu sehen, ob es alternative Angebote gibt."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.post.at",
+      "intent": "Ich möchte den Kundenservice von Post.at kontaktieren, um mehr über die nicht verfügbare Ressource zu erfahren."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.post.at",
+      "intent": "Ich möchte meine Pakete verfolgen, um zu sehen, ob sie bereits auf dem Weg zu mir sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.post.at",
+      "intent": "Ich will meine Adressdaten überprüfen und ggf. aktualisieren, um sicherzustellen, dass meine Pakete korrekt zugestellt werden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.post.at",
+      "intent": "Ich möchte meine Rechnungen und Zahlungsinformationen einsehen, um sicherzustellen, dass alles korrekt ist."
+    }
+  ]
+}

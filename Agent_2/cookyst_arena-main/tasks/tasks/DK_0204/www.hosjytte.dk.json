@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hosjytte.dk",
+      "intent": "Jeg søger efter information omkring boliger og lejemål i Viborg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hosjytte.dk",
+      "intent": "Jeg vil læse anmeldelser og bedømmelser af forskellige boliger i området"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hosjytte.dk",
+      "intent": "Jeg ønsker at sammenligne priser og faciliteter på forskellige boliger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hosjytte.dk",
+      "intent": "Jeg vil gemme en bolig som favorit for at kunne sammenligne den med andre senere"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hosjytte.dk",
+      "intent": "Jeg ønsker at sende en besked til ejeren af en bestemt bolig for at spørge om flere detaljer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hosjytte.dk",
+      "intent": "Jeg vil oprette en liste over mine favoritboliger og dele den med min partner"
+    }
+  ]
+}

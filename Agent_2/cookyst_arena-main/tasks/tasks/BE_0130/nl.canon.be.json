@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nl.canon.be",
+      "intent": "Rechercher les causes de l'erreur d'accès pour comprendre pourquoi je ne peux pas accéder au site Canon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nl.canon.be",
+      "intent": "Essayer de trouver une solution pour contourner l'erreur d'accès en vérifiant les paramètres de mon navigateur et de mon réseau"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nl.canon.be",
+      "intent": "Consulter les ressources en ligne pour obtenir de l'aide et des conseils sur la façon de résoudre l'erreur d'accès"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nl.canon.be",
+      "intent": "Vérifier les paramètres de mon compte Canon pour voir si les informations de connexion sont correctes et à jour"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nl.canon.be",
+      "intent": "Consulter l'historique de mes commandes et de mes téléchargements pour voir si j'ai déjà acheté ou téléchargé des produits Canon"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nl.canon.be",
+      "intent": "Configurer les paramètres de notification de mon compte pour recevoir des mises à jour sur les nouveaux produits et les promotions Canon"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lansivayla.fi",
+      "intent": "Luen uusimmat uutiset Espoon alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lansivayla.fi",
+      "intent": "Etsin tietoa Espoon ravintoloista ja kahviloista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lansivayla.fi",
+      "intent": "Selailen Länsiväylän sivuja, etsimässä mielenkiintoista luettavaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lansivayla.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lansivayla.fi",
+      "intent": "Tilaa uutiskirje, jotta saan ajantasaiset tiedot Espoon tapahtumista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lansivayla.fi",
+      "intent": "Luen ja vastaan Länsiväylän lukijoiden kysymyksiin ja aloitan keskustelun"
+    }
+  ]
+}

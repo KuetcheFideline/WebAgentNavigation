@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bibliotecaspublicas.es",
+      "intent": "Buscar bibliotecas públicas cerca de mi ubicación en Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bibliotecaspublicas.es",
+      "intent": "Explorar los recursos disponibles para becarios en bibliotecas públicas de España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bibliotecaspublicas.es",
+      "intent": "Descargar un libro electrónico gratuito desde la biblioteca digital"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bibliotecaspublicas.es",
+      "intent": "Reservar un libro que no está disponible en la biblioteca pública de Madrid"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bibliotecaspublicas.es",
+      "intent": "Renovar el préstamo de un libro que estoy leyendo actualmente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bibliotecaspublicas.es",
+      "intent": "Crear una lista de lectura personalizada con recomendaciones de bibliotecarios"
+    }
+  ]
+}

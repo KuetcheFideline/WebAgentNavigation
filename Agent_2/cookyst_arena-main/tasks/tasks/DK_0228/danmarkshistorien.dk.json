@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danmarkshistorien.dk",
+      "intent": "Jeg søger efter information om Danmarks historie i forbindelse med min søns skoleprojekt"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danmarkshistorien.dk",
+      "intent": "Jeg vil læse om vikingetiden og dens betydning for Danmarks udvikling"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danmarkshistorien.dk",
+      "intent": "Jeg søger efter en alfabetisk liste over artikler om Danmarks historie til min egen læsning"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danmarkshistorien.dk",
+      "intent": "Jeg vil gemme en artikel om Reformationen til min senere læsning"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danmarkshistorien.dk",
+      "intent": "Jeg ønsker at oprette en personlig samling af artikler om Danmarks historie til min søns skoleprojekt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danmarkshistorien.dk",
+      "intent": "Jeg vil tilføje en kommentar til en artikel om Danmarks forhistorie for at dele min viden med andre"
+    }
+  ]
+}

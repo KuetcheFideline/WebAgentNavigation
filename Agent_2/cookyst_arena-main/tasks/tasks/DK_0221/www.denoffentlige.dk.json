@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.denoffentlige.dk",
+      "intent": "Læs om nyheder og informationer omkring sundhed og bæredygtighed"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.denoffentlige.dk",
+      "intent": "Søg efter artikler omkring hus og have, samt hvordan man kan forbedre sit hjem"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.denoffentlige.dk",
+      "intent": "Find inspiration til mad og drikke, samt hvordan man kan lave sunde og lækre måltider"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.denoffentlige.dk",
+      "intent": "Del en artikel omkring en vigtig samfundsproblem på min personlige profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.denoffentlige.dk",
+      "intent": "Kommenter på en artikel omkring en ny lov eller regel, der er blevet indført"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.denoffentlige.dk",
+      "intent": "Gem en artikel omkring en interessant begivenhed eller nyhed, så jeg kan læse den senere"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://livetiming.se",
+      "intent": "Valitse kilpailu ja tarkastele sen ohjelmaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://livetiming.se",
+      "intent": "Etsi tietoa siirtymisestä uuteen LiveTiming-sivustoon osoitteeseen https://live.swimify.com"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://livetiming.se",
+      "intent": "Selvitä miten RSS-syöte toimii ja miten sitä voidaan hyödyntää"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://livetiming.se",
+      "intent": "Kirjaudu sisään ja tarkastele omia kilpailutuloksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://livetiming.se",
+      "intent": "Luo uusi kilpailu ja määritä sen ohjelma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://livetiming.se",
+      "intent": "Muokkaa olemassa olevan kilpailun asetuksia ja tarkastele muutoksia"
+    }
+  ]
+}

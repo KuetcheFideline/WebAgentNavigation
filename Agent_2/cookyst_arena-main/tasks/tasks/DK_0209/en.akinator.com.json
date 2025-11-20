@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://en.akinator.com",
+      "intent": "Jeg vil spille et spil med Akinator og se, om jeg kan gætte en karakter"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://en.akinator.com",
+      "intent": "Jeg søger efter en karakter, som jeg kan tænke på, og se, om Akinator kan gætte, hvem det er"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://en.akinator.com",
+      "intent": "Jeg vil læse om de sidste 10 spil, der er blevet spillet, og se, hvilke karakterer der er blevet gættet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://en.akinator.com",
+      "intent": "Jeg vil oprette en liste over mine yndlingskarakterer, som jeg har gættet med Akinator"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://en.akinator.com",
+      "intent": "Jeg vil se, hvordan mine venner har gjort det i deres spil med Akinator, og se, om jeg kan slå dem"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://en.akinator.com",
+      "intent": "Jeg vil tilføje en ny karakter til Akinators database, så andre kan gætte den"
+    }
+  ]
+}

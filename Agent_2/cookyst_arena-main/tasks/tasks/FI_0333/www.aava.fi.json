@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aava.fi",
+      "intent": "Tutkin Aavan verkkosivuja, jotta voin löytää tietoa lääkärikeskuksen palveluista ja ajanvarauksesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aava.fi",
+      "intent": "Luen Aavan uutiskirjettä, jotta saan tietoa terveyteen ja hyvinvointiin liittyvistä aiheista ja kampanjoista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aava.fi",
+      "intent": "Selvittelen, miten voin varata ajan lääkärille tai hoitajalle Aavan verkkopalvelun kautta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aava.fi",
+      "intent": "Kirjaudun sisään Oma Aava -palveluun, jotta voin tarkistaa lääkäri- ja hoitajakäynnit, reseptit ja tutkimustulokset."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aava.fi",
+      "intent": "Tarkistan Aava-sovelluksessa, mitkä palvelut ovat käytettävissäni ja miten voin hyödyntää niitä terveydeni seuraamiseen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aava.fi",
+      "intent": "Varaan ajan lääkärille tai hoitajalle Aavan verkkopalvelun kautta, jotta voin hoitaa terveydeni ja hyvinvointini."
+    }
+  ]
+}

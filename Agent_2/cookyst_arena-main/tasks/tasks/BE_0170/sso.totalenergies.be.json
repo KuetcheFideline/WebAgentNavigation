@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.totalenergies.be",
+      "intent": "Je souhaite comprendre les étapes nécessaires pour créer un compte sur le site TotalEnergies."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.totalenergies.be",
+      "intent": "J'aimerais savoir quels sont les avantages de créer un compte client sur le site TotalEnergies."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.totalenergies.be",
+      "intent": "Je veux explorer les différentes options de connexion sécurisée proposées par TotalEnergies."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.totalenergies.be",
+      "intent": "Maintenant que je suis connecté, je souhaite accéder à mes factures énergétiques pour les télécharger et les conserver."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.totalenergies.be",
+      "intent": "Je veux modifier mes coordonnées bancaires enregistrées pour assurer que mes prochains paiements soient correctement débités."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.totalenergies.be",
+      "intent": "J'aimerais consulter l'historique de mes consommations énergétiques pour mieux comprendre mes habitudes et optimiser ma consommation."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.soisalonseutu.fi",
+      "intent": "Luen uusimmat uutiset Soisalon Seudun sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.soisalonseutu.fi",
+      "intent": "Etsin tietoa Leppävirran vara-laskupaikasta ja sen mahdollisesta Nato-rahoituksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.soisalonseutu.fi",
+      "intent": "Selailen Soisalon Seudun mielipidepalstaa ja luen eri kirjoittajien näkemyksiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.soisalonseutu.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpaan uutiseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.soisalonseutu.fi",
+      "intent": "Tilaa uutiskirje ja saatelen sähköpostiini viikoittaisen uutiskatsauksen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.soisalonseutu.fi",
+      "intent": "Muokkaan profiiliani ja vaihdan salasanani"
+    }
+  ]
+}

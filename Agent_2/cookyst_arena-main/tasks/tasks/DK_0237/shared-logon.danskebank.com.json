@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal finde ud af, hvorfor applikationen ikke er tilgængelig"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil se, om der er nogen vejledning eller support tilgængelig på siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal prøve at finde en kontaktformular eller en email-adresse for at kontakte support"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal logge ind og se, om min kontooplysninger er opdateret"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil overføre penge til min sommerhus-konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal ændre mine kontoinformationer, så jeg kan modtage beskeder om mine transaktioner"
+    }
+  ]
+}

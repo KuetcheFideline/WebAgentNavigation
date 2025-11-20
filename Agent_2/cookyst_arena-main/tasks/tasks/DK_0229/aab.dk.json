@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aab.dk",
+      "intent": "Jeg søger efter en lejebolig i Roskilde, så jeg vil klikke på 'SØG BOLIG HER' for at se, hvad der er tilgængeligt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aab.dk",
+      "intent": "Jeg vil gerne læse mere om AAB's boligsociale indsatser, så jeg klikker på 'LÆS MERE' under 'Boligsociale indsatser'."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aab.dk",
+      "intent": "Jeg er interesseret i at læse om AAB's organisation, så jeg vil klikke på 'Om AAB' og derefter på 'Organisation'."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aab.dk",
+      "intent": "Jeg vil gerne se mine boligoplysninger, så jeg logger ind og klikker på 'Din bolig' under 'Beboer'."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aab.dk",
+      "intent": "Jeg har brug for at ændre mine boligforhold, så jeg logger ind og klikker på 'Ændring i boligforhold' under 'Beboer'."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aab.dk",
+      "intent": "Jeg vil gerne indberette et problem i min bolig, så jeg logger ind og klikker på 'Indberet problem i din bolig' under 'Beboer'."
+    }
+  ]
+}

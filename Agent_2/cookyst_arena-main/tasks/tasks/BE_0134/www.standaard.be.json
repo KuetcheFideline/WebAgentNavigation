@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Rechercher des articles sur les dernières actualités politiques en Belgique pour me tenir informé sur les événements récents"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Lire les derniers articles de la rubrique 'Opinie' pour découvrir les points de vue des experts et des éditorialistes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Consulter la section 'DS Avond' pour découvrir les dernières actualités et les événements à venir"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Accéder à mon compte pour gérer mes abonnements et mes préférences de lecture"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Participer à des discussions en ligne avec d'autres lecteurs pour échanger des points de vue sur les actualités"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Gérer mes paramètres de notification pour recevoir des alertes sur les dernières actualités qui m'intéressent"
+    }
+  ]
+}

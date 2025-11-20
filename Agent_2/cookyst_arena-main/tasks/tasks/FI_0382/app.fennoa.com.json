@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.fennoa.com",
+      "intent": "Tutkin sivuston ominaisuuksia ennen kirjautumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.fennoa.com",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa kieltä suomeksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.fennoa.com",
+      "intent": "Selvittelen, mitä tietoja minun on annettava kirjautumiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.fennoa.com",
+      "intent": "Tarkastan profiiliani ja päivitän tarvittaessa tietojani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.fennoa.com",
+      "intent": "Katselen historiatietojani ja tarkastelen aiempia toimintoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.fennoa.com",
+      "intent": "Muokkaan asetuksia, kuten salasanaa tai sähköpostiosoitetta"
+    }
+  ]
+}

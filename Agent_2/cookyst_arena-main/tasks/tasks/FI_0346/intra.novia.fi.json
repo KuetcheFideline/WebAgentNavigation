@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://intra.novia.fi",
+      "intent": "Selvitän, mitä uutta on Novian intranetissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://intra.novia.fi",
+      "intent": "Tutkin, mitä resursseja Novian intranet tarjoaa opiskeluun ja työhön"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://intra.novia.fi",
+      "intent": "Etsin tietoa Novian eri koulutusohjelmista ja kursseista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://intra.novia.fi",
+      "intent": "Tarkastan omaa aikataulutani ja kurssien tilaa Moodlesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://intra.novia.fi",
+      "intent": "Lähetän viestin opettajalle tai tutkinto-ohjaajalle Outlookin kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://intra.novia.fi",
+      "intent": "Tallennan ja jaan tiedostoja Novian pilvitallennuksessa"
+    }
+  ]
+}

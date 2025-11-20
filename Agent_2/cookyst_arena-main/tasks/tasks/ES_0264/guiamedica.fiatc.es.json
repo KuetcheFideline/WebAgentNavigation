@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://guiamedica.fiatc.es",
+      "intent": "Buscar información sobre la guía médica de Fiatc para encontrar especialistas en Cantabria"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://guiamedica.fiatc.es",
+      "intent": "Explorar las opciones de registro para acceder a la guía médica y obtener más información sobre los servicios ofrecidos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://guiamedica.fiatc.es",
+      "intent": "Consultar la sección de contacto para obtener ayuda y resolver dudas sobre la guía médica y sus servicios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://guiamedica.fiatc.es",
+      "intent": "Acceder al área de cliente para gestionar mis datos personales y consultar mis historiales médicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://guiamedica.fiatc.es",
+      "intent": "Solicitar una cita con un especialista en dermatología a través de la plataforma de Fiatc"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://guiamedica.fiatc.es",
+      "intent": "Descargar mis resultados de análisis clínicos y consultar mis informes médicos en el área de cliente"
+    }
+  ]
+}

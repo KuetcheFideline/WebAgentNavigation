@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.sudinfo.be",
+      "intent": "Je veux comprendre pourquoi j'ai accès refusé pour me connecter à mon compte Sudinfo."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.sudinfo.be",
+      "intent": "Je souhaite créer un compte pour accéder aux contenus de Sudinfo."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.sudinfo.be",
+      "intent": "Je veux trouver des informations sur la façon de résoudre les problèmes de connexion à Sudinfo."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.sudinfo.be",
+      "intent": "Je veux personnaliser mes préférences de compte pour améliorer mon expérience sur Sudinfo."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.sudinfo.be",
+      "intent": "Je souhaite gérer mes abonnements pour recevoir des mises à jour sur les actualités qui m'intéressent."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.sudinfo.be",
+      "intent": "Je veux consulter mon historique de navigation pour retrouver des articles qui m'ont intéressé précédemment."
+    }
+  ]
+}

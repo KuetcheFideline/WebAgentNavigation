@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.unileon.es",
+      "intent": "Acceder a la página de inicio para obtener información sobre el Servicio de Single Sign-On"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.unileon.es",
+      "intent": "Seleccionar el idioma de preferencia para navegar por la página"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.unileon.es",
+      "intent": "Buscar información sobre cómo iniciar sesión en el sistema de autenticación"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.unileon.es",
+      "intent": "Acceder a los recursos protegidos de la Universidad de León después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.unileon.es",
+      "intent": "Consultar y gestionar mis permisos y accesos a los diferentes recursos de la universidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.unileon.es",
+      "intent": "Cerrar la sesión actual en el sistema de autenticación para proteger mi cuenta"
+    }
+  ]
+}

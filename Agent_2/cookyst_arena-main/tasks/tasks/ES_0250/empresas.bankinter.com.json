@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://empresas.bankinter.com",
+      "intent": "Buscar información sobre los productos de cuenta y tarjetas para empresas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://empresas.bankinter.com",
+      "intent": "Comparar las diferentes opciones de financiación para empresas y pequeñas empresas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://empresas.bankinter.com",
+      "intent": "Descargar la aplicación móvil de Bankinter Empresas para gestionar mis finanzas empresariales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://empresas.bankinter.com",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre mis movimientos bancarios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://empresas.bankinter.com",
+      "intent": "Realizar una transferencia SEPA a una empresa proveedora"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://empresas.bankinter.com",
+      "intent": "Consultar el estado de mis solicitudes de financiación y préstamos"
+    }
+  ]
+}

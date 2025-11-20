@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.landestheater.at",
+      "intent": "Ich möchte den Spielplan für die kommende Woche überprüfen, um zu sehen, welche Vorstellungen angeboten werden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.landestheater.at",
+      "intent": "Ich will die Informationen über das Stück 'Geschichten vom Franz' lesen, um zu entscheiden, ob ich es besuchen möchte."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.landestheater.at",
+      "intent": "Ich möchte die Preise für die Karten für das Konzert '2. Symphoniekonzert - Süßer Traum' überprüfen, um zu sehen, ob es in meinem Budget liegt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.landestheater.at",
+      "intent": "Ich will meine bestehenden Karten für die Vorstellung 'Die Fledermaus' überprüfen und sehen, ob ich sie noch ändern kann."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.landestheater.at",
+      "intent": "Ich möchte meine persönlichen Daten in meinem Benutzerkonto überprüfen und aktualisieren, um sicherzustellen, dass alles korrekt ist."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.landestheater.at",
+      "intent": "Ich will meine Abonnements und Vorstellungen, die ich besucht habe, überprüfen, um zu sehen, welche Vorstellungen ich bald wieder besuchen kann."
+    }
+  ]
+}

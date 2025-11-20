@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kbh-kollegier.dk",
+      "intent": "Jeg søger efter ledige kollegieværelser i København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kbh-kollegier.dk",
+      "intent": "Jeg vil udforske de forskellige kollegier og deres faciliteter"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kbh-kollegier.dk",
+      "intent": "Jeg ønsker at læse mere om ansøgningsprocessen og kravene for at blive optaget"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kbh-kollegier.dk",
+      "intent": "Jeg vil søge om et kollegieværelse og ønsker at få adgang til ansøgningsformularen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kbh-kollegier.dk",
+      "intent": "Jeg søger efter kollegier, der matcher mine boligkriterier og ønsker at sammenligne dem"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kbh-kollegier.dk",
+      "intent": "Jeg vil gerne få nyheder om ledige boliger og ansøgningsfrister"
+    }
+  ]
+}

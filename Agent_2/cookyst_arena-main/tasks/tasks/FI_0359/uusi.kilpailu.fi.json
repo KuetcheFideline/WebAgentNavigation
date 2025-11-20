@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://uusi.kilpailu.fi",
+      "intent": "Osallistun arvontaan, jotta voitan lahjakortin ruokakauppaan ja voin hemmotella lastani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://uusi.kilpailu.fi",
+      "intent": "Selvitan, miten arvonta toimii ja mitkä ovat säännöt, jotta tiedän mitä teen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://uusi.kilpailu.fi",
+      "intent": "Luen, mitä muut ovat kertoneet arvonnasta ja ruokakauppojen lahjakorteista, jotta saan paremman käsityksen siitä, mitä voitan."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://uusi.kilpailu.fi",
+      "intent": "Tarkistan, olenko jo osallistunut arvontaan, jotta en tee samaa virhettä uudelleen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://uusi.kilpailu.fi",
+      "intent": "Muokkaan profiiliaani, jotta voin valita, minkä ruokakaupan lahjakortin haluan voittaa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://uusi.kilpailu.fi",
+      "intent": "Tarkistan, onko minulla jo voittoja, jotta voin suunnitella, miten käytän voittamani lahjakortin."
+    }
+  ]
+}

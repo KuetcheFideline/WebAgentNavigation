@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forum.ob.dk",
+      "intent": "Jeg søger efter information om Odense Boldklub på forummet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forum.ob.dk",
+      "intent": "Jeg vil læse om de seneste nyheder og diskussioner om fodbold"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forum.ob.dk",
+      "intent": "Jeg søger efter en specifik tråd om OB's kommende kampe"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forum.ob.dk",
+      "intent": "Jeg vil skrive en ny besked i en eksisterende tråd om OB's spillere"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forum.ob.dk",
+      "intent": "Jeg vil oprette en ny tråd om mine tanker om OB's seneste resultater"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forum.ob.dk",
+      "intent": "Jeg vil redigere min profil og tilføje en ny avatar"
+    }
+  ]
+}

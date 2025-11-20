@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lapinkansa.fi",
+      "intent": "Luen uusimmat uutiset Lapin Kansan etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lapinkansa.fi",
+      "intent": "Etsin tietoa kalastuksesta Lapin Kansan sivuilta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lapinkansa.fi",
+      "intent": "Selailen Lapin Kansan urheiluosioita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lapinkansa.fi",
+      "intent": "Tilaa Lapin Kansa -lehti ja hallinoidan tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lapinkansa.fi",
+      "intent": "Luen tilaajien artikkeleita, kuten uutisia ja mielipiteitä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lapinkansa.fi",
+      "intent": "Jätän lukijailmoituksen Lapin Kansan sivuille"
+    }
+  ]
+}

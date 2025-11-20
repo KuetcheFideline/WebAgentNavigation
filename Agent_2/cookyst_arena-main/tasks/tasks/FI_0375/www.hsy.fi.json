@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hsy.fi",
+      "intent": "Hae tietoa jätemaksuista ja -palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hsy.fi",
+      "intent": "Selaa jätelajeittain ja etsi ohjeita roskan lajitteluun"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hsy.fi",
+      "intent": "Tutustu vinkkeihin biojätteen lajitteluun ja tee lajittelu helpoksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hsy.fi",
+      "intent": "Tarkista OmaHSY:ssä omat jätemaksut ja -palvelut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hsy.fi",
+      "intent": "Ilmoita häiriöstä vedenjakelussa OmaHSY:ssä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hsy.fi",
+      "intent": "Tee ilmoitus kierrätysastiaan liittyvistä muutoksista OmaHSY:ssä"
+    }
+  ]
+}

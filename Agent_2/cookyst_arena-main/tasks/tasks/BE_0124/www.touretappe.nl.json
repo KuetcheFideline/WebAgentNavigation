@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.touretappe.nl",
+      "intent": "Je veux consulter les résultats de la dernière édition du Tour de France pour voir qui a gagné"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.touretappe.nl",
+      "intent": "Je souhaite comparer les parcours de la Giro d'Italia et du Tour de France pour planifier mon prochain voyage"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.touretappe.nl",
+      "intent": "Je veux lire les dernières actualités sur la Vuelta a España pour rester informé sur mes coureurs préférés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.touretappe.nl",
+      "intent": "Je veux créer une liste de mes coureurs favoris pour suivre leurs performances dans les prochaines courses"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.touretappe.nl",
+      "intent": "Je souhaite participer à un concours de pronostics pour gagner des prix et montrer mes connaissances en cyclisme"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.touretappe.nl",
+      "intent": "Je veux personnaliser mes paramètres de notification pour recevoir des alertes sur les résultats des courses qui m'intéressent"
+    }
+  ]
+}

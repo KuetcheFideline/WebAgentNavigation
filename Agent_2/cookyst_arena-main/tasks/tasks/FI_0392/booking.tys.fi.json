@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://booking.tys.fi",
+      "intent": "Tutkin sivuston yksityisyysasetuksia, jotta voin ymmärtää, miten he käsittelevät henkilötietojani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://booking.tys.fi",
+      "intent": "Etsin tietoa siitä, miten voin hallita evästeitä ja mitä evästeitä sivusto käyttää."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://booking.tys.fi",
+      "intent": "Luen lisää siitä, miten Visma Sirius Oy käyttää evästeitä ja miten se vaikuttaa sivuston toimivuuteen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://booking.tys.fi",
+      "intent": "Kirjaudun sisään ja tarkastan, mitä tietoja minulla on olemassa olevasta tilistäni, jotta voin hallita varauksiani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://booking.tys.fi",
+      "intent": "Tarkastan varauskalenteria ja varaan uuden ajan, jotta voin suunnitella mökkilomani."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://booking.tys.fi",
+      "intent": "Muokkaan olemassa olevaa varaukseani, jotta voin varmistaa, että kaikki tiedot ovat ajan tasalla ja oikein."
+    }
+  ]
+}

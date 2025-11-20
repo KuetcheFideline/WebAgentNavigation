@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://testbed.fmi.fi",
+      "intent": "Tarkastella säätilaa Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://testbed.fmi.fi",
+      "intent": "Vertailla eri sijaintien sääolosuhteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://testbed.fmi.fi",
+      "intent": "Etsiä tietoa sadealueista Etelä-Suomessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://testbed.fmi.fi",
+      "intent": "Tallentaa suosikkisääsijainnit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://testbed.fmi.fi",
+      "intent": "Muokata säätilan näyttöasetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://testbed.fmi.fi",
+      "intent": "Ladata säätilastotietoja omiin tarpeisiin"
+    }
+  ]
+}

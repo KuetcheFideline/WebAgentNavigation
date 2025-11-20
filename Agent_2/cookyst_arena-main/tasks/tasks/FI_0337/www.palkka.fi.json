@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.palkka.fi",
+      "intent": "Yritän ladata sivun uudelleen, koska siinä on virhe"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.palkka.fi",
+      "intent": "Etsin tietoa sivuston toiminnasta ja miten se voi auttaa minua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.palkka.fi",
+      "intent": "Selailen sivuston eri osioita, jotta voin ymmärtää sen sisältöä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.palkka.fi",
+      "intent": "Tarkastan oman tilini tiedot ja varmistun, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.palkka.fi",
+      "intent": "Yritän muuttaa salasanaani, jotta voin varmistaa turvallisuuden"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.palkka.fi",
+      "intent": "Lähetän viestin asiakaspalveluun, koska minulla on ongelmia sivuston kanssa"
+    }
+  ]
+}

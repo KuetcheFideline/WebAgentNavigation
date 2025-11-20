@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ordezkagunea.euskadi.eus",
+      "intent": "Consultar la guía de uso de la plataforma Ordezkagunea para entender cómo funciona y qué servicios ofrece."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ordezkagunea.euskadi.eus",
+      "intent": "Buscar información sobre los requisitos y procedimientos para acceder a la plataforma como usuario autorizado."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ordezkagunea.euskadi.eus",
+      "intent": "Explorar las secciones públicas de la plataforma para conocer mejor sus funcionalidades y servicios disponibles."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ordezkagunea.euskadi.eus",
+      "intent": "Iniciar sesión en la plataforma para acceder a los servicios y funcionalidades reservadas a los usuarios autorizados."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ordezkagunea.euskadi.eus",
+      "intent": "Configurar el perfil de usuario y ajustar las preferencias de notificación para una experiencia personalizada en la plataforma."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ordezkagunea.euskadi.eus",
+      "intent": "Acceder a los recursos y herramientas disponibles en la plataforma para gestionar y realizar tareas específicas como usuario autorizado."
+    }
+  ]
+}

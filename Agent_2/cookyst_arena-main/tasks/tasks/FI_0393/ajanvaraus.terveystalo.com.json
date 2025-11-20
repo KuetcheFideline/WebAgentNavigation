@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Varata aika lääkärille, koska minun on tutkittava verenpaineeni ja sydämeni toimintaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Etsiä tietoa terveyspalveluista, jotka ovat saatavilla lähellä asuinpaikkaani Imatrassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Selvitä, mitkä terveydenhuollon palvelut ovat saatavilla ja miten niitä voi varata"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tarkastaa omaa potilastietojani ja varata uusi aika lääkärille, jos tarve niin vaatii"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Muuttaa aiemmin varattua aikaa, koska minun on siirrettävä lääkärin vastaanotto toiseen ajankohtaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tulostaa lääkemääräykseni ja tarkastaa, mitä lääkkeitä minun on otettava ja miten niitä tulee ottaa"
+    }
+  ]
+}

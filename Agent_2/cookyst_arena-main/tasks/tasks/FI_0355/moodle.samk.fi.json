@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.samk.fi",
+      "intent": "Selata kurssivalikoimaa ja etsi tietoa opettajan ammattikorkeakoulun kursseista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.samk.fi",
+      "intent": "Lue lisää yhteistyöstä Moodle-alustalla ja sen tarjoamista mahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.samk.fi",
+      "intent": "Tutki valintakursseja ja valintakokeita, ja etsi tietoa niiden käyttöönottamisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.samk.fi",
+      "intent": "Kirjaudu sisään ja selata omia kursseja, joissa olen opettajana"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.samk.fi",
+      "intent": "Tarkista kurssien aikataulut ja muokkaa niitä tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.samk.fi",
+      "intent": "Luo uusi kurssi tai muokkaa olemassa olevaa kurssia opettajan näkökulmasta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://raahe.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa Raahen opetustoimen opiskelijoiden kurssivalinnoista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://raahe.inschool.fi",
+      "intent": "Selvittelen miten Wilmaa käytetään opiskelijoiden, opettajien ja huoltajien viestintään ja tiedonhaun apuna."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://raahe.inschool.fi",
+      "intent": "Etsin tietoa Wilman käyttäjätunnusten ja salasanojen hallinnasta, sekä miten niitä voidaan muuttaa tai palauttaa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://raahe.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan omat kurssivalintani ja suoritukseni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://raahe.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta kysymällä lisätietoa tulevista kursseista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://raahe.inschool.fi",
+      "intent": "Tarkastan Wilman kautta poissaoloja ja ilmoittautumisia, sekä viestin huoltajalle asiasta."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elu.ohtuleht.ee",
+      "intent": "Luen uusimpia uutisia ja tapahtumia sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elu.ohtuleht.ee",
+      "intent": "Etsin tietoa terveydesta ja hyvinvoinnista, koska olen kiinnostunut omasta terveydestani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elu.ohtuleht.ee",
+      "intent": "Selailen sivuston uutisia ja artikkeleita, joissa on mielenkiintoisia aiheita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elu.ohtuleht.ee",
+      "intent": "Kirjaudun sisään ja kommentoin artikkeleita, joissa on mielenkiintoisia aiheita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elu.ohtuleht.ee",
+      "intent": "Luen ja vastaan muiden käyttäjien kommentteihin, joissa on mielenkiintoisia aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elu.ohtuleht.ee",
+      "intent": "Tallennan mielenkiintoisia artikkeleita ja uutisia, joita voin lukea myöhemmin"
+    }
+  ]
+}

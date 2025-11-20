@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.isolta.fi",
+      "intent": "Tutustun ilmainen laskutusohjelmaan ja sen ominaisuuksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.isolta.fi",
+      "intent": "Luen asiakastarinoiden kautta, miten Isolta on auttanut muita yrittäjiä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.isolta.fi",
+      "intent": "Selvittelen, miten Isolta voi auttaa minua yritykseni laskutuksessa ja taloushallinnossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.isolta.fi",
+      "intent": "Luo uusi lasku asiakkaalleni ja lähetän sen sähköpostitse"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.isolta.fi",
+      "intent": "Tarkistan laskujeni maksutilanteen ja lähetän muistutuksen asiakkaalle, joka on myöhässä maksussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.isolta.fi",
+      "intent": "Käytän Isoltan raportointityökaluja, jotta voin seurata yritykseni taloudellista tilannetta"
+    }
+  ]
+}

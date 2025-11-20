@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kauppa.dieta.fi",
+      "intent": "Hae keittiövälineitä ja astioita taloon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kauppa.dieta.fi",
+      "intent": "Vertaile eri laitteiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kauppa.dieta.fi",
+      "intent": "Selaa uusimmat tarjoukset ja alennukset sivustolla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kauppa.dieta.fi",
+      "intent": "Tilaa uutiskirje ja liity Vip-asiakkaaksi saadaksesi etuja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kauppa.dieta.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja tee tilaus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kauppa.dieta.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen tilaa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://icaro.ual.es",
+      "intent": "Explorar las últimas noticias publicadas en el portal ICARO para mantenerme informada sobre las novedades"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://icaro.ual.es",
+      "intent": "Buscar información sobre la nueva versión de ICARO y cómo afectará a mi perfil de usuario"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://icaro.ual.es",
+      "intent": "Leer las instrucciones para acceder a la versión clásica de ICARO y compararla con la nueva versión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://icaro.ual.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre las novedades en ICARO"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://icaro.ual.es",
+      "intent": "Acceder a mi perfil de usuario en ICARO y verificar que mi información esté actualizada"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://icaro.ual.es",
+      "intent": "Participar en la sección de comentarios de las noticias para interactuar con otros usuarios y compartir mis opiniones"
+    }
+  ]
+}

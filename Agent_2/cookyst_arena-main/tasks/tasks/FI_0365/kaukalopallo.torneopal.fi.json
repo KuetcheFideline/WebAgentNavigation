@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kaukalopallo.torneopal.fi",
+      "intent": "Tutkin kaukalopallon otteluiden tuloksia ja sarjoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kaukalopallo.torneopal.fi",
+      "intent": "Etsin tietoa suosikkijoukkueistani ja heidän otteluistaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kaukalopallo.torneopal.fi",
+      "intent": "Selvitan, miten voin seurata kaukalopallon otteluita suorana lähetyksenä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kaukalopallo.torneopal.fi",
+      "intent": "Kirjaudun sisään ja tallennan suosikkijoukkueeni profiiliini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kaukalopallo.torneopal.fi",
+      "intent": "Ostan lisenssin kaukalopallon otteluiden suorien lähetyksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kaukalopallo.torneopal.fi",
+      "intent": "Muokkaan profiiliini ja asetuksia, kuten kieltä ja ilmoitusten asetuksia"
+    }
+  ]
+}

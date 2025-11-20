@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pixum.dk",
+      "intent": "Jeg søger efter inspiration til at lave en personlig fotobog til min familie, så jeg vil klikke på 'Fotobøger' og se, hvad Pixum har at tilbyde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pixum.dk",
+      "intent": "Jeg vil gerne se, hvordan jeg kan lave en fotokalender, så jeg klikker på 'Fotokalendere' for at finde ud af mere om processen og priserne."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pixum.dk",
+      "intent": "Jeg er interesseret i at købe en gave til min bedste ven, så jeg søger efter 'Fotogaver' på Pixum for at se, hvad de har at tilbyde, der kunne passe til ham."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pixum.dk",
+      "intent": "Jeg har allerede en konto på Pixum, så jeg logger ind for at se mine tidligere bestillinger og måske genbestille en fotobog, jeg tidligere har lavet."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pixum.dk",
+      "intent": "Efter at have logget ind på min konto, vil jeg gå til 'Min konto' for at se, om jeg har nogen aktive ordrer eller for at ændre mine kontoinformationer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pixum.dk",
+      "intent": "Jeg vil gerne designe en ny fotobog, så efter at have logget ind, søger jeg efter 'Lav en fotobog' og følger vejledningen for at uploade mine billeder og designe min bog."
+    }
+  ]
+}

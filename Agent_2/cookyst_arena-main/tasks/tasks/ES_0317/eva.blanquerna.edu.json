@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eva.blanquerna.edu",
+      "intent": "Explorar la página de inicio para conocer más sobre la universidad Blanquerna"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eva.blanquerna.edu",
+      "intent": "Buscar información sobre los cursos de idiomas que se ofrecen en la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eva.blanquerna.edu",
+      "intent": "Leer las noticias y actualizaciones de la universidad en la página de inicio"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eva.blanquerna.edu",
+      "intent": "Acceder a mi cuenta de estudiante para ver mis notas y calificaciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eva.blanquerna.edu",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre eventos y actividades de la universidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eva.blanquerna.edu",
+      "intent": "Descargar documentos y recursos de mis cursos en línea a través de la plataforma de la universidad"
+    }
+  ]
+}

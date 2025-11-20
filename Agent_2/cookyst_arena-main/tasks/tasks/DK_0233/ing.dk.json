@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ing.dk",
+      "intent": "Jeg søger efter nyheder om teknologi og naturvidenskab på hjemmesiden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ing.dk",
+      "intent": "Jeg ønsker at læse artikler om miljø og klima på Ingeniøren"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ing.dk",
+      "intent": "Jeg vil se, hvad der er nyt i verden af tech og innovation på hjemmesiden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ing.dk",
+      "intent": "Jeg vil logge ind for at kommentere på en artikel om elbiler"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ing.dk",
+      "intent": "Jeg ønsker at tilføje en artikel til mine favoritter efter login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ing.dk",
+      "intent": "Jeg vil se mine personlige indstillinger og abonnementsinformationer efter login"
+    }
+  ]
+}

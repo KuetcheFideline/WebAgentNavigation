@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sfp.fi",
+      "intent": "Hae tietoa ruotsalaisen eduskuntaryhmän toiminnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sfp.fi",
+      "intent": "Selvitä, miten liityn puolueen jäseneksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sfp.fi",
+      "intent": "Lue uusimmat uutiset puolueen toiminnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sfp.fi",
+      "intent": "Tarkista omakseni puolueen jäsenetuja ja tarjouksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sfp.fi",
+      "intent": "Osallistu puolueen sisäiseen keskustelufoorumiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sfp.fi",
+      "intent": "Päivitä omat yhteystietoni puolueen jäsenrekisterissä"
+    }
+  ]
+}

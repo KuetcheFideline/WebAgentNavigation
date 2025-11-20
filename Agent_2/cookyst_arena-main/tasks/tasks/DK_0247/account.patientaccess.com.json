@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg søger information om, hvordan jeg kan få adgang til mine sundhedsdata online."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg ønsker at læse om, hvordan Patient Access kan hjælpe mig med at administrere mine medicin og lægebesøg."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg vil se, om der er nogen vejledninger eller tutorials om, hvordan jeg kan bruge Patient Access til at kommunikere med min læge."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg vil logge ind for at se mine seneste laboratorieundersøgelser og læse mine lægers kommentarer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg ønsker at bestille en ny recept og se, om der er nogen ændringer i mine medicin doseringer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.patientaccess.com",
+      "intent": "Jeg vil se mine kommende lægeaftaler og ændre en aftale, hvis det er nødvendigt."
+    }
+  ]
+}

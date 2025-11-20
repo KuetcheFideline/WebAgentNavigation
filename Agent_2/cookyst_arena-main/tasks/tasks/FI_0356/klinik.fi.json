@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://klinik.fi",
+      "intent": "Tunnistan vaivani ja etsin lääkäriä Helsingistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://klinik.fi",
+      "intent": "Luen artikkeleita kehonosan mukaan ja etsin tietoa yskästä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://klinik.fi",
+      "intent": "Selvitan, mitä terveyspalveluita on tarjolla paikkakunnallani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://klinik.fi",
+      "intent": "Varaan ajan terveysasemalle ja käyn läpi omaa potilastani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://klinik.fi",
+      "intent": "Tarkastan potilastiedot ja annan lääkärinlausunnon"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://klinik.fi",
+      "intent": "Kirjaudun 24h asiointiin ja vastaan potilaiden kysymyksiin"
+    }
+  ]
+}

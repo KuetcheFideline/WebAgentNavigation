@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.k-autokauppa.fi",
+      "intent": "Hae sähköautoja, joissa on lämpöpumppu ja ilmastoidut istuimet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.k-autokauppa.fi",
+      "intent": "Vertaile Volkswagen ID.7 ja Audi e-tron -sähköautojen hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.k-autokauppa.fi",
+      "intent": "Etsi autonmyyntiin liittyviä neuvoja ja vinkkejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.k-autokaupka.fi/oma-auto",
+      "intent": "Tarkista omien autojen huoltohistoria ja varaa seuraava huolto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.k-autokauppa.fi/auton-myynti",
+      "intent": "Myy autoni K-Autokaupan kautta ja pyydä tarjous"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.k-autokauppa.fi/asiakaspalvelu",
+      "intent": "Ota yhteyttä asiakaspalveluun ja kysy lisää sähköautojen latausmahdollisuuksista"
+    }
+  ]
+}

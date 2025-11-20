@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.masante.belgique.be",
+      "intent": "Rechercher les informations sur les soins de santé de base pour les jeunes en Belgique."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.masante.belgique.be",
+      "intent": "Consulter les conseils de prévention pour les maladies courantes chez les jeunes de mon âge."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.masante.belgique.be",
+      "intent": "Explorer les ressources disponibles pour les étudiants en formation professionnelle dans le domaine de la santé."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.masante.belgique.be",
+      "intent": "Accéder à mon dossier médical personnel pour consulter mes résultats d'analyses et mes rendez-vous médicaux."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.masante.belgique.be",
+      "intent": "Gérer mes informations de contact et mes coordonnées pour recevoir des rappels de rendez-vous et des mises à jour sur ma santé."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.masante.belgique.be",
+      "intent": "Demander un rendez-vous en ligne avec un médecin pour discuter de mes problèmes de santé actuels."
+    }
+  ]
+}

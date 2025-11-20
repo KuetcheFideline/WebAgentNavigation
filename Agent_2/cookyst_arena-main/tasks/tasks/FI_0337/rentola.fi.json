@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rentola.fi",
+      "intent": "Hae vuokra-asuntoa Rovaniemeltä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rentola.fi",
+      "intent": "Vertaile eri vuokra-asuntojen hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rentola.fi",
+      "intent": "Etsi vuokra-asuntoja, joissa on vähintään 2 huonetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rentola.fi",
+      "intent": "Luo ilmainen hakuvahti oman vuokra-asunnon etsimiseksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rentola.fi",
+      "intent": "Tallenna suosikkivuokra-asunnot ja seuraa niiden saatavuutta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rentola.fi",
+      "intent": "Lähetä viesti vuokranantajalle valitsemastani vuokra-asunnosta"
+    }
+  ]
+}

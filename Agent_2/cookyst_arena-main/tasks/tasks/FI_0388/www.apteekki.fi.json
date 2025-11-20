@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Haluaisin etsiä tietoa Alzheimerin taudin lääkehoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Löytäisin lähimmän apteekin, joka tarjoaa diabetespalveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Tutkisin ravintolisävalikoimaa ja etsisin tuotteita, jotka sopivat puolisoni tarpeisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Haluan tarkistaa lääkityslistani ja varata aika apteekkiin lääkitysneuvontaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Tilaisin reseptilääkkeen verkkokaupasta ja valitsisin kotiinkuljetuksen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Kävisin lääkehaku-sivulla ja tarkistaisin, onko puolisoni lääkkeet saatavilla ja mitä korvauksia niistä maksetaan"
+    }
+  ]
+}

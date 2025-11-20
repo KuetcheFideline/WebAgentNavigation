@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lightmailer.gmx.es",
+      "intent": "Reintentar el acceso a la página de inicio para solucionar el error de carga."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lightmailer.gmx.es",
+      "intent": "Buscar información sobre cómo solucionar problemas técnicos en la página de ayuda de GMX."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lightmailer.gmx.es",
+      "intent": "Explorar las opciones de configuración de la cuenta para asegurarme de que todo esté correctamente establecido."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lightmailer.gmx.es",
+      "intent": "Revisar y responder a los correos electrónicos pendientes en mi bandeja de entrada de GMX."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lightmailer.gmx.es",
+      "intent": "Configurar las preferencias de seguridad y privacidad de mi cuenta de GMX para proteger mi información personal."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lightmailer.gmx.es",
+      "intent": "Crear un nuevo filtro de correo electrónico para organizar mis mensajes de manera más eficiente y reducir el spam."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Etsin tietoa JAMK:n opiskelumahdollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Selailen kursseja ja etsin mielenkiintoista opiskeltavaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Tutkin sivuston hakutoimintoa ja etsin tietoa opinto-ohjelmista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Kirjaudun sisään ja tarkastan opiskelutilastoni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Osallistun keskustelufoorumeille ja jaan ajatuksiani muiden opiskelijoiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Lataan kurssimateriaaleja ja tehtäviä opiskeltavaksi"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.zvab.com",
+      "intent": "Ich möchte nach einem bestimmten Buch suchen, also gebe ich den Titel in die Suchleiste ein und überprüfe die Ergebnisse."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.zvab.com",
+      "intent": "Ich bin an der Insel-Bücherei interessiert, also klicke ich auf den entsprechenden Link, um mehr über diese Buchreihe zu erfahren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.zvab.com",
+      "intent": "Ich möchte preiswerte Bücher finden, also suche ich nach Angeboten und Sonderangeboten auf der Website."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.zvab.com",
+      "intent": "Ich möchte meine Bestellungen verfolgen, also gehe ich zu meinem Nutzerkonto und überprüfe den Status meiner Bestellungen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.zvab.com",
+      "intent": "Ich möchte ein bestimmtes Buch kaufen, also füge ich es zu meinem Warenkorb hinzu und gehe zur Kasse, um den Kauf abzuschließen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.zvab.com",
+      "intent": "Ich möchte meine Kontoinformationen aktualisieren, also gehe ich zu meinem Nutzerkonto und ändere meine Adresse und andere relevante Informationen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://primo.uef.fi",
+      "intent": "Hae opinto-ohjelmaa Kasvatustieteestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://primo.uef.fi",
+      "intent": "Selvitä, mitkä kurssit ovat avoinna tulevalle lukukaudelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://primo.uef.fi",
+      "intent": "Etsi tietoa Helsingin yliopiston kirjastosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://primo.uef.fi",
+      "intent": "Tarkista omat opintosuoritukset ja opintopisteet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://primo.uef.fi",
+      "intent": "Ilmoittaudu kurssille, joka on pakollinen Kasvatustieteen opinto-ohjelmassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://primo.uef.fi",
+      "intent": "Lähetä viesti opettajalle kysymyksellä kurssin sisällöstä"
+    }
+  ]
+}

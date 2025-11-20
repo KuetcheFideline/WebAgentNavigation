@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.trendencias.com",
+      "intent": "Buscar las últimas tendencias de moda para hombres en la sección de Shopping"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.trendencias.com",
+      "intent": "Explorar los artículos de belleza y cuidado personal en la sección de Belleza"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.trendencias.com",
+      "intent": "Leer las noticias y artículos de viajes en la sección de Viajes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.trendencias.com",
+      "intent": "Guardar un artículo de moda en mi lista de favoritos en la sección de Shopping"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.trendencias.com",
+      "intent": "Comentar en un artículo de belleza y cuidado personal en la sección de Belleza"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.trendencias.com",
+      "intent": "Crear una lista de deseos de productos de moda y belleza en la sección de Shopping"
+    }
+  ]
+}

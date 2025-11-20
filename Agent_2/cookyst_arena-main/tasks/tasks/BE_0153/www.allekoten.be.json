@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.allekoten.be",
+      "intent": "Rechercher un kot à louer dans la ville d'Ixelles pour un mois"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.allekoten.be",
+      "intent": "Comparer les prix des kots à louer dans les villes de Bruxelles et d'Anvers"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.allekoten.be",
+      "intent": "Consulter les informations sur les kots à louer dans la ville de Louvain"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.allekoten.be",
+      "intent": "Publier une annonce pour louer mon appartement à Ixelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.allekoten.be",
+      "intent": "Gérer mes annonces de kots à louer et mes profils de recherche"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.allekoten.be",
+      "intent": "Contacter un propriétaire pour visiter un kot à louer à Bruxelles"
+    }
+  ]
+}

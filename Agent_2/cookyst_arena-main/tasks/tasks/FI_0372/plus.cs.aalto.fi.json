@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://plus.cs.aalto.fi",
+      "intent": "Selvitä, mitä kurssia voin valita, kun olen kiinnostunut ohjelmoinnista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://plus.cs.aalto.fi",
+      "intent": "Lue, mitä tietoa sivustolla on tarjolla aiheesta ohjelmointi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://plus.cs.aalto.fi",
+      "intent": "Etsi tietoa siitä, miten voin aloittaa opiskelun ohjelmoinnista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://plus.cs.aalto.fi",
+      "intent": "Kirjaudu sisään ja ilmoittaudu kurssille, joka kiinnostaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://plus.cs.aalto.fi",
+      "intent": "Tarkista, mitä tehtäviä minun tulee suorittaa kurssilla, jolle olen ilmoittautunut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://plus.cs.aalto.fi",
+      "intent": "Lähetä palautetta kurssin suorittamisesta ja anna ehdotuksia parantamiseksi"
+    }
+  ]
+}

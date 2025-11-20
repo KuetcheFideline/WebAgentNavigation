@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Luen uusimmat uutiset Forssan seudulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Etsin tietoa Hämeenlinnan ja Forssan välisen bussiliikenteen aikatauluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Selailen mielipidepalstaa ja luen muiden lukijoiden kommentteja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpaan uutiseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Tilaa uutiskirje, jotta voin pysyä ajan tasalla Forssan seudun tapahtumista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Lähetän juttuvinkin toimitukselle, koska tiedän mielenkiintoisen tarinan Forssan seudulta"
+    }
+  ]
+}

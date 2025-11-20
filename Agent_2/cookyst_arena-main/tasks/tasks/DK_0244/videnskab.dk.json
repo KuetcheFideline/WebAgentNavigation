@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://videnskab.dk",
+      "intent": "Læse om nyheder om forskning og videnskab på forsiden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://videnskab.dk",
+      "intent": "Søge efter artikler om sundhed og krop på Videnskab.dk"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://videnskab.dk",
+      "intent": "Se videoer om videnskab og teknologi i sektionen KORTE VIDEOER"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://videnskab.dk",
+      "intent": "Tilmelde sig nyhedsbrevet for at modtage opdateringer om nye artikler"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://videnskab.dk",
+      "intent": "Deltage i afstemningen om hvilket spørgsmål videnskaben skal besvare"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://videnskab.dk",
+      "intent": "Stille et spørgsmål til Spørg Videnskaben og få det besvaret af en ekspert"
+    }
+  ]
+}

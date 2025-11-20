@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.degroteverkeerstoets.be",
+      "intent": "Rechercher les informations sur les dates des tests de conduite pour le 5e leerjaar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.degroteverkeerstoets.be",
+      "intent": "Consulter la section 'Veelgestelde vragen' pour obtenir des réponses aux questions fréquentes sur le test de conduite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.degroteverkeerstoets.be",
+      "intent": "Explorer le site pour découvrir les ressources disponibles pour les élèves et les enseignants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.degroteverkeerstoets.be",
+      "intent": "Accéder à mon compte enseignant pour inscrire ma classe au test de conduite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.degroteverkeerstoets.be",
+      "intent": "Utiliser mon code unique ou mon LeerID pour accéder à la plateforme d'entraînement en tant qu'élève"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.degroteverkeerstoets.be",
+      "intent": "Consulter mon dossier de classe pour suivre les progrès de mes élèves et accéder aux ressources pédagogiques"
+    }
+  ]
+}

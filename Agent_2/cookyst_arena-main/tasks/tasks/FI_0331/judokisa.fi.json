@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://judokisa.fi",
+      "intent": "Etsin tietoa tulevista judokilpailuista Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://judokisa.fi",
+      "intent": "Haluan tarkastella menneiden kilpailujen tuloksia ja tilastoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://judokisa.fi",
+      "intent": "Luen lisää judoliiton historiasta ja sen kehityksestä Suomessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://judokisa.fi",
+      "intent": "Kirjaudun sisään ja ilmoittaudun tulevaan judokilpailuun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://judokisa.fi",
+      "intent": "Tarkastan omaa profiiliani ja päivitän tietojani, jos tarpeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://judokisa.fi",
+      "intent": "Lähettän viestin judoliiton hallitukselle ehdotukseni kilpailujen järjestämiseksi"
+    }
+  ]
+}

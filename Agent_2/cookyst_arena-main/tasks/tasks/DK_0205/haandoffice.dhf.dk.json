@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://haandoffice.dhf.dk",
+      "intent": "Jeg søger efter information om håndbold-turneringer i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://haandoffice.dhf.dk",
+      "intent": "Jeg vil læse om regler og retningslinjer for håndbold i Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://haandoffice.dhf.dk",
+      "intent": "Jeg søger efter kontakinformation til Dansk Håndbold Forbund"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://haandoffice.dhf.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdater min håndbold-ID"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://haandoffice.dhf.dk",
+      "intent": "Jeg søger efter mine tidligere resultater og statistikker i håndbold-turneringer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://haandoffice.dhf.dk",
+      "intent": "Jeg vil tilmelde mig en ny håndbold-turnering og betale medlemskontingent"
+    }
+  ]
+}

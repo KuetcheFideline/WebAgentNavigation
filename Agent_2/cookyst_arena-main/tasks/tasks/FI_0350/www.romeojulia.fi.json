@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.romeojulia.fi",
+      "intent": "Etsin uusimmat lävistyskorut vaimolleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.romeojulia.fi",
+      "intent": "Haluan tarkastella eri tyypin korvakoruja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.romeojulia.fi",
+      "intent": "Olen kiinnostunut näkemään mitä uutuuksia on lasten koruissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.romeojulia.fi",
+      "intent": "Tilasin vaimolleni uuden korren, haluan seurata tilauksen tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.romeojulia.fi",
+      "intent": "Olen aiemmin ostanut teiltä, haluan tarkastella ostohistoriaani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.romeojulia.fi",
+      "intent": "Lisään uuden osoitteen tilausteni toimitukseen"
+    }
+  ]
+}

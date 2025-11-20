@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.browniespain.com",
+      "intent": "Explorar las opciones de brownies disponibles en la página de inicio para encontrar uno que me guste."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.browniespain.com",
+      "intent": "Seleccionar el país de entrega como España y verificar si ofrecen opciones de entrega en Madrid, específicamente en el barrio de Chamberí."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.browniespain.com",
+      "intent": "Buscar información sobre la política de devolución y reembolso de la tienda, por si acaso necesito cambiar o devolver un producto."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.browniespain.com",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis pedidos anteriores y ver si tengo algún cupón o descuento disponible para mi próximo pedido."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.browniespain.com",
+      "intent": "Agregar un brownie a mi wishlist para poder comprarlo más tarde y recibir notificaciones si el precio disminuye."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.browniespain.com",
+      "intent": "Configurar mis preferencias de cuenta para recibir noticias y promociones exclusivas de Brownie Spain y estar al tanto de las novedades."
+    }
+  ]
+}

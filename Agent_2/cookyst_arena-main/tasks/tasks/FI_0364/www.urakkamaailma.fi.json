@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.urakkamaailma.fi",
+      "intent": "Hae remonttien hintatietoja omakotitalooni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.urakkamaailma.fi",
+      "intent": "Lue urakoitsijoiden arvosteluita ennen kuin jätän tarjouspyynnön"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.urakkamaailma.fi",
+      "intent": "Selvitä miten voin kilpailuttaa remonttini Urakkamaailman kautta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.urakkamaailma.fi",
+      "intent": "Jätä ilmoitus remonttitarpeestani ja pyydä tarjouksia urakoitsijoilta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.urakkamaailma.fi",
+      "intent": "Vertaile tarjouksia eri urakoitsijoilta ja valitse paras vaihtoehto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.urakkamaailma.fi",
+      "intent": "Tee remonttisopimus valitsemalleni urakoitsijalle Urakkamaailman kautta"
+    }
+  ]
+}

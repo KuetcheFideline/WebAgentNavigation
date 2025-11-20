@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://krkoulu.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa opettajien käyttömahdollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://krkoulu.inschool.fi",
+      "intent": "Selvittelen miten Wilmaa käytetään opiskelijoiden suoritusten seuraamiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://krkoulu.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten opettajat voivat viestiä opiskelijoiden kanssa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://krkoulu.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkastan opiskelijoideni suorituksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://krkoulu.inschool.fi",
+      "intent": "Syötän arvioita opiskelijoideni suorituksista ja päivitän heidän henkilötietojaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://krkoulu.inschool.fi",
+      "intent": "Viestin opiskelijoiden kanssa ja lähetän heille tiedotteita"
+    }
+  ]
+}

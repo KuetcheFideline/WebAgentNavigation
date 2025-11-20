@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://syote.fi",
+      "intent": "Löydä luontoreitit läheltä Sulkavaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://syote.fi",
+      "intent": "Selvitä miten voin osallistua luonnon säilyttämiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://syote.fi",
+      "intent": "Etsi tietoa kalastuksesta Syötealueella"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://syote.fi",
+      "intent": "Kirjaudu sisään ja tallenna suosikkireitit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://syote.fi",
+      "intent": "Osallistu keskusteluun luonnon suojelusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://syote.fi",
+      "intent": "Luo oma reittikartta ja jaa se ystävien kanssa"
+    }
+  ]
+}

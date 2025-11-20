@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aemet.es",
+      "intent": "Buscar información sobre el tiempo en mi pueblo de Soria para planificar mis actividades diarias"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aemet.es",
+      "intent": "Consultar los avisos meteorológicos para saber si hay algún riesgo importante en mi zona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aemet.es",
+      "intent": "Explorar la sección de 'Conócenos' para saber más sobre la Agencia Estatal de Meteorología y su función"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aemet.es",
+      "intent": "Acceder a la sección de 'Mi web' para personalizar mis preferencias de visualización de datos meteorológicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aemet.es",
+      "intent": "Descargar datos meteorológicos históricos para analizar tendencias climáticas en mi región"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aemet.es",
+      "intent": "Configurar alertas personalizadas para recibir notificaciones sobre condiciones meteorológicas adversas en mi área"
+    }
+  ]
+}

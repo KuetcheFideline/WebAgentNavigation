@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Lue uusimmat uutiset pörssistä ja osakekaupasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Etsi tietoa eri osakkeista ja yhtiöistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Selaa analyysipalvelun tarjoamia artikkeleita ja kommentteja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Luo ilmainen tunnus ja liity Inderesin yhteisöön"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Seuraa suosikkiyhtiöitäni ja lue niistä kirjoitettuja analyyseja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Osallistu keskusteluihin ja kommentoi artikkeleita"
+    }
+  ]
+}

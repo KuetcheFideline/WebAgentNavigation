@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bwin.be",
+      "intent": "Je veux consulter les cotes en direct pour le match de football entre l'Italie et la Norvège"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bwin.be",
+      "intent": "Je souhaite comparer les odds pour les équipes de football participantes aux éliminatoires de la Coupe du Monde"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bwin.be",
+      "intent": "Je veux explorer les différentes sections du site, notamment les sports phares et les promotions actuelles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bwin.be",
+      "intent": "Je veux placer un pari en ligne sur le match de football entre l'Ajax et le Benfica après m'être connecté à mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bwin.be",
+      "intent": "Je souhaite consulter l'historique de mes paris et mes gains après m'être connecté à mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bwin.be",
+      "intent": "Je veux modifier mes préférences de notification pour recevoir des mises à jour sur les résultats des matchs de football que je suis"
+    }
+  ]
+}

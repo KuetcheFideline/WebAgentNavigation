@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mestis.fi",
+      "intent": "Tarkastella Mestiksen sarjataulukkoa ja vertailla joukkueiden suorituksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mestis.fi",
+      "intent": "Lukea uusimmat uutiset ja haastattelut Mestiksen joukkueista ja pelaajista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mestis.fi",
+      "intent": "Etsiä tietoa tulevista otteluista ja katsoa videoita aiemmista peleistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mestis.fi",
+      "intent": "Kirjautua sisään ja muokata omia profiili- ja seurantatietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mestis.fi",
+      "intent": "Osallistua keskusteluihin ja kommentoida uutisia ja artikkeleita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mestis.fi",
+      "intent": "Tarkastella ja hallita omia tilastoja ja seurantaa suosikkijoukkueista ja -pelaajista"
+    }
+  ]
+}

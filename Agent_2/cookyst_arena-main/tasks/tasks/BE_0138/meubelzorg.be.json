@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://meubelzorg.be",
+      "intent": "Rechercher des relaxfauteuils pour améliorer le confort de mon salon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://meubelzorg.be",
+      "intent": "Comparer les différents modèles de sta-op-zetels pour trouver celui qui convient le mieux à mes besoins"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://meubelzorg.be",
+      "intent": "Demander un catalogue ou une brochure pour avoir plus d'informations sur les produits"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://meubelzorg.be",
+      "intent": "Gérer mes commandes passées et suivre l'état de mes livraisons"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://meubelzorg.be",
+      "intent": "Modifier mes informations personnelles et de facturation pour assurer une livraison sans problème"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://meubelzorg.be",
+      "intent": "Écrire un avis sur un produit que j'ai acheté pour aider les autres clients dans leur choix"
+    }
+  ]
+}

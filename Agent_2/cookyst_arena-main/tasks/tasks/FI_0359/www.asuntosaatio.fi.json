@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.asuntosaatio.fi",
+      "intent": "Etsin uutta kotia Vantaan alueella, haluan tietää miten voin hakea asuntoa Asuntosäätiöltä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.asuntosaatio.fi",
+      "intent": "Haluan lukea lisää asumisoikeusasumisesta ja sen hyödyistä, jotta voin tehdä informoidun päätöksen asunnon haussa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.asuntosaatio.fi",
+      "intent": "Olen kiinnostunut vuokra-asumisvaihtoehdoista, haluan tietää miten voin hakea vuokra-asuntoa Asuntosäätiöltä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.asuntosaatio.fi",
+      "intent": "Haluan muokata aiemmin lähetettyäni asokotihakemusta, jotta voin varmistaa, että tiedot ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.asuntosaatio.fi",
+      "intent": "Olen kiinnostunut tietoa asokodin remontoinnista ja kunnossapidosta, haluan lukea lisää aiheesta OmaAsuntosäätiö-asiointikanavalla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.asuntosaatio.fi",
+      "intent": "Haluan tarkistaa vuokranmaksuni ja varmistaa, että olen maksanut vuokran oikein, jotta voin välttää mahdolliset viivästyskorkot"
+    }
+  ]
+}

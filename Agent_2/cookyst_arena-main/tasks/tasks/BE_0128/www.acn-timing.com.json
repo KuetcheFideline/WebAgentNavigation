@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.acn-timing.com",
+      "intent": "Rechercher les produits de timing pour améliorer ma performance sportive"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.acn-timing.com",
+      "intent": "Comparer les prix des différents chronomètres pour trouver le meilleur rapport qualité-prix"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.acn-timing.com",
+      "intent": "Lire les avis des clients pour avoir une idée de la qualité des produits et du service client"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.acn-timing.com",
+      "intent": "Configurer mon compte pour recevoir des notifications sur les nouveaux produits et les promotions"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.acn-timing.com",
+      "intent": "Consulter mon historique d'achats pour suivre mes dépenses et mes préférences"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.acn-timing.com",
+      "intent": "Participer à un forum de discussion pour échanger des conseils et des astuces avec d'autres passionnés de sport"
+    }
+  ]
+}

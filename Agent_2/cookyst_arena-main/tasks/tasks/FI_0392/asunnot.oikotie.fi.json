@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asunnot.oikotie.fi",
+      "intent": "Hae Helsinkiin myytäviä asuntoja, joissa on 2-3 makuuhuonetta ja hinta on alle 200 000 euroa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asunnot.oikotie.fi",
+      "intent": "Selaa vuokrattavien asuntojen tarjontaa Espoossa, erityisesti etsien asuntoja, joissa on oma sauna."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asunnot.oikotie.fi",
+      "intent": "Lue asuntokaupan vinkkejä ja opasta, jotta voisin paremmin ymmärtää prosessia, kun haen uutta asuntoa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asunnot.oikotie.fi",
+      "intent": "Tee hakuvahti, joka ilmoittaa minulle, kun uusia asuntoja, jotka vastaavat hakuehtojani, tulevat myyntiin Helsingissä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asunnot.oikotie.fi",
+      "intent": "Tallenna joitakin kiinnostavia asuntoja, joita olen aikaisemmin etsinyt, jotta voin helposti vertailla niitä myöhemmin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asunnot.oikotie.fi",
+      "intent": "Muokkaa olemassa olevaa hakuvahtia, jotta se vastaa paremmin nykyisiä asuntotarpeitani, kuten etsimällä nyt myös asuntoja, joissa on parveke."
+    }
+  ]
+}

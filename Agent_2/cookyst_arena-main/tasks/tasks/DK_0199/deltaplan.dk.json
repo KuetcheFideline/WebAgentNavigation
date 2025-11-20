@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://deltaplan.dk",
+      "intent": "Jeg søger efter en løsning til vagtplanlægning for min arbejdsplads, så jeg vil klikke på 'Produkter' for at se, hvad DELTAPLAN tilbyder."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://deltaplan.dk",
+      "intent": "Jeg vil gerne vide mere om priserne for DELTAPLANs vagtplanlægningsløsninger, så jeg vil klikke på 'Priser' for at få en oversigt."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://deltaplan.dk",
+      "intent": "Jeg er interesseret i at se, hvordan DELTAPLANs løsninger kan hjælpe min arbejdsplads, så jeg vil klikke på 'Referencer' for at læse om andres erfaringer."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://deltaplan.dk",
+      "intent": "Jeg har allerede en konto og vil gerne logge ind for at tilføje nye medarbejdere til vores vagtplan, så jeg vil klikke på 'Log ind' og derefter gå til 'Medarbejdere' for at tilføje nye brugere."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://deltaplan.dk",
+      "intent": "Jeg vil gerne se vores nuværende vagtplan og eventuelt ændre den, så jeg vil klikke på 'Vagtplan' efter login for at se og redigere planen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://deltaplan.dk",
+      "intent": "Jeg har brug for at generere en rapport over vores arbejdstid for en bestemt periode, så jeg vil klikke på 'Rapporter' efter login for at generere den nødvendige rapport."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kielitoimistonsanakirja.fi",
+      "intent": "Haku sanakirjasta suomen kielen termejä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kielitoimistonsanakirja.fi",
+      "intent": "Selailu uusimmista artikkeleista suomen kielen kehityksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kielitoimistonsanakirja.fi",
+      "intent": "Etsintä suomen kielen sanastoa ja fraaseja kalastukseen liittyen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kielitoimistonsanakirja.fi",
+      "intent": "Tallennus suosikkisanastoa ja fraaseja omaan sanakirjaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kielitoimistonsanakirja.fi",
+      "intent": "Osallistuminen keskustelufoorumiin suomen kielen opiskelusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kielitoimistonsanakirja.fi",
+      "intent": "Lukeminen ja kommentointi artikkeleita suomen kielen historian aiheesta"
+    }
+  ]
+}

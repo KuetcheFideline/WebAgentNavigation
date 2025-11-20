@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://identidad.usal.es",
+      "intent": "Buscar información sobre cómo acceder a los servicios electrónicos de la USAL"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://identidad.usal.es",
+      "intent": "Consultar la página de ayuda para saber qué identidad y credenciales tengo en la USAL"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://identidad.usal.es",
+      "intent": "Explorar la sección de solución de problemas para encontrar ayuda con problemas de acceso a los servicios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://identidad.usal.es",
+      "intent": "Acceder a mis datos personales en la aplicación misDATOS para verificar mi perfil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://identidad.usal.es",
+      "intent": "Actualizar mis datos estampados en mi carné universitario a través del portal de aplicaciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://identidad.usal.es",
+      "intent": "Solicitar un nuevo carné universitario en caso de que el actual se haya deteriorado"
+    }
+  ]
+}

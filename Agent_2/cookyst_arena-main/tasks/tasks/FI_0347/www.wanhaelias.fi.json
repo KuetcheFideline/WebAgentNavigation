@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wanhaelias.fi",
+      "intent": "Haluaisin etsiä uusimpia tuotteita, jotka ovat saapuneet myymälään viime aikoina."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wanhaelias.fi",
+      "intent": "Olen kiinnostunut kuolinpesien osto- ja myyntipalveluista, haluaisin lukea lisää siitä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wanhaelias.fi",
+      "intent": "Haluaisin tarkastella eri tuoteryhmiä, kuten huonekalut, korut ja lasiesineet, ja nähdä mitä kaikkea myymälä tarjoaa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wanhaelias.fi",
+      "intent": "Olen kiinnostunut ostamaan joitain tuotteita, haluaisin siis kirjautua sisään ja aloittaa ostokseni."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wanhaelias.fi",
+      "intent": "Haluaisin tarkastella ostoskoriani ja varmistaa, että kaikki tuotteet ovat siellä, missä ne kuuluvat olla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wanhaelias.fi",
+      "intent": "Olen valmis tekemään tilauksen, haluaisin siis vahvistaa tilaukseni ja suorittaa maksun."
+    }
+  ]
+}

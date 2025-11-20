@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://crm.muuttomaailma.fi",
+      "intent": "Selvitän, miten voin kirjautua palveluun, jotta voin tarkastella muuttotarjouspyyntöjä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://crm.muuttomaailma.fi",
+      "intent": "Etsin tietoa siitä, miten voin muokata profiiliaani, jotta voin parantaa muuttotarjouspyyntöjen hakutuloksia."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://crm.muuttomaailma.fi",
+      "intent": "Luen lisää Muuttomaailma.fi-palvelun tarjoamista ominaisuuksista ja miten ne voivat auttaa minua muuttotarjouspyyntöjen hallinnassa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://crm.muuttomaailma.fi",
+      "intent": "Tarkastelen koostetta uusimmista muuttotarjouspyynnöistä ja vertailen niiden hintoja ja ominaisuuksia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://crm.muuttomaailma.fi",
+      "intent": "Muokkaan profiiliaani, jotta voin vastaanottaa tarjouksia, jotka ovat relevantteja minun tarpeisiini ja budjettiini."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://crm.muuttomaailma.fi",
+      "intent": "Vastaan tarjoukseen, joka näyttää lupaavalta, ja aloitan keskustelun tarjoajan kanssa lisätietojen saamiseksi."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vtest.vreg.be",
+      "intent": "Rechercher les tarifs d'énergie les plus avantageux pour ma région"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vtest.vreg.be",
+      "intent": "Comparer les offres d'énergie renouvelable avec les offres classiques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vtest.vreg.be",
+      "intent": "Consulter les conseils pour réduire ma consommation d'énergie à domicile"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vtest.vreg.be",
+      "intent": "Gérer mes informations de compte et mes préférences d'énergie"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vtest.vreg.be",
+      "intent": "Suivre ma consommation d'énergie et mes factures en ligne"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vtest.vreg.be",
+      "intent": "Modifier mon contrat d'énergie en fonction de mes besoins actuels"
+    }
+  ]
+}

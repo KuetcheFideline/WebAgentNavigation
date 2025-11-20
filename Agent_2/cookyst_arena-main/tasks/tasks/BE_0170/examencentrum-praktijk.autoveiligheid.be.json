@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://examencentrum-praktijk.autoveiligheid.be",
+      "intent": "Je souhaite prendre rendez-vous pour une auto-contrôle sans avoir besoin de vous connecter"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://examencentrum-praktijk.autoveiligheid.be",
+      "intent": "Vous voulez comparer les différents types de services d'auto-contrôle proposés par le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://examencentrum-praktijk.autoveiligheid.be",
+      "intent": "Vous cherchez à en savoir plus sur les exigences pour passer le permis de conduire"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://examencentrum-praktijk.autoveiligheid.be",
+      "intent": "Vous souhaitez modifier votre rendez-vous en ligne après vous être connecté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://examencentrum-praktijk.autoveiligheid.be",
+      "intent": "Vous voulez consulter vos rendez-vous passés et vos réservations en cours après connexion"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://examencentrum-praktijk.autoveiligheid.be",
+      "intent": "Vous souhaitez imprimer ou télécharger vos documents de rendez-vous après vous être connecté"
+    }
+  ]
+}

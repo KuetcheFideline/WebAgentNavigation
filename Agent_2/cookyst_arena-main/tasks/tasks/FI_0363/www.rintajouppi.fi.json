@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rintajouppi.fi",
+      "intent": "Hae uusimmat vaihtoautot ja vertaile niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rintajouppi.fi",
+      "intent": "Selaa eri automerkkien valikoimaa ja etsi sopiva auto perheeni tarpeisiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rintajouppi.fi",
+      "intent": "Lue lisää Rinta-Jouppin tarjoamista lisäpalveluista, kuten autorahoituksesta ja autovakuutuksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rintajouppi.fi",
+      "intent": "Tee tarjouspyyntö haluamastani autosta ja pyydä lisätietoja auton ominaisuuksista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rintajouppi.fi",
+      "intent": "Varaa aika auton näyttöön ja keskustele myyjän kanssa auton teknisistä yksityiskohdista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rintajouppi.fi",
+      "intent": "Tee ostotarjous valitsemastani autosta ja pyydä lasku ja kauppasopimus"
+    }
+  ]
+}

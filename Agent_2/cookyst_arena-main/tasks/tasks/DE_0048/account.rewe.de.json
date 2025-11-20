@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.rewe.de",
+      "intent": "Ich möchte herausfinden, warum die Seite nicht erreichbar ist und ob es eine Alternative gibt, um meine Rewe-Kontoinformationen abzurufen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.rewe.de",
+      "intent": "Ich will versuchen, die Rewe-Startseite zu finden, um mich über aktuelle Angebote und Aktionen zu informieren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.rewe.de",
+      "intent": "Ich möchte die Kontaktinformationen von Rewe finden, um mich über mögliche Lösungen für mein Problem zu informieren."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.rewe.de",
+      "intent": "Ich möchte meine Kontoinformationen überprüfen und sicherstellen, dass alle Daten korrekt sind, um mögliche Probleme zu vermeiden."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.rewe.de",
+      "intent": "Ich will meine Bestellhistorie einsehen, um zu sehen, welche Produkte ich in der Vergangenheit gekauft habe und ob es ähnliche Angebote gibt."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.rewe.de",
+      "intent": "Ich möchte meine Zahlungsmethoden und -informationen überprüfen, um sicherzustellen, dass alles korrekt ist und ich keine unerwarteten Gebühren zahle."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Selata TUNI Moodlen etusivun uutisia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Lukea tietosuojaselostetta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Etsiä tietoa kurssien suorittamisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Tarkistaa omat kurssisuoritukset ja arvosanat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Osallistua keskustelufoorumiin ja kommentoida aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Ladata ja tulostaa opetusmateriaaleja"
+    }
+  ]
+}

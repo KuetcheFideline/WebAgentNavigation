@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ugent.be",
+      "intent": "Rechercher les programmes de bachelor en ingénierie pour comparer les options d'études"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ugent.be",
+      "intent": "Consulter les informations sur les frais de scolarité et les bourses d'études pour l'université"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ugent.be",
+      "intent": "Explorer les activités étudiantes et les clubs proposés par l'université pour s'intégrer à la communauté"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ugent.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mon emploi du temps"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ugent.be",
+      "intent": "Inscrire à des cours ou à des ateliers complémentaires pour enrichir mon expérience universitaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ugent.be",
+      "intent": "Utiliser la plateforme de recherche pour trouver des opportunités de stages ou de projets de recherche"
+    }
+  ]
+}

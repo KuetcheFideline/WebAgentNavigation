@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://newsmonkey.be",
+      "intent": "Rechercher des informations sur les dernières actualités en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://newsmonkey.be",
+      "intent": "Lire les articles de la section 'Binnenland' pour me tenir au courant de l'actualité nationale"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://newsmonkey.be",
+      "intent": "Découvrir les dernières nouvelles sur le sport, notamment sur la Formule 1"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://newsmonkey.be",
+      "intent": "Participer à un sondage sur le site pour donner mon avis sur une actualité récente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://newsmonkey.be",
+      "intent": "Créer une liste de lectures pour sauvegarder des articles intéressants et les lire plus tard"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://newsmonkey.be",
+      "intent": "Commenter un article sur la section 'Politique' pour engager une discussion avec d'autres lecteurs"
+    }
+  ]
+}

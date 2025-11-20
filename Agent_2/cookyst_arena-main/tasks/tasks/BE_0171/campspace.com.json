@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campspace.com",
+      "intent": "Rechercher des emplacements de camping en Espagne pour un prochain voyage"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campspace.com",
+      "intent": "Comparer les prix et les équipements de différents emplacements de camping en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campspace.com",
+      "intent": "Lire les avis et les commentaires des autres campeurs sur les emplacements de camping en France"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campspace.com",
+      "intent": "Réserver un emplacement de camping pour le week-end prochain en utilisant mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campspace.com",
+      "intent": "Gérer mes réservations de camping et imprimer mes factures"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campspace.com",
+      "intent": "Ajouter un nouvel emplacement de camping à mes favoris pour un futur voyage"
+    }
+  ]
+}

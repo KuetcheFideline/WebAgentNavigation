@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lentoparkki.fi",
+      "intent": "Tutustun Lentoparkkiin ja etsin tietoa pysäköintipalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lentoparkki.fi",
+      "intent": "Selailen sivuja ja etsin ohjeita ennakkovaraukseen liittyen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lentoparkki.fi",
+      "intent": "Luen asiakaskokemuksia ja arvosteluita Lentoparkista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lentoparkki.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman tilini tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lentoparkki.fi",
+      "intent": "Varaan pysäköintipaikan ennakkoon ja hyödynnän kanta-asiakasedut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lentoparkki.fi",
+      "intent": "Muokkaan aiempaa varaustani ja vahvistan muutokset"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ylojarvenuutiset.fi",
+      "intent": "Luen uutisia Ylöjärven Uutisista, koska haluan tietää, mitä on tapahtunut kaupungissani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ylojarvenuutiset.fi",
+      "intent": "Etsin tietoa urheilu-uutisista, erityisesti Huuhkajien otteluista ja Teemu Pukin suorituksista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ylojarvenuutiset.fi",
+      "intent": "Selvitan, miten voin lähettää mielipidekirjoituksen Ylöjärven Uutisille, jotta voisin jakaa omat ajatukseni kaupungin asioista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ylojarvenuutiset.fi",
+      "intent": "Tilaa lehti, jotta voin lukea kaikki uutiset ja artikkelit ilman rajoituksia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ylojarvenuutiset.fi",
+      "intent": "Lähetän palautetta Ylöjärven Uutisille siitä, miten he voivat parantaa palvelujaan ja sisältöään."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ylojarvenuutiset.fi",
+      "intent": "Muokkaan profiiliani, jotta voin hallita, miten ja milloin saan uutisia ja päivityksiä Ylöjärven Uutisista."
+    }
+  ]
+}

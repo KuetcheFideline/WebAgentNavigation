@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autotex.fi",
+      "intent": "Hae auton varaosia omalla rekisterinumerollani"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autotex.fi",
+      "intent": "Vertaile eri auton osien hintoja ja laatua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autotex.fi",
+      "intent": "Lue arvosteluita ja kommentteja eri auton osista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autotex.fi",
+      "intent": "Tilaa auton osia ja seuraa tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autotex.fi",
+      "intent": "Lisää ja poista tuotteita ostoskoristani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autotex.fi",
+      "intent": "Tarkista ja muokkaa osoite- ja maksutietojani"
+    }
+  ]
+}

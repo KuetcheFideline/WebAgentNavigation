@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hbl.fi",
+      "intent": "Luen Helsingin uutisia, koska haluan tietää, mitä kaupungissa tapahtuu."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hbl.fi",
+      "intent": "Etsin HBL:n sivuilta tietoa työpaikoista, koska olen kiinnostunut löytämään uuden työn."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hbl.fi",
+      "intent": "Selailen HBL:n urheiluosioita, koska olen kiinnostunut seuraamaan urheilutapahtumia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hbl.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutisartikkeleita, koska haluan osallistua keskusteluun."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hbl.fi",
+      "intent": "Tallennan lehtiin kirjautumisen jälkeen omat suosikkini, jotta voin helposti löytää ne myöhemmin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hbl.fi",
+      "intent": "Muokkaan profiiliaani, koska haluan varmistaa, että tiedot ovat ajan tasalla."
+    }
+  ]
+}

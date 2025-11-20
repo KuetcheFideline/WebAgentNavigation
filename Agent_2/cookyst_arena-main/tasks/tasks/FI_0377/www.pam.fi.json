@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pam.fi",
+      "intent": "Hae tietoa PAMin jäsenyydestä ja sen eduista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pam.fi",
+      "intent": "Selvitä miten liityt PAMin jäseneksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pam.fi",
+      "intent": "Lue uusimmat uutiset ja artikkelit PAMin sivuilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pam.fi",
+      "intent": "Päivitä jäsentietoni ja tarkista jäsenmaksuni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pam.fi",
+      "intent": "Tilaa PAMin verkkokaupasta tuotteita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pam.fi",
+      "intent": "Osallistu PAMin jäsenille tarkoitettuihin keskusteluihin ja äänestä eri aiheista"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://abvv.be",
+      "intent": "Rechercher les informations sur les droits des travailleurs en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://abvv.be",
+      "intent": "Trouver un bureau ABVV près de chez moi à Uccle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://abvv.be",
+      "intent": "Lire les actualités sur les campagnes de l'ABVV pour les droits des travailleurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://abvv.be",
+      "intent": "Consulter mon dossier sur Mijn ABVV pour vérifier mon statut de chômeur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://abvv.be",
+      "intent": "Remplir ma carte de contrôle électronique pour mon statut de chômeur"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://abvv.be",
+      "intent": "Calculer mon salaire net et mes prestations sur Mijn ABVV"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://werk.belgie.be",
+      "intent": "Rechercher les informations sur les stages rémunérés au Parlement Européen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://werk.belgie.be",
+      "intent": "Consulter les offres d'emploi dans le secteur de la think tank"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://werk.belgie.be",
+      "intent": "Explorer les ressources pour les stagiaires étrangers en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://werk.belgie.be",
+      "intent": "Accéder à mon compte pour consulter mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://werk.belgie.be",
+      "intent": "Déposer une candidature pour un poste d'inspecteur au sein de l'Arbeidsinspectie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://werk.belgie.be",
+      "intent": "Gérer mes préférences de notification pour les mises à jour sur les offres d'emploi"
+    }
+  ]
+}

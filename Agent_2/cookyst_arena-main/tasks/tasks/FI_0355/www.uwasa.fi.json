@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uwasa.fi",
+      "intent": "Hae tietoa opiskelijaksi hakemisesta Vaasan yliopistosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uwasa.fi",
+      "intent": "Selvitä, mitä tutkimusaiheita Vaasan yliopistossa on tarjolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uwasa.fi",
+      "intent": "Etsi tietoa Vaasan yliopiston opetusohjelmista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uwasa.fi",
+      "intent": "Tarkista opiskelijan henkilökohtaiset tiedot ja opintosuunnitelma Moodle-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uwasa.fi",
+      "intent": "Lue ja vastaa opettajan lähettämään viestiin Messi-palvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uwasa.fi",
+      "intent": "Tallenna ja jaettu tiedosto OwnCloud-palvelussa"
+    }
+  ]
+}

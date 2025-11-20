@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://docs.github.com",
+      "intent": "Jeg søger efter vejledning om, hvordan jeg kan oprette et nyt repository på GitHub"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://docs.github.com",
+      "intent": "Jeg vil læse om GitHub Copilot og hvordan jeg kan bruge det til at få kodeforslag i min editor"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://docs.github.com",
+      "intent": "Jeg søger efter information om, hvordan jeg kan bruge GitHub til at samarbejde med mine kollegaer på et projekt"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://docs.github.com",
+      "intent": "Jeg vil oprette en ny pull request for at dele mine ændringer med mine kollegaer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://docs.github.com",
+      "intent": "Jeg søger efter at konfigurere mine repository-indstillinger for at sikre, at mine data er sikre"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://docs.github.com",
+      "intent": "Jeg vil se mine tidligere pull requests og ændringer for at holde styr på mine projekter"
+    }
+  ]
+}

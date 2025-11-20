@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.voyages-leonard.com",
+      "intent": "Rechercher des voyages en Europe pour les prochaines vacances"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.voyages-leonard.com",
+      "intent": "Consulter les offres spéciales pour les marchés de Noël en plusieurs jours"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.voyages-leonard.com",
+      "intent": "Explorer les différents types de voyages proposés, tels que les circuits accompagnés et les city-trips"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.voyages-leonard.com",
+      "intent": "Réserver un voyage à Paris pour le week-end de la Saint-Valentin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.voyages-leonard.com",
+      "intent": "Consulter mes réservations de voyages précédents pour planifier un nouveau voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.voyages-leonard.com",
+      "intent": "Utiliser mes écochèques pour payer un voyage en autocar à Amsterdam"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cliniquesdeleurope.be",
+      "intent": "Rechercher les services médicaux et paramédicaux proposés par les Cliniques de l'Europe pour comprendre les options disponibles en cas de besoin médical"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cliniquesdeleurope.be",
+      "intent": "Consulter les informations pratiques sur les sites des Cliniques de l'Europe, notamment les accès et les parkings, pour planifier une visite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cliniquesdeleurope.be",
+      "intent": "Explorer les offres d'emploi et de stages aux Cliniques de l'Europe pour évaluer les opportunités de carrière dans le domaine médical"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cliniquesdeleurope.be",
+      "intent": "Prendre rendez-vous en ligne pour une consultation médicale après s'être connecté au portail patient"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cliniquesdeleurope.be",
+      "intent": "Accéder à mes dossiers médicaux personnels et consulter les résultats d'examens en ligne après connexion au portail patient"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cliniquesdeleurope.be",
+      "intent": "Gérer mes factures et paiements en ligne pour les services médicaux reçus aux Cliniques de l'Europe après s'être connecté"
+    }
+  ]
+}

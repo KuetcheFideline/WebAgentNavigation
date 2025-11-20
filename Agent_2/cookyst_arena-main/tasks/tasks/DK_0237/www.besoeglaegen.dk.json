@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg søger efter information om klinikker i nærheden af Skagen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne læse anmeldelser af forskellige klinikker for at finde den bedste"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at sammenligne priser på forskellige klinikker for at finde den billigste"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne booke en tid hos min læge på klinikken"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg ønsker at se mine tidligere besøg og resultater på min konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.besoeglaegen.dk",
+      "intent": "Jeg vil gerne ændre mine kontaktoplysninger og adresse i min profil"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hilti.fi",
+      "intent": "Etsin uusimmat sähkötyökalut Hiltin verkkokaupasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hilti.fi",
+      "intent": "Haluan lukea lisää Hiltin kalustonhallinnan ratkaisuista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hilti.fi",
+      "intent": "Tutkin Hiltin tarjouksia ja alennuksia eri tuotteille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hilti.fi",
+      "intent": "Tarkastan tilaustani ja seurannan tilaa Oma Hilti-tililläni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hilti.fi",
+      "intent": "Lisään uusia tuotteita suosikkilistaani Oma Hilti-tililläni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hilti.fi",
+      "intent": "Tilaa uudet akkutyökalut Hiltin verkkokaupasta kirjautuneena"
+    }
+  ]
+}

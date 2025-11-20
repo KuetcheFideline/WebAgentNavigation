@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portalmed.caser.es",
+      "intent": "Buscar información sobre los servicios de mediación ofrecidos por CASER"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portalmed.caser.es",
+      "intent": "Descargar documentos relacionados con la gestión de seguros de mi nieto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portalmed.caser.es",
+      "intent": "Consultar las preguntas frecuentes sobre el acceso seguro al Portal del Mediador"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portalmed.caser.es",
+      "intent": "Verificar el estado de mis solicitudes de seguro pendientes de resolución"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portalmed.caser.es",
+      "intent": "Actualizar mis datos personales y de contacto en el perfil de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portalmed.caser.es",
+      "intent": "Solicitar un certificado de seguro para presentar en la segunda residencia"
+    }
+  ]
+}

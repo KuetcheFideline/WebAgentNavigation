@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kainuunsanomat.fi",
+      "intent": "Luen Kainuun Sanomien uusimmat uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kainuunsanomat.fi",
+      "intent": "Etsin Kainuun Sanomien verkkosivuilta tietoa Kajaanin kaupungin tapahtumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kainuunsanomat.fi",
+      "intent": "Selailen Kainuun Sanomien sivuja, etsimässä mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kainuunsanomat.fi",
+      "intent": "Tilaa Kainuun Sanomien uutiskirje, jotta saan uusimmat uutiset suoraan sähköpostiini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kainuunsanomat.fi",
+      "intent": "Muutan Kainuun Sanomien tilausasetuksia, jotta voin hallita, mitä sisältöä saan näkyviin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kainuunsanomat.fi",
+      "intent": "Kirjaudun Kainuun Sanomien verkkopalveluun, jotta voin lukea lehden digitaalisen version"
+    }
+  ]
+}

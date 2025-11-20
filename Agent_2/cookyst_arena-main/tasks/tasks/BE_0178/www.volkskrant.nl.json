@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.volkskrant.nl",
+      "intent": "Je veux consulter les actualités locales pour rester informée sur ce qui se passe à Anvers."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.volkskrant.nl",
+      "intent": "Je souhaite lire les articles sur la santé pour mieux comprendre mes problèmes de mobilité réduite."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.volkskrant.nl",
+      "intent": "Je veux explorer les sections sur les loisirs et les activités pour personnes âgées pour trouver des idées de passe-temps."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.volkskrant.nl",
+      "intent": "Je veux personnaliser mes préférences de lecture pour recevoir des actualités ciblées sur les sujets qui m'intéressent."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.volkskrant.nl",
+      "intent": "Je souhaite participer à des discussions en ligne sur les articles pour partager mes opinions et échanger avec d'autres lecteurs."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.volkskrant.nl",
+      "intent": "Je veux gérer mon abonnement pour ajuster mes paramètres de notification et de facturation."
+    }
+  ]
+}

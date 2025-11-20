@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://karkkila.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, miten Wilma toimii opettajana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://karkkila.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten voinkirjautua sisään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://karkkila.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten voinkorjata unohtuneen salasanani Wilmassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://karkkila.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkastan opiskelijoideni suorituksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://karkkila.inschool.fi",
+      "intent": "Viestin opiskelijoideni kanssa Wilman kautta ja annan heille palautetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://karkkila.inschool.fi",
+      "intent": "Päivitän opiskelijoideni henkilötietoja Wilman kautta"
+    }
+  ]
+}

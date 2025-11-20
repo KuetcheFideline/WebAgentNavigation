@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cocopot.es",
+      "intent": "Buscar productos para huerto en la sección de SEMILLAS ECOLÓGICAS"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cocopot.es",
+      "intent": "Explorar la sección de BULBOS HORTÍCOLAS para encontrar bulbos de siembra ecológica"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cocopot.es",
+      "intent": "Leer el blog para obtener consejos sobre el cuidado de plantas aromáticas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cocopot.es",
+      "intent": "Agregar productos a la lista de favoritos para futuras compras"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cocopot.es",
+      "intent": "Realizar un pedido de semillas ecológicas y bulbos hortícolas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cocopot.es",
+      "intent": "Verificar el estado de un pedido anterior y dejar una reseña sobre el producto"
+    }
+  ]
+}

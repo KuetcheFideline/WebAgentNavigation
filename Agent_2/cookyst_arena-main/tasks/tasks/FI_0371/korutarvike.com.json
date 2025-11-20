@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://korutarvike.com",
+      "intent": "Selatakseni uusimmat korutuotteet ja etsimällä sopivia koruja itselleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://korutarvike.com",
+      "intent": "Löytääkseni tietoa korujen materiaaleista ja valmistusmenetelmistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://korutarvike.com",
+      "intent": "Vertailemaan eri korumerkkien ja -tyylien hintoja ja laatua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://korutarvike.com",
+      "intent": "Tilatakseni uusimmat korutuotteet ja hyödyntääkseni kanta-asiakasedut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://korutarvike.com",
+      "intent": "Seuraamaan ostoskoriani ja tarkistamaan tilaustani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://korutarvike.com",
+      "intent": "Arvostelemaan ja kommentoimaan ostamiani tuotteita ja palvelua"
+    }
+  ]
+}

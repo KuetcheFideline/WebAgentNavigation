@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://24pesula.fi",
+      "intent": "Löydä lähin pesulasi Vantaan alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://24pesula.fi",
+      "intent": "Tutki 24 Pesulan toimintamallia ja hinnoittelua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://24pesula.fi",
+      "intent": "Selvitä miten 24 Pesula sovellus toimii ja mitä hyötyä siitä on"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://24pesula.fi",
+      "intent": "Kirjaudu sisään ja tee varaus lähimmästä pesulasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://24pesula.fi",
+      "intent": "Tarkista aiemmat pesulavaraukset ja tee tarvittaessa uusi varaus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://24pesula.fi",
+      "intent": "Anna palautetta aiemmasta pesulakokemuksesta ja ehdota parannuksia"
+    }
+  ]
+}

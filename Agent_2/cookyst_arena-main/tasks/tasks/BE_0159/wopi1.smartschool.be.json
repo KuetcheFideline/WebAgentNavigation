@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wopi1.smartschool.be",
+      "intent": "Rechercher les informations sur les activités scolaires de mes enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wopi1.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les parents"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wopi1.smartschool.be",
+      "intent": "Consulter les dates importantes du calendrier scolaire"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wopi1.smartschool.be",
+      "intent": "Vérifier les notes et les progrès de mes enfants dans leurs cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wopi1.smartschool.be",
+      "intent": "Gérer les autorisations et les permissions pour les activités extrascolaires de mes enfants"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wopi1.smartschool.be",
+      "intent": "Communiquer avec les enseignants de mes enfants pour discuter de leur progression"
+    }
+  ]
+}

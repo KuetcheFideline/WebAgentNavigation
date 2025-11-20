@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.ally.at",
+      "intent": "Ich möchte mich mit meiner Google-ID anmelden, um Zugriff auf Ally-Personal zu erhalten."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.ally.at",
+      "intent": "Ich will die Datenschutzvereinbarung lesen, um zu verstehen, wie meine Daten verwendet werden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.ally.at",
+      "intent": "Ich möchte herausfinden, wie ich ein neues Benutzerkonto erstelle, falls ich noch keine Identität habe."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.ally.at",
+      "intent": "Ich möchte meine persönlichen Daten überprüfen und aktualisieren, um sicherzustellen, dass alles korrekt ist."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.ally.at",
+      "intent": "Ich will meine Verbindung mit anderen Diensten überprüfen und gegebenenfalls anpassen, um sicherzustellen, dass alles reibungslos funktioniert."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.ally.at",
+      "intent": "Ich möchte meine Registriercode einsehen, um sicherzustellen, dass ich immer Zugriff auf mein Konto habe."
+    }
+  ]
+}

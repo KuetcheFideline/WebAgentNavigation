@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lounaspaikka.ilkkapohjalainen.fi",
+      "intent": "Hae lounaspaikkoja Seinäjoelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lounaspaikka.ilkkapohjalainen.fi",
+      "intent": "Lisää suosikkeihin lounaspaikka Vaasasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lounaspaikka.ilkkapohjalainen.fi",
+      "intent": "Selaa lounaslistaa ja etsi maukkaita lounaita Oulun lähialueelta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lounaspaikka.ilkkapohjalainen.fi",
+      "intent": "Jätä palautetta suosikkiravintolalle Seinäjoella"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lounaspaikka.ilkkapohjalainen.fi",
+      "intent": "Muokkaa suosikkilistaa ja poista ei-toivottuja lounaspaikkoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lounaspaikka.ilkkapohjalainen.fi",
+      "intent": "Tallenna uusi lounaspaikka suosikkeihin ja jaa se ystävien kanssa"
+    }
+  ]
+}

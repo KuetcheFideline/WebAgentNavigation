@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.presidentti.fi",
+      "intent": "Selata presidentin virallista sivustoa ja tutustua hänen tehtäviinsä ja vastuualueisiin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.presidentti.fi",
+      "intent": "Etsiä tietoa presidentin julkisista tilaisuuksista ja tapahtumista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.presidentti.fi",
+      "intent": "Lukea uutisia ja tiedotteita presidentin toiminnasta ja päätöksistä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.presidentti.fi",
+      "intent": "Kirjautua sisään ja osallistua keskusteluun presidentin sivuston foorumilla."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.presidentti.fi",
+      "intent": "Lähettää kysymys tai palautetta presidentin virastolle sivuston kautta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.presidentti.fi",
+      "intent": "Tallentaa suosikkisivut ja artikkelit presidentin sivustolla ja seurata niiden päivityksiä."
+    }
+  ]
+}

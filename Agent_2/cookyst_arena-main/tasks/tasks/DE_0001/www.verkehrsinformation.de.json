@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.verkehrsinformation.de",
+      "intent": "Ich möchte die aktuellen Staumeldungen für die Strecke von Düsseldorf nach Hamburg abrufen, um meine Fahrt zu planen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.verkehrsinformation.de",
+      "intent": "Ich will die Verkehrslage in Nordrhein-Westfalen überprüfen, um mich auf eventuelle Staus vorzubereiten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.verkehrsinformation.de",
+      "intent": "Ich möchte die Staukarte für Deutschland anzeigen, um die aktuelle Verkehrssituation zu überblicken."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.verkehrsinformation.de",
+      "intent": "Ich möchte eine Störung auf der A73 zwischen Breitengüßbach-Süd und Kreuz Bamberg melden, um anderen Fahrern zu helfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.verkehrsinformation.de",
+      "intent": "Ich will meine Kommentare zu den Staumeldungen einsehen und eventuell bestätigen oder korrigieren, um die Community zu unterstützen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.verkehrsinformation.de",
+      "intent": "Ich möchte meine Einstellungen für die Push-Mitteilungen anpassen, um nur die wichtigsten Verkehrsmeldungen zu erhalten."
+    }
+  ]
+}

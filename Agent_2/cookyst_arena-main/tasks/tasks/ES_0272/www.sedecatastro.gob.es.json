@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sedecatastro.gob.es",
+      "intent": "Buscar información sobre el catastro de mi propiedad en València"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sedecatastro.gob.es",
+      "intent": "Descargar información cartográfica y alfanumérica de la zona de València"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sedecatastro.gob.es",
+      "intent": "Consultar el valor de referencia de los bienes inmuebles urbanos y rústicos en la zona de València"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sedecatastro.gob.es",
+      "intent": "Acceder a la información de mis inmuebles y conocer el estado de los procedimientos catastrales en los que estoy involucrado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sedecatastro.gob.es",
+      "intent": "Realizar una declaración o solicitud de información catastral sobre una de mis propiedades"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sedecatastro.gob.es",
+      "intent": "Descargar documentos electrónicos relacionados con mis propiedades y procedimientos catastrales"
+    }
+  ]
+}

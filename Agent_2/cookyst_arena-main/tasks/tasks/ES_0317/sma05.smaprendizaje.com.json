@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sma05.smaprendizaje.com",
+      "intent": "Explorar la página de inicio para conocer las opciones de acceso y registro disponibles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sma05.smaprendizaje.com",
+      "intent": "Buscar información sobre cómo restablecer la contraseña en caso de olvido."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sma05.smaprendizaje.com",
+      "intent": "Leer las políticas de privacidad y condiciones de uso antes de crear una cuenta o iniciar sesión."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sma05.smaprendizaje.com",
+      "intent": "Acceder a mis cursos y materiales de estudio una vez iniciada la sesión."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sma05.smaprendizaje.com",
+      "intent": "Configurar mis preferencias de cuenta y ajustar la configuración de notificaciones."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sma05.smaprendizaje.com",
+      "intent": "Participar en foros de discusión y compartir recursos con otros usuarios registrados."
+    }
+  ]
+}

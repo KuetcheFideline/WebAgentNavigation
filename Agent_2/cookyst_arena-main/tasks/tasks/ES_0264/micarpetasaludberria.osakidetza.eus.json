@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://micarpetasaludberria.osakidetza.eus",
+      "intent": "Buscar información sobre cómo acceder a la Carpeta de Salud para gestionar mi historia clínica de manera digital"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://micarpetasaludberria.osakidetza.eus",
+      "intent": "Leer las preguntas frecuentes para resolver dudas sobre el uso de la Carpeta de Salud"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://micarpetasaludberria.osakidetza.eus",
+      "intent": "Explorar la sección de enlaces de login para encontrar recursos adicionales sobre la Carpeta de Salud"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://micarpetasaludberria.osakidetza.eus",
+      "intent": "Consultar mi historia clínica en la Carpeta de Salud para verificar mis datos de salud actualizados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://micarpetasaludberria.osakidetza.eus",
+      "intent": "Interactuar con mi equipo de salud a través de la Carpeta de Salud para hacer preguntas o solicitar consejo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://micarpetasaludberria.osakidetza.eus",
+      "intent": "Actualizar mis datos personales en la Carpeta de Salud para asegurarme de que mi información esté actualizada"
+    }
+  ]
+}

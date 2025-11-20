@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.kielitoimistonohjepankki.fi",
+      "intent": "Hae tietoa suomen kielen oikeinkirjoituksesta ja kieliopista Kielitoimiston ohjepankista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.kielitoimistonohjepankki.fi",
+      "intent": "Selvitä miten kirjoitetaan oikein erilaiset nimet ja paikannimet suomen kielessä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.kielitoimistonohjepankki.fi",
+      "intent": "Lue ohjeita hyvän virkakielen käytöstä ja sen merkityksestä virkatyössä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.kielitoimistonohjepankki.fi",
+      "intent": "Tallenna suosikkiohjeet ja -sanastot Kielitoimiston ohjepankissa, jotta niitä on helppo löytää myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.kielitoimistonohjepankki.fi",
+      "intent": "Anna palautetta Kielitoimiston ohjepankin sisällöstä ja käytettävyydestä, jotta se voisi parantua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.kielitoimistonohjepankki.fi",
+      "intent": "Merkitse käydyt ohjeet ja sanastot luetuiksi, jotta voit helposti seurata mitä olet jo oppinut"
+    }
+  ]
+}

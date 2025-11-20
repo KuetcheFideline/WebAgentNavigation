@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.login.kotikulma.fi",
+      "intent": "Selvittää, miten voin löytää haluamani tuotteet sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.login.kotikulma.fi",
+      "intent": "Lukeminen sivuston esittelytekstiä ja ymmärtäminen, mitä sivusto tarjoaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.login.kotikulma.fi",
+      "intent": "Etsiminen sivustolta tietoa siitä, miten voin ostaa tuotteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.login.kotikulma.fi",
+      "intent": "Kirjautuminen sisään ja tarkistaminen, mitä tuotteita olen ostanut aiemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.login.kotikulma.fi",
+      "intent": "Tarkastaminen, mitä arvosteluita olen antanut aiemmin ja mitä tuotteita olen suosittanut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.login.kotikulma.fi",
+      "intent": "Muokkaaminen profiilia ja tarkistaminen, että kaikki tietoni ovat ajan tasalla"
+    }
+  ]
+}

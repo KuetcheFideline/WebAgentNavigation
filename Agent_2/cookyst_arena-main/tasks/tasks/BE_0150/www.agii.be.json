@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.agii.be",
+      "intent": "Rechercher les informations sur les droits de séjour pour les ressortissants étrangers en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.agii.be",
+      "intent": "Consulter les conditions pour demander un permis de séjour en Belgique en tant que travailleur migrant"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.agii.be",
+      "intent": "Explorer les différentes catégories de visas et de permis de séjour proposés par le gouvernement belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.agii.be",
+      "intent": "Demander un permis de séjour en ligne en tant que ressortissant étranger déjà résidant en Belgique"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.agii.be",
+      "intent": "Modifier mes informations personnelles dans mon dossier en ligne sur le site de l'Agence générale pour l'accueil des étrangers"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.agii.be",
+      "intent": "Télécharger et imprimer mon permis de séjour électronique via le site web de l'Agence"
+    }
+  ]
+}

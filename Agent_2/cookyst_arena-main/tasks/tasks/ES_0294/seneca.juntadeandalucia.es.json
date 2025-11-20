@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Buscar información sobre cursos de formación para desempleados en la página de Séneca"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Explorar las secciones de 'PLATAFORMAS' y 'UTILIDADES' para conocer las herramientas disponibles para la formación profesional"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Leer las noticias y actualizaciones sobre la formación profesional en Andalucía en la página principal de Séneca"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Acceder a mi cuenta de Séneca para consultar mis cursos y actividades de formación pendientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Descargar mis certificados de formación profesional desde la plataforma de Séneca"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seneca.juntadeandalucia.es",
+      "intent": "Configurar mis preferencias de notificación y actualizaciones en la plataforma de Séneca"
+    }
+  ]
+}

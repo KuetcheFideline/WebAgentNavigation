@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.multi.fi",
+      "intent": "Tarkistaa sähköpostin kirjautumissivun toimivuuden ennen kirjautumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.multi.fi",
+      "intent": "Etsii ohjeita sähköpostin asetusten määrittämiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.multi.fi",
+      "intent": "Löytää tietoa sähköpostipalvelun tietosuojakäytännöistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.multi.fi",
+      "intent": "Lukemaan viimeisimmät sähköpostiviestit ja vastaamaan niistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.multi.fi",
+      "intent": "Muokkaamaan sähköpostiosoitteiden luetteloita ja ryhmiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.multi.fi",
+      "intent": "Tarkistamaan ja päivittämään sähköpostin salasanan turvallisuuden vuoksi"
+    }
+  ]
+}

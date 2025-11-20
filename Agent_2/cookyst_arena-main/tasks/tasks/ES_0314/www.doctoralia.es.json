@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.doctoralia.es",
+      "intent": "Buscar un médico general en Madrid para una consulta sobre la salud en general"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.doctoralia.es",
+      "intent": "Explorar las opciones de tratamiento del dolor de espalda en la sección de servicios"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.doctoralia.es",
+      "intent": "Leer las reseñas de pacientes sobre los psicólogos en Barcelona para encontrar uno adecuado"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.doctoralia.es",
+      "intent": "Pedir una cita con un urólogo en Valencia después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.doctoralia.es",
+      "intent": "Ver mis historial de citas médicas pasadas y pendientes en mi perfil de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.doctoralia.es",
+      "intent": "Editar mis datos personales y de contacto en mi cuenta de Doctoralia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lentopallo.fi",
+      "intent": "Tutkin lentopallon SM-sarjan tuloksia ja otteluraportteja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lentopallo.fi",
+      "intent": "Etsin tietoa lentopallon junioritoiminnasta ja nuorisoleiristä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lentopallo.fi",
+      "intent": "Selvitan, miten voisin osallistua lentopallon valmennuskursseille tai -tapahtumiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lentopallo.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman lentopalloliiton jäsenyyteni tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lentopallo.fi",
+      "intent": "Ilmoitan itseni osallistujaksi lentopallon turnauksiin tai kilpailuihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lentopallo.fi",
+      "intent": "Tarkastan ja päivitän oman profiilini tietoja, kuten osoitteeni ja yhteystietoni"
+    }
+  ]
+}

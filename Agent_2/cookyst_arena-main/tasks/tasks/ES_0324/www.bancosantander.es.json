@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Buscar información sobre cuentas de ahorro para personas mayores de 65 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Comparar las diferentes opciones de préstamos personales disponibles en el banco"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Descargar el formulario de solicitud de tarjeta de crédito para personas con ingresos fijos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Consultar el saldo actual de mi cuenta de ahorro y realizar una transferencia a la cuenta de mi nieto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Configurar las alertas de seguridad para recibir notificaciones sobre movimientos sospechosos en mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Solicitar un aumento en el límite de mi tarjeta de crédito para realizar una compra importante"
+    }
+  ]
+}

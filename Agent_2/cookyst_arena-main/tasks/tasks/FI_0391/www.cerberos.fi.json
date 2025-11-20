@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cerberos.fi",
+      "intent": "Hae tietoa Cerberos-valjaista ja niiden soveltumisesta golfmatkoilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cerberos.fi",
+      "intent": "Vertaile eri valjasmalleja ja niiden ominaisuuksia, kuten kestävyyttä ja mukavuutta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cerberos.fi",
+      "intent": "Selvitä, miten Cerberos-valjaat voidaan räätälöidä omalle koiralle sopivaksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cerberos.fi",
+      "intent": "Tilaa uudet Cerberos-valjaat omalle koiralle ja määritä toimitusosoitteeksi Helsinki"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cerberos.fi",
+      "intent": "Kirjaudu sisään ja tarkista tilausHistoria, jotta voit seurata aiempien tilausten tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cerberos.fi",
+      "intent": "Lisää uusi osoite ostoskoriin ja tee varaus seuraavaa golfmatkaa varten"
+    }
+  ]
+}

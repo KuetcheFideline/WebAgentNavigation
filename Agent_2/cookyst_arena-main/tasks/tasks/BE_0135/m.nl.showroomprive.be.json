@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.nl.showroomprive.be",
+      "intent": "Je souhaite parcourir les différentes catégories de produits pour trouver des idées de cadeaux pour ta famille."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.nl.showroomprive.be",
+      "intent": "Tu veux comparer les prix de quelques articles de mode pour voir si tu peux trouver des affaires intéressantes."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.nl.showroomprive.be",
+      "intent": "Tu cherches à en savoir plus sur les conditions de livraison et les délais pour les commandes passées sur le site."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.nl.showroomprive.be",
+      "intent": "Après t'être connecté, tu souhaites accéder à ton compte pour suivre l'état de tes commandes en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.nl.showroomprive.be",
+      "intent": "Une fois connecté, tu veux modifier tes informations de compte, notamment ton adresse e-mail, pour être sûr de recevoir les mises à jour correctement."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.nl.showroomprive.be",
+      "intent": "Connecté, tu souhaites consulter l'historique de tes achats pour retrouver un produit que tu as aimé et que tu veux peut-être racheter."
+    }
+  ]
+}

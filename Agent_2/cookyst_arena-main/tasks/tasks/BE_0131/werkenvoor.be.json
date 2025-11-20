@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://werkenvoor.be",
+      "intent": "Rechercher des offres d'emploi dans le domaine de la Commission européenne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://werkenvoor.be",
+      "intent": "Consulter les informations sur les stages proposés par le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://werkenvoor.be",
+      "intent": "Explorer les différentes sections du site pour comprendre les opportunités de carrière"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://werkenvoor.be",
+      "intent": "Déposer ma candidature pour un poste de stagiaire au Parlement européen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://werkenvoor.be",
+      "intent": "Gérer mes candidatures en cours et suivre l'état d'avancement de mes démarches"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://werkenvoor.be",
+      "intent": "Consulter mes informations personnelles et mettre à jour mon profil"
+    }
+  ]
+}

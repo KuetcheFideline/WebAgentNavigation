@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://letterboxd.com",
+      "intent": "Rechercher des films que j'ai déjà vus pour voir si ils sont présents sur le site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://letterboxd.com",
+      "intent": "Découvrir les listes de films les plus populaires pour trouver de nouvelles idées de films à regarder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://letterboxd.com",
+      "intent": "Lire les critiques de films récents pour avoir une idée de ce que les autres utilisateurs pensent de ces films"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://letterboxd.com",
+      "intent": "Créer une liste de films que je veux voir pour pouvoir la partager avec mes amis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://letterboxd.com",
+      "intent": "Écrire une critique d'un film que j'ai récemment vu pour partager mon avis avec la communauté"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://letterboxd.com",
+      "intent": "Suivre d'autres utilisateurs qui partagent mes goûts cinématographiques pour découvrir de nouveaux films"
+    }
+  ]
+}

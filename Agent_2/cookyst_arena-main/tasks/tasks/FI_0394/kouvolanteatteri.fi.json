@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kouvolanteatteri.fi",
+      "intent": "Haluaisin tietää, mitä esityksiä on tulevana viikonloppuna, jotta voisin suunnitella illanviettoni perheeni kanssa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kouvolanteatteri.fi",
+      "intent": "Olen kiinnostunut näytelmästä 'Hiljaiset sillat', haluaisin lukea lisää siitä ja tarkistaa liput."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kouvolanteatteri.fi",
+      "intent": "Tilataan uutiskirje, jotta saan tietoa tulevista esityksistä ja mahdollisista alennuksista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kouvolanteatteri.fi",
+      "intent": "Haluan varata liput 'Carola - Kielletyt leikit' -näytelmään, koska olen kuullut hyviä arvosteluita siitä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kouvolanteatteri.fi",
+      "intent": "Tarkistaisin, onko minulla varattuja lippuja tuleviin esityksiin, jotta voisin suunnitella kalenterini."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kouvolanteatteri.fi",
+      "intent": "Lisätään 'Joulushow' -näytelmä suosikkeihini, jotta voin helposti löytää sen, kun liput tulevat myyntiin."
+    }
+  ]
+}

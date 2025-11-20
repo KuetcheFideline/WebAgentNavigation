@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dice.circus.be",
+      "intent": "Découvrir les événements à venir sur le site Circus pour planifier mes prochaines sorties avec mes amis."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dice.circus.be",
+      "intent": "Rechercher des informations sur les festivals de musique tels que Pukkelpop et Dour Festival pour savoir quels artistes vont se produire cette année."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dice.circus.be",
+      "intent": "Explorer les options de billetterie pour les événements proposés par Circus et comparer les prix pour trouver les meilleures offres."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dice.circus.be",
+      "intent": "Acheter des billets pour le prochain concert de mon artiste préféré après m'être connecté à mon compte pour bénéficier de réductions éventuelles."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dice.circus.be",
+      "intent": "Gérer mes billets achetés précédemment pour imprimer ou télécharger mes billets électroniques avant de me rendre à l'événement."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dice.circus.be",
+      "intent": "Consulter l'historique de mes achats pour voir quels événements j'ai déjà réservés et planifier mes prochaines sorties en conséquence."
+    }
+  ]
+}

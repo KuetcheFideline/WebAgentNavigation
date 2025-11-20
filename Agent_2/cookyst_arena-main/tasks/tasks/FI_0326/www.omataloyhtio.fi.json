@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.omataloyhtio.fi",
+      "intent": "Hae sivustolta tietoa energiansäästöstä taloyhtiössä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.omataloyhtio.fi",
+      "intent": "Lue uutisia ja artikkeleita taloyhtiön hallinnosta ja asumisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.omataloyhtio.fi",
+      "intent": "Tilaa uutiskirje, jotta saan tietoa taloyhtiön uusimmista kehityksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.omataloyhtio.fi",
+      "intent": "Tarkista omat taloyhtiön tiedot ja hallitse asuntoja, joissa asun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.omataloyhtio.fi",
+      "intent": "Lähetä viesti taloyhtiön isännöitsijälle kysymykseni ja huoleni asiasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.omataloyhtio.fi",
+      "intent": "Muokkaa omia tietojani ja asetuksia taloyhtiön järjestelmässä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Tutustun TUNI Moodlen etusivuun ja etsin tietoa kurssien suorittamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Selailen TUNI Moodlen uusimmat uutiset ja etsin tietoa mahdollisista huoltokatkoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Etsin tietoa TUNI Moodlen käyttöehdoista ja tietosuojaselosteesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Kirjaudun sisään TUNI-tunnuksellani ja tarkastan kurssien tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Osallistun keskusteluun kurssin foorumissa ja vastaan opettajan kysymyksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Lataan kurssimateriaaleja ja tehtäviä ja tallennan ne omaan tietokoneeseeni"
+    }
+  ]
+}

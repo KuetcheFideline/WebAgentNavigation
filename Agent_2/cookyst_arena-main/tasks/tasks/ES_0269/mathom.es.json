@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mathom.es",
+      "intent": "Buscar juegos de mesa para jugar con mis amigos en Malasaña"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mathom.es",
+      "intent": "Explorar las categorías de juegos de rol para encontrar algo nuevo para mi grupo de juego"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mathom.es",
+      "intent": "Leer las reseñas de otros jugadores sobre el juego de mesa 'Gloomhaven' para decidir si comprarlo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mathom.es",
+      "intent": "Agregar el juego 'Terraforming Mars' a mi lista de deseos para comprarlo más adelante"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mathom.es",
+      "intent": "Verificar el estado de mi pedido de 'Scythe' para saber cuándo llegará a mi casa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mathom.es",
+      "intent": "Editar mi dirección de envío para que mi próximo pedido llegue a mi oficina en lugar de a mi casa"
+    }
+  ]
+}

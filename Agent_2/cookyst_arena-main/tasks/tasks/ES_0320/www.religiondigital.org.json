@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.religiondigital.org",
+      "intent": "Buscar noticias sobre el Papa Francisco en la sección de Actualidad"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.religiondigital.org",
+      "intent": "Explorar la sección de Opinión y leer artículos de José Manuel Vidal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.religiondigital.org",
+      "intent": "Ver los vídeos disponibles en la sección de Vídeos con alma"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.religiondigital.org",
+      "intent": "Comentar en un artículo de la sección de Actualidad sobre la Conferencia Episcopal"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.religiondigital.org",
+      "intent": "Participar en la discusión en la sección de Comentarios de un artículo sobre el 'caso Zornoza'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.religiondigital.org",
+      "intent": "Crear un perfil de socio de Religión Digital y acceder a contenido exclusivo"
+    }
+  ]
+}

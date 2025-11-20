@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.zendalibros.com",
+      "intent": "Buscar información sobre los últimos libros publicados en la sección de narrativa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.zendalibros.com",
+      "intent": "Explorar la sección de poesía y leer algunos poemas de autores españoles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.zendalibros.com",
+      "intent": "Leer el artículo 'La montaña mágica… y aburridísima' en la sección de blogs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.zendalibros.com",
+      "intent": "Comentar en el artículo 'El evangelio según Caravaggio: La vida según Woody Allen' en la sección de actualidad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.zendalibros.com",
+      "intent": "Crear un nuevo tema en el foro sobre libros de ciencia ficción"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.zendalibros.com",
+      "intent": "Agregar un libro a mi lista de favoritos en la sección de libros"
+    }
+  ]
+}

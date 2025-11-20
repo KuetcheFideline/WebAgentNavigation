@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gakosprl.be",
+      "intent": "Rechercher des pantalons de marque TOXIK pour hommes de plus de 65 ans"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gakosprl.be",
+      "intent": "Comparer les prix et les caractéristiques des robes pour femmes et des pantalons pour hommes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gakosprl.be",
+      "intent": "Consulter les informations sur la livraison et les frais de port pour une commande en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gakosprl.be",
+      "intent": "Ajouter un pantalon TOXIK à ma liste d'envies pour un achat futur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gakosprl.be",
+      "intent": "Consulter mes commandes passées et imprimer une facture pour une commande spécifique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gakosprl.be",
+      "intent": "Mettre à jour mes informations personnelles, notamment mon adresse e-mail et mon numéro de téléphone"
+    }
+  ]
+}

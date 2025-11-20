@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://freemeteo.es",
+      "intent": "Buscar el pronóstico del tiempo para mi pueblo en Soria para planificar mis actividades diarias en el campo."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://freemeteo.es",
+      "intent": "Explorar las secciones de la página web para encontrar información sobre las condiciones climáticas actuales y futuras en mi región."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://freemeteo.es",
+      "intent": "Intentar encontrar un mapa del tiempo para visualizar las condiciones climáticas en diferentes partes de España."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://freemeteo.es",
+      "intent": "Guardar mis ubicaciones favoritas para acceder rápidamente a los pronósticos del tiempo de mi pueblo y otros lugares que visito con frecuencia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://freemeteo.es",
+      "intent": "Configurar mis preferencias de unidades de medida y formato de fecha para que se ajusten a mis necesidades y costumbres."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://freemeteo.es",
+      "intent": "Verificar si hay alertas climáticas o advertencias para mi área y configurar notificaciones para mantenerme informado sobre cualquier condición climática extrema."
+    }
+  ]
+}

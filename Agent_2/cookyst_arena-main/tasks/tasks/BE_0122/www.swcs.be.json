@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.swcs.be",
+      "intent": "Rechercher les conditions de financement pour l'achat d'un logement étudiant"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.swcs.be",
+      "intent": "Consulter les actualités sur les projets de rénovation énergétique en Wallonie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.swcs.be",
+      "intent": "Explorer les solutions de financement pour les étudiants qui souhaitent louer un kot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.swcs.be",
+      "intent": "Accéder à mon espace AppiCrédit pour gérer mes prêts et suivre mes projets de logement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.swcs.be",
+      "intent": "Mettre à jour mes données personnelles pour assurer la bonne gestion de mon prêt"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.swcs.be",
+      "intent": "Prendre rendez-vous avec un conseiller pour discuter de mes projets de rénovation ou de financement"
+    }
+  ]
+}

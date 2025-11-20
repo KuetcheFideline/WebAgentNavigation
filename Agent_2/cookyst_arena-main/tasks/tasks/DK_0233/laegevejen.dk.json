@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil se en video om, hvordan jeg kan bruge Lægevejen til at kommunikere med min læge."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan bestille tid hos min læge via Lægevejen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil læse mere om, hvordan Lægevejen beskytter mine personlige og sundhedsrelaterede data."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil logge ind og anmode min læge om receptfornyelse på min faste medicin via Lægevejen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil sende en e-mailkonsultation til min læge for at spørge om råd omkring mine sundhedsproblemer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil bestille tid hos min læge til en personlig konsultation via Lægevejens tidsbestillingssystem."
+    }
+  ]
+}

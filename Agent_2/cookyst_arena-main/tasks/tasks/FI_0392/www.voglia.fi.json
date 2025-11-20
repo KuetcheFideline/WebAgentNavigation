@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.voglia.fi",
+      "intent": "Selata uutuuksia ja etsiä uusia vaatteita talveen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.voglia.fi",
+      "intent": "Tutustua Voglian maailmaan ja lukea lisää yrityksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.voglia.fi",
+      "intent": "Etsiä tiettyä tuotetta, kuten LIBERTY Puhvihihainen mekkoa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.voglia.fi",
+      "intent": "Tarkastaa ostoskorin sisältö ja vahvistaa tilaus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.voglia.fi",
+      "intent": "Muuttaa tilaustietoja, kuten toimitusosoitetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.voglia.fi",
+      "intent": "Tarkastaa tilaushistoria ja seurata tilauksen tilaa"
+    }
+  ]
+}

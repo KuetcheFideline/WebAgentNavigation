@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bonsillesbalears.com",
+      "intent": "Explorar la página de inicio para ver si hay alguna información sobre la campaña finalizada"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bonsillesbalears.com",
+      "intent": "Buscar información sobre cómo participar en futuras campañas de Bons Illes Balears"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bonsillesbalears.com",
+      "intent": "Verificar si hay alguna sección de contacto o soporte para hacer preguntas sobre la campaña"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bonsillesbalears.com",
+      "intent": "Acceder a mi cuenta de usuario para ver mis participaciones anteriores en campañas de Bons Illes Balears"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bonsillesbalears.com",
+      "intent": "Actualizar mi perfil de usuario con información actualizada sobre mis intereses y preferencias"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bonsillesbalears.com",
+      "intent": "Verificar si hay alguna notificación o mensaje importante en mi cuenta de usuario relacionado con la campaña"
+    }
+  ]
+}

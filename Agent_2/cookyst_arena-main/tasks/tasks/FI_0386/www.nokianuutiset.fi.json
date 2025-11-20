@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nokianuutiset.fi",
+      "intent": "Lue Nokian uutisia ja etsi tietoa paikallisista tapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nokianuutiset.fi",
+      "intent": "Selaa urheiluosio ja etsi juttuja Nokian Pyryn menestyksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nokianuutiset.fi",
+      "intent": "Tutki sivuston elämänmeno-osio ja etsi vinkkejä terveyden ja hyvinvoinnin ylläpitämiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nokianuutiset.fi",
+      "intent": "Kirjaudu sisään ja tilaa uutiskirje, jotta voit pysyä ajan tasalla Nokian tapahtumista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nokianuutiset.fi",
+      "intent": "Lähetä lukijailmoitus ja jaettuasi omia ajatuksia ja kokemuksia Nokian asioista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nokianuutiset.fi",
+      "intent": "Tallenna artikkeli ja lue myöhemmin, kun olet kiinnostunut tietystä aiheesta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ultratiming.be",
+      "intent": "Rechercher les prochaines courses à pied dans la région de Mons pour me préparer à une épreuve"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ultratiming.be",
+      "intent": "Consulter les résultats des dernières courses pour voir les performances des autres participants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ultratiming.be",
+      "intent": "Explorer les différentes catégories de courses proposées pour trouver celle qui me convient le mieux"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ultratiming.be",
+      "intent": "M'inscrire à une course à pied pour laquelle je me suis entraîné"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ultratiming.be",
+      "intent": "Consulter mes résultats personnels pour suivre mon évolution"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ultratiming.be",
+      "intent": "Modifier mes informations personnelles pour que mes résultats soient correctement enregistrés"
+    }
+  ]
+}

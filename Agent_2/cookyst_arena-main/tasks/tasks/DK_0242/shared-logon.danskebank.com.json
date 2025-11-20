@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal undersøge, om der er et problem med min internetforbindelse, da jeg ikke kan få adgang til siden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil prøve at genindlæse siden for at se, om det er et midlertidigt problem."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal kontakte Danske Banks kundeservice for at få hjælp til at løse problemet."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil overføre penge fra min konto til min søns konto, da han har fødselsdag i dag."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal tjekke min kontobalance for at se, om der er nogen ubekendte transaktioner."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil ændre mine adgangskoder for at sikre, at min konto er beskyttet."
+    }
+  ]
+}

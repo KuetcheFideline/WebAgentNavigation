@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiointi.traficom.fi",
+      "intent": "Hae ikäpoikkeuslupaa ajokorttia varten"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiointi.traficom.fi",
+      "intent": "Tarkista ajoneuvon tekniset- ja verotiedot"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiointi.traficom.fi",
+      "intent": "Etsi FI-verkkotunnuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiointi.traficom.fi",
+      "intent": "Tee ajoneuvon omistajanvaihdos sähköisesti"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiointi.traficom.fi",
+      "intent": "Hae radiolupaa alukselle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiointi.traficom.fi",
+      "intent": "Ilmoita tietoturvaloukkauksesta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.agrieuro.es",
+      "intent": "Buscar tractores de segunda mano para comparar precios y características"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.agrieuro.es",
+      "intent": "Explorar la sección de herramientas de jardinería para encontrar ofertas y descuentos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.agrieuro.es",
+      "intent": "Leer reseñas y comentarios de otros clientes sobre productos de maquinaria agrícola"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.agrieuro.es",
+      "intent": "Configurar mi cuenta para recibir notificaciones sobre nuevos productos y ofertas especiales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.agrieuro.es",
+      "intent": "Realizar un pedido de un conjunto de herramientas de jardinería y verificar el estado de mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.agrieuro.es",
+      "intent": "Acceder a mi historial de pedidos para verificar el estado de entrega de mis productos"
+    }
+  ]
+}

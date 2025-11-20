@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://securemail.op.fi",
+      "intent": "Lähetän viestin ystävälleni, joka on myös Osuuspankin asiakas."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://securemail.op.fi",
+      "intent": "Etsin apusivuja, joissa on tietoa sähköpostipalvelun käytöstä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://securemail.op.fi",
+      "intent": "Selvitan, miten voin muuttaa kieltä suomeksi, jotta voin navigoida helpommin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://securemail.op.fi",
+      "intent": "Lähetän salaisen viestin työkollegalleni, joka on myös Osuuspankin asiakas, ja varmistan, että viesti on salattu."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://securemail.op.fi",
+      "intent": "Tarkistan sähköpostilaatikossani olevat viestit ja poistan tarpeettomat viestit."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://securemail.op.fi",
+      "intent": "Muutan salasanaani, jotta varmistan, että tiliini ei pääse kukaan muu käyttämään."
+    }
+  ]
+}

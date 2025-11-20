@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.actimo.com",
+      "intent": "Jeg skal prøve at genindlæse siden for at se, om fejlen forsvinder"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.actimo.com",
+      "intent": "Jeg vil lede efter en kontakt eller en supportsektion på siden for at rapportere fejlen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.actimo.com",
+      "intent": "Jeg skal søge efter information om, hvad app.actimo.com er, og hvad det kan bruges til"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.actimo.com",
+      "intent": "Jeg skal prøve at tilføje en ny begivenhed til min kalender efter login"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.actimo.com",
+      "intent": "Jeg vil se, om jeg kan redigere mine brugerindstillinger efter at have logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.actimo.com",
+      "intent": "Jeg skal undersøge, om der er nogen meddelelser eller opdateringer, som kræver min opmærksomhed efter login"
+    }
+  ]
+}

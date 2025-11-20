@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aemps.gob.es",
+      "intent": "Buscar información sobre la seguridad de los medicamentos de uso humano en España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aemps.gob.es",
+      "intent": "Explorar las publicaciones de la AEMPS sobre medicamentos veterinarios y su impacto en la salud animal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aemps.gob.es",
+      "intent": "Descargar el formulario de inscripción en las listas de distribución de la AEMPS para estar informado sobre novedades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aemps.gob.es",
+      "intent": "Acceder a la sección de descargas de documentos de la AEMPS para obtener información detallada sobre los medicamentos de uso humano"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aemps.gob.es",
+      "intent": "Consultar el registro de medicamentos veterinarios para verificar la autorización de un medicamento específico"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aemps.gob.es",
+      "intent": "Realizar una búsqueda avanzada en la base de datos de la AEMPS para encontrar información sobre productos sanitarios"
+    }
+  ]
+}

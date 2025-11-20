@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.journaldemontreal.com",
+      "intent": "Rechercher des articles sur les actualités politiques au Québec pour me tenir informé sur les derniers développements"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.journaldemontreal.com",
+      "intent": "Lire les chroniques des journalistes pour avoir une analyse approfondie des événements actuels"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.journaldemontreal.com",
+      "intent": "Consulter la section Sports pour suivre les dernières nouvelles sur les équipes de hockey et de soccer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.journaldemontreal.com",
+      "intent": "Publier un commentaire sur un article pour partager mon opinion avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.journaldemontreal.com",
+      "intent": "Gérer mes abonnements pour recevoir des notifications sur les sujets qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.journaldemontreal.com",
+      "intent": "Accéder à mes paramètres de compte pour mettre à jour mes préférences de lecture"
+    }
+  ]
+}

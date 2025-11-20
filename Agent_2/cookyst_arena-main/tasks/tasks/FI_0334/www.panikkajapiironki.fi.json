@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.panikkajapiironki.fi",
+      "intent": "Hae sisustustuotteita kotiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.panikkajapiironki.fi",
+      "intent": "Selaa uutuuksia ja löydä uusimmat tuotteet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.panikkajapiironki.fi",
+      "intent": "Etsi lahjaideat ystäville ja perheenjäsenille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.panikkajapiironki.fi",
+      "intent": "Tilaa tuotteita verkkokaupasta ja seuraa tilauksen etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.panikkajapiironki.fi",
+      "intent": "Arvostele ja kommentoi ostettuja tuotteita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.panikkajapiironki.fi",
+      "intent": "Hallitse tilaushistoriaa ja tallennettuja osoitteita"
+    }
+  ]
+}

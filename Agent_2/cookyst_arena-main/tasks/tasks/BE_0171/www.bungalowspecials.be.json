@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bungalowspecials.be",
+      "intent": "Rechercher des offres de vacances en Belgique pour un week-end en décembre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bungalowspecials.be",
+      "intent": "Comparer les prix et les services de différents parcs de vacances en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bungalowspecials.be",
+      "intent": "Lire les avis et les commentaires des clients sur les parcs de vacances proposés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bungalowspecials.be",
+      "intent": "Réserver un séjour dans un parc de vacances en Belgique pour les fêtes de Noël"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bungalowspecials.be",
+      "intent": "Gérer mes réservations et mes favoris dans mon compte client"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bungalowspecials.be",
+      "intent": "Contacter le service client pour obtenir des informations sur les offres de vacances"
+    }
+  ]
+}

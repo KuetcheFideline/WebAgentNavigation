@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Etsin tietoa perhokalastuksesta ja sen eri tekniikoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Haluan lukea uusimmat viestit ja keskustelut perhokalastuksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Tutkin eri perhonsidontatekniikoita ja etsin vinkkejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Kirjaudun sisään ja osallistun keskusteluun perhokalastuksesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Lisään oman perhonsidontareseptini ja jaan sitä muiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Tarkastan omat keskustelut ja viestit, joissa olen osallistunut"
+    }
+  ]
+}

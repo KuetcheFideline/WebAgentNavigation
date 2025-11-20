@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ytk.fi",
+      "intent": "Hae tietoa YTK Työttömyyskassan jäsenyydestä ja sen edistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ytk.fi",
+      "intent": "Selvitä miten YTK Työelämä voi auttaa urani kehittämisessä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ytk.fi",
+      "intent": "Lue ajankohtaiset uutiset ja artikkelit YTK:n sivuilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ytk.fi",
+      "intent": "Tarkista omat jäsenmaksutiedot ja yhteystiedot OmaYTK:ssä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ytk.fi",
+      "intent": "Hae ansiopäivärahaa tai tarkista aiemmat päivärahapäätökset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ytk.fi",
+      "intent": "Tilaa YTK-lahjakortti itselle tai läheiselle"
+    }
+  ]
+}

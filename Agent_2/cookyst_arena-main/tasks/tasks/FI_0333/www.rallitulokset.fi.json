@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rallitulokset.fi",
+      "intent": "Tutkin rallikilpailujen aikatauluja ja etsin tietoa tulevista tapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rallitulokset.fi",
+      "intent": "Selailen arkistoa ja etsin vanhoja rallikilpailujen tuloksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rallitulokset.fi",
+      "intent": "Etsin tietoa ilmoittautumisesta kilpailuihin ja katson, mitä vaaditaan osallistuakseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rallitulokset.fi",
+      "intent": "Kirjaudun sisään ja ilmoittaudun tulevaan rallikilpailuun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rallitulokset.fi",
+      "intent": "Tarkastan omaa profiilia ja päivitän tietojani, jos tarpeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rallitulokset.fi",
+      "intent": "Lähetän viestin järjestäjille kysyäkseni lisätietoa tulevasta rallikilpailusta"
+    }
+  ]
+}

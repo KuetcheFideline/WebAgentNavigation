@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hymy.fi",
+      "intent": "Luen uusimmat uutiset Hymy-sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hymy.fi",
+      "intent": "Selailen viimeisimpiä juttuja ja etsin mielenkiintoisia aiheita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hymy.fi",
+      "intent": "Etsin tietoa suosikkijulkkisistani Hymy-sivuilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hymy.fi",
+      "intent": "Kirjaudun sisään ja tilaan Hymy-lehden digitaalisen version"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hymy.fi",
+      "intent": "Kommentoin uusimpia uutisia ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hymy.fi",
+      "intent": "Tilaa uutiskirje ja saat Hymy-sivujen uusimmat päivitykset sähköpostiini"
+    }
+  ]
+}

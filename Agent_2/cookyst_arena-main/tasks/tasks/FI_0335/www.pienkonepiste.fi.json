@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pienkonepiste.fi",
+      "intent": "Selvitän, mitä tuotteita Pienkonepiste tarjoaa ja etsin uusimmat ilmoitukset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pienkonepiste.fi",
+      "intent": "Luen Pienkonepisteen blogipostauksia ja etsin vinkkejä pienkoneiden hoidosta ja käytöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pienkonepiste.fi",
+      "intent": "Etsin Pienkonepisteen verkkokaupasta uusimmat tarjoukset ja alennukset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pienkonepiste.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuraan tilausteni etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pienkonepiste.fi",
+      "intent": "Muokkaan profiiliini ja päivitän osoitetani, jotta voin helpommin seurata tilausteni tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pienkonepiste.fi",
+      "intent": "Kirjaudun sisään ja teen uuden tilauksen, jotta voin hyödyntää Pienkonepisteen asiakasohjelmaa"
+    }
+  ]
+}

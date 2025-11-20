@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.ugr.es",
+      "intent": "Buscar información sobre los procedimientos de gestión académica en la Universidad de Granada"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.ugr.es",
+      "intent": "Explorar las opciones de movilidad nacional para el PTGAS y leer más sobre las ayudas disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.ugr.es",
+      "intent": "Ver el catálogo de procedimientos y solicitudes con registro electrónico en la Sede Electrónica UGR"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.ugr.es",
+      "intent": "Acceder a la sección de 'Mi Sede' para ver mis notificaciones y procedimientos en curso"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.ugr.es",
+      "intent": "Solicitar un certificado de estudios a través de la Sede Electrónica UGR"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.ugr.es",
+      "intent": "Realizar una solicitud genérica a través de la Sede Electrónica UGR para obtener información sobre un tema específico"
+    }
+  ]
+}

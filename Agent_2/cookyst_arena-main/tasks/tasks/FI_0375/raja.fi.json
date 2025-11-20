@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://raja.fi",
+      "intent": "Hae sivustolta tietoa rajojen valvonnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://raja.fi",
+      "intent": "Lue uusimmat tiedotteet Rajavartiolaitoksen toiminnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://raja.fi",
+      "intent": "Tutustu Rajavartiolaitoksen historiaan ja arkeen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://raja.fi",
+      "intent": "Kirjaudu sisään ja täytä lomake rajavyöhykeluvan hakemiseksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://raja.fi",
+      "intent": "Anna vihje Rajavartiolaitokselle luvattoman rajanylittäjän mahdollisesta olinpaikasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://raja.fi",
+      "intent": "Tee ilmoitus Rajavartiolaitokselle epäiltyyn laittomaan maahantuloon liittyvään rikokseen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sareskoski.com",
+      "intent": "Etsin turvallisia varastohyllyjä sairaalan varastoon, joten haluan tarkastella Sareskosken valikoimaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sareskoski.com",
+      "intent": "Haluaisin lukea arvosteluita ja kokemuksia Sareskosken tuotteista, jotta voin tehdä perusteltuja ostopäätöksiä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sareskoski.com",
+      "intent": "Tilataan uutiskirje, jotta saan tietoa uusista tuotteista ja tarjouksista, joita voisin hyödyntää sairaalassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sareskoski.com",
+      "intent": "Tilasin äskettäin varastohyllyn, ja haluan seurata tilaustani ja tarkistaa toimitusajankohtaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sareskoski.com",
+      "intent": "Haluaisin muuttaa olemassa olevaa tilaustani, koska sairaalan varastointarpeet ovat muuttuneet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sareskoski.com",
+      "intent": "Kirjaudun sisään, jotta voin tarkastella aiempia tilauksiani ja nopeuttaa uusien tuotteiden tilaamista"
+    }
+  ]
+}

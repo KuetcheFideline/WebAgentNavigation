@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Consultar las tasas de interés actuales para cuentas de ahorro"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Buscar información sobre cómo abrir una cuenta de inversión en línea"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Descargar la aplicación móvil de ING Direct para gestionar mis finanzas en cualquier momento"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Realizar una transferencia de fondos desde mi cuenta de ahorro a la cuenta de mi nieto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Consultar el estado de mis inversiones y ajustar mi cartera de valores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ing.ingdirect.es",
+      "intent": "Configurar alertas de seguridad para recibir notificaciones sobre movimientos sospechosos en mi cuenta"
+    }
+  ]
+}

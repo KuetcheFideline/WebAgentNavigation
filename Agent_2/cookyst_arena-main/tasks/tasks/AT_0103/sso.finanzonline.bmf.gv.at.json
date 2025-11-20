@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.finanzonline.bmf.gv.at",
+      "intent": "Ich möchte mich über die Vorteile der Nutzung von ID Austria informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.finanzonline.bmf.gv.at",
+      "intent": "Ich will die verschiedenen Anwendungen und Dienstleistungen erkunden, die auf der Plattform angeboten werden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.finanzonline.bmf.gv.at",
+      "intent": "Ich möchte die Datenschutzbestimmungen und die Sicherheitsmaßnahmen der Plattform überprüfen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.finanzonline.bmf.gv.at",
+      "intent": "Ich will meine persönlichen Daten und Einstellungen in meinem Konto überprüfen und ggf. aktualisieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.finanzonline.bmf.gv.at",
+      "intent": "Ich möchte meine Steuererklärung online ausfüllen und einreichen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.finanzonline.bmf.gv.at",
+      "intent": "Ich will meine Sozialversicherungsdaten und -leistungen online abrufen und verwalten."
+    }
+  ]
+}

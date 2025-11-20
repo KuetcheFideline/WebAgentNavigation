@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.imelda.be",
+      "intent": "Je veux consulter les actualités du site pour savoir ce qui se passe à l'hôpital Imelda."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.imelda.be",
+      "intent": "Je veux rechercher des informations sur les soins et les services offerts par l'hôpital Imelda pour mes proches."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.imelda.be",
+      "intent": "Je veux explorer les offres d'emploi et de stage à l'hôpital Imelda pour envisager une carrière dans le domaine de la santé."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.imelda.be",
+      "intent": "Je veux accéder à mon dossier patient pour consulter mes résultats d'analyses et mes rendez-vous médicaux."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.imelda.be",
+      "intent": "Je veux prendre rendez-vous avec un médecin pour une consultation ou un examen médical."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.imelda.be",
+      "intent": "Je veux modifier mes informations personnelles et de contact dans mon compte patient pour garantir que mes données sont à jour."
+    }
+  ]
+}

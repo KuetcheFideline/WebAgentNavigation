@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Tutkin lääkeinfo-sivustoa, jotta voin löytää tietoa potilaideni lääkkeistä ja hoitotoimenpiteistä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Selailen sivustoa, jotta voin löytää tietoa eri lääkeaineista ja niiden vaikutuksista potilaisiin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Etsin tietoa lääkkeiden annosteluohjeista ja varotoimista, jotta voin antaa potilailleen turvallista hoitoa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Tallennan lääkeinfo-sivustolle omat lääkeaineiden suosikkilistani, jotta voin nopeasti löytää tietoa niistä lääkkeistä, joita käytän useimmin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Luo uusi lääkeaineiden vertailulista, jotta voin vertailla eri lääkeaineiden vaikutuksia ja hinnat."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Tarkastan lääkeinfo-sivuston viimeisimpiä päivityksiä, jotta voin pysyä ajan tasalla uusimmista lääketieteellisistä kehityksistä ja suosituksista."
+    }
+  ]
+}

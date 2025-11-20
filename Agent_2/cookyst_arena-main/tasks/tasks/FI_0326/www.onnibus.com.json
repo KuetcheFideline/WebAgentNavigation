@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.onnibus.com",
+      "intent": "Ostan bussilippuja Helsinkiin, koska minun täytyy päästä yliopistolle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.onnibus.com",
+      "intent": "Tarkastan aikatauluja, jotta voin suunnitella matkani Espoon ja Helsingin välillä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.onnibus.com",
+      "intent": "Etsin tietoa pysäkeistä, jotta voin valita lähimmän pysäkin kotiini"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.onnibus.com",
+      "intent": "Tarkastan tilaani, jotta voin nähdä, mitä bussilippuja olen jo ostanut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.onnibus.com",
+      "intent": "Muutan olemassa olevan bussilippuni, koska minun täytyy muuttaa matkani aikataulua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.onnibus.com",
+      "intent": "Tulostan bussilippuni, jotta voin varmistaa, että minulla on kaikki tarvittavat asiakirjat matkallani"
+    }
+  ]
+}

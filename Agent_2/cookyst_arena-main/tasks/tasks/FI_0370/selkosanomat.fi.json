@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://selkosanomat.fi",
+      "intent": "Luen uutisia selkokielellä, koska haluan pysyä ajan tasalla maailman tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://selkosanomat.fi",
+      "intent": "Etsin artikkeleita aiheesta kehitysvammaiset ihmiset, jotta voin ymmärtää heidän haasteitaan ja tarpeitaan."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://selkosanomat.fi",
+      "intent": "Käyn läpi sivuston arkisto-osio, jotta voin löytää vanhoja uutisia ja artikkeleita, jotka kiinnostavat minua."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://selkosanomat.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkelia aiheesta avohakkuut, jotta voin jakaa mielipiteeni ja osallistua keskusteluun."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://selkosanomat.fi",
+      "intent": "Tilaa uutiskirje, jotta saan sähköpostiini uusimmat uutiset ja artikkelit aiheista, jotka kiinnostavat minua."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://selkosanomat.fi",
+      "intent": "Muokkaan profiiliani, jotta voin varmistaa, että minun tietoni ovat ajan tasalla ja oikein."
+    }
+  ]
+}

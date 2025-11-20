@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.standaardboekhandel.be",
+      "intent": "Rechercher des livres sur le thème de la pêche pour me détendre pendant mon temps libre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.standaardboekhandel.be",
+      "intent": "Découvrir les dernières sorties de livres dans la catégorie 'Jeunesse' pour offrir un cadeau à mon petit-neveu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.standaardboekhandel.be",
+      "intent": "Comparer les prix des e-readers disponibles sur le site pour trouver le meilleur achat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.standaardboekhandel.be",
+      "intent": "Ajouter un livre à ma liste de souhaits pour le acheter plus tard lors de soldes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.standaardboekhandel.be",
+      "intent": "Vérifier l'historique de mes commandes pour suivre l'état de livraison de mon dernier achat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.standaardboekhandel.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

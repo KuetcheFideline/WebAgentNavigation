@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://landbrugsavisen.dk",
+      "intent": "Læse om de seneste nyheder om landbrug og kvæg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://landbrugsavisen.dk",
+      "intent": "Søge efter artikler om metan-afbrænding og dets effekt på kvæg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://landbrugsavisen.dk",
+      "intent": "Se videoer om landbrugsudstyr og maskiner"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://landbrugsavisen.dk",
+      "intent": "Tilføje en artikel om kvægproduktion til mine favoritter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://landbrugsavisen.dk",
+      "intent": "Del en artikel om landbrugsteknologi med mine venner på sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://landbrugsavisen.dk",
+      "intent": "Kommentere på en artikel om landbrugsøkonomi og give mine mening"
+    }
+  ]
+}

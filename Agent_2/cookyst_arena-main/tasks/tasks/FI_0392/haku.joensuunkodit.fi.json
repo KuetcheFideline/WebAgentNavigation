@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://haku.joensuunkodit.fi",
+      "intent": "Hae asuntoa Joensuun keskustasta, jossa on vähintään 2 huonetta ja pinta-ala on vähintään 50 m²."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://haku.joensuunkodit.fi",
+      "intent": "Vertaile asuntokohteita eri kaupunginosissa ja etsi edullisin vaihtoehto, jossa on oma sauna."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://haku.joensuunkodit.fi",
+      "intent": "Tutki asuntokohteen Ahotie 3 tiedot ja katso, onko siellä vapaita huoneistoja, joissa on hissitalo ja 3 huonetta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://haku.joensuunkodit.fi",
+      "intent": "Lisää kohde Ahotie 8 suosikkeihin ja tee hakemus asuntoon, jossa on 2 huonetta ja pinta-ala on 60 m²."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://haku.joensuunkodit.fi",
+      "intent": "Muokkaa profiilia ja lisää uusi osoite, jotta voit hakea asuntoa uudesta osoitteesta, joka on lähellä Joensuun keskustaa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://haku.joensuunkodit.fi",
+      "intent": "Tee uusi hakemus asuntoon, jossa on 1 huone ja pinta-ala on 30 m², ja valitse kaupunginosa, joka on lähellä työpaikkaa."
+    }
+  ]
+}

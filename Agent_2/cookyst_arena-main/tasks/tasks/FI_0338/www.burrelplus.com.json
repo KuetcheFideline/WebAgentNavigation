@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.burrelplus.com",
+      "intent": "Selata sivustoa ja tutustua Burrel-sovelluksen ominaisuuksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.burrelplus.com",
+      "intent": "Ladata Burrel-sovellus puhelimeen ja kokeilla sen käyttöä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.burrelplus.com",
+      "intent": "Etsiä tietoa Burrel-sovelluksen hinnasta ja saatavuudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.burrelplus.com",
+      "intent": "Kirjautua sisään Burrel-tilille ja tarkastella kameroiden asetuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.burrelplus.com",
+      "intent": "Jakaa kameran kuvia sosiaalisessa mediassa ystävien kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.burrelplus.com",
+      "intent": "Muokata kameroiden sijainteja ja asetuksia Burrel-sovelluksessa"
+    }
+  ]
+}

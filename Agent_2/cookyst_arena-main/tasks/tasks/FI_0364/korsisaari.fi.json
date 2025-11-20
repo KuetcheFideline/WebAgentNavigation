@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://korsisaari.fi",
+      "intent": "Hae reitit ja aikataulut Helsingistä Nurmijärvelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://korsisaari.fi",
+      "intent": "Tilaa Korsisaari-sovellus ja osta lippu älypuhelimeen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://korsisaari.fi",
+      "intent": "Selaa Korsisaaren taksi- ja tilausajopalveluita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://korsisaari.fi",
+      "intent": "Tilaa työsuhdematkakortti ja hallinnoi oman tilausajon asiakkuutta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://korsisaari.fi",
+      "intent": "Anna palautetta Korsisaaren palveluista ja ehdota uusia reittejä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://korsisaari.fi",
+      "intent": "Tarkastele omia matkustus- ja lippuostohistoriaa"
+    }
+  ]
+}

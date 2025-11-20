@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jamsa.inschool.fi",
+      "intent": "Luen Jämsän lukion tiedotteita ilman kirjautumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jamsa.inschool.fi",
+      "intent": "Selvittelen mitä Wilma on ja miten sitä käytetään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jamsa.inschool.fi",
+      "intent": "Etsin tietoa Wilman käyttämisestä opiskelijana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jamsa.inschool.fi",
+      "intent": "Valitsen kursseja ja seuraan suorituksiani Wilmassa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jamsa.inschool.fi",
+      "intent": "Luen ja vastaan opettajien viesteihin Wilmassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jamsa.inschool.fi",
+      "intent": "Tarkastan poissaoloja ja tiedotteita Wilmassa"
+    }
+  ]
+}

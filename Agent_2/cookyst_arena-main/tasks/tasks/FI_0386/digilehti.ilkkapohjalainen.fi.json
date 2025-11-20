@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://digilehti.ilkkapohjalainen.fi",
+      "intent": "Luen uusimmat uutiset Ilkka-Pohjalaisen verkkolehdestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://digilehti.ilkkapohjalainen.fi",
+      "intent": "Etsin verkkolehdestä tietoa Mikkelin alueen työpaikoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://digilehti.ilkkapohjalainen.fi",
+      "intent": "Selailen verkkolehden luontoaiheisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://digilehti.ilkkapohjalainen.fi",
+      "intent": "Tallennan suosikkeihini mielenkiintoisen artikkelin luonnosta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://digilehti.ilkkapohjalainen.fi",
+      "intent": "Kommentoin artikkelia, joka koskee Mikkelin seurakunnan toimintaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://digilehti.ilkkapohjalainen.fi",
+      "intent": "Muokkaan profiiliini ja lisään tietoa luontoharrastuksestani"
+    }
+  ]
+}

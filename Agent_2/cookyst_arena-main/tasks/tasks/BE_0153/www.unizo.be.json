@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.unizo.be",
+      "intent": "Rechercher des informations sur les avantages fiscaux pour les indépendants en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.unizo.be",
+      "intent": "Consulter les dernières actualités sur l'économie belge et son impact sur les entreprises indépendantes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.unizo.be",
+      "intent": "Explorer les ressources disponibles pour les entrepreneurs et les indépendants sur le site d'UNIZO"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.unizo.be",
+      "intent": "Accéder à mon espace membre pour consulter mes avantages et mes services réservés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.unizo.be",
+      "intent": "Gérer mes paramètres de compte et mes préférences pour les communications d'UNIZO"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.unizo.be",
+      "intent": "Participer à des forums de discussion ou à des groupes de travail réservés aux membres d'UNIZO"
+    }
+  ]
+}

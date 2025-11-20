@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tickets.imagix.be",
+      "intent": "Je veux découvrir les différents types de billets disponibles pour les attractions proposées par Imagix."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tickets.imagix.be",
+      "intent": "Je souhaite comparer les prix des billets pour les différentes attractions afin de choisir celle qui convient le mieux à mon budget."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tickets.imagix.be",
+      "intent": "J'aimerais explorer les options de paiement proposées par le site pour m'assurer que je peux payer de manière sécurisée."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tickets.imagix.be",
+      "intent": "Je veux consulter mon historique d'achats pour suivre mes réservations et imprimer mes billets."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tickets.imagix.be",
+      "intent": "J'aimerais modifier mes informations personnelles pour garantir que mes coordonnées sont à jour pour les notifications de réservation."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tickets.imagix.be",
+      "intent": "Je souhaite annuler une réservation précédente et demander un remboursement si cela est possible."
+    }
+  ]
+}

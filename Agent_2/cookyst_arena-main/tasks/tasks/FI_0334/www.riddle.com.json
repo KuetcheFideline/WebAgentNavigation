@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.riddle.com",
+      "intent": "Löydän mielenkiintoisen kilpailun luomisohjeet sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.riddle.com",
+      "intent": "Selvittelen, miten voin luoda oman kyselyn tai äänestyksen Riddlella"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.riddle.com",
+      "intent": "Luen arvosteluita ja kokemuksia Riddlesta, jotta voin päättää, onko se sopiva minun tarpeisiini"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.riddle.com",
+      "intent": "Luo uusi kilpailu ja määritän sen asetukset ja kysymykset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.riddle.com",
+      "intent": "Tarkastelen luotujen kilpailujen tilastoja ja analytiikkaa, jotta voin parantaa niiden suorituskykyä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.riddle.com",
+      "intent": "Määritän uuden kyselyn tai äänestyksen ja liitän sen omaan verkkosivuuni"
+    }
+  ]
+}

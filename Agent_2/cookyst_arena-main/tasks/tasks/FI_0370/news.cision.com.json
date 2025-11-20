@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://news.cision.com",
+      "intent": "Hae uutisia aiheesta työttömyys Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://news.cision.com",
+      "intent": "Selaa uutisia kategorian Talous ja raha alla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://news.cision.com",
+      "intent": "Lue viimeisimmät uutiset yrityksistä Suomessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://news.cision.com",
+      "intent": "Luo uusi uutisvirta aiheesta työllisyys ja talous"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://news.cision.com",
+      "intent": "Tallenna ja tilaa uutisia kategorian Tiede ja teknologia alla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://news.cision.com",
+      "intent": "Jaa uutinen sosiaalisessa mediassa aiheesta uusiutuvat energialähteet"
+    }
+  ]
+}

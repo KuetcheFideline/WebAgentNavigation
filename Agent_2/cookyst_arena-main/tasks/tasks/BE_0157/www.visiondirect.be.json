@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.visiondirect.be",
+      "intent": "Rechercher des lentilles de contact pour mes enfants qui ont des problèmes de vue"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.visiondirect.be",
+      "intent": "Comparer les prix des lentilles de contact Acuvue et Biofinity pour déterminer la meilleure option pour mon budget"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.visiondirect.be",
+      "intent": "Lire les avis des clients sur les lentilles de contact everclear pour savoir si elles sont confortables et fiables"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.visiondirect.be",
+      "intent": "Commander une nouvelle paire de lentilles de contact en utilisant mon compte existant et mes informations de paiement enregistrées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.visiondirect.be",
+      "intent": "Vérifier l'historique de mes commandes pour savoir quand mes lentilles de contact précédentes ont été livrées et planifier une nouvelle commande"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.visiondirect.be",
+      "intent": "Mettre à jour mes informations de compte, notamment mon adresse de livraison, pour garantir que mes commandes futures soient livrées correctement"
+    }
+  ]
+}

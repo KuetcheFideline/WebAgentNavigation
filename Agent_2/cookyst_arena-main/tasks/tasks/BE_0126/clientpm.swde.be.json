@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://clientpm.swde.be",
+      "intent": "Je veux consulter les informations générales sur la facturation de l'eau sans avoir à me connecter."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://clientpm.swde.be",
+      "intent": "Je souhaite savoir comment fonctionne le système de connexion via itsme/eID pour accéder à mon espace client SWDE."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://clientpm.swde.be",
+      "intent": "Je veux découvrir les différents services proposés par la SWDE, tels que la visualisation de mes factures et la gestion de ma consommation d'eau."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://clientpm.swde.be",
+      "intent": "Je veux visualiser mon historique de consommation d'eau et comparer mes factures pour mieux gérer mes dépenses."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://clientpm.swde.be",
+      "intent": "Je souhaite modifier mon acompte pour adapter le montant à payer en fonction de mes besoins et de mes revenus."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://clientpm.swde.be",
+      "intent": "Je veux activer la domiciliation pour recevoir mes factures par e-mail et éviter les communications papier."
+    }
+  ]
+}

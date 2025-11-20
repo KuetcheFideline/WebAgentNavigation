@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Læs om, hvordan jeg kan bruge Min Sundhedsplatform til at kommunikere med sundhedspersonalet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Find ud af, hvordan jeg kan downloade appen MinSP til min mobiltelefon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Se, hvad Min Sundhedsplatform kan tilbyde mig som patient på et af hospitalerne i Region Hovedstaden eller Region Sjælland"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Log på og se mine prøvesvar og kommentarer på røntgen og skanning"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Skriv en besked til sundhedspersonalet på den afdeling, jeg er tilknyttet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Se mine sundhedsoplysninger og udvalgte besøgssammendrag fra min hospitalsjournal"
+    }
+  ]
+}

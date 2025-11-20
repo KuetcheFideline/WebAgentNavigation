@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://authentication2.caruna.fi",
+      "intent": "Tutkin Caruna Plussan etusivun sisältöä, jotta voin löytää tietoa sähköpostiosoitteen ja salasanan syöttämiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://authentication2.caruna.fi",
+      "intent": "Luen Caruna Plussan tietosuojaselostetta, jotta voin ymmärtää, miten he käsittelevät henkilötietojani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://authentication2.caruna.fi",
+      "intent": "Etsin Caruna Plussan asiakaspalvelun yhteystietoja, jotta voin ottaa heihin yhteyttä, jos minulla on kysymyksiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://authentication2.caruna.fi",
+      "intent": "Tarkastan Caruna Plussan sähköpostiosoitteeni ja salasanani, jotta voin varmistaa, että ne ovat oikein"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://authentication2.caruna.fi",
+      "intent": "Muutan Caruna Plussan salasanaani, jotta voin varmistaa, että se on turvallinen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://authentication2.caruna.fi",
+      "intent": "Tutkin Caruna Plussan asiakasprofiilia, jotta voin tarkastaa ja päivittää henkilötietojani"
+    }
+  ]
+}

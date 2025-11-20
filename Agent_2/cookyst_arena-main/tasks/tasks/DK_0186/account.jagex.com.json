@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.jagex.com",
+      "intent": "Jeg skal oprette en ny konto for at kunne spille RuneScape"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.jagex.com",
+      "intent": "Jeg vil læse om Jagex's spilleregler og vilkår"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.jagex.com",
+      "intent": "Jeg søger efter information om, hvordan jeg kan få adgang til RuneScape med min nye konto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.jagex.com",
+      "intent": "Jeg skal ændre min adgangskode for at sikre, at min konto er sikker"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.jagex.com",
+      "intent": "Jeg vil se mine spilleregnskaber og kontrollere, om jeg har nok medlemsskabspoint"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.jagex.com",
+      "intent": "Jeg skal konfigurere mine kontoindstillinger for at modtage nyhedsbreve og opdateringer om Jagex's spill"
+    }
+  ]
+}

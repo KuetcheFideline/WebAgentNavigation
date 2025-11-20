@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://idp.uliege.be",
+      "intent": "Je veux explorer les informations disponibles sur cette page de test pour comprendre comment fonctionne le serveur HTTP."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://idp.uliege.be",
+      "intent": "Je souhaite chercher des informations sur la façon d'envoyer un email aux administrateurs du site pour leur signaler que j'ai vu cette page de test au lieu de la page attendue."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://idp.uliege.be",
+      "intent": "Je veux lire les informations sur la distribution Rocky Linux et son fonctionnement pour mieux comprendre le contexte de cette page de test."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://idp.uliege.be",
+      "intent": "Je veux accéder à la section réservée aux administrateurs pour configurer les paramètres du serveur HTTP et personnaliser la page d'accueil."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://idp.uliege.be",
+      "intent": "Je souhaite consulter les journaux d'activité du serveur pour identifier les problèmes potentiels et améliorer la sécurité du site."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://idp.uliege.be",
+      "intent": "Je veux mettre à jour les informations de configuration du serveur pour refléter les changements récents apportés à l'infrastructure du site."
+    }
+  ]
+}

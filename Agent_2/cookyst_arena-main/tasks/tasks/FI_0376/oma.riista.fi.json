@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.riista.fi",
+      "intent": "Tutkin Oma riista -sivuston metsästäjille tarjoamia palveluita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.riista.fi",
+      "intent": "Etsin tietoa riistan metsästyksestä ja säännöistä Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.riista.fi",
+      "intent": "Selvittelen miten voin osallistua riistanhoitoon ja metsästystoimintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.riista.fi",
+      "intent": "Tarkastan oman metsästysluvan tilan ja varauskalenterin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.riista.fi",
+      "intent": "Ilmoitan metsästysseurueen ja varaan metsästysalueen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.riista.fi",
+      "intent": "Täytän metsästysilmoituksen ja raportoin saaliini"
+    }
+  ]
+}

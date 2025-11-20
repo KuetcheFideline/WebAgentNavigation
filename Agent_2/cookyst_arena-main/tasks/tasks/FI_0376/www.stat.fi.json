@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.stat.fi",
+      "intent": "Hae tilastotietoja Suomen väestönkehityksestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.stat.fi",
+      "intent": "Selaa uusimmat tilastotiedot ja uutiset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.stat.fi",
+      "intent": "Etsi tietoa työttömyysasteesta ja elinkustannusindeksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.stat.fi",
+      "intent": "Tallenna suosikkiraportit ja tilastotiedot omiin koosteisiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.stat.fi",
+      "intent": "Luo ja konfiguroi omat tilastotiedot ja visualisoinnit"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.stat.fi",
+      "intent": "Tee tilastoja koskevia kyselyjä ja tiedonkeruuja"
+    }
+  ]
+}

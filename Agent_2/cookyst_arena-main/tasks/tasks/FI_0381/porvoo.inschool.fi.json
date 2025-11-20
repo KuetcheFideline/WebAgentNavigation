@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://porvoo.inschool.fi",
+      "intent": "Tutustun Porvoon kaupungin Wilman etusivuun ja etsin tietoa koulun toiminnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://porvoo.inschool.fi",
+      "intent": "Selailen Wilman käyttöohjeita ja etsin vastauksia yleisiin kysymyksiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://porvoo.inschool.fi",
+      "intent": "Luen Wilman uutisia ja tiedotteita ilman kirjautumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://porvoo.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan poissaoloja ja arvioita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://porvoo.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta ja kysyn lisätietoa kurssista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://porvoo.inschool.fi",
+      "intent": "Tarkastan Wilman kautta suoritettujen kurssien tilaa ja tuloksia"
+    }
+  ]
+}

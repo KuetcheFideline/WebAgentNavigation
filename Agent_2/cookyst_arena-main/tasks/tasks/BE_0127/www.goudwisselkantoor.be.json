@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.goudwisselkantoor.be",
+      "intent": "Rechercher des informations sur les différents types de pièces d'or et d'argent disponibles pour investir"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.goudwisselkantoor.be",
+      "intent": "Comparer les prix des lingots d'or et d'argent pour trouver les meilleures offres"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.goudwisselkantoor.be",
+      "intent": "Consulter les informations sur les services de change de monnaie étrangère"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.goudwisselkantoor.be",
+      "intent": "Consulter mon compte pour voir mes transactions précédentes et mes investissements actuels"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.goudwisselkantoor.be",
+      "intent": "Effectuer un achat de pièces d'or ou d'argent en utilisant mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.goudwisselkantoor.be",
+      "intent": "Demander une évaluation gratuite de mes pièces d'or ou d'argent pour les vendre"
+    }
+  ]
+}

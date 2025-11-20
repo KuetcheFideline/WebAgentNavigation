@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saba.es",
+      "intent": "Buscar parkings disponibles en el centro de Sevilla para aparcar mi coche esta noche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saba.es",
+      "intent": "Comparar precios de los parkings en la zona de Plaza de España en Madrid y Sevilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saba.es",
+      "intent": "Descargar la aplicación móvil de Saba para reservar parkings en mi ciudad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saba.es",
+      "intent": "Reservar un parking en la estación de tren de Barcelona Sants para el fin de semana"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saba.es",
+      "intent": "Consultar mis reservas de parking actuales y pasadas en mi cuenta de My Saba"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saba.es",
+      "intent": "Cancelar una reserva de parking que realicé para mañana en el parking de la Plaza del Castillo en Pamplona"
+    }
+  ]
+}

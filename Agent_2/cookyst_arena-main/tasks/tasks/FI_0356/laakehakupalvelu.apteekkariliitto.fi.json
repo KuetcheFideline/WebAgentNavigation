@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laakehakupalvelu.apteekkariliitto.fi",
+      "intent": "Hae lääkettä nimellä 'Ibuprofeeni' ja tarkista sen saatavuus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laakehakupalvelu.apteekkariliitto.fi",
+      "intent": "Selaa lääkkeiden luokkaa 'Kipulääkkeet' ja etsi vaihtoehtoja asiakkaan tarpeisiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laakehakupalvelu.apteekkariliitto.fi",
+      "intent": "Lue Käyttöehdot ja yleiset tiedot lääkehakupalvelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laakehakupalvelu.apteekkariliitto.fi",
+      "intent": "Tallenna lääke 'Parasetamoli' suosikkilääkkeisiin ja aseta hälytys, kun lääke on saatavilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laakehakupalvelu.apteekkariliitto.fi",
+      "intent": "Tee tilaus lääkkeelle 'Ibuprofeeni' potilaan tarpeisiin ja valitse toimitustapa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laakehakupalvelu.apteekkariliitto.fi",
+      "intent": "Tarkista tilausten historia ja lääkkeiden saatavuus potilaiden hoitamiseksi"
+    }
+  ]
+}

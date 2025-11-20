@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://booksalon.fi",
+      "intent": "Selatakseni uusimmat kirjauutuudet ja löytääkseni mielenkiintoisia lukukokemuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://booksalon.fi",
+      "intent": "Etsimään tietoa suomalaisista kirjailijoista ja heidän teoksistaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://booksalon.fi",
+      "intent": "Vertailemaan kirjojen hintoja ja etsimään tarjouksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://booksalon.fi",
+      "intent": "Tilatakseni uusimman kirjan, jonka olen löytänyt aiemmin sivustolta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://booksalon.fi",
+      "intent": "Arvosteluni kirjoittamiseen yhdestä äskettäin luetusta kirjasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://booksalon.fi",
+      "intent": "Ostani historiaani tutustumiseen ja aiemmin ostettujen kirjojen tarkasteluun"
+    }
+  ]
+}

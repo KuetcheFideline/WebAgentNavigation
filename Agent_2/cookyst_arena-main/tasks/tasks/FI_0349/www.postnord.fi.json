@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.postnord.fi",
+      "intent": "Seurata lähetystäni PostNordin sivuilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.postnord.fi",
+      "intent": "Ladata PostNord-sovellus puhelimeeni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.postnord.fi",
+      "intent": "Löytää lähin noutopiste Kouvolaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.postnord.fi",
+      "intent": "Tarkastaa lähetysteni tilaa PostNordin asiakasportaalissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.postnord.fi",
+      "intent": "Muuttaa osoitettani PostNordin asiakasprofiilissani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.postnord.fi",
+      "intent": "Tilaamaan uusi lähetys PostNordin verkkopalvelun kautta"
+    }
+  ]
+}

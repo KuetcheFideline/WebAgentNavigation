@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ihosairaala.fi",
+      "intent": "Tutustun ihonhoitotuotteisiin ja etsin tietoa aknesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ihosairaala.fi",
+      "intent": "Selailen palveluita ja etsin tietoa plastiikkakirurgiasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ihosairaala.fi",
+      "intent": "Varaan ajan ihotautilääkärille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ihosairaala.fi",
+      "intent": "Tarkastan omaa potilastietojani ja etsin tietoa aiemmista hoitokäynneistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ihosairaala.fi",
+      "intent": "Teeän uuden ajanvarauksen toimenpiteelle, joka edellyttää kirjautumista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ihosairaala.fi",
+      "intent": "Muutan salasanaani ja tarkastan omat tiedot"
+    }
+  ]
+}

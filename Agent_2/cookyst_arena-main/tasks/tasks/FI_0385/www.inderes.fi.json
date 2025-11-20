@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Luen uusimmat uutiset ja analyysit sijoittamiseen liittyen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Etsin tietoa eri osakkeista ja niiden kehityksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Selvittelen, miten voin luoda ilmainen tunnus ja liittyä Inderesin yhteisöön"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Kirjaudun sisään ja seuraan suosikkiosakkeita ja -yhtiöitä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Osallistun keskusteluihin ja kommentoin artikkeleita ja analyysipalveluja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Tarkastan oman salkkuni kehitystä ja tehdä mahdollisia muutoksia"
+    }
+  ]
+}

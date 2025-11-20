@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ilmarinen.fi",
+      "intent": "Hae tietoa eläkkeen kertymisestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ilmarinen.fi",
+      "intent": "Selvitä miten yrittäjän sosiaaliturva ja eläke toimivat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ilmarinen.fi",
+      "intent": "Lue lisää työkyvyn edistämisestä ja kuntoutuksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ilmarinen.fi",
+      "intent": "Tarkista oma eläkevakuutukseni tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ilmarinen.fi",
+      "intent": "Hae eläkkeen laskuriin ja laske oma eläkkeeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ilmarinen.fi",
+      "intent": "Tee muutos yritystoiminnan muutoksiin liittyvissä YEL-vakuutuksen tietoja"
+    }
+  ]
+}

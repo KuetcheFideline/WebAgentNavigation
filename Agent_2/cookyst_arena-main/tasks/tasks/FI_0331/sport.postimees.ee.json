@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sport.postimees.ee",
+      "intent": "Luen urheilu-uutisia Eestist ja maailmalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sport.postimees.ee",
+      "intent": "Selvitan, mitä uutta on jalgpallossa ja koripallossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sport.postimees.ee",
+      "intent": "Etsin tietoa talviurheilusta, kuten laskettelu ja mäkihyppy"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sport.postimees.ee",
+      "intent": "Kirjaudun sisään ja kommentoin urheilu-uutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sport.postimees.ee",
+      "intent": "Luen ja vastaan urheiluaiheisiin keskusteluihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sport.postimees.ee",
+      "intent": "Seuraan suosikkiurheilijoideni ja -joukkueiden uutisia"
+    }
+  ]
+}

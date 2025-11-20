@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://absalon.ku.dk",
+      "intent": "Jeg søger efter information om studieprogrammer på Københavns Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://absalon.ku.dk",
+      "intent": "Jeg vil læse om nyheder og begivenheder på universitetet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://absalon.ku.dk",
+      "intent": "Jeg søger efter kontakinformation til en bestemt afdeling eller institut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://absalon.ku.dk",
+      "intent": "Jeg vil tilføje en ny begivenhed til min kalender"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://absalon.ku.dk",
+      "intent": "Jeg vil downloade en fil fra min kursus-side"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://absalon.ku.dk",
+      "intent": "Jeg vil sende en besked til en af mine studiegruppe-medlemmer"
+    }
+  ]
+}

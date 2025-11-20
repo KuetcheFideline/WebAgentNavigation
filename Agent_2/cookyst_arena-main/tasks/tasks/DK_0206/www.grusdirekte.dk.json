@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.grusdirekte.dk",
+      "intent": "Jeg søger efter priser på grus og sand til min haveanlægning"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.grusdirekte.dk",
+      "intent": "Jeg vil sammenligne priser på forskellige typer sten og granitskærver"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.grusdirekte.dk",
+      "intent": "Jeg søger efter information om leveringstider og -priser for materialer til min byggeprojekt"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.grusdirekte.dk",
+      "intent": "Jeg vil bestille 1000 kg grus og 500 kg sand til min adresse"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.grusdirekte.dk",
+      "intent": "Jeg ønsker at ændre mine bestillingsdetaljer, herunder leveringsadresse og -dato"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.grusdirekte.dk",
+      "intent": "Jeg vil se mine tidligere bestillinger og printe kvitteringer"
+    }
+  ]
+}

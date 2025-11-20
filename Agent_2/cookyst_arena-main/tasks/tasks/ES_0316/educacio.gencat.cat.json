@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://educacio.gencat.cat",
+      "intent": "Buscar información sobre becas para nietos que estudian en Cataluña"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://educacio.gencat.cat",
+      "intent": "Explorar los planes de estudio para estudiantes de educación secundaria en Cataluña"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://educacio.gencat.cat",
+      "intent": "Descargar formularios de solicitud de admisión para centros educativos en Cataluña"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://educacio.gencat.cat",
+      "intent": "Acceder a la plataforma de gestión de solicitudes de becas para estudiantes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://educacio.gencat.cat",
+      "intent": "Consultar el estado de la solicitud de admisión para un nieto en un centro educativo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://educacio.gencat.cat",
+      "intent": "Modificar la información de contacto para recibir notificaciones sobre becas y admisiones"
+    }
+  ]
+}

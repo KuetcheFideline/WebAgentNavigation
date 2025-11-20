@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pakke.dk",
+      "intent": "Jeg skal sammenligne priser på forsendelse af en pakke fra Aalborg til København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pakke.dk",
+      "intent": "Jeg vil finde den billigste måde at sende et dokument til min ven i Odense"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pakke.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan sende en gave til min familie i udlandet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pakke.dk",
+      "intent": "Jeg vil se mine tidligere ordrer og følge med i status for mine afsendte pakker"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pakke.dk",
+      "intent": "Jeg skal ændre min adresse og oplysninger i min brugerprofil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pakke.dk",
+      "intent": "Jeg vil købe et nyt fragtlabel og printe det ud til min næste forsendelse"
+    }
+  ]
+}

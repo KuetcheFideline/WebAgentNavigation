@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg søger efter en vejledning om, hvordan jeg kan få adgang til mine digitale bøger på ibog.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg vil gerne se, om der er nogen nye udgivelser af bøger, der interesserer mig, på ibog.dk"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg ønsker at læse anmeldelser af bøger, som jeg overvejer at købe på ibog.dk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg vil gerne downloade en bog, som jeg har købt tidligere, på mit konto på ibog.dk"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg søger efter en måde at ændre mine kontoinformationer på ibog.dk, så jeg kan få de nyeste tilbud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg vil gerne se mine købshistorik på ibog.dk, så jeg kan holde styr på mine udgifter"
+    }
+  ]
+}

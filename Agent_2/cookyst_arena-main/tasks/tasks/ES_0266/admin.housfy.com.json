@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://admin.housfy.com",
+      "intent": "Explorar la página de inicio para entender las funcionalidades de Housfy Admin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://admin.housfy.com",
+      "intent": "Buscar información sobre cómo recuperar la contraseña en caso de que se olvide"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://admin.housfy.com",
+      "intent": "Verificar si hay una opción para registrarse o crear una cuenta en Housfy Admin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://admin.housfy.com",
+      "intent": "Configurar los ajustes de seguridad de la cuenta para proteger mi información personal"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://admin.housfy.com",
+      "intent": "Explorar las herramientas de administración de propiedades disponibles en Housfy Admin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://admin.housfy.com",
+      "intent": "Crear un nuevo anuncio de propiedad para atraer a posibles compradores o inquilinos"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.112cv.gva.es",
+      "intent": "Buscar información sobre los servicios de emergencia en la Comunitat Valenciana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.112cv.gva.es",
+      "intent": "Consultar las notas de prensa sobre las alertas de emergencia en la región"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.112cv.gva.es",
+      "intent": "Descargar la aplicación móvil de 112 CV para estar informado sobre situaciones de emergencia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.112cv.gva.es",
+      "intent": "Acceder a la carpeta ciudadana para gestionar mis datos personales y servicios de emergencia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.112cv.gva.es",
+      "intent": "Solicitar información sobre los planes de emergencia y evacuación en caso de desastres naturales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.112cv.gva.es",
+      "intent": "Realizar una solicitud de información sobre los servicios de asistencia en caso de emergencia médica"
+    }
+  ]
+}

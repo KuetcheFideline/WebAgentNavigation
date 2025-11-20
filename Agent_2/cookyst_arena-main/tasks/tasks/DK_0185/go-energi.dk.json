@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://go-energi.dk",
+      "intent": "Jeg søger efter information om elprodukter til min private bolig"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://go-energi.dk",
+      "intent": "Jeg vil sammenligne priser på kvartalsafregning og månedsafregning"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://go-energi.dk",
+      "intent": "Jeg ønsker at læse mere om go'energi's kundeservice og hvordan de kan hjælpe mig"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://go-energi.dk",
+      "intent": "Jeg vil se min elpris og følge mit elforbrug i realtid"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://go-energi.dk",
+      "intent": "Jeg ønsker at ændre mit elprodukt og vælge en ny prismodel"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://go-energi.dk",
+      "intent": "Jeg vil downloade min elregning og se mine betalingsdetaljer"
+    }
+  ]
+}

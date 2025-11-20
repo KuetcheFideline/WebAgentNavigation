@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nurmijarvi.inschool.fi",
+      "intent": "Luen Wilman esittelysivun, jotta voin ymmärtää mitä Wilma on ja miten se toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nurmijarvi.inschool.fi",
+      "intent": "Selvittelen miten Wilman käyttäjätunnukset ja salasanat toimivat, jotta voin kirjautua sisään turvallisesti."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nurmijarvi.inschool.fi",
+      "intent": "Etsin tietoa Wilman mobiiliapplikaatiosta, jotta voin käyttää Wilmaa myös matkalla ollessani."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nurmijarvi.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan poissaolotilani, jotta voin pitää kirjaa omista poissaoloistani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nurmijarvi.inschool.fi",
+      "intent": "Luen Wilman viestit, jotta voin pysyä ajan tasalla koulun tapahtumista ja tiedotteista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nurmijarvi.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta, jotta voin keskustella opettajien kanssa opintojani ja poissaoloistani."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mondialrelay.be",
+      "intent": "Je veux comparer les tarifs d'envoi de colis pour une livraison en Belgique afin de choisir l'option la moins chère pour mon prochain envoi."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mondialrelay.be",
+      "intent": "Je souhaite trouver un Point Relais près de chez moi à Alost pour déposer un colis que j'ai préparé pour mon cousin qui habite en France."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mondialrelay.be",
+      "intent": "J'ai besoin d'imprimer une étiquette pour un colis que je veux envoyer via Mondial Relay, mais je n'ai pas d'imprimante à la maison, donc je cherche une solution pour imprimer l'étiquette en Point Relais."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mondialrelay.be",
+      "intent": "Maintenant que je suis connecté, je veux suivre l'état d'avancement de mon colis que j'ai envoyé la semaine dernière pour m'assurer qu'il a bien été livré à mon cousin en France."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mondialrelay.be",
+      "intent": "Je souhaite configurer mes préférences de livraison pour que mes colis soient systématiquement livrés à mon adresse personnelle à Alost au lieu de mon adresse professionnelle chez DHL Anvers."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mondialrelay.be",
+      "intent": "J'ai oublié mon mot de passe pour mon compte Mondial Relay, donc je vais utiliser la fonction 'Mot de passe oublié' pour le réinitialiser et accéder à nouveau à mon compte."
+    }
+  ]
+}

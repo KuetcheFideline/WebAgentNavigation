@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaihtokoneet.agritek.fi",
+      "intent": "Hae traktoreita, jotka ovat vuosimalta 2015 tai uudempia ja joiden hinta on alle 100000 euroa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaihtokoneet.agritek.fi",
+      "intent": "Selaa puimureiden tarjontaa ja etsi New Holland -merkkisiä malleja."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaihtokoneet.agritek.fi",
+      "intent": "Lue Agritekin syksyn lehti ja tutustu uusiin tuotteisiin ja tarjouksiin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaihtokoneet.agritek.fi",
+      "intent": "Tallenna suosikkilistalle Valtra N 121 Advance 50 km/h -traktori ja vertaile sitä muihin vastaaviin malleihin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaihtokoneet.agritek.fi",
+      "intent": "Ota yhteyttä jälleenmyyjään ja kysy lisää New Holland T 7.210 PC -traktorin teknisistä ominaisuuksista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaihtokoneet.agritek.fi",
+      "intent": "Tee tarjouspyyntö Case IH Puma 240 CVX -traktorin ostamiseksi ja pyydä lisätietoa toimitusajoista."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.doctena.be",
+      "intent": "Rechercher un médecin généraliste à Gand pour un rendez-vous de routine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.doctena.be",
+      "intent": "Comparer les disponibilités de différents dentistes à Gand pour un rendez-vous d'urgence"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.doctena.be",
+      "intent": "Lire les avis des patients sur les spécialistes de la santé mentale à Gand"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.doctena.be",
+      "intent": "Prendre rendez-vous avec un ophtalmologue pour un contrôle de routine après avoir consulté mes antécédents médicaux en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.doctena.be",
+      "intent": "Modifier mes informations de compte pour ajouter une assurance maladie complémentaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.doctena.be",
+      "intent": "Consulter l'historique de mes rendez-vous médicaux passés pour suivre l'évolution de ma santé"
+    }
+  ]
+}

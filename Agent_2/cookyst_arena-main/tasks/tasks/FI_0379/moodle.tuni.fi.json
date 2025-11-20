@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Selata uusimmat uutiset TUNI Moodlen etusivulla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Tutkia käytänteet ja tietosuojaseloste sivuston alareunasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Etsi tietoa aiheesta STACK-laskutehtävien virheistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Kirjaudu sisään TUNI-tunnuksella ja tarkista kurssien tila"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Osallistua keskusteluun kurssin foorumissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Ladata ja tulostaa kurssimateriaaleja henkilökohtaista käyttöä varten"
+    }
+  ]
+}

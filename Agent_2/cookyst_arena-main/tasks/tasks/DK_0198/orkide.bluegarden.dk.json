@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://orkide.bluegarden.dk",
+      "intent": "Jeg skal finde min CVR-nummer og brugernavn for at logge ind på min konto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://orkide.bluegarden.dk",
+      "intent": "Jeg skal klikke på 'Glemt brugernavn?' for at nulstille min adgangskode"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://orkide.bluegarden.dk",
+      "intent": "Jeg skal læse vejledningen om, hvordan jeg kan modtage min engangskode pr. e-mail eller sms"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://orkide.bluegarden.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer for at sikre, at min CVR-nummer og brugernavn er korrekte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://orkide.bluegarden.dk",
+      "intent": "Jeg skal downloade mine kvitteringer og regninger for at holde styr på mine udgifter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://orkide.bluegarden.dk",
+      "intent": "Jeg skal kontakte kundeservice for at få hjælp med at løse et problem med min konto"
+    }
+  ]
+}

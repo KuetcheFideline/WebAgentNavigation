@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tutustun sivuston ominaisuuksiin ja etsin tietoa Polar-laitteiden käytöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Selailen sivuston tuotteita ja vertailen eri mallien ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Etsin tietoa siitä, miten voin liittää uuden laitteen Polar Flow -palveluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tarkastan harjoitusohjelmaani ja analysoin edellisen viikon suorituksiani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Asetan uudet harjoitusmaalat ja suunnitelmia tulevia kilpailuja varten"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tarkastan ja muokkaan laitteiden asetuksia, kuten hälytyksiä ja ilmoituksia"
+    }
+  ]
+}

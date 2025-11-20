@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.guardiacivil.es",
+      "intent": "Quiero informarme sobre los trámites necesarios para obtener una licencia de armas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.guardiacivil.es",
+      "intent": "Necesito encontrar información sobre cómo denunciar un delito de odio en línea"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.guardiacivil.es",
+      "intent": "Quiero saber más sobre las modalidades y carrera profesional dentro de la Guardia Civil"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.guardiacivil.es",
+      "intent": "Deseo realizar una cita previa para trámites de armas de manera telemática"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.guardiacivil.es",
+      "intent": "Necesito acceder a mi cuenta para verificar el estado de mi solicitud de licencia de armas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.guardiacivil.es",
+      "intent": "Quiero consultar los formularios en PDF necesarios para realizar trámites de armas"
+    }
+  ]
+}

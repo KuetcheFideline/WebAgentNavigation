@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gitlab.kuleuven.be",
+      "intent": "Explorer les projets publics pour trouver des informations sur les recherches en cours à la KU Leuven"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gitlab.kuleuven.be",
+      "intent": "Rechercher des informations sur la façon de créer un compte invité pour les partenaires externes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gitlab.kuleuven.be",
+      "intent": "Consulter la page d'aide pour comprendre les fonctionnalités de base de GitLab"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gitlab.kuleuven.be",
+      "intent": "Créer un nouveau projet de recherche et inviter des collègues à y contribuer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gitlab.kuleuven.be",
+      "intent": "Configurer les paramètres de notification pour recevoir des mises à jour sur les projets auxquels je participe"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gitlab.kuleuven.be",
+      "intent": "Rechercher et rejoindre des groupes de recherche pertinents pour mon domaine d'expertise"
+    }
+  ]
+}

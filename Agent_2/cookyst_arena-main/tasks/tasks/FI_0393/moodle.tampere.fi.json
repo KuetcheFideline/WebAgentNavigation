@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.tampere.fi",
+      "intent": "Selvitän, miten voin luoda uuden käyttäjätunnuksen Moodleen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.tampere.fi",
+      "intent": "Tutkin, mitä kursseja on tarjolla ja miten pääsen niihin käsiksi ilman kirjautumista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.tampere.fi",
+      "intent": "Luen ohjeet siitä, miten voin kirjautua sisään käyttäen wilma-tunnustani."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.tampere.fi",
+      "intent": "Tarkastan kurssien aikatauluja ja materiaaleja, jotka ovat käytettävissäni kirjautuneena käyttäjänä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.tampere.fi",
+      "intent": "Osallistun keskusteluihin ja lähden kysymyksiä kurssin opettajalle kirjautuneena käyttäjänä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.tampere.fi",
+      "intent": "Täytän kurssin tehtäviä ja palautan ne opettajalle kirjautuneena käyttäjänä."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://es.weatherspark.com",
+      "intent": "Buscar el clima en Sevilla para planificar mis próximas vacaciones"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://es.weatherspark.com",
+      "intent": "Comparar el clima en Madrid y Barcelona para decidir a dónde viajar el próximo fin de semana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://es.weatherspark.com",
+      "intent": "Ver el mapa interactivo del clima en España para conocer las condiciones climáticas actuales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://es.weatherspark.com",
+      "intent": "Guardar mis ciudades favoritas para acceder rápidamente a sus condiciones climáticas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://es.weatherspark.com",
+      "intent": "Configurar mis preferencias de unidades de medida para que se muestren en grados Celsius y kilómetros por hora"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://es.weatherspark.com",
+      "intent": "Ver mis búsquedas recientes para planificar mis próximos viajes y eventos"
+    }
+  ]
+}

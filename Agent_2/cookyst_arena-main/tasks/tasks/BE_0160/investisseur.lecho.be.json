@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://investisseur.lecho.be",
+      "intent": "Rechercher des conseils d'investissement pour les marchés boursiers en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://investisseur.lecho.be",
+      "intent": "Lire les dernières analyses techniques sur les actions et les obligations"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://investisseur.lecho.be",
+      "intent": "Découvrir les 5 actions phares sélectionnées par L'Investisseur pour Finance Avenue"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://investisseur.lecho.be",
+      "intent": "Consulter mon portefeuille d'actions et de placements pour évaluer mes performances"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://investisseur.lecho.be",
+      "intent": "Recevoir des alertes personnalisées sur les mouvements de marché et les conseils d'investissement"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://investisseur.lecho.be",
+      "intent": "Télécharger des rapports détaillés sur les marchés boursiers et les tendances économiques"
+    }
+  ]
+}

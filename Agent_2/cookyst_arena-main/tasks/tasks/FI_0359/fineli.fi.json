@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fineli.fi",
+      "intent": "Selvitän, mitä tietoa Fineli tarjoaa ruoan ravintosisällöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fineli.fi",
+      "intent": "Etsin tietoa siitä, miten voin vertailla eri elintarvikkeiden ravintosisältöä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fineli.fi",
+      "intent": "Luen lisää Finelin ruokapäiväkirjan käytöstä ja sen hyödyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fineli.fi",
+      "intent": "Tallennan suosikkini elintarvikkeet ja vertailen niiden ravintosisältöä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fineli.fi",
+      "intent": "Käytän ruokapäiväkirjaa laskeakseen oman ravinnonsaantini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fineli.fi",
+      "intent": "Tarkastan ja päivitän omia elintarvikevalintojani ja niiden ravintosisältöä"
+    }
+  ]
+}

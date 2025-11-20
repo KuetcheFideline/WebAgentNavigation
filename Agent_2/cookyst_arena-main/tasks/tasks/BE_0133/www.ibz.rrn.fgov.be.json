@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ibz.rrn.fgov.be",
+      "intent": "Je souhaite consulter les informations sur les documents d'identité électroniques pour les citoyens belges."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ibz.rrn.fgov.be",
+      "intent": "Je veux savoir comment accéder au Registre national et quelles sont les informations disponibles pour les citoyens."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ibz.rrn.fgov.be",
+      "intent": "Je cherche à comprendre les procédures pour demander un code PIN pour ma carte d'identité électronique."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ibz.rrn.fgov.be",
+      "intent": "Je souhaite consulter mon dossier personnel pour vérifier mes informations d'identité et de résidence."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ibz.rrn.fgov.be",
+      "intent": "Je veux signaler une erreur dans mes informations personnelles enregistrées dans le Registre national."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ibz.rrn.fgov.be",
+      "intent": "Je souhaite déclarer un changement d'adresse pour mettre à jour mes informations de résidence dans le Registre national."
+    }
+  ]
+}

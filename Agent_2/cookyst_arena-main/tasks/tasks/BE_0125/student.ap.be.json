@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://student.ap.be",
+      "intent": "Rechercher les informations sur les formations en soins infirmiers proposées par l'institut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://student.ap.be",
+      "intent": "Explorer les ressources disponibles pour les étudiants en ligne, notamment les liens vers Digitap et webmail"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://student.ap.be",
+      "intent": "Consulter les informations sur les bibliothèques et les ressources documentaires accessibles aux étudiants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://student.ap.be",
+      "intent": "Accéder à mon compte étudiant pour consulter mes notes et mes horaires de cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://student.ap.be",
+      "intent": "Utiliser le système d'inscription en ligne pour m'inscrire à des cours ou à des activités parascolaires"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://student.ap.be",
+      "intent": "Consulter et gérer mes informations personnelles, notamment mon adresse e-mail et mon mot de passe"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.cloud.g1844.es",
+      "intent": "Revisar la Información Legal y Condiciones del Portal del Empleado antes de acceder"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.cloud.g1844.es",
+      "intent": "Buscar información sobre los beneficios laborales y sociales para trabajadores de Ferrovial en el portal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.cloud.g1844.es",
+      "intent": "Explorar las secciones públicas del portal para conocer mejor los servicios y recursos disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.cloud.g1844.es",
+      "intent": "Acceder a mi perfil de empleado para verificar mis datos personales y laborales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.cloud.g1844.es",
+      "intent": "Solicitar un día de vacaciones a través del portal de gestión de recursos humanos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.cloud.g1844.es",
+      "intent": "Consultar mis pagas y nóminas anteriores para planificar mis finanzas personales"
+    }
+  ]
+}

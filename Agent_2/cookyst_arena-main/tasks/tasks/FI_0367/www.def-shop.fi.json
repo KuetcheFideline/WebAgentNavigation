@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.def-shop.fi",
+      "intent": "Selata miesten vaatteita ja etsiä uusimmat trendit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.def-shop.fi",
+      "intent": "Etsiä tietoa DefShopin toimitusajoista ja -kustannuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.def-shop.fi",
+      "intent": "Rekisteröityä uutiskirjeen tilaajaksi saadakseen tietoa ajankohtaisista tarjouksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.def-shop.fi",
+      "intent": "Tarkastaa tilausten tilaa ja seurata lähetyksen etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.def-shop.fi",
+      "intent": "Muokata olemassa olevaa tilausta tai peruuttaa se tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.def-shop.fi",
+      "intent": "Tarkastaa ja muokata omia tietoja, kuten osoitetta ja maksutietoja"
+    }
+  ]
+}

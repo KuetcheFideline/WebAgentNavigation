@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.piecesautooccasion.be",
+      "intent": "Rechercher des pneus de marque pour ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.piecesautooccasion.be",
+      "intent": "Comparer les prix des pièces auto d'occasion pour différentes marques de voitures"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.piecesautooccasion.be",
+      "intent": "Consulter les informations sur la garantie de 12 mois pour les pièces auto d'occasion"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.piecesautooccasion.be",
+      "intent": "Acheter des pièces auto d'occasion pour ma voiture après m'être connecté à mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.piecesautooccasion.be",
+      "intent": "Consulter l'historique de mes commandes de pièces auto d'occasion"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.piecesautooccasion.be",
+      "intent": "Modifier mes informations de compte et mes préférences de livraison"
+    }
+  ]
+}

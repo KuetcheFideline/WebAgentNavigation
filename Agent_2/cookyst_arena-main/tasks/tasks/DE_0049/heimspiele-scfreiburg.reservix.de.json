@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://heimspiele-scfreiburg.reservix.de",
+      "intent": "Ich möchte die Verfügbarkeit von Tickets für das nächste Heimspiel des SC Freiburg überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://heimspiele-scfreiburg.reservix.de",
+      "intent": "Ich will die verschiedenen Ticketkategorien und Preise für die Heimspiele des SC Freiburg vergleichen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://heimspiele-scfreiburg.reservix.de",
+      "intent": "Ich möchte die FAQ-Seite des Ticketshops aufrufen, um Informationen über den Ticketkauf und die Rückgabemöglichkeiten zu erhalten."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://heimspiele-scfreiburg.reservix.de",
+      "intent": "Ich möchte mein Konto aufrufen, um meine bestellten Tickets zu überprüfen und eventuell eine Umbuchung vorzunehmen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://heimspiele-scfreiburg.reservix.de",
+      "intent": "Ich will meine persönlichen Daten in meinem Konto aktualisieren, um sicherzustellen, dass ich wichtige Informationen über meine Ticketbestellungen erhalte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://heimspiele-scfreiburg.reservix.de",
+      "intent": "Ich möchte meine Bestellhistorie einsehen, um zu sehen, welche Tickets ich in der Vergangenheit gekauft habe und um eventuell ähnliche Tickets zu finden."
+    }
+  ]
+}

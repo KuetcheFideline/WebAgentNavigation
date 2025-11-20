@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.keskisenkello.fi",
+      "intent": "Selata urheilukelloja ja vertailla niiden ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.keskisenkello.fi",
+      "intent": "Etsiä naisten älykelloja ja tarkastella niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.keskisenkello.fi",
+      "intent": "Löytää edullisia rannekelloja ja lukita niiden toimitusaika"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.keskisenkello.fi",
+      "intent": "Tilata uusi rannekello ja seurata tilauksen etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.keskisenkello.fi",
+      "intent": "Arvostella äskettäin ostettua kelloa ja antaa palautetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.keskisenkello.fi",
+      "intent": "Tarkastella tilaushistoriaa ja hallita tilauksia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://halytykset.com",
+      "intent": "Hae hälytyksiä Kemijärven alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://halytykset.com",
+      "intent": "Selaa uusimmat hälytykset Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://halytykset.com",
+      "intent": "Etsi hälytyksiä läheltä osoitetta Yllästunturinpolku 2, Oulainen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://halytykset.com",
+      "intent": "Tallenna hälytysilmoitus omiin suosikkeihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://halytykset.com",
+      "intent": "Luo uusi hälytysilmoitus omalle alueelle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://halytykset.com",
+      "intent": "Muokkaa olemassa olevaa hälytysilmoitusta"
+    }
+  ]
+}

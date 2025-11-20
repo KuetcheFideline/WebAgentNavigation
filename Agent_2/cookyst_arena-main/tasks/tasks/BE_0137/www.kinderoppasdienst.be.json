@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kinderoppasdienst.be",
+      "intent": "Rechercher les services de garde d'enfants disponibles à Ottignies"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kinderoppasdienst.be",
+      "intent": "Consulter les informations sur les avantages de l'inscription à la kinderoppasdienst pour les membres de la Gezinsbond"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kinderoppasdienst.be",
+      "intent": "Explorer les possibilités de registration en tant que famille ou babysitter sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kinderoppasdienst.be",
+      "intent": "Gérer mon compte de membre de la Gezinsbond pour accéder aux services de garde d'enfants"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kinderoppasdienst.be",
+      "intent": "Réserver un service de garde d'enfants pour mes enfants à Ottignies via le site"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kinderoppasdienst.be",
+      "intent": "Consulter et gérer mes réservations de services de garde d'enfants sur mon compte"
+    }
+  ]
+}

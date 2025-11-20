@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campus.universidadviu.com",
+      "intent": "Explorar la página de inicio para conocer las opciones de acceso al Campus Virtual"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campus.universidadviu.com",
+      "intent": "Buscar información sobre cómo utilizar la cuenta educativa de Microsoft 365 para acceder al Campus Virtual"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campus.universidadviu.com",
+      "intent": "Leer las políticas de privacidad y condiciones de uso del sitio web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campus.universidadviu.com",
+      "intent": "Acceder a mis cursos y materiales de estudio en el Campus Virtual"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campus.universidadviu.com",
+      "intent": "Consultar mi calendario de eventos y fechas importantes en el Campus Virtual"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campus.universidadviu.com",
+      "intent": "Enviar un mensaje a mi tutor o profesor a través de la plataforma de comunicación del Campus Virtual"
+    }
+  ]
+}

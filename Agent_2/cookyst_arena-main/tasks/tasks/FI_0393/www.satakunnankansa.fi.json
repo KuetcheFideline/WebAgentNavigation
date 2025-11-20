@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.satakunnankansa.fi",
+      "intent": "Luen uutisia Satakunnasta, koska haluan pysyä ajan tasalla alueen tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.satakunnankansa.fi",
+      "intent": "Etsin urheilu-uutisia, koska olen kiinnostunut seuraamaan paikallisten joukkueiden suorituksia."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.satakunnankansa.fi",
+      "intent": "Selailen sivuston kulttuuriosiota, koska olen kiinnostunut taidenäyttelyistä ja konserteista alueella."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.satakunnankansa.fi",
+      "intent": "Tilaan uutiskirjeen, jotta voin saada viikoittaisen yhteenvedon alueen tärkeimmistä uutisista."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.satakunnankansa.fi",
+      "intent": "Lähetän lukijailmoituksen, koska haluan jakaa mielipiteeni alueen asioista ja osallistua keskusteluun."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.satakunnankansa.fi",
+      "intent": "Muokkaan tilaustani, koska haluan varmistaa, että olen tilannut oikean uutispaketin ja että minun tietoni ovat ajan tasalla."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal undersøge, om der er et problem med min internetforbindelse, der forhindrer adgang til siden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil prøve at genstarte min computer og se, om det løser problemet med adgang til siden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal ringe til Danske Banks kundeservice for at få hjælp til at løse problemet med adgang til siden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal overføre penge fra min lønkonto til min opsparingskonto, så jeg kan dække mine udgifter til fødevareindkøb."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg vil kontrollere, om der er nogen nye transaktioner på min konto, og om alt ser ud til at være i orden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shared-logon.danskebank.com",
+      "intent": "Jeg skal ændre mine kontoinformationer, så de stemmer overens med mine nye adresseoplysninger efter vores flytning."
+    }
+  ]
+}

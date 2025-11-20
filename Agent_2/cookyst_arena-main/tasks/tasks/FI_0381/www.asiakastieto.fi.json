@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.asiakastieto.fi",
+      "intent": "Hae yrityksen taloustiedot ja luottotiedot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.asiakastieto.fi",
+      "intent": "Selvitä omat luottotietoni ja seuraa niiden käyttöä Omatieto.fi-palvelussa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.asiakastieto.fi",
+      "intent": "Lue lisää asiakasanalyysistä ja sen hyödyistä yritykselleni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.asiakastieto.fi",
+      "intent": "Tee yritykseni luottotietojen tarkastuspyyntö ja seuraa niiden käyttöä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.asiakastieto.fi",
+      "intent": "Osta yritysraportteja ja hyödynnä niitä liiketoiminnassani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.asiakastieto.fi",
+      "intent": "Tilaa palvelupaketti ja hallitse yritykseni riskienhallintaa"
+    }
+  ]
+}

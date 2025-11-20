@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sarjakuvakauppa.fi",
+      "intent": "Haluaisin etsiä uusimpia sarjakuva-julkaisuja suomen kielellä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sarjakuvakauppa.fi",
+      "intent": "Tarkastelisin eri kustantajien tuotteita, kuten Marvelin ja DC Comicsin sarjakuva-albumeja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sarjakuvakauppa.fi",
+      "intent": "Löytäisin tietoa siitä, miten voin tilata tuotteita verkkokaupasta ja mitkä ovat toimitusmahdollisuudet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sarjakuvakauppa.fi",
+      "intent": "Haluan tarkastella ostoskoriani ja vahvistaa tilaukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sarjakuvakauppa.fi",
+      "intent": "Tilaisin uusimman Fingerpori-albumin ja muutaman muun suosikkini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sarjakuvakauppa.fi",
+      "intent": "Muuttaisin tilaustani toimitusosoitetta, koska haluan, että paketti toimitettaisiin työpaikalleni"
+    }
+  ]
+}

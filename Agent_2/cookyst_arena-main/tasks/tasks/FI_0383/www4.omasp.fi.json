@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Tarkastan verkkopankin etusivun uutisia ja ajankohtaisia ilmoituksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Selailen verkkopankin käyttöohjeita ja ehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Etsin tietoa verkkopankin turvallisuudesta ja tietosuojasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Tarkastan omat tilitiedot ja maksuliikenteen verkkopankissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Muokkaan verkkopankin asetuksia, kuten tili- ja sivuasetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www4.omasp.fi",
+      "intent": "Vaihdan salasanani ja tarkastan OmaVahvistus-sovelluksen asetukset"
+    }
+  ]
+}

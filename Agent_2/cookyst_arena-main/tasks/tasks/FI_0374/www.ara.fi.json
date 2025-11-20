@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ara.fi",
+      "intent": "Hae sivustolta tietoa valtion tukemista asunnoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ara.fi",
+      "intent": "Selvitä miten voin hakea valtion tukemaa asuntoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ara.fi",
+      "intent": "Lue lisää asumisoikeusasuntojen hakemisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ara.fi",
+      "intent": "Täytä avustushakemus valtion tukemaa asuntoa varten"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ara.fi",
+      "intent": "Tarkastele omia asuntohakemuksia ja -päätöksiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ara.fi",
+      "intent": "Pyydä ohjausta ja neuvontaa valtion tukemien asuntojen hakemiseen liittyen"
+    }
+  ]
+}

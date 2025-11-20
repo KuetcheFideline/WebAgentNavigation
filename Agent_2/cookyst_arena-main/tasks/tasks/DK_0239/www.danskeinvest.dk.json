@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.danskeinvest.dk",
+      "intent": "Jeg søger efter information om Danske Invests fonde og vil gerne se en liste over alle tilgængelige fonde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.danskeinvest.dk",
+      "intent": "Jeg vil gerne lære mere om, hvordan jeg kan investere i fonde og søger efter vejledning på hjemmesiden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.danskeinvest.dk",
+      "intent": "Jeg søger efter nyheder og opdateringer om investeringer og fonde på Danske Invests hjemmeside."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.danskeinvest.dk",
+      "intent": "Jeg vil gerne se min nuværende portefølje og overføre penge til en af mine fonde."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.danskeinvest.dk",
+      "intent": "Jeg søger efter at ændre mine investeringsvalg og vil gerne tilføje en ny fond til min portefølje."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.danskeinvest.dk",
+      "intent": "Jeg vil gerne se mine tidligere transaktioner og udskrive en oversigt over mine investeringer."
+    }
+  ]
+}

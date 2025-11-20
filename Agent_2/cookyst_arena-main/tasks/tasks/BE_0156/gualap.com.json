@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gualap.com",
+      "intent": "Rechercher des robes pour une soirée de gala en utilisant le formulaire de recherche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gualap.com",
+      "intent": "Comparer les prix et les caractéristiques des différents modèles de pulls en laine"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gualap.com",
+      "intent": "Explorer la section des accessoires pour trouver une paire de chaussures à talons pour compléter une tenue de travail"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gualap.com",
+      "intent": "Consulter l'historique des commandes pour vérifier le statut de la livraison de ma dernière commande"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gualap.com",
+      "intent": "Modifier les informations de compte pour mettre à jour mon adresse e-mail et mes coordonnées postales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gualap.com",
+      "intent": "Utiliser les points de fidélité accumulés pour obtenir une remise sur ma prochaine commande"
+    }
+  ]
+}

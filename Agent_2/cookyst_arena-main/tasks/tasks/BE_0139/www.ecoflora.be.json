@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ecoflora.be",
+      "intent": "Rechercher des plantes biologiques pour mon jardin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ecoflora.be",
+      "intent": "Consulter les conseils pour créer un jardin biodiversifié"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ecoflora.be",
+      "intent": "Explorer les produits écologiques pour l'entretien de mon jardin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ecoflora.be",
+      "intent": "Passer commande de graines biologiques pour la saison prochaine"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ecoflora.be",
+      "intent": "Gérer mes commandes précédentes et suivre mes livraisons"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ecoflora.be",
+      "intent": "Modifier mes informations de compte et mes préférences de livraison"
+    }
+  ]
+}

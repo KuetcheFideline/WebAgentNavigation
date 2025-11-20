@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.s-kaupat.fi",
+      "intent": "Hae tuotteita, jotka ovat tarjouksessa tällä viikolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.s-kaupat.fi",
+      "intent": "Selaa ruokatuotteita ja etsi vähälaktoosisia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.s-kaupat.fi",
+      "intent": "Lue lisää S-kaupat-sovelluksen ominaisuuksista ja hyödyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.s-kaupat.fi",
+      "intent": "Tarkista tilaus- ja toimitusehdot, jotka koskevat minun aiempia tilauksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.s-kaupat.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja tee tilaus, joka sisältää vähintään yhden täysjyväruisleivän"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.s-kaupat.fi",
+      "intent": "Tarkista bonustilanne ja katso, miten voin hyödyntää bonuksia tulevissa ostoksissani"
+    }
+  ]
+}

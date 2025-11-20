@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Hae tietoa kiireellisestä hoidosta terveysasemilla ja kiirevastaanotoilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Selvitä, miten voin hakeutua lääkärin ja hoitajan vastaanotolle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Etsi tietoa hammashoidosta ja ajanvarauksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Varaa aika lääkärin vastaanotolle omilla tunnuksilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Täytä terveystarkastuslomake ennen lääkärin vastaanottoa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Näe omaa hoitokuvaani ja tarkastele lääkehoitoja"
+    }
+  ]
+}

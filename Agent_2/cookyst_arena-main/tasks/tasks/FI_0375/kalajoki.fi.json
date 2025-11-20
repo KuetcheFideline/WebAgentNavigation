@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kalajoki.fi",
+      "intent": "Hae tietoa Kalajoen kaupungin tarjouskilpailuista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kalajoki.fi",
+      "intent": "Selaa Kalajoen kaupungin verkkosivujen tapahtumakalenteria"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kalajoki.fi",
+      "intent": "Etsi tietoa Kalajoen kaupungin ympäristövalvonnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kalajoki.fi",
+      "intent": "Kirjaudu sisään ja tee verkkopalveluilla asiointi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kalajoki.fi",
+      "intent": "Täytä verkkolomake Kalajoen kaupungin palveluiden asiakaspalautteeseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kalajoki.fi",
+      "intent": "Hae Kalajoen kaupungin työpaikkoja ja tee hakemus"
+    }
+  ]
+}

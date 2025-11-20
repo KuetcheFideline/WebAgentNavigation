@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sonetas.eu",
+      "intent": "Découvrir les solutions logicielles pour les cabinets vétérinaires proposées par Sonetas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sonetas.eu",
+      "intent": "Rechercher des informations sur la compatibilité Peppol des logiciels de Sonetas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sonetas.eu",
+      "intent": "Consulter les témoignages de clients satisfaits de l'utilisation des logiciels de Sonetas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sonetas.eu",
+      "intent": "Accéder à mon compte Fuga pour gérer mes rendez-vous et mes dossiers de patients"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sonetas.eu",
+      "intent": "Configurer les paramètres de mon compte pour recevoir des notifications sur les mises à jour des logiciels de Sonetas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sonetas.eu",
+      "intent": "Consulter les statistiques sur les consultations et les patients traités grâce aux logiciels de Sonetas"
+    }
+  ]
+}

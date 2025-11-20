@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aeromotors.fi",
+      "intent": "Selvitän, miten voin hakea moottoripyöriä Aeromotorsin sivuilta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aeromotors.fi",
+      "intent": "Luen arvosteluita eri moottoripyöristä, jotta voin tehdä perusteltuja valintoja."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aeromotors.fi",
+      "intent": "Tutkin Aeromotorsin tarjoamia palveluita, kuten huolto- ja korjauspalveluita."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aeromotors.fi",
+      "intent": "Tallennan suosikkimoottoripyörini ja seuraan niiden saatavuutta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aeromotors.fi",
+      "intent": "Tilasin varaosia moottoripyörääni ja seuraan tilauksen etenemistä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aeromotors.fi",
+      "intent": "Kirjaudun sisään ja tarkistan tilaushistoriani, jotta voin seurata aiempia ostoja."
+    }
+  ]
+}

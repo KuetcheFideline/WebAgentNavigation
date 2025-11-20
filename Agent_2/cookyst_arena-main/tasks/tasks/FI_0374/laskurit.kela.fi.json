@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laskurit.kela.fi",
+      "intent": "Tutkin sivustoa, jotta voin löytää tietoa Kelan tarjoamista perusturva-palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laskurit.kela.fi",
+      "intent": "Selvittelen, miten voin hakea Kelan etuuksia verkossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laskurit.kela.fi",
+      "intent": "Luen Kela.fi-verkkopalvelun käyttöohjeita, jotta voin käyttää palvelua oikein"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laskurit.kela.fi",
+      "intent": "Tarkastan omat etuudeni ja laskelmat Kelan verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laskurit.kela.fi",
+      "intent": "Hakemus Kelan etuuden muutoksesta, koska perheeni tilanne on muuttunut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laskurit.kela.fi",
+      "intent": "Varmistan, että olen ilmoittanut kaikki tarvittavat tiedot Kelalle, jotta etuuteni voidaan maksaa oikein"
+    }
+  ]
+}

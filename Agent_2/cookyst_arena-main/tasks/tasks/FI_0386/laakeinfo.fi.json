@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Hae tietoa masennuslääkkeistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Selaa luonnonläheisiä hoitokeinoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Etsi tietoa ikäsyrjinnän vaikutuksista terveyteen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Tallenna suosikkilääkkeet ja niiden annostukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Luo muistutus lääkkeiden ottamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laakeinfo.fi",
+      "intent": "Tee lääkitysajankohtaisia muistiinpanoja"
+    }
+  ]
+}

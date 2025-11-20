@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wwv.streamdeouf.net",
+      "intent": "Rechercher des séries VF de drame pour regarder avec ma famille le week-end"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wwv.streamdeouf.net",
+      "intent": "Explorer les dernières séries ajoutées pour découvrir de nouvelles émissions"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wwv.streamdeouf.net",
+      "intent": "Lire les descriptions et les commentaires des utilisateurs pour une série spécifique avant de la regarder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wwv.streamdeouf.net",
+      "intent": "Créer une liste de séries préférées pour un accès rapide à mes émissions favorites"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wwv.streamdeouf.net",
+      "intent": "Noter et commenter une série que j'ai récemment regardée pour aider les autres utilisateurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wwv.streamdeouf.net",
+      "intent": "Gérer mes paramètres de compte pour personnaliser mon expérience de streaming"
+    }
+  ]
+}

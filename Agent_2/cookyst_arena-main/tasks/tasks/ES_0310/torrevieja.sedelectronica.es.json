@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://torrevieja.sedelectronica.es",
+      "intent": "Buscar información sobre los trámites destacados disponibles en la sede electrónica de Torrevieja para conocer las opciones de participación ciudadana y servicios en línea."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://torrevieja.sedelectronica.es",
+      "intent": "Explorar la sección de 'Mi carpeta electrónica' para entender cómo funciona y qué tipo de documentos y servicios están disponibles, aunque no esté logueado."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://torrevieja.sedelectronica.es",
+      "intent": "Leer las noticias y anuncios publicados en el tablón de anuncios para mantenerse informado sobre las últimas novedades y convenios del Ayuntamiento de Torrevieja."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://torrevieja.sedelectronica.es",
+      "intent": "Iniciar sesión para acceder a 'Mi carpeta' y consultar los expedientes y solicitudes pendientes de pago, así como también para gestionar mis datos personales y documentos electrónicos."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://torrevieja.sedelectronica.es",
+      "intent": "Realizar una solicitud de participación en un proceso selectivo para un puesto de trabajo en el Ayuntamiento de Torrevieja, como el de Agente de Policía Local, a través de la sede electrónica."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://torrevieja.sedelectronica.es",
+      "intent": "Descargar y firmar digitalmente un documento relacionado con una solicitud o trámite en curso, utilizando los sistemas de firma electrónica disponibles en la sede electrónica de Torrevieja."
+    }
+  ]
+}

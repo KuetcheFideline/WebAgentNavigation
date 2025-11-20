@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://edossierpz.be",
+      "intent": "Rechercher les informations sur les services de soins palliatifs proposés par les organisations partenaires"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://edossierpz.be",
+      "intent": "Explorer les différentes options de MBE proposées pour comprendre les services offerts"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://edossierpz.be",
+      "intent": "Lire les informations sur la procédure de réinitialisation du mot de passe pour les utilisateurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://edossierpz.be",
+      "intent": "Consulter les dossiers médicaux personnels et les mises à jour des soins reçus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://edossierpz.be",
+      "intent": "Gérer les paramètres de compte et les préférences de notification pour les mises à jour de soins"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://edossierpz.be",
+      "intent": "Accéder aux ressources et aux documents partagés par les professionnels de santé pour les patients"
+    }
+  ]
+}

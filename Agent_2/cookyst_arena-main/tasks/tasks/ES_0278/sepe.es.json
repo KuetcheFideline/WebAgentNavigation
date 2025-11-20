@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sepe.es",
+      "intent": "Buscar información sobre las convocatorias de empleo actualizadas en el sitio web del SEPE"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sepe.es",
+      "intent": "Consultar la sección de estadísticas del SEPE para conocer los datos sobre el mercado laboral en España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sepe.es",
+      "intent": "Explorar la sede electrónica del SEPE para conocer los trámites y servicios disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sepe.es",
+      "intent": "Acceder a mi cuenta en el SEPE para consultar mi historial de empleo y solicitudes de empleo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sepe.es",
+      "intent": "Solicitar una cita previa en una oficina del SEPE para obtener asesoramiento personalizado sobre mi búsqueda de empleo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sepe.es",
+      "intent": "Actualizar mi perfil en el SEPE con mis habilidades y experiencia laboral actualizadas para mejorar mis posibilidades de encontrar empleo"
+    }
+  ]
+}

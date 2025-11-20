@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://merchant.itsme.be",
+      "intent": "Rechercher les informations de contact pour signaler une erreur 404 et obtenir de l'aide"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://merchant.itsme.be",
+      "intent": "Essayer de trouver une page d'accueil valide pour en savoir plus sur les services Itsme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://merchant.itsme.be",
+      "intent": "Vérifier si le site propose une fonction de recherche pour trouver des informations spécifiques sur les services de paiement"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://merchant.itsme.be",
+      "intent": "Consulter mes transactions récentes pour vérifier les paiements effectués via Itsme"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://merchant.itsme.be",
+      "intent": "Gérer mes paramètres de sécurité pour assurer la protection de mes informations personnelles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://merchant.itsme.be",
+      "intent": "Configurer les notifications pour recevoir des alertes sur les activités suspectes sur mon compte"
+    }
+  ]
+}

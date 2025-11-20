@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.albatros-travel.fi",
+      "intent": "Hae talvikauden etelämatkoja, jotka sopivat eläkeläiselle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.albatros-travel.fi",
+      "intent": "Vertaile eri matkakohteiden hintoja ja palveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.albatros-travel.fi",
+      "intent": "Lue asiakasarvosteluita ja etsi vinkkejä tulevia matkoja varten"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.albatros-travel.fi",
+      "intent": "Varaa talvikauden matka Välimeren rannalle ja varmista, että matkustaja on varannut golf-välineet mukaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.albatros-travel.fi",
+      "intent": "Tarkista varaukseni ja muokkaa matkasuunnitelmaa, jos tarpeen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.albatros-travel.fi",
+      "intent": "Tilaa matkavakuutus ja varmista, että se kattaa terveydenhuollon kulut"
+    }
+  ]
+}

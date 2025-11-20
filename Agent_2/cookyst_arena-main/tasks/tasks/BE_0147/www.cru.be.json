@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cru.be",
+      "intent": "Rechercher les produits frais disponibles pour la semaine en cours"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cru.be",
+      "intent": "Consulter les horaires d'ouverture de la market CRU Dilbeek"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cru.be",
+      "intent": "Découvrir les différentes sections de la market en ligne, notamment les rayons 'Groenten en fruit' et 'Bakkerij'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cru.be",
+      "intent": "Gérer mon compte CRU pour suivre mes commandes et mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cru.be",
+      "intent": "Passer une commande en ligne pour une livraison à domicile ou une prise en magasin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cru.be",
+      "intent": "Consulter l'historique de mes commandes et imprimer les reçus de mes achats"
+    }
+  ]
+}

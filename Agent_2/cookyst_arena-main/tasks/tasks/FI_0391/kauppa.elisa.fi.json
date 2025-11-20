@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kauppa.elisa.fi",
+      "intent": "Selata Elisan verkkokaupan etusivua ja etsiä uusimmat puhelin tarjoukset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kauppa.elisa.fi",
+      "intent": "Vertailla eri matkaliittymä tarjouksia ja etsiä itselleen sopivin vaihtoehto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kauppa.elisa.fi",
+      "intent": "Ladata Elisan sovelluskaupasta uusimmat sovellukset ja pelit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kauppa.elisa.fi",
+      "intent": "Tarkastaa Elisan asiakasprofiili ja varmistaa, että kaikki tiedot ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kauppa.elisa.fi",
+      "intent": "Tilata uusi liittymä tai muuttaa nykyistä liittymää Elisan verkkokaupassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kauppa.elisa.fi",
+      "intent": "Maksaa laskuja ja tarkastaa maksuhistoria Elisan asiakasprofiilissa"
+    }
+  ]
+}

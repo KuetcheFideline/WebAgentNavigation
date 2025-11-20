@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://parkeren.be",
+      "intent": "Rechercher les parkings disponibles à Knokke-Heist pour planifier un déplacement en voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://parkeren.be",
+      "intent": "Consulter les actualités sur les parkings et les projets de mobilité à Oost-Vlaanderen pour rester informé"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://parkeren.be",
+      "intent": "Explorer les différentes villes et communes desservies par les parkings pour découvrir de nouveaux endroits à visiter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://parkeren.be",
+      "intent": "Gérer mes abonnements et réservations de parkings pour optimiser mes déplacements réguliers"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://parkeren.be",
+      "intent": "Consulter mon historique de parkings et de paiements pour gérer mes dépenses"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://parkeren.be",
+      "intent": "Paramétrer mes préférences de notification pour être informé des mises à jour sur les parkings et les promotions"
+    }
+  ]
+}

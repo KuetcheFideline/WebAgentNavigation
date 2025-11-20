@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mad.es",
+      "intent": "Buscar información sobre oposiciones de Sanidad en la página de inicio de MAD"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mad.es",
+      "intent": "Explorar los cursos de preparación para oposiciones de Administración en la sección de Preparación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mad.es",
+      "intent": "Verificar los plazos de inscripción para oposiciones de Justicia en la sección de Oposiciones"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mad.es",
+      "intent": "Acceder a mi cuenta de cliente para ver mis cursos comprados y seguir mi progreso en la preparación de oposiciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mad.es",
+      "intent": "Descargar el temario en PDF para la oposición de Auxiliar Administrativo en la sección de Cursos MAD360"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mad.es",
+      "intent": "Realizar un test de práctica para la oposición de Técnico en Cuidados Auxiliares de Enfermería en la sección de MADTEST"
+    }
+  ]
+}

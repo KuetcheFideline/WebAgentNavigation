@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dxfuncluster.com",
+      "intent": "Explorar la página de inicio para conocer las funcionalidades del sitio web de Radio DXFUN Cluster"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dxfuncluster.com",
+      "intent": "Buscar información sobre cómo registrarse en el sitio web para acceder a funciones avanzadas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dxfuncluster.com",
+      "intent": "Verificar la disponibilidad de recursos y herramientas para radioaficionados en el sitio web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dxfuncluster.com",
+      "intent": "Iniciar sesión para acceder a mi cuenta y verificar mis estadísticas de DXCC"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dxfuncluster.com",
+      "intent": "Subir una foto de mi equipo de radioaficionado a mi perfil de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dxfuncluster.com",
+      "intent": "Enviar un mensaje privado a otro usuario registrado en el sitio web para coordinar una actividad de radioaficionado"
+    }
+  ]
+}

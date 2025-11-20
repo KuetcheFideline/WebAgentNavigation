@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saul.fi",
+      "intent": "Etsin tietoa aikuisurheilun kilpailukalenterista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saul.fi",
+      "intent": "Haluan lukea uutisia aikuisurheilun maailmasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saul.fi",
+      "intent": "Tutkin SAUL:n koulutusvaihtoehtoja ja valmennusleirejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saul.fi",
+      "intent": "Kirjaudun sisään ja tarkistan omani tilastot ja ennätykset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saul.fi",
+      "intent": "Osallistun keskusteluun aikuisurheilijoiden foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saul.fi",
+      "intent": "Ilmoittaudun osallistumaan tulevaan kilpailuun"
+    }
+  ]
+}

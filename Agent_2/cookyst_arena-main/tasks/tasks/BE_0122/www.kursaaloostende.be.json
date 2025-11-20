@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kursaaloostende.be",
+      "intent": "Rechercher les événements à venir au Kursaal Oostende pour planifier mes sorties pendant les vacances universitaires."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kursaaloostende.be",
+      "intent": "Explorer les différentes sections du site web, notamment la partie 'Kunst' et 'Geschiedenis', pour en apprendre davantage sur l'histoire et la culture du Kursaal Oostende."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kursaaloostende.be",
+      "intent": "Consulter le calendrier des événements pour trouver des concerts ou des spectacles qui m'intéressent et vérifier la disponibilité des billets."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kursaaloostende.be",
+      "intent": "Acheter des billets pour un événement spécifique après m'être connecté à mon compte pour bénéficier de tarifs préférentiels ou de réservations prioritaires."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kursaaloostende.be",
+      "intent": "Gérer mes réservations et mes billets dans mon compte pour suivre l'historique de mes achats et imprimer ou télécharger mes billets."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kursaaloostende.be",
+      "intent": "Mettre à jour mes informations de compte et mes préférences pour recevoir des newsletters personnalisées et rester informé des derniers événements et offres spéciales du Kursaal Oostende."
+    }
+  ]
+}

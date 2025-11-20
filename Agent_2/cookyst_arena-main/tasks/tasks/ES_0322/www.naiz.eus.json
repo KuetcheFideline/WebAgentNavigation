@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.naiz.eus",
+      "intent": "Buscar noticias sobre la situación política actual en el País Vasco"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.naiz.eus",
+      "intent": "Explorar la sección de cultura para encontrar artículos sobre la historia del País Vasco"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.naiz.eus",
+      "intent": "Leer las últimas noticias sobre el movimiento feminista en Iruñea"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.naiz.eus",
+      "intent": "Comentar en un artículo sobre la situación política en el País Vasco"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.naiz.eus",
+      "intent": "Guardar un artículo sobre la industria textil para leer más tarde"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.naiz.eus",
+      "intent": "Enviar un correo electrónico al redactor jefe para sugerir un tema de interés para un futuro artículo"
+    }
+  ]
+}

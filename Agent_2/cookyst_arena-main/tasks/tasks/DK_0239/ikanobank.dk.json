@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ikanobank.dk",
+      "intent": "Jeg søger efter information om lånemuligheder på Ikano Bank"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ikanobank.dk",
+      "intent": "Jeg vil sammenligne forskellige lånepakker og deres omkostninger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ikanobank.dk",
+      "intent": "Jeg søger efter oplysninger om Ikano Banks opsparingsmuligheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ikanobank.dk",
+      "intent": "Jeg vil ansøge om et lån og ønsker at se mine muligheder"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ikanobank.dk",
+      "intent": "Jeg ønsker at se mine eksisterende lån og betalingsplaner"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ikanobank.dk",
+      "intent": "Jeg vil ændre mine betalingsindstillinger for mit eksisterende lån"
+    }
+  ]
+}

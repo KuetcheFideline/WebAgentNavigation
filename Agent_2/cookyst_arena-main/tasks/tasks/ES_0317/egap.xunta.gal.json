@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://egap.xunta.gal",
+      "intent": "Buscar información sobre cursos de formación para personas mayores en la sección de FORMACIÓN"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://egap.xunta.gal",
+      "intent": "Explorar la sección de MULTIMEDIA para ver videos y audios relacionados con la administración pública"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://egap.xunta.gal",
+      "intent": "Leer las noticias y convocatorias en la sección de ACTUALIDADE para estar al tanto de los eventos y oportunidades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://egap.xunta.gal",
+      "intent": "Acceder a la sección de FORMACIÓN y registrar mis datos para recibir notificaciones sobre nuevos cursos y eventos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://egap.xunta.gal",
+      "intent": "Descargar recursos y materiales de la sección de FORMULARIOS E RECURSOS para utilizar en mi propio trabajo o estudio"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://egap.xunta.gal",
+      "intent": "Participar en un foro o discusión en la sección de COÑECEMENTO para compartir mis conocimientos y experiencias con otros usuarios"
+    }
+  ]
+}

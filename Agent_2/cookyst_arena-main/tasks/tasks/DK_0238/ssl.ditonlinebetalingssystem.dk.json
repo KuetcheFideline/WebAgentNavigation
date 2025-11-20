@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ssl.ditonlinebetalingssystem.dk",
+      "intent": "Jeg vil gerne se, hvordan jeg kan bruge Apple Pay til at betale mine regninger."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ssl.ditonlinebetalingssystem.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan konfigurere mit betalingskort til at fungere med Apple Pay."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ssl.ditonlinebetalingssystem.dk",
+      "intent": "Jeg vil gerne læse om sikkerheden ved at bruge Apple Pay til betalinger."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ssl.ditonlinebetalingssystem.dk",
+      "intent": "Jeg vil gerne se mine tidligere betalinger og kontrollere, om de er blevet gennemført korrekt."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ssl.ditonlinebetalingssystem.dk",
+      "intent": "Jeg ønsker at ændre mine betalingskortoplysninger og sikre, at de er opdateret."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ssl.ditonlinebetalingssystem.dk",
+      "intent": "Jeg vil gerne modtage besked om, når mine betalinger er blevet gennemført, og få en oversigt over mine nuværende saldo."
+    }
+  ]
+}

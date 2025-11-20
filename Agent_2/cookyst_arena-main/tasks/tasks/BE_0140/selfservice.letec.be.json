@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://selfservice.letec.be",
+      "intent": "Je veux découvrir les fonctionnalités de base du site SelfService pour comprendre comment je peux l'utiliser pour mes besoins administratifs."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://selfservice.letec.be",
+      "intent": "Je souhaite vérifier si le site propose des ressources ou des tutoriels pour aider les nouveaux utilisateurs comme moi à se familiariser avec l'interface et les processus."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://selfservice.letec.be",
+      "intent": "Je veux explorer les options de langue disponibles sur le site pour m'assurer que je peux naviguer et utiliser les services dans ma langue maternelle, l'allemand, si possible."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://selfservice.letec.be",
+      "intent": "Une fois connecté, je veux accéder à mon profil personnel pour vérifier et mettre à jour mes informations de contact et de compte, si nécessaire."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://selfservice.letec.be",
+      "intent": "Je souhaite utiliser le système de gestion de documents pour télécharger et stocker des documents importants liés à mon travail à la Cour de Justice, tels que des rapports ou des décisions de justice."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://selfservice.letec.be",
+      "intent": "Je veux configurer les notifications et les alertes pour recevoir des mises à jour sur les événements importants ou les délais à respecter dans le cadre de mes responsabilités administratives."
+    }
+  ]
+}

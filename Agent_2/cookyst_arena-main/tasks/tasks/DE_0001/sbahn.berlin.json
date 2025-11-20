@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sbahn.berlin",
+      "intent": "Ich möchte den Fahrplan für die S-Bahn von Düsseldorf nach Berlin überprüfen, um meine Reise zu planen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sbahn.berlin",
+      "intent": "Ich will die verschiedenen Ticketoptionen und Preise vergleichen, um das günstigste Ticket für meine Fahrt zu finden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sbahn.berlin",
+      "intent": "Ich möchte die Website nach Informationen über mögliche Störungen oder Bauarbeiten auf der Strecke durchsuchen, um meine Reisezeit zu planen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sbahn.berlin",
+      "intent": "Ich möchte meine persönlichen Fahrplandaten und Reisehistorie einsehen, um meine bevorzugten Routen zu speichern und zukünftige Reisen zu planen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sbahn.berlin",
+      "intent": "Ich will mein Benutzerkonto bearbeiten und meine Kontaktdaten aktualisieren, um sicherzustellen, dass ich wichtige Informationen über Störungen oder Änderungen im Fahrplan erhalte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sbahn.berlin",
+      "intent": "Ich möchte meine Abonnements und Tickets verwalten, um sicherzustellen, dass ich die richtigen Tickets für meine regelmäßigen Reisen habe und keine ungültigen Tickets besitze."
+    }
+  ]
+}

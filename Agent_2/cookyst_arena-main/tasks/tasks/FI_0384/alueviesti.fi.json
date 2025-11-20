@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Luen uusimmat uutiset Savonlinnasta ja ympäristöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Etsin tietoa paikallisista tapahtumista ja kulttuuritapahtumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Selailen urheilu-uutisia ja etsin tietoa paikallisista urheilujoukkueista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutisartikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Lähetän yleisöltä-kirjoituksen paikalliseen lehteen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Tallennan suosikkijuttuni ja jaan niitä somessa"
+    }
+  ]
+}

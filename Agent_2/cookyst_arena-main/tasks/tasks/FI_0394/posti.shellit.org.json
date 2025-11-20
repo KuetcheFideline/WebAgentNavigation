@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://posti.shellit.org",
+      "intent": "Luen ohjeita sähköpostin käyttöön, jotta voin ymmärtää miten voin parhaiten hallita sähköpostiani"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://posti.shellit.org",
+      "intent": "Tutkin, onko sivustolla mahdollista muuttaa kieltä suomeksi, jotta voin helpommin navigoida"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://posti.shellit.org",
+      "intent": "Etsin tietoa siitä, miten voin turvata sähköpostini salasanalla ja mitkä ovat sivuston turvallisuuden parhaat käytännöt"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://posti.shellit.org",
+      "intent": "Kirjaudun sisään ja tarkistan sähköpostini viestit, erityisesti etsimällä viestejä mökkini vuokrauksesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://posti.shellit.org",
+      "intent": "Lähetän viestin ystävälleni kalastusretkestä ja liitän siihen valokuvan saaliistani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://posti.shellit.org",
+      "intent": "Muokkaan sähköpostiosoitteiden luetteloa, jotta voin helpommin löytää ystävieni ja perheeni osoitteet"
+    }
+  ]
+}

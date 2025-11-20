@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.seg-social.es",
+      "intent": "Buscar información sobre los requisitos para solicitar el ingreso mínimo vital en la página de la Seguridad Social"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.seg-social.es",
+      "intent": "Explorar la sección de trabajadores para conocer los derechos y obligaciones como becario en una agencia de publicidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.seg-social.es",
+      "intent": "Acceder al simulador de ingreso mínimo vital para evaluar la posible elegibilidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.seg-social.es",
+      "intent": "Solicitar una consulta sobre el estado de mi afiliación y cotización como trabajador en la plataforma de la Seguridad Social"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.seg-social.es",
+      "intent": "Descargar y imprimir el certificado de afiliación y cotización para presentarlo en la agencia de publicidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.seg-social.es",
+      "intent": "Realizar una sugerencia o queja sobre el proceso de solicitud del ingreso mínimo vital en el buzón de consultas de la Seguridad Social"
+    }
+  ]
+}

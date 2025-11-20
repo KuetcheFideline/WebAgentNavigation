@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://polar-tecnicos.orange.es",
+      "intent": "Explorar la página de inicio para entender las funcionalidades del Field Service Management"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://polar-tecnicos.orange.es",
+      "intent": "Buscar información sobre cómo recuperar la contraseña en caso de que se olvide"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://polar-tecnicos.orange.es",
+      "intent": "Verificar si el sitio ofrece la opción de crear una cuenta o registrarse"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://polar-tecnicos.orange.es",
+      "intent": "Configurar el perfil de usuario y cambiar la contraseña por seguridad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://polar-tecnicos.orange.es",
+      "intent": "Explorar las opciones de autenticación de dos factores y configurar la aplicación de autenticación"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://polar-tecnicos.orange.es",
+      "intent": "Verificar el historial de inicio de sesión y los permisos de acceso para asegurarse de que todo esté correcto"
+    }
+  ]
+}

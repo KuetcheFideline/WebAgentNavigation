@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tyosuojelu.fi",
+      "intent": "Hae sivustolta tietoa työsuhteista ja työsopimuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tyosuojelu.fi",
+      "intent": "Selvitä miten työnantaja voi vaikuttaa työntekijän työoloihin ja -ehdoihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tyosuojelu.fi",
+      "intent": "Lue lisää työterveyshuollon tarjoamista palveluista ja niiden merkityksestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tyosuojelu.fi",
+      "intent": "Täytä työsuojelun ilmoituslomake työnantajan puolesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tyosuojelu.fi",
+      "intent": "Kirjaudu sisään ja tee työsuojelun tietojen päivitys työnantajan tietoihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tyosuojelu.fi",
+      "intent": "Lataa työsuojelun asiakirjat ja ohjeet työnantajan käyttöön"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wijnpers.smartschool.be",
+      "intent": "Rechercher les informations sur les cours et les événements à venir à De Wijnpers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wijnpers.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les étudiants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wijnpers.smartschool.be",
+      "intent": "Consulter les informations sur les possibilités de stages et de carrières après les études"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wijnpers.smartschool.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes absences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wijnpers.smartschool.be",
+      "intent": "Participer à un forum de discussion en ligne avec mes camarades de classe"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wijnpers.smartschool.be",
+      "intent": "Télécharger des documents et des ressources pédagogiques pour mes cours"
+    }
+  ]
+}

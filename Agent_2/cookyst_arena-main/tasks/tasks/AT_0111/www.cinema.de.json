@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cinema.de",
+      "intent": "Ich möchte den Kinoprogramm für Wien anzeigen lassen, um zu sehen, was heute Abend im Kino läuft."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cinema.de",
+      "intent": "Ich will die Liste der neuen Filme für diese Woche anzeigen, um zu sehen, ob es etwas Interessantes gibt."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cinema.de",
+      "intent": "Ich möchte die Trailer für die neuen Filme sehen, um mich zu entscheiden, welchen Film ich mir ansehen möchte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cinema.de",
+      "intent": "Ich möchte mein Profil bearbeiten, um meine Vorlieben für bestimmte Filmgenres anzupassen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cinema.de",
+      "intent": "Ich will meine Kommentare zu den Filmen lesen, die ich bereits gesehen habe, um meine Meinung zu überprüfen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cinema.de",
+      "intent": "Ich möchte meine Bewertungen für die Filme aktualisieren, die ich kürzlich gesehen habe, um andere Benutzer zu informieren."
+    }
+  ]
+}

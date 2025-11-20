@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lomitus.mela.fi",
+      "intent": "Tutkin Lomitusnetin etusivun ohjeita, jotta voin ymmärtää, miten sisäänkirjautuminen toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lomitus.mela.fi",
+      "intent": "Etsin tietoa Lomitusnetin sivuilta siitä, miten voin muuttaa salasanani, jos se on unohtunut."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lomitus.mela.fi",
+      "intent": "Selvittelen, mitä tietoja minun on annettava, jotta voin kirjautua sisään Lomitusnettiin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lomitus.mela.fi",
+      "intent": "Tarkastan lomani tilan ja varauskalenterin, jotta voin suunnitella lomani optimaalisesti."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lomitus.mela.fi",
+      "intent": "Muokkaan oman lomakalenterini asetuksia, jotta voin varata loman helpommin ja nopeammin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lomitus.mela.fi",
+      "intent": "Lähetän pyynnön loman siirtämiseksi, koska minun on muutettava lomani aikataulua perhesyistä."
+    }
+  ]
+}

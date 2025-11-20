@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lahdenkaupunginteatteri.fi",
+      "intent": "Haluaisin tietää, mitä esityksiä on tulevilla viikoilla, jotta voisin suunnitella illalliseni ystävieni kanssa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lahdenkaupunginteatteri.fi",
+      "intent": "Olen kiinnostunut näytelmästä 'Kiljupunkkarityttö', haluaisin lukea lisää siitä ja tarkistaa liput"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lahdenkaupunginteatteri.fi",
+      "intent": "Tilataan uutiskirje, jotta saan tietää teatterin tulevista esityksistä ja mahdollisista alennuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lahdenkaupunginteatteri.fi",
+      "intent": "Olen jo rekisteröitynyt, haluaisin tarkistaa, onko minulla varattuja lippuja tuleviin esityksiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lahdenkaupunginteatteri.fi",
+      "intent": "Haluaisin muuttaa osoitteeni profiilissani, koska olen muuttanut toiseen osoitteeseen Rovaniemissä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lahdenkaupunginteatteri.fi",
+      "intent": "Olen kiinnostunut teatterin tarjoamista etuista, haluaisin tarkistaa, mitä etuja minulla on käytettävissä"
+    }
+  ]
+}

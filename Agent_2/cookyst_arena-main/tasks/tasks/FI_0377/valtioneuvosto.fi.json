@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Hae Valtioneuvoston verkkosivuilta tietoa hallituksen viimeisimmistä päätöksistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Selaa Valtioneuvoston ministeriöiden ja virastojen yhteystietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Lue Valtioneuvoston uusimmat tiedotteet ja uutiset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Täytä Valtioneuvoston verkkopalvelun asiakirjapyyntölomake"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Kirjaudu Valtioneuvoston järjestelmään ja tee muutos omiin käyttäjätietoihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://valtioneuvosto.fi",
+      "intent": "Lähetä Valtioneuvoston asiakaspalvelulle sähköpostia koskien hallituksen toimintaa"
+    }
+  ]
+}

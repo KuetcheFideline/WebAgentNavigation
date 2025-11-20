@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.goodreads.com",
+      "intent": "Rechercher des livres sur le thème de la cuisine pour trouver de nouvelles idées de recettes"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.goodreads.com",
+      "intent": "Découvrir les derniers livres publiés dans le genre du roman historique pour choisir mon prochain livre à lire"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.goodreads.com",
+      "intent": "Explorer les citations célèbres sur le site pour trouver de l'inspiration et partager avec mes amis"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.goodreads.com",
+      "intent": "Ajouter des livres à ma liste de lecture personnelle pour suivre mes prochains lectures"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.goodreads.com",
+      "intent": "Écrire une critique d'un livre que j'ai récemment lu pour partager mon avis avec la communauté"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.goodreads.com",
+      "intent": "Participer à un groupe de discussion sur les livres pour échanger des idées avec d'autres lecteurs"
+    }
+  ]
+}

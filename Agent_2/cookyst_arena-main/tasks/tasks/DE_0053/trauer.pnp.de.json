@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://trauer.pnp.de",
+      "intent": "Ich möchte die aktuellen Traueranzeigen durchsuchen, um zu sehen, ob jemand aus meiner Gemeinde verstorben ist."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://trauer.pnp.de",
+      "intent": "Ich will die Funktion 'Anzeigen suchen' nutzen, um nach Traueranzeigen von bestimmten Personen zu suchen, die mir nahe stehen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://trauer.pnp.de",
+      "intent": "Ich möchte die Seite 'Kondolenzeinträge' besuchen, um zu sehen, was andere Menschen zu ihren Verstorbenen geschrieben haben und vielleicht auch selbst einen Eintrag zu verfassen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://trauer.pnp.de",
+      "intent": "Ich möchte mich anmelden, um eine Traueranzeige für meinen verstorbenen Ehemann aufzugeben und sie der Öffentlichkeit zugänglich zu machen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://trauer.pnp.de",
+      "intent": "Ich will nach dem Anmelden meine persönlichen Daten überprüfen und sicherstellen, dass alle Informationen korrekt sind, bevor ich eine neue Traueranzeige erstelle."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://trauer.pnp.de",
+      "intent": "Ich möchte nach dem Einloggen die Funktion 'Meine Anzeigen' nutzen, um alle von mir erstellten Traueranzeigen zu verwalten und gegebenenfalls zu bearbeiten."
+    }
+  ]
+}

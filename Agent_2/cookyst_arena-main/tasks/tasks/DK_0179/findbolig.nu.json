@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://findbolig.nu",
+      "intent": "Jeg søger efter en lejebolig i Odense, hvor jeg kan bo nær mit universitet."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://findbolig.nu",
+      "intent": "Jeg vil læse mere om, hvordan jeg kan skrive mig på venteliste til en lejebolig i København."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://findbolig.nu",
+      "intent": "Jeg ønsker at se alle ledige lejeboliger i Aarhus og sammenligne priserne."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://findbolig.nu",
+      "intent": "Jeg vil oprette en profil og søge efter lejeboliger i mit ønskede område i Odense."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://findbolig.nu",
+      "intent": "Jeg skal ændre min status på venteliste fra passiv til aktiv søgende for en bestemt lejebolig."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://findbolig.nu",
+      "intent": "Jeg vil se mine gemte boliger og følge med i mine ansøgninger om lejeboliger."
+    }
+  ]
+}

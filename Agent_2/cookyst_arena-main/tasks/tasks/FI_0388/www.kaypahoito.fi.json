@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Hae sivustolta tietoa Alzheimerin taudin hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Lue Käypä hoito -suosituksia koskien ikääntymiseen liittyviä sairauksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Tutustu potilasversioihin ja etsi tietoa omasta sairaudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Tallenna suosituksia ja potilasversioita omaan kirjastoosi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Anna palautetta Käypä hoito -suosituksista ja ehdota uusia aiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kaypahoito.fi",
+      "intent": "Tilaa Käypä hoito -uutiskirje ja seuraa uusimmat kehitykset"
+    }
+  ]
+}

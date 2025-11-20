@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eldiestro.es",
+      "intent": "Buscar artículos sobre emprendimiento y startups en la sección de economía"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eldiestro.es",
+      "intent": "Explorar la sección de cultura y leer artículos sobre arquitectura y arte"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eldiestro.es",
+      "intent": "Leer las últimas noticias en la sección de sociedad y comentarios de los lectores"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eldiestro.es",
+      "intent": "Publicar un comentario en un artículo sobre innovación y tecnología después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eldiestro.es",
+      "intent": "Guardar un artículo sobre tendencias de marketing en mi lista de favoritos después de iniciar sesión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eldiestro.es",
+      "intent": "Editar mi perfil de usuario y agregar información sobre mis intereses en emprendimiento y negocios después de iniciar sesión"
+    }
+  ]
+}

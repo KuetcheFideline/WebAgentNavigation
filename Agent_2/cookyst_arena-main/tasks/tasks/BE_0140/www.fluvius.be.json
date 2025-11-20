@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fluvius.be",
+      "intent": "Rechercher les informations sur les tarifs d'électricité pour mon entreprise"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fluvius.be",
+      "intent": "Consulter les conseils pour réduire ma consommation d'énergie et mes factures"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fluvius.be",
+      "intent": "Explorer les options de panneaux solaires pour mon domicile"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fluvius.be",
+      "intent": "Vérifier mon historique de consommation d'énergie et mes factures précédentes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fluvius.be",
+      "intent": "Gérer mes paramètres de compte et mes informations de contact"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fluvius.be",
+      "intent": "Demander un rendez-vous pour une lecture de mon compteur d'électricité"
+    }
+  ]
+}

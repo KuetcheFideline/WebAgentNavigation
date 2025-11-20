@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.idealinspect.fi",
+      "intent": "Yritän löytää oikean sivun, koska virhesivu näkyy"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.idealinspect.fi",
+      "intent": "Selvittelen, mitä tällä sivustolla voi tehdä, kun JavaScript on käytössä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.idealinspect.fi",
+      "intent": "Etsin tietoa siitä, miten voin korjata virheen ja päästä eteenpäin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.idealinspect.fi",
+      "intent": "Yritän varata ajan, kun olen kirjautunut sisään"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.idealinspect.fi",
+      "intent": "Tarkastan varaukseni ja muokkaan niitä tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.idealinspect.fi",
+      "intent": "Lähetän viestin asiakaspalveluun, koska minulla on ongelmia varaukseni kanssa"
+    }
+  ]
+}

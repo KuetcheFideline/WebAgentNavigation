@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lentoposti.fi",
+      "intent": "Luen uusimmat ilmailu-uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lentoposti.fi",
+      "intent": "Etsin tietoa Finnairin uusista reiteistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lentoposti.fi",
+      "intent": "Selvitan miten voisin osallistua ilmailu-aiheiseen keskusteluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lentoposti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusinta uutista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lentoposti.fi",
+      "intent": "Luen ja vastaan ilmailu-aiheisiin keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lentoposti.fi",
+      "intent": "Tallennan suosikkeihini mielenkiintoisen artikkelin myöhempää lukemista varten"
+    }
+  ]
+}

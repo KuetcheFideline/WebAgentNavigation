@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vaapputarvike.fi",
+      "intent": "Olen etsimässä uusia vaappuja kalastukseen, haluan tarkastella sivun uutuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vaapputarvike.fi",
+      "intent": "Tarvitsen uuden satula levyn kalastusvälineisiini, etsin sopivaa vaihtoehtoa sivulta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vaapputarvike.fi",
+      "intent": "Haluan vertailla eri vaappujen hintoja ja ominaisuuksia ennen ostopäätöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vaapputarvike.fi",
+      "intent": "Olen kirjautunut sisään ja haluan tarkastella tilaushistoriaani ja seurata tilausteni etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vaapputarvike.fi",
+      "intent": "Tarvitsen ostaa useita eri tuotteita, haluan käyttää ostoskorin ominaisuutta helpottamaan ostoprosessia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vaapputarvike.fi",
+      "intent": "Olen löytänyt haluamani tuotteet ja haluan nyt vahvistaa tilaukseni ja maksaa sen"
+    }
+  ]
+}

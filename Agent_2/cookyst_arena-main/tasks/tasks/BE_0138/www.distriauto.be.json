@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.distriauto.be",
+      "intent": "Rechercher des pièces de rechange pour ma voiture de société"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.distriauto.be",
+      "intent": "Comparer les prix de différents types de pneus pour mon véhicule"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.distriauto.be",
+      "intent": "Consulter les questions fréquentes pour savoir comment commander en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.distriauto.be",
+      "intent": "Ajouter des pièces auto à mon panier pour une commande ultérieure"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.distriauto.be",
+      "intent": "Vérifier l'historique de mes commandes pour suivre mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.distriauto.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

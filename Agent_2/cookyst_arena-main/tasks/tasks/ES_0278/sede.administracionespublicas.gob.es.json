@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Consultar los procedimientos administrativos disponibles para empleados públicos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Buscar información sobre las autorizaciones administrativas y los trámites necesarios"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Explorar la sección de preguntas frecuentes para resolver dudas sobre los trámites administrativos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Acceder a mi área de usuario para gestionar mis expedientes y solicitudes pendientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Realizar una solicitud de certificado de emigrante retornado y seguir el estado de la solicitud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Descargar notificaciones y documentación relacionada con mis trámites administrativos en curso"
+    }
+  ]
+}

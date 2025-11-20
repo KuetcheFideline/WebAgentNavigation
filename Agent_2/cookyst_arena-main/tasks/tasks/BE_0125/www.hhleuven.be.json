@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hhleuven.be",
+      "intent": "Rechercher les services de cardiologie pour mon père qui a des problèmes de santé"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hhleuven.be",
+      "intent": "Consulter les informations sur les stages disponibles pour les jeunes en formation professionnelle comme moi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hhleuven.be",
+      "intent": "Trouver les coordonnées pour contacter le service des urgences en cas de besoin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hhleuven.be",
+      "intent": "Consulter mon dossier médical pour suivre l'évolution de ma santé"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hhleuven.be",
+      "intent": "Prendre rendez-vous avec un médecin pour une consultation de suivi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hhleuven.be",
+      "intent": "Modifier mes informations personnelles pour assurer que mes coordonnées sont à jour"
+    }
+  ]
+}

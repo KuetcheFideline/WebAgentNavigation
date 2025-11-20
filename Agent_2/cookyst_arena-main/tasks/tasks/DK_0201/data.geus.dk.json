@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://data.geus.dk",
+      "intent": "Jeg søger efter information om grundvandskortlægning i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://data.geus.dk",
+      "intent": "Jeg ønsker at downloade jordartskort for at bruge i mit arbejde som assistant social kommune"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://data.geus.dk",
+      "intent": "Jeg vil gerne læse om de seneste nyheder om GEUS og deres projekter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://data.geus.dk",
+      "intent": "Jeg skal ændre mine kontoinformationer for at sikre, at jeg modtager de rigtige oplysninger om GEUS' projekter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://data.geus.dk",
+      "intent": "Jeg ønsker at bestille en rapport om grundvandsovervågning i Danmark for at bruge i mit arbejde"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://data.geus.dk",
+      "intent": "Jeg vil gerne se mine tidligere bestillinger og downloads af data og kort fra GEUS"
+    }
+  ]
+}

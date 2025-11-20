@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dierendokters.com",
+      "intent": "Rechercher des informations sur les soins de base pour les animaux de compagnie"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dierendokters.com",
+      "intent": "Consulter les tarifs et les services proposés par les DierenDokters"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dierendokters.com",
+      "intent": "Trouver un dierenarts près de chez moi à Charleroi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dierendokters.com",
+      "intent": "Prendre rendez-vous en ligne pour un contrôle de santé de mon animal de compagnie"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dierendokters.com",
+      "intent": "Accéder à mes informations personnelles et à l'historique des visites de mon animal de compagnie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dierendokters.com",
+      "intent": "Gérer mon abonnement au plan de soins pour animaux de compagnie et modifier mes informations de paiement"
+    }
+  ]
+}

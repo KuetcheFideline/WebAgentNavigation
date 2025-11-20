@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.azsintjan.be",
+      "intent": "Rechercher les services de santé mentale proposés par l'hôpital AZ Sint-Jan Brugge pour moi-même ou un membre de ma famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.azsintjan.be",
+      "intent": "Consulter les actualités et les dernières nouvelles sur les innovations médicales à l'hôpital AZ Sint-Jan Brugge"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.azsintjan.be",
+      "intent": "Trouver les coordonnées et les heures d'ouverture du service d'orthopédie pour prendre rendez-vous"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.azsintjan.be",
+      "intent": "Accéder à mon dossier médical personnel pour consulter mes résultats d'analyses et mes prochains rendez-vous"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.azsintjan.be",
+      "intent": "Modifier mes informations de contact et mes préférences de communication avec l'hôpital AZ Sint-Jan Brugge"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.azsintjan.be",
+      "intent": "Envoyer un message au service de santé pour poser des questions sur mon traitement ou mon suivi médical"
+    }
+  ]
+}

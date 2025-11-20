@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan verkkopalkan etusivun linkkejä ja etsin tietoa verkkopankin kautta tapahtuvasta kirjautumisesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Selvittelen, miten voin muuttaa kieltä suomeksi, jotta voin helpommin navigoida sivustolla."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Etsin verkkopalkan sivustolta tietoa eläkeasioiden hoitamisesta ja miten voin tehdä niitä verkkopalvelun kautta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan eläketilisiirtojen historiatiedot ja varmistan, että kaikki maksut on suoritettu oikein."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Muutan salasanani ja tarkastan, että kaikki turvallisuusasetukset ovat päällä, jotta voin varmistaa tietojeni turvallisuuden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tulostan eläkevakuutusmaksujen vuosiraportin ja tarkastan, että kaikki tiedot ovat oikein ennen kuin voin tehdä verotilinpäätöksen."
+    }
+  ]
+}

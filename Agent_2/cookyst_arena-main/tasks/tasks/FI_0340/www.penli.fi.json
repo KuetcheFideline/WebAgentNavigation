@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.penli.fi",
+      "intent": "Selata laboratoriotarvikkeita ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.penli.fi",
+      "intent": "Lue arvosteluita ja kommentteja eri tuotteista, erityisesti suojakäsineistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.penli.fi",
+      "intent": "Etsi tietoa COVID-19 suojaustarvikkeista ja niiden saatavuudesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.penli.fi",
+      "intent": "Tilaa suojakäsineitä ja muuta laboratoriotarviketta omiin tarpeisiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.penli.fi",
+      "intent": "Tarkista tilausten tila ja seuraa toimituksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.penli.fi",
+      "intent": "Jätä arvostelu ja kommentti äskettäin tilatusta tuotteesta"
+    }
+  ]
+}

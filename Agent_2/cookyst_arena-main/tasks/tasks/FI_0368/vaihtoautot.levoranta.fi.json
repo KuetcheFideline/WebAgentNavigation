@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaihtoautot.levoranta.fi",
+      "intent": "Hae käytetty auto, jossa on dieselkäyttövoima ja neliveto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaihtoautot.levoranta.fi",
+      "intent": "Vertaile kahden eri automallin hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaihtoautot.levoranta.fi",
+      "intent": "Lue lisää vaihtoautojen huolto- ja korjauspalveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaihtoautot.levoranta.fi",
+      "intent": "Tallenna suosikkiautoni ja seuraa sen hintamuutoksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaihtoautot.levoranta.fi",
+      "intent": "Ota yhteyttä myyjään kysymykseni kanssa suoraan sivuston kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaihtoautot.levoranta.fi",
+      "intent": "Tee tarjous suosikkiautoni ostamisesta"
+    }
+  ]
+}

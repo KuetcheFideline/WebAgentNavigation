@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sigo.smartschool.be",
+      "intent": "Rechercher les informations sur les cours en ligne pour mon université Saint-Louis Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sigo.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les étudiants en Sciences"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sigo.smartschool.be",
+      "intent": "Vérifier les dates importantes du calendrier scolaire pour l'année universitaire en cours"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sigo.smartschool.be",
+      "intent": "Consulter mes notes et mes résultats des examens en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sigo.smartschool.be",
+      "intent": "Accéder à la plateforme de communication avec mes professeurs pour discuter de mes progrès"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sigo.smartschool.be",
+      "intent": "Gérer mon emploi du temps scolaire et planifier mes études pour la semaine à venir"
+    }
+  ]
+}

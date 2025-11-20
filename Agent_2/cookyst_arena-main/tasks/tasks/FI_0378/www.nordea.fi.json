@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Tutkin Nordean verkkopankkipalveluja ja etsin tietoa asuntolainoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Selvittelen miten voin avata uuden tilin Nordeassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Luen arvosteluita ja kokemuksia Nordean asiakaspalvelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Tarkistan tilieni saldot ja tekemäni maksut Nordean verkkopankissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Muutan tilieni maksu- ja siirtorajoja Nordean verkkopankissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nordea.fi",
+      "intent": "Tee sijoitussopimus Nordean sijoituspalvelun kautta"
+    }
+  ]
+}

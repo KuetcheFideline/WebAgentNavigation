@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://checkud.rejsekort.dk",
+      "intent": "Jeg søger efter en vejledning til, hvordan jeg kan bruge mit rejsekort i Esbjerg."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://checkud.rejsekort.dk",
+      "intent": "Jeg vil gerne se, om der er nogen rabatter eller tilbud på rejsekort, som jeg kan benytte som lærling."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://checkud.rejsekort.dk",
+      "intent": "Jeg ønsker at finde ud af, hvordan jeg kan købe et nyt rejsekort, hvis mit gamle er gået tabt eller er ødelagt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://checkud.rejsekort.dk",
+      "intent": "Jeg vil gerne se min rejsehistorik og kontrollere, om der er nogen fejl i mine rejseoplysninger."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://checkud.rejsekort.dk",
+      "intent": "Jeg ønsker at ændre mine kontaktoplysninger, så jeg kan modtage beskeder om mine rejser og rejsekort."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://checkud.rejsekort.dk",
+      "intent": "Jeg vil gerne se, om jeg kan købe et rejsekort til min ven, som også er lærling, og hvordan jeg kan overføre penge til hans konto."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa Lapuan kaupungin oppilaitoksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Luen Wilman käyttöohjeita ja etsin tietoa siitä, miten voitan muuttaa salasanani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Selvittelen, miten voin luoda uuden Wilma-tunnuksen avainkoodilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Tarkastan lasteni poissaoloja ja suorituksia Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Viestin opettajien kanssa lasteni opiskelusuorituksista ja kurssivalinnoista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lapua.inschool.fi",
+      "intent": "Muutan salasanani ja tarkastan, että kaikki tietoni ovat ajan tasalla Wilman järjestelmässä"
+    }
+  ]
+}

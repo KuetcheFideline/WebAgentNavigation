@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vesystem.vindstoed.dk",
+      "intent": "Jeg skal læse mere om, hvordan jeg kan kontrollere min strømproduktion på MinSide"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vesystem.vindstoed.dk",
+      "intent": "Jeg skal klikke på linket 'Tilmeld' for at se, hvordan jeg kan registrere mig som bruger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vesystem.vindstoed.dk",
+      "intent": "Jeg skal søge efter information om, hvordan jeg kan ændre mine kontaktoplysninger på MinSide"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vesystem.vindstoed.dk",
+      "intent": "Jeg skal logge ind med MitID for at se mine udbetalingsfiler og kontrollere min strømproduktion"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vesystem.vindstoed.dk",
+      "intent": "Jeg skal ændre min udbetalingsmetode på MinSide, så jeg kan modtage mine udbetalinger på min nye bankkonto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vesystem.vindstoed.dk",
+      "intent": "Jeg skal se, hvad jeg har produceret tidligere, og sammenligne det med min nuværende strømproduktion"
+    }
+  ]
+}

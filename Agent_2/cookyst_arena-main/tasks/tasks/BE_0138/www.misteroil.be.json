@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.misteroil.be",
+      "intent": "Rechercher un produit de maintenance pour ma voiture de société"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.misteroil.be",
+      "intent": "Comparer les prix et les caractéristiques de différents types de motorolie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.misteroil.be",
+      "intent": "Lire les avis et les commentaires des clients sur les produits et la livraison"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.misteroil.be",
+      "intent": "Consulter mon compte et mes commandes précédentes pour réapprovisionner"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.misteroil.be",
+      "intent": "Gérer mes informations de livraison et de facturation pour une commande à venir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.misteroil.be",
+      "intent": "Utiliser mon compte pour bénéficier d'une remise ou d'un avantage sur une commande"
+    }
+  ]
+}

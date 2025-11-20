@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://suomenyritysrekisteri.fi",
+      "intent": "Hae yritystietoja nimen, paikkakunnan, osoitteen, toimialan tai palvelun avulla, jotta voin löytää uusia liikekumppaneita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://suomenyritysrekisteri.fi",
+      "intent": "Selvitä miten yritysten tiedot löytyvät ja miten niitä voidaan päivittää, jotta voin ymmärtää yritysrekisterin toimintaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://suomenyritysrekisteri.fi",
+      "intent": "Tutki julkisia hankintailmoituksia, jotta voin löytää uusia liiketoimintamahdollisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://suomenyritysrekisteri.fi",
+      "intent": "Päivitä yritykseni tietoja, jotta ne ovat ajan tasalla ja yritykseni näkyvyys on parhaimmillaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://suomenyritysrekisteri.fi",
+      "intent": "Tarkista yritykseni luottotietoraportti, jotta voin seurata yritykseni taloudellista tilannetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://suomenyritysrekisteri.fi",
+      "intent": "Lisää uusi yritys yritysrekisteriin, jotta voin hallinnoida useita yrityksiä samalla alustalla"
+    }
+  ]
+}

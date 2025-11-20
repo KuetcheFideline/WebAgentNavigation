@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rumbo.es",
+      "intent": "Buscar ofertas de vuelos baratos para un fin de semana en la costa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rumbo.es",
+      "intent": "Comparar precios de hoteles en Madrid para una estancia de una semana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rumbo.es",
+      "intent": "Explorar las opciones de viaje en tren y hotel para un destino en Europa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rumbo.es",
+      "intent": "Reservar un vuelo y hotel para una escapada de fin de semana en una ciudad europea"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rumbo.es",
+      "intent": "Consultar mis reservas anteriores y realizar una nueva búsqueda para un viaje en familia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rumbo.es",
+      "intent": "Cancelar una reserva de hotel y buscar una alternativa en el mismo destino"
+    }
+  ]
+}

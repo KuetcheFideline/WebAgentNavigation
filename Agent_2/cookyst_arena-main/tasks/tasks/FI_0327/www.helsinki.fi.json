@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.helsinki.fi",
+      "intent": "Tutkimuksen aiheiden selailu ja uusimpien tutkimustuloksien lukeminen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.helsinki.fi",
+      "intent": "Haku opiskelupaikoista ja kurssien selailu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.helsinki.fi",
+      "intent": "Yliopiston tapahtumakalenterin tarkastelu ja mielenkiintoisten tilaisuuksien etsintä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.helsinki.fi",
+      "intent": "Opintotietojen tarkastelu ja opintosuunnitelman päivittäminen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.helsinki.fi",
+      "intent": "Kurssien arvostelujen lukeminen ja omien arvostelujen kirjoittaminen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.helsinki.fi",
+      "intent": "Yliopiston verkkopalveluiden käyttäminen ja opiskelijatilien varaus"
+    }
+  ]
+}

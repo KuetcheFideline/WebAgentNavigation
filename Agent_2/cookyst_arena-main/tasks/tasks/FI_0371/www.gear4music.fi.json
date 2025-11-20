@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gear4music.fi",
+      "intent": "Hae sähkökitaroita ja vahvistimia soittimien valikoimasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gear4music.fi",
+      "intent": "Selaa eri kitaravahvistinmerkkejä ja -tyyppejä Gear4musicin sivuilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gear4music.fi",
+      "intent": "Lue arvosteluita ja vertaile eri sähkökitaroiden ominaisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gear4music.fi",
+      "intent": "Tilaa uusi sähkökitara ja vahvistin verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gear4music.fi",
+      "intent": "Lisää kitarapedaali ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gear4music.fi",
+      "intent": "Tarkista tilaushistoria ja seuraa paketin toimitusta"
+    }
+  ]
+}

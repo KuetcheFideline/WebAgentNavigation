@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shop.aeg.be",
+      "intent": "Rechercher des accessoires pour mon lave-vaisselle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shop.aeg.be",
+      "intent": "Trouver le manuel d'instruction de mon four à micro-ondes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shop.aeg.be",
+      "intent": "Comparer les prix des réfrigérateurs disponibles sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shop.aeg.be",
+      "intent": "Enregistrer mon nouveau lave-linge pour bénéficier de la garantie"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shop.aeg.be",
+      "intent": "Consulter l'historique de mes commandes pour vérifier le statut de ma dernière commande"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shop.aeg.be",
+      "intent": "Ajouter des accessoires à mon compte pour les commander plus tard"
+    }
+  ]
+}

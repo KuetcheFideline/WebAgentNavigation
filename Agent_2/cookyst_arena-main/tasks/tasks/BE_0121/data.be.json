@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://data.be",
+      "intent": "Rechercher des informations sur les entreprises belges pour un projet d'étude en architecture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://data.be",
+      "intent": "Consulter les prix et les offres de l'abonnement pour utiliser les services de Data.be"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://data.be",
+      "intent": "Explorer les fonctionnalités de la plateforme Data.be pour comprendre comment elle peut aider dans mes recherches universitaires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://data.be",
+      "intent": "Accéder à mes paramètres de compte pour modifier mes préférences de recherche et de notification"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://data.be",
+      "intent": "Utiliser l'API de Data.be pour récupérer des données sur les entreprises belges pour un projet de développement personnel"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://data.be",
+      "intent": "Consulter l'historique de mes recherches et de mes téléchargements pour suivre mes activités sur la plateforme"
+    }
+  ]
+}

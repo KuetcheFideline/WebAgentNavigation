@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://books.google.be",
+      "intent": "Rechercher des livres de cuisine pour trouver de nouvelles recettes à essayer en tant que boulanger"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://books.google.be",
+      "intent": "Explorer la section des livres sur l'histoire de la Belgique pour en apprendre davantage sur mon pays"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://books.google.be",
+      "intent": "Chercher des ouvrages sur le tuning de voitures pour améliorer mon Golf GTI"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://books.google.be",
+      "intent": "Consulter mes livres sauvegardés dans la bibliothèque pour reprendre ma lecture en cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://books.google.be",
+      "intent": "Participer à des discussions en ligne avec d'autres lecteurs sur des livres que j'ai aimés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://books.google.be",
+      "intent": "Gérer mes préférences de lecture et mes alertes pour rester informé des nouvelles publications"
+    }
+  ]
+}

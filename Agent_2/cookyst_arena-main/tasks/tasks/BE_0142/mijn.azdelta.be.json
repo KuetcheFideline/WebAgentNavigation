@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mijn.azdelta.be",
+      "intent": "Je souhaite comprendre les étapes pour créer un compte sur le site Mijn AZ Delta afin de gérer mes rendez-vous médicaux en ligne."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mijn.azdelta.be",
+      "intent": "J'ai besoin d'aide pour résoudre un problème technique avec mon compte, je veux donc visiter la section d'aide ou contacter le support technique."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mijn.azdelta.be",
+      "intent": "Je veux explorer les fonctionnalités du site Mijn AZ Delta pour voir comment je peux gérer mon dossier médical et planifier des rendez-vous en ligne."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mijn.azdelta.be",
+      "intent": "Je souhaite consulter mon dossier médical en ligne pour vérifier mes résultats d'analyses et mes prochains rendez-vous."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mijn.azdelta.be",
+      "intent": "J'ai besoin de modifier mes informations personnelles dans mon compte pour assurer que mes coordonnées sont à jour."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mijn.azdelta.be",
+      "intent": "Je veux planifier un nouveau rendez-vous médical en ligne pour discuter de mes résultats avec mon médecin."
+    }
+  ]
+}

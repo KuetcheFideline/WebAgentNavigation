@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://motostion.com",
+      "intent": "Buscar recambios para mi moto Honda"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://motostion.com",
+      "intent": "Comparar precios de neumáticos para motos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://motostion.com",
+      "intent": "Leer reseñas de otros clientes sobre productos de motOstion"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://motostion.com",
+      "intent": "Realizar un pedido de recambio para mi moto y seleccionar la opción de pago contra reembolso"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://motostion.com",
+      "intent": "Consultar el estado de mi cuenta y ver mis pedidos anteriores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://motostion.com",
+      "intent": "Agregar un producto a mi lista de favoritos y recibir notificaciones cuando esté en oferta"
+    }
+  ]
+}

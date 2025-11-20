@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wolfswinkel.nl",
+      "intent": "Rechercher des outils de bricolage pour un projet de jardinage"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wolfswinkel.nl",
+      "intent": "Comparer les prix de différentes marques de tronçonneuses"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wolfswinkel.nl",
+      "intent": "Lire les avis des clients sur les produits de jardinage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wolfswinkel.nl",
+      "intent": "Ajouter un produit à ma liste de souhaits pour un achat futur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wolfswinkel.nl",
+      "intent": "Consulter l'historique de mes commandes pour suivre mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wolfswinkel.nl",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

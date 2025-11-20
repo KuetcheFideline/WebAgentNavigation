@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.meteobelgie.be",
+      "intent": "Consulter les prévisions météorologiques pour Bruxelles afin de planifier mon trajet quotidien en train"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.meteobelgie.be",
+      "intent": "Rechercher les conditions météorologiques pour les prochains jours à Tervuren, ma ville de résidence, pour savoir si je devrai prendre des dispositions particulières pour mes loisirs en plein air"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.meteobelgie.be",
+      "intent": "Explorer les fonctionnalités du site pour voir s'il propose des alertes météorologiques personnalisables pour mon trajet entre Tervuren et Bruxelles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.meteobelgie.be",
+      "intent": "Enregistrer mes lieux favoris, comme Bruxelles et Tervuren, pour accéder rapidement aux prévisions météorologiques qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.meteobelgie.be",
+      "intent": "Configurer des alertes météorologiques personnalisées pour recevoir des notifications lorsque des conditions météorologiques exceptionnelles sont prévues sur mon trajet quotidien"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.meteobelgie.be",
+      "intent": "Participer à des discussions sur les conditions météorologiques avec d'autres utilisateurs pour partager des informations et des conseils sur la manière de gérer les conditions météorologiques difficiles"
+    }
+  ]
+}

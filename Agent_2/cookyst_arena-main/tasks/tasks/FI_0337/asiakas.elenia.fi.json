@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiakas.elenia.fi",
+      "intent": "Tutkin sähköpostini, jos Elenia on lähettänyt minulle viestejä sähkönsiirrosta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiakas.elenia.fi",
+      "intent": "Selvittelen, miten voin säästää rahaa sähkölaskussani, kun olen Kela-tukia saava nuori."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiakas.elenia.fi",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa osoitettani Elenian asiakaspalvelussa, kun muutan uuteen asuntoon Rovaniemellä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiakas.elenia.fi",
+      "intent": "Tarkastan sähkölaskuni historiatiedot, jotta voin seurata kulutustani ja tehdä tarvittavat muutokset."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiakas.elenia.fi",
+      "intent": "Muutan sähkösopparieni maksutapaa, jotta voin maksaa laskuni helpommin verkossa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiakas.elenia.fi",
+      "intent": "Tarkastan, voinko tehdä sähkösopimukseni muutoksia verkossa, kuten esimerkiksi muuttaa sähkön toimittajaa."
+    }
+  ]
+}

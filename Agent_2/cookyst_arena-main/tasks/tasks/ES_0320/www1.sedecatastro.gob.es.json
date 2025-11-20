@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Buscar información sobre el catastro en mi localidad para entender mejor mis impuestos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Acceder al buscador de inmuebles para encontrar información sobre mi propiedad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Descargar información cartográfica y alfanumérica de mi localidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Consultar el estado de mis procedimientos catastrales y expedientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Acceder a las notificaciones y comunicaciones oficiales relacionadas con mis inmuebles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www1.sedecatastro.gob.es",
+      "intent": "Realizar una declaración o solicitud relacionada con mis propiedades a través de la sede electrónica"
+    }
+  ]
+}

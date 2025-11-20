@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hevosurheilu.fi",
+      "intent": "Lue uusimmat raviuutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hevosurheilu.fi",
+      "intent": "Etsi tietoa hevosten kasvattamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hevosurheilu.fi",
+      "intent": "Selaa verkkokaupan tarjontaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hevosurheilu.fi",
+      "intent": "Tilaa uutiskirje"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hevosurheilu.fi",
+      "intent": "Hallinnoi OmaPalvelu-tiliä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hevosurheilu.fi",
+      "intent": "Ostetaan tuotteita verkkokaupasta"
+    }
+  ]
+}

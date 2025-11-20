@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://v2.tableonline.fi",
+      "intent": "Tutkin sivuston etusivun sisältöä ja etsin tietoa golf-varausmahdollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://v2.tableonline.fi",
+      "intent": "Selailen sivuston eri osioita ja etsin tietoa talvikauden matkoista Etelään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://v2.tableonline.fi",
+      "intent": "Etsin sivustolta tietoa golf-kurssien hinnastoista ja vertailen eri vaihtoehtoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://v2.tableonline.fi",
+      "intent": "Kirjaudun sisään ja varaan golf-pelin seuraavalle viikolle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://v2.tableonline.fi",
+      "intent": "Tarkastan omaa profiilia ja päivitän tietojani, kuten osoitteeni ja puhelinnumeroni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://v2.tableonline.fi",
+      "intent": "Selailen sivuston tarjoamia etuoikeuksia ja alennuksia ja hyödynnän niitä seuraaviin varauksiini"
+    }
+  ]
+}

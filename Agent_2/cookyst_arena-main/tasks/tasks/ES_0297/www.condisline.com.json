@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.condisline.com",
+      "intent": "Buscar productos para una fiesta en la sección de Bebidas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.condisline.com",
+      "intent": "Explorar la sección de Frescos para encontrar frutas y verduras frescas para una receta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.condisline.com",
+      "intent": "Comprobar si el servicio de entrega está disponible en mi área"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.condisline.com",
+      "intent": "Agregar productos a mi carrito de la compra y proceder a pagar"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.condisline.com",
+      "intent": "Verificar el estado de mis pedidos anteriores en mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.condisline.com",
+      "intent": "Editar mi información de perfil y dirección de entrega en mi cuenta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Buscar información sobre cómo configurar el correo electrónico en mi dispositivo móvil"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Leer las últimas noticias y avisos de seguridad sobre el correo electrónico de la Universitat de València"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://correo.uv.es",
+      "intent": "Descubrir los servicios de correo electrónico disponibles para los usuarios de la Universitat de València"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Acceder a mi bandeja de entrada para leer y responder a los correos electrónicos importantes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Configurar mis preferencias de correo electrónico y notificaciones para recibir actualizaciones importantes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://correo.uv.es",
+      "intent": "Buscar y eliminar correos electrónicos no deseados o spam de mi bandeja de entrada"
+    }
+  ]
+}

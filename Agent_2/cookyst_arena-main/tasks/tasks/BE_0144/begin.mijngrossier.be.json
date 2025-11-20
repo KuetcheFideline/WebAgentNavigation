@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://begin.mijngrossier.be",
+      "intent": "Rechercher des pièces de rechange pour ma voiture en utilisant le numéro de chassis"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://begin.mijngrossier.be",
+      "intent": "Consulter les catalogues de pièces disponibles pour les véhicules de la marque BMW"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://begin.mijngrossier.be",
+      "intent": "Explorer les outils et les équipements proposés sur le site pour les professionnels de l'automobile"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://begin.mijngrossier.be",
+      "intent": "Accéder à mon compte pour consulter mes commandes passées et gérer mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://begin.mijngrossier.be",
+      "intent": "Créer une nouvelle commande en ligne pour des pièces de rechange pour mon véhicule"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://begin.mijngrossier.be",
+      "intent": "Consulter les promotions et les offres spéciales réservées aux utilisateurs connectés"
+    }
+  ]
+}

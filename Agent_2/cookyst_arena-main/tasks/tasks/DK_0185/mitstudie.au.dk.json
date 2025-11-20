@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mitstudie.au.dk",
+      "intent": "Jeg søger efter information om studie muligheder på Aarhus Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mitstudie.au.dk",
+      "intent": "Jeg vil læse om de forskellige uddannelser og kurser, som universitetet tilbyder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mitstudie.au.dk",
+      "intent": "Jeg ønsker at få mere at vide om universitetets forskningsområder og -projekter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mitstudie.au.dk",
+      "intent": "Jeg vil tilføje en ny studieplan til min eksisterende studieforløb"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mitstudie.au.dk",
+      "intent": "Jeg søger efter at ændre mine studievalg og ønsker at se, hvordan det påvirker min studieplan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mitstudie.au.dk",
+      "intent": "Jeg vil downloade mine studie dokumenter og printe min studieattest"
+    }
+  ]
+}

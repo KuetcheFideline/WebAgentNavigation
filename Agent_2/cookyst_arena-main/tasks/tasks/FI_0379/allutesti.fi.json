@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://allutesti.fi",
+      "intent": "Tutkin sivun Tervetuloa-viestiä ja etsin tietoa testin aloittamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://allutesti.fi",
+      "intent": "Selailen sivun alaosaa ja etsin tietoa opettajan kirjautumisesta ja kuntakäyttäjän sisäänkirjautumisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://allutesti.fi",
+      "intent": "Luen sivun eväste- ja tietosuojailmoituksen, jotta ymmärrän, miten sivu käsittelee henkilötietojani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://allutesti.fi",
+      "intent": "Kirjaudun sisään opettajan tililleni ja aloitan testin, jotta voin arvioida oppilaideni osaamista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://allutesti.fi",
+      "intent": "Tarkastan testin tuloksia ja analysoin niiden perusteella, mitä parantamistoimia voisin tehdä opetukseeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://allutesti.fi",
+      "intent": "Muokkaan testin asetuksia ja lisään uusia kysymyksiä, jotta testi olisi entistä monipuolisempi ja haastavampi oppilaille"
+    }
+  ]
+}

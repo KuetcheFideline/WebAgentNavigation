@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bikester.fi",
+      "intent": "Hae uusimmat maastopyörämallit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bikester.fi",
+      "intent": "Vertaile eri sähköpyörämerkkejä ja -malleja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bikester.fi",
+      "intent": "Selvitä, miten voin muokata oman pyöräni varustelua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bikester.fi",
+      "intent": "Tarkista tilaamani tuotteiden toimitustilanne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bikester.fi",
+      "intent": "Lisää uusi osoite osoitekirjaani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bikester.fi",
+      "intent": "Muokkaa profiilini tietoja, kuten salasanaa ja sähköpostiosoitetta"
+    }
+  ]
+}

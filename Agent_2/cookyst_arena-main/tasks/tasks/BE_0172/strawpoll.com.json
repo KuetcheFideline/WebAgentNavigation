@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://strawpoll.com",
+      "intent": "Créer un sondage pour demander à mes amis où aller vendredi soir"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://strawpoll.com",
+      "intent": "Explorer les fonctionnalités de la plateforme de sondage en ligne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://strawpoll.com",
+      "intent": "Consulter les exemples de sondages pour me donner des idées pour mon propre sondage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://strawpoll.com",
+      "intent": "Configurer mes paramètres de compte pour personnaliser mes sondages"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://strawpoll.com",
+      "intent": "Créer un sondage avec des options de vote personnalisées pour un événement de pétanque"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://strawpoll.com",
+      "intent": "Consulter les résultats de mes sondages précédents pour analyser les tendances"
+    }
+  ]
+}

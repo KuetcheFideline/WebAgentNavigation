@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://b2b.gsautobat.com",
+      "intent": "Buscar recambios para mi vehículo en la sección de venta online"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://b2b.gsautobat.com",
+      "intent": "Consultar la política de cookies y configurar las opciones de privacidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://b2b.gsautobat.com",
+      "intent": "Explorar la sección de atención al cliente para obtener información de contacto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://b2b.gsautobat.com",
+      "intent": "Realizar un pedido de recambios para mi vehículo después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://b2b.gsautobat.com",
+      "intent": "Consultar el historial de pedidos y verificar el estado de mis compras anteriores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://b2b.gsautobat.com",
+      "intent": "Actualizar mis datos personales y de contacto en la sección de cuenta"
+    }
+  ]
+}

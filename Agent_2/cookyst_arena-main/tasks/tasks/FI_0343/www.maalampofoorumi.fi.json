@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.maalampofoorumi.fi",
+      "intent": "Selatakseni foorumin etusivua ja katsellen uusimmat viestit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.maalampofoorumi.fi",
+      "intent": "Hakeakseni tietoa maalämpöpumpuista ja niiden käytöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.maalampofoorumi.fi",
+      "intent": "Lukemalla foorumin sääntöjä ja ohjeita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.maalampofoorumi.fi",
+      "intent": "Kirjauduin sisään ja selatakseni omia viestejäni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.maalampofoorumi.fi",
+      "intent": "Vastatakseni jonkin viestiketjun viestiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.maalampofoorumi.fi",
+      "intent": "Luoakseni uusi viestiketju maalämpöpumppujen huoltoon liittyen"
+    }
+  ]
+}

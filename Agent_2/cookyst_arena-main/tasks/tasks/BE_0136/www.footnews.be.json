@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.footnews.be",
+      "intent": "Rechercher les dernières actualités sur le championnat de football belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.footnews.be",
+      "intent": "Consulter les résultats et les classements de la Jupiler Pro League"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.footnews.be",
+      "intent": "Lire les articles d'analyse sur les performances de l'équipe nationale belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.footnews.be",
+      "intent": "Participer à un sondage sur les meilleures équipes de football en Belgique"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.footnews.be",
+      "intent": "Commenter un article sur les transferts de joueurs dans les équipes belges"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.footnews.be",
+      "intent": "Créer un compte pour recevoir des newsletters sur les actualités du football belge"
+    }
+  ]
+}

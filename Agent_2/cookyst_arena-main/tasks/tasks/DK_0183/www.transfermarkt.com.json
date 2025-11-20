@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.transfermarkt.com",
+      "intent": "Jeg søger efter nyheder om min yndlingsfodboldhold, FC København, på Transfermarkt"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.transfermarkt.com",
+      "intent": "Jeg vil sammenligne markedsværdien af forskellige spillere i Superligaen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.transfermarkt.com",
+      "intent": "Jeg søger efter information om kommende fodboldkampe og turneringer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.transfermarkt.com",
+      "intent": "Jeg vil oprette en liste over mine favoritspillere og følge deres præstationer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.transfermarkt.com",
+      "intent": "Jeg ønsker at deltage i en diskussion om fodbold på Transfermarkts forum"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.transfermarkt.com",
+      "intent": "Jeg vil tilføje en anmeldelse af en spiller, som jeg har fulgt på Transfermarkt"
+    }
+  ]
+}

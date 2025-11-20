@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://etusuora.com",
+      "intent": "Luen urheilu-uutisia Etusuora.com-sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://etusuora.com",
+      "intent": "Etsin tietoa yleisurheilun SM-kisoista Etusuora.com-sivustolta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://etusuora.com",
+      "intent": "Selailen hiihdon maailmancupin kilpailukalenteria Etusuora.com-sivustolla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://etusuora.com",
+      "intent": "Kirjaudun sisään ja kommentoin urheilu-uutista Etusuora.com-sivustolla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://etusuora.com",
+      "intent": "Lisään suosikkijoukkueeni Etusuora.com-sivuston urheilu-seurantaosioon"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://etusuora.com",
+      "intent": "Osallistun urheiluaiheiseen keskusteluun Etusuora.com-sivuston foorumilla"
+    }
+  ]
+}

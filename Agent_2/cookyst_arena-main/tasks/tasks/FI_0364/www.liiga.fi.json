@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Selvittää Liiga-joukkueiden otteluaikatauluja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Löytää tietoa Liiga-joukkueiden pelaajista ja valmennuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Katsella Liiga-otteluiden korkealaatuisia videoesiintymisiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Ostaa liput Helsingin IFK:n otteluun ja varata paikat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Osallistua Liiga-fanien keskusteluihin ja äänestää kuukauden pelaajaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.liiga.fi",
+      "intent": "Tallentaa omat suosikkijoukkueet ja pelaajat ja seurata heidän otteluitaan"
+    }
+  ]
+}

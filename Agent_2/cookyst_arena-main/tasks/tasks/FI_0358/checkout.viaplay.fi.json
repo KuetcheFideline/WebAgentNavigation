@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://checkout.viaplay.fi",
+      "intent": "Valitsen pakettini ja tarkastan Viaplayn tarjoamat tv-ohjelmat ja elokuvat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://checkout.viaplay.fi",
+      "intent": "Luen lisää Viaplayn asiakaspalvelusta ja etsin vastauksia yleisiin kysymyksiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://checkout.viaplay.fi",
+      "intent": "Tutkin Viaplayn saatavuutta eri maissa ja valitsen oman asuinmaani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://checkout.viaplay.fi",
+      "intent": "Kirjaudun sisään ja tarkastan tilini tiedot ja laskut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://checkout.viaplay.fi",
+      "intent": "Muutan tilaustani ja valitsen uuden paketin, joka sopii perheeni tarpeisiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://checkout.viaplay.fi",
+      "intent": "Katselen suosikkiohjelmaani ja tallennan lempileffani Viaplayn palvelussa"
+    }
+  ]
+}

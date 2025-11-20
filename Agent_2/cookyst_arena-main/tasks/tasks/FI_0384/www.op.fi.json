@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.op.fi",
+      "intent": "Tutustun OP:n pankkipalveluihin ja etsin tietoa asuntolainasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.op.fi",
+      "intent": "Selvittelen miten voin liittää K-Plussa-ominaisuuden OP-korttiini"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.op.fi",
+      "intent": "Luen lisää OP Median tarjoamista uutisista ja artikkeleista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.op.fi",
+      "intent": "Tarkastan omat säästötilini ja katson miten voin parantaa säästämistani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.op.fi",
+      "intent": "Muutan omia vakuutusasioita ja tarkastan mitä muutoksia voisin tehdä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.op.fi",
+      "intent": "Käyn läpi omat lainat ja katson miten voin järjestää ne paremmin"
+    }
+  ]
+}

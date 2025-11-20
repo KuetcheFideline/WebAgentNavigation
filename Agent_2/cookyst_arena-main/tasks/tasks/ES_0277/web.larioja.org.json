@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://web.larioja.org",
+      "intent": "Buscar información sobre los trámites y servicios que ofrece el Gobierno de La Rioja para ciudadanos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://web.larioja.org",
+      "intent": "Explorar la sección de 'Temas' para conocer más sobre la estructura y funcionamiento del Gobierno de La Rioja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://web.larioja.org",
+      "intent": "Acceder a la 'Oficina Electrónica' para conocer los trámites y servicios disponibles para los ciudadanos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://web.larioja.org",
+      "intent": "Iniciar sesión en la 'Carpeta Ciudadana' para acceder a mis documentos y trámites personales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://web.larioja.org",
+      "intent": "Realizar un pago electrónico a través de la 'Oficina Virtual Tributaria' para liquidar una deuda pendiente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://web.larioja.org",
+      "intent": "Solicitar un certificado digital a través de la 'Firma electrónica' para poder realizar trámites electrónicos de manera segura"
+    }
+  ]
+}

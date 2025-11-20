@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fons.be",
+      "intent": "Rechercher les informations sur les allocations familiales pour les étudiants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fons.be",
+      "intent": "Consulter les questions fréquentes sur le Groeipakket"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fons.be",
+      "intent": "Explorer les différentes prestations offertes par FONS"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fons.be",
+      "intent": "Vérifier mon solde de Groeipakket dans mon compte MijnFONS"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fons.be",
+      "intent": "Demander une preuve de paiement de l'allocation de scolarité pour mon enfant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fons.be",
+      "intent": "Mettre à jour mes coordonnées bancaires pour recevoir les paiements de Groeipakket"
+    }
+  ]
+}

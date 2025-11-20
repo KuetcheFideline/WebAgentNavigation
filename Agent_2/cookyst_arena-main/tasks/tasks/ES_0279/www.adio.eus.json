@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.adio.eus",
+      "intent": "Buscar esquelas de fallecidos en la provincia de Araba para ver si hay alguna persona conocida"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.adio.eus",
+      "intent": "Explorar la sección de novedades para enterarme de los últimos fallecimientos en el País Vasco"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.adio.eus",
+      "intent": "Consultar las estadísticas de fallecimientos en la región de Gipuzkoa para tener una idea general"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.adio.eus",
+      "intent": "Crear un anuncio de esquela para un familiar fallecido en la ciudad de Bilbao"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.adio.eus",
+      "intent": "Editar mi perfil de usuario para agregar información sobre mi familia y amigos fallecidos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.adio.eus",
+      "intent": "Compartir una esquela de un amigo fallecido en mis redes sociales para que otros amigos y familiares se enteren"
+    }
+  ]
+}

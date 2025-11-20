@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://aromi.hel.fi",
+      "intent": "Tutkin sivuston tarjoamia palveluita ja etsin tietoa Helsingin kaupungin tarjoamista ruokapalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://aromi.hel.fi",
+      "intent": "Selailen sivuston ruokalistaa ja etsin ruokia, jotka ovat sopivia minun dieettiini"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://aromi.hel.fi",
+      "intent": "Etsin tietoa sivuston käyttöehdoista ja tietosuojakäytännöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://aromi.hel.fi",
+      "intent": "Tilasin ruokaa sivuston kautta ja valitsin maksutavan ja toimitustavan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://aromi.hel.fi",
+      "intent": "Muokkasin profiiliini ja päivitin osoitetietoni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://aromi.hel.fi",
+      "intent": "Arvostelisin aiemmin tilaamani ruokaa ja annan palautetta sivuston asiakaspalvelulle"
+    }
+  ]
+}

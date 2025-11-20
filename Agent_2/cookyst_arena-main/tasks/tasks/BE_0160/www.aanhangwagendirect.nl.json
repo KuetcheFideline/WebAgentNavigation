@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aanhangwagendirect.nl",
+      "intent": "Rechercher des pièces de rechange pour mon véhicule utilitaire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aanhangwagendirect.nl",
+      "intent": "Comparer les prix des différents modèles de remorques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aanhangwagendirect.nl",
+      "intent": "Lire les avis des clients sur les produits de la boutique en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aanhangwagendirect.nl",
+      "intent": "Consulter l'historique de mes commandes passées pour suivre mes achats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aanhangwagendirect.nl",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aanhangwagendirect.nl",
+      "intent": "Utiliser mon compte pour accéder à des offres exclusives et des promotions"
+    }
+  ]
+}

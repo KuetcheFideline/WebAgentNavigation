@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lankatalo.net",
+      "intent": "Hae uusimmat villalangat verkkokaupasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lankatalo.net",
+      "intent": "Vertaile hinnat eri ompelutarvikkeissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lankatalo.net",
+      "intent": "Selaa tarjouksia ja etsi alennuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lankatalo.net",
+      "intent": "Tilaa viimeksi katsomani tuotteet ostoskorista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lankatalo.net",
+      "intent": "Tarkista tilaustani historiatiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lankatalo.net",
+      "intent": "Muokkaa profiiliani tietoja, kuten osoitetta"
+    }
+  ]
+}

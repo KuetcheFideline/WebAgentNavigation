@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://livetrack.garmin.com",
+      "intent": "Explorar la página de inicio para ver las características de LiveTrack"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://livetrack.garmin.com",
+      "intent": "Buscar información sobre cómo utilizar LiveTrack para seguir mis rutas de running en Ibiza"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://livetrack.garmin.com",
+      "intent": "Comparar las diferentes opciones de seguimiento en vivo que ofrece Garmin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://livetrack.garmin.com",
+      "intent": "Configurar mi cuenta para compartir mis actividades de running con mis amigos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://livetrack.garmin.com",
+      "intent": "Verificar mis estadísticas de running y compararlas con mis amigos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://livetrack.garmin.com",
+      "intent": "Crear un grupo de running en Ibiza y invitar a mis amigos a unirse"
+    }
+  ]
+}

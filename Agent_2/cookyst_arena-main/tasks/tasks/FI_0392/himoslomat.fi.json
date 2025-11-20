@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://himoslomat.fi",
+      "intent": "Hae lomamökit HimosLomat-sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://himoslomat.fi",
+      "intent": "Selaa HimosLomat-sivuston kalastuskohteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://himoslomat.fi",
+      "intent": "Tutki HimosLomat-sivuston mökkien hintoja ja varausmahdollisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://himoslomat.fi",
+      "intent": "Varaa mökki HimosLomat-sivustolta kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://himoslomat.fi",
+      "intent": "Tarkastele varausHistoriaa ja -vahvistuksia kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://himoslomat.fi",
+      "intent": "Muokkaa käyttäjäprofiilia ja osoitetietoja kirjautuneena käyttäjänä"
+    }
+  ]
+}

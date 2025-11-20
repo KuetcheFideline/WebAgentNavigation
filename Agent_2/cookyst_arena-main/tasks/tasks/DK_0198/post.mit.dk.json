@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://post.mit.dk",
+      "intent": "Jeg søger efter information om mit nærmeste posthus i København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://post.mit.dk",
+      "intent": "Jeg vil sammenligne priser på forskellige pakkeleveringsmuligheder til min sommerhus i Nordjylland"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://post.mit.dk",
+      "intent": "Jeg ønsker at finde ud af, hvordan jeg kan returnere en pakke, som ikke passede til min kone"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://post.mit.dk",
+      "intent": "Jeg skal spore min pakke, som jeg har sendt til min ven i Aarhus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://post.mit.dk",
+      "intent": "Jeg vil ændre min adresse på mit postkort, da jeg har flyttet til en ny andelsbolig i Amager"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://post.mit.dk",
+      "intent": "Jeg skal betale for en pakke, som jeg har bestilt til min søns fødselsdag"
+    }
+  ]
+}

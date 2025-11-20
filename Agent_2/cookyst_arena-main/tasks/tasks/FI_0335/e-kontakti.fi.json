@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://e-kontakti.fi",
+      "intent": "Löydän uusia ystäviä ja tuttavia E-kontaktin avulla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://e-kontakti.fi",
+      "intent": "Tutkin E-kontaktin maksuttomia ja maksullisia ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://e-kontakti.fi",
+      "intent": "Luen E-kontaktin asiakaspalvelun vinkkejä deittailuun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://e-kontakti.fi",
+      "intent": "Luo profiili ja etsin itselleni sopivia kumppaniehdokkaita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://e-kontakti.fi",
+      "intent": "Lähetän flirttiviestejä ja etsin uusia tuttavuuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://e-kontakti.fi",
+      "intent": "Käytän E-kontaktin hakutoimintoja löytääkseni itselleni sopivan seuran"
+    }
+  ]
+}

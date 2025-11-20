@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.manttavilppula.fi",
+      "intent": "Hae tietoa Mänttä-Vilppulan kulttuuripalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.manttavilppula.fi",
+      "intent": "Selaa Taidekaupungin asumisen messujen tarjontaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.manttavilppula.fi",
+      "intent": "Tutustu Mänttä-Vilppulan verkkokauppaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.manttavilppula.fi",
+      "intent": "Tee varaus uimahallista kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.manttavilppula.fi",
+      "intent": "Ostetaan kirjaa Mänttä-Vilppulan kirjastosta kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.manttavilppula.fi",
+      "intent": "Ilmoittaudutaan Autere-opiston kurssille kirjautuneena käyttäjänä"
+    }
+  ]
+}

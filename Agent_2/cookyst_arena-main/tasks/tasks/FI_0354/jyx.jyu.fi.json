@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jyx.jyu.fi",
+      "intent": "Haku avoimista julkaisuista JYX:stä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jyx.jyu.fi",
+      "intent": "Selailen JYX:n etusivun kautta saatavilla olevia julkaisuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jyx.jyu.fi",
+      "intent": "Tutkin JYX:n avoimia aineistoja opetukseen liittyvää materiaalia varten"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jyx.jyu.fi",
+      "intent": "Lisään uuden julkaisun JYX:iin opetusmateriaaliksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jyx.jyu.fi",
+      "intent": "Muokkaan aiemmin lisäämääni julkaisua JYX:ssä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jyx.jyu.fi",
+      "intent": "Tarkastan JYX:stä löytyvien julkaisujeni tilastotietoja"
+    }
+  ]
+}

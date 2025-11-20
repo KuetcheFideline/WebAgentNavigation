@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Hae tietoa Alzheimerin taudista ja sen oireista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Lue artikkeleita terveydestä ja hyvinvoinnista, erityisesti vanhenemiseen ja sairauksiin liittyen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Selaa laboratoriotutkimuksia ja lue niiden tulkinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Tallenna suosikkeihin artikkeleita, jotka liittyvät puolison sairauteen ja hoidon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Luo henkilökohtainen terveyden seuranta ja aseta muistutuksia tärkeistä terveysaiheista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveyskirjasto.fi",
+      "intent": "Osallistu keskusteluihin ja foorumeihin, joissa käydään keskustelua terveydestä ja sairauksista"
+    }
+  ]
+}

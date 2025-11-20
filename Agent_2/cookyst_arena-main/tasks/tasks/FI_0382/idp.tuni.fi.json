@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://idp.tuni.fi",
+      "intent": "Tutustun sivuston sisältöön ja etsin tietoa palveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://idp.tuni.fi",
+      "intent": "Selvittelen, miten voin hyödyntää sivuston tarjoamia resursseja työssäni UPM:llä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://idp.tuni.fi",
+      "intent": "Etsin tietoa siitä, miten voin ottaa yhteyttä sivuston ylläpitäjiin, jos minulla on kysymyksiä tai tarvitsen apua."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://idp.tuni.fi",
+      "intent": "Tarkistan, että olen kirjautunut sisään ja pääsen käsiksi henkilökohtaisiin tietoihini ja asetuksiini."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://idp.tuni.fi",
+      "intent": "Muokkaan profiiliaani ja varmistelen, että kaikki tietoni ovat ajan tasalla ja oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://idp.tuni.fi",
+      "intent": "Käyn läpi sivuston tarjoamat palvelut ja sovellukset, joista olen kiinnostunut, ja tutkin, miten voin niitä hyödyntää työssäni ja vapaa-ajallani."
+    }
+  ]
+}

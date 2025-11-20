@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.loxam.be",
+      "intent": "Rechercher des matériels de construction pour un projet de rénovation de bâtiment"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.loxam.be",
+      "intent": "Consulter les tarifs et les disponibilités des équipements de location"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.loxam.be",
+      "intent": "Trouver une agence Loxam près de chez moi pour louer des outils et des matériels"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.loxam.be",
+      "intent": "Gérer mes réservations de matériels et suivre l'historique de mes locations"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.loxam.be",
+      "intent": "Accéder à mes informations personnelles et mettre à jour mes coordonnées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.loxam.be",
+      "intent": "Réserver des matériels en ligne et imprimer mes contrats de location"
+    }
+  ]
+}

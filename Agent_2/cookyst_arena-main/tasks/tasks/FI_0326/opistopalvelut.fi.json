@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://opistopalvelut.fi",
+      "intent": "Hae tietoa opiskelijoiden asuntotukien hakemisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://opistopalvelut.fi",
+      "intent": "Selvitä miten opintolainan takaisinmaksu vaikuttaa opintotukeen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://opistopalvelut.fi",
+      "intent": "Etsi tietoa opiskelijoiden terveydenhuollosta ja mielenterveyden tuesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://opistopalvelut.fi",
+      "intent": "Täytä opintotuen hakemus ja lähetä sähköisesti"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://opistopalvelut.fi",
+      "intent": "Tarkista opintotuen maksupäivät ja -summat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://opistopalvelut.fi",
+      "intent": "Muokkaa henkilökohtaisia tietoja ja osoitetta opintopalvelujen järjestelmässä"
+    }
+  ]
+}

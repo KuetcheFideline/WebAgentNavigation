@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.azjanportaels.be",
+      "intent": "Rechercher les informations sur les services de santé proposés par l'hôpital AZ Jan Portaels"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.azjanportaels.be",
+      "intent": "Consulter les coordonnées et les heures d'ouverture de l'hôpital pour planifier une visite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.azjanportaels.be",
+      "intent": "Lire les actualités et les mises à jour sur les services et les événements de l'hôpital"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.azjanportaels.be",
+      "intent": "Accéder à mon dossier médical pour consulter mes résultats d'analyses et mes rendez-vous"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.azjanportaels.be",
+      "intent": "Gérer mes informations personnelles et mes coordonnées pour être sûr que tout est à jour"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.azjanportaels.be",
+      "intent": "Prendre rendez-vous avec un médecin ou modifier un rendez-vous existant"
+    }
+  ]
+}

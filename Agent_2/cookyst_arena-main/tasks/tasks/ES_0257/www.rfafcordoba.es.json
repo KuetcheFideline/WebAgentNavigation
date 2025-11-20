@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.rfafcordoba.es",
+      "intent": "Buscar información sobre los programas de formación de árbitros en la RFAF"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.rfafcordoba.es",
+      "intent": "Explorar las noticias y actualizaciones sobre el fútbol en Andalucía"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.rfafcordoba.es",
+      "intent": "Consultar la información sobre la estructura organizativa de la RFAF"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.rfafcordoba.es",
+      "intent": "Acceder al área de intranet para consultar documentos y recursos exclusivos para miembros de la RFAF"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.rfafcordoba.es",
+      "intent": "Inscribirme en un curso de formación de entrenadores ofrecido por la RFAF"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.rfafcordoba.es",
+      "intent": "Consultar y descargar documentación relacionada con la Mutualidad de la RFAF"
+    }
+  ]
+}

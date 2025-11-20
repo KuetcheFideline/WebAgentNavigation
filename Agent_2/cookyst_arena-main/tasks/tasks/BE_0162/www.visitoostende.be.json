@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.visitoostende.be",
+      "intent": "Rechercher des informations sur les événements à venir à Ostende pour planifier un week-end en amoureux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.visitoostende.be",
+      "intent": "Découvrir les différentes options de restaurants et de bars pour une soirée en ville"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.visitoostende.be",
+      "intent": "Explorer les possibilités d'achat de billets pour les attractions touristiques en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.visitoostende.be",
+      "intent": "Réserver un hébergement pour un séjour à Ostende en utilisant mon compte personnel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.visitoostende.be",
+      "intent": "Acheter des billets pour une exposition ou un événement culturel en ligne en utilisant mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.visitoostende.be",
+      "intent": "Gérer mes réservations et mes achats précédents depuis mon espace personnel"
+    }
+  ]
+}

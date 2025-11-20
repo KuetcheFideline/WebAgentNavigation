@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sas.dk",
+      "intent": "Jeg søger efter billige flybilletter til min næste rejse til USA"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sas.dk",
+      "intent": "Jeg vil læse mere om SAS' nye destinationer og tilbud"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sas.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan bruge mine EuroBonus-point til at betale for min rejse"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sas.dk",
+      "intent": "Jeg vil logge ind på min konto for at se mine bookede flyrejser og printe mine boardingkort"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sas.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdatere mine personlige data"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sas.dk",
+      "intent": "Jeg vil bruge mine EuroBonus-point til at bestille en gave til min ven, der også er medlem af SAS' loyalty program"
+    }
+  ]
+}

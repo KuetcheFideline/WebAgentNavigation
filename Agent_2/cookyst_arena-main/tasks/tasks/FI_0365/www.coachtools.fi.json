@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.coachtools.fi",
+      "intent": "Tutustun CoachToolsin etusivuun ja etsin tietoa valmennusvälineistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.coachtools.fi",
+      "intent": "Selailen CoachToolsin eri kieli vaihtoehdoista ja valitsen suomen kielen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.coachtools.fi",
+      "intent": "Etsin tietoa CoachToolsin maksuttomasta kokeilujaksosta ja yritän löytää linkin siihen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.coachtools.fi",
+      "intent": "Kirjaudun sisään CoachToolsiin ja tarkastan profiiliani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.coachtools.fi",
+      "intent": "Selailen CoachToolsin valmennusvälineitä ja etsin soveltuvia työkaluja LVI-asentajan tarpeisiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.coachtools.fi",
+      "intent": "Yritän muuttaa salasanaani CoachToolsissa ja tarkastan, onko muutos onnistunut"
+    }
+  ]
+}

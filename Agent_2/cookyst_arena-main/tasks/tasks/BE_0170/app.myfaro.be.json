@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.myfaro.be",
+      "intent": "Rechercher les informations de connexion pour accéder à mon compte myFaro"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.myfaro.be",
+      "intent": "Vérifier les conditions d'utilisation et la politique de confidentialité du site myFaro"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.myfaro.be",
+      "intent": "Explorer les fonctionnalités proposées par myFaro pour les utilisateurs non connectés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.myfaro.be",
+      "intent": "Consulter mes informations personnelles et mettre à jour mes coordonnées dans mon compte myFaro"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.myfaro.be",
+      "intent": "Gérer mes paramètres de sécurité et activer l'authentification à deux facteurs pour renforcer la sécurité de mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.myfaro.be",
+      "intent": "Accéder à l'historique de mes activités et consulter les notifications importantes liées à mon compte myFaro"
+    }
+  ]
+}

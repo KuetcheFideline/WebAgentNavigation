@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://theotherdanishguy.fi",
+      "intent": "Selvitän, mitä tuotteita sivustolla on tarjolla ja etsin tietoa niiden hinnoista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://theotherdanishguy.fi",
+      "intent": "Tutkin sivuston eri osioita ja etsin tietoa siitä, miten tilaukset toimivat ja mitä maksutapoja on käytössä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://theotherdanishguy.fi",
+      "intent": "Etsin sivustolta tietoa siitä, miten tuotteiden toimitus tapahtuu ja mitä toimitusvaihtoehtoja on käytössä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://theotherdanishguy.fi",
+      "intent": "Kirjaudun sisään ja tarkastan tilaushistoriani, jotta voin seurata tilausteni etenemistä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://theotherdanishguy.fi",
+      "intent": "Muutan tilaustani ja päivitän osoitteeni, jotta voin varmistaa, että tilaukseni toimitetaan oikeaan osoitteeseen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://theotherdanishguy.fi",
+      "intent": "Tarkastan sivuston tarjoamat alennukset ja kampanjat, jotta voin hyödyntää niitä seuraavassa tilauksessani."
+    }
+  ]
+}

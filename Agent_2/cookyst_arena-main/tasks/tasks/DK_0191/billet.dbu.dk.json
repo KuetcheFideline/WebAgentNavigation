@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://billet.dbu.dk",
+      "intent": "Jeg søger efter billetter til VM kval: Skotland - Danmark UDEBANE"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://billet.dbu.dk",
+      "intent": "Jeg vil købe et gavekort til min ven, så han kan opleve en landskampsoplevelse"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://billet.dbu.dk",
+      "intent": "Jeg søger efter information om ForDanmark BASIS og hvordan jeg kan blive medlem"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://billet.dbu.dk",
+      "intent": "Jeg vil logge ind og se mine tidligere billetkøb og transaktioner"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://billet.dbu.dk",
+      "intent": "Jeg vil købe en billet til VM kval: Skotland - Danmark UDEBANE med min eksisterende konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://billet.dbu.dk",
+      "intent": "Jeg vil se mine personlige oplysninger og sikre, at de er opdaterede i min konto"
+    }
+  ]
+}

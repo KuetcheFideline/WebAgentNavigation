@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.baratos-vuelos.es",
+      "intent": "Buscar vuelos baratos de Mallorca a Madrid para un fin de semana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.baratos-vuelos.es",
+      "intent": "Comparar precios de vuelos de ida y vuelta de Palma de Mallorca a Barcelona"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.baratos-vuelos.es",
+      "intent": "Explorar ofertas de vuelos a destinos europeos para unas vacaciones de verano"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.baratos-vuelos.es",
+      "intent": "Guardar un vuelo de Mallorca a Ibiza en mi lista de favoritos para una futura reserva"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.baratos-vuelos.es",
+      "intent": "Verificar el estado de mi reserva de vuelo de Madrid a Palma de Mallorca"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.baratos-vuelos.es",
+      "intent": "Cancelar una reserva de vuelo de Barcelona a Valencia realizada anteriormente"
+    }
+  ]
+}

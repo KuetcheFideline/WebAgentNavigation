@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m2kodit.fi",
+      "intent": "Hae Espoon vuokra-asuntoja, joissa on vähintään kaksi huonetta ja maksimivuokra on 1500 euroa kuukaudessa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m2kodit.fi",
+      "intent": "Selaa M2-Kotien senioriasuntoja Helsingissä ja tutki niiden ominaisuuksia ja palveluita."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m2kodit.fi",
+      "intent": "Etsi vuokra-asuntoja, joissa on mahdollisuus lemmikkien kanssa asumiseen ja joissa on hyvät liikenneyhteydet."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m2kodit.fi",
+      "intent": "Täytä asuntohakemus OmaM2-palvelussa ja valitse haluamasi asunnot, joissa on vähintään kolme huonetta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m2kodit.fi",
+      "intent": "Tarkastele OmaM2-palvelussa tehtyjä hakemuksia ja muokkaa niitä tarpeen mukaan."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m2kodit.fi",
+      "intent": "Vikailmoitus OmaM2-palvelussa: ilmoita vikaa asunnossa ja pyydä huoltoyhtiötä korjaamaan sen."
+    }
+  ]
+}

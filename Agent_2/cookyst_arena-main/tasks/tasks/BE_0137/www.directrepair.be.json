@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.directrepair.be",
+      "intent": "Rechercher des pièces de rechange pour ma machine à laver"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.directrepair.be",
+      "intent": "Consulter les vidéos de montage pour le réparations de mon lave-vaisselle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.directrepair.be",
+      "intent": "Trouver des accessoires pour mon réfrigérateur"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.directrepair.be",
+      "intent": "Passer commande des pièces que j'ai sélectionnées pour la réparation de ma machine à laver"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.directrepair.be",
+      "intent": "Consulter l'historique de mes commandes pour suivre mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.directrepair.be",
+      "intent": "Évaluer et laisser un commentaire sur les produits que j'ai achetés"
+    }
+  ]
+}

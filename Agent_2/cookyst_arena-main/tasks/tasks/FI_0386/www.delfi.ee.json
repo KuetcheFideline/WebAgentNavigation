@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.delfi.ee",
+      "intent": "Luen uusimpia uutisia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.delfi.ee",
+      "intent": "Etsin tietoa ilmastoiti ja luonnosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.delfi.ee",
+      "intent": "Selvitan miten voitan masennuksen ja ikasyrjinnan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.delfi.ee",
+      "intent": "Kirjaudun sisään ja kommentoin uutista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.delfi.ee",
+      "intent": "Luen kommentteja ja vastaan niihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.delfi.ee",
+      "intent": "Tallennan uutisen suosikkeihini"
+    }
+  ]
+}

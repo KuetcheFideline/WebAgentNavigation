@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flibco.com",
+      "intent": "Rechercher les horaires et les prix des navettes aéroportuaires pour un voyage à Rome"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flibco.com",
+      "intent": "Comparer les offres et les tarifs des différentes lignes de navettes aéroportuaires"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flibco.com",
+      "intent": "Lire les actualités et les mises à jour sur les nouvelles lignes et les changements d'horaires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flibco.com",
+      "intent": "Gérer mes réservations et imprimer mes billets de navette aéroportuaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flibco.com",
+      "intent": "Modifier mes informations personnelles et mes préférences de voyage dans mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flibco.com",
+      "intent": "Consulter mon historique de réservations et mes factures de navette aéroportuaire"
+    }
+  ]
+}

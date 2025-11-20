@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://afspraken.doctena.be",
+      "intent": "Je souhaite consulter les informations générales sur le site Doctena pour comprendre comment prendre rendez-vous avec un médecin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://afspraken.doctena.be",
+      "intent": "J'aimerais comparer les différents médecins disponibles sur le site pour choisir celui qui convient le mieux à mes besoins."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://afspraken.doctena.be",
+      "intent": "Je veux explorer les sections 'A propos' et 'Blog' pour en savoir plus sur les services et les actualités de Doctena."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://afspraken.doctena.be",
+      "intent": "Maintenant que je suis connecté, je souhaite prendre rendez-vous avec un médecin spécialiste pour une consultation."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://afspraken.doctena.be",
+      "intent": "Je vais consulter mon historique de rendez-vous pour voir mes prochains rendez-vous et imprimer les détails si nécessaire."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://afspraken.doctena.be",
+      "intent": "J'aimerais modifier mes informations personnelles et de compte pour assurer que tout est à jour et sécurisé."
+    }
+  ]
+}

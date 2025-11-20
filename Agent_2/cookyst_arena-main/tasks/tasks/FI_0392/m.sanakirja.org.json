@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.sanakirja.org",
+      "intent": "Haku sanalle 'kalastus' suomesta englanniksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.sanakirja.org",
+      "intent": "Tarkastella sanaparin 'mökki' yksityiskohtia ja käyttöesimerkkejä suomesta ruotsiksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.sanakirja.org",
+      "intent": "Selata sivun 'Uutta' osiota ja lukea uutisia tekoälykääntäjästä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.sanakirja.org",
+      "intent": "Tallentaa sanapari 'rahka' suomesta englanniksi omiin muistiinpanoihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.sanakirja.org",
+      "intent": "Lisätä kommentti sanapariin 'kalastus' suomesta englanniksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.sanakirja.org",
+      "intent": "Vaihtaa kieli suomesta ruotsiksi ja tarkastella sanaparin 'mökki' tietoja"
+    }
+  ]
+}

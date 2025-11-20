@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.emisorascolombianas.co",
+      "intent": "Buscar emisoras de radio en vivo de Colombia para escuchar música en línea"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.emisorascolombianas.co",
+      "intent": "Explorar la sección de podcasts para encontrar programas de interés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.emisorascolombianas.co",
+      "intent": "Descubrir emisoras de radio por género musical para encontrar la que más me guste"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.emisorascolombianas.co",
+      "intent": "Crear una lista de reproducción personalizada con mis emisoras de radio favoritas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.emisorascolombianas.co",
+      "intent": "Compartir mi lista de reproducción con amigos y familiares a través de las redes sociales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.emisorascolombianas.co",
+      "intent": "Configurar mis preferencias de emisoras de radio para recibir recomendaciones personalizadas"
+    }
+  ]
+}

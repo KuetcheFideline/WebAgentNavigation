@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.ivalo.com",
+      "intent": "Selata naisten uusia tuotteita ja etsiä uusi mekko"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.ivalo.com",
+      "intent": "Vertailla eri merkkien ja hintaluokkien vaatteita ja etsiä edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.ivalo.com",
+      "intent": "Löytää tiettyä tuotetta esittelevä sivu ja lukea sen arvostelut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.ivalo.com",
+      "intent": "Tarkistaa tilausten historia ja seurata tilauksen tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.ivalo.com",
+      "intent": "Muuttaa profiilin tietoja, kuten osoitetta tai salasanaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.ivalo.com",
+      "intent": "Lisätä tuotteita toivelistalle ja hallita toivelistan sisältöä"
+    }
+  ]
+}

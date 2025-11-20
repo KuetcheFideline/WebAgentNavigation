@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.persinfo.org",
+      "intent": "Rechercher des informations sur les événements à venir à Liège pour planifier mes loisirs"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.persinfo.org",
+      "intent": "Lire les actualités locales pour me tenir informé sur les derniers développements dans ma région"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.persinfo.org",
+      "intent": "Consulter l'agenda des événements pour trouver des idées de sorties avec ma famille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.persinfo.org",
+      "intent": "Publier un commentaire sur un article pour partager mon opinion avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.persinfo.org",
+      "intent": "Créer une alerte personnalisée pour recevoir des notifications sur les sujets qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.persinfo.org",
+      "intent": "Participer à un sondage en ligne pour donner mon avis sur les questions d'actualité"
+    }
+  ]
+}

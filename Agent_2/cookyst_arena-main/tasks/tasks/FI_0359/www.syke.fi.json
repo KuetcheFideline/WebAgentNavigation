@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.syke.fi",
+      "intent": "Hae sivustolta tietoa Suomen ympäristökeskuksen toiminnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.syke.fi",
+      "intent": "Selaa Syken uutiskirjeitä ja tilaa ne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.syke.fi",
+      "intent": "Lue Syken blogipostauksia ympäristöaiheista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.syke.fi",
+      "intent": "Täytä ympäristötiedon hakulomake ja tallenna hakutulokset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.syke.fi",
+      "intent": "Osallistu Syken järjestämään keskustelufoorumiin ympäristöaiheista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.syke.fi",
+      "intent": "Lataa Syken julkaisuja ja tutkimusraportteja"
+    }
+  ]
+}

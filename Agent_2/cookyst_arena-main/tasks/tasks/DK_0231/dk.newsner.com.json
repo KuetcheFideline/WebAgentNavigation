@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dk.newsner.com",
+      "intent": "Læse nyheder om kendte personer i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dk.newsner.com",
+      "intent": "Søge efter sundhedsnyheder og råd på siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dk.newsner.com",
+      "intent": "Se hvilke populære artikler der er på forsiden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dk.newsner.com",
+      "intent": "Del en interessant artikel om en kendt person på min Facebook-profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dk.newsner.com",
+      "intent": "Kommentere på en artikel om en nyhed i underholdningsbranchen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dk.newsner.com",
+      "intent": "Tilføje en artikel til mine gemte artikler, så jeg kan læse den senere"
+    }
+  ]
+}

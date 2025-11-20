@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://reittiopas.hameenlinna.fi",
+      "intent": "Hae lähin bussipysäkki Helsingin ja Hameenlinnan välillä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://reittiopas.hameenlinna.fi",
+      "intent": "Vertaile junien ja bussien aikatauluja työmatkalle Skanskan toimipaikkaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://reittiopas.hameenlinna.fi",
+      "intent": "Etsi reitti Helsingin keskustasta Gunillanpolku 8:aan Limingassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://reittiopas.hameenlinna.fi",
+      "intent": "Tallenna suosikkireitit työmatkalle ja kalastusretkille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://reittiopas.hameenlinna.fi",
+      "intent": "Luo oma reittikartta moottoripyöräilyreiteille Helsingin seudulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://reittiopas.hameenlinna.fi",
+      "intent": "Anna palautetta reittiopaspalvelun toimivuudesta ja ehdotuksia parantamiseksi"
+    }
+  ]
+}

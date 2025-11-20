@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kasitellen.fi",
+      "intent": "Haluaisin etsiä askartelutarvikkeita vaimoni syntymäpäivälahjaksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kasitellen.fi",
+      "intent": "Tutkisin sivuston uusimmat tuotteet ja tarjoukset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kasitellen.fi",
+      "intent": "Löytäisin ohjeita ja vinkkejä askarteluprojekteihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kasitellen.fi",
+      "intent": "Tilaisin vaimolleni syntymäpäivälahjan, jonka olen valinnut aiemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kasitellen.fi",
+      "intent": "Seuraisin tilaustani ja tarkistaisin toimitusajan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kasitellen.fi",
+      "intent": "Arvostelisin ostamaani tuotetta ja antaisin palautetta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://skoleplan.ranumefterskole.dk",
+      "intent": "Jeg søger efter information om skoleåret 2025/26 på Ranum Efterskole"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://skoleplan.ranumefterskole.dk",
+      "intent": "Jeg vil se, om der er nogen nye opdateringer på SkolePlan siden min sidste besøg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://skoleplan.ranumefterskole.dk",
+      "intent": "Jeg ønsker at se, hvordan man logger ind på SkolePlan, hvis man har glemt sin adgangskode"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://skoleplan.ranumefterskole.dk",
+      "intent": "Jeg skal tjekke mine personlige oplysninger og sikre, at de er opdateret i SkolePlan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://skoleplan.ranumefterskole.dk",
+      "intent": "Jeg søger efter muligheder for at ændre mine skolevalg for det kommende skoleår i SkolePlan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://skoleplan.ranumefterskole.dk",
+      "intent": "Jeg vil se mine eksamensresultater og karakterer fra det sidste skoleår i SkolePlan"
+    }
+  ]
+}

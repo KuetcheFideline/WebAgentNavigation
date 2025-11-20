@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.autodoc.fi",
+      "intent": "Hae auton varaosat rekisterinumerolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.autodoc.fi",
+      "intent": "Selaa auton jarruosia ja etsi sopiva jarrupala"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.autodoc.fi",
+      "intent": "Lisää ajoneuvo ja selaa sen varaosia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.autodoc.fi",
+      "intent": "Tarkista tilaus- ja maksuhistoria"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.autodoc.fi",
+      "intent": "Muokkaa profiilia ja tarkista varaosien toimitusosoitteet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.autodoc.fi",
+      "intent": "Arvostelkaa ostettuja tuotteita ja anna palautetta"
+    }
+  ]
+}

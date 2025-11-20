@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aelf.org",
+      "intent": "Rechercher les lectures de la messe pour la semaine en cours afin de me préparer pour la messe de dimanche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aelf.org",
+      "intent": "Explorer les différentes sections du site, notamment la page d'accueil, les messes, les heures et la Bible, pour mieux comprendre les ressources disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aelf.org",
+      "intent": "Consulter le calendrier liturgique pour connaître les dates importantes et les lectures associées pour la semaine"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aelf.org",
+      "intent": "Télécharger les lectures de la messe au format Word pour les imprimer et les partager avec d'autres résidents de la maison de repos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aelf.org",
+      "intent": "Accéder à la page de gestion des flux RSS pour configurer les notifications de nouvelles lectures et événements liturgiques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aelf.org",
+      "intent": "Utiliser l'API pour développer une application personnelle qui intègre les données liturgiques et les lectures de la messe pour un usage personnel"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.alexandria.fi",
+      "intent": "Tarkastan sivuston yleiskatsauksen ja etsin tietoa kirjastopalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.alexandria.fi",
+      "intent": "Selvittelen miten voin hakea kirjoja ja muuta aineistoa sivustolta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.alexandria.fi",
+      "intent": "Etsin ohjeita siitä, miten voin muuttaa selaintani uudempaan versioon"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.alexandria.fi",
+      "intent": "Tarkastan lainattujeni kirjojen luettelo ja etsin tietoa niiden palauttamisesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.alexandria.fi",
+      "intent": "Varaan uusia kirjoja ja muuta aineistoa lainattavaksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.alexandria.fi",
+      "intent": "Muokkaan omia käyttäjätietojani ja asetuksia"
+    }
+  ]
+}

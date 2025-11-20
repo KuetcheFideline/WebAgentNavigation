@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nettikassa.supertk.fi",
+      "intent": "Ladata sovellus ja kokeilla sen toimintaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nettikassa.supertk.fi",
+      "intent": "Etsiä tietoa Nettikassan turvallisuudesta ja tietosuojasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nettikassa.supertk.fi",
+      "intent": "Selvitä miten Nettikassa toimii ja mitä palveluita se tarjoaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nettikassa.supertk.fi",
+      "intent": "Tarkistaa omat tilisi ja tehdä maksuja Nettikassan kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nettikassa.supertk.fi",
+      "intent": "Muuttaa omia käyttäjätietoja ja asetuksia Nettikassassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nettikassa.supertk.fi",
+      "intent": "Tarkastella maksuhistoriaa ja ladata kuittauksia Nettikassasta"
+    }
+  ]
+}

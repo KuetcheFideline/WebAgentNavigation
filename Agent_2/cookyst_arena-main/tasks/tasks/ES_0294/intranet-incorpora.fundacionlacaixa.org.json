@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://intranet-incorpora.fundacionlacaixa.org",
+      "intent": "Intentar resolver el problema de acceso al sitio web para poder buscar información sobre programas de empleo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://intranet-incorpora.fundacionlacaixa.org",
+      "intent": "Buscar información sobre cómo contactar al equipo de soporte para informarles sobre el bloqueo y solicitar ayuda"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://intranet-incorpora.fundacionlacaixa.org",
+      "intent": "Leer las políticas de seguridad del sitio web para entender qué acciones pueden desencadenar el bloqueo y cómo evitarlos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://intranet-incorpora.fundacionlacaixa.org",
+      "intent": "Acceder a mi perfil de usuario para verificar si hay algún problema con mi cuenta que pueda estar relacionado con el bloqueo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://intranet-incorpora.fundacionlacaixa.org",
+      "intent": "Enviar un mensaje al equipo de soporte a través de la plataforma de mensajería interna para solicitar ayuda con el bloqueo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://intranet-incorpora.fundacionlacaixa.org",
+      "intent": "Revisar mis configuraciones de seguridad y privacidad para asegurarme de que no haya nada que pueda estar causando el bloqueo"
+    }
+  ]
+}

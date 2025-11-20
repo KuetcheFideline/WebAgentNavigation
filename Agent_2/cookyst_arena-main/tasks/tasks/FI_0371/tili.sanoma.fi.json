@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tili.sanoma.fi",
+      "intent": "Tarkastan Sanoman asiakastuen sivuja, jotta voin löytää apua tilin hallintaan."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tili.sanoma.fi",
+      "intent": "Selvittelen, miten voin ottaa yhteyttä Sanoman asiakaspalveluun, jos tarvitsen apua tililleni liittyvissä asioissa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tili.sanoma.fi",
+      "intent": "Luen Sanoman asiakastuen usein kysytyt kysymykset, jotta voin löytää vastauksia yleisiin kysymyksiini."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tili.sanoma.fi",
+      "intent": "Tarkastan tilini tiedot ja varmistelen, että kaikki on kunnossa ja päivitetty."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tili.sanoma.fi",
+      "intent": "Muutan tilini salasanan, jotta voin varmistaa tilini turvallisuuden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tili.sanoma.fi",
+      "intent": "Tarkastan tililleni liittyvät maksut ja varmistelen, että kaikki on kunnossa ja maksettu oikein."
+    }
+  ]
+}

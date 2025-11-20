@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://mforum.hevostalli.net",
+      "intent": "Selatakseni hevostalli.net-foorumin etusivua ja katselen mitä aiheita on käsitelty viime aikoina."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://mforum.hevostalli.net",
+      "intent": "Luen Yleinen keskustelu -osion viestejä, jotta voin tietää mitä on tapahtunut hevosten hoitamisessa ja mitä uusia juttuja on tullut esille."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://mforum.hevostalli.net",
+      "intent": "Etsin Hoitajat kohtaavat -osioon, jotta voin lukea mitä muut hoitajat ajattelevat hevosten hoidosta ja mitä vinkkejä he antavat."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://mforum.hevostalli.net",
+      "intent": "Kirjaudun sisään ja menen Yleinen keskustelu -osioon, jotta voin kirjoittaa oman viestini siitä, miten minä hoidan hevoseni ja mitä ongelmia minulla on ollut."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://mforum.hevostalli.net",
+      "intent": "Luen Ratsastus -osion viestejä ja vastaan viestiin, jossa joku kysyy vinkkejä hevosen koulutukseen, jotta voin antaa omat kokemukseni aiheesta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://mforum.hevostalli.net",
+      "intent": "Menen Hevoskasvatus -osioon ja kirjoitan uuden viestin siitä, miten minä olen kasvattanut hevoseni ja mitä ohjeita minulla on aiheesta."
+    }
+  ]
+}

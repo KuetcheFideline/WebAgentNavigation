@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.iltalehti.fi",
+      "intent": "Luen uusimmat uutiset kotimaasta ja ulkomailta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.iltalehti.fi",
+      "intent": "Selailen viihdeuutisia ja etsin tietoa suosikkiartistien keikoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.iltalehti.fi",
+      "intent": "Etsin tietoa talousuutisista ja analyysiä talouden tilasta Suomessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.iltalehti.fi",
+      "intent": "Kommentoin uusimpia uutisartikkeleita ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.iltalehti.fi",
+      "intent": "Tallennan suosikkijuttuni ja artikkelit myöhempää lukemista varten"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.iltalehti.fi",
+      "intent": "Muokkaan profiiliini ja asetuksia, kuten uutisten sähköpostitilaus"
+    }
+  ]
+}

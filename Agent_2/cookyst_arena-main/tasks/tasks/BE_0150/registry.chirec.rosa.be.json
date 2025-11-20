@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://registry.chirec.rosa.be",
+      "intent": "Rechercher un médecin spécialisé en gastroentérologie pour un problème de santé personnel"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://registry.chirec.rosa.be",
+      "intent": "Consulter les horaires d'ouverture des services d'urgence pour les enfants à Braine L'Alleud"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://registry.chirec.rosa.be",
+      "intent": "Explorer les départements médicaux disponibles pour trouver des informations sur la cardiologie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://registry.chirec.rosa.be",
+      "intent": "Prendre rendez-vous avec un médecin pour une consultation de suivi après une hospitalisation précédente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://registry.chirec.rosa.be",
+      "intent": "Consulter mes rendez-vous médicaux passés et imprimer les ordonnances associées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://registry.chirec.rosa.be",
+      "intent": "Modifier mes informations personnelles pour assurer que mes coordonnées sont à jour pour les prochains rendez-vous"
+    }
+  ]
+}

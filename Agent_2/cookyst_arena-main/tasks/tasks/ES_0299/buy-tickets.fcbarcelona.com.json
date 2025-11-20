@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://buy-tickets.fcbarcelona.com",
+      "intent": "Buscar entradas para el próximo partido de fútbol en el Camp Nou"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://buy-tickets.fcbarcelona.com",
+      "intent": "Comparar los precios de las entradas para diferentes partidos y eventos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://buy-tickets.fcbarcelona.com",
+      "intent": "Explorar la sección de noticias y actualidad del club para estar al tanto de las últimas novedades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://buy-tickets.fcbarcelona.com",
+      "intent": "Comprar entradas para el partido de la próxima semana con mi cuenta de socio"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://buy-tickets.fcbarcelona.com",
+      "intent": "Verificar el historial de compras y mis entradas pendientes de recoger en taquilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://buy-tickets.fcbarcelona.com",
+      "intent": "Configurar mis preferencias de asiento y recibir notificaciones sobre la disponibilidad de entradas para mis partidos favoritos"
+    }
+  ]
+}

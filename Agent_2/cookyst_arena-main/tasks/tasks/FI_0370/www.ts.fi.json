@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ts.fi",
+      "intent": "Luen uusimmat uutiset Turun Sanomista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ts.fi",
+      "intent": "Etsin tietoa Turun paikallisuutisista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ts.fi",
+      "intent": "Selailen Turun Sanomien etusivun uutisaiheita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ts.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutisartikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ts.fi",
+      "intent": "Luen ja vastaan Kirja-arvostelu osiossa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ts.fi",
+      "intent": "Osallistun keskusteluun Turun Sanomien foorumilla"
+    }
+  ]
+}

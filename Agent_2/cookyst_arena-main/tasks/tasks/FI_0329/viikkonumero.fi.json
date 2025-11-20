@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://viikkonumero.fi",
+      "intent": "Tarkistaa mikä viikko nyt on kalenterista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://viikkonumero.fi",
+      "intent": "Etsiä tietoa siitä, miten viikkonumero määräytyy"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://viikkonumero.fi",
+      "intent": "Katsella vuoden 2025 kalenteria ja etsiä tietoa juhlapäivien ja viikkonumeroiden yhdistämisestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://viikkonumero.fi",
+      "intent": "Tallentaa omat muistutukset tiettyihin viikkoihin tai päivämääriin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://viikkonumero.fi",
+      "intent": "Luoda ja hallita omia tapahtumakalenterimerkintöjä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://viikkonumero.fi",
+      "intent": "Jakaa kalenterimerkintöjä ystävien tai tuttavien kanssa"
+    }
+  ]
+}

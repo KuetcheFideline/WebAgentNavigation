@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ilmoittautuminen.kennelliitto.fi",
+      "intent": "Tutkin näyttelyyn ilmoittautumista varten tarjolla olevia näyttelyjä ja etsin sopivaa näyttelyä koiralleni."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ilmoittautuminen.kennelliitto.fi",
+      "intent": "Luen lisää evästeiden käytöstä ja hyväksyn ne, jotta voin jatkaa sivuston käyttöä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ilmoittautuminen.kennelliitto.fi",
+      "intent": "Selvittelen, miten voin rekisteröityä palveluun, jotta voin helpottaa ilmoittautumisprosessia tulevaisuudessa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ilmoittautuminen.kennelliitto.fi",
+      "intent": "Kirjaudun sisään ja ilmoittaudun koirani kanssa tulevaan näyttelyyn, joka on merkittävä tapahtuma koiranharrastajalle."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ilmoittautuminen.kennelliitto.fi",
+      "intent": "Tarkistan ilmoittautumisen tilan ja vahvistan, että kaikki tarvittavat tiedot ovat kunnossa ennen näyttelyä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ilmoittautuminen.kennelliitto.fi",
+      "intent": "Muokkaan profiiliaani ja päivitän tietoja, jotka liittyvät koirani ja aiempiin ilmoittautumisiin, jotta voin varmistaa, että kaikki on ajan tasalla."
+    }
+  ]
+}

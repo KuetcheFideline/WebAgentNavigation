@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ticket.edenred.fi",
+      "intent": "Tutkin Ticket Lounas -sivun tarjoamia etuja ja etsin tietoa lounaslahjakortin käytöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ticket.edenred.fi",
+      "intent": "Selvittelen miten voin käyttää Ticket Duo -korttia ja sen tarjoamia etuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ticket.edenred.fi",
+      "intent": "Etsin tietoa siitä, miten voin hallinnoida työmatkakuluja Ticket Transport -kortin avulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ticket.edenred.fi",
+      "intent": "Tarkastan käyttäjätunnustani ja salasanaani, jotta voin kirjautua sisään ja hallinnoida etujani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ticket.edenred.fi",
+      "intent": "Täytän lounaslahjakortin tilaamislomakkeen, jotta voin lunastaa etuni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ticket.edenred.fi",
+      "intent": "Tarkastan työmatkakorttini saldon ja käytön, jotta voin suunnitella matkani tehokkaammin"
+    }
+  ]
+}

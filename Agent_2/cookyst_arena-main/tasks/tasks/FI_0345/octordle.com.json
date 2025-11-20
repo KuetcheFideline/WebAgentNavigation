@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://octordle.com",
+      "intent": "Pelin säännöt ja ohjeet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://octordle.com",
+      "intent": "Päivittäisen pelin aloittaminen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://octordle.com",
+      "intent": "Sanahistorian ja tilastojen tarkastelu"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://octordle.com",
+      "intent": "Tilastojen ja edistymisen seuraaminen kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://octordle.com",
+      "intent": "Päivittäisen haastepelin pelaaminen kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://octordle.com",
+      "intent": "Sanalistojen ja pelihistorian hallinta kirjautuneena käyttäjänä"
+    }
+  ]
+}

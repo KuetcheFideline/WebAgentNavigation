@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://citizen.bmi.gv.at",
+      "intent": "Ich möchte die Kontaktinformationen für das BürgerPortal finden, um Fragen zu stellen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://citizen.bmi.gv.at",
+      "intent": "Ich will die Hilfe-Seite besuchen, um Anleitungen für die Nutzung des Portals zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://citizen.bmi.gv.at",
+      "intent": "Ich möchte die verschiedenen Dienstleistungen des BürgerPortals erkunden, um zu sehen, was angeboten wird."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://citizen.bmi.gv.at",
+      "intent": "Ich möchte mich anmelden, um meine persönlichen Daten zu überprüfen und sicherzustellen, dass sie aktuell sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://citizen.bmi.gv.at",
+      "intent": "Ich will die Anmeldung mit ID-Austria durchführen, um meine Identität zu bestätigen und weitere Dienstleistungen zu nutzen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://citizen.bmi.gv.at",
+      "intent": "Ich möchte die Kerberos-Anmeldung wiederholen, um sicherzustellen, dass ich ordnungsgemäß angemeldet bin und alle Funktionen nutzen kann."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://t-mail.centrum.sk",
+      "intent": "Ich möchte die Anmeldeseite für mein E-Mail-Konto aufrufen, um meine Nachrichten zu überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://t-mail.centrum.sk",
+      "intent": "Ich will die Registrierungsmöglichkeit für ein neues E-Mail-Konto überprüfen, falls ich noch kein Konto habe."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://t-mail.centrum.sk",
+      "intent": "Ich möchte die Hilfe- oder Kontaktseiten besuchen, um Informationen über die Verwendung des E-Mail-Dienstes zu erhalten."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://t-mail.centrum.sk",
+      "intent": "Ich will mich in mein Konto einloggen, um meine E-Mails zu lesen und auf wichtige Nachrichten zu antworten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://t-mail.centrum.sk",
+      "intent": "Ich möchte mein E-Mail-Konto konfigurieren, um bestimmte Einstellungen wie die Automatische Weiterleitung oder den Spamfilter anzupassen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://t-mail.centrum.sk",
+      "intent": "Ich will eine neue E-Mail an meine Familie schreiben, um ihnen von meinem Tag auf dem Bio-Bergbauernhof in Murau zu erzählen."
+    }
+  ]
+}

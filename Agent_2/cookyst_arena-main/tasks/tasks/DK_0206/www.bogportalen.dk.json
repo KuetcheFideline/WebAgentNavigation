@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bogportalen.dk",
+      "intent": "Jeg søger efter en ny bog at læse i min fritid, så jeg vil klikke på en kategori for at se, hvad der er tilbudt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bogportalen.dk",
+      "intent": "Jeg vil gerne vide mere om Bogportalen.dk, så jeg klikker på 'Om Bogportalen.dk' for at læse om deres formål og mål."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bogportalen.dk",
+      "intent": "Jeg har glemt min adgangskode, så jeg vil klikke på 'Hjælp, jeg kan ikke logge ind' for at få hjælp til at nulstille den."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bogportalen.dk",
+      "intent": "Jeg vil gerne købe en bog, som jeg har læst om, så jeg søger efter den specifikke titel og føjer den til min kurv."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bogportalen.dk",
+      "intent": "Jeg ønsker at anbefale en bog til en ven, så jeg søger efter bogen og deler linket til den på min sociale medie-profil."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bogportalen.dk",
+      "intent": "Jeg vil gerne se mine tidligere køb for at kunne anbefale lignende bøger til andre, så jeg klikker på 'Min konto' og ser på mine købshistorik."
+    }
+  ]
+}

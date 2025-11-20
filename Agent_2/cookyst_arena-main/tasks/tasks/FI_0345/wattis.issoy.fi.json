@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wattis.issoy.fi",
+      "intent": "Tutkin sivuston etusivun sisältöä, jotta voin ymmärtää, mitä palveluja Issoy tarjoaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wattis.issoy.fi",
+      "intent": "Etsin sivustolta tietoa siitä, miten voin kirjautua sisään käyttämällä sähköpostiosoitettani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wattis.issoy.fi",
+      "intent": "Selvittelen, onko sivustolla mahdollista vaihtaa kieli suomeksi, jotta voin navigoida helpommin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wattis.issoy.fi",
+      "intent": "Tarkastan omat tilastot ja raportit, jotka ovat käytettävissä kirjautuneena käyttäjänä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wattis.issoy.fi",
+      "intent": "Muokkaan profiiliini ja tarkastan, että kaikki tietoni ovat ajan tasalla ja oikein."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wattis.issoy.fi",
+      "intent": "Käyn läpi sivuston asetuksia ja varmistelen, että olen tilannut ja konfiguroinut palvelut oikein."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.agf-forum.dk",
+      "intent": "Jeg søger efter nyheder om AGF's kommende kampe"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.agf-forum.dk",
+      "intent": "Jeg vil læse om transfervinduerne og hvilke spillere AGF har købt eller solgt"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.agf-forum.dk",
+      "intent": "Jeg søger efter en tråd om AGF's nye stadion og Kongelunden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.agf-forum.dk",
+      "intent": "Jeg vil skrive en kommentar på en eksisterende tråd om AGF's seneste kamp"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.agf-forum.dk",
+      "intent": "Jeg vil oprette en ny tråd om AGF's chancer i den kommende sæson"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.agf-forum.dk",
+      "intent": "Jeg vil sende en privat besked til en anden bruger omkring en spiller, som jeg synes AGF bør købe"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://evidensia.fi",
+      "intent": "Hae lähin eläinlääkäriasema Sulkavasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://evidensia.fi",
+      "intent": "Selvitä koiran rokotusten hinta Evidensia Eläinlääkäriasemalla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://evidensia.fi",
+      "intent": "Lue lisää kissojen hammassairauksien hoidosta Evidensia-erikoisklinikoilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://evidensia.fi",
+      "intent": "Varaa aika kissan terveystarkastukseen Evidensia Eläinlääkäriasemalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://evidensia.fi",
+      "intent": "Tilaa koiran ruoka Evidensia Kaupasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://evidensia.fi",
+      "intent": "Kirjaudu sisään ja selvitä koiran viimeisimmän terveystarkastuksen tulokset"
+    }
+  ]
+}

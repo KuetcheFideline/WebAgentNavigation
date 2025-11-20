@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mijn.fluvius.be",
+      "intent": "Consulter les informations générales sur les services énergétiques proposés par Fluvius"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mijn.fluvius.be",
+      "intent": "Rechercher les coordonnées du service client pour obtenir des informations sur les tarifs et les offres spéciales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mijn.fluvius.be",
+      "intent": "Explorer les sections du site web pour comprendre les différentes options de gestion de compte et de suivi de consommation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mijn.fluvius.be",
+      "intent": "Vérifier mon historique de consommation d'énergie pour identifier les périodes de forte utilisation et optimiser ma facture"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mijn.fluvius.be",
+      "intent": "Gérer mes paramètres de compte pour recevoir des notifications personnalisées sur mes consommations et les promotions en cours"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mijn.fluvius.be",
+      "intent": "Effectuer une simulation de consommation pour anticiper mes coûts énergétiques futurs et planifier mes dépenses"
+    }
+  ]
+}

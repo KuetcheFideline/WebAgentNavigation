@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mijn.bibliotheek.be",
+      "intent": "Je souhaite consulter les conditions d'utilisation de la bibliothèque en ligne pour comprendre les règles et les responsabilités liées à l'utilisation du site."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mijn.bibliotheek.be",
+      "intent": "Vous voulez explorer les différentes sections du site pour découvrir les services et les ressources proposés par la bibliothèque en ligne, notamment les livres et les documents disponibles."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mijn.bibliotheek.be",
+      "intent": "Vous souhaitez rechercher des informations sur les événements et les activités organisés par la bibliothèque, tels que des conférences ou des ateliers, pour vous tenir informé et peut-être y participer."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mijn.bibliotheek.be",
+      "intent": "Vous voulez accéder à votre compte pour consulter vos emprunts en cours et les dates de retour, ainsi que pour gérer vos réservations de livres et de documents."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mijn.bibliotheek.be",
+      "intent": "Vous souhaitez personnaliser vos préférences de lecture et configurer vos alertes pour recevoir des recommandations de livres et de documents en fonction de vos intérêts."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mijn.bibliotheek.be",
+      "intent": "Vous voulez laisser des commentaires ou des évaluations sur les livres et les documents que vous avez empruntés pour aider les autres utilisateurs à faire leurs choix et pour contribuer à la communauté de la bibliothèque en ligne."
+    }
+  ]
+}

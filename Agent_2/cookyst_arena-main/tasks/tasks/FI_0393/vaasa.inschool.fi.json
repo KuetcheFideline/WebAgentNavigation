@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Luen Wilman esittelysivun, jotta voin ymmärtää, mitä Wilma on ja miten se toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Selvittelen, miten voin muuttaa kieltä suomeksi, jotta voin navigoida sivustolla helpommin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten voin tilata uuden salasanani, jos unohdan sen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan, mitä kursseja on tarjolla, ja valitsen niitä, jotka kiinnostavat minua."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Tarkistan Wilman kautta poissaoloni ja viestin opettajieni kanssa, jos minulla on kysymyksiä tai huolenaiheita."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaasa.inschool.fi",
+      "intent": "Luen koulun tiedotteita ja seuraan, mitä uutta on tapahtumassa, jotta voin pysyä ajan tasalla."
+    }
+  ]
+}

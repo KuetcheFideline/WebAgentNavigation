@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://spiller.ddbu-admin.dk",
+      "intent": "Jeg søger efter information om DDBU's nyhedsbrev og hvordan jeg kan tilmelde mig"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://spiller.ddbu-admin.dk",
+      "intent": "Jeg vil læse mere om DDBU's turneringsudvalg og kontaktoplysninger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://spiller.ddbu-admin.dk",
+      "intent": "Jeg søger efter vejledning om databeskyttelsesloven og GDPR på DDBU's hjemmeside"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://spiller.ddbu-admin.dk",
+      "intent": "Jeg vil logge ind og ændre min klub og spillerinfo som administrator"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://spiller.ddbu-admin.dk",
+      "intent": "Jeg vil tilføje en spillers mailadresse og telefonnummer til spillerinfo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://spiller.ddbu-admin.dk",
+      "intent": "Jeg vil slette en spiller fra spillerinfo og følge vejledningen på hjemmesiden"
+    }
+  ]
+}

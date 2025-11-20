@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tomaticket.es",
+      "intent": "Buscar eventos de música en vivo en Madrid para asistir con mis amigos del piso compartido"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tomaticket.es",
+      "intent": "Explorar las opciones de eventos de comedia en la sección de 'Humor/Comedia' para encontrar algo que me guste"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tomaticket.es",
+      "intent": "Investigar sobre la posibilidad de crear un evento gratuito con Tomaticket para una fiesta de cumpleaños en mi piso"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tomaticket.es",
+      "intent": "Comprar entradas para el evento 'WAH en Madrid' para mí y mis amigos después de iniciar sesión en mi cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tomaticket.es",
+      "intent": "Configurar mis preferencias de eventos en la sección de 'Mi cuenta' para recibir notificaciones sobre eventos de música en vivo en Madrid"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tomaticket.es",
+      "intent": "Verificar el estado de mis compras de entradas anteriores en la sección de 'Mis pedidos' después de iniciar sesión"
+    }
+  ]
+}

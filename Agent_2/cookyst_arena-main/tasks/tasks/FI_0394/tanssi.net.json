@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tanssi.net",
+      "intent": "Hae tanssitapahtumia läheltäni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tanssi.net",
+      "intent": "Selaa tanssikursseja ja -tapahtumia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tanssi.net",
+      "intent": "Etsi tietoa tanssiopettajista ja -kouluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tanssi.net",
+      "intent": "Varaa paikka tanssitapahtumaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tanssi.net",
+      "intent": "Lisää tanssitapahtuma kalenteriin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tanssi.net",
+      "intent": "Arvostele ja kommentoi tanssitapahtumaa"
+    }
+  ]
+}

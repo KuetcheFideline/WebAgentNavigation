@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.auvasa.es",
+      "intent": "Buscar información sobre los horarios y rutas de los autobuses en la ciudad de Valladolid para planificar mi ruta diaria a la universidad."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.auvasa.es",
+      "intent": "Consultar las tarifas y precios de los billetes de autobús para saber cuánto cuesta viajar diariamente y si hay opciones de abono o descuento para estudiantes."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.auvasa.es",
+      "intent": "Explorar la sección de noticias y avisos para estar al tanto de cualquier cambio o incidencia en los servicios de autobús que pueda afectar mi rutina diaria."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.auvasa.es",
+      "intent": "Iniciar sesión en mi cuenta de usuario para acceder a mis datos personales y consultar mi historial de viajes y gastos en los autobuses de Auvasa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.auvasa.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre cambios en los horarios o rutas de los autobuses que suelo utilizar, así como promociones o descuentos especiales para usuarios registrados."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.auvasa.es",
+      "intent": "Realizar una consulta o enviar un mensaje al servicio de atención al cliente de Auvasa a través de mi cuenta de usuario para resolver una duda o problema con mi tarjeta de autobús."
+    }
+  ]
+}

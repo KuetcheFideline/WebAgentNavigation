@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.alandstrafiken.ax",
+      "intent": "Hae reitti Ålandstrafikenin sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.alandstrafiken.ax",
+      "intent": "Selaa färjeprisia ja vertaile hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.alandstrafiken.ax",
+      "intent": "Etsi tietoa bussien aikatauluista ja reiteistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.alandstrafiken.ax",
+      "intent": "Varaa paikka färjelle ja maksaa matka"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.alandstrafiken.ax",
+      "intent": "Tarkista varaukseni ja muokkaa niitä tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.alandstrafiken.ax",
+      "intent": "Ostetaan bussilippu ja tulostetaan se"
+    }
+  ]
+}

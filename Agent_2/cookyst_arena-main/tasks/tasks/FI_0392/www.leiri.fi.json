@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leiri.fi",
+      "intent": "Etsin tietoa lastenleireistä ja niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leiri.fi",
+      "intent": "Haluan tietää, miten voinkin ilmoittautua leireille ja mitkä leirit ovat avoimia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leiri.fi",
+      "intent": "Luen leirilehteä ja etsin tietoa leiriohjelmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leiri.fi",
+      "intent": "Kirjaudun omalle sivulleni ja tarkistan leirihakuni tilan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leiri.fi",
+      "intent": "Tee ilmoittautuminen leirille ja maksan leirimaksun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leiri.fi",
+      "intent": "Lähetän leiriterveisiä lapselleni leiriltä"
+    }
+  ]
+}

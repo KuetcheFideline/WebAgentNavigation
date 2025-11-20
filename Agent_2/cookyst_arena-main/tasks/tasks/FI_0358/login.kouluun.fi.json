@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.kouluun.fi",
+      "intent": "Tutkin Kouluun.fi-palvelun rekisteröitymisvaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.kouluun.fi",
+      "intent": "Etsin tietoa Kouluun.fi-palvelun käyttöehdoista ja tietosuojasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.kouluun.fi",
+      "intent": "Selvittelen, miten voin muuttaa salasanani Kouluun.fi-palvelussa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.kouluun.fi",
+      "intent": "Tarkastan henkilökohtaiset tiedot ja varmistan, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.kouluun.fi",
+      "intent": "Käyn läpi palvelun asetuksia ja määrittelen, mitkä tiedot haluan näkyvän julkisesti"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.kouluun.fi",
+      "intent": "Lähetän viestin palvelun asiakastukeen, koskien teknisiä ongelmia, joita olen kohdannut"
+    }
+  ]
+}

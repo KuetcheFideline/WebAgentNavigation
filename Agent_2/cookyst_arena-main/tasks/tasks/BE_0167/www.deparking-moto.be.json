@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.deparking-moto.be",
+      "intent": "Rechercher des motos d'occasion à Tournai pour comparer les prix et trouver un bon plan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.deparking-moto.be",
+      "intent": "Consulter les annonces de motos de la marque Yamaha pour trouver un modèle qui correspond à mes goûts"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.deparking-moto.be",
+      "intent": "Utiliser le filtre de recherche pour trouver des motos d'occasion avec une cylindrée supérieure à 650cc"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.deparking-moto.be",
+      "intent": "Créer une alerte pour recevoir des notifications lorsque de nouvelles motos d'occasion sont publiées sur le site"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.deparking-moto.be",
+      "intent": "Ajouter une moto à mes favoris pour la retrouver facilement plus tard et comparer ses caractéristiques avec d'autres modèles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.deparking-moto.be",
+      "intent": "Modifier mes paramètres de recherche pour recevoir des alertes personnalisées sur les motos d'occasion qui correspondent à mes critères de recherche"
+    }
+  ]
+}

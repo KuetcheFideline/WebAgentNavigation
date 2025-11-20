@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.amadeus360.de",
+      "intent": "Ich möchte mich als neuer Mitarbeiter für den Service registrieren, um Zugang zu den Mitarbeiterbereichen zu erhalten."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.amadeus360.de",
+      "intent": "Ich will die AGBs und den Datenschutz der LINA TeamCloud lesen, um sicherzustellen, dass ich mit den Bedingungen einverstanden bin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.amadeus360.de",
+      "intent": "Ich möchte den Link 'Passwort vergessen' nutzen, um mein Passwort zurückzusetzen, da ich es vergessen habe."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.amadeus360.de",
+      "intent": "Ich will meine Mitarbeiterdaten im LINA TeamCloud-System bearbeiten, um sicherzustellen, dass alle Informationen aktuell sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.amadeus360.de",
+      "intent": "Ich möchte den LINA Dispatching-Bereich aufrufen, um meine Arbeitszeiten und Aufgaben zu überprüfen und zu planen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.amadeus360.de",
+      "intent": "Ich will den LINA StoreDashboard-Bereich nutzen, um die Bestellungen und den Lagerbestand zu überprüfen und zu verwalten."
+    }
+  ]
+}

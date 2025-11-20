@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://h.centraldereservas.com",
+      "intent": "Revisar la página de inicio para asegurarme de que la conexión a internet esté estable antes de continuar."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://h.centraldereservas.com",
+      "intent": "Buscar información sobre cómo puedo reservar un hotel o un vuelo a través de la plataforma."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://h.centraldereservas.com",
+      "intent": "Explorar las diferentes secciones de la página para ver qué tipo de servicios y ofertas están disponibles."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://h.centraldereservas.com",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis reservas y gestionar mis viajes pendientes."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://h.centraldereservas.com",
+      "intent": "Configurar mis preferencias de viaje y guardar mis datos de pago para futuras reservas."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://h.centraldereservas.com",
+      "intent": "Verificar el estado de mis puntos o recompensas en el programa de fidelidad de la plataforma."
+    }
+  ]
+}

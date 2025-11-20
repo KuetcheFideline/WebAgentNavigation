@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.apteekkiverkkokauppa.fi",
+      "intent": "Tarkastan sivuston virheilmoitusta ja yritän ymmärtää, mikä meni vikaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.apteekkiverkkokauppa.fi",
+      "intent": "Etsin sivustolta tietoa lääkkeiden saatavuudesta ja hinnoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.apteekkiverkkokauppa.fi",
+      "intent": "Selvittelen, onko sivustolla mahdollista tehdä lääkevarauksia verkossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.apteekkiverkkokauppa.fi",
+      "intent": "Tarkastan omaa lääkevaraushistoriaani ja tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.apteekkiverkkokauppa.fi",
+      "intent": "Muutan omia tietojani ja salasanaani sivustolla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.apteekkiverkkokauppa.fi",
+      "intent": "Tee lääkevarausta ja maksan sen verkkomaksulla"
+    }
+  ]
+}

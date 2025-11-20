@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.socialsecurity.be",
+      "intent": "Vérifier les raisons pour lesquelles l'application n'est pas disponible"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.socialsecurity.be",
+      "intent": "Rechercher des informations sur les démarches à suivre pour accéder à la sécurité sociale en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.socialsecurity.be",
+      "intent": "Essayer de trouver une alternative pour accéder à mes informations de sécurité sociale"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.socialsecurity.be",
+      "intent": "Consulter mes informations personnelles et mes prestations de sécurité sociale"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.socialsecurity.be",
+      "intent": "Déclarer un changement d'adresse ou de situation familiale pour mettre à jour mes informations de sécurité sociale"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.socialsecurity.be",
+      "intent": "Imprimer ou télécharger mes documents de sécurité sociale pour les besoins de mon stage au Parlement Européen"
+    }
+  ]
+}

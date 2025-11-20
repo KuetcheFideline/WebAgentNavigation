@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.waffengebraucht.at",
+      "intent": "Ich möchte eine Liste von verfügbaren Waffen auf der Website anzeigen, um meine Kaufmöglichkeiten zu überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.waffengebraucht.at",
+      "intent": "Ich möchte nach einem bestimmten Waffenmodell suchen, um dessen Preis und Verfügbarkeit zu überprüfen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.waffengebraucht.at",
+      "intent": "Ich möchte die Datenschutzerklärung der Website lesen, um zu verstehen, wie meine Daten verwendet werden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.waffengebraucht.at",
+      "intent": "Ich möchte mein Konto einrichten und meine Kontaktdaten bearbeiten, um sicherzustellen, dass ich über neue Angebote informiert werde."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.waffengebraucht.at",
+      "intent": "Ich möchte eine Waffe kaufen und den Bestellprozess durchführen, um meine neue Waffe zu erhalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.waffengebraucht.at",
+      "intent": "Ich möchte meine Bestellhistorie überprüfen, um zu sehen, welche Waffen ich in der Vergangenheit gekauft habe."
+    }
+  ]
+}

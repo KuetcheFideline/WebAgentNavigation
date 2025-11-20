@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tarotpuoti.fi",
+      "intent": "Selvittää, mitä tuotteita tarotpuodista on tarjolla ja mitä niiden hinnat ovat."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tarotpuoti.fi",
+      "intent": "Löytää tietoa siitä, miten toimitus tapahtuu ja mitkä ovat toimituskulut."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tarotpuoti.fi",
+      "intent": "Etsiä tietoa tarot-korttien merkityksistä ja miten niitä voidaan käyttää."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tarotpuoti.fi",
+      "intent": "Tehdä tilaus ja valita toimitustapa ja maksutapa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tarotpuoti.fi",
+      "intent": "Tarkastella tilaushistoriaa ja seurata tilauksen etenemistä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tarotpuoti.fi",
+      "intent": "Jättää arvostelun tuotteesta, joka on ollut tilattuna ja toimitettuna."
+    }
+  ]
+}

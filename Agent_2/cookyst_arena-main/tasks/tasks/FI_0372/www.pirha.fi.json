@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Hae tietoa masennuksesta ja sen hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Etsi lähin terveysasema ja sen ajanvarausjärjestelmä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Selaa palveluja ja ohjeita työttömien terveystarkastuksiin liittyen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Varaa aika lääkärin vastaanotolle ja täytä etukäteen potilastiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Tarkastele omaa hoitokuuria ja lääkehoitoa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pirha.fi",
+      "intent": "Kirjaudu palveluun ja tee terveystarkastusajanvaraus"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.findogs.fi",
+      "intent": "Etsin koiranruokaa ja -tarvikkeita kahvilani koiraystäville"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.findogs.fi",
+      "intent": "Selvitan, miten voin rekisteröityä asiakkaaksi ja mitä etuja siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.findogs.fi",
+      "intent": "Katselen tarjouksia ja etsin edullisia koiratarvikkeita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.findogs.fi",
+      "intent": "Tarkastan tilaushistoriani ja etsin mahdollisia alennuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.findogs.fi",
+      "intent": "Muutan omia tietojani, koska osoitetani on muuttunut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.findogs.fi",
+      "intent": "Lisään uuden osoitteen ostoskoriini, jotta voin nopeasti tehdä uusia tilauksia"
+    }
+  ]
+}

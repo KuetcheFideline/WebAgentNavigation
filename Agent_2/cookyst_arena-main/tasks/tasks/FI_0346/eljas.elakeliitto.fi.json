@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eljas.elakeliitto.fi",
+      "intent": "Tutkin sivuston etusivun ja etsin tietoa eläkkeen laskemisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eljas.elakeliitto.fi",
+      "intent": "Selvittelen miten voin muuttaa kieltä suomeksi ja tutkin sivuston navigaatiota"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eljas.elakeliitto.fi",
+      "intent": "Etsin tietoa eläkkeen maksamisesta ja tutkin miten voin tehdä muutoksia eläkkeeni maksamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eljas.elakeliitto.fi",
+      "intent": "Kirjaudun sisään ja tarkistan eläkepotilaani tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eljas.elakeliitto.fi",
+      "intent": "Tutkin eläkkeeni maksuhistoriaa ja etsin tietoa eläkkeeni maksamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eljas.elakeliitto.fi",
+      "intent": "Muutan eläkepotilaani tietoja ja tallennan muutokset"
+    }
+  ]
+}

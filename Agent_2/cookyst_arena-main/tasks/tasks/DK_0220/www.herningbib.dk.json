@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.herningbib.dk",
+      "intent": "Jeg søger efter information om åbningstiderne for biblioteket i Herning"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.herningbib.dk",
+      "intent": "Jeg ønsker at se, hvilke arrangementer der er i biblioteket i december"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.herningbib.dk",
+      "intent": "Jeg vil gerne vide mere om bibliotekets tilbud til børn og unge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.herningbib.dk",
+      "intent": "Jeg ønsker at reservere en bog, som er udlånt, og få besked, når den er tilgængelig"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.herningbib.dk",
+      "intent": "Jeg vil gerne se mine udlånte bøger og deres tilbageleveringsdato"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.herningbib.dk",
+      "intent": "Jeg søger efter at downloade en e-bog fra bibliotekets digitale samling"
+    }
+  ]
+}

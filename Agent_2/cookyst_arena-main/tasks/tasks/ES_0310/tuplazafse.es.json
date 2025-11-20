@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuplazafse.es",
+      "intent": "Quiero saber a qué plazas de residente puedo acceder, así que voy a introducir mis datos para recibir mi enlace secreto y poder ver mis posibilidades."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuplazafse.es",
+      "intent": "Deseo colaborar con la página, así que voy a hacer una donación a través de PayPal para apoyar su trabajo."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuplazafse.es",
+      "intent": "Quiero estar al tanto de las novedades, por lo que voy a seguir a TuPlazaFSE en Twitter para recibir actualizaciones sobre la asignación de plazas de FSE."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuplazafse.es",
+      "intent": "Ya estoy registrado, así que voy a iniciar sesión para poder acceder a mis simulaciones de asignación de plazas y ver si números menores están interesados por las plazas que quiero."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuplazafse.es",
+      "intent": "Después de iniciar sesión, voy a compartir mis resultados con otros usuarios para colaborar y obtener una mejor comprensión de mis posibilidades de acceder a una plaza de residente."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuplazafse.es",
+      "intent": "Quiero ver cómo han cambiado mis posibilidades de acceder a una plaza de residente, así que voy a actualizar mis datos y volver a realizar la simulación para obtener resultados actualizados."
+    }
+  ]
+}

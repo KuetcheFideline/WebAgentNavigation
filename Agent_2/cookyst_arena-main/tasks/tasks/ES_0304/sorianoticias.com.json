@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sorianoticias.com",
+      "intent": "Buscar noticias sobre el tiempo en Soria para planificar mis próximas vacaciones"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sorianoticias.com",
+      "intent": "Explorar la sección de deportes para ver los resultados del equipo de fútbol local"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sorianoticias.com",
+      "intent": "Leer artículos sobre la cultura y eventos en Soria para mantenerme informado sobre la comunidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sorianoticias.com",
+      "intent": "Comentar en un artículo sobre la situación política en Soria para expresar mi opinión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sorianoticias.com",
+      "intent": "Guardar un artículo sobre la economía local en mi lista de favoritos para leerlo más tarde"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sorianoticias.com",
+      "intent": "Enviar un mensaje al equipo de redacción para sugerir un tema de interés para una futura publicación"
+    }
+  ]
+}

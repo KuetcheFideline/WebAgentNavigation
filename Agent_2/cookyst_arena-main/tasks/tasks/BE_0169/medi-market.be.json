@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://medi-market.be",
+      "intent": "Rechercher des produits de soins pour la peau pour mon épouse"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://medi-market.be",
+      "intent": "Comparer les prix des dentifrices pour trouver le meilleur rapport qualité-prix"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://medi-market.be",
+      "intent": "Explorer les promotions du moment pour trouver des offres intéressantes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://medi-market.be",
+      "intent": "Consulter mes commandes passées pour retrouver un produit que j'ai déjà acheté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://medi-market.be",
+      "intent": "Gérer mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://medi-market.be",
+      "intent": "Utiliser mes points de fidélité pour obtenir des réductions sur mes prochaines achats"
+    }
+  ]
+}

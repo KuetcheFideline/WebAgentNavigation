@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.watski.fi",
+      "intent": "Hae veneenhoitotuotteita ja -tarvikkeita sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.watski.fi",
+      "intent": "Selaa veneen puhdistus- ja hoitotuotteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.watski.fi",
+      "intent": "Etsi tietoa veneen maalauksesta ja pintakäsittelystä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.watski.fi",
+      "intent": "Tilaa veneenhoitotuotteita ja -tarvikkeita verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.watski.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.watski.fi",
+      "intent": "Muokkaa asiakastietoja ja osoitetta"
+    }
+  ]
+}

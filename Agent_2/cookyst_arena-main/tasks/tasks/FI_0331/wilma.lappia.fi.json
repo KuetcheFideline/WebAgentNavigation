@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wilma.lappia.fi",
+      "intent": "Tarkistaa uuden Wilman kirjautumisosoitteen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wilma.lappia.fi",
+      "intent": "Etsiä tietoa Wilman palveluista ja ominaisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wilma.lappia.fi",
+      "intent": "Selvitä, miten uusi osoite vaikuttaa omiin opintoihini"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lappia.inschool.fi",
+      "intent": "Tarkastella omia opintotietoja ja kurssien tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lappia.inschool.fi",
+      "intent": "Viestintä opettajien kanssa kurssien suorittamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lappia.inschool.fi",
+      "intent": "Tarkastella ja hallita omia opintosuunnitelmia ja tavoitteita"
+    }
+  ]
+}

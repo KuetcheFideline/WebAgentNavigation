@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.verkeerstoetszilver.be",
+      "intent": "Rechercher des informations sur les dates des examens de conduite pour le 3e leerjaar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.verkeerstoetszilver.be",
+      "intent": "Consulter la section 'Veelgestelde vragen' pour obtenir des réponses aux questions fréquentes sur le test de conduite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.verkeerstoetszilver.be",
+      "intent": "Explorer le contenu de la section 'Lesmateriaal' pour trouver des ressources pédagogiques utiles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.verkeerstoetszilver.be",
+      "intent": "Se connecter à l'espace 'Leerlingen' pour accéder au plateforme d'entraînement en ligne avec mon code unique ou mon LeerID"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.verkeerstoetszilver.be",
+      "intent": "Consulter mon dossier de classe pour suivre mes progrès et mes résultats aux tests de conduite"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.verkeerstoetszilver.be",
+      "intent": "Utiliser le système de messagerie pour poser des questions à mon enseignant ou à l'administrateur du site"
+    }
+  ]
+}

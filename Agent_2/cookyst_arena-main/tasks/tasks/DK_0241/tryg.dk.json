@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tryg.dk",
+      "intent": "Jeg søger efter en forsikring, der dækker mine behov som pensionist"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tryg.dk",
+      "intent": "Jeg vil sammenligne forskellige forsikringsmuligheder for at finde den bedste løsning for mig"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tryg.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan få hjælp til at vælge den rigtige forsikring"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tryg.dk",
+      "intent": "Jeg vil se mine eksisterende forsikringspoliser og kontrollere, om de stadig dækker mine behov"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tryg.dk",
+      "intent": "Jeg vil ændre mine forsikringsoplysninger, så de reflekterer mine nuværende omstændigheder"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tryg.dk",
+      "intent": "Jeg vil anmode om et tilbud på en ny forsikring, der passer til mine nuværende behov"
+    }
+  ]
+}

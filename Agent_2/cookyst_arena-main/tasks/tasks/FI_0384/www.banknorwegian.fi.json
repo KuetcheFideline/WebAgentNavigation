@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Hae tietoa kulutusluotosta ja sen ehdoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Vertaile eri lainojen ja luottokorttien tarjoajia ja etsi paras vaihtoehto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Lue lisää säästötilien ominaisuuksista ja avaa uusi säästötili"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Tarkista lainojeni ja luottokorttien saldo ja tee maksuja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Hae lisää lainaa olemassa olevaan lainaan tai muuta lainasopimusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Ostetaan vakuutuksia luottokorttiin tai lainaan"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sleepy.be",
+      "intent": "Activer les cookies et le JavaScript pour accéder au contenu du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sleepy.be",
+      "intent": "Rechercher des informations sur les produits ou services proposés par le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sleepy.be",
+      "intent": "Explorer les différentes sections du site pour comprendre son contenu et ses fonctionnalités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sleepy.be",
+      "intent": "Consulter mes commandes passées et mes informations de compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sleepy.be",
+      "intent": "Modifier mes informations de compte et mes préférences de notification"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sleepy.be",
+      "intent": "Accéder à des contenus exclusifs ou à des offres spéciales réservées aux utilisateurs connectés"
+    }
+  ]
+}

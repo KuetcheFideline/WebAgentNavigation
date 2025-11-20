@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.madrid.es",
+      "intent": "Buscar información sobre los trámites para solicitar certificado de empadronamiento en el Ayuntamiento de Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.madrid.es",
+      "intent": "Explorar las noticias y actualidad del Ayuntamiento de Madrid sobre la lucha contra la violencia de género"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.madrid.es",
+      "intent": "Consultar el calendario de actividades y eventos en la ciudad de Madrid para el mes de noviembre"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.madrid.es",
+      "intent": "Solicitar cita previa en la Oficina de Atención a la Ciudadanía para realizar un trámite relacionado con el IBI"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.madrid.es",
+      "intent": "Realizar un pago por Bizum en el chat para un servicio municipal"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.madrid.es",
+      "intent": "Acceder al portal de tramites para consultar el estado de una solicitud de subvención por nacimiento o adopción de menor"
+    }
+  ]
+}

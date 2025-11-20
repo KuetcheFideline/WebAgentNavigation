@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mygls.gls-spain.es",
+      "intent": "Buscar información sobre cómo rastrear un paquete en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mygls.gls-spain.es",
+      "intent": "Descubrir los servicios de entrega que ofrece GLS en España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mygls.gls-spain.es",
+      "intent": "Verificar los plazos de entrega y los precios para enviar un paquete desde Madrid"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mygls.gls-spain.es",
+      "intent": "Iniciar sesión para acceder a mi cuenta y ver el historial de mis envíos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mygls.gls-spain.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre el estado de mis paquetes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mygls.gls-spain.es",
+      "intent": "Imprimir una etiqueta de envío para un paquete que debo enviar a un cliente"
+    }
+  ]
+}

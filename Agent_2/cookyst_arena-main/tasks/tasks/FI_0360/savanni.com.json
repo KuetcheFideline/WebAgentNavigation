@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://savanni.com",
+      "intent": "Selata uusimmat tuotteet ja etsiä koruja lapsen syntymäpäivälahjaksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://savanni.com",
+      "intent": "Etsiä edullisia koruja itselleen, esimerkiksi nenäkorua tai korvarenkaita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://savanni.com",
+      "intent": "Ladata Savannin sovellus ja tilata uutiskirje, jotta saan kuulla uusista tuotteista ja tarjouksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://savanni.com",
+      "intent": "Tarkistaa tilaustani ja seurata pakettini toimitusta, koska olen odottanut uusia koruja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://savanni.com",
+      "intent": "Kirjautua sisään ja tarkistaa oman profiilini, jotta voin muokata tilaustani ja tallentaa suosikkini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://savanni.com",
+      "intent": "Kirjautua sisään ja kirjoittaa arvostelua tuotteesta, jonka olen ostanut, jotta muut asiakkaat saavat hyödyllistä tietoa"
+    }
+  ]
+}

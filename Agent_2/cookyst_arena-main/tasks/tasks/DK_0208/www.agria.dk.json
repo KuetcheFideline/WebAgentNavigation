@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.agria.dk",
+      "intent": "Jeg søger efter en forsikring til min hund, så jeg vil klikke på 'Hund' og udfylde formularen for at beregne prisen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.agria.dk",
+      "intent": "Jeg vil læse mere om Agrias digitale dyrlægerådgivning, så jeg klikker på 'Læs mere om vores digitale dyrlægerådgivning'."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.agria.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan give min hund en god sommer, så jeg klikker på 'Pas godt på hunden om sommeren' og læser artiklen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.agria.dk",
+      "intent": "Jeg vil logge ind på Mit Agria for at se mine forsikringsoplysninger og eventuelt anmeldte skader, så jeg klikker på 'Log ind på Mit Agria'."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.agria.dk",
+      "intent": "Jeg har en skade, som jeg gerne vil anmeldte, så jeg klikker på 'Anmeld skade' efter login."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.agria.dk",
+      "intent": "Jeg vil downloade Agrias app for at få en digital dyrlægekonsultation og se mine forsikringsoplysninger, så jeg klikker på 'Hent appen her' efter login."
+    }
+  ]
+}

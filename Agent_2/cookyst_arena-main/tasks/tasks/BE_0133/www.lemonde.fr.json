@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lemonde.fr",
+      "intent": "Rechercher des articles sur les dernières actualités en France et dans le monde pour rester informé sur les événements actuels."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lemonde.fr",
+      "intent": "Explorer la section 'Économie' pour comprendre les tendances économiques actuelles et leur impact sur l'Europe."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lemonde.fr",
+      "intent": "Lire les dernières nouvelles sur le site pour rester à jour sur les événements politiques et sociaux en France et à l'étranger."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lemonde.fr",
+      "intent": "Accéder à la section 'Actualités' réservée aux abonnés pour lire des articles en profondeur sur les sujets qui m'intéressent."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lemonde.fr",
+      "intent": "Consulter les archives des articles pour rechercher des informations spécifiques sur des événements passés qui m'intéressent."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lemonde.fr",
+      "intent": "Gérer mon abonnement et mes préférences de lecture pour personnaliser mon expérience sur le site."
+    }
+  ]
+}

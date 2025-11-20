@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.actief.be",
+      "intent": "Rechercher des offres d'emploi dans le secteur des services à La Louvière"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.actief.be",
+      "intent": "Consulter les informations sur les services de placement proposés par Actief"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.actief.be",
+      "intent": "Explorer les différentes rubriques du site pour me familiariser avec les fonctionnalités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.actief.be",
+      "intent": "Mettre à jour mon profil pour améliorer la pertinence des offres d'emploi suggérées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.actief.be",
+      "intent": "Gérer mes alertes d'emploi pour recevoir des notifications sur les offres correspondant à mes critères"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.actief.be",
+      "intent": "Postuler à une offre d'emploi qui correspond à mes compétences et à mes aspirations"
+    }
+  ]
+}

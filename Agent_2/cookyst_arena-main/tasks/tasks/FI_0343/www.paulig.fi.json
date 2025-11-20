@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.paulig.fi",
+      "intent": "Hae kahvin valmistusohjeita sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.paulig.fi",
+      "intent": "Lue lisää Pauligin hiilineutraaleista Mundo-kahveista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.paulig.fi",
+      "intent": "Tilaa uutiskirje, jotta saan kahveihin liittyvää inspiraatiosisältöä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.paulig.fi",
+      "intent": "Tarkista tilaus Historia, jotta voin seurata tilausteni tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.paulig.fi",
+      "intent": "Muokkaa profiilia, jotta voin päivittää osoitteeni ja muut tietoni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.paulig.fi",
+      "intent": "Ostoskorin katselu, jotta voin tarkastella valitsemiani tuotteita ennen tilausta"
+    }
+  ]
+}

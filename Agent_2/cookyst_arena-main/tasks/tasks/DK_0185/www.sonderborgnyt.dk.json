@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sonderborgnyt.dk",
+      "intent": "Jeg søger efter nyheder om kommunalvalget i Sønderborg"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sonderborgnyt.dk",
+      "intent": "Jeg vil læse om de seneste begivenheder i Nordborg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sonderborgnyt.dk",
+      "intent": "Jeg søger efter information om nye erhvervsprojekter i Sønderborg"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sonderborgnyt.dk",
+      "intent": "Jeg vil kommentere en artikel om kommunalvalget i Sønderborg"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sonderborgnyt.dk",
+      "intent": "Jeg ønsker at dele en artikel om Sønderborgs nye grønne byrum på min profil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sonderborgnyt.dk",
+      "intent": "Jeg vil skrive et læserindlæg om mine tanker om fremtiden for Sønderborg"
+    }
+  ]
+}

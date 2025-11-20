@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://boc.cantabria.es",
+      "intent": "Buscar boletines oficiales de Cantabria por fecha y tipo de BOC para estar al día con las últimas noticias y disposiciones oficiales"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://boc.cantabria.es",
+      "intent": "Consultar el calendario de boletines para planificar y organizar mis actividades en función de las publicaciones oficiales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://boc.cantabria.es",
+      "intent": "Acceder a la sección de búsqueda de anuncios para encontrar información sobre oportunidades laborales y concursos públicos en Cantabria"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://boc.cantabria.es",
+      "intent": "Solicitar la inserción de un anuncio en el boletín oficial de Cantabria para dar publicidad a una iniciativa o proyecto de interés público"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://boc.cantabria.es",
+      "intent": "Descargar boletines de índices para consultar y analizar la evolución de las disposiciones oficiales en Cantabria a lo largo del tiempo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://boc.cantabria.es",
+      "intent": "Realizar una búsqueda avanzada de legislación consolidada para encontrar y consultar textos legales actualizados y relevantes para mi trabajo como funcionario"
+    }
+  ]
+}

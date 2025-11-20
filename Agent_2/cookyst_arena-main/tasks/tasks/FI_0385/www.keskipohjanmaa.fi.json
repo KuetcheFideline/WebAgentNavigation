@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.keskipohjanmaa.fi",
+      "intent": "Luen uusimmat uutiset Keski-Pohjanmaasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.keskipohjanmaa.fi",
+      "intent": "Etsin tietoa paikallisista tapahtumista ja konserteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.keskipohjanmaa.fi",
+      "intent": "Selailen sivuston kulttuuriosiota ja etsin uusia kirjoja ja elokuvia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.keskipohjanmaa.fi",
+      "intent": "Tilaa uusi tilaus ja muutan olemassa olevan tilaukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.keskipohjanmaa.fi",
+      "intent": "Tarkastan omat tilaajatietoni ja päivitän ne tarvittaessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.keskipohjanmaa.fi",
+      "intent": "Anna palautetta ja ehdotuksia sivuston sisällöstä ja toiminnasta"
+    }
+  ]
+}

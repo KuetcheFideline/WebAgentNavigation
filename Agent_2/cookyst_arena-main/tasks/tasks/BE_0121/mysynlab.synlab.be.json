@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mysynlab.synlab.be",
+      "intent": "Rechercher les informations sur les services de laboratoire proposés par Synlab"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mysynlab.synlab.be",
+      "intent": "Consulter les liens utiles tels que 'A propos', 'Médecine Humaine', 'Vétérinaires' pour en savoir plus sur les activités de Synlab"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mysynlab.synlab.be",
+      "intent": "Lire les informations pratiques sur les mentions légales, la protection des données et la politique de confidentialité"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mysynlab.synlab.be",
+      "intent": "Consulter mes résultats d'analyses en ligne après m'être connecté à mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mysynlab.synlab.be",
+      "intent": "Gérer mes informations personnelles et de santé dans mon espace sécurisé"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mysynlab.synlab.be",
+      "intent": "Prendre rendez-vous pour une analyse ou un examen médical en ligne via mon compte"
+    }
+  ]
+}

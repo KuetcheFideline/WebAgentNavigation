@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://migogvejen.dk",
+      "intent": "Læse nyheder om Vejen og omegn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://migogvejen.dk",
+      "intent": "Søge efter arrangementer i Aktivitetskalenderen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://migogvejen.dk",
+      "intent": "Læse artikler om sport i Vejen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://migogvejen.dk",
+      "intent": "Send en nyhed til redaktionen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://migogvejen.dk",
+      "intent": "Kommentere en artikel om nyheder i Vejen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://migogvejen.dk",
+      "intent": "Tilføje et arrangement til Aktivitetskalenderen"
+    }
+  ]
+}

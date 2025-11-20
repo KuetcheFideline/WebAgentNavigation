@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kundeservice.postnord.dk",
+      "intent": "Jeg søger at finde information om, hvordan jeg kan spore min pakke"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kundeservice.postnord.dk",
+      "intent": "Jeg vil gerne vide, hvordan jeg kan ændre min leveringsadresse"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kundeservice.postnord.dk",
+      "intent": "Jeg har brug for at finde ud af, hvordan jeg kan returnere en pakke"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kundeservice.postnord.dk",
+      "intent": "Jeg ønsker at se mine tidligere ordrer og spore deres status"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kundeservice.postnord.dk",
+      "intent": "Jeg vil gerne opdatere mine kontoinformationer og ændre min adgangskode"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kundeservice.postnord.dk",
+      "intent": "Jeg søger at få hjælp til at løse et problem med en af mine pakker"
+    }
+  ]
+}

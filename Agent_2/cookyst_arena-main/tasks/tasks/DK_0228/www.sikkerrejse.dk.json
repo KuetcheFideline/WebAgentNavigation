@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sikkerrejse.dk",
+      "intent": "Jeg søger efter information om vaccinationer til min næste rejse til udlandet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sikkerrejse.dk",
+      "intent": "Jeg vil gerne vide mere om de forskellige typer af vacciner, der tilbydes på siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sikkerrejse.dk",
+      "intent": "Jeg søger efter en klinik i København, hvor jeg kan få vaccineret min familie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sikkerrejse.dk",
+      "intent": "Jeg vil gerne bestille en tid til vaccination for min familie og mig selv"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sikkerrejse.dk",
+      "intent": "Jeg søger efter at se mine tidligere vaccinationer og recepter i min profil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sikkerrejse.dk",
+      "intent": "Jeg vil gerne ændre min profilinformation og tilføje mine børns vaccinationer"
+    }
+  ]
+}

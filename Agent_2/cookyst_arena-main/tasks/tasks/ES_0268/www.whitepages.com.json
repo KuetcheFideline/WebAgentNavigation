@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.whitepages.com",
+      "intent": "Buscar información de contacto de un colega de trabajo en Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.whitepages.com",
+      "intent": "Investigar sobre los dueños de una propiedad en la zona de Chamberí en Madrid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.whitepages.com",
+      "intent": "Realizar una búsqueda de personas con el apellido 'García' en la comunidad de Madrid"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.whitepages.com",
+      "intent": "Verificar y actualizar mi propia información de contacto en la base de datos de Whitepages"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.whitepages.com",
+      "intent": "Solicitar un informe de antecedentes sobre un posible empleado para mi empresa en Madrid"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.whitepages.com",
+      "intent": "Configurar alertas para recibir notificaciones sobre cambios en la información de contacto de mis colegas y clientes en Madrid"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.toychamp.be",
+      "intent": "Je souhaite trouver un jouet pour un enfant de 5 ans, tu vas donc parcourir la section 'Babyspeelgoed en peuterspeelgoed' pour découvrir les options disponibles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.toychamp.be",
+      "intent": "Tu es à la recherche d'un cadeau pour un ami qui aime les jeux de société, tu vas donc consulter la section 'Gezelschapsspellen en puzzels' pour trouver des idées."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.toychamp.be",
+      "intent": "Tu veux comparer les prix des différents jouets LEGO disponibles sur le site pour trouver le meilleur marché."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.toychamp.be",
+      "intent": "Tu vas consulter ton compte pour vérifier l'historique de tes commandes et suivre l'état de ta dernière commande."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.toychamp.be",
+      "intent": "Tu souhaites modifier tes informations de compte, notamment ton adresse e-mail, pour être sûr de recevoir les mises à jour et les offres spéciales."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.toychamp.be",
+      "intent": "Tu vas accéder à ta liste de souhaits pour ajouter ou supprimer des articles et partager ta liste avec tes proches."
+    }
+  ]
+}

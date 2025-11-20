@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Hae asuntolainaa Säästöpankista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Lue asiakaskokemus Säästöpankin asuntolainasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Tutki Säästöpankin verkkopalvelut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Tarkastele omia tilitietoja ja siirrä rahaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Hae asuntolainaa ja täytä hakemus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Muuta tilin turvarajoja ja määritä uudet rajat"
+    }
+  ]
+}

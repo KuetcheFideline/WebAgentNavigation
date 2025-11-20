@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lansi-savo.fi",
+      "intent": "Luen uusimmat uutiset Länsi-Savosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lansi-savo.fi",
+      "intent": "Etsin tietoa Mikkelin torin jouluksiusta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lansi-savo.fi",
+      "intent": "Selailen Länsi-Savon urheilu-uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lansi-savo.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lansi-savo.fi",
+      "intent": "Tilaa uutiskirje ja hallinoidan tilaukseni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lansi-savo.fi",
+      "intent": "Luen ja vastaan aiheeseen liittyviin keskusteluihin"
+    }
+  ]
+}

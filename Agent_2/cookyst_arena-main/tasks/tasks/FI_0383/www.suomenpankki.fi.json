@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Tutkin Suomen Pankin verkkopalvelun etusivua ja etsin tietoa rahapolitiikasta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Selailen Suomen Pankin verkkopalvelun tilastotiedotteita ja etsin tietoa talousennusteista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Luen Suomen Pankin verkkopalvelun julkaisuja ja etsin tietoa rahoitusvakauden arvioinnista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman tilini tiedot Suomen Pankin verkkopalvelussa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Muokkaan oman profiiliani tietoja Suomen Pankin verkkopalvelussa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Tarkastan maksuhistoriani ja etsin tietoa siirtojen tilasta Suomen Pankin verkkopalvelussa."
+    }
+  ]
+}

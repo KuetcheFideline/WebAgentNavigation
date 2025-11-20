@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.salainenihastus.com",
+      "intent": "Etsin naisia läheltä Rovaniemen kaupunkia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.salainenihastus.com",
+      "intent": "Luen käyttöehdot ja tietosuojalausekkeen ennen rekisteröitymistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.salainenihastus.com",
+      "intent": "Vertailen eri vaihtoehtoja ennen kuin rekisteröidyn"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.salainenihastus.com",
+      "intent": "Muokkaan profiiliaani ja lisään kuvia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.salainenihastus.com",
+      "intent": "Etsin jäseniä, joilla on samat kiinnostukset kuin minulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.salainenihastus.com",
+      "intent": "Lähetän viestin jäsenelle, joka kiinnostaa minua"
+    }
+  ]
+}

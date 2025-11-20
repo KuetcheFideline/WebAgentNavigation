@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.osakidetza.euskadi.eus",
+      "intent": "Buscar información sobre el programa de detección de cáncer de mama para mujeres de entre 48 y 69 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.osakidetza.euskadi.eus",
+      "intent": "Explorar la sección de Osasun Eskola para aprender sobre cómo cuidar mi salud y prevenir enfermedades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.osakidetza.euskadi.eus",
+      "intent": "Leer las noticias y actualizaciones sobre los servicios y programas de Osakidetza"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.osakidetza.euskadi.eus",
+      "intent": "Acceder a mi historial médico y consultar mis resultados de análisis y pruebas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.osakidetza.euskadi.eus",
+      "intent": "Solicitar una cita con un médico especialista para discutir el tratamiento de la enfermedad de mi madre"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.osakidetza.euskadi.eus",
+      "intent": "Descargar y completar formularios de autorización para el acceso a mis datos médicos"
+    }
+  ]
+}

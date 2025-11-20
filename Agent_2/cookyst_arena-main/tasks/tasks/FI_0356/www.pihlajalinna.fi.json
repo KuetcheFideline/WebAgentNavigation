@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Haluaisin etsiä tietoa Pihlajalinnan tarjoamista palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Tutkisin Pihlajalinnan etäpalveluita ja chat-vastaanottoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Löytäisin lähimmän Pihlajalinnan toimipisteen osoitteen ja ajanvarauksen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Haluaisin varata ajan lääkärille OmaPihlajalinna-palvelun kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Tarkastelisin omaa terveystietojani ja hoitaisin terveysasioita OmaPihlajalinna-palvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Muuttaisin henkilökohtaisia tietojani ja salasanaani OmaPihlajalinna-profiilissani"
+    }
+  ]
+}

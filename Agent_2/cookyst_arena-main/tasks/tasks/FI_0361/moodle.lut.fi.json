@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Hae kurssia, joka liittyy lasten kasvatuksen ja hoitoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Selvitä, miten voinkäyttää Moodlea opintojeni tukena"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Lue LUT-korkeakoulun opinto-ohjeet ja -vaatimukset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Kirjaudu sisään ja tarkista opintotilani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Osallistu keskustelufoorumiin ja kysy neuvoa opettajilta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Lataa ja tallenna kurssimateriaaleja myöhempää käyttöä varten"
+    }
+  ]
+}

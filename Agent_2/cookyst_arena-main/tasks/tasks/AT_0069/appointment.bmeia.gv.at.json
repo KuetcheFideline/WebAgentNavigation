@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://appointment.bmeia.gv.at",
+      "intent": "Ich möchte einen Termin für die österreichische Botschaft in Berlin buchen, um mein Visum zu beantragen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://appointment.bmeia.gv.at",
+      "intent": "Ich will die Verfügbarkeit von Terminen für die österreichische Botschaft in Wien überprüfen, um meine Reisepläne zu koordinieren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://appointment.bmeia.gv.at",
+      "intent": "Ich benötige Informationen über die erforderlichen Dokumente für die Beantragung eines Visums und möchte die entsprechenden Anweisungen auf der Website finden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://appointment.bmeia.gv.at",
+      "intent": "Ich möchte als angemeldeter Benutzer meine bestehenden Termine für die österreichische Botschaft einsehen und gegebenenfalls ändern."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://appointment.bmeia.gv.at",
+      "intent": "Ich will meine persönlichen Daten in meinem Benutzerkonto aktualisieren, um sicherzustellen, dass meine Kontaktdaten korrekt sind, falls die Botschaft mich kontaktieren muss."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://appointment.bmeia.gv.at",
+      "intent": "Ich möchte meine Terminhistorie einsehen, um zu sehen, welche Termine ich in der Vergangenheit gebucht habe und welche Dokumente ich dafür benötigt habe."
+    }
+  ]
+}

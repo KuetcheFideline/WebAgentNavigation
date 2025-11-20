@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sic.fimea.fi",
+      "intent": "Hae sivustolta tietoa lääkkeiden saatavuushäiriöistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sic.fimea.fi",
+      "intent": "Selaa Fimean julkaisemia uutisia ja tiedotteita lääkealan kehittymisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sic.fimea.fi",
+      "intent": "Etsi tietoa lääkkeiden käytöstä ja ohjeita potilaiden lääkehoitoon liittyen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sic.fimea.fi",
+      "intent": "Tarkista oma lääkevaihtoehdot ja annosohjeet Fimean järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sic.fimea.fi",
+      "intent": "Ilmoita lääkehaitta tai anna palautetta lääkehoitoon liittyen Fimealle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sic.fimea.fi",
+      "intent": "Päivitä omat lääketiedot ja lääkekuuri Fimean järjestelmässä"
+    }
+  ]
+}

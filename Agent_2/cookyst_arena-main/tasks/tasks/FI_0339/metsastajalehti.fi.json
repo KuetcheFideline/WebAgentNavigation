@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://metsastajalehti.fi",
+      "intent": "Luen uusimmat artikkelit metsästyksestä ja riistasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://metsastajalehti.fi",
+      "intent": "Etsin tietoa metsästysajat ja -säännöt"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://metsastajalehti.fi",
+      "intent": "Selailen lehtiarkistoa ja etsin vanhoja artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://metsastajalehti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://metsastajalehti.fi",
+      "intent": "Osallistun keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://metsastajalehti.fi",
+      "intent": "Tallennan suosikkejani ja seuraan lehtien uusimmat julkaisut"
+    }
+  ]
+}

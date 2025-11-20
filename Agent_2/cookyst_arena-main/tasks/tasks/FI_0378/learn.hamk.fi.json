@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Selata Learn-Moodlen etusivua ja etsiä tietoa HAMKin opetusohjeista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Lukea Learn-Moodlen huoltokatkojen aikataulu ja suunnitella opiskelua vastaavasti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Etsiä tietoa HAMKin saavutettavuusohjeista ja -palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Kirjautua sisään HAMK-loginin kautta ja tarkastaa omat opintotiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Osallistua opetuskeskusteluun ja lukea opettajan antamia ohjeita ja materiaaleja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Tehdä kurssin tehtäviä ja palauttaa ne opettajalle sähköisesti"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nicolaibio.dk",
+      "intent": "Jeg søger efter information om kommende film i biografen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nicolaibio.dk",
+      "intent": "Jeg vil se filmkalenderen for at planlægge mine besøg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nicolaibio.dk",
+      "intent": "Jeg ønsker at købe billetter til en specifik film"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nicolaibio.dk",
+      "intent": "Jeg vil tjekke mine billetter og se, hvilke film jeg har købt billet til"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nicolaibio.dk",
+      "intent": "Jeg ønsker at blive medlem af biografklubben for at få eksklusive tilbud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nicolaibio.dk",
+      "intent": "Jeg vil se mine personlige indstillinger og ændre mine kontoinformationer"
+    }
+  ]
+}

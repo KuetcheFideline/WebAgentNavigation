@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pks.fi",
+      "intent": "Hae sähkösopimusta kotiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pks.fi",
+      "intent": "Tutustu Pohjois-Karjalan Sähköön ja sen vastuullisuuteen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pks.fi",
+      "intent": "Lue ajankohtaisia uutisia ja artikkeleita sähköstä ja energiansäästöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pks.fi",
+      "intent": "Tee muuttoilmoitus ja päivitä osoitetietoni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pks.fi",
+      "intent": "Seuraa kulutusta ja tarkastele sopimustani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pks.fi",
+      "intent": "Ota yhteyttä asiakaspalveluun ja kysy neuvoa sähkösopimuksesta"
+    }
+  ]
+}

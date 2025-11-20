@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.psykiatrien.rm.dk",
+      "intent": "Jeg søger information om behandling af depression hos voksne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.psykiatrien.rm.dk",
+      "intent": "Jeg ønsker at finde vej til Regionspsykiatrien i Viborg"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.psykiatrien.rm.dk",
+      "intent": "Jeg søger efter nyheder om psykiatrien i Region Midtjylland"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.psykiatrien.rm.dk",
+      "intent": "Jeg ønsker at se mine patientoplysninger og læse mine journalnoter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.psykiatrien.rm.dk",
+      "intent": "Jeg søger at ændre min aftale med en behandler"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.psykiatrien.rm.dk",
+      "intent": "Jeg ønsker at se mine medicinbestillinger og evt. ændre dem"
+    }
+  ]
+}

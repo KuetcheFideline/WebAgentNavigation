@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lhv.ee",
+      "intent": "Tutustun LHV:n sivuille ja etsin tietoa eri asiakkaiden tarpeisiin sopivista pankkipalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lhv.ee",
+      "intent": "Selvittelen, miten voin avata uuden tilin LHV:ssa ja mitä edut siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lhv.ee",
+      "intent": "Luen LHV:n tarjoamista säästämisen ja investointien vaihtoehdoista ja vertailen niitä omiin tarpeisiini"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lhv.ee",
+      "intent": "Kirjaudun sisään ja tarkastan tilieni saldot ja viimeaikaiset tapahtumat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lhv.ee",
+      "intent": "Teen verkkopankissa maksun ja käytän LHV:n maksuliikennepalveluita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lhv.ee",
+      "intent": "Käyn läpi sijoituksiani ja muokkaan niitä tarpeen mukaan LHV:n verkkopalvelun kautta"
+    }
+  ]
+}

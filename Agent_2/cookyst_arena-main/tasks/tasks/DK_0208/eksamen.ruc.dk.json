@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eksamen.ruc.dk",
+      "intent": "Jeg vil gerne se, hvordan man kan tilgå opgavesæt og lave besvarelser som studerende"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eksamen.ruc.dk",
+      "intent": "Jeg ønsker at afprøve en demoeksamen for at se, hvordan det fungerer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eksamen.ruc.dk",
+      "intent": "Jeg vil gerne læse mere om, hvordan man kan opsætte prøver og afgive administrative bedømmelser som administrator"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eksamen.ruc.dk",
+      "intent": "Jeg skal ind og se mine opgavesæt og lave besvarelser som studerende"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eksamen.ruc.dk",
+      "intent": "Jeg vil gerne afgive bedømmelser på de studerendes besvarelser som bedømmer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eksamen.ruc.dk",
+      "intent": "Jeg skal tilgå mine studerendes besvarelser og give ekstra tid ved stedprøver som tilsyn"
+    }
+  ]
+}

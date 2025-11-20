@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.medibox.dk",
+      "intent": "Jeg søger efter information om medicinsk viden til Almen Praksis på MediBOX"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.medibox.dk",
+      "intent": "Jeg ønsker at læse mere om skemaer og beregninger på MediBOX"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.medibox.dk",
+      "intent": "Jeg vil gerne se, hvordan jeg kan organisere min praksis med MediBOX"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.medibox.dk",
+      "intent": "Jeg vil oprette en ny dokument og dele den med mit praksispersonale på MediBOX"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.medibox.dk",
+      "intent": "Jeg søger efter en bestemt medicinsk beregner på MediBOX for at hjælpe med en patient"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.medibox.dk",
+      "intent": "Jeg vil deltage i en gruppe på MediBOX for at diskutere medicinske emner med andre læger"
+    }
+  ]
+}

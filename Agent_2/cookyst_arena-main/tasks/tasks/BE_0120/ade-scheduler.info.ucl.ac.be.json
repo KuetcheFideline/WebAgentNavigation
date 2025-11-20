@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ade-scheduler.info.ucl.ac.be",
+      "intent": "Consulter les informations générales sur l'horaire de cours sans se connecter"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ade-scheduler.info.ucl.ac.be",
+      "intent": "Rechercher des informations sur les formations et les programmes de cours proposés par l'université"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ade-scheduler.info.ucl.ac.be",
+      "intent": "Explorer les fonctionnalités de base du site web pour comprendre son utilisation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ade-scheduler.info.ucl.ac.be",
+      "intent": "Se connecter à son compte UCLouvain pour accéder à son horaire de cours personnel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ade-scheduler.info.ucl.ac.be",
+      "intent": "Importer son horaire-type de formation pour planifier ses cours et activités"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ade-scheduler.info.ucl.ac.be",
+      "intent": "Gérer et personnaliser son horaire de cours en ajoutant ou en supprimant des événements"
+    }
+  ]
+}

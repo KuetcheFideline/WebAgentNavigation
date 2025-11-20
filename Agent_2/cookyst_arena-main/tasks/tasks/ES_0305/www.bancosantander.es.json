@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Intentar resolver el error de acceso denegado para poder navegar por el sitio web del banco"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Buscar información sobre los productos y servicios que ofrece el Banco Santander en España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Verificar si el sitio web del banco ofrece alguna opción para contactar con el servicio de atención al cliente"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Consultar el estado de mis cuentas y realizar una transferencia a otra cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Configurar las notificaciones y alertas para mis cuentas y tarjetas de crédito"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bancosantander.es",
+      "intent": "Solicitar un préstamo personalizado y verificar las condiciones y requisitos para su aprobación"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://new.webropolsurveys.com",
+      "intent": "Tutustun sivuston etusivuun ja etsin tietoa kyselyistä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://new.webropolsurveys.com",
+      "intent": "Selvittelen, miten voin osallistua kyselyihin ja mitä hyötyä niistä on minulle."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://new.webropolsurveys.com",
+      "intent": "Etsin tietoa siitä, miten sivusto käsittelee henkilötietojani ja miten ne ovat turvassa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://new.webropolsurveys.com",
+      "intent": "Kirjaudun sisään ja täytän avoimet kyselyt, jotka ovat minulle relevantteja."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://new.webropolsurveys.com",
+      "intent": "Tarkastan omaa profiilia ja päivitän tietojani, jos tarpeen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://new.webropolsurveys.com",
+      "intent": "Olen yhteydessä asiakaspalveluun, jos minulla on kysymyksiä tai ongelmia sivuston käytössä."
+    }
+  ]
+}

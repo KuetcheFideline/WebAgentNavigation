@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cylex.fi",
+      "intent": "Hae lääkäri Rovaniemeltä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cylex.fi",
+      "intent": "Etsi lähin ravintola Rovaniemestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cylex.fi",
+      "intent": "Selaa kauneushoitoloita Rovaniemellä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cylex.fi",
+      "intent": "Arvostele käyty lääkäri Rovaniemellä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cylex.fi",
+      "intent": "Lisää suosittu ravintola suosikkilistalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cylex.fi",
+      "intent": "Muokkaa profiilia ja lisää kuva"
+    }
+  ]
+}

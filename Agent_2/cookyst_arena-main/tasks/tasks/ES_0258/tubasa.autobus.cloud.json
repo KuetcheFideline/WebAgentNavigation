@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://tubasa.autobus.cloud",
+      "intent": "Buscar rutas de autobús desde Madrid a La Rioja para planificar un fin de semana en casa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://tubasa.autobus.cloud",
+      "intent": "Comparar precios de billetes de autobús con diferentes compañías para encontrar la opción más económica."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://tubasa.autobus.cloud",
+      "intent": "Explorar la sección de ofertas y promociones para ver si hay descuentos disponibles para estudiantes."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://tubasa.autobus.cloud",
+      "intent": "Reservar un billete de autobús con tarifa de estudiante para ahorrar dinero en mi próximo viaje a La Rioja."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://tubasa.autobus.cloud",
+      "intent": "Configurar mis preferencias de viaje para recibir notificaciones sobre ofertas y promociones personalizadas."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://tubasa.autobus.cloud",
+      "intent": "Consultar el historial de mis reservas de autobús para planificar futuros viajes y evitar errores de reserva."
+    }
+  ]
+}

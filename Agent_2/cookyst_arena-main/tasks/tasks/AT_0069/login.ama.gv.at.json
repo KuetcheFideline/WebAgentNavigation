@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.ama.gv.at",
+      "intent": "Ich möchte die Kontaktinformationen der AMA finden, um die Supportnummer zu melden und Hilfe zu erhalten."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.ama.gv.at",
+      "intent": "Ich will die Seite neu laden, um zu sehen, ob der Zugriff jetzt möglich ist."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.ama.gv.at",
+      "intent": "Ich möchte die E-Mail-Adresse der AMA finden, um eine Nachricht mit der Supportnummer zu senden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.ama.gv.at",
+      "intent": "Ich möchte meine persönlichen Daten überprüfen, um sicherzustellen, dass alles korrekt ist."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.ama.gv.at",
+      "intent": "Ich will meine Zugangsdaten ändern, um die Sicherheit meines Kontos zu erhöhen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.ama.gv.at",
+      "intent": "Ich möchte meine Kontakte und Freunde in der AMA-Plattform finden, um mit ihnen in Verbindung zu treten."
+    }
+  ]
+}

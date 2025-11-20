@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.proff.dk",
+      "intent": "Jeg søger efter information om danske virksomheder og deres nøgletal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.proff.dk",
+      "intent": "Jeg ønsker at sammenligne regnskabstal for flere virksomheder i min branche"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.proff.dk",
+      "intent": "Jeg søger efter en liste over virksomheder i min målgruppe, som jeg kan downloade til Excel"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.proff.dk",
+      "intent": "Jeg ønsker at se mine gemte søgninger og favoritvirksomheder efter login"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.proff.dk",
+      "intent": "Jeg vil gerne downloade en liste over virksomheder, som jeg har sammenlignet tidligere, efter login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.proff.dk",
+      "intent": "Jeg søger efter at opdatere mine kontaktoplysninger og firmanavn efter login"
+    }
+  ]
+}

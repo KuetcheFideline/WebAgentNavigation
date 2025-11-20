@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.interbus.es",
+      "intent": "Quiero buscar rutas y horarios para viajar desde Martorell a Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.interbus.es",
+      "intent": "Necesito comparar los precios de los bonos mensuales y compartidos para elegir el que mejor se adapte a mis necesidades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.interbus.es",
+      "intent": "Quiero leer las últimas noticias y avisos sobre cambios en las rutas y paradas para planificar mi viaje"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.interbus.es",
+      "intent": "Deseo gestionar mis billetes y bonos comprados anteriormente para verificar su validez y saldo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.interbus.es",
+      "intent": "Necesito recargar mi bono mensual para seguir viajando sin interrupciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.interbus.es",
+      "intent": "Quiero consultar mis datos personales y de viaje para asegurarme de que estén actualizados y correctos"
+    }
+  ]
+}

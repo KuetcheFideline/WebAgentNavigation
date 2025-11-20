@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.euroinvestor.dk",
+      "intent": "Læs nyhederne om aktier og kurser for at følge med i markedet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.euroinvestor.dk",
+      "intent": "Søg efter information om Novo Nordisk-aktien for at se, hvordan den udvikler sig"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.euroinvestor.dk",
+      "intent": "Se finanskalenderen for at planlægge mine økonomiske beslutninger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.euroinvestor.dk",
+      "intent": "Tilmeld dig nyhedsbrevet for at modtage opdateringer om markedet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.euroinvestor.dk",
+      "intent": "Del dine tanker om markedet i debatforummet for at diskutere med andre"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.euroinvestor.dk",
+      "intent": "Spil Fubuki eller Sudoku for at underholde mig og teste mine evner"
+    }
+  ]
+}

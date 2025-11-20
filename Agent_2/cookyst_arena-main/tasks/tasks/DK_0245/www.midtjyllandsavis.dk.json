@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.midtjyllandsavis.dk",
+      "intent": "Læs om kommunalvalget i Silkeborg og hvem der stiller op"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.midtjyllandsavis.dk",
+      "intent": "Søg efter nyheder om lokalområdet Gellerup"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.midtjyllandsavis.dk",
+      "intent": "Find information om hvordan man kan købe et abonnement til avisen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.midtjyllandsavis.dk",
+      "intent": "Læs den fulde version af artiklen om det kommunale valg i Silkeborg"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.midtjyllandsavis.dk",
+      "intent": "Tilmeld dig nyhedsbreve om lokalområdet Silkeborg"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.midtjyllandsavis.dk",
+      "intent": "Læs e-avisen og få adgang til alle artikler"
+    }
+  ]
+}

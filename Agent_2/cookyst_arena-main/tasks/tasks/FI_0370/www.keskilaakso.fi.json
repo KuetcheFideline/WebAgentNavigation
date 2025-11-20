@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.keskilaakso.fi",
+      "intent": "Luen uusimmat uutiset Keskilaaakson sivuilta, jotta tiedän, mitä tapahtuu kotikaupungissani."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.keskilaakso.fi",
+      "intent": "Etsin sivuilta tietoa Myllykosken torin kahvilasta, joka on avannut ovensa entisellä taksitolpalla."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.keskilaakso.fi",
+      "intent": "Selailen Keskilaakson sivujen luetuimmat artikkelit, jotta voin tietää, mitkä aiheet ovat tällä hetkellä suosittuja."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.keskilaakso.fi",
+      "intent": "Kirjaudun sisään ja kommentoin artikkelia 'Aktiivinen kyläyhdistys on turvallisuustehtävä', jotta voin jakaa oman mielipiteeni aiheesta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.keskilaakso.fi",
+      "intent": "Luen ja vastaan uutiseen 'Aluetointokuntien toiminta jatkuu', jotta voin osallistua keskusteluun aiheesta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.keskilaakso.fi",
+      "intent": "Tallennan sivujen uutisia ja artikkeleita myöhempää lukemista varten, jotta voin lukea niitä myöhemmin."
+    }
+  ]
+}

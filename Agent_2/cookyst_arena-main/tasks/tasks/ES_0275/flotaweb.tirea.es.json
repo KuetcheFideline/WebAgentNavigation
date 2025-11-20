@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://flotaweb.tirea.es",
+      "intent": "Buscar información sobre los servicios de electricidad disponibles en la zona de Sevilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://flotaweb.tirea.es",
+      "intent": "Explorar las secciones de la página web para ver si ofrecen algún tipo de descuento o promoción para autónomos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://flotaweb.tirea.es",
+      "intent": "Verificar si la página web tiene una sección de contacto o soporte técnico para resolver dudas sobre los servicios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://flotaweb.tirea.es",
+      "intent": "Acceder a mi cuenta para verificar el estado de mis pedidos y facturas de servicios de electricidad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://flotaweb.tirea.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre los servicios y promociones de la empresa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://flotaweb.tirea.es",
+      "intent": "Realizar un pago pendiente de una factura de servicios de electricidad a través de la plataforma de pago en línea"
+    }
+  ]
+}

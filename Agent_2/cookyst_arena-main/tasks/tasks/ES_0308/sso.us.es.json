@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.us.es",
+      "intent": "Me gustaría saber más sobre el Servicio de Single Sign-On de la Universidad de Sevilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.us.es",
+      "intent": "Necesito encontrar información sobre cómo acceder a los recursos protegidos de la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.us.es",
+      "intent": "Quiero explorar las opciones de autenticación disponibles en el sitio web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.us.es",
+      "intent": "Después de iniciar sesión, quiero acceder a mis recursos personales y configurar mis preferencias de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.us.es",
+      "intent": "Necesito verificar el estado de mi sesión en adAS SSO y asegurarme de que esté activa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.us.es",
+      "intent": "Quiero cambiar mi contraseña y actualizar mis datos de seguridad en el sistema de la universidad"
+    }
+  ]
+}

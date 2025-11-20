@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Læs nyheder om dansk politik og samfund"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Søg efter artikler om sundhed og velvære"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Tilmeld dig nyhedsbrevet for at modtage opdateringer om nyheder og begivenheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Del en artikel om en vigtig begivenhed på min Facebook-profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Kommenter på en artikel om en aktuel begivenhed i Danmark"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.avisen.dk",
+      "intent": "Gem en artikel om erhverv og økonomi til min personlige arkiv"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kiertonet.fi",
+      "intent": "Hae kalastusvälineitä ja -tarvikkeita sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kiertonet.fi",
+      "intent": "Selaa sivuston etusivun ilmoituksia ja etsi mielenkiintoisia tuotteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kiertonet.fi",
+      "intent": "Tutki sivuston eri kategorioita, kuten ajoneuvot ja perävaunut, raskaskalusto ja työkoneet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kiertonet.fi",
+      "intent": "Kirjaudu sisään ja tee tarjous jollekin kiinnostavalle tuotteelle, kuten raskaskalustolle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kiertonet.fi",
+      "intent": "Lisää tuotteita suosikkilistalle ja seuraa niiden hintoja ja myyntitilannetta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kiertonet.fi",
+      "intent": "Osallistu huutokauppaan ja yritä voittaa joku kiinnostava tuote, kuten työkalu tai kone"
+    }
+  ]
+}

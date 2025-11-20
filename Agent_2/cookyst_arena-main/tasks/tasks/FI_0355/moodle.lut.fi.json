@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Hae kurssia, joka liittyy opetettavaan aineeseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Selvitä, miten Moodle-järjestelmää voidaan käyttää opetuksessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Lue opiskelijoiden ohjeet ja etsi tietoa opintojaksoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Tarkista omat kurssit ja opetusmateriaalit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Luo uusi kurssi tai ryhmä opetusmateriaaleja varten"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.lut.fi",
+      "intent": "Varmista, että opetusmateriaalit ovat saatavilla opiskelijoille"
+    }
+  ]
+}

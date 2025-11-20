@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kittilalehti.fi",
+      "intent": "Luen uusimmat uutiset Kittilästä ja Lapista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kittilalehti.fi",
+      "intent": "Etsin tietoa lähialueen retkeilymahdollisuuksista ja luontokohteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kittilalehti.fi",
+      "intent": "Selailen paikallisia ilmoituksia ja etsin mahdollisia työpaikkoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kittilalehti.fi",
+      "intent": "Tilaa uutisviestit ja päivitä osoitteeni tilausasioissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kittilalehti.fi",
+      "intent": "Luen omat tilaajani tiedot ja tarkistan tilauslahjani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kittilalehti.fi",
+      "intent": "Anna palautetta jutuista ja osallistun keskusteluun"
+    }
+  ]
+}

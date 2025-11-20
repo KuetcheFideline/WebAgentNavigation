@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pensionsinfo.dk",
+      "intent": "Jeg søger efter information om pension og forsikring på PensionsInfo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pensionsinfo.dk",
+      "intent": "Jeg vil se en demo af PensionsInfo uden at logge ind"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pensionsinfo.dk",
+      "intent": "Jeg søger efter kontaktinformation til PensionsInfo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pensionsinfo.dk",
+      "intent": "Jeg vil logge ind og se mine pensioner og forsikringer på PensionsInfo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pensionsinfo.dk",
+      "intent": "Jeg vil simulere forskellige udbetalings scenarier for mine pensioner på PensionsInfo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pensionsinfo.dk",
+      "intent": "Jeg vil se i hvilke selskaber jeg har aftaler og få detaljerede oplysninger om mine pensioner på PensionsInfo"
+    }
+  ]
+}

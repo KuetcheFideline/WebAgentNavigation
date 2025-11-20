@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.m.wikipedia.org",
+      "intent": "Hae tietoa Peloponnesolaissodasta Wikipediasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.m.wikipedia.org",
+      "intent": "Selaa luokittain historiaa ja kulttuuria"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.m.wikipedia.org",
+      "intent": "Lue suositellut artikkelit ja hyvät artikkelit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.m.wikipedia.org",
+      "intent": "Luo uusi artikkeli aiheesta Liiketalous"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.m.wikipedia.org",
+      "intent": "Osallistu keskusteluun aiheesta Tiede Wikipediaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.m.wikipedia.org",
+      "intent": "Muokkaa olemassa olevaa artikkelia aiheesta Aalto-yliopisto"
+    }
+  ]
+}

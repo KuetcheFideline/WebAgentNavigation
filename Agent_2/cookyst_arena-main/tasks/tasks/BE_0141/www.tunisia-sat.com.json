@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tunisia-sat.com",
+      "intent": "Rechercher des informations sur les dernières actualités tunisiennes sur le site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tunisia-sat.com",
+      "intent": "Explorer les différents forums disponibles sur le site, notamment le forum général et le forum des sports"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tunisia-sat.com",
+      "intent": "Lire les derniers sujets de discussion sur le forum de la vie familiale"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tunisia-sat.com",
+      "intent": "Créer un nouveau sujet de discussion sur le forum des sports pour partager mes opinions sur les derniers matchs de football"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tunisia-sat.com",
+      "intent": "Répondre à un sujet de discussion existant sur le forum général pour partager mes connaissances sur un sujet spécifique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tunisia-sat.com",
+      "intent": "Modifier mon profil pour ajouter des informations sur mes centres d'intérêt et mes loisirs"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nt-bags.fi",
+      "intent": "Hae matkalaukkuja, jotka ovat yli 80 cm pitkiä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nt-bags.fi",
+      "intent": "Vertaile Samsonite ja American Tourister matkalaukkujen hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nt-bags.fi",
+      "intent": "Lue arvosteluita Delsey matkalaukuista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nt-bags.fi",
+      "intent": "Tilaa uusi Samsonite matkalaukku ja valitse maksutapa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nt-bags.fi",
+      "intent": "Lisää tuote ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nt-bags.fi",
+      "intent": "Tarkista tilaushistoria ja etsi tilaus, jonka tilausnumero on #1234"
+    }
+  ]
+}

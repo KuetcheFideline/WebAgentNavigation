@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kelkkatulokset.fi",
+      "intent": "Tutkin kilpailukalenteria, jotta tiedän milloin seuraava kilpailu on"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kelkkatulokset.fi",
+      "intent": "Selvittelen, miten voin ilmoittautua kilpailuun ja mitkä ovat vaadittavat asiakirjat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kelkkatulokset.fi",
+      "intent": "Luen arkistoidut tulokset, jotta voin analyysin kilpailijoiden suorituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kelkkatulokset.fi",
+      "intent": "Ilmoittaudun kilpailuun ja tallennan ilmoittautumiseni, jotta voin seurata omaa osallistumistani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kelkkatulokset.fi",
+      "intent": "Tarkastan oman kilpailuohjelmani ja varmistam, että kaikki tiedot ovat oikein"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kelkkatulokset.fi",
+      "intent": "Lähetän viestin kilpailujärjestäjille, jotta saan lisätietoa kilpailusta ja sen säännöistä"
+    }
+  ]
+}

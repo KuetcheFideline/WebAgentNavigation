@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://casino.bwin.dk",
+      "intent": "Jeg søger efter information om live-odds og sportsbetting"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://casino.bwin.dk",
+      "intent": "Jeg vil se, hvilke forskellige typer af spil og underholdning, der er tilgængelige på siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://casino.bwin.dk",
+      "intent": "Jeg ønsker at læse om bonusser og kampagner, der er tilgængelige for nye kunder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://casino.bwin.dk",
+      "intent": "Jeg vil indsætte penge på min konto for at kunne deltage i sportsbetting og andre spil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://casino.bwin.dk",
+      "intent": "Jeg søger efter mine eksisterende kuponer og bonusser for at se, hvilke muligheder jeg har"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://casino.bwin.dk",
+      "intent": "Jeg vil placere en bet på en af de mange sportsbegivenheder, der er tilgængelige på siden"
+    }
+  ]
+}

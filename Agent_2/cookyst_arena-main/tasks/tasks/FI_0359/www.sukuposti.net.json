@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.sukuposti.net",
+      "intent": "Hae hevosen nimellä ja tutustu sen sukutietoihin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.sukuposti.net",
+      "intent": "Selaa galleriaa ja etsi mielenkiintoisia hevosen kuvia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.sukuposti.net",
+      "intent": "Lue uusimmat tiedotteet ja uutiset hevosten maailmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.sukuposti.net",
+      "intent": "Tallenna suosikkhevonen ja seuraa sen kehitystä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.sukuposti.net",
+      "intent": "Lisää uusi hevonen tietokantaan ja jaettavaksi muiden kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.sukuposti.net",
+      "intent": "Osallistu keskusteluun ja jaat tiedon hevosten harrastajien kanssa"
+    }
+  ]
+}

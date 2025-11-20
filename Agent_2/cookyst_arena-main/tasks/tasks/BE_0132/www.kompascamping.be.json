@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kompascamping.be",
+      "intent": "Rechercher des offres de camping à Westende pour un week-end en octobre 2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kompascamping.be",
+      "intent": "Comparer les prix des différents types d'hébergement à Nieuwpoort"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kompascamping.be",
+      "intent": "Consulter les activités et les événements proposés par le camping en novembre 2025"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kompascamping.be",
+      "intent": "Réserver un emplacement de camping à Westende pour la période du 15 au 17 octobre 2025"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kompascamping.be",
+      "intent": "Gérer mes réservations et imprimer mes factures pour les séjours à Nieuwpoort"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kompascamping.be",
+      "intent": "Modifier mes informations personnelles et de paiement pour mes prochains séjours"
+    }
+  ]
+}

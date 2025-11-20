@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://autot.tori.fi",
+      "intent": "Selata käytettyjä autoja ja vertailla hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://autot.tori.fi",
+      "intent": "Etsiä varaosia ja tarvikkeita omiin autoihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://autot.tori.fi",
+      "intent": "Löytää tietoa auton myyntiin liittyvistä palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://autot.tori.fi",
+      "intent": "Jättää ilmoitus oman auton myyntiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://autot.tori.fi",
+      "intent": "Seurata omia ilmoituksia ja vastata kysymyksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://autot.tori.fi",
+      "intent": "Arvioida ja antaa palautetta myyjille ja ostajille"
+    }
+  ]
+}

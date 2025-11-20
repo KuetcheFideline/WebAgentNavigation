@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kouvola.digitransit.fi",
+      "intent": "Hae lähimmän bussipysäkin sijainti Espoon keskuksessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kouvola.digitransit.fi",
+      "intent": "Vertaile eri joukkoliikennevaihtoehtoja Kouvolasta Espooseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kouvola.digitransit.fi",
+      "intent": "Selvitä, mitkä reitit ovat käytettävissä golfradan lähellä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kouvola.digitransit.fi",
+      "intent": "Tallenna suosikkireitit, jotta voin nopeasti hakea ne myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kouvola.digitransit.fi",
+      "intent": "Määritä ilmoitukset, kun bussi on myöhässä tai reitit muuttuvat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kouvola.digitransit.fi",
+      "intent": "Lisää matkustamiseni historiaan uusi reitti, jotta voin seurata matkustamiseni"
+    }
+  ]
+}

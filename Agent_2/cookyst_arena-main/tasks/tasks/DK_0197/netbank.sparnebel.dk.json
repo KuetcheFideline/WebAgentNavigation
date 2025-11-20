@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://netbank.sparnebel.dk",
+      "intent": "Jeg søger efter information om Sparekassens produkter og tjenester"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://netbank.sparnebel.dk",
+      "intent": "Jeg vil læse mere om Sikker digital og hvordan jeg kan beskytte mine oplysninger"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://netbank.sparnebel.dk",
+      "intent": "Jeg søger efter kontakinformation til Sparekassen, så jeg kan ringe eller sende en besked"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://netbank.sparnebel.dk",
+      "intent": "Jeg vil logge ind på min NetBank-konto for at se mine kontoudtog og udstedning af regninger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://netbank.sparnebel.dk",
+      "intent": "Jeg vil overføre penge fra min konto til en anden konto, som jeg har gemt som en favorit"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://netbank.sparnebel.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer, såsom min adresse eller telefonnummer"
+    }
+  ]
+}

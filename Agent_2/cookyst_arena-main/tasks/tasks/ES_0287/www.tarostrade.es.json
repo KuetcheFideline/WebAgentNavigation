@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tarostrade.es",
+      "intent": "Buscar repuestos para mi coche en la sección de autopartes"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tarostrade.es",
+      "intent": "Explorar las diferentes marcas de coches disponibles en el catálogo principal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tarostrade.es",
+      "intent": "Leer las condiciones de uso y la política de privacidad de la página web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tarostrade.es",
+      "intent": "Agregar un producto al carrito de compras y proceder al pago"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tarostrade.es",
+      "intent": "Consultar el historial de pedidos y verificar el estado de un pedido en curso"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tarostrade.es",
+      "intent": "Editar la información de perfil y cambiar la contraseña de acceso a la cuenta"
+    }
+  ]
+}

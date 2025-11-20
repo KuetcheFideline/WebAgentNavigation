@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.korian.be",
+      "intent": "Rechercher des informations sur les maisons de retraite pour mes parents"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.korian.be",
+      "intent": "Trouver un emploi en tant qu'infirmière dans l'un des établissements de soins de Korian"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.korian.be",
+      "intent": "Demander des informations sur les services de soins à domicile pour moi-même"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.korian.be",
+      "intent": "Accéder à mon compte pour gérer mes informations personnelles et mes préférences de soins"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.korian.be",
+      "intent": "Consulter mes rendez-vous médicaux et mes examens de santé à venir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.korian.be",
+      "intent": "Gérer mes factures et mes paiements pour les services de soins que j'ai reçus"
+    }
+  ]
+}

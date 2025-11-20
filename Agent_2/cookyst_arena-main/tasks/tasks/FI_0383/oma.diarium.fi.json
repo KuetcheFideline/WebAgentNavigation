@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Hae fysioterapeutin apua selkäkivun hoitoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Lue aiheesta toimintaterapia ja sen hyödyistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Tutki Diariumin tarjoamia ominaisuuksia ja hintoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Varaa aika puheterapeutille ja tee maksu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Täytä terveyden ja hyvinvoinnin kysely ja tallenna tiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Ota osaa webinaariin aiheesta mielenterveys ja hyvinvointi"
+    }
+  ]
+}

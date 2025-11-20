@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://informatica.cv.uma.es",
+      "intent": "Buscar información sobre las asignaturas disponibles en la E.T.S. de Ingeniería Informática"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://informatica.cv.uma.es",
+      "intent": "Explorar la sección de noticias y eventos para estar al tanto de las últimas novedades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://informatica.cv.uma.es",
+      "intent": "Acceder al calendario para ver los próximos eventos y fechas importantes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://informatica.cv.uma.es",
+      "intent": "Iniciar sesión para acceder a mis asignaturas y seguir el progreso de mis estudios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://informatica.cv.uma.es",
+      "intent": "Configurar mis preferencias de acceso y ajustar la configuración de mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://informatica.cv.uma.es",
+      "intent": "Descargar recursos y materiales de las asignaturas en las que estoy matriculado"
+    }
+  ]
+}

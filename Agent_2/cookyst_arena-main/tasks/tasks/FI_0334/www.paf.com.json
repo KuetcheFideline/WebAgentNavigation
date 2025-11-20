@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.paf.com",
+      "intent": "Selvitä, mitkä uudet pelit ovat saatavilla sivustolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.paf.com",
+      "intent": "Etsi tietoa jättipoteista ja niiden voittosummista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.paf.com",
+      "intent": "Tutki sivuston eri osioita, kuten kasinoa, vedonlyöntiä ja bingoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.paf.com",
+      "intent": "Kirjaudu sisään ja tarkista omat pelitilisi ja voittosi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.paf.com",
+      "intent": "Osallistu yhteen jättipoteista ja yritä voittaa suuri voittosumma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.paf.com",
+      "intent": "Tee veto yhteen urheilu- tai kasinopeliin ja seuraa tuloksia"
+    }
+  ]
+}

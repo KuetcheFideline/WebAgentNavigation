@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hoas.fi",
+      "intent": "Haluaisin tietää lisää opiskelija-asunnoista Helsingin seudulla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hoas.fi",
+      "intent": "Täytän asuntohakemuksen opiskelija-asuntoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hoas.fi",
+      "intent": "Selvittäisin, miten voin hakea asuntoa Hoasilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hoas.fi",
+      "intent": "Tarkastaisin asunnoni vuokrasopimuksen tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hoas.fi",
+      "intent": "Ilmoittaisin vikaa asunnossani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hoas.fi",
+      "intent": "Päivittäisin omat tietoni MyHoas-ohjelmassa"
+    }
+  ]
+}

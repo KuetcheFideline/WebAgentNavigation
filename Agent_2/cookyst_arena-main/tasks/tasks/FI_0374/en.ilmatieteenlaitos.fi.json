@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://en.ilmatieteenlaitos.fi",
+      "intent": "Hae säätilaa Vantaan alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://en.ilmatieteenlaitos.fi",
+      "intent": "Selvitä miten sää vaikuttaa urheiluun ja ulkoiluun Vantaan seudulla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://en.ilmatieteenlaitos.fi",
+      "intent": "Lue uutisia ja tiedotteita säästä ja ilmastosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://en.ilmatieteenlaitos.fi",
+      "intent": "Tallenna Vantaan säätila suosikkeihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://en.ilmatieteenlaitos.fi",
+      "intent": "Määritä säävaroitukset ja ilmoitukset Vantaan alueelle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://en.ilmatieteenlaitos.fi",
+      "intent": "Lataa ja päivitä sääsovellus"
+    }
+  ]
+}

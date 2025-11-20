@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://easypark.fi",
+      "intent": "Lataa EasyPark-sovellus ja tutustu sen ominaisuuksiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://easypark.fi",
+      "intent": "Etsi lähin vapaana oleva parkkipaikka Vaasassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://easypark.fi",
+      "intent": "Lue lisää EasyParkin hinnoittelusta ja maksamisvaihtoehdoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://easypark.fi",
+      "intent": "Kirjaudu sisään ja hallinnoi omia pysäköintitilastoja ja -historiaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://easypark.fi",
+      "intent": "Määritä ja muokkaa pysäköintiaikaa ja -sijaintia sovelluksen avulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://easypark.fi",
+      "intent": "Tutustu ja hyödynnä EasyParkin sähköauton latausominaisuuksia"
+    }
+  ]
+}

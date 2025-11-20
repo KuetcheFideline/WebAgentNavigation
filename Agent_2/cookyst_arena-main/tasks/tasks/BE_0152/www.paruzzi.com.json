@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.paruzzi.com",
+      "intent": "Rechercher des pièces de rechange pour ma Coccinelle Volkswagen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.paruzzi.com",
+      "intent": "Comparer les prix des pièces de rechange pour les différents modèles de Volkswagen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.paruzzi.com",
+      "intent": "Lire les avis des clients sur les produits et le service clientèle de Paruzzi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.paruzzi.com",
+      "intent": "Consulter l'historique de mes commandes passées pour suivre mes achats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.paruzzi.com",
+      "intent": "Gérer mes informations de compte et mettre à jour mes coordonnées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.paruzzi.com",
+      "intent": "Utiliser mon compte pour bénéficier de frais d'expédition réduits sur mes prochains achats"
+    }
+  ]
+}

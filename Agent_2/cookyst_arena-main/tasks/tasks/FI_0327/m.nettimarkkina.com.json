@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.nettimarkkina.com",
+      "intent": "Haku uusista autoista Helsingin alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.nettimarkkina.com",
+      "intent": "Vertailen eri automerkkien hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.nettimarkkina.com",
+      "intent": "Selvittää miten auto voidaan rahoittaa opiskelijana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.nettimarkkina.com",
+      "intent": "Tallennan suosikkiautoni ja seuraan niiden hintamuutoksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.nettimarkkina.com",
+      "intent": "Lisään ilmoituksen myytävästä autosta ja asetan sen myyntiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.nettimarkkina.com",
+      "intent": "Seuraan ja osallistun keskusteluihin autonostajien foorumilla"
+    }
+  ]
+}

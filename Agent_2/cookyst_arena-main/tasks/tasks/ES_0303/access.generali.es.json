@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://access.generali.es",
+      "intent": "Consultar las opciones de seguro de vida para personas mayores de 60 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://access.generali.es",
+      "intent": "Buscar información sobre los planes de ahorro para la jubilación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://access.generali.es",
+      "intent": "Explorar las secciones de noticias y artículos sobre finanzas personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://access.generali.es",
+      "intent": "Verificar el estado de mis pólizas de seguro y realizar un pago pendiente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://access.generali.es",
+      "intent": "Descargar una copia de mi certificado de seguro médico para presentar en el trabajo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://access.generali.es",
+      "intent": "Actualizar mis datos personales y de contacto en mi perfil de cliente"
+    }
+  ]
+}

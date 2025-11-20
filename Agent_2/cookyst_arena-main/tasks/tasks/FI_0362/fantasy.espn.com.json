@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fantasy.espn.com",
+      "intent": "Selvittää, miten liityn fantasy-jalkapallon liigaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fantasy.espn.com",
+      "intent": "Lukea uusimmat jalkapallon uutiset ja analyysit"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fantasy.espn.com",
+      "intent": "Etsiä vinkkejä ja neuvoja fantasy-jalkapallon pelaamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fantasy.espn.com",
+      "intent": "Luoda uusi fantasy-jalkapallon liiga ja kutsua ystäviä liittymään"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fantasy.espn.com",
+      "intent": "Muokata omaa fantasy-joukkuetta ja tehdä pelaajasiirtoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fantasy.espn.com",
+      "intent": "Seurata omaa fantasy-joukkueen suorituksia ja vertailla muiden joukkueiden tuloksia"
+    }
+  ]
+}

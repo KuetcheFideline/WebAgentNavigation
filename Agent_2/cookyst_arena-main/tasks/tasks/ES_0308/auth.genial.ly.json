@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://auth.genial.ly",
+      "intent": "Crear una cuenta para acceder a los recursos de Genially"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://auth.genial.ly",
+      "intent": "Explorar las opciones de idioma disponibles en la página de inicio"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://auth.genial.ly",
+      "intent": "Buscar información sobre cómo iniciar sesión con Google"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://auth.genial.ly",
+      "intent": "Configurar mis preferencias de cuenta después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://auth.genial.ly",
+      "intent": "Verificar mi información de perfil y actualizarla si es necesario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://auth.genial.ly",
+      "intent": "Explorar los recursos y herramientas disponibles después de iniciar sesión"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kiipula.fi",
+      "intent": "Hae sivustolta tietoa ammattiopistosta ja sen koulutustarjonnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kiipula.fi",
+      "intent": "Selvitä miten pääsen opiskelemaan Kiipulan ammattiopistossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kiipula.fi",
+      "intent": "Etsi tietoa Kiipulan historiaan liittyvistä aiheista, kuten Historiapolku"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kiipula.fi",
+      "intent": "Täytä opiskelijan palautelomake Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kiipula.fi",
+      "intent": "Varaa ruokailuajat Ruokala Rustholliin opiskelijanäytön kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kiipula.fi",
+      "intent": "Tee ilmoittautuminen opiskelijakunnan tapahtumaan"
+    }
+  ]
+}

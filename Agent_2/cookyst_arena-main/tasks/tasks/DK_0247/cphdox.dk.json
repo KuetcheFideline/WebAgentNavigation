@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cphdox.dk",
+      "intent": "Jeg søger efter information om filmfestivalen CPH:DOX og dens program"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cphdox.dk",
+      "intent": "Jeg ønsker at læse om de seneste nyheder og pressemeddelelser fra CPH:DOX"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cphdox.dk",
+      "intent": "Jeg vil gerne se, hvilke film der vises under festivalen og læse om deres beskrivelser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cphdox.dk",
+      "intent": "Jeg ønsker at købe billetter til en af filmfestivalens forestillinger og downloade mine billetter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cphdox.dk",
+      "intent": "Jeg vil gerne se mine købte billetter og passe og administrere mine billetter og arrangementer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cphdox.dk",
+      "intent": "Jeg ønsker at annullere en billet, som jeg har købt, og få en refusion"
+    }
+  ]
+}

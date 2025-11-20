@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://casiencasa.casi.es",
+      "intent": "Explorar la sección de Acceso CASI en CASA para entender cómo funciona el sistema de login"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://casiencasa.casi.es",
+      "intent": "Leer el Aviso legal y la Política de privacidad para conocer mis derechos y obligaciones al utilizar el sitio"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://casiencasa.casi.es",
+      "intent": "Buscar información sobre la Responsabilidad Social y la política de Calidad y Medio Ambiente de la empresa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://casiencasa.casi.es",
+      "intent": "Acceder a mi cuenta para verificar mis datos personales y actualizar mi perfil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://casiencasa.casi.es",
+      "intent": "Consultar mis historiales de acceso y navegación para asegurarme de que no hay actividad sospechosa en mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://casiencasa.casi.es",
+      "intent": "Cambiar mi contraseña y configurar alertas de seguridad para proteger mi cuenta de acceso no autorizado"
+    }
+  ]
+}

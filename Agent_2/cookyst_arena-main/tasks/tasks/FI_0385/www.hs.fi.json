@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Luen uusimmat uutiset Helsingistä ja Espoosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Etsin tietoa Helsingin Sanomien tilausmahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hs.fi",
+      "intent": "Selvitan, miten voin muuttaa sivuston ulkoasua tummaksi teemaksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Tilaa Helsingin Sanomat lahjaksi ystävälleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Muutan tilaajaeduni asetuksia, jotta voin hyödyntää kaikki tarjoamamme edut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hs.fi",
+      "intent": "Olen yhteydessä asiakaspalveluun, jotta voin saada apua tilausongelmiini"
+    }
+  ]
+}

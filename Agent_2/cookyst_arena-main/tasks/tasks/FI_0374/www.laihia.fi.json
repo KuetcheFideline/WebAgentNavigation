@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.laihia.fi",
+      "intent": "Hae sivustolta tietoa uimahallin aukioloista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.laihia.fi",
+      "intent": "Selaa kunta ja hallinto -osiota ja etsi tietoa Laihian kunnan strategioista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.laihia.fi",
+      "intent": "Etsi tietoa varhaiskasvatuksen ja opetuksen tarjoamisesta Laihian kunnassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.laihia.fi",
+      "intent": "Kirjaudu sisään ja tee varaus uimahallista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.laihia.fi",
+      "intent": "Täytä lomake asioitaessa kuntaan ja anna palautetta kotisivuista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.laihia.fi",
+      "intent": "Selaa sosiaali- ja terveyspalveluita ja tee ilmoittautuminen tarvittaessa"
+    }
+  ]
+}

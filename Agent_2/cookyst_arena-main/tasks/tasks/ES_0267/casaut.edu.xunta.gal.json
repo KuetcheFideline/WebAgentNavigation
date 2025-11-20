@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://casaut.edu.xunta.gal",
+      "intent": "Explorar la página de inicio para conocer los servicios ofrecidos por la Consellería de Educación, Ciencia, Universidades e Formación Profesional"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://casaut.edu.xunta.gal",
+      "intent": "Buscar información sobre los requisitos para acceder a los servicios de la Consellería con mi cuenta de educación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://casaut.edu.xunta.gal",
+      "intent": "Leer las instrucciones para seleccionar el modo de acceso correcto y evitar problemas de autenticación"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://casaut.edu.xunta.gal",
+      "intent": "Acceder a mi cuenta de educación para consultar mis datos personales y académicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://casaut.edu.xunta.gal",
+      "intent": "Solicitar un certificado digital para acceder a los servicios de la Consellería de manera segura"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://casaut.edu.xunta.gal",
+      "intent": "Configurar mis preferencias de cuenta y notificaciones para recibir actualizaciones sobre los servicios de la Consellería"
+    }
+  ]
+}

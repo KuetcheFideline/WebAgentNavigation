@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ruokapaikka.fi",
+      "intent": "Hae lounasvaihtoehtoja Oulun alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ruokapaikka.fi",
+      "intent": "Vertaile eri ravintoloiden lounaslistoja ja hinnat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ruokapaikka.fi",
+      "intent": "Etsi ravintoloita, joissa on sauna"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ruokapaikka.fi",
+      "intent": "Lisää suosikkiravintoloita ja järjestä ne prioriteettijärjestykseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ruokapaikka.fi",
+      "intent": "Jätä palautetta ravintolalle ja ehdota uusia lounasvaihtoehtoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ruokapaikka.fi",
+      "intent": "Muokkaa profiilia ja lisää omaa ravintolaa suosikkilistalle"
+    }
+  ]
+}

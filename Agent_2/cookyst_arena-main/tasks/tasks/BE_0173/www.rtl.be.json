@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rtl.be",
+      "intent": "Rechercher des informations sur les dernières actualités en Belgique, notamment sur les élections communales"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rtl.be",
+      "intent": "Consulter la météo pour la semaine à venir à Molenbeek, où je réside"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rtl.be",
+      "intent": "Lire les dernières nouvelles sur le sport, notamment sur les Diables Rouges et le football belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rtl.be",
+      "intent": "Publier un commentaire sur un article récent concernant les élections communales, en tant qu'utilisateur connecté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rtl.be",
+      "intent": "Gérer mes abonnements aux newsletters et aux alertes sur les actualités belges, en tant qu'utilisateur connecté"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rtl.be",
+      "intent": "Participer à un sondage en ligne sur un sujet d'actualité, en tant qu'utilisateur connecté"
+    }
+  ]
+}

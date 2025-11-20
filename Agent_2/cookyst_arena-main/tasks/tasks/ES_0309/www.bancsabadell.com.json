@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Buscar información sobre cómo solicitar una tarjeta de crédito para personas con pocos ingresos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Explorar las opciones de cuentas de ahorro para personas mayores de 55 años"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Leer las políticas de privacidad y seguridad de la página web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Verificar el saldo de mi cuenta de ahorro y realizar una transferencia a otra cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Configurar las alertas de seguridad para mi cuenta en línea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bancsabadell.com",
+      "intent": "Solicitar un préstamo personal para cubrir gastos imprevistos"
+    }
+  ]
+}

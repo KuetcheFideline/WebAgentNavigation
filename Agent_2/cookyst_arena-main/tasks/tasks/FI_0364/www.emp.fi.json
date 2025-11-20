@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.emp.fi",
+      "intent": "Etsin uusimpia bändipaitoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.emp.fi",
+      "intent": "Haluan tarkastella EMP Suomen valikoimaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.emp.fi",
+      "intent": "Tutkin mitä uutta on tarjolla rock-vaatteissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.emp.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuratan tilaukseni tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.emp.fi",
+      "intent": "Lisään tuotteita toivelistalle ja tarkastan toivelistan sisältöä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.emp.fi",
+      "intent": "Muokkaan osoitettani ja tarkastan asiakastiliini liittyvät tiedot"
+    }
+  ]
+}

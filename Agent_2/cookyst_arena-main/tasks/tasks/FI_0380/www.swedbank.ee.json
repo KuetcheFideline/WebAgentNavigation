@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.swedbank.ee",
+      "intent": "Tutustun Swedbankin kotisivuihin ja etsin tietoa eri palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.swedbank.ee",
+      "intent": "Selvittelen miten voin tulla Swedbankin asiakkaaksi ja mitä hyötyjä siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.swedbank.ee",
+      "intent": "Etsin tietoa Swedbankin eri tuotteista, kuten lainoista ja säästötileistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.swedbank.ee",
+      "intent": "Kirjaudun sisään ja tarkastan tilieni saldot ja siirrän rahaa yhdeltä tileiltä toiselle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.swedbank.ee",
+      "intent": "Tarkastan maksuhistoriani ja muokkaan maksuasetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.swedbank.ee",
+      "intent": "Selvittelen miten voin hallita säästöjäni ja investointeja Swedbankin verkkopalvelun kautta"
+    }
+  ]
+}

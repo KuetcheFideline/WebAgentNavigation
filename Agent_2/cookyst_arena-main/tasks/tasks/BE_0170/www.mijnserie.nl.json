@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mijnserie.nl",
+      "intent": "Rechercher des informations sur les dernières séries télévisées diffusées en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mijnserie.nl",
+      "intent": "Consulter la liste des meilleures séries télévisées selon les utilisateurs du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mijnserie.nl",
+      "intent": "Lire les actualités sur les séries télévisées et les programmes de télévision"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mijnserie.nl",
+      "intent": "Créer une liste de séries télévisées à regarder et gérer mes séries préférées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mijnserie.nl",
+      "intent": "Participer à des discussions sur les forums de la communauté en ligne pour discuter de mes séries préférées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mijnserie.nl",
+      "intent": "Configurer mes préférences de notification pour recevoir des mises à jour sur les nouvelles séries et les épisodes"
+    }
+  ]
+}

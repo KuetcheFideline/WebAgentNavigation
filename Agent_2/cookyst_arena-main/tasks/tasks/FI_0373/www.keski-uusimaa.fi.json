@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.keski-uusimaa.fi",
+      "intent": "Luen uusimmat uutiset Järvenpäästä ja Keravasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.keski-uusimaa.fi",
+      "intent": "Etsin tietoa Power Festivalin esiintyjistä ja tapahtumasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.keski-uusimaa.fi",
+      "intent": "Selailen paikallisia urheilu-uutisia ja tapahtumia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.keski-uusimaa.fi",
+      "intent": "Kommentoin uutista Järvenpään uudesta tekojääratasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.keski-uusimaa.fi",
+      "intent": "Tilaa uutiskirje, jotta saan tiedon uusimmista uutisista ja tapahtumista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.keski-uusimaa.fi",
+      "intent": "Lisään kommentin artikkeliin Keravan katuvalojen säästöistä"
+    }
+  ]
+}

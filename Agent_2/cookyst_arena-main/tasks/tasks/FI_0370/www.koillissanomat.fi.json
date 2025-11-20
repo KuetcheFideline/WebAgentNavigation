@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Luen uutisia Koillissanomien etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Etsin tietoa urheilutapahtumista Koillissanomien urheiluosiossa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Selvitan, miten voin tilata Koillissanomat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.killissanomat.fi",
+      "intent": "Kirjaudun sisään ja tarkastan tilaajien sisällön"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Lähetän juttuvinkin tai kirjoituksen Koillissanomille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Hallinoidan tilaajani asetuksia ja osoitteeni muutoksia"
+    }
+  ]
+}

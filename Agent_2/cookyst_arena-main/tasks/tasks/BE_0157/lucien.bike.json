@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lucien.bike",
+      "intent": "Rechercher des vélos électriques pour adultes en vente à Anvers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lucien.bike",
+      "intent": "Consulter les conseils d'achat pour les vélos de ville"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lucien.bike",
+      "intent": "Explorer les différents types de vélos disponibles, notamment les longtails et les vélos pliants"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lucien.bike",
+      "intent": "Gérer mon compte client pour suivre mes commandes et mes réservations de vélos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lucien.bike",
+      "intent": "Réserver un vélo pour une période de location définie"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lucien.bike",
+      "intent": "Paramétrer mes préférences de notification pour recevoir des offres spéciales et des promotions"
+    }
+  ]
+}

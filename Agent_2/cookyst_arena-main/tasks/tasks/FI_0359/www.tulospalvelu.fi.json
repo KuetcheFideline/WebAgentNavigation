@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.tulospalvelu.fi",
+      "intent": "Tutkin sivujen linkkejä ja etsin tietoa eri urheilutapahtumista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.tulospalvelu.fi",
+      "intent": "Selailen eri urheilusivuja ja vertailen niiden sisältöjä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.tulospalvelu.fi",
+      "intent": "Etsin tietoa suomalaisista urheilijoista ja heidän saavutuksistaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.tulospalvelu.fi",
+      "intent": "Kirjaudun sisään ja tallennan omat suosikkisivuni ja urheilijani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.tulospalvelu.fi",
+      "intent": "Lisään kommentteja ja arvosteluita eri urheilutapahtumiin liittyen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.tulospalvelu.fi",
+      "intent": "Muokkaan profiiliani ja asetuksia, jotta voin seurata suosikkijoukkueitani ja -urheilijoitani"
+    }
+  ]
+}

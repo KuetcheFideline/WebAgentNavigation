@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vaccinnet.be",
+      "intent": "Rechercher les informations sur les vaccins disponibles pour les jeunes de mon âge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vaccinnet.be",
+      "intent": "Consulter la déclaration de confidentialité pour comprendre comment mes données personnelles sont traitées"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vaccinnet.be",
+      "intent": "Trouver les coordonnées pour contacter l'assistance technique en cas de problème avec le système de vaccination"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vaccinnet.be",
+      "intent": "Consulter mon historique de vaccinations pour vérifier si je suis à jour avec les vaccins recommandés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vaccinnet.be",
+      "intent": "Mettre à jour mes coordonnées personnelles pour garantir que je reçois les rappels de vaccination et les informations importantes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vaccinnet.be",
+      "intent": "Imprimer ou télécharger mon carnet de vaccination pour le présenter à mon médecin ou à mon école"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://imatra.inschool.fi",
+      "intent": "Luen Wilman esittelysivun, jotta voin ymmärtää mitä Wilma on ja miten se toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://imatra.inschool.fi",
+      "intent": "Selvittelen miten Wilman kautta voi viestiä opettajien kanssa ja lukea koulun tiedotteita."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://imatra.inschool.fi",
+      "intent": "Tutkin Wilman käyttöliittymää ja etsin tietoa siitä, miten opiskelijat voivat valita kursseja ja seurata suorituksiaan."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://imatra.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkistan omat tiedot, kuten opiskeluoikeudet ja suoritetut kurssit."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://imatra.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta, jotta voimme keskustella kurssin edetystilasta ja mahdollisista haasteista."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://imatra.inschool.fi",
+      "intent": "Tarkistan Wilman kautta poissaolotilanteeni ja varmistelen, että kaikki tarvittavat asiakirjat ovat kunnossa."
+    }
+  ]
+}

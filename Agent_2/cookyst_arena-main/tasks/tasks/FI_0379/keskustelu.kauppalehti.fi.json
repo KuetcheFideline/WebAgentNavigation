@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Selata sijoittamiseen liittyviä keskusteluja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Etsiä tietoa osakkeista ja rahastoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Lukea talousuutisia ja analyysiä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Kirjoittaa kommentti sijoittamiseen liittyvään keskusteluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Vastata toisen käyttäjän kommenttiin talousaiheisessa keskustelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://keskustelu.kauppalehti.fi",
+      "intent": "Luo uusi keskusteluaihe rahastojen ja ETF-rahastojen arvioinnista"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gitesdewallonie.be",
+      "intent": "Rechercher des gîtes en Wallonie pour un séjour de vacances en famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gitesdewallonie.be",
+      "intent": "Consulter les différentes options de logements insolites proposés par le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gitesdewallonie.be",
+      "intent": "Lire les commentaires et les avis des autres vacanciers sur les gîtes et chambres d'hôtes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gitesdewallonie.be",
+      "intent": "Réserver un gîte pour un week-end en amoureux en utilisant mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gitesdewallonie.be",
+      "intent": "Gérer mes réservations et imprimer mes factures de séjour"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gitesdewallonie.be",
+      "intent": "Écrire un commentaire sur un gîte où j'ai séjourné récemment pour aider les autres vacanciers"
+    }
+  ]
+}

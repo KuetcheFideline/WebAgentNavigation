@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://restadeal.fi",
+      "intent": "Hae lähellä sijaitsevia ravintoloita Oulun alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://restadeal.fi",
+      "intent": "Vertaile eri ravintoloiden hintoja ja arvosteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://restadeal.fi",
+      "intent": "Selvitä, mitkä ravintolat tarjoavat kotiinkuljetuksen Oulun alueella"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://restadeal.fi",
+      "intent": "Tilaa ruokaa suosikkiravintolasta ja maksaa käyttäen tallennettua maksutietoa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://restadeal.fi",
+      "intent": "Arvostele ja kommentoi äskettäin tilattua ateriaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://restadeal.fi",
+      "intent": "Tarkastele tilaushistoriaa ja etsi suosikkiruokia"
+    }
+  ]
+}

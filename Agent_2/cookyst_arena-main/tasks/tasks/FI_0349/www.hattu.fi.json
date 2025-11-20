@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hattu.fi",
+      "intent": "Selata naisten hattuja ja etsiä uusi hattu syksyksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hattu.fi",
+      "intent": "Vertailla eri hattumalleja ja lukea asiakasarvosteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hattu.fi",
+      "intent": "Etsiä lahjaa vaimolle ja selata hattuja, jotka ovat alle 50 euroa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hattu.fi",
+      "intent": "Tarkastaa tilaushistoriani ja etsiä uusia hattuja, jotka ovat samanlaisia kuin aiemmin ostetut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hattu.fi",
+      "intent": "Muuttaa osoitetietojani ja tarkastaa, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hattu.fi",
+      "intent": "Lisätä uusi hattu suosikkeihini ja tarkastaa, onko uusia tarjouksia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.jyu.fi",
+      "intent": "Tarkistaa, onko palvelin toiminnassa ja etsii linkkejä, joilla pääsee eteenpäin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.jyu.fi",
+      "intent": "Etsii tietoa siitä, miten pääsee kirjautumaan sisään, jos hänellä on tunnukset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.jyu.fi",
+      "intent": "Selvittää, mitä tarkoittaa Shibboleth Identity Provider ja miten se liittyy hänen opiskeluunsa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.jyu.fi",
+      "intent": "Tarkistaa, että hänen opintotukensa on maksettu oikein ja ajallaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.jyu.fi",
+      "intent": "Vaihtaa salasanansa, koska hän epäilee, että joku muu on saattanut saada sen selville"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.jyu.fi",
+      "intent": "Tarkistaa, mitä kursseja hän on ilmoittautunut seuraavalle lukukaudelle ja tekee tarvittavat muutokset"
+    }
+  ]
+}

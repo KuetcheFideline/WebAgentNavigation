@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sasky.fi",
+      "intent": "Hae tietoa ammatillisten koulutusten tarjonnasta Saskyn sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sasky.fi",
+      "intent": "Selvitä miten voisin hakea opiskelemaan Saskyyn"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sasky.fi",
+      "intent": "Lue lisää Saskyn tarjoamista lukiokoulutuksista ja niiden erityispiirteistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sasky.fi",
+      "intent": "Täytä opintosuunnitelma ja vahvista opintovalinnat omassa opiskelijatilissä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sasky.fi",
+      "intent": "Tarkista omat opintotiedot ja poissaolotilanne opiskelijaportaalissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sasky.fi",
+      "intent": "Hae osaamisen tunnustamista ja näin ollen osaamisen tunnustamispolun aloittaminen"
+    }
+  ]
+}

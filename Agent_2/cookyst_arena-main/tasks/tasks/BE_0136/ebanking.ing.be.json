@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Activer le javascript pour accéder au site de banque en ligne"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Rechercher les informations sur les comptes épargne pour les enfants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Consulter les tarifs et les conditions des prêts immobiliers"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Vérifier le solde de mon compte et les dernières transactions"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Effectuer un virement pour le paiement des frais de tennis de mon enfant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Configurer les alertes pour les dépassements de limite de crédit sur ma carte de crédit"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://secure.ogone.com",
+      "intent": "Je veux consulter les informations de connexion pour accéder à mon compte marchand."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://secure.ogone.com",
+      "intent": "Je souhaite comprendre les étapes pour créer un nouveau portail de marchand et comment y accéder après ma connexion."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://secure.ogone.com",
+      "intent": "J'ai oublié mon mot de passe, je veux savoir comment le réinitialiser pour accéder à mon compte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://secure.ogone.com",
+      "intent": "Je veux consulter les détails de mon compte marchand pour gérer mes transactions en ligne."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://secure.ogone.com",
+      "intent": "Je souhaite modifier mon mot de passe actuel pour améliorer la sécurité de mon compte marchand."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://secure.ogone.com",
+      "intent": "Je veux accéder au portail de marchand pour visualiser mes statistiques de vente et gérer mes commandes en ligne."
+    }
+  ]
+}

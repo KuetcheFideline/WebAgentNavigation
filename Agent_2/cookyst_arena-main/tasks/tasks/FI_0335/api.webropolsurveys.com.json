@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://api.webropolsurveys.com",
+      "intent": "Tarkistaa miksi palvelussa on häiriö ja kokeilla uudelleen myöhemmin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://api.webropolsurveys.com",
+      "intent": "Etsiä tietoa siitä, miten välttää tällaiset häiriöt tulevaisuudessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://api.webropolsurveys.com",
+      "intent": "Selvitä onko palvelun häiriö vaikuttanut muihin käyttäjiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://api.webropolsurveys.com",
+      "intent": "Tarkistaa omat käyttäjätiedot ja varmistaa, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://api.webropolsurveys.com",
+      "intent": "Lähettää viesti asiakastukeen ja kysyä lisätietoa häiriöstä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://api.webropolsurveys.com",
+      "intent": "Tarkastella käyttöhistoriaa ja varmistaa, että kaikki tiedot ovat turvassa"
+    }
+  ]
+}

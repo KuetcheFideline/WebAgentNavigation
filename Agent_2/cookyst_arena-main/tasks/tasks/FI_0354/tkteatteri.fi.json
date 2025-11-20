@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tkteatteri.fi",
+      "intent": "Hae tietoa tulevista esityksistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tkteatteri.fi",
+      "intent": "Selaa teatterin yleisötyötarjontaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tkteatteri.fi",
+      "intent": "Osta liput The Addams Family -esitykseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tkteatteri.fi",
+      "intent": "Tarkista varaukseni ja tilauskirjeeni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tkteatteri.fi",
+      "intent": "Muokkaa profiiliini ja salasanaani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tkteatteri.fi",
+      "intent": "Tilaa uutiskirje ja saat tiedon tulevista esityksistä"
+    }
+  ]
+}

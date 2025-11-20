@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.passaporta.be",
+      "intent": "Rechercher des événements littéraires à Bruxelles pour assister à une conférence d'auteur"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.passaporta.be",
+      "intent": "Découvrir les résidences d'écrivains étrangers à Passa Porta pour en savoir plus sur les opportunités de rencontre avec des auteurs"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.passaporta.be",
+      "intent": "Explorer la librairie en ligne de Passa Porta pour acheter des livres de littérature belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.passaporta.be",
+      "intent": "Réserver des billets pour un événement littéraire en ligne après s'être connecté à mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.passaporta.be",
+      "intent": "Participer à un débat en ligne sur un livre lu après m'être connecté à mon compte pour partager mes impressions"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.passaporta.be",
+      "intent": "Gérer mes abonnements à la newsletter de Passa Porta pour rester informé des prochains événements littéraires"
+    }
+  ]
+}

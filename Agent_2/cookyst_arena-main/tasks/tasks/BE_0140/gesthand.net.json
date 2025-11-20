@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gesthand.net",
+      "intent": "Rechercher les informations de contact de l'équipe GESTHAND pour obtenir de l'aide sur les procédures d'engagement"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gesthand.net",
+      "intent": "Consulter la section AIDE POUR ENGAGEMENTS/EQUIPES pour comprendre les étapes à suivre pour les procédures d'engagement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gesthand.net",
+      "intent": "Explorer les liens proposés pour accéder aux procès verbaux des assemblées générales et des commissions"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gesthand.net",
+      "intent": "Accéder à mon espace personnel pour consulter les documents confidentiels liés à mon rôle d'administrateur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gesthand.net",
+      "intent": "Gérer mes paramètres de compte pour mettre à jour mes informations de contact et de sécurité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gesthand.net",
+      "intent": "Consulter les procès verbaux des réunions auxquelles j'ai participé pour me préparer aux prochaines réunions"
+    }
+  ]
+}

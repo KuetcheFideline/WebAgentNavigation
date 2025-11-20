@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.billedbladet.dk",
+      "intent": "Læse om nyheder om det danske kongehus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.billedbladet.dk",
+      "intent": "Søge efter billeder af kendte danskere på røde løber"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.billedbladet.dk",
+      "intent": "Se videoer om underholdning og skandaler"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.billedbladet.dk",
+      "intent": "Kommentere en artikel om en ny film med en dansk skuespiller"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.billedbladet.dk",
+      "intent": "Del en artikel om en kendt dansk persons privatliv på sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.billedbladet.dk",
+      "intent": "Vurdere og bedømme en artikel om en dansk tv-serie"
+    }
+  ]
+}

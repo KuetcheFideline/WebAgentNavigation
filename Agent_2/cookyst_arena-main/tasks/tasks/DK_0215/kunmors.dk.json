@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kunmors.dk",
+      "intent": "Læse om lokale nyheder og begivenheder i Mors"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kunmors.dk",
+      "intent": "Søge efter jobmuligheder i området"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kunmors.dk",
+      "intent": "Følge med i debatten om lokale emner og læse læserbreve"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kunmors.dk",
+      "intent": "Tilføje en kommentar til en artikel om et lokalt emne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kunmors.dk",
+      "intent": "Oprette en brugerprofil for at modtage nyhedsbreve og opdateringer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kunmors.dk",
+      "intent": "Delé en artikel om et lokalt emne på sociale medier"
+    }
+  ]
+}

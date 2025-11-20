@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kauppa.mimoto.fi",
+      "intent": "Hae mönkijän puskulevyjä ja vertaile eri valmistajien tuotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kauppa.mimoto.fi",
+      "intent": "Selaa mönkijätarvikkeita ja -varaosia ja etsi sopivia tuotteita mönkijääni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kauppa.mimoto.fi",
+      "intent": "Lue asiakaspalautetta ja arvosteluita eri tuotteista ennen ostoa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kauppa.mimoto.fi",
+      "intent": "Tilaa mönkijän puskulevy ja määritä toimitusosoite"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kauppa.mimoto.fi",
+      "intent": "Seuraa tilaustani ja tarkista toimitusajat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kauppa.mimoto.fi",
+      "intent": "Kirjoita arvostelu ostamastani mönkijän puskulevystä"
+    }
+  ]
+}

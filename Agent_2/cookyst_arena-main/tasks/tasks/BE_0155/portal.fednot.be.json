@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.fednot.be",
+      "intent": "Sélectionner la langue française pour naviguer sur le site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.fednot.be",
+      "intent": "Consulter les conditions d'utilisation de l'eNotariat pour comprendre les règles du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.fednot.be",
+      "intent": "Rechercher les informations sur les services d'eNotariat pour les avocats en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.fednot.be",
+      "intent": "Accéder à mon espace personnel pour gérer mes documents et actes notariés en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.fednot.be",
+      "intent": "Effectuer une recherche avancée dans les archives notariales pour trouver des informations spécifiques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.fednot.be",
+      "intent": "Contacter le support technique pour résoudre un problème de connexion à mon compte"
+    }
+  ]
+}

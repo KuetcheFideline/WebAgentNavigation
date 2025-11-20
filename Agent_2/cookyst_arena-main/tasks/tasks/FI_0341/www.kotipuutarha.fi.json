@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kotipuutarha.fi",
+      "intent": "Tutustu uuteen lehteen ja etsi vinkkejä puutarhanhoitoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kotipuutarha.fi",
+      "intent": "Selaa puutarhanhoito-osiota ja etsi neuvoja kasvien istutukseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kotipuutarha.fi",
+      "intent": "Lue blogipostauksia puutarhasta ja etsi inspiraatiota oman puutarhan suunnitteluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kotipuutarha.fi",
+      "intent": "Tilaa uusi lehti ja hallinnoi tilaustasi kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kotipuutarha.fi",
+      "intent": "Kirjaudu sisään ja muokkaa profiilia, jotta voit tallentaa suosikkikasvit ja -artikkelit"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kotipuutarha.fi",
+      "intent": "Osallistu keskusteluun puutarha-aiheisissa foorumeissa kirjautuneena käyttäjänä"
+    }
+  ]
+}

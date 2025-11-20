@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fantasiapelit.com",
+      "intent": "Selata Fantasiapelit-sivustoa ja etsi uusimmat roolipelit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fantasiapelit.com",
+      "intent": "Löytää ja lukea arvosteluita eri lautapeleistä ja valita paras ostoksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fantasiapelit.com",
+      "intent": "Etsiä tietoa Fantasiapelit-myymälöistä ja heidän aukioloajoistaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fantasiapelit.com",
+      "intent": "Lisätä tuotteita toivelistalle ja seurata tilausten etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fantasiapelit.com",
+      "intent": "Tarkastella ostoshistoriaa ja arvostella ostettuja tuotteita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fantasiapelit.com",
+      "intent": "Muuttaa salasanaa ja tarkastella tilin asetuksia"
+    }
+  ]
+}

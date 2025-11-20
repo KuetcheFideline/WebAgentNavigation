@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.piconec.es",
+      "intent": "Buscar información sobre cómo crear una cuenta en PiConec para acceder a los servicios de la plataforma."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.piconec.es",
+      "intent": "Explorar la sección de ayuda para entender cómo funciona la plataforma y qué beneficios ofrece a los usuarios."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.piconec.es",
+      "intent": "Leer las condiciones de uso de la plataforma para asegurarme de que entiendo los términos y condiciones de uso."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.piconec.es",
+      "intent": "Configurar mis preferencias de cuenta para personalizar mi experiencia en la plataforma y recibir notificaciones relevantes."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.piconec.es",
+      "intent": "Acceder a la sección de mi cuenta para ver mis datos personales y asegurarme de que estén actualizados y correctos."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.piconec.es",
+      "intent": "Utilizar la función de recuperación de contraseña para restablecer mi contraseña y asegurarme de que mi cuenta sea segura."
+    }
+  ]
+}

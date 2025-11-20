@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://translate.google.dk",
+      "intent": "Jeg skal oversætte en tekst fra engelsk til dansk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://translate.google.dk",
+      "intent": "Jeg søger efter en oversættelse af et specifikt ord"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://translate.google.dk",
+      "intent": "Jeg vil se, hvordan man skriver et bestemt udtryk på forskellige sprog"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://translate.google.dk",
+      "intent": "Jeg skal gemme en oversættelse til senere brug"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://translate.google.dk",
+      "intent": "Jeg vil se mine tidligere oversættelser og genbruge dem"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://translate.google.dk",
+      "intent": "Jeg skal tilpasse mine oversættelsesindstillinger til mine personlige behov"
+    }
+  ]
+}

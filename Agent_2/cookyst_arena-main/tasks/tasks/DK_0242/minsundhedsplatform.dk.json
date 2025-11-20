@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Læs om, hvordan jeg kan aktivere cookies på min enhed for at få adgang til Min Sundhedsplatform"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Find ud af, hvordan jeg kan hente og installere MinSP-appen på min mobile enhed"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Se, hvilke muligheder jeg har for at logge ind på Min Sundhedsplatform med MitID eller anden metode"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Skriv en besked til sundhedspersonalet på den afdeling, jeg er tilknyttet, for at stille et spørgsmål om min behandling"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Se mine seneste prøvesvar og læs kommentarer på røntgen og skanning for at forstå min sundhedsstatus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Tilmeld mig notifikationer på e-mail, når der er nyt fra min afdeling, så jeg kan holde mig opdateret om min sundhed"
+    }
+  ]
+}

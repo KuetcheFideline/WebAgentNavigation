@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Selvittää, mitä kursseja on tarjolla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Etsiä tietoa opiskelijapalveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Lukea uutisia ja ilmoituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Tarkistaa omat kurssisuoritukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Lähettää viesti opettajalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.jamk.fi",
+      "intent": "Tehdä tehtävä kurssin palautusjärjestelmään"
+    }
+  ]
+}

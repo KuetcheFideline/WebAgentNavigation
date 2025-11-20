@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://almanakka.helsinki.fi",
+      "intent": "Tee nimipäivähaku syöttämällä nimi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://almanakka.helsinki.fi",
+      "intent": "Katso kalenteri 2025"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://almanakka.helsinki.fi",
+      "intent": "Tutustu tuotteisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://almanakka.helsinki.fi",
+      "intent": "Tilaa kalenteri"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://almanakka.helsinki.fi",
+      "intent": "Lue lisää nimipäivärajapinnastamme"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://almanakka.helsinki.fi",
+      "intent": "Ota yhteyttä almanakkaan"
+    }
+  ]
+}

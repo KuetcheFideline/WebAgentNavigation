@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Rechercher les actualités locales sur le site du Parisien pour rester informé sur les événements qui se déroulent dans ma région"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Consulter la rubrique 'Sports' pour suivre les dernières nouvelles sur le football et le PSG, mon équipe favorite"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Lire les articles de la rubrique 'Société' pour me tenir au courant des problèmes sociaux et des initiatives citoyennes dans la région"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Accéder à mon compte pour gérer mes abonnements et mes préférences de lecture sur le site du Parisien"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Participer à un sondage en ligne sur un sujet d'actualité pour donner mon avis et voir les résultats des autres lecteurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Consulter mes archives de lectures pour revoir les articles qui m'ont intéressé et suivre les développements sur les sujets qui me passionnent"
+    }
+  ]
+}

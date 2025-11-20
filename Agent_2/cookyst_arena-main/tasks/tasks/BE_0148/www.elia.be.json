@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.elia.be",
+      "intent": "Rechercher des informations sur les projets d'infrastructures électriques en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.elia.be",
+      "intent": "Consulter les données ouvertes sur la production et la consommation d'électricité en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.elia.be",
+      "intent": "Explorer les opportunités d'emploi au sein d'Elia, notamment dans le domaine de la gestion de réseau électrique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.elia.be",
+      "intent": "Accéder à l'espace client pour gérer mes informations de connexion et mes préférences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.elia.be",
+      "intent": "Consulter mes factures et mes consommations d'électricité via l'interface EPIC"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.elia.be",
+      "intent": "Gérer mes nominations et mes contrats de fourniture d'électricité via l'outil de gestion en ligne"
+    }
+  ]
+}

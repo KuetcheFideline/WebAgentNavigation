@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tankkaus.com",
+      "intent": "Selvitän mitkä huoltoasemat ovat lähellä Tampereen toimistoa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tankkaus.com",
+      "intent": "Vertailen eri bensiinin hintoja eri huoltoasemilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tankkaus.com",
+      "intent": "Etsin tietoa siitä, miten voin rekisteröityä ja hyödyntää sivuston tarjoamia etuja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tankkaus.com",
+      "intent": "Tarkastan oman tilini ja katson, mitkä edut minulla on tarjolla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tankkaus.com",
+      "intent": "Lisään uuden huoltoaseman suosikkilistalle, jotta voin helpommin seurata heidän tarjouksiaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tankkaus.com",
+      "intent": "Muokkaan profiilia ja asetuksia, jotta voin saada sivustolta mahdollisimman hyödyllistä tietoa"
+    }
+  ]
+}

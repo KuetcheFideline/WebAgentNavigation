@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.klascement.net",
+      "intent": "Rechercher des ressources pédagogiques pour les enseignants de la région d'Anvers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.klascement.net",
+      "intent": "Explorer les différentes catégories de leermiddelen disponibles sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.klascement.net",
+      "intent": "Lire les informations sur la page d'accueil pour comprendre les fonctionnalités du site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.klascement.net",
+      "intent": "Consulter les notifications personnelles et les messages reçus depuis la dernière connexion"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.klascement.net",
+      "intent": "Participer à des discussions en ligne avec d'autres enseignants sur des sujets pédagogiques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.klascement.net",
+      "intent": "Télécharger des ressources pédagogiques pour les utiliser en classe"
+    }
+  ]
+}

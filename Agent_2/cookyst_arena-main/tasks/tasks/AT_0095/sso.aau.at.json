@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.aau.at",
+      "intent": "Ich möchte herausfinden, warum ich keinen Zugang zu dieser Seite habe und ob es eine Lösung gibt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.aau.at",
+      "intent": "Ich werde nach einer Kontaktmöglichkeit suchen, um mich mit dem Support in Verbindung zu setzen und Hilfe zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.aau.at",
+      "intent": "Ich werde versuchen, die Seite neu zu laden, um zu sehen, ob das Problem vorübergehend ist und ob ich Zugang bekomme."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.aau.at",
+      "intent": "Ich werde mich anmelden und prüfen, ob ich nach dem Login Zugang zu den gewünschten Ressourcen habe."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.aau.at",
+      "intent": "Ich werde meine Kontoinformationen überprüfen, um sicherzustellen, dass alles korrekt ist und ich keine Probleme mit meinem Konto habe."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.aau.at",
+      "intent": "Ich werde nach spezifischen Ressourcen oder Funktionen suchen, die nur nach der Anmeldung verfügbar sind, um meine Ziele zu erreichen."
+    }
+  ]
+}

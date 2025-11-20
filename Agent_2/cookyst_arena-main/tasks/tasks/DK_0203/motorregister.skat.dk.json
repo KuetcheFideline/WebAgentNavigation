@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan registrere mit køretøj"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg vil læse mere om de seneste driftsstatusser for Motorregistret"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg ønsker at se, hvad der er nyttigt information til virksomheder på Motorregistret"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg vil logge ind for at se detaljer om mine køretøjer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg ønsker at betale min registreringsafgift via Motorregistret"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://motorregister.skat.dk",
+      "intent": "Jeg vil udskrive en kopi af min kvittering for registreringsafgift"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rikosuutiset.fi",
+      "intent": "Luen uusimmat uutiset Oulun alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rikosuutiset.fi",
+      "intent": "Etsin tietoa hirvien liikkumisesta tieliikenteessä Keski-Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rikosuutiset.fi",
+      "intent": "Selailen kadonneiden henkilöiden ilmoituksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rikosuutiset.fi",
+      "intent": "Kommentoin uutista poliisin toiminnasta pikkujouluaikana"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rikosuutiset.fi",
+      "intent": "Lisään suosikkiohjelmaani uutisen Oulun Kuivasojan öljyvahingosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rikosuutiset.fi",
+      "intent": "Vastaan huijausviestiin, jonka olen saanut ja josta olen epävarma"
+    }
+  ]
+}

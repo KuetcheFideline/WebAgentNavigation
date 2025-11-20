@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.partioaitta.fi",
+      "intent": "Etsin uusimmat vaelluskengät miehille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.partioaitta.fi",
+      "intent": "Haluan tarkastella tarjouksia naisten vaatteissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.partioaitta.fi",
+      "intent": "Tutkin lasten kenkävalikoimaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.partioaitta.fi",
+      "intent": "Lisään ostoskoriin juoksukengät, jotka olen aiemmin tallentanut suosikkeihini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.partioaitta.fi",
+      "intent": "Tarkastan tilaushistoriani ja etsin mahdollisia tuotteita, joita voisin palauttaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.partioaitta.fi",
+      "intent": "Muutan osoitettani profiilissani, jotta se vastaa uutta asuinpaikkaani"
+    }
+  ]
+}

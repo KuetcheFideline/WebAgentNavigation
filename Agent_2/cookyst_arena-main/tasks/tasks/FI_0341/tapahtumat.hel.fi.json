@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tapahtumat.hel.fi",
+      "intent": "Hae tänään tapahtuvia bileitä Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tapahtumat.hel.fi",
+      "intent": "Löydä harrastuksia ja tapahtumia liikuntaan ja urheiluun liittyen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tapahtumat.hel.fi",
+      "intent": "Selaa tulevia tapahtumia ja etsi konsertteja tai musiikkitapahtumia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tapahtumat.hel.fi",
+      "intent": "Järjestä oman tapahtuman, esimerkiksi syntymäpäiväbileet, ja ilmoita se kalenteriin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tapahtumat.hel.fi",
+      "intent": "Anna palautetta ja arvostelua aiemmin käydyistä tapahtumista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tapahtumat.hel.fi",
+      "intent": "Tallenna suosikkikonsertit ja -tapahtumat ja saat ilmoituksia uusista tapahtumista"
+    }
+  ]
+}

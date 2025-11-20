@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://haaga-helia.finna.fi",
+      "intent": "Hae kirjoja aiheesta kasvatustiede"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://haaga-helia.finna.fi",
+      "intent": "Selaa e-lehtiä aiheen mukaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://haaga-helia.finna.fi",
+      "intent": "Tee haku kansainvälisten artikkeleiden hakupalkista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://haaga-helia.finna.fi",
+      "intent": "Tallenna hakuhistoria kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://haaga-helia.finna.fi",
+      "intent": "Varaa aika tiedonhaun ohjauspalveluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://haaga-helia.finna.fi",
+      "intent": "Osallistu Lukuhaaste 2025 -tapahtumaan ja seuraa etenemistäsi"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Læs om, hvordan jeg kan bruge Min Sundhedsplatform til at kommunikere med sundhedspersonalet på mit hospital"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Find ud af, hvordan jeg kan downloade MinSP-appen på min mobiltelefon for at få en bedre oplevelse"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Læs om vilkår og betingelser for brug af Min Sundhedsplatform"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Log på og se mine sundhedsoplysninger, herunder udvalgte besøgssammendrag og notater fra min hospitalsjournal"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Skriv en besked til sundhedspersonalet på min afdeling for at stille et spørgsmål om min behandling"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://minsundhedsplatform.dk",
+      "intent": "Tjek mine prøvesvar og læs kommentarer på røntgen og skanning for at forstå min sundhedsstatus"
+    }
+  ]
+}

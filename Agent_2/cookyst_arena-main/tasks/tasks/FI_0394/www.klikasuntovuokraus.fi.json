@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.klikasuntovuokraus.fi",
+      "intent": "Haluaisin tarkastella vuokrattavien asuntojen listaa Porin alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.klikasuntovuokraus.fi",
+      "intent": "Olen kiinnostunut vuokra-asunnon etsimisestä Rauman kaupungissa ja haluan tarkastella saatavilla olevia vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.klikasuntovuokraus.fi",
+      "intent": "Tiedustelen mahdollisuuksia kalustettujen asuntojen vuokraamisesta Tampereen seudulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.klikasuntovuokraus.fi",
+      "intent": "Haluan muuttaa vuokrasopimustani ja tarvitsen apua asiakaspalvelulta, joten kirjaudun sisään ja lähetän heille viestin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.klikasuntovuokraus.fi",
+      "intent": "Olen vuokranantaja ja haluan tarkastella vuokralaisten hakemuksia ja vuokrasopimuksia kirjautumalla sisään palveluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.klikasuntovuokraus.fi",
+      "intent": "Tarvitsen avustusta vuokranmaksamisessa, joten kirjaudun työntekijänä sisään ja etsin ohjeita maksamiseen liittyen"
+    }
+  ]
+}

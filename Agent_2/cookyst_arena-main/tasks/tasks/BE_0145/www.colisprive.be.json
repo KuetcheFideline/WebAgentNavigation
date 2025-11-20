@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.colisprive.be",
+      "intent": "Je veux suivre l'état d'avancement de mon colis pour savoir exactement quand il arrivera à destination."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.colisprive.be",
+      "intent": "J'ai besoin de reprogrammer la livraison de mon colis car je ne serai pas disponible à la date initialement prévue."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.colisprive.be",
+      "intent": "Je souhaite comparer les différentes options de livraison proposées par Colis Privé pour choisir celle qui convient le mieux à mes besoins."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.colisprive.be",
+      "intent": "Maintenant que je suis connecté, je veux accéder à mon espace personnel pour gérer mes colis en cours de livraison et consulter l'historique de mes livraisons précédentes."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.colisprive.be",
+      "intent": "Je souhaite modifier les informations de livraison d'un colis en attente de livraison pour le faire livrer à une autre adresse ou à une date différente."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.colisprive.be",
+      "intent": "Je veux imprimer une étiquette de colis pour une nouvelle livraison en utilisant les informations de mon compte pour éviter de ressaisir les mêmes données à chaque fois."
+    }
+  ]
+}

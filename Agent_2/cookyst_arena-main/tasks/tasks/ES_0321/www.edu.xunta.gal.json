@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.edu.xunta.gal",
+      "intent": "Buscar información sobre los programas de formación profesional para adultos en la Consellería de Educación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.edu.xunta.gal",
+      "intent": "Explorar las secciones de 'Destaques' y 'Servizos' para conocer las últimas novedades y servicios educativos ofrecidos por la Xunta de Galicia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.edu.xunta.gal",
+      "intent": "Acceder a la sección de 'Anuncios' para ver las últimas convocatorias y resoluciones de la Consellería de Educación"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.edu.xunta.gal",
+      "intent": "Iniciar sesión en el portal educativo para acceder a mis datos personales y consultar mis solicitudes de formación profesional"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.edu.xunta.gal",
+      "intent": "Solicitar una plaza en un curso de formación profesional mediante el portal educativo de la Xunta de Galicia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.edu.xunta.gal",
+      "intent": "Consultar y descargar mis certificados de formación profesional obtenidos a través de la Consellería de Educación"
+    }
+  ]
+}

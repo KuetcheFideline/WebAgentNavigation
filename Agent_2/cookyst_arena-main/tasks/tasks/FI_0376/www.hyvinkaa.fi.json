@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hyvinkaa.fi",
+      "intent": "Hae sivustolta tietoa Hyvinkään kaupungin asumispalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hyvinkaa.fi",
+      "intent": "Selaa Hyvinkään kaupungin ympäristönsuojeluun liittyviä palveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hyvinkaa.fi",
+      "intent": "Etsi tietoa Hyvinkään kaupungin joukkoliikenteen reiteistä ja aikatauluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hyvinkaa.fi",
+      "intent": "Tee ilmoitus vikailmoitusnumerolle taloyhtiön huoneistojen lämmitysongelmasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hyvinkaa.fi",
+      "intent": "Täytä ympäristönsuojelulautakunnan verkkopalautelomake"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hyvinkaa.fi",
+      "intent": "Varaa aika Hyvinkään kaupungin asiakaspalvelusta asioimaan kiinteistönsuunnittelun asioiden kanssa"
+    }
+  ]
+}

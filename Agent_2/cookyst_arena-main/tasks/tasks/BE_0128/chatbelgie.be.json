@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://chatbelgie.be",
+      "intent": "Découvrir les différentes salles de chat disponibles pour discuter avec des amis"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://chatbelgie.be",
+      "intent": "Lire les règles de la plateforme de chat pour comprendre les normes de comportement attendues"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://chatbelgie.be",
+      "intent": "Rechercher des informations sur la façon de contacter l'équipe de support en cas de problème"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://chatbelgie.be",
+      "intent": "Rejoindre la salle de chat #chat.be.vriendschap pour discuter avec des amis et faire de nouvelles rencontres"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://chatbelgie.be",
+      "intent": "Créer un nouveau sujet de discussion dans la salle de chat #limburg pour partager des informations sur les événements locaux"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://chatbelgie.be",
+      "intent": "Envoyer un message privé à un utilisateur pour discuter de manière plus personnelle"
+    }
+  ]
+}

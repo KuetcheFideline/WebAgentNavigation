@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portaldelempleado.jccm.es",
+      "intent": "Buscar información sobre los certificados admitidos para el acceso al portal del empleado"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portaldelempleado.jccm.es",
+      "intent": "Consultar la sección de protección de datos para conocer mis derechos y obligaciones como usuario del portal"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portaldelempleado.jccm.es",
+      "intent": "Explorar las opciones de acceso al portal del empleado, como el acceso con usuario y clave o con certificado digital"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portaldelempleado.jccm.es",
+      "intent": "Verificar mi perfil de usuario y actualizar mis datos personales en el portal del empleado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portaldelempleado.jccm.es",
+      "intent": "Acceder a la sección de correo web para enviar un mensaje al equipo de soporte del portal del empleado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portaldelempleado.jccm.es",
+      "intent": "Solicitar una nueva clave de acceso al portal del empleado, ya que he olvidado la anterior"
+    }
+  ]
+}

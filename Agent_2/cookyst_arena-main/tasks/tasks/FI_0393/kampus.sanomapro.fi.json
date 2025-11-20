@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kampus.sanomapro.fi",
+      "intent": "Selvitän, mitä tällä sivustolla on tarjolla eläkeläisille, kuten minulle."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kampus.sanomapro.fi",
+      "intent": "Etsin tietoa siitä, miten voin hyödyntää sivuston resursseja puutarhanhoitotoiminnassani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kampus.sanomapro.fi",
+      "intent": "Tutkin, onko sivustolla saunaan liittyviä artikkeleita tai keskusteluja, joissa voisin osallistua."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kampus.sanomapro.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, onko minulla oikeuksia käyttää sivuston maksullisia resursseja eläkeläisenä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kampus.sanomapro.fi",
+      "intent": "Lisään profiiliini tietoa puutarhanhoitoharrastuksestani, jotta voisin löytää samanhenkisiä käyttäjiä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kampus.sanomapro.fi",
+      "intent": "Osallistun keskusteluun eläkeaiheista ja jaan omia kokemuksiani eläkeläisenä, jos sellainen keskustelu on käynnissä."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.km.be",
+      "intent": "Rechercher les informations sur les procédures de keuring pour les véhicules personnels"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.km.be",
+      "intent": "Consulter les actualités sur les modifications des règles de sécurité routière en Belgique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.km.be",
+      "intent": "Trouver les coordonnées d'un centre de keuring près de Tervuren pour planifier un rendez-vous"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.km.be",
+      "intent": "Planifier un rendez-vous pour la keuring de mon véhicule personnel en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.km.be",
+      "intent": "Consulter mes rendez-vous précédents et les résultats des keurings de mes véhicules"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.km.be",
+      "intent": "Modifier mes informations personnelles et de contact pour les prochains rendez-vous de keuring"
+    }
+  ]
+}

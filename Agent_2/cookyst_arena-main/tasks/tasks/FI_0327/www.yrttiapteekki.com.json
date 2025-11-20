@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.yrttiapteekki.com",
+      "intent": "Selata terveystuotteita ja etsi edullisia vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.yrttiapteekki.com",
+      "intent": "Lukea asiakaspalautetta ja arvosteluja tuotteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.yrttiapteekki.com",
+      "intent": "Etsiä tietoa kuulokojeista ja niiden hinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.yrttiapteekki.com",
+      "intent": "Tarkastaa tilausten tilaa ja seurata toimituksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.yrttiapteekki.com",
+      "intent": "Muuttaa osoitetta ja tietoja kanta-asiakasprofiilissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.yrttiapteekki.com",
+      "intent": "Hyödyntää kanta-asiakkaan etuja ja alennuksia"
+    }
+  ]
+}

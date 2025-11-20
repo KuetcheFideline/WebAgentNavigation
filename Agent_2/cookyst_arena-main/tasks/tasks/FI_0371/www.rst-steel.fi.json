@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rst-steel.fi",
+      "intent": "Hae tuotetta nimellä, numerolla… esim. 'Lisävalotelineet kuorma-autoihin'"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rst-steel.fi",
+      "intent": "Selaa Asuntoautovarusteet -osastoa ja etsi 'Etuhelmaputket asuntoautoihin'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rst-steel.fi",
+      "intent": "Lue Aurinkolipat, vetosuojat ja tuuliohjaimet -osaston tuotteiden kuvauksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rst-steel.fi",
+      "intent": "Lisää 'Lisävalotelineet kuorma-autoihin' tuote ostoskoriin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rst-steel.fi",
+      "intent": "Tee tilaus 'Etuhelmaputket asuntoautoihin' tuotteelle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rst-steel.fi",
+      "intent": "Tarkastele tilaushistoriaa ja etsi 'Aurinkolipat kuorma-autoihin' tilausta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.laeger.dk",
+      "intent": "Jeg søger efter information om ansættelse og opsigelse som læge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.laeger.dk",
+      "intent": "Jeg vil læse nyheder om lægeforeningen og dens aktiviteter"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.laeger.dk",
+      "intent": "Jeg søger efter uddannelsesmuligheder og kurser for læger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.laeger.dk",
+      "intent": "Jeg vil tilføje en nyhed om mit arbejde som læge til min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.laeger.dk",
+      "intent": "Jeg søger efter mine foreninger og vil se, hvilke medlemsfordele jeg har"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.laeger.dk",
+      "intent": "Jeg vil deltage i en diskussion om en nyhed på siden om lægeforeningen"
+    }
+  ]
+}

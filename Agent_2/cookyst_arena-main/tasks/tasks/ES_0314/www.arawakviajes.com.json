@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.arawakviajes.com",
+      "intent": "Buscar un viaje cultural para fin de semana en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.arawakviajes.com",
+      "intent": "Explorar las opciones de senderismo en la sección de viajes largos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.arawakviajes.com",
+      "intent": "Leer las noticias y novedades en la sección de noticias"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.arawakviajes.com",
+      "intent": "Reservar un viaje a medida con Bidon5 después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.arawakviajes.com",
+      "intent": "Consultar mis viajes reservados en la sección de mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.arawakviajes.com",
+      "intent": "Realizar un pago para un viaje reservado en la sección de pago"
+    }
+  ]
+}

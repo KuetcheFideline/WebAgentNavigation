@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://heili.finna.fi",
+      "intent": "Hae kirjoja aiheesta kalastus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://heili.finna.fi",
+      "intent": "Selaa Heili-kirjastojen E-aineistojen valikoimaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://heili.finna.fi",
+      "intent": "Lue tietoa Heili-kirjastojen aukioloajoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://heili.finna.fi",
+      "intent": "Tallenna hakuhistoria kirjautumisen jälkeen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://heili.finna.fi",
+      "intent": "Muuta oletusnoutopaikkaa Oma tili -sivulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://heili.finna.fi",
+      "intent": "Varaa kirja kirjautumisen jälkeen"
+    }
+  ]
+}

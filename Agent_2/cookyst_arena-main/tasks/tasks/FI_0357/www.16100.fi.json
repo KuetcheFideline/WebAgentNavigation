@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.16100.fi",
+      "intent": "Hae yrityksen yhteystiedot numeropalvelusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.16100.fi",
+      "intent": "Tutki ajoneuvon tiedot rekisterinumerolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.16100.fi",
+      "intent": "Lähetä tekstiviesti numeropalveluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.16100.fi",
+      "intent": "Tarkista tilaus- ja laskuhistoria"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.16100.fi",
+      "intent": "Muuta tilin asetuksia ja tietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.16100.fi",
+      "intent": "Ota yhteyttä asiakaspalveluun"
+    }
+  ]
+}

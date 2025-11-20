@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gw.geneanet.org",
+      "intent": "Rechercher des informations généalogiques sur mes ancêtres"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gw.geneanet.org",
+      "intent": "Explorer les ressources disponibles pour commencer à construire mon arbre généalogique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gw.geneanet.org",
+      "intent": "Découvrir les fonctionnalités de la plateforme Geneanet pour les généalogistes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gw.geneanet.org",
+      "intent": "Importer mon arbre généalogique existant pour le compléter et le partager avec d'autres utilisateurs"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gw.geneanet.org",
+      "intent": "Rechercher et contacter des cousins éloignés qui partagent des ancêtres communs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gw.geneanet.org",
+      "intent": "Participer à des projets de généalogie collaborative pour contribuer à la connaissance de l'histoire de ma famille"
+    }
+  ]
+}

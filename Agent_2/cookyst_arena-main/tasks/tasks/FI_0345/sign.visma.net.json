@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sign.visma.net",
+      "intent": "Tutustun Visma Signin etusivuun ja etsin tietoa sähköisestä allekirjoituksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sign.visma.net",
+      "intent": "Luen Visma Signin blogia ja etsin vinkkejä sähköiseen sopimiseen liittyen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sign.visma.net",
+      "intent": "Selvittelen Visma Signin hinnoittelua ja vertailen eri paketteja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sign.visma.net",
+      "intent": "Lähetän sähköisen allekirjoituskutsun liikekumppanille Visma Signin kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sign.visma.net",
+      "intent": "Hallinoidan yritykseni sopimusketjua Visma Signin avulla ja tarkistan allekirjoitettujen sopimusten tilan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sign.visma.net",
+      "intent": "Luo uusi sähköinen lomake Visma Signissa ja lähetän sen asiakkaideni täytettäväksi"
+    }
+  ]
+}

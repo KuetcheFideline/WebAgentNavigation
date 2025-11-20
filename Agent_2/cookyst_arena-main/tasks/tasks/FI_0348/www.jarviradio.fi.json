@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jarviradio.fi",
+      "intent": "Kuuntelen Järviradion nettiradiota"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jarviradio.fi",
+      "intent": "Etsin tietoa Järviradion ohjelmista ja kuuntelen niitä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jarviradio.fi",
+      "intent": "Luen Järviradion uusimmat matkakertomukset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jarviradio.fi",
+      "intent": "Kirjaudun sisään ja hallinnoin omia suosikkejani Järviradion sivustolla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jarviradio.fi",
+      "intent": "Lähettän viestiä Järviradion yhteydenottolomakkeella"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jarviradio.fi",
+      "intent": "Tallennan Järviradion soittolistan suosikkeihini"
+    }
+  ]
+}

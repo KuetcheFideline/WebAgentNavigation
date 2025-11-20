@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Lue uusimmat uutiset Koillissanomista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Etsi tietoa Taivalkosken Rusamon alueen kaavoituksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Pelaa Koillissanomien sanapelejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Tilaa Koillissanomat ja hallitse tilauksiasi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Lähetä juttuvinkki tai kirjoitus Koillissanomille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.koillissanomat.fi",
+      "intent": "Lue tilaajien artikkeleita, kuten Anni Kärävän haastattelu"
+    }
+  ]
+}

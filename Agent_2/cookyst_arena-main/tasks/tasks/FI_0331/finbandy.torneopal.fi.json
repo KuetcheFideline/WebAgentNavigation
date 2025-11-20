@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://finbandy.torneopal.fi",
+      "intent": "Tarkastelen miesten bandyliigan tuloksia ja otteluita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://finbandy.torneopal.fi",
+      "intent": "Etsin tietoa nuorten bandyliigasta ja sen otteluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://finbandy.torneopal.fi",
+      "intent": "Selvitan, miten voin ilmoittautua bandyturnauksiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://finbandy.torneopal.fi",
+      "intent": "Tarkastelen omia tilastojani ja otteluhistoriaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://finbandy.torneopal.fi",
+      "intent": "Muokkaan profiiliani ja päivitän tietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://finbandy.torneopal.fi",
+      "intent": "Ilmoittaudun turnaukseen ja liityn joukkueeseen"
+    }
+  ]
+}

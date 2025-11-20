@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Lue uutisia Turku AMK:sta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Etsi tietoa itslearning-tilin salasanan palauttamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Selaa saavutettavuusselostetta ja tietosuojaselostetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Tarkista itslearning-tilin viestit ja ilmoitukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Muokkaa itslearning-profiilia ja tietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://turkuamk.itslearning.com",
+      "intent": "Osallistu keskusteluihin ja foorumeihin itslearning-alustalla"
+    }
+  ]
+}

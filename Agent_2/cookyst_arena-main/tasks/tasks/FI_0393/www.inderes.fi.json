@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Yritän etsiä tietoa sivuston toiminnasta, vaikka se näyttää olevan väliaikaisesti pois käytöstä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Tarkastan, onko sivustolla jotain tietoa siitä, miten voin ratkaista tämän 500 virheen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Kokeilen löytää yhteystietoja tai chat-palvelua, jotta voisin kysyä apua tämän virheen suhteen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Yritän kirjautua sisään ja tarkastaa, onko minulla oikeuksia tiettyihin alueisiin, jotka eivät ole vapaasti käytettävissä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Tallennan muutoksia profiiliini, jos sivusto sallii sen, ja tarkastan, onko minun täytettävä jotain tietoja, jotka ovat puutteellisia."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.inderes.fi",
+      "intent": "Lähetän viestin asiakaspalveluun, jos sellainen on käytettävissä, ja kyselen, miten voisin hyödyntää sivuston ominaisuuksia paremmin."
+    }
+  ]
+}

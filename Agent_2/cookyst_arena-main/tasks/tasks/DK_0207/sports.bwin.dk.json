@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sports.bwin.dk",
+      "intent": "Jeg søger efter information om kommende fodboldkampe i Ligue 1"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sports.bwin.dk",
+      "intent": "Jeg vil sammenligne odds på en specifik kamp mellem to hold i Premier League"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sports.bwin.dk",
+      "intent": "Jeg ønsker at se en liste over alle tilgængelige sportsgrene på siden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sports.bwin.dk",
+      "intent": "Jeg vil placere en bet på en kamp mellem to hold i Champions League"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sports.bwin.dk",
+      "intent": "Jeg søger efter mine tidligere bets og vil se, hvordan de er gået"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sports.bwin.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdatere min e-mailadresse"
+    }
+  ]
+}

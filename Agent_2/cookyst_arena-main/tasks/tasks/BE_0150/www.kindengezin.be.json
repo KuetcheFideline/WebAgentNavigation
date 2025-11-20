@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kindengezin.be",
+      "intent": "Rechercher des informations sur la vaccination des enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kindengezin.be",
+      "intent": "Consulter les brochures en ligne sur l'éducation des enfants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kindengezin.be",
+      "intent": "Trouver un centre de consultation pour les enfants à Liège"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kindengezin.be",
+      "intent": "Prendre rendez-vous en ligne pour une consultation pour mon enfant"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kindengezin.be",
+      "intent": "Consulter mon dossier médical en ligne pour suivre les vaccinations de mon enfant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kindengezin.be",
+      "intent": "Modifier mes préférences de notification pour recevoir des mises à jour sur les campagnes de vaccination"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://auth.uber.com",
+      "intent": "Je veux créer un compte Uber pour faciliter mes déplacements en tant que fonctionnaire européen à Bruxelles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://auth.uber.com",
+      "intent": "Je souhaite comparer les différents services proposés par Uber pour choisir celui qui convient le mieux à mes besoins de déplacement quotidien."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://auth.uber.com",
+      "intent": "Je veux en savoir plus sur les options de paiement proposées par Uber pour comprendre comment je peux lier ma carte de crédit à mon compte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://auth.uber.com",
+      "intent": "Je veux configurer mes préférences de déplacement pour que Uber suggère des itinéraires qui correspondent à mes habitudes de déplacement en tant que fonctionnaire européen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://auth.uber.com",
+      "intent": "Je souhaite consulter mon historique de déplacements avec Uber pour évaluer mes dépenses et planifier mes déplacements futurs de manière plus efficace."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://auth.uber.com",
+      "intent": "Je veux inviter des collègues à rejoindre Uber pour que nous puissions faciliter nos déplacements en groupe et partager les coûts de déplacement."
+    }
+  ]
+}

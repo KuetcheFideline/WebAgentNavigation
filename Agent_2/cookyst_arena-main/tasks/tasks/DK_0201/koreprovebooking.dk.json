@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Jeg søger efter information om køreprøver og hvordan jeg kan bestille en prøve"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Jeg vil læse mere om nyheder og opdateringer om køreprøvebooking"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Jeg søger efter en vejledning til, hvordan jeg kan bruge platformen som kørekortansøger"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Jeg vil logge ind med MitID for at se mine eksisterende køreprøvebooking og bestille en ny prøve"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdaterer min profil som kørelærer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Jeg søger efter at se mine tidligere køreprøver og resultater som elev"
+    }
+  ]
+}

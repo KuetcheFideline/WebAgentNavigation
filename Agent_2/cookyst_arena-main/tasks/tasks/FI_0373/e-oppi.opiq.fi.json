@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://e-oppi.opiq.fi",
+      "intent": "Selata Opiqin etusivua ja etsi tietoa digikirjoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://e-oppi.opiq.fi",
+      "intent": "Tutustua Opiqin kirjastoon ja katsella saatavilla olevia oppiaineita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://e-oppi.opiq.fi",
+      "intent": "Ladata Opiq-sovellus ja tutustua sen ominaisuuksiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://e-oppi.opiq.fi",
+      "intent": "Kirjautua sisään Opiq-tilille ja tarkastella omia digikirjoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://e-oppi.opiq.fi",
+      "intent": "Tilata uusi digikirja Opiqin verkkosivuilta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://e-oppi.opiq.fi",
+      "intent": "Käyttää Opiqin analytiikkaa seuraamaan oppimisen edistymistä"
+    }
+  ]
+}

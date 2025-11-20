@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.puuvirrat.fi",
+      "intent": "Hae luettelosta verkkopussi polttopuille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.puuvirrat.fi",
+      "intent": "Selaa tuoteryhmää ARINAT ja vertaile eri malleja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.puuvirrat.fi",
+      "intent": "Lue toimitus- ja maksuehdot ennen tuotteiden ostamista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.puuvirrat.fi",
+      "intent": "Tarkista tilaushistoria ja seuraa tilausten etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.puuvirrat.fi",
+      "intent": "Muokkaa asiakastietoja, kuten osoitetta ja puhelinnumeroa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.puuvirrat.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja siirry kassalle maksamaan"
+    }
+  ]
+}

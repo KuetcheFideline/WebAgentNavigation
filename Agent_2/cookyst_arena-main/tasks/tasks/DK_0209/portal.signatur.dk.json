@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.signatur.dk",
+      "intent": "Jeg søger efter oplysninger om, hvordan jeg kan få adgang til mit konto efter servicevinduet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.signatur.dk",
+      "intent": "Jeg vil læse mere om, hvad der sker under servicevinduet tirsdag den 2. juni og onsdag den 3. juni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.signatur.dk",
+      "intent": "Jeg søger efter kontaktinformation, så jeg kan ringe til Signatur og spørge om min konto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.signatur.dk",
+      "intent": "Jeg vil se mine annoncer og ændre mine annonceringsindstillinger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.signatur.dk",
+      "intent": "Jeg vil downloade mine kvitteringer og fakturaer fra mit konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.signatur.dk",
+      "intent": "Jeg vil ændre mine kontoinformationer og opdatere min profil"
+    }
+  ]
+}

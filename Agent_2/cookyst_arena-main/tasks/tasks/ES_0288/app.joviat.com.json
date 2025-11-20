@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.joviat.com",
+      "intent": "Buscar información sobre el portal de aplicaciones Joviat para entender sus funcionalidades y servicios ofrecidos."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.joviat.com",
+      "intent": "Explorar la sección de FAQs para resolver dudas comunes sobre el uso del servidor de aplicaciones y recuperar el acceso en caso de olvido de contraseña."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.joviat.com",
+      "intent": "Visitar la sección de contacto para obtener información de contacto y soporte técnico en caso de necesitar ayuda con el uso de las aplicaciones."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.joviat.com",
+      "intent": "Acceder al portal de aplicaciones para gestionar mis cuentas y configuraciones personales, y para acceder a los servicios exclusivos para usuarios registrados."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.joviat.com",
+      "intent": "Ingresar a la plataforma de aprendizaje Moodle para acceder a cursos y recursos educativos disponibles solo para usuarios autenticados."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.joviat.com",
+      "intent": "Donar sangre a través de la plataforma de donación de sangre integrada en el servidor de aplicaciones, para contribuir a la comunidad y ayudar a aquellos que lo necesitan."
+    }
+  ]
+}

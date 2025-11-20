@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jhl.fi",
+      "intent": "Hae sivustolta tietoa sosiaali- ja terveysalan ammattilaisuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jhl.fi",
+      "intent": "Selvitä miten liityn JHL:n jäseneksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jhl.fi",
+      "intent": "Lue uusimmat uutiset ja blogikirjoitukset Motiivi-lehdestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jhl.fi",
+      "intent": "Tarkista oma jäsenmaksuni ja jäsenedut OmaJHL-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jhl.fi",
+      "intent": "Ilmoittaudu JHL:n järjestämään koulutukseen tai tapahtumaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jhl.fi",
+      "intent": "Tee yhteydenotto JHL:n jäsenpalveluun kysymykseni kanssa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://anklagemyndigheden.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan melde mig til som vidne i en retssag."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://anklagemyndigheden.dk",
+      "intent": "Jeg ønsker at læse om de seneste nyheder og pressemeddelelser fra Anklagemyndigheden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://anklagemyndigheden.dk",
+      "intent": "Jeg søger efter oplysninger om, hvordan jeg kan få hjælp og vejledning, hvis jeg er offer for en forbrydelse."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://anklagemyndigheden.dk",
+      "intent": "Jeg ønsker at tilføje en ny sag til min sagsoversigt, så jeg kan følge med i mine sager."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://anklagemyndigheden.dk",
+      "intent": "Jeg søger efter at downloade en rapport over mine tidligere sager, så jeg kan se mine historiske data."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://anklagemyndigheden.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer, så mine oplysninger er opdaterede."
+    }
+  ]
+}

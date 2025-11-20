@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://minunenergia.fi",
+      "intent": "Tutkin sivuston etusivua, jotta voin löytää tietoa sähkön, lämmön ja veden sopimuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://minunenergia.fi",
+      "intent": "Selailen sivuston käyttöehdoissa, jotta ymmärrän miten tietoni käsitellään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://minunenergia.fi",
+      "intent": "Etsin tietoa siitä, miten voin ilmoittaa vesilukeman"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://minunenergia.fi",
+      "intent": "Tarkastelen laskujani ja sopimuksiani, jotta voin hallita talouttani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://minunenergia.fi",
+      "intent": "Päivitän omia käyttäjätietojani, jotta ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://minunenergia.fi",
+      "intent": "Tilaa häiriötiedotepalvelun, jotta voin saada ilmoituksia mahdollisista häiriöistä"
+    }
+  ]
+}

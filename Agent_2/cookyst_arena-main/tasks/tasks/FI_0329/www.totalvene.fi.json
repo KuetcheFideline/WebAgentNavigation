@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.totalvene.fi",
+      "intent": "Lue uusimmat uutiset veneilymaailmasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.totalvene.fi",
+      "intent": "Etsi tietoa veneiden huollosta ja kunnossapidosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.totalvene.fi",
+      "intent": "Selaa veneiden myynti-ilmoituksia ja etsi itselleen sopiva vene"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.totalvene.fi",
+      "intent": "Kirjaudu sisään ja kommentoi uusimpia artikkeleita veneilyaiheista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.totalvene.fi",
+      "intent": "Luo uusi ilmoitus veneen myyntiin tai vuokraukseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.totalvene.fi",
+      "intent": "Osallistu keskusteluihin veneilyfoorumilla ja kysy neuvoa muilta käyttäjiltä"
+    }
+  ]
+}

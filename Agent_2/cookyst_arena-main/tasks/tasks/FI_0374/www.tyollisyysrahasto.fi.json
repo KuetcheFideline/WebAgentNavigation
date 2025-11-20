@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tyollisyysrahasto.fi",
+      "intent": "Hae sivuilta tietoa työttömyysvakuutusmaksuista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tyollisyysrahasto.fi",
+      "intent": "Selaa ajankohtaisia uutisia työllisyysrahastosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tyollisyysrahasto.fi",
+      "intent": "Etsi tietoa aikuiskoulutustuesta ja sen lakkauttamisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tyollisyysrahasto.fi",
+      "intent": "Tarkista työttömyysvakuutusmaksujen maksutiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tyollisyysrahasto.fi",
+      "intent": "Lähetä kysely työllisyysrahastolle työttömyysvakuutusmaksujen laskutuksesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tyollisyysrahasto.fi",
+      "intent": "Tee ilmoitus työllisyysrahastolle muutoksista työssäoloon"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Tehdä nopeustesti laajakaistayhteydelläni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Vertailla eri operaattorien nopeuksia Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Lukea Ookla Speedtest -sivuston FAQ:ia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Tarkastaa omaa tulosten historiaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Muuttaa omaa profiilia ja asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.speedtest.net",
+      "intent": "Katsella omia nopeustestituloksia ja analyysiä"
+    }
+  ]
+}

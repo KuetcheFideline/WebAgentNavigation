@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg søger efter en ny bog at læse, og jeg vil gerne se, hvad ibog.dk har at tilbyde."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg vil gerne læse anmeldelser af bøger, som andre læsere har skrevet, for at få en idé om, hvilke bøger der er gode."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg er interesseret i at se, om ibog.dk har nogen gode tilbud eller kampagner, som kan hjælpe mig med at spare penge på mine bogkøb."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg vil gerne se mine tidligere bestillinger og kontrollere, om mine bøger er sendt endnu."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer, så jeg kan få min bog leveret til min nye adresse."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://konto.systime.dk",
+      "intent": "Jeg vil gerne anmode om en retur eller en refusion af en bog, som ikke lever op til mine forventninger."
+    }
+  ]
+}

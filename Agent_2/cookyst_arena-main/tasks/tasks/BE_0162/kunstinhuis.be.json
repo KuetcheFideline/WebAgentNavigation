@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kunstinhuis.be",
+      "intent": "Rechercher des œuvres d'art pour décorer mon salon en utilisant le formulaire de recherche sur la page d'accueil"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kunstinhuis.be",
+      "intent": "Découvrir les différentes formules d'abonnement pour emprunter ou acheter des œuvres d'art en cliquant sur le lien 'Bekijk hier onze formules'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kunstinhuis.be",
+      "intent": "Explorer la collection d'œuvres d'art disponibles pour les particuliers en cliquant sur le lien 'Ontdek meer' dans la section 'Kunst in jouw huis?'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kunstinhuis.be",
+      "intent": "Gérer mes emprunts d'œuvres d'art en cours et mes réservations en utilisant mon compte personnel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kunstinhuis.be",
+      "intent": "Acheter un chèque-cadeau pour offrir 3, 6 ou 12 mois de plaisir artistique à un proche en utilisant mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kunstinhuis.be",
+      "intent": "Consulter mes informations personnelles et mes paramètres de compte en cliquant sur le lien 'Mon compte' après m'être connecté"
+    }
+  ]
+}

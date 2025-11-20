@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuoteluettelo.bromangroup.fi",
+      "intent": "Selata tuoteluetteloa ja etsiä uusimmat tarjoukset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuoteluettelo.bromangroup.fi",
+      "intent": "Lukea asiakasarvosteluita ja kommentteja tuotteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuoteluettelo.bromangroup.fi",
+      "intent": "Etsiä tietoa tuotteiden toimitusajoista ja -kustannuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuoteluettelo.bromangroup.fi",
+      "intent": "Tarkastella omaa tilaushistoriaa ja seurata tilauksen tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuoteluettelo.bromangroup.fi",
+      "intent": "Muuttaa omia tietoja ja asetuksia käyttäjäprofiilissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuoteluettelo.bromangroup.fi",
+      "intent": "Kirjautua sisään ja tehdä uusi tilaus suosikkituotteista"
+    }
+  ]
+}

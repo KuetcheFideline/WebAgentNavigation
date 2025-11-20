@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kymenhva.fi",
+      "intent": "Hae tietoa äidin alzheimerin taudin hoitamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kymenhva.fi",
+      "intent": "Selvitä, miten voin hakea apua mielenterveyden ongelmien kanssa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kymenhva.fi",
+      "intent": "Etsi tietoa kotiin tuotavista palveluista äidin hoitamiseksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kymenhva.fi",
+      "intent": "Varaa aika lääkärille äidin alzheimerin taudin seurantaa varten"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kymenhva.fi",
+      "intent": "Täytä äidin hoitopäiväkirja ja seuraa hänen terveydentilansa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kymenhva.fi",
+      "intent": "Anna palautetta äidin saamasta hoidosta ja palveluista"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://esp11.guerrastribales.es",
+      "intent": "Explorar la página de inicio para ver las características del juego Guerras Tribales"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://esp11.guerrastribales.es",
+      "intent": "Buscar información sobre cómo jugar y las reglas del juego en la sección de ayuda"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://esp11.guerrastribales.es",
+      "intent": "Visitar la sección de estadísticas para ver los rankings de jugadores y tribus"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://esp11.guerrastribales.es",
+      "intent": "Iniciar una nueva ronda de juego y configurar mi tribu y alianzas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://esp11.guerrastribales.es",
+      "intent": "Participar en una discusión en el foro para conocer estrategias y consejos de otros jugadores"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://esp11.guerrastribales.es",
+      "intent": "Administrar mis recursos y edificios en el juego para mejorar mi posición en el ranking"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.argenta.be",
+      "intent": "Rechercher les informations sur les comptes d'épargne pour les personnes âgées"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.argenta.be",
+      "intent": "Comparer les différents forfaits de banque en ligne pour trouver celui qui convient le mieux à mes besoins"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.argenta.be",
+      "intent": "Trouver les coordonnées d'un bureau Argenta près de chez moi pour obtenir des conseils personnalisés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.argenta.be",
+      "intent": "Vérifier mon solde bancaire et les transactions récentes sur mon compte en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.argenta.be",
+      "intent": "Effectuer un virement vers un compte tiers en utilisant le service de banque en ligne"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.argenta.be",
+      "intent": "Consulter mes relevés de compte et imprimer les documents nécessaires pour mes déclarations fiscales"
+    }
+  ]
+}

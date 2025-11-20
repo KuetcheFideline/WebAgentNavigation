@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hartwall.fi",
+      "intent": "Selvitän, mitä juomia Hartwall tarjoaa ja etsin uusia vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hartwall.fi",
+      "intent": "Luen Hartwallin verkkokaupan valikoimaa ja etsin tarjouksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hartwall.fi",
+      "intent": "Tutkin Hartwallin brändejä ja etsin tietoa niiden historiasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hartwall.fi",
+      "intent": "Kirjaudun sisään ja tilaan juomia Hartwallin verkkokaupasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hartwall.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuratan tilausteni tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hartwall.fi",
+      "intent": "Osallistun Hartwallin asiakasarviointiin ja annan palautetta"
+    }
+  ]
+}

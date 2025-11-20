@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte die neuesten Nachrichten im Teletext im Ersten überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich will die Sendungen und das TV-Programm für die Woche anzeigen lassen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte die Mobilversion des ARD Text aufrufen, um ihn unterwegs zu lesen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte meine persönlichen Einstellungen für den Teletext im Ersten anpassen, um nur bestimmte Nachrichten zu sehen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich will meine Favoriten im Teletext im Ersten bearbeiten, um schnell auf meine Lieblingssendungen zuzugreifen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ard-text.de",
+      "intent": "Ich möchte meine Benachrichtigungen für bestimmte Ereignisse oder Sendungen im Teletext im Ersten einrichten."
+    }
+  ]
+}

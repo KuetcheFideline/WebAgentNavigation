@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bodymaja.fi",
+      "intent": "Haluaisin tietää, miten voin ostaa InBody-mittauksen Bodymajalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bodymaja.fi",
+      "intent": "Löytäisin listan kaikista Bodymajan toimipisteistä Suomessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bodymaja.fi",
+      "intent": "Haluaisin lukea asiakaskokemuksia Bodymajan mittauksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bodymaja.fi",
+      "intent": "Tarkastelisin omaa kehonkoostumusraporttiani OmaBody-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bodymaja.fi",
+      "intent": "Haluaisin seurata kehonkoostumusmittaukseni tulosten kehitystä OmaBody-palvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bodymaja.fi",
+      "intent": "Tulostaisin viimeisimmän kehonkoostumusmittaukseni raportin OmaBody-palvelusta"
+    }
+  ]
+}

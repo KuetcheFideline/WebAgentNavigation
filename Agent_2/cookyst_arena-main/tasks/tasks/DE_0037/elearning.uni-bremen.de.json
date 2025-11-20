@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elearning.uni-bremen.de",
+      "intent": "Ich möchte die Startseite von e-Learning erkunden, um zu sehen, was für Kurse und Ressourcen verfügbar sind."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elearning.uni-bremen.de",
+      "intent": "Ich will die FAQ-Seite aufrufen, um Antworten auf häufige Fragen zu finden, bevor ich mich anmelden muss."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elearning.uni-bremen.de",
+      "intent": "Ich möchte die Kontaktinformationen für den Support finden, um Hilfe bei technischen Problemen zu erhalten, bevor ich mich anmelden muss."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elearning.uni-bremen.de",
+      "intent": "Ich möchte meine Kursliste aufrufen, um zu sehen, welche Kurse ich belegt habe und welche Aufgaben ich zu erledigen habe."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elearning.uni-bremen.de",
+      "intent": "Ich will meine persönlichen Einstellungen überprüfen, um sicherzustellen, dass meine Kontaktdaten und Vorlieben korrekt sind."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elearning.uni-bremen.de",
+      "intent": "Ich möchte eine Nachricht an den Kursleiter senden, um Fragen zu einem bestimmten Kurs zu stellen oder um Feedback zu erhalten."
+    }
+  ]
+}

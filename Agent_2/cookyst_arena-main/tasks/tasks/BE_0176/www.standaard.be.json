@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Rechercher des articles sur les dernières actualités en Belgique pour rester informé sur l'actualité nationale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Lire les opinions et les analyses des experts sur les sujets d'actualité pour avoir une vision plus approfondie des problèmes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.standaard.be",
+      "intent": "Consulter la section 'DS Onderzoekt' pour découvrir des enquêtes et des analyses approfondies sur des sujets variés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Accéder à la version numérique du journal pour lire les articles en ligne et profiter des avantages de l'abonnement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Gérer mon abonnement pour mettre à jour mes informations de paiement ou pour résilier mon abonnement si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.standaard.be",
+      "intent": "Participer à la section 'Opinie' en laissant des commentaires ou en rédigeant des lettres au rédacteur en chef pour exprimer mes opinions"
+    }
+  ]
+}

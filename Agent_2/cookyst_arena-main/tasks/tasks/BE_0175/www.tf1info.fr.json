@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tf1info.fr",
+      "intent": "Rechercher les dernières actualités sur la politique française pour rester informé sur les événements récents"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tf1info.fr",
+      "intent": "Consulter les émissions en replay pour regarder le journal télévisé de la veille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tf1info.fr",
+      "intent": "Explorer la rubrique 'Sujets de société' pour découvrir des articles sur les questions qui me préoccupent"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tf1info.fr",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les actualités qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tf1info.fr",
+      "intent": "Participer à un sondage en ligne pour donner mon avis sur un sujet d'actualité"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tf1info.fr",
+      "intent": "Gérer mon compte pour mettre à jour mes informations personnelles et mes paramètres de confidentialité"
+    }
+  ]
+}

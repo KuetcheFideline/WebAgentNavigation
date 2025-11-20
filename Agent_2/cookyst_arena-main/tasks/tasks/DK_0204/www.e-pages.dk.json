@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.e-pages.dk",
+      "intent": "Jeg søger efter en måde at komme videre på, selvom siden ikke kan findes, så jeg vil prøve at søge efter en lignende side."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.e-pages.dk",
+      "intent": "Jeg vil se, om der er andre sider på e-pages.dk, der kan hjælpe mig med, hvad jeg søger, så jeg vil klikke på en af de andre links på siden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.e-pages.dk",
+      "intent": "Jeg vil prøve at kontakte e-pages.dk's kundeservice for at se, om de kan hjælpe mig med at finde, hvad jeg søger, så jeg vil klikke på en kontakt eller support-link."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.e-pages.dk",
+      "intent": "Jeg vil se, om jeg kan få adgang til mere indhold eller funktioner, når jeg er logget ind, så jeg vil klikke på mit brugernavn og se, hvad der sker."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.e-pages.dk",
+      "intent": "Jeg vil prøve at redigere min profil eller mine indstillinger, når jeg er logget ind, så jeg vil klikke på en profil- eller indstillings-link."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.e-pages.dk",
+      "intent": "Jeg vil se, om jeg kan få adgang til eksklusivt indhold eller tilbud, når jeg er logget ind, så jeg vil klikke på en link, der ligner en eksklusiv tilbud-link."
+    }
+  ]
+}

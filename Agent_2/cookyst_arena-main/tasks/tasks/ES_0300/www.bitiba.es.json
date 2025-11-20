@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bitiba.es",
+      "intent": "Buscar comida para perros de alta calidad y comparar precios en la sección de Comida Perros"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bitiba.es",
+      "intent": "Explorar la sección de Accesorios Gatos y leer las descripciones de los productos para encontrar uno adecuado para mi gato"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bitiba.es",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre los productos de comida para perros en la sección de Comida Perros"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bitiba.es",
+      "intent": "Iniciar sesión y acceder a mi cuenta para ver mis pedidos anteriores y realizar un nuevo pedido de comida para perros"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bitiba.es",
+      "intent": "Configurar mis preferencias de cuenta y agregar mis mascotas para recibir recomendaciones personalizadas de productos en la sección de Comida Perros"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bitiba.es",
+      "intent": "Acceder a la sección de Pedir de nuevo y realizar un nuevo pedido de los productos que he comprado anteriormente"
+    }
+  ]
+}

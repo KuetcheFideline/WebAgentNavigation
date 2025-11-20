@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uab.cat",
+      "intent": "Buscar información sobre los estudios de postgrado en la Universidad Autónoma de Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uab.cat",
+      "intent": "Explorar las opciones de investigación y desarrollo en la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uab.cat",
+      "intent": "Verificar los requisitos de admisión para los programas de doctorado"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uab.cat",
+      "intent": "Acceder al campus virtual para consultar mis notas y horarios de clase"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uab.cat",
+      "intent": "Solicitar un certificado de estudios a través de la intranet de la universidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uab.cat",
+      "intent": "Consultar y reservar un turno con un tutor académico a través de la plataforma de la universidad"
+    }
+  ]
+}

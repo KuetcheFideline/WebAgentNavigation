@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ncc.fi",
+      "intent": "Lue lisää NCC:n uusimmista rakennushankkeista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ncc.fi",
+      "intent": "Etsi tietoa NCC:n konversiorakentamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ncc.fi",
+      "intent": "Selaa NCC:n projekti-esittelyjä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ncc.fi",
+      "intent": "Täytä yhteydenottolomake NCC:n asiakaspalveluun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ncc.fi",
+      "intent": "Lataa NCC:n uusin raportti kestävän materiaalihuollon tilasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ncc.fi",
+      "intent": "Kirjaudu sisään NCC:n verkkopalveluun ja selaa henkilökohtaisia tiedostoja"
+    }
+  ]
+}

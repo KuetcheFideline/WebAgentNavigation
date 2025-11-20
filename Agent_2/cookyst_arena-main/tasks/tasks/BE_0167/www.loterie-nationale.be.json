@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.loterie-nationale.be",
+      "intent": "Découvrir les différents jeux proposés par la Loterie Nationale pour choisir celui qui me convient le mieux."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.loterie-nationale.be",
+      "intent": "Consulter les résultats des derniers tirages pour voir si j'ai gagné quelque chose."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.loterie-nationale.be",
+      "intent": "Rechercher des informations sur le Club de la Loterie Nationale pour comprendre les avantages qu'il offre."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.loterie-nationale.be",
+      "intent": "Vérifier mon solde de compte pour savoir combien d'argent je peux dépenser pour jouer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.loterie-nationale.be",
+      "intent": "Acheter un billet de loterie en ligne pour le prochain tirage de l'EuroMillions."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.loterie-nationale.be",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes lorsque je gagne ou lorsque des nouveaux jeux sont ajoutés."
+    }
+  ]
+}

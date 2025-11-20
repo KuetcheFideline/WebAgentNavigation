@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verokone.hs.fi",
+      "intent": "Tutkin verokoneen tietoja eniten tuloja saaneista suomalaisista vuodesta 1999"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verokone.hs.fi",
+      "intent": "Hae tietoja omasta maakunnastani, Kemijärvestä, ja vertaa niitä muihin maakuntiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verokone.hs.fi",
+      "intent": "Selvittelen, miten paljon hyvätuloiset maksavat veroa ja saavatko he ansio- vai pääomatuloa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verokone.hs.fi",
+      "intent": "Tallennan suosikkini listalle henkilöitä, joiden tuloja ja veroja haluan seurata"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verokone.hs.fi",
+      "intent": "Lisään kommentin jonkun henkilön tuloihin ja veroihin liittyen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verokone.hs.fi",
+      "intent": "Vertailen omaa tulotasoani ja verotasoani muihin saman ikäryhmän ja ammattiryhmän edustajiin"
+    }
+  ]
+}

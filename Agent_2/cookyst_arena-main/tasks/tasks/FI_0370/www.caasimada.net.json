@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.caasimada.net",
+      "intent": "Luen uutisia Somalian tilanteesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.caasimada.net",
+      "intent": "Etsin tietoa työttömyyden vaikutuksista Somalian talouteen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.caasimada.net",
+      "intent": "Selvän, miten Somalian hallitus aikoo ratkaista maan talousongelmat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.caasimada.net",
+      "intent": "Kirjaudun sisään ja kommentoin uutista Somalian poliittisesta tilanteesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.caasimada.net",
+      "intent": "Luen ja vastaan uutiseen liittyvään keskusteluun foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.caasimada.net",
+      "intent": "Tallennan uutisen Somalian taloudesta omaani suosikkien joukkoon"
+    }
+  ]
+}

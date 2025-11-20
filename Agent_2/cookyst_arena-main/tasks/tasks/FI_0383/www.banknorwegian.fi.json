@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Hae tietoa luottokortin hakuun ja sen edut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Vertaile lainatarjouksia ja katso miten lainojen yhdistäminen toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Lue lisää säästötilien ominaisuuksista ja avaa säästötili"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Tarkista luottorajani ja tee muutoksia tarpeen mukaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Hae lisää lainaa olemassa olevaan lainaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.banknorwegian.fi",
+      "intent": "Ostetaan vakuutuksia luottokorttiin, kuten matka- ja peruutusvakuutus"
+    }
+  ]
+}

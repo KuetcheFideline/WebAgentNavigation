@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pelaaja.fi",
+      "intent": "Luen uusimmat peliuutiset Pelaaja.fi -sivustolta, jotta voin pysyä ajan tasalla uusimmista kehityksistä pelimaailmassa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pelaaja.fi",
+      "intent": "Etsin arvosteluita juuri ilmestyneistä peleistä, jotta voin saada paremman käsityksen siitä, mitkä pelit ovat parhaita ja mitkä kannattaa ostaa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pelaaja.fi",
+      "intent": "Katselen Pelaaja.fi -sivuston videot, jotta voin nähdä uusimmat trailerit ja pelidemonstraatiot."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pelaaja.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpiin artikkeleihin, jotta voin osallistua keskusteluun ja jakaa omia mielipiteitäni muiden pelaajien kanssa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pelaaja.fi",
+      "intent": "Tilaa Pelaaja-lehti, jotta voin lukea uusimmat peliuutiset ja -arvostelut myös painettuna ja pääsee osallistumaan kilpailuihin ja voittamaan palkintoja."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pelaaja.fi",
+      "intent": "Osallistun Pelaaja.fi -sivuston kilpailuihin, jotta voin voittaa uusimmat pelit ja peliliikkeen tarjoamat palkinnot."
+    }
+  ]
+}

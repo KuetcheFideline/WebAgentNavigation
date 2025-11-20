@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvsporten.dk",
+      "intent": "Jeg søger efter fodboldkampe i dag på TVsporten.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvsporten.dk",
+      "intent": "Jeg vil se hvilke sportskanaler der er tilgængelige på TVsporten.dk"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvsporten.dk",
+      "intent": "Jeg søger efter information om Superligaen på TVsporten.dk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvsporten.dk",
+      "intent": "Jeg vil tilføje en påmindelse om en fodboldkamp på min kalender på TVsporten.dk"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvsporten.dk",
+      "intent": "Jeg vil indsende en anmodning om at få vist en bestemt sportsbegivenhed på TVsporten.dk"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvsporten.dk",
+      "intent": "Jeg vil ændre mine indstillinger for hvilke sportsnyheder jeg modtager på TVsporten.dk"
+    }
+  ]
+}

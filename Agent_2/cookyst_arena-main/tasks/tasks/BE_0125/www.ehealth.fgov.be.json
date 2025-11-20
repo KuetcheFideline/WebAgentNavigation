@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ehealth.fgov.be",
+      "intent": "Rechercher les informations sur les soins de santé de base pour les jeunes en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ehealth.fgov.be",
+      "intent": "Comparer les différents services de santé en ligne proposés par le portail eGezondheid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ehealth.fgov.be",
+      "intent": "Explorer les ressources disponibles pour les apprentis en formation professionnelle dans le secteur de la santé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ehealth.fgov.be",
+      "intent": "Consulter mon dossier médical personnel pour suivre mes examens et résultats de tests"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ehealth.fgov.be",
+      "intent": "Gérer mes rendez-vous médicaux en ligne pour planifier des consultations avec mon médecin traitant"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ehealth.fgov.be",
+      "intent": "Accéder à mes ordonnances et prescriptions médicales pour gérer mes traitements en cours"
+    }
+  ]
+}

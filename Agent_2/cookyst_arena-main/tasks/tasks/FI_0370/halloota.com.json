@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://halloota.com",
+      "intent": "Luen uusimmat uutiset ja viihdeuutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://halloota.com",
+      "intent": "Etsin tietoa julkkiksista, kuten Anna Abreu ja Anniina Valtonen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://halloota.com",
+      "intent": "Selailen sivuston etusivun uutisia ja etsin mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://halloota.com",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpaan uutiseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://halloota.com",
+      "intent": "Luen ja vastaan Julkkikset-osiosta löytyviin artikkeleihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://halloota.com",
+      "intent": "Tallennan suosikkijulkkisen, kuten Cheekin, uusimman artikkelin suosikkeihini"
+    }
+  ]
+}

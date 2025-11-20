@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vaski.finna.fi",
+      "intent": "Hae kirjaa aiheesta luonto ja ympäristö"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vaski.finna.fi",
+      "intent": "Selaa lastenkirjoja ja etsi sopiva kirja 5-vuotiaalle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vaski.finna.fi",
+      "intent": "Tutki Vaskin verkkokirjaston e-aineistojen ohjeita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vaski.finna.fi",
+      "intent": "Uusi lainaamani kirjan laina-aikaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vaski.finna.fi",
+      "intent": "Tee varaus kirjasta, joka on tällä hetkellä lainattu"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vaski.finna.fi",
+      "intent": "Tarkastele hakuhistoriaani ja tallenna hakusanoja myöhempää käyttöä varten"
+    }
+  ]
+}

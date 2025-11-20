@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://habitatge.gva.es",
+      "intent": "Buscar información sobre ayudas para la compra de vivienda en la Comunidad Valenciana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://habitatge.gva.es",
+      "intent": "Explorar las diferentes secciones del sitio web para conocer los servicios y programas ofrecidos por la Generalitat Valenciana en materia de vivienda"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://habitatge.gva.es",
+      "intent": "Descargar el formulario de solicitud de ayuda para la rehabilitación de viviendas en el municipio de Valencia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://habitatge.gva.es",
+      "intent": "Acceder a la sección de 'Mi cuenta' para verificar el estado de mi solicitud de ayuda para la compra de vivienda"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://habitatge.gva.es",
+      "intent": "Solicitar una cita con un asesor de vivienda para obtener orientación personalizada sobre los programas de ayuda disponibles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://habitatge.gva.es",
+      "intent": "Descargar el certificado de haber completado el curso de formación en materia de vivienda y urbanismo ofrecido por la Generalitat Valenciana"
+    }
+  ]
+}

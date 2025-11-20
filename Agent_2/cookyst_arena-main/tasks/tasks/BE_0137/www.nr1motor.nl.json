@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nr1motor.nl",
+      "intent": "Rechercher des accessoires pour ma moto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nr1motor.nl",
+      "intent": "Comparer les prix des pièces de rechange pour ma moto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nr1motor.nl",
+      "intent": "Lire les avis des clients sur les produits de la boutique en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nr1motor.nl",
+      "intent": "Ajouter un produit à ma liste de souhaits"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nr1motor.nl",
+      "intent": "Consulter l'historique de mes commandes passées"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nr1motor.nl",
+      "intent": "Modifier mes informations de compte et mes coordonnées"
+    }
+  ]
+}

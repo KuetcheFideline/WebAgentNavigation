@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mainokset.hameenmaa.fi",
+      "intent": "Etsin tietoa sivuston sisällöstä, koska olen kiinnostunut mainonnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mainokset.hameenmaa.fi",
+      "intent": "Haluan tarkastella sivuston virheilmoitusta, jotta voin ymmärtää, miksi sivu ei löydy"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mainokset.hameenmaa.fi",
+      "intent": "Käyn sivuston linkin kautta Taiqa.com-sivustolla, jotta saan lisätietoa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mainokset.hameenmaa.fi",
+      "intent": "Tallennan sivuston virheilmoituksen kuvakaappauksen, jotta voin jakaa sen ystävieni kanssa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mainokset.hameenmaa.fi",
+      "intent": "Lähetän sivuston ylläpidolle viestin, jossa kerrotaan virheilmoituksesta, jotta he voivat korjata ongelman"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mainokset.hameenmaa.fi",
+      "intent": "Tee sivustolle palaute, jossa ehdotan parannuksia sivuston virheilmoituksiin"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eperusteet.opintopolku.fi",
+      "intent": "Hae opetus- ja toteutussuunnitelmia varhaiskasvatuksen perusteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eperusteet.opintopolku.fi",
+      "intent": "Selaa valtakunnallisia perusteita ja paikallisia suunnitelmia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eperusteet.opintopolku.fi",
+      "intent": "Tutustu Opintopolku.fi -palveluun ja etsi tietoa koulutuksiin hakuun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eperusteet.opintopolku.fi",
+      "intent": "Julkaista paikallisia suunnitelmia palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eperusteet.opintopolku.fi",
+      "intent": "Tarkista ja päivitä omia opetussuunnitelmia ja tutkintojen toteutussuunnitelmia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eperusteet.opintopolku.fi",
+      "intent": "Käytä rajapintoja ja etsi tietoa opetushallituksen määräyksistä ja suosituksista"
+    }
+  ]
+}

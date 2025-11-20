@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.digikey.be",
+      "intent": "Rechercher des composants électroniques pour un projet personnel de robotique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.digikey.be",
+      "intent": "Comparer les prix et les caractéristiques de différents types de capteurs de mouvement"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.digikey.be",
+      "intent": "Explorer les différentes catégories de produits électroniques disponibles sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.digikey.be",
+      "intent": "Consulter l'historique de mes commandes passées pour suivre l'état de mes livraisons"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.digikey.be",
+      "intent": "Gérer mes listes de produits favoris et mes listes de souhaits pour des futurs achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.digikey.be",
+      "intent": "Modifier mes informations de compte et mes préférences de livraison pour améliorer mon expérience d'achat"
+    }
+  ]
+}

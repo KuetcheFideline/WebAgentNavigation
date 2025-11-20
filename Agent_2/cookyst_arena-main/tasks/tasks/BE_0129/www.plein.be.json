@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.plein.be",
+      "intent": "Rechercher des produits de soin pour la peau en utilisant le moteur de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.plein.be",
+      "intent": "Comparer les prix et les caractéristiques de différents produits de nettoyage pour la maison"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.plein.be",
+      "intent": "Explorer les offres et les promotions disponibles sur le site pour les produits de beauté"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.plein.be",
+      "intent": "Consulter mes commandes précédentes et mes produits favoris pour planifier mes prochains achats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.plein.be",
+      "intent": "Gérer mes informations personnelles et de paiement pour faciliter mes achats futurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.plein.be",
+      "intent": "Utiliser mon compte pour suivre l'état de mes commandes et mes retours"
+    }
+  ]
+}

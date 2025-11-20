@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.mese.fi",
+      "intent": "Selvitän, mitä tällä sivulla on tarjolla ja etsin foorumia, jossa voisin keskustella muiden kanssa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.mese.fi",
+      "intent": "Luen sivun sisältöä ja yritän ymmärtää, miten sivu toimii ja mitä sieltä voi löytää."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.mese.fi",
+      "intent": "Etsin linkkiä mersuforum.net-sivulle, jotta voisin siirtyä sinne ja tutustua sen sisältöön."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.mese.fi",
+      "intent": "Kirjaudun sisään ja yritän löytää omat aiemmat viestini foorumilta, jotta voisin jatkaa keskustelua."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.mese.fi",
+      "intent": "Lähetän uuden viestin foorumille, jotta voisin aloittaa uuden keskustelun aiheesta, joka kiinnostaa minua."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.mese.fi",
+      "intent": "Muokkaan profiiliani, jotta voisin päivittää tietoni ja saada enemmän hyödyllistä tietoa itsestäni ja mielenkiinnostuksistani."
+    }
+  ]
+}

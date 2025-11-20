@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Consultar los procedimientos para solicitar una autorización administrativa para mi negocio rural en la sede electrónica"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Buscar información sobre los programas de reconocimiento y certificaciones para empleados públicos en la sede electrónica"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Acceder a la sección de preguntas frecuentes para resolver dudas sobre los trámites administrativos en la sede electrónica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Gestionar mis expedientes y realizar solicitudes de cita previa en la sede electrónica con mi certificado digital"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Descargar notificaciones y documentos relacionados con mis trámites administrativos en la sede electrónica"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.administracionespublicas.gob.es",
+      "intent": "Firmar documentos electrónicamente con mi DNI electrónico en la sede electrónica para agilizar mis trámites administrativos"
+    }
+  ]
+}

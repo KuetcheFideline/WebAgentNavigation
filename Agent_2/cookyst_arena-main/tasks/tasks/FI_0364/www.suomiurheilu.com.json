@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.suomiurheilu.com",
+      "intent": "Luen uusimmat urheilu-uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.suomiurheilu.com",
+      "intent": "Etsin tietoa maastohiihdon Suomen Cup 2025-26 kilpailuista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.suomiurheilu.com",
+      "intent": "Selailen sivuston valikkoa ja etsin mielenkiintoista urheilusisältöä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.suomiurheilu.com",
+      "intent": "Kirjaudun sisään ja kommentoin uusinta urheilu-uutista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.suomiurheilu.com",
+      "intent": "Lisään suosikkijoukkueeni seurantaan ja saat tilanteen päivityksiä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.suomiurheilu.com",
+      "intent": "Osallistun urheiluaiheiseen keskusteluun foorumilla"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://matka-kosonen.fi",
+      "intent": "Tutustun valmismatkojen tarjontaan ja etsin sopivaa matkakohdetta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://matka-kosonen.fi",
+      "intent": "Selvittelen miten voin varata paikan Kerimäen matkalle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://matka-kosonen.fi",
+      "intent": "Luen lisää Joensuun matkoista ja niiden aikatauluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://matka-kosonen.fi",
+      "intent": "Tarkastan tilaustani ja vahvistan varaukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://matka-kosonen.fi",
+      "intent": "Muutan olemassa olevaa varaustani toiseen matkakohteeseen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://matka-kosonen.fi",
+      "intent": "Tulostan matkustustodistukseni ja vahvistan matkatiedot"
+    }
+  ]
+}

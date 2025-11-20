@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.bib.dk",
+      "intent": "Læs om, hvordan jeg kan bruge bibliotekets digitale ressourcer uden at skulle logge ind"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.bib.dk",
+      "intent": "Find ud af, hvordan jeg kan få adgang til bibliotekets samlinger og ressourcer som gæst"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.bib.dk",
+      "intent": "Se, om der er nogen begrænsninger eller krav for at kunne låne bøger eller andre medier fra biblioteket"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.bib.dk",
+      "intent": "Lån en bog om solenergi og læs den på min tablet under mit næste møde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.bib.dk",
+      "intent": "Reserver en plads til et møde om bæredygtige energiløsninger på biblioteket"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.bib.dk",
+      "intent": "Få adgang til mine lånehistorik og se, hvilke bøger jeg har lånt ud tidligere"
+    }
+  ]
+}

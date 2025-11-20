@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Hae kohdetta akneihon puhdistustuotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Selaa tarjouksia ja etsi edullisia vaihtoehtoja masennuksen hoitoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Lue lisää allergisen nuhan hoitovaihtoehdoista ja oireista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Tilaa uusi erä masennuslääkkeitä omasta tilistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Tarkista tilausHistoria ja etsi tietoa aiemmista ostoksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.yliopistonverkkoapteekki.fi",
+      "intent": "Muokkaa omia tietoja ja osoitetta tilin asetuksissa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://posti.seinajoki.fi",
+      "intent": "Tarkastan sivuston julkisia palveluita ja etsin tietoa Seinäjoen kaupungin postipalveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://posti.seinajoki.fi",
+      "intent": "Selvittelen, miten voin lähettää kirjeen tai paketin Seinäjoen postipalvelun kautta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://posti.seinajoki.fi",
+      "intent": "Etsin tietoa Seinäjoen postitoimipaikoista ja niiden aukioloajoista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://posti.seinajoki.fi",
+      "intent": "Kirjaudun sisään ja tarkastan postilahjani tilan ja seurannan."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://posti.seinajoki.fi",
+      "intent": "Muutan salasanani ja päivitän henkilökohtaiset tiedot postipalvelun asiakasprofiilissani."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://posti.seinajoki.fi",
+      "intent": "Tilaa uusi postilaatikko tai muutan olemassa olevan postilaatikon osoitetta."
+    }
+  ]
+}

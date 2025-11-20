@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.thalia.de",
+      "intent": "Ich möchte ein bestimmtes Buch finden, also werde ich die Suche verwenden, um es zu finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.thalia.de",
+      "intent": "Ich bin auf der Suche nach Geschenken, also werde ich die Rubrik 'Geschenke finden' besuchen, um Inspiration zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.thalia.de",
+      "intent": "Ich möchte die aktuellen Bestseller sehen, also werde ich die entsprechende Kategorie aufrufen, um zu sehen, was gerade populär ist."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.thalia.de",
+      "intent": "Ich möchte meine Merkzettel überprüfen, um zu sehen, welche Bücher ich mir bereits notiert habe, also werde ich auf 'Mein Konto' und dann 'Merkzettel' klicken."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.thalia.de",
+      "intent": "Ich möchte ein bestimmtes Buch kaufen, das ich bereits in meinem Merkzettel habe, also werde ich es aus meinem Merkzettel in den Warenkorb legen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.thalia.de",
+      "intent": "Ich möchte meine Bestellungen überprüfen, um zu sehen, ob alles korrekt ist, also werde ich auf 'Mein Konto' und dann 'Bestellungen' klicken."
+    }
+  ]
+}

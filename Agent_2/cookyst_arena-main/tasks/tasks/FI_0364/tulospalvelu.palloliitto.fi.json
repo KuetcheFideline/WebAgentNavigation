@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Hae Suomen jalkapalloliigan ottelut ja sarjat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Selaa jalkapalloliigan joukkueiden ja pelaajien tietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Tutki jalkapalloliigan kalenteria ja turnauksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Muokkaa suosikkijoukkueita ja pelaajia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Tilaa Palloliiton uutiskirje ja seuraa jalkapalloliigan uutisia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.palloliitto.fi",
+      "intent": "Valitse suosikkiohjelma ja seuraa jalkapalloliigan otteluita"
+    }
+  ]
+}

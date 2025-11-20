@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Buscar películas de acción en cartelera para ver con mis amigos después del trabajo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Comparar precios de entradas para una película en diferentes cines de Madrid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Explorar la sección de noticias de cine para estar al día sobre las últimas estrenos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Comprar entradas para la película que he estado esperando con mi cuenta de Cinesa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Configurar mis preferencias de cine para recibir recomendaciones personalizadas en mi perfil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cinesa.es",
+      "intent": "Verificar mis puntos de fidelidad para canjearlos por descuentos o regalos en mi próxima visita al cine"
+    }
+  ]
+}

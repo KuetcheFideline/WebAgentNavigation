@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pitajanuutiset.fi",
+      "intent": "Luen uusimmat uutiset Mäntyharjusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pitajanuutiset.fi",
+      "intent": "Etsin tietoa Mäntyharjun lukion uusista ylioppilaista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pitajanuutiset.fi",
+      "intent": "Selailen kuvagallerioita ja videoita sivustolla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pitajanuutiset.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpaan mielipidekirjoitukseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pitajanuutiset.fi",
+      "intent": "Tilaa uutiskirje, jotta voin pysyä ajan tasalla Mäntyharjun tapahtumista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pitajanuutiset.fi",
+      "intent": "Muokkaan profiiliani ja tarkistan tilaustani"
+    }
+  ]
+}

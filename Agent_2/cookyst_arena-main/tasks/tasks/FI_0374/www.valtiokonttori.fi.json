@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.valtiokonttori.fi",
+      "intent": "Hae sivustolta tietoa rikosvahinkokorvauksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.valtiokonttori.fi",
+      "intent": "Selvitä miten voit hakea valtionavustuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.valtiokonttori.fi",
+      "intent": "Lue lisää Valtiokonttorin kestävyysraportista 2024"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.valtiokonttori.fi",
+      "intent": "Tee sähköinen asiointi lainapalveluiden osalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.valtiokonttori.fi",
+      "intent": "Hae korvaus- ja vahinkopalveluita asiakkaiden puolesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.valtiokonttori.fi",
+      "intent": "Tarkastele ja hallinnoi valtionavustuksia ja -maksuja"
+    }
+  ]
+}

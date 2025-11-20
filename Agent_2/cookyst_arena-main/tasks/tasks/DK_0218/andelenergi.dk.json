@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://andelenergi.dk",
+      "intent": "Jeg søger efter information om elpriser og hvordan jeg kan spare penge på min elregning"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://andelenergi.dk",
+      "intent": "Jeg vil sammenligne forskellige el-aftaler og finde den bedste til min bolig"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://andelenergi.dk",
+      "intent": "Jeg søger efter vejledning om, hvordan jeg kan reducere min energiforbrug og blive mere bæredygtig"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://andelenergi.dk",
+      "intent": "Jeg vil logge ind på Min side for at se mine regninger og betalingshistorik"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://andelenergi.dk",
+      "intent": "Jeg vil ændre mine betalingsoplysninger og sætte op automatisk betaling af mine regninger"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://andelenergi.dk",
+      "intent": "Jeg vil downloade mine regninger og årsopgørelser for at have en oversigt over mit forbrug"
+    }
+  ]
+}

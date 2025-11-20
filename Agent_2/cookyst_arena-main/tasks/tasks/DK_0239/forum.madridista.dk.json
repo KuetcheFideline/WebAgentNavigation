@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forum.madridista.dk",
+      "intent": "Jeg søger efter nyheder om Real Madrids kommende kampe"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forum.madridista.dk",
+      "intent": "Jeg vil læse om debatterne omkring Xabi Alonsos trænerstil"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forum.madridista.dk",
+      "intent": "Jeg ønsker at se hvilke emner der er mest populære på forummet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forum.madridista.dk",
+      "intent": "Jeg vil skrive en kommentar til en af debatindlæggene om Real Madrids spillere"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forum.madridista.dk",
+      "intent": "Jeg ønsker at oprette en ny tråd om mine tanker om Real Madrids fremtid"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forum.madridista.dk",
+      "intent": "Jeg vil sende en privat besked til en anden bruger omkring en fælles interesse i Real Madrid"
+    }
+  ]
+}

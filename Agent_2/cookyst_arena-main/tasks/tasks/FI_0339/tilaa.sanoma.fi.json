@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tilaa.sanoma.fi",
+      "intent": "Tutustu eri aikakauslehtiin ja etsi sopiva tilausvaihtoehto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tilaa.sanoma.fi",
+      "intent": "Selaa sarjakuva- ja lastenlehtiä ja vertaile niiden sisältöjä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tilaa.sanoma.fi",
+      "intent": "Etsi tietoa sanomalehtien digipalveluista ja niiden tarjoamista eduista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tilaa.sanoma.fi",
+      "intent": "Tilaa lemmikkiaikakauslehti ja hallinnoi tilausta omassa asiakastilissä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tilaa.sanoma.fi",
+      "intent": "Muuta olemassaolevan tilauksen asetuksia, kuten toimitusosoitetta tai maksutapaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tilaa.sanoma.fi",
+      "intent": "Tarkastele tilaus- ja maksuhistoriaa sekä luo uusi lahjatilaus ystävälle"
+    }
+  ]
+}

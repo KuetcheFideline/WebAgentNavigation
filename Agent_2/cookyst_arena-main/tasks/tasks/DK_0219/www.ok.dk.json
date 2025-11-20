@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ok.dk",
+      "intent": "Jeg søger information om OK's produkter til private, for at se om de har noget, der kan hjælpe mig med at reducere mit energiforbrug"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ok.dk",
+      "intent": "Jeg vil læse mere om OK's udvalg af bilvaske, for at se om de har nogen gode tilbud eller rabatter"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ok.dk",
+      "intent": "Jeg søger efter information om OK's elpriser, for at se om de har nogen gode tilbud eller kampagner"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ok.dk",
+      "intent": "Jeg vil logge ind på min konto for at se mine nuværende elpriser og se om jeg kan spare penge ved at skifte til en anden prismodel"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ok.dk",
+      "intent": "Jeg vil logge ind på min konto for at bestille en ny el-aftale, da min nuværende aftale udløber snart"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ok.dk",
+      "intent": "Jeg vil logge ind på min konto for at se mine fakturaer og betalingshistorik, så jeg kan holde styr på mine udgifter"
+    }
+  ]
+}

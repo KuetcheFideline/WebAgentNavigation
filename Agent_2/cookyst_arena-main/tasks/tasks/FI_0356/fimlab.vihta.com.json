@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fimlab.vihta.com",
+      "intent": "Selvitän, miten varaus toimii Fimlabissa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fimlab.vihta.com",
+      "intent": "Luen ohjeet näytteenottoaikojen varauksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fimlab.vihta.com",
+      "intent": "Etsin tietoa Fimlabin palveluista ja hinnoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fimlab.vihta.com",
+      "intent": "Kirjaudun sisään ja varaan ajan näytteenottoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fimlab.vihta.com",
+      "intent": "Tarkastan omaa varauskalenteriani ja teen muutoksia tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fimlab.vihta.com",
+      "intent": "Vahvistan lähetetyt varaukset ja tulostan tarvittavat ohjeet"
+    }
+  ]
+}

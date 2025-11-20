@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvtoday.de",
+      "intent": "Ich möchte das aktuelle Fernsehprogramm für heute anzeigen und nach Sendungen suchen, die mich interessieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvtoday.de",
+      "intent": "Ich will die TV-Tipps der Redaktion für heute anzeigen und sehen, was empfohlen wird."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvtoday.de",
+      "intent": "Ich möchte das TV-Programm für morgen anzeigen und sehen, welche Sendungen dann laufen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvtoday.de",
+      "intent": "Ich möchte mein persönliches TV-Programm erstellen und Sendungen markieren, die ich nicht verpassen möchte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvtoday.de",
+      "intent": "Ich will meine Favoriten-Sender konfigurieren und nur die Sendungen anzeigen, die auf diesen Sendern laufen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvtoday.de",
+      "intent": "Ich möchte meine TV-Programm-Vorlieben mit Freunden teilen und sehen, was sie empfehlen."
+    }
+  ]
+}

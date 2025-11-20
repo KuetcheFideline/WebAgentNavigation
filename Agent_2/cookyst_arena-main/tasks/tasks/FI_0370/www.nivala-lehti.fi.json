@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nivala-lehti.fi",
+      "intent": "Luen Nivalan uutisia, koska haluan tietää, mitä on tapahtunut kaupungissa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nivala-lehti.fi",
+      "intent": "Etsin Nivalan rautatieaseman 100-vuotisjuhlien tietoja, koska olen kiinnostunut historiasta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nivala-lehti.fi",
+      "intent": "Selailen Nivalan paikallisia ilmoituksia, koska etsin uutta asuntoa."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nivala-lehti.fi",
+      "intent": "Tilaa uutismediat, jotta voin seurata Nivalan paikallisia uutisia ja tapahtumia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nivala-lehti.fi",
+      "intent": "Luen omat tilaajatiedot ja tarkistan, onko tilaukseni voimassa, jotta voin hallita uutismedioideni tilauksia."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nivala-lehti.fi",
+      "intent": "Anna palautetta Nivalan uutismedioista, koska haluan antaa palautetta ja kehittää palveluja."
+    }
+  ]
+}

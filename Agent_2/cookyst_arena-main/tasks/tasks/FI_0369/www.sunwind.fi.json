@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sunwind.fi",
+      "intent": "Tutustun sunwindin verkkosivuihin ja etsin tietoa heidän palveluistaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sunwind.fi",
+      "intent": "Selailen sunwindin verkkosivujen evästeasetuksia ja yritän ymmärtää, miten ne vaikuttavat käyttökokemuksiini"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sunwind.fi",
+      "intent": "Etsin sunwindin verkkosivuilta tietoa siitä, miten he käsittelevät henkilötietoja ja miten he suojaavat niitä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sunwind.fi",
+      "intent": "Kirjaudun sisään sunwindin verkkosivuille ja tarkastan tilaani ja aiempia toimintoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sunwind.fi",
+      "intent": "Muokkaan sunwindin verkkosivuilla olevia asetuksia, kuten evästeiden hyväksymistä ja tietojeni muokkaamista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sunwind.fi",
+      "intent": "Yritän sunwindin verkkosivuilla löytää tietoa siitä, miten voin poistaa tilini tai miten voin muuttaa salasanani"
+    }
+  ]
+}

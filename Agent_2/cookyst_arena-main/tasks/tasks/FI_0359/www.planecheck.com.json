@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.planecheck.com",
+      "intent": "Etsin uusimmat lentokoneiden myynti-ilmoitukset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.planecheck.com",
+      "intent": "Haluan vertailla eri lentokoneiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.planecheck.com",
+      "intent": "Tutkin eri lentokonevalmistajien tarjoamia malleja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.planecheck.com",
+      "intent": "Lisään ilmoituksen oman lentokoneeni myyntiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.planecheck.com",
+      "intent": "Muokkaan aiemmin luomaani lentokoneen myynti-ilmoitusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.planecheck.com",
+      "intent": "Seuraan suosikiksi merkittyjäni lentokoneita ja saan ilmoituksia niiden myyntiin liittyvistä muutoksista"
+    }
+  ]
+}

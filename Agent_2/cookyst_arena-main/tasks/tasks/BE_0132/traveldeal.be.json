@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://traveldeal.be",
+      "intent": "Rechercher des offres de voyages vers la Belgique pour un week-end en amoureux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://traveldeal.be",
+      "intent": "Comparer les prix des voyages vers l'Espagne et la France pour un séjour de 4 jours"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://traveldeal.be",
+      "intent": "Consulter les informations sur les destinations les plus populaires pour les jeunes voyageurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://traveldeal.be",
+      "intent": "Réserver un voyage vers l'Italie pour un séjour de 5 jours en utilisant mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://traveldeal.be",
+      "intent": "Consulter mes réservations précédentes pour planifier un nouveau voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://traveldeal.be",
+      "intent": "Modifier mes informations de compte pour recevoir des offres de voyages personnalisées"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.uab.cat",
+      "intent": "Quiero leer las preguntas frecuentes para entender mejor cómo funciona el sistema de autenticación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.uab.cat",
+      "intent": "Necesito cambiar el idioma a español para que sea más fácil de entender"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.uab.cat",
+      "intent": "Voy a buscar información sobre el Centre d'Assistència i Suport para ver si puedo encontrar ayuda para resolver un problema técnico"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.uab.cat",
+      "intent": "Quiero acceder a mi cuenta UAB para ver mis datos personales y asegurarme de que todo esté actualizado"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.uab.cat",
+      "intent": "Necesito restablecer mi contraseña porque la he olvidado y no puedo acceder a mi cuenta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.uab.cat",
+      "intent": "Voy a verificar mis ajustes de privacidad y seguridad para asegurarme de que mi cuenta esté protegida"
+    }
+  ]
+}

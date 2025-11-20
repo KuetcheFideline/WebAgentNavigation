@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.questi.com",
+      "intent": "Je souhaite en savoir plus sur les fonctionnalités de la plateforme Questi pour les enseignants, je vais donc cliquer sur 'Questi pour les enseignants' pour avoir plus d'informations."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.questi.com",
+      "intent": "J'aimerais découvrir les avantages de la plateforme Questi pour les parents, je vais donc cliquer sur 'Questi pour les parents' pour avoir plus de détails."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.questi.com",
+      "intent": "Je veux contacter l'équipe de Questi pour obtenir plus d'informations sur leur plateforme, je vais donc cliquer sur 'Contact' pour envoyer un message."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.questi.com",
+      "intent": "Je suis déjà inscrit et connecté, je vais donc accéder à mon espace personnel pour configurer mes paramètres de compte et mettre à jour mes informations."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.questi.com",
+      "intent": "En tant qu'enseignant, je souhaite créer un nouveau cours et l'ajouter à la plateforme Questi, je vais donc cliquer sur 'Créer un cours' pour commencer."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.questi.com",
+      "intent": "Je veux consulter les statistiques de mes cours et suivre les progrès de mes élèves, je vais donc cliquer sur 'Statistiques' pour avoir une vue d'ensemble."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.notino.fi",
+      "intent": "Hae tuoksu, joka sopisi vaimolleen syntymäpäivälahjaksi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.notino.fi",
+      "intent": "Selvitä, mitä tuotteita on tarjolla Black Friday -aleissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.notino.fi",
+      "intent": "Vertaile eri tuoksuja ja niiden hintoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.notino.fi",
+      "intent": "Tilaa vaimolleen syntymäpäivälahjaksi valitsemaansa tuoksua"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.notino.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.notino.fi",
+      "intent": "Tarkista tilaustani ja varmista, että kaikki on kunnossa"
+    }
+  ]
+}

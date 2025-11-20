@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.viagogo.de",
+      "intent": "Ich möchte Tickets für das nächste Konzert von Metallica in Deutschland finden und kaufen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.viagogo.de",
+      "intent": "Ich will die Preise für Tickets zum FC Bayern München Spiel gegen Borussia Dortmund vergleichen und die günstigsten Tickets finden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.viagogo.de",
+      "intent": "Ich möchte herausfinden, wann die nächste Veranstaltung von Memphis Grizzlies in Deutschland stattfindet und ob es noch Tickets gibt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.viagogo.de",
+      "intent": "Ich möchte meine Tickets für das Konzert von Metallica, die ich bereits gekauft habe, im Bereich 'Meine Tickets' überprüfen und den Status meiner Bestellung prüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.viagogo.de",
+      "intent": "Ich will meine Verkäufe im Bereich 'Meine Verkäufe' überprüfen und sehen, ob ich bereits Tickets verkauft habe und wie viel Geld ich verdient habe."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.viagogo.de",
+      "intent": "Ich möchte meine Favoriten im Bereich 'Favoriten' überprüfen und sehen, ob es neue Tickets für meine Lieblingskünstler gibt."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tyopaikat.oikotie.fi",
+      "intent": "Haluaisin etsiä uusia työpaikkoja Espoon alueella, joten selailen Oikotien työpaikkasivuja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tyopaikat.oikotie.fi",
+      "intent": "Olen kiinnostunut myytävistä asunnoista Espoossa, joten klikkaan Myytävät asunnot -linkkiä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tyopaikat.oikotie.fi",
+      "intent": "Luen lisää Oikotien asiakaspalvelusta, koska minulla on kysymyksiä työpaikkojen hakemisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tyopaikat.oikotie.fi",
+      "intent": "Haluaisin tallentaa joitain työpaikkoja, joten tallennan ne Oikotien työpaikkasivuilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tyopaikat.oikotie.fi",
+      "intent": "Olen kiinnostunut työpaikkojen hakemisesta, joten täytän hakulomakkeen Oikotien sivuilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tyopaikat.oikotie.fi",
+      "intent": "Haluaisin muokata profiiliaani, jotta työnantajat voivat löytää minut, joten muokkaan profiiliaani Oikotien sivuilla"
+    }
+  ]
+}

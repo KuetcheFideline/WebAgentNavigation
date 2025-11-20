@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Hae lääkkeitä ja niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Lue artikkeleita terveydestä ja hyvinvoinnista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Etsi lähin apteekki"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Tarkastele lääkityslistaa ja lääkehoidon arviointipalveluita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Tilaa lääkkeitä ja muuta apteekkituotetta verkkokaupasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Käytä yksilöllistä tupakasta vieroitusta ja muita henkilökohtaisia palveluita"
+    }
+  ]
+}

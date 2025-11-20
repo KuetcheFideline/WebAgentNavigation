@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uudenkaupunginsanomat.fi",
+      "intent": "Luen uusimmat uutiset Uudenkaupungin Sanomista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uudenkaupunginsanomat.fi",
+      "intent": "Etsin tietoa Vehmaan bingotapahtumasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uudenkaupunginsanomat.fi",
+      "intent": "Selailen Uudenkaupungin Sanomien kuvagallerioita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uudenkaupunginsanomat.fi",
+      "intent": "Kirjaudun sisään ja tilaan Uudenkaupungin Sanomien digilehden"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uudenkaupunginsanomat.fi",
+      "intent": "Lähettän palautekirjeen toimitukselle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uudenkaupunginsanomat.fi",
+      "intent": "Tarkastan tilaajani etuja ja edunsaantioikeuksia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.paivamies.fi",
+      "intent": "Luen uusimmat uutiset ja artikkelit Päivämies-sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.paivamies.fi",
+      "intent": "Etsin tietoa Siionin Lähetyslehdestä ja sen tavoitteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.paivamies.fi",
+      "intent": "Selailen Vieraskieliset-osioon ja etsin englanninkielisiä artikkeleita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.paivamies.fi",
+      "intent": "Tilaa uutiskirje ja päivämies-lehti sähköpostiini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.paivamies.fi",
+      "intent": "Lähetän palautetta tai juttuvinkin toimitukselle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.paivamies.fi",
+      "intent": "Tilaa Näköislehti ja Äänilehti omalle tietokoneelleni"
+    }
+  ]
+}

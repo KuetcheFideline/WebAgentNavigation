@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://palsanmaki.fi",
+      "intent": "Selata huutokaupan kohteita ja etsiä kiinnostavia huutotavaroita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://palsanmaki.fi",
+      "intent": "Lukea lisää huutokaupan prosessista ja miten se toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://palsanmaki.fi",
+      "intent": "Etsiä tietoa huutokaupan tapahtumista ja aikatauluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://palsanmaki.fi",
+      "intent": "Kirjautua sisään ja tarkastaa omat huutokauppatilastot ja -historia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://palsanmaki.fi",
+      "intent": "Osallistua huutokauppaan ja tehdä tarjous jollekin kiinnostavalle kohteelle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://palsanmaki.fi",
+      "intent": "Tarkastaa ja hallita omia huutokauppatilin asetuksia ja ilmoituksia"
+    }
+  ]
+}

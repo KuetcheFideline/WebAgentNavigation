@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pharmacie.be",
+      "intent": "Rechercher des informations sur les médicaments pour le diabète en utilisant la fonction de recherche par mots-clés"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pharmacie.be",
+      "intent": "Trouver une pharmacie de garde près de Charleroi en utilisant la fonction de localisation"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pharmacie.be",
+      "intent": "Lire les actualités sur les médicaments contrefaits et leur contrôle dans les pharmacies"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pharmacie.be",
+      "intent": "Consulter mes informations de santé personnelles et mes prescriptions médicales en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pharmacie.be",
+      "intent": "Prendre rendez-vous avec un pharmacien pour discuter de mes besoins en matière de santé et de médicaments"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pharmacie.be",
+      "intent": "Gérer mes abonnements aux newsletters et aux alertes de santé pour rester informé sur les dernières nouvelles et les conseils de santé"
+    }
+  ]
+}

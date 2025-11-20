@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Selataan TUNI Moodlen etusivun uutisia, jotta voimme pysyä ajan tasalla korkeakouluyhteisön tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Etsitään tietoa siitä, miten kirjautua sisään TUNI-tunnuksella, jotta voimme käyttää palvelun tarjoamia ominaisuuksia."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Katsellaan saatavilla olevia kieli-vaihtoehtoja, jotta voimme valita suomen kielen ja helpottaa sivuston käyttöä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Tarkistetaan omat kurssit ja suoritukset, jotta voimme seurata opintojen etenemistä ja suunnitella tulevia askelia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Osallistutaan keskustelupalstalle, jotta voimme vaihtaa ajatuksia ja kokemuksia muiden opiskelijoiden kanssa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Ladataan opiskelumateriaaleja ja tehtäviä, jotta voimme valmistautua tuleviin luennoille ja tehtäviin."
+    }
+  ]
+}

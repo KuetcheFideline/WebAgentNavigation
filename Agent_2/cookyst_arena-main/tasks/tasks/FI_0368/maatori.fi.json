@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://maatori.fi",
+      "intent": "Hae raskaan kaluston myynti-ilmoituksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://maatori.fi",
+      "intent": "Selaa uusimmat ilmoitukset ja etsi sopiva käytetty kalusto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://maatori.fi",
+      "intent": "Ota yhteyttä Maatoriin kysymyksillä raskaan kaluston välityksestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://maatori.fi",
+      "intent": "Tallenna suosikkilistalle mielenkiintoisia raskaan kaluston ilmoituksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://maatori.fi",
+      "intent": "Lähetä viesti myyjälle kiinnostavasta raskaan kaluston kohteesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://maatori.fi",
+      "intent": "Seuraa tilaustani ja tarkastele ostettujen tuotteiden tilaa"
+    }
+  ]
+}

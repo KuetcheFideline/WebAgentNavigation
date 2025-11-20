@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://thelisresa.webcamp.fr",
+      "intent": "Buscar el código del camping para acceder a la página de reservas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://thelisresa.webcamp.fr",
+      "intent": "Explorar la página de inicio para encontrar información sobre los campings disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://thelisresa.webcamp.fr",
+      "intent": "Intentar acceder a la página de reservas sin código de camping para ver qué sucede"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://thelisresa.webcamp.fr",
+      "intent": "Reservar un camping para el próximo fin de semana con mis amigos de la universidad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://thelisresa.webcamp.fr",
+      "intent": "Consultar mis reservas anteriores para planificar un viaje similar"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://thelisresa.webcamp.fr",
+      "intent": "Cancelar una reserva existente debido a un cambio de planes con mis amigos"
+    }
+  ]
+}

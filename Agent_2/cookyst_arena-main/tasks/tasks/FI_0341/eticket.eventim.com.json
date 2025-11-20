@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eticket.eventim.com",
+      "intent": "Olen etsimässä lippuja bileisiin Turussa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eticket.eventim.com",
+      "intent": "Haluan tarkastella eri tapahtumien hinnoittelua ja vertailla niitä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eticket.eventim.com",
+      "intent": "Tutkin, mitä tapahtumia on tulossa ja mitkä ovat suosituimpia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eticket.eventim.com",
+      "intent": "Olen ostamassa lippuja bileisiin ja haluan tallentaa ne omiin tilastoihini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eticket.eventim.com",
+      "intent": "Tarkastan ostettujeni lipputietoja ja varmistelen, että ne ovat kunnossa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eticket.eventim.com",
+      "intent": "Haluan muuttaa joitakin tapahtumavarauksiani ja tarkastella uusia vaihtoehtoja"
+    }
+  ]
+}

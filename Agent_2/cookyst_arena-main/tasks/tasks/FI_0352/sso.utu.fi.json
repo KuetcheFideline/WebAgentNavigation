@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.utu.fi",
+      "intent": "Tarkastelen käyttäjätunnusten hallinnan etusivua, jotta voin löytää tarvittavat tiedot käyttäjätunnukseni hallintaan."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.utu.fi",
+      "intent": "Luen ohjeita monivaiheiseen kirjautumiseen, jotta voin ymmärtää, miten voin parantaa käyttäjätunnukseni turvallisuutta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.utu.fi",
+      "intent": "Etsin tietoa siitä, miten voin aktivoida käyttäjätunnukseni verkkopankkitunnuksilla tai mobiilivarmenteella, jotta voin käyttää palveluja turvallisesti."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.utu.fi",
+      "intent": "Vaihdan salasanani, jotta voin varmistaa, että käyttäjätunnukseni on turvallinen ja päivitetty."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.utu.fi",
+      "intent": "Tarkastelen omia tietojani, kuten UTU-tunnusta ja viimeisimmän salasanan vaihdon ajankohtaa, jotta voin varmistaa, että kaikki on kunnossa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.utu.fi",
+      "intent": "Korotan käyttäjätunnukseni tunnistustasoa verkkopankkitunnuksilla tai mobiilivarmenteella, jotta voin käyttää palveluja turvallisemmin ja helpommin."
+    }
+  ]
+}

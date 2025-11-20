@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.m.wikiquote.org",
+      "intent": "Hae Wikisitaateista suomenkielisistä kirjailijoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.m.wikiquote.org",
+      "intent": "Lue viikon sitaatti ja etsi mielenkiintoisia sitaatteja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.m.wikiquote.org",
+      "intent": "Selaa artikkelitoiveita ja hae tietoa aiheista, joista ei ole vielä sivua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.m.wikiquote.org",
+      "intent": "Luo uusi sivu suomalaisesta kirjailijasta ja lisää siihen sitaatteja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.m.wikiquote.org",
+      "intent": "Muokkaa olemassa olevaa sivua ja lisää siihen uusia sitaatteja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.m.wikiquote.org",
+      "intent": "Osallistu keskusteluun Wikisitaattien kehittämiseksi ja anna palautetta muille käyttäjille"
+    }
+  ]
+}

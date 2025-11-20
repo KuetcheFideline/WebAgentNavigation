@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://autentica.umh.es",
+      "intent": "Buscar información sobre el proceso de recuperación de contraseña para acceder a los servicios de la Universidad Miguel Hernández"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://autentica.umh.es",
+      "intent": "Explorar la sección de 'Información' para conocer más sobre el Servicio de Autentificación Centralizada de la UMH"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://autentica.umh.es",
+      "intent": "Leer el aviso importante de seguridad para entender la importancia de cerrar la sesión y el navegador web después de acceder a los servicios que requieren autentificación"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://autentica.umh.es",
+      "intent": "Acceder a mis datos personales y configuración de cuenta para asegurarme de que toda la información esté actualizada y correcta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://autentica.umh.es",
+      "intent": "Verificar los privilegios y permisos asociados a mi cuenta para entender qué recursos y aplicaciones puedo acceder"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://autentica.umh.es",
+      "intent": "Cambiar mi contraseña de acceso para mejorar la seguridad de mi cuenta y cumplir con las políticas de seguridad de la Universidad Miguel Hernández"
+    }
+  ]
+}

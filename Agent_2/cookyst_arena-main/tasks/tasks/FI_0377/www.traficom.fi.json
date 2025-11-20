@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.traficom.fi",
+      "intent": "Hae tietoa liikenteen ja viestinnän palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.traficom.fi",
+      "intent": "Selaa uusimmat uutiset liikenteen ja viestinnän alalla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.traficom.fi",
+      "intent": "Etsi tietoa ajoneuvoveron maksamisesta e-laskuna"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.traficom.fi",
+      "intent": "Tilaa ajoneuvovero e-laskuna Oma asiointi -palvelusta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.traficom.fi",
+      "intent": "Tarkista omat tietoni ja asetukseni Oma asiointi -palvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.traficom.fi",
+      "intent": "Hae avustusta yksityisteiden neuvonta- ja opastushankkeisiin Oma asiointi -palvelun kautta"
+    }
+  ]
+}

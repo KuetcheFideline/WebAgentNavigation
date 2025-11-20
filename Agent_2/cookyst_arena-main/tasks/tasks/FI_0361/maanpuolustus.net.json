@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://maanpuolustus.net",
+      "intent": "Selatakseni foorumia ja etsimällä tietoa maanpuolustuksesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://maanpuolustus.net",
+      "intent": "Lukemalla uusimmat viestit ja keskustelut foorumilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://maanpuolustus.net",
+      "intent": "Etsimällä tietoa varusmiespalveluksesta ja sen vaatimuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://maanpuolustus.net",
+      "intent": "Kirjauduin ja osallistuin keskusteluun aiheesta 'Kaukopartioiden toiminta'"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://maanpuolustus.net",
+      "intent": "Lähetän viestin käyttäjälle 'Janto' aiheesta 'SUURI RESERVILÄISKESKUSTELU'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://maanpuolustus.net",
+      "intent": "Muokkaisin profiiliani ja lisäsin kuva- ja videotietoja"
+    }
+  ]
+}

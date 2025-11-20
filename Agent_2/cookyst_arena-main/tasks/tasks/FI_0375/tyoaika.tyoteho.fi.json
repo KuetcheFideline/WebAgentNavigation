@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tyoaika.tyoteho.fi",
+      "intent": "Tutkin sivuston etusivun sisältöä ja etsin tietoa työaikojen hallinnasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tyoaika.tyoteho.fi",
+      "intent": "Selvittelen, miten voin rekisteröityä palveluun ja mitä hyötyjä siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tyoaika.tyoteho.fi",
+      "intent": "Etsin ohjeita työaikojen merkintään ja raportointiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tyoaika.tyoteho.fi",
+      "intent": "Tarkastan omaa työaikakalenteriani ja merkin työaikani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tyoaika.tyoteho.fi",
+      "intent": "Lähetän pyynnön lomalle ja odotan hyväksyntää"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tyoaika.tyoteho.fi",
+      "intent": "Tarkastan työaikojeni saldon ja suunnitelen loppuvuoden työaikoja"
+    }
+  ]
+}

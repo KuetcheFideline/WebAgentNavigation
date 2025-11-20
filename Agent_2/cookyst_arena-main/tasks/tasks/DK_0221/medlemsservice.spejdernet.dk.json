@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://medlemsservice.spejdernet.dk",
+      "intent": "Jeg søger efter vejledninger til at blive en del af medlemsservice"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://medlemsservice.spejdernet.dk",
+      "intent": "Jeg ønsker at læse mere om Medlemsservice og dets formål"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://medlemsservice.spejdernet.dk",
+      "intent": "Jeg søger efter kontaktinformation til medlemsservice, så jeg kan få hjælp"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://medlemsservice.spejdernet.dk",
+      "intent": "Jeg vil administrere mine medlemmer og se deres status"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://medlemsservice.spejdernet.dk",
+      "intent": "Jeg ønsker at opdatere mine medlemsoplysninger og sikre, at de er nøjagtige"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://medlemsservice.spejdernet.dk",
+      "intent": "Jeg søger efter muligheder for at deltage i medlemsservice-arrangementer og begivenheder"
+    }
+  ]
+}

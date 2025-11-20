@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://toimitilat.kauppalehti.fi",
+      "intent": "Hae vapaat toimitilat Espoon alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://toimitilat.kauppalehti.fi",
+      "intent": "Selaa toimitilahakuja ja vertaile eri vaihtoehtoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://toimitilat.kauppalehti.fi",
+      "intent": "Lue lisää toimitilahakuun liittyvistä vinkkeistä ja ohjeista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://toimitilat.kauppalehti.fi",
+      "intent": "Tallenna suosikkitoimitilat ja seuraa niiden saatavuutta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://toimitilat.kauppalehti.fi",
+      "intent": "Lähetä kysely toimitilavälittäjälle toimitilan saatavuudesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://toimitilat.kauppalehti.fi",
+      "intent": "Merkitse kalenteriin toimitilan esittelyaika ja muista ilmoittautua siihen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.digitalocean.com",
+      "intent": "Jeg søger efter information om cloud infrastruktur til udviklere"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.digitalocean.com",
+      "intent": "Jeg vil sammenligne priser på forskellige cloud hosting planer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.digitalocean.com",
+      "intent": "Jeg søger efter vejledninger om, hvordan jeg kan bruge DigitalOceans platform til at opbygge en webapplikation"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.digitalocean.com",
+      "intent": "Jeg vil oprette en ny Droplet til min næste udviklingsprojekt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.digitalocean.com",
+      "intent": "Jeg skal konfigurere min eksisterende Droplet til at bruge en ny database"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.digitalocean.com",
+      "intent": "Jeg vil overføre mine eksisterende data til en ny DigitalOcean-lagringstjeneste"
+    }
+  ]
+}

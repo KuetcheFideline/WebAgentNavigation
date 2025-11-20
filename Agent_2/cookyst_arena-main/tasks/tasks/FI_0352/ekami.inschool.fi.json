@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ekami.inschool.fi",
+      "intent": "Luen Wilman etusivun ja etsin tietoa siitä, mitä Wilma on ja miten sitä voidaan käyttää opettajana."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ekami.inschool.fi",
+      "intent": "Selvittelen, miten voin muuttaa kieltä suomeksi, jotta voin navigoida sivustolla helpommin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ekami.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten Wilmaa voidaan käyttää opiskelijoiden poissaolojen seuraamiseen ja opettajien viestintään."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ekami.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan, että kaikki opiskelijani ovat kirjautuneet kurssille, jonka opetan."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ekami.inschool.fi",
+      "intent": "Syötän arvioinnit Wilmaan ja päivitän opiskelijoiden henkilötietoja, jotta heidän tiedonsa ovat ajan tasalla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ekami.inschool.fi",
+      "intent": "Viestin opiskelijoiden kanssa Wilman kautta ja vastaan heidän kysymyksiinsä, jotka liittyvät kurssin sisältöön ja aikatauluun."
+    }
+  ]
+}

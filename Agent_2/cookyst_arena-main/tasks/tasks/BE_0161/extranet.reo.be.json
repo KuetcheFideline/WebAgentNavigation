@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://extranet.reo.be",
+      "intent": "Rechercher les informations sur les procédures de connexion pour les utilisateurs existants."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://extranet.reo.be",
+      "intent": "Explorer les différentes options de langues proposées sur le site pour une navigation plus confortable."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://extranet.reo.be",
+      "intent": "Vérifier la disponibilité d'une fonctionnalité de récupération de mot de passe pour les cas d'oubli."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://extranet.reo.be",
+      "intent": "Consulter les informations personnelles et les paramètres de compte pour une mise à jour éventuelle."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://extranet.reo.be",
+      "intent": "Accéder à l'historique des transactions ou des activités réalisées sur le site pour une analyse personnelle."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://extranet.reo.be",
+      "intent": "Gérer les préférences de notification pour recevoir des mises à jour importantes sur les services proposés."
+    }
+  ]
+}

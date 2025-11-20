@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Hae lääkäri ja varaa aika"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Selaa Mehiläisen tarjoamia terveyspalveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Lue asiakastyytyväisyydestä ja Mehiläisen laadusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Tarkastele omaa potilastietoa ja lääkehoitoa OmaMehiläisen kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Varaa aika lääkärille OmaMehiläisen sovelluksen kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mehilainen.fi",
+      "intent": "Tee verkkokaupasta ostoksia tai selaa saatavilla olevia tuotteita"
+    }
+  ]
+}

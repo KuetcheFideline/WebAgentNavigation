@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://justice.belgium.be",
+      "intent": "Sélectionner la langue française pour naviguer sur le site web de la justice belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://justice.belgium.be",
+      "intent": "Lire la politique de cookies pour comprendre comment les données personnelles sont utilisées sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://justice.belgium.be",
+      "intent": "Rechercher les informations sur les procédures judiciaires en Belgique pour mieux comprendre le système juridique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://justice.belgium.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes dossiers en cours et suivre l'évolution de mes affaires judiciaires"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://justice.belgium.be",
+      "intent": "Déposer une plainte en ligne pour signaler une infraction ou un abus de pouvoir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://justice.belgium.be",
+      "intent": "Consulter les décisions de justice rendues dans des affaires similaires à la mienne pour me préparer à mon propre procès"
+    }
+  ]
+}

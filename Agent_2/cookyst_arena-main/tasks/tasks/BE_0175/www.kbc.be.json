@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Je souhaite trouver des informations sur les comptes d'épargne pour les retraités, afin de mieux gérer tes économies."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Tu veux comparer les différents types de prêts hypothécaires proposés par la banque, pour financer l'achat d'une maison ou un projet de rénovation."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kbc.be",
+      "intent": "Tu cherches à en savoir plus sur les assurances vie proposées par la banque, pour protéger ta famille en cas de décès ou d'invalidité."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Tu veux consulter l'historique de tes transactions bancaires en ligne, pour suivre tes dépenses et tes revenus."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Tu souhaites effectuer un virement en ligne, pour payer une facture ou envoyer de l'argent à un membre de ta famille."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kbc.be",
+      "intent": "Tu veux modifier tes coordonnées bancaires en ligne, pour mettre à jour ton adresse ou ton numéro de téléphone."
+    }
+  ]
+}

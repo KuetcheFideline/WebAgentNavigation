@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.sepe.gob.es",
+      "intent": "Buscar información sobre los procedimientos y servicios disponibles para personas en situación de paro como yo."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.sepe.gob.es",
+      "intent": "Explorar la sección de 'Información' para conocer más sobre la normativa y los derechos que me corresponden como ciudadano."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.sepe.gob.es",
+      "intent": "Utilizar el buscador para encontrar recursos y apoyo para personas en mi misma situación, como programas de empleo o formación."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.sepe.gob.es",
+      "intent": "Acceder a mi cuenta para consultar el estado de mi solicitud de empleo y ver si hay alguna novedad o actualización."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.sepe.gob.es",
+      "intent": "Gestionar mis datos personales y actualizar mi perfil para asegurarme de que la información sea precisa y esté actualizada."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.sepe.gob.es",
+      "intent": "Solicitar un certificado de empleo o una carta de situación laboral para poder acreditar mi situación ante otras instituciones o organismos."
+    }
+  ]
+}

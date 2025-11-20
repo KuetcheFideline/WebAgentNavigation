@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://loisto.verkkokirjasto.fi",
+      "intent": "Hae kirjaa, joka sopii nuoren baarimikon vapaa-aikaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://loisto.verkkokirjasto.fi",
+      "intent": "Selvitä, mitä kirjastoja on lähellä Turun S-Marketia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://loisto.verkkokirjasto.fi",
+      "intent": "Etsi tietoa kirjaston aukioloajoista ja lainausmahdollisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://loisto.verkkokirjasto.fi",
+      "intent": "Varaa kirja, joka on tilapäisesti loppunut, ja odota ilmoitusta, kun se on noudettavissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://loisto.verkkokirjasto.fi",
+      "intent": "Tarkista omat lainaukseni ja palauta ne ajoissa, jotta vältän sakot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://loisto.verkkokirjasto.fi",
+      "intent": "Muokkaa omia kirjastokorttitietoja, jos osoite tai puhelinnumero on muuttunut"
+    }
+  ]
+}

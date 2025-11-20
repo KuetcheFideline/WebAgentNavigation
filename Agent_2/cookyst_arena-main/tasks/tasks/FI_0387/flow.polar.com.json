@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tutustun sivuston koulutusohjelmiin ja etsin tietoa unen seuraamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Selvittelen, miten voin liittää äidilleni sopivan liikuntalaitteen Polar Flow -palveluun"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://flow.polar.com",
+      "intent": "Luen lisää Polarin urheilukellojen ja sykevyöhykkeiden ominaisuuksista ja hyödyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tarkastan äidilleni asetettuja terveyden seurantatietoja ja analyysiä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Määrittelen uuden harjoitusohjelman äidilleni ja seuraan sen etenemistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://flow.polar.com",
+      "intent": "Tallennan ja analysoin äidilleni kerättyjä terveys- ja liikuntatietoja"
+    }
+  ]
+}

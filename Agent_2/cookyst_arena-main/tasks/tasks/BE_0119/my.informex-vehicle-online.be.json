@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.informex-vehicle-online.be",
+      "intent": "Je souhaite consulter les informations générales sur le site d'Informex pour comprendre les services qu'ils proposent."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.informex-vehicle-online.be",
+      "intent": "J'aimerais savoir comment créer un compte sur le site d'Informex pour accéder à des fonctionnalités plus avancées."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.informex-vehicle-online.be",
+      "intent": "Je veux explorer les différentes sections du site pour voir ce que le site propose en termes de contenu et de services."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.informex-vehicle-online.be",
+      "intent": "Après m'être connecté, je souhaite accéder à mon espace personnel pour consulter mes informations de compte et paramètres."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.informex-vehicle-online.be",
+      "intent": "Je veux utiliser les fonctionnalités de gestion de compte pour mettre à jour mes coordonnées et mes préférences."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.informex-vehicle-online.be",
+      "intent": "Une fois connecté, j'aimerais accéder aux services réservés aux utilisateurs connectés pour profiter des avantages proposés par le site."
+    }
+  ]
+}

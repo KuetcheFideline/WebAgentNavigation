@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aamuposti.fi",
+      "intent": "Luen uusimmat uutiset Hyvinkään ja Riihimäen alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aamuposti.fi",
+      "intent": "Etsin tietoa paikallisten yritysten tarjoamista palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aamuposti.fi",
+      "intent": "Selailen sivuston urheiluosioita, jotta pysyn perillä paikallisten joukkueiden otteluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aamuposti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia uutisartikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aamuposti.fi",
+      "intent": "Tilaa uutiskirje, jotta saan sähköpostiini uusimmat uutiset ja päivitykset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aamuposti.fi",
+      "intent": "Muokkaan profiiliani ja asetuksia, jotta voin mukauttaa sivuston sisältöä omiin tarpeisiini"
+    }
+  ]
+}

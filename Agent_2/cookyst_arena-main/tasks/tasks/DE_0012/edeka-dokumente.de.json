@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://edeka-dokumente.de",
+      "intent": "Ich möchte die FAQ-Seite besuchen, um mehr über die Plattform zu erfahren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://edeka-dokumente.de",
+      "intent": "Ich will die Spracheinstellungen ändern, um die Seite auf Polnisch zu sehen, da ich polnischer Herkunft bin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://edeka-dokumente.de",
+      "intent": "Ich möchte den Link 'Neu Registrieren' anklicken, um ein neues Konto zu erstellen, falls ich noch kein Benutzerkonto habe."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://edeka-dokumente.de",
+      "intent": "Ich will mich anmelden, um meine Dokumente zu empfangen und mein Mitarbeiter-Postfach zu überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://edeka-dokumente.de",
+      "intent": "Ich möchte mein Passwort zurücksetzen, da ich es vergessen habe, und dann ein neues Passwort erstellen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://edeka-dokumente.de",
+      "intent": "Ich will meine Benutzerdaten überprüfen und aktualisieren, um sicherzustellen, dass alle Informationen korrekt sind."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://huutokauppa.pantti.fi",
+      "intent": "Selvittää miten huutokaupassa toimivat maksut ja toimitukset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://huutokauppa.pantti.fi",
+      "intent": "Etsiä tietoa huutokaupan käyttämisestä ja huutamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://huutokauppa.pantti.fi",
+      "intent": "Tutkia huutokaupassa olevia tuotteita ja niiden hintoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://huutokauppa.pantti.fi",
+      "intent": "Tarkastaa omat huudot ja huutokauppaehdot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://huutokauppa.pantti.fi",
+      "intent": "Huutaa tuotetta, joka kiinnostaa ja on sopiva hintainen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://huutokauppa.pantti.fi",
+      "intent": "Tarkastaa ja muokata omia tietoja ja huutokauppa-asetuksia"
+    }
+  ]
+}

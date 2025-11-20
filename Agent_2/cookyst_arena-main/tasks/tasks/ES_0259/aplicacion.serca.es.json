@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://aplicacion.serca.es",
+      "intent": "Buscar información sobre el cierre de la aplicación Next Control y las opciones de migración a un nuevo programa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://aplicacion.serca.es",
+      "intent": "Intentar encontrar el enlace para solicitar el traspaso al nuevo programa antes de que termine el plazo en septiembre."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://aplicacion.serca.es",
+      "intent": "Verificar si hay algún formulario de contacto o teléfono de atención al cliente para obtener más información sobre el proceso de migración."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://aplicacion.serca.es",
+      "intent": "Iniciar sesión para acceder a la sección de configuración de mi cuenta y verificar si hay alguna notificación importante relacionada con el cierre de la aplicación."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://aplicacion.serca.es",
+      "intent": "Revisar el historial de mis actividades y datos almacenados en la aplicación para determinar qué información debo migrar o guardar antes del cierre."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://aplicacion.serca.es",
+      "intent": "Intentar realizar una copia de seguridad de mis datos personales y configuraciones actuales en la aplicación para facilitar la migración al nuevo programa."
+    }
+  ]
+}

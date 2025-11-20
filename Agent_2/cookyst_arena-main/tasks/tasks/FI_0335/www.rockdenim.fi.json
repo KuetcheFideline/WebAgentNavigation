@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rockdenim.fi",
+      "intent": "Etsin uusimmat miesten vaatteet RockDenimilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rockdenim.fi",
+      "intent": "Haluan tarkastella RockDenimin tarjouksia ja alennuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rockdenim.fi",
+      "intent": "Tutkin RockDenimin maksu- ja toimitusvaihtoehtoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ostoskori.rockdenim.fi",
+      "intent": "Lisään tuotteita ostoskoriini ja vahvistan tilaukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rockdenim.fi/tili",
+      "intent": "Tarkastan tilin tiedot ja osoitetani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rockdenim.fi/tili/ostoshistoria",
+      "intent": "Selailen aiempia tilauksiani ja arvosteluitani"
+    }
+  ]
+}

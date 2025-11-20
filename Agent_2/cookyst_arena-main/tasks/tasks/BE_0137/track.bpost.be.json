@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://track.bpost.be",
+      "intent": "Je veux suivre l'état d'avancement de mon envoi pour savoir exactement quand il arrivera à destination."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://track.bpost.be",
+      "intent": "Je souhaite consulter les différentes options de livraison proposées par bpost pour choisir celle qui convient le mieux à mes besoins."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://track.bpost.be",
+      "intent": "J'ai besoin de trouver les coordonnées d'un bureau de poste près de chez moi pour y déposer un colis en toute sécurité."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://track.bpost.be",
+      "intent": "Maintenant que je suis connecté, je veux gérer mes envois enregistrés pour avoir une vue d'ensemble de tous mes colis en cours de livraison."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://track.bpost.be",
+      "intent": "Je souhaite configurer les notifications par e-mail pour recevoir des mises à jour automatiques sur l'état de mes envois sans avoir à les suivre manuellement."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://track.bpost.be",
+      "intent": "J'aimerais accéder à mon historique de commandes pour analyser mes dépenses et planifier mes prochains envois de manière plus efficace."
+    }
+  ]
+}

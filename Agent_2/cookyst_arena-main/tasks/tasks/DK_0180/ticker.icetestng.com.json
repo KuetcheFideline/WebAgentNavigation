@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ticker.icetestng.com",
+      "intent": "Jeg søger efter information om kommende konkurrencer i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ticker.icetestng.com",
+      "intent": "Jeg vil se resultaterne fra tidligere stævner, som Fjördurs Julestævne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ticker.icetestng.com",
+      "intent": "Jeg ønsker at læse om IceTestNG Tickers privatlivspolitik og vilkår"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ticker.icetestng.com",
+      "intent": "Jeg vil tilføje en kommentar til en af de kommende stævner, som Gandur Julestævne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ticker.icetestng.com",
+      "intent": "Jeg ønsker at se mine tidligere deltagelser i stævner og resultater"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ticker.icetestng.com",
+      "intent": "Jeg vil ændre mine brugerindstillinger og tilføje en profilbillede"
+    }
+  ]
+}

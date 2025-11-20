@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kirkkonummi.fi",
+      "intent": "Hae sivustolta tietoa Kirkkonummen uimahallista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kirkkonummi.fi",
+      "intent": "Selvitä miten voisin hakea paikkaa Kirkkonummen kansalaisopistosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kirkkonummi.fi",
+      "intent": "Etsi tietoa Kirkkonummen kirjastosta ja sen tarjoamista palveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kirkkonummi.fi",
+      "intent": "Tee varaus Kirkkonummen uimahallista omalla asiakastilillä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kirkkonummi.fi",
+      "intent": "Anna palautetta Kirkkonummen kuntapalveluista kirjautuneena asiakkaana"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kirkkonummi.fi",
+      "intent": "Tarkastele omia asiakastietojani ja varauksia Kirkkonummen sivustolla"
+    }
+  ]
+}

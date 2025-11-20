@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kansalaisaloite.fi",
+      "intent": "Tutkin kansalaisaloitteita ja etsin tietoa siitä, miten voin osallistua kansalaisaloitteiden tekemiseen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kansalaisaloite.fi",
+      "intent": "Selvittelen, miten Verohallinnon asiantuntijana voin hyödyntää kansalaisaloitteita työssäni ja miten ne voivat vaikuttaa verohallinnon päätöksentekoon."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kansalaisaloite.fi",
+      "intent": "Luen kansalaisaloitteiden aiheita ja etsin tietoa siitä, miten kansalaiset voivat vaikuttaa lainsäädäntöön ja päätöksentekoon."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kansalaisaloite.fi",
+      "intent": "Kirjaudun sisään ja aloitan uuden kansalaisaloitteen, joka liittyy verohallinnon toimintaan ja kehittämiseen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kansalaisaloite.fi",
+      "intent": "Osallistun jo olemassa olevaan kansalaisaloitteeseen, joka koskee verohallinnon asiakkaiden palvelujen kehittämistä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kansalaisaloite.fi",
+      "intent": "Seuraan kansalaisaloitteiden etenemistä ja luen muiden käyttäjien kommentteja ja mielipiteitä eri aiheista."
+    }
+  ]
+}

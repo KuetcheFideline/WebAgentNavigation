@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.uv.es",
+      "intent": "Buscar información sobre los programas de becas y ayudas para estudiantes de cocina y gastronomía en la Universitat de València"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.uv.es",
+      "intent": "Explorar las noticias y actualizaciones sobre la seguridad informática en la UV para estar al tanto de las últimas medidas de protección"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.uv.es",
+      "intent": "Investigar sobre los recursos y herramientas disponibles para los estudiantes de la UV, como el correo electrónico institucional y el acceso a la intranet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.uv.es",
+      "intent": "Acceder a mi cuenta de correo electrónico institucional para verificar si hay algún mensaje importante relacionado con mi matrícula o becas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.uv.es",
+      "intent": "Consultar mi calendario académico y los plazos importantes para la matrícula y el pago de tasas en la UV"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.uv.es",
+      "intent": "Actualizar mi perfil de estudiante en la intranet de la UV con mis datos actualizados y verificar que toda la información sea correcta"
+    }
+  ]
+}

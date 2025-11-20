@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Selata tulevia kilpailuita ja etsiä sopivia tapahtumia osallistua"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Hakea tietoa kilpailuista ajanjakson, sarjan, lajin, piiri tai kilpailun luokituksen mukaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Lukea uutisia ja tiedotteita kilpailukalenterin ylläpidosta ja tulevista muutoksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Ilmoittautua kilpailuihin ja hallita omia ilmoittautumisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Tarkastella omia kilpailutuloksia ja seurata omaa urheilu-uraani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kilpailukalenteri.fi",
+      "intent": "Annaa palautetta kilpailukalenterin palvelusta ja ehdottaa parannuksia"
+    }
+  ]
+}

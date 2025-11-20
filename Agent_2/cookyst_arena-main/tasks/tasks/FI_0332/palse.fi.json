@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://palse.fi",
+      "intent": "Etsin tietoa palveluseteleistä ja niiden käytöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://palse.fi",
+      "intent": "Haluan tietää, miten voin etsiä palveluntuottajia ilman kirjautumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://palse.fi",
+      "intent": "Luen lisää palse.fi-portaalin saavutettavuusselostetta ja tietosuojaselostetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://palse.fi",
+      "intent": "Kirjaudun sisään henkilöasiakkaana ja etsin palveluntuottajaa sinulle myönnetylle palvelulle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://palse.fi",
+      "intent": "Hallinoidan omia hoitotarvikkeita ja apuvälineitä kirjautuneena asiakkaana"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://palse.fi",
+      "intent": "Tarkastan ja päivitän omia tietojani ja asetuksia kirjautuneena asiakkaana"
+    }
+  ]
+}

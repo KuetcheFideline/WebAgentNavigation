@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://aula.autoescolapares.com",
+      "intent": "Seleccionar el idioma español para realizar la prueba de autoescuela en línea"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://aula.autoescolapares.com",
+      "intent": "Introducir el número de documento identificativo para acceder a la plataforma de autoescuela"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://aula.autoescolapares.com",
+      "intent": "Explorar las diferentes secciones de la plataforma de autoescuela para conocer sus funcionalidades"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://aula.autoescolapares.com",
+      "intent": "Acceder a la sección de prácticas de conducción para realizar simulacros de examen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://aula.autoescolapares.com",
+      "intent": "Consultar los resultados de las prácticas de conducción y analizar los errores cometidos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://aula.autoescolapares.com",
+      "intent": "Configurar las preferencias de la cuenta para recibir notificaciones sobre nuevas prácticas de conducción"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.escritores.org",
+      "intent": "Buscar información sobre los recursos disponibles para escritores en la sección de Recursos para escritores"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.escritores.org",
+      "intent": "Explorar la sección de Concursos Literarios para encontrar oportunidades de publicación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.escritores.org",
+      "intent": "Leer las biografías de escritores famosos en la sección de Biografías"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.escritores.org",
+      "intent": "Inscribirse en un curso de escritura creativa en la sección de Cursos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.escritores.org",
+      "intent": "Publicar un libro en la sección de Libros y crear un perfil personal"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.escritores.org",
+      "intent": "Solicitar un servicio de corrección de estilo y estructura en la sección de Servicios"
+    }
+  ]
+}

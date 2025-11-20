@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.fluvius.be",
+      "intent": "Je veux comprendre pourquoi j'ai accès à cette page d'erreur pour pouvoir résoudre le problème et accéder à mes informations personnelles."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.fluvius.be",
+      "intent": "Je souhaite trouver un lien de contact ou un formulaire de support pour signaler ce problème et obtenir de l'aide pour y accéder."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.fluvius.be",
+      "intent": "Je veux essayer de me souvenir de mes informations de connexion pour voir si je peux accéder à mon compte sans problème."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.fluvius.be",
+      "intent": "Je veux vérifier mes consommations d'énergie pour le mois en cours afin de mieux gérer mes dépenses et faire des économies."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.fluvius.be",
+      "intent": "Je souhaite configurer les notifications pour recevoir des alertes lorsque mes consommations dépassent un certain seuil pour éviter les mauvaises surprises."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.fluvius.be",
+      "intent": "Je veux télécharger mes factures précédentes pour les archiver et avoir une trace de mes dépenses énergétiques sur plusieurs mois."
+    }
+  ]
+}

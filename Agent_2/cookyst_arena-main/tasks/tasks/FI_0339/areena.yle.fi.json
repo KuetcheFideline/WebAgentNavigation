@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://areena.yle.fi",
+      "intent": "Selataan uusimmat suomalaiset elokuvat ja katsotaan niiden kuvauksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://areena.yle.fi",
+      "intent": "Etsitään ohjelmia, joissa on mukana suomalaisia nuoria näyttelijöitä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://areena.yle.fi",
+      "intent": "Katsotaan mitä podcasteja on tarjolla ja kuunnellaan niiden esittelyjä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://areena.yle.fi",
+      "intent": "Kirjaudutaan sisään ja katsotaan suositeltuja ohjelmia, jotka on valittu käyttäjän aiempien katselutottumuksien perusteella"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://areena.yle.fi",
+      "intent": "Lisätään suosikkiohjelmia ja -elokuvia kirjautuneen käyttäjän omalle listalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://areena.yle.fi",
+      "intent": "Katsotaan jatketaanko kesken jäänyttä ohjelmaa siitä, mihin edellisellä kerralla jäimme"
+    }
+  ]
+}

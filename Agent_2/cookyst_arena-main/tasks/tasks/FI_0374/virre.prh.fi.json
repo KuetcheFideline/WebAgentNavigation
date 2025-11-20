@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://virre.prh.fi",
+      "intent": "Hae yrityksen tiedot hakemalla yrityksen nimi, Y-tunnus tai diaarinumero"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://virre.prh.fi",
+      "intent": "Selaa ilmoitushaut ja tarkastele ilmoitusten käsittelyä ja päätöksiä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://virre.prh.fi",
+      "intent": "Lue lisää palvelun käytöstä ja hinnastosta sekä tietosuojaselosteesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://virre.prh.fi",
+      "intent": "Osta otteita, todistuksia ja sääntöjä pankkitunnuksilla tai luottokortilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://virre.prh.fi",
+      "intent": "Tarkastele ostettuja tuotteita ja seuraa ilmoitusten etenemistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://virre.prh.fi",
+      "intent": "Vaihda salasana ja tarkastele käyttäjätilin tietoja"
+    }
+  ]
+}

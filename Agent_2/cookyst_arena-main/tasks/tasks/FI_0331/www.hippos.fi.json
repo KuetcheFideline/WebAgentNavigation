@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hippos.fi",
+      "intent": "Tarkastella ravitapahtumia ja etsiä tietoa suomenhevosten tammasarjasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hippos.fi",
+      "intent": "Selata Hippos-kalenteria ja etsiä tietoa tulevista ravitapahtumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hippos.fi",
+      "intent": "Etsiä tietoa heppa-järjestelmästä ja sen käytöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hippos.fi",
+      "intent": "Kirjautua sisään ja tarkastella omia ravitapahtumia ja hevosten tietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hippos.fi",
+      "intent": "Osallistua keskusteluun ravitapahtumista ja hevosten kasvattamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hippos.fi",
+      "intent": "Tarkastella ja hallita omia ravitapahtumia ja hevosten rekisteröintiä"
+    }
+  ]
+}

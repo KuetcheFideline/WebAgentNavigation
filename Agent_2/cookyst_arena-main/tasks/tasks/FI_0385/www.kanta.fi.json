@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Selvitän, miten voin ladata OmaKanta-sovelluksen puhelimeeni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Tutkin, miten voin käyttää Kanta-palveluja terveydenhuollon tarpeisiini"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Etsin tietoa siitä, miten voin turvallisesti asioida Kanta-palveluissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Tarkastan omat terveystietoni ja reseptini OmaKannassa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Uusin reseptin OmaKanta-sovelluksella"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Tutkin, miten voin käyttää OmaKanta-sovellusta läheiseni puolesta"
+    }
+  ]
+}

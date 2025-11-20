@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.heyo.be",
+      "intent": "Rechercher des camps de vacances pour mon enfant à Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.heyo.be",
+      "intent": "Consulter les différentes options de camps de vacances pour les enfants de 7 à 13 ans"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.heyo.be",
+      "intent": "Lire les témoignages et les avis des parents sur les camps de vacances Heyo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.heyo.be",
+      "intent": "Inscrire mon enfant à un camp de vacances pour la prochaine période scolaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.heyo.be",
+      "intent": "Gérer les informations personnelles et les préférences de mon enfant pour les prochains camps de vacances"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.heyo.be",
+      "intent": "Consulter et imprimer les factures et les reçus de paiement pour les camps de vacances de mon enfant"
+    }
+  ]
+}

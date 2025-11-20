@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.geneanet.org",
+      "intent": "Rechercher mes ancêtres en utilisant le formulaire de recherche pour trouver des informations sur ma famille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.geneanet.org",
+      "intent": "Découvrir l'origine de mon nom de famille en utilisant la fonctionnalité de recherche de noms de famille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.geneanet.org",
+      "intent": "Explorer la bibliothèque généalogique pour trouver des informations sur mes ancêtres dans les ouvrages anciens et les revues historiques"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.geneanet.org",
+      "intent": "Commencer à créer mon arbre généalogique en utilisant les informations que j'ai sur ma famille et en les liant aux personnes référencées sur le site"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.geneanet.org",
+      "intent": "Rechercher des cousins éloignés en utilisant la fonctionnalité de recherche de cousins pour élargir mon arbre généalogique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.geneanet.org",
+      "intent": "Participer à un projet de généalogie collaborative pour contribuer à la recherche et à la mise en ligne d'informations sur les ancêtres de ma famille"
+    }
+  ]
+}

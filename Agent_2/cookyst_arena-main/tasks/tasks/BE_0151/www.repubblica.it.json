@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Rechercher des informations sur les dernières actualités politiques en Italie"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Consulter les offres d'abonnement pour accéder à des contenus premium"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Explorer la section 'Sport' pour suivre les dernières nouvelles sur le football italien"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Accéder à mes paramètres de compte pour modifier mes préférences de notification"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Consulter mes archives de newsletters pour me tenir informé sur les dernières actualités"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.repubblica.it",
+      "intent": "Participer à un sondage en ligne pour donner mon avis sur un sujet d'actualité"
+    }
+  ]
+}

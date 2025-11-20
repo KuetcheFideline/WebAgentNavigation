@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rk2023.valimised.ee",
+      "intent": "Tutkin e-äänestysjärjestelmän toimintaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rk2023.valimised.ee",
+      "intent": "Etsin tietoa vaalipäivästä ja äänestyspaikoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rk2023.valimised.ee",
+      "intent": "Luen ehdokkaiden esittelyjä ja heidän vaaliohjelmaansa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rk2023.valimised.ee",
+      "intent": "Kirjaudun sisään ja äänestän ehdokkaita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rk2023.valimised.ee",
+      "intent": "Tarkistan äänestystiedot ja vahvistan äänestysvalintani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rk2023.valimised.ee",
+      "intent": "Tulostan äänestysvahvistuksen ja tallennan sen henkilökohtaiseen tiedostooni"
+    }
+  ]
+}

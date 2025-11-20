@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.disturb.fi",
+      "intent": "Hae uusimmat takit ja hupparit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.disturb.fi",
+      "intent": "Vertaile eri merkkien farkkuja ja housuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.disturb.fi",
+      "intent": "Selaa kaikki vaatteet -osio ja etsi tarjouksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.disturb.fi",
+      "intent": "Täytä ostoskori aiemmin valituilla tuotteilla ja siirry kassalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.disturb.fi",
+      "intent": "Tarkastele tilisi historiaa ja tilausten seurantaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.disturb.fi",
+      "intent": "Muokkaa osoitetietojasi ja lähetysosoitetta"
+    }
+  ]
+}

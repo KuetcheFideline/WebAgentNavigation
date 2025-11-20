@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.marieclaire.fr",
+      "intent": "Rechercher des conseils pour améliorer le sommeil sur le site de Marie Claire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.marieclaire.fr",
+      "intent": "Découvrir les dernières tendances de la mode féminine et les conseils de beauté sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.marieclaire.fr",
+      "intent": "Lire les articles sur la santé et les dernières découvertes médicales, notamment sur la maladie d'Alzheimer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.marieclaire.fr",
+      "intent": "Gérer mes abonnements et mes newsletters pour recevoir des contenus personnalisés"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.marieclaire.fr",
+      "intent": "Accéder à mes données personnelles et les mettre à jour si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.marieclaire.fr",
+      "intent": "Participer à des discussions en ligne sur les sujets qui m'intéressent, comme la mode et la beauté"
+    }
+  ]
+}

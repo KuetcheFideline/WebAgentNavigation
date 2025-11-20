@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Hae hevosen nimellä, jotta voin tarkastella sen suku- ja jälkeläishistoriaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Selaa kilpailukalenteria, jotta tiedän, milloin seuraavat ravikilpailut ovat."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Tutki hevosten ravitilastot, jotta voin analysoida hevosten suorituskykyä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Tallenna hevosen perustiedot, jotta voin nopeasti tarkastella niitä myöhemin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Muokkaa henkilön perustietoja, jotta voin pitää tiedot ajan tasalla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Luo uusi hevosen suku- ja jälkeläishistoria, jotta voin seurata hevosen kehitystä."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ulapland.fi",
+      "intent": "Hae koulutustarjontaa Lapin yliopistosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ulapland.fi",
+      "intent": "Tutustu Lapin yliopiston tutkimusprofiiliin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ulapland.fi",
+      "intent": "Etsi tietoa Lapin yliopiston kansainvälisyydestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ulapland.fi",
+      "intent": "Tarkastele opinto-ohjelmaani Lapin yliopiston opinto-opas-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ulapland.fi",
+      "intent": "Kirjaudu Moodleen ja tarkastele kurssimateriaaleja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ulapland.fi",
+      "intent": "Täytä yliopiston palautelomake palvelun kehittämiseksi"
+    }
+  ]
+}

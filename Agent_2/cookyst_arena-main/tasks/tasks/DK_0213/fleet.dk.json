@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fleet.dk",
+      "intent": "Jeg søger efter en bus til min næste tur fra Roskilde til København"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fleet.dk",
+      "intent": "Jeg vil gerne se hvilke busser VIKINGBUS tilbyder og hvilke faciliteter de har"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fleet.dk",
+      "intent": "Jeg ønsker at finde det nærmeste VIKINGBUS kontor nær min adresse i Roskilde"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fleet.dk",
+      "intent": "Jeg vil gerne bestille en bustur og betale med mit kreditkort, der er gemt i min brugerprofil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fleet.dk",
+      "intent": "Jeg søger efter mine tidligere busrejser og ønsker at se detaljer om disse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fleet.dk",
+      "intent": "Jeg vil gerne ændre mine kontaktoplysninger i min brugerprofil, så jeg kan modtage nyhedsbreve og tilbud fra VIKINGBUS"
+    }
+  ]
+}

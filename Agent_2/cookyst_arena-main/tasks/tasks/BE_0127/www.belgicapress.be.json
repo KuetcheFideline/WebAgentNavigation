@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.belgicapress.be",
+      "intent": "Rechercher des articles de journaux sur l'histoire de la Belgique pour un projet universitaire"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.belgicapress.be",
+      "intent": "Consulter les documents libres d'accès sur le portail BelgicaPress pour avoir une idée générale sur les sujets d'actualité"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.belgicapress.be",
+      "intent": "Explorer les fonctionnalités de recherche avancée pour affiner les résultats de recherche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.belgicapress.be",
+      "intent": "Accéder à des documents sous droits pour approfondir mes recherches scientifiques"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.belgicapress.be",
+      "intent": "Gérer mon compte MyKBR pour mettre à jour mes préférences de recherche"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.belgicapress.be",
+      "intent": "Consulter l'historique de mes recherches pour suivre mes progrès"
+    }
+  ]
+}

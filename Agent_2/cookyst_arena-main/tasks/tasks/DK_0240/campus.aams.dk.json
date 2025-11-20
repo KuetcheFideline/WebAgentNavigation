@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg søger efter information om kurser på Aarhus Maskinmesterskole"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg vil se, om der er nogen gæstekurser, som jeg kan deltage i"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg ønsker at downloade mobilappen for at få adgang til kurser på farten"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg vil logge ind for at se mine kurser og min studieplan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg søger efter en specifik kursus på Aarhus Maskinmesterskole for at se, om jeg kan deltage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campus.aams.dk",
+      "intent": "Jeg vil ændre mine brugerindstillinger og opdater min profil"
+    }
+  ]
+}

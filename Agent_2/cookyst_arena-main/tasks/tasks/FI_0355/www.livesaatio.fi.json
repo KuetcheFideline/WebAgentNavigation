@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.livesaatio.fi",
+      "intent": "Hae sivustolta tietoa kuntoutuspalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.livesaatio.fi",
+      "intent": "Selaa ajankohtaisia uutisia ja blogipostauksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.livesaatio.fi",
+      "intent": "Etsi tietoa ammattiopistosta ja koulutusmahdollisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.livesaatio.fi",
+      "intent": "Täytä yhteydenottolomake työllistymisen ja valmennuksen suhteen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.livesaatio.fi",
+      "intent": "Ilmoittaudu tapahtumaan tai koulutukseen, joka kiinnostaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.livesaatio.fi",
+      "intent": "Lähetä idea tai ehdotus Innolive-osiolle"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uah.es",
+      "intent": "Quiero buscar información sobre los grados que se ofrecen en la Universidad de Alcalá"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uah.es",
+      "intent": "Necesito encontrar información sobre las becas y ayudas disponibles para estudiantes de máster"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uah.es",
+      "intent": "Me gustaría explorar las opciones de alojamiento que ofrece la universidad para estudiantes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uah.es",
+      "intent": "Quiero acceder a mi portal de estudiante para ver mis notas y horarios de clase"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uah.es",
+      "intent": "Necesito realizar una matrícula en línea para el próximo curso académico"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uah.es",
+      "intent": "Me gustaría solicitar una beca o ayuda económica para apoyar mi estudio en la universidad"
+    }
+  ]
+}

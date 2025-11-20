@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lavenir.net",
+      "intent": "Rechercher les actualités régionales pour rester informée sur les événements locaux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lavenir.net",
+      "intent": "Consulter la section Sports pour suivre les résultats et les actualités des équipes de football belges"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lavenir.net",
+      "intent": "Découvrir les articles de la section Culture pour connaître les festivals et les événements culturels à venir"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lavenir.net",
+      "intent": "Gérer mon abonnement pour accéder à des contenus premium et personnaliser mes préférences"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lavenir.net",
+      "intent": "Participer à un concours en ligne pour gagner des prix et des cadeaux"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lavenir.net",
+      "intent": "Configurer mes paramètres de notification pour recevoir des alertes sur les actualités qui m'intéressent"
+    }
+  ]
+}

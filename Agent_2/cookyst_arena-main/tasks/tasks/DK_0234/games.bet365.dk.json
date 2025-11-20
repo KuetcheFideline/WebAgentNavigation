@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://games.bet365.dk",
+      "intent": "Jeg søger efter nye spil at prøve, så jeg klikker på 'Alle spil' for at se, hvad der er tilbudt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://games.bet365.dk",
+      "intent": "Jeg er interesseret i at lære mere om ansvarsfuldt spil, så jeg klikker på 'Ansvarsfuldt spil' for at få mere information."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://games.bet365.dk",
+      "intent": "Jeg vil gerne se, hvad der er nyt på siden, så jeg klikker på 'Hvad er nyt?' for at få en oversigt over nye spil og tilbud."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://games.bet365.dk",
+      "intent": "Jeg har allerede en konto, så jeg logger ind for at se mine eksisterende bonusser og kampe."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://games.bet365.dk",
+      "intent": "Jeg vil gerne deltage i en turnering, så jeg søger efter 'Sunday Exclusive' for at se, hvordan jeg kan kvalificere mig."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://games.bet365.dk",
+      "intent": "Jeg ønsker at checke mine kontosaldo og transaktioner, så jeg går til 'Min konto' for at få en oversigt over mine pengebevægelser."
+    }
+  ]
+}

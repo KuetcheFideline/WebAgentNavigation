@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.poderjudicial.es",
+      "intent": "Buscar información sobre los requisitos para ser juez en España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.poderjudicial.es",
+      "intent": "Explorar las secciones de la página web relacionadas con la atención ciudadana y los servicios ofrecidos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.poderjudicial.es",
+      "intent": "Leer las noticias y actualizaciones sobre la justicia en España"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.poderjudicial.es",
+      "intent": "Acceder a la extranet para consultar mis datos personales y actualizar mi perfil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.poderjudicial.es",
+      "intent": "Solicitar un certificado digital para realizar trámites electrónicos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.poderjudicial.es",
+      "intent": "Consultar los acuerdos del Consejo General del Poder Judicial y descargar documentos relevantes"
+    }
+  ]
+}

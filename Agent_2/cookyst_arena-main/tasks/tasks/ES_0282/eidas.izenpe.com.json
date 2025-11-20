@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eidas.izenpe.com",
+      "intent": "Buscar información sobre cómo solucionar el error 404 en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eidas.izenpe.com",
+      "intent": "Explorar las opciones de navegación disponibles en la página para encontrar una sección de ayuda o soporte"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eidas.izenpe.com",
+      "intent": "Intentar acceder a la página de inicio de sesión para ver si hay alguna opción de recuperación de cuenta o ayuda para usuarios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eidas.izenpe.com",
+      "intent": "Verificar el estado de mi cuenta y los servicios asociados después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eidas.izenpe.com",
+      "intent": "Configurar mis preferencias de seguridad y notificaciones para mantener mi cuenta segura"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eidas.izenpe.com",
+      "intent": "Acceder a la sección de ayuda en línea o soporte técnico para resolver cualquier problema con mi cuenta o servicios"
+    }
+  ]
+}

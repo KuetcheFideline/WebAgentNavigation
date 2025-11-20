@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuleuven.be",
+      "intent": "Rechercher des informations sur les formations proposées par l'université de Louvain"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuleuven.be",
+      "intent": "Découvrir les actualités et les recherches menées par l'université de Louvain"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuleuven.be",
+      "intent": "Explorer les ressources et les outils mis à disposition des étudiants et des chercheurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuleuven.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes informations et mes cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuleuven.be",
+      "intent": "Consulter et gérer mes inscriptions aux cours et aux examens"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuleuven.be",
+      "intent": "Utiliser les outils de collaboration et de communication avec les enseignants et les autres étudiants"
+    }
+  ]
+}

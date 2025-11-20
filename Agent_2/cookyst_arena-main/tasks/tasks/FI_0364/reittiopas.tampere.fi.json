@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Hae reitti Helsingistä Tampereelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Vertaile eri joukkoliikennevaihtoehtoja Tampereen keskustassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Etsi lähin bussipysäkki Tampereen rautatieasemalta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Tallenna suosikkireitit Helsingin ja Tampereen välille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Luo oma reittikartta Tampereen seudun kalastuskohteisiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Anna palautetta reittiopas-palvelun toimivuudesta"
+    }
+  ]
+}

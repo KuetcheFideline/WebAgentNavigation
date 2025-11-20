@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Tutkin Fingridin verkkosivustoa, jotta voin löytää tietoa sähköverkon tilasta ja hinnoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Selvittelen, miten voin seurata sähkönkulutustani ja miten voin parantaa energiatehokkuuttani"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Luen uutisia ja tiedotteita Fingridin toiminnasta ja sähkömarkkinoiden kehityksestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman sähkönsiirto- ja myyntisopimukseni tiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Muokkaan oman käyttäjäprofiiliani ja päivitän yhteystietojani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fingrid.fi",
+      "intent": "Tarkastan laskujeni maksutiedot ja varmistan, että olen maksanut laskuni ajallaan"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://daisy.celianet.fi",
+      "intent": "Tutkin sivuston käyttöliittymää ja etsin tietoa käyttäjäprofiileista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://daisy.celianet.fi",
+      "intent": "Selailen sivuston eri osioita ja etsin tietoa Pratsam-palvelun ominaisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://daisy.celianet.fi",
+      "intent": "Luen käyttöohjeita ja vinkkejä sivuston käyttämiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://daisy.celianet.fi",
+      "intent": "Kirjaudun sisään ja tarkastan käyttäjäprofiiliani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://daisy.celianet.fi",
+      "intent": "Muokkaan käyttäjäprofiiliani ja tallennan muutokset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://daisy.celianet.fi",
+      "intent": "Tarkastan käyttöoikeuksiani ja ryhmiäni, joissa olen jäsenenä"
+    }
+  ]
+}

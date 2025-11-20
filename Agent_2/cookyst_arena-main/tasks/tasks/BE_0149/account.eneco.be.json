@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.eneco.be",
+      "intent": "Rechercher les offres d'énergie renouvelable pour ma maison mitoyenne à Liège"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.eneco.be",
+      "intent": "Comparer les tarifs d'électricité et de gaz pour les ménages en Wallonie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.eneco.be",
+      "intent": "Consulter les conseils pour réduire ma consommation d'énergie et mes coûts"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.eneco.be",
+      "intent": "Vérifier mon historique de consommation d'énergie et mes factures en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.eneco.be",
+      "intent": "Gérer mes informations de compte et mettre à jour mes coordonnées bancaires"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.eneco.be",
+      "intent": "Demander un devis pour l'installation de panneaux solaires sur ma maison"
+    }
+  ]
+}

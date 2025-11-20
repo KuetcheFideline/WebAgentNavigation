@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Hae kaikista aineistoista lainsäädäntöä liittyen maahanmuuttovirastoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Selaa oikeuskäytäntöä koskien työehtosopimuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Etsi tietoa hallituksen esityksistä vuodelta 2025"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Tallenna lainsäädäntöä koskevia asiakirjoja omaan kirjastoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Luo muistutus tulevista lakimuutoksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.finlex.fi",
+      "intent": "Lähetä linkki tiettyyn lainsäädäntöön kollegalle"
+    }
+  ]
+}

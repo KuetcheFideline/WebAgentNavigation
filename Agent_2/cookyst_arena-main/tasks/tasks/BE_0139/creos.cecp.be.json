@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://creos.cecp.be",
+      "intent": "Rechercher les actualités récentes sur le site pour me tenir informé sur les dernières mises à jour"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://creos.cecp.be",
+      "intent": "Explorer les vidéos tutoriels disponibles pour améliorer ma compréhension de l'utilisation du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://creos.cecp.be",
+      "intent": "Consulter les informations de contact de l'équipe support pour obtenir de l'aide en cas de besoin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://creos.cecp.be",
+      "intent": "Accéder à mes messages d'actualités personnels pour me tenir informé sur les mises à jour qui me concernent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://creos.cecp.be",
+      "intent": "Visionner les vidéos de tutoriel réservées aux utilisateurs connectés pour approfondir mes connaissances"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://creos.cecp.be",
+      "intent": "Gérer mes paramètres de compte pour personnaliser mon expérience sur le site"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://newsdesk.dk",
+      "intent": "Jeg søger efter en måde at skrive en avis med min klasse på Newsdesk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://newsdesk.dk",
+      "intent": "Jeg vil læse om vilkår og privatlivspolitik på Newsdesk"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://newsdesk.dk",
+      "intent": "Jeg søger efter en vejledning til at oprette og redigere en avis på Newsdesk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://newsdesk.dk",
+      "intent": "Jeg logger ind på Newsdesk for at oprette og redigere min avis med Uni-login"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://newsdesk.dk",
+      "intent": "Jeg søger efter at redigere min avis på Newsdesk efter login"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://newsdesk.dk",
+      "intent": "Jeg vil gemme og udgive min færdige avis på Newsdesk efter at have logget ind"
+    }
+  ]
+}

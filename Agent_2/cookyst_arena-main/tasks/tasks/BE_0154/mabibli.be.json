@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mabibli.be",
+      "intent": "Rechercher des livres sur le thème de l'art pour mes enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mabibli.be",
+      "intent": "Consulter les actualités sur les événements culturels à Liège"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mabibli.be",
+      "intent": "Explorer les ressources numériques disponibles pour les professionnels de la santé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mabibli.be",
+      "intent": "Réserver un ouvrage en ligne pour le retirer à la bibliothèque"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mabibli.be",
+      "intent": "Gérer mes emprunts en cours et mes réservations de livres"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mabibli.be",
+      "intent": "Participer à un forum de discussion en ligne sur un livre lu récemment"
+    }
+  ]
+}

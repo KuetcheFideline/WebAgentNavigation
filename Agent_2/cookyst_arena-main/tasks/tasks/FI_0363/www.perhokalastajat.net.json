@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Etsin kalastusaiheisia artikkeleita ja uutisia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Tutkin perhokalastuskilpailuiden tuloksia ja aikatauluja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Selailen perhonsidonta- ja perhoaiheisia keskustelupalstoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Kirjaudun sisään ja osallistun keskusteluun perhokalastuksesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Lisään uuden viestin perhokalastusaiheiseen keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.perhokalastajat.net",
+      "intent": "Muokkaan profiiliani ja lisään kalastusaiheisia kuvia"
+    }
+  ]
+}

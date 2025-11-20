@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://intranet.ucll.be",
+      "intent": "Rechercher des informations sur les avantages pour les employés de l'université"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://intranet.ucll.be",
+      "intent": "Consulter la page d'accueil pour découvrir les actualités de l'université"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://intranet.ucll.be",
+      "intent": "Explorer les ressources disponibles pour les employés, telles que les formations et les services de soutien"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://intranet.ucll.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes informations de paie et mes avantages sociaux"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://intranet.ucll.be",
+      "intent": "Gérer mes absences et mes congés en ligne pour éviter les erreurs administratives"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://intranet.ucll.be",
+      "intent": "Consulter les offres de formation continue pour améliorer mes compétences professionnelles et avancer dans ma carrière"
+    }
+  ]
+}

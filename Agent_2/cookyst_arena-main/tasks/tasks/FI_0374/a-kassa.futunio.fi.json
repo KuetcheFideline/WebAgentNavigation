@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://a-kassa.futunio.fi",
+      "intent": "Tutustun eAsiointi-palvelun etusivuun ja etsin tietoa työttömyyskassan asiointipalveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://a-kassa.futunio.fi",
+      "intent": "Selvittelen, miten voin hakea työttömyyskassan jäsenyyttä ja mitä edut siitä on."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://a-kassa.futunio.fi",
+      "intent": "Luen usein kysytyt kysymykset -osiota ja etsin vastauksia yleisiin kysymyksiin työttömyyskassasta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://a-kassa.futunio.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omani työttömyyskassan jäsenyyden tiedot ja historiatiedot."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://a-kassa.futunio.fi",
+      "intent": "Täytän työttömyyskassan hakemuslomakkeen ja lähettän sen vahvistusta varten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://a-kassa.futunio.fi",
+      "intent": "Tarkastan työttömyyskassan maksujen ja korvausten historiatiedot ja tulostan tarvittavat todistukset."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flowagility.com",
+      "intent": "Explorar la página de inicio para conocer más sobre FlowAgility y sus eventos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flowagility.com",
+      "intent": "Buscar información sobre cómo registrarse para los eventos en el área privada"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flowagility.com",
+      "intent": "Leer las políticas de la empresa para entender mejor su enfoque y valores"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flowagility.com",
+      "intent": "Iniciar sesión para acceder al área privada y registrarme para un evento específico"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flowagility.com",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre eventos y promociones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flowagility.com",
+      "intent": "Verificar y actualizar mi perfil de usuario para asegurarme de que mi información esté actualizada"
+    }
+  ]
+}

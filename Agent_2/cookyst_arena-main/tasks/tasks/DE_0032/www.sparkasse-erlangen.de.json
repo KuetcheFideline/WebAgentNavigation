@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sparkasse-erlangen.de",
+      "intent": "Ich möchte Informationen über Girokonten für Privatkunden finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sparkasse-erlangen.de",
+      "intent": "Ich will die verschiedenen Kreditkartenprodukte der Sparkasse vergleichen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sparkasse-erlangen.de",
+      "intent": "Ich suche nach Informationen über die Sparkassen-Altersvorsorge und deren Angebote."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sparkasse-erlangen.de",
+      "intent": "Ich möchte mein Online-Banking-Konto aufrufen und meine Kontostände überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sparkasse-erlangen.de",
+      "intent": "Ich will eine Überweisung über mein Online-Banking durchführen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sparkasse-erlangen.de",
+      "intent": "Ich möchte meine Kontoeinstellungen und Sicherheitsoptionen im Online-Banking überprüfen und anpassen."
+    }
+  ]
+}

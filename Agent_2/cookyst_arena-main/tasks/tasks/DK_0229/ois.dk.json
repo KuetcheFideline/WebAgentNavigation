@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ois.dk",
+      "intent": "Jeg søger efter information om ejendomsdata for min villa i Roskilde"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ois.dk",
+      "intent": "Jeg vil læse om, hvordan jeg kan bruge det nye OIS til at finde ejendomsdata"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ois.dk",
+      "intent": "Jeg ønsker at se, hvordan jeg kan søge på kort efter ejendomsdata i mit område"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ois.dk",
+      "intent": "Jeg vil logge ind for at se mine gemte ejendomsdata og få adgang til mere detaljeret information"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ois.dk",
+      "intent": "Jeg søger efter at konfigurere mine indstillinger for, hvordan jeg vil modtage opdateringer om ejendomsdata"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ois.dk",
+      "intent": "Jeg vil sende en besked til OIS-administrationen omkring et problem, jeg har fundet på siden"
+    }
+  ]
+}

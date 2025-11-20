@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tevafinland.fi",
+      "intent": "Hae sivustolta tietoa migreenin hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tevafinland.fi",
+      "intent": "Lue artikkeli psykoosin hoidosta ja sen haasteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tevafinland.fi",
+      "intent": "Selaa ammattilaisille tarkoitettuja koulutuksia ja tapahtumia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tevafinland.fi",
+      "intent": "Tarkastele omia tietojani ja lääkehoitoani kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tevafinland.fi",
+      "intent": "Lataa lääke- ja verenpainekortti kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tevafinland.fi",
+      "intent": "Tilaa uutiskirje, jotta voin pysyä ajan tasalla ajankohtaisista koulutuksista ja asiantuntijakirjoitelmista"
+    }
+  ]
+}

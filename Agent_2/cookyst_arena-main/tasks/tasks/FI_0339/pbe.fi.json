@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pbe.fi",
+      "intent": "Tutkin sivuston evästeiden käytön ja yksityisyyden suojaamista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pbe.fi",
+      "intent": "Etsin tietoa sähkölaskujen maksamisesta ja eräpäivän siirtämisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pbe.fi",
+      "intent": "Selvittelen, miten voin muuttaa osoitettani sähköliittymässäni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pbe.fi",
+      "intent": "Tarkastan kulutustietojani ja laskujeni tilannetta OmaLiittymässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pbe.fi",
+      "intent": "Päivitän omat tietoni PBE Online -järjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pbe.fi",
+      "intent": "Tee muuttoilmoitus sähkölaitokselle ja tarkastelen laskujeni maksutietoja"
+    }
+  ]
+}

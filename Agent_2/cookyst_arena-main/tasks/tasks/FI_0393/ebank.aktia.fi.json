@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Tarkistaa verkkopankin teknisen virheen syyt ja arvioida, miten se vaikuttaa omiin raha-asioihin."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Etsiä tietoa siitä, miten tekninen virhe vaikuttaa verkkopankin turvallisuuteen ja mitä toimia asiakkaan tulisi tehdä suojelemalla tietonsa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Selvitä, onko verkkopankissa teknisen virheen vuoksi muutoksia asiointiin tai maksujen tekemiseen ja miten nämä vaikuttavat päivittäisiin raha-asioihin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Tarkistaa omat tilit ja varmistaa, että kaikki maksut ja siirrot ovat suoritettu oikein teknisen virheen aikana."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Muuttaa salasanaa ja tarkistaa kaikki turvallisuusasetukset varmistaakseen, että henkilökohtaiset tiedot ja raha-asiat ovat turvassa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ebank.aktia.fi",
+      "intent": "Ottaa yhteyttä asiakaspalveluun ja tiedustella, mitä toimia asiakkaan tulisi tehdä teknisen virheen jälkeen ja miten se vaikuttaa tuleviin pankkipalveluihin."
+    }
+  ]
+}

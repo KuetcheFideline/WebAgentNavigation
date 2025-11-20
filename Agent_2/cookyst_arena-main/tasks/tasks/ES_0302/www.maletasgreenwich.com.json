@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.maletasgreenwich.com",
+      "intent": "Buscar maletas de cabina para un viaje de negocios en Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.maletasgreenwich.com",
+      "intent": "Comparar precios de maletas de aluminio de diferentes marcas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.maletasgreenwich.com",
+      "intent": "Leer reseñas de otros clientes sobre maletas de viaje para tomar una decisión informada"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.maletasgreenwich.com",
+      "intent": "Agregar una maleta de cabina a mi lista de favoritos para comprarla más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.maletasgreenwich.com",
+      "intent": "Verificar el estado de mi pedido de maletas de viaje y accesorios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.maletasgreenwich.com",
+      "intent": "Escribir una reseña sobre una maleta de viaje que compré en la tienda en línea"
+    }
+  ]
+}

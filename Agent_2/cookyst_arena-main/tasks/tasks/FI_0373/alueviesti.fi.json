@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Luen uutisia Huittisten keskustasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Etsin tietoa Sastamalan Lankus-tapahtumasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Selailen Alueviestin urheiluosioita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutista Huittisten jouluvaloista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Lähetän juttuvinkin Alueviestille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://alueviesti.fi",
+      "intent": "Ilmoitan Aluetorilla uudesta työpaikasta"
+    }
+  ]
+}

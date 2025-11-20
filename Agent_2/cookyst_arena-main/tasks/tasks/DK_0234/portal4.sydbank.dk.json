@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal4.sydbank.dk",
+      "intent": "Jeg søger at finde information om bankens åbningstider og kontaktoplysninger."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal4.sydbank.dk",
+      "intent": "Jeg vil læse om bankens tilbud og services, såsom lån og sparekonto."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal4.sydbank.dk",
+      "intent": "Jeg ønsker at se, om banken tilbyder nogen online-banking services eller mobilapps."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal4.sydbank.dk",
+      "intent": "Jeg vil overføre penge fra min sparekonto til min lønkonto."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal4.sydbank.dk",
+      "intent": "Jeg søger at betale en regning via online-banking."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal4.sydbank.dk",
+      "intent": "Jeg vil se mine kontoudtog og transaktioner for de sidste 30 dage."
+    }
+  ]
+}

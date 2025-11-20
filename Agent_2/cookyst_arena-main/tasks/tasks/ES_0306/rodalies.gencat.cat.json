@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rodalies.gencat.cat",
+      "intent": "Buscar información sobre los horarios de los trenes de Rodalies de Catalunya para planificar mi próximo viaje a Barcelona"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rodalies.gencat.cat",
+      "intent": "Comparar las diferentes tarifas y opciones de billetes para encontrar la mejor opción para mi viaje diario al trabajo en Martorell"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rodalies.gencat.cat",
+      "intent": "Explorar las opciones de ocio y turismo que ofrece Rodalies de Catalunya, como el paquete Oci+Tren, para planificar un fin de semana en la costa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rodalies.gencat.cat",
+      "intent": "Consultar mi historial de viajes y verificar si tengo algún billete pendiente de canje o devolución en mi cuenta de Rodalies de Catalunya"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rodalies.gencat.cat",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre cambios en los horarios o cancelaciones de trenes en mi ruta habitual"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rodalies.gencat.cat",
+      "intent": "Solicitar un justificante de retraso para un viaje anterior y adjuntar los documentos necesarios para tramitar la solicitud en mi cuenta de Rodalies de Catalunya"
+    }
+  ]
+}

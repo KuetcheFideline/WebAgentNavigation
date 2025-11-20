@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fly.airbaltic.com",
+      "intent": "Hae lennot Tallinnaan ja vertaile hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fly.airbaltic.com",
+      "intent": "Selvitä, mitkä ovat parhaat matkustuspäivät saadaksesi edullisimmat lennot"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fly.airbaltic.com",
+      "intent": "Tutki, mitä palveluita airBaltic tarjoaa matkustajille, kuten ruokailu ja viihde"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fly.airbaltic.com",
+      "intent": "Varaa lennot ja hotelli yhden klikkauksen kautta, ja hyödynnä etukorttia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fly.airbaltic.com",
+      "intent": "Tarkista varaukseni ja muokkaa matkasuunnitelmaa tarpeen mukaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fly.airbaltic.com",
+      "intent": "Osta lisäpalveluita, kuten lisämatkatavaraa tai prioriteettitarkastus"
+    }
+  ]
+}

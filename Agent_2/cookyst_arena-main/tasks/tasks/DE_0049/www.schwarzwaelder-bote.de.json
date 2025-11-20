@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte nach aktuellen Nachrichten aus dem Schwarzwald suchen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich will die Veranstaltungen und Events in der Region Schwarzwald-Baar erkunden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte die Leserbriefe und Kommentare zu aktuellen Themen lesen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte mein Profil verwalten und meine Abonnements einsehen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich will Push-Benachrichtigungen für bestimmte Themen aktivieren."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.schwarzwaelder-bote.de",
+      "intent": "Ich möchte meine persönlichen Einstellungen und Vorlieben für die Website anpassen."
+    }
+  ]
+}

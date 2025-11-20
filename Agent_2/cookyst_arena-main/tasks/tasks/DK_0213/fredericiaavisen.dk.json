@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fredericiaavisen.dk",
+      "intent": "Læs om de seneste nyheder i Fredericia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fredericiaavisen.dk",
+      "intent": "Søg efter information om kommunalvalget i Fredericia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fredericiaavisen.dk",
+      "intent": "Se hvilke kommentarer andre læsere har skrevet om artiklerne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fredericiaavisen.dk",
+      "intent": "Skriver en kommentar til en artikel om politik i Fredericia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fredericiaavisen.dk",
+      "intent": "Del en artikel om sport i Fredericia på min Facebook-profil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fredericiaavisen.dk",
+      "intent": "Abonner på nyhedsbrevet for at få de seneste opdateringer om Fredericia"
+    }
+  ]
+}

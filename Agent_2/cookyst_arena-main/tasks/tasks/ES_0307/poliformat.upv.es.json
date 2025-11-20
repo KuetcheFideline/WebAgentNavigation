@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://poliformat.upv.es",
+      "intent": "Explorar la página de inicio para conocer las funcionalidades de la plataforma PoliformaT"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://poliformat.upv.es",
+      "intent": "Buscar información sobre cómo crear y publicar módulos de contenido en la plataforma"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://poliformat.upv.es",
+      "intent": "Investigar las opciones de personalización de la página de inicio y la barra de herramientas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://poliformat.upv.es",
+      "intent": "Acceder a la página personal para ver las actualizaciones y notificaciones de la plataforma"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://poliformat.upv.es",
+      "intent": "Crear un nuevo elemento de contenido y subir un archivo multimedia para compartir con otros usuarios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://poliformat.upv.es",
+      "intent": "Configurar las preferencias de la cuenta y la privacidad para controlar quién puede ver mi contenido"
+    }
+  ]
+}

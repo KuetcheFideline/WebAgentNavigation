@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://justitie.belgium.be",
+      "intent": "Sélectionner la langue française pour naviguer sur le site web de la Justice belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://justitie.belgium.be",
+      "intent": "Lire la politique de cookies pour comprendre les choix proposés concernant les cookies statistiques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://justitie.belgium.be",
+      "intent": "Rechercher les informations sur les services publics fédéraux de Justice pour les citoyens belges"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://justitie.belgium.be",
+      "intent": "Accéder à mon espace personnel pour consulter les dossiers en cours de traitement par le service de Justice"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://justitie.belgium.be",
+      "intent": "Déposer une demande de documents officiels en ligne via le portail sécurisé du site web de la Justice"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://justitie.belgium.be",
+      "intent": "Consulter les mises à jour législatives et réglementaires publiées par le service de Justice pour les professionnels"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.billetsalg.dk",
+      "intent": "Jeg søger efter billetter til en koncert i Korsør"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.billetsalg.dk",
+      "intent": "Jeg vil se alle tilgængelige events i kategorien Musik"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.billetsalg.dk",
+      "intent": "Jeg ønsker at læse om gebyrer og vilkår for billetkøb"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.billetsalg.dk",
+      "intent": "Jeg vil købe billetter til Legends FC - Skovdahls Gulddrenge og føje dem til min kurv"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.billetsalg.dk",
+      "intent": "Jeg søger efter mine tidligere bestillinger og ønsker at se detaljer om mine købte billetter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.billetsalg.dk",
+      "intent": "Jeg vil overføre en billet til en ven og redigere billetinformationerne"
+    }
+  ]
+}

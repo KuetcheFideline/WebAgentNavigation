@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sintmaria.be",
+      "intent": "Rechercher les informations sur les spécialités médicales disponibles à l'hôpital Sint-Maria"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sintmaria.be",
+      "intent": "Consulter les horaires de visites pour les patients hospitalisés"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sintmaria.be",
+      "intent": "Trouver les coordonnées pour contacter le service des patients de l'hôpital Sint-Maria"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sintmaria.be",
+      "intent": "Consulter mon dossier patient en ligne pour vérifier mes prochains rendez-vous médicaux"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sintmaria.be",
+      "intent": "Gérer mes informations personnelles et médicales dans mon compte patient sur le site de l'hôpital Sint-Maria"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sintmaria.be",
+      "intent": "Annuler ou modifier un rendez-vous médical en ligne via mon compte patient"
+    }
+  ]
+}

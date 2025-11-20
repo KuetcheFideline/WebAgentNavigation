@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvcom.be",
+      "intent": "Rechercher les dernières actualités sur le sport dans la région de Liège"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvcom.be",
+      "intent": "Découvrir les émissions de télévision proposées par TVcom"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvcom.be",
+      "intent": "Lire les articles sur la culture et les événements locaux dans la région"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvcom.be",
+      "intent": "Participer à un concours proposé par TVcom en tant qu'utilisateur connecté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvcom.be",
+      "intent": "Consulter mes émissions préférées et les ajouter à ma liste de lecture personnalisée"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvcom.be",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les actualités locales qui m'intéressent"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://palaute.vsshp.fi",
+      "intent": "Tarkistaa sivuston palautejärjestelmän toimivuutta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://palaute.vsshp.fi",
+      "intent": "Etsii tietoa sivuston turvallisuudesta ja tietosuojasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://palaute.vsshp.fi",
+      "intent": "Selvittää miten sivuston palautejärjestelmä toimii käytännössä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://palaute.vsshp.fi",
+      "intent": "Lähettää palautetta sivuston asiakaspalvelusta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://palaute.vsshp.fi",
+      "intent": "Tarkistaa omat palautteensa ja niiden tilan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://palaute.vsshp.fi",
+      "intent": "Vastaa sivuston kyselyyn asiakastyytyväisyydestä"
+    }
+  ]
+}

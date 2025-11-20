@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://login.cliniccare.dk",
+      "intent": "Jeg søger at få adgang til min kliniske patientjournal, men jeg kan ikke se, om jeg har brug for at logge ind først."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://login.cliniccare.dk",
+      "intent": "Jeg vil gerne læse mere om, hvordan ClinicCare beskytter patienternes personlige og sundhedsrelaterede data."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://login.cliniccare.dk",
+      "intent": "Jeg søger efter en vejledning eller en brugervejledning for at forstå, hvordan jeg kan bruge ClinicCare-systemet effektivt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://login.cliniccare.dk",
+      "intent": "Jeg vil gerne se mine patientjournaler og læse om mine seneste sundhedsdata, så jeg kan følge med i min egen sundhedsstatus."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://login.cliniccare.dk",
+      "intent": "Jeg søger at kommunikere med mine læger og sygeplejersker gennem ClinicCare-systemet for at stille spørgsmål om min behandling."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://login.cliniccare.dk",
+      "intent": "Jeg vil gerne ændre mine personlige oplysninger og kontaktoplysninger i mit ClinicCare-konto for at sikre, at alt er opdateret."
+    }
+  ]
+}

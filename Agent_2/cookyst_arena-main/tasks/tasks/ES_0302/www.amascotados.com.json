@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.amascotados.com",
+      "intent": "Buscar productos para perros de raza pequeña"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.amascotados.com",
+      "intent": "Comparar precios de comida para gatos de diferentes marcas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.amascotados.com",
+      "intent": "Explorar la sección de accesorios para peces y acuarios"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.amascotados.com",
+      "intent": "Realizar un pedido de productos para mi mascota y seleccionar la opción de pago con tarjeta de crédito"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.amascotados.com",
+      "intent": "Consultar el historial de pedidos y verificar el estado de un pedido reciente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.amascotados.com",
+      "intent": "Editar la información de mi cuenta y cambiar la dirección de envío"
+    }
+  ]
+}

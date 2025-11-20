@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hagelstam.fi",
+      "intent": "Tutkin Hagelstam & Co:n sivustoa, jotta löytäisin tietoa tulevista huutokaupoista ja arviointipalveluista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hagelstam.fi",
+      "intent": "Hae sivustolta tietoa siitä, miten voin osallistua huutokauppoihin ja mitä esineitä on tulevissa huutokaupoissa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hagelstam.fi",
+      "intent": "Selvittäisin, miten voin ottaa yhteyttä Hagelstam & Co:n asiantuntijiin, jotta saan lisätietoa heidän palveluistaan ja huutokaupoistaan."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hagelstam.fi",
+      "intent": "Kirjaudun sisään omiin tileihini, jotta voin seurata tulevia huutokauppoja ja osallistua niihin."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hagelstam.fi",
+      "intent": "Tarkastan omia huutokauppoja, joissa olen osallistunut, ja seuraan niiden etenemistä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hagelstam.fi",
+      "intent": "Lisään uusia esineitä huutokauppoihin, joissa olen osallistunut, ja seuraan niiden myyntiä."
+    }
+  ]
+}

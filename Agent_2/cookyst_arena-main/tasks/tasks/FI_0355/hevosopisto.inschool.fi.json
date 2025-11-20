@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hevosopisto.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa hevosten kanssa toimimisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hevosopisto.inschool.fi",
+      "intent": "Luen ohjeita turvalliseen toimimiseen hevosten kanssa ja etsin tietoa loma-anomuksen tekemisestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hevosopisto.inschool.fi",
+      "intent": "Selvittelen miten voin luoda käyttäjätunnuksen avainkoodin avulla ja etsin tietoa Wilman käytöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hevosopisto.inschool.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat tiedot ja asetukset Wilman käyttäjäprofiilissani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hevosopisto.inschool.fi",
+      "intent": "Luen ja vastaan viestintoihin Wilman viestitoiminnossa ja etsin tietoa opiskelijoideni edistymisestä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hevosopisto.inschool.fi",
+      "intent": "Tallennan muutokset ja kirjaudun ulos Wilman käyttäjäprofiilistani"
+    }
+  ]
+}

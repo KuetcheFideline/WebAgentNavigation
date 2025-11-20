@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://onlinekello.fi",
+      "intent": "Aseta herätyskello tiistai-iltana kello 17:00, jotta voin muistaa lähteä kalastamaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://onlinekello.fi",
+      "intent": "Tarkista sivuston hälytyskellojen eri ääni- ja ulkoasuvaihtoehdot, jotta voin valita sellaisen, joka ei häiritsesi perhettäni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://onlinekello.fi",
+      "intent": "Lue sivuston ohjeet ja tietosuojatiedot, jotta ymmärrän, miten sivusto käsittelee henkilötietojani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://onlinekello.fi",
+      "intent": "Tallenna hälytyskelloani oletusarvoiksi tiistai-aamuna kello 06:00, jotta voin herätä ajoissa töihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://onlinekello.fi",
+      "intent": "Muokkaa hälytyskelloani, jotta voin vaihtaa äänen ja ulkoasun sellaisiksi, jotka ovat mieleeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://onlinekello.fi",
+      "intent": "Lisää linkki hälytyskellooni selaimesi suosikkeihin, jotta voin nopeasti avata sen, kun tarvitsen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fisweb.gvb.at",
+      "intent": "Ich möchte den BIK-Webserver 4.0 starten, um Informationen über die Graz Linien zu erhalten."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fisweb.gvb.at",
+      "intent": "Ich will den Link 'BIK 54 STARTEN' anklicken, um zu sehen, was es damit auf sich hat."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fisweb.gvb.at",
+      "intent": "Ich möchte nach Informationen über die Fahrpläne und Tarife der Graz Linien suchen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fisweb.gvb.at",
+      "intent": "Ich will mein Email-Passwort ändern, um die Sicherheit meines Kontos zu erhöhen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fisweb.gvb.at",
+      "intent": "Ich möchte meine persönlichen Daten und Einstellungen im BIK-Webserver 4.0 überprüfen und ggf. anpassen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fisweb.gvb.at",
+      "intent": "Ich will meine Reisehistorie und -statistiken im BIK-Webserver 4.0 einsehen, um meine Reisegewohnheiten zu analysieren."
+    }
+  ]
+}

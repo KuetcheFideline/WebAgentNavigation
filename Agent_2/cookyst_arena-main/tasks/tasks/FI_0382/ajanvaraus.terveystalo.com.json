@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Varata aika lääkärille, koska minun on tutkittava terveyttäni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Etsiä tietoa eri sairauksien hoidosta, jotta voin paremmin ymmärtää oman terveydeni tilaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Vertailla eri lääkärien ja hoitohenkilöstön asiantuntemusta, jotta voin valita parhaimman hoitajan tarpeisiini"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tarkastella omaa potilastietojani ja hoitosuunnitelmaani, jotta voin seurata terveydeni kehittymistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Muuttaa jo varattua aikaa, koska minun on siirrettävä lääkärin vastaanotto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.terveystalo.com",
+      "intent": "Tallentaa lääkärin antamat ohjeet ja hoitosuunnitelman, jotta voin noudattaa niitä jatkossa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Hae reitti Espoon keskustasta Tampereen keskustaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Selaa Tampereen julkisen liikenteen aikatauluja ja reittejä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Etsi lähin bussipysäkki Espoon kodin läheltä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Tallenna suosikkireitit Tampereen ja Espoon välille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Luo ja tallenna omat reittisuunnitelmat golf-reissuihin Tampereella"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://reittiopas.tampere.fi",
+      "intent": "Anna palautetta ja arvostelua Tampereen julkisen liikenteen reiteistä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://avi.fi",
+      "intent": "Hae tietoa aluehallintovirastosta ja sen tehtävistä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://avi.fi",
+      "intent": "Selaa uutishuonetta ja etsi tietoa valtion aluehallinnon uudistuksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://avi.fi",
+      "intent": "Tutki asiakaspalvelun yhteystietoja ja ohjeita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://avi.fi",
+      "intent": "Täytä lupa- tai ilmoituslomake aluehallintovirastoon"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://avi.fi",
+      "intent": "Tee oikaisuvaatimus aluehallintovirastoon"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://avi.fi",
+      "intent": "Lähetä asiointipyyntö aluehallintovirastoon"
+    }
+  ]
+}

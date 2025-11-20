@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aalto.fi",
+      "intent": "Hae tietoa Aallon maisteriohjelmista, jotka alkavat pian"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aalto.fi",
+      "intent": "Lue uutisia ja tulevia tapahtumia Ajankohtaista-sivulta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aalto.fi",
+      "intent": "Tutustu koulutusohjelmiin ja valmistaudu hakuun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aalto.fi",
+      "intent": "Kirjaudu sisään ja selaa kursseja MyCourses-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aalto.fi",
+      "intent": "Tutki työkaluja ja palveluita, jotka vaativat kirjautumisen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aalto.fi",
+      "intent": "Käytä Sisu-palvelua opintojen seuraamiseen ja suunnitteluun"
+    }
+  ]
+}

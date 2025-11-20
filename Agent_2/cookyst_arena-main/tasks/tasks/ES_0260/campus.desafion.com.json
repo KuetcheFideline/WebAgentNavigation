@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campus.desafion.com",
+      "intent": "Explorar la sección de cursos para ver qué opciones de preparación para oposiciones están disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campus.desafion.com",
+      "intent": "Buscar información sobre el proceso de registro y los requisitos para crear una cuenta en el sitio"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campus.desafion.com",
+      "intent": "Leer las políticas de privacidad y cookies para entender cómo se manejan los datos personales en el sitio"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campus.desafion.com",
+      "intent": "Acceder a mis cursos inscritos y ver el progreso de mis estudios en la plataforma"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campus.desafion.com",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre nuevos cursos y recursos disponibles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campus.desafion.com",
+      "intent": "Descargar materiales de estudio y recursos adicionales para mis cursos actuales"
+    }
+  ]
+}

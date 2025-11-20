@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.servica.fi",
+      "intent": "Hae ruokalistat Servican sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.servica.fi",
+      "intent": "Selaa Servican tarjoamia palveluita, kuten ruoka- ja kuljetuspalveluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.servica.fi",
+      "intent": "Lue Servican uutisia ja ajankohtaisia aiheita, kuten Kuopio250-juhlalounas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.servica.fi",
+      "intent": "Täytä asiakastyytyväisyyskysely Servican sivuilla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.servica.fi",
+      "intent": "Tee palvelupyyntö Servican sivuilla, esimerkiksi ruokapalvelun tilaaminen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.servica.fi",
+      "intent": "Hae työpaikkaa Servicassa ja täytä työhakemus sivuilla"
+    }
+  ]
+}

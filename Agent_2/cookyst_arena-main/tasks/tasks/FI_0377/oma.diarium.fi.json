@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Hae fysioterapeutin palveluja Vantaan alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Vertaile eri terapeuttien hintoja ja palveluita Diariumin sivustolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Lue aiheesta mielenkiintoista blogikirjoitusta Diariumin verkkosivuilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Tee varaus fysioterapeutin vastaanotolle ja maksaa palvelu verkossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Kirjaudu sisään ja tee muutos aikatauluuni Diariumin asiakasprofiilissani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://oma.diarium.fi",
+      "intent": "Lähetä viesti Diariumin asiakastukeen kysymykseni liittyen palveluihin"
+    }
+  ]
+}

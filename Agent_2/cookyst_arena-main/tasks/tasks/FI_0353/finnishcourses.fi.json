@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://finnishcourses.fi",
+      "intent": "Hae suomen kielen kurssia Helsingin metropolialueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://finnishcourses.fi",
+      "intent": "Vertaile eri koulutusten tarjoajien suomen kielen kursseja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://finnishcourses.fi",
+      "intent": "Selvitä, mitkä suomen kielen kurssit ovat saatavilla verkossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://finnishcourses.fi",
+      "intent": "Ilmoittaudu suomen kielen kurssille, jonka olen aiemmin etsinyt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://finnishcourses.fi",
+      "intent": "Tallenna suomen kielen kurssin suoritusaineisto omaan opintorekisteriini"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://finnishcourses.fi",
+      "intent": "Anna palautetta suomen kielen kurssista, jonka olen suorittanut"
+    }
+  ]
+}

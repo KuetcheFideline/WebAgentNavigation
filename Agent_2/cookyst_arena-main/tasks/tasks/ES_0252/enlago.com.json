@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://enlago.com",
+      "intent": "Buscar productos para la limpieza de mi hogar en la sección de Hogar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://enlago.com",
+      "intent": "Explorar las opciones de alimentación para mascotas en la sección de Mascotas y Granja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://enlago.com",
+      "intent": "Comparar precios de diferentes marcas de pienso para perros en la sección de Perros"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://enlago.com",
+      "intent": "Agregar un producto de limpieza a mi lista de favoritos después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://enlago.com",
+      "intent": "Realizar un pedido de un conjunto de herramientas de jardinería después de verificar mi carrito de compras"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://enlago.com",
+      "intent": "Consultar el estado de un pedido anterior en la sección de mi cuenta"
+    }
+  ]
+}

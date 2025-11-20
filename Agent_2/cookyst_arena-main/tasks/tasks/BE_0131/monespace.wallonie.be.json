@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://monespace.wallonie.be",
+      "intent": "Rechercher les démarches administratives nécessaires pour un stagiaire étranger en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://monespace.wallonie.be",
+      "intent": "Explorer les services proposés par la Région wallonne pour les jeunes stagiaires"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://monespace.wallonie.be",
+      "intent": "Consulter les informations sur les aides et les subventions disponibles pour les stagiaires en Wallonie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://monespace.wallonie.be",
+      "intent": "Gérer mon dossier de stagiaire et suivre l'état de mes démarches administratives"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://monespace.wallonie.be",
+      "intent": "Déposer une demande de carte de séjour pour mon stage en Belgique"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://monespace.wallonie.be",
+      "intent": "Modifier mes coordonnées personnelles et professionnelles dans mon espace stagiaire"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uutisvuoksi.fi",
+      "intent": "Luen uusimmat uutiset Etusivulta, koska haluan pysyä ajan tasalla Imatran tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uutisvuoksi.fi",
+      "intent": "Etsin sivustolta tietoa paikallisten urheilutapahtumien aikatauluista, jotta voisin osallistua niihin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uutisvuoksi.fi",
+      "intent": "Selailen sivuston Luetuimmat-osioon, jotta näen mitkä aiheet ovat kiinnostaneet eniten muita lukijoita."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uutisvuoksi.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpaan uutiseen, jotta voisin osallistua keskusteluun ja jakaa omia ajatuksiani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uutisvuoksi.fi",
+      "intent": "Tilaa uutisvuoksi.fi:n uutiskirje, jotta saan sähköpostiini uusimmat uutiset ja päivitykset."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uutisvuoksi.fi",
+      "intent": "Muokkaan profiiliini, jotta voisin päivittää tietoni ja varmistaa, että olen saamassa relevantteja uutisia ja tarjouksia."
+    }
+  ]
+}

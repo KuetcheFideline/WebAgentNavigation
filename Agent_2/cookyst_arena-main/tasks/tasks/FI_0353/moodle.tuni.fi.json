@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Tutkin TUNI Moodlen etusivun uusimmat uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Selailen TUNI Moodlen käyttöehdot ja tietosuojaselosteen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Etsin tietoa TUNI Moodlen huoltokatkoista ja päivityksistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Kirjaudun sisään TUNI-tunnuksellani ja tarkastan kurssialueeni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Lisään uuden kurssin omalle työpöydalleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.tuni.fi",
+      "intent": "Vaihdan kieltä suomeksi ja tarkastan omat kurssini"
+    }
+  ]
+}

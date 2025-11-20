@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vikingline.fi",
+      "intent": "Selvitän, miten voin varata matkan Turusta Tukholmaan Viking Linen sivuilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vikingline.fi",
+      "intent": "Tutkin eri laivareittien hintoja ja etsin edullisimman vaihtoehdon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vikingline.fi",
+      "intent": "Luen arvosteluita eri laivoista ja niiden palveluista, jotta voin tehdä informoidun päätöksen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vikingline.fi",
+      "intent": "Tarkastan oman tilini tiedot ja varaus historian, jotta voin seurata matkani etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vikingline.fi",
+      "intent": "Muutan varaukseni lähtöpäivää, koska tarvitsen muuttaa matkani aikataulua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vikingline.fi",
+      "intent": "Tilaan hyttiliikennettä varten erityisruokavalion, koska minulla on erityinen dieetti"
+    }
+  ]
+}

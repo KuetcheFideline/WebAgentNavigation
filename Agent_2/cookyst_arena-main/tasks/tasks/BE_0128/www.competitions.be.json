@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.competitions.be",
+      "intent": "Rechercher des concours pour gagner des prix pour ma future maison"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.competitions.be",
+      "intent": "Lire les conditions générales de participation aux concours"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.competitions.be",
+      "intent": "Consulter les règles de confidentialité pour comprendre comment mes données sont utilisées"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.competitions.be",
+      "intent": "Participer à un concours pour gagner un prix en créant un compte et en me connectant"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.competitions.be",
+      "intent": "Gérer mes préférences de notification pour les résultats des concours auxquels je participe"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.competitions.be",
+      "intent": "Voir l'historique de mes participations aux concours pour suivre mes progrès"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://iportal.auchan.com",
+      "intent": "Explorar la sección de inicio para entender las funcionalidades básicas del portal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://iportal.auchan.com",
+      "intent": "Buscar información sobre cómo crear una cuenta en el portal para futuras consultas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://iportal.auchan.com",
+      "intent": "Investigar las opciones de idioma disponibles para asegurarme de que puedo navegar en español"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://iportal.auchan.com",
+      "intent": "Iniciar sesión para acceder a las herramientas de administración de proveedores y revisar mis cuentas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://iportal.auchan.com",
+      "intent": "Cambiar mi contraseña actual para mejorar la seguridad de mi cuenta según las políticas del portal"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://iportal.auchan.com",
+      "intent": "Configurar mis preferencias de cuenta para recibir notificaciones importantes sobre actualizaciones del portal"
+    }
+  ]
+}

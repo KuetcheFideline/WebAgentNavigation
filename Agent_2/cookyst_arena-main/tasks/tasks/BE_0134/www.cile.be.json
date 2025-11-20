@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cile.be",
+      "intent": "Rechercher les informations sur la qualité de l'eau à Wavre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cile.be",
+      "intent": "Consulter les tarifs de l'eau pour mon domicile"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cile.be",
+      "intent": "Lire les actualités sur la gestion de l'eau en Wallonie"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cile.be",
+      "intent": "Consulter mes factures d'eau en ligne via mon espace client"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cile.be",
+      "intent": "Demander un relevé de consommation d'eau pour mon domicile"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cile.be",
+      "intent": "Modifier mes coordonnées bancaires pour le paiement des factures d'eau"
+    }
+  ]
+}

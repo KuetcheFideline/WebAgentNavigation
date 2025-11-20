@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://footballtravel.dk",
+      "intent": "Jeg søger efter fodboldrejser til Premier League med kampgaranti"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://footballtravel.dk",
+      "intent": "Jeg vil sammenligne priser på fodboldrejser til La Liga og Serie A"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://footballtravel.dk",
+      "intent": "Jeg søger efter information om billet- og kampgaranti på footballtravel.dk"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://footballtravel.dk",
+      "intent": "Jeg vil bestille en fodboldrejse til Champions League med mit eksisterende konto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://footballtravel.dk",
+      "intent": "Jeg ønsker at ændre mine kontoinformationer og tilføje en ny betalingsmetode"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://footballtravel.dk",
+      "intent": "Jeg vil anmode om et gavekort til min bedste ven, som også er en stor fodboldfan"
+    }
+  ]
+}

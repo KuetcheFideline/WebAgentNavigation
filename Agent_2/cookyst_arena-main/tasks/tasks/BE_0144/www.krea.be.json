@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.krea.be",
+      "intent": "Rechercher des meubles pour la chambre à coucher en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.krea.be",
+      "intent": "Comparer les prix et les caractéristiques de différents canapés pour le salon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.krea.be",
+      "intent": "Explorer la section 'Promotions' pour trouver des offres spéciales sur les meubles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.krea.be",
+      "intent": "Ajouter un produit à la liste de souhaits pour plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.krea.be",
+      "intent": "Consulter les commandes passées pour suivre l'état de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.krea.be",
+      "intent": "Modifier les informations de compte, notamment l'adresse de livraison"
+    }
+  ]
+}

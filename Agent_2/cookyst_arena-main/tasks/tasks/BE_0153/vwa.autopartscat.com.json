@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vwa.autopartscat.com",
+      "intent": "Rechercher des pièces automobiles pour ma voiture personnelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vwa.autopartscat.com",
+      "intent": "Comparer les prix de différents fournisseurs de pièces automobiles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vwa.autopartscat.com",
+      "intent": "Lire les avis et les commentaires des clients sur les produits et les services proposés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vwa.autopartscat.com",
+      "intent": "Consulter mes commandes passées et mes factures pour gérer mes dépenses"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vwa.autopartscat.com",
+      "intent": "Modifier mes informations personnelles et mes coordonnées pour rester à jour"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vwa.autopartscat.com",
+      "intent": "Utiliser le système de suivi de commande pour suivre l'état de mes livraisons"
+    }
+  ]
+}

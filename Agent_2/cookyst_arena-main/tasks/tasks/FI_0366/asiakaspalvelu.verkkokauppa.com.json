@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://asiakaspalvelu.verkkokauppa.com",
+      "intent": "Hae tietoa tuotteiden saatavuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://asiakaspalvelu.verkkokauppa.com",
+      "intent": "Selvitä miten toimitus ja palautus toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://asiakaspalvelu.verkkokauppa.com",
+      "intent": "Etsi ohjeita tuotteiden huoltoon ja takuuhenkilöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://asiakaspalvelu.verkkokauppa.com",
+      "intent": "Tarkista tilaamani tuotteiden tila ja seuranta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://asiakaspalvelu.verkkokauppa.com",
+      "intent": "Muokkaa olemassa olevaa tilausta tai peru tilaus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://asiakaspalvelu.verkkokauppa.com",
+      "intent": "Tee uusi tilaus ja valitse toimitustapa"
+    }
+  ]
+}

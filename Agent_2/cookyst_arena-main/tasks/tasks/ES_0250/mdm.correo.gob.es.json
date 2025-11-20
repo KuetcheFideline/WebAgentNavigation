@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mdm.correo.gob.es",
+      "intent": "Explorar la página de inicio para entender las funcionalidades del sitio web de Correos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mdm.correo.gob.es",
+      "intent": "Buscar información sobre cómo enviar un paquete a un amigo que vive en otra ciudad de España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mdm.correo.gob.es",
+      "intent": "Leer las preguntas frecuentes para resolver dudas sobre el seguimiento de paquetes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mdm.correo.gob.es",
+      "intent": "Iniciar sesión para acceder a mi cuenta y ver el historial de envíos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mdm.correo.gob.es",
+      "intent": "Configurar mis preferencias de notificación para recibir actualizaciones sobre el estado de mis paquetes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mdm.correo.gob.es",
+      "intent": "Imprimir una etiqueta de envío para un paquete que debo enviar a mi familia en otra región de España"
+    }
+  ]
+}

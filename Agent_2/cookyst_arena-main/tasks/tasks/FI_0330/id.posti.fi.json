@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://id.posti.fi",
+      "intent": "Tarkistaa, miksi sivu ei löydy"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://id.posti.fi",
+      "intent": "Etsiä Postin asiakaspalvelun yhteystietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://id.posti.fi",
+      "intent": "Selvitä, miten Postin palvelut toimivat Vaasassa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://id.posti.fi",
+      "intent": "Tarkistaa oman Posti-tilin tilan ja laskut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://id.posti.fi",
+      "intent": "Muuttaa osoitetta Postin asiakastietojärjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://id.posti.fi",
+      "intent": "Tilata uusi Postin paketti ja seurata sen tilaa"
+    }
+  ]
+}

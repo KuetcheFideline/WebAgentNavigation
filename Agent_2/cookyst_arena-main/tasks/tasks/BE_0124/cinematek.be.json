@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cinematek.be",
+      "intent": "Je veux consulter le programme des films pour la semaine en cours afin de planifier ma sortie cinéma avec mes amis."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cinematek.be",
+      "intent": "Je souhaite explorer les collections de films belges pour en apprendre davantage sur l'histoire du cinéma dans mon pays."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cinematek.be",
+      "intent": "Je veux rechercher des informations sur les expositions actuelles et futures pour décider si je veux les visiter pendant mon prochain jour de congé."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cinematek.be",
+      "intent": "Je veux réserver des billets pour le film 'Rage in Harlem' qui passe demain soir, car j'ai entendu des bonnes critiques à son sujet."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cinematek.be",
+      "intent": "Je souhaite accéder à mon compte pour consulter l'historique de mes réservations de billets et planifier mes prochaines sorties cinéma en fonction de mes goûts."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cinematek.be",
+      "intent": "Je veux laisser un commentaire sur le film 'In Order not to Be Here' que j'ai vu la semaine dernière, car j'ai trouvé l'expérience très immersive et je veux partager mon avis avec la communauté."
+    }
+  ]
+}

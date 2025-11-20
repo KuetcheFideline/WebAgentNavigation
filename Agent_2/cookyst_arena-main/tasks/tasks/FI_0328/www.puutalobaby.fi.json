@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.puutalobaby.fi",
+      "intent": "Haluaisin lukea lisää lasten kanssa reilaamisesta, joten etsin aiheeseen liittyviä artikkeleita sivustolta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.puutalobaby.fi",
+      "intent": "Olen kiinnostunut näkemään, mitä kirjoja krista on lukenut, joten siirryn sivulle, jossa on lista luettujen kirjojen arvosteluita."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.puutalobaby.fi",
+      "intent": "Haluaisin tietää, mitä mieltä krista on eri tuotteista, joten etsin sivustolta tuotearvosteluita."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.puutalobaby.fi",
+      "intent": "Haluaisin kommentoida yhtä kristan artikkeleita, joten kirjaudun sisään ja etsin artikkelin, johon voisin kommentoida."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.puutalobaby.fi",
+      "intent": "Olen kiinnostunut näkemään, mitä muut lukijat ovat kommentoineet, joten siirryn sivulle, jossa on lista kommentteja ja vastaan kristan viesteihin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.puutalobaby.fi",
+      "intent": "Haluaisin tilata uutiskirjeen, jotta saan tietää kristan uusimmista artikkeleista, joten etsin sivustolta uutiskirjeen tilauslomakkeen ja täytän sen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ideal.es",
+      "intent": "Buscar noticias sobre la Capitalidad Cultural 2031 en la página de inicio de Ideal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ideal.es",
+      "intent": "Explorar la sección de Salud para encontrar artículos sobre el cáncer y su tratamiento"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ideal.es",
+      "intent": "Leer las noticias de la sección de Granada para mantenerme informada sobre lo que sucede en mi ciudad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ideal.es",
+      "intent": "Configurar mis preferencias de noticias para recibir actualizaciones sobre los temas que me interesan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ideal.es",
+      "intent": "Guardar artículos para leer más tarde en mi sección de MiIDEAL"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ideal.es",
+      "intent": "Compartir una noticia interesante con mi familia a través de la función de compartir en MiIDEAL"
+    }
+  ]
+}

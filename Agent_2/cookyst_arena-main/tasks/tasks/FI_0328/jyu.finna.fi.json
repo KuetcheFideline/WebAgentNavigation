@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jyu.finna.fi",
+      "intent": "Hae Liiketalous aiheisia kirjoja ja artikkeleita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jyu.finna.fi",
+      "intent": "Selaa e-lehtiä ja etsi uusimmat Liiketalous aiheiset julkaisut"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jyu.finna.fi",
+      "intent": "Käy läpi JYKDOK-ohjeita ja -videoita, jotta voin hyödyntää kirjaston resursseja paremmin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jyu.finna.fi",
+      "intent": "Tallenna hakuhistoria, jotta voin jatkaa hakuja myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jyu.finna.fi",
+      "intent": "Tee hankintaehdotus uudesta Liiketalous aiheisesta kirjasta, joka ei ole kirjaston kokoelmissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jyu.finna.fi",
+      "intent": "Tilaa kaukolaina kirja, joka on saatavilla toisessa kirjastossa, mutta ei Jyväskylän yliopiston kirjastossa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.wiktionary.org",
+      "intent": "Hae sanan merkitystä Wikisanakirjasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.wiktionary.org",
+      "intent": "Selaa etusivun linkkejä ja etsi mielenkiintoista sanaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.wiktionary.org",
+      "intent": "Lue Wikisanakirjan ohjeita ja sääntöjä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.wiktionary.org",
+      "intent": "Luo uusi sana-artikkeli Wikisanakirjaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.wiktionary.org",
+      "intent": "Muokkaa olemassa olevaa sana-artikkelia Wikisanakirjassa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.wiktionary.org",
+      "intent": "Osallistu keskusteluun Wikisanakirjan kahvihuoneessa"
+    }
+  ]
+}

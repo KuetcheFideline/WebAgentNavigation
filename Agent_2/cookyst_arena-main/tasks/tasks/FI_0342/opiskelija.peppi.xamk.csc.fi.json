@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://opiskelija.peppi.xamk.csc.fi",
+      "intent": "Tutustun sivuston etusivuun ja etsin tietoa opiskelijoiden palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://opiskelija.peppi.xamk.csc.fi",
+      "intent": "Selvittelen, miten voinkirjautua sisään palveluun ja mitä edellytyksiä siihen on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://opiskelija.peppi.xamk.csc.fi",
+      "intent": "Etsin tietoa opintojen suunnittelusta ja aikataulusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://opiskelija.peppi.xamk.csc.fi",
+      "intent": "Tarkastan opintotilani ja kurssien tilaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://opiskelija.peppi.xamk.csc.fi",
+      "intent": "Ilmoittaudun kurssille ja tarkastan ilmoittautumisen tilan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://opiskelija.peppi.xamk.csc.fi",
+      "intent": "Tutustun opiskelijan henkilökohtaiseen tiedostoon ja päivitän tarvittaessa tietoja"
+    }
+  ]
+}

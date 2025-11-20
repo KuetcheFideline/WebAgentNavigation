@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vihdinuutiset.fi",
+      "intent": "Luen uusimmat uutiset Vihdin Uutisten etusivulta, jotta pysyn perillä paikallisten tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vihdinuutiset.fi",
+      "intent": "Etsin Vihdin Uutisten sivuilta tietoa lähialueen ravintoloista ja ravintola-arvosteluita, jotta löytäisin hyvän paikan illalliselle."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vihdinuutiset.fi",
+      "intent": "Selailen Vihdin Uutisten verkkosivuja, etsimässä tietoa paikallisista tapahtumista ja menovinkkejä, joissa voisin osallistua."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vihdinuutiset.fi",
+      "intent": "Kirjaudun sisään Mediatunnuksellani, jotta voin kommentoida uutisaiheita ja osallistua keskusteluihin Vihdin Uutisten sivuilla."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vihdinuutiset.fi",
+      "intent": "Lähetän juttuvinkin Vihdin Uutisille, koska olen kuullut mielenkiintoisen paikallisen tarinan, jonka haluan jakaa muille."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vihdinuutiset.fi",
+      "intent": "Muokkaan profiiliani Vihdin Uutisten sivuilla, jotta voin hallita miten ja milloin saan uutisia ja päivityksiä."
+    }
+  ]
+}

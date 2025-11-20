@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Læs mere om køreprøvebooking og hvordan jeg kan book en køreprøve"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Find information omkring køreprøver og hvordan jeg kan forberede mig bedst muligt"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Se om der er nogen nyheder eller opdateringer om køreprøvebooking"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Log på med MitID for at se mine bookede køreprøver og ændre eller afbestille dem hvis nødvendigt"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Tjek mine køreprøveres status og se om der er nogen ændringer eller opdateringer"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://koreprovebooking.dk",
+      "intent": "Book en ny køreprøve og vælge en tid og dato der passer mig bedst"
+    }
+  ]
+}

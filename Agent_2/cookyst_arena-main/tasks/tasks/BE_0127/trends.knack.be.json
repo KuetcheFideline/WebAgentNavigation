@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://trends.knack.be",
+      "intent": "Rechercher des conseils pour investir dans les actions belges"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://trends.knack.be",
+      "intent": "Lire les dernières actualités sur l'économie belge et européenne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://trends.knack.be",
+      "intent": "Consulter les prix des actions et des obligations sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://trends.knack.be",
+      "intent": "Gérer mon portefeuille d'actions et de placements en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://trends.knack.be",
+      "intent": "Configurer mes alertes pour les mouvements de prix des actions que je suis"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://trends.knack.be",
+      "intent": "Participer à la discussion en ligne avec d'autres investisseurs sur les tendances du marché"
+    }
+  ]
+}

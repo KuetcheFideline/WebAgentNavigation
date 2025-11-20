@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flightradar24.com",
+      "intent": "Jeg søger efter flyafgangstider fra København til London"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flightradar24.com",
+      "intent": "Jeg vil se live-flytrafikken over Danmark"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flightradar24.com",
+      "intent": "Jeg ønsker at sammenligne flypriser på forskellige ruter"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flightradar24.com",
+      "intent": "Jeg vil gemme mine foretrukne flyruter for senere brug"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flightradar24.com",
+      "intent": "Jeg ønsker at modtage push-besked om flyforsinkelser på mine foretrukne ruter"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flightradar24.com",
+      "intent": "Jeg vil se mine tidligere flysøgninger og -bookinger"
+    }
+  ]
+}

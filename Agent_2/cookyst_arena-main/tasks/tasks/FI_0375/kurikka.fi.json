@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kurikka.fi",
+      "intent": "Hae tietoa Kurikan kaupungin jätteiden keräyksestä ja kierrätyksestä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kurikka.fi",
+      "intent": "Etsi tietoa Kurikan kaupungin urheilumahdollisuuksista ja liikuntatiloista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kurikka.fi",
+      "intent": "Selvitä miten haen avustusta Kurikan kaupungilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kurikka.fi",
+      "intent": "Täytä sähköinen asiointilomake Kurikan kaupungin palveluista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kurikka.fi",
+      "intent": "Kirjaudu Wilma-järjestelmään ja tarkastele lasteni koulutietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kurikka.fi",
+      "intent": "Lähetä asiointiviesti Kurikan kaupungin asiakaspalveluun"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kotielaintarvike.fi",
+      "intent": "Olen etsimässä kotieläinten ruokaa ja tarvikkeita, haluan tarkastella sivuston tuotevalikoimaa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kotielaintarvike.fi",
+      "intent": "Haluan lukea arvosteluita ja kokemuksia eri tuotteista, jotta voin tehdä informoidun päätöksen ostoksillani."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kotielaintarvike.fi",
+      "intent": "Olen kiinnostunut sivuston tarjoamista alennuksista ja kampanjoista, haluan tarkastella etusivun tarjouksia."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kotielaintarvike.fi",
+      "intent": "Haluan tilata tuotteita verkkokaupasta, ja voin käyttää olemassa olevaa tiliäni nopeuttaakseni tilaamisprosessia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kotielaintarvike.fi",
+      "intent": "Olen kiinnostunut seuraamaan tilaustani tilannetta ja haluan tarkastella tilaushistoriaani kirjautuneena käyttäjänä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kotielaintarvike.fi",
+      "intent": "Haluan muuttaa osoitettani ja muita tietojani profiilissani, jotta voin varmistaa, että saan tilaamani tuotteet oikeaan osoitteeseen."
+    }
+  ]
+}

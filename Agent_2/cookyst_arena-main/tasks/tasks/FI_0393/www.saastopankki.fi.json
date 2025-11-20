@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Hae asuntolainaa Säästöpankista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Selvitä miten voin aloittaa säästämisen Säästöpankissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Lue lisää Säästöpankin asiakaspalvelusta ja miten he voivat auttaa minua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Tarkista tilini saldot ja viimeisimmät tapahtumat Säästöpankin verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Muuta tilini turvarajoja Säästöpankin itsepalvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.saastopankki.fi",
+      "intent": "Tee verkkopankkiin maksu toiselle tilille Säästöpankin verkkopalvelussa"
+    }
+  ]
+}

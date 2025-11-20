@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gls-pakete.de",
+      "intent": "Ich möchte ein Paket versenden und benötige Informationen über die Preise und die verschiedenen Paketgrößen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gls-pakete.de",
+      "intent": "Ich möchte meine Sendung verfolgen und benötige die Paketnummer oder Track-ID, um den Status meiner Sendung zu überprüfen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gls-pakete.de",
+      "intent": "Ich möchte einen GLS Point in meiner Nähe finden, um mein Paket abzugeben oder abzuholen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gls-pakete.de",
+      "intent": "Ich möchte meine Abstellerlaubnis ändern und benötige Zugang zu meinem Konto, um die Änderungen vorzunehmen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gls-pakete.de",
+      "intent": "Ich möchte meine Paketversand-Historie einsehen und benötige Zugang zu meinem Konto, um die Informationen abzurufen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gls-pakete.de",
+      "intent": "Ich möchte meine Kontoinformationen aktualisieren und benötige Zugang zu meinem Konto, um die Änderungen vorzunehmen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg søger information omkring SU og de nye regler, der er trådt i kraft"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg vil læse mere om, hvordan jeg kan søge SU og hvilke betingelser der skal opfyldes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg søger efter information omkring SU-lån og hvordan jeg kan optage et lån"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg vil logge ind i minSU for at se min SU-status og eventuelt rette mine oplysninger"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg søger at ansøge om et handicaptillæg, da jeg har en varig funktionsnedsættelse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg vil se mine satser for SU og lån, samt mine muligheder for at optage et slutlån"
+    }
+  ]
+}

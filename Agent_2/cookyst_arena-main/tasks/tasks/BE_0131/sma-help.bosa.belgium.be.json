@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sma-help.bosa.belgium.be",
+      "intent": "Sélectionner la langue française pour faciliter la navigation sur le site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sma-help.bosa.belgium.be",
+      "intent": "Lire les informations sur les cookies et les politiques de confidentialité pour comprendre comment les données personnelles sont utilisées"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sma-help.bosa.belgium.be",
+      "intent": "Rechercher les services eGov de l'Administration fédérale pour trouver des informations sur les démarches administratives"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sma-help.bosa.belgium.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes démarches administratives en cours et suivre leur état d'avancement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sma-help.bosa.belgium.be",
+      "intent": "Modifier mes informations personnelles pour garantir que mes coordonnées sont à jour et exactes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sma-help.bosa.belgium.be",
+      "intent": "Consulter les notifications et les messages importants liés à mes démarches administratives pour rester informé"
+    }
+  ]
+}

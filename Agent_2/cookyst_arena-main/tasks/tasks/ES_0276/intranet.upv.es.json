@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://intranet.upv.es",
+      "intent": "Explorar la página principal de la intranet para conocer las últimas noticias y actualizaciones de la universidad"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://intranet.upv.es",
+      "intent": "Buscar información sobre los cursos y programas académicos ofrecidos por la universidad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://intranet.upv.es",
+      "intent": "Consultar el calendario de eventos y fechas importantes de la universidad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://intranet.upv.es",
+      "intent": "Acceder a mi perfil de usuario para actualizar mis datos personales y de contacto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://intranet.upv.es",
+      "intent": "Consultar y descargar mis documentos personales y académicos, como mi certificado de estudios"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://intranet.upv.es",
+      "intent": "Participar en foros y discusiones en línea con otros estudiantes y profesores sobre temas de interés académico"
+    }
+  ]
+}

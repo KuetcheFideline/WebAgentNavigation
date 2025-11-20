@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Selvitän, miten pääsen käyttämään JYU:n verkkopalveluja vierailevana opiskelijana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Etsin tietoa JYU:n avoimista kursseista, joissa voisin osallistua ilman kirjautumista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Luen JYU:n opiskelijoiden kokemuksia ja arvosteluita eri kursseista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Kirjaudun sisään ja tarkastan omat opintotiedot ja suoritetut kurssit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Osallistun keskustelufoorumeille ja vastaan opiskelijoiden kysymyksiin aiheesta, josta olen kiinnostunut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Lataan kurssimateriaaleja ja tehtäviä, joita voin tehdä kotona"
+    }
+  ]
+}

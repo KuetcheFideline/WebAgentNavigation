@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.samsonite.fi",
+      "intent": "Hae matkalaukkuja, joissa on ilmainen personointi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.samsonite.fi",
+      "intent": "Vertaile eri matkalaukkumalleja ja niiden ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.samsonite.fi",
+      "intent": "Selaa lasten matkalaukkujen valikoimaa lahjaksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.samsonite.fi",
+      "intent": "Tilaa personoitu matkalaukku ja seuraa tilaustasi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.samsonite.fi",
+      "intent": "Arvostele ja kirjoita kommentti aiemmin ostetusta matkalaukkumallista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.samsonite.fi",
+      "intent": "Muokkaa olemassa olevaa tilaustasi, esimerkiksi vaihda toimitusosoite"
+    }
+  ]
+}

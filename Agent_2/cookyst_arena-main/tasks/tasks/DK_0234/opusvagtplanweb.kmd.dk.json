@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://opusvagtplanweb.kmd.dk",
+      "intent": "Jeg skal finde information om, hvordan jeg kan logge ind med mit CPR-nummer, hvis dette er mit første login."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://opusvagtplanweb.kmd.dk",
+      "intent": "Jeg vil læse om, hvad jeg skal gøre, hvis jeg har glemt min adgangskode eller brugernavn."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://opusvagtplanweb.kmd.dk",
+      "intent": "Jeg søger efter en vejledning om, hvordan jeg kan oprette en bruger på siden, hvis jeg ikke allerede har en."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://opusvagtplanweb.kmd.dk",
+      "intent": "Jeg vil se mine personlige oplysninger og sikre, at de er opdaterede efter login."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://opusvagtplanweb.kmd.dk",
+      "intent": "Jeg skal ændre min adgangskode for at sikre en højere sikkerhed på min konto efter login."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://opusvagtplanweb.kmd.dk",
+      "intent": "Jeg vil se mine tidligere aktiviteter og transaktioner på siden efter login for at holde styr på min historik."
+    }
+  ]
+}

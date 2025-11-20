@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://iz.ru",
+      "intent": "Luen uutisia Venäjän ja Ukrainan tilanteesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://iz.ru",
+      "intent": "Etsi tietoa talousuutisista ja analyysistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://iz.ru",
+      "intent": "Selaa urheilu-uutisia ja tuloksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://iz.ru",
+      "intent": "Kommentoi uutisartikkelia Venäjän ja Ukrainan tilanteesta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://iz.ru",
+      "intent": "Luo oma profiili ja tallenna suosikkiaiheet"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://iz.ru",
+      "intent": "Osallistu keskusteluun talousaiheista"
+    }
+  ]
+}

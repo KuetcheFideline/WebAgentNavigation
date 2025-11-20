@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nysse.fi",
+      "intent": "Hae reitti Vaasasta Tampereelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nysse.fi",
+      "intent": "Tutki Tampereen seudun joukkoliikenteen aikatauluja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nysse.fi",
+      "intent": "Selvitä miten ostaa matkakortti verkosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nysse.fi",
+      "intent": "Tarkista matkakorttini saldo ja lataa uusi matka"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nysse.fi",
+      "intent": "Osta uusi matkakortti ja määritä sen asetukset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nysse.fi",
+      "intent": "Tee valitus tai palautetta joukkoliikenteen palveluun"
+    }
+  ]
+}

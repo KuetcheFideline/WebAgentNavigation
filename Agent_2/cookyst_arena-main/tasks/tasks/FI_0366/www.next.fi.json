@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.next.fi",
+      "intent": "Yritän etsiä uusia tuotteita sivustolta, vaikka sivu näyttää olevan teknisissä vaikeuksissa."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.next.fi",
+      "intent": "Selvittelen, onko sivustolla mahdollista tehdä ostoksia, vaikka etusivu ei näytä toimivan normaalisti."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.next.fi",
+      "intent": "Kokeilen siirtymistä toiselle sivulle, jotta näen, toimivatko sivuston muut osat."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.next.fi",
+      "intent": "Tarkastan tilaustani ja yritän seurata tilausten etenemistä, kun olen kirjautunut sisään."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.next.fi",
+      "intent": "Yritän muuttaa osoitettani ja tarkastaa, että kaikki tietoni ovat ajan tasalla kirjautumisen jälkeen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.next.fi",
+      "intent": "Kokeilen tilaamaan uuden tuotteen, jotta näen, toimivatko maksuliikenteen ja tilausprosessin osat sivustolla."
+    }
+  ]
+}

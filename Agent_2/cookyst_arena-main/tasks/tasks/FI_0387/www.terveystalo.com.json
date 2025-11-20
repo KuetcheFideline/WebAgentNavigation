@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Hae laboratoriopaketit ja vertaile niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Selvitä miten voit varata ajan lastenlääkäriin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Lue lisää influenssarokotteen saatavuudesta ja varaa aika rokotukseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Tarkastele omaa etävastaanottoa ja lääkäri-chatia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Näe tulevat varaukseni ja käyntikirjaukseni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveystalo.com",
+      "intent": "Tutki tutkimustuloksiani ja maksuja"
+    }
+  ]
+}

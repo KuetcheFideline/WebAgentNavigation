@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.marktplaats.nl",
+      "intent": "Rechercher des équipements de pêche pour mon prochain voyage de pêche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.marktplaats.nl",
+      "intent": "Comparer les prix de différents types de farine pour ma boulangerie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.marktplaats.nl",
+      "intent": "Explorer les annonces de vente de matériel de boulangerie pour trouver des occasions"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.marktplaats.nl",
+      "intent": "Publier une annonce pour vendre des produits de boulangerie faits maison"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.marktplaats.nl",
+      "intent": "Gérer mes annonces en cours et répondre aux messages des acheteurs potentiels"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.marktplaats.nl",
+      "intent": "Suivre mes achats et mes ventes pour mieux comprendre mon historique de transactions"
+    }
+  ]
+}

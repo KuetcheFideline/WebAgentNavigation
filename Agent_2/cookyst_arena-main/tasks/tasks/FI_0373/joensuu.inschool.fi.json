@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Luen Wilman etusivun uutisia ja tiedotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Selvittelen miten Wilma toimii ja mitä ominaisuuksia siinä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Etsin tietoa siitä, miten voin muuttaa kieltä suomeksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Kirjaudun sisään ja tarkistan poissaolot ja arviot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Viestin opettajalle kysymällä lisätietoa kurssista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Tarkistan henkilötietoni ja päivitän ne tarvittaessa"
+    }
+  ]
+}

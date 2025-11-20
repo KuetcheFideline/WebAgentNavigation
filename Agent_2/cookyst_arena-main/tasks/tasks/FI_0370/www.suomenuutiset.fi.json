@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.suomenuutiset.fi",
+      "intent": "Luen uusimmat uutiset Suomesta ja maailmalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.suomenuutiset.fi",
+      "intent": "Etsin tietoa maahanmuuttopolitiikasta ja sen vaikutuksista Suomeen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.suomenuutiset.fi",
+      "intent": "Selailen sivuston eri kategorioita, kuten politiikkaa ja taloutta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.suomenuutiset.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uutisartikkeleita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.suomenuutiset.fi",
+      "intent": "Luen ja vastaan uutisten kommentteihin, jotta voin osallistua keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.suomenuutiset.fi",
+      "intent": "Tallennan uutisartikkeleita suosikkeihini, jotta voin lukea niitä myöhemmin"
+    }
+  ]
+}

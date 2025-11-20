@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.shopping4net.fi",
+      "intent": "Selvitän, mitkä tuotteet ovat saatavilla ja mitkä ovat edullisimmat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.shopping4net.fi",
+      "intent": "Etsin tietoa piilolinssien hinnasta ja laadusta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.shopping4net.fi",
+      "intent": "Luen arvosteluita eri tuotteista ja vertailen niiden ominaisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.shopping4net.fi",
+      "intent": "Tilasin juuri ostoskorissa olevat tuotteet ja haluan maksaa ne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.shopping4net.fi",
+      "intent": "Muutan tilaustani ja haluan tarkistaa, mitkä tuotteet ovat jo lähetetty"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.shopping4net.fi",
+      "intent": "Tarkistan tilaushistoriani ja etsin tietoa aiemmista tilauksistani"
+    }
+  ]
+}

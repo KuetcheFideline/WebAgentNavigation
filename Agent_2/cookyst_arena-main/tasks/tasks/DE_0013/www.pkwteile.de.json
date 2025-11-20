@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pkwteile.de",
+      "intent": "Ich möchte ein passendes Ersatzteil für mein Auto finden, also werde ich die Suche nach Autoteilen nutzen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pkwteile.de",
+      "intent": "Ich bin auf der Suche nach günstigen Angeboten für Autoteile, also werde ich die Rubrik 'Angebote' besuchen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pkwteile.de",
+      "intent": "Ich möchte wissen, welche Autoteile für mein Fahrzeug verfügbar sind, also werde ich den Teilekatalog durchsuchen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pkwteile.de",
+      "intent": "Ich möchte meine Bestellungen und den Status meiner Lieferungen überprüfen, also werde ich mein Konto aufrufen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pkwteile.de",
+      "intent": "Ich möchte meine persönlichen Daten und Einstellungen in meinem Konto überprüfen und ggf. aktualisieren."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pkwteile.de",
+      "intent": "Ich möchte eine Liste meiner bisherigen Käufe einsehen, um zu sehen, welche Teile ich bereits gekauft habe und ob ich eventuell Nachbestellungen vornehmen muss."
+    }
+  ]
+}

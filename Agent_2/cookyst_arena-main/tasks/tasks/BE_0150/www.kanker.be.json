@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kanker.be",
+      "intent": "Rechercher des informations sur les facteurs de risque du cancer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kanker.be",
+      "intent": "Explorer les différentes sections du site pour comprendre les activités de la Stichting tegen Kanker"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kanker.be",
+      "intent": "Lire les témoignages de personnes ayant vaincu le cancer pour se sentir motivé et inspiré"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kanker.be",
+      "intent": "Faire un don pour soutenir la recherche contre le cancer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kanker.be",
+      "intent": "S'inscrire à la newsletter pour rester informé sur les dernières nouvelles et les prochains événements"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kanker.be",
+      "intent": "Participer à une levée de fonds pour aider à financer des projets de recherche contre le cancer"
+    }
+  ]
+}

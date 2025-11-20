@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fimea.fi",
+      "intent": "Hae tietoa lääkkeiden turvallisuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fimea.fi",
+      "intent": "Selaa lääketietovarantoa ja etsi tietoa lääkkeistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fimea.fi",
+      "intent": "Lue uutisia ja tiedotteita lääkealan kehittymisestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fimea.fi",
+      "intent": "Tee erityisluvan hakemus lääkkeen määrääjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fimea.fi",
+      "intent": "Ilmoita haittavaikutus lääkkeen käytöstä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fimea.fi",
+      "intent": "Täytä lääkevaihtolomake apteekin asiakkaana"
+    }
+  ]
+}

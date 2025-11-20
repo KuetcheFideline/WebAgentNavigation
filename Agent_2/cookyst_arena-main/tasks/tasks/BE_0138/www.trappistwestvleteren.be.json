@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.trappistwestvleteren.be",
+      "intent": "Découvrir les différentes sortes de bières proposées par l'abbaye de Westvleteren"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.trappistwestvleteren.be",
+      "intent": "En savoir plus sur le processus de brassage de la bière Trappiste Westvleteren"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.trappistwestvleteren.be",
+      "intent": "Consulter les informations sur la vente de bière en ligne et les conditions d'achat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.trappistwestvleteren.be",
+      "intent": "Accéder à mon compte pour consulter mes commandes passées et gérer mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.trappistwestvleteren.be",
+      "intent": "Effectuer une commande de bière en ligne en utilisant mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.trappistwestvleteren.be",
+      "intent": "Gérer mon panier d'achat et procéder au paiement de ma commande de bière"
+    }
+  ]
+}

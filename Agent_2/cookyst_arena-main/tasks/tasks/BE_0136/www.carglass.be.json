@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.carglass.be",
+      "intent": "Rechercher les services de réparation de pare-brise pour ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.carglass.be",
+      "intent": "Trouver un centre de service Carglass près de chez moi à Tervuren"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.carglass.be",
+      "intent": "Demander un devis pour la réparation d'une vitre latérale de ma voiture"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.carglass.be",
+      "intent": "Gérer mes rendez-vous pour la réparation de mon pare-brise"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.carglass.be",
+      "intent": "Consulter mes factures et paiements pour les services de réparation de Carglass"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.carglass.be",
+      "intent": "Modifier mes informations de compte et mes préférences de communication avec Carglass"
+    }
+  ]
+}

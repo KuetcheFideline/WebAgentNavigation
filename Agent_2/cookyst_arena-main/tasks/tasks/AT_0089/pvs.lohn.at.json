@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pvs.lohn.at",
+      "intent": "Ich möchte den SelfService-Bereich erkunden, um zu sehen, welche Funktionen verfügbar sind."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pvs.lohn.at",
+      "intent": "Ich will den Anmeldungsprozess starten, um mein Konto zu erstellen und den SelfService zu nutzen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pvs.lohn.at",
+      "intent": "Ich möchte die verfügbaren Ressourcen und Informationen auf der Seite sichten, um mehr über die SelfService-Funktionen zu erfahren."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pvs.lohn.at",
+      "intent": "Ich möchte mein Konto einsehen, um meine persönlichen Daten und Einstellungen zu überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pvs.lohn.at",
+      "intent": "Ich will meine Lohnabrechnungen und Gehaltsbescheinigungen einsehen, um meine Finanzen zu verwalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pvs.lohn.at",
+      "intent": "Ich möchte meine persönlichen Einstellungen und Vorlieben anpassen, um den SelfService an meine Bedürfnisse anzupassen."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www1.agenciatributaria.gob.es",
+      "intent": "Consultar información sobre cómo solucionar el error 403 para poder acceder a los servicios de la Agencia Tributaria"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www1.agenciatributaria.gob.es",
+      "intent": "Buscar información sobre los requisitos y procedimientos para obtener un certificado electrónico y poder utilizar los servicios en línea de la Agencia Tributaria"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www1.agenciatributaria.gob.es",
+      "intent": "Explorar las secciones de la página web de la Agencia Tributaria relacionadas con la asistencia a contribuyentes y la resolución de problemas comunes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www1.agenciatributaria.gob.es",
+      "intent": "Acceder a mi cuenta personal en la Agencia Tributaria para consultar mi situación fiscal y realizar declaraciones de impuestos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www1.agenciatributaria.gob.es",
+      "intent": "Solicitar un certificado de renta a través de la plataforma en línea de la Agencia Tributaria para poder acreditar mi situación económica"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www1.agenciatributaria.gob.es",
+      "intent": "Realizar un pago de impuestos pendientes a través de la opción de pago en línea disponible en mi cuenta de la Agencia Tributaria"
+    }
+  ]
+}

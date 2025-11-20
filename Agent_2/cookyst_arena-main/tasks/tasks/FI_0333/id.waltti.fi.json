@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://id.waltti.fi",
+      "intent": "Hae reitti Vaasasta työpaikkaani Wärtsilälle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://id.waltti.fi",
+      "intent": "Osta koulumatkatuettu lippu Waltti Mobiili -sovelluksella"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://id.waltti.fi",
+      "intent": "Lataa matkakorttini vaivattomasti verkossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://id.waltti.fi",
+      "intent": "Tarkista matkakorttini saldo ja maksutapahtumat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://id.waltti.fi",
+      "intent": "Tilaa uusi matkakortti itselleni tai lapselleni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://id.waltti.fi",
+      "intent": "Muuta matkakorttini asetuksia, kuten lipputyyppejä tai maksutapaa"
+    }
+  ]
+}

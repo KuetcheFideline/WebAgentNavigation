@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tickets.union-zeughaus.de",
+      "intent": "Ich möchte die Termine der Heimspiele von 1. FC Union Berlin überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tickets.union-zeughaus.de",
+      "intent": "Ich will die Preise für die Tickets der Frauen-Bundesliga-Spiele vergleichen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tickets.union-zeughaus.de",
+      "intent": "Ich möchte Informationen über die Stadionführung und die Veranstaltungen im Union-Zeughaus finden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tickets.union-zeughaus.de",
+      "intent": "Ich will mein Konto überprüfen, um sicherzustellen, dass meine Ticket-Vorbestellungen und -Käufe korrekt sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tickets.union-zeughaus.de",
+      "intent": "Ich möchte meine persönlichen Daten und Einstellungen in meinem Konto aktualisieren, um sicherzustellen, dass ich die richtigen Informationen über die Spiele und Veranstaltungen erhalte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tickets.union-zeughaus.de",
+      "intent": "Ich will meine bestellten Tickets und Dauerkarten überprüfen und ggf. weitere Tickets kaufen oder meine Bestellungen ändern."
+    }
+  ]
+}

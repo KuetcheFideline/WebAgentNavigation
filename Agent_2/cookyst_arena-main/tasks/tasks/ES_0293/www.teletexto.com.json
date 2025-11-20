@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.teletexto.com",
+      "intent": "Buscar la programación de televisión de hoy para ver qué películas y series se emiten en Antena 3"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.teletexto.com",
+      "intent": "Explorar la sección de concursos de TV para ver si hay algún concurso que me guste y pueda jugar"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.teletexto.com",
+      "intent": "Consultar el horóscopo de hoy para ver qué me depara el destino según mi signo zodiacal"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.teletexto.com",
+      "intent": "Crear una lista de mis programas de televisión favoritos para poder acceder a ellos rápidamente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.teletexto.com",
+      "intent": "Configurar mis preferencias de programación de televisión para que me recomienden programas según mis gustos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.teletexto.com",
+      "intent": "Compartir mi lista de programas de televisión favoritos con amigos y familiares para que puedan ver qué me gusta"
+    }
+  ]
+}

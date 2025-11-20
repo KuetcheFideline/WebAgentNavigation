@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://songfestival.be",
+      "intent": "Je veux consulter les dernières actualités sur le Songfestival pour savoir qui sera le représentant de la Belgique cette année."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://songfestival.be",
+      "intent": "J'aimerais découvrir les chansons qui ont représenté la Belgique au Songfestival ces dernières années pour voir si je peux trouver de nouvelles idées pour mon propre groupe de musique."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://songfestival.be",
+      "intent": "Je souhaite participer au vote pour élire le meilleur représentant belge au Songfestival, mais je ne sais pas comment faire, je vais chercher les instructions sur le site."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://songfestival.be",
+      "intent": "Maintenant que je suis connecté, je veux accéder à mon compte pour voir mes votes précédents et mes commentaires sur les chansons du Songfestival."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://songfestival.be",
+      "intent": "Je veux créer un nouveau topic dans le forum du site pour discuter avec d'autres fans du Songfestival de mes chansons préférées et de mes artistes favoris."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://songfestival.be",
+      "intent": "Je souhaite modifier mon profil pour ajouter une photo de mon groupe de musique et partager mes goûts musicaux avec la communauté du site."
+    }
+  ]
+}

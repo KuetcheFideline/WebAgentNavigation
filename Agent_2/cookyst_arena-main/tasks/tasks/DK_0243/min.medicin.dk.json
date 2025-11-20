@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger information om medicin til min hjertesygdom"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil læse om nyheder om sundhed og medicin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg søger efter en apotek nær mit hjem"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil se mine gemte medicinliste og læse om mine medicin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg ønsker at se mine tidligere køb og bestillinger af medicin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://min.medicin.dk",
+      "intent": "Jeg vil følge mit sundhedsdagbog og se mine sundhedsdata"
+    }
+  ]
+}

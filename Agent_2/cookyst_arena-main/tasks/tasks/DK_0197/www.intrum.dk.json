@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.intrum.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan betale min gæld"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.intrum.dk",
+      "intent": "Jeg vil gerne læse mere om, hvad Intrum kan tilbyde mig som kunde"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.intrum.dk",
+      "intent": "Jeg søger efter kontaktinformation, så jeg kan ringe til Intrum og få hjælp med min gæld"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.intrum.dk",
+      "intent": "Jeg vil gerne logge ind på Mit Intrum for at se min gæld og betalingsstatus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.intrum.dk",
+      "intent": "Jeg ønsker at oprette en betalingsaftale på Mit Intrum, så jeg kan dele min betaling op"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.intrum.dk",
+      "intent": "Jeg vil gerne ændre mine personlige oplysninger på Mit Intrum, så mine kontaktoplysninger er opdaterede"
+    }
+  ]
+}

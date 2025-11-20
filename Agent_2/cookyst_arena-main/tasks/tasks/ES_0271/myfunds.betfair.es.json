@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://myfunds.betfair.es",
+      "intent": "Intentar acceder a la página de inicio de Betfair para ver si puedo apostar desde mi ubicación actual."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://myfunds.betfair.es",
+      "intent": "Buscar información sobre cómo puedo contactar con el soporte técnico de Betfair para resolver el problema de acceso restringido."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://myfunds.betfair.es",
+      "intent": "Leer las políticas de privacidad y términos de uso de Betfair para entender mejor sus restricciones de acceso."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://myfunds.betfair.es",
+      "intent": "Verificar mi cuenta de Betfair para asegurarme de que mis datos personales y financieros estén actualizados."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://myfunds.betfair.es",
+      "intent": "Revisar mis historiales de apuestas y transacciones financieras en Betfair para tener un control sobre mis gastos."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://myfunds.betfair.es",
+      "intent": "Configurar mis preferencias de notificación en Betfair para recibir actualizaciones sobre mis apuestas y promociones especiales."
+    }
+  ]
+}

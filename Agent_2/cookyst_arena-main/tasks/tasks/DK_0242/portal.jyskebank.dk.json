@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://portal.jyskebank.dk",
+      "intent": "Jeg søger at finde information om mine pensionsopsparing på portalen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://portal.jyskebank.dk",
+      "intent": "Jeg vil læse om de forskellige investeringsmuligheder, som Jyske Bank tilbyder."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://portal.jyskebank.dk",
+      "intent": "Jeg ønsker at se, hvordan jeg kan få en oversigt over mine konti og transaktioner på portalen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://portal.jyskebank.dk",
+      "intent": "Jeg vil overføre penge fra mit lønkonto til mit pensionskonto for at sikre min fremtidige økonomi."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://portal.jyskebank.dk",
+      "intent": "Jeg søger at ændre mine kontoinformationer og opdatere min adresse i systemet."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://portal.jyskebank.dk",
+      "intent": "Jeg vil downloade en kontoudstedskrivelse for mine skattemæssige formål og for at holde styr på mine finansielle transaktioner."
+    }
+  ]
+}

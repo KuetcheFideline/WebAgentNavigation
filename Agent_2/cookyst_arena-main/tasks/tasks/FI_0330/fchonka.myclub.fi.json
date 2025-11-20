@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fchonka.myclub.fi",
+      "intent": "Selata sivuja ja etsiä tietoa FC Honka ry:stä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fchonka.myclub.fi",
+      "intent": "Käydä läpi myClubin käyttöehdot ja tietosuojaseloste"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fchonka.myclub.fi",
+      "intent": "Löytää ohjeita ja tietoa myClub-palvelun käytöstä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fchonka.myclub.fi",
+      "intent": "Tarkastaa omat tiedot ja profiili myClubissa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fchonka.myclub.fi",
+      "intent": "Osallistua keskusteluihin ja foorumeihin myClubissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fchonka.myclub.fi",
+      "intent": "Tilata tuotteita ja palveluita myClubin kaupasta"
+    }
+  ]
+}

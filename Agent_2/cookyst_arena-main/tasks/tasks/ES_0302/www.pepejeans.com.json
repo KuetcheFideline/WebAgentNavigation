@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pepejeans.com",
+      "intent": "Buscar los últimos modelos de jeans para hombre en la sección de moda masculina"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pepejeans.com",
+      "intent": "Comparar los precios de los diferentes tipos de camisetas en la sección de ropa superior"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pepejeans.com",
+      "intent": "Explorar la sección de accesorios y encontrar un bolso o mochila que combine con mi estilo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pepejeans.com",
+      "intent": "Acceder a mi cuenta y verificar el estado de mis pedidos anteriores"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pepejeans.com",
+      "intent": "Guardar mis direcciones de entrega y facturación para futuras compras"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pepejeans.com",
+      "intent": "Suscribirme al boletín de noticias para recibir ofertas exclusivas y novedades sobre los últimos lanzamientos"
+    }
+  ]
+}

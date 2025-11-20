@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Tutkin Suomen Pankin verkkopalvelun etusivun ja etsin tietoa rahapolitiikasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Selvittelen, miten voin seurata Suomen Pankin tilastojulkaisuja ja -tiedotteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Etsin tietoa maksamisesta ja maksujärjestelmistä Suomen Pankin verkkopalvelusta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Kirjaudun sisään ja tarkastan oman tilini tiedot Suomen Pankin verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Tutkin ja analysoin rahapolitiikan vaikutuksia omaan talouteeni kirjautuneena Suomen Pankin verkkopalvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.suomenpankki.fi",
+      "intent": "Lähetän kysymyksen Suomen Pankin asiakaspalveluun kirjautuneena verkkopalvelussa"
+    }
+  ]
+}

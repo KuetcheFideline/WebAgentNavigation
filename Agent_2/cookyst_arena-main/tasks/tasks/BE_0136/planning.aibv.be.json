@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://planning.aibv.be",
+      "intent": "Rechercher les disponibilités pour une réservation de contrôle technique pour ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://planning.aibv.be",
+      "intent": "Consulter les informations sur les différents types de contrôles techniques proposés par AIBV"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://planning.aibv.be",
+      "intent": "Trouver les coordonnées et les heures d'ouverture des centres de contrôle technique AIBV près de chez moi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://planning.aibv.be",
+      "intent": "Réserver un rendez-vous pour un contrôle technique en ligne en utilisant mon compte AIBV"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://planning.aibv.be",
+      "intent": "Consulter l'historique de mes réservations et de mes contrôles techniques précédents sur mon compte AIBV"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://planning.aibv.be",
+      "intent": "Modifier mes informations de compte et de facturation pour les réservations de contrôle technique"
+    }
+  ]
+}

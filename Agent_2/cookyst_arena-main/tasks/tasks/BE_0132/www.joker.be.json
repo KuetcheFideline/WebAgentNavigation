@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.joker.be",
+      "intent": "Rechercher des voyages en Europe pour les prochaines vacances d'été"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.joker.be",
+      "intent": "Comparer les prix des vols pour un voyage à Paris ou à Rome"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.joker.be",
+      "intent": "Consulter les offres spéciales pour les jeunes voyageurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.joker.be",
+      "intent": "Réserver un voyage en Grèce que j'ai déjà sélectionné dans mes favoris"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.joker.be",
+      "intent": "Consulter l'historique de mes réservations pour planifier mon prochain voyage"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.joker.be",
+      "intent": "Modifier les détails de ma réservation pour un voyage à Barcelone"
+    }
+  ]
+}

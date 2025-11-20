@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.resa.be",
+      "intent": "Activer JavaScript pour accéder au contenu du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.resa.be",
+      "intent": "Rechercher des informations sur les formations disponibles pour les employés en reconversion"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.resa.be",
+      "intent": "Explorer les ressources proposées pour les personnes en recherche d'emploi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.resa.be",
+      "intent": "Consulter mon compte pour suivre l'état de mes démarches de formation"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.resa.be",
+      "intent": "Modifier mes informations personnelles pour garantir l'exactitude de mes données"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.resa.be",
+      "intent": "Accéder à mes documents personnels pour télécharger mes attestations de formation"
+    }
+  ]
+}

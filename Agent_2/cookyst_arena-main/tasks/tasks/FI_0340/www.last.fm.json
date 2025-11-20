@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.last.fm",
+      "intent": "Etsin musiikkia, joka sopii minun mieltymyksilleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.last.fm",
+      "intent": "Selvittelen, mitä musiikkia muut kuuntelevat tällä hetkellä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.last.fm",
+      "intent": "Löydän uusia artisteja, joita en ole aiemmin kuullut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.last.fm",
+      "intent": "Tallennan lempparikappaleeni suosikkilistalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.last.fm",
+      "intent": "Seuraan suosikkiartistiani ja näen, mitä he ovat tehneet viimeaikoina"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.last.fm",
+      "intent": "Vertailen kuunteluhistoriaani muiden käyttäjien kanssa"
+    }
+  ]
+}

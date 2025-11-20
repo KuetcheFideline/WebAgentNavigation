@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autoluettelo.fi",
+      "intent": "Etsin varaosia autooni, joten aloitan hakemalla tuotteita hakukentästä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autoluettelo.fi",
+      "intent": "Haluan tietää lisää autoluettelo.fi:n käytöstä, joten tutkin sivuston ohjeita ja käyttöehdoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autoluettelo.fi",
+      "intent": "Olen kiinnostunut löytämään lähimmän jälleenmyyjän, joten käyn jälleenmyyjähaku-sivulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autoluettelo.fi",
+      "intent": "Tallennan suosikkini tuotteet, jotta voin nopeasti löytää ne myöhemin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autoluettelo.fi",
+      "intent": "Haluan seurata tilaustani, joten tarkistan tilaushistoriani ja seuraan lähetyksen etenemistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autoluettelo.fi",
+      "intent": "Tarvitsen apua tuotteen valintaan, joten otan yhteyttä asiakaspalveluun"
+    }
+  ]
+}

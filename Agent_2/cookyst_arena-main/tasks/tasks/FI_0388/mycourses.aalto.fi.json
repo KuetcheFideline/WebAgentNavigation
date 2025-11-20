@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Etsin tietoa opiskelijoiden hyvinvoinnista ja tuista Aallon yliopistossa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Haluan tietää lisää Aallon avoimen yliopiston opiskelumahdollisuuksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Olen kiinnostunut Aallon yliopiston kirjaston palveluista ja aineistoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Tarkastan omia opintotietojani ja kurssisuorituksiani Aallon MyCourses-järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Osallistun verkossa opettajan järjestämään online-keskusteluun opintojani liittyen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Lähetän opettajalle viestiä koskien kurssin suorittamiseen liittyvää kysymystä"
+    }
+  ]
+}

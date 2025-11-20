@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.summarum.fi",
+      "intent": "Tutustun lainavertailupalveluihin ja etsin edullista lainaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.summarum.fi",
+      "intent": "Vertailen eri pankkien ja luotonantajien lainoja ja luottoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.summarum.fi",
+      "intent": "Luen asiakaskokemuksia ja arvosteluita lainavertailupalveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.summarum.fi",
+      "intent": "Täytän lainahakemuslomakkeen ja haen lainatarjouksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.summarum.fi",
+      "intent": "Vertailen saamiani lainatarjouksia ja valitsen edullisimman vaihtoehdon"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.summarum.fi",
+      "intent": "Hyväksyn lainasopimuksen ja vahvistan lainan myöntämisen"
+    }
+  ]
+}

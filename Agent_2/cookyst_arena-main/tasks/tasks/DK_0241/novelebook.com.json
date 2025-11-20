@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://novelebook.com",
+      "intent": "Jeg søger efter en ny roman at læse, måske noget i genrene romance eller fantasy"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://novelebook.com",
+      "intent": "Jeg vil gerne se, hvilke nye romaner der er blevet tilføjet på siden, og læse en af dem"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://novelebook.com",
+      "intent": "Jeg ønsker at se, hvilke romaner der er mest populære på siden, og læse en af dem"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://novelebook.com",
+      "intent": "Jeg vil gerne følge en af mine yndlingsforfattere og læse deres seneste roman"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://novelebook.com",
+      "intent": "Jeg ønsker at anbefale en roman til en ven, og dele den med dem via email eller sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://novelebook.com",
+      "intent": "Jeg vil gerne se, hvilke romaner jeg allerede har læst, og læse en ny roman i samme serie"
+    }
+  ]
+}

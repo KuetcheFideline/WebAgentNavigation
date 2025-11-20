@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://medlineplus.gov",
+      "intent": "Buscar información sobre enfermedades crónicas en la sección de temas de salud"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://medlineplus.gov",
+      "intent": "Explorar la sección de recetas saludables para encontrar ideas para comidas rápidas y saludables"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://medlineplus.gov",
+      "intent": "Leer artículos sobre ejercicio y fitness en la sección de temas destacados"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://medlineplus.gov",
+      "intent": "Guardar artículos sobre enfermedades crónicas en mi biblioteca personal para consultar más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://medlineplus.gov",
+      "intent": "Crear una lista de medicamentos y suplementos que estoy tomando para llevar un registro de mi salud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://medlineplus.gov",
+      "intent": "Configurar mis preferencias de idioma y formato para recibir información de salud personalizada"
+    }
+  ]
+}

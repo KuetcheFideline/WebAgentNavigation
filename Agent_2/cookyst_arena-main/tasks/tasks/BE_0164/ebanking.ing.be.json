@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Activer le javascript pour accéder à la page d'accueil de l'ebanking"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Rechercher les informations sur les services de banque en ligne pour les particuliers"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Vérifier les conditions d'utilisation de l'application mobile de l'ebanking"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Consulter mon relevé de compte pour vérifier les derniers mouvements"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Effectuer un virement vers le compte de mon épouse"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ebanking.ing.be",
+      "intent": "Paramétrer les alertes pour les transactions suspectes sur mon compte"
+    }
+  ]
+}

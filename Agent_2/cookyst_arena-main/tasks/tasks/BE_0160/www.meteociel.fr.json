@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.meteociel.fr",
+      "intent": "Consulter les prévisions météo pour la ville de Liège afin de planifier mes activités en plein air avec mon enfant"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.meteociel.fr",
+      "intent": "Rechercher des informations sur les conditions météo actuelles à Liège pour savoir si je dois prendre un parapluie pour ma sortie"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.meteociel.fr",
+      "intent": "Explorer les cartes météo interactives pour comprendre les tendances météo à long terme et planifier mes vacances"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.meteociel.fr",
+      "intent": "Publier une observation météo personnelle sur le site pour partager mes connaissances avec la communauté"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.meteociel.fr",
+      "intent": "Personnaliser mes paramètres de compte pour recevoir des alertes météo personnalisées pour la région de Liège"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.meteociel.fr",
+      "intent": "Participer à un sondage sur les prévisions météo pour aider à améliorer la précision des prévisions"
+    }
+  ]
+}

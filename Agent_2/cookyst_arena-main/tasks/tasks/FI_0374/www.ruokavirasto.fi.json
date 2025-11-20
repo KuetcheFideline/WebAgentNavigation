@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ruokavirasto.fi",
+      "intent": "Tutkin Vipu-palvelun tukihakemusten laatimista ja maatilani tukihakemustietoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ruokavirasto.fi",
+      "intent": "Etsin tietoa koirarekisteristä ja sen käytöstä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ruokavirasto.fi",
+      "intent": "Luen Ruokaviraston blogia ja etsin tietoa viljasadosta ja sen merkityksestä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ruokavirasto.fi",
+      "intent": "Tarkastan oman maatilani tukihakemustietoja ja karttakuvia Vipu-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ruokavirasto.fi",
+      "intent": "Laitan hakemuksen eläintenrekisteriin ja tarkastan sen tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ruokavirasto.fi",
+      "intent": "Täytän hygieniapassin mallitesti ja tarkastan sen tuloksia"
+    }
+  ]
+}

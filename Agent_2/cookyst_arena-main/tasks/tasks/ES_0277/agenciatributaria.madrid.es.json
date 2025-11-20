@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://agenciatributaria.madrid.es",
+      "intent": "Consultar información sobre impuestos y tasas en la Agencia Tributaria de Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://agenciatributaria.madrid.es",
+      "intent": "Buscar información sobre cómo realizar un pago de impuestos de forma fácil y segura"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://agenciatributaria.madrid.es",
+      "intent": "Descargar formularios y documentos necesarios para la declaración de impuestos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://agenciatributaria.madrid.es",
+      "intent": "Acceder a mi cuenta para consultar el estado de mis impuestos y realizar pagos pendientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://agenciatributaria.madrid.es",
+      "intent": "Solicitar una cita previa para resolver un problema con mi declaración de impuestos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://agenciatributaria.madrid.es",
+      "intent": "Presentar una reclamación o alegación contra una liquidación de impuestos"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.luxauto.be",
+      "intent": "Rechercher un véhicule de location pour un déplacement professionnel en Belgique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.luxauto.be",
+      "intent": "Comparer les tarifs de location de voitures et de camions pour une utilisation personnelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.luxauto.be",
+      "intent": "Consulter les conditions générales de location de véhicules pour une entreprise"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.luxauto.be",
+      "intent": "Réserver un véhicule de location pour une période spécifique en tant que client régulier"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.luxauto.be",
+      "intent": "Gérer mes réservations de véhicules et modifier les dates de location si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.luxauto.be",
+      "intent": "Consulter l'historique de mes locations de véhicules et imprimer les factures correspondantes"
+    }
+  ]
+}

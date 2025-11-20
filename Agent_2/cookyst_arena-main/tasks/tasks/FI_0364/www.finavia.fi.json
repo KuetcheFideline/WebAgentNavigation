@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.finavia.fi",
+      "intent": "Tarkastan lentoaikataulut Helsinki-Vantaan lentoasemalta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.finavia.fi",
+      "intent": "Etsin tietoa pysäköintimahdollisuuksista Helsinki-Vantaan lentoasemalla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.finavia.fi",
+      "intent": "Selvitan, miten voin varata lennon Helsinki-Vantaan lentoasemalta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.finavia.fi",
+      "intent": "Tarkastan omat lennot ja varaukset kirjautuneena Finavian sivuille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.finavia.fi",
+      "intent": "Muutan omia lennonvarauksia kirjautuneena Finavian sivuille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.finavia.fi",
+      "intent": "Tulostan lennon check-in kuitin kirjautuneena Finavian sivuille"
+    }
+  ]
+}

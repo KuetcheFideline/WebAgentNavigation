@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.newtis.info",
+      "intent": "Tutkin sivuston pääsivun sisältöä ja etsin tietoa BMW TIS:stä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.newtis.info",
+      "intent": "Käyn läpi sivuston evästeiden käytön ja yksityisyyden suojaan liittyviä tietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.newtis.info",
+      "intent": "Etsin sivustolta tietoa siitä, miten voin ottaa yhteyttä asiakaspalveluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.newtis.info",
+      "intent": "Kirjaudun sisään ja tarkastan, onko minulla oikeuksia käyttää sivuston maksullisia ominaisuuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.newtis.info",
+      "intent": "Tutkin sivuston tarjoamia ominaisuuksia ja etsin tietoa siitä, miten voin muokata profiiliani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.newtis.info",
+      "intent": "Käyn läpi sivuston käyttöehdot ja yksityisyyden suojaa koskevat tiedot"
+    }
+  ]
+}

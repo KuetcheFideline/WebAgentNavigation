@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.airarabia.com",
+      "intent": "Rechercher un vol pour un week-end à Paris en partant de Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.airarabia.com",
+      "intent": "Comparer les prix des vols pour un aller-retour entre Casablanca et Istanbul"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.airarabia.com",
+      "intent": "Explorer les destinations proposées par Air Arabia en Asie pour un prochain voyage"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.airarabia.com",
+      "intent": "Gérer ma réservation de vol pour un voyage prévu à la fin du mois"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.airarabia.com",
+      "intent": "Ajouter un bagage supplémentaire à ma réservation de vol"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.airarabia.com",
+      "intent": "Consulter mon solde de points AirRewards pour éventuellement réserver un vol gratuit"
+    }
+  ]
+}

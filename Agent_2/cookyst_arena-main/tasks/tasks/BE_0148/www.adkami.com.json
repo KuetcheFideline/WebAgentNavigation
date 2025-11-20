@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.adkami.com",
+      "intent": "Rechercher les derniers épisodes d'anime disponibles sur le site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.adkami.com",
+      "intent": "Explorer la section 'Anime de la semaine' pour découvrir de nouveaux titres"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.adkami.com",
+      "intent": "Lire les descriptions des anime pour choisir celui qui m'intéresse le plus"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.adkami.com",
+      "intent": "Ajouter mon anime préféré à ma liste de lecture pour pouvoir le retrouver plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.adkami.com",
+      "intent": "Participer à un forum de discussion pour partager mes impressions sur un épisode récent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.adkami.com",
+      "intent": "Configurer mes préférences de notification pour être averti des nouveaux épisodes de mes anime préférés"
+    }
+  ]
+}

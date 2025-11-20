@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.totalenergies.es",
+      "intent": "Comparar las tarifas de luz y gas para mi hogar en València"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.totalenergies.es",
+      "intent": "Buscar información sobre la instalación de paneles solares para mi hogar"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.totalenergies.es",
+      "intent": "Descargar la aplicación móvil de TotalEnergies para consultar mis consumos de energía"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.totalenergies.es",
+      "intent": "Consultar mi factura de luz y gas del mes anterior en el área de cliente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.totalenergies.es",
+      "intent": "Solicitar un cambio de tarifa de luz y gas en el área de cliente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.totalenergies.es",
+      "intent": "Programar un mantenimiento para mi instalación de gas en el área de cliente"
+    }
+  ]
+}

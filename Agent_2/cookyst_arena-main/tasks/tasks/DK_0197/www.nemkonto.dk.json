@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nemkonto.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan anvise en NemKonto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nemkonto.dk",
+      "intent": "Jeg vil læse mere om, hvordan NemKonto fungerer for borgere"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nemkonto.dk",
+      "intent": "Jeg søger efter svar på spørgsmål om NemKonto"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nemkonto.dk",
+      "intent": "Jeg vil logge ind for at se og ændre min NemKonto"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nemkonto.dk",
+      "intent": "Jeg vil anvise en ny konto som min NemKonto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nemkonto.dk",
+      "intent": "Jeg vil se mine eksisterende NemKonto-oplysninger"
+    }
+  ]
+}

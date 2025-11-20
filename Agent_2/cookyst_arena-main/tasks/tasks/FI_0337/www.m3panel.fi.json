@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.m3panel.fi",
+      "intent": "Valitsen maani Suomi ja tutustun sivuston sisältöön"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.m3panel.fi",
+      "intent": "Luen evästekäytäntöä ja hyväksyn evästeet, jotta voin käyttää sivustoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.m3panel.fi",
+      "intent": "Tutustun Panel Shopiin ja katson, mitä lahjoja on tarjolla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.m3panel.fi",
+      "intent": "Kirjaudun sisään ja täytän profiililomakkeen, jotta saan kohdennettuja kyselyitä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.m3panel.fi",
+      "intent": "Osallistun tutkimuksiin ja testaan tuotteita ja palveluja, jotta voin ansaita pisteitä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.m3panel.fi",
+      "intent": "Valitsen lahjan Panel Shopista pisteilläni ja vahvistan tilaukseni"
+    }
+  ]
+}

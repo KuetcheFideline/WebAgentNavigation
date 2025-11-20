@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sansa.fi",
+      "intent": "Hae sivustolta tietoa seurakunnille"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sansa.fi",
+      "intent": "Lue Sansan tietosuoja- ja rekisteriseloste"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sansa.fi",
+      "intent": "Selaa Sansan tarjoamia projekteja ja lähetystyöntekijöiden tarinoita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sansa.fi",
+      "intent": "Liity Sansan jäseneksi ja hallinnoi jäsenyyttä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sansa.fi",
+      "intent": "Lahjoita rahaa Sansan hyväntekeväisyyteen ja hallinnoi lahjoituksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sansa.fi",
+      "intent": "Osallistu Sansan yhteisöön ja keskusteluihin"
+    }
+  ]
+}

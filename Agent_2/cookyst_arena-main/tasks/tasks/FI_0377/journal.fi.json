@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://journal.fi",
+      "intent": "Hae artikkeleita aiheesta maahanmuutto"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://journal.fi",
+      "intent": "Selaa lehdistön viimeisimpiä numeroita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://journal.fi",
+      "intent": "Etsi tietoa julkaisuista, jotka liittyvät kulttuuriin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://journal.fi",
+      "intent": "Luo uusi artikkeli aiheesta sosiaalipolitiikka"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://journal.fi",
+      "intent": "Kommentoi artikkelia, joka käsittelee maahanmuuttopolitiikkaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://journal.fi",
+      "intent": "Muokkaa profiilia ja lisää tietoa omasta tutkimuksesta"
+    }
+  ]
+}

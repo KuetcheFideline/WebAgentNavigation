@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kotipuhtaaksi.fi",
+      "intent": "Haluaisin tietää, miten voin tilata kotisiivouksen verkkokaupasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kotipuhtaaksi.fi",
+      "intent": "Lisätietoa siivouspalveluista ja hinnoista kiinnostaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kotipuhtaaksi.fi",
+      "intent": "Miten voin laskea kotisiivouksen hinnan ennen tilaamista?"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kotipuhtaaksi.fi",
+      "intent": "Haluaisin muuttaa aiemmin tehtyä siivousvarausta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kotipuhtaaksi.fi",
+      "intent": "Tilataan uusi siivouspalvelu olemassa olevaan asiakastilille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kotipuhtaaksi.fi",
+      "intent": "Näen kaikki aiemmat siivouspalvelutilaukset ja arvosteluni"
+    }
+  ]
+}

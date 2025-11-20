@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.einforma.com",
+      "intent": "Buscar información sobre empresas españolas en el directorio de empresas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.einforma.com",
+      "intent": "Explorar la sección de informes de empresas para conocer mejor a los clientes y proveedores"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.einforma.com",
+      "intent": "Utilizar la función de búsqueda para encontrar empresas por nombre, NIF o DUNS"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.einforma.com",
+      "intent": "Acceder a la sección de mi cuenta para consultar mis facturas y consumos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.einforma.com",
+      "intent": "Utilizar la función de informes de empresas para analizar la competencia y tomar decisiones informadas"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.einforma.com",
+      "intent": "Gestionar mis listados de marketing y bases de datos para mejorar mis campañas publicitarias"
+    }
+  ]
+}

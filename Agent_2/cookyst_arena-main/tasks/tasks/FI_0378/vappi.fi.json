@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vappi.fi",
+      "intent": "Hae Väppi-palvelun käyttööni liittyvää tietoa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vappi.fi",
+      "intent": "Vertaa eri sähkösopimusten hintoja ja ominaisuuksia Väppi-palvelussa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vappi.fi",
+      "intent": "Lue lisää Väppi-palvelun tarjoamista energiankulutuksen seurantaominaisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vappi.fi",
+      "intent": "Tarkastele kotisi energiankulutusta ja hallinnoi sähkösopimustasi Väppi-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vappi.fi",
+      "intent": "Päivitä sähkösopimustasi päästöttömään uusiutuvaan energiaan Väppi-palvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vappi.fi",
+      "intent": "Ilmoita asiakaspalvelulle poikkeamista energiankulutuksessani Väppi-palvelun kautta"
+    }
+  ]
+}

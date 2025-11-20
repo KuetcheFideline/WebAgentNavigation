@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pyhtaa.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa Pyhtään koulutoimistosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pyhtaa.inschool.fi",
+      "intent": "Katselen Wilman käyttöohjevideoita ja tutkin miten voin luoda oman Wilma-tunnuksen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pyhtaa.inschool.fi",
+      "intent": "Selvittelen miten voin muuttaa kieltä suomeksi ja tutkin sivuston saavutettavuutta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pyhtaa.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkastan omat tiedot ja asetukset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pyhtaa.inschool.fi",
+      "intent": "Tutkin Wilman viestitoimintoja ja lähettän viestin opettajalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pyhtaa.inschool.fi",
+      "intent": "Tarkastan kurssien aikatauluja ja ilmoittaudun kurssille"
+    }
+  ]
+}

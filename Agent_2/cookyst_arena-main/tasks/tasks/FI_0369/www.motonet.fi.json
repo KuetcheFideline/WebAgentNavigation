@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.motonet.fi",
+      "intent": "Etsin varaosia autooni, joten käyn sivulla ja etsin hakusanalla 'varaosat' tarpeitani vastaavia tuotteita."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.motonet.fi",
+      "intent": "Haluan tietää enemmän Motonetin kanta-asiakasohjelmasta, joten tutkin sivun kanta-asiakasosiota ja sen etuja."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.motonet.fi",
+      "intent": "Olen kiinnostunut Motonetin tarjouksista, joten käyn sivun etusivulla ja tutkin tarjouksia, joita he tarjoavat."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.motonet.fi",
+      "intent": "Liityn kanta-asiakkaaksi, jotta voin hyödyntää kanta-asiakasohjelman etuja, kuten alennuksia ja ilmaista toimitusta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.motonet.fi",
+      "intent": "Tilasin äskettäin tuotteen, joten haluan tarkistaa tilaustani tilan ja seurata sen toimitusta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.motonet.fi",
+      "intent": "Olen ostanut aiemmin tuotteita Motonetista, joten kirjoitan arvostelun yhdestä tuotteista, jotta voin auttaa muita asiakkaita ja osallistua arvontaan."
+    }
+  ]
+}

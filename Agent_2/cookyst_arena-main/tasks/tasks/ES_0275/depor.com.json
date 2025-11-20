@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://depor.com",
+      "intent": "Buscar noticias sobre el fútbol peruano en la página de inicio de Depor"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://depor.com",
+      "intent": "Explorar la sección de deportes internacionales para ver las últimas noticias sobre la Liga de Campeones"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://depor.com",
+      "intent": "Verificar los resultados de los partidos de la Selección Peruana en la sección de resultados"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://depor.com",
+      "intent": "Crear una cuenta para comentar en las noticias sobre el fútbol peruano y participar en la comunidad de Depor"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://depor.com",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre los partidos de la Selección Peruana"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://depor.com",
+      "intent": "Guardar artículos sobre el Descentralizado para leer más tarde en mi biblioteca personal de Depor"
+    }
+  ]
+}

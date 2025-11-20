@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ilves.com",
+      "intent": "Hae Ilveksen tulevia otteluita ja osta lippuja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ilves.com",
+      "intent": "Selaa Ilveksen joukkuetilastoa ja pelaajien tilastoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ilves.com",
+      "intent": "Lue Ilveksen uutisia ja haastatteluita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ilves.com",
+      "intent": "Tilaa Ilveksen uutiskirje ja päivitä profiili"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ilves.com",
+      "intent": "Osta Ilveksen fanituotteita ja lahjoita kannatusjäsenyys"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ilves.com",
+      "intent": "Osallistu Ilveksen keskustelupalstalle ja kommentoi uutisia"
+    }
+  ]
+}

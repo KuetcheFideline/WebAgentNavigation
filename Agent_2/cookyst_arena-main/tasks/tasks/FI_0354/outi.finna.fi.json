@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://outi.finna.fi",
+      "intent": "Hae kirjaa aiheesta luonto Hämeenlinnan kirjastosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://outi.finna.fi",
+      "intent": "Selaa uusimmat lastenkirjat Helsingin kirjastosta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://outi.finna.fi",
+      "intent": "Etsi tietoa aiheesta pohjoinen lukuhaaste"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://outi.finna.fi",
+      "intent": "Tarkista omat lainat ja uusi lainaus, jos mahdollista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://outi.finna.fi",
+      "intent": "Varaa kirja, joka on tällä hetkellä lainattu, ja odota ilmoitusta, kun se on noudettavissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://outi.finna.fi",
+      "intent": "Muokkaa omia varauksia ja lainauksia, sekä tarkista tilin tiedot"
+    }
+  ]
+}

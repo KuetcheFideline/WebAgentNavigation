@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mikkelintuomiokirkkoseurakunta.fi",
+      "intent": "Hae sivustolta tietoa Mikkelin tuomiokirkkoseurakunnan jumalanpalveluksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mikkelintuomiokirkkoseurakunta.fi",
+      "intent": "Selaa sivuston alueita ja etsi tietoa Anttolan alueseurakunnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mikkelintuomiokirkkoseurakunta.fi",
+      "intent": "Lue sivuston evästeasetukset ja hyväksy vain välttämättömät evästeet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mikkelintuomiokirkkoseurakunta.fi",
+      "intent": "Kirjaudu sisään ja etsi tietoa Mikkelin tuomiokirkkoseurakunnan nuorisotoiminnasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mikkelintuomiokirkkoseurakunta.fi",
+      "intent": "Tarkastele sivuston yhteystietoja ja etsi tietoa seurakunnan työntekijöistä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mikkelintuomiokirkkoseurakunta.fi",
+      "intent": "Osallistu sivuston keskustelupalstalle ja kysy neuvoa seurakunnan toiminnasta"
+    }
+  ]
+}

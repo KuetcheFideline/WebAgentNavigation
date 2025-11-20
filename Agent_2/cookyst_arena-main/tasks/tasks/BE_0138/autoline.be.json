@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://autoline.be",
+      "intent": "Rechercher des camions pour mon entreprise de transport"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://autoline.be",
+      "intent": "Comparer les prix de différents modèles de véhicules utilitaires"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://autoline.be",
+      "intent": "Explorer les différentes catégories de véhicules disponibles sur le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://autoline.be",
+      "intent": "Déposer une annonce pour vendre mon véhicule utilitaire"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://autoline.be",
+      "intent": "Gérer mes favoris et mes notifications pour rester informé des nouvelles annonces"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://autoline.be",
+      "intent": "Consulter mes messages privés pour discuter avec d'autres utilisateurs"
+    }
+  ]
+}

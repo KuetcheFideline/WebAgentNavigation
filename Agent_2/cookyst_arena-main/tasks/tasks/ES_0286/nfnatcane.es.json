@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nfnatcane.es",
+      "intent": "Buscar productos para perros con alergias alimentarias"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nfnatcane.es",
+      "intent": "Comparar precios de comida para gatos en la sección de productos destacados"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nfnatcane.es",
+      "intent": "Leer reseñas y comentarios de otros clientes sobre los productos de nutrición canina natural"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nfnatcane.es",
+      "intent": "Agregar el producto 'SELECT GOURMET 15KG' al carrito de compras desde la sección de productos destacados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nfnatcane.es",
+      "intent": "Verificar el estado de mi cuenta y el historial de pedidos en la sección 'Mi cuenta'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nfnatcane.es",
+      "intent": "Realizar un pedido de compra con envío gratuito para el producto 'ADULT HEALTH 15KG'"
+    }
+  ]
+}

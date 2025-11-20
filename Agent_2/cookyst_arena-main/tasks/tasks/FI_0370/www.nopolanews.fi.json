@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nopolanews.fi",
+      "intent": "Lue uusimmat uutiset Kunnalliselämä-osiosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nopolanews.fi",
+      "intent": "Etsi tietoa Liikunta ja urheilu -osiossa tapahtumista ja turnauksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nopolanews.fi",
+      "intent": "Selaa Hyvinvointi-osiota ja etsi tietoa terveydestä ja hyvinvoinnista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nopolanews.fi",
+      "intent": "Kirjaudu sisään ja kommentoi uusimpia uutisia Kunnalliselämä-osiosta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nopolanews.fi",
+      "intent": "Lähetä palautetta sivuston ylläpidolle kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nopolanews.fi",
+      "intent": "Muokkaa omia profiilitietoja ja asetuksia kirjautuneena käyttäjänä"
+    }
+  ]
+}

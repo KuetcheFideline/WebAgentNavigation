@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://karpat.fi",
+      "intent": "Tarkastelen tulevia otteluita ja etsin liput seuraavaan Kärppien kotiotteluun"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://karpat.fi",
+      "intent": "Selailen Kärppien joukkueen sivuja ja etsin tietoa pelaajista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://karpat.fi",
+      "intent": "Käyn läpi sarjataulukkoa ja vertailen Kärppien sijoitusta muihin joukkueisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://karpat.fi",
+      "intent": "Ostan kausikortin Kärppien kotiotteluihin, koska olen jo aiemmin rekisteröitynyt sivustolle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://karpat.fi",
+      "intent": "Tarkastelen omia tilaushistoriaani ja vahvistan, että olen saanut kaikki tilaamani liput"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://karpat.fi",
+      "intent": "Muokkaan profiiliini ja päivitän osoitteeni, jotta voin vastaanottaa Kärppien uutiskirjeen"
+    }
+  ]
+}

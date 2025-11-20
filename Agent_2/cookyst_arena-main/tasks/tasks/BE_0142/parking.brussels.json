@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://parking.brussels",
+      "intent": "Rechercher les informations sur les zones de stationnement à proximité de mon domicile à Etterbeek"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://parking.brussels",
+      "intent": "Consulter les tarifs et les modalités de stationnement pour les vélos dans la région bruxelloise"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://parking.brussels",
+      "intent": "Découvrir les solutions de stationnement proposées par parking.brussels pour les personnes en situation de handicap"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://parking.brussels",
+      "intent": "Gérer mon compte personnel et mes abonnements de stationnement pour les vélos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://parking.brussels",
+      "intent": "Payer mon stationnement en ligne et gérer mes factures"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://parking.brussels",
+      "intent": "Contacter le service clientèle pour signaler un problème avec mon stationnement"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fixpart.be",
+      "intent": "Rechercher des pièces de rechange pour mon lave-vaisselle Bosch"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fixpart.be",
+      "intent": "Comparer les prix des filtres pour aspirateurs Dyson"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fixpart.be",
+      "intent": "Explorer les produits pour la réparation de mon ordinateur portable"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fixpart.be",
+      "intent": "Consulter mes commandes passées pour suivre l'état de mes réparations"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fixpart.be",
+      "intent": "Gérer mes informations de compte et mettre à jour mon adresse e-mail"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fixpart.be",
+      "intent": "Évaluer et laisser un commentaire sur un produit que j'ai acheté récemment"
+    }
+  ]
+}

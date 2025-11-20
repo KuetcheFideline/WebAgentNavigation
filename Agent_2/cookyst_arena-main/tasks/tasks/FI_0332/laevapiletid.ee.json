@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laevapiletid.ee",
+      "intent": "Hae edasi-tagasi laevapilettejä Helsingistä Tallinnaan 18.11.2025"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laevapiletid.ee",
+      "intent": "Vertaile Tallinkin ja Viking Linen laevapiletien hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laevapiletid.ee",
+      "intent": "Selvitä miten varata laevapilettejä sõiduautolle"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laevapiletid.ee",
+      "intent": "Tee varaus laevapiletille ja sõiduautolle Helsingistä Tallinnaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laevapiletid.ee",
+      "intent": "Muuta aiemmin tehtyä varauksen laevapiletin päivämäärää"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laevapiletid.ee",
+      "intent": "Tulosta aiemmin tehty laevapiletin varausvahvistus"
+    }
+  ]
+}

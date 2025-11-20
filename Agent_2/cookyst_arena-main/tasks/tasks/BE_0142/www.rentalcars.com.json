@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rentalcars.com",
+      "intent": "Rechercher une location de voiture pour un week-end à Paris"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rentalcars.com",
+      "intent": "Comparer les prix de location de voitures entre différentes agences à Bruxelles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rentalcars.com",
+      "intent": "Lire les avis des clients sur les différentes agences de location de voitures"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rentalcars.com",
+      "intent": "Réserver une location de voiture pour un voyage d'affaires à Strasbourg"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rentalcars.com",
+      "intent": "Gérer mes réservations de location de voitures pour les prochaines semaines"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rentalcars.com",
+      "intent": "Annuler une réservation de location de voiture pour un voyage annulé"
+    }
+  ]
+}

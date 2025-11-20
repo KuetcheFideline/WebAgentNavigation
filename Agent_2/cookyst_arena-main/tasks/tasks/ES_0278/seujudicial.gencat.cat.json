@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seujudicial.gencat.cat",
+      "intent": "Buscar información sobre los derechos de los ciudadanos en la justicia catalana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seujudicial.gencat.cat",
+      "intent": "Consultar el calendario de días inhábiles para planificar mis asuntos legales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seujudicial.gencat.cat",
+      "intent": "Encontrar información sobre cómo obtener asesoramiento jurídico gratuito"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seujudicial.gencat.cat",
+      "intent": "Acceder a la extranet del profesional para gestionar mis casos legales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seujudicial.gencat.cat",
+      "intent": "Solicitar un certificado digital para realizar trámites electrónicos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seujudicial.gencat.cat",
+      "intent": "Consultar el estado de mis solicitudes y trámites en curso"
+    }
+  ]
+}

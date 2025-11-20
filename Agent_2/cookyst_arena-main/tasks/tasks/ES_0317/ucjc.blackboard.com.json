@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ucjc.blackboard.com",
+      "intent": "Explorar la página de inicio para conocer las funcionalidades de Blackboard Learn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ucjc.blackboard.com",
+      "intent": "Buscar información sobre cómo habilitar JavaScript en el navegador para utilizar la aplicación Blackboard"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ucjc.blackboard.com",
+      "intent": "Leer sobre la autenticación de múltiples factores y su importancia para la seguridad de la cuenta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ucjc.blackboard.com",
+      "intent": "Configurar la autenticación de múltiples factores para agregar una capa adicional de seguridad a la cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ucjc.blackboard.com",
+      "intent": "Acceder a los cursos y materiales de estudio disponibles en la plataforma de Blackboard Learn"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ucjc.blackboard.com",
+      "intent": "Enviar un mensaje al equipo de soporte de Alumnos360 para resolver un problema técnico con la cuenta"
+    }
+  ]
+}

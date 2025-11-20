@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ukrinform.net",
+      "intent": "Rechercher des informations sur la situation actuelle en Ukraine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ukrinform.net",
+      "intent": "Lire les dernières nouvelles sur la guerre en Ukraine"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ukrinform.net",
+      "intent": "Explorer les différentes sections du site, notamment la rubrique 'War' et 'Economy'"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ukrinform.net",
+      "intent": "S'abonner à la newsletter pour recevoir des mises à jour régulières sur l'actualité ukrainienne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ukrinform.net",
+      "intent": "Télécharger des photos de la photobanque pour utiliser dans des présentations ou des articles"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ukrinform.net",
+      "intent": "Contacter l'équipe de rédaction pour proposer un article ou une idée de reportage"
+    }
+  ]
+}

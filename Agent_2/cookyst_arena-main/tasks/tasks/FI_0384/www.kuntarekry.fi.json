@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Hae työpaikkoja Savonlinnassa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Selaa työnhakuvinkkejä ja artikkeleita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tutustu työnantajiin ja etsi työpaikkoja Etelä-Savon alueella"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Lähetä avoin hakemus työnantajalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tallenna työpaikkoja suosikkeihin ja seuraa niiden tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Vastaa työnhakuun liittyviin kyselyihin ja arvioi työnantajia"
+    }
+  ]
+}

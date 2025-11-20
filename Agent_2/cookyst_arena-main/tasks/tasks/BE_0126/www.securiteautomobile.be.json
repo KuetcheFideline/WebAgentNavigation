@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.securiteautomobile.be",
+      "intent": "Je veux prendre rendez-vous pour un contrôle technique de ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.securiteautomobile.be",
+      "intent": "Je cherche à obtenir des informations sur les heures d'ouverture des stations de contrôle technique"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.securiteautomobile.be",
+      "intent": "Je veux savoir quels sont les documents nécessaires pour passer l'examen de conduite"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.securiteautomobile.be",
+      "intent": "Je veux consulter mes rendez-vous précédents pour les contrôles techniques de ma voiture"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.securiteautomobile.be",
+      "intent": "Je veux modifier mes informations personnelles pour être sûr que mes données sont à jour"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.securiteautomobile.be",
+      "intent": "Je veux imprimer ma carte de contrôle technique pour avoir une preuve de la validité de mon véhicule"
+    }
+  ]
+}

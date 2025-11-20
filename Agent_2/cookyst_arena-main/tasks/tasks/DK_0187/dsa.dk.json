@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dsa.dk",
+      "intent": "Jeg søger efter information om medlemsfordele og rabatter på hjemmesiden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dsa.dk",
+      "intent": "Jeg ønsker at læse mere om karriereafklaring og jobsøgning på siden"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dsa.dk",
+      "intent": "Jeg vil se, hvad der er tilbudt i medlemsshoppen og købe mærkevarer til nedsatte priser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dsa.dk",
+      "intent": "Jeg ønsker at downloade Jobapp'en og få adgang til min personlige jobportal"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dsa.dk",
+      "intent": "Jeg søger efter hjælp til at rekruttere nye medarbejdere og vil kontakte Jobmatch Team"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dsa.dk",
+      "intent": "Jeg vil bruge Mentor, den specialudviklede AI, til at få inspiration og retning på min ansøgning"
+    }
+  ]
+}

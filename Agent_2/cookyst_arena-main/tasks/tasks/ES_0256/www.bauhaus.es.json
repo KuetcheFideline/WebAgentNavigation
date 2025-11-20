@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bauhaus.es",
+      "intent": "Buscar productos de decoración para mi habitación en la sección de Decoración y Jardín"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bauhaus.es",
+      "intent": "Comparar los precios de diferentes herramientas de bricolaje en la sección de Bricolaje"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bauhaus.es",
+      "intent": "Explorar la sección de Ofertas y descubrir productos con descuentos en la página de inicio"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bauhaus.es",
+      "intent": "Verificar el estado de mis pedidos y reservas en la sección de Mi cuenta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bauhaus.es",
+      "intent": "Agregar productos a mi lista de favoritos y guardarlos para una compra futura"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bauhaus.es",
+      "intent": "Editar mis datos personales y actualizar mi dirección de entrega en la sección de Mi cuenta"
+    }
+  ]
+}

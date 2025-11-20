@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shop.tartes.be",
+      "intent": "Découvrir les différentes catégories de tartes proposées par le site, notamment les tartes sucrées et salées, pour trouver une idée de gâteau d'anniversaire pour ma famille."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shop.tartes.be",
+      "intent": "Rechercher des tartes sans gluten pour une amie qui a des restrictions alimentaires, en utilisant le filtre de recette sans gluten proposé par le site."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shop.tartes.be",
+      "intent": "Consulter les informations de livraison pour savoir si le site propose une livraison à domicile à Alost, et quelles sont les options de livraison disponibles."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shop.tartes.be",
+      "intent": "Ajouter une tarte au chocolat à mon panier d'achat pour la commander en ligne, en profitant de mon compte personnel pour accéder à mes informations de livraison et de paiement enregistrées."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shop.tartes.be",
+      "intent": "Consulter mon historique de commandes pour retrouver une tarte que j'ai déjà achetée et que je souhaite commander à nouveau, en utilisant mon compte personnel pour accéder à mes commandes précédentes."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shop.tartes.be",
+      "intent": "Modifier mes informations de compte, notamment mon adresse de livraison, pour que mes prochaines commandes soient livrées à mon nouvelle adresse à Alost."
+    }
+  ]
+}

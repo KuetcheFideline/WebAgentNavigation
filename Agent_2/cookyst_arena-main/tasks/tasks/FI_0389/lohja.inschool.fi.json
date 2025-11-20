@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Selvittelen, miten voin muuttaa kieltä suomeksi, jotta voin navigoida sivustolla helpommin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Etsin Wilman käyttöohjeita ja usein kysyttyjä kysymyksiä, jotta voin ymmärtää sivuston toiminnan paremmin."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan, että minun käyttäjätunnus ja salasanani ovat oikein."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Tarkistan poissaolojen ja arvioiden tilan, jotta voin seurata opiskelijan etenemistä ja tarvittaessa ottaa yhteyttä opettajiin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Viestin opettajalle tai huoltajalle, jotta voin keskustella opiskelijan edistymisestä ja mahdollisista ongelmista."
+    }
+  ]
+}

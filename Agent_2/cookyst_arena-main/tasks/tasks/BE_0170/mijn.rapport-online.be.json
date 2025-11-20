@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mijn.rapport-online.be",
+      "intent": "Je veux consulter les informations générales sur le site pour comprendre les services proposés."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mijn.rapport-online.be",
+      "intent": "Je souhaite visionner la vidéo présente sur la page d'accueil pour avoir une idée plus claire des fonctionnalités du site."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mijn.rapport-online.be",
+      "intent": "Je vais chercher les liens de contact ou les coordonnées pour pouvoir poser des questions avant de créer un compte ou de me connecter."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mijn.rapport-online.be",
+      "intent": "Je vais consulter mes rapports en ligne pour suivre l'évolution de mes données et prendre des décisions éclairées."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mijn.rapport-online.be",
+      "intent": "Je souhaite personnaliser mes paramètres de compte pour améliorer la sécurité et la confidentialité de mes informations."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mijn.rapport-online.be",
+      "intent": "Je vais télécharger des documents ou des rapports pour les archiver ou les partager avec mon conjoint ou mes enfants."
+    }
+  ]
+}

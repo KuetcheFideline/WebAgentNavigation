@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.thalys.com",
+      "intent": "Rechercher des billets de train pour un voyage de Bruxelles à Paris en classe affaires"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.thalys.com",
+      "intent": "Comparer les prix des billets de train pour un voyage de Londres à Amsterdam en fonction des différentes classes de service"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.thalys.com",
+      "intent": "Explorer les offres de vacances et les forfaits de train et hôtel pour un séjour à Londres"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.thalys.com",
+      "intent": "Gérer mes réservations de train et imprimer mes billets pour un prochain voyage"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.thalys.com",
+      "intent": "Utiliser mes points de fidélité pour réserver un billet de train pour un voyage de Bruxelles à Paris"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.thalys.com",
+      "intent": "Consulter mon historique de réservations et mes points de fidélité pour planifier mes prochains voyages"
+    }
+  ]
+}

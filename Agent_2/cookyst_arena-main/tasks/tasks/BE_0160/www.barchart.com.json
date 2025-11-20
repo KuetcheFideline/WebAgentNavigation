@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.barchart.com",
+      "intent": "Rechercher les prix actuels des matières premières agricoles pour évaluer les tendances du marché"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.barchart.com",
+      "intent": "Explorer les outils et les ressources disponibles pour les investisseurs et les traders sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.barchart.com",
+      "intent": "Lire les actualités et les analyses de marché pour rester informé sur les derniers développements économiques"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.barchart.com",
+      "intent": "Configurer mon tableau de bord personnalisé pour suivre les marchés et les actifs qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.barchart.com",
+      "intent": "Gérer mes alertes et mes notifications pour rester informé des mouvements de marché importants"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.barchart.com",
+      "intent": "Analyser mes performances de trading et ajuster ma stratégie en conséquence"
+    }
+  ]
+}

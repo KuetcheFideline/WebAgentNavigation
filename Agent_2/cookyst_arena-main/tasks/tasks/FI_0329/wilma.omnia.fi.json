@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wilma.omnia.fi",
+      "intent": "Tutkin uuden Wilman osoitteen ja siirryn sisältöön"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wilma.omnia.fi",
+      "intent": "Etsin tietoa Omnian koulutuskalenterista ja ilmoittautumisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wilma.omnia.fi",
+      "intent": "Selvittelen miten Wilman huoltajatunnusten luonti toimii uudessa osoitteessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wilma.omnia.fi",
+      "intent": "Kirjaudun sisään ja tarkistan omat koulutusilmoittautumiseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wilma.omnia.fi",
+      "intent": "Tarkistan ja päivitän omat tiedot Wilman järjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wilma.omnia.fi",
+      "intent": "Ilmoittaudun uusiin koulutuksiin ja kurssien muutoksiin"
+    }
+  ]
+}

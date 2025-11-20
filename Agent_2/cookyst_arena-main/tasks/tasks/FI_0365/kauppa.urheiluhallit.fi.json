@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kauppa.urheiluhallit.fi",
+      "intent": "Selata ryhmäliikuntatunteja ja vertailla eri vaihtoehtoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kauppa.urheiluhallit.fi",
+      "intent": "Etsiä tietoa uimakouluista ja vauvauintitunneista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kauppa.urheiluhallit.fi",
+      "intent": "Katsella tapahtumakalenteria ja etsiä liikunnallisia tapahtumia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kauppa.urheiluhallit.fi",
+      "intent": "Varata ryhmäliikuntatunti ja maksaa sen verkkomaksulla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kauppa.urheiluhallit.fi",
+      "intent": "Ostaa kausikortti kuntosaliin ja konfiguroida sen omiin tarpeisiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kauppa.urheiluhallit.fi",
+      "intent": "Varata sulkapallovuoro ja kirjautua sisään varaukseen"
+    }
+  ]
+}

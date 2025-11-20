@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kyyti.finna.fi",
+      "intent": "Hae uusimmat lastenkirjat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kyyti.finna.fi",
+      "intent": "Selaa Kouvolan pääkirjaston aineistoa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kyyti.finna.fi",
+      "intent": "Lue tietoa Kyyti-kirjastojen käyttösäännöistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kyyti.finna.fi",
+      "intent": "Tee uusi lainauspyyntö"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kyyti.finna.fi",
+      "intent": "Muuta omia yhteystietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kyyti.finna.fi",
+      "intent": "Tilaa kaukolaina"
+    }
+  ]
+}

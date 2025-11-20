@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bitiba.fi",
+      "intent": "Hae koiran kuivaruokaa Royal Canin merkillä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bitiba.fi",
+      "intent": "Selaa kissojen tarvikkeita, erityisesti kissanhiekkaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bitiba.fi",
+      "intent": "Etsi tietoa koiran erikoisravinnosta, kuten Forza 10"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bitiba.fi",
+      "intent": "Tee uudelleenosto koiran ruoasta, jonka olen aiemmin ostanut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bitiba.fi",
+      "intent": "Lisää koiranlelu ostoskoriin ja siirry kassalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bitiba.fi",
+      "intent": "Tarkista tilaustani ja seuraa lähetyksen etenemistä"
+    }
+  ]
+}

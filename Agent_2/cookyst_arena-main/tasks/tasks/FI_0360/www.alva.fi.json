@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.alva.fi",
+      "intent": "Tarkistaa veden, sähkön ja lämmön hinnat vuodelle 2026"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.alva.fi",
+      "intent": "Etsiä tietoa etäluettavien vesimittareiden vaihtamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.alva.fi",
+      "intent": "Lukea uutisia Alvan vedenjakelun häiriöistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.alva.fi",
+      "intent": "Tarkistaa omat laskut ja maksaa niitä verkkopalvelun kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.alva.fi",
+      "intent": "Ilmoittaa vesimittarilukema verkkopalvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.alva.fi",
+      "intent": "Tee sähkösopimus verkkopalvelun kautta"
+    }
+  ]
+}

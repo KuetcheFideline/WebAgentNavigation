@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kyyti.emagz.fi",
+      "intent": "Etsin lehtiä aiheesta pelaaminen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kyyti.emagz.fi",
+      "intent": "Haluan lukea uusimmat sanomalehdet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kyyti.emagz.fi",
+      "intent": "Tutkin aikakauslehtiä, joissa on artikkeleita someen liittyvistä aiheista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kyyti.emagz.fi",
+      "intent": "Lisään lehti 'Pelaaminen' suosikkeihini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kyyti.emagz.fi",
+      "intent": "Tallennan artikkelin 'Uusimmat pelit' lukulistalle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kyyti.emagz.fi",
+      "intent": "Kommentoin artikkelia 'Pelaamisen vaikutus terveyteen'"
+    }
+  ]
+}

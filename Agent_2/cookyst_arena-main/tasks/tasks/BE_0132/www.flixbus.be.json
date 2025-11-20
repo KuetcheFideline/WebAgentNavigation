@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flixbus.be",
+      "intent": "Rechercher des itinéraires de bus pour un voyage entre Bruxelles et Amsterdam"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flixbus.be",
+      "intent": "Consulter les informations sur les services à bord des bus, notamment la disponibilité de la connexion Wi-Fi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flixbus.be",
+      "intent": "Explorer les destinations proposées par FlixBus en Belgique et en Europe"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flixbus.be",
+      "intent": "Gérer mes réservations de bus et imprimer mes tickets de voyage"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flixbus.be",
+      "intent": "Modifier mes informations personnelles et de paiement dans mon compte FlixBus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flixbus.be",
+      "intent": "Consulter l'historique de mes voyages et mes réservations passées sur FlixBus"
+    }
+  ]
+}

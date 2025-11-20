@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Tutkin Wilman etusivun uutisia ja tietoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Selvittelen miten Wilma toimii ja mitä se tarjoaa opiskelijoille ja huoltajille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Etsin tietoa Wilman käyttämisestä ja sen eduista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Tarkastan lasteni poissaoloja ja suorituksia Wilman kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Viestin opettajalle lasteni opiskeluista ja edistymisestä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://joensuu.inschool.fi",
+      "intent": "Tarkastan ja päivitän lasteni henkilötietoja Wilman kautta"
+    }
+  ]
+}

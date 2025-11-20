@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.forest-national.be",
+      "intent": "Je veux consulter le calendrier des événements pour savoir quels concerts sont prévus dans les prochaines semaines."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.forest-national.be",
+      "intent": "Je souhaite en savoir plus sur les options de mobilité pour me rendre au Forest National en vue d'un prochain concert."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.forest-national.be",
+      "intent": "Je veux explorer les différentes salles et lieux proposés par le site pour découvrir de nouveaux endroits où assister à des spectacles."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.forest-national.be",
+      "intent": "Je veux acheter des billets pour le concert de Nawell Madani après m'être connecté à mon compte pour bénéficier de tarifs préférentiels."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.forest-national.be",
+      "intent": "Je souhaite configurer mes préférences de notification pour recevoir des alertes sur les prochains concerts de mes artistes préférés après avoir accédé à mon compte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.forest-national.be",
+      "intent": "Je veux consulter l'historique de mes commandes pour voir quels billets j'ai déjà achetés et quand les concerts auront lieu après m'être connecté."
+    }
+  ]
+}

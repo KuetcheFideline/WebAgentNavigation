@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pohjolanmatka.fi",
+      "intent": "Hae bussiliikenteen aikatauluja Helsingin ja Kustavin välillä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pohjolanmatka.fi",
+      "intent": "Selaa ryhmämatkojen tarjontaa Pohjolan Matkan sivustolla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pohjolanmatka.fi",
+      "intent": "Lue lisää Pohjolan Matkan tilausajopalveluista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pohjolanmatka.fi",
+      "intent": "Tee varaus bussiliikenteen matkalle kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pohjolanmatka.fi",
+      "intent": "Muokkaa olemassa olevaa varausta kirjautuneena käyttäjänä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pohjolanmatka.fi",
+      "intent": "Tarkastele omaa matkailuhistoriaa ja -tilastoja kirjautuneena käyttäjänä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nation.africa",
+      "intent": "Lue uusimmat uutiset Afrikasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nation.africa",
+      "intent": "Etsi tietoa Kenian taloudesta ja liiketoiminnasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nation.africa",
+      "intent": "Selaa Diasporan sivuja ja etsi tietoa ulkomailla asuvista kenialaisista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nation.africa",
+      "intent": "Tilaa Nation.African uutiskirje ja hallinnoi tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nation.africa",
+      "intent": "Lue premium-sisältöä ja kommentoi uutisaiheita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nation.africa",
+      "intent": "Muokkaa profiiliaani ja tarkista tilaustietoni"
+    }
+  ]
+}

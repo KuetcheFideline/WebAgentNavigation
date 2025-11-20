@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dosfarma.com",
+      "intent": "Quiero verificar mi conexión segura para acceder a la página de inicio de Dosfarma."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dosfarma.com",
+      "intent": "Necesito completar el captcha para verificar que soy un visitante real y continuar con mi búsqueda de productos farmacéuticos."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dosfarma.com",
+      "intent": "Deseo explorar la página de inicio de Dosfarma para encontrar información sobre los productos y servicios que ofrecen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dosfarma.com",
+      "intent": "Quiero acceder a mi cuenta de Dosfarma para ver mis pedidos anteriores y realizar un nuevo pedido de medicamentos."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dosfarma.com",
+      "intent": "Necesito configurar mis preferencias de cuenta para recibir notificaciones sobre los productos que me interesan y obtener descuentos exclusivos."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dosfarma.com",
+      "intent": "Deseo realizar una consulta con un farmacéutico en línea para obtener asesoramiento sobre el tratamiento de una condición médica y recibir recomendaciones de productos."
+    }
+  ]
+}

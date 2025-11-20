@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://djm.asimut.net",
+      "intent": "Jeg søger efter information omkring studiejob muligheder på siden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://djm.asimut.net",
+      "intent": "Jeg vil gerne læse om nyheder og begivenheder på Aalborg Universitet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://djm.asimut.net",
+      "intent": "Jeg ønsker at finde kontaktoplysninger for studenterådgivere på Aalborg Universitet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://djm.asimut.net",
+      "intent": "Jeg skal tjekke mine studieplaner og eksamensresultater på min personlige side"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://djm.asimut.net",
+      "intent": "Jeg vil gerne ændre mine personlige oplysninger og adresse på min brugerprofil"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://djm.asimut.net",
+      "intent": "Jeg søger efter muligheder for at tilmelde mig kurser og arrangementer på universitetet"
+    }
+  ]
+}

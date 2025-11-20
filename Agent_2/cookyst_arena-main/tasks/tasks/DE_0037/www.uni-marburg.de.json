@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uni-marburg.de",
+      "intent": "Ich möchte Informationen über das Studienangebot der Philipps-Universität Marburg finden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uni-marburg.de",
+      "intent": "Ich will die Seite 'Forschung' besuchen, um mehr über die Forschungsprojekte der Universität zu erfahren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uni-marburg.de",
+      "intent": "Ich möchte die Kontaktinformationen der Universitätsbibliothek finden, um Bücher auszuleihen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uni-marburg.de",
+      "intent": "Ich will mich in mein Studentenaccount einloggen, um meine Studienleistungen zu überprüfen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uni-marburg.de",
+      "intent": "Ich möchte die Lernplattform ILIAS besuchen, um meine Kursmaterialien herunterzuladen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uni-marburg.de",
+      "intent": "Ich will meine Studienfinanzierung überprüfen und gegebenenfalls Anträge stellen."
+    }
+  ]
+}

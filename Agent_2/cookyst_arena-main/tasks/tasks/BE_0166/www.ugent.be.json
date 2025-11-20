@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ugent.be",
+      "intent": "Rechercher les formations disponibles pour les adultes en réinsertion professionnelle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ugent.be",
+      "intent": "Consulter les actualités sur les recherches menées par l'université dans le domaine de la réinsertion professionnelle"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ugent.be",
+      "intent": "Explorer les ressources proposées par l'université pour les personnes en situation de préretraite"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ugent.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes inscriptions aux formations et mes résultats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ugent.be",
+      "intent": "Modifier mes informations personnelles et mes préférences dans mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ugent.be",
+      "intent": "Inscrire à une formation continue pour améliorer mes compétences professionnelles"
+    }
+  ]
+}

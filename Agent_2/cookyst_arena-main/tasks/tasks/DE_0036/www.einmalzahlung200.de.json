@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.einmalzahlung200.de",
+      "intent": "Ich möchte die Kontaktinformationen des Bundesministeriums für Bildung und Forschung überprüfen, um eventuell eine Anfrage zu stellen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.einmalzahlung200.de",
+      "intent": "Ich will die Seite nach Informationen über Wartungsarbeiten und deren Dauer durchsuchen, um zu wissen, wann die Seite wieder verfügbar ist."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.einmalzahlung200.de",
+      "intent": "Ich möchte den Link 'Direkt zum Inhalt' verwenden, um zu sehen, ob es trotz der Wartungsarbeiten Zugang zu bestimmten Inhalten gibt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.einmalzahlung200.de",
+      "intent": "Ich möchte mich anmelden, um meine persönlichen Einstellungen zu überprüfen und sicherzustellen, dass meine Kontaktdaten aktuell sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.einmalzahlung200.de",
+      "intent": "Ich will nach dem Anmelden die Seite nach spezifischen Ressourcen oder Informationen suchen, die nur für angemeldete Benutzer verfügbar sind."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.einmalzahlung200.de",
+      "intent": "Ich möchte mich anmelden, um eventuell eine Nachricht an das Bundesministerium für Bildung und Forschung zu senden, um Informationen über bestimmte Programme oder Förderungen zu erhalten."
+    }
+  ]
+}

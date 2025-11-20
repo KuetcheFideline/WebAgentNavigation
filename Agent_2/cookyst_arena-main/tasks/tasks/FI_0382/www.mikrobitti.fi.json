@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mikrobitti.fi",
+      "intent": "Luen uusimmat artikkelit Mikrobitin etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mikrobitti.fi",
+      "intent": "Etsin tietoa Linux-käyttöjärjestelmistä Mikrobitin sivustolta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mikrobitti.fi",
+      "intent": "Selailen Mikrobitin tuoreimmat uutiset ja trendit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mikrobitti.fi",
+      "intent": "Luin tilaajien artikkeleita ja kommentoin niitä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mikrobitti.fi",
+      "intent": "Tilaa Mikrobitti-lehti ja hallinoidan tilaajani asetuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mikrobitti.fi",
+      "intent": "Osallistun keskusteluihin Mikrobitin foorumilla"
+    }
+  ]
+}

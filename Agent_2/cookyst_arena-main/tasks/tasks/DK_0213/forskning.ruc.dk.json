@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forskning.ruc.dk",
+      "intent": "Jeg søger efter information om forskningsprojekter på Roskilde Universitet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forskning.ruc.dk",
+      "intent": "Jeg ønsker at læse om de seneste nyheder og pressemeddelelser fra universitetet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forskning.ruc.dk",
+      "intent": "Jeg vil gerne finde kontaktoplysninger for en bestemt forsker eller afdeling på universitetet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forskning.ruc.dk",
+      "intent": "Jeg skal tilføje en ny publikation til min forskerprofil på universitetets hjemmeside"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forskning.ruc.dk",
+      "intent": "Jeg ønsker at redigere mine personlige oplysninger og profilinformationer på universitetets hjemmeside"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forskning.ruc.dk",
+      "intent": "Jeg skal downloade en rapport eller en artikel, som kræver adgang til universitetets intranet"
+    }
+  ]
+}

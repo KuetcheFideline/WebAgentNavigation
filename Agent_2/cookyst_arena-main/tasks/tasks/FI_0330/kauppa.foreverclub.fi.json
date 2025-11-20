@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kauppa.foreverclub.fi",
+      "intent": "Tarkistaa, milloin sivusto on jälleen käytössä, jotta voin tehdä ostoksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kauppa.foreverclub.fi",
+      "intent": "Etsiä tietoa siitä, mitä tuotteita sivusto tarjoaa, kun se on taas avoinna"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kauppa.foreverclub.fi",
+      "intent": "Katsoa, onko sivustolla jotain uutisia tai päivityksiä huoltokatkon aikana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kauppa.foreverclub.fi",
+      "intent": "Tarkistaa, onko minulla olemassa olevia tilauksia, jotka vaativat toimia huoltokatkon jälkeen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kauppa.foreverclub.fi",
+      "intent": "Muuttaa tilaustani tiedostoja, jos tarpeen, kun sivusto on jälleen käytössä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kauppa.foreverclub.fi",
+      "intent": "Tarkistaa, onko minun asiakastililläni tarjouksia tai alennuksia, jotka ovat voimassa, kun sivusto avautuu uudelleen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuki.tori.fi",
+      "intent": "Hae tukisivustolta ohjeita siitä, miten voin muokata ilmoitukseni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuki.tori.fi",
+      "intent": "Lue artikkeleita siitä, miten voin tehdä turvallisen kaupankäynnin Torissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuki.tori.fi",
+      "intent": "Etsi tietoa siitä, miten voin käyttää Tori-sovellusta puhelimessani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuki.tori.fi",
+      "intent": "Tarkista tilini tiedot ja varmista, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuki.tori.fi",
+      "intent": "Muokkaa ilmoitukseni ja lisää siihen uusia kuvia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuki.tori.fi",
+      "intent": "Vastaa viesteihin, jotka olen saanut ilmoitukseni koskien"
+    }
+  ]
+}

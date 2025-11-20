@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.como.fi",
+      "intent": "Luen uusimmat viihdeuutiset sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.como.fi",
+      "intent": "Etsin tietoa suomalaisista tv-ohjelmista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.como.fi",
+      "intent": "Selailen sivuston elokuvauutisia ja arvosteluja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.como.fi",
+      "intent": "Kirjaudun sisään ja kommentoin uusimpia viihdeuutisia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.como.fi",
+      "intent": "Luen ja vastaan uusimpiin keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.como.fi",
+      "intent": "Tallennan suosikkejani ja seuraan lempiuutissarjoja"
+    }
+  ]
+}

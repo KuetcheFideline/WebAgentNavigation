@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://newsbreak.dk",
+      "intent": "Jeg søger efter nyheder om det seneste i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://newsbreak.dk",
+      "intent": "Jeg ønsker at læse om de mest læste nyheder på Nyheder.dk"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://newsbreak.dk",
+      "intent": "Jeg vil se, hvad der sker i verden uden for Danmark"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://newsbreak.dk",
+      "intent": "Jeg ønsker at kommentere på en artikel om en vigtig begivenhed"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://newsbreak.dk",
+      "intent": "Jeg vil gemme en artikel om en interessant emne til senere læsning"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://newsbreak.dk",
+      "intent": "Jeg søger efter en måde at få personlige nyhedsopdateringer på min hjemmeside"
+    }
+  ]
+}

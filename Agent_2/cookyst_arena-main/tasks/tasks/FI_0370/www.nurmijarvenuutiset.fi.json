@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nurmijarvenuutiset.fi",
+      "intent": "Luen uusimmat uutiset Nurmijärven alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nurmijarvenuutiset.fi",
+      "intent": "Etsin tietoa paikallisten yritysten tarjoamista palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nurmijarvenuutiset.fi",
+      "intent": "Selailen sivuston kulttuuriosiota ja etsin tietoa tulevista tapahtumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nurmijarvenuutiset.fi",
+      "intent": "Kirjaudun sisään ja kommentoin viimeisintä uutisartikkelia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nurmijarvenuutiset.fi",
+      "intent": "Lähetän juttuvinkin paikalliseen uutisointiin liittyen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nurmijarvenuutiset.fi",
+      "intent": "Tilaan uutiskirjeen, jotta saan päivittäin tärkeimmät paikalliset uutiset"
+    }
+  ]
+}

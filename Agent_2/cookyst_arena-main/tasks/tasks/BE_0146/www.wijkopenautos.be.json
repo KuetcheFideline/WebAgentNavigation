@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.wijkopenautos.be",
+      "intent": "Je veux vendre ma voiture et je cherche à obtenir une estimation gratuite de sa valeur sur le site wijkopenautos.be"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.wijkopenautos.be",
+      "intent": "J'ai besoin de comparer les prix de différents modèles de voitures pour prendre une décision éclairée avant de vendre la mienne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.wijkopenautos.be",
+      "intent": "Je souhaite en savoir plus sur les différents services proposés par wijkopenautos.be, tels que la taxe et la vente de voitures"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.wijkopenautos.be",
+      "intent": "Je veux accéder à mon compte pour suivre l'état de ma demande de vente de voiture et obtenir des mises à jour sur le processus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.wijkopenautos.be",
+      "intent": "J'ai besoin de modifier mes informations personnelles et de voiture dans mon compte pour assurer que tout est à jour pour la vente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.wijkopenautos.be",
+      "intent": "Je souhaite consulter l'historique de mes ventes de voitures précédentes et les évaluations que j'ai reçues pour mieux comprendre le processus"
+    }
+  ]
+}

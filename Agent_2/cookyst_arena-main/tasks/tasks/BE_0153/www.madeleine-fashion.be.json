@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.madeleine-fashion.be",
+      "intent": "Rechercher des robes pour une soirée de gala en utilisant la fonction de recherche du site"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.madeleine-fashion.be",
+      "intent": "Comparer les prix et les tailles des blazers pour femmes dans la section 'Blazers & colberts'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.madeleine-fashion.be",
+      "intent": "Explorer la section 'Nouveautés' pour découvrir les dernières tendances de la mode féminine"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.madeleine-fashion.be",
+      "intent": "Ajouter un article à la liste de souhaits pour plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.madeleine-fashion.be",
+      "intent": "Vérifier l'historique des commandes pour suivre l'état d'une commande en cours"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.madeleine-fashion.be",
+      "intent": "Modifier les informations de compte, notamment l'adresse e-mail et le mot de passe"
+    }
+  ]
+}

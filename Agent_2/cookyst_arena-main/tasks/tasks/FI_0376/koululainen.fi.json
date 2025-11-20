@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://koululainen.fi",
+      "intent": "Luen Koululaisen etusivun uutiset ja artikkelit"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://koululainen.fi",
+      "intent": "Selailen Koululaisen viihdeosioita ja katselen videoita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://koululainen.fi",
+      "intent": "Osallistun Koululaisen kilpailuihin ja testaan tietäni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://koululainen.fi",
+      "intent": "Kirjaudun sisään ja tilaan Koululaisen digilehden"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://koululainen.fi",
+      "intent": "Luen Koululaisen näköislehteä ja etsin mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://koululainen.fi",
+      "intent": "Äänestän vuoden lemmikkiä ja osallistun Koululaisen keskusteluihin"
+    }
+  ]
+}

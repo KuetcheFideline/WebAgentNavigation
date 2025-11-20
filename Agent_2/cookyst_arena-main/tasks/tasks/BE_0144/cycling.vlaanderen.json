@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cycling.vlaanderen",
+      "intent": "Rechercher des clubs de cyclisme à proximité de Malines pour me joindre à une communauté de cyclistes"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cycling.vlaanderen",
+      "intent": "Consulter les calendriers de compétition pour planifier mes prochaines sorties à vélo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cycling.vlaanderen",
+      "intent": "Découvrir les avantages du membership pour les cyclistes récréatifs et compétiteurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cycling.vlaanderen",
+      "intent": "Accéder à mon portail personnel pour gérer mes informations de membre et mes inscriptions à des événements"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cycling.vlaanderen",
+      "intent": "Consulter les résultats de mes précédentes compétitions pour analyser mes performances"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cycling.vlaanderen",
+      "intent": "Réserver une place pour un prochain événement cycliste organisé par Cycling Vlaanderen"
+    }
+  ]
+}

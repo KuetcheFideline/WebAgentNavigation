@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://citaparaeldni.es",
+      "intent": "Buscar información sobre cómo pedir cita para obtener el DNI por primera vez"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://citaparaeldni.es",
+      "intent": "Explorar la lista de oficinas de expedición del DNI y Pasaporte en España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://citaparaeldni.es",
+      "intent": "Leer sobre los trámites y documentación requerida para el DNI y Pasaporte"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://citaparaeldni.es",
+      "intent": "Solicitar cita para renovar el DNI electrónico"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://citaparaeldni.es",
+      "intent": "Consultar el estado de mi cita para el DNI y Pasaporte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://citaparaeldni.es",
+      "intent": "Anular una cita previa para el DNI y Pasaporte"
+    }
+  ]
+}

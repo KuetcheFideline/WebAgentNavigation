@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.csic.es",
+      "intent": "Buscar información sobre la compatibilidad del correo electrónico con diferentes navegadores"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.csic.es",
+      "intent": "Leer las características y funcionalidades del servicio de correo electrónico"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.csic.es",
+      "intent": "Verificar la seguridad del servicio de correo electrónico y los avisos de phishing"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.csic.es",
+      "intent": "Configurar la cuenta de correo electrónico para que se ajuste a mis necesidades de trabajo y comunicación"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.csic.es",
+      "intent": "Enviar un correo electrónico a un colega con información importante sobre un proyecto en el que estamos trabajando"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.csic.es",
+      "intent": "Organizar y priorizar los correos electrónicos recibidos para responder a los más urgentes y importantes"
+    }
+  ]
+}

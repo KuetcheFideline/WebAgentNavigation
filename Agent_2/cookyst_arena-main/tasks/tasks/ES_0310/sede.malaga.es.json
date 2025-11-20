@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.malaga.es",
+      "intent": "Quiero buscar información sobre los trámites disponibles en la sede electrónica de la Diputación de Málaga para saber qué servicios puedo utilizar sin necesidad de identificarme."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.malaga.es",
+      "intent": "Necesito acceder a la sección de noticias y actualidad para enterarme de las últimas novedades y proyectos de la Diputación de Málaga."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.malaga.es",
+      "intent": "Deseo consultar la información de contacto y horarios de atención al público para poder comunicarme con el soporte técnico o acudir a la oficina de asistencia si lo necesito."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.malaga.es",
+      "intent": "Quiero acceder a mi carpeta ciudadana para ver el estado de mis expedientes y notificaciones, y así poder gestionar mis trámites de manera más eficiente."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.malaga.es",
+      "intent": "Necesito realizar un trámite específico a través de la sede electrónica, como la modificación de mis datos personales o la solicitud de un certificado, por lo que debo identificarme para acceder a estas funcionalidades."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.malaga.es",
+      "intent": "Deseo consultar y gestionar mis cuentas corrientes y registros personales a través de la sede electrónica, para lo cual debo estar identificado y tener acceso a mis datos personales."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.sataedu.fi",
+      "intent": "Selataan etusivun kalenteria ja etsitään tulevia tapahtumia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.sataedu.fi",
+      "intent": "Etsitään kurssimateriaalia ja opetusmateriaaleja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.sataedu.fi",
+      "intent": "Katsellaan miten kalenteri ja tapahtumat ovat järjestetty"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.sataedu.fi",
+      "intent": "Tarkistetaan omat kurssisuoritukset ja arvosanat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.sataedu.fi",
+      "intent": "Ladataan kurssimateriaaleja ja tehtäviä omalle laitteelle"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.sataedu.fi",
+      "intent": "Vastataan opettajan lähettämiin viesteihin ja kommentteihin"
+    }
+  ]
+}

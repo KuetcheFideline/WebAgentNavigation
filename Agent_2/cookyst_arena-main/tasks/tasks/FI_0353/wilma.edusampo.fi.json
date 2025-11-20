@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://wilma.edusampo.fi",
+      "intent": "Tarkistaa uuden kirjautumisosoitteen edusampo.inschool.fi"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://wilma.edusampo.fi",
+      "intent": "Etsiä tietoa Wilman kirjautumisjärjestelmän muutoksista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://wilma.edusampo.fi",
+      "intent": "Lukea Wilman uusimmat päivitykset ja ilmoitukset"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://wilma.edusampo.fi",
+      "intent": "Tarkistaa omat opetusryhmät ja kurssit Wilman järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://wilma.edusampo.fi",
+      "intent": "Vastata opiskelijoiden viesteihin ja kommentteihin Wilman viestijärjestelmässä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://wilma.edusampo.fi",
+      "intent": "Päivittää opetusmateriaaleja ja tehtäviä Wilman opetusresursseihin"
+    }
+  ]
+}

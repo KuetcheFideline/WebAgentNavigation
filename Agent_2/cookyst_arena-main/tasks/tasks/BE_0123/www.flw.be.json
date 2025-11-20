@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.flw.be",
+      "intent": "Rechercher des associations de logement à proximité de Charleroi pour trouver une aide pour l'achat d'un appartement"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.flw.be",
+      "intent": "Consulter les actualités du Fonds du Logement de Wallonie pour rester informé sur les nouveaux logements sociaux disponibles"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.flw.be",
+      "intent": "Utiliser la fonction de simulation de crédit pour évaluer les possibilités d'obtention d'un prêt pour l'achat d'un logement"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.flw.be",
+      "intent": "Soumettre une demande de prêt pour l'achat d'un appartement après avoir consulté les offres disponibles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.flw.be",
+      "intent": "Consulter les détails de mon compte pour suivre l'état de ma demande de prêt et les conditions de remboursement"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.flw.be",
+      "intent": "Gérer mes informations personnelles et de contact pour assurer que le Fonds du Logement de Wallonie puisse me contacter en cas de besoin"
+    }
+  ]
+}

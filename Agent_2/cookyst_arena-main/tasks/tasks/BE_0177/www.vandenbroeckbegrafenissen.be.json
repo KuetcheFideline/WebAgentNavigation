@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vandenbroeckbegrafenissen.be",
+      "intent": "Rechercher les informations sur les funérariums à Gand pour organiser les funérailles d'un proche"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vandenbroeckbegrafenissen.be",
+      "intent": "Lire les témoignages des familles qui ont utilisé les services de Van den Broeck Begrafenissen pour comprendre leur approche"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vandenbroeckbegrafenissen.be",
+      "intent": "Consulter la page d'accueil pour avoir une vue d'ensemble des services offerts par Van den Broeck Begrafenissen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vandenbroeckbegrafenissen.be",
+      "intent": "Accéder à mon compte pour gérer mes préférences et mes informations personnelles"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vandenbroeckbegrafenissen.be",
+      "intent": "Contacter le service client de Van den Broeck Begrafenissen via mon compte pour poser des questions sur les services funéraires"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vandenbroeckbegrafenissen.be",
+      "intent": "Gérer mes abonnements aux newsletters et aux mises à jour sur les services funéraires de Van den Broeck Begrafenissen"
+    }
+  ]
+}

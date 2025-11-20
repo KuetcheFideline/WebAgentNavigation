@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.allocine.fr",
+      "intent": "Rechercher les films à l'affiche cette semaine pour décider quel film aller voir avec mes amis au cinéma"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.allocine.fr",
+      "intent": "Consulter les actualités cinéma pour rester informé des dernières sorties et des tendances du moment"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.allocine.fr",
+      "intent": "Explorer la section des séries TV pour trouver de nouvelles séries à regarder pendant mon temps libre"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.allocine.fr",
+      "intent": "Créer une liste de films à voir pour pouvoir les retrouver facilement plus tard et partager mes recommandations avec mes amis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.allocine.fr",
+      "intent": "Écrire un commentaire sur un film que j'ai récemment vu pour partager mon avis avec la communauté et aider les autres à choisir un film"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.allocine.fr",
+      "intent": "Personnaliser mes préférences de films pour recevoir des recommandations de films ciblées en fonction de mes goûts"
+    }
+  ]
+}

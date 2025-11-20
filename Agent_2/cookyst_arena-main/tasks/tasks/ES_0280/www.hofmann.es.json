@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hofmann.es",
+      "intent": "Crear un álbum de fotos personalizado para mis hijos con un descuento del 60% en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hofmann.es",
+      "intent": "Buscar regalos originales para mi familia en la sección de regalos personalizados"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hofmann.es",
+      "intent": "Leer las reseñas de otros clientes sobre los productos de Hofmann en la página de inicio"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hofmann.es",
+      "intent": "Acceder a mi cuenta para ver el estado de mi pedido de álbumes de fotos personalizados"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hofmann.es",
+      "intent": "Crear un nuevo proyecto de álbum de fotos en mi cuenta y agregar fotos de mis hijos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hofmann.es",
+      "intent": "Guardar mis proyectos favoritos de álbumes de fotos en mi cuenta para futuras compras"
+    }
+  ]
+}

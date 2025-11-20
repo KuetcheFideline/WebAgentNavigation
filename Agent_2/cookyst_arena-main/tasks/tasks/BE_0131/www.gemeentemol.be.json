@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.gemeentemol.be",
+      "intent": "Je souhaite trouver des informations sur les activités de loisirs disponibles à Mol pour les jeunes adultes."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.gemeentemol.be",
+      "intent": "Vous cherchez à vous inscrire à la newsletter de la commune de Mol pour rester informé sur les événements locaux."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.gemeentemol.be",
+      "intent": "Vous souhaitez signaler un problème de voirie ou de déchets dans votre quartier à la commune de Mol."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.gemeentemol.be",
+      "intent": "Après vous être connecté, vous souhaitez accéder à vos informations personnelles et consulter vos demandes précédentes auprès de la commune de Mol."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.gemeentemol.be",
+      "intent": "Une fois connecté, vous souhaitez modifier vos préférences de notification pour les newsletters et les alertes de la commune de Mol."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.gemeentemol.be",
+      "intent": "Après connexion, vous souhaitez télécharger un document ou un formulaire spécifique lié à vos démarches administratives en cours avec la commune de Mol."
+    }
+  ]
+}

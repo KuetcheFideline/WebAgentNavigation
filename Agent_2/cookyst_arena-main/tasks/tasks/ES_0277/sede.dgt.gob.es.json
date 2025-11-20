@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.dgt.gob.es",
+      "intent": "Consultar información sobre permisos de conducir y sus requisitos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.dgt.gob.es",
+      "intent": "Buscar trámites relacionados con multas de tráfico y cómo pagarlas"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.dgt.gob.es",
+      "intent": "Explorar la sección de exámenes y pruebas para obtener un permiso de conducir"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.dgt.gob.es",
+      "intent": "Acceder a Mi DGT para consultar el estado de mi permiso de conducir"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.dgt.gob.es",
+      "intent": "Solicitar un duplicado de mi permiso de conducir debido a pérdida o robo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.dgt.gob.es",
+      "intent": "Realizar el pago de una multa de tráfico a través de la plataforma de Mi DGT"
+    }
+  ]
+}

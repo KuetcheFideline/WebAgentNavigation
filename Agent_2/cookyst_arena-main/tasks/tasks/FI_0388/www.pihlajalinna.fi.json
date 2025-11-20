@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Haluaisin varata ajan lääkärille, koska minulla on terveysongelmia."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Olen kiinnostunut Pihlajalinnan tarjoamista työterveyspalveluista, haluaisin lukea niistä lisää."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Haluaisin etsiä tietoa Pihlajalinnan eri toimipisteistä ja heidän tarjoamistaan palveluista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Haluaisin tarkastella omaa potilastietojani ja hoitosuunnitelmaani OmaPihlajalinna-palvelussa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Täytän terveydenhuollon asiointilomakkeen, jotta voisin hakea lääkärin vastaanottoa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pihlajalinna.fi",
+      "intent": "Haluaisin muuttaa jo varattua lääkärin vastaanottoaikaa, koska minun ongelmani on muuttunut."
+    }
+  ]
+}

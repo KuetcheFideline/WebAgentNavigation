@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://santasport.fi",
+      "intent": "Hae tietoa talvikauden hiihtomahdollisuuksista Lapin Urheiluopistossa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://santasport.fi",
+      "intent": "Vertaile eri urheilulajien kurssihintoja ja -aikatauluja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://santasport.fi",
+      "intent": "Selvitä, miten voin varata urheiluvälineitä ja -tiloja sivuston kautta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://santasport.fi",
+      "intent": "Kirjaudu sisään ja tee varaus hiihtokurssille seuraavalle viikolle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://santasport.fi",
+      "intent": "Tarkista oma urheiluohjelma ja tee muutoksia tarvittaessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://santasport.fi",
+      "intent": "Lähetä viesti urheiluopiston henkilökunnalle kysymykseni liittyen hiihtokurssin järjestelyihin"
+    }
+  ]
+}

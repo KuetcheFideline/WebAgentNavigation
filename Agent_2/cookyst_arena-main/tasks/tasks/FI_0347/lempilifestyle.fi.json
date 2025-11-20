@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lempilifestyle.fi",
+      "intent": "Hae lahjaideat vaimolleni, joka pitää sisustamisesta ja koristamisesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lempilifestyle.fi",
+      "intent": "Selaa kylpyhuoneen tuotteita ja etsi uusimmat trendit"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lempilifestyle.fi",
+      "intent": "Vertaile eri keittiötuotteiden hintoja ja laatua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lempilifestyle.fi",
+      "intent": "Tilaa uudet sisustusaiheiset tuotteet, joita olen tallentanut toivelistalle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lempilifestyle.fi",
+      "intent": "Arvostele ja kirjoita kommentti tuotteesta, jonka olen äskettäin ostanut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lempilifestyle.fi",
+      "intent": "Tarkista tilausteni tila ja seuraa lähetyksen etenemistä"
+    }
+  ]
+}

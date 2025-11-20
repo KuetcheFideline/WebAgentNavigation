@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campus.umh.es",
+      "intent": "Explorar la página principal del Campus Virtual UMH para conocer las funcionalidades disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campus.umh.es",
+      "intent": "Buscar información sobre el calendario académico de la UMH para planificar mis actividades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campus.umh.es",
+      "intent": "Descargar la aplicación móvil del Campus Virtual UMH para acceder a mis asignaturas y tareas en cualquier momento"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campus.umh.es",
+      "intent": "Acceder a mis asignaturas matriculadas para descargar material docente y entregar tareas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campus.umh.es",
+      "intent": "Realizar un examen en línea a través del Campus Virtual UMH para evaluar mis conocimientos"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campus.umh.es",
+      "intent": "Consultar mis notas y resultados académicos en el Campus Virtual UMH para evaluar mi progreso"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eid.belgium.be",
+      "intent": "Sélectionner la langue française pour accéder aux services eGov de l'Administration fédérale"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eid.belgium.be",
+      "intent": "Lire les informations sur les cookies et les paramètres de confidentialité pour comprendre comment les données personnelles sont utilisées"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eid.belgium.be",
+      "intent": "Rechercher les informations sur les services eGov disponibles pour les citoyens belges, notamment en ce qui concerne les démarches administratives en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eid.belgium.be",
+      "intent": "Accéder à son espace personnel pour gérer ses informations personnelles et suivre les démarches administratives en cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eid.belgium.be",
+      "intent": "Télécharger ou imprimer des documents officiels, tels que des attestations ou des certificats, via le portail eGov"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eid.belgium.be",
+      "intent": "Effectuer des démarches administratives en ligne, comme la déclaration de revenus ou la demande de prestations sociales, en utilisant son compte eGov"
+    }
+  ]
+}

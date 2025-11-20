@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.travellink.fi",
+      "intent": "Etsin halpoja lentoja Helsingistä Pariisiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.travellink.fi",
+      "intent": "Vertailen hotellihintoja Amsterdamissa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.travellink.fi",
+      "intent": "Löydän upeita matkakohteita Travellinkin sivuilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.travellink.fi",
+      "intent": "Tarkastan varaustani ja tulostan tarkastuskortin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.travellink.fi",
+      "intent": "Muutan lentovaraustani ja varaan uuden hotellin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.travellink.fi",
+      "intent": "Lisään matkavakuutuksen olemassaolevaan varaukseeni"
+    }
+  ]
+}

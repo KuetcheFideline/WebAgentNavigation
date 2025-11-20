@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mariemero.be",
+      "intent": "Rechercher des vêtements de la nouvelle collection pour femme"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mariemero.be",
+      "intent": "Comparer les prix et les tailles des robes dans la section 'Shop per categorie FW/25'"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mariemero.be",
+      "intent": "Explorer la section 'LOOKBOOK' pour trouver des inspirations de tenues"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mariemero.be",
+      "intent": "Ajouter un produit à mon panier après avoir consulté mes informations de compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mariemero.be",
+      "intent": "Consulter l'historique de mes commandes pour suivre mes achats précédents"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mariemero.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

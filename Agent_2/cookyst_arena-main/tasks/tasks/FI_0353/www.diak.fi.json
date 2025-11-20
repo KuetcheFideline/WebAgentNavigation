@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.diak.fi",
+      "intent": "Haluaisin lukea Dialogi-verkkolehden uusimmat jutut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.diak.fi",
+      "intent": "Täytän hakemuslomakkeen Diakonia-ammattikorkeakouluun"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.diak.fi",
+      "intent": "Selvitan, mitä asiantuntijapalveluita Diak tarjoaa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.diak.fi",
+      "intent": "Tarkastan opinto-ohjelmaani ja kurssien aikatauluja MyDiak-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.diak.fi",
+      "intent": "Kirjaudun Falcony-turvallisuusraportointiin ilmoittamaan turvallisuusloukkauksesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.diak.fi",
+      "intent": "Luen Opinto-opas-palvelusta tietoa opintojen suorittamisesta"
+    }
+  ]
+}

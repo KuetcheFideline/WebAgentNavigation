@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://schifters.be",
+      "intent": "Je souhaite consulter les dernières actualités sur les concours et les prix sur le site Schifters."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://schifters.be",
+      "intent": "J'ai envie de découvrir les différentes catégories de concours proposés par Schifters, comme les concours de Belgique ou les concours internationaux."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://schifters.be",
+      "intent": "Je veux savoir comment fonctionne le système de gains et de récompenses sur le site Schifters, ainsi que les règles à suivre pour participer."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://schifters.be",
+      "intent": "Maintenant que je suis connecté, je souhaite participer à un concours spécifique qui m'intéresse, comme le concours de la semaine en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://schifters.be",
+      "intent": "Je veux consulter mon profil pour voir mes participations passées aux concours et mes éventuelles récompenses gagnées sur Schifters."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://schifters.be",
+      "intent": "Je souhaite modifier mes préférences de notification pour les concours et les offres spéciales proposées par Schifters, afin de ne recevoir que les informations qui m'intéressent."
+    }
+  ]
+}

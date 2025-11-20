@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://helpanimals.be",
+      "intent": "Découvrir les différentes façons de soutenir l'association Help Animals, comme les dons, les legs et les adhésions."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://helpanimals.be",
+      "intent": "Rechercher des animaux à adopter sur le site et consulter les conditions d'adoption."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://helpanimals.be",
+      "intent": "Consulter les actualités et les événements organisés par l'association Help Animals."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://helpanimals.be",
+      "intent": "Gérer mon compte d'adhérent et consulter mes dons précédents pour soutenir les animaux."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://helpanimals.be",
+      "intent": "Parrainer un animal et suivre les mises à jour sur son état et son bien-être."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://helpanimals.be",
+      "intent": "Consulter et gérer mes informations personnelles pour m'assurer que mes coordonnées sont à jour pour recevoir les newsletters et les mises à jour de l'association."
+    }
+  ]
+}

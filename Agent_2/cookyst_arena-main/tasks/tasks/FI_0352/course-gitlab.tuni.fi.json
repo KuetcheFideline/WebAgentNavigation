@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://course-gitlab.tuni.fi",
+      "intent": "Tutustun kurssien harjoitusten ja harjoitustöiden tekemiseen liittyviin ohjeisiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://course-gitlab.tuni.fi",
+      "intent": "Etsin tietoa siitä, miten kurssien projektit hallitaan Repolaisen kautta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://course-gitlab.tuni.fi",
+      "intent": "Luen kurssin henkilökunnan yhteystietoja, jos minulla on ongelmia kurssin harjoituksissa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://course-gitlab.tuni.fi",
+      "intent": "Kirjaudun sisään kurssi-GitLabiin ja tarkastan kurssien projekteja, joihin minulla on pääsy"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://course-gitlab.tuni.fi",
+      "intent": "Luo uusi projekti kurssin harjoitustöitä varten ja lisään siihen tarvittavat tiedostot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://course-gitlab.tuni.fi",
+      "intent": "Tarkastan kurssien aikatauluja ja deadlineja, jotta voin suunnitella harjoitustöitäni"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laatukoru.fi",
+      "intent": "Etsin lahjaa äidille, joten haluan selata kastelahjat ja nimiäislahjat -osioon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laatukoru.fi",
+      "intent": "Olen kiinnostunut korujen puhdistustuotteista, joten haluan etsiä niitä verkkokaupasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laatukoru.fi",
+      "intent": "Haluan tarkastella Silván-korut -osioon ja etsiä uusimmat mallit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laatukoru.fi",
+      "intent": "Olen jo rekisteröitynyt, joten haluan kirjautua sisään ja tarkastella tilaushistoriaani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laatukoru.fi",
+      "intent": "Haluan muuttaa osoitteeni profiilissani, joten kirjaudun sisään ja päivitän tietoni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laatukoru.fi",
+      "intent": "Olen kiinnostunut uusimmista tarjouksista, joten haluan kirjautua sisään ja tarkastella henkilökohtaisia tarjouksia"
+    }
+  ]
+}

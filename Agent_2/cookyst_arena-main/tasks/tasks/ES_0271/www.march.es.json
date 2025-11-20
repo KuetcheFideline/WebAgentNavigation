@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.march.es",
+      "intent": "Explorar la sección de Canal March para descubrir conferencias y conciertos de interés"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.march.es",
+      "intent": "Buscar información sobre las exposiciones actuales en la Fundación Juan March de Madrid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.march.es",
+      "intent": "Descargar el catálogo de la biblioteca para conocer los fondos de música y teatro disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.march.es",
+      "intent": "Acceder a la sección de Mi cuenta para gestionar mis suscripciones a boletines y newsletters"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.march.es",
+      "intent": "Comprar entradas para un concierto en la Fundación Juan March a través de la tienda en línea"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.march.es",
+      "intent": "Participar en un foro de discusión sobre una exposición en curso en la Fundación Juan March"
+    }
+  ]
+}

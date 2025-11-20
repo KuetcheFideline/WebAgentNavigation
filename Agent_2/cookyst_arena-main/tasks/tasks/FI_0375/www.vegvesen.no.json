@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vegvesen.no",
+      "intent": "Tutkimme sivuston käyttöehdot ja tietosuojakäytäntöjä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vegvesen.no",
+      "intent": "Etsimme tietoa ajoneuvoverojen maksamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vegvesen.no",
+      "intent": "Selvitymme, miten voin muuttaa ajokorttini osoitetta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vegvesen.no",
+      "intent": "Tarkastan ajoneuvoni rekisteröintitiedot ja varmistan, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vegvesen.no",
+      "intent": "Muutan ajoneuvoverojeni maksutapaa ja valitsen uuden maksutavan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vegvesen.no",
+      "intent": "Tulostan ajoneuvoni rekisteröintitodistuksen ja varmistan, että se on voimassa"
+    }
+  ]
+}

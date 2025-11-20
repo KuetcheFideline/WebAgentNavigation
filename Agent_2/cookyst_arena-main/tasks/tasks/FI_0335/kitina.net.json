@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kitina.net",
+      "intent": "Selata Kitinän etusivun uusimmat aiheet ja viestiketjut"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kitina.net",
+      "intent": "Etsiä tietoa Kitinän hakutoiminnolla ohjelmistokehityksestä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kitina.net",
+      "intent": "Lukea Kitinän foorumilta viihdeaiheisia keskusteluja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kitina.net",
+      "intent": "Kirjautua sisään ja vastata mielenkiintoiseen viestiketjuun"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kitina.net",
+      "intent": "Lähettää yksityinen viesti toiselle käyttäjälle Kitinän viestijärjestelmän kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kitina.net",
+      "intent": "Muokata omaa profiilia ja lisätä tietoa itsestään Kitinän käyttäjäprofiiliin"
+    }
+  ]
+}

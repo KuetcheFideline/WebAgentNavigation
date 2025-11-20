@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.helderzienden.be",
+      "intent": "Rechercher un médium pour discuter de mes problèmes de santé chronique"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.helderzienden.be",
+      "intent": "Consulter les horoscopes du jour pour comprendre mon avenir"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.helderzienden.be",
+      "intent": "Lire les témoignages des clients pour évaluer la qualité des services"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.helderzienden.be",
+      "intent": "Créer un compte pour bénéficier d'une consultation gratuite avec un médium"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.helderzienden.be",
+      "intent": "Effectuer un paiement pour une consultation avec un médium"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.helderzienden.be",
+      "intent": "Gérer mon compte pour suivre mes consultations et mes paiements"
+    }
+  ]
+}

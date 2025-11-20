@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://waarnemingen.be",
+      "intent": "Comprendre les raisons pour lesquelles le site utilise Anubis pour protéger contre les scrappeurs et les bots"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://waarnemingen.be",
+      "intent": "Désactiver les plugins de sécurité tels que JShelter pour accéder au contenu du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://waarnemingen.be",
+      "intent": "Rechercher des informations sur la technologie Anubis et son impact sur la navigation web"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://waarnemingen.be",
+      "intent": "Consulter les paramètres de compte pour comprendre comment Anubis affecte mes interactions avec le site"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://waarnemingen.be",
+      "intent": "Signaler un problème avec Anubis pour aider à améliorer l'expérience utilisateur"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://waarnemingen.be",
+      "intent": "Configurer les préférences de confidentialité pour contrôler les données partagées avec Anubis"
+    }
+  ]
+}

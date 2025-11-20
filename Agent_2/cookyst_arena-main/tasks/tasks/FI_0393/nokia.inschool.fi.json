@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nokia.inschool.fi",
+      "intent": "Luen Nokian kaupungin sivistyspalveluiden tiedotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nokia.inschool.fi",
+      "intent": "Selvittänen mitä Wilma on ja miten se toimii"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nokia.inschool.fi",
+      "intent": "Etsin tietoa Nokian lukion kursseista ja opetusohjelmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nokia.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan ja tarkistan poissaolot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nokia.inschool.fi",
+      "intent": "Luen ja vastaan opettajien viesteihin Wilman kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nokia.inschool.fi",
+      "intent": "Tarkistan suorituksiani ja kurssivalintojani Wilman kautta"
+    }
+  ]
+}

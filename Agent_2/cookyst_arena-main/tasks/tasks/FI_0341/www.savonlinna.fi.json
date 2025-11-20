@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.savonlinna.fi",
+      "intent": "Hae Savonlinnan kaupungin viralliselta sivustolta tietoa kaupungin tapahtumista ja aktiviteeteista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.savonlinna.fi",
+      "intent": "Selaa Savonlinnan kaupungin sivustoa etsimään tietoa paikallisista ravintoloista ja baareista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.savonlinna.fi",
+      "intent": "Etsi Savonlinnan kaupungin sivustolta tietoa kaupungin liikuntatiloista ja urheilumahdollisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.savonlinna.fi",
+      "intent": "Kirjaudu Savonlinnan kaupungin sivustolle ja tee ilmoittautuminen kaupungin järjestämään urheilutapahtumaan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.savonlinna.fi",
+      "intent": "Kirjaudu Savonlinnan kaupungin sivustolle ja tee asiointi kaupungin verkkopalvelun kautta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.savonlinna.fi",
+      "intent": "Kirjaudu Savonlinnan kaupungin sivustolle ja tee ilmoittautuminen kaupungin kirjastopalveluihin"
+    }
+  ]
+}

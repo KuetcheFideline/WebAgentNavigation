@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan verkkopalkan etusivun linkkejä ja etsin tietoa verkkopalkan käytöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Selvittelen, miten voin kirjautua verkkopalkkaan verkkopankin kautta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Etsin verkkopalkan sivuilta tietoa työttömyysetuudesta ja sen hakemisesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Tarkastan työttömyysetuuteni tilan ja luen viimeisimmät viestit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Muutan salasanani ja tarkastan profiilini tiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkopalkka.aditrocloud.com",
+      "intent": "Lähetän viestin asiakaspalveluun kysymykseni työttömyysetuudesta"
+    }
+  ]
+}

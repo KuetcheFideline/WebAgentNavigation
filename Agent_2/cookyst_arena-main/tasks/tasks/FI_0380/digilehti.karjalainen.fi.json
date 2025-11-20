@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://digilehti.karjalainen.fi",
+      "intent": "Selataan uusimmat uutiset ja etsitään mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://digilehti.karjalainen.fi",
+      "intent": "Tutkitaan sivuston tarjoamia palveluita ja etsitään tietoa tilausvaihtoehdoista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://digilehti.karjalainen.fi",
+      "intent": "Etsitään tietoa sivuston käyttöehdoista ja tietosuojalausekkeesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://digilehti.karjalainen.fi",
+      "intent": "Kirjaudutaan sisään ja tarkastellaan omia tietoja ja tilaushistoriaa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://digilehti.karjalainen.fi",
+      "intent": "Muokataan tilausvaihtoehtoja ja päivitetään maksutietoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://digilehti.karjalainen.fi",
+      "intent": "Lukitaan ja kommentoidaan mielenkiintoisia artikkeleita ja osallistutaan keskusteluihin"
+    }
+  ]
+}

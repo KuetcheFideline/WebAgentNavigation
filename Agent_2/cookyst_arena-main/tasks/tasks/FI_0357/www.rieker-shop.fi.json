@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rieker-shop.fi",
+      "intent": "Hae naisten nilkkurit ja vertaile niiden hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rieker-shop.fi",
+      "intent": "Selaa talvikengät-osio ja etsi vettä hylkivät kengät"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rieker-shop.fi",
+      "intent": "Lue usein kysytyt kysymykset -osio ja etsi tietoa toimitusehdoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rieker-shop.fi",
+      "intent": "Tilaa juuri ostoskoriin lisättyjen tuotteiden toimitus kotiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rieker-shop.fi",
+      "intent": "Tarkastele tilaushistoriaa ja etsi tietoa aiemmin tilatuista tuotteista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rieker-shop.fi",
+      "intent": "Muuta osoitetietoja ja päivitä profiilia"
+    }
+  ]
+}

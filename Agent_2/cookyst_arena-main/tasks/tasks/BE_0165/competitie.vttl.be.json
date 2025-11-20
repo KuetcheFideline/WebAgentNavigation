@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://competitie.vttl.be",
+      "intent": "Rechercher les résultats des tournois de tennis de table en Belgique pour me tenir au courant des dernières compétitions."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://competitie.vttl.be",
+      "intent": "Consulter le calendrier des tournois à venir pour planifier mes participations futures."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://competitie.vttl.be",
+      "intent": "Explorer les statistiques du site pour avoir une idée de l'évolution du tennis de table en Belgique."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://competitie.vttl.be",
+      "intent": "M'inscrire à un tournoi en ligne pour participer à une compétition officielle."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://competitie.vttl.be",
+      "intent": "Consulter mes résultats personnels pour évaluer mes progrès et ajuster ma stratégie de jeu."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://competitie.vttl.be",
+      "intent": "Modifier mes préférences de club pour suivre les performances de mon équipe favorite."
+    }
+  ]
+}

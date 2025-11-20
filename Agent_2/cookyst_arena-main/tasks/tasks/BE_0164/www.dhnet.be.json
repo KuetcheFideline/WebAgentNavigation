@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.dhnet.be",
+      "intent": "Rechercher les dernières actualités sur le football belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.dhnet.be",
+      "intent": "Consulter les résultats des matchs de la Jupiler Pro League"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.dhnet.be",
+      "intent": "Lire les articles sur les élections fédérales 2024 en Belgique"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.dhnet.be",
+      "intent": "Configurer mes préférences de notification pour les actualités sportives"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.dhnet.be",
+      "intent": "Participer à un concours organisé par le site pour gagner des billets de football"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.dhnet.be",
+      "intent": "Gérer mon abonnement pour accéder à des contenus premium sur le site"
+    }
+  ]
+}

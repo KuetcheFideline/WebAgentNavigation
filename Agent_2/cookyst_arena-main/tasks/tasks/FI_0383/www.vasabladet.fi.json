@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vasabladet.fi",
+      "intent": "Lue uusimmat paikalliset uutiset Raumasta ja lähialueista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vasabladet.fi",
+      "intent": "Etsi tietoa talviurheilumahdollisuuksista ja luonnonsuojelualueista lähialueilla"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vasabladet.fi",
+      "intent": "Selaa sivuston kulttuuriosiota ja etsi tietoa tulevista tapahtumista ja näyttelyistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vasabladet.fi",
+      "intent": "Kirjaudu sisään ja tilaa uutiskirje, joka sisältää uusimmat paikalliset uutiset ja tapahtumat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vasabladet.fi",
+      "intent": "Kommentoi uutisartikkelia aiheesta, joka kiinnostaa, kuten esimerkiksi kalastus tai mökkiläinen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vasabladet.fi",
+      "intent": "Muokkaa profiilia ja tallenna suosikkiohjelmat ja uutiskategoriat"
+    }
+  ]
+}

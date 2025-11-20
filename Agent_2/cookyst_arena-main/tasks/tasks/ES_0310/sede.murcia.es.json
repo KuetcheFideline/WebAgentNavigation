@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.murcia.es",
+      "intent": "Buscar información sobre los trámites destacados disponibles en la Sede Electrónica del Ayuntamiento de Murcia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.murcia.es",
+      "intent": "Explorar la sección de Anuncios recientes para conocer las últimas noticias y resoluciones del Ayuntamiento de Murcia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.murcia.es",
+      "intent": "Acceder al Tablón de anuncios para consultar los trámites y anuncios públicos del Ayuntamiento de Murcia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.murcia.es",
+      "intent": "Iniciar sesión en la Carpeta Ciudadana para consultar y gestionar mis trámites personales en la Sede Electrónica del Ayuntamiento de Murcia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.murcia.es",
+      "intent": "Realizar un trámite en la Agencia Municipal Tributaria a través de la Sede Electrónica del Ayuntamiento de Murcia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.murcia.es",
+      "intent": "Consultar mi perfil en la Sede Electrónica del Ayuntamiento de Murcia para verificar mis datos personales y trámites en curso"
+    }
+  ]
+}

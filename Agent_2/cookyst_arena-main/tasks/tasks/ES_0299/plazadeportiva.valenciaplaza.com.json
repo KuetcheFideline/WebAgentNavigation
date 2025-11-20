@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://plazadeportiva.valenciaplaza.com",
+      "intent": "Buscar noticias sobre el Valencia CF en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://plazadeportiva.valenciaplaza.com",
+      "intent": "Explorar la sección de deportes para encontrar artículos sobre el fútbol valenciano"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://plazadeportiva.valenciaplaza.com",
+      "intent": "Leer las últimas noticias sobre el Levante UD en la página de deportes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://plazadeportiva.valenciaplaza.com",
+      "intent": "Comentar en un artículo sobre el Valencia CF después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://plazadeportiva.valenciaplaza.com",
+      "intent": "Guardar un artículo sobre el Valencia Basket en mis favoritos después de iniciar sesión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://plazadeportiva.valenciaplaza.com",
+      "intent": "Enviar un mensaje privado a otro usuario que comentó sobre el Valencia CF después de iniciar sesión"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ylojarvi.fi",
+      "intent": "Hae sivustolta tietoa asunnoista ja asumisvaihtoehdoista Ylöjärvellä."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ylojarvi.fi",
+      "intent": "Selvitä miten voin osallistua kaavoitukseen ja antaa palautetta kaupungin suunnitelmiin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ylojarvi.fi",
+      "intent": "Etsi tietoa Ylöjärven julkisista palveluista, kuten joukkoliikenteestä ja viheralueista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ylojarvi.fi",
+      "intent": "Kirjaudu sisään ja tee ilmoitus kaupungin asiointipalvelussa, koskien asuntotilannetta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ylojarvi.fi",
+      "intent": "Täytä kaupungin verkkopalvelussa oleva lomake, jolla voin ilmoittaa kiinnostukseni osallistua kaupungin kehittämishankkeisiin."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ylojarvi.fi",
+      "intent": "Lähetä viesti kaupungin asiakaspalveluun, jossa kysyn tietoa Ylöjärven tulevista kaavoitushankkeista ja miten niistä saa enemmän tietoa."
+    }
+  ]
+}

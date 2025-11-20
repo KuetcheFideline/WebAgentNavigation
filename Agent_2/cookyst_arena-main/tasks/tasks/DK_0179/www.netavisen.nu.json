@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.netavisen.nu",
+      "intent": "Læse om de seneste nyheder om politik og samfund i Danmark"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.netavisen.nu",
+      "intent": "Søge efter artikler om miljø og klima i Nordjylland"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.netavisen.nu",
+      "intent": "Følge med i debatten om lokalpolitik og kommunalbestyrelsen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.netavisen.nu",
+      "intent": "Del en artikel om en vigtig samfundsproblem på min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.netavisen.nu",
+      "intent": "Kommentere på en artikel om en lokal begivenhed i Nordjylland"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.netavisen.nu",
+      "intent": "Oprette en ny debattråd om et aktuel emne i samfundet"
+    }
+  ]
+}

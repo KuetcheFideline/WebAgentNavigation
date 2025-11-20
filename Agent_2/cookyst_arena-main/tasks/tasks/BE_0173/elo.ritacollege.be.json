@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elo.ritacollege.be",
+      "intent": "Je souhaite explorer les différentes langues proposées sur le site pour voir si je peux trouver des ressources en français."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elo.ritacollege.be",
+      "intent": "J'aimerais savoir comment contacter l'aide technique si j'ai des problèmes de connexion, donc je vais chercher les informations de contact de l'helpdesk."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elo.ritacollege.be",
+      "intent": "Je veux découvrir les fonctionnalités du site sans me connecter, pour voir si cela vaut la peine de créer un compte ou de me souvenir de mes identifiants."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elo.ritacollege.be",
+      "intent": "Maintenant que je suis connectée, je veux accéder à mes cours en ligne pour suivre mes progrès et voir si j'ai des devoirs à faire."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elo.ritacollege.be",
+      "intent": "Je souhaite modifier mes paramètres de compte pour que le site soit en français par défaut, car cela me sera plus pratique pour la navigation."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elo.ritacollege.be",
+      "intent": "Je veux voir si je peux trouver des ressources ou des cours supplémentaires qui pourraient m'aider à améliorer mes compétences en ligne, maintenant que j'ai accès à mon compte."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Rechercher les informations sur les comptes épargne pour les particuliers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Comparer les offres d'assurance vie pour les indépendants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Explorer les services de gestion de patrimoine pour les professionnels libéraux"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Consulter mes relevés de compte en ligne pour vérifier mes transactions récentes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Effectuer un virement vers le compte d'un fournisseur pour régler une facture impayée"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Modifier les paramètres de sécurité de mon compte en ligne pour améliorer la protection de mes données"
+    }
+  ]
+}

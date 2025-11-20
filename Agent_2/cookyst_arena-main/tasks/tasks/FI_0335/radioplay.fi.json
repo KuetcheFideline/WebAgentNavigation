@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://radioplay.fi",
+      "intent": "Hae suosikkikappaleitani RadioPlayn soittolistoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://radioplay.fi",
+      "intent": "Selvitä mitkä kanavat ovat tällä hetkellä suosituimpia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://radioplay.fi",
+      "intent": "Löydä uusia podcasteja, joista voisin pitää"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://radioplay.fi",
+      "intent": "Tallenna suosikkikappaleeni ja -kanavani RadioPlay-tililleni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://radioplay.fi",
+      "intent": "Määritä henkilökohtaiset soittolistani ja kanavavalinnat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://radioplay.fi",
+      "intent": "Osta Premium-tilaus, jotta voin kuunnella kanavia ilman mainoksia"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://correo.salud.madrid.org",
+      "intent": "Buscar información sobre los servicios de salud en Madrid para mis clientes"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://correo.salud.madrid.org",
+      "intent": "Explorar las opciones de contacto para obtener ayuda con una consulta médica"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://correo.salud.madrid.org",
+      "intent": "Descargar formularios de solicitud de cita médica para mis necesidades personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://correo.salud.madrid.org",
+      "intent": "Acceder a mis historias clínicas y resultados de análisis para revisar mi salud"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://correo.salud.madrid.org",
+      "intent": "Solicitar una cita médica en línea para una consulta de rutina"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://correo.salud.madrid.org",
+      "intent": "Actualizar mis datos personales y de contacto en el sistema de salud"
+    }
+  ]
+}

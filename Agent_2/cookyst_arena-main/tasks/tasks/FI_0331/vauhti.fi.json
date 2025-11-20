@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vauhti.fi",
+      "intent": "Selata maastohiihtoon liittyviä tuotteita ja lukea niiden ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vauhti.fi",
+      "intent": "Etsiä tietoa suksien voitelusta ja huollosta, sekä lukea ohjeita ja vinkkejä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vauhti.fi",
+      "intent": "Vertailla eri tuotteiden ominaisuuksia ja hintoja, kuten luistovoiteiden ja pitovoiteiden"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vauhti.fi",
+      "intent": "Tallentaa suksien voitelu- ja huoltotiedot omiin asiakastietoihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vauhti.fi",
+      "intent": "Tilata tuotteita verkkokaupasta ja seurata tilausten tilaa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vauhti.fi",
+      "intent": "Kirjautua sisään ja muuttaa omia asiakastietoja, kuten osoitetta tai salasanaa"
+    }
+  ]
+}

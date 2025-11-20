@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Rechercher des informations sur les cours en ligne pour les étudiants de la Hogeschool Gent"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Explorer la bibliothèque en ligne de la Hogeschool Gent pour trouver des ressources pédagogiques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Consulter les actualités et les annonces de la Hogeschool Gent pour rester informé"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes résultats"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Participer à un forum de discussion en ligne pour échanger avec d'autres étudiants"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Télécharger des documents et des ressources pédagogiques pour mes cours en ligne"
+    }
+  ]
+}

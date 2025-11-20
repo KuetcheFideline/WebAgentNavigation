@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://scrive.mitid.dk",
+      "intent": "Jeg skal undersøge, hvorfor der er en fejl på Scrive eID Hub-siden"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://scrive.mitid.dk",
+      "intent": "Jeg søger efter en vejledning eller en FAQ-sektion på Scrive eID Hub-siden for at løse problemet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://scrive.mitid.dk",
+      "intent": "Jeg vil prøve at genindlæse siden for at se, om fejlen forsvinder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://scrive.mitid.dk",
+      "intent": "Jeg skal logge ind og kontrollere mine eID-oplysninger for at sikre, at alt er i orden"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://scrive.mitid.dk",
+      "intent": "Jeg vil undersøge, om der er nogen opdateringer eller ændringer i mine eID-indstillinger, som kan have forårsaget fejlen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://scrive.mitid.dk",
+      "intent": "Jeg skal kontakte kundesupport for at få hjælp til at løse problemet med min eID"
+    }
+  ]
+}

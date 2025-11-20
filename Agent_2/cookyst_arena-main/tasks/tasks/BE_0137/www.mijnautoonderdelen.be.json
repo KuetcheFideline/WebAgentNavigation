@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.mijnautoonderdelen.be",
+      "intent": "Rechercher des pièces de rechange pour ma voiture"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.mijnautoonderdelen.be",
+      "intent": "Comparer les prix de différents fournisseurs de pièces auto"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.mijnautoonderdelen.be",
+      "intent": "Lire les avis des clients sur les produits et les services proposés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.mijnautoonderdelen.be",
+      "intent": "Ajouter des pièces auto à mon panier d'achat en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.mijnautoonderdelen.be",
+      "intent": "Gérer mes commandes et suivre l'état de mes livraisons"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.mijnautoonderdelen.be",
+      "intent": "Modifier mes informations de compte et mes préférences de navigation"
+    }
+  ]
+}

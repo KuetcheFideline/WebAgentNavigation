@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://galeries.be",
+      "intent": "Je veux consulter les films à l'affiche pour savoir quels sont les derniers films sortis et qui pourraient m'intéresser."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://galeries.be",
+      "intent": "Je souhaite explorer la section 'Rétrospective GHIBLI' pour en savoir plus sur les films proposés dans le cadre de cette rétrospective et peut-être acheter des tickets."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://galeries.be",
+      "intent": "Je veux utiliser le formulaire de recherche pour trouver des informations sur les séances scolaires proposées par le cinéma, car j'y suis intéressé pour mon établissement scolaire."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://galeries.be",
+      "intent": "Je veux accéder à mon compte pour acheter des tickets de cinéma en ligne et bénéficier de réductions éventuelles liées à mon statut de membre."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://galeries.be",
+      "intent": "Je souhaite configurer mes préférences de compte pour recevoir des notifications sur les nouveaux films et les événements spéciaux qui m'intéressent."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://galeries.be",
+      "intent": "Je veux laisser un commentaire sur un film que j'ai vu récemment pour partager mon avis avec la communauté de cinéphiles et aider les autres à choisir leur prochain film."
+    }
+  ]
+}

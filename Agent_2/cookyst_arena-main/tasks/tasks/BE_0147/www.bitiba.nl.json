@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bitiba.nl",
+      "intent": "Rechercher des aliments pour chiens de la marque Royal Canin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bitiba.nl",
+      "intent": "Comparer les prix des aliments pour chats entre les marques Hill's et Purina"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bitiba.nl",
+      "intent": "Explorer les produits pour les petits animaux, tels que les lapins et les hamsters"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bitiba.nl",
+      "intent": "Consulter mes commandes précédentes pour réapprovisionner mes aliments pour chiens"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bitiba.nl",
+      "intent": "Modifier mes informations de compte, notamment mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bitiba.nl",
+      "intent": "Utiliser mon compte pour bénéficier de la réduction de 5% sur ma prochaine commande"
+    }
+  ]
+}

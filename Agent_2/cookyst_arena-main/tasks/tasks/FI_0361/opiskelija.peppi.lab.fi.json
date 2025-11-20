@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://opiskelija.peppi.lab.fi",
+      "intent": "Hae tietoa opiskelijoiden palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://opiskelija.peppi.lab.fi",
+      "intent": "Selvitä miten voit hyödyntää Peppi-palveluja opiskellessasi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://opiskelija.peppi.lab.fi",
+      "intent": "Lue lisää opiskelijoiden arjen helpottamisesta Peppin avulla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://opiskelija.peppi.lab.fi",
+      "intent": "Tarkista opiskelijatilisi ja varmista, että tiedot ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://opiskelija.peppi.lab.fi",
+      "intent": "Käy läpi opintosuunnitelmaasi ja tee tarvittavat muutokset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://opiskelija.peppi.lab.fi",
+      "intent": "Ilmoittaudu opintojaksoille, jotka tarvitset tulevaan lukukauteen"
+    }
+  ]
+}

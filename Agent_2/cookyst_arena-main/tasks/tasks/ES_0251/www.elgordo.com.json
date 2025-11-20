@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.elgordo.com",
+      "intent": "Buscar información sobre los sorteos de la lotería nacional para ver cuáles son los premios y las fechas de los sorteos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.elgordo.com",
+      "intent": "Comparar los premios de los diferentes sorteos, como elGordo y el EuroMillones, para decidir en cuál invertir"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.elgordo.com",
+      "intent": "Explorar la sección de resultados para ver los números ganadores de sorteos anteriores y analizar las tendencias"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.elgordo.com",
+      "intent": "Iniciar sesión para acceder a mi cuenta y ver mis apuestas y resultados anteriores"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.elgordo.com",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre los sorteos y los resultados"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.elgordo.com",
+      "intent": "Realizar una apuesta en el sorteo del EuroMillones para tener la oportunidad de ganar el premio mayor"
+    }
+  ]
+}

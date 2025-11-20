@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cope.es",
+      "intent": "Buscar noticias sobre la situación política actual en España en la página de COPE"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cope.es",
+      "intent": "Escuchar el podcast de 'Herrera en COPE' para estar al tanto de los análisis políticos y sociales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cope.es",
+      "intent": "Explorar la sección de deportes para ver las últimas noticias sobre fútbol y otros deportes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cope.es",
+      "intent": "Crear una lista de reproducción personalizada con los podcasts de COPE que más me gustan"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cope.es",
+      "intent": "Comentar en un artículo sobre la situación económica en España para compartir mi opinión"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cope.es",
+      "intent": "Guardar un artículo sobre la actualidad para leerlo más tarde en mi biblioteca personal"
+    }
+  ]
+}

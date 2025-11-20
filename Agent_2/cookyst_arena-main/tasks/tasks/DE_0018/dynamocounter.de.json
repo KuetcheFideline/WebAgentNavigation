@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dynamocounter.de",
+      "intent": "Ich möchte die aktuelle Auslastung des Stadions für das nächste Spiel von Dynamo Dresden überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dynamocounter.de",
+      "intent": "Ich will wissen, wie viele Tickets bereits für das Spiel gegen Fortuna Düsseldorf verkauft wurden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dynamocounter.de",
+      "intent": "Ich möchte den Spielplan von Dynamo Dresden für die nächste Saison einsehen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dynamocounter.de",
+      "intent": "Ich möchte meine persönlichen Ticket-Kaufhistorie für Dynamo Dresden-Spiele einsehen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dynamocounter.de",
+      "intent": "Ich will meine Kontaktdaten und mein Benutzerkonto auf der DynamoCounter-Website aktualisieren."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dynamocounter.de",
+      "intent": "Ich möchte eine Benachrichtigung einrichten, wenn Tickets für das nächste Heimspiel von Dynamo Dresden verfügbar sind."
+    }
+  ]
+}

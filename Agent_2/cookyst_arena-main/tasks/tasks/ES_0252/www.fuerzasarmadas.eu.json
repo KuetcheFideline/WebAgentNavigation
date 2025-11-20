@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fuerzasarmadas.eu",
+      "intent": "Buscar información sobre los requisitos para unirse a las Fuerzas Armadas Españolas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fuerzasarmadas.eu",
+      "intent": "Explorar los diferentes cuerpos de las Fuerzas Armadas Españolas y sus funciones"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fuerzasarmadas.eu",
+      "intent": "Leer sobre las experiencias de otros usuarios en el foro de discusión"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fuerzasarmadas.eu",
+      "intent": "Crear un nuevo tema en el foro de discusión para preguntar sobre el proceso de selección para oficiales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fuerzasarmadas.eu",
+      "intent": "Responder a un tema existente en el foro de discusión sobre la vida en la UME"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fuerzasarmadas.eu",
+      "intent": "Enviar un mensaje privado a otro usuario para preguntar sobre sus experiencias en las Fuerzas Armadas"
+    }
+  ]
+}

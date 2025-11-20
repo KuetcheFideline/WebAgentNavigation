@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Tutustun Kanta-palvelujen etusivulle ja etsin tietoa OmaKannasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Lataan OmaKanta-sovelluksen ja tutkin sen ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Etsin ohjeita OmaKannan käyttöön ja sosiaalipalvelujen asiakastietoihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Kirjaudun OmaKantaan ja tarkastan omat terveystietoni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Uusin reseptin OmaKanta-sovelluksella ja tarkastan laboratoriotuloksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kanta.fi",
+      "intent": "Tutkin hoitotahdon ja teen muutokset omiin hoitotietoihini OmaKannassa"
+    }
+  ]
+}

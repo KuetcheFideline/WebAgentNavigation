@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.recamania.com",
+      "intent": "Buscar repuestos para mi lavadora"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.recamania.com",
+      "intent": "Comparar precios de recambios para mi electrodoméstico"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.recamania.com",
+      "intent": "Explorar la sección de ofertas y descuentos en la tienda"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.recamania.com",
+      "intent": "Verificar el estado de mi pedido y realizar un seguimiento"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.recamania.com",
+      "intent": "Agregar un producto a mi lista de favoritos y comparar con otros"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.recamania.com",
+      "intent": "Realizar una compra utilizando mis datos de pago guardados"
+    }
+  ]
+}

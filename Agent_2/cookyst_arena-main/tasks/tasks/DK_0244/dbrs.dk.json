@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://dbrs.dk",
+      "intent": "Jeg søger efter nyheder om Ringkøbing-Skjern på dbrs.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://dbrs.dk",
+      "intent": "Jeg vil læse om lokalpolitik og valgkampen i Ringkøbing-Skjern"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://dbrs.dk",
+      "intent": "Jeg ønsker at se, hvad der sker i min lokale kommune, og læse om arrangementer og begivenheder"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://dbrs.dk",
+      "intent": "Jeg vil logge ind for at læse abonnentindhold og få adgang til eksklusive artikler"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://dbrs.dk",
+      "intent": "Jeg ønsker at deltage i debatter og kommentere på artikler efter at have logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://dbrs.dk",
+      "intent": "Jeg vil tilpasse mine selvbetjeningsindstillinger og administrere mit abonnement efter login"
+    }
+  ]
+}

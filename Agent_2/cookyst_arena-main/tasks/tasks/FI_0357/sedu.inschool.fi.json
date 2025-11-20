@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sedu.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa opiskelijoiden ja henkilökunnan kirjautumisvaihtoehdoista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sedu.inschool.fi",
+      "intent": "Selvittelen, miten voin vaihtaa salasanani, jos olen unohtanut sen, ja etsin linkkiä salasanan vaihtamiseen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sedu.inschool.fi",
+      "intent": "Luen Wilman käyttöehdoista ja evästeiden käytöstä sekä hyväksyn evästeet, jos niin haluan."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sedu.inschool.fi",
+      "intent": "Kirjaudun sisään Wilmaan OpenID-kirjautumisen avulla ja tarkistan, että kaikki toimii odotetusti."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sedu.inschool.fi",
+      "intent": "Tutkin Wilman viestitoimintoja ja luen viestejäni, jos minulla on uusia viestejä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sedu.inschool.fi",
+      "intent": "Vaihdan profiilini asetuksia, kuten kieltä, ja tarkistan, että muutokset toteutuvat Wilman käyttöliittymässä."
+    }
+  ]
+}

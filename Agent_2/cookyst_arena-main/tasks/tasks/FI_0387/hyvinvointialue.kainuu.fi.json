@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://hyvinvointialue.kainuu.fi",
+      "intent": "Hae tietoa äkillisten sairauksien hoidosta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://hyvinvointialue.kainuu.fi",
+      "intent": "Etsi lähin terveysasema"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://hyvinvointialue.kainuu.fi",
+      "intent": "Selvitä miten saat apua mielenterveyden kanssa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://hyvinvointialue.kainuu.fi",
+      "intent": "Tarkista omat terveystiedot Omakanta-palvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://hyvinvointialue.kainuu.fi",
+      "intent": "Varaa aika lääkärille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://hyvinvointialue.kainuu.fi",
+      "intent": "Täytä terveydenhuollon asiakasmaksulomake"
+    }
+  ]
+}

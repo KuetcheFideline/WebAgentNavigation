@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ofertino.es",
+      "intent": "Buscar ofertas de electrónica en la página de inicio de Ofertino.es"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ofertino.es",
+      "intent": "Explorar los catálogos de juguetes y bebés disponibles en la sección de Ofertas y catálogos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ofertino.es",
+      "intent": "Utilizar la función de búsqueda para encontrar ofertas de ropa y calzado en la página de Ofertino.es"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ofertino.es",
+      "intent": "Guardar una oferta de un producto de cosmética en mi lista de favoritos después de iniciar sesión"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ofertino.es",
+      "intent": "Configurar mis preferencias de ubicación para recibir ofertas personalizadas de tiendas cerca de mi ubicación en València"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ofertino.es",
+      "intent": "Compartir una oferta de un producto de jardín y bricolaje en mis redes sociales después de iniciar sesión"
+    }
+  ]
+}

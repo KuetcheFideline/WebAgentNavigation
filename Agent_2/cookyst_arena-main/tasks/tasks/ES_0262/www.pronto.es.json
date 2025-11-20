@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pronto.es",
+      "intent": "Buscar noticias sobre las últimas tendencias de la moda en el mundo del espectáculo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pronto.es",
+      "intent": "Explorar la sección de horóscopos y leer la predicción diaria para mi signo del zodiaco"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pronto.es",
+      "intent": "Leer artículos sobre la vida y las aventuras de mis celebridades favoritas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pronto.es",
+      "intent": "Crear una lista de reproducción de videos de cocina y guardar mis recetas favoritas"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pronto.es",
+      "intent": "Comentar en un artículo sobre un tema que me interesa y compartir mi opinión con la comunidad"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pronto.es",
+      "intent": "Guardar un artículo sobre un tema que me interesa para leerlo más tarde y compartirlo con amigos"
+    }
+  ]
+}

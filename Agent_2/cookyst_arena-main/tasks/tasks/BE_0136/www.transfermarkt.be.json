@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.transfermarkt.be",
+      "intent": "Rechercher les dernières actualités sur le championnat de football belge"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.transfermarkt.be",
+      "intent": "Consulter les statistiques des joueurs de l'équipe nationale belge"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.transfermarkt.be",
+      "intent": "Découvrir les transferts récents dans le championnat de football belge"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.transfermarkt.be",
+      "intent": "Créer une liste de joueurs favoris pour suivre leurs performances"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.transfermarkt.be",
+      "intent": "Participer à un forum de discussion sur les transferts de joueurs"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.transfermarkt.be",
+      "intent": "Configurer des alertes pour les actualités sur les équipes et les joueurs préférés"
+    }
+  ]
+}

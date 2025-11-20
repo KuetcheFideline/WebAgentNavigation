@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tramita.gva.es",
+      "intent": "Buscar información sobre los trámites necesarios para obtener un certificado de residencia en la Comunidad Valenciana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tramita.gva.es",
+      "intent": "Explorar las diferentes secciones del sitio web para entender los servicios que ofrece la Generalitat Valenciana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tramita.gva.es",
+      "intent": "Descargar formularios y documentación necesaria para realizar trámites administrativos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tramita.gva.es",
+      "intent": "Iniciar sesión para acceder a mis trámites pendientes y realizar un seguimiento de los mismos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tramita.gva.es",
+      "intent": "Solicitar un certificado de empadronamiento electrónico a través de la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tramita.gva.es",
+      "intent": "Realizar un pago en línea para un trámite administrativo y obtener el justificante correspondiente"
+    }
+  ]
+}

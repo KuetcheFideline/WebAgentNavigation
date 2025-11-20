@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kouvola.inschool.fi",
+      "intent": "Luen Wilman esittelysivun, jotta voin ymmärtää, mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kouvola.inschool.fi",
+      "intent": "Selvittelen, miten Wilman käyttäjätunnus ja salasana voidaan hakea, jos ne ovat unohtuneet."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kouvola.inschool.fi",
+      "intent": "Tutkin Wilman etusivun linkkejä, kuten 'Usein kysytyt kysymykset' ja 'Wilman huoltajaliittymän toiminnot', jotta voin löytää tietoa Wilman käytöstä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kouvola.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan lasteni poissaoloja ja arvioita, jotta voin seurata heidän koulunkäyntiään."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kouvola.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta lasteni opiskeluista ja pyydän tietoa heidän edistymisestään."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kouvola.inschool.fi",
+      "intent": "Tarkastan Wilman kautta koulun tiedotteita ja päivitämisiä, jotta olen ajan tasalla koulun tapahtumista."
+    }
+  ]
+}

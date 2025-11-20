@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pps-shop.fi",
+      "intent": "Selvitän, mitä tuotteita sivustolla on tarjolla ja etsin uusimmat pelikonsolit."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pps-shop.fi",
+      "intent": "Vertailen eri tuotteiden hintoja ja etsin parhaat tarjoukset."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pps-shop.fi",
+      "intent": "Luen asiakasarvosteluita ja etsin vinkkejä siitä, mitkä tuotteet ovat suosittuja."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pps-shop.fi",
+      "intent": "Tarkastan tilaushistoriani ja seuraan tilausteni etenemistä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pps-shop.fi",
+      "intent": "Muutan tilaustani ja päivitän osoitteeni, jotta varmistan, että tilaukseni toimitetaan oikeaan osoitteeseen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pps-shop.fi",
+      "intent": "Kirjaudun sisään ja tarkastan, onko minulla oikeus erityistarjouksiin tai alennuksiin."
+    }
+  ]
+}

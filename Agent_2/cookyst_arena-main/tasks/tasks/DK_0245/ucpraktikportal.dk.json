@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ucpraktikportal.dk",
+      "intent": "Jeg skal finde information om praktikmuligheder på Professionshøjskolernes Praktikportal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ucpraktikportal.dk",
+      "intent": "Jeg vil se hvilke professionshøjskoler der er tilknyttet portalen og hvilke praktikmuligheder de tilbyder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ucpraktikportal.dk",
+      "intent": "Jeg skal læse om hvordan jeg kan søge om praktikpladser på portalen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ucpraktikportal.dk",
+      "intent": "Jeg skal logge ind og se mine eksisterende praktikansøgninger og deres status"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ucpraktikportal.dk",
+      "intent": "Jeg vil redigere min profil og tilføje nye kompetencer og erfaringer til min ansøgning"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ucpraktikportal.dk",
+      "intent": "Jeg skal downloade mine praktikbeskeder og dokumenter fra portalen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Selata Learn-Moodlen etusivua ja etsiä tietoa opiskelijan oikeuksista ja velvollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Lukea Learn-Moodlen huoltokatkojen aikataulu ja suunnitella opiskelua vastaavasti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Etsiä tietoa HAMKin opetus- ja digipedaohjeista Learn-Moodlen sivuilta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Kirjautua sisään Learn-Moodleen ja tarkastaa omat opintotiedot"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Osallistua opiskelijaryhmiin ja keskusteluihin Learn-Moodlen työtiloissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://learn.hamk.fi",
+      "intent": "Ladata ja tallentaa opiskelumateriaaleja ja tehtäviä Learn-Moodlen kautta"
+    }
+  ]
+}

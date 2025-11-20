@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eduweb.sji.be",
+      "intent": "Rechercher les informations sur les cours en ligne pour compléter mon programme d'études à Saint-Louis Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eduweb.sji.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les étudiants en Sciences"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eduweb.sji.be",
+      "intent": "Consulter les coordonnées de contact pour poser des questions sur les programmes d'études"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eduweb.sji.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes évaluations"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eduweb.sji.be",
+      "intent": "Télécharger les documents de cours et les supports de présentation pour la semaine à venir"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eduweb.sji.be",
+      "intent": "Participer à un forum de discussion en ligne avec mes camarades de classe pour discuter d'un projet de groupe"
+    }
+  ]
+}

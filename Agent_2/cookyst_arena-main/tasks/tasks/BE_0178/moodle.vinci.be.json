@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.vinci.be",
+      "intent": "Rechercher les cours en ligne disponibles pour les étudiants de la Haute Ecole Léonard de Vinci"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.vinci.be",
+      "intent": "Explorer les ressources pédagogiques proposées par la plateforme Moodle Vinci"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.vinci.be",
+      "intent": "Consulter les informations sur la procédure d'inscription à une unité d'enseignement"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.vinci.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes cours et mes notes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.vinci.be",
+      "intent": "M'inscrire à une nouvelle unité d'enseignement en fonction de mon plan d'études"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.vinci.be",
+      "intent": "Participer à un forum de discussion en ligne pour échanger avec mes camarades de classe"
+    }
+  ]
+}

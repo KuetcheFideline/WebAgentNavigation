@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://eva.educamos.com",
+      "intent": "Explorar la sección de Europa para encontrar recursos educativos relevantes para mi región"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://eva.educamos.com",
+      "intent": "Buscar información sobre la política de privacidad de la plataforma para entender cómo se manejan mis datos personales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://eva.educamos.com",
+      "intent": "Investigar las opciones de contacto para poder hacer preguntas sobre la plataforma y sus recursos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://eva.educamos.com",
+      "intent": "Configurar mi perfil de usuario para personalizar mis preferencias y acceder a contenido relevante"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://eva.educamos.com",
+      "intent": "Acceder a los recursos educativos premium disponibles para usuarios registrados para mejorar mi educación"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://eva.educamos.com",
+      "intent": "Participar en foros o discusiones en línea con otros usuarios para compartir conocimientos y experiencias"
+    }
+  ]
+}

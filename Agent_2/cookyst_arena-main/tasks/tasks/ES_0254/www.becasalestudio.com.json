@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.becasalestudio.com",
+      "intent": "Buscar información sobre los requisitos para solicitar una beca MEC para estudios universitarios"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.becasalestudio.com",
+      "intent": "Explorar la sección de 'GUÍA BECAS MEC 2025/2026' para entender el proceso de solicitud y tramitación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.becasalestudio.com",
+      "intent": "Leer sobre los umbrales de renta y patrimonio para determinar si soy elegible para una beca"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.becasalestudio.com",
+      "intent": "Iniciar sesión para consultar el estado de mi solicitud de beca y verificar si hay alguna notificación pendiente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.becasalestudio.com",
+      "intent": "Modificar mi solicitud de beca para actualizar mi información de contacto y asegurarme de que esté actualizada"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.becasalestudio.com",
+      "intent": "Presentar una alegación en caso de que mi solicitud de beca sea denegada y entender el proceso de recurso"
+    }
+  ]
+}

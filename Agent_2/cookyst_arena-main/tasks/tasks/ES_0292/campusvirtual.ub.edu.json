@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campusvirtual.ub.edu",
+      "intent": "Explorar la sección de 'Tots els cursos' para ver qué opciones de formación están disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campusvirtual.ub.edu",
+      "intent": "Buscar información sobre cómo crear credenciales para acceder al Campus Virtual UB como estudiante"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campusvirtual.ub.edu",
+      "intent": "Leer las políticas de privacidad y condiciones de uso del sitio web para entender cómo se manejan los datos personales"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campusvirtual.ub.edu",
+      "intent": "Acceder a los recursos de aprendizaje en línea y participar en los foros de discusión como estudiante"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campusvirtual.ub.edu",
+      "intent": "Consultar las calificaciones y el progreso en los cursos en los que estoy inscrito"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campusvirtual.ub.edu",
+      "intent": "Configurar las notificaciones y recordatorios para mantenerme al día con las tareas y fechas límite de entrega"
+    }
+  ]
+}

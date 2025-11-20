@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aseag.de",
+      "intent": "Ich möchte den Fahrplan für die Buslinie 33 von Fuchserde nach Uniklinik abrufen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aseag.de",
+      "intent": "Ich will die Ticketpreise für eine Fahrt von Aachen nach Eschweiler vergleichen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aseag.de",
+      "intent": "Ich suche nach Informationen über die Barrierefreiheit im Busverkehr in Aachen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aseag.de",
+      "intent": "Ich möchte mein persönliches ASEAG-Kundenkonto einrichten, um Fahrten zu buchen und Abonnements zu verwalten."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aseag.de",
+      "intent": "Ich will meine Reisehistorie und -daten im ASEAG-Kundenkonto überprüfen und ggf. ändern."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aseag.de",
+      "intent": "Ich möchte mein Abo für den ASEAG-Verkehrsdienst verlängern und die Zahlungsmethode ändern."
+    }
+  ]
+}

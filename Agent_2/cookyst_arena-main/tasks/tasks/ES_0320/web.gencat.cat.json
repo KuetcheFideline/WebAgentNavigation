@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://web.gencat.cat",
+      "intent": "Buscar información sobre los trámites para solicitar la ayuda para la compra de medicamentos para personas mayores"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://web.gencat.cat",
+      "intent": "Explorar la sección de 'Agricultura y ramaderia' para encontrar información sobre las ayudas y subvenciones para agricultores"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://web.gencat.cat",
+      "intent": "Utilizar el buscador para encontrar información sobre los servicios de asistencia sanitaria en la provincia de Soria"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://web.gencat.cat",
+      "intent": "Solicitar una cita con un médico a través de la plataforma de gestión de citas en línea"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://web.gencat.cat",
+      "intent": "Acceder a la sección de 'Mi cuenta' para consultar los datos personales y los trámites en curso"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://web.gencat.cat",
+      "intent": "Realizar una solicitud de ayuda para la instalación de equipos de ahorro de energía en la vivienda"
+    }
+  ]
+}

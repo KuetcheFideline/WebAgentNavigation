@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kiertokapula.fi",
+      "intent": "Hae sivustolta jätehuollon perusmaksun tiedot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kiertokapula.fi",
+      "intent": "Selvitä miten lajitellaan biojäte pienkiinteistössä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kiertokapula.fi",
+      "intent": "Etsi tietoa jätteiden vastaanottopaikoista Hyvinkäällä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kiertokapula.fi",
+      "intent": "Tilaa verkkopalvelun kautta jäteastia ja jätehuoltopalvelu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kiertokapula.fi",
+      "intent": "Määritä jätehuollon maksut ja laskutuskausi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kiertokapula.fi",
+      "intent": "Tee verkkokaupassa tilaus jätteiden keräyspalvelusta"
+    }
+  ]
+}

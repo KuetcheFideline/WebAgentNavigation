@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kursusbevis.foerstehjaelpsraad.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan få adgang til mit kursusbevis"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kursusbevis.foerstehjaelpsraad.dk",
+      "intent": "Jeg vil læse om, hvordan jeg kan tjekke gyldigheden af et bevis"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kursusbevis.foerstehjaelpsraad.dk",
+      "intent": "Jeg søger efter en liste over organisationer, der samarbejder med Dansk Førstehjælpsråd"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kursusbevis.foerstehjaelpsraad.dk",
+      "intent": "Jeg vil downloade mit kursusbevis efter at have logget ind"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kursusbevis.foerstehjaelpsraad.dk",
+      "intent": "Jeg søger efter en mulighed for at ændre min adgangskode efter at have logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kursusbevis.foerstehjaelpsraad.dk",
+      "intent": "Jeg vil se en oversigt over mine tidligere kursusbeviser efter at have logget ind"
+    }
+  ]
+}

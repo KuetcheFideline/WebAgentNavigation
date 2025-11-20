@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Etsin tietoa Alzheimerin taudin lääkehoidosta puolisoni hoitoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Haluan löytää lähimmän apteekin, joka tarjoaa annosjakelupalvelua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Olen kiinnostunut itsehoitotuotteista, kuten ihonhoitotuotteista, ja haluan lukea niistä lisää"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Tarkastan lääkityslistani ja varausajan lääkkeideni toimitukseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Tilasin verkkokaupasta itsehoitotuotteita ja haluan seurata tilaustani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.apteekki.fi",
+      "intent": "Käyn lääkehaku-sivulla ja tarkastan lääkkeiden saatavuutta ja hintoja"
+    }
+  ]
+}

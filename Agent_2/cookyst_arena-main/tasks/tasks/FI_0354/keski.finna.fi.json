@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://keski.finna.fi",
+      "intent": "Hae uusimmat lastenkirjat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://keski.finna.fi",
+      "intent": "Selaa e-aineistojen tarjontaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://keski.finna.fi",
+      "intent": "Tutustu kirjaston aukioloajiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://keski.finna.fi",
+      "intent": "Uusi lainat ja tarkista lainojen tila"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://keski.finna.fi",
+      "intent": "Varaa uusi kirja ja tarkista varauksen tila"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://keski.finna.fi",
+      "intent": "Muokkaa omia tietoja ja salasanaa"
+    }
+  ]
+}

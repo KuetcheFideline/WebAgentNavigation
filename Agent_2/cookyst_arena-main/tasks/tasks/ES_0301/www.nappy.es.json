@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nappy.es",
+      "intent": "Buscar pañales para bebés de la marca Dodot en la tienda online"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nappy.es",
+      "intent": "Comparar precios de pañales de diferentes marcas como Chelino y Magics"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nappy.es",
+      "intent": "Explorar la sección de alimentación para bebés y buscar leche de fórmula"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nappy.es",
+      "intent": "Iniciar sesión en mi cuenta para acceder a mis pedidos anteriores y realizar un nuevo pedido de pañales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nappy.es",
+      "intent": "Agregar productos a mi carrito de compras y proceder al pago para recibir mis pañales en casa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nappy.es",
+      "intent": "Verificar el estado de mi cuenta y realizar un cambio en mi información de contacto"
+    }
+  ]
+}

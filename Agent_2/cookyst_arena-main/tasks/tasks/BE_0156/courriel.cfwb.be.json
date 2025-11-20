@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://courriel.cfwb.be",
+      "intent": "Je veux découvrir les fonctionnalités de base du site pour comprendre comment accéder à mes courriels."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://courriel.cfwb.be",
+      "intent": "J'ai oublié mon mot de passe, je vais cliquer sur le lien pour réinitialiser mon mot de passe et retrouver l'accès à mon compte."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://courriel.cfwb.be",
+      "intent": "Je souhaite en savoir plus sur les conditions d'utilisation du site et les politiques de confidentialité avant de créer un compte ou de me connecter."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://courriel.cfwb.be",
+      "intent": "Maintenant que je suis connecté, je veux configurer mes paramètres de messagerie pour personnaliser mon expérience d'utilisation."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://courriel.cfwb.be",
+      "intent": "Je vais rechercher des courriels importants que j'ai reçus récemment pour les classer et les archiver correctement dans mon compte."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://courriel.cfwb.be",
+      "intent": "J'ai besoin de contacter le support technique pour résoudre un problème de connexion, je vais utiliser la fonction de messagerie pour leur envoyer un message détaillé."
+    }
+  ]
+}

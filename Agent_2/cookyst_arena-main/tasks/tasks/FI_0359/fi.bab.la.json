@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fi.bab.la",
+      "intent": "Hae sanaa 'perhe' sanakirjasta suomi-englanti"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fi.bab.la",
+      "intent": "Vertaile sanoja 'äiti' ja 'isä' eri kielissä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fi.bab.la",
+      "intent": "Selaa sanakirjan etusivua ja etsi kieliopin linkkejä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fi.bab.la",
+      "intent": "Tallenna sana 'työ' sanakirjan omiin merkintöihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fi.bab.la",
+      "intent": "Luo uusi lista sanastoista aiheesta 'koulutus'"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fi.bab.la",
+      "intent": "Jaa lista 'perheenjäsenet' ystävän kanssa sähköpostitse"
+    }
+  ]
+}

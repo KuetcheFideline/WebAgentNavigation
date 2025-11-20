@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rosa.be",
+      "intent": "Rechercher un médecin généraliste à Halle pour un rendez-vous rapide"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rosa.be",
+      "intent": "Comparer les disponibilités des dentistes à Bruxelles Schuman pour un rendez-vous en ligne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rosa.be",
+      "intent": "Télécharger l'application Rosa pour faciliter la prise de rendez-vous médicaux"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rosa.be",
+      "intent": "Consulter mes prochains rendez-vous médicaux et recevoir des rappels pour éviter les oublis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rosa.be",
+      "intent": "Gérer mes informations de santé et mes données personnelles sur le compte Rosa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rosa.be",
+      "intent": "Évaluer et noter les médecins que j'ai consultés via la plateforme Rosa pour aider les autres patients"
+    }
+  ]
+}

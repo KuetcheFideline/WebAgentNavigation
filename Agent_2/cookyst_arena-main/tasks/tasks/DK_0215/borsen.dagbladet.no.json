@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://borsen.dagbladet.no",
+      "intent": "Læs nyheder om erhvervslivet i Danmark og udlandet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://borsen.dagbladet.no",
+      "intent": "Søg efter information om aktier og markedstrends"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://borsen.dagbladet.no",
+      "intent": "Se videoer om erhvervslivet og økonomi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://borsen.dagbladet.no",
+      "intent": "Tilføj en artikel til mine favoritter"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://borsen.dagbladet.no",
+      "intent": "Del en nyhed med mine venner på sociale medier"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://borsen.dagbladet.no",
+      "intent": "Kommenter på en artikel om erhvervslivet"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pien.fi",
+      "intent": "Selata Pien Shopin olutvalikoimaa ja etsiä uusia NEIPA-oluttyylejä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pien.fi",
+      "intent": "Lukea Pien Shopin blogia ja uutisia olutmaailmasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pien.fi",
+      "intent": "Etsiä tietoa Pien Shopin tapahtumista ja tempauksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pien.fi",
+      "intent": "Tilata oluita Pien Shopin verkkokaupasta ja maksaa tilaus"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pien.fi",
+      "intent": "Muuttaa tilaustietoja ja osoitetta Pien Shopin asiakastilissä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pien.fi",
+      "intent": "Kirjautua Pien Shopin uutiskirjeen tilaajaksi ja saada eksklusiivisia tarjouksia"
+    }
+  ]
+}

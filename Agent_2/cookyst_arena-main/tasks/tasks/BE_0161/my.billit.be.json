@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "Je souhaite configurer les cookies pour une expérience de navigation personnalisée."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "J'ai besoin d'en savoir plus sur la politique de confidentialité du site avant de poursuivre."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.billit.be",
+      "intent": "Je veux explorer les fonctionnalités de base du site pour comprendre comment il peut m'aider dans mes tâches financières."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Maintenant que je suis connecté, je souhaite accéder à mes documents financiers pour les consulter et les gérer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "Je veux configurer les paramètres de sécurité de mon compte pour une protection accrue de mes données financières."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.billit.be",
+      "intent": "J'ai besoin de générer un nouveau document financier et de le partager avec mon équipe pour validation."
+    }
+  ]
+}

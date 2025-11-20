@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rate.ee",
+      "intent": "Tutustun sivuston ominaisuuksiin ja etsin tietoa siitä, miten se toimii."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rate.ee",
+      "intent": "Selvittelen, miten voin hakea ja vertailla eri profiileja ja kuvia sivustolla."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rate.ee",
+      "intent": "Luen sivuston käyttöehdot ja yksityisyyskäytännöt, jotta ymmärrän, miten henkilötietojani käsitellään."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rate.ee",
+      "intent": "Luo uusi profiili ja lisään siihen kuvia, jotta voin aloittaa vuorovaikutuksen muiden käyttäjien kanssa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rate.ee",
+      "intent": "Arvostelen ja kommentoin muiden käyttäjien kuvia, jotta voin osallistua yhteisöön ja löytää uusia ystäviä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rate.ee",
+      "intent": "Tarkastan omaa profiilia ja säädän asetuksia, jotta voin hallita, miten ja kenelle minun tietojani näytetään."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fmsb.be",
+      "intent": "Rechercher les avantages et services proposés par Solidaris Brabant pour les personnes âgées"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fmsb.be",
+      "intent": "Consulter les informations sur la protection sociale régionale pour les retraités"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fmsb.be",
+      "intent": "Découvrir les partenaires de Solidaris Brabant pour les services de santé et de bien-être"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fmsb.be",
+      "intent": "Consulter mon compte pour vérifier mes prestations et mes avantages"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fmsb.be",
+      "intent": "Gérer mes assurances facultatives pour adapter mes couvertures en fonction de mes besoins"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fmsb.be",
+      "intent": "Demander un rendez-vous en ligne pour discuter de mes besoins de santé avec un conseiller"
+    }
+  ]
+}

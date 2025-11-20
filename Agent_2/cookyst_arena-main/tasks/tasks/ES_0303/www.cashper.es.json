@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cashper.es",
+      "intent": "Solicitar un préstamo rápido de 200 euros para cubrir gastos inesperados"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cashper.es",
+      "intent": "Comparar las tasas de interés y los gastos de gestión de los préstamos ofrecidos por Cashper"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cashper.es",
+      "intent": "Leer las preguntas frecuentes y los términos y condiciones de los préstamos para entender mejor el proceso"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cashper.es",
+      "intent": "Iniciar sesión en mi cuenta de cliente para verificar el estado de mi solicitud de préstamo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cashper.es",
+      "intent": "Subir documentos necesarios para la tramitación de mi préstamo a través de mi área de cliente"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cashper.es",
+      "intent": "Consultar el historial de mis préstamos y pagos para planificar mis finanzas"
+    }
+  ]
+}

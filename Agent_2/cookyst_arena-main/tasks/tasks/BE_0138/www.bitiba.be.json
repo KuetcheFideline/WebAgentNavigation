@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bitiba.be",
+      "intent": "Rechercher des aliments pour mon chien"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bitiba.be",
+      "intent": "Comparer les prix des croquettes pour chiens de différentes marques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bitiba.be",
+      "intent": "Explorer les accessoires pour animaux pour trouver un jouet pour mon chat"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bitiba.be",
+      "intent": "Consulter mes commandes précédentes pour renouveler la nourriture de mon chien"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bitiba.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bitiba.be",
+      "intent": "Utiliser mon compte pour bénéficier de la remise de 5% sur ma prochaine commande"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ocasionplus.com",
+      "intent": "Buscar un coche de segunda mano económico para mi uso diario en Sevilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ocasionplus.com",
+      "intent": "Comparar los precios de los coches de segunda mano de diferentes marcas como Toyota y Audi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ocasionplus.com",
+      "intent": "Leer las opiniones de otros clientes sobre sus experiencias con OcasionPlus"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ocasionplus.com",
+      "intent": "Iniciar sesión para acceder a mis coches guardados y seguir comparando"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ocasionplus.com",
+      "intent": "Solicitar un presupuesto personalizado para la compra de un coche de segunda mano"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ocasionplus.com",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre coches que se ajusten a mis criterios de búsqueda"
+    }
+  ]
+}

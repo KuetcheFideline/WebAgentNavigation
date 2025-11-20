@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://vt.tampuuri.fi",
+      "intent": "Selvitän, miten voin kirjautua sisään ja mitä palveluja Tampuuri tarjoaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://vt.tampuuri.fi",
+      "intent": "Etsin tietoa Tampuurin golf-palveluista ja kurssien aikatauluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://vt.tampuuri.fi",
+      "intent": "Luen Tampuurin uutisia ja blogipostauksia, jotka liittyvät golfiin ja vapaa-aikaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://vt.tampuuri.fi",
+      "intent": "Varaan golf-väylän ja teen varauksen Tampuurin sivuilta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://vt.tampuuri.fi",
+      "intent": "Tarkastan omaa pelitilastoni ja seurannan Tampuurin sivuilta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://vt.tampuuri.fi",
+      "intent": "Muokkaan omia tietojani ja asetuksia Tampuurin käyttäjäprofiilissani"
+    }
+  ]
+}

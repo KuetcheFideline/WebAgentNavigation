@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.forenom.com",
+      "intent": "Hae asuntoja Vaasassa ja vertaile hintoja"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.forenom.com",
+      "intent": "Selaa eri asuntotyyppejä, kuten huoneistoja ja hostelleja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.forenom.com",
+      "intent": "Lue asiakasarvosteluita ja etsi vinkkejä asunnon valintaan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.forenom.com",
+      "intent": "Varaa asunto ja tee maksu tilille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.forenom.com",
+      "intent": "Tarkista varaukseni ja muokkaa tarvittaessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.forenom.com",
+      "intent": "Kirjaudu sisään ja lähetä viesti asiakaspalveluun"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Hae asuntolainaa uuden kodin ostamiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Selvitä miten voisin säästää rahaa laina-aikana"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Löydä tietoa Danske Bankin tarjoamista sijoitusvaihtoehdoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Tarkista omat säästötilien saldot ja siirrä rahaa käyttötilille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Hae muutosta olemassaolevaan lainaan, jotta voisin hyödyntää parempia korkoja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Määritä uusi kuukausittainen säästämisen määrä osakesäästötilille"
+    }
+  ]
+}

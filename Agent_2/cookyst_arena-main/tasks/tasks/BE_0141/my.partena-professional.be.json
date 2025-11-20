@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://my.partena-professional.be",
+      "intent": "Télécharger le formulaire Dimona pour les employés occasionnels et les travailleurs flexi-job"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://my.partena-professional.be",
+      "intent": "Envoyer le formulaire Dimona par email à l'adresse dimona@partena.be"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://my.partena-professional.be",
+      "intent": "Rechercher des informations sur la déclaration Dimona et les procédures de soumission"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://my.partena-professional.be",
+      "intent": "Consulter mes déclarations Dimona précédentes et leur statut de traitement"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://my.partena-professional.be",
+      "intent": "Soumettre une nouvelle déclaration Dimona en ligne via mon compte"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://my.partena-professional.be",
+      "intent": "Gérer mes informations de compte et mes paramètres de notification pour les déclarations Dimona"
+    }
+  ]
+}

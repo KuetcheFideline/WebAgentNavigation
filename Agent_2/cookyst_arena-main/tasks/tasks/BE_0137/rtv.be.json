@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rtv.be",
+      "intent": "Rechercher des informations sur les actualités régionales de la Kempen et Rivierenland"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rtv.be",
+      "intent": "Consulter les prévisions météorologiques pour la région de Ottignies"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rtv.be",
+      "intent": "Lire les dernières nouvelles sur le trafic et la mobilité dans la région"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rtv.be",
+      "intent": "Personnaliser mes préférences de contenu en fonction de mes intérêts"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rtv.be",
+      "intent": "Gérer mes abonnements aux newsletters et aux alertes de la plateforme"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rtv.be",
+      "intent": "Participer à des discussions en ligne sur des sujets d'actualité avec d'autres utilisateurs"
+    }
+  ]
+}

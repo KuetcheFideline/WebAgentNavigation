@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.levykauppax.fi",
+      "intent": "Hae uusimmat LP:t ja CD:t"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.levykauppax.fi",
+      "intent": "Selaa käytettyjä vinyylejä ja etsi harvinaisia löytöjä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.levykauppax.fi",
+      "intent": "Lue arvosteluita ja etsi suosituksia uusimmista julkaisuista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.levykauppax.fi",
+      "intent": "Tilaa uusin Metallica-albumi etukäteen ja varmista sen saanti julkaisupäivänä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.levykauppax.fi",
+      "intent": "Lisää tuotteita ostoskoriin ja tee tilaus, käyttäen Kanta-asiakaskorttia alennuksen saamiseksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.levykauppax.fi",
+      "intent": "Tarkista tilausten tila ja seuraa lähetyksen etenemistä"
+    }
+  ]
+}

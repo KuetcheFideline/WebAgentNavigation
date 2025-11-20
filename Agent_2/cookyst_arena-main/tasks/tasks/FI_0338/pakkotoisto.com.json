@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://pakkotoisto.com",
+      "intent": "Selvitän, mitä uutta on tapahtunut sivustolla ja etsin mielenkiintoisia artikkeleita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://pakkotoisto.com",
+      "intent": "Käyn läpi eri kategorioita ja etsin sisältöä, joka kiinnostaa minua"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://pakkotoisto.com",
+      "intent": "Tutkin sivuston hakutoimintoa ja etsin tiettyjä aiheita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://pakkotoisto.com",
+      "intent": "Kirjaudun sisään ja tarkistan omat tilastoni ja profiilini"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://pakkotoisto.com",
+      "intent": "Osallistun keskusteluun ja kommentoin artikkeleita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://pakkotoisto.com",
+      "intent": "Tarkistan viimeisimmät päivitykset ja ilmoitukset omassa käyttäjätilissäni"
+    }
+  ]
+}

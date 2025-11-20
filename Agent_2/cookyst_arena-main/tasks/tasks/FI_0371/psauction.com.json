@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://psauction.com",
+      "intent": "Selvittää miten voisin ostaa käytettyjä kalusteita sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://psauction.com",
+      "intent": "Etsiä tietoa siitä, miten voin myydä omia tavaroitani huutokaupassa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://psauction.com",
+      "intent": "Lukea arvosteluita ja kokemuksia muilta asiakkailta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://psauction.com",
+      "intent": "Tarkistaa omaa tiliäni ja huutokauppoja, joihin olen osallistunut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://psauction.com",
+      "intent": "Lisätä uusi maksutapa ja tarkistaa maksuasetukset"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://psauction.com",
+      "intent": "Jättää tarjous huutokauppaan, jossa on kiinnostavaa minulle"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://forum.warthunder.com",
+      "intent": "Selvittää mitä uutta on War Thunder -pelissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://forum.warthunder.com",
+      "intent": "Lukea viimeisimmät uutiset ja päivitykset"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://forum.warthunder.com",
+      "intent": "Etsiä tietoa lentokoneista ja niiden ominaisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://forum.warthunder.com",
+      "intent": "Kirjautua sisään ja osallistua keskusteluun lentokoneista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://forum.warthunder.com",
+      "intent": "Lähettää viesti ystävälle pelistä ja sen uusimmista ominaisuuksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://forum.warthunder.com",
+      "intent": "Vastata keskusteluketjuun, jossa käydään läpi pelin parhaita lentokoneita"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.madrid.es",
+      "intent": "Buscar información sobre los trámites y gestiones relacionados con la ciudadanía en el Ayuntamiento de Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.madrid.es",
+      "intent": "Consultar el catálogo de trámites y servicios disponibles en la Sede Electrónica del Ayuntamiento de Madrid"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.madrid.es",
+      "intent": "Acceder a la sección de noticias y actualidad del Ayuntamiento de Madrid para estar informado sobre los últimos acontecimientos"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.madrid.es",
+      "intent": "Iniciar sesión en la Sede Electrónica del Ayuntamiento de Madrid para acceder a mis trámites y gestiones personales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.madrid.es",
+      "intent": "Solicitar un certificado de empadronamiento a través de la Sede Electrónica del Ayuntamiento de Madrid"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.madrid.es",
+      "intent": "Presentar una sugerencia o reclamación en el Ayuntamiento de Madrid a través de la Sede Electrónica"
+    }
+  ]
+}

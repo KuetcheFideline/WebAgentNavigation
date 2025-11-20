@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://php.fi",
+      "intent": "Selvittää miten osakerekisterin omistajatiedot voidaan päivittää itsepalvelusivuston kautta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://php.fi",
+      "intent": "Ladata kartta (PDF) PHP Holding Oy:n osakkeenomistajien palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://php.fi",
+      "intent": "Etsiä tietoa PHP Holding Oy:n historiasta lyhyesti"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://php.fi",
+      "intent": "Päivittää osoite- ja muita yhteystietoja itsepalvelusivuston kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://php.fi",
+      "intent": "Tulostaa osakerekisteriotteen omista osakkeista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://php.fi",
+      "intent": "Katsoa PHP:n suurimpien omistajien ajantasaisen listan itsepalvelusivustolta"
+    }
+  ]
+}

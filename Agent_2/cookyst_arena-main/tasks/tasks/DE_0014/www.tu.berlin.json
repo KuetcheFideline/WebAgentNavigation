@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tu.berlin",
+      "intent": "Ich möchte Informationen über das Studienangebot der TU Berlin finden, um meine Möglichkeiten für ein Studium in Deutschland zu erkunden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tu.berlin",
+      "intent": "Ich will die verschiedenen Fakultäten und Zentralinstitute der TU Berlin erkunden, um herauszufinden, welche Forschungsschwerpunkte und Studiengänge angeboten werden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tu.berlin",
+      "intent": "Ich möchte die Beratungsangebote der TU Berlin nutzen, um mich über meine Studienmöglichkeiten und Karrierechancen zu informieren."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuport.sap.tu-berlin.de/",
+      "intent": "Ich möchte mich im TU Portal anmelden, um meine Studienleistungen und Prüfungen zu überprüfen und meine Studienorganisation zu planen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.tu-berlin.de/",
+      "intent": "Ich will meine E-Mails im Webmail-System der TU Berlin checken, um wichtige Nachrichten von der Universität und meinen Kommilitonen zu erhalten."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://intranet.tu-berlin.de/",
+      "intent": "Ich möchte auf das Intranet der TU Berlin zugreifen, um interne Informationen und Ressourcen für Studierende zu nutzen und mich über aktuelle Ereignisse und Ankündigungen zu informieren."
+    }
+  ]
+}

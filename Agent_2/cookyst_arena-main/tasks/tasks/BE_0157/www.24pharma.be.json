@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.24pharma.be",
+      "intent": "Rechercher des médicaments pour mes enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.24pharma.be",
+      "intent": "Consulter les conseils de santé pour les parents célibataires"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.24pharma.be",
+      "intent": "Comparer les prix des produits de soins personnels"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.24pharma.be",
+      "intent": "Commander des médicaments en ligne pour mes besoins personnels"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.24pharma.be",
+      "intent": "Gérer mes commandes et mes abonnements à des produits de santé"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.24pharma.be",
+      "intent": "Consulter l'historique de mes achats et mes factures"
+    }
+  ]
+}

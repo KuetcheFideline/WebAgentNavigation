@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.locamat.be",
+      "intent": "Rechercher des machines de location pour un projet de rénovation de mon appartement à Ixelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.locamat.be",
+      "intent": "Comparer les prix et les caractéristiques des différentes machines de location proposées par Locamat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.locamat.be",
+      "intent": "Consulter les actualités et les promotions en cours pour obtenir des informations sur les offres spéciales de location de machines"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.locamat.be",
+      "intent": "Réserver une machine de location pour une période spécifique en ligne, en utilisant mon compte Locamat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.locamat.be",
+      "intent": "Gérer mes réservations de machines de location en ligne, en consultant mon historique de locations et en modifiant ou en annulant des réservations si nécessaire"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.locamat.be",
+      "intent": "Accéder à mes informations personnelles et à mon compte Locamat pour mettre à jour mes coordonnées et mes préférences de location de machines"
+    }
+  ]
+}

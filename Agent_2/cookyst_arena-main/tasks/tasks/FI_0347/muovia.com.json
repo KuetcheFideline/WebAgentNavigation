@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://muovia.com",
+      "intent": "Selvittää mitä muoveja on tarjolla verkkokaupassa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://muovia.com",
+      "intent": "Lukea arvosteluita ja kommentteja muovituotteista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://muovia.com",
+      "intent": "Etsiä tietoa muovien käytöstä ja sovelluksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://muovia.com",
+      "intent": "Tehdä tilaus muovituotteista verkkokaupassa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://muovia.com",
+      "intent": "Seurata tilausten tilaa ja muokata tilauksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://muovia.com",
+      "intent": "Kirjautua sisään ja tarkastaa ostoshistoria"
+    }
+  ]
+}

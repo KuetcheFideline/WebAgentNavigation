@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.padelkunkku.fi",
+      "intent": "Etsin uusimmat padelmailat ja vertailen niiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.padelkunkku.fi",
+      "intent": "Selailen suosituimmat tuotteet ja etsin tarjouksia ja alennuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.padelkunkku.fi",
+      "intent": "Haku Padelkengät ja vertailen eri merkkien ja mallien ominaisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.padelkunkku.fi",
+      "intent": "Tilaan uuden padelmailan ja määrittelen toimitus- ja maksutavat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.padelkunkku.fi",
+      "intent": "Seuraan tilaustani ja tarkistan tilausHistoriani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.padelkunkku.fi",
+      "intent": "Arvostelun kirjoittaminen ostamastani padelmailasta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodlecourses.novia.fi",
+      "intent": "Selvitän, mitä kurssit ovat saatavilla Novian verkkosivuilla"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodlecourses.novia.fi",
+      "intent": "Löydän tietoa siitä, miten voin käyttää Moodlea opintojani tueksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodlecourses.novia.fi",
+      "intent": "Tutkin, onko Novian sivuilla mahdollista hakea tietoa eri aiheista, kuten puutarhanhoitosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodlecourses.novia.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä kursseja minulla on käynnissä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodlecourses.novia.fi",
+      "intent": "Löydän ja osallistun keskusteluihin, jotka liittyvät minun kiinnostuksiini, kuten saunaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodlecourses.novia.fi",
+      "intent": "Tarkistan, onko minulla uusia viestejä tai ilmoituksia opettajilta tai muilta käyttäjiltä"
+    }
+  ]
+}

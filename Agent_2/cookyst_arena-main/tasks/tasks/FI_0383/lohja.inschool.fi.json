@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa siitä, mitä Wilma on ja miten sitä voidaan käyttää."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Selailen Wilman käyttöliittymää ja etsin tietoa opiskelijoiden, opettajien ja huoltajien toiminnoista."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Luen Wilman saavutettavuusselostetta ja tutkin, miten palvelu on suunniteltu esteettömäksi."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan opiskelijan poissaoloja ja suorituksia."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta ja kysyn tietoa kurssin suorittamisesta."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://lohja.inschool.fi",
+      "intent": "Päivitän henkilötietojani Wilman kautta ja varmistun, että ne ovat ajan tasalla."
+    }
+  ]
+}

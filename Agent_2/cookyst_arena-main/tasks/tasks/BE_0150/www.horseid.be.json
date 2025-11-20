@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.horseid.be",
+      "intent": "Rechercher les informations sur l'enregistrement d'un établissement équestre pour comprendre les exigences et les procédures à suivre."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.horseid.be",
+      "intent": "Consulter les données de base sur les équidés en utilisant le numéro de transpondeur ou le numéro UELN pour vérifier leur statut d'identification."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.horseid.be",
+      "intent": "Explorer les ressources et les liens proposés sur le site pour en savoir plus sur la Confédération Belge du Cheval et ses activités."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.horseid.be",
+      "intent": "Introduire une demande d'identification pour un nouvel équidé en suivant les étapes de création d'un compte et de soumission de la demande sur l'application HorseID."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.horseid.be",
+      "intent": "Consulter la liste des équidés pour lesquels je suis enregistré comme détenteur et gérer les informations associées à ces animaux."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.horseid.be",
+      "intent": "Effectuer une mise à jour des informations de mon compte et des équidés que je détiens pour assurer que toutes les données sont à jour et exactes."
+    }
+  ]
+}

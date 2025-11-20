@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tieteentermipankki.fi",
+      "intent": "Hae tietoa aistinvaraisesta tutkimuksesta Tieteen termipankista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tieteentermipankki.fi",
+      "intent": "Selaa eläintieteen aiheisia termejä ja käsitesivuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tieteentermipankki.fi",
+      "intent": "Lue ohjeita Tieteen termipankin käytöstä ja hakutoiminnosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tieteentermipankki.fi",
+      "intent": "Tallenna suosikkitermit ja käsitesivut omiin kirjanmerkkeihin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tieteentermipankki.fi",
+      "intent": "Osallistu keskusteluun tieteenalojen termeistä ja niiden käytöstä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tieteentermipankki.fi",
+      "intent": "Luo ja julkaista omaa sisältöä Tieteen termipankkiin liittyen opetustyöhön"
+    }
+  ]
+}

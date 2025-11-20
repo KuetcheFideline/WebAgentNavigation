@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://fimlab.fi",
+      "intent": "Hae sivustolta tietoa verikokeista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://fimlab.fi",
+      "intent": "Selvitä miten varata aika laboratorioon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://fimlab.fi",
+      "intent": "Lue lisää Fimlabin mobiilisovelluksesta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://fimlab.fi",
+      "intent": "Tarkista omat laboratoriotutkimusten tulokset"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://fimlab.fi",
+      "intent": "Varaa aika laboratorioon omalla tilillä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://fimlab.fi",
+      "intent": "Anna palautetta viimeisimmästä laboratoriotutkimuksesta"
+    }
+  ]
+}

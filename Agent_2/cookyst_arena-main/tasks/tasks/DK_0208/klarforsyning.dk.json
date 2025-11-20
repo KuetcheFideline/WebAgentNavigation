@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://klarforsyning.dk",
+      "intent": "Jeg søger efter information om vandpriser og hvordan jeg kan reducere mit forbrug"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://klarforsyning.dk",
+      "intent": "Jeg vil læse om de seneste nyheder og projekter omkring vand og spildevand i min kommune"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://klarforsyning.dk",
+      "intent": "Jeg ønsker at finde ud af hvordan jeg kan blive kandidat til forbrugervalget 2025"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://klarforsyning.dk",
+      "intent": "Jeg vil logge ind for at se min vandforbrug og betalingshistorik"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://klarforsyning.dk",
+      "intent": "Jeg søger efter selvbetjeningstjenester for at ændre mine betalingsoplysninger"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://klarforsyning.dk",
+      "intent": "Jeg vil indberette min aflæsning af vandmåler og se min nuværende saldo"
+    }
+  ]
+}

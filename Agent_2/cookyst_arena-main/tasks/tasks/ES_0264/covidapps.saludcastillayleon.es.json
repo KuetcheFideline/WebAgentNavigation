@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://covidapps.saludcastillayleon.es",
+      "intent": "Realizar el test de autoevaluación para determinar si debo realizar aislamiento domiciliario debido a los síntomas que estoy experimentando."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://covidapps.saludcastillayleon.es",
+      "intent": "Buscar información sobre los síntomas habituales del COVID-19 y cómo puedo protegerme y a los demás."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://covidapps.saludcastillayleon.es",
+      "intent": "Leer las recomendaciones para adolescentes sobre cómo evitar el contagio y proteger a los demás."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://covidapps.saludcastillayleon.es",
+      "intent": "Acceder a mis resultados de test de autoevaluación anteriores para compararlos con mis síntomas actuales."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://covidapps.saludcastillayleon.es",
+      "intent": "Guardar mis síntomas y resultados de test de autoevaluación para futuras consultas y seguimiento."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://covidapps.saludcastillayleon.es",
+      "intent": "Configurar mis preferencias de notificación para recibir recordatorios y actualizaciones sobre el COVID-19 y mis resultados de test de autoevaluación."
+    }
+  ]
+}

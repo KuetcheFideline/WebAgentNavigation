@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://api.factorialhr.com",
+      "intent": "Buscar información sobre cómo solucionar el error 404 para poder acceder a la página que necesito."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://api.factorialhr.com",
+      "intent": "Explorar la página de inicio para ver si hay algún enlace o formulario que me permita contactar con el equipo de soporte técnico."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://api.factorialhr.com",
+      "intent": "Intentar encontrar la página que estaba buscando a través de la función de búsqueda del sitio web."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://api.factorialhr.com",
+      "intent": "Revisar los logs de la aplicación para ver si hay algún error o problema que esté causando el error 404."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://api.factorialhr.com",
+      "intent": "Configurar las preferencias de la cuenta para recibir notificaciones cuando haya problemas técnicos en el sitio web."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://api.factorialhr.com",
+      "intent": "Crear un ticket de soporte para informar al equipo técnico del error 404 y solicitar su ayuda para solucionarlo."
+    }
+  ]
+}

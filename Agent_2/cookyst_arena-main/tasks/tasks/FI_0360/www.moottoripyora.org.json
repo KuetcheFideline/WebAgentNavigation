@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://www.moottoripyora.org",
+      "intent": "Selata uusimmat viestit foorumilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://www.moottoripyora.org",
+      "intent": "Lue lisää MotOrg ry:n sääntömääräisestä syyskokouksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://www.moottoripyora.org",
+      "intent": "Etsi tietoa .ORG! Goes Tallinn vol. XIX -tapahtumasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://www.moottoripyora.org",
+      "intent": "Kirjaudu sisään ja tee jäsenmaksu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://www.moottoripyora.org",
+      "intent": "Osta liput ajoharjoittelutapahtumiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://www.moottoripyora.org",
+      "intent": "Osallistu keskusteluun uusimmissa aiheissa"
+    }
+  ]
+}

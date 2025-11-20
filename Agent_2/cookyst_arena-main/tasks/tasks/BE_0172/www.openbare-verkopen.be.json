@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.openbare-verkopen.be",
+      "intent": "Rechercher des ventes aux enchères de meubles pour ma maison à Tervuren"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.openbare-verkopen.be",
+      "intent": "Consulter les conditions de vente et les règles des enchères pour comprendre comment fonctionne le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.openbare-verkopen.be",
+      "intent": "Explorer les différentes catégories de produits mis aux enchères pour trouver des idées de cadeaux pour mes amis"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.openbare-verkopen.be",
+      "intent": "Placer une enchère sur un lot de meubles que je souhaite acquérir pour ma maison"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.openbare-verkopen.be",
+      "intent": "Consulter mon compte pour suivre l'état de mes enchères et mes achats"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.openbare-verkopen.be",
+      "intent": "Paramétrer mes préférences de notification pour être informé des nouvelles enchères et des fins de vente"
+    }
+  ]
+}

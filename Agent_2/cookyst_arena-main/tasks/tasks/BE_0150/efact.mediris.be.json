@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://efact.mediris.be",
+      "intent": "Je veux consulter les informations générales sur le site Mediris pour comprendre ses services."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://efact.mediris.be",
+      "intent": "Je souhaite comparer les avantages de l'utilisation de Mediris par rapport à d'autres services de santé en ligne."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://efact.mediris.be",
+      "intent": "Je veux explorer les ressources disponibles pour les patients sur le site Mediris, notamment les documents et les vidéos éducatives."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://efact.mediris.be",
+      "intent": "Je veux accéder à mes dossiers médicaux personnels et consulter mes résultats d'analyses en ligne."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://efact.mediris.be",
+      "intent": "Je souhaite prendre rendez-vous avec un médecin via le portail Mediris pour discuter de mes problèmes de santé actuels."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://efact.mediris.be",
+      "intent": "Je veux modifier mes informations personnelles et de contact dans mon compte Mediris pour assurer que tout est à jour."
+    }
+  ]
+}

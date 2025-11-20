@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.canalcar.es",
+      "intent": "Buscar un coche de segunda mano en Madrid para comprar"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.canalcar.es",
+      "intent": "Comparar los precios de los coches de ocasión en diferentes marcas y modelos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.canalcar.es",
+      "intent": "Leer las reseñas y comentarios de otros clientes sobre sus experiencias con Canalcar"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.canalcar.es",
+      "intent": "Iniciar sesión para acceder a mis coches guardados y seguir comparando"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.canalcar.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre coches que se ajusten a mis necesidades"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.canalcar.es",
+      "intent": "Solicitar una cotización personalizada para un coche de segunda mano que me interese"
+    }
+  ]
+}

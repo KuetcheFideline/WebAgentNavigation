@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elut.lut.fi",
+      "intent": "Haku kurssin 'Kasvatustiede' opinto-ohjeista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elut.lut.fi",
+      "intent": "Selvittää miten ilmoittautua opintojaksoille"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elut.lut.fi",
+      "intent": "Etsiä tietoa opiskeluoikeuksista ja niiden käytännöistä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elut.lut.fi",
+      "intent": "Tarkistaa omat opintosuunnitelmat ja HOPS-ohjeet"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elut.lut.fi",
+      "intent": "Ilmoittautua kurssille 'Kasvatustiede' ja tarkistaa ilmoittautumisen tila"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elut.lut.fi",
+      "intent": "Tarkastella opintotilastoa ja suorittaa opintojen seuranta"
+    }
+  ]
+}

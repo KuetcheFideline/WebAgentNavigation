@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tunnistus.s-ryhma.fi",
+      "intent": "Tutkin sivuston virheilmoitusta, jotta voin ymmärtää, mikä meni vikaan"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tunnistus.s-ryhma.fi",
+      "intent": "Etsin tietoa sivuston turvallisuudesta ja tietosuojasta, jotta voin tietää, miten he suojaavat käyttäjiensä tietoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tunnistus.s-ryhma.fi",
+      "intent": "Selvittelen, miten voin päästä eteenpäin virheilmoituksesta, jotta voin jatkaa sivuston käyttöä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tunnistus.s-ryhma.fi",
+      "intent": "Tarkistan käyttäjätilini tiedot, jotta voin varmistaa, että kaikki on kunnossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tunnistus.s-ryhma.fi",
+      "intent": "Muutan salasanani, jotta voin varmistaa, että tilini on turvallinen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tunnistus.s-ryhma.fi",
+      "intent": "Tutkin sivuston asetuksia, jotta voin mukauttaa käyttökokemukseni"
+    }
+  ]
+}

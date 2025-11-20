@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.pepecar.com",
+      "intent": "Buscar ofertas de alquiler de coches baratos en Mallorca para un fin de semana"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.pepecar.com",
+      "intent": "Comparar precios de alquiler de coches en diferentes aeropuertos de España"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.pepecar.com",
+      "intent": "Leer las políticas de cancelación y pago de Pepecar para alquilar un coche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.pepecar.com",
+      "intent": "Gestionar mi reserva de coche en Pepecar y cambiar la fecha de recogida"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.pepecar.com",
+      "intent": "Agregar un seguro de viaje a mi reserva de coche en Pepecar"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.pepecar.com",
+      "intent": "Imprimir el voucher de mi reserva de coche en Pepecar para recoger el vehículo"
+    }
+  ]
+}

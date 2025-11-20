@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://elmondelatele.cat",
+      "intent": "Buscar noticias sobre televisión y series en el sitio web de El Mon de la Tele"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://elmondelatele.cat",
+      "intent": "Explorar la sección de Audiències para conocer las últimas tendencias en televisión"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://elmondelatele.cat",
+      "intent": "Leer artículos sobre la industria audiovisual en la sección de La indústria"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://elmondelatele.cat",
+      "intent": "Iniciar sesión para comentar en un artículo sobre una serie o película que me guste"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://elmondelatele.cat",
+      "intent": "Crear una lista de reproducción de mis series y películas favoritas en la sección de Què mirar?"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://elmondelatele.cat",
+      "intent": "Participar en un foro de discusión sobre una serie o película en la sección de Comunitat"
+    }
+  ]
+}

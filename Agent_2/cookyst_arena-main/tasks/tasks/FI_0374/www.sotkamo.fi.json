@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sotkamo.fi",
+      "intent": "Hae sivustolta tietoa vapaista tonteista Sotkamossa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sotkamo.fi",
+      "intent": "Selaa kunnan verkkokauppaa etsimässä uusia tuotteita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sotkamo.fi",
+      "intent": "Tutki kunnan karttapalveluja löytääkseen uusia retkikohteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sotkamo.fi",
+      "intent": "Tee sähköinen asiointi kunnan verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sotkamo.fi",
+      "intent": "Lähetä palautetta kunnan verkkopalvelun toiminnasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sotkamo.fi",
+      "intent": "Tarkastele omia asiakirjoja ja lomakkeita kunnan verkkopalvelussa"
+    }
+  ]
+}

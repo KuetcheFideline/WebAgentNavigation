@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://boligsurf.dk",
+      "intent": "Jeg søger efter en lejebolig i Roskilde, så jeg vil skrive byens navn i søgefeltet og se, hvad der er ledigt."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://boligsurf.dk",
+      "intent": "Jeg vil læse mere om, hvordan jeg kan udleje min bolig, så jeg klikker på 'Udlejer' og ser, hvad der sker."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://boligsurf.dk",
+      "intent": "Jeg vil se, hvilke byer der er mest populære at leje i, så jeg klikker på 'Populære byer' i bunden af siden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://boligsurf.dk",
+      "intent": "Jeg vil oprette en boligsøgerannonce, så jeg logger ind og klikker på 'Opret boligsøgerannonce' for at se, hvordan det fungerer."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://boligsurf.dk",
+      "intent": "Jeg vil se mine gemte boliger, så jeg logger ind og klikker på 'Mine gemte boliger' for at se, hvilke boliger jeg har gemt."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://boligsurf.dk",
+      "intent": "Jeg vil kontakte en udlejer om en bolig, jeg er interesseret i, så jeg logger ind og klikker på 'Kontakt udlejer nu' for at se, hvordan det fungerer."
+    }
+  ]
+}

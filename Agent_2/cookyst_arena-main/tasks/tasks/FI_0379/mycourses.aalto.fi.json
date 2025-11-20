@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Etsin tietoa Aalto-yliopiston avoimen yliopiston opiskelumahdollisuuksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Haluan tarkastella Aalto-yliopiston kirjaston palveluita ja aineistoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Olen kiinnostunut Aalto-yliopiston opetusohjelmista ja kurssitarjonnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Tarkastan omia opintotietojani ja kurssisuorituksiani Aalto-yliopiston MyCourses-järjestelmässä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Haluan ilmoittautua Aalto-yliopiston kurssille ja tarkastaa kurssin sisällön ja aikataulun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mycourses.aalto.fi",
+      "intent": "Olen kiinnostunut Aalto-yliopiston opettajien ohjeista ja resursseista opintojen suorittamiseen"
+    }
+  ]
+}

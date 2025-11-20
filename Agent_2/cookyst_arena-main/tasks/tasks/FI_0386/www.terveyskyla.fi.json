@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Hae tietoa masennuksesta ja sen hoidosta Terveyskylän sivuilta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Selvitä miten voin hyödyntää Terveyskylän itsehoito-ohjelmia omassa elämässäni"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Lue lisää Terveyskylän Omapolku-palvelun tarjoamista digipoluista ja miten ne voivat auttaa minua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Kirjaudu Omapolkuun ja selvitä miten voin seurata omia terveyden tilastoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Käytä TerveyskyläPRO-palvelua ammattilaisena ja etsi tietoa mielenterveyden ongelmien hoidosta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.terveyskyla.fi",
+      "intent": "Tee etävastaanotto Terveyskylän sivujen kautta ja keskustele lääkärin kanssa masennuksen hoidosta"
+    }
+  ]
+}

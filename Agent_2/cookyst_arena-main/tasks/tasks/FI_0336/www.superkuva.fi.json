@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.superkuva.fi",
+      "intent": "Hae kameraa, joka on sopiva vlogaamiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.superkuva.fi",
+      "intent": "Vertaile eri kameramalleja ja niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.superkuva.fi",
+      "intent": "Lue arvosteluita eri tuotteista, jotka liittyvät valokuvaamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.superkuva.fi",
+      "intent": "Tilaa uutiskirje, jotta saan tietoa uusista tuotteista ja tarjouksista"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.superkuva.fi",
+      "intent": "Lisää tuote ostoskoriin ja tee tilaus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.superkuva.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen tilaa"
+    }
+  ]
+}

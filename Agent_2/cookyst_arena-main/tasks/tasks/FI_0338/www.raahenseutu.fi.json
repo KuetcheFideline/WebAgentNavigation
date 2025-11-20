@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.raahenseutu.fi",
+      "intent": "Luen uutisia Raahen Seutusta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.raahenseutu.fi",
+      "intent": "Etsin tietoa urheilutapahtumista Raahessa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.raahenseutu.fi",
+      "intent": "Selailen valokuvagallerioita Raahen Seudun sivuilla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.raahenseutu.fi",
+      "intent": "Lähetän uutisvinkin Raahen Seudun toimitukselle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.raahenseutu.fi",
+      "intent": "Tilaa uutisviestit Raahen Seudun sivuilta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.raahenseutu.fi",
+      "intent": "Kommentoin uutisartikkeleita Raahen Seudun verkkosivuilla"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "http://rekisteri.keilailu.fi",
+      "intent": "Hae keilailuliiton sivuilta tietoa Rovaniemen keilahalleista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "http://rekisteri.keilailu.fi",
+      "intent": "Selvitä miten liityn keilailuliittoon ja mitä hyötyjä siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "http://rekisteri.keilailu.fi",
+      "intent": "Etsi keilailuliiton sivuilta tietoa keilailukursseista ja -tapahtumista Rovaniemellä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "http://rekisteri.keilailu.fi",
+      "intent": "Tarkista oma keilailuliiton jäsenyyteni tiedot ja päivitä tarvittaessa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "http://rekisteri.keilailu.fi",
+      "intent": "Ilmoittaudu keilailuliiton järjestämään turnaukseen Rovaniemellä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "http://rekisteri.keilailu.fi",
+      "intent": "Lähetä viesti keilailuliiton asiakaspalveluun kysymykseni keilailuliiton toiminnasta"
+    }
+  ]
+}

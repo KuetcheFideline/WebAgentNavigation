@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.autouncle.fi",
+      "intent": "Tarkennan hakua käytetyille autoille Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.autouncle.fi",
+      "intent": "Vertailen eri merkkien ja mallien hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.autouncle.fi",
+      "intent": "Etsin tietoa siitä, miten voin myydä oman autoni"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.autouncle.fi",
+      "intent": "Tallennan suosikkiautoni ja seuraan niiden hintakehitystä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.autouncle.fi",
+      "intent": "Luo hakuagentti, joka ilmoittaa minulle uusista auton tarjouksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.autouncle.fi",
+      "intent": "Katson oman autoni arvon ja vertailen sitä muihin vastaaviin autoihin"
+    }
+  ]
+}

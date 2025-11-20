@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede-tu.seg-social.gob.es",
+      "intent": "Consultar las novedades sobre la conciliación de la vida familiar y profesional"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede-tu.seg-social.gob.es",
+      "intent": "Buscar información sobre el certificado de retenciones del IRPF del ejercicio 2024"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede-tu.seg-social.gob.es",
+      "intent": "Solicitar una cita previa en un Centro de Atención para resolver un problema"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede-tu.seg-social.gob.es",
+      "intent": "Acceder a mi cuenta como interesado para consultar mis servicios y beneficios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede-tu.seg-social.gob.es",
+      "intent": "Realizar un cambio de beneficiarios de asistencia sanitaria entre titulares"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede-tu.seg-social.gob.es",
+      "intent": "Descargar mi certificado de retenciones del IRPF del ejercicio 2024"
+    }
+  ]
+}

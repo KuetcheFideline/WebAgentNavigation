@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.flashscore.es",
+      "intent": "Buscar los resultados de los partidos de fútbol de la jornada de hoy"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.flashscore.es",
+      "intent": "Comparar las estadísticas de los equipos que juegan en la Liga de Campeones"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.flashscore.es",
+      "intent": "Explorar las noticias de deportes más recientes en la sección de fútbol"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.flashscore.es",
+      "intent": "Configurar mis alertas personalizadas para recibir notificaciones sobre los partidos de mi equipo favorito"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.flashscore.es",
+      "intent": "Crear una cuenta de apostador para participar en las quinielas de fútbol"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.flashscore.es",
+      "intent": "Compartir mis predicciones de partidos con mis amigos a través de las redes sociales"
+    }
+  ]
+}

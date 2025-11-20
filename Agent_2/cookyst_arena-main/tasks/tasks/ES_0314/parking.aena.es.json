@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://parking.aena.es",
+      "intent": "Realizar una reserva de parking para el aeropuerto de Madrid-Barajas Adolfo Suárez"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://parking.aena.es",
+      "intent": "Comparar los precios de los diferentes parkings en el aeropuerto de Barcelona-El Prat"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://parking.aena.es",
+      "intent": "Buscar información sobre los servicios de parking en el aeropuerto de Málaga"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://parking.aena.es",
+      "intent": "Gestionar mis reservas de parking en el aeropuerto de Palma de Mallorca"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://parking.aena.es",
+      "intent": "Cancelar una reserva de parking en el aeropuerto de Valencia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://parking.aena.es",
+      "intent": "Actualizar mis datos personales en la cuenta de parking de AENA"
+    }
+  ]
+}

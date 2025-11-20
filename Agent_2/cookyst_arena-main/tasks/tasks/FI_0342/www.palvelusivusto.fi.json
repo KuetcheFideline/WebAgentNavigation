@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.palvelusivusto.fi",
+      "intent": "Tutkin LEIJONAT-sivun uusimmat jääkiekko-uutiset"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.palvelusivusto.fi",
+      "intent": "Selailen FINHOCKEY-sivun jääkiekkoturnausten aikatauluja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.palvelusivusto.fi",
+      "intent": "Etsin Palvelusivuston käyttöohjeita, jotta voin käyttää sivustoa helpommin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.palvelusivusto.fi",
+      "intent": "Tarkastan oman käyttäjätilini tiedot ja varmistan, että ne ovat ajan tasalla"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.palvelusivusto.fi",
+      "intent": "Ostan jääkiekkoliigan virallisia tuotteita sivuston kaupasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.palvelusivusto.fi",
+      "intent": "Kirjaudun sisään ja tarkastan TULOSPALVELU-sivun, jotta voin seurata suosikkijoukkueeni tuloksia"
+    }
+  ]
+}

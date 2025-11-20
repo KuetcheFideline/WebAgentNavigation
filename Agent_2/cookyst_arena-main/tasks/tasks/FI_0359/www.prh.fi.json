@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.prh.fi",
+      "intent": "Hae yrityksen perustamisohjeita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.prh.fi",
+      "intent": "Etsi tietoa tavaramerkkien rekisteröinnistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.prh.fi",
+      "intent": "Lue uutisia ja tiedotteita yrittäjille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.prh.fi",
+      "intent": "Tee ilmoitus yrityksen perustamisesta kaupparekisteriin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.prh.fi",
+      "intent": "Tarkastele omia ilmoituksia ja maksukuitteja YTJ-palvelussa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.prh.fi",
+      "intent": "Ilmoita uusi hallitus YTJ-palvelussa"
+    }
+  ]
+}

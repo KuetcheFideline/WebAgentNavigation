@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.epressi.com",
+      "intent": "Hae uusimmat tiedotteet urheilu aihealueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.epressi.com",
+      "intent": "Selaa toimialat ja valitse esimerkiksi mediakutsu"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.epressi.com",
+      "intent": "Tilaa uutissyöte suoraan palveluun"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.epressi.com",
+      "intent": "Muokkaa tilaamiasi tiedotekoosteita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.epressi.com",
+      "intent": "Tee kanavahaku antenni-tv-kotitaloudessa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.epressi.com",
+      "intent": "Osta tiedotteita ja tilaa uutissyöte"
+    }
+  ]
+}

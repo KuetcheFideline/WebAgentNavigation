@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.rajapack.dk",
+      "intent": "Jeg søger efter en papkasse til min flytning, så jeg vil klikke på 'Find papkasser' for at se, hvad Rajapack tilbyder."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.rajapack.dk",
+      "intent": "Jeg vil gerne læse anmeldelser fra andre kunder, så jeg klikker på 'Trustpilot' for at se, hvad de siger om Rajapack."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.rajapack.dk",
+      "intent": "Jeg har brug for at købe nogle emballageprodukter, så jeg søger efter 'Emballage til e-handel' for at se, hvad Rajapack har at tilbyde."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.rajapack.dk",
+      "intent": "Jeg har allerede en konto, så jeg logger ind for at se mine tidligere ordrer og få en oversigt over mine køb."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.rajapack.dk",
+      "intent": "Jeg vil gerne bestille noget emballagemateriel, så jeg logger ind og klikker på 'Min kurv' for at se, om jeg har nogen produkter gemt."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.rajapack.dk",
+      "intent": "Jeg har fundet det, jeg søger, så jeg logger ind og går til 'Betaling' for at fuldføre min ordre."
+    }
+  ]
+}

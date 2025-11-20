@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://campusmadrid.csod.com",
+      "intent": "Buscar información sobre cómo acceder a la plataforma como usuario por primera vez"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://campusmadrid.csod.com",
+      "intent": "Leer las condiciones de uso de la plataforma antes de registrarme"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://campusmadrid.csod.com",
+      "intent": "Intentar recuperar mi contraseña en caso de que la haya olvidado"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://campusmadrid.csod.com",
+      "intent": "Configurar mis preferencias de usuario una vez que haya accedido a la plataforma"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://campusmadrid.csod.com",
+      "intent": "Explorar los cursos y recursos disponibles en la plataforma como usuario registrado"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://campusmadrid.csod.com",
+      "intent": "Contactar con el soporte técnico a través de la plataforma para resolver una duda sobre mi cuenta"
+    }
+  ]
+}

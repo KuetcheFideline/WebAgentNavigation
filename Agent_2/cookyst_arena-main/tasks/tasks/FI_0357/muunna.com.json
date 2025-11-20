@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://muunna.com",
+      "intent": "Tiedostomuunnin käyttäminen potilashoitotiedostojen muuntamiseen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://muunna.com",
+      "intent": "Lämpötilamuunnin käyttäminen potilaiden lämpötilan seuraamiseen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://muunna.com",
+      "intent": "Pituusmuunnin käyttäminen potilaiden pituuden mittaamiseen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://muunna.com",
+      "intent": "Tallentaminen suosikkimuunnoksiksi ja niiden hallinta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://muunna.com",
+      "intent": "Muunna tiedostoja eri muotoihin ja tallenna ne omiin tiedostoihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://muunna.com",
+      "intent": "Käyttäjätilin asetusten muokkaaminen, kuten kielen vaihtaminen suomeksi"
+    }
+  ]
+}

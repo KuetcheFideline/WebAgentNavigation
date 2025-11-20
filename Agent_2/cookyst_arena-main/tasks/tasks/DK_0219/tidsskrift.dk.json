@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tidsskrift.dk",
+      "intent": "Jeg søger efter artikler om vedvarende energi på Tidsskrift.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tidsskrift.dk",
+      "intent": "Jeg ønsker at læse den nyeste udgave af Jordens Folk på Tidsskrift.dk"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tidsskrift.dk",
+      "intent": "Jeg vil se alle tidsskrifter på Tidsskrift.dk for at finde noget om bæredygtighed"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tidsskrift.dk",
+      "intent": "Jeg logger ind for at få adgang til min personlige læseliste på Tidsskrift.dk"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tidsskrift.dk",
+      "intent": "Jeg ønsker at downloade en artikel om fornybar energi, efter at jeg har logget ind på Tidsskrift.dk"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tidsskrift.dk",
+      "intent": "Jeg vil gemme en artikel om klimaforandring til min samling på Tidsskrift.dk efter login"
+    }
+  ]
+}

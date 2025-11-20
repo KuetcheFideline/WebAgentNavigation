@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nordjyske.dk",
+      "intent": "Læse om de seneste nyheder fra Nordjylland"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nordjyske.dk",
+      "intent": "Søge efter information om kommunalvalget i Aarhus"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nordjyske.dk",
+      "intent": "Få overblik over de lokale nyheder og begivenheder i området"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nordjyske.dk",
+      "intent": "Del en artikel om sundhedsnyheder fra Nordjylland på min profil"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nordjyske.dk",
+      "intent": "Kommentere på en artikel om kommunalvalget i min kommune"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nordjyske.dk",
+      "intent": "Læse og svare på kommentarer fra andre brugere på en artikel om erhvervslivet i Nordjylland"
+    }
+  ]
+}

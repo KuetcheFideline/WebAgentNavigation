@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tie.skoleplan.dk",
+      "intent": "Jeg søger efter information omkring SkolePlan og dens funktioner"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tie.skoleplan.dk",
+      "intent": "Jeg vil se, om der er nogen vejledninger eller tutorials til SkolePlan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tie.skoleplan.dk",
+      "intent": "Jeg søger efter en mulighed for at kontakte support eller en administrator for SkolePlan"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tie.skoleplan.dk",
+      "intent": "Jeg vil logge ind på min konto for at se mine personlige oplysninger og skoleår"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tie.skoleplan.dk",
+      "intent": "Jeg vil ændre mit brugernavn eller adgangskode for at sikre min konto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tie.skoleplan.dk",
+      "intent": "Jeg vil se mine skemaer og planer for det aktuelle skoleår"
+    }
+  ]
+}

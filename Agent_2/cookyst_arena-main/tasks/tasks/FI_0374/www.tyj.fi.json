@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tyj.fi",
+      "intent": "Tutustun työttömyyskassojen yleisiin tietoihin ja etsin tietoa ansiopäivärahasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tyj.fi",
+      "intent": "Selvittelen, miten voin liittyä työttömyyskassaan ja mitä hyötyä siitä on"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tyj.fi",
+      "intent": "Luen uusimmat uutiset ja tiedotteet työttömyyskassoista ja työttömyysturvasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tyj.fi",
+      "intent": "Täytän ansiopäivärahahakemuksen oman työttömyyskassani verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tyj.fi",
+      "intent": "Tarkastan työttömyyskassani jäsenmaksuni ja lasken arvion päivärahastani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tyj.fi",
+      "intent": "Ilmoittaudun työnhakijaksi työvoimaviranomaisen verkkopalvelussa"
+    }
+  ]
+}

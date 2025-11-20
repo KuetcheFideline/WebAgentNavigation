@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hel.fi",
+      "intent": "Hae tietoa Helsingin kaupungin sosiaali- ja terveyspalveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hel.fi",
+      "intent": "Selaa Helsingin kaupungin verkkopalveluja ja etsi tietoa asumisesta ja terveyspalveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hel.fi",
+      "intent": "Tutki Helsingin kaupungin kulttuuri- ja vapaa-ajan tarjontaa perheeni kanssa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hel.fi",
+      "intent": "Kirjaudu sisään ja tee ilmoitus Helsingin kaupungin verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hel.fi",
+      "intent": "Täytä Helsingin kaupungin verkkopalvelun asiointilomake ja lähetä se eteenpäin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hel.fi",
+      "intent": "Seuraa Helsingin kaupungin verkkopalvelun asiointiprosessia ja odota vastausta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mijn.helan.be",
+      "intent": "Je veux explorer les fonctionnalités de base du site pour comprendre ce que propose Mijn Helan."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mijn.helan.be",
+      "intent": "Je souhaite consulter les informations générales sur les produits et services offerts par Helan sans créer de compte."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mijn.helan.be",
+      "intent": "Je veux rechercher des informations sur les avantages de créer un compte sur le site Mijn Helan pour un étudiant comme moi."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mijn.helan.be",
+      "intent": "Je vais configurer mes préférences de compte pour recevoir des notifications personnalisées sur les promotions et les nouveaux produits."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mijn.helan.be",
+      "intent": "Je souhaite accéder à l'historique de mes commandes pour suivre mes achats et gérer mes retours éventuels."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mijn.helan.be",
+      "intent": "Je veux mettre à jour mes informations de paiement pour faciliter mes futurs achats sur le site."
+    }
+  ]
+}

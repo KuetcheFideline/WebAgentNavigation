@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.douglas.be",
+      "intent": "Essayer de contourner le message d'erreur pour accéder au site web de Douglas"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.douglas.be",
+      "intent": "Rechercher des informations sur les produits de soins personnels disponibles sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.douglas.be",
+      "intent": "Vérifier si le site propose des conseils de beauté ou des tutoriels pour les hommes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.douglas.be",
+      "intent": "Consulter mes commandes précédentes pour vérifier si j'ai déjà acheté des produits similaires"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.douglas.be",
+      "intent": "Gérer mes informations personnelles pour m'assurer que mes coordonnées sont à jour"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.douglas.be",
+      "intent": "Utiliser mon compte pour bénéficier de réductions ou de promotions exclusives"
+    }
+  ]
+}

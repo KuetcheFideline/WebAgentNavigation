@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mail.uni-bonn.de",
+      "intent": "Ich möchte die Anmeldeseite der Universität Bonn Mail aufrufen, um meine E-Mail-Adresse zu überprüfen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mail.uni-bonn.de",
+      "intent": "Ich will die Browser-Kompatibilität überprüfen, um sicherzustellen, dass ich die neueste Version von Chrome, Firefox, Safari oder Internet Explorer verwende."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mail.uni-bonn.de",
+      "intent": "Ich möchte den Link 'Noch einmal versuchen' anklicken, um die Anmeldeseite erneut zu laden, falls ich Probleme bei der Anmeldung habe."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mail.uni-bonn.de",
+      "intent": "Ich will meine E-Mail-Adresse und mein Kennwort eingeben, um mich anzumelden und auf meine E-Mails zuzugreifen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mail.uni-bonn.de",
+      "intent": "Ich möchte mein Kennwort ändern, indem ich auf den Link 'Kennwort ändern' klicke und mein altes Kennwort, mein neues Kennwort und mein neues Kennwort wiederhole, um meine Account-Sicherheit zu erhöhen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mail.uni-bonn.de",
+      "intent": "Ich will die Zwei-Faktor-Authentifizierung aktivieren, indem ich den Bestätigungs-Code eingebe und auf 'Start' klicke, um meine Anmeldung zu sichern."
+    }
+  ]
+}

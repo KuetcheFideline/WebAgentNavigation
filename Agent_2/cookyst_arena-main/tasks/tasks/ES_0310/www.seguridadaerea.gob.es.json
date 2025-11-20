@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.seguridadaerea.gob.es",
+      "intent": "Buscar información sobre los derechos de los pasajeros en caso de cancelaciones de vuelos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.seguridadaerea.gob.es",
+      "intent": "Explorar la sección de UAS/Drones para conocer las normativas y regulaciones actuales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.seguridadaerea.gob.es",
+      "intent": "Leer las noticias y actualizaciones sobre la seguridad aérea en la sección de noticias"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.seguridadaerea.gob.es",
+      "intent": "Acceder a la sección de gestión de licencias para pilotos de helicópteros FCL (H) y verificar el estado de mi licencia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.seguridadaerea.gob.es",
+      "intent": "Descargar y completar el formulario de solicitud de autorización para operar drones en España"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.seguridadaerea.gob.es",
+      "intent": "Consultar y actualizar mis datos personales y de contacto en la sección de mi cuenta"
+    }
+  ]
+}

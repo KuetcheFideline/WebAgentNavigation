@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://imv.seg-social.es",
+      "intent": "Solicitar información sobre el Ingreso Mínimo Vital para saber si puedo acceder a esta prestación como funcionaria de la Junta Andalucía."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://imv.seg-social.es",
+      "intent": "Buscar en el sitio web información sobre los requisitos y el proceso de solicitud del Ingreso Mínimo Vital para familias con hijos a cargo."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://imv.seg-social.es",
+      "intent": "Explorar las secciones de preguntas frecuentes y noticias para estar al tanto de las últimas novedades y cambios en la legislación relacionada con el Ingreso Mínimo Vital."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://imv.seg-social.es",
+      "intent": "Iniciar sesión para acceder a mi cuenta y verificar el estado de mi solicitud de Ingreso Mínimo Vital, así como para actualizar mis datos personales y familiares."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://imv.seg-social.es",
+      "intent": "Descargar y imprimir el justificante de haber solicitado el Ingreso Mínimo Vital para adjuntarlo a mi expediente laboral y así demostrar que he solicitado esta prestación."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://imv.seg-social.es",
+      "intent": "Solicitar una cita con un asesor para obtener orientación personalizada sobre cómo gestionar mi Ingreso Mínimo Vital y otros beneficios sociales a los que pueda tener derecho como funcionaria."
+    }
+  ]
+}

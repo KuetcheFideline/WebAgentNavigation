@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bmedred.es",
+      "intent": "Buscar información sobre cómo habilitar JavaScript en mi navegador para acceder al contenido de la página"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bmedred.es",
+      "intent": "Explorar las secciones públicas del sitio para entender sus servicios y funcionalidades"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bmedred.es",
+      "intent": "Intentar recuperar mi contraseña para acceder a mi cuenta de usuario"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bmedred.es",
+      "intent": "Configurar mis preferencias de cuenta y ajustar la configuración de seguridad"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bmedred.es",
+      "intent": "Acceder a mis documentos y archivos personales almacenados en la plataforma"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bmedred.es",
+      "intent": "Realizar una búsqueda avanzada en la base de datos del sitio para encontrar información específica relacionada con mi trabajo en Accenture"
+    }
+  ]
+}

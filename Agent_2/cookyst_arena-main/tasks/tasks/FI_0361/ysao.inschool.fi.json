@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ysao.inschool.fi",
+      "intent": "Tutkin Wilman etusivun ja etsin tietoa opiskelijoiden ruokalistasta ja aukioloajoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ysao.inschool.fi",
+      "intent": "Selailen Wilman ohjeita ja etsin tietoa opiskelijoiden salasanan vaihtamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ysao.inschool.fi",
+      "intent": "Käyn läpi Wilman linkkejä ja etsin tietoa Ylä-Savon ammattiopiston toimipisteiden yhteystiedoista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ysao.inschool.fi",
+      "intent": "Kirjaudun sisään YSAOn tunnuksella ja tarkastan opiskelijan tiedot ja kurssit"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ysao.inschool.fi",
+      "intent": "Muokkaan opiskelijan tietoja ja vaihdan salasanaa Wilman käyttäjäprofiilissa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ysao.inschool.fi",
+      "intent": "Tarkastan Wilman viestitoiminnot ja etsin tietoa opiskelijan kurssien arvostelusta"
+    }
+  ]
+}

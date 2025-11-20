@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Hae kirjoja kalastuksesta ja lue niitä vapaa-ajallani"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Selaa äänikirjoja ja e-kirjoja, joissa on mökkiläinen elämäntapa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Tutustu BookBeatin ilmainen kokeiluun ja sen edut"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Lisää kirja 'Tinna' äänikirjoihin ja aloita kuuntelu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Tee tilaus uudesta kirjasta 'Järvi, joka murtui' ja lue se"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.bookbeat.fi",
+      "intent": "Muokkaa tilaustani ja poista vanha kirja, jota en ole lukenut"
+    }
+  ]
+}

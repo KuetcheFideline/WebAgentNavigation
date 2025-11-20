@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.domainhotelli.fi",
+      "intent": "Hae domainia ja tarkista sen saatavuus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.domainhotelli.fi",
+      "intent": "Vertaile eri webhotellipaketteja ja niiden ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.domainhotelli.fi",
+      "intent": "Lue asiakaskokemuksia ja arvosteluita Domainhotellista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.domainhotelli.fi",
+      "intent": "Tilaa uusi domain ja määritä sen nimipalvelu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.domainhotelli.fi",
+      "intent": "Hallinnoi olemassa olevia verkkotunnuksia ja webhotellipaketteja"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.domainhotelli.fi",
+      "intent": "Asenna WordPress webhotelliin ja määritä sen asetukset"
+    }
+  ]
+}

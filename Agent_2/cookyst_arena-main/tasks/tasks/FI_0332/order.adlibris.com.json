@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://order.adlibris.com",
+      "intent": "Tarkastan sivuston etusivun hakutoiminnon toimivuutta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://order.adlibris.com",
+      "intent": "Etsin suosituksia uusimmista kirjoista ja arvosteluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://order.adlibris.com",
+      "intent": "Selvitan, miten voin tehdä tilauksen ilman kirjautumista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://order.adlibris.com",
+      "intent": "Tarkastan tilaushistoriani ja seuraan tilausteni etenemistä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://order.adlibris.com",
+      "intent": "Muutan tilaustani ja päivitän osoitteeni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://order.adlibris.com",
+      "intent": "Lisään uuden osoitteen ja testaan toimitusvaihtoehtoja"
+    }
+  ]
+}

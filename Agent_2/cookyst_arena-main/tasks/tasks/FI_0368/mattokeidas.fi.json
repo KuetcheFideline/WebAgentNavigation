@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://mattokeidas.fi",
+      "intent": "Hae mattoja, jotka ovat yli 199€ ja joista on ilmainen toimitus kotiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://mattokeidas.fi",
+      "intent": "Selaa Black Weeks tarjouksia ja etsi edullisia mattoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://mattokeidas.fi",
+      "intent": "Tutki Tampereen myymälän aukioloaikoja ja suunnittele vierailu"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://mattokeidas.fi",
+      "intent": "Tarkista tilaushistoria ja etsi mahdollisia uusintatilauksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://mattokeidas.fi",
+      "intent": "Muokkaa tilin tietoja, kuten osoitetta ja puhelinnumeroa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://mattokeidas.fi",
+      "intent": "Lisää tuotteita toivelistalle ja seuraa suosikkimattojen saatavuutta"
+    }
+  ]
+}

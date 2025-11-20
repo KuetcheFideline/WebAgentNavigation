@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.elixia.fi",
+      "intent": "Hae lähin ELIXIA-keskus Vaasasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.elixia.fi",
+      "intent": "Tutustu ryhmäliikuntatuntien tarjontaan ja etsi sopiva tunti"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.elixia.fi",
+      "intent": "Lue lisää ELIXIA-sovelluksesta ja sen ominaisuuksista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.elixia.fi",
+      "intent": "Varaa ryhmäliikuntatunti omalta profiililtani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.elixia.fi",
+      "intent": "Hallitse jäsenyyttäni ja tarkista salin aukioloajat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.elixia.fi",
+      "intent": "Tutustu henkilökohtaisiin harjoittelusuunnitelmiini ja tavoitteisiini"
+    }
+  ]
+}

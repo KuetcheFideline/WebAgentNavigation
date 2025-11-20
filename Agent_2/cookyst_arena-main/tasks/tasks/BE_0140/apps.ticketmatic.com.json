@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://apps.ticketmatic.com",
+      "intent": "Rechercher les événements culturels disponibles sur la plateforme pour planifier une soirée après le travail"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://apps.ticketmatic.com",
+      "intent": "Explorer les fonctionnalités de la plateforme pour comprendre comment acheter des billets en ligne"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://apps.ticketmatic.com",
+      "intent": "Lire les informations sur la création d'un compte pour savoir si cela peut faciliter l'achat de billets pour les événements futurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://apps.ticketmatic.com",
+      "intent": "Consulter mes billets achetés précédemment pour vérifier les détails de l'événement que j'ai prévu d'assister la semaine prochaine"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://apps.ticketmatic.com",
+      "intent": "Configurer mes préférences de notification pour recevoir des mises à jour sur les nouveaux événements qui m'intéressent"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://apps.ticketmatic.com",
+      "intent": "Gérer mes informations de paiement pour faciliter l'achat de billets à l'avenir"
+    }
+  ]
+}

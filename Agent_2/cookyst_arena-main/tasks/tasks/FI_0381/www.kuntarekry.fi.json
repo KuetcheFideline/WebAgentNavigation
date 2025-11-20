@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Hae avoimia työpaikkoja Vaasan alueella"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Selaa työnhakuvinkkejä ja artikkeleita työnhausta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tutustu työnantajiin, esimerkiksi Loviisan kaupunkiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Lähetä avoin hakemus työnantajalle, joka on kiinnostunut työnhakijan taitoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Tallenna työpaikkoja suosikkeihin, jotta niitä voidaan tarkastella myöhemmin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.kuntarekry.fi",
+      "intent": "Muokkaa oman profiilin tietoja, kuten koulutusta ja työkokemusta"
+    }
+  ]
+}

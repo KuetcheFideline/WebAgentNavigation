@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://louna.finna.fi",
+      "intent": "Hae kirjaa aiheesta luonto, koska haluan löytää uusia paikkoja retkeilyyn"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://louna.finna.fi",
+      "intent": "Selaa Louna-kirjastojen tapahtumia, jotta voisin osallistua lasteni kanssa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://louna.finna.fi",
+      "intent": "Tutki kirjaston verkkokokoelmia, jotta voisin löytää opetusmateriaalia luokkaani"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://louna.finna.fi",
+      "intent": "Tallenna hakuhistoriani, jotta voisin jatkaa hakuani myöhemmin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://louna.finna.fi",
+      "intent": "Varaa kirja, jotta voisin lukea sen kotona perheeni kanssa"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://louna.finna.fi",
+      "intent": "Anna palautetta kirjastosta, jotta voisin auttaa parantamaan palveluja"
+    }
+  ]
+}

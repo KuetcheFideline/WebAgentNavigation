@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.telemb.be",
+      "intent": "Rechercher les actualités locales sur le site pour me tenir informée sur les événements qui se déroulent à Mons et dans sa région."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.telemb.be",
+      "intent": "Consulter la section sports pour suivre les résultats et les actualités des équipes locales, notamment le RC Mons."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.telemb.be",
+      "intent": "Explorer la rubrique 'Météo' pour obtenir les prévisions météorologiques pour la semaine à venir à Mons."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.telemb.be",
+      "intent": "Participer à un concours proposé par le site en remplissant un formulaire de participation en ligne."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.telemb.be",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les actualités qui m'intéressent, comme les événements culturels à Mons."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.telemb.be",
+      "intent": "Publier un commentaire sur un article qui traite d'un sujet qui me passionne, comme la sensibilisation au diabète chez les étudiants."
+    }
+  ]
+}

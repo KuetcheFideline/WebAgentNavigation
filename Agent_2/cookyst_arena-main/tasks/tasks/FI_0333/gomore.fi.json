@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://gomore.fi",
+      "intent": "Etsin edullista autoa vuokrattavaksi läheltäni Vaasasta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://gomore.fi",
+      "intent": "Haluan tietää, miten voin laittaa oman autoni vuokralle ja ansaita rahaa."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://gomore.fi",
+      "intent": "Luen lisää GoMoren vakuutusmahdollisuuksista ja miten ne vaikuttavat vuokraukseen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://gomore.fi",
+      "intent": "Kirjaudun sisään ja tarkastan, mitkä autot ovat saatavilla vuokrattavaksi tällä hetkellä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://gomore.fi",
+      "intent": "Tarkastan oman autoni vuokraustilannetta ja teen tarvittavat muutokset."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://gomore.fi",
+      "intent": "Laitan oman autoni vuokralle ja määrittelen, milloin se on käytettävissä vuokralle."
+    }
+  ]
+}

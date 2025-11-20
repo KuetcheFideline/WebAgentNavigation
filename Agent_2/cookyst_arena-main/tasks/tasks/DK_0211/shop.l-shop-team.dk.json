@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shop.l-shop-team.dk",
+      "intent": "Jeg skal klikke på linket 'da' for at vælge dansk som mit sprog."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shop.l-shop-team.dk",
+      "intent": "Jeg søger efter en måde at bekræfte, at jeg ikke er en robot, for at fortsætte med at bruge hjemmesiden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shop.l-shop-team.dk",
+      "intent": "Jeg vil aktivere JavaScript i min browser for at kunne bruge hjemmesiden korrekt."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shop.l-shop-team.dk",
+      "intent": "Jeg vil gå til min kontooversigt for at se mine tidligere køb og ordrestatus."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shop.l-shop-team.dk",
+      "intent": "Jeg søger efter en mulighed for at ændre mine kontoinformationer, såsom min e-mailadresse og adgangskode."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shop.l-shop-team.dk",
+      "intent": "Jeg vil tilføje et nyt betalingskort til min konto for at kunne gøre køb hurtigere i fremtiden."
+    }
+  ]
+}

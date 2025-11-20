@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.kennelliitto.fi",
+      "intent": "Tutkin messukeskuksen koiranäyttelyiden aikatauluja ja etsin tietoa suomen suurimmasta koiratapahtumasta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.kennelliitto.fi",
+      "intent": "Selailen eri rotujen näyttelyjä ja etsin tietoa tiibetinspanieleista, sillä olen kiinnostunut koirista ja haluan oppia enemmän."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tulospalvelu.kennelliitto.fi",
+      "intent": "Etsin tietoa koiranäyttelyistä Espoon alueella, jotta voisin osallistua niihin ja katsella eri rotuja livenä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.kennelliitto.fi",
+      "intent": "Kirjaudun sisään ja rekisteröin itseni osallistujaksi tulevaan koiranäyttelyyn, jotta voisin osallistua kilpailuihin ja vertailla koiriani muiden kanssa."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.kennelliitto.fi",
+      "intent": "Tarkastan omaa profiiliani ja päivitän tietojani, jotta voisin pitää kirjaa omista koiristani ja heidän saavutuksistaan näyttelyissä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tulospalvelu.kennelliitto.fi",
+      "intent": "Lisään uuden koiran profiiliini ja tallennan sen tiedot, jotta voisin seurata sen kehitystä ja osallistumista näyttelyihin."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://account.schwaebische.de",
+      "intent": "Ich möchte mich anmelden, um den vollen Funktionsumfang der Nachrichten zu nutzen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://account.schwaebische.de",
+      "intent": "Ich will einen neuen Account erstellen, um Zugang zu den exklusiven Inhalten zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://account.schwaebische.de",
+      "intent": "Ich möchte die Funktion 'Passwort vergessen' nutzen, um mein Passwort zurückzusetzen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://account.schwaebische.de",
+      "intent": "Ich möchte meine Profildaten bearbeiten, um sicherzustellen, dass meine Informationen aktuell sind."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://account.schwaebische.de",
+      "intent": "Ich will meine Abonnements verwalten, um nur die Nachrichten zu erhalten, die mich interessieren."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://account.schwaebische.de",
+      "intent": "Ich möchte meine Zahlungsmethode ändern, um sicherzustellen, dass meine Abonnements problemlos verlängert werden."
+    }
+  ]
+}

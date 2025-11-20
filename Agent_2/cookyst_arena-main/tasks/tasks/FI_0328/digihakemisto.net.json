@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://digihakemisto.net",
+      "intent": "Tehdä haku Alastaron seurakunnan asiakirjoista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://digihakemisto.net",
+      "intent": "Selata Digihakemiston etusivun valmiita pikahakuja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://digihakemisto.net",
+      "intent": "Lisätä uusi hakuterms 'Helsingin kaupunginarkiston kuolleiden kortisto' ja tehdä haku"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://digihakemisto.net",
+      "intent": "Tallettaa ja muokata omia hakuja pikahakulistan kautta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://digihakemisto.net",
+      "intent": "Poistaa talletettu pikahaku 'Seurakunnat' ja korvata uudella haulla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://digihakemisto.net",
+      "intent": "Lähetä palautetta hakemiston ylläpitäjälle Kari Kujansuulle"
+    }
+  ]
+}

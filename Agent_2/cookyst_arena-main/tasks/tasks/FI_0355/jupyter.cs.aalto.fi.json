@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jupyter.cs.aalto.fi",
+      "intent": "Luen ohjeet JupyterHubin käytöstä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jupyter.cs.aalto.fi",
+      "intent": "Tutkin JupyterHubin turvallisuusvaroituksia ja etsin tietoa siitä, miten voin parantaa turvallisuutta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jupyter.cs.aalto.fi",
+      "intent": "Selvittelen, miten voin käyttää JupyterHubia opetustarkoituksiin peruskoulussa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jupyter.cs.aalto.fi",
+      "intent": "Kirjaudun sisään Aalto-tililläni ja tarkastan JupyterHubin käyttöoikeuksiani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jupyter.cs.aalto.fi",
+      "intent": "Luo uusi Jupyter Notebook ja kokeilen sen toimintaa opetustarkoituksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jupyter.cs.aalto.fi",
+      "intent": "Tallennan ja jaan Jupyter Notebookiani opetusmateriaaliksi peruskoulun opettajakollegoilleni"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.uniovi.es",
+      "intent": "Buscar información sobre los cursos de extensión universitaria disponibles para personas mayores de 55 años"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.uniovi.es",
+      "intent": "Explorar las opciones de estudios de idiomas para extranjeros y verificar si hay cursos de español para personas de mi edad"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.uniovi.es",
+      "intent": "Investigar sobre las becas y ayudas disponibles para estudiantes de mi edad y situación económica"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.uniovi.es",
+      "intent": "Acceder a la intranet de la universidad para consultar mis datos personales y académicos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.uniovi.es",
+      "intent": "Solicitar una credencial de acceso a los recursos de la universidad como estudiante senior"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.uniovi.es",
+      "intent": "Consultar y gestionar mis matrículas y cursos en el campus virtual de la universidad"
+    }
+  ]
+}

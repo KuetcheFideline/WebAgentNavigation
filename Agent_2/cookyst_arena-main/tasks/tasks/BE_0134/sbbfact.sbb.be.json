@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sbbfact.sbb.be",
+      "intent": "Rechercher les horaires de train pour mon trajet quotidien entre Wavre et Anvers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sbbfact.sbb.be",
+      "intent": "Consulter les informations sur les travaux et les perturbations sur la ligne E411"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sbbfact.sbb.be",
+      "intent": "Explorer les options de tarification et d'abonnement pour les navetteurs"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sbbfact.sbb.be",
+      "intent": "Gérer mon compte et mes informations personnelles pour accéder à des offres personnalisées"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sbbfact.sbb.be",
+      "intent": "Consulter mon historique de voyages et mes billets électroniques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sbbfact.sbb.be",
+      "intent": "Paramétrer des alertes et des notifications pour les perturbations et les travaux sur mes lignes de train régulières"
+    }
+  ]
+}

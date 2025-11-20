@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://shop.electrolux.fi",
+      "intent": "Hae uunin varaosia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://shop.electrolux.fi",
+      "intent": "Vertaile eri liesituulettimien ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://shop.electrolux.fi",
+      "intent": "Lue arvosteluita pesukoneista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://shop.electrolux.fi",
+      "intent": "Tilaa varaosia omalle pesukoneelle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://shop.electrolux.fi",
+      "intent": "Rekisteröi uusi tuotenumero tilille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://shop.electrolux.fi",
+      "intent": "Tarkastele tilaushistoriaa ja seuraa tilauksen etenemistä"
+    }
+  ]
+}

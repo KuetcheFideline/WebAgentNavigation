@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tanssi.net",
+      "intent": "Etsin tanssitunteja Helsingissä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tanssi.net",
+      "intent": "Haluan tietää mitä tansseja on tarjolla tänään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tanssi.net",
+      "intent": "Olen kiinnostunut bachata-tanssista, etsin tietoa siitä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tanssi.net",
+      "intent": "Kirjaudun sisään ja tallennan suosikkiansioita"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tanssi.net",
+      "intent": "Lisään kalenteriin oman tanssitapahtuman"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tanssi.net",
+      "intent": "Arvostelen viimeksi käymääni tanssitilaisuutta"
+    }
+  ]
+}

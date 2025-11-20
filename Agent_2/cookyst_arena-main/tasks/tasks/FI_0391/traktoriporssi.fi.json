@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://traktoriporssi.fi",
+      "intent": "Hae käytettyjä traktoreita Helsingin alueelta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://traktoriporssi.fi",
+      "intent": "Vertaile eri merkkien traktorien hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://traktoriporssi.fi",
+      "intent": "Lue artikkeleita maatalouskoneista ja traktoreiden ylläpidosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://traktoriporssi.fi",
+      "intent": "Luo ilmoitus käytetystä traktorista myyntiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://traktoriporssi.fi",
+      "intent": "Tallenna hakuvahti uusista traktorilistauksista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://traktoriporssi.fi",
+      "intent": "Ota yhteyttä myyjään kysymyksellä traktorin teknisistä ominaisuuksista"
+    }
+  ]
+}

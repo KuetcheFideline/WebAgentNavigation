@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://verkkoapteekit.fi",
+      "intent": "Etsin lääkkeitä flunssan hoitoon, koska minun täytyy hoitaa lastani, jotka ovat sairaita."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://verkkoapteekit.fi",
+      "intent": "Haluan tarkastaa, onko verkkoapteekissa tarjolla vitamiineja ja ravintolisäaineita, joita voisin ostaa itselleni ja lapsilleni."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://verkkoapteekit.fi",
+      "intent": "Tutkin, miten voin tehdä ostoksia verkkoapteekissa ja mitkä ovat maksutavat, jotta voisin helposti tehdä tilauksia kotiini."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://verkkoapteekit.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, mitä tuotteita olen aiemmin ostanut, jotta voisin uusia tilaukseni nopeasti."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://verkkoapteekit.fi",
+      "intent": "Tilasin reseptilääkkeitä itselleni, koska minulla on jatkuvaa tarvetta niihin ja haluan varmistaa, että ne toimitetaan ajoissa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://verkkoapteekit.fi",
+      "intent": "Tarkistan tilaushistoriani ja arvosteluni aiemmista tuotteista, jotta voisin antaa palautetta ja suosituksia muille asiakkaille."
+    }
+  ]
+}

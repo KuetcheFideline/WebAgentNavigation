@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ouest-france.fr",
+      "intent": "Rechercher les actualités locales pour rester informée sur les événements qui se déroulent dans ma région"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ouest-france.fr",
+      "intent": "Consulter la rubrique « Souvenirs » pour me rappeler des bons moments de mon passé"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ouest-france.fr",
+      "intent": "Lire les articles sur les promenades et les activités de plein air pour me donner des idées de sorties malgré ma mobilité réduite"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ouest-france.fr",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes sur les actualités qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ouest-france.fr",
+      "intent": "Participer à un forum de discussion en ligne pour échanger avec d'autres lecteurs sur des sujets qui me tiennent à cœur"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ouest-france.fr",
+      "intent": "Gérer mon abonnement pour accéder à des contenus premium et soutenir mon journal local préféré"
+    }
+  ]
+}

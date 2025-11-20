@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Tutustun Seinäjoen sivistyskeskuksen Wilman etusivuun ja etsin tietoa esiopetuksesta ja perusopetuksesta."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Selailen Wilman sivuja ja etsin ohjeita huoltajien tunnusten luomiseen ja kirjautumiseen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Käyn läpi Wilman käyttöohjeita ja etsin tietoa oppilaiden ja opiskelijoiden kirjautumisesta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Kirjaudun Wilmaan käyttäjätunnukseni ja salasanani avulla ja tarkastan poikani tai tyttäreni opintosuoritukset."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Tarkastan Wilman viestitoimintoja ja vastaan opettajien lähettämiin viesteihin poikani tai tyttäreni opiskelua koskien."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://seinajoki.inschool.fi",
+      "intent": "Muokkaan poikani tai tyttäreni henkilökohtaisia tietoja Wilman käyttäjäprofiilissa ja varmistelen, että tiedot ovat ajan tasalla."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webcam-binnenvaart.nl",
+      "intent": "Je souhaite consulter les webcams des bateaux disponibles sur le site pour voir les conditions actuelles de navigation."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webcam-binnenvaart.nl",
+      "intent": "J'ai envie de regarder les timelapses des différents bateaux pour voir comment les conditions météorologiques changent au fil du temps."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webcam-binnenvaart.nl",
+      "intent": "Je veux explorer la section 'Archief' pour voir les anciennes vidéos et timelapses des bateaux pour comparer les conditions passées et présentes."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webcam-binnenvaart.nl",
+      "intent": "Je souhaite me connecter pour accéder à des contenus exclusifs réservés aux utilisateurs connectés, comme des vidéos ou des photos de bateaux en haute définition."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webcam-binnenvaart.nl",
+      "intent": "Après m'être connecté, je veux configurer mes préférences pour recevoir des notifications lorsque de nouveaux contenus sont ajoutés sur les bateaux qui m'intéressent."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webcam-binnenvaart.nl",
+      "intent": "Je veux participer à la section 'Donatie' en faisant un don pour soutenir le site et continuer à avoir accès à ces contenus de haute qualité sur les bateaux."
+    }
+  ]
+}

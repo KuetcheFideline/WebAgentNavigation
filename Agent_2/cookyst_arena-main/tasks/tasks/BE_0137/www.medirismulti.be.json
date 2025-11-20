@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.medirismulti.be",
+      "intent": "Rechercher les informations de connexion pour accéder à mon compte Mediris"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.medirismulti.be",
+      "intent": "Vérifier les liens de support et de confidentialité pour comprendre les conditions d'utilisation du site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.medirismulti.be",
+      "intent": "Explorer les options de langue pour voir si le site est disponible en français"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.medirismulti.be",
+      "intent": "Consulter mes dossiers médicaux personnels pour vérifier mes informations de santé"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.medirismulti.be",
+      "intent": "Gérer mes rendez-vous médicaux pour planifier une visite chez le médecin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.medirismulti.be",
+      "intent": "Mettre à jour mes informations de compte pour assurer la sécurité de mes données personnelles"
+    }
+  ]
+}

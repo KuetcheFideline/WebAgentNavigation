@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kuvake.net",
+      "intent": "Tutustun sivuston etusivuun ja etsin mielenkiintoista sisältöä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kuvake.net",
+      "intent": "Selailen kuvia ja videoita, joita käyttäjät ovat jakaneet"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kuvake.net",
+      "intent": "Luen blogipostauksia ja kommentteja, joita käyttäjät ovat kirjoittaneet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kuvake.net",
+      "intent": "Luo uusi blogipostaus ja julkaisen sen profiilillani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kuvake.net",
+      "intent": "Vastaan gallupeihin ja osallistun keskusteluihin foorumilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kuvake.net",
+      "intent": "Lisään uusia kavereita ja aloitan uuden keskustelun heidän kanssaan"
+    }
+  ]
+}

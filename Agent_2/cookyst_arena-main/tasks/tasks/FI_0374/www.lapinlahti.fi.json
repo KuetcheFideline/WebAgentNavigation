@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lapinlahti.fi",
+      "intent": "Hae tietoa Lapinlahden kuntaa koskevista virallisista ilmoituksista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lapinlahti.fi",
+      "intent": "Selvitä miten voit osallistua ja vaikuttaa Lapinlahden kunnan päätöksentekoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lapinlahti.fi",
+      "intent": "Etsi tietoa Lapinlahden kunnan tarjoamista liikunta- ja vapaa-ajan toiminnasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lapinlahti.fi",
+      "intent": "Tee verkkopalvelun kautta ilmoitus kunnan kiinteistöjen palvelupyynnöstä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lapinlahti.fi",
+      "intent": "Lähetä sähköpostia kunnan kirjaamoon liittyen johonkin kunnan palveluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lapinlahti.fi",
+      "intent": "Anna palautetta kunnan verkkopalvelun saavutettavuudesta ja toimivuudesta"
+    }
+  ]
+}

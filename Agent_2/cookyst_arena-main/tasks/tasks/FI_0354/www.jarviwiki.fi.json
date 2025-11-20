@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.jarviwiki.fi",
+      "intent": "Etsin tietoa lähialueeni järvistä ja niiden tilasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.jarviwiki.fi",
+      "intent": "Haluan tarkastella karttaa, josta näen järvien ja merialueiden sijainnin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.jarviwiki.fi",
+      "intent": "Luen uusimmat keskustelut Kahvihuoneessa, jotta voin pysyä ajan tasalla"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.jarviwiki.fi",
+      "intent": "Kirjaudun sisään ja lisään omia havaintojani järvien tilasta"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.jarviwiki.fi",
+      "intent": "Osallistun keskusteluun Kahvihuoneessa ja jaan omia kokemuksiani"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.jarviwiki.fi",
+      "intent": "Tallennan tiedoston, joka liittyy järvien tutkimiseen ja seurantaan"
+    }
+  ]
+}

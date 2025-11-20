@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://online.ibc.dk",
+      "intent": "Jeg søger efter information omkring IBC's kursustilbud, så jeg kan finde en oversigt over alle kurser på IBC"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://online.ibc.dk",
+      "intent": "Jeg vil gerne udforske mulighederne for at nulstille mit password til IBC's netværk, hvis jeg har glemt det"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://online.ibc.dk",
+      "intent": "Jeg søger efter vejledning om, hvordan jeg kan opdatere mit telefonnummer i IBC's system"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://online.ibc.dk",
+      "intent": "Jeg vil gerne logge ind på mit konto for at se mine kurser og studiematerialer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://online.ibc.dk",
+      "intent": "Jeg søger efter at downloade mine studienotater og andre relevante filer fra mine kurser"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://online.ibc.dk",
+      "intent": "Jeg vil gerne deltage i en diskussion på en af mine kurser for at stille spørgsmål og dele mine tanker med mine medstuderende"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lemmensdiest.be",
+      "intent": "Rechercher des hengels pour la pêche en mer"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lemmensdiest.be",
+      "intent": "Comparer les prix des différents types de ligne de pêche"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lemmensdiest.be",
+      "intent": "Lire les avis des clients sur les produits de pêche"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lemmensdiest.be",
+      "intent": "Ajouter un produit de pêche à mes favoris pour une commande future"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lemmensdiest.be",
+      "intent": "Consulter l'historique de mes commandes pour suivre mes achats de matériel de pêche"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lemmensdiest.be",
+      "intent": "Modifier mes informations de compte pour recevoir des offres personnalisées sur les produits de pêche"
+    }
+  ]
+}

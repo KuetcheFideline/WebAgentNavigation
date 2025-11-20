@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.elizawashere.be",
+      "intent": "Rechercher des offres de vacances en Grèce pour un séjour de deux semaines en juillet"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.elizawashere.be",
+      "intent": "Comparer les prix des vols et des hébergements pour un voyage à l'île de Crète"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.elizawashere.be",
+      "intent": "Lire les avis et les commentaires des clients sur les différentes destinations proposées par le site"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.elizawashere.be",
+      "intent": "Réserver un séjour en Italie en utilisant les points accumulés sur mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.elizawashere.be",
+      "intent": "Consulter mes réservations passées et imprimer les documents de voyage associés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.elizawashere.be",
+      "intent": "Modifier mes informations de compte et mettre à jour mes préférences de voyage"
+    }
+  ]
+}

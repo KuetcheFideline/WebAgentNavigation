@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ludusweb.toender-gym.dk",
+      "intent": "Jeg skal undersøge, om der er nogen opdateringer på ludusweb, efter at de har fået en ny adresse."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ludusweb.toender-gym.dk",
+      "intent": "Jeg vil klikke på linket til den nye adresse for at se, om der er nogen ændringer i indholdet eller funktionerne."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ludusweb.toender-gym.dk",
+      "intent": "Jeg skal se, om der er nogen information om, hvordan jeg kan få adgang til den nye side, hvis jeg allerede har en brugerprofil."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ludusweb.toender-gym.dk",
+      "intent": "Jeg vil logge ind og se, om mine eksisterende data og indstillinger er blevet overført korrekt til den nye side."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ludusweb.toender-gym.dk",
+      "intent": "Jeg skal kontrollere, om der er nogen nye funktioner eller services, der kræver, at jeg er logget ind for at kunne bruge dem."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ludusweb.toender-gym.dk",
+      "intent": "Jeg vil prøve at redigere min brugerprofil for at se, om der er nogen ændringer i, hvordan jeg kan administrere mine data og indstillinger."
+    }
+  ]
+}

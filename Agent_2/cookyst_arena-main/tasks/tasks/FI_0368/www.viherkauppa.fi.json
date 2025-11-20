@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.viherkauppa.fi",
+      "intent": "Hae vihertuotteita ja tarvikkeita sivustolta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.viherkauppa.fi",
+      "intent": "Selaa sisäkasvien valikoimaa ja etsi uusia lajeja kotiin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.viherkauppa.fi",
+      "intent": "Lue arvosteluita ja kommentteja eri tuotteista ennen ostoa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.viherkauppa.fi",
+      "intent": "Tilaa uusimmat tarjoukset ja alennukset sähköpostiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.viherkauppa.fi",
+      "intent": "Seuraa tilaustani ja tarkista toimitusajat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.viherkauppa.fi",
+      "intent": "Arvostele ja kommentoi aiemmin ostettuja tuotteita"
+    }
+  ]
+}

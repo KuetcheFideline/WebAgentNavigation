@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.powerpark.fi",
+      "intent": "Hae PowerParkin aukioloajat ja suunnittele vierailu"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.powerpark.fi",
+      "intent": "Selaa PowerParkin ravintoloita ja kahviloita ja etsi sopiva ruokapaikka"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.powerpark.fi",
+      "intent": "Tutki PowerParkin huvilaitteita ja valitse suosikkilaitteet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.powerpark.fi",
+      "intent": "Tilaa pikkujoululiput ja varaa paikat ystäville"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.powerpark.fi",
+      "intent": "Varaa karting-ajopeli ryhmälle ja kilpaile nopeimmasta ajasta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.powerpark.fi",
+      "intent": "Osta lahjakortti ystävälle ja anna mahdollisuus valita oma suosikkilaitteensa"
+    }
+  ]
+}

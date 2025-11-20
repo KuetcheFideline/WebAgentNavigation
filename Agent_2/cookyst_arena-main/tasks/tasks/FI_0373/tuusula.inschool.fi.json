@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Luen Wilman etusivun ja etsin tietoa oppilaitoksen hallinto-ohjelmasta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Selvittelen miten Wilmaa käytetään opiskelijoiden, opettajien ja huoltajien viestintään ja tiedonhallintaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Etsin tietoa Wilman eri osioista ja toiminnoista, kuten kursseista, suorituksista ja tiedotteista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Kirjaudun Wilmaan ja tarkastan omat tiedot ja suoritukseni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Viestin opettajalle Wilman kautta kysymällä lisätietoa kurssista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://tuusula.inschool.fi",
+      "intent": "Tarkastan Wilman kalenteria ja etsin tietoa tulevista tapahtumista ja deadlineista"
+    }
+  ]
+}

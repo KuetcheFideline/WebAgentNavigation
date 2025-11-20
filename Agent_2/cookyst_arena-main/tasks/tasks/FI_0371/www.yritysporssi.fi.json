@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.yritysporssi.fi",
+      "intent": "Etsin yrityksiä myytävänä Etelä-Suomessa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.yritysporssi.fi",
+      "intent": "Luen arvosteluita Yrityspörssin palveluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.yritysporssi.fi",
+      "intent": "Selvitan, miten voin myydä oman yritykseni Yrityspörssissä"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.yritysporssi.fi",
+      "intent": "Lisään yritykseni myynti-ilmoituksen Yrityspörssiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.yritysporssi.fi",
+      "intent": "Muokkaan olemassa olevaa yritykseni myynti-ilmoitusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.yritysporssi.fi",
+      "intent": "Tarkastan saapuneita yhteydenottoja yritykseni myynti-ilmoitukseen"
+    }
+  ]
+}

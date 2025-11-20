@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://palkka.apix.fi",
+      "intent": "Tarkastan verkkopalkan toimivuutta ilman JavaScriptiä"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://palkka.apix.fi",
+      "intent": "Etsin ohjeita JavaScriptin käyttöönottoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://palkka.apix.fi",
+      "intent": "Selvittelen miten voin kirjautua sisään ilman APIX-tunnuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://palkka.apix.fi",
+      "intent": "Tarkastan palkkani ja laskuni verkkopalvelussa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://palkka.apix.fi",
+      "intent": "Muutan salasanani ja tarkastan turvallisuusasetukseni"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://palkka.apix.fi",
+      "intent": "Lähetän viestin Apix Messaging Oy:lle verkkopalvelun kautta"
+    }
+  ]
+}

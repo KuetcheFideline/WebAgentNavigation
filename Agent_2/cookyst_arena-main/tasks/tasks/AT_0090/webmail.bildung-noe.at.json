@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.bildung-noe.at",
+      "intent": "Überprüfen, ob die Webmail-Funktion mit meinem Browser kompatibel ist"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.bildung-noe.at",
+      "intent": "Suchen nach Anweisungen, wie ich JavaScript in meinem Browser aktiviere"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.bildung-noe.at",
+      "intent": "Lesen der Warnhinweise und Bedingungen für die Nutzung des Webmail-Dienstes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.bildung-noe.at",
+      "intent": "Überprüfen meiner E-Mails nach wichtigen Nachrichten von der Landwirtschaftskammer"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.bildung-noe.at",
+      "intent": "Beantworten von E-Mails von meinen Kunden, die nach dem Kauf von Milchprodukten fragen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.bildung-noe.at",
+      "intent": "Organisieren eines Treffens mit anderen Bio-Bauern in der Region über den Webmail-Dienst"
+    }
+  ]
+}

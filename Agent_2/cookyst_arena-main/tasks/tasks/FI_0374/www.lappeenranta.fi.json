@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lappeenranta.fi",
+      "intent": "Hae tietoa Lappeenrannan asumisen palveluista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lappeenranta.fi",
+      "intent": "Etsi tonttien vuokraus- ja myyntitietoja Lappeenrannasta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lappeenranta.fi",
+      "intent": "Selvitä Lappeenrannan kaavoitukseen liittyvää tietoa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lappeenranta.fi",
+      "intent": "Tee hakemus Lappeenrannan asuintontin hankkimiseksi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lappeenranta.fi",
+      "intent": "Lähetä maanvuokralaisen laskutustietojen muutosilmoitus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lappeenranta.fi",
+      "intent": "Tee sähköinen lupahakemus E-asiointi-palvelussa"
+    }
+  ]
+}

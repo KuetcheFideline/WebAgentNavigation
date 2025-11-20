@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://diaridelmaestrat.com",
+      "intent": "Buscar información sobre las últimas noticias de Vinaròs en el diario"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://diaridelmaestrat.com",
+      "intent": "Leer artículos relacionados con la cultura y los eventos en Peníscola"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://diaridelmaestrat.com",
+      "intent": "Explorar la sección de deportes para ver las últimas noticias del CD Benicarló"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://diaridelmaestrat.com",
+      "intent": "Publicar un comentario en un artículo sobre la actualidad de Vinaròs"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://diaridelmaestrat.com",
+      "intent": "Participar en una encuesta sobre los servicios municipales en Benicarló"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://diaridelmaestrat.com",
+      "intent": "Enviar una noticia o artículo de opinión para su posible publicación en el diario"
+    }
+  ]
+}

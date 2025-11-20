@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://es.maje.com",
+      "intent": "Buscar vestidos de invierno para mujer en la sección de ropa de la página principal"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://es.maje.com",
+      "intent": "Explorar la sección de accesorios y bolsos para encontrar un regalo para mi hija"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://es.maje.com",
+      "intent": "Comparar precios de chaquetas y cazadoras en la sección de ropa para mujer"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://es.maje.com",
+      "intent": "Verificar el estado de mi cuenta y mis pedidos anteriores en la sección de 'Mi cuenta'"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://es.maje.com",
+      "intent": "Agregar un artículo a mi lista de deseos y compartirlo con mis amigas en las redes sociales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://es.maje.com",
+      "intent": "Realizar un pedido de un vestido que he estado mirando y aplicar un cupón de descuento que tengo"
+    }
+  ]
+}

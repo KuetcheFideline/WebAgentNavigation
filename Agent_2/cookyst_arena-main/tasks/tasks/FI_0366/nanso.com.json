@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://nanso.com",
+      "intent": "Etsin uusia vaatteita syksyyn, haluan tarkastella Nanson uutuuksia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://nanso.com",
+      "intent": "Olen kiinnostunut Nanson kodintuotteista, haluan selata niiden valikoimaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://nanso.com",
+      "intent": "Tutkin Nanson outlet-osioon, etsin edullisia vaatteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://nanso.com",
+      "intent": "Haluan tarkastella omaa tilini ja tilaushistoriaani Nansossa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://nanso.com",
+      "intent": "Olen kiinnostunut Nanson kanta-asiakkuudesta, haluan lukea sen edut ja ehdoista"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://nanso.com",
+      "intent": "Tilasin äskettäin vaatteita Nansosta, haluan seurata tilaustani"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.karolaskitchen.be",
+      "intent": "Rechercher des recettes de cuisine végétarienne pour un dîner rapide"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.karolaskitchen.be",
+      "intent": "Explorer les différentes sections du site pour découvrir de nouvelles idées de recettes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.karolaskitchen.be",
+      "intent": "Lire les témoignages des utilisateurs pour avoir une idée des livres de cuisine proposés"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.karolaskitchen.be",
+      "intent": "Ajouter des recettes à mes favoris pour les consulter plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.karolaskitchen.be",
+      "intent": "Participer à la communauté en laissant des commentaires sur les recettes"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.karolaskitchen.be",
+      "intent": "Gérer mes abonnements pour recevoir des mises à jour sur les nouvelles recettes"
+    }
+  ]
+}

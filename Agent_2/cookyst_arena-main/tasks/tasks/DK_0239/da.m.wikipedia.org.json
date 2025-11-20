@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://da.m.wikipedia.org",
+      "intent": "Jeg søger efter information om danske byer og vil læse om Skagen"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://da.m.wikipedia.org",
+      "intent": "Jeg vil se hvilke artikler der er relateret til cykling og læse om danske cykelruter"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://da.m.wikipedia.org",
+      "intent": "Jeg søger efter oplysninger om danske museer og vil læse om Nationalmuseet"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://da.m.wikipedia.org",
+      "intent": "Jeg vil redigere en artikel om Skagen og tilføje information om byens historie"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://da.m.wikipedia.org",
+      "intent": "Jeg vil oprette en ny artikel om danske kunstnere og tilføje billeder af deres værker"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://da.m.wikipedia.org",
+      "intent": "Jeg vil diskutere en artikel om dansk politik og svare på kommentarer fra andre brugere"
+    }
+  ]
+}

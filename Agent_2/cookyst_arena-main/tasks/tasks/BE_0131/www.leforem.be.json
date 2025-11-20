@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leforem.be",
+      "intent": "Rechercher des offres d'emploi dans le secteur de la logistique et du transport en Wallonie"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leforem.be",
+      "intent": "Découvrir les métiers en pénurie et les formations disponibles pour y accéder"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leforem.be",
+      "intent": "Consulter les actualités sur la réforme du chômage et les aides financières disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leforem.be",
+      "intent": "Publier mon CV et mettre à jour mes informations de recherche d'emploi"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leforem.be",
+      "intent": "Inscrire mon entreprise pour publier des offres d'emploi et bénéficier des aides financières"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leforem.be",
+      "intent": "Gérer mon espace personnel pour suivre mes démarches de recherche d'emploi et mes formations"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.anglingdirect.nl",
+      "intent": "Rechercher des accessoires de pêche pour la pêche au barbeel"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.anglingdirect.nl",
+      "intent": "Comparer les prix des cannes à pêche pour la pêche en mer"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.anglingdirect.nl",
+      "intent": "Lire les avis des clients sur les produits de pêche pour la pêche au karper"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.anglingdirect.nl",
+      "intent": "Ajouter un produit de pêche à ma liste de souhaits pour un futur achat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.anglingdirect.nl",
+      "intent": "Consulter mon historique de commandes pour vérifier mes achats précédents"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.anglingdirect.nl",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse e-mail"
+    }
+  ]
+}

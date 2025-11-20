@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.foreca.fi",
+      "intent": "Tarkastan säätilan Espoossa, jotta tiedän, onko ulkona sopiva sää golfaamiseen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.foreca.fi",
+      "intent": "Hae paikkakunnan säätilaa Helsingissä, koska minun on tiedettävä, miten sää vaikuttaa liikenteeseen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.foreca.fi",
+      "intent": "Selvittelen, miten sääennusteet näyttävät seuraavien 10 päivän ajan, jotta voin suunnitella lomani etukäteen."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.foreca.fi",
+      "intent": "Tallennan säätilan seurantaa omalle sivulleni, jotta voin helposti tarkastaa säätilan useiden paikkakuntien osalta."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.foreca.fi",
+      "intent": "Muokkaan omia säävalikkoni asetuksia, jotta voin nähdä vain ne säätilat, jotka ovat minulle tärkeitä."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.foreca.fi",
+      "intent": "Lähetän palautetta sivuston sääennusteista, jotta voitan parantaa palvelun laatua."
+    }
+  ]
+}

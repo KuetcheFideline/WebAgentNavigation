@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cooselec.be",
+      "intent": "Rechercher des luminaires intérieurs pour la salle de bains de ma maison"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cooselec.be",
+      "intent": "Comparer les prix des radiateurs à inertie face en métal cannelé de différentes marques"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cooselec.be",
+      "intent": "Consulter les avis des clients sur les produits de domotique pour mieux comprendre leurs fonctionnalités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cooselec.be",
+      "intent": "Ajouter un convecteur mural à ma liste de favoris pour un achat futur"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cooselec.be",
+      "intent": "Vérifier l'historique de mes commandes pour savoir si j'ai déjà acheté un thermostat"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cooselec.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

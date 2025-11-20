@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.astursalud.es",
+      "intent": "Buscar información sobre los derechos y deberes de los pacientes en el portal de salud de Asturias"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.astursalud.es",
+      "intent": "Explorar las opciones de atención primaria y farmacia en el sitio web de Astursalud"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.astursalud.es",
+      "intent": "Leer sobre las políticas de protección de datos y seguridad del paciente en el portal de salud"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.astursalud.es",
+      "intent": "Acceder a mi cuenta de paciente para ver mis historiales médicos y resultados de análisis"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.astursalud.es",
+      "intent": "Solicitar una cita previa con un médico a través del portal de salud"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.astursalud.es",
+      "intent": "Descargar mis recetas médicas y documentos de salud desde el portal de Astursalud"
+    }
+  ]
+}

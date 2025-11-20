@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Luen Forssan Lehden uusimmat uutiset tänään"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Etsin Forssan Lehden sivuilta tietoa Hämeenlinnan ja Forssan välisen bussireitin aikatauluista"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Selailen Forssan Lehden urheiluosion uusimmat artikkelit"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Kirjaudun sisään ja kommentoin Forssan Lehden uusimman uutisartikkelin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Tilaa Forssan Lehden digilehti Black Week -tarjouksella"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.forssanlehti.fi",
+      "intent": "Luen ja vastaan Forssan Lehden mielipideosion artikkeleihin"
+    }
+  ]
+}

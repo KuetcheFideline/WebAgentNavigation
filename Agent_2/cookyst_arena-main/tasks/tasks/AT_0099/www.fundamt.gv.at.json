@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.fundamt.gv.at",
+      "intent": "Ich möchte eine Verlustanzeige für mein verlorenes Instrument erstellen, um es wiederzufinden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.fundamt.gv.at",
+      "intent": "Ich will mehr über die Abgabepflicht für gefundene Gegenstände erfahren, um sicherzustellen, dass ich alles richtig mache."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.fundamt.gv.at",
+      "intent": "Ich möchte die Liste der Fundämter in Österreich einsehen, um das zuständige Fundamt in meiner Nähe zu finden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.fundamt.gv.at",
+      "intent": "Ich möchte meine Verlustanzeige bearbeiten, um die Beschreibung meines verlorenen Instruments zu ändern."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.fundamt.gv.at",
+      "intent": "Ich will meine Kontaktdaten aktualisieren, um sicherzustellen, dass das Fundamt mich erreichen kann, wenn mein Gegenstand gefunden wird."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.fundamt.gv.at",
+      "intent": "Ich möchte meine Verlustanzeige deaktivieren, da ich mein Instrument wieder gefunden habe und keine weiteren Benachrichtigungen erhalten möchte."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.instru.fi",
+      "intent": "Varata aika instrumentin huoltoon"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.instru.fi",
+      "intent": "Selata saatavilla olevia instrumentteja ja niiden hintoja"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ajanvaraus.instru.fi",
+      "intent": "Etsiä tietoa instrumenttien kunnossapidosta ja huollosta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.instru.fi",
+      "intent": "Tarkistaa varattujen aikojen tila ja muokata varauksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.instru.fi",
+      "intent": "Tilata uusia tarvikkeita ja varaosia instrumentteihin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ajanvaraus.instru.fi",
+      "intent": "Lähettää viesti asiakaspalveluun kysymyksellä instrumentin toiminnasta"
+    }
+  ]
+}

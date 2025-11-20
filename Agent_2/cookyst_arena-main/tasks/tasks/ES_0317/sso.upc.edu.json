@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sso.upc.edu",
+      "intent": "Buscar información sobre cómo acceder a los recursos protegidos de la UPC"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sso.upc.edu",
+      "intent": "Explorar las opciones de idioma disponibles en la página de inicio"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sso.upc.edu",
+      "intent": "Leer el aviso legal de la UPC para entender las condiciones de uso del sitio"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sso.upc.edu",
+      "intent": "Acceder a mis recursos personales y configurar mis preferencias de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sso.upc.edu",
+      "intent": "Consultar mi historial de acceso y actividad en el sistema de autenticación de la UPC"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sso.upc.edu",
+      "intent": "Cambiar mi contraseña y actualizar mis datos de seguridad en el sistema de autenticación"
+    }
+  ]
+}

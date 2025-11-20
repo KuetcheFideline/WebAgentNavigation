@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Hae asuntolainaa varten tarvittavat tiedot"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Selvitä miten voisin säästää rahaa lainan koron alentamiseksi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://danskebank.fi",
+      "intent": "Löydä tietoa kuukausisäästämisestä osakkeisiin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Tarkista lainani maksuajat ja -summat"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Muuta lainani maksuaikataulua"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://danskebank.fi",
+      "intent": "Tee uusi lainahakemus"
+    }
+  ]
+}

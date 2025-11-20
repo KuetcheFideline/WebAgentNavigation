@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://meira.fi",
+      "intent": "Tutustun Meiran tarinaan ja etsin tietoa heidän vastuullisuudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://meira.fi",
+      "intent": "Selailen Meiran maustevalikoimaa ja etsin uusia ideoita ruoanlaittoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://meira.fi",
+      "intent": "Etsin tietoa Meiran kahvituotteista ja vertailen eri vaihtoehtoja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://meira.fi",
+      "intent": "Tilasin Meiran uutiskirjeen ja haluan seurata heidän tuoteuutuuksia"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://meira.fi",
+      "intent": "Lisään ostoskoriin joitain Meiran tuotteita ja teen tilauksen"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://meira.fi",
+      "intent": "Kirjaudun sisään ja tarkastan tilaushistoriani ja seurannan Meiran sivuilla"
+    }
+  ]
+}

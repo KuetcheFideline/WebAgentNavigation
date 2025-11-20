@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Hae hevosen nimellä, jotta voin löytää tietoa hevosesta, joka kiinnostaa minua."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Selaa kilpailukalenteria, jotta voin suunnitella hevoseni osallistumista tuleviin kilpailuihin."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Tutki hevosen perustietoja, jotta voin löytää tietoa hevosen omistajasta ja hoitajasta."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Tallenna hevosen tiedot omiin suosikkeihini, jotta voin nopeasti löytää tietoa hevosesta myöhempänä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Muokkaa hevosen omistajan tietoja, jotta voin varmistaa, että tiedot ovat ajan tasalla."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://heppa.hippos.fi",
+      "intent": "Lähetä viesti hevosen omistajalle, jotta voin keskustella hevosen myynti- tai vuokramahdollisuuksista."
+    }
+  ]
+}

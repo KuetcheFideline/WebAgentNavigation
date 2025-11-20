@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg søger information omkring SU og hvilke krav der skal opfyldes for at få det."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg vil læse mere om nye SU-regler og hvordan de påvirker mine studier."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg søger at forstå, hvordan jeg kan søge SU og hvilke dokumenter der kræves."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg vil logge ind i minSU for at tjekke min SU-status og eventuelt rette mine oplysninger."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg søger at ansøge om et SU-lån gennem minSU, da jeg har brug for ekstra økonomisk støtte til mine studier."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.su.dk",
+      "intent": "Jeg vil se mine tidligere SU-ansøgninger og eventuelt klage over en afgørelse, som jeg ikke er tilfreds med."
+    }
+  ]
+}

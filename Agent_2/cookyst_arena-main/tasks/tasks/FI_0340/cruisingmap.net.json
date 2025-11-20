@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cruisingmap.net",
+      "intent": "Selata sivuston kuvagalleriaa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cruisingmap.net",
+      "intent": "Lukea sivuston tietosuojaseloste"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cruisingmap.net",
+      "intent": "Tarkastella sivuston eri kaupunkien profiileja"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cruisingmap.net",
+      "intent": "Muokata omaa profiilia ja lisätä uusi kuva"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cruisingmap.net",
+      "intent": "Vastata viestiin toiselta käyttäjältä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cruisingmap.net",
+      "intent": "Lisätä uusi ystävä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://webmail.wmhost.com",
+      "intent": "Tarkistaa sähköpostin kirjautumissivun toimivuus"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://webmail.wmhost.com",
+      "intent": "Etsiä tietoa sähköpostipalvelun tietosuojakäytännöistä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://webmail.wmhost.com",
+      "intent": "Lukea ohjeita JavaScriptin ottamisesta käyttöön selaimessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://webmail.wmhost.com",
+      "intent": "Tarkistaa saapuneet sähköpostiviestit ja vastata viimeisimpiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://webmail.wmhost.com",
+      "intent": "Vaihtaa salasana turvallisuuden vuoksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://webmail.wmhost.com",
+      "intent": "Määritellä lomavastaaja sähköpostiin poissaollessa"
+    }
+  ]
+}

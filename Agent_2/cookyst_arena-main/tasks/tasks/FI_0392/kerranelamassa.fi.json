@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://kerranelamassa.fi",
+      "intent": "Yritän etsiä tietoa sivuston toiminnasta, vaikka se näyttää olevan offline."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://kerranelamassa.fi",
+      "intent": "Selvittelen, onko sivustolla hakutoimintoa, jolla voisin etsiä tietoa kalastuksesta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://kerranelamassa.fi",
+      "intent": "Katselen, löytyykö sivustolta tietoa mökkien vuokraamisesta tai myymisestä."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://kerranelamassa.fi",
+      "intent": "Yritän kirjautua sisään ja tarkistaa, onko minulla sivustolla olemassa olevaa profiilia, jossa on tietoa minun kalastuskohteistani."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://kerranelamassa.fi",
+      "intent": "Selvittelen, voinko lisätä sivustolle omia kalastuskohteeni ja jakaa niitä muiden kanssa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://kerranelamassa.fi",
+      "intent": "Katselen, löytyykö sivustolta foorumia tai keskustelualueita, joilla voisin keskustella muiden kalastajien kanssa."
+    }
+  ]
+}

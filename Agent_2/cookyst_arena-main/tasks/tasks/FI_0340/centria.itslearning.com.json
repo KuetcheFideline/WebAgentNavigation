@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://centria.itslearning.com",
+      "intent": "Selvitän, miten voin kirjautua sisään itslearning-tililläni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://centria.itslearning.com",
+      "intent": "Luen uutisia ja tiedotteita Centria AMK:sta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://centria.itslearning.com",
+      "intent": "Etsin tietoa siitä, miten voin vaihtaa kieltä suomeksi"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://centria.itslearning.com",
+      "intent": "Tarkastan kurssien aikatauluja ja tehtäviä itslearning-tililläni"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://centria.itslearning.com",
+      "intent": "Lähettän opettajalle viestin kysymykseni kurssin suorittamisesta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://centria.itslearning.com",
+      "intent": "Tallennan ja tulostan kurssimateriaaleja ja tehtäviä myöhempää käyttöä varten"
+    }
+  ]
+}

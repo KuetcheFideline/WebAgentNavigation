@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://expert.ru",
+      "intent": "Luen haluat tietoa Venäjän taloudesta, etsin artikkeleita aiheesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://expert.ru",
+      "intent": "Olen kiinnostunut teknologiasta, haluan lukea uusimmat uutiset siitä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://expert.ru",
+      "intent": "Haluaisin tietää, mitä tuoreimpia tapahtumia maailmalla on, etsin uutisia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://expert.ru",
+      "intent": "Olen jo kirjautunut sisään, haluan muuttaa profiiliani tietoja"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://expert.ru",
+      "intent": "Luen olla kiinnostunut tilaamasta uutiskirjettä, menen tilausprosessiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://expert.ru",
+      "intent": "Haluaisin kommentoida artikkelia, joka kiinnosti minua, etsin kommentointitoimintoa"
+    }
+  ]
+}

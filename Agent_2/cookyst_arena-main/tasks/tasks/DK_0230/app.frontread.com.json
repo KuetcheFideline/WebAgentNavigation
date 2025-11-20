@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://app.frontread.com",
+      "intent": "Jeg søger efter en måde at organisere mine læseoplevelser på"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://app.frontread.com",
+      "intent": "Jeg ønsker at læse anmeldelser af bøger, som andre brugere har læst"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://app.frontread.com",
+      "intent": "Jeg vil gerne udforske forskellige funktioner på hjemmesiden for at se, hvad den kan tilbyde"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://app.frontread.com",
+      "intent": "Jeg vil gerne tilføje en ny bog til min læseliste og dele den med mine venner"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://app.frontread.com",
+      "intent": "Jeg ønsker at redigere min profil for at tilføje mere information om mine læseinteresser"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://app.frontread.com",
+      "intent": "Jeg vil gerne se, hvilke bøger mine venner har læst, og hvad de syntes om dem"
+    }
+  ]
+}

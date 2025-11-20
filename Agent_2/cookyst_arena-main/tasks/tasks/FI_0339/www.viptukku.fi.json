@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.viptukku.fi",
+      "intent": "Selata uutuuksia ja etsiä edullisia tuotteita"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.viptukku.fi",
+      "intent": "Etsiä tietoa koiratarhoista ja koirien hoitamisesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.viptukku.fi",
+      "intent": "Katsella ulkoiluvaatteita ja -varusteita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.viptukku.fi",
+      "intent": "Tarkistaa tilausten tila ja seurata lähetyksiä"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.viptukku.fi",
+      "intent": "Muuttaa osoitetta ja tietoja omassa tilissä"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.viptukku.fi",
+      "intent": "Arvostella ja antaa palautetta ostetuista tuotteista"
+    }
+  ]
+}

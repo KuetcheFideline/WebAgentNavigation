@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.smulderstextiel.be",
+      "intent": "Rechercher des draps de lit en coton pour mon lit de deux personnes"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.smulderstextiel.be",
+      "intent": "Comparer les prix des housses de coussin entre les différentes marques proposées sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.smulderstextiel.be",
+      "intent": "Explorer les différentes catégories de produits, notamment les déguisements et les accessoires de chambre à coucher"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.smulderstextiel.be",
+      "intent": "Ajouter un nouveau produit à mes favoris pour pouvoir le retrouver plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.smulderstextiel.be",
+      "intent": "Consulter l'historique de mes commandes pour suivre l'état de mes livraisons"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.smulderstextiel.be",
+      "intent": "Modifier mes informations de compte pour mettre à jour mon adresse de livraison"
+    }
+  ]
+}

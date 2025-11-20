@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vejreti.com",
+      "intent": "Jeg søger efter vejret i Roskilde i dag"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vejreti.com",
+      "intent": "Jeg vil se 14-dages vejrudsigt for København"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vejreti.com",
+      "intent": "Jeg søger efter vejret i Europa, især i Spanien og Frankrig"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vejreti.com",
+      "intent": "Jeg vil gemme min favoritby, Roskilde, for at få hurtig adgang til vejret der"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vejreti.com",
+      "intent": "Jeg vil tilføje en ny by, Aarhus, til mine favoritbyer for at sammenligne vejret"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vejreti.com",
+      "intent": "Jeg vil se mine gemte byer og vejret i dem i dag"
+    }
+  ]
+}

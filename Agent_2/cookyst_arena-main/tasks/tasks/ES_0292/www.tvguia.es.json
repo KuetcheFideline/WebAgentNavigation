@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tvguia.es",
+      "intent": "Buscar la programación de TV para esta noche para decidir qué ver"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tvguia.es",
+      "intent": "Explorar las opciones de personalización de la guía TV para adaptarla a mis preferencias"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tvguia.es",
+      "intent": "Verificar si hay alguna película o serie que me guste en la programación de TV de esta semana"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tvguia.es",
+      "intent": "Crear una lista de mis programas de TV favoritos para tener una guía personalizada"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tvguia.es",
+      "intent": "Configurar mis alertas para recibir notificaciones cuando mis programas favoritos estén a punto de empezar"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tvguia.es",
+      "intent": "Compartir mi lista de programas de TV favoritos con amigos y familiares a través de las redes sociales"
+    }
+  ]
+}

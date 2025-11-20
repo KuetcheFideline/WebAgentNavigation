@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://valkeakoski.desku.fi",
+      "intent": "Tutkin Valkeakosken kaupungin virallista sivustoa, jotta voin löytää tietoa paikallisista palveluista ja tapahtumista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://valkeakoski.desku.fi",
+      "intent": "Etsin sivustolta tietoa mökkien vuokraamisesta Valkeakosken seudulla, koska haluan viettää lomani mökillä."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://valkeakoski.desku.fi",
+      "intent": "Selvittelen, mitä kaupungin tarjoaa vapaa-ajan toimintaa, kuten kalastusmahdollisuuksia, jotta voin suunnitella vapaa-aikani."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://valkeakoski.desku.fi",
+      "intent": "Kirjaudun sisään ja tarkistan, onko minulla oikeuksia hyödyntää kaupungin tarjoamia etuja, kuten alennuksia paikallisissa liikkeissä."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://valkeakoski.desku.fi",
+      "intent": "Täytän kaupungin asiakaspalvelulomakkeen, jotta voin ilmoittaa ongelmista, joita olen kohdannut kaupungin palvelujen kanssa."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://valkeakoski.desku.fi",
+      "intent": "Osallistun kaupungin internetsivujen keskustelupalstalle, jotta voin keskustella muiden kanssa kaupungin asioista ja antaa palautetta."
+    }
+  ]
+}

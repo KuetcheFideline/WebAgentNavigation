@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.aftalebogen.dk",
+      "intent": "Læse om den nye selvbetjeningsløsning for patienter på aftalebogen.dk"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.aftalebogen.dk",
+      "intent": "Søge efter information om, hvordan jeg kan bruge Patientportalen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.aftalebogen.dk",
+      "intent": "Få mere at vide om, hvordan jeg kan oprette en ny bruger på Patientportalen"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.aftalebogen.dk",
+      "intent": "Logge ind på Patientportalen med MitID og se mine eksisterende patientdata"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.aftalebogen.dk",
+      "intent": "Oprette en ny aftale på Patientportalen efter at have logget ind"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.aftalebogen.dk",
+      "intent": "Se mine tidligere aftaler og ændre eller afbestille en eksisterende aftale på Patientportalen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.juomavarasto.com",
+      "intent": "Hae olutta ja viiniä juhliin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.juomavarasto.com",
+      "intent": "Selaa viinien ja viskien valikoimaa"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.juomavarasto.com",
+      "intent": "Lue asiakkaiden arvosteluita ja kokemuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.juomavarasto.com",
+      "intent": "Tilaa viiniä ja olutta kotiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.juomavarasto.com",
+      "intent": "Seuraa tilaustani ja tarkista toimitus"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.juomavarasto.com",
+      "intent": "Arvostele ja kirjoita kokemuksia ostetuista tuotteista"
+    }
+  ]
+}

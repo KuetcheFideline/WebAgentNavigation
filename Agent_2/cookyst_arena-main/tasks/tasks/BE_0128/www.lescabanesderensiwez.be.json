@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lescabanesderensiwez.be",
+      "intent": "Rechercher des cabanes disponibles pour un week-end en amoureux"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lescabanesderensiwez.be",
+      "intent": "Comparer les prix et les équipements des différentes cabanes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lescabanesderensiwez.be",
+      "intent": "Lire les avis et les commentaires des anciens clients pour choisir la meilleure cabane"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lescabanesderensiwez.be",
+      "intent": "Réserver une cabane pour un week-end en utilisant mon compte client"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lescabanesderensiwez.be",
+      "intent": "Gérer mes réservations et mes séjours passés depuis mon espace client"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lescabanesderensiwez.be",
+      "intent": "Utiliser mon compte client pour acheter un bon cadeau pour un ami"
+    }
+  ]
+}

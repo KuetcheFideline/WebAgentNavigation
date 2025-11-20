@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.avl.fi",
+      "intent": "Luen uusimmat uutiset Etusivulta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.avl.fi",
+      "intent": "Selailen Viikon henkilö -osiota ja luen mielenkiintoisia haastatteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.avl.fi",
+      "intent": "Etsin tietoa urheilutapahtumista Liikunta ja urheilu -osiossa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.avl.fi",
+      "intent": "Kirjaudun sisään ja tilaan uuden digilehden tilauksen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.avl.fi",
+      "intent": "Lisään kommentin mielenkiintoiseen uutiseen ja osallistun keskusteluun"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.avl.fi",
+      "intent": "Tarkastan tilaajaedut ja hyödynnän niitä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Rechercher un médecin généraliste disponible près de chez moi à Uccle"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Lire les articles de blog sur la santé pour me tenir informé sur les dernières tendances médicales"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Consulter la liste des spécialistes de la santé disponibles sur la plateforme pour comparer leurs disponibilités"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Prendre rendez-vous avec un dentiste pour une consultation de routine après m'être connecté à mon compte"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Gérer mes prochains rendez-vous médicaux en ligne pour éviter les attentes téléphoniques"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.myconsultation.be",
+      "intent": "Consulter mon historique de rendez-vous et de communications avec les professionnels de la santé pour suivre mon parcours de soins"
+    }
+  ]
+}

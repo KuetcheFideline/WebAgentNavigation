@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.cleverdialer.es",
+      "intent": "Buscar el número de teléfono de mi familia para saber quién llama"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.cleverdialer.es",
+      "intent": "Verificar si el número de teléfono que me está llamando es un número de spam"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.cleverdialer.es",
+      "intent": "Explorar la lista de los números de teléfono más vistos en los últimos 7 días"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.cleverdialer.es",
+      "intent": "Agregar un comentario sobre un número de teléfono que me ha llamado recientemente"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.cleverdialer.es",
+      "intent": "Valorar un número de teléfono que me ha llamado como spam"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.cleverdialer.es",
+      "intent": "Configurar mis preferencias de notificación para recibir alertas sobre números de teléfono sospechosos"
+    }
+  ]
+}

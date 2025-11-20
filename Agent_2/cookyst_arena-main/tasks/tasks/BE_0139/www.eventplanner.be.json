@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.eventplanner.be",
+      "intent": "Rechercher des lieux de réception pour un événement d'entreprise à Bruxelles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.eventplanner.be",
+      "intent": "Comparer les prix et les services de différents fournisseurs de catering pour un événement de mariage"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.eventplanner.be",
+      "intent": "Explorer les options de location de tentes et d'équipements pour un événement en plein air"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.eventplanner.be",
+      "intent": "Gérer mes réservations et mes commandes de services pour un événement en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.eventplanner.be",
+      "intent": "Consulter mes factures et mes reçus pour les services réservés sur le site"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.eventplanner.be",
+      "intent": "Écrire un avis et noter un fournisseur de services que j'ai utilisé pour un événement"
+    }
+  ]
+}

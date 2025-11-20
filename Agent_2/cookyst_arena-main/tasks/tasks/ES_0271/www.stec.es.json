@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.stec.es",
+      "intent": "Buscar información sobre las oposiciones de 2026 para profesores en Canarias"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.stec.es",
+      "intent": "Descargar las guías prácticas del STEC-IC para el profesorado"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.stec.es",
+      "intent": "Consultar los permisos y licencias disponibles para los docentes en Canarias"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.stec.es",
+      "intent": "Acceder al área personal para consultar mi expediente personal y hoja de servicios"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.stec.es",
+      "intent": "Solicitar un permiso o licencia a través de la plataforma del STEC-IC"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.stec.es",
+      "intent": "Consultar y descargar mi nómina y documentos relacionados con mi empleo"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.tv3.ee",
+      "intent": "Haluaisin tietää, mitä TV3:lla on tarjolla tänään, joten etsin tietoa tulevista ohjelmista."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.tv3.ee",
+      "intent": "Olen kiinnostunut uusista, joten haluaisin lukea lisää TV3:n uutissivuilta."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.tv3.ee",
+      "intent": "Tietojenkäsittelytieteen opiskelijana olen kiinnostunut teknisistä aiheista, joten etsin sivuilta tietoa teknisistä ohjelmista."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.tv3.ee",
+      "intent": "Haluaisin osallistua TV3:n keskusteluihin, joten kirjaudun sisään ja etsin aiheita, joissa voin osallistua keskusteluun."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.tv3.ee",
+      "intent": "Olen kiinnostunut TV3:n tarjoamista peliohjelmista, joten haluaisin pelata pelejä, jotka vaativat kirjautumisen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.tv3.ee",
+      "intent": "Haluaisin muokata profiiliini ja tarkastaa, mitä tietoja minusta on tallennettu, joten siirryn profiilisivulle."
+    }
+  ]
+}

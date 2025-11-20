@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.abendzeitung-muenchen.de",
+      "intent": "Ich möchte die neuesten Nachrichten aus München lesen, um mich über die aktuelle Situation in der Stadt zu informieren."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.abendzeitung-muenchen.de",
+      "intent": "Ich möchte die Sportnachrichten über den FC Bayern München und den TSV 1860 München lesen, um mich über die aktuellen Ereignisse im Fußball zu informieren."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.abendzeitung-muenchen.de",
+      "intent": "Ich möchte die Kultur- und Promi-Nachrichten lesen, um mich über die aktuellen Ereignisse in der Kulturszene zu informieren."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.abendzeitung-muenchen.de",
+      "intent": "Ich möchte mich anmelden, um meine Merkliste zu bearbeiten und interessante Artikel zu speichern, um sie später zu lesen und wiederzufinden."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.abendzeitung-muenchen.de",
+      "intent": "Ich möchte mich anmelden, um Kommentare zu den Artikeln zu schreiben und mich an der Diskussion zu beteiligen."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.abendzeitung-muenchen.de",
+      "intent": "Ich möchte mich anmelden, um den Push-Service zu nutzen und Benachrichtigungen über die neuesten Nachrichten zu erhalten."
+    }
+  ]
+}

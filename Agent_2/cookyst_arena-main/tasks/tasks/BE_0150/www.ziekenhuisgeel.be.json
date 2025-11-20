@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ziekenhuisgeel.be",
+      "intent": "Je souhaite prendre rendez-vous pour un examen médical, tu cherches à comprendre comment procéder pour prendre rendez-vous en ligne sur le site de Ziekenhuis Geel."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ziekenhuisgeel.be",
+      "intent": "Tu es curieux de savoir quels sont les services offerts par Ziekenhuis Geel, notamment en ce qui concerne les soins aux patients et les spécialités médicales disponibles."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ziekenhuisgeel.be",
+      "intent": "Tu veux en savoir plus sur les actualités et les événements organisés par Ziekenhuis Geel, comme les conférences médicales et les campagnes de sensibilisation à la santé."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ziekenhuisgeel.be",
+      "intent": "Maintenant que tu es connecté, tu souhaites accéder à ton dossier médical personnel pour consulter tes résultats d'examens et suivre l'évolution de ton traitement."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ziekenhuisgeel.be",
+      "intent": "En tant qu'utilisateur connecté, tu veux modifier tes informations de contact et mettre à jour tes coordonnées pour garantir que Ziekenhuis Geel puisse te joindre facilement."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ziekenhuisgeel.be",
+      "intent": "Tu es connecté et tu cherches à prendre rendez-vous pour un membre de ta famille ou un proche, en utilisant les fonctionnalités de gestion des proches sur le site de Ziekenhuis Geel."
+    }
+  ]
+}

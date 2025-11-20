@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.vub.be",
+      "intent": "Rechercher les formations en Sciences pour obtenir des informations sur les cursus et les débouchés"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.vub.be",
+      "intent": "Consulter les pages d'information sur la vie étudiante pour découvrir les activités et les services proposés par l'université"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.vub.be",
+      "intent": "Explorer les ressources disponibles pour les étudiants étrangers pour comprendre les démarches et les exigences pour étudier à la VUB"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.vub.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes notes et mes horaires de cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.vub.be",
+      "intent": "Inscrire aux cours et aux examens pour la prochaine session pour planifier mon semestre"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.vub.be",
+      "intent": "Consulter les offres de stages et d'emplois proposées par l'université pour trouver un stage ou un emploi à temps partiel"
+    }
+  ]
+}

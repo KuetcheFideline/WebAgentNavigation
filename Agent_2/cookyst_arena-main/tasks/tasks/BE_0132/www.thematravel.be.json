@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.thematravel.be",
+      "intent": "Rechercher des voyages en Europe pour un week-end en solo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.thematravel.be",
+      "intent": "Comparer les prix des voyages en Asie pour un mois d'été"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.thematravel.be",
+      "intent": "Lire les avis des clients sur les voyages en Amérique du Sud"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.thematravel.be",
+      "intent": "Réserver un voyage en Afrique pour deux personnes en chambre double"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.thematravel.be",
+      "intent": "Gérer mes réservations de voyages et imprimer mes billets"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.thematravel.be",
+      "intent": "Contacter le service client pour annuler un voyage en raison de problèmes de santé"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://rutakko.verkkokirjasto.fi",
+      "intent": "Hae uusimmat lastenkirjat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://rutakko.verkkokirjasto.fi",
+      "intent": "Selaa e-äänikirjoja ja löydä uusi suosikkikirjasi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://rutakko.verkkokirjasto.fi",
+      "intent": "Tutki kirjaston tapahtumakalenteria ja etsi mielenkiintoisia tapahtumia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://rutakko.verkkokirjasto.fi",
+      "intent": "Varaa uusin kirja, jonka olet halunnut lukea, ja aseta se valmiiksi noutamista varten"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://rutakko.verkkokirjasto.fi",
+      "intent": "Lue arvosteluita ja anna palautetta kirjoista, joita olet lukenut"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://rutakko.verkkokirjasto.fi",
+      "intent": "Tarkista lainattujen kirjojen tila ja uusi lainausaika, jos tarpeen"
+    }
+  ]
+}

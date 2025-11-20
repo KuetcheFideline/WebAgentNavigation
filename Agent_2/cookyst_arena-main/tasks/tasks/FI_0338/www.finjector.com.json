@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.finjector.com",
+      "intent": "Etsin moottorin huoltoon tarvittavia varaosia"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.finjector.com",
+      "intent": "Selailen sivustoa etsimässä tietoa polttoaineen toimituksesta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.finjector.com",
+      "intent": "Vertailen eri tuotteiden hintoja ja ominaisuuksia"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.finjector.com",
+      "intent": "Tilasin juuri uuden moottorin ja haluan seurata tilaustani"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.finjector.com",
+      "intent": "Muutan tilaustani ja haluan tarkistaa, miten se vaikuttaa toimitusaikaan"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.finjector.com",
+      "intent": "Lisään uuden osoitteen tilausteni toimitusosoitteeksi"
+    }
+  ]
+}

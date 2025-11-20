@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://musiikkitalo.fi",
+      "intent": "Hae tulevia konsertteja ja tapahtumia Musiikkitalossa"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://musiikkitalo.fi",
+      "intent": "Selaa klassisen musiikin tapahtumia ja osta liput"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://musiikkitalo.fi",
+      "intent": "Tutustu Musiikkitalon ravintoloihin ja palveluihin"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://musiikkitalo.fi",
+      "intent": "Tilaa väliaikatarjoilut tulevaan konserttiin"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://musiikkitalo.fi",
+      "intent": "Osta kausikortti klassisen musiikin ystäville"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://musiikkitalo.fi",
+      "intent": "Varaa pöytä Musiikkitalon ravintolassa"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.thebodyshop.fi",
+      "intent": "Etsin vegaanisia kasvotuotteita vaimolleni"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.thebodyshop.fi",
+      "intent": "Haluan tietää, mitä tuotteita on tarjolla vartalonhoitoon"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.thebodyshop.fi",
+      "intent": "Olen kiinnostunut The Body Shopin joulukalenterista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.thebodyshop.fi",
+      "intent": "Lisään ostoskoriin vartalovoiteen, jonka olen aikaisemmin ostanut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.thebodyshop.fi",
+      "intent": "Tarkistan tilaustani historiatiedot"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.thebodyshop.fi",
+      "intent": "Muutan osoitettani, jotta se vastaa uutta asuinpaikkaani"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.staatsoper.de",
+      "intent": "Ich möchte den Spielplan der Bayerischen Staatsoper für die aktuelle Spielzeit einsehen."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.staatsoper.de",
+      "intent": "Ich will die verschiedenen Abonnements und Kartenoptionen der Bayerischen Staatsoper vergleichen."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.staatsoper.de",
+      "intent": "Ich suche nach Informationen über die kommenden Premieren und Festivals der Bayerischen Staatsoper."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.staatsoper.de",
+      "intent": "Ich möchte mein bestehendes Abonnement verlängern und die Sitzplätze für die nächste Spielzeit reservieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.staatsoper.de",
+      "intent": "Ich will meine persönlichen Daten und Einstellungen in meinem Benutzerkonto der Bayerischen Staatsoper aktualisieren."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.staatsoper.de",
+      "intent": "Ich möchte meine bestellten Karten und Abonnements im Bereich 'Mein Konto' einsehen und ggf. stornieren."
+    }
+  ]
+}

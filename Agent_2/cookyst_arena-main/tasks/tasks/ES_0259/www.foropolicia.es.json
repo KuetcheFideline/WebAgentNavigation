@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.foropolicia.es",
+      "intent": "Explorar el foro para conocer las últimas noticias y debates sobre la policía en España"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.foropolicia.es",
+      "intent": "Buscar información sobre cómo unirse al foro y convertirse en miembro de la comunidad policial"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.foropolicia.es",
+      "intent": "Leer sobre la historia y la evolución del foro a lo largo de los años"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.foropolicia.es",
+      "intent": "Crear un nuevo tema de debate sobre la seguridad ciudadana y la prevención del delito"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.foropolicia.es",
+      "intent": "Responder a un mensaje existente en el foro sobre la formación y el entrenamiento policial"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.foropolicia.es",
+      "intent": "Editar mi perfil de usuario y agregar información sobre mi experiencia laboral en el sector de la comunicación"
+    }
+  ]
+}

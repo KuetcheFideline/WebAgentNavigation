@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.hds-streaming.to",
+      "intent": "Rechercher des films avec VF pour regarder pendant mon temps libre"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.hds-streaming.to",
+      "intent": "Explorer les derniers films ajoutés pour découvrir de nouvelles sorties"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.hds-streaming.to",
+      "intent": "Parcourir les catégories de films d'animation pour trouver quelque chose à regarder avec ma famille"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.hds-streaming.to",
+      "intent": "Ajouter le film 'The Electric State' à ma liste de films préférés pour le regarder plus tard"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.hds-streaming.to",
+      "intent": "Laisser un commentaire sur le film 'Vaiana 2' pour partager mon avis avec la communauté"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.hds-streaming.to",
+      "intent": "Créer une liste de films personnalisée pour mes soirées de détente"
+    }
+  ]
+}

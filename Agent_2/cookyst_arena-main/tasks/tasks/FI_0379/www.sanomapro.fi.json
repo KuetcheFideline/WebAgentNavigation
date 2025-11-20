@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.sanomapro.fi",
+      "intent": "Selataan sivuston etusivua ja etsitään tietoa oppimateriaaleista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.sanomapro.fi",
+      "intent": "Käydään läpi Asiakaspalvelu-vinkit ja etsitään apua oppimateriaaleiden valintaan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.sanomapro.fi",
+      "intent": "Luetaan Näkökulmia oppimiseen -blogia ja etsitään ajankohtaisia aiheita"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.sanomapro.fi",
+      "intent": "Tarkistetaan tilaus- ja toimitusehdot ja varmistetaan, että kaikki tarvittavat oppimateriaalit on tilattu"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.sanomapro.fi",
+      "intent": "Käydään läpi käyttäjäedut ja hinnastot, ja etsitään mahdollisia alennuksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.sanomapro.fi",
+      "intent": "Osallistutaan kehittämiseen Operaadissa ja annetaan palautetta oppimateriaaleista"
+    }
+  ]
+}

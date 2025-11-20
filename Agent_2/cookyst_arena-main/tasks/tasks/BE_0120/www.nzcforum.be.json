@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.nzcforum.be",
+      "intent": "Rechercher des informations sur les méthodes de contraception pour éviter les grossesses non désirées"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.nzcforum.be",
+      "intent": "Lire les discussions en cours sur le forum pour comprendre les préoccupations des autres utilisateurs"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.nzcforum.be",
+      "intent": "Explorer les différentes sections du site pour découvrir les ressources disponibles"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.nzcforum.be",
+      "intent": "Publier un message sur le forum pour partager mes propres expériences et conseils sur la santé sexuelle"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.nzcforum.be",
+      "intent": "Répondre à un message existant pour engager une conversation avec un autre utilisateur"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.nzcforum.be",
+      "intent": "Configurer mes préférences de notification pour recevoir des alertes lorsqu'un nouveau message est publié sur le forum"
+    }
+  ]
+}

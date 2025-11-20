@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://warnermusiclive.fi",
+      "intent": "Hae keikkatietoja artistilta ELLINOORA"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://warnermusiclive.fi",
+      "intent": "Selaa tulevia keikkoja ja etsi konsertteja Helsingissä"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://warnermusiclive.fi",
+      "intent": "Lue uutisia ja ajankohtaisia tapahtumia musiikkimaailmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://warnermusiclive.fi",
+      "intent": "Tilaa uutiskirje ja seuraa Warner Music Live -sivustoa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://warnermusiclive.fi",
+      "intent": "Lähetä tarjouspyyntö yksityistilaisuuden järjestämiseksi"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://warnermusiclive.fi",
+      "intent": "Ostetaan liput tulevaan konserttiin artistilta BESS"
+    }
+  ]
+}

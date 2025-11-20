@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.intecca.uned.es",
+      "intent": "Explorar la sección de 'Aulas Virtuales' para ver qué cursos están disponibles"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.intecca.uned.es",
+      "intent": "Buscar información sobre la 'Cadena Campus' para saber qué tipo de eventos se organizan"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.intecca.uned.es",
+      "intent": "Leer la sección de '¿Qué hacemos?' para entender mejor la misión de la institución"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.intecca.uned.es",
+      "intent": "Acceder a 'Mi portal' para ver mis grabaciones y seguir los cursos en los que estoy inscrito"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.intecca.uned.es",
+      "intent": "Reservar un evento a través de 'Reserva de eventos' para asistir a una conferencia de interés"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.intecca.uned.es",
+      "intent": "Descargar recursos educativos del 'Repositorio de Contenidos' para profundizar en mis estudios"
+    }
+  ]
+}

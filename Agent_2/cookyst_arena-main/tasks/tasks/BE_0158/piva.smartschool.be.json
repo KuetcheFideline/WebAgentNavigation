@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://piva.smartschool.be",
+      "intent": "Rechercher les informations sur les écoles bilingues à Bruxelles pour mes enfants"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://piva.smartschool.be",
+      "intent": "Explorer les ressources pédagogiques disponibles pour les enseignants sur le site"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://piva.smartschool.be",
+      "intent": "Télécharger l'application Smartschool pour rester informé des actualités scolaires"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://piva.smartschool.be",
+      "intent": "Consulter les notes et les progrès de mes enfants dans leur classe"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://piva.smartschool.be",
+      "intent": "Gérer les absences et les retards de mes enfants en ligne"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://piva.smartschool.be",
+      "intent": "Communiquer avec les enseignants et les autres parents d'élèves via le portail sécurisé"
+    }
+  ]
+}

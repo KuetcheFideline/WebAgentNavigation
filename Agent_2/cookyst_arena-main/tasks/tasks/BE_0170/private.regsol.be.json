@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://private.regsol.be",
+      "intent": "Je veux consulter la page d'aide pour comprendre comment utiliser le site RegSol."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://private.regsol.be",
+      "intent": "Je souhaite lire les questions fréquentes pour résoudre mes doutes sur les procédures d'insolvabilité."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://private.regsol.be",
+      "intent": "J'ai besoin de savoir comment fonctionne le système de suivi en ligne des procédures d'insolvabilité avant de créer un compte."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://private.regsol.be",
+      "intent": "Je veux accéder à mon espace personnel pour suivre l'état de mes dossiers d'insolvabilité en cours."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://private.regsol.be",
+      "intent": "Il faut que je modifie mes informations de connexion pour améliorer la sécurité de mon compte RegSol."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://private.regsol.be",
+      "intent": "J'ai besoin de télécharger les documents relatifs à mes procédures d'insolvabilité pour les archiver chez moi."
+    }
+  ]
+}

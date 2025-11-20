@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Rechercher les actualités locales de Liège sur le site du Parisien pour rester informé sur les événements qui touchent ma région d'origine"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Consulter la rubrique 'Société' pour me tenir au courant des dernières tendances et problématiques sociales en France"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Explorer les articles de la section 'Culture & loisirs' pour découvrir de nouveaux films, séries et livres qui pourraient m'intéresser"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Accéder à mon compte pour personnaliser mes préférences de lecture et recevoir des notifications sur les sujets qui m'intéressent"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Lire les articles réservés aux abonnés pour avoir accès à des contenus exclusifs et approfondis sur les actualités françaises et internationales"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.leparisien.fr",
+      "intent": "Gérer mes abonnements et mes paramètres de compte pour optimiser mon expérience de lecture sur le site du Parisien"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Rechercher les informations sur les comptes épargne pour les particuliers"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Comparer les offres d'assurance vie pour les indépendants"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.ing.be",
+      "intent": "Consulter les conditions pour ouvrir un compte d'entreprise en ligne"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Vérifier le solde de mon compte épargne en ligne"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Effectuer un virement vers le compte de mon conjoint"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.ing.be",
+      "intent": "Télécharger mes relevés de compte pour les six derniers mois"
+    }
+  ]
+}

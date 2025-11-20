@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bussitutka.fi",
+      "intent": "Hae bussin 520 reitti ja aikataulu, jotta voin suunnitella matkani Vaasasta Helsinkiin"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bussitutka.fi",
+      "intent": "Etsi tietoja linjalla 30 käytettävistä kulkuneuvoista, jotta voin tietää, mitä kalustoa linjalla käytetään"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bussitutka.fi",
+      "intent": "Tarkastele tilastoja linjan 50 myöhästymisistä, jotta voin arvioida, kuinka luotettava linja on"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bussitutka.fi",
+      "intent": "Tallenna suosikkibussini, jotta voin nopeasti tarkastella sen sijaintia ja aikataulua"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bussitutka.fi",
+      "intent": "Lisää bussin 20 reitti suosikkeihini, jotta voin seurata sen aikataulua ja mahdollisia muutoksia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bussitutka.fi",
+      "intent": "Anna palautetta linjan 40 liikenteestä, jotta voimme parantaa joukkoliikennettä alueellamme"
+    }
+  ]
+}

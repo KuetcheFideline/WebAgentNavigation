@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://bbs.io-tech.fi",
+      "intent": "Selata io-tech.fi uutisia ja etsiä tietoa uusimmista teknologiauutisista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://bbs.io-tech.fi",
+      "intent": "Etsiä tietoa älypuhelimen ja tietokoneen vertailusta ja lukea arvosteluita"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://bbs.io-tech.fi",
+      "intent": "Käydä läpi foorumin sääntöjä ja moderointia koskevaa keskustelua"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://bbs.io-tech.fi",
+      "intent": "Kirjautua sisään ja kommentoida uusimpaan io-tech.fi uutiseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://bbs.io-tech.fi",
+      "intent": "Osallistua keskusteluun älypuhelimen ja tietokoneen vertailusta"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://bbs.io-tech.fi",
+      "intent": "Lähettää yksityisviesti toiselle käyttäjälle kysymyksen tekniseen ongelmaan liittyen"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www9.agenciatributaria.gob.es",
+      "intent": "Consultar los requisitos para obtener una nueva referencia de acceso"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www9.agenciatributaria.gob.es",
+      "intent": "Buscar información sobre los plazos y procedimientos para la presentación de declaraciones de impuestos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www9.agenciatributaria.gob.es",
+      "intent": "Explorar las secciones de ayuda y recursos disponibles para contribuyentes"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www9.agenciatributaria.gob.es",
+      "intent": "Acceder a mi área personal para consultar el estado de mis declaraciones de impuestos"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www9.agenciatributaria.gob.es",
+      "intent": "Descargar y imprimir mis certificados de renta y retenciones"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www9.agenciatributaria.gob.es",
+      "intent": "Solicitar una cita para asesoramiento personalizado sobre mis obligaciones fiscales"
+    }
+  ]
+}

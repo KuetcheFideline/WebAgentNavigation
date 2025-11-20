@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg søger efter information om, hvordan jeg kan bruge Lægevejen til at kommunikere med min læge."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil se en video om, hvordan Lægevejen fungerer, for at forstå bedre, hvordan jeg kan bruge det til min sundhedspleje."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg ønsker at se, om min læge er tilmeldt Lægevejen, så jeg kan benytte funktionerne på siden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil logge ind med MitID for at kunne bestille tid hos min læge og kommunikere med dem gennem Lægevejen."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg ønsker at sende en e-mailkonsultation til min læge for at stille et spørgsmål om min sundhed."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://laegevejen.dk",
+      "intent": "Jeg vil anmode min læge om receptfornyelse på en fast ordineret medicin, så jeg kan få det leveret til min lokale apotek."
+    }
+  ]
+}

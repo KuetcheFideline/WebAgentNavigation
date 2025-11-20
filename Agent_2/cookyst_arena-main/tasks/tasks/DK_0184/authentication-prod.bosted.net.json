@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://authentication-prod.bosted.net",
+      "intent": "Jeg skal finde ud af, hvordan jeg kan bruge denne side til at få adgang til mine personlige oplysninger."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://authentication-prod.bosted.net",
+      "intent": "Jeg vil se, om der er nogen vejledninger eller hjælp til, hvordan jeg kan logge ind på siden."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://authentication-prod.bosted.net",
+      "intent": "Jeg skal undersøge, om der er nogen mulighed for at oprette en ny bruger på siden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://authentication-prod.bosted.net",
+      "intent": "Jeg vil ændre mine brugeroplysninger, så de er opdateret og korrekte."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://authentication-prod.bosted.net",
+      "intent": "Jeg skal se, om jeg kan tilføje eller ændre mine personlige præferencer på siden."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://authentication-prod.bosted.net",
+      "intent": "Jeg vil logge ud af min konto og derefter logge ind igen for at sikre, at alt fungerer korrekt."
+    }
+  ]
+}

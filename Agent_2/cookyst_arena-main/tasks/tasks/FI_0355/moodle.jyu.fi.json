@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Selvitän, miten voin käyttää Moodlea opetustöihini"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Etsin tietoa siitä, miten voin luoda uuden kurssin Moodleen"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Tutkin, miten voin muokata käyttäjäprofiiliaani Moodlessa"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Lisään uuden tehtävän kurssille, jonka olen luonut"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Arvostelen opiskelijoiden suorituksia kurssilla"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://moodle.jyu.fi",
+      "intent": "Lähetän viestin opiskelijoille kurssin viestintätyökalun kautta"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://stammportal.bmlv.gv.at",
+      "intent": "Ich möchte die Kontaktinformationen auf der Startseite finden, um mich bei Fragen zum Stammportal zu melden."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://stammportal.bmlv.gv.at",
+      "intent": "Ich will die Hilfe-Seite aufrufen, um Anleitungen zur Nutzung des Portals zu erhalten."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://stammportal.bmlv.gv.at",
+      "intent": "Ich möchte die Anmeldeseite öffnen, um mich mit meinem Benutzernamen und Passwort anzumelden."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://stammportal.bmlv.gv.at",
+      "intent": "Ich will nach dem Anmelden meine persönlichen Daten im Profil überprüfen und ggf. aktualisieren."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://stammportal.bmlv.gv.at",
+      "intent": "Ich möchte die Funktionen des Portals erkunden, um zu sehen, welche Dienste und Anwendungen für mich als Nutzer verfügbar sind."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://stammportal.bmlv.gv.at",
+      "intent": "Ich will die Unterstützungsseite aufrufen, um Hilfe bei technischen Problemen oder Fragen zur Nutzung des Portals zu erhalten."
+    }
+  ]
+}

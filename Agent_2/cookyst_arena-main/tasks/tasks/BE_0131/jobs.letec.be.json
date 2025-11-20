@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jobs.letec.be",
+      "intent": "Rechercher des offres d'emploi dans le domaine de la conduite et des métiers du réseau"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jobs.letec.be",
+      "intent": "Explorer les différentes localisations proposées pour les offres d'emploi"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jobs.letec.be",
+      "intent": "Lire les descriptions détaillées des offres d'emploi pour comprendre les responsabilités et les exigences"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jobs.letec.be",
+      "intent": "Postuler à une offre d'emploi qui correspond à mes compétences et à mes intérêts"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jobs.letec.be",
+      "intent": "Créer une alerte d'emploi pour être informé des nouvelles offres d'emploi correspondant à mes critères de recherche"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jobs.letec.be",
+      "intent": "Gérer mes candidatures en ligne et suivre l'état de mes demandes d'emploi"
+    }
+  ]
+}

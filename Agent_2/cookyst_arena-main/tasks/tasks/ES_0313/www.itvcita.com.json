@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.itvcita.com",
+      "intent": "Solicitar una cita previa para la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.itvcita.com",
+      "intent": "Consultar los datos de la cita que tengo solicitada actualmente para asegurarme de que está correcta"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.itvcita.com",
+      "intent": "Buscar información sobre los requisitos y documentos necesarios para la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.itvcita.com",
+      "intent": "Modificar la cita concertada para cambiar la fecha o la hora de la inspección técnica de mi vehículo"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.itvcita.com",
+      "intent": "Anular la cita concertada para la inspección técnica de mi vehículo y solicitar una nueva cita"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.itvcita.com",
+      "intent": "Imprimir o descargar el localizador de la cita para llevarlo conmigo el día de la inspección técnica de mi vehículo"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.lagradaonline.com",
+      "intent": "Buscar noticias sobre el RCD Espanyol en la página de inicio"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.lagradaonline.com",
+      "intent": "Explorar la sección de 'Últimas noticias' para leer sobre los últimos partidos y resultados del equipo"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.lagradaonline.com",
+      "intent": "Leer el artículo sobre la victoria del Espanyol B contra el Barça Atlètic"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.lagradaonline.com",
+      "intent": "Comentar en el artículo sobre la importancia de la victoria del Espanyol B contra el Barça Atlètic"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.lagradaonline.com",
+      "intent": "Crear un tema en el foro de la página para discutir sobre el futuro del equipo"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.lagradaonline.com",
+      "intent": "Enviar un mensaje privado a otro usuario para discutir sobre la próxima jornada del campeonato"
+    }
+  ]
+}

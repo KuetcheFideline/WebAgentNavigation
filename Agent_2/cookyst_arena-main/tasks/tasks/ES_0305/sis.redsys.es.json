@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sis.redsys.es",
+      "intent": "Explorar la página de inicio para conocer los servicios que ofrece SIS"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sis.redsys.es",
+      "intent": "Buscar información sobre cómo realizar pagos electrónicos de manera segura"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sis.redsys.es",
+      "intent": "Leer las noticias y actualizaciones sobre la seguridad de los pagos en línea"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sis.redsys.es",
+      "intent": "Configurar mis preferencias de pago para futuras transacciones"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sis.redsys.es",
+      "intent": "Verificar el historial de mis transacciones para asegurarme de que todo esté correcto"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sis.redsys.es",
+      "intent": "Actualizar mi información de contacto para recibir notificaciones importantes sobre mis pagos"
+    }
+  ]
+}

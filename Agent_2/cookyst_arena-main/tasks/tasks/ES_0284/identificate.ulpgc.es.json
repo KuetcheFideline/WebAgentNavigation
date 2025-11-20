@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://identificate.ulpgc.es",
+      "intent": "Verificar si el servicio de identificación centralizada está disponible y funcional"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://identificate.ulpgc.es",
+      "intent": "Buscar información sobre cómo solicitar ayuda al Servicio de Informática en caso de problemas con la autenticación"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://identificate.ulpgc.es",
+      "intent": "Leer las instrucciones para cerrar la sesión y el navegador web después de acceder a los servicios que requieren autenticación"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://identificate.ulpgc.es",
+      "intent": "Acceder a los servicios de la universidad que requieren autenticación para verificar mi perfil de usuario"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://identificate.ulpgc.es",
+      "intent": "Configurar mis preferencias de seguridad y privacidad en mi cuenta de usuario"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://identificate.ulpgc.es",
+      "intent": "Verificar el historial de acceso a mis cuentas y servicios para detectar cualquier actividad sospechosa"
+    }
+  ]
+}

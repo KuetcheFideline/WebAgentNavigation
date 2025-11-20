@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://photos.onedrive.com",
+      "intent": "Je veux créer un compte Microsoft pour stocker mes photos en ligne."
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://photos.onedrive.com",
+      "intent": "Je souhaite découvrir les fonctionnalités de stockage de photos proposées par OneDrive."
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://photos.onedrive.com",
+      "intent": "Je veux en savoir plus sur la confidentialité et les cookies utilisés par Microsoft pour protéger mes données."
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://photos.onedrive.com",
+      "intent": "Je veux accéder à mes albums de photos stockés sur OneDrive pour les partager avec ma famille."
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://photos.onedrive.com",
+      "intent": "Je souhaite configurer les paramètres de partage de mes photos pour contrôler qui peut les voir."
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://photos.onedrive.com",
+      "intent": "Je veux télécharger certaines de mes photos stockées sur OneDrive pour les imprimer."
+    }
+  ]
+}

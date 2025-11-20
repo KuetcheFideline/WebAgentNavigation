@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.darts.fi",
+      "intent": "Hae tietoa dartsin säännöistä ja ohjeista"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.darts.fi",
+      "intent": "Selvitä miten voin osallistua darts-kilpailuihin"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.darts.fi",
+      "intent": "Lue uusimmat uutiset dartsin maailmasta"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.darts.fi",
+      "intent": "Ilmoittaudu mukaan tulevaan darts-turnaukseen"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.darts.fi",
+      "intent": "Tarkista oma darts-ranking ja vertaa muiden pelaajien tuloksiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.darts.fi",
+      "intent": "Osallistu keskusteluun darts-aiheista foorumilla"
+    }
+  ]
+}

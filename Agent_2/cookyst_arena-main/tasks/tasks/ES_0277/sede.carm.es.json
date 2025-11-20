@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://sede.carm.es",
+      "intent": "Buscar información sobre los trámites y servicios que ofrece la CARM para ciudadanos"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://sede.carm.es",
+      "intent": "Consultar la guía fácil para usar la Sede Electrónica de la Comunidad Autónoma de la Región de Murcia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://sede.carm.es",
+      "intent": "Acceder al punto de acceso electrónico del Servicio Murciano de Salud para obtener información sobre servicios de salud"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://sede.carm.es",
+      "intent": "Iniciar sesión en la Carpeta Ciudadana para consultar expedientes y documentos personales"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://sede.carm.es",
+      "intent": "Realizar un trámite electrónico a través de la Sede Electrónica de la CARM"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://sede.carm.es",
+      "intent": "Solicitar cita previa para atención personalizada en la oficina de la CARM"
+    }
+  ]
+}

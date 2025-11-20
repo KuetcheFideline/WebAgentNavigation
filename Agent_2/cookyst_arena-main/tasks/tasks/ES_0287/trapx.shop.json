@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://trapx.shop",
+      "intent": "Buscar productos de ropa deportiva para hombre en la sección de TIENDA"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://trapx.shop",
+      "intent": "Comparar precios de zapatillas de running de diferentes marcas en la página de productos"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://trapx.shop",
+      "intent": "Explorar la sección de OPINIONES para leer reseñas de otros clientes sobre productos de la tienda"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://trapx.shop",
+      "intent": "Agregar un producto a la LISTA DE DESEOS para comprarlo más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://trapx.shop",
+      "intent": "Realizar un pedido de un producto que ya he agregado a mi carrito de compras"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://trapx.shop",
+      "intent": "Verificar el estado de un pedido que realicé anteriormente en mi cuenta de cliente"
+    }
+  ]
+}

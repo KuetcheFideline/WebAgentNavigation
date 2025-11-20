@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://www.loreal-paris.es",
+      "intent": "Buscar productos de cuidado del cabello para pelo seco y dañado"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://www.loreal-paris.es",
+      "intent": "Explorar las diferentes opciones de maquillaje para un look natural y radiante"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://www.loreal-paris.es",
+      "intent": "Leer artículos y consejos sobre cómo cuidar la piel y prevenir las arrugas"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://www.loreal-paris.es",
+      "intent": "Guardar productos de cuidado del cabello y maquillaje en mi lista de favoritos para futuras compras"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://www.loreal-paris.es",
+      "intent": "Ver mis pedidos anteriores y realizar una nueva compra de productos de cuidado de la piel"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://www.loreal-paris.es",
+      "intent": "Configurar mis preferencias de cuenta y cambiar mi dirección de envío para futuras compras"
+    }
+  ]
+}

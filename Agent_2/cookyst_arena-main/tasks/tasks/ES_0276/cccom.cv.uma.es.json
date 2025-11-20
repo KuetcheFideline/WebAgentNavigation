@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://cccom.cv.uma.es",
+      "intent": "Buscar información sobre las asignaturas disponibles en la Facultad de Ciencias de la Comunicación"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://cccom.cv.uma.es",
+      "intent": "Explorar los recursos y servicios ofrecidos por la Universidad de Málaga para los estudiantes"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://cccom.cv.uma.es",
+      "intent": "Verificar el calendario de eventos y fechas importantes de la facultad"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://cccom.cv.uma.es",
+      "intent": "Acceder a mis asignaturas y consultar los materiales y tareas pendientes"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://cccom.cv.uma.es",
+      "intent": "Participar en un foro de discusión sobre un tema específico de la asignatura de Comunicación"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://cccom.cv.uma.es",
+      "intent": "Descargar documentos y recursos adicionales para una asignatura en particular"
+    }
+  ]
+}

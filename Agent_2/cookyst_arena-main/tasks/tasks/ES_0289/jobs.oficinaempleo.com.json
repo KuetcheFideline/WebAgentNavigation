@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://jobs.oficinaempleo.com",
+      "intent": "Buscar ofertas de trabajo como albañil en Madrid"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://jobs.oficinaempleo.com",
+      "intent": "Explorar las empresas que ofrecen empleo en el sector de la construcción"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://jobs.oficinaempleo.com",
+      "intent": "Leer las reseñas y comentarios de otros usuarios sobre las empresas y ofertas de empleo"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://jobs.oficinaempleo.com",
+      "intent": "Guardar una oferta de trabajo como favorita para revisarla más tarde"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://jobs.oficinaempleo.com",
+      "intent": "Aplicar a una oferta de trabajo que se ajuste a mis habilidades y experiencia"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://jobs.oficinaempleo.com",
+      "intent": "Configurar alertas de empleo para recibir notificaciones sobre nuevas ofertas que se ajusten a mis preferencias"
+    }
+  ]
+}

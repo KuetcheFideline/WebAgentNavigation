@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://ilmajoki.fi",
+      "intent": "Hae sivustolta Ilmajoen uimahallin aukioloajat"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://ilmajoki.fi",
+      "intent": "Selvitä Ilmajoen kirjaston lainaamien kirjojen palautuspäivämäärät"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://ilmajoki.fi",
+      "intent": "Etsi Ilmajoen kunta-asioinnin yhteystiedot"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://ilmajoki.fi",
+      "intent": "Tee varaus Ilmajoen uimahallin ryhmäliikuntatunnille"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://ilmajoki.fi",
+      "intent": "Ilmoita lapsen hoidon tarve Ilmajoen päiväkotiin"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://ilmajoki.fi",
+      "intent": "Tee ilmoitus Ilmajoen asuntotoimistoon asunnon vuokrauskiinnityksestä"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://m.fi.investing.com",
+      "intent": "Tarkastelen sivuston etusivua ja etsin tietoa Suomen taloudesta"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://m.fi.investing.com",
+      "intent": "Selailen sivuston Forex-osioita ja vertailen eri valuuttojen kurssia"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://m.fi.investing.com",
+      "intent": "Luen uutisia ja artikkeleita sivuston talousuutisista"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://m.fi.investing.com",
+      "intent": "Kirjaudun sisään ja tarkastelen omaa tarkkailuluetteloa"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://m.fi.investing.com",
+      "intent": "Lisään uuden osakkeen tarkkailuluetteloon ja asetan hälytyksen sen kurssimuutoksille"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://m.fi.investing.com",
+      "intent": "Tarkastelen omaa sijoitussalkkua ja analysoin sen suorituskykyä"
+    }
+  ]
+}

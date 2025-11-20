@@ -1,0 +1,40 @@
+{
+  "taches": [
+    {
+      "task_id": 1,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Rechercher des informations sur les activités proposées par l'université pour les étudiants âgés"
+    },
+    {
+      "task_id": 2,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Explorer les ressources disponibles sur le site pour les personnes âgées"
+    },
+    {
+      "task_id": 3,
+      "require_login": false,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Consulter les actualités et les événements organisés par l'université"
+    },
+    {
+      "task_id": 4,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Accéder à mon espace personnel pour consulter mes informations personnelles et mes cours"
+    },
+    {
+      "task_id": 5,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Participer à des discussions en ligne avec d'autres étudiants et enseignants"
+    },
+    {
+      "task_id": 6,
+      "require_login": true,
+      "start_url": "https://chamilo.hogent.be",
+      "intent": "Télécharger des documents et des ressources pédagogiques pour mes cours"
+    }
+  ]
+}
