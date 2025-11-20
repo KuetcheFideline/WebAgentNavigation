@@ -64,7 +64,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
     parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
-    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK'],default='FR')
+    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK','AT','IE','SE','LU'],default='FR')
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -178,7 +178,7 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                 if action["action_type"] == ActionTypes.STOP:
                     break
 
-                print("je suis l'actii a executer :", action)
+                # print("je suis l'actii a executer :", action)
                 
                 obs, _, terminated, _, info = env.step(action)
 
@@ -244,7 +244,7 @@ def test(
             
             logger.info(f"[Config file]: {config_file}")
             obs,info = env.reset(options= {"config_file":config_file})
-
+            print(f"Environment reset test.{env}")
             if  google_login :
                 initial_storage_state = env.get_all_storage_state()
 
@@ -371,7 +371,6 @@ if __name__ == "__main__":
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
         for user in os.listdir(config_dir) :
-            print(user,"je suis l'utilisateur")
             if user == args.country :
                 for i in range(args.user_start_idx,args.user_end_idx):
 

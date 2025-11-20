@@ -168,7 +168,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         return datadir            
         
     def create_account_with_google(self,start_url):
-                page = connect_to_browser_and_login(self.browser,login_url=start_url)
+        page = connect_to_browser_and_login(self.browser,login_url=start_url)
 
 
 
@@ -195,7 +195,11 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 'sk': 'sk-SK',
                 'ro': 'ro-RO',
                 'bg': 'bg-BG',
-                'el': 'el-GR'
+                'el': 'el-GR',
+                'at': 'de-AT',
+                'ie': 'en-IE',
+                'lu': 'fr-LU',
+                'se': 'sv-SE'
             }
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
