@@ -64,7 +64,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
     parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
-    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK'],default='DE')
+    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK'],default='FR')
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -90,7 +90,7 @@ def config() -> argparse.Namespace:
 
     # Example config
     parser.add_argument("--user_start_idx",type= int ,default=0000)
-    parser.add_argument("--user_end_idx",type= int ,default=1000)
+    parser.add_argument("--user_end_idx",type= int ,default=12)
 
     parser.add_argument("--test_start_idx", type=int, default=0)
     parser.add_argument("--test_end_idx", type=int, default=1000)
@@ -137,8 +137,7 @@ def early_stop(trajectory: Trajectory, max_steps: int, thresholds: dict[str, int
 
 
 def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env,agent,url,user) -> tuple[Trajectory, dict, list[dict]]:
-
-
+  
     user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
     trajectory:Trajectory =[{"observation": obs, "info": info}]
     meta_data  = {"action_history": ["None"], "user_persona": user_profile}
@@ -198,7 +197,6 @@ def test(
     args: argparse.Namespace,
     agent: Agent | PromptAgent | TeacherForcingAgent,
     config_file_list: list[str],
-    user:str,
 ) -> None:
     max_steps = args.max_steps
     early_stop_thresholds = {
@@ -209,7 +207,6 @@ def test(
     env = ScriptBrowserEnv(
         persistent=args.persistent,
         connect=args.connected,
-        user=user,
         consent=args.consent,
         headless=not args.render,
         slow_mo=args.slow_mo,
@@ -223,6 +220,12 @@ def test(
 
 
     for config_file in tqdm(config_file_list):
+        match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
+        user =" test"
+        if match :
+            user = match.group(1)  
+        user = user.replace("/","_")
+
 
 
         try:
@@ -233,25 +236,27 @@ def test(
                 url = _c["start_url"]
 
                 login = _c["require_login"]
-            
+                google_login = _c["google_login"]
 
 
             if "map" in _c.get("sites", []):
                 continue
             
             logger.info(f"[Config file]: {config_file}")
+            obs,info = env.reset(options= {"config_file":config_file})
 
+            time.sleep(20)
+            if  google_login :
+                initial_storage_state = env.get_all_storage_state()
 
+                login_with_google= env.create_account_with_google(url)
             
-            if login :
+            if  login :
                     logger.info("La tache  demande une authentification")
-                    print("je suis la moi aussi et toi tu es ou ??")
-                    obsA,infoA = env.reset(options={"config_file": config_file})
                     logger.info("Capturing initial storage state...")
                     intentA = "Authenticate : create an account on the website . "
-                    initial_storage_state = env.get_all_storage_state()
 
-                    trajectoryA ,meta_dataA, traceA = task_execution_command(obsA,infoA,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
+                    trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 
                     ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
                     response_textA = ormA.output[0].content[0].text
@@ -265,11 +270,10 @@ def test(
             logger.info(f"[Config_file]:{config_file}")
             logger.info(f"[Intent]: {intent}")
             agent.reset(config_file)
-            obs, info = env.reset(options={"config_file": config_file})
 
 
-            logger.info("Capturing initial storage state...")
-            initial_storage_state = env.get_all_storage_state()
+            if  not   login :
+                initial_storage_state = env.get_all_storage_state()
             trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
             orm = agent.verify_action(trajectory,intent,meta_data)
             response_text = orm.output[0].content[0].text
@@ -298,7 +302,7 @@ def test(
             
 
 
-            env.save_storage(initial_storage_state, diff_filepath)
+            env.save_storage(initial_storage_state, diff_filepath,url)
         except OpenAIError as e:
             logger.error(f"[OpenAI Error] {repr(e)}")
         except Exception as e:
@@ -363,11 +367,11 @@ if __name__ == "__main__":
 
     test_file_list = []
     config_dir = Path("config_files") / args.connected
-    
     if not config_dir.exists():
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
         for user in os.listdir(config_dir) :
+            print(user,"je suis l'utilisateur")
             if user == args.country :
                 for i in range(args.user_start_idx,args.user_end_idx):
 
@@ -376,24 +380,23 @@ if __name__ == "__main__":
                             if j % args.sample == 0:
                                 config_file = config_dir / user /formatted_id / f"{j}.json"   
                                 if config_file.exists():
-
+                                    
                                     test_file_list.append(str(config_file))
 
                                 if "debug" not in args.result_dir:
                                     test_file_list = get_unfinished(test_file_list, args.result_dir)
 
-                                if not test_file_list:
-                                        logger.info("No tasks left to run.")
-                                else:
-                                        logger.info(f"Total tasks to run: {len(test_file_list)}")
-                                        # Override args for test run
-                                        args.render = False
-                                        args.save_trace_enabled = True
-                                        args.current_viewport_only = True
+        if not test_file_list:
+            logger.info("No tasks left to run.")
+        else:
+            logger.info(f"Total tasks to run: {len(test_file_list)}")
+                     # Override args for test run
+            args.render = False
+            args.save_trace_enabled = True
+            args.current_viewport_only = True
                                         
-                                        dump_config(args)
-                                        agent = construct_agent(args)
-                                        file = f"{user}/{formatted_id}"
+            dump_config(args)
+            agent = construct_agent(args)
 
-                                        test(args, agent, test_file_list,file)
+            test(args, agent, test_file_list)
         
