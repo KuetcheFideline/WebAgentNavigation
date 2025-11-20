@@ -155,10 +155,15 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         cette fonction est utiliser pour configurer le navigateur en fonction de chaque utilsateur 
         '''
 
-        datadir =os.path.join(f"browser_env/profiles/{self.connect.lower()}/{self.consent}/{user}")
-        base= os.path.join("../Navigateur/unauth_all_config")
+        datadir =os.path.join(os.getcwd(),f"browser_env/profiles/{self.connect.lower()}/{self.consent}/{user}")
+
+        base= os.path.join( os.getcwd(),"Navigateur/unauth_all_config")
+
         if not os.path.exists(datadir):
+            os.makedirs(base, exist_ok=True)
+
             shutil.copytree(base,datadir)
+        
 
         return datadir            
         
@@ -204,9 +209,10 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 instance_config = json.load(f)
         else:
             instance_config = {}
-          
-        extension_path = os.path.abspath("./Navigateur/Extension/auth_all/3.38_0")
-        recaptcha_path= os.path.abspath("./Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.2_0")
+        
+
+        extension_path = os.path.join(os.getcwd(),"Navigateur/Extension/auth_all/3.38_0")
+        recaptcha_path= os.path.join(os.getcwd(),"Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.2_0")
        
         google_require = instance_config.get("google_login",False)
         path_to_load = f"{extension_path},{recaptcha_path}"
