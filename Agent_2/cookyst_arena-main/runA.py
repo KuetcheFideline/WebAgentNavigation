@@ -251,7 +251,8 @@ def test(
                 login_with_google= env.create_account_with_google(url)
             
             if  login :
-                    logger.info("La tache  demande une authentification")
+                    logger.info(
+                        "La tache  demande une authentification")
                     logger.info("Capturing initial storage state...")
                     intentA = "Authenticate : create an account on the website . "
 

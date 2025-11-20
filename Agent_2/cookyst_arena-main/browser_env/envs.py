@@ -206,9 +206,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             instance_config = {}
           
         extension_path = os.path.abspath("./Navigateur/Extension/auth_all/3.38_0")
-        recaptcha_path= os.path.abspath("./Navigateur/Extension/hlifkpholllijblknnmbfagnkjneagid/1.0.19_0")
-        print(extension_path,"€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€eeeee")
-        print(recaptcha_path)
+        recaptcha_path= os.path.abspath("./Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.2_0")
+       
         google_require = instance_config.get("google_login",False)
         path_to_load = f"{extension_path},{recaptcha_path}"
         args_commun = [
