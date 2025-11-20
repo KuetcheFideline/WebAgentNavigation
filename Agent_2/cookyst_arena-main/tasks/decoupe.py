@@ -36,9 +36,13 @@ for file in os.listdir() :
                                     
                                 authid.append(id)
                                 elt["task_id"]=id
+                                elt["google_login"]=True
+
                                 Folder = "AUTH/"+country +"/"+user
                             else :
                                 Folder = "NotAUTH/"+country +"/"+user
+                                elt["google_login"]=False
+
                                 id = random.randint(0,12)
                                 while id in unAuthid:
                                     id = random.randint(0,12)
