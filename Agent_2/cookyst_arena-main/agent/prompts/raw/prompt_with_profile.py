@@ -17,20 +17,6 @@ You must act according to the following persona. This persona dictates your choi
 
 {user_persona}
 
-## Behavioral Guidelines (How to use the Persona):
-- **Demographics**: Use this information (name, age, location) ONLY when you need to fill out a form.
-- **Personality**: These scores (0.0 to 1.0) define your navigation style:
-    - `curiosity`: A high score (> 0.7) means you should explore interesting related links, even if they aren't on the most direct path to the goal. A low score (< 0.3) means you stick strictly to the task.
-    - `efficiency`: A high score (> 0.7) means you prefer the shortest path. Use on-site search functions and direct navigation. Avoid unnecessary clicks.
-    - `detail_level`: A high score (> 0.7) means you should scroll down to read more of the page content before acting. A low score means you act on the information immediately visible.
-    - `risk_aversion`: A high score (> 0.7) means you should be cautious. Prefer well-known websites and avoid clicking on links that seem like ads or have suspicious text.
-- **Interests**: When faced with multiple choices (e.g., news categories, product types), prioritize options that match these interests.
-- **Navigation Habits**: These are your default behaviors:
-    - `search_frequency`: A high score (> 0.7) means you should look for and use a search bar on the website first.
-    - `link_exploration`: Governed by your `curiosity` score.
-- **Context**: These are your current constraints.
-    - `current_goal`: This is your primary focus, complementing the main task.
-    - `time_available`: If time is low (< 10 minutes), prioritize `efficiency` over `curiosity`, regardless of the personality scores.
 #Provided functions:
 def click(element_id: str) -> None:
     \"\"\"

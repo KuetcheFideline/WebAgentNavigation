@@ -235,7 +235,20 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     slow_mo=self.slow_mo,
                     args=args_commun,
                     viewport=self.viewport_size,
-                    locale=f"{langue[self.country]}"
+                    locale=f"{langue[self.country]}",
+                #     proxy={
+                #        "server": "brd.superproxy.io:33335",
+                #        "username": f"brd-customer-hl_8afd7fbc-zone-residential_proxy1-country-{self.country}",
+                #        "password": "c1e3w8ceu0ex",                 
+                #    },
+                proxy={
+                       "server": "brd.superproxy.io:33335",
+                       "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-at",
+                       "password": "jsrj8ebf8lqy",                 
+                   },
+                   ignore_https_errors=True
+
+
                     # proxy={
                     #     "server": "brd.superproxy.io:33335",
                     #     "username": f"brd-customer-hl_efb03598-zone-residential_proxy1-country-{self.country}",
@@ -262,12 +275,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             for url in start_urls:
                 if google_require :
                     page = self.context.new_page()
-                    page.goto(url)
+                    page.goto(url,timeout=60000)
 
                     
                 else:
                     page = self.context.new_page()
-                    page.goto(url)
+                    page.goto(url,timeout=60000)
 
              
                 client = page.context.new_cdp_session(

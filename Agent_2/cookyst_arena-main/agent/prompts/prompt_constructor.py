@@ -1005,12 +1005,10 @@ class NewUserPromptConstructor(PromptConstructor):
             Formate le dictionnaire user en une forme utilisable.
             """ 
 
-            print("######################################################################################")
             print(persona_data)
             if not persona_data:
                 return " no user"
             
-            print("######################################################################################")
 
             persona_str = []
 
@@ -1122,7 +1120,6 @@ class NewUserPromptConstructor(PromptConstructor):
             assert all([f"{{{k}}}" not in current for k in keywords])
 
             prompt = current + finale
-            print(prompt)
             return prompt
     
     def _extract_action(self, response: str) -> str:
