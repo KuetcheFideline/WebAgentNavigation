@@ -27,7 +27,7 @@ class AsyncScriptBrowserEnv(Env[npt.NDArray[np.uint8], Action]):
         max_page_length: int = 2048,
         headless: bool =False,
         slow_mo: int = 0,
-        timeout: int = 30000,
+        timeout: int = 60000,
         viewport_size: ViewportSize = {"width": 1280, "height": 720},
     ):
         self.observation_space = Box(

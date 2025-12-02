@@ -4,6 +4,7 @@ from transformers import AutoTokenizer, AutoModel
 from groq import Groq
 from llms.providers.hf_utils import (
     generate_from_huggingface_completion,
+    generate_from_huggingface_modal
 )
 import base64
 import os
@@ -16,6 +17,7 @@ from llms.providers.openai_utils import (
     generate_from_openai_completion,
     generate_from_openai_chat_completion,
     generate_from_openai_modal,
+    generate_gemini_modal,
 )
 
 
@@ -76,7 +78,7 @@ def call_banner(prompt):
 
     return response 
 
-def call_orm(prompt):
+def call_orm(prompt,urls):
 
 
     if "OPENAI_API_KEY" not in os.environ:
@@ -85,9 +87,9 @@ def call_orm(prompt):
             )
     openai.api_key = os.environ["OPENAI_API_KEY"]
     client = OpenAI()
-    image_path1 = os.path.join(os.getcwd(), 'output', 'marked1.png')
-    image_path2 = os.path.join(os.getcwd(), 'output', 'marked2.png')
-    image_path3 = os.path.join(os.getcwd(), 'output', 'marked3.png')
+    image_path1 = os.path.join(os.getcwd(), 'output', urls[0])
+    image_path2 = os.path.join(os.getcwd(), 'output', urls[1])
+    image_path3 = os.path.join(os.getcwd(), 'output', urls[2])
 
     response = client.responses.create(
         model="gpt-4.1",
@@ -126,6 +128,7 @@ def call_orm(prompt):
 def call_llm( 
     lm_config:LMConfig,
     prompt: APIInput,
+    url :str
 ) -> str:
     global model
     global tokenizer
@@ -163,21 +166,52 @@ def call_llm(
                 max_tokens=lm_config.gen_config["max_tokens"],
                 top_p=lm_config.gen_config["top_p"],
                 stop_token=lm_config.gen_config["stop_token"],
+                url =url
             )
         else:
             raise ValueError(
                 f"OpenAI models do not support mode {lm_config.mode}"
             )
+    elif lm_config.provider == "gemini" :
+        if lm_config.mode =="modal" :
+            response = generate_gemini_modal(
+                prompt=prompt,
+                model=lm_config.model,
+                temperature=lm_config.gen_config["temperature"],
+                max_tokens=lm_config.gen_config["max_tokens"],
+                top_p=lm_config.gen_config["top_p"],
+                stop_token=lm_config.gen_config["stop_token"],
+                url =url
+            )
+
+    
     elif lm_config.provider == "huggingface":
-        assert isinstance(prompt, str)
-        response = generate_from_huggingface_completion(
-            prompt=prompt,
-            model_endpoint=lm_config.gen_config["model_endpoint"],
-            temperature=lm_config.gen_config["temperature"],
-            top_p=lm_config.gen_config["top_p"],
-            stop_sequences=lm_config.gen_config["stop_sequences"],
-            max_new_tokens=lm_config.gen_config["max_new_tokens"],
-        )
+        if lm_config.mode=="modal" :
+
+            response = generate_from_huggingface_modal(
+
+                 prompt=prompt,
+                model_endpoint=lm_config.gen_config["model_endpoint"],
+                temperature=lm_config.gen_config["temperature"],
+                top_p=lm_config.gen_config["top_p"],
+                stop_sequences=lm_config.gen_config["stop_sequences"],
+                max_new_tokens=lm_config.gen_config["max_new_tokens"],
+                url =url
+
+            )
+
+        else :
+
+
+            assert isinstance(prompt, str)
+            response = generate_from_huggingface_completion(
+                prompt=prompt,
+                model_endpoint=lm_config.gen_config["model_endpoint"],
+                temperature=lm_config.gen_config["temperature"],
+                top_p=lm_config.gen_config["top_p"],
+                stop_sequences=lm_config.gen_config["stop_sequences"],
+                max_new_tokens=lm_config.gen_config["max_new_tokens"],
+            )
     elif lm_config.provider == "ours":
         # print(prompt)
         if lm_config.model == 'manual':

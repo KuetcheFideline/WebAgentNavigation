@@ -134,9 +134,8 @@ async def agenerate_from_openai_completion(
 
 
 
-
-def encode_image(image_path ="/output/marked1.png"):
-       image_path= os.path.join(os.getcwd(),image_path)
+def encode_image(url):
+       image_path= os.path.join(os.getcwd(),f"output/{url}")
        with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 
@@ -144,6 +143,7 @@ def encode_image(image_path ="/output/marked1.png"):
 def generate_from_openai_modal( 
     prompt: str,
     model: str,
+    url:str,
     temperature: float,
     max_tokens: int,
     top_p: float,
@@ -155,18 +155,18 @@ def generate_from_openai_modal(
         )
     openai.api_key = os.environ["OPENAI_API_KEY"]
 
-    image = encode_image()
+    image = encode_image(url)
     client = OpenAI()
 
     response = client.responses.create(
-    model="gpt-4.1",
+    model="gpt-5",
     input=[
         {
             "role": "user",
             "content": [
                 {
                     "type": "input_image",
-                    "image_url": f"data:image/jpeg;base64,{image}",
+                    "image_url": f"data:image/png;base64,{image}",
                 },
                 { "type": "input_text", "text": prompt},
                 
@@ -335,3 +335,8 @@ def fake_generate_from_openai_chat_completion(
     openai.organization = os.environ.get("OPENAI_ORGANIZATION", "")
     answer = "Let's think step-by-step. This page shows a list of links and buttons. There is a search box with the label 'Search query'. I will click on the search box to type the query. So the action I will perform is \"click [60]\"."
     return answer
+
+
+
+def generate_gemini_modal():
+    print("bb")

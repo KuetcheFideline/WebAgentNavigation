@@ -22,7 +22,7 @@ from playwright.sync_api import (
     expect,
     sync_playwright,
 )
-
+import uuid
 from .utils import diff_dictionaries
 from .auto_login_with_google import connect_to_browser_and_login
 from .actions import Action, execute_action, get_action_space
@@ -180,23 +180,28 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         Ici le navigateur est lancé, donc c'est la qu'on charge les config et les extensions
         """
         langue = {
-                'fr': 'fr-FR',
-                'en': 'en-GB',
-                'de': 'de-DE',
-                'es': 'es-ES',
-                'it': 'it-IT',
-                'nl': 'nl-NL',
-                'pt': 'pt-PT',
-                'pl': 'pl-PL',
-                'sv': 'sv-SE',
-                'da': 'da-DK',
-                'fi': 'fi-FI',
-                'cs': 'cs-CZ',
-                'sk': 'sk-SK',
-                'ro': 'ro-RO',
-                'bg': 'bg-BG',
-                'el': 'el-GR'
-            }
+    'fr': 'fr-FR',
+    'en': 'en-GB',
+    'de': 'de-DE',
+    'es': 'es-ES',
+    'it': 'it-IT',
+    'nl': 'nl-NL',
+    'pt': 'pt-PT',
+    'pl': 'pl-PL',
+    'sv': 'sv-SE',
+    'dk': 'da-DK',
+    'fi': 'fi-FI',
+    'cs': 'cs-CZ',
+    'sk': 'sk-SK',
+    'ro': 'ro-RO',
+    'bg': 'bg-BG',
+    'el': 'el-GR',
+    'at': 'de-AT',  
+    'ie': 'en-IE',  
+    'se': 'sv-SE',  
+    'lu': 'fr-LU', 
+}
+
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
         if match :
@@ -212,7 +217,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
 
         extension_path = os.path.join(os.getcwd(),"Navigateur/Extension/auth_all/3.38_0")
-        recaptcha_path= os.path.join(os.getcwd(),"Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.2_0")
+        recaptcha_path= os.path.join(os.getcwd(),"Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.3_0")
        
         google_require = instance_config.get("google_login",False)
         path_to_load = f"{extension_path},{recaptcha_path}"
@@ -231,12 +236,13 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     slow_mo=self.slow_mo,
                     args=args_commun,
                     viewport=self.viewport_size,
-                    locale=f"{langue[self.country]}"
-                    # proxy={
-                    #     "server": "brd.superproxy.io:33335",
-                    #     "username": f"brd-customer-hl_efb03598-zone-residential_proxy1-country-{self.country}",
-                    #     "password": "gwynyg0rp09g",
-                    # },
+                    locale=f"{langue[self.country]}",
+                #     proxy={
+                #        "server": "brd.superproxy.io:33335",
+                #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-es",
+                #        "password": "jsrj8ebf8lqy",                 
+                #    },
+
                 )
 
         storage_state = instance_config.get("storage_state", None)
@@ -263,7 +269,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     
                 else:
                     page = self.context.new_page()
-                    page.goto(url)
+                    page.goto(url,timeout=70000)
 
              
                 client = page.context.new_cdp_session(
@@ -349,7 +355,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
            
         images = self.modify_page()
 
-
         observation = self._get_obs()
         
 
@@ -358,6 +363,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "page": DetachedPage(self.page.url, ""),
             "fail_error": "",
             "observation_metadata": observation_metadata,
+            "name":images["name"],
         } 
 
  
@@ -396,6 +402,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             time.sleep(self.sleep_after_execution)
 
         images = self.modify_page()
+
         
         observation = self._get_obs()
         observation_metadata = self._get_obs_metadata()
@@ -404,6 +411,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "page": DetachedPage(self.page.url, self.page.content()),
             "fail_error": fail_error,
             "observation_metadata": observation_metadata,
+            "name":images["name"],
+            
         }
         
         msg = (
@@ -415,39 +424,21 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         )
         return msg
 
-    def remove_image(self,path):
-        files = os.listdir(path)
-        
-        marked_files = [file for file in files if file.startswith('marked')]
-        
-        if len(marked_files) == 3:
-            if "marked3.png" in marked_files:
-                os.remove(os.path.join(path, "marked3.png"))
-            
-            if "marked2.png" in marked_files:
-                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
-            
-            if "marked1.png" in marked_files:
-                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
-            
-        
-        elif len(marked_files) == 2:
-            if "marked2.png" in marked_files:
-                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
-            
-            if "marked1.png" in marked_files:
-                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
-            
-        
-        elif len(marked_files) == 1:
-            if "marked1.png" in marked_files:
-                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
-        else :
-            pass
-        
-        print("bonjour")
 
-        return "marked1.png"
+    def remove_image(self, path):
+        # Liste tous les fichiers dans le répertoire spécifié
+        files = os.listdir(path)
+
+        # Filtre les fichiers qui commencent par 'marked'
+        marked_files = [file for file in files if file.startswith('marked')]
+
+        # Supprime tous les fichiers commençant par 'marked'
+        for file in marked_files:
+            os.remove(os.path.join(path, file))
+
+        print("Tous les fichiers 'marked' ont été supprimés.")
+        
+        return "Tous les fichiers 'marked' ont été supprimés."
 
 
 
@@ -483,10 +474,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
         # mark our own labels and get the images
         items = self.page.evaluate(label_marker_script, items)
-        path = self.remove_image("output/")
+        self.remove_image("output/")
 
+        unique_name = f"marked_{uuid.uuid4().hex}.png"
+        img_bytes = self.page.screenshot(path=f"output/{unique_name}")
 
-        img_bytes = self.page.screenshot(path="output/marked1.png")
+        img_bytes = self.page.screenshot(path=unique_name)
 
         marked_image = base64.b64encode(img_bytes).decode()
         
@@ -495,6 +488,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         return {
             "raw_image": raw_image,
             "marked_image": marked_image,
+            "name" :unique_name
         }
    
 
@@ -556,6 +550,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "sessionStorage": session_storage_diff,
         }
         file = Path(file)
+        print("erreor")
         file.parent.mkdir(parents=True, exist_ok=True)
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(diff_report, f, indent=4, default=getattr(self, 'json_serializer', str))

@@ -125,6 +125,8 @@ class PromptAgent(Agent):
     def next_action(
         self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any] ,url :str
     ) -> Action:
+    
+        
         prompt = self.prompt_constructor.construct(
             trajectory, intent, meta_data
         )
@@ -132,8 +134,8 @@ class PromptAgent(Agent):
         n = 0
         while True:
 
-            response = call_llm(lm_config, prompt)
-
+            response =call_llm(lm_config, prompt,trajectory[-1]["info"]["name"])
+            
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"
             ].get("force_prefix", "")
@@ -284,16 +286,21 @@ class PromptAgent(Agent):
         return prompt, action
     
     def reset(self, test_config_file: str) -> None:
-        print("je ne sers a rien pour l'instant")
         pass
      
    
     def verify_action(   self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
     ) ->str:
+        valid_items = [traj for traj in trajectory if isinstance(traj, dict) and "info" in traj and "name" in traj["info"]]
+
+        last_three_names = [traj["info"]["name"] for traj in valid_items[-3:]]
+
+        
+        
         prompt = self.prompt_constructor.ORM(
             trajectory, intent, meta_data
         )
-        response =  call_orm (prompt)  
+        response =  call_orm (prompt,last_three_names)  
 
         return response 
 

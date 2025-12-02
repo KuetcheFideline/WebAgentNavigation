@@ -1,19 +1,22 @@
 from typing import Any
 
 import tiktoken
-from transformers import LlamaTokenizer  # type: ignore
+from transformers import LlamaTokenizer,AutoTokenizer # type: ignore
 
 
 class Tokenizer(object):
     def __init__(self, provider: str, model_name: str) -> None:
         if provider == "openai":
             self.tokenizer = tiktoken.encoding_for_model(model_name)
+        elif provider =="gemini":
+            self.tokenizer = tiktoken.encoding_for_model(model_name)
+
         elif provider == "huggingface":
-            self.tokenizer = LlamaTokenizer.from_pretrained(model_name)
-            # turn off adding special tokens automatically
+            self.tokenizer = AutoTokenizer.from_pretrained("microsoft/Fara-7B", trust_remote_code=True)
             self.tokenizer.add_special_tokens = False  # type: ignore[attr-defined]
             self.tokenizer.add_bos_token = False  # type: ignore[attr-defined]
             self.tokenizer.add_eos_token = False  # type: ignore[attr-defined]
+            print('je ne passe pas ')
         elif provider == "ours":
             self.tokenizer = tiktoken.encoding_for_model("gpt-4")
         elif provider == "groq":

@@ -10,6 +10,7 @@ import tempfile
 import time
 from pathlib import Path
 
+import traceback
 from openai import OpenAIError
 from tqdm import tqdm
 
@@ -55,7 +56,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="accessibility_tree", help="Observation type")
     parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
     parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
-    parser.add_argument("--connected", type=str, default="Auth", help="Authentication status folder")
+    parser.add_argument("--connected", type=str, default="NotAuth", help="Authentication status folder")
     parser.add_argument("--viewport_width", type=int, default=1920)
     parser.add_argument("--viewport_height", type=int, default=1080)
     parser.add_argument("--save_trace_enabled", action="store_true")
@@ -64,7 +65,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
     parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
-    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK'],default='FR')
+    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK','AT','IE','SE','LU'],default='FR')
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -89,11 +90,11 @@ def config() -> argparse.Namespace:
 
 
     # Example config
-    parser.add_argument("--user_start_idx",type= int ,default=0000)
-    parser.add_argument("--user_end_idx",type= int ,default=12)
+    parser.add_argument("--user_start_idx",type= int ,default=249)
+    parser.add_argument("--user_end_idx",type= int ,default=250)
 
-    parser.add_argument("--test_start_idx", type=int, default=0)
-    parser.add_argument("--test_end_idx", type=int, default=1000)
+    parser.add_argument("--test_start_idx", type=int, default=9)
+    parser.add_argument("--test_end_idx", type=int, default=10)
     parser.add_argument("--sample", type=int, default=1)
     
     # Logging related
@@ -150,7 +151,10 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                     
                 else:
                     try:
+                        print("lunenendeeeeeeeeeeeeeeeeeeeee")
                         prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
+
+                        print("je cherche l'erreur ")
                         action = agent.next_action(trajectory, intent, meta_data=meta_data,url=url)
                     except ValueError as e:
                         logger.error(f"Error during agent action generation: {e}")
@@ -167,8 +171,10 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
 
                 
                 meta_data["action_history"].append(action_str)
+                print("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
                 trace.append({
                     "source": prompt,
+                    "image":trajectory[-2]["info"]["name"],
                     "target": action_str.split(' #HTML Segment')[0],
                 })
 
@@ -193,11 +199,17 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
 
 
 
-def test(
-    args: argparse.Namespace,
-    agent: Agent | PromptAgent | TeacherForcingAgent,
-    config_file_list: list[str],
-) -> None:
+def save_storage_state(env, initial_storage_state, diff_filepath, url):
+    try:
+        if initial_storage_state:
+            env.save_storage(initial_storage_state, diff_filepath, url)
+    except Exception as storage_error:
+        logger.error(f"[Storage Save Error] {repr(storage_error)}")
+
+def create_directory(path: Path):
+    path.mkdir(parents=True, exist_ok=True)
+
+def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAgent, config_file_list: list[str]) -> None:
     max_steps = args.max_steps
     early_stop_thresholds = {
         "parsing_failure": args.parsing_failure_th,
@@ -218,16 +230,19 @@ def test(
         country=args.country.lower()
     )
 
-
     for config_file in tqdm(config_file_list):
-        match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
-        user =" test"
-        if match :
+        match = re.search(r'/([A-Za-z]{2}/\d{4})', str(config_file))
+        user = "test"
+        if match:
             user = match.group(1)  
-        user = user.replace("/","_")
+        user = user.replace("/", "_")
 
+        traces_dir = Path(args.result_dir) / user / "traces" / args.connected / args.consent
+        create_directory(traces_dir)
 
-
+        storage_dir = Path(args.result_dir) / user / "storage_state" / args.connected / args.consent
+        create_directory(storage_dir)
+        
         try:
             with open(config_file) as f:
                 _c = json.load(f)
@@ -237,86 +252,70 @@ def test(
 
                 login = _c["require_login"]
                 google_login = _c["google_login"]
-
-
+            
+            diff_filepath = storage_dir / f"{task_id}.json"
+            
             if "map" in _c.get("sites", []):
                 continue
-            
+
             logger.info(f"[Config file]: {config_file}")
-            obs,info = env.reset(options= {"config_file":config_file})
+            obs, info = env.reset(options={"config_file": config_file})
 
-            if  google_login :
+            if google_login:
                 initial_storage_state = env.get_all_storage_state()
-
-                login_with_google= env.create_account_with_google(url)
+                login_with_google = env.create_account_with_google(url)
             
-            if  login :
-                    logger.info(
-                        "La tache  demande une authentification")
-                    logger.info("Capturing initial storage state...")
-                    intentA = "Authenticate : create an account on the website . "
+            if login:
+                logger.info("La tâche demande une authentification")
+                logger.info("Capturing initial storage state...")
+                intentA = "Authenticate: create an account on the website."
+                trajectoryA, meta_dataA, traceA = task_execution_command(obs, info, intentA, max_steps, early_stop_thresholds, env, agent, url, user)
+                ormA = agent.verify_action(trajectoryA, intentA, meta_dataA)
+                response_textA = ormA.output[0].content[0].text
+                resultA = {"id": task_id, "trace": traceA, "verdict": response_textA}
+                
+                tracesA_dir = Path(args.result_dir) / user / "tracesA" / args.connected / args.consent
+                create_directory(tracesA_dir)
+                
+                with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
+                    json.dump({"id": task_id, "trace": resultA}, f, indent=4)
 
-                    trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
-
-                    ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
-                    response_textA = ormA.output[0].content[0].text
-                    resultA = {"id": task_id, "trace": traceA,"verdict" :response_textA }
-                    tracesA_dir = Path(args.result_dir) /user / "tracesA" / args.connected / args.consent
-                    tracesA_dir.mkdir(parents=True, exist_ok=True)
-                    with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
-                        json.dump({"id": task_id, "trace": resultA}, f, indent=4)
             logger.info("Starting main task execution...")
-
-            logger.info(f"[Config_file]:{config_file}")
+            logger.info(f"[Config_file]: {config_file}")
             logger.info(f"[Intent]: {intent}")
             agent.reset(config_file)
 
-
-            if  not   login :
+            if not login:
                 initial_storage_state = env.get_all_storage_state()
-            trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
-            orm = agent.verify_action(trajectory,intent,meta_data)
-            response_text = orm.output[0].content[0].text
-            result = {"id": task_id, "trace": trace,"verdict" :response_text }
-            storage_dir = Path(args.result_dir) / user /"storage_state" / args.connected / args.consent
-            diff_filepath = storage_dir / f"{task_id}.json"
 
+            trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
+            result = {"id": task_id, "trace": trace}
 
-
-            traces_dir = Path(args.result_dir)/user / "traces" / args.connected / args.consent
-
-            traces_dir.mkdir(parents=True, exist_ok=True)
-            
-            
-
-
+            create_directory(traces_dir)
             with open(traces_dir / f"trace_{task_id}.json", "w") as f:
                 json.dump(result, f, indent=4)
 
-            fileO = os.getcwd()
-
-            output_dir = Path(fileO) / "output"
+            # Clean output directory
+            output_dir = Path(os.getcwd()) / "output"
             for file_path in output_dir.iterdir():
                 if file_path.is_file():
-                    file_path.unlink()  
-            
+                    file_path.unlink()
 
+            save_storage_state(env, initial_storage_state, diff_filepath, url)
 
-            env.save_storage(initial_storage_state, diff_filepath,url)
         except OpenAIError as e:
             logger.error(f"[OpenAI Error] {repr(e)}")
+            save_storage_state(env, initial_storage_state, diff_filepath, url)
         except Exception as e:
             logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")
-            import traceback
             error_file = Path(args.result_dir) / "error.txt"
             with open(error_file, "a") as f:
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
                 f.write(traceback.format_exc() + "\n\n")
-        
+            save_storage_state(env, initial_storage_state, diff_filepath, url)
 
     env.close()
-
 
 def prepare(args: argparse.Namespace) -> None:
     """Prepare environment for the test"""
@@ -371,7 +370,7 @@ if __name__ == "__main__":
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
         for user in os.listdir(config_dir) :
-            print(user,"je suis l'utilisateur")
+            print(user)
             if user == args.country :
                 for i in range(args.user_start_idx,args.user_end_idx):
 
