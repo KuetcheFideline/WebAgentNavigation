@@ -166,9 +166,10 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
 
         return datadir            
-        
+    
     def create_account_with_google(self,start_url):
         page = connect_to_browser_and_login(self.browser,login_url=start_url)
+        return page
 
 
 
@@ -241,12 +242,17 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 #        "username": f"brd-customer-hl_8afd7fbc-zone-residential_proxy1-country-{self.country}",
                 #        "password": "c1e3w8ceu0ex",                 
                 #    },
+                # proxy={
+                #        "server": "brd.superproxy.io:33335",
+                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy2-ip-178.171.21.125",
+                #        "password": "jr76tw4smz2h",                 
+                #    }
                 proxy={
                        "server": "brd.superproxy.io:33335",
-                       "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-at",
-                       "password": "jsrj8ebf8lqy",                 
-                   },
-                   ignore_https_errors=True
+                       "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
+                       "password": "m63x39pd1ef5",                 
+                   }
+                #    ignore_https_errors=True
 
 
                     # proxy={
@@ -462,7 +468,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         else :
             pass
         
-        print("bonjour")
+        # print("bonjour")
 
         return "marked1.png"
 

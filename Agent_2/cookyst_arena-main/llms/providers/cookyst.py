@@ -2,10 +2,13 @@
 from ..apikey_manager import with_api_key,   APIKeyManager
 from typing import Callable
 import requests
+import os
 
 keys = [
-    "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",
-    "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",
+    # "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",
+    # "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",
+    os.environ["GROQ_API_KEY"]
+    
 ]
 
 api_manager =APIKeyManager(
@@ -24,7 +27,12 @@ def call_grop_llama(prompt,model, *, api_key: str):
     # client = model(api_key = "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")
     completion = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
-    messages=[
+    messages=[keys = [
+    # "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",
+    # "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",
+    os.environ["GROQ_API_KEY"]
+    
+]
         {
             "role": "user",
             "content": f"{prompt}"

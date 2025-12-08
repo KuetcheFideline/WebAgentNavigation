@@ -70,7 +70,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--agent_type", type=str, default="prompt")
     parser.add_argument("--instruction_path", type=str, default="agents/prompts/state_action_agent.json")
     parser.add_argument("--parsing_failure_th", help="Consecutive parsing failure threshold", type=int, default=3)
-    parser.add_argument("--repeating_action_failure_th", help="Consecutive repeating action threshold", type=int, default=3)
+    parser.add_argument("--repeating_action_failure_th", help="Consecutive repeating action threshold", type=int, default=5)
     
     # LM config
     parser.add_argument("--provider", type=str, default="groq")
@@ -191,6 +191,12 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                     break
     return trajectory ,meta_data , trace
 
+def save_storage_state(env, initial_storage_state, diff_filepath, url):
+    try:
+        if initial_storage_state:
+            env.save_storage(initial_storage_state, diff_filepath, url)
+    except Exception as storage_error:
+        logger.error(f"[Storage Save Error] {repr(storage_error)}")
 
 
 def test(
@@ -220,6 +226,7 @@ def test(
 
 
     for config_file in tqdm(config_file_list):
+        initial_storage_state = None
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
         if match :
@@ -237,6 +244,7 @@ def test(
 
                 login = _c["require_login"]
                 google_login = _c["google_login"]
+                classic_login = False
 
 
             if "map" in _c.get("sites", []):
@@ -249,8 +257,13 @@ def test(
                 initial_storage_state = env.get_all_storage_state()
 
                 login_with_google= env.create_account_with_google(url)
+                
+                if isinstance(login_with_google,dict) :
+                    classic_login = True
+                else :
+                    page = login_with_google                
             
-            if  login :
+            if  classic_login :
                     logger.info(
                         "La tache  demande une authentification")
                     logger.info("Capturing initial storage state...")
@@ -258,9 +271,9 @@ def test(
 
                     trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 
-                    ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
-                    response_textA = ormA.output[0].content[0].text
-                    resultA = {"id": task_id, "trace": traceA,"verdict" :response_textA }
+                    # ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
+                    # response_textA = ormA.output[0].content[0].text,,"verdict" :response_textA 
+                    resultA = {"id": task_id, "trace": traceA}
                     tracesA_dir = Path(args.result_dir) /user / "tracesA" / args.connected / args.consent
                     tracesA_dir.mkdir(parents=True, exist_ok=True)
                     with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
@@ -275,9 +288,9 @@ def test(
             if  not   login :
                 initial_storage_state = env.get_all_storage_state()
             trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
-            orm = agent.verify_action(trajectory,intent,meta_data)
-            response_text = orm.output[0].content[0].text
-            result = {"id": task_id, "trace": trace,"verdict" :response_text }
+            # orm = agent.verify_action(trajectory,intent,meta_data)
+            # response_text = orm.output[0].content[0].text,"verdict" :response_text 
+            result = {"id": task_id, "trace": trace}
             storage_dir = Path(args.result_dir) / user /"storage_state" / args.connected / args.consent
             diff_filepath = storage_dir / f"{task_id}.json"
 
@@ -313,6 +326,9 @@ def test(
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
                 f.write(traceback.format_exc() + "\n\n")
+            if initial_storage_state is not None:
+                save_storage_state(env, initial_storage_state, diff_filepath, url)
+
         
 
     env.close()

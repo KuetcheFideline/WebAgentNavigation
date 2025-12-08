@@ -259,11 +259,11 @@ def connect_to_browser_and_login(browser, login_url: str):
     page.wait_for_load_state('domcontentloaded')
     #content_h = page.content()
     content_h = get_viewport_html(page=page, client=client, viewport_size=viewport_size)
-    print("je suis de ce cote ma ")
+    # print("je suis de ce cote ma ")
 
     
     simplified_home = simplify_content(content=content_h)
-    print("je suis de ce cote ma ")
+    # print("je suis de ce cote ma ")
 
     content_logger.info(f" LLM1 Content URL: {page.url} \n : {simplified_home}")
 
@@ -350,7 +350,8 @@ def connect_to_browser_and_login(browser, login_url: str):
             locator_logger.info(f"Échec de la localisation - pas de bouton Google trouvé après timeout - URL: {page.url}")
         else:
             nogoogle_logger.info(f"Échec de la localisation - l'LLM a confirmé l'absence de bouton Google - URL: {page.url}")
-        pass
+        # pass
+        return {'action':'no_google_button'}
 
     else:
         locator_logger.info("Élément de connexion Google détecté directement sur la page.")
