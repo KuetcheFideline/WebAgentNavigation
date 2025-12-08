@@ -168,7 +168,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         return datadir            
         
     def create_account_with_google(self,start_url):
-                page = connect_to_browser_and_login(self.browser,login_url=start_url)
+        page = connect_to_browser_and_login(self.browser,login_url=start_url)
+        return page
+            
 
 
 
@@ -195,7 +197,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 'sk': 'sk-SK',
                 'ro': 'ro-RO',
                 'bg': 'bg-BG',
-                'el': 'el-GR'
+                'el': 'el-GR',
+                'at': 'de-AT',
+                'ie': 'en-IE',
+                'lu': 'fr-LU',
+                'se': 'sv-SE',
+                'be': 'nl-BE',
             }
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
@@ -219,14 +226,14 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         args_commun = [
             '--disable-blink-features=AutomationControlled',
             '--start-maximized',
-            '--no-sandbox',
+             '--no-sandbox',
             f"--disable-extensions-except={path_to_load}",
                 f"--load-extension={path_to_load}",
                 "--no-sandbox",
                 "--start-maximized",
             ]
         self.browser = self.playwright.chromium.launch_persistent_context(
-                    user_data_dir=userDataDir,
+                    user_data_dir="/tmp/pw/text",
                     headless=False,
                     slow_mo=self.slow_mo,
                     args=args_commun,

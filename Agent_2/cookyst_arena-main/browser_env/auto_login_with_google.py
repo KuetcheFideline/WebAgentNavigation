@@ -350,8 +350,8 @@ def connect_to_browser_and_login(browser, login_url: str):
             locator_logger.info(f"Échec de la localisation - pas de bouton Google trouvé après timeout - URL: {page.url}")
         else:
             nogoogle_logger.info(f"Échec de la localisation - l'LLM a confirmé l'absence de bouton Google - URL: {page.url}")
-        pass
-
+        # pass
+        return {'action':'no_google_button'}
     else:
         locator_logger.info("Élément de connexion Google détecté directement sur la page.")
         try:

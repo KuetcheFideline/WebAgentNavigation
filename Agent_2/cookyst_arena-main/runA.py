@@ -64,7 +64,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
     parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
-    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK'],default='FR')
+    parser.add_argument("--country", type=str,choices=['BE','FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK','AT','IE','SE','LU'],default='FR')
     
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -218,7 +218,7 @@ def test(
         country=args.country.lower()
     )
 
-
+    
     for config_file in tqdm(config_file_list):
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
@@ -237,7 +237,7 @@ def test(
 
                 login = _c["require_login"]
                 google_login = _c["google_login"]
-
+                classic_login = False
 
             if "map" in _c.get("sites", []):
                 continue
@@ -249,8 +249,13 @@ def test(
                 initial_storage_state = env.get_all_storage_state()
 
                 login_with_google= env.create_account_with_google(url)
-            
-            if  login :
+                
+                if isinstance(login_with_google,dict) :
+                    classic_login = True
+                else :
+                    page = login_with_google
+            if  classic_login :
+                    print("Je suis dans la connexion classique")
                     logger.info(
                         "La tache  demande une authentification")
                     logger.info("Capturing initial storage state...")
@@ -258,9 +263,9 @@ def test(
 
                     trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 
-                    ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
-                    response_textA = ormA.output[0].content[0].text
-                    resultA = {"id": task_id, "trace": traceA,"verdict" :response_textA }
+                    # ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
+                    # response_textA = ormA.output[0].content[0].text
+                    resultA = {"id": task_id, "trace": traceA}
                     tracesA_dir = Path(args.result_dir) /user / "tracesA" / args.connected / args.consent
                     tracesA_dir.mkdir(parents=True, exist_ok=True)
                     with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
@@ -275,9 +280,9 @@ def test(
             if  not   login :
                 initial_storage_state = env.get_all_storage_state()
             trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
-            orm = agent.verify_action(trajectory,intent,meta_data)
-            response_text = orm.output[0].content[0].text
-            result = {"id": task_id, "trace": trace,"verdict" :response_text }
+            # orm = agent.verify_action(trajectory,intent,meta_data)
+            # response_text = orm.output[0].content[0].text
+            result = {"id": task_id, "trace": trace }
             storage_dir = Path(args.result_dir) / user /"storage_state" / args.connected / args.consent
             diff_filepath = storage_dir / f"{task_id}.json"
 
@@ -371,7 +376,7 @@ if __name__ == "__main__":
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
         for user in os.listdir(config_dir) :
-            print(user,"je suis l'utilisateur")
+            # print(user,"je suis l'utilisateur")
             if user == args.country :
                 for i in range(args.user_start_idx,args.user_end_idx):
 
