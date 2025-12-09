@@ -227,6 +227,7 @@ def test(
 
     for config_file in tqdm(config_file_list):
         initial_storage_state = None
+        diff_filepath = None
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
         if match :
@@ -253,11 +254,22 @@ def test(
             logger.info(f"[Config file]: {config_file}")
             obs,info = env.reset(options= {"config_file":config_file})
             print(f"Environment reset test.{env}")
+
             if  google_login :
+
+                user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
+                email = user_profile["email"]
+                password = user_profile["password"]
+                print(email)
+                print(password)
+
                 initial_storage_state = env.get_all_storage_state()
 
-                login_with_google= env.create_account_with_google(url)
+                login_with_google= env.create_account_with_google(url,email,password)
                 
+                if isinstance(login_with_google,bool):
+                    continue
+
                 if isinstance(login_with_google,dict) :
                     classic_login = True
                 else :
@@ -278,6 +290,7 @@ def test(
                     tracesA_dir.mkdir(parents=True, exist_ok=True)
                     with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
                         json.dump({"id": task_id, "trace": resultA}, f, indent=4)
+
             logger.info("Starting main task execution...")
 
             logger.info(f"[Config_file]:{config_file}")
@@ -326,7 +339,7 @@ def test(
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
                 f.write(traceback.format_exc() + "\n\n")
-            if initial_storage_state is not None:
+            if initial_storage_state is not None and diff_filepath is not None:
                 save_storage_state(env, initial_storage_state, diff_filepath, url)
 
         

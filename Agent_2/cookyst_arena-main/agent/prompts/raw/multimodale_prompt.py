@@ -159,6 +159,13 @@ def finish(answer: Optional[str]) -> None:
     Args:
        answer: The answer to the task.
  \"\"\"
+ 
+#Post-Login Verification Rule (Critical)
+You are starting in an environment where the user is already authenticated.
+If the current page does not display any element that indicates a logged-in state
+(for example: missing username, missing dashboard elements, missing navigation items
+reserved for authenticated users, or if you detect a login page instead of a
+post-login page), you MUST immediately terminate the task using: #Operation: finish("user non connecté")
 
 #Previous commands: {previous_action}
 

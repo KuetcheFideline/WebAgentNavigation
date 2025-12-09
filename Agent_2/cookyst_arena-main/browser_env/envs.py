@@ -167,8 +167,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
         return datadir            
     
-    def create_account_with_google(self,start_url):
-        page = connect_to_browser_and_login(self.browser,login_url=start_url)
+    def create_account_with_google(self,start_url,email,password):
+        page = connect_to_browser_and_login(self.browser,login_url=start_url,email=email,password=password)
         return page
 
 
@@ -247,11 +247,14 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy2-ip-178.171.21.125",
                 #        "password": "jr76tw4smz2h",                 
                 #    }
-                proxy={
-                       "server": "brd.superproxy.io:33335",
-                       "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
-                       "password": "m63x39pd1ef5",                 
-                   }
+
+                # -----------------------------------------actual proxy --------------
+                # proxy={
+                #        "server": "brd.superproxy.io:33335",
+                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
+                #        "password": "m63x39pd1ef5",                 
+                #    }
+                # ---------------------------------------------------------------------
                 #    ignore_https_errors=True
 
 
@@ -265,6 +268,49 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
         self.context = self.browser
+
+        # --- SAFE INIT SCRIPTS ---
+
+        # 1. Nettoyage des traces internes de Playwright (totalement safe)
+        
+        self.context.add_init_script("""
+            (function() {
+                const blocked = ["playwright", "__pw"];
+                for (const key of Object.getOwnPropertyNames(window)) {
+                    if (blocked.some(b => key.toLowerCase().includes(b.toLowerCase()))) {
+                        try { delete window[key]; } catch {}
+                    }
+                }
+            })();
+        """)
+
+        # 2. Neutralisation propre du champ webdriver (standard dans tous les tests Selenium/Playwright)
+        self.context.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined,
+            });
+        """)
+
+        self.context.add_init_script("""
+            if (!window.navigator.chrome) {
+                window.navigator.chrome = { runtime: {} };
+            }
+        """)
+        # self.context.add_init_script("""
+        #     Object.defineProperty(window, 'devicePixelRatio', {
+        #         get: () => 1.0
+        #     });
+        # """)
+
+    
+
+        # 5. Plugins minimalistes mais non falsifiés (on évite les faux plugins)
+        self.context.add_init_script("""
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => [],
+            });
+        """)
+
             # for page in self.context.pages:
             #     try:
             #         page.close()
