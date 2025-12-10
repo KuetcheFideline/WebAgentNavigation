@@ -171,7 +171,6 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
 
                 
                 meta_data["action_history"].append(action_str)
-                print("eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee")
                 trace.append({
                     "source": prompt,
                     "image":trajectory[-2]["info"]["name"],
