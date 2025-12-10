@@ -2,10 +2,13 @@
 from ..apikey_manager import with_api_key,   APIKeyManager
 from typing import Callable
 import requests
+import os
 
 keys = [
-    "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",
-    "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",
+    # "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",
+    # "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",
+    os.environ["GROQ_API_KEY"]
+    
 ]
 
 api_manager =APIKeyManager(

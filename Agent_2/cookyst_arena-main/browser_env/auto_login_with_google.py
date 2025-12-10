@@ -57,7 +57,7 @@ def login_google_page(page: Page, email: str, password: str) -> None:
         page.fill('input[name="Passwd"]', password)
         page.click('#passwordNext')
         sleep(5)
-        page.locator('button:has-text("Continuer")').click()
+        page.locator('button:has-text("Suivant")').click()
     except Exception as error:
         print(f'Error during login process: {error}')
 
@@ -71,64 +71,106 @@ def login_google_popup(popup: Page, email: str, password: str) -> None:
         popup.fill('input[name="Passwd"]', password)
         popup.click('#passwordNext')
         sleep(5)
-        popup.locator('button:has-text("Continuer")').click()
+        popup.locator('button:has-text("Suivant")').click()
     except Exception as error:
         print(f'Error during login process in popup: {error}')
 
 
-def login_existing_account_page(page: Page) -> None:
+def login_existing_account_page(page: Page,email:str,password:str) -> None:
+    labels = ["Suivant", "Next", "Continue"]
+
     try:
-        page.locator('li:has-text("jeanclaudetagnedonfack@gmail.com")').first.click()
+        page.locator('li:has-text("chris.martin.gdpr@gmail.com")').first.click()
         sleep(5)
         password_input = page.locator('input[type="password"][name="Passwd"]')
         if password_input.is_visible():
-            password_input.fill("Jc1999!cm")
+            password_input.fill(password)
             sleep(1)
-            next_button = page.locator('button:has-text("Suivant")') or page.locator('button:has-text("Next")')
+            next_button = None
+            for label in labels:
+                loc = page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    next_button = loc
+                    break
+
+
+
             if next_button.is_visible():
                 next_button.click()
                 sleep(5)
-                continue_button = page.locator('button:has-text("Continue")')
-                if continue_button.is_visible():
-                    continue_button.click()
-                    sleep(3)
+            continue_button = None
+            for label in labels:
+                loc = page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    continue_button = loc
+                    break
+
+            if continue_button:
+                continue_button.click()
+                sleep(3)
 
 
         else:
             print("not visible")
-            continue_button = page.locator('button:has-text("Continue")')
-            if continue_button.is_visible():
+            continue_button = None
+            for label in labels:
+                loc = page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    continue_button = loc
+                    break
+
+            if continue_button:
                 continue_button.click()
                 sleep(3)
     except Exception as error:
         print(f'Error during login process: {error}')
 
 
-def login_existing_account_popup(popup: Page) -> None:
+def login_existing_account_popup(popup: Page,email:str,password:str) -> None:
+    labels = ["Suivant", "Next", "Continue"]
+
     try:
-        popup.locator('li:has-text("jeanclaudetagnedonfack@gmail.com")').first.click()
+        
+        popup.locator('li:has-text("chris.martin.gdpr@gmail.com")').first.click()
+        print(email)
         sleep(5)
         password_input = popup.locator('input[type="password"][name="Passwd"]')
         if password_input.is_visible():
-            password_input.fill("Jc1999!cm")
+            password_input.fill(password)
             sleep(1)
-            next_button = popup.locator('button:has-text("Suivant")') or popup.locator('button:has-text("Next")')
+            next_button = None
+            for label in labels:
+                loc = popup.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    next_button = loc
+                    break
             if next_button.is_visible():
                 next_button.click()
                 sleep(5)
-                continue_button = popup.locator('button:has-text("Continue")')
-                if continue_button.is_visible():
-                    continue_button.click()
-                    sleep(3)
+            continue_button = None
+            for label in labels:
+                loc = popup.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    continue_button = loc
+                    break
 
+            if continue_button:
+                continue_button.click()
+                sleep(3)
 
 
         else:
             print("not visible")
-            continue_button = popup.locator('button:has-text("Continue")')
-            if continue_button.is_visible():
+            continue_button = None
+            for label in labels:
+                loc = popup.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    continue_button = loc
+                    break
+
+            if continue_button:
                 continue_button.click()
-                sleep(3)
+                sleep(5)
     except Exception as error:
         print(f'Error during login process: {error}')
 
@@ -175,7 +217,7 @@ def find_google_login_elements(page: Page) -> List[Dict]:
 
     return matching_elements
 
-def try_google_login_elements(page:Page,locator:Locator,tag_name):
+def try_google_login_elements(page:Page,locator:Locator,tag_name,email:str,password:str):
     from time import sleep
     target_element = locator
     if target_element:
@@ -185,19 +227,19 @@ def try_google_login_elements(page:Page,locator:Locator,tag_name):
                 with page.context.expect_page() as popup_info:
                     target_element.click()
                 popup = popup_info.value
-                login_existing_account_popup(popup)
+                login_existing_account_popup(popup,email=email,password=password)
                 sleep(5)
                 google_logger.info(f"Successful sign-in - URL: {page.url}")
                 return True
             except:
-                login_existing_account_page(page)
+                login_existing_account_page(page,email=email,password=password)
                 sleep(5)
                 google_logger.info(f"Successful sign-in - URL: {page.url}")
                 return True
         else:
             target_element.click()
             page.wait_for_load_state('networkidle')
-            login_existing_account_page(page)
+            login_existing_account_page(page,email=email,password=password)
             sleep(5)
             google_logger.info(f"Successful sign-in - URL: {page.url}")
             return True
@@ -247,7 +289,7 @@ def simplify_content(content):
     simplified_home = packet['html']
     return simplified_home
 
-def connect_to_browser_and_login(browser, login_url: str):
+def connect_to_browser_and_login(browser, login_url: str,email:str,password:str):
 
     page = browser.new_page()
     page.goto(login_url)
@@ -259,11 +301,11 @@ def connect_to_browser_and_login(browser, login_url: str):
     page.wait_for_load_state('domcontentloaded')
     #content_h = page.content()
     content_h = get_viewport_html(page=page, client=client, viewport_size=viewport_size)
-    print("je suis de ce cote ma ")
+    # print("je suis de ce cote ma ")
 
     
     simplified_home = simplify_content(content=content_h)
-    print("je suis de ce cote ma ")
+    # print("je suis de ce cote ma ")
 
     content_logger.info(f" LLM1 Content URL: {page.url} \n : {simplified_home}")
 
@@ -274,7 +316,7 @@ def connect_to_browser_and_login(browser, login_url: str):
     if data.get("action") == "negatif":
         print("Aucun bouton 'Sign In' détecté sur la page initiale.")
         notsign_logger.info(f"Not signed in - URL: {page.url}")
-        return page
+        return False
     else:
         try:
 
@@ -333,6 +375,8 @@ def connect_to_browser_and_login(browser, login_url: str):
                     return page
                 
                 try_google_login_elements(
+                    email=email,
+                    password=password,
                     page=page, 
                     locator=button_locator_in_frame, 
                     tag_name=data_inside_iframe.get('tag')
@@ -350,7 +394,8 @@ def connect_to_browser_and_login(browser, login_url: str):
             locator_logger.info(f"Échec de la localisation - pas de bouton Google trouvé après timeout - URL: {page.url}")
         else:
             nogoogle_logger.info(f"Échec de la localisation - l'LLM a confirmé l'absence de bouton Google - URL: {page.url}")
-        pass
+        # pass
+        return {'action':'no_google_button'}
 
     else:
         locator_logger.info("Élément de connexion Google détecté directement sur la page.")
@@ -359,7 +404,7 @@ def connect_to_browser_and_login(browser, login_url: str):
             if locator == None:
                 page.goto(login_url)
                 return page
-            try_google_login_elements(page=page, locator=locator, tag_name=data_g.get('tag'))
+            try_google_login_elements(email=email,password=password,page=page, locator=locator, tag_name=data_g.get('tag'))
         except PlaywrightTimeoutError:
             locator_logger.error(f"Timeout en essayant de localiser/cliquer sur l'élément direct sur {page.url}")
             pass

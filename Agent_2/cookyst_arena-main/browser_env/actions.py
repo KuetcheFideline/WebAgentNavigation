@@ -1703,8 +1703,8 @@ def create_playwright_action(playwright_code: str) -> Action:
 
 def receive_mail(url: str):
     code = 0000 
-    Email = 'fidoknn@gmail.com'
-    Password = 'puxvrrzujtxyibyo'
+    Email = 'chris.martin.gdpr@gmail.com'
+    Password = 'fnhcgcqgbwwplwdx'
     SERVEUR = 'imap.gmail.com'
     url = urlparse(url).netloc
     urls = url.split('.')[:-1]  
@@ -1760,11 +1760,9 @@ def receive_mail(url: str):
         print("An error occurred:", e)
 
 
-def receive_link(url: str,Email = "pehexev151@gusronk.com", Password = ""):
+def receive_link(url: str,Email = "chris.martin.gdpr@gmail.com", Password = "fnhcgcqgbwwplwdx"):
     link  =  "https://mail.google.com/"
-    # Email = 'fidelinekuetche@gmail.com'
-    # Password = 'batiyhfkjyjblkmo '
-    
+
     Password = ""
     SERVEUR = 'imap.gmail.com'
     url = urlparse(url).netloc

@@ -166,9 +166,10 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
 
         return datadir            
-        
-    def create_account_with_google(self,start_url):
-                page = connect_to_browser_and_login(self.browser,login_url=start_url)
+    
+    def create_account_with_google(self,start_url,email,password):
+        page = connect_to_browser_and_login(self.browser,login_url=start_url,email=email,password=password)
+        return page
 
 
 
@@ -180,6 +181,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         Ici le navigateur est lancé, donc c'est la qu'on charge les config et les extensions
         """
         langue = {
+<<<<<<< HEAD
     'fr': 'fr-FR',
     'en': 'en-GB',
     'de': 'de-DE',
@@ -202,6 +204,29 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
     'lu': 'fr-LU', 
 }
 
+=======
+                'fr': 'fr-FR',
+                'en': 'en-GB',
+                'de': 'de-DE',
+                'es': 'es-ES',
+                'it': 'it-IT',
+                'nl': 'nl-NL',
+                'pt': 'pt-PT',
+                'pl': 'pl-PL',
+                'sv': 'sv-SE',
+                'da': 'da-DK',
+                'fi': 'fi-FI',
+                'cs': 'cs-CZ',
+                'sk': 'sk-SK',
+                'ro': 'ro-RO',
+                'bg': 'bg-BG',
+                'el': 'el-GR',
+                'at': 'de-AT',
+                'ie': 'en-IE',
+                'lu': 'fr-LU',
+                'se': 'sv-SE'
+            }
+>>>>>>> origin/Franck
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
         if match :
@@ -239,15 +264,85 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     locale=f"{langue[self.country]}",
                 #     proxy={
                 #        "server": "brd.superproxy.io:33335",
+<<<<<<< HEAD
                 #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-es",
                 #        "password": "jsrj8ebf8lqy",                 
                 #    },
 
+=======
+                #        "username": f"brd-customer-hl_8afd7fbc-zone-residential_proxy1-country-{self.country}",
+                #        "password": "c1e3w8ceu0ex",                 
+                #    },
+                # proxy={
+                #        "server": "brd.superproxy.io:33335",
+                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy2-ip-178.171.21.125",
+                #        "password": "jr76tw4smz2h",                 
+                #    }
+
+                # -----------------------------------------actual proxy --------------
+                # proxy={
+                #        "server": "brd.superproxy.io:33335",
+                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
+                #        "password": "m63x39pd1ef5",                 
+                #    }
+                # ---------------------------------------------------------------------
+                #    ignore_https_errors=True
+
+
+                    # proxy={
+                    #     "server": "brd.superproxy.io:33335",
+                    #     "username": f"brd-customer-hl_efb03598-zone-residential_proxy1-country-{self.country}",
+                    #     "password": "gwynyg0rp09g",
+                    # },
+>>>>>>> origin/Franck
                 )
 
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
         self.context = self.browser
+
+        # --- SAFE INIT SCRIPTS ---
+
+        # 1. Nettoyage des traces internes de Playwright (totalement safe)
+        
+        self.context.add_init_script("""
+            (function() {
+                const blocked = ["playwright", "__pw"];
+                for (const key of Object.getOwnPropertyNames(window)) {
+                    if (blocked.some(b => key.toLowerCase().includes(b.toLowerCase()))) {
+                        try { delete window[key]; } catch {}
+                    }
+                }
+            })();
+        """)
+
+        # 2. Neutralisation propre du champ webdriver (standard dans tous les tests Selenium/Playwright)
+        self.context.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined,
+            });
+        """)
+
+        self.context.add_init_script("""
+            if (!window.navigator.chrome) {
+                window.navigator.chrome = { runtime: {} };
+            }
+        """)
+        # self.context.add_init_script("""
+        #     Object.defineProperty(window, 'devicePixelRatio', {
+        #         get: () => 1.0
+        #     });
+        # """)
+
+    
+
+        # 5. Plugins minimalistes mais non falsifiés (on évite les faux plugins)
+        self.context.add_init_script("""
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => [],
+            });
+        """)
+
             # for page in self.context.pages:
             #     try:
             #         page.close()
@@ -264,12 +359,16 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             for url in start_urls:
                 if google_require :
                     page = self.context.new_page()
-                    page.goto(url)
+                    page.goto(url,timeout=60000)
 
                     
                 else:
                     page = self.context.new_page()
+<<<<<<< HEAD
                     page.goto(url,timeout=70000)
+=======
+                    page.goto(url,timeout=60000)
+>>>>>>> origin/Franck
 
              
                 client = page.context.new_cdp_session(
@@ -424,6 +523,40 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         )
         return msg
 
+<<<<<<< HEAD
+=======
+    def remove_image(self,path):
+        files = os.listdir(path)
+        
+        marked_files = [file for file in files if file.startswith('marked')]
+        
+        if len(marked_files) == 3:
+            if "marked3.png" in marked_files:
+                os.remove(os.path.join(path, "marked3.png"))
+            
+            if "marked2.png" in marked_files:
+                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
+            
+            if "marked1.png" in marked_files:
+                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
+            
+        
+        elif len(marked_files) == 2:
+            if "marked2.png" in marked_files:
+                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
+            
+            if "marked1.png" in marked_files:
+                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
+            
+        
+        elif len(marked_files) == 1:
+            if "marked1.png" in marked_files:
+                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
+        else :
+            pass
+        
+        # print("bonjour")
+>>>>>>> origin/Franck
 
     def remove_image(self, path):
         # Liste tous les fichiers dans le répertoire spécifié

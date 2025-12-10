@@ -134,8 +134,14 @@ async def agenerate_from_openai_completion(
 
 
 
+<<<<<<< HEAD
 def encode_image(url):
        image_path= os.path.join(os.getcwd(),f"output/{url}")
+=======
+
+def encode_image(image_path ="output/marked1.png"):
+       image_path= os.path.join(os.getcwd(),image_path)
+>>>>>>> origin/Franck
        with open(image_path, "rb") as image_file:
         return base64.b64encode(image_file.read()).decode("utf-8")
 

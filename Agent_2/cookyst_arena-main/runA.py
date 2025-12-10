@@ -71,7 +71,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--agent_type", type=str, default="prompt")
     parser.add_argument("--instruction_path", type=str, default="agents/prompts/state_action_agent.json")
     parser.add_argument("--parsing_failure_th", help="Consecutive parsing failure threshold", type=int, default=3)
-    parser.add_argument("--repeating_action_failure_th", help="Consecutive repeating action threshold", type=int, default=3)
+    parser.add_argument("--repeating_action_failure_th", help="Consecutive repeating action threshold", type=int, default=5)
     
     # LM config
     parser.add_argument("--provider", type=str, default="groq")
@@ -183,7 +183,7 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                 if action["action_type"] == ActionTypes.STOP:
                     break
 
-                print("je suis l'actii a executer :", action)
+                # print("je suis l'actii a executer :", action)
                 
                 obs, _, terminated, _, info = env.step(action)
 
@@ -196,6 +196,12 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                     break
     return trajectory ,meta_data , trace
 
+def save_storage_state(env, initial_storage_state, diff_filepath, url):
+    try:
+        if initial_storage_state:
+            env.save_storage(initial_storage_state, diff_filepath, url)
+    except Exception as storage_error:
+        logger.error(f"[Storage Save Error] {repr(storage_error)}")
 
 
 def save_storage_state(env, initial_storage_state, diff_filepath, url):
@@ -230,9 +236,17 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
     )
 
     for config_file in tqdm(config_file_list):
+<<<<<<< HEAD
         match = re.search(r'/([A-Za-z]{2}/\d{4})', str(config_file))
         user = "test"
         if match:
+=======
+        initial_storage_state = None
+        diff_filepath = None
+        match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
+        user =" test"
+        if match :
+>>>>>>> origin/Franck
             user = match.group(1)  
         user = user.replace("/", "_")
 
@@ -251,13 +265,20 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
 
                 login = _c["require_login"]
                 google_login = _c["google_login"]
+<<<<<<< HEAD
             
             diff_filepath = storage_dir / f"{task_id}.json"
             
+=======
+                classic_login = False
+
+
+>>>>>>> origin/Franck
             if "map" in _c.get("sites", []):
                 continue
 
             logger.info(f"[Config file]: {config_file}")
+<<<<<<< HEAD
             obs, info = env.reset(options={"config_file": config_file})
 
             if google_login:
@@ -279,6 +300,47 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                 with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
                     json.dump({"id": task_id, "trace": resultA}, f, indent=4)
 
+=======
+            obs,info = env.reset(options= {"config_file":config_file})
+            print(f"Environment reset test.{env}")
+
+            if  google_login :
+
+                user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
+                email = user_profile["email"]
+                password = user_profile["password"]
+                print(email)
+                print(password)
+
+                initial_storage_state = env.get_all_storage_state()
+
+                login_with_google= env.create_account_with_google(url,email,password)
+                
+                if isinstance(login_with_google,bool):
+                    continue
+
+                if isinstance(login_with_google,dict) :
+                    classic_login = True
+                else :
+                    page = login_with_google                
+            
+            if  classic_login :
+                    logger.info(
+                        "La tache  demande une authentification")
+                    logger.info("Capturing initial storage state...")
+                    intentA = "Authenticate : create an account on the website . "
+
+                    trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
+
+                    # ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
+                    # response_textA = ormA.output[0].content[0].text,,"verdict" :response_textA 
+                    resultA = {"id": task_id, "trace": traceA}
+                    tracesA_dir = Path(args.result_dir) /user / "tracesA" / args.connected / args.consent
+                    tracesA_dir.mkdir(parents=True, exist_ok=True)
+                    with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
+                        json.dump({"id": task_id, "trace": resultA}, f, indent=4)
+
+>>>>>>> origin/Franck
             logger.info("Starting main task execution...")
             logger.info(f"[Config_file]: {config_file}")
             logger.info(f"[Intent]: {intent}")
@@ -286,6 +348,23 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
 
             if not login:
                 initial_storage_state = env.get_all_storage_state()
+<<<<<<< HEAD
+=======
+            trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
+            # orm = agent.verify_action(trajectory,intent,meta_data)
+            # response_text = orm.output[0].content[0].text,"verdict" :response_text 
+            result = {"id": task_id, "trace": trace}
+            storage_dir = Path(args.result_dir) / user /"storage_state" / args.connected / args.consent
+            diff_filepath = storage_dir / f"{task_id}.json"
+
+
+
+            traces_dir = Path(args.result_dir)/user / "traces" / args.connected / args.consent
+
+            traces_dir.mkdir(parents=True, exist_ok=True)
+            
+            
+>>>>>>> origin/Franck
 
             trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
             result = {"id": task_id, "trace": trace}
@@ -312,7 +391,14 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
                 f.write(traceback.format_exc() + "\n\n")
+<<<<<<< HEAD
             save_storage_state(env, initial_storage_state, diff_filepath, url)
+=======
+            if initial_storage_state is not None and diff_filepath is not None:
+                save_storage_state(env, initial_storage_state, diff_filepath, url)
+
+        
+>>>>>>> origin/Franck
 
     env.close()
 
@@ -369,7 +455,10 @@ if __name__ == "__main__":
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
         for user in os.listdir(config_dir) :
+<<<<<<< HEAD
             print(user)
+=======
+>>>>>>> origin/Franck
             if user == args.country :
                 for i in range(args.user_start_idx,args.user_end_idx):
 
