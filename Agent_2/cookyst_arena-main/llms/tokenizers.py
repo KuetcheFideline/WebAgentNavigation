@@ -16,7 +16,6 @@ class Tokenizer(object):
             self.tokenizer.add_special_tokens = False  # type: ignore[attr-defined]
             self.tokenizer.add_bos_token = False  # type: ignore[attr-defined]
             self.tokenizer.add_eos_token = False  # type: ignore[attr-defined]
-            print('je ne passe pas ')
         elif provider == "ours":
             self.tokenizer = tiktoken.encoding_for_model("gpt-4")
         elif provider == "groq":

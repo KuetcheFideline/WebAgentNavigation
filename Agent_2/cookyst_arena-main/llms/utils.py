@@ -59,7 +59,6 @@ def call_banner(prompt):
     openai.api_key = os.environ["OPENAI_API_KEY"]
     client = OpenAI()
     image_path = os.path.join(os.getcwd(), 'output', 'marked1.png')
-    print("valere boude ")
     response = client.responses.create(
         model="gpt-4.1",
         input=[

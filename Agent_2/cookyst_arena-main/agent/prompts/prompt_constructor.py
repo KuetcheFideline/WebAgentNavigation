@@ -1005,7 +1005,6 @@ class NewUserPromptConstructor(PromptConstructor):
             Formate le dictionnaire user en une forme utilisable.
             """ 
 
-            print(persona_data)
             if not persona_data:
                 return " no user"
             

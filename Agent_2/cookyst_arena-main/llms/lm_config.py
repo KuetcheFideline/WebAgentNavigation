@@ -52,7 +52,6 @@ def construct_llm_config(args: argparse.Namespace) -> LMConfig:
         llm_config.gen_config["max_obs_length"] = args.max_obs_length
         llm_config.gen_config["max_retry"] = args.max_retry
     elif args.provider == "huggingface":
-        print("je suis ici")
         llm_config.gen_config["temperature"] = args.temperature
         llm_config.gen_config["top_p"] = args.top_p
         llm_config.gen_config["max_new_tokens"] = args.max_tokens

@@ -53,7 +53,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--render", action="store_true", help="Render the browser")
     parser.add_argument("--slow_mo", type=int, default=0, help="Slow down the browser by the specified amount")
     parser.add_argument("--action_set_tag", default="id_html_nasc_tree", help="Action type")
-    parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="accessibility_tree", help="Observation type")
+    parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="html", help="Observation type")
     parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
     parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
     parser.add_argument("--connected", type=str, default="NotAuth", help="Authentication status folder")
@@ -93,7 +93,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--user_start_idx",type= int ,default=249)
     parser.add_argument("--user_end_idx",type= int ,default=250)
 
-    parser.add_argument("--test_start_idx", type=int, default=9)
+    parser.add_argument("--test_start_idx", type=int, default=5)
     parser.add_argument("--test_end_idx", type=int, default=10)
     parser.add_argument("--sample", type=int, default=1)
     
@@ -151,11 +151,10 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                     
                 else:
                     try:
-                        print("lunenendeeeeeeeeeeeeeeeeeeeee")
                         prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
 
-                        print("je cherche l'erreur ")
                         action = agent.next_action(trajectory, intent, meta_data=meta_data,url=url)
+                        print("action ou esquive",action)
                     except ValueError as e:
                         logger.error(f"Error during agent action generation: {e}")
                         action = create_stop_action(f"ERROR: {str(e)}")
@@ -169,7 +168,7 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                     prompt_constructor=agent.prompt_constructor if isinstance(agent, PromptAgent) else None,
                 )
 
-                
+                print("nous sonmme la ")
                 meta_data["action_history"].append(action_str)
                 trace.append({
                     "source": prompt,
@@ -183,7 +182,7 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                 if action["action_type"] == ActionTypes.STOP:
                     break
 
-                # print("je suis l'actii a executer :", action)
+                print("je suis l'actii a executer :", action)
                 
                 obs, _, terminated, _, info = env.step(action)
 
@@ -236,17 +235,11 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
     )
 
     for config_file in tqdm(config_file_list):
-<<<<<<< HEAD
-        match = re.search(r'/([A-Za-z]{2}/\d{4})', str(config_file))
-        user = "test"
-        if match:
-=======
         initial_storage_state = None
         diff_filepath = None
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
         if match :
->>>>>>> origin/Franck
             user = match.group(1)  
         user = user.replace("/", "_")
 
@@ -264,43 +257,17 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                 url = _c["start_url"]
 
                 login = _c["require_login"]
-                google_login = _c["google_login"]
-<<<<<<< HEAD
-            
-            diff_filepath = storage_dir / f"{task_id}.json"
-            
-=======
-                classic_login = False
+
+                google_login=False
+                classic_login =True
+                # google_login = _c["google_login"]
+                # classic_login = False
 
 
->>>>>>> origin/Franck
             if "map" in _c.get("sites", []):
                 continue
 
             logger.info(f"[Config file]: {config_file}")
-<<<<<<< HEAD
-            obs, info = env.reset(options={"config_file": config_file})
-
-            if google_login:
-                initial_storage_state = env.get_all_storage_state()
-                login_with_google = env.create_account_with_google(url)
-            
-            if login:
-                logger.info("La tâche demande une authentification")
-                logger.info("Capturing initial storage state...")
-                intentA = "Authenticate: create an account on the website."
-                trajectoryA, meta_dataA, traceA = task_execution_command(obs, info, intentA, max_steps, early_stop_thresholds, env, agent, url, user)
-                ormA = agent.verify_action(trajectoryA, intentA, meta_dataA)
-                response_textA = ormA.output[0].content[0].text
-                resultA = {"id": task_id, "trace": traceA, "verdict": response_textA}
-                
-                tracesA_dir = Path(args.result_dir) / user / "tracesA" / args.connected / args.consent
-                create_directory(tracesA_dir)
-                
-                with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
-                    json.dump({"id": task_id, "trace": resultA}, f, indent=4)
-
-=======
             obs,info = env.reset(options= {"config_file":config_file})
             print(f"Environment reset test.{env}")
 
@@ -309,9 +276,7 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                 user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
                 email = user_profile["email"]
                 password = user_profile["password"]
-                print(email)
-                print(password)
-
+                
                 initial_storage_state = env.get_all_storage_state()
 
                 login_with_google= env.create_account_with_google(url,email,password)
@@ -328,7 +293,7 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                     logger.info(
                         "La tache  demande une authentification")
                     logger.info("Capturing initial storage state...")
-                    intentA = "Authenticate : create an account on the website . "
+                    intentA = "Authenticate : create an account on the website   . "
 
                     trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 
@@ -340,7 +305,6 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                     with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
                         json.dump({"id": task_id, "trace": resultA}, f, indent=4)
 
->>>>>>> origin/Franck
             logger.info("Starting main task execution...")
             logger.info(f"[Config_file]: {config_file}")
             logger.info(f"[Intent]: {intent}")
@@ -348,8 +312,6 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
 
             if not login:
                 initial_storage_state = env.get_all_storage_state()
-<<<<<<< HEAD
-=======
             trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
             # orm = agent.verify_action(trajectory,intent,meta_data)
             # response_text = orm.output[0].content[0].text,"verdict" :response_text 
@@ -364,7 +326,6 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
             traces_dir.mkdir(parents=True, exist_ok=True)
             
             
->>>>>>> origin/Franck
 
             trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
             result = {"id": task_id, "trace": trace}
@@ -383,6 +344,9 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
 
         except OpenAIError as e:
             logger.error(f"[OpenAI Error] {repr(e)}")
+            if initial_storage_state !=None :
+                    save_storage_state(env, initial_storage_state, diff_filepath, url)
+
             save_storage_state(env, initial_storage_state, diff_filepath, url)
         except Exception as e:
             logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")
@@ -391,14 +355,8 @@ def test(args: argparse.Namespace, agent: Agent | PromptAgent | TeacherForcingAg
                 f.write(f"[Config file]: {config_file}\n")
                 f.write(f"[Unhandled Error] {repr(e)}\n")
                 f.write(traceback.format_exc() + "\n\n")
-<<<<<<< HEAD
-            save_storage_state(env, initial_storage_state, diff_filepath, url)
-=======
-            if initial_storage_state is not None and diff_filepath is not None:
-                save_storage_state(env, initial_storage_state, diff_filepath, url)
-
-        
->>>>>>> origin/Franck
+                if initial_storage_state !=None :
+                    save_storage_state(env, initial_storage_state, diff_filepath, url)
 
     env.close()
 
@@ -455,10 +413,6 @@ if __name__ == "__main__":
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
         for user in os.listdir(config_dir) :
-<<<<<<< HEAD
-            print(user)
-=======
->>>>>>> origin/Franck
             if user == args.country :
                 for i in range(args.user_start_idx,args.user_end_idx):
 

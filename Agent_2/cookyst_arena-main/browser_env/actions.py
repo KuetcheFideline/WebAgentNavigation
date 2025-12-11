@@ -15,6 +15,8 @@ import email
 import time
 
 from urllib.parse import urlparse
+from bs4 import BeautifulSoup
+
 
 import numpy as np
 import numpy.typing as npt
@@ -364,7 +366,7 @@ class ActionTypes(IntEnum):
     STOP = 17
 
     def __str__(self) -> str:
-        return f"ACTION_TYPES.{self.name}"
+        return f"ActionTypes.{self.name}"
 
 
 @beartype
@@ -1267,24 +1269,34 @@ def execute_action(
     """Execute the action on the ChromeDriver."""
     action_type = action["action_type"]
     match action_type:
+
         case ActionTypes.NONE:
+
             pass
 
         case ActionTypes.SCROLL:
+
+
             direction = "up" if "up" in action["direction"] else "down"
             execute_scroll(direction, page)
         case ActionTypes.KEY_PRESS:
+
+
             keys = action["key_comb"]
             execute_key_press(keys, page)
 
         case ActionTypes.MOUSE_CLICK:
+
             execute_mouse_click(action["coords"][0], action["coords"][1], page)
         case ActionTypes.MOUSE_HOVER:
+
             execute_mouse_hover(action["coords"][0], action["coords"][1], page)
         case ActionTypes.KEYBOARD_TYPE:
+
             execute_type(action["text"], page)
 
         case ActionTypes.CLICK:
+
             # check each kind of locator in order
             # TODO[shuyanzh]: order is temp now
             if action["element_id"]:
@@ -1305,6 +1317,7 @@ def execute_action(
             else:
                 raise ValueError("No proper locator found for click action")
         case ActionTypes.HOVER:
+
             if action["element_id"]:
                 element_id = action["element_id"]
                 element_center = obseration_processor.get_element_center(element_id)  # type: ignore[attr-defined]
@@ -1324,6 +1337,7 @@ def execute_action(
                     "No proper locator found for hover action"
                 )
         case ActionTypes.TYPE:
+
             if action["element_id"]:
                 element_id = action["element_id"]
                 element_center = obseration_processor.get_element_center(element_id)  # type: ignore[attr-defined]
@@ -1351,50 +1365,53 @@ def execute_action(
                 )
 
         case ActionTypes.PAGE_FOCUS:
+
             page = browser_ctx.pages[action["page_number"]]
             page.bring_to_front()
         case ActionTypes.NEW_TAB:
+
             page = browser_ctx.new_page()
             page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
         case ActionTypes.GO_BACK:
+
             page.go_back()
         case ActionTypes.GO_FORWARD:
+
             page.go_forward()
         case ActionTypes.GOTO_URL:
+
             if action["answer"] == "1":
                 page = browser_ctx.new_page()
                 page.client = page.context.new_cdp_session(page) 
             page.goto(action["url"])
         case ActionTypes.PAGE_CLOSE:
+
             page.close()
             if len(browser_ctx.pages) > 0:
                 page = browser_ctx.pages[-1]
             else:
                 page = browser_ctx.new_page()
-        case ActionTypes.CODE :
-            print("code executed")
 
         case ActionTypes.SELECT_OPTION:
-            print("select option executed")
-            if action["pw_code"]:
-                parsed_code = parse_playwright_code(action["pw_code"])
-                print("yooo")
-
-                locator_code = parsed_code[:-1]
-                print("yooo")
-
-                pw_action_args = parsed_code[-1].get('arguments', [])
-                print("yooo")
-
-                execute_playwright_select_option(locator_code, page, pw_action_args)
-                print("yooo")
-
-            else:
-                print("no proper locator found for select option actioncccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc")
-                raise NotImplementedError(
-                    "No proper locator found for select option action"
-                )
+            try:
+                if action["pw_code"]:
+                    parsed_code = parse_playwright_code(action["pw_code"])
+                    print(f"parsed_code: {parsed_code}")
+                    locator_code = parsed_code[:-1]
+                    print(f"locator_code: {locator_code}")
+                    pw_action_args = parsed_code[-1].get('arguments', [])
+                    print(f"pw_action_args: {pw_action_args}")
+                    execute_playwright_select_option(locator_code, page, pw_action_args)
+                    print(" SELECT_OPTION EXECUTED SUCCESSFULLY")
+                else:
+                    raise NotImplementedError("No proper locator found for select option action")
+            except Exception as e:
+                print(f"EXCEPTION IN SELECT_OPTION: {type(e).__name__}: {e}")
+                import traceback
+                traceback.print_exc()
+                raise
         case ActionTypes.CHECK:
+
             if action["pw_code"]:
                 parsed_code = parse_playwright_code(action["pw_code"])
                 locator_code = parsed_code[:-1]
@@ -1406,6 +1423,10 @@ def execute_action(
 
         case _:
             raise ValueError(f"Unknown action type: {action_type}")
+        
+    
+    
+    print("npus somme las ")
 
     return page
 
@@ -1701,10 +1722,12 @@ def create_playwright_action(playwright_code: str) -> Action:
 
 
 
-def receive_mail(url: str):
+def receive_mail(url: str,user:str):
     code = 0000 
-    Email = 'chris.martin.gdpr@gmail.com'
-    Password = 'fnhcgcqgbwwplwdx'
+    # Email = 'fideline.kuetche@facsciences-uy1.cm'
+    # Password = 'ncgtoauxnaubbsju '
+    Email = "chris.martin.gdpr@gmail.com"
+    Password = "fnhcgcqgbwwplwdx"
     SERVEUR = 'imap.gmail.com'
     url = urlparse(url).netloc
     urls = url.split('.')[:-1]  
@@ -1714,9 +1737,12 @@ def receive_mail(url: str):
         mail.login(Email, Password)
 
         mail.select('inbox')
-
+        start_time = time.time()
+        duration = 40 
         n = 0
-        while n < 5:  
+        code = ''
+        
+        while time.time()-start_time <duration:  
             status, data = mail.search(None, 'ALL') 
             mail_ids = []
             for block in data:
@@ -1724,35 +1750,89 @@ def receive_mail(url: str):
 
             n += 1
           
-            mail_id = mail_ids[-1]
-            status, data = mail.fetch(mail_id, '(RFC822)')
+            mail_id = mail_ids[-10:]
+            for id in mail_id :
+                status, data = mail.fetch(id, '(RFC822)')
 
-            for response_part in data:
-                if isinstance(response_part, tuple):
-                    message = email.message_from_bytes(response_part[1])
-                    mail_from = message['from']
-                    mail_subject = message['subject']
+                for response_part in data:
+                    if isinstance(response_part, tuple):
+                        message = email.message_from_bytes(response_part[1])
+                        mail_from = message['from']
+                        mail_subject = message['subject']
+                        mail_from_cleaned = re.sub(r'\s+', '', mail_from.lower())
+                        mail_to =message['To']                        
 
-                    if message.is_multipart():
-                        mail_content = ''
-                        for part in message.get_payload():
-                            if part.get_content_type() == 'text/plain':
-                                mail_content += part.get_payload()
-                    else:
-                        mail_content = message.get_payload()
 
-                    for j in urls:
-                        print(mail_from.lower(), "je veux voir ")
-                        match = re.search(r'\b(\d{4,})\b', mail_content)
 
-                        if j.lower() in mail_from.lower() and match:
-                            code = match.group(1)
-                            print("Le code est :", code)
-                            return str(code)
-                        else:
-                            print("No code found yet")
-            
-        return str(code)  
+                        if message.is_multipart():
+                            mail_content = ''
+                            for part in message.get_payload():
+                                if part.get_content_type() == 'text/plain':
+                                    mail_content += part.get_payload()
+                                elif  part.get_content_type() == 'text/html':
+                                   html_content = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+                                   soup = BeautifulSoup(html_content, 'html.parser')
+                                   cleane = soup.get_text()
+                                   clean_content = re.sub(r'\s+', ' ', cleane)  
+                                   mail_content= clean_content.strip()  
+                        else :
+                                mail_content = message.get_payload()
+                        
+
+                        mail_content_cleaned = re.sub(r'\s+', '', mail_content.lower())
+
+                        for j in urls:
+                            numeric_codes = re.search(r'\b\d{6,}\b', mail_content) 
+                            alpha_num = re.search(r'\b(?=\w*[A-Za-z])(?=\w*\d)\w{6,}\b', mail_content)
+                            alphamasj = re.search(r'\b[A-Z]{6,}\b', mail_content)
+
+ 
+
+
+                            if j.lower() in mail_from.lower() and user.lower() in mail_to.lower():
+
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+
+
+                            elif  j.lower() in mail_content and user.lower() in mail_to.lower():
+
+                                   
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+
+                            elif j.lower() in mail_from_cleaned and user.lower() in mail_to.lower():
+
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+
+                            elif j.lower() in mail_content_cleaned and user.lower() in mail_to.lower():
+
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+                               
+                    
+            return str(code)  
 
     except imaplib.IMAP4.error as e:
         print("IMAP4 error:", e)
@@ -1760,10 +1840,14 @@ def receive_mail(url: str):
         print("An error occurred:", e)
 
 
-def receive_link(url: str,Email = "chris.martin.gdpr@gmail.com", Password = "fnhcgcqgbwwplwdx"):
+
+
+
+
+ 
+def receive_link(url: str, user:str,Email = "chris.martin.gdpr@gmail.com", Password = "fnhcgcqgbwwplwdx"):
     link  =  "https://mail.google.com/"
 
-    Password = ""
     SERVEUR = 'imap.gmail.com'
     url = urlparse(url).netloc
     urls = url.split('.')[:-1]  
@@ -1773,9 +1857,12 @@ def receive_link(url: str,Email = "chris.martin.gdpr@gmail.com", Password = "fnh
         mail.login(Email, Password)
 
         mail.select('inbox')
-
+        start_time = time.time()
+        duration = 40 
         n = 0
-        while n < 5:  
+        link= ''
+        
+        while time.time()-start_time <duration:  
             status, data = mail.search(None, 'ALL') 
             mail_ids = []
             for block in data:
@@ -1783,36 +1870,64 @@ def receive_link(url: str,Email = "chris.martin.gdpr@gmail.com", Password = "fnh
 
             n += 1
           
-            mail_id = mail_ids[-1]
-            status, data = mail.fetch(mail_id, '(RFC822)')
+            mail_id = mail_ids[-10:]
+            for id in mail_id :
+                status, data = mail.fetch(id, '(RFC822)')
 
-            for response_part in data:
-                if isinstance(response_part, tuple):
-                    message = email.message_from_bytes(response_part[1])
-                    mail_from = message['from']
-                    mail_subject = message['subject']
+                for response_part in data:
+                    if isinstance(response_part, tuple):
+                        message = email.message_from_bytes(response_part[1])
+                        mail_from = message['from']
+                        mail_subject = message['subject']
+                        mail_to =message['To']                        
 
-                    if message.is_multipart():
-                        mail_content = ''
-                        for part in message.get_payload():
-                            if part.get_content_type() == 'text/plain':
-                                mail_content += part.get_payload()
-                    else:
-                        mail_content = message.get_payload()
+                        mail_from_cleaned = re.sub(r'\s+', '', mail_from.lower())
+                        
 
+
+
+                        if message.is_multipart():
+                            mail_content = ''
+                            for part in message.get_payload():
+                                if part.get_content_type() == 'text/plain':
+                                    mail_content += part.get_payload()
+                                elif  part.get_content_type() == 'text/html':
+                                   html_content = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+                                   soup = BeautifulSoup(html_content, 'html.parser')
+                                   cleane = soup.get_text()
+                                   clean_content = re.sub(r'\s+', ' ', cleane)  
+                                   mail_content= clean_content.strip()  
+                        else :
+                                mail_content = message.get_payload()
+                        
+
+                        mail_content_cleaned = re.sub(r'\s+', '', mail_content.lower())
                     for j in urls:
-                        print(mail_from.lower(), "je veux voir ")
-                        Email = "develine@gmail.com"
-                        match = re.search(r'https?://[^\s]+', mail_content)
+                        
+                        match = re.search(r'(https?://|www\.)[^\s]+', mail_content)
 
 
+                        if j.lower() in mail_from.lower() and user.lower() in mail_to.lower():
 
-                        if j.lower() in mail_from.lower() and match:
-                            link = match.group(1)
-                            print("Le code est :", link)
-                            return link 
-                        else:
-                            print("No code found yet")
+                                if match :
+                                    link = match.group(0) 
+
+                        elif  j.lower() in mail_content and user.lower() in mail_to.lower():
+                                
+                                   
+                                if match :
+                                    link = match.group(0)
+
+                        elif j.lower() in mail_from_cleaned and user.lower() in mail_to.lower():
+                                 
+                                if match :
+                                    link = match.group(0)
+                        elif j.lower() in mail_content_cleaned and user.lower() in mail_to.lower():
+                                
+                                 if match :
+                                
+                                    link = match.group(0)
+                               
             
         return link 
 
@@ -1823,8 +1938,12 @@ def receive_link(url: str,Email = "chris.martin.gdpr@gmail.com", Password = "fnh
 
 
 
+
+
+
+
 @beartype
-def create_id_based_action(action_str: str,url :str) -> Action:
+def create_id_based_action(action_str: str,url :str,user:str) -> Action:
     """Main function to return individual id based action"""
     action_str = action_str.strip()
     action = (
@@ -1939,13 +2058,13 @@ def create_id_based_action(action_str: str,url :str) -> Action:
                 match.group(2),
                 match.group(3),
             )
-            text =receive_mail(url)
+            text =receive_mail(url,user)
             enter_flag = True if enter_flag == "1" else False
             if enter_flag:
                 text += "\n"
             return create_our_type_action(text=text, element_id=element_id, flag=enter_flag)
         case "go_mail":
-            url = receive_link(url)
+            url = receive_link(url,user)
             return create_our_goto_url_action(url=url, flag=True)
 
     raise ActionParsingError(f"Invalid action {action_str}")

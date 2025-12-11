@@ -181,7 +181,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         Ici le navigateur est lancé, donc c'est la qu'on charge les config et les extensions
         """
         langue = {
-<<<<<<< HEAD
     'fr': 'fr-FR',
     'en': 'en-GB',
     'de': 'de-DE',
@@ -204,29 +203,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
     'lu': 'fr-LU', 
 }
 
-=======
-                'fr': 'fr-FR',
-                'en': 'en-GB',
-                'de': 'de-DE',
-                'es': 'es-ES',
-                'it': 'it-IT',
-                'nl': 'nl-NL',
-                'pt': 'pt-PT',
-                'pl': 'pl-PL',
-                'sv': 'sv-SE',
-                'da': 'da-DK',
-                'fi': 'fi-FI',
-                'cs': 'cs-CZ',
-                'sk': 'sk-SK',
-                'ro': 'ro-RO',
-                'bg': 'bg-BG',
-                'el': 'el-GR',
-                'at': 'de-AT',
-                'ie': 'en-IE',
-                'lu': 'fr-LU',
-                'se': 'sv-SE'
-            }
->>>>>>> origin/Franck
         match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
         user =" test"
         if match :
@@ -264,37 +240,10 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     locale=f"{langue[self.country]}",
                 #     proxy={
                 #        "server": "brd.superproxy.io:33335",
-<<<<<<< HEAD
                 #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-es",
                 #        "password": "jsrj8ebf8lqy",                 
                 #    },
 
-=======
-                #        "username": f"brd-customer-hl_8afd7fbc-zone-residential_proxy1-country-{self.country}",
-                #        "password": "c1e3w8ceu0ex",                 
-                #    },
-                # proxy={
-                #        "server": "brd.superproxy.io:33335",
-                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy2-ip-178.171.21.125",
-                #        "password": "jr76tw4smz2h",                 
-                #    }
-
-                # -----------------------------------------actual proxy --------------
-                # proxy={
-                #        "server": "brd.superproxy.io:33335",
-                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
-                #        "password": "m63x39pd1ef5",                 
-                #    }
-                # ---------------------------------------------------------------------
-                #    ignore_https_errors=True
-
-
-                    # proxy={
-                    #     "server": "brd.superproxy.io:33335",
-                    #     "username": f"brd-customer-hl_efb03598-zone-residential_proxy1-country-{self.country}",
-                    #     "password": "gwynyg0rp09g",
-                    # },
->>>>>>> origin/Franck
                 )
 
         storage_state = instance_config.get("storage_state", None)
@@ -364,11 +313,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     
                 else:
                     page = self.context.new_page()
-<<<<<<< HEAD
                     page.goto(url,timeout=70000)
-=======
-                    page.goto(url,timeout=60000)
->>>>>>> origin/Franck
 
              
                 client = page.context.new_cdp_session(
@@ -494,6 +439,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             )
             success = True
         except Exception as e:
+            print(e)
             fail_error = str(e)
 
         # hard sleep TODO[shuyanzh] suboptimal, may need to check network
@@ -523,40 +469,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         )
         return msg
 
-<<<<<<< HEAD
-=======
-    def remove_image(self,path):
-        files = os.listdir(path)
-        
-        marked_files = [file for file in files if file.startswith('marked')]
-        
-        if len(marked_files) == 3:
-            if "marked3.png" in marked_files:
-                os.remove(os.path.join(path, "marked3.png"))
-            
-            if "marked2.png" in marked_files:
-                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
-            
-            if "marked1.png" in marked_files:
-                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
-            
-        
-        elif len(marked_files) == 2:
-            if "marked2.png" in marked_files:
-                os.rename(os.path.join(path, "marked2.png"), os.path.join(path, "marked3.png"))
-            
-            if "marked1.png" in marked_files:
-                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
-            
-        
-        elif len(marked_files) == 1:
-            if "marked1.png" in marked_files:
-                os.rename(os.path.join(path, "marked1.png"), os.path.join(path, "marked2.png"))
-        else :
-            pass
-        
-        # print("bonjour")
->>>>>>> origin/Franck
 
     def remove_image(self, path):
         # Liste tous les fichiers dans le répertoire spécifié
