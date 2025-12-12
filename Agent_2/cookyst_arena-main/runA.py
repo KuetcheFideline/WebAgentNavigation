@@ -52,7 +52,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--render", action="store_true", help="Render the browser")
     parser.add_argument("--slow_mo", type=int, default=0, help="Slow down the browser by the specified amount")
     parser.add_argument("--action_set_tag", default="id_html_nasc_tree", help="Action type")
-    parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="accessibility_tree", help="Observation type")
+    parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="html", help="Observation type")
     parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
     parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
     parser.add_argument("--connected", type=str, default="Auth", help="Authentication status folder")
@@ -330,7 +330,11 @@ def test(
 
             env.save_storage(initial_storage_state, diff_filepath,url)
         except OpenAIError as e:
+           
             logger.error(f"[OpenAI Error] {repr(e)}")
+            if initial_storage_state is not None and diff_filepath is not None:
+                save_storage_state(env, initial_storage_state, diff_filepath, url)
+        
         except Exception as e:
             logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")
             import traceback

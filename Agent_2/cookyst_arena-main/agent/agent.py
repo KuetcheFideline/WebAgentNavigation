@@ -125,6 +125,8 @@ class PromptAgent(Agent):
     def next_action(
         self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any] ,url :str
     ) -> Action:
+        user = meta_data["user_persona"]
+        user = user['id']
         prompt = self.prompt_constructor.construct(
             trajectory, intent, meta_data
         )
@@ -147,7 +149,7 @@ class PromptAgent(Agent):
                 )
                 
                 if self.action_set_tag in ["id_html_tree", "id_html_nasc_tree", "id_accessibility_tree"]:
-                    action = create_id_based_action(parsed_response,url)
+                    action = create_id_based_action(parsed_response,url,user)
                 elif self.action_set_tag == "playwright":
                     action = create_playwright_action(parsed_response)
                 else:
