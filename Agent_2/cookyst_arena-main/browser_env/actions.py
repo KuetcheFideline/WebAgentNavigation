@@ -155,6 +155,8 @@ def action2str(
                 action_str = f"page_focus [{action['page_number']}]"
             case ActionTypes.STOP:
                 action_str = f"stop [{action['answer']}]"
+            case ActionTypes.CHECK:
+                action_str = f"check [{element_id}] where [{element_id}] is {semantic_element}"
             case ActionTypes.NONE:
                 action_str = "none"
             case _:
@@ -198,6 +200,8 @@ def action2str(
             case ActionTypes.SELECT_OPTION:
                 option = action.get("option", "")
                 action_str = f"#Select# {label} {option}"
+            case ActionTypes.CHECK:
+                action_str = f"#Check# {label}"
             case ActionTypes.NONE:
                 action_str = "None"
             case _:
@@ -240,6 +244,8 @@ def action2str(
                     action_str = f"finish('{action['answer']}')"
                 else:
                     action_str = f"finish()"
+            case ActionTypes.CHECK:
+                action_str = f"check('{label}')"
             case ActionTypes.SELECT_OPTION:
                 option = action.get("option", "")
                 action_str = f"select('{label}', '{option}')"
@@ -1373,8 +1379,6 @@ def execute_action(
                 page = browser_ctx.pages[-1]
             else:
                 page = browser_ctx.new_page()
-        case ActionTypes.CODE :
-            print("code executed")
 
         case ActionTypes.SELECT_OPTION:
             try:
@@ -1398,6 +1402,7 @@ def execute_action(
             if action["pw_code"]:
                 parsed_code = parse_playwright_code(action["pw_code"])
                 locator_code = parsed_code[:-1]
+                print(f"locator_code for CHECK: {locator_code}")
                 execute_playwright_check(locator_code, page)
             else:
                 raise NotImplementedError(
@@ -1541,7 +1546,6 @@ async def aexecute_action(
 
 
 def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
-    print("yoooooooooooooooooooooooooooooooooooooooo")
     print(code)
     match = re.search(
     r"(page\.[a-zA-Z0-9_]+\([^)]*\)(?:\.[a-zA-Z0-9_]+\([^)]*\))*)",
@@ -1559,7 +1563,6 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
         raise ValueError(
             f'Playwright action must start with "page.", but got {code}'
         )
-    print("yoooooooooooooooooooooooooooooooooooooooo")
     
     regex = r"\.(?![^\(\)]*\))"
     chain = re.split(regex, code)[1:]
@@ -1591,17 +1594,14 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
                         }
                     )
                 )
-        print("yoooooooooooooooooooooooooooooooooooooooo")
-
+    
         if len(funcs) != 1:
-            print("luuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"  )
             raise ValueError(f"Fail to parse {item} in {code}")
 
         if (
             funcs[0]["function_name"]
             not in PLAYWRIGHT_LOCATORS + PLAYWRIGHT_ACTIONS
         ):
-            print("moooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
             raise ValueError(
                 f"Invalid playwright code {item}, ",
                 f"the function needs to be one of {PLAYWRIGHT_LOCATORS + PLAYWRIGHT_ACTIONS}",
@@ -1610,7 +1610,6 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
         parsed_chain.append(funcs[0])
 
     last_action = parsed_chain[-1]
-    print("yoooooooooooooooooooooooooooooooooooooooo")
 
     if last_action["function_name"] not in PLAYWRIGHT_ACTIONS:
         raise ValueError(
@@ -1944,6 +1943,7 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
             )
             if not match:
                 raise ActionParsingError(f"Invalid type action {action_str}")
+            print("action²:", action_str)
             element_id, text, enter_flag = (
                 match.group(1),
                 match.group(2),
@@ -2035,5 +2035,16 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
         case "go_mail":
             url = receive_link(url,user)
             return create_our_goto_url_action(url=url, flag=True)
+        case "check":
+            match = re.search(r"check ?\[(\d+)\]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid check action {action_str}")
+            element_id = match.group(1)
+            # Utiliser pw_code pour créer l'action check
+            pw_code = f'page.get_by_test_id("{element_id}").check()'
+
+            print("returning check action with pw_code:", pw_code)
+            return create_click_action(element_id=element_id)
+            # return create_check_action(pw_code=pw_code)
 
     raise ActionParsingError(f"Invalid action {action_str}")

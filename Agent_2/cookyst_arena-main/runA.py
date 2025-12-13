@@ -273,7 +273,22 @@ def test(
                 if isinstance(login_with_google,dict) :
                     classic_login = True
                 else :
-                    page = login_with_google                
+                    page = login_with_google     
+                    env.page = page
+                    client = env.page.context.new_cdp_session(env.page)
+                    if env.text_observation_type == "accessibility_tree":
+                        client.send("Accessibility.enable")
+                    env.page.client = client
+                    print(f" Login Google réussi ! Page mise à jour : {env.page.url}")
+                    obs = env._get_obs()
+                    info = env._get_obs_metadata()
+                    info = {
+                        "page": env.page,
+                        "fail_error": "",
+                        "observation_metadata": info,
+                    }
+                    print(f"Observation rafraîchie, le modèle voit maintenant la page connectée")
+                               
             
             if  classic_login :
                     logger.info(

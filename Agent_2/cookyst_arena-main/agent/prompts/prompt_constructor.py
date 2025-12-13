@@ -281,6 +281,7 @@ class MyPromptConstructor(PromptConstructor):
     """The agent will perform step-by-step reasoning before the answer"""
     operation = [
         r"#?(Click)#?\s*([0-9]+)",
+        r"(Check)\(\s*['\"]([A-Z]{1,3})['\"]\s*\)"
         r"#?(Type)#?\s*([0-9]+)\s+[\'\"]{0,1}([\s\S]+)[\'\"]{0,1}",
         r"#?(Select)#?\s*([0-9]+)\s+[\'\"]{0,1}(.+)[\'\"]{0,1}",
         r"#?(Scroll_up)#?",
@@ -298,6 +299,7 @@ class MyPromptConstructor(PromptConstructor):
     
     translate = [
         "click",
+        "check",
         "type",
         "select",
         "scroll [up]",
@@ -399,7 +401,7 @@ class MyPromptConstructor(PromptConstructor):
                     param = []
                 
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select']:
+                if act in ['click', 'hover', 'type', 'select','check']:
                     if len(param) == 0:
                         continue
                     
@@ -536,6 +538,7 @@ class MyPromptConstructor(PromptConstructor):
 class NewASPromptConstructor(PromptConstructor):
     """The agent will perform step-by-step reasoning before the answer"""
     operation = [
+        
         r"(click)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
         r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*,\s*(True|False)\s*\)",
         r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*\)",
@@ -548,7 +551,9 @@ class NewASPromptConstructor(PromptConstructor):
         r"(finish)\(\s*\)",
         r"(finish)\(\s*(.+)\s*\)",
         r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
-        r"(switch_tab)\([\d]+\)"
+        r"(switch_tab)\([\d]+\)",
+        r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
+
     ]
     
     translate = [
@@ -565,6 +570,7 @@ class NewASPromptConstructor(PromptConstructor):
         "stop",
         "record",
         "page_focus",
+        "check"
     ]
 
     def __init__(
@@ -759,7 +765,7 @@ class NewASPromptConstructor(PromptConstructor):
                 
                 print(exact_act, param)
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select']:
+                if act in ['click', 'hover', 'type', 'select','check']:
                     if len(param) == 0:
                         continue
                     
@@ -840,6 +846,8 @@ class NewUserPromptConstructor(PromptConstructor):
             r"(switch_tab)\([\d]+\)",
             r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"](\d+)[\'\"]\s*,\s*(True|False)\s*\)",
             r"(switch_tab)\([\d]+\)",
+            r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
+
             
         ]
         
@@ -860,6 +868,7 @@ class NewUserPromptConstructor(PromptConstructor):
             "page_focus",
             "code_email",
             "email_goto",
+            "check"
         ]
     def __init__(
         self,
@@ -1139,7 +1148,7 @@ class NewUserPromptConstructor(PromptConstructor):
                     param = []
                 
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select','code_email']:
+                if act in ['click', 'hover', 'type', 'select','code_email','check']:
                     if len(param) == 0:
                         continue
                     

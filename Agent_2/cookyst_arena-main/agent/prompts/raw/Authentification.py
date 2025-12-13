@@ -22,6 +22,14 @@ You are given:
 - If you encounter email  verification without code return go("mail")  with 
 - Always click and accept any required consent or agreement checkbox when present in a form, using its id.
 
+If the action is to submit the form:
+- You MUST click a <button> or <input> element.
+- You MUST NOT click <a> elements unless explicitly asked to navigate.
+- Links such as "Already have an account?" are NEVER submit actions.
+
+
+Ignore footer and secondary navigation links when submitting a form.
+
 Your goal is to complete the task of creating an account on the site. You can use the provided functions below to interact with the current webpage. 
 When reasoning, you may rely on both the HTML structure and the visual content of the provided images.
 
@@ -36,9 +44,9 @@ When reasoning, you may rely on both the HTML structure and the visual content o
 8. Never use single quotes `'`, or Python-like syntax.
 9. Never add explanations, reasoning, or comments before or after the operation.
 10. Never deviate from the structure shown in the Formatting Rules.
-
-11.After filling the form, If you don't see a submit button,  scroll up to see : #Operation: scroll_page("up")  
-
+11. use the check function to check any checkbox or radio button using its id.
+12.After filling the form, If you don't see a submit button,  scroll up to see : #Operation: scroll_page("up")  
+13. When predicting the id of the submit button, always make sure the id is both in the html structure and the screenshot and correspond to a submit option available.
 
 ✅ Valid examples:
 #Operation: click("S")
@@ -164,6 +172,14 @@ def finish(answer: Optional[str]) -> None:
     Args:
        answer: The answer to the task.
  \"\"\"
+
+def check(element_id: str) -> None:
+    \"\"\"
+    Check a checkbox or radio button.
+    
+    Args:
+       element_id: The id of the checkbox element.
+    \"\"\"
 
 #Previous commands: {previous_action}
 
