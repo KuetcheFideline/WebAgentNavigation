@@ -439,7 +439,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             )
             success = True
         except Exception as e:
-            print(e)
+            print(e,"l'erreir q")
             fail_error = str(e)
 
         # hard sleep TODO[shuyanzh] suboptimal, may need to check network

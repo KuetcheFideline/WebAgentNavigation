@@ -55,7 +55,7 @@ for file in os.listdir("../browser_env/profiles"):
                                 else:
                                     for sub_key, k in second.items():
                                         data[domain][sub_key] = k.replace('\u0001', '')
-                            datas.append(data)
+                            datas.append({"data":data})
                         jsonl_file.write(json.dumps(datas, ensure_ascii=False,indent=4) )
 
                     

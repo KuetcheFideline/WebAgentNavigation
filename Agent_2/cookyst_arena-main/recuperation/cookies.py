@@ -1,4 +1,4 @@
-import os 
+import os
 import sqlite3
 import json
 import keyring
@@ -9,8 +9,6 @@ from cryptography.hazmat.primitives.hashes import SHA1
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
 
-
-
 def clean(decrypted):
     last = decrypted[-1]
     try:
@@ -18,7 +16,6 @@ def clean(decrypted):
     except UnicodeDecodeError:
         # décodage tolérant → remplace les octets invalides par �
         return decrypted[:-last].decode("utf-8", errors="replace")
-
 
 
 def get_encryption_key(config, password=None):
@@ -41,12 +38,8 @@ def get_encryption_key(config, password=None):
     return kdf.derive(key_material)
 
 
-
-    
 def cookie_config():
     """Configure le chemin des fichiers de cookies et récupère la clé de chiffrement."""
-      
-
     config = {
         "key_material": "peanuts",
         "iterations": 1,
@@ -54,7 +47,7 @@ def cookie_config():
 
     key_material = None
     try:
-        import gi 
+        import gi
         gi.require_version("Secret", "1")
         from gi.repository import Secret
     except ImportError:
@@ -70,7 +63,7 @@ def cookie_config():
             for item in unlocked_keyring.get_items():
                 if item.get_label() == keyring_name:
                     item_app = item.get_attributes().get("application", "Chromium")
-                    if item_app.lower() != "Chromium ":
+                    if item_app.lower() != "chromium ":
                         continue
                     item.load_secret_sync()
                     key_material = item.get_secret().get_text()
@@ -93,13 +86,8 @@ def cookie_config():
     return config
 
 
-
-
-
-def cookie_decrypt(encrypted_value, key, ini_vector,cookie_database_version):
+def cookie_decrypt(encrypted_value, key, ini_vector, cookie_database_version):
     """Décrypte un cookie."""
-
-   
     encrypted_value = encrypted_value[3:]  
     cipher = Cipher(
         algorithm=AES(key),
@@ -109,74 +97,68 @@ def cookie_decrypt(encrypted_value, key, ini_vector,cookie_database_version):
     decrypted = decryptor.update(encrypted_value) + decryptor.finalize()
 
     if cookie_database_version >= 24:
-          decrypted = decrypted[32:]
-
+        decrypted = decrypted[32:]
 
     return clean(decrypted)
 
+
 config = cookie_config()
 config.update(
-        {"init_vector": b" " * 16, "length": 16, "salt": b"saltysalt"}
-    )
+    {"init_vector": b" " * 16, "length": 16, "salt": b"saltysalt"}
+)
 
 password = None
-
 enc_key = get_encryption_key(config, password)
 
 for file in os.listdir("../browser_env/profiles"):
-    if file=="auth" or file =="notauth":
-        for elt in os.listdir(os.path.join("../browser_env/profiles",file)) :
-            pat = os.path.join(file,elt,"cookies")
+    if file == "auth" or file == "notauth":
+        for elt in os.listdir(os.path.join("../browser_env/profiles", file)):
+            pat = os.path.join(file, elt, "cookies")
 
             os.makedirs(pat, exist_ok=True)
 
-            for e in os.listdir(os.path.join("../browser_env/profiles",file,elt)):
+            for e in os.listdir(os.path.join("../browser_env/profiles", file, elt)):
 
-                    cookies_DB = os.path.join("../browser_env/profiles",file,elt,e,'Default/','Cookies')
-                    if os.path.exists(cookies_DB):
-                        try :
-                            conn = sqlite3.Connection(cookies_DB,timeout=10)
-                            conn.row_factory = sqlite3.Row 
-                            cursor = conn.cursor()
-                            sql_version = "select value from meta where key = 'version';"
-                            cookie_database_version = 0
-                            try:
-                                row = conn.execute(sql_version).fetchone()
-                                if row:
-                                    cookie_database_version = int(row[0])
-                            except sqlite3.OperationalError:
-                                pass
-
-
-                            cursor.execute("SELECT * FROM cookies")
-
-                            output_path = f"{pat}/{e}.json"
-
-                            with open(output_path, 'w', encoding='utf-8') as jsonl_file:
-                                data= []
-                                for row in cursor:
-                                    cookie_data = dict(row)
-                                    if 'encrypted_value' in cookie_data:
-                                        encrypted_value= cookie_data["encrypted_value"]
-                                        if encrypted_value[:3] in (b'v10', b'v11'):
-                                                decrypted_value = cookie_decrypt(
-                                                    encrypted_value,
-                                                    enc_key,
-                                                    config["init_vector"],
-                                                    cookie_database_version
-                                                )
-                                        
-                                        cookie_data['encrypted_value'] = decrypted_value
-                                        data.append(cookie_data)                           
-                                jsonl_file.write(json.dumps(data, ensure_ascii=False,indent=4))
-
+                cookies_DB = os.path.join("../browser_env/profiles", file, elt, e, 'Default/', 'Cookies')
+                if os.path.exists(cookies_DB):
+                    try:
+                        conn = sqlite3.Connection(cookies_DB, timeout=10)
+                        conn.row_factory = sqlite3.Row
+                        cursor = conn.cursor()
+                        sql_version = "select value from meta where key = 'version';"
+                        cookie_database_version = 0
+                        try:
+                            row = conn.execute(sql_version).fetchone()
+                            if row:
+                                cookie_database_version = int(row[0])
                         except sqlite3.OperationalError:
-                             print(f" Impossible de lire {cookies_DB} (Peut-être verrouillé par le navigateur ?)")
-                        except Exception as err:
-                            print(f" Erreur sur {e} : {err}")
+                            pass
 
-                    else:
-                        print(f"Pas de fichier Cookies trouvé pour {e}")
+                        cursor.execute("SELECT * FROM cookies")
 
-                        
-                        
+                        output_path = f"{pat}/{e}.jsonl"
+
+                        with open(output_path, 'w', encoding='utf-8') as jsonl_file:
+                            for row in cursor:
+                                cookie_data = dict(row)
+                                if 'encrypted_value' in cookie_data:
+                                    encrypted_value = cookie_data["encrypted_value"]
+                                    if encrypted_value[:3] in (b'v10', b'v11'):
+                                        decrypted_value = cookie_decrypt(
+                                            encrypted_value,
+                                            enc_key,
+                                            config["init_vector"],
+                                            cookie_database_version
+                                        )
+
+                                    cookie_data['encrypted_value'] = decrypted_value
+                                    # Write each record as a JSON object in one line
+                                    jsonl_file.write(json.dumps(cookie_data, ensure_ascii=False) + "\n")
+
+                    except sqlite3.OperationalError:
+                        print(f"Impossible de lire {cookies_DB} (Peut-être verrouillé par le navigateur ?)")
+                    except Exception as err:
+                        print(f"Erreur sur {e} : {err}")
+
+                else:
+                    print(f"Pas de fichier Cookies trouvé pour {e}")

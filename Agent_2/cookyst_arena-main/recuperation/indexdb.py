@@ -82,7 +82,7 @@ for file in os.listdir("../browser_env/profiles"):
                             
                                     
                             final =final = os.path.join(pat,f"{site}.json")
-                            datas.append(data)
+                            datas.append({"data":data})
                         with open(final, 'w', encoding='utf-8') as jsonl_file:
                                 # for obj in data :
                                     jsonl_file.write(json.dumps(data, ensure_ascii=False,indent=4))

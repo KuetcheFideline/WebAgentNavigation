@@ -147,7 +147,6 @@ def get_action_description(
                 prompt_constructor.state["segment"],
                 action_str,
             )
-            print("je suis ")
         
         case "id_html_nasc_tree":
             op_prompt = "%s #HTML Segment: %s"
