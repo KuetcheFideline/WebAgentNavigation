@@ -155,6 +155,8 @@ def action2str(
                 action_str = f"page_focus [{action['page_number']}]"
             case ActionTypes.STOP:
                 action_str = f"stop [{action['answer']}]"
+            case ActionTypes.CHECK:
+                action_str = f"check [{element_id}] where [{element_id}] is {semantic_element}"
             case ActionTypes.NONE:
                 action_str = "none"
             case _:
@@ -198,6 +200,8 @@ def action2str(
             case ActionTypes.SELECT_OPTION:
                 option = action.get("option", "")
                 action_str = f"#Select# {label} {option}"
+            case ActionTypes.CHECK:
+                action_str = f"#Check# {label}"
             case ActionTypes.NONE:
                 action_str = "None"
             case _:
@@ -240,6 +244,8 @@ def action2str(
                     action_str = f"finish('{action['answer']}')"
                 else:
                     action_str = f"finish()"
+            case ActionTypes.CHECK:
+                action_str = f"check('{label}')"
             case ActionTypes.SELECT_OPTION:
                 option = action.get("option", "")
                 action_str = f"select('{label}', '{option}')"
@@ -1396,11 +1402,11 @@ def execute_action(
             try:
                 if action["pw_code"]:
                     parsed_code = parse_playwright_code(action["pw_code"])
-                    print(f"parsed_code: {parsed_code}")
+                    # print(f"parsed_code: {parsed_code}")
                     locator_code = parsed_code[:-1]
-                    print(f"locator_code: {locator_code}")
+                    # print(f"locator_code: {locator_code}")
                     pw_action_args = parsed_code[-1].get('arguments', [])
-                    print(f"pw_action_args: {pw_action_args}")
+                    # print(f"pw_action_args: {pw_action_args}")
                     execute_playwright_select_option(locator_code, page, pw_action_args)
                     print(" SELECT_OPTION EXECUTED SUCCESSFULLY")
                 else:
@@ -1415,6 +1421,7 @@ def execute_action(
             if action["pw_code"]:
                 parsed_code = parse_playwright_code(action["pw_code"])
                 locator_code = parsed_code[:-1]
+                print(f"locator_code for CHECK: {locator_code}")
                 execute_playwright_check(locator_code, page)
             else:
                 raise NotImplementedError(
@@ -1562,7 +1569,6 @@ async def aexecute_action(
 
 
 def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
-    print("yoooooooooooooooooooooooooooooooooooooooo")
     print(code)
     match = re.search(
     r"(page\.[a-zA-Z0-9_]+\([^)]*\)(?:\.[a-zA-Z0-9_]+\([^)]*\))*)",
@@ -1580,7 +1586,6 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
         raise ValueError(
             f'Playwright action must start with "page.", but got {code}'
         )
-    print("yoooooooooooooooooooooooooooooooooooooooo")
     
     regex = r"\.(?![^\(\)]*\))"
     chain = re.split(regex, code)[1:]
@@ -1612,17 +1617,14 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
                         }
                     )
                 )
-        print("yoooooooooooooooooooooooooooooooooooooooo")
-
+    
         if len(funcs) != 1:
-            print("luuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu"  )
             raise ValueError(f"Fail to parse {item} in {code}")
 
         if (
             funcs[0]["function_name"]
             not in PLAYWRIGHT_LOCATORS + PLAYWRIGHT_ACTIONS
         ):
-            print("moooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo")
             raise ValueError(
                 f"Invalid playwright code {item}, ",
                 f"the function needs to be one of {PLAYWRIGHT_LOCATORS + PLAYWRIGHT_ACTIONS}",
@@ -1631,7 +1633,6 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
         parsed_chain.append(funcs[0])
 
     last_action = parsed_chain[-1]
-    print("yoooooooooooooooooooooooooooooooooooooooo")
 
     if last_action["function_name"] not in PLAYWRIGHT_ACTIONS:
         raise ValueError(
@@ -1738,11 +1739,10 @@ def receive_mail(url: str,user:str):
 
         mail.select('inbox')
         start_time = time.time()
-        duration = 40 
+        duration = 40
         n = 0
         code = ''
-        
-        while time.time()-start_time <duration:  
+        while n < time.time()-start_time<duration:  
             status, data = mail.search(None, 'ALL') 
             mail_ids = []
             for block in data:
@@ -1750,8 +1750,9 @@ def receive_mail(url: str,user:str):
 
             n += 1
           
+
             mail_id = mail_ids[-10:]
-            for id in mail_id :
+            for id in mail_id:
                 status, data = mail.fetch(id, '(RFC822)')
 
                 for response_part in data:
@@ -1775,7 +1776,7 @@ def receive_mail(url: str,user:str):
                                    cleane = soup.get_text()
                                    clean_content = re.sub(r'\s+', ' ', cleane)  
                                    mail_content= clean_content.strip()  
-                        else :
+                        else:
                                 mail_content = message.get_payload()
                         
 
@@ -1840,13 +1841,9 @@ def receive_mail(url: str,user:str):
         print("An error occurred:", e)
 
 
-
-
-
-
- 
-def receive_link(url: str, user:str,Email = "chris.martin.gdpr@gmail.com", Password = "fnhcgcqgbwwplwdx"):
+def receive_link(url: str,user:str,Email = "chris.martin.gdpr@gmail.com", Password = "fnhcgcqgbwwplwdx"):
     link  =  "https://mail.google.com/"
+
 
     SERVEUR = 'imap.gmail.com'
     url = urlparse(url).netloc
@@ -1857,12 +1854,14 @@ def receive_link(url: str, user:str,Email = "chris.martin.gdpr@gmail.com", Passw
         mail.login(Email, Password)
 
         mail.select('inbox')
+
+
         start_time = time.time()
         duration = 40 
         n = 0
         link= ''
         
-        while time.time()-start_time <duration:  
+        while time.time()-start_time <duration:   
             status, data = mail.search(None, 'ALL') 
             mail_ids = []
             for block in data:
@@ -1927,8 +1926,6 @@ def receive_link(url: str, user:str,Email = "chris.martin.gdpr@gmail.com", Passw
                                  if match :
                                 
                                     link = match.group(0)
-                               
-            
         return link 
 
     except imaplib.IMAP4.error as e:
@@ -1951,6 +1948,8 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
         if "[" in action_str
         else action_str.split()[0].strip()
     )
+    if "(" in action:
+        action = action.split("(")[0].strip()
     print("je suis l'action :", action_str)
     match action:
         case "click":
@@ -1975,6 +1974,7 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
             )
             if not match:
                 raise ActionParsingError(f"Invalid type action {action_str}")
+            print("action²:", action_str)
             element_id, text, enter_flag = (
                 match.group(1),
                 match.group(2),
@@ -2019,6 +2019,18 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
                 raise ActionParsingError(
                     f"Invalid tab_focus action {action_str}"
                 )
+            page_number = int(match.group(1))
+            return create_page_focus_action(page_number)
+        case "page_focus":
+            match = re.search(r"page_focus ?[\[\(](\d+)[\]\)]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid page_focus action {action_str}")
+            page_number = int(match.group(1))
+            return create_page_focus_action(page_number)
+        case "switch_tab":
+            match = re.search(r"switch_tab ?[\[\(](\d+)[\]\)]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid switch_tab action {action_str}")
             page_number = int(match.group(1))
             return create_page_focus_action(page_number)
         case "close_tab":
@@ -2066,5 +2078,16 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
         case "go_mail":
             url = receive_link(url,user)
             return create_our_goto_url_action(url=url, flag=True)
+        case "check":
+            match = re.search(r"check ?\[(\d+)\]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid check action {action_str}")
+            element_id = match.group(1)
+            # Utiliser pw_code pour créer l'action check
+            pw_code = f'page.get_by_test_id("{element_id}").check()'
+
+            print("returning check action with pw_code:", pw_code)
+            return create_click_action(element_id=element_id)
+            # return create_check_action(pw_code=pw_code)
 
     raise ActionParsingError(f"Invalid action {action_str}")

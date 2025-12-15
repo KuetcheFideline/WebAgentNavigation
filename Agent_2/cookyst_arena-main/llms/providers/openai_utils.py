@@ -7,7 +7,7 @@ import os
 import random
 import time
 from typing import Any
-
+# 
 import aiolimiter
 import openai
 from  openai import OpenAIError ,RateLimitError
@@ -178,7 +178,6 @@ def generate_from_openai_modal(
     print(response.output[0].content[0].text,"lundidididiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii")
 
     return response.output[0].content[0].text
-
     
 
 

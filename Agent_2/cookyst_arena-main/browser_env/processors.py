@@ -793,7 +793,7 @@ class TextObervationProcessor(ObservationProcessor):
             )
 
         self.browser_config = browser_info["config"]
-        # content = f"{tab_title_str}\n\n{content}"
+        content = f"{tab_title_str}\n\n{content}"
         return content
 
     def get_element_center(self, element_id: str) -> tuple[float, float]:

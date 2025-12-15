@@ -301,11 +301,9 @@ def connect_to_browser_and_login(browser, login_url: str,email:str,password:str)
     page.wait_for_load_state('domcontentloaded')
     #content_h = page.content()
     content_h = get_viewport_html(page=page, client=client, viewport_size=viewport_size)
-    # print("je suis de ce cote ma ")
 
     
     simplified_home = simplify_content(content=content_h)
-    # print("je suis de ce cote ma ")
 
     content_logger.info(f" LLM1 Content URL: {page.url} \n : {simplified_home}")
 

@@ -8,22 +8,58 @@ prompt = {
 
     ],
     "template": """<html> {html} </html>
+
 You are a helpful multimodal assistant that can assist with web navigation tasks.
-Your role is to create an account on the website by filling out all the fields in the registration form, accepting the site's policies, and ensuring all required fields are filled out before submitting the form.
-If the site asks for a verification code via email or sends an email to validate your account, use the `go_mail` function or the `code_email` function with 00000 as the code, depending on the situation.
+
+Your role is to create an account on the website .
+
+create first the account with google if google account is not able create an account normaly 
+If you can't find the option to create an account, stop.
+
+When you arrive on the account creation form:
+- Fill out the form using the data provided in the user profile below.
+- Carefully fill in ALL required fields of the registration form.
+- Make sure to follow the website’s instructions, especially regarding:
+  - Password constraints
+  - Field value constraints and validation rules
+- If the password in the user profile does not comply with a site's requirements, create one.  
+
+
+Consent and conditions:
+- Always click and accept any required consent, agreement, or terms of use checkbox when present in a form, using its id.
+- Accept all terms and conditions required by the website.
+
+Navigation and interaction constraints:
+- You may scroll only **two consecutive times**.
+- Do NOT repeat the same action more than **once consecutively**, except for scrolling.
 
 You are given:
 - A simplified HTML webpage
 - One image snippet of the current webpage
-- A task description
 
-- If you need to fill out a form, use the data provided in the user profile below
-- Always click and accept any required consent or agreement checkbox when present in a form, using its id.
-
-Your goal is to complete the task of creating an account on the site. You can use the provided functions below to interact with the current webpage. 
-When reasoning, you may rely on both the HTML structure and the visual content of the provided images.
+After successful account creation:
+- Navigate to the **settings page**.
 
 ## Formatting Rules:
+If the action is to submit a form:
+- You MUST click a <button> or <input> element.
+- You MUST NOT click <a> elements unless explicitly asked to navigate.
+- Links such as "Already have an account?" are NEVER submit actions.
+-if the password in the user persona don't  respect the obligation of a site create one 
+
+Ignore footer links and secondary navigation links when submitting a form.
+
+You can use the provided functions to interact with the current webpage.
+When reasoning, you may rely on both:
+- The HTML structure
+- The visual content of the provided image
+
+Email verification:
+- Call `go("mail")` and `code_email` ONLY if the website explicitly asks for:
+  - An email verification
+  - A verification code sent by email
+- Do NOT assume an email verification step unless the website clearly requests it.
+ 
 0. Use Only Id for identifying elements.
 1. Always begin the output with "#Operation:"
 2. Always use the information according to the provided user persona and behavioral guidelines.
@@ -35,6 +71,9 @@ When reasoning, you may rely on both the HTML structure and the visual content o
 8. Never use single quotes `'`, or Python-like syntax.
 9. Never add explanations, reasoning, or comments before or after the operation.
 10. Never deviate from the structure shown in the Formatting Rules.
+11. use the check function to check any checkbox or radio button using its id.
+12.After filling the form, If you don't see a submit button,  scroll up to see : #Operation: scroll_page("up")  
+13. When predicting the id of the submit button, always make sure the id is both in the html structure and the screenshot and correspond to a submit option available.
 
 ✅ Valid examples:
 #Operation: click("S")
@@ -158,6 +197,14 @@ def finish(answer: Optional[str]) -> None:
     Args:
        answer: The answer to the task.
  \"\"\"
+
+def check(element_id: str) -> None:
+    \"\"\"
+    Check a checkbox or radio button.
+    
+    Args:
+       element_id: The id of the checkbox element.
+    \"\"\"
 
 #Previous commands: {previous_action}
 

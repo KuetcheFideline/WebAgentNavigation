@@ -346,6 +346,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         #     #return page.context.new_cdp_session(page)
         #     return page.client
         # else:
+        if not hasattr(page, "client"):
+            page.client = page.context.new_cdp_session(page)
         return page.client  # type: ignore
 
     def _get_obs(self) -> dict[str, Observation]:
@@ -519,12 +521,11 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
         # mark our own labels and get the images
         items = self.page.evaluate(label_marker_script, items)
-        self.remove_image("output/")
+        # self.remove_image("output/")
 
         unique_name = f"marked_{uuid.uuid4().hex}.png"
         img_bytes = self.page.screenshot(path=f"output/{unique_name}")
 
-        img_bytes = self.page.screenshot(path=unique_name)
 
         marked_image = base64.b64encode(img_bytes).decode()
         
