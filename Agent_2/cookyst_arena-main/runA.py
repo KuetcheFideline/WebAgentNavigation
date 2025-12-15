@@ -91,7 +91,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--user_start_idx",type= int ,default=249)
     parser.add_argument("--user_end_idx",type= int ,default=250)
 
-    parser.add_argument("--test_start_idx", type=int, default=0)
+    parser.add_argument("--test_start_idx", type=int, default=3)
     parser.add_argument("--test_end_idx", type=int, default=1000)
     parser.add_argument("--sample", type=int, default=1)
    
@@ -292,7 +292,7 @@ def test(
                     logger.info(
                         "La tache  demande une authentification")
                     logger.info("Capturing initial storage state...")
-                    intentA = "Essaie de switcher entre les fenetres "
+                    intentA = "creer un compte avec google  "
 
                     trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 

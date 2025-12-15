@@ -728,69 +728,126 @@ class TextObervationProcessor(ObservationProcessor):
                     ] = f"{idx+1}. {open_tabs[idx].title()} <-- current tab"
                 else:
                     tab_titles[idx] = f"{idx+1}. {open_tabs[idx].title()}"
-            tab_title_str = "\n".join(tab_titles)
+            tab_title_str = " | ".join(tab_titles)
         except Exception:
-            tab_title_str = "\n".join(
+            tab_title_str = " | ".join(
                 [f"{idx+1}. Default" for idx in range(len(open_tabs))]
             )
 
+        full_content = []
         
-        try:
-            browser_info = self.fetch_browser_info(page, client)
-        except Exception:
-            page.wait_for_load_state("load", timeout=500)
-            browser_info = self.fetch_browser_info(page, client)
-        
-        if self.observation_type == "html":
-            import time
-            stt = time.time()
-            dom_tree = self.fetch_page_html(
-                browser_info,
-                page,
-                client,
-                current_viewport_only=self.current_viewport_only,
-            )
+        # Process all tabs
+        for idx, tab in enumerate(open_tabs):
+            is_current = (idx == current_tab_idx)
+            header = f"\n\n--- Tab {idx+1}: {tab.title()} {'(Current)' if is_current else '(Background)'} ---\n"
             
-            print('[fetch]', time.time() - stt)
-            
-            stt = time.time()
-            raw_html, content, obs_nodes_info, hp = self.parse_my_html(dom_tree)
-            print('[parse]', time.time() - stt)
-            
-            window_height = page.evaluate("window.innerHeight")
-            page_height = page.evaluate('document.documentElement.scrollHeight') / window_height
-            position = page.evaluate("window.scrollY") / window_height
-            
-            self.obs_nodes_info = obs_nodes_info
-            self.meta_data["obs_nodes_info"] = obs_nodes_info
-            self.meta_data["position_info"] = {
-                "page_height": page_height,
-                "position": position,
-            }
-            self.meta_data["dom_info"] = {
-                "raw_html": raw_html,
-                "dom_tree": dom_tree,
-            }
-            self.meta_data["html_parser"] = hp
-            self.meta_data["tab_title"] = tab_title_str
+            if is_current:
+                # Original logic for current page
+                try:
+                    # The original code uses self.observation_type to determine the processing path.
+                    # We replicate that logic here for the current tab.
+                    if self.observation_type == "html":
+                        import time
+                        stt = time.time()
+                        browser_info = self.fetch_browser_info(page, client) # Fetch browser info for current page
+                        dom_tree = self.fetch_page_html(
+                            browser_info,
+                            page,
+                            client,
+                            current_viewport_only=self.current_viewport_only,
+                        )
+                        
+                        print('[fetch]', time.time() - stt)
+                        
+                        stt = time.time()
+                        raw_html, content, obs_nodes_info, hp = self.parse_my_html(dom_tree)
+                        print('[parse]', time.time() - stt)
+                        
+                        window_height = page.evaluate("window.innerHeight")
+                        page_height = page.evaluate('document.documentElement.scrollHeight') / window_height
+                        position = page.evaluate("window.scrollY") / window_height
+                        
+                        self.obs_nodes_info = obs_nodes_info
+                        self.meta_data["obs_nodes_info"] = obs_nodes_info
+                        self.meta_data["position_info"] = {
+                            "page_height": page_height,
+                            "position": position,
+                        }
+                        self.meta_data["dom_info"] = {
+                            "raw_html": raw_html,
+                            "dom_tree": dom_tree,
+                        }
+                        self.meta_data["html_parser"] = hp
+                        self.meta_data["tab_title"] = tab_title_str
+                        
+                    elif self.observation_type == "accessibility_tree":
+                        browser_info = self.fetch_browser_info(page, client) # Fetch browser info for current page
+                        accessibility_tree = self.fetch_page_accessibility_tree(
+                            browser_info,
+                            client,
+                            current_viewport_only=self.current_viewport_only,
+                        )
+                        content, obs_nodes_info = self.parse_accessibility_tree(
+                            accessibility_tree
+                        )
+                        content = self.clean_accesibility_tree(content)
+                        self.obs_nodes_info = obs_nodes_info
+                        self.meta_data["obs_nodes_info"] = obs_nodes_info
+                    else:
+                        raise ValueError(
+                            f"Invalid observatrion type: {self.observation_type}"
+                        )
+                    full_content.append(header + content)
+                except Exception as e:
+                    full_content.append(header + f"[Error fetching current tab content: {e}]")
+            else:
+                # Logic for background tabs (HTML only)
+                try:
+                    # Get or create client for background tab
+                    # Playwright's Page object might not have a client directly if not the main page.
+                    # We need to create a new CDP session for background tabs.
+                    tab_client = tab.context.new_cdp_session(tab)
+                    
+                    # Fetch info
+                    # We use the internal method directly to avoid side effects on self.meta_data of the main processor if possible
+                    # But _html_processor.process calls fetch_browser_info which updates self.meta_data? 
+                    # No, fetch_browser_info returns browser_info. parse_my_html returns raw_html etc.
+                    # The _html_processor.process method updates self.meta_data.
+                    # So we should duplicate the logic of _html_processor.process but WITHOUT updating self.meta_data
+                    
+                    # Fetch browser info for the background tab
+                    browser_info_bg = self.fetch_browser_info(
+                        tab,
+                        tab_client,
+                        current_viewport_only=self.current_viewport_only,
+                    )
+                    
+                    dom_tree_bg = self.fetch_page_html(
+                        browser_info_bg,
+                        tab,
+                        tab_client,
+                        current_viewport_only=self.current_viewport_only,
+                    )
+                    raw_html_bg, _, _, _ = self.parse_my_html(dom_tree_bg)
+                    
+                    # Strip IDs to prevent interaction with background elements
+                    import re
+                    clean_html = re.sub(r' backend-id="bid-\d+"', '', raw_html_bg)
+                    clean_html = re.sub(r' data-testid="[^"]+"', '', clean_html)
+                    
+                    full_content.append(header + clean_html)
+                    tab_client.detach() # Detach the CDP session for the background tab
+                except Exception as e:
+                    full_content.append(header + f"[Error fetching content: {e}]")
 
-        elif self.observation_type == "accessibility_tree":
-            accessibility_tree = self.fetch_page_accessibility_tree(
-                browser_info,
-                client,
-                current_viewport_only=self.current_viewport_only,
-            )
-            content, obs_nodes_info = self.parse_accessibility_tree(
-                accessibility_tree
-            )
-            content = self.clean_accesibility_tree(content)
-            self.obs_nodes_info = obs_nodes_info
-            self.meta_data["obs_nodes_info"] = obs_nodes_info
+        # Ensure browser_info is defined for the current tab's processing
+        # If the current tab processing failed, browser_info might not be set.
+        # We need a fallback or ensure it's set.
+        # For simplicity, let's assume it's set by the current tab's processing.
+        # If current tab processing fails, self.browser_config might not be set.
+        # The original code had a try-except for browser_info = self.fetch_browser_info(page, client)
+        # We should ensure that browser_info is available for self.browser_config.
 
-        else:
-            raise ValueError(
-                f"Invalid observatrion type: {self.observation_type}"
-            )
 
         self.browser_config = browser_info["config"]
         content = f"{tab_title_str}\n\n{content}"

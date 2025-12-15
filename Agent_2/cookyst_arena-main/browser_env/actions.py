@@ -1953,7 +1953,7 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
     print("je suis l'action :", action_str)
     match action:
         case "click":
-            match = re.search(r"click ?\[(\d+)\]", action_str)
+            match = re.search(r"click ?\[(.+)\]", action_str)
             if not match:
                 raise ActionParsingError(f"Invalid click action {action_str}")
             element_id = match.group(1)
@@ -2019,19 +2019,19 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
                 raise ActionParsingError(
                     f"Invalid tab_focus action {action_str}"
                 )
-            page_number = int(match.group(1))
+            page_number = int(match.group(1)) - 1
             return create_page_focus_action(page_number)
         case "page_focus":
             match = re.search(r"page_focus ?[\[\(](\d+)[\]\)]", action_str)
             if not match:
                 raise ActionParsingError(f"Invalid page_focus action {action_str}")
-            page_number = int(match.group(1))
+            page_number = int(match.group(1)) - 1
             return create_page_focus_action(page_number)
         case "switch_tab":
             match = re.search(r"switch_tab ?[\[\(](\d+)[\]\)]", action_str)
             if not match:
                 raise ActionParsingError(f"Invalid switch_tab action {action_str}")
-            page_number = int(match.group(1))
+            page_number = int(match.group(1)) - 1
             return create_page_focus_action(page_number)
         case "close_tab":
             return create_page_close_action()

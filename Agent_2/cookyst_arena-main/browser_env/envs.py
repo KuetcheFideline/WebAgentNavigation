@@ -354,6 +354,17 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         obs = self.observation_handler.get_observation(
             self.page, self.get_page_client(self.page)
         )
+        
+        # Merge cached visual markers into obs_nodes_info
+        if hasattr(self, "cached_marker_items"):
+            for item in self.cached_marker_items:
+                label = item["label"]
+                self.observation_handler.action_processor.obs_nodes_info[label] = {
+                    "union_bound": item["union_bound"],
+                    "backend_id": item["backend_id"],
+                    "text": item["text"]
+                }
+                
         return obs
 
     def _get_obs_metadata(self) -> dict[str, ObservationMetadata]:
@@ -491,7 +502,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
     def modify_page(self):
-        self.page.wait_for_timeout(500)
+        self.page.wait_for_timeout(2000)
         try:
             self.page.evaluate(remove_id_script)
         except:
@@ -523,6 +534,15 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         items = self.page.evaluate(label_marker_script, items)
         # self.remove_image("output/")
 
+        # Screenshot for all tabs
+        for idx, tab in enumerate(self.context.pages):
+            try:
+                # Use a distinct name for each tab's screenshot
+                tab_screenshot_name = f"tab_{idx}_{uuid.uuid4().hex}.png"
+                tab.screenshot(path=f"output/{tab_screenshot_name}")
+            except Exception as e:
+                print(f"Failed to screenshot tab {idx}: {e}")
+
         unique_name = f"marked_{uuid.uuid4().hex}.png"
         img_bytes = self.page.screenshot(path=f"output/{unique_name}")
 
@@ -531,6 +551,21 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
         self.page.evaluate(remove_label_mark_script)
         
+        # Update obs_nodes_info with visual markers
+        self.cached_marker_items = []
+        for item in items:
+            if "label" in item:
+                label = item["label"]
+                rect = item.get("rect", {})
+                x, y, w, h = rect.get("x", 0), rect.get("y", 0), rect.get("width", 0), rect.get("height", 0)
+                
+                self.cached_marker_items.append({
+                    "label": label,
+                    "union_bound": [x, y, w, h],
+                    "backend_id": str(item.get("backendNodeId", "")),
+                    "text": item.get("text", "")
+                })
+
         return {
             "raw_image": raw_image,
             "marked_image": marked_image,
