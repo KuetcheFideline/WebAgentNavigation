@@ -1144,7 +1144,6 @@ class NewUserPromptConstructor(PromptConstructor):
                     exact_act = m[0]
                     param = m[1:]
                 else:
-                    # print(m,"moi aussi je suis la dans le m")
                     exact_act = m
                     param = []
                 

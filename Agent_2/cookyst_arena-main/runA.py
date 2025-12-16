@@ -223,7 +223,7 @@ def test(
         country=args.country.lower()
     )
 
-
+    Sites = []
     for config_file in tqdm(config_file_list):
         initial_storage_state = None
         diff_filepath = None
@@ -243,8 +243,8 @@ def test(
                 url = _c["start_url"]
 
                 login = _c["require_login"]
-                google_login = _c["google_login"]
-                classic_login = False
+                # login = _c["google_login"]
+                # classic_login = False
 
 
             if "map" in _c.get("sites", []):
@@ -253,15 +253,39 @@ def test(
             logger.info(f"[Config file]: {config_file}")
             obs,info = env.reset(options= {"config_file":config_file})
             print(f"Environment reset test.{env}")
+            initial_storage_state = env.get_all_storage_state()
+            Sites = os.path.join(f"config_files/Sites/{user}")
 
-            if  google_login :
+            print(Sites)
+            time.sleep(20)
+
+            if  login :
 
                 user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
                 email = user_profile["email"]
                 password = user_profile["password"]
                 print(email)
 
-                initial_storage_state = env.get_all_storage_state()
+
+                # # verifier si nous sommes deja passer sur ce site 
+                #         # si oui   - va sur la page  mon compte sur le site ca peut etre un bonhomme ou sur mon compte ou un equivalent si un utilisateur existe retoure exist 
+                #                                                     # si non   - va sur la page de login et arrete toi 
+                #                                                     #  est ce qui' possibiliter de creer un compte ou de se loger avec google  si oui retpurne 
+                #                                                     #      google_login  
+                #                                                     # si non normal 
+                #                                                             remplir form  (remplir le formualaire arrete toi quand tu as finis fin ) 
+                #                                                             verifier form   [si le form est rempli correctement retourn ok  si non retroune les champs manquant manquenat ]
+                #                                                                                      valider /completer form
+
+                #                                                             submit form si on demande le mail ou le code il apllele sin non la connectrion ou la creation s'est bien passer 
+
+                #                                                             est ce que a soumise est ok 
+
+
+                # # creer un compte      
+                # # _ detecte la page de creation de compte  ok  
+                #      est ce qu'il est possible de se logger ou de creer un compte avec google si oui retourne google si non norma '
+                # #                                      
 
                 login_with_google= env.create_account_with_google(url,email,password)
                
@@ -292,7 +316,7 @@ def test(
                     logger.info(
                         "La tache  demande une authentification")
                     logger.info("Capturing initial storage state...")
-                    intentA = "creer un compte avec google  "
+                    intentA = " Authenticate :creer un compte avec google  "
 
                     trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
 
@@ -342,6 +366,8 @@ def test(
 
 
             env.save_storage(initial_storage_state, diff_filepath,url)
+            if url not in  Sites :
+                Sites.append(url)
         except OpenAIError as e:
            
             logger.error(f"[OpenAI Error] {repr(e)}")

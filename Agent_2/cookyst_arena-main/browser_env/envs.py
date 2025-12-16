@@ -25,7 +25,7 @@ from playwright.sync_api import (
 import uuid
 from .utils import diff_dictionaries
 from .auto_login_with_google import connect_to_browser_and_login
-from .actions import Action, execute_action, get_action_space
+from .actions import Action, ActionTypes, execute_action, get_action_space
 from .processors import ObservationHandler, ObservationMetadata
 from .utils import (
     AccessibilityTree,
@@ -355,15 +355,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             self.page, self.get_page_client(self.page)
         )
         
-        # Merge cached visual markers into obs_nodes_info
-        if hasattr(self, "cached_marker_items"):
-            for item in self.cached_marker_items:
-                label = item["label"]
-                self.observation_handler.action_processor.obs_nodes_info[label] = {
-                    "union_bound": item["union_bound"],
-                    "backend_id": item["backend_id"],
-                    "text": item["text"]
-                }
+        # obs_nodes_info is already correctly populated by processors.py
+        # with numeric node_ids as keys and label fields in the values
+        # No need to merge cached_marker_items here
                 
         return obs
 
@@ -454,6 +448,13 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         except Exception as e:
             print(e,"l'erreir q")
             fail_error = str(e)
+
+        if action["action_type"] == ActionTypes.PAGE_FOCUS:
+            print(f"Tab switch detected to page {action['page_number']}. Invalidating cache...")
+            if hasattr(self, 'cached_marker_items'):
+                self.cached_marker_items = []
+            time.sleep(1.0)
+            print("Cache invalidated and tab loaded. Proceeding with observation capture...")
 
         # hard sleep TODO[shuyanzh] suboptimal, may need to check network
         if self.sleep_after_execution > 0:

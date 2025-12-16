@@ -1953,7 +1953,7 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
     print("je suis l'action :", action_str)
     match action:
         case "click":
-            match = re.search(r"click ?\[(.+)\]", action_str)
+            match = re.search(r"click ?\[(\d+)\]", action_str)
             if not match:
                 raise ActionParsingError(f"Invalid click action {action_str}")
             element_id = match.group(1)

@@ -413,9 +413,13 @@ class TextObervationProcessor(ObservationProcessor):
 
         html, labeled_elems = dfs(0, 0)
         
-        # with open('output/raw.html', 'w') as f:
-        #     f.write(html)
-        print(labeled_elems)
+        with open('output/raw.html', 'w') as f:
+            f.write(html)
+
+        with open('output/labeled_elems.json', 'w') as f:
+            json.dump(labeled_elems, f)
+        
+        # print(labeled_elems)
             
         args = {
             'use_position': False,
