@@ -8,9 +8,10 @@ import subprocess
 import tempfile
 import time
 from pathlib import Path
-
+import re
 from openai import OpenAIError
 from tqdm import tqdm
+import json5
 
 from agent import (Agent, PromptAgent, TeacherForcingAgent,
                    construct_agent)
@@ -22,6 +23,7 @@ from browser_env.helper_functions import (RenderHelper,
                                           get_action_description)
 from evaluation_harness import evaluator_router
 from utils.utils import load_persona_from_json
+from CompteParams import CompteParams
 
 # Configuration du logging
 LOG_FOLDER = "log_files"
@@ -135,8 +137,9 @@ def early_stop(trajectory: Trajectory, max_steps: int, thresholds: dict[str, int
     return False, ""
 
 
+    
+
 def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env,agent,url,user) -> tuple[Trajectory, dict, list[dict]]:
- 
     user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
     trajectory:Trajectory =[{"observation": obs, "info": info}]
     meta_data  = {"action_history": ["None"], "user_persona": user_profile}
@@ -149,7 +152,8 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
                    
                 else:
                     try:
-                        prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
+                        print(meta_data,"je veux comprendre ")
+                        prompt = agent.prompt_constructor.construct(trajectory =trajectory, intent=intent, meta_data=meta_data)
                         action = agent.next_action(trajectory, intent, meta_data=meta_data,url=url)
                     except ValueError as e:
                         logger.error(f"Error during agent action generation: {e}")
@@ -174,10 +178,11 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
 
 
 
+
                 if action["action_type"] == ActionTypes.STOP:
+                  
                     break
 
-                # print("je suis l'actii a executer :", action)
                
                 obs, _, terminated, _, info = env.step(action)
 
@@ -198,6 +203,114 @@ def save_storage_state(env, initial_storage_state, diff_filepath, url):
         logger.error(f"[Storage Save Error] {repr(storage_error)}")
 
 
+def Continuation(target ):
+    target = target.strip()
+    signal_patterns = [
+    r"finish\(\s*['\"]on_login_page['\"]\s*\)",
+    r"finish\(\s*['\"]login_not_found['\"]\s*\)",
+    r"finish\(\s*['\"]on_registration_page['\"]\s*\)",
+    r"finish\(\s*['\"]registration_not_found['\"]\s*\)",
+
+    r"finish\(\s*['\"]google_login['\"]\s*\)",
+    r"finish\(\s*['\"]login_classic['\"]\s*\)",
+    r"finish\(\s*['\"]no_login_method['\"]\s*\)",
+    r"finish\(\s*['\"]connexion['\"]\s*\)",
+
+    r"finish\(\s*['\"]account_selection['\"]\s*\)",
+    r"finish\(\s*['\"]google_login_error['\"]\s*\)",
+    r"finish\(\s*['\"]missing_data['\"]\s*\)",
+   
+    r"finish\(\s*['\"]form_to_fill['\"]\s*\)",
+    r"finish\(\s*['\"]form_filled['\"]\s*\)",
+    r"finish\(\s*['\"]form_okay['\"]\s*\)",
+    r"finish\(\s*['\"]field_to_complete\[[^\]]+\]['\"]\s*\)",
+
+    r"finish\(\s*['\"]form_submitted['\"]\s*\)",
+    r"finish\(\s*['\"]submit_not_found['\"]\s*\)",
+
+    r"finish\(\s*['\"]no_verification_needed['\"]\s*\)",
+    r"finish\(\s*['\"]verification_complete['\"]\s*\)",
+    r"finish\(\s*['\"]already_verified['\"]\s*\)",
+
+    r"finish\(\s*['\"]login_success['\"]\s*\)",
+    r"finish\(\s*['\"]login_failed['\"]\s*\)",
+    r"finish\(\s*['\"]verification_pending['\"]\s*\)",
+    r"finish\(\s*['\"]user_exist['\"]\s*\)",
+    r"finish\(\s*['\"]google_login_success['\"]\s*\)",
+] 
+    
+    equivalence = [
+    "on_login_page",          # finish('on_login_page')
+    "login_not_found",        # finish('login_not_found')
+    "on_registration_page",   # finish('on_registration_page')
+    "registration_not_found", # finish('registration_not_found')
+    "google",                # finish('google_login')
+    "classic",               # finish('login_classic')
+    "noLoginMethod",         # finish('no_login_method')
+    "connexion",
+    "googleSelection",         # finish('google_login_success')
+    "googleError",           # finish('google_login_error')
+    "form_filled",            # finish('form_filled')
+    "form_to_fill",
+    "missingData",           # finish('missing_data')
+    "formOkay",              # finish('form_okay')
+    "fieldToComplete",       # finish('field_to_complete[...]')
+    "form_submitted",         # finish('form_submitted')
+    "submitNotFound",        # finish('submit_not_found')
+    "noVerificationNeeded",  # finish('no_verification_needed')
+    "verificationComplete",  # finish('verification_complete')
+    "alreadyVerified",       # finish('already_verified')
+    "loginSuccess",          # finish('login_success')
+    "loginFailed",           # finish('login_failed')
+    "verificationPending",   # finish('verification_pending')
+    "user_exist",
+    "googleSelection",       # finish('google_login_success')
+] 
+    # Check for JSON list in finish()
+    json_match = re.search(r"finish\(\s*(\[[\s\S]*\])\s*\)", target)
+    if json_match:
+        json_content = json_match.group(1)
+        print("JSON to parse:\n", json_content)
+        try:
+            json_content = json_content.replace("False", "false").replace("True", "true")
+
+            json_data = json5.loads(json_content)
+            print("Detected JSON action list")
+            return ("execute_json", json_data)
+        except json.JSONDecodeError as e:
+            print(f"Failed to parse JSON in finish(): {e}")
+
+    for regex,act in zip(signal_patterns,equivalence):
+        match = re.search(regex,target)
+        if match :
+            print("matcht de found ",act )
+            return act 
+    return None
+
+
+
+PERSISTENCE_FILE = "sites_data.json"
+
+def load_sites_data():
+    if os.path.exists(PERSISTENCE_FILE):
+        try:
+            with open(PERSISTENCE_FILE, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading persistence file: {e}")
+    return {"Sites": [], "NoSites": []}
+
+def save_sites_data(sites, no_sites):
+    try:
+        with open(PERSISTENCE_FILE, 'w') as f:
+            json.dump({
+                "Sites": list(set(sites)), 
+                "NoSites": list(set(no_sites))
+            }, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving persistence file: {e}")
+
+
 def test(
     args: argparse.Namespace,
     agent: Agent | PromptAgent | TeacherForcingAgent,
@@ -208,6 +321,8 @@ def test(
         "parsing_failure": args.parsing_failure_th,
         "repeating_action": args.repeating_action_failure_th,
     }
+    
+
 
     env = ScriptBrowserEnv(
         persistent=args.persistent,
@@ -223,7 +338,9 @@ def test(
         country=args.country.lower()
     )
 
-
+    data = load_sites_data()
+    Sites = data.get("Sites", [])
+    NoSites = data.get("NoSites", [])
     for config_file in tqdm(config_file_list):
         initial_storage_state = None
         diff_filepath = None
@@ -232,6 +349,12 @@ def test(
         if match :
             user = match.group(1)  
         user = user.replace("/","_")
+        
+        storage_dir = Path(args.result_dir) / user / "storage_state" / args.connected / args.consent
+        traces_dir = Path(args.result_dir) / user / "traces" / args.connected / args.consent
+        storage_dir.mkdir(parents=True, exist_ok=True)
+        (storage_dir / "login").mkdir(parents=True, exist_ok=True)
+        traces_dir.mkdir(parents=True, exist_ok=True)
 
 
 
@@ -251,97 +374,54 @@ def test(
                 continue
            
             logger.info(f"[Config file]: {config_file}")
-            obs,info = env.reset(options= {"config_file":config_file})
-            print(f"Environment reset test.{env}")
-
-            if  google_login :
-
-                user_profile = load_persona_from_json("./user/personas_final_v2.json",user)
-                email = user_profile["email"]
-                password = user_profile["password"]
-                print(email)
-
-                initial_storage_state = env.get_all_storage_state()
-
-                login_with_google= env.create_account_with_google(url,email,password)
-               
-                if isinstance(login_with_google,bool):
-                    continue
-
-                if isinstance(login_with_google,dict) :
-                    classic_login = True
-                else :
-                    page = login_with_google    
-                    env.page = page
-                    client = env.page.context.new_cdp_session(env.page)
-                    if env.text_observation_type == "accessibility_tree":
-                        client.send("Accessibility.enable")
-                    env.page.client = client
-                    print(f" Login Google réussi ! Page mise à jour : {env.page.url}")
-                    obs = env._get_obs()
-                    info = env._get_obs_metadata()
-                    info = {
-                        "page": env.page,
-                        "fail_error": "",
-                        "observation_metadata": info,
-                    }
-                    print(f"Observation rafraîchie, le modèle voit maintenant la page connectée")
-                               
-           
-            if  classic_login :
-                    logger.info(
-                        "La tache  demande une authentification")
-                    logger.info("Capturing initial storage state...")
-                    intentA = "creer un compte avec google  "
-
-                    trajectoryA ,meta_dataA, traceA = task_execution_command(obs,info,intentA,max_steps, early_stop_thresholds,env,agent,url,user)
-
-                    # ormA = agent.verify_action(trajectoryA,intentA,meta_dataA)
-                    # response_textA = ormA.output[0].content[0].text,,"verdict" :response_textA
-                    resultA = {"id": task_id, "trace": traceA}
-                    tracesA_dir = Path(args.result_dir) /user / "tracesA" / args.connected / args.consent
-                    tracesA_dir.mkdir(parents=True, exist_ok=True)
-                    with open(tracesA_dir / f"traceA_{task_id}.json", "w") as f:
-                        json.dump({"id": task_id, "trace": resultA}, f, indent=4)
-
-            logger.info("Starting main task execution...")
-
-            logger.info(f"[Config_file]:{config_file}")
-            logger.info(f"[Intent]: {intent}")
             agent.reset(config_file)
 
+            obs,info = env.reset(options= {"config_file":config_file})
+            print(f"Environment reset test.{env}")
+            diff_filepath = storage_dir / "login"/f"{task_id}.json"
 
-            if  not   login :
-                initial_storage_state = env.get_all_storage_state()
-            trajectory ,meta_data , trace= task_execution_command(obs,info,intent,max_steps, early_stop_thresholds,env,agent,url,user)
-            # orm = agent.verify_action(trajectory,intent,meta_data)
-            # response_text = orm.output[0].content[0].text,"verdict" :response_text
-            result = {"id": task_id, "trace": trace}
-            storage_dir = Path(args.result_dir) / user /"storage_state" / args.connected / args.consent
-            diff_filepath = storage_dir / f"{task_id}.json"
+            initial_storage_state = env.get_all_storage_state()
+            result = ""
 
-
-
-            traces_dir = Path(args.result_dir)/user / "traces" / args.connected / args.consent
-
-            traces_dir.mkdir(parents=True, exist_ok=True)
+            Sites.append("https://elpais.com")
            
-           
+            if url in  NoSites :
+                print("impossible de creer un compte sur ce site")
+                continue
+            elif url in Sites :
+                print("compte deja creer sur ce site, verification du statut...")
+                engine = CompteParams(env, agent, task_execution_command, Continuation)
+                result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Statut")
+            else : 
+                print("creation du compte sur ce site")
+                engine = CompteParams(env, agent, task_execution_command, Continuation)
+                result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds)
+                
+                if result == "SUCCESS":
+                        Sites.append(url)
+                        save_sites_data(Sites, NoSites)
+            initial_storage_state = env.get_all_storage_state()
+            diff_filepath = storage_dir / "login" / f"{task_id}.json"
+            env.save_storage(initial_storage_state, diff_filepath, url)
 
+            
+            if result == "SUCCESS":
+               
+                logger.info("Starting main execution...")
+                obs, info = env.oldPage()
+                trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
+                
+                trace_result = {"id": task_id, "trace": trace}
+                with open(traces_dir / f"trace_{task_id}.json", "w") as f:
+                    json.dump(trace_result, f, indent=4)
 
-            with open(traces_dir / f"trace_{task_id}.json", "w") as f:
-                json.dump(result, f, indent=4)
+                final_storage_state = env.get_all_storage_state()
+                final_diff_filepath = storage_dir / f"{task_id}.json"
+                env.save_storage(final_storage_state, final_diff_filepath, url)
+            else:
+                NoSites.append(url)
+                save_sites_data(Sites, NoSites)
 
-            fileO = os.getcwd()
-
-            output_dir = Path(fileO) / "output"
-            for file_path in output_dir.iterdir():
-                if file_path.is_file():
-                    file_path.unlink()  
-           
-
-
-            env.save_storage(initial_storage_state, diff_filepath,url)
         except OpenAIError as e:
            
             logger.error(f"[OpenAI Error] {repr(e)}")
@@ -376,10 +456,6 @@ def prepare(args: argparse.Namespace) -> None:
     args.result_dir = result_dir
     Path(result_dir).mkdir(parents=True, exist_ok=True)
     logger.info(f"Created result dir: {result_dir}")
-   
-    # (Path(result_dir) / "traces").mkdir(exist_ok=True)
-    # (Path(result_dir) / "storage_state").mkdir(exist_ok=True)
-
     with open(Path(result_dir) / "log_files.txt", "a+") as f:
         f.write(f"{LOG_FILE_NAME}\n")
 
@@ -435,7 +511,6 @@ if __name__ == "__main__":
             logger.info("No tasks left to run.")
         else:
             logger.info(f"Total tasks to run: {len(test_file_list)}")
-                     # Override args for test run
             args.render = False
             args.save_trace_enabled = True
             args.current_viewport_only = True

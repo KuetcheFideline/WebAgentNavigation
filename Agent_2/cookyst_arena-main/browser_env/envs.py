@@ -350,6 +350,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             page.client = page.context.new_cdp_session(page)
         return page.client  # type: ignore
 
+
+   
     def _get_obs(self) -> dict[str, Observation]:
         obs = self.observation_handler.get_observation(
             self.page, self.get_page_client(self.page)
@@ -422,10 +424,23 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "observation_metadata": observation_metadata,
             "name":images["name"],
         } 
-
+        print("je suis passer et j'ai fais mon tafe")
  
         return (observation, info)
 
+    def oldPage(self) :
+       images = self.modify_page()
+       observation = self._get_obs()
+       observation_metadata = self._get_obs_metadata()
+       info = {
+            "page": DetachedPage(self.page.url, ""),
+            "fail_error": "",
+            "observation_metadata": observation_metadata,
+            "name":images["name"],
+        } 
+
+        
+       return (observation, info)
     def save_trace(self, trace_path: str | Path) -> None:
         if self.save_trace_enabled:
             self.context.tracing.stop(path=trace_path)
@@ -433,6 +448,59 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
     def close(self) -> None:
         if self.reset_finished:
             self.context_manager.__exit__()
+
+
+    
+    def login_existing_account_popup( self) -> None:
+            labels = ["Suivant", "Next", "Continue","Siguiente"]
+
+
+            try:
+                
+                self.page.locator('li:has-text("chris.martin.gdpr@gmail.com")').first.click()
+                time.sleep(5)
+                password_input = self.page.locator('input[type="password"][name="Passwd"]')
+                if password_input.is_visible():
+                    password_input.fill("Password@2025_RGPD_Audit!")
+                    time.sleep(1)
+                    next_button = None
+                    for label in labels:
+                        loc =self.page.locator(f'button:has-text("{label}")')
+                        if loc.is_visible():
+                            next_button = loc
+                            break
+                    if next_button.is_visible():
+                        next_button.click()
+                        time.sleep(5)
+                    continue_button = None
+                    for label in labels:
+                        loc = self.page.locator(f'button:has-text("{label}")')
+                        if loc.is_visible():
+                            continue_button = loc
+                            break
+
+                    if continue_button:
+                        continue_button.click()
+                        time.sleep(3)
+
+
+                else:
+                    continue_button = None
+                    for label in labels:
+                        loc = self.page.locator(f'button:has-text("{label}")')
+                        if loc.is_visible():
+                            continue_button = loc
+                            break
+
+                    if continue_button:
+                        continue_button.click()
+                        time.sleep(5)
+            except Exception as error:
+                pages = self.context.pages
+                print(pages[1])
+                self.page = pages[1]
+ 
+
 
     def step(
         self, action: Action
@@ -502,14 +570,16 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
     def modify_page(self):
-        self.page.wait_for_timeout(2000)
+        self.page.wait_for_timeout(500) 
         try:
             self.page.evaluate(remove_id_script)
         except:
             pass
         
-        img_bytes = self.page.screenshot(path="output/screenshot_raw.png")
-        raw_image = base64.b64encode(img_bytes).decode()
+        # OPTIMIZATION: Removed raw screenshot to save time
+        # img_bytes = self.page.screenshot(path="output/screenshot_raw.png")
+        # raw_image = base64.b64encode(img_bytes).decode()
+        raw_image = "" # Placeholder
         
         self.page.evaluate(mix_marker_script)
         self.page.wait_for_timeout(100)
@@ -534,17 +604,18 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         items = self.page.evaluate(label_marker_script, items)
         # self.remove_image("output/")
 
-        # Screenshot for all tabs
-        for idx, tab in enumerate(self.context.pages):
-            try:
-                # Use a distinct name for each tab's screenshot
-                tab_screenshot_name = f"tab_{idx}_{uuid.uuid4().hex}.png"
-                tab.screenshot(path=f"output/{tab_screenshot_name}")
-            except Exception as e:
-                print(f"Failed to screenshot tab {idx}: {e}")
+        # OPTIMIZATION: Commented out multi-tab screenshots to prevent timeouts
+        # for idx, tab in enumerate(self.context.pages):
+        #     try:
+        #         # Use a distinct name for each tab's screenshot
+        #         tab_screenshot_name = f"tab_{idx}_{uuid.uuid4().hex}.png"
+        #         tab.screenshot(path=f"output/{tab_screenshot_name}")
+        #     except Exception as e:
+        #         print(f"Failed to screenshot tab {idx}: {e}")
 
         unique_name = f"marked_{uuid.uuid4().hex}.png"
-        img_bytes = self.page.screenshot(path=f"output/{unique_name}")
+        # Increased timeout for the main screenshot to be safe
+        img_bytes = self.page.screenshot(path=f"output/{unique_name}", timeout=60000)
 
 
         marked_image = base64.b64encode(img_bytes).decode()

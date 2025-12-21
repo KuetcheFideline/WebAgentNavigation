@@ -241,7 +241,10 @@ def action2str(
                 action_str = f"switch_tab('{action['page_number']}')"
             case ActionTypes.STOP:
                 if len(action['answer']) > 0:
-                    action_str = f"finish('{action['answer']}')"
+                    if action['answer'].strip().startswith('['):
+                        action_str = f"finish({action['answer']})"
+                    else:
+                        action_str = f"finish('{action['answer']}')"
                 else:
                     action_str = f"finish()"
             case ActionTypes.CHECK:
@@ -2036,7 +2039,7 @@ def create_id_based_action(action_str: str,url :str,user:str) -> Action:
         case "close_tab":
             return create_page_close_action()
         case "stop":  # stop answer
-            match = re.search(r"stop ?\[(.+)\]", action_str)
+            match = re.search(r"stop ?\[([\s\S]+)\]", action_str)
             if not match:  # some tasks don't require an answer
                 answer = ""
             else:

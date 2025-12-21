@@ -36,6 +36,15 @@ class PromptConstructor(object):
         instruction["examples"] = [tuple(e) for e in instruction["examples"]]
         self.instruction: Instruction = instruction
         self.autInstruction= json.load(open(Path("agent/prompts/jsons/Authentification.json")))
+        self.detectPageSIgn = json.load(open(Path("agent/prompts/jsons/11_registration_page_detector.json")))
+        self.MethodSignIn = json.load(open(Path("agent/prompts/jsons/03_login_method_detector.json")))
+        self.GoogleLogin = json.load(open(Path("agent/prompts/jsons/04_google_login_executor.json")))
+        self.Verification =json.load(open(Path("agent/prompts/jsons/10_login_success_validator.json")))
+        self.FormFIll = json.load(open(Path("agent/prompts/jsons/05_form_filler_generic.json")))
+        self.FortoComplire = json.load(open(Path("agent/prompts/jsons/07_form_field_completer.json")))
+        self.FormSubmit = json.load(open(Path("agent/prompts/jsons/08_form_submitter.json")))
+        self.Statut = json.load(open(Path("agent/prompts/jsons/01_account_status_detector.json")))
+        self.LoginPage = json.load(open(Path("agent/prompts/jsons/02_account_page_navigator.json")))
         self.tokenizer = tokenizer
 
     def get_lm_api_input(
@@ -540,8 +549,8 @@ class NewASPromptConstructor(PromptConstructor):
     operation = [
         
         r"(click)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
-        r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*,\s*(True|False)\s*\)",
-        r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*\)",
+        r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+        r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*\)",
         r"(scroll_page)\(\s*[\'\"]up[\'\"]\s*\)",
         r"(scroll_page)\(\s*[\'\"]down[\'\"]\s*\)",
         r"(jump_to)\(\s*[\'\"](.+)[\'\"]\s*,\s*(True|False)\s*\)",
@@ -549,7 +558,7 @@ class NewASPromptConstructor(PromptConstructor):
         r"(go)\(\s*[\'\"]forward[\'\"]\s*\)",
         r"(hover)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
         r"(finish)\(\s*\)",
-        r"(finish)\(\s*(.+)\s*\)",
+        r"(finish)\(\s*([\s\S]+)\s*\)",
         r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
         r"(switch_tab)\(([\d]+)\)",
         r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
@@ -830,8 +839,8 @@ class NewUserPromptConstructor(PromptConstructor):
     """The agent will perform step-by-step reasoning before the answer"""
     operation = [
             r"(click)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
-            r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*,\s*(True|False)\s*\)",
-            r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*\)",
+            r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+            r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*\)",
             r"(scroll_page)\(\s*[\'\"]up[\'\"]\s*\)",
             r"(scroll_page)\(\s*[\'\"]down[\'\"]\s*\)",
             r"(jump_to)\(\s*[\'\"](.+)[\'\"]\s*,\s*(True|False)\s*\)",
@@ -841,7 +850,7 @@ class NewUserPromptConstructor(PromptConstructor):
 
             r"(hover)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
             r"(finish)\(\s*\)",
-            r"(finish)\(\s*(.+)\s*\)",
+            r"(finish)\(\s*([\s\S]+)\s*\)",
             r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
             r"(switch_tab)\(([\d]+)\)",
             r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"](\d+)[\'\"]\s*,\s*(True|False)\s*\)",
@@ -1007,80 +1016,50 @@ class NewUserPromptConstructor(PromptConstructor):
 
 
 
-    @staticmethod
 
-    def _format_persona_to_string(persona_data: dict[str, Any]) -> str:
-            """
-            Formate le dictionnaire user en une forme utilisable.
-            """ 
-
-            if not persona_data:
-                return " no user"
-            
-
-            persona_str = []
-
-            # Demographics
-            if 'demographics' in persona_data:
-               demo_str = "\n".join([f"  - {k.capitalize()}: {v}" for k, v in persona_data['demographics'].items()])
-               persona_str.append(f"### Demographics:\n{demo_str}")
-            
-            # Personality
-            if 'personality' in persona_data:
-                pers_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['personality'].items()])
-                persona_str.append(f"### Personality Scores:\n{pers_str}")
-                
-            # # Interests
-            if 'interests' in persona_data and persona_data['interests']: # On vérifie aussi que la liste n'est pas vide
-                
-                # --- DÉBUT DE LA CORRECTION ---
-                
-                # On extrait la valeur de la clé "topic" de chaque dictionnaire dans la liste.
-                # Exemple: [{'topic': 'Droit'}, {'topic': 'Politique'}] devient ['Droit', 'Politique']
-                topics_list = [interest['topic'] for interest in persona_data['interests']]
-                
-                # On peut maintenant joindre cette liste de chaînes de caractères.
-                interests_str = ", ".join(topics_list)
-                
-                # --- FIN DE LA CORRECTION ---
-                
-                persona_str.append(f"### Interests:\n  - {interests_str}")
-                
-            # Navigation Habits
-            if 'navigation_habits' in persona_data:
-                habits_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['navigation_habits'].items()])
-                persona_str.append(f"### Navigation Habits:\n{habits_str}")
-                
-            # Context
-            if 'context' in persona_data:
-                context_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['context'].items()])
-                persona_str.append(f"### Context:\n{context_str}")
-            
-            return persona_data
-            
+   
     
     
 
     def construct(self,
                    trajectory:Trajectory,
                     intent:str,
-                    meta_data:dict[str,Any] = {},
+                    meta_data:dict[str,Any]={},
                     )->APIInput:
             
+            user_persona = meta_data.get("user_persona",{})
+            
 
-            if intent.startswith("Authenticate"):
-                Instruction = self.autInstruction
+            if intent.startswith("Register"):
+                Instruction = self.detectPageSIgn
+            elif intent.startswith("Method"):
+                Instruction = self.MethodSignIn
+            elif intent.startswith("Google Login") :
+                Instruction = self.GoogleLogin
+            elif  intent.startswith("Verification"):
+                Instruction = self.Verification
+            elif intent.startswith("Form_to_fill"):
+                Instruction = self.FormFIll
+        
+            elif intent.startswith("Form_to_complete"):
+                Instruction = self.FortoComplire
+        
+            elif intent.startswith("Form_to_submit"):
+                Instruction = self.FormSubmit
+            elif intent.startswith("Statut") :
+                Instruction = self.Statut
+            elif intent.startswith("login_page") :
+                Instruction = self.LoginPage
             else:
                 Instruction = self.instruction
-
-            user_persona = meta_data.get("user_persona",{})
-            user_persona_str = self._format_persona_to_string(user_persona)
+        
+          
             intro = Instruction["intro"]
             examples =  Instruction["examples"]
             template =  Instruction["template"]
             keywords =  Instruction["meta_data"]["keywords"]
             finale =  Instruction["finale"]
-            state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
+            state_info: StateInfo = trajectory[-1] 
 
             obs = state_info["observation"][self.obs_modality]
             max_obs_length = self.lm_config.gen_config["max_obs_length"]
@@ -1115,10 +1094,9 @@ class NewUserPromptConstructor(PromptConstructor):
                 "operation": "None",
             })
         
-
             current = template.format(
             html=obs,
-            user_persona=user_persona_str, # Injection de la persona formatée
+            user_persona=user_persona, # Injection de la persona formatée
             previous_action=previous_action_str,
             tabs=tabs_str,
             position=position_bar,
@@ -1138,7 +1116,6 @@ class NewUserPromptConstructor(PromptConstructor):
             # print(f"Checking regex: {regex} for action: {act}")
             match = re.search(regex, response)
             if match:
-                print(f"MATCH FOUND! Regex: {regex}, Groups: {match.groups()}")
                 m = match.groups()
                 if isinstance(m, tuple):
                     exact_act = m[0]
