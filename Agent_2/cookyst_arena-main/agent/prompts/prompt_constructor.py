@@ -1033,22 +1033,20 @@ class NewUserPromptConstructor(PromptConstructor):
             if intent.startswith("Register"):
                 Instruction = self.detectPageSIgn
             elif intent.startswith("Method"):
-                Instruction = self.MethodSignIn
-            elif intent.startswith("Google Login") :
-                Instruction = self.GoogleLogin
-            elif  intent.startswith("Verification"):
-                Instruction = self.Verification
-            elif intent.startswith("Form_to_fill"):
-                Instruction = self.FormFIll
-        
+                Instruction = self.MethodSignIn  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Google Login"):
+                Instruction = self.GoogleLogin  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Verification"):
+                Instruction = self.Verification  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Form_SignIn") or intent.startswith("Form_LogIn"):
+                Instruction = self.FormFIll  # Utilisé pour les deux flux
+            elif intent.startswith("Submit_SignIn") or intent.startswith("Submit_LogIn"):
+                Instruction = self.FormSubmit  # Utilisé pour les deux flux
             elif intent.startswith("Form_to_complete"):
                 Instruction = self.FortoComplire
-        
-            elif intent.startswith("Form_to_submit"):
-                Instruction = self.FormSubmit
-            elif intent.startswith("Statut") :
+            elif intent.startswith("Statut"):
                 Instruction = self.Statut
-            elif intent.startswith("login_page") :
+            elif intent.startswith("login_page"):
                 Instruction = self.LoginPage
             else:
                 Instruction = self.instruction

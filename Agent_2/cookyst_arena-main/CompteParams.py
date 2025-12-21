@@ -14,25 +14,37 @@ class CompteParams:
         # Format: { "Intent Actuelle": { "Signal Reçu": "Prochaine Intent" } }
         self.workflow = {
             "Register_page": {
-                "on_registration_page": "Method of LogIn",
+                "on_registration_page": "Method of SignIn",
                 "registration_not_found": "STOP_FAILURE"
             },
-            "Method of LogIn": {
-                "google": "Google Login",
-                "classic": "Form_to_fill",
+            "Method of SignIn": {
+                "google": "Google Login SignIn",
+                "classic": "Form_SignIn",
                 "noLoginMethod": "STOP_FAILURE"
             },
-            "Google Login": {
-                "googleSelection": "Verification",
+            "Google Login SignIn": {
+                "googleSelection": "Verification_SignIn",
                 "googleError": "STOP_FAILURE"
             },
-            "Form_to_fill": {
+            "Form_SignIn": {
                 "execute_json": "HANDLE_JSON",
-                "fieldToComplete": "Form_to_fill",
-                "form_filled": "Form_to_submit",
-                "formOkay": "Form_to_submit",
-                "form_submitted": "Verification",
+                "fieldToComplete": "Form_SignIn",
+                "form_filled": "Submit_SignIn",
+                "formOkay": "Submit_SignIn",
+                "form_submitted": "Verification_SignIn",
                 "submitNotFound": "STOP_FAILURE"
+            },
+            "Submit_SignIn": {
+                "formSubmitted": "Verification_SignIn",
+                "fieldToComplete": "Form_SignIn",
+                "submitNotFound": "STOP_FAILURE"
+            },
+            "Verification_SignIn": {
+                "loginSuccess": "STOP_SUCCESS",
+                "loginFailed": "Method of SignIn",
+                "form_to_fill": "Method of SignIn",
+                "on_login_page": "Method of LogIn",
+                "user_exist": "Method of LogIn"
             },
             
             "login_page" :{
@@ -40,28 +52,36 @@ class CompteParams:
                 "login_not_found":"STOP_FAILURE"
 
             },
-            "Statut" :{
-                  "user_exist" :"STOP_SUCCESS",
-                  "connexion": "login_page"
-              },
+            "Statut": {
+                "user_exist": "STOP_SUCCESS",
+                "connexion": "login_page"
+            },
             
             "Method of LogIn": {
-                "google" :"Google Login",
-                "classic": "Form_to_fill",
+                "google": "Google Login LogIn",
+                "classic": "Form_LogIn",
                 "noLoginMethod": "STOP_FAILURE"
 
             },
 
-            "Verification": {
+            "Form_LogIn": {
+                "execute_json": "HANDLE_JSON",
+                "fieldToComplete": "Form_LogIn",
+                "form_filled": "Submit_LogIn",
+                "formOkay": "Submit_LogIn",
+                "form_submitted": "Verification_LogIn",
+                "submitNotFound": "STOP_FAILURE"
+            },
+            "Submit_LogIn": {
+                "formSubmitted": "Verification_LogIn",
+                "fieldToComplete": "Form_LogIn",
+                "submitNotFound": "STOP_FAILURE"
+            },
+            "Verification_LogIn": {
                 "loginSuccess": "STOP_SUCCESS",
                 "loginFailed": "Method of LogIn",
                 "form_to_fill": "Method of LogIn",
                 "on_login_page": "Method of LogIn"
-            },
-            "Form_to_submit": {
-                "formSubmitted": "Verification",
-                "fieldToComplete": "Form_to_fill",
-                "submitNotFound": "STOP_FAILURE"
             }
         }
 
@@ -97,7 +117,7 @@ class CompteParams:
         
         return self.env._get_obs(), self.env._get_obs_metadata()
 
-    def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Register"):
+    def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Register_page"):
         """Boucle principale de gestion du workflow."""
         current_intent = start_intent
         form_retry_count = 0
@@ -105,30 +125,38 @@ class CompteParams:
         while current_intent and not current_intent.startswith("STOP_"):
             logger.info(f"\n [CompteParams] Étape : {current_intent}")
 
-            if current_intent == "Form_to_fill":
+            if current_intent in ["Form_SignIn", "Form_LogIn"]:
                 form_retry_count += 1
-                if form_retry_count > 2:
-                    logger.warning(f"[CompteParams] Limite de tentatives atteinte pour Form_to_fill (2) sur {url}")
+                if form_retry_count > 2: 
+                    logger.warning(f"[CompteParams] Limite de tentatives atteinte pour {current_intent} sur {url}")
                     return "FAILURE"
             
             trajectory, meta_data, trace = self.task_execution_command(
                 obs, info, current_intent, max_steps, thresholds, self.env, self.agent, url, user
             )
             
+            
             target_response = trace[-1]["target"]
+            logger.info(f"[CompteParams] Réponse brute de l'agent : {target_response}")
             signal = self.continuation(target_response)
             logger.info(f"[CompteParams] Signal reçu : {signal}")
             
             if isinstance(signal, tuple) and signal[0] == "execute_json":
                 obs, info = self.execute_json_form(signal[1], url, user)
-                current_intent = "Form_to_fill"
+                if "SignIn" in current_intent:
+                    current_intent = "Form_SignIn"
+                else:
+                    current_intent = "Form_LogIn"
                 continue
 
             if signal == "googleSelection":
                 logger.info("[CompteParams] Gestion du popup Google...")
                 self.env.login_existing_account_popup()
                 obs, info = self.env.oldPage()
-                current_intent = "Verification"
+                if "SignIn" in current_intent:
+                    current_intent = "Verification_SignIn"
+                else:
+                    current_intent = "Verification_LogIn"
                 continue
 
             next_step = self.workflow.get(current_intent, {}).get(signal)

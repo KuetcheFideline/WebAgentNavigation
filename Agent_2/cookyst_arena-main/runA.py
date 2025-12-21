@@ -383,8 +383,7 @@ def test(
             initial_storage_state = env.get_all_storage_state()
             result = ""
 
-            Sites.append("https://elpais.com")
-           
+
             if url in  NoSites :
                 print("impossible de creer un compte sur ce site")
                 continue

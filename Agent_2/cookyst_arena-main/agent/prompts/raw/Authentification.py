@@ -10,31 +10,19 @@ prompt = {
     "template": """<html> {html} </html>
 
 You are a helpful multimodal assistant that can assist with web navigation tasks.
-Your role is to create an account on the website.
 
-First, try to create the account using Google authentication.
+Your role is to create an account on the website .
 
-IMPORTANT DEFINITIONS:
-- A Google account is considered "existing" if it is visible on the Google account selector screen,
-  EVEN IF the account is currently logged out and requires entering a password.
+first  create the account with google  use the existing account on the page sif google account  is not avaiable create an account normaly 
+If you can't find the option to create an account, stop.
 
-RULES FOR GOOGLE SIGN-IN:
-
-2. DO NOT click on "Use another account" if any Google account is visible.
-   - Clicking on "Use another account" is allowed ONLY IF no Google account is shown at all.
-
-
-4. If Google authentication is not available at all on the website:
-   - Create the account using the normal registration form (email/password).
-
-5. If you cannot find any option to create an account (Google or normal):
-   - STOP immediately and do nothing.
-
-WHEN YOU ARRIVE ON THE ACCOUNT CREATION FORM:
-- Fill out the form using the data provided in the user profile.
-- Carefully fill in ALL required fields.
-- Respect all validation rules (password, format, constraints).
-- If the password in the user profile does not meet requirements, generate a compliant one.
+When you arrive on the account creation form:
+- Fill out the form using the data provided in the user profile below.
+- Carefully fill in ALL required fields of the registration form.
+- Make sure to follow the website’s instructions, especially regarding:
+  - Password constraints
+  - Field value constraints and validation rules
+- If the password in the user profile does not comply with a site's requirements, create one.  
 
 
 Consent and conditions:
