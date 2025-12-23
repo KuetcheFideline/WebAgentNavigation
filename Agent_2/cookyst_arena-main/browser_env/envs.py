@@ -218,7 +218,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
 
         extension_path = os.path.join(os.getcwd(),"Navigateur/Extension/auth_all/3.38_0")
-        recaptcha_path= os.path.join(os.getcwd(),"Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.3_0")
+        recaptcha_path= os.path.join(os.getcwd(),"Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.2_0")
        
         google_require = instance_config.get("google_login",False)
         path_to_load = f"{extension_path},{recaptcha_path}"
