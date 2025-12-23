@@ -49,6 +49,7 @@ FORMATTING RULES:
 ═══════════════════════════════════════════════════════════════════
 1. Always begin the output with "#Operation:"
 2. Use ONLY the finish() function with the appropriate signal
+3. Use ONLY the element ID (e.g., "A", "B") for identifying elements, never text descriptions.
 3. No explanations, only the operation
 
 ✅ Valid examples:

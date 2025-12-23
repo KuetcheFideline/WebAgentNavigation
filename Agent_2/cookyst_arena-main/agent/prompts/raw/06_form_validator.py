@@ -80,6 +80,7 @@ FORMATTING RULES:
 
 1. Always begin the output with "#Operation:"
 2. Use ONLY the finish() function
+3. Use ONLY the element ID (e.g., "A", "B") for identifying elements, never text descriptions.
 3. For missing fields, list element IDs in brackets separated by commas
 4. Never use single quotes, always use double quotes
 5. No explanations, only the operation

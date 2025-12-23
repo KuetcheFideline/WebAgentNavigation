@@ -64,7 +64,7 @@ FORMATTING RULES:
 ═══════════════════════════════════════════════════════════════════
 
 1. Always begin the output with "#Operation:"
-2. Use element IDs from the HTML
+2. Use ONLY the element ID (e.g., "A", "B") from the HTML, never text descriptions.
 3. Never use single quotes, always use double quotes
 4. No explanations after the operation
 

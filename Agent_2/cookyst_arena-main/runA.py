@@ -12,6 +12,8 @@ import re
 from openai import OpenAIError
 from tqdm import tqdm
 import json5
+import nest_asyncio
+nest_asyncio.apply()
 
 from agent import (Agent, PromptAgent, TeacherForcingAgent,
                    construct_agent)
@@ -266,7 +268,6 @@ def Continuation(target ):
     "user_exist",
     "googleSelection",       # finish('google_login_success')
 ] 
-    # Check for JSON list in finish()
     json_match = re.search(r"finish\(\s*(\[[\s\S]*\])\s*\)", target)
     if json_match:
         json_content = json_match.group(1)
@@ -384,18 +385,10 @@ def test(
             result = ""
 
 
-            if url in  NoSites :
-                print("impossible de creer un compte sur ce site")
-                continue
-            elif url in Sites :
+            if url in Sites :
                 print("compte deja creer sur ce site, verification du statut...")
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
                 result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Statut")
-            else : 
-                print("creation du compte sur ce site")
-                engine = CompteParams(env, agent, task_execution_command, Continuation)
-                result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds)
-                
                 if result == "SUCCESS":
                         Sites.append(url)
                         save_sites_data(Sites, NoSites)
@@ -417,10 +410,7 @@ def test(
                 final_storage_state = env.get_all_storage_state()
                 final_diff_filepath = storage_dir / f"{task_id}.json"
                 env.save_storage(final_storage_state, final_diff_filepath, url)
-            else:
-                NoSites.append(url)
-                save_sites_data(Sites, NoSites)
-
+           
         except OpenAIError as e:
            
             logger.error(f"[OpenAI Error] {repr(e)}")

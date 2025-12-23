@@ -10,7 +10,8 @@ prompt = {
 2. If the banner is present, you must identify and construct two distinct navigation paths, each corresponding to a specific user choice:
    - accept_all: the sequence of element IDs to click to accept all cookies.
    - configuration: to set up the other two paths 
-3. If the banner is not present, indicate that no cookie consent banner was detected.
+3. Use ONLY the element ID (e.g., "A", "B") from the HTML, never text descriptions.
+4. If the banner is not present, indicate that no cookie consent banner was detected.
 
 Your response must be a JSON object with the following structure:
 

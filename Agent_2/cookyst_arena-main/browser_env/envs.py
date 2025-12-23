@@ -308,12 +308,12 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             for url in start_urls:
                 if google_require :
                     page = self.context.new_page()
-                    page.goto(url,timeout=60000)
+                    page.goto(url,timeout=90000)
 
                     
                 else:
                     page = self.context.new_page()
-                    page.goto(url,timeout=70000)
+                    page.goto(url,timeout=90000)
 
              
                 client = page.context.new_cdp_session(
@@ -503,7 +503,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
     def step(
-        self, action: Action
+        self, action: Action, get_obs: bool = True
     ) -> tuple[dict[str, Observation], float, bool, bool, dict[str, Any]]:
         if not self.reset_finished:
             raise RuntimeError("Call reset first before calling step.")
@@ -526,6 +526,16 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         # hard sleep TODO[shuyanzh] suboptimal, may need to check network
         if self.sleep_after_execution > 0:
             time.sleep(self.sleep_after_execution)
+
+        # Wait for page to be stable before modifying (prevents "Execution context destroyed" errors)
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=5000)
+        except Exception as e:
+            print(f"Page stability wait timeout (continuing anyway): {e}")
+            pass  # Continue even if timeout
+
+        if not get_obs:
+            return ({}, float(success), False, False, {})
 
         images = self.modify_page()
 
@@ -570,7 +580,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
     def modify_page(self):
-        self.page.wait_for_timeout(500) 
+        self.page.wait_for_timeout(5000) 
         try:
             self.page.evaluate(remove_id_script)
         except:
@@ -604,7 +614,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         items = self.page.evaluate(label_marker_script, items)
         # self.remove_image("output/")
 
-        # OPTIMIZATION: Commented out multi-tab screenshots to prevent timeouts
         # for idx, tab in enumerate(self.context.pages):
         #     try:
         #         # Use a distinct name for each tab's screenshot
@@ -615,27 +624,33 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
         unique_name = f"marked_{uuid.uuid4().hex}.png"
         # Increased timeout for the main screenshot to be safe
-        img_bytes = self.page.screenshot(path=f"output/{unique_name}", timeout=60000)
+        img_bytes = self.page.screenshot(path=f"output/{unique_name}", timeout=90000)
 
 
         marked_image = base64.b64encode(img_bytes).decode()
+
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=5000)
+        except Exception as e:
+            print(f"Page stability wait timeout in modify_page (continuing): {e}")
+            pass
         
         self.page.evaluate(remove_label_mark_script)
         
         # Update obs_nodes_info with visual markers
         self.cached_marker_items = []
-        for item in items:
-            if "label" in item:
-                label = item["label"]
-                rect = item.get("rect", {})
-                x, y, w, h = rect.get("x", 0), rect.get("y", 0), rect.get("width", 0), rect.get("height", 0)
+        # for item in items:
+        #     if "label" in item:
+        #         label = item["label"]
+        #         rect = item.get("rect", {})
+        #         x, y, w, h = rect.get("x", 0), rect.get("y", 0), rect.get("width", 0), rect.get("height", 0)
                 
-                self.cached_marker_items.append({
-                    "label": label,
-                    "union_bound": [x, y, w, h],
-                    "backend_id": str(item.get("backendNodeId", "")),
-                    "text": item.get("text", "")
-                })
+        #         self.cached_marker_items.append({
+        #             "label": label,
+        #             "union_bound": [x, y, w, h],
+        #             "backend_id": str(item.get("backendNodeId", "")),
+        #             "text": item.get("text", "")
+        #         })
 
         return {
             "raw_image": raw_image,
@@ -702,7 +717,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "sessionStorage": session_storage_diff,
         }
         file = Path(file)
-        print("erreor")
         file.parent.mkdir(parents=True, exist_ok=True)
         with open(file, 'w', encoding='utf-8') as f:
             json.dump(diff_report, f, indent=4, default=getattr(self, 'json_serializer', str))

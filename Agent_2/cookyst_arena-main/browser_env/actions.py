@@ -1436,7 +1436,7 @@ def execute_action(
         
     
     
-    print("npus somme las ")
+
 
     return page
 

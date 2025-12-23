@@ -24,6 +24,7 @@ INSTRUCTIONS:
 
 Scan the form from TOP to BOTTOM.
 Identify every field (Input, Select, Checkbox, Radio).
+IMPORTANT: You MUST include ALL checkboxes found in the form (e.g. Terms of Service, Newsletter, Privacy Policy) in your list.
 For each field:
 Extract the element ID.
 Determine the correct function (type_string, check, select).

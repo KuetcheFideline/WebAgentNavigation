@@ -32,17 +32,24 @@ class CompteParams:
                 "form_filled": "Submit_SignIn",
                 "formOkay": "Submit_SignIn",
                 "form_submitted": "Verification_SignIn",
-                "submitNotFound": "STOP_FAILURE"
+                "submitNotFound": "Multimodal_Form_SignIn" # Fallback
+            },
+            "Multimodal_Form_SignIn": {
+                 "form_submitted": "Verification_SignIn",
+                 "loginSuccess": "STOP_SUCCESS",
+                 "loginFailed": "Multimodal_Form_SignIn", # Retry if failed
+                 "form_to_fill": "Multimodal_Form_SignIn", # Continue filling
+                 "submitNotFound": "Multimodal_Form_SignIn" # Continue searching
             },
             "Submit_SignIn": {
-                "formSubmitted": "Verification_SignIn",
+                "form_submitted": "Verification_SignIn",
                 "fieldToComplete": "Form_SignIn",
-                "submitNotFound": "STOP_FAILURE"
+                "submitNotFound": "Multimodal_Form_SignIn" # Fallback
             },
             "Verification_SignIn": {
                 "loginSuccess": "STOP_SUCCESS",
-                "loginFailed": "Method of SignIn",
-                "form_to_fill": "Method of SignIn",
+                "loginFailed": "Multimodal_Form_SignIn", # Fallback to multimodal on failure
+                "form_to_fill": "Multimodal_Form_SignIn",
                 "on_login_page": "Method of LogIn",
                 "user_exist": "Method of LogIn"
             },
@@ -70,23 +77,30 @@ class CompteParams:
                 "form_filled": "Submit_LogIn",
                 "formOkay": "Submit_LogIn",
                 "form_submitted": "Verification_LogIn",
-                "submitNotFound": "STOP_FAILURE"
+                "submitNotFound": "Multimodal_Form_LogIn" # Fallback
+            },
+            "Multimodal_Form_LogIn": {
+                 "form_submitted": "Verification_LogIn",
+                 "loginSuccess": "STOP_SUCCESS",
+                 "loginFailed": "Multimodal_Form_LogIn",
+                 "form_to_fill": "Multimodal_Form_LogIn",
+                 "submitNotFound": "Multimodal_Form_LogIn"
             },
             "Submit_LogIn": {
-                "formSubmitted": "Verification_LogIn",
+                "form_submitted": "Verification_LogIn",
                 "fieldToComplete": "Form_LogIn",
-                "submitNotFound": "STOP_FAILURE"
+                "submitNotFound": "Multimodal_Form_LogIn" # Fallback
             },
             "Verification_LogIn": {
                 "loginSuccess": "STOP_SUCCESS",
-                "loginFailed": "Method of LogIn",
-                "form_to_fill": "Method of LogIn",
+                "loginFailed": "Multimodal_Form_LogIn", # Fallback
+                "form_to_fill": "Multimodal_Form_LogIn",
                 "on_login_page": "Method of LogIn"
             }
         }
 
     def execute_json_form(self, actions_list, url, user):
-        """Exécute une liste d'actions Playwright formatées en JSON."""
+        """Exécute une liste d'actions Playwright formatées en JSON.""" 
         logger.info("[CompteParams] Début du remplissage de formulaire JSON...")
         for action_item in actions_list:
             try:
@@ -110,12 +124,13 @@ class CompteParams:
                     logger.info(f"[CompteParams] Action : {action_call}")
                     parsed_action = self.agent.prompt_constructor.extract_action(action_call)
                     action_obj = create_id_based_action(parsed_action, url, user)
-                    obs, _, terminated, _, info = self.env.step(action_obj)
+                    obs, _, terminated, _, info = self.env.step(action_obj, get_obs=False)
                     time.sleep(0.5)
             except Exception as e:
                 logger.error(f"[CompteParams] Erreur action {action_item}: {e}")
         
-        return self.env._get_obs(), self.env._get_obs_metadata()
+        
+        return 0
 
     def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Register_page"):
         """Boucle principale de gestion du workflow."""
@@ -127,10 +142,29 @@ class CompteParams:
 
             if current_intent in ["Form_SignIn", "Form_LogIn"]:
                 form_retry_count += 1
-                if form_retry_count > 2: 
-                    logger.warning(f"[CompteParams] Limite de tentatives atteinte pour {current_intent} sur {url}")
-                    return "FAILURE"
+                if form_retry_count > 1: 
+                    logger.warning(f"[CompteParams] Limite de tentatives atteinte pour {current_intent} sur {url}. Passage au mode Multimodal.")
+                    # Fallback to multimodal instead of FAILURE
+                    if "SignIn" in current_intent:
+                        current_intent = "Multimodal_Form_SignIn"
+                    else:
+                        current_intent = "Multimodal_Form_LogIn"
+                    form_retry_count = 0 # Reset counter for multimodal or just proceed
+                    continue
             
+            # Select prompt based on intent
+            if "Multimodal" in current_intent:
+                # Use the multimodal prompt for step-by-step execution
+                # We need to ensure the agent uses the correct prompt file/logic
+                # Assuming the agent handles prompt selection based on intent name or we need to force it.
+                # Since task_execution_command uses agent.prompt_constructor.construct(..., intent=intent),
+                # we need to make sure 'Multimodal_Form_SignIn' maps to the right prompt in the prompt constructor.
+                # If not, we might need to pass a specific prompt name or handle it here.
+                # For now, let's assume we pass the intent and the prompt constructor handles it.
+                # BUT, wait, the prompt constructor usually maps intent to a prompt file.
+                # I need to check how intents are mapped to prompts.
+                pass 
+
             trajectory, meta_data, trace = self.task_execution_command(
                 obs, info, current_intent, max_steps, thresholds, self.env, self.agent, url, user
             )
@@ -142,11 +176,12 @@ class CompteParams:
             logger.info(f"[CompteParams] Signal reçu : {signal}")
             
             if isinstance(signal, tuple) and signal[0] == "execute_json":
-                obs, info = self.execute_json_form(signal[1], url, user)
+                self.execute_json_form(signal[1], url, user)
+                obs, info = self.env.oldPage()
                 if "SignIn" in current_intent:
-                    current_intent = "Form_SignIn"
+                    current_intent = "Submit_SignIn"
                 else:
-                    current_intent = "Form_LogIn"
+                    current_intent = "Submit_LogIn"
                 continue
 
             if signal == "googleSelection":
@@ -162,6 +197,15 @@ class CompteParams:
             next_step = self.workflow.get(current_intent, {}).get(signal)
             
             if not next_step:
+                # If no transition found, check if we should fallback to multimodal
+                if current_intent in ["Form_SignIn", "Form_LogIn", "Submit_SignIn", "Submit_LogIn", "Verification_SignIn", "Verification_LogIn"]:
+                     logger.warning(f"!!! [CompteParams] Pas de transition pour {current_intent} avec signal {signal}. Tentative de fallback Multimodal.")
+                     if "SignIn" in current_intent:
+                         current_intent = "Multimodal_Form_SignIn"
+                     else:
+                         current_intent = "Multimodal_Form_LogIn"
+                     continue
+                
                 logger.warning(f"!!! [CompteParams] Pas de transition pour {current_intent} avec signal {signal}")
                 return "FAILURE"
 

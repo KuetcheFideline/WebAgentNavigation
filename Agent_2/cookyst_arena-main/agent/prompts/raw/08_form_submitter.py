@@ -15,79 +15,36 @@ CRITICAL: The form is already filled and validated.
 2. DO NOT fill or modify any fields (Input, Select, Checkbox, Radio).
 
 ═══════════════════════════════════════════════════════════════════
-SUBMIT BUTTON IDENTIFICATION:
+INSTRUCTIONS:
 ═══════════════════════════════════════════════════════════════════
 
-Look for these elements (in order of priority):
+1. Find the submit button (look for "Submit", "Register", "Envoyer", "Valider", or <button type="submit">).
+2. DO NOT fill any fields or click other links.
+3. Follow the ALGORITHM below strictly.
 
-1️⃣ BUTTON ELEMENTS:
-   - <button> with type="submit"
-   - Text: "Submit", "Sign up", "Register", "Create account"
-   - French: "Envoyer", "S'inscrire", "Créer un compte", "Valider"
-   - Common IDs: submit, signup, register, create, valider
-
-2️⃣ INPUT ELEMENTS:
-   - <input type="submit">
-   - <input type="button" with submit-related text
-
-3️⃣ VISUAL CLUES:
-   - Usually at the bottom of the form
-   - Often styled as a prominent button (colored, large)
-   - May have icons like arrows or checkmarks
-
-═══════════════════════════════════════════════════════════════════
-WHAT NOT TO DO:
-═══════════════════════════════════════════════════════════════════
-
-❌ DO NOT fill any fields (Input, Select, Checkbox, Radio).
-❌ DO NOT click <a> links (e.g., "Already have an account?")
-❌ DO NOT click "Cancel" or "Reset" buttons
-❌ DO NOT click navigation links
-❌ DO NOT click promotional content
-❌ DO NOT click footer links
-
-═══════════════════════════════════════════════════════════════════
-ACTION LOGIC:
-═══════════════════════════════════════════════════════════════════
-
-IF submit button found:
-#Operation: click("element_id")
-
-IF submit button not found after checking:
-#Operation: finish("submit_not_found")
-
-AFTER clicking submit:
-#Operation: finish("form_submitted")
-
-═══════════════════════════════════════════════════════════════════
-SIGNAL RESPONSES:
-═══════════════════════════════════════════════════════════════════
-
-Form submitted successfully:
-#Operation: finish("form_submitted")
-
-Submit button not found:
-#Operation: finish("submit_not_found")
+ALGORITHM:
+1. SCAN the current visible page for the submit button.
+2. IF found:
+   #Operation: click("element_id")
+3. IF NOT found AND you have NOT scrolled down yet:
+   #Operation: scroll_page("down")
+4. IF NOT found AND you have ALREADY scrolled down:
+   #Operation: finish("submit_not_found")
+5. AFTER clicking submit:
+   #Operation: finish("form_submitted")
 
 ═══════════════════════════════════════════════════════════════════
 FORMATTING RULES:
 ═══════════════════════════════════════════════════════════════════
 
 1. Always begin the output with "#Operation:"
-2. Use element IDs from the HTML
-3. Never use single quotes, always use double quotes
-4. No explanations after the operation
+2. Use ONLY the element ID (e.g., "A", "B") from the HTML, never text descriptions.
+3. No explanations after the operation
 
 ✅ Valid examples:
 #Operation: click("S")
 #Operation: finish("form_submitted")
 #Operation: finish("submit_not_found")
-
-❌ Invalid examples:
-click('S')
-Click on submit button
-#Operation: click(signup-btn)
-#Operation: click("already-have-account-link")
 
 #Provided functions:
 def click(element_id: str) -> None:

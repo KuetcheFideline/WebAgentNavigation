@@ -45,6 +45,7 @@ class PromptConstructor(object):
         self.FormSubmit = json.load(open(Path("agent/prompts/jsons/08_form_submitter.json")))
         self.Statut = json.load(open(Path("agent/prompts/jsons/01_account_status_detector.json")))
         self.LoginPage = json.load(open(Path("agent/prompts/jsons/02_account_page_navigator.json")))
+        self.MultimodalFormFiller = json.load(open(Path("agent/prompts/jsons/multimodal_form_filler.json")))
         self.tokenizer = tokenizer
 
     def get_lm_api_input(
@@ -433,7 +434,7 @@ class MyPromptConstructor(PromptConstructor):
                     if len(param) > 0:
                         param[-1] = param[-1].strip("\'\"")
                         
-                if act in ['type']:
+                if act in ['type', 'code_email']:
                     print('In prompt constructer', param[-1])
                     if len(param) > 0:
                         param[-1] = param[-1].strip("\'\"")
@@ -443,7 +444,26 @@ class MyPromptConstructor(PromptConstructor):
                             param.append('1')
                         else:
                             param.append('0')
-                    
+                
+                if act == 'code_email':
+                    # Translate code_email to type
+                    command = "type"
+                    # param is [id, code, enter_flag]
+                    # type expects [id, text, enter_flag] (based on how type is constructed above)
+                    # We need to ensure param structure matches what type expects
+                    # The loop above for 'type' does: param[-1] handling.
+                    # So param is already [id, code, '0' or '1']
+                    for p in param:
+                        command += f" [{p}]"
+                    print(f"Translated code_email to: {command}")
+                    return command
+
+                if act == 'email_goto':
+                    # Translate email_goto to goto https://yopmail.com
+                    command = "goto [https://yopmail.com]"
+                    print(f"Translated email_goto to: {command}")
+                    return command
+
                 command = act
                 for p in param:
                     command += f" [{p}]"
@@ -562,6 +582,8 @@ class NewASPromptConstructor(PromptConstructor):
         r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
         r"(switch_tab)\(([\d]+)\)",
         r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
+        r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+        r"(email_goto)\(\s*\)",
 
     ]
     
@@ -579,7 +601,9 @@ class NewASPromptConstructor(PromptConstructor):
         "stop",
         "record",
         "page_focus",
-        "check"
+        "check",
+        "code_email",
+        "email_goto"
     ]
 
     def __init__(
@@ -700,12 +724,17 @@ class NewASPromptConstructor(PromptConstructor):
         meta_data: dict[str, Any] = {},
     ) -> APIInput:
         
+        # Determine which instruction to use based on intent
+        if intent in ["Multimodal_Form_SignIn", "Multimodal_Form_LogIn"]:
+            instruction = self.MultimodalFormFiller
+        else:
+            instruction = self.instruction
 
-        intro = self.instruction["intro"]
-        examples = self.instruction["examples"]
-        template = self.instruction["template"]
-        keywords = self.instruction["meta_data"]["keywords"]
-        finale = self.instruction["finale"]
+        intro = instruction["intro"]
+        examples = instruction["examples"]
+        template = instruction["template"]
+        keywords = instruction["meta_data"]["keywords"]
+        finale = instruction["finale"]
         state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
 
         obs = state_info["observation"][self.obs_modality]
@@ -741,14 +770,21 @@ class NewASPromptConstructor(PromptConstructor):
             "operation": "None",
         })
         
-        current = template.format(
-            objective=intent,
-            url=url,
-            html=obs,
-            position=position_bar,
-            previous_action=previous_action_str,
-            tabs=tabs_str,
-        )
+        # Prepare format arguments
+        format_args = {
+            "objective": intent,
+            "url": url,
+            "html": obs,
+            "position": position_bar,
+            "previous_action": previous_action_str,
+            "tabs": tabs_str,
+        }
+        
+        # Add user_persona if needed
+        if "user_persona" in keywords:
+            format_args["user_persona"] = meta_data.get("user_persona", "")
+
+        current = template.format(**format_args)
 
         assert all([f"{{k}}" not in current for k in keywords])
 
@@ -795,9 +831,21 @@ class NewASPromptConstructor(PromptConstructor):
                 if len(param) > 0:
                     if act in ['stop', 'select', 'record']:
                         param[-1] = param[-1].strip("\'\"")
-                    if act in ['type', 'goto']:
+                    if act in ['type', 'goto', 'code_email']:
                         param[-1] = '1' if param[-1] == 'True' else '0'
                     
+                if act == 'code_email':
+                    command = "type"
+                    for p in param:
+                        command += f" [{p}]"
+                    print(f"Translated code_email to: {command}")
+                    return command
+                
+                if act == 'email_goto':
+                    command = "goto [https://yopmail.com]"
+                    print(f"Translated email_goto to: {command}")
+                    return command
+
                 command = act
                 for p in param:
                     command += f" [{p}]"
