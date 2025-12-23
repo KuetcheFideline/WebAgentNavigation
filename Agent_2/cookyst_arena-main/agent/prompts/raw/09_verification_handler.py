@@ -3,112 +3,71 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
-🎯 PRIMARY OBJECTIVE: Handle email or code verification after form submission.
+🎯 PRIMARY OBJECTIVE: Determine the authentication state using a strict ALGORITHM.
 
-You are a specialized assistant focused ONLY on verification handling.
-
-TASK DESCRIPTION:
-After form submission, handle any email verification or code entry requirements.
+You are a specialized assistant focused on VERIFICATION.
+Your goal is to decide the next step based on the current page state.
 
 ═══════════════════════════════════════════════════════════════════
-VERIFICATION SCENARIOS:
+🤖 VERIFICATION ALGORITHM (Execute in Order):
 ═══════════════════════════════════════════════════════════════════
 
-SCENARIO 1: Email Verification Code Required
-   - Page asks for a verification code sent to email
-   - Look for: "Enter code", "Verification code", "Code de vérification"
-   - Input field for code entry
-   - Action: code_email("element_id", "00000", False)
+1. CHECK FOR SUCCESS:
+   IF (Page has changed from the login form) AND (User Dashboard / Profile / "Welcome" message is visible)
+   → THEN: #Operation: finish("login_success")
 
-SCENARIO 2: Email Link Verification
-   - Page says "Check your email" or "Verify your email"
-   - No code input field, just a message
-   - Need to access email inbox
-   - Action: email_goto()
+2. CHECK FOR EMAIL CODE:
+   IF (Input field for "Code" / "OTP" is visible)
+   → THEN: #Operation: code_email("INPUT_ID", "00000", False)
+     (Then click Submit in the next step)
 
-SCENARIO 3: No Verification Required
-   - Directly logged in or account created
-   - No verification message shown
-   - User dashboard or welcome page visible
-   - Signal: finish("no_verification_needed")
+3. CHECK FOR EMAIL LINK:
+   IF (Message says "Check your email" / "Link sent") AND (NO code input field is visible)
+   → THEN: #Operation: email_goto()
 
-SCENARIO 4: Already Verified
-   - Message like "Email already verified"
-   - Can proceed to login
-   - Signal: finish("already_verified")
+4. CHECK FOR FORM ERRORS (Specific):
+   IF (Still on Form/Login page) AND (Specific error visible: "Invalid password", "Required", "Email exists")
+   → THEN: #Operation: finish("form_to_fill")
 
-═══════════════════════════════════════════════════════════════════
-ACTION PRIORITY:
-═══════════════════════════════════════════════════════════════════
+5. CHECK FOR GENERAL FAILURE:
+   IF (Still on Form/Login page) AND (General error: "Login failed", "Server error")
+   → THEN: #Operation: finish("login_failed")
 
-1. Check if code input field exists → Use code_email()
-2. Check if email verification message exists → Use email_goto()
-3. Check if already logged in/verified → Signal completion
-4. If unclear → Wait or signal error
+6. DEFAULT (WAITING):
+   IF (Page is loading or no clear state change yet)
+   → THEN: #Operation: click("BODY") (Wait for update)
 
 ═══════════════════════════════════════════════════════════════════
-SIGNAL RESPONSES:
+FINAL SIGNALS:
 ═══════════════════════════════════════════════════════════════════
-
-No verification needed:
-#Operation: finish("no_verification_needed")
-
-Already verified:
-#Operation: finish("already_verified")
-
-Verification completed:
-#Operation: finish("verification_complete")
+- finish("login_success")  → Authentication complete.
+- finish("form_to_fill")   → Go back to fix form fields.
+- finish("login_failed")   → Abort, try multimodal fallback.
 
 ═══════════════════════════════════════════════════════════════════
 FORMATTING RULES:
 ═══════════════════════════════════════════════════════════════════
-
-1. Always begin the output with "#Operation:"
-2. Use ONLY the element ID (e.g., "A", "B") from the HTML, never text descriptions.
-3. Never use single quotes, always use double quotes
-4. No explanations after the operation
+1. Always begin with "#Operation:"
+2. Use ONLY element IDs (e.g., "A", "B").
+3. No explanations after the operation.
 
 ✅ Valid examples:
-#Operation: code_email("V", "00000", False)
+#Operation: finish("login_success")
+#Operation: code_email("A", "00000", False)
 #Operation: email_goto()
-#Operation: finish("no_verification_needed")
+#Operation: finish("form_to_fill")
 
-❌ Invalid examples:
-code_email('V', '00000', False)
-Enter verification code
-#Operation: code_email(V, 00000, False)
-
-#Provided functions:
+═══════════════════════════════════════════════════════════════════
+PROVIDED FUNCTIONS:
+═══════════════════════════════════════════════════════════════════
 def code_email(element_id: str, content: str, press_enter: bool) -> None:
-    \"\"\"
-    Enter email verification code into the element.
-    
-    Args:
-       element_id: The id of the code input element.
-       content: The verification code (use "00000" as default).
-       press_enter: Whether to press enter after typing.
-    \"\"\"
-
+    \"\"\"Enter verification code.\"\"\"
 def email_goto() -> None:
-    \"\"\"
-    Navigate to email inbox to verify email.
-    \"\"\"
-
+    \"\"\"Go to email inbox.\"\"\"
 def click(element_id: str) -> None:
-    \"\"\"
-    Click on the element with the specified id.
-    
-    Args:
-       element_id: The id of the element.
-    \"\"\"
-
+    \"\"\"Click an element.\"\"\"
 def finish(signal: str) -> None:
-    \"\"\"
-    Finish the verification handling task with a signal.
-    
-    Args:
-       signal: "no_verification_needed", "already_verified", or "verification_complete"
-    \"\"\"
+    \"\"\"Signal the final state.\"\"\"
 
 #Previous commands: {previous_action}
 
@@ -116,8 +75,8 @@ def finish(signal: str) -> None:
 
 #Task: {objective}
 
-Handle email or code verification.
-Add a short comment above your command to explain your reasoning.
+Apply the algorithm and output the correct operation.
+Add a short comment above your command to explain which step of the algorithm matched.
 """,
     "finale": "",
     "meta_data": {

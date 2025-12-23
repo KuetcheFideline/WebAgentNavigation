@@ -27,29 +27,28 @@ class CompteParams:
                 "googleError": "STOP_FAILURE"
             },
             "Form_SignIn": {
-                "execute_json": "HANDLE_JSON",
-                "fieldToComplete": "Form_SignIn",
-                "form_filled": "Submit_SignIn",
-                "formOkay": "Submit_SignIn",
-                "form_submitted": "Verification_SignIn",
-                "submitNotFound": "Multimodal_Form_SignIn" # Fallback
+                "execute_json": "Submit_SignIn",
+            },
+            "Form_Correction_SignIn": {
+                "execute_json": "Submit_SignIn", # Après correction, on soumet à nouveau
+                "submitNotFound": "Multimodal_Form_SignIn"
             },
             "Multimodal_Form_SignIn": {
                  "form_submitted": "Verification_SignIn",
                  "loginSuccess": "STOP_SUCCESS",
-                 "loginFailed": "Multimodal_Form_SignIn", # Retry if failed
-                 "form_to_fill": "Multimodal_Form_SignIn", # Continue filling
-                 "submitNotFound": "Multimodal_Form_SignIn" # Continue searching
+                 "loginFailed": "Multimodal_Form_SignIn", 
+                 "form_to_fill": "Multimodal_Form_SignIn",
+                 "submitNotFound": "Multimodal_Form_SignIn" 
             },
             "Submit_SignIn": {
                 "form_submitted": "Verification_SignIn",
-                "fieldToComplete": "Form_SignIn",
-                "submitNotFound": "Multimodal_Form_SignIn" # Fallback
+                "fieldToComplete": "Form_Correction_SignIn", # RETOUR vers le correcteur spécialisé
+                "submitNotFound": "Multimodal_Form_SignIn"
             },
             "Verification_SignIn": {
                 "loginSuccess": "STOP_SUCCESS",
-                "loginFailed": "Multimodal_Form_SignIn", # Fallback to multimodal on failure
-                "form_to_fill": "Multimodal_Form_SignIn",
+                "loginFailed": "Multimodal_Form_SignIn", 
+                "form_to_fill": "Form_Correction_SignIn", # RETOUR vers le correcteur spécialisé
                 "on_login_page": "Method of LogIn",
                 "user_exist": "Method of LogIn"
             },
@@ -73,11 +72,15 @@ class CompteParams:
 
             "Form_LogIn": {
                 "execute_json": "HANDLE_JSON",
-                "fieldToComplete": "Form_LogIn",
+                "fieldToComplete": "Form_LogIn", # Boucle pour remplir
                 "form_filled": "Submit_LogIn",
                 "formOkay": "Submit_LogIn",
                 "form_submitted": "Verification_LogIn",
                 "submitNotFound": "Multimodal_Form_LogIn" # Fallback
+            },
+            "Form_Correction_LogIn": {
+                "execute_json": "Submit_LogIn", # Après correction, on soumet à nouveau
+                "submitNotFound": "Multimodal_Form_LogIn"
             },
             "Multimodal_Form_LogIn": {
                  "form_submitted": "Verification_LogIn",
@@ -88,13 +91,13 @@ class CompteParams:
             },
             "Submit_LogIn": {
                 "form_submitted": "Verification_LogIn",
-                "fieldToComplete": "Form_LogIn",
-                "submitNotFound": "Multimodal_Form_LogIn" # Fallback
+                "fieldToComplete": "Form_Correction_LogIn", # RETOUR pour correction
+                "submitNotFound": "Multimodal_Form_LogIn" 
             },
             "Verification_LogIn": {
                 "loginSuccess": "STOP_SUCCESS",
-                "loginFailed": "Multimodal_Form_LogIn", # Fallback
-                "form_to_fill": "Multimodal_Form_LogIn",
+                "loginFailed": "Multimodal_Form_LogIn", 
+                "form_to_fill": "Form_Correction_LogIn", # RETOUR pour correction
                 "on_login_page": "Method of LogIn"
             }
         }
@@ -136,6 +139,8 @@ class CompteParams:
         """Boucle principale de gestion du workflow."""
         current_intent = start_intent
         form_retry_count = 0
+        multimodal_retry_count = 0
+        correction_retry_count = 0
         
         while current_intent and not current_intent.startswith("STOP_"):
             logger.info(f"\n [CompteParams] Étape : {current_intent}")
@@ -144,26 +149,36 @@ class CompteParams:
                 form_retry_count += 1
                 if form_retry_count > 1: 
                     logger.warning(f"[CompteParams] Limite de tentatives atteinte pour {current_intent} sur {url}. Passage au mode Multimodal.")
-                    # Fallback to multimodal instead of FAILURE
                     if "SignIn" in current_intent:
                         current_intent = "Multimodal_Form_SignIn"
                     else:
                         current_intent = "Multimodal_Form_LogIn"
-                    form_retry_count = 0 # Reset counter for multimodal or just proceed
+                    form_retry_count = 0 
                     continue
             
-            # Select prompt based on intent
             if "Multimodal" in current_intent:
-                # Use the multimodal prompt for step-by-step execution
-                # We need to ensure the agent uses the correct prompt file/logic
-                # Assuming the agent handles prompt selection based on intent name or we need to force it.
-                # Since task_execution_command uses agent.prompt_constructor.construct(..., intent=intent),
-                # we need to make sure 'Multimodal_Form_SignIn' maps to the right prompt in the prompt constructor.
-                # If not, we might need to pass a specific prompt name or handle it here.
-                # For now, let's assume we pass the intent and the prompt constructor handles it.
-                # BUT, wait, the prompt constructor usually maps intent to a prompt file.
-                # I need to check how intents are mapped to prompts.
+                multimodal_retry_count += 1
+                if multimodal_retry_count > 3:
+                    logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Arrêt avec FAILURE.")
+                    return "FAILURE"
+            
+            if "Multimodal" in current_intent:
+               
                 pass 
+            if "Form_Correction" in current_intent:
+                correction_retry_count += 1
+                if correction_retry_count > 3:
+                    logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Fallback vers Multimodal.")
+                    if "SignIn" in current_intent:
+                        current_intent = "Multimodal_Form_SignIn"
+                    else:
+                        current_intent = "Multimodal_Form_LogIn"
+                    correction_retry_count = 0
+                    continue
+
+            # Reset correction counter if we successfully move past correction/submit loop
+            if current_intent not in ["Form_Correction_SignIn", "Submit_SignIn", "Form_Correction_LogIn", "Submit_LogIn"]:
+                 correction_retry_count = 0
 
             trajectory, meta_data, trace = self.task_execution_command(
                 obs, info, current_intent, max_steps, thresholds, self.env, self.agent, url, user
@@ -197,7 +212,6 @@ class CompteParams:
             next_step = self.workflow.get(current_intent, {}).get(signal)
             
             if not next_step:
-                # If no transition found, check if we should fallback to multimodal
                 if current_intent in ["Form_SignIn", "Form_LogIn", "Submit_SignIn", "Submit_LogIn", "Verification_SignIn", "Verification_LogIn"]:
                      logger.warning(f"!!! [CompteParams] Pas de transition pour {current_intent} avec signal {signal}. Tentative de fallback Multimodal.")
                      if "SignIn" in current_intent:

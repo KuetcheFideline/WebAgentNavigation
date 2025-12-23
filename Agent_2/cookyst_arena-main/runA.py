@@ -389,6 +389,10 @@ def test(
                 print("compte deja creer sur ce site, verification du statut...")
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
                 result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Statut")
+            else  :
+                "creation du compte "
+                engine = CompteParams(env, agent, task_execution_command, Continuation)
+                result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Register_page")
                 if result == "SUCCESS":
                         Sites.append(url)
                         save_sites_data(Sites, NoSites)

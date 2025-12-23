@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 from typing import Any, TypedDict
 import time 
+import importlib.util
 from browser_env import Action, ActionParsingError, Trajectory
 #from browser_env.env_config import URL_MAPPINGS
 from browser_env.utils import StateInfo
@@ -46,6 +47,13 @@ class PromptConstructor(object):
         self.Statut = json.load(open(Path("agent/prompts/jsons/01_account_status_detector.json")))
         self.LoginPage = json.load(open(Path("agent/prompts/jsons/02_account_page_navigator.json")))
         self.MultimodalFormFiller = json.load(open(Path("agent/prompts/jsons/multimodal_form_filler.json")))
+        
+        # Load new Form Corrector prompt dynamically
+        spec = importlib.util.spec_from_file_location("form_corrector", "agent/prompts/raw/12_form_corrector.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        self.FormCorrector = module.prompt
+
         self.tokenizer = tokenizer
 
     def get_lm_api_input(
@@ -1086,6 +1094,8 @@ class NewUserPromptConstructor(PromptConstructor):
                 Instruction = self.GoogleLogin  # Utilisé pour SignIn ET LogIn
             elif intent.startswith("Verification"):
                 Instruction = self.Verification  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Form_Correction"):
+                Instruction = self.FormCorrector
             elif intent.startswith("Form_SignIn") or intent.startswith("Form_LogIn"):
                 Instruction = self.FormFIll  # Utilisé pour les deux flux
             elif intent.startswith("Submit_SignIn") or intent.startswith("Submit_LogIn"):
