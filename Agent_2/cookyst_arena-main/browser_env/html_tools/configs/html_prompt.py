@@ -1,7 +1,7 @@
 refine_prompt = {
     'dom': '<{tag}{label}|{attr}{content}{subtree} >',
     'label': '[{label}]',
-    'attr': '{attr}',
+    'attr': '{key}="{attr}"',  # Modifié pour afficher key="value"
     'attr_splitter': '; ',
     'subtree_splitter': ' ',
 }

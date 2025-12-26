@@ -105,6 +105,7 @@ class CompteParams:
     def execute_json_form(self, actions_list, url, user):
         """Exécute une liste d'actions Playwright formatées en JSON.""" 
         logger.info("[CompteParams] Début du remplissage de formulaire JSON...")
+        error_count = 0
         for action_item in actions_list:
             try:
                 func_name = action_item.get("function")
@@ -113,10 +114,13 @@ class CompteParams:
                 
                 action_call = ""
                 if func_name == "type_string":
-                    content = args[1] if len(args) > 1 else (args[0] if len(args) > 0 else "")
-                    action_call = f'type_string("{label}", "{content}", True)'
+                    # args = [content, press_enter]
+                    # args[0] = content (le texte à taper)
+                    content = args[0] if len(args) > 0 else ""
+                    action_call = f'type_string("{label}", "{content}", False)'
                 elif func_name == "select":
-                    val = args[1] if len(args) > 1 else (args[0] if len(args) > 0 else "")
+                    # args = [value]
+                    val = args[0] if len(args) > 0 else ""
                     action_call = f'select("{label}", "{val}")'
                 elif func_name == "check":
                     action_call = f'check("{label}")'
@@ -127,13 +131,22 @@ class CompteParams:
                     logger.info(f"[CompteParams] Action : {action_call}")
                     parsed_action = self.agent.prompt_constructor.extract_action(action_call)
                     action_obj = create_id_based_action(parsed_action, url, user)
-                    obs, _, terminated, _, info = self.env.step(action_obj, get_obs=False)
+                    obs, _, terminated, _, info = self.env.step(action_obj, get_obs=True)
                     time.sleep(0.5)
             except Exception as e:
+                error_count += 1
                 logger.error(f"[CompteParams] Erreur action {action_item}: {e}")
+                # Si erreur sur select() d'un dropdown custom, c'est critique
+                if "Element is not a <select> element" in str(e):
+                    logger.error("[CompteParams] ⚠️ Erreur dropdown custom détectée - Fallback vers Multimodal recommandé")
+                    return "dropdown_error"  # Signal spécifique pour dropdown custom
         
+        # Si trop d'erreurs, signaler
+        if error_count > 0:
+            logger.warning(f"[CompteParams] {error_count} erreur(s) lors de l'exécution JSON")
+            return "json_execution_error"
         
-        return 0
+        return "success"
 
     def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Register_page"):
         """Boucle principale de gestion du workflow."""
@@ -158,8 +171,8 @@ class CompteParams:
             
             if "Multimodal" in current_intent:
                 multimodal_retry_count += 1
-                if multimodal_retry_count > 3:
-                    logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Arrêt avec FAILURE.")
+                if multimodal_retry_count > 2:
+                    logger.warning(f"[CompteParams] Limite de tentatives (2) atteinte pour {current_intent}. Arrêt avec FAILURE.")
                     return "FAILURE"
             
             if "Multimodal" in current_intent:
@@ -167,8 +180,8 @@ class CompteParams:
                 pass 
             if "Form_Correction" in current_intent:
                 correction_retry_count += 1
-                if correction_retry_count > 3:
-                    logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Fallback vers Multimodal.")
+                if correction_retry_count > 2:
+                    logger.warning(f"[CompteParams] Limite de tentatives (2) atteinte pour {current_intent}. Fallback vers Multimodal.")
                     if "SignIn" in current_intent:
                         current_intent = "Multimodal_Form_SignIn"
                     else:
@@ -177,7 +190,9 @@ class CompteParams:
                     continue
 
             # Reset correction counter if we successfully move past correction/submit loop
-            if current_intent not in ["Form_Correction_SignIn", "Submit_SignIn", "Form_Correction_LogIn", "Submit_LogIn"]:
+            # Ne PAS reset si on est dans Verification car on peut revenir à Form_Correction
+            if current_intent not in ["Form_Correction_SignIn", "Submit_SignIn", "Verification_SignIn",
+                                       "Form_Correction_LogIn", "Submit_LogIn", "Verification_LogIn"]:
                  correction_retry_count = 0
 
             trajectory, meta_data, trace = self.task_execution_command(
@@ -191,8 +206,19 @@ class CompteParams:
             logger.info(f"[CompteParams] Signal reçu : {signal}")
             
             if isinstance(signal, tuple) and signal[0] == "execute_json":
-                self.execute_json_form(signal[1], url, user)
+                execution_result = self.execute_json_form(signal[1], url, user)
                 obs, info = self.env.oldPage()
+                
+                # Gérer les erreurs d'exécution JSON
+                if execution_result in ["dropdown_error", "json_execution_error"]:
+                    logger.warning(f"[CompteParams] Erreur lors de l'exécution JSON ({execution_result}). Fallback vers Multimodal.")
+                    if "SignIn" in current_intent:
+                        current_intent = "Multimodal_Form_SignIn"
+                    else:
+                        current_intent = "Multimodal_Form_LogIn"
+                    continue
+                
+                # Si succès, continuer normalement
                 if "SignIn" in current_intent:
                     current_intent = "Submit_SignIn"
                 else:
@@ -209,9 +235,27 @@ class CompteParams:
                     current_intent = "Verification_LogIn"
                 continue
 
+            # Gérer les Early Stop
+            if signal == "early_stop":
+                logger.warning(f"[CompteParams] Early stop détecté pour {current_intent}")
+                if "SignIn" in current_intent:
+                    current_intent = "Multimodal_Form_SignIn"
+                elif "LogIn" in current_intent:
+                    current_intent = "Multimodal_Form_LogIn"
+                else:
+                    logger.error(f"[CompteParams] Early stop sur intent non géré: {current_intent}")
+                    return "FAILURE"
+                continue
+
             next_step = self.workflow.get(current_intent, {}).get(signal)
             
             if not next_step:
+                # Log la réponse complète pour debug
+                if signal is None:
+                    logger.error(f"[CompteParams] ⚠️ SIGNAL NONE DÉTECTÉ !")
+                    logger.error(f"[CompteParams] Intent actuel : {current_intent}")
+                    logger.error(f"[CompteParams] Réponse brute (200 chars) : {target_response[:200]}")
+                
                 if current_intent in ["Form_SignIn", "Form_LogIn", "Submit_SignIn", "Submit_LogIn", "Verification_SignIn", "Verification_LogIn"]:
                      logger.warning(f"!!! [CompteParams] Pas de transition pour {current_intent} avec signal {signal}. Tentative de fallback Multimodal.")
                      if "SignIn" in current_intent:

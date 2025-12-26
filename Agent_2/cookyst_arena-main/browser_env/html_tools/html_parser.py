@@ -210,10 +210,13 @@ class HtmlParser():
             in_obs_list = (bid in obs or len(label) > 0) and visible
             keep_element = in_keep_list or in_obs_list or visible or par_keep
             
-            # mark label
+            # mark label - MODIFIÉ : donner un label à TOUS les éléments cliquables
             bids2label, labeled_elems = {}, []
             have_label = False
-            if in_keep_list or in_obs_list:
+            # Determine if the element is clickable (simplified for this context, could be more complex)
+            clickable = node.attrib.get('onclick') is not None or node.tag in ['a', 'button', 'input', 'select', 'textarea']
+            
+            if in_keep_list or in_obs_list or clickable:  # Ajout de 'clickable'
                 if label is None or len(label) == 0 or get_new_label:
                     label = self.identifier.generate()
                     node.attrib[self.label_attr] = label
@@ -263,7 +266,74 @@ class HtmlParser():
             keep_element = keep_element and (clickable_count > 1 or have_text or have_label or keep_as_all_text)
             keep_as_parent = len(dom) > 0 and parent_chain
             if in_keep_list or keep_element or keep_as_parent:
-                dom = self.prompt.prompt_constructor(tag, label, text, dom, classes)
+                # Ajouter un attribut 'dropdown' pour les dropdowns custom
+                display_tag = tag
+                display_text = text  # Initialiser display_text par défaut
+                display_classes = classes.copy()  # Copier les classes
+                
+                if have_label and tag in ['div', 'span']:
+                    # Détecter si c'est un dropdown ou un input normal
+                    is_dropdown = False
+                    
+                    # Méthode 1 : Classes communes de dropdowns
+                    class_str = ' '.join(str(v).lower() for v in classes.values())
+                    dropdown_keywords = ['dropdown', 'select', 'picker', 'menu', 'combobox', 'option', 'choice']
+                    if any(keyword in class_str for keyword in dropdown_keywords):
+                        is_dropdown = True
+                    
+                    # Méthode 2 : Attributs ARIA
+                    if not is_dropdown:
+                        for attr_name in ['role', 'aria-haspopup', 'aria-expanded']:
+                            if attr_name in classes:
+                                attr_value = str(classes[attr_name]).lower()
+                                if any(val in attr_value for val in ['combobox', 'listbox', 'menu', 'true']):
+                                    is_dropdown = True
+                                    break
+                    
+                    # Méthode 3 : Patterns de texte robustes (élargi)
+                    if not is_dropdown and len(text) > 0:
+                        text_lower = text.lower().strip()
+                        
+                        # Patterns de date
+                        date_patterns = ['jour', 'mois', 'année', 'year', 'month', 'day', 
+                                       'jj', 'mm', 'aaaa', 'yyyy', 'dd', 'date']
+                        
+                        # Patterns de genre/choix
+                        choice_patterns = ['je suis', 'genre', 'sexe', 'gender', 'sex',
+                                         'homme', 'femme', 'male', 'female', 'mr', 'mme',
+                                         'civilité', 'title', 'sélectionner', 'select',
+                                         'choisir', 'choose', 'indiquez', 'indicate']
+                        
+                        # Patterns de localisation
+                        location_patterns = ['pays', 'country', 'ville', 'city', 'région', 'region']
+                        
+                        all_patterns = date_patterns + choice_patterns + location_patterns
+                        
+                        if any(pattern in text_lower for pattern in all_patterns):
+                            is_dropdown = True
+                    
+                    # Méthode 4 : Contexte (siblings similaires)
+                    # Si plusieurs éléments similaires côte à côte → probablement des dropdowns
+                    if not is_dropdown and len(parts) >= 2:
+                        # Compter les éléments enfants avec labels
+                        labeled_children = sum(1 for p in parts if '[' in str(p) and ']' in str(p))
+                        # Si 2+ éléments avec labels et texte court → dropdowns de date
+                        if labeled_children >= 2 and len(text) > 0 and len(text) < 20:
+                            is_dropdown = True
+                    
+                    # Méthode 5 : Élément vide avec sibling ayant texte de dropdown
+                    # Ex: <input[N]| Je suis... > <input[O]| > → O est aussi un dropdown
+                    if not is_dropdown and len(text) == 0 and len(parts) > 0:
+                        # Chercher dans les siblings pour patterns de dropdown
+                        siblings_text = ' '.join(str(p).lower() for p in parts)
+                        if any(pattern in siblings_text for pattern in ['jour', 'mois', 'année', 'je suis', 'genre']):
+                            is_dropdown = True
+                    
+                    # Si c'est un dropdown, ajouter l'attribut 'dropdown' au lieu de changer le tag
+                    if is_dropdown:
+                        display_classes['dropdown'] = 'true'
+                
+                dom = self.prompt.prompt_constructor(display_tag, label, display_text, dom, display_classes)
             
             if have_label:
                 labeled_elems.append(bid)

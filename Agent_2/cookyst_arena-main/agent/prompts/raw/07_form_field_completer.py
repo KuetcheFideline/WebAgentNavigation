@@ -34,9 +34,14 @@ b) TEXT INPUTS:
    Example: #Operation: type_string("B", "jean@email.com", False)
 
 c) DROPDOWNS:
-   - First click("element_id") to open
-   - Then select("element_id", "option_value")
-   Example: #Operation: click("C")
+   - Standard dropdowns (with <option> children): select("element_id", "option_value")
+   - Custom dropdowns (with dropdown="true" attribute):
+     * First click("element_id") to open the dropdown menu
+     * Options will appear with their own IDs
+     * Then click on the desired option ID
+   Example for custom dropdown:
+   #Operation: click("C")  // Opens dropdown with dropdown="true"
+   // After this, options appear, then click on desired option
 
 d) CHECKBOXES:
    - Use check("element_id")

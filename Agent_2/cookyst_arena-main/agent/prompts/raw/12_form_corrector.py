@@ -18,6 +18,22 @@ TASK DESCRIPTION:
 - ONLY target the problematic fields.
 - Use the User Persona to get valid data.
 
+🚨 CRITICAL RULES FOR ELEMENT IDS:
+1. ALWAYS use element LABELS (A, B, C, D...), NEVER use text descriptions
+2. Element IDs are single letters or letter combinations shown in brackets: [A], [B], [G], [AB]
+3. NEVER use field names like "jour", "mois", "Pseudo", "Je suis..." as IDs
+4. If an element has NO visible label, SKIP it (do not include in the JSON)
+
+✅ CORRECT EXAMPLES:
+{{ "id": "G", "function": "type_string", "args": ["ChrisRoubaix"] }}
+{{ "id": "L", "function": "check", "args": [] }}
+{{ "id": "AB", "function": "select", "args": ["Option"] }}
+
+❌ INCORRECT EXAMPLES (will cause errors):
+{{ "id": "Pseudo", "function": "type_string", "args": ["value"] }}
+{{ "id": "jour", "function": "select", "args": ["26"] }}
+{{ "id": "Je suis...", "function": "select", "args": ["Femme"] }}
+
 OUTPUT FORMAT:
 Return the JSON list of correction actions INSIDE the finish() function.
 Format:
@@ -29,7 +45,14 @@ Format:
 FIELD TYPES & FUNCTIONS:
 - Text Input: type_string(id, value, False)
 - Radio/Checkbox: check(id)
-- Dropdown: select(id, value)
+- Standard Dropdown: select(id, value)
+
+⚠️ CRITICAL: NEVER use select() on elements with dropdown="true"!
+Elements with dropdown="true" are custom dropdowns that will cause errors if you use select().
+These will be handled by the multimodal system later.
+Just skip them in your JSON response.
+
+NOTE: For complex elements, the system will fallback to multimodal mode.
 
 #Provided functions:
 def type_string(element_id: str, content: str, press_enter: bool) -> None:

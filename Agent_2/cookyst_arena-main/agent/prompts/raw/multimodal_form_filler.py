@@ -15,8 +15,50 @@ You must perform ONE action at a time.
 1.  **Analyze the form:** Look at the HTML and the image. Identify the next empty field that needs to be filled.
 2.  **Fill one field:**
     -   If it's a text input: Click it, then use `type_string` with the correct value from the profile.
-    -   If it's a dropdown: Click it, then use `select`.
     -   If it's a checkbox/radio: Use `check`.
+    -   If it's a dropdown:
+        * **Standard dropdown** (with <option> children): Use `select(element_id, value)`.
+        * **Custom dropdown** (with dropdown="true" attribute): **TWO-STEP PROCESS**
+          
+          ⚠️ CRITICAL: Custom dropdowns require TWO separate actions:
+          
+          STEP 1: Click to open
+            - Use click(dropdown_id) to open the menu
+            - DO NOT try to select a value yet
+            - The dropdown will open and show options in the NEXT observation
+          
+          STEP 2: Click to select (in next turn)
+            - After dropdown opens, new elements appear with their own IDs
+            - Click on the desired option ID
+          
+          Example - Birth Date (26/11/2005):
+          
+          Turn 1 - You see:
+            <div[I] dropdown="true"| jour >
+            <div[J] dropdown="true"| mois >
+          
+          Turn 1 - You do:
+            #Operation: click("I")
+            # Opens day dropdown, options will appear in next observation
+          
+          Turn 2 - You see:
+            <div[I] dropdown="true"| jour >
+            <div[L]| 01 >
+            <div[M]| 02 >
+            ...
+            <div[Z]| 26 >  ← Target day
+          
+          Turn 2 - You do:
+            #Operation: click("Z")
+            # Selects day 26
+          
+          Turn 3 - Open month dropdown:
+            #Operation: click("J")
+          
+          Turn 4 - Select month 11:
+            #Operation: click("AK")
+          
+          IMPORTANT: Do ONE action at a time for dropdowns. Do NOT try to open and select in the same turn.
 3.  **Submit:** If ALL fields are filled, find and click the "Submit", "Login", "Register", or "Connexion" button.
 4.  **Email Verification (Two Scenarios):**
     -   **Scenario A - Code Input Field Exists:**

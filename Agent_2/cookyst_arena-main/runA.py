@@ -172,6 +172,11 @@ def task_execution_command(obs, info,intent,max_steps, early_stop_thresholds,env
 
                
                 meta_data["action_history"].append(action_str)
+                
+                # Limiter à 5 dernières actions pour éviter confusion du modèle
+                if len(meta_data["action_history"]) > 6:  # "None" + 5 actions
+                    meta_data["action_history"] = ["None"] + meta_data["action_history"][-5:]
+                
                 trace.append({
                     "source": prompt,
                     "target": action_str.split(' #HTML Segment')[0],
@@ -208,37 +213,42 @@ def save_storage_state(env, initial_storage_state, diff_filepath, url):
 def Continuation(target ):
     target = target.strip()
     signal_patterns = [
-    r"finish\(\s*['\"]on_login_page['\"]\s*\)",
-    r"finish\(\s*['\"]login_not_found['\"]\s*\)",
-    r"finish\(\s*['\"]on_registration_page['\"]\s*\)",
-    r"finish\(\s*['\"]registration_not_found['\"]\s*\)",
+    r"finish\(\s*['\"]on_login_page['\"].*?\)",
+    r"finish\(\s*['\"]login_not_found['\"].*?\)",
+    r"finish\(\s*['\"]on_registration_page['\"].*?\)",
+    r"finish\(\s*['\"]registration_not_found['\"].*?\)",
 
-    r"finish\(\s*['\"]google_login['\"]\s*\)",
-    r"finish\(\s*['\"]login_classic['\"]\s*\)",
-    r"finish\(\s*['\"]no_login_method['\"]\s*\)",
-    r"finish\(\s*['\"]connexion['\"]\s*\)",
+    r"finish\(\s*['\"]google_login['\"].*?\)",
+    r"finish\(\s*['\"]login_classic['\"].*?\)",
+    r"finish\(\s*['\"]no_login_method['\"].*?\)",
+    r"finish\(\s*['\"]connexion['\"].*?\)",
 
-    r"finish\(\s*['\"]account_selection['\"]\s*\)",
-    r"finish\(\s*['\"]google_login_error['\"]\s*\)",
-    r"finish\(\s*['\"]missing_data['\"]\s*\)",
+    r"finish\(\s*['\"]account_selection['\"].*?\)",
+    r"finish\(\s*['\"]google_login_error['\"].*?\)",
+    r"finish\(\s*['\"]missing_data['\"].*?\)",
    
-    r"finish\(\s*['\"]form_to_fill['\"]\s*\)",
-    r"finish\(\s*['\"]form_filled['\"]\s*\)",
-    r"finish\(\s*['\"]form_okay['\"]\s*\)",
-    r"finish\(\s*['\"]field_to_complete\[[^\]]+\]['\"]\s*\)",
+    r"finish\(\s*['\"]form_to_fill['\"].*?\)",
+    r"finish\(\s*['\"]form_filled['\"].*?\)",
+    r"finish\(\s*['\"]form_okay['\"].*?\)",
+    r"finish\(\s*['\"]field_to_complete\[[^\]]+\]['\"].*?\)",
 
-    r"finish\(\s*['\"]form_submitted['\"]\s*\)",
-    r"finish\(\s*['\"]submit_not_found['\"]\s*\)",
+    r"finish\(\s*['\"]form_submitted['\"].*?\)",
+    r"finish\(\s*['\"]submit_not_found['\"].*?\)",
 
-    r"finish\(\s*['\"]no_verification_needed['\"]\s*\)",
-    r"finish\(\s*['\"]verification_complete['\"]\s*\)",
-    r"finish\(\s*['\"]already_verified['\"]\s*\)",
+    r"finish\(\s*['\"]no_verification_needed['\"].*?\)",
+    r"finish\(\s*['\"]verification_complete['\"].*?\)",
+    r"finish\(\s*['\"]already_verified['\"].*?\)",
 
-    r"finish\(\s*['\"]login_success['\"]\s*\)",
-    r"finish\(\s*['\"]login_failed['\"]\s*\)",
-    r"finish\(\s*['\"]verification_pending['\"]\s*\)",
-    r"finish\(\s*['\"]user_exist['\"]\s*\)",
-    r"finish\(\s*['\"]google_login_success['\"]\s*\)",
+    r"finish\(\s*['\"]login_success['\"].*?\)",
+    r"finish\(\s*['\"]login_failed['\"].*?\)",
+    r"finish\(\s*['\"]loginSuccess['\"].*?\)",  # camelCase variant
+    r"finish\(\s*['\"]loginFailed['\"].*?\)",   # camelCase variant
+    r"finish\(\s*['\"]verification_pending['\"].*?\)",
+    r"finish\(\s*['\"]user_exist['\"].*?\)",
+    r"finish\(\s*['\"]google_login_success['\"].*?\)",
+    
+    # Gérer les Early Stop
+    r"finish\(\s*['\"]Early stop:.*?['\"].*?\)",
 ] 
     
     equivalence = [
@@ -264,9 +274,12 @@ def Continuation(target ):
     "alreadyVerified",       # finish('already_verified')
     "loginSuccess",          # finish('login_success')
     "loginFailed",           # finish('login_failed')
+    "loginSuccess",          # finish('loginSuccess') - camelCase
+    "loginFailed",           # finish('loginFailed') - camelCase
     "verificationPending",   # finish('verification_pending')
     "user_exist",
     "googleSelection",       # finish('google_login_success')
+    "early_stop",            # finish('Early stop: ...')
 ] 
     json_match = re.search(r"finish\(\s*(\[[\s\S]*\])\s*\)", target)
     if json_match:

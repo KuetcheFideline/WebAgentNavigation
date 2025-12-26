@@ -1,17 +1,17 @@
 () => {
     var items = Array.prototype.slice.call(
         document.querySelectorAll('*')
-    ).map(function(element) {
+    ).map(function (element) {
         var vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
         var vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
-        
+
         var rects = [...element.getClientRects()].filter(bb => {
             var center_x = bb.left + bb.width / 2;
             var center_y = bb.top + bb.height / 2;
             var elAtCenter = document.elementFromPoint(center_x, center_y);
-        
+
             if (!elAtCenter) return false;
-            return elAtCenter === element || element.contains(elAtCenter) 
+            return elAtCenter === element || element.contains(elAtCenter)
         }).map(bb => {
             const rect = {
                 left: Math.max(0, bb.left),
@@ -27,10 +27,10 @@
         });
         // var rects = [];
         var area = rects.reduce((acc, rect) => acc + rect.width * rect.height, 0);
-    
+
         const tagName = element.tagName.toLowerCase?.() || "";
         let isClickable = ((element.onclick != null) || window.getComputedStyle(element).cursor == "pointer");
-        
+
         // Insert area elements that provide click functionality to an img.
         if (tagName === "img") {
             let mapName = element.getAttribute("usemap");
@@ -41,7 +41,7 @@
                 if (map && (imgClientRects.length > 0)) isClickable = true;
             }
         }
-    
+
         if (!isClickable) {
             const role = element.getAttribute("role");
             const clickableRoles = [
@@ -59,30 +59,30 @@
             } else {
                 const contentEditable = element.getAttribute("contentEditable");
                 if (
-                contentEditable != null &&
-                ["", "contenteditable", "true"].includes(contentEditable.toLowerCase())
+                    contentEditable != null &&
+                    ["", "contenteditable", "true"].includes(contentEditable.toLowerCase())
                 ) {
-                isClickable = true;
+                    isClickable = true;
                 }
             }
         }
-    
+
         // Check for jsaction event listeners on the element.
         if (!isClickable && element.hasAttribute("jsaction")) {
             const jsactionRules = element.getAttribute("jsaction").split(";");
             for (let jsactionRule of jsactionRules) {
                 const ruleSplit = jsactionRule.trim().split(":");
                 if ((ruleSplit.length >= 1) && (ruleSplit.length <= 2)) {
-                const [eventType, namespace, actionName] = ruleSplit.length === 1
-                    ? ["click", ...ruleSplit[0].trim().split("."), "_"]
-                    : [ruleSplit[0], ...ruleSplit[1].trim().split("."), "_"];
-                if (!isClickable) {
-                    isClickable = (eventType === "click") && (namespace !== "none") && (actionName !== "_");
-                }
+                    const [eventType, namespace, actionName] = ruleSplit.length === 1
+                        ? ["click", ...ruleSplit[0].trim().split("."), "_"]
+                        : [ruleSplit[0], ...ruleSplit[1].trim().split("."), "_"];
+                    if (!isClickable) {
+                        isClickable = (eventType === "click") && (namespace !== "none") && (actionName !== "_");
+                    }
                 }
             }
         }
-    
+
         if (!isClickable) {
             const clickableTags = [
                 "input",
@@ -96,9 +96,81 @@
                 "embed",
                 "details"
             ];
-        isClickable = clickableTags.includes(tagName);
+            isClickable = clickableTags.includes(tagName);
+        }
+
+        // ========== DÉTECTION GÉNÉRALE DES ÉLÉMENTS INTERACTIFS ==========
+        // Capture dropdowns custom, boutons custom, toggles, accordions, etc.
+
+        if (!isClickable) {
+            // 1. ARIA attributes (standard d'accessibilité)
+            const ariaHasPopup = element.getAttribute("aria-haspopup");
+            const ariaExpanded = element.getAttribute("aria-expanded");
+            const ariaPressed = element.getAttribute("aria-pressed");
+            const ariaChecked = element.getAttribute("aria-checked");
+            const ariaSelected = element.getAttribute("aria-selected");
+
+            if (ariaHasPopup || ariaExpanded !== null || ariaPressed !== null ||
+                ariaChecked !== null || ariaSelected !== null) {
+                isClickable = true;
             }
-        
+        }
+
+        if (!isClickable) {
+            // 2. ARIA roles interactifs
+            const role = element.getAttribute("role");
+            const interactiveRoles = [
+                "combobox", "listbox", "menu", "option", "switch",
+                "slider", "spinbutton", "searchbox", "textbox"
+            ];
+            if (role && interactiveRoles.includes(role.toLowerCase())) {
+                isClickable = true;
+            }
+        }
+
+        if (!isClickable) {
+            // 3. Data attributes (Bootstrap, frameworks JS)
+            const dataToggle = element.getAttribute("data-toggle");
+            const dataTarget = element.getAttribute("data-target");
+            const dataAction = element.getAttribute("data-action");
+            const dataClick = element.getAttribute("data-click");
+
+            if (dataToggle || dataTarget || dataAction || dataClick) {
+                isClickable = true;
+            }
+        }
+
+        if (!isClickable) {
+            // 4. Classes communes d'éléments interactifs
+            const className = element.getAttribute("class") || "";
+            const interactiveClasses = [
+                "select", "dropdown", "toggle", "switch", "picker",
+                "option", "choice", "menu-item", "accordion", "collapse"
+            ];
+            if (interactiveClasses.some(cls => className.toLowerCase().includes(cls))) {
+                isClickable = true;
+            }
+        }
+
+        if (!isClickable) {
+            // 5. Event listeners inline
+            if (element.hasAttribute("onclick") || element.hasAttribute("onmousedown") ||
+                element.hasAttribute("ontouchstart")) {
+                isClickable = true;
+            }
+        }
+
+        if (!isClickable) {
+            // 6. Éléments dans formulaire avec texte court (heuristique)
+            const formParent = element.closest("form");
+            if (formParent && (tagName === "div" || tagName === "span")) {
+                const text = element.textContent.trim();
+                if (text.length > 0 && text.length < 30 && element.children.length <= 1) {
+                    isClickable = true;
+                }
+            }
+        }
+
         if (!isClickable) {
             if (tagName === "label")
                 isClickable = (element.control != null) && !element.control.disabled;
@@ -113,7 +185,7 @@
         if (!isClickable && className && className.toLowerCase().includes("button")) {
             isClickable = true;
         }
-    
+
         // Elements with tabindex are sometimes useful, but usually not. We can treat them as second
         // class citizens when it improves UX, so take special note of them.
         const tabIndexValue = element.getAttribute("tabindex");
@@ -121,14 +193,14 @@
         if (!isClickable && !(tabIndex < 0) && !isNaN(tabIndex)) {
             isClickable = true;
         }
-    
+
         const idValue = element.getAttribute("id");
         const id = idValue ? idValue.toLowerCase() : "";
         if (isClickable && area == 0) {
             const textValue = element.textContent.trim().replace(/\s{2,}/g, ' ');
             clickable_msg = `${tagName}[id=${id}] ${isClickable} (${area}) ${textValue}`
         }
-    
+
         return {
             element: element,
             include: isClickable,

@@ -17,6 +17,11 @@ ALGORITHM:
    #Operation: finish("on_registration_page")
 
 3. ELSE IF (Registration/Signup link visible in Header, Footer, or Viewport) THEN:
+   Look for links containing:
+   - English: "Sign up", "Register", "Join", "Create account", "Sign Up", "Signup"
+   - French: "Créer mon compte", "S'inscrire", "Inscription", "Créer un compte"
+   - Spanish: "Registrarse", "Crear cuenta", "Únete"
+   etc.
    #Operation: click("element_id")
 
 4. ELSE IF (Registration/Signup link NOT visible) THEN:
@@ -29,7 +34,8 @@ ALGORITHM:
 
    b. FOR each collected menu element (top to bottom):
         i.   #Operation: click("element_id")
-        ii.  IF ("Sign up" OR "Register" OR "Join" OR "Create account" link becomes visible)
+        ii.  IF registration link becomes visible ("Sign up", "Register", "Join", "Create account",
+             "Créer mon compte", "S'inscrire", "Inscription", "Créer un compte", etc.)
              THEN #Operation: click("element_id")
         iii. ELSE continue to next menu element
 
@@ -42,7 +48,7 @@ NEVER INTERACT WITH: Product links, Shopping cart, Search bars, Promotional cont
 
 FORMATTING RULES:
 1. Start with "#Operation:"
-2. Use element IDs from HTML.
+2. Use element IDs from HTML these id a alphabetical Label in [ ] in from of tags.
 3. Use double quotes ONLY.
 4. Add a short comment above your command to explain your reasoning.
 

@@ -1205,7 +1205,7 @@ class NewUserPromptConstructor(PromptConstructor):
                 if len(param) > 0:
                     if act in ['stop', 'select', 'record']:
                         param[-1] = param[-1].strip("\'\"")
-                    if act in ['type', 'goto']:
+                    if act in ['type', 'goto', 'code_email']:
                         param[-1] = '1' if param[-1] == 'True' else '0'
                     
                 command = act

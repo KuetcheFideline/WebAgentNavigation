@@ -25,8 +25,23 @@ INSTRUCTIONS:
 Scan the form from TOP to BOTTOM.
 Identify every field (Input, Select, Checkbox, Radio).
 IMPORTANT: You MUST include ALL checkboxes found in the form (e.g. Terms of Service, Newsletter, Privacy Policy) in your list.
+
+🚨 CRITICAL RULES FOR ELEMENT IDS:
+1. ALWAYS use element LABELS (A, B, C, D...), NEVER use text descriptions
+2. Element IDs are single letters or letter combinations shown in brackets: [A], [B], [G], [AB]
+3. NEVER use field names like "Email", "Password", "Pseudo", "jour", "mois" as IDs
+4. If an element has NO visible label in brackets, SKIP it (do not include in the JSON)
+
+✅ CORRECT EXAMPLES:
+{{ "id": "G", "function": "type_string", "args": ["value"], "description": "Pseudo field" }}
+{{ "id": "L", "function": "check", "args": [], "description": "CGU checkbox" }}
+
+❌ INCORRECT EXAMPLES (will cause errors):
+{{ "id": "Pseudo", "function": "type_string", "args": ["value"] }}
+{{ "id": "jour", "function": "select", "args": ["26"] }}
+
 For each field:
-Extract the element ID.
+Extract the element ID (the LABEL in brackets, e.g., [G] → "G").
 Determine the correct function (type_string, check, select).
 Retrieve the corresponding value from the User Persona.
 Compile all fields into a JSON list.
@@ -36,7 +51,9 @@ FIELD TYPES & FUNCTIONS:
 
 Text Input: type_string(id, value, False)
 Radio/Checkbox: check(id)
-Dropdown: select(id, value)
+Standard Dropdown: select(id, value)
+
+
 #Provided functions:
 def click(element_id: str) -> None:
 \"\"\"
