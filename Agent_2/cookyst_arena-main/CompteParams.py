@@ -11,7 +11,6 @@ class CompteParams:
         self.task_execution_command = task_execution_func
         self.continuation = continuation_func
         
-        # Format: { "Intent Actuelle": { "Signal Reçu": "Prochaine Intent" } }
         self.workflow = {
             "Register_page": {
                 "on_registration_page": "Method of SignIn",
@@ -30,7 +29,7 @@ class CompteParams:
                 "execute_json": "Submit_SignIn",
             },
             "Form_Correction_SignIn": {
-                "execute_json": "Submit_SignIn", # Après correction, on soumet à nouveau
+                "execute_json": "Submit_SignIn", 
                 "submitNotFound": "Multimodal_Form_SignIn"
             },
             "Multimodal_Form_SignIn": {
@@ -42,13 +41,13 @@ class CompteParams:
             },
             "Submit_SignIn": {
                 "form_submitted": "Verification_SignIn",
-                "fieldToComplete": "Form_Correction_SignIn", # RETOUR vers le correcteur spécialisé
+                "fieldToComplete": "Form_Correction_SignIn",
                 "submitNotFound": "Multimodal_Form_SignIn"
             },
             "Verification_SignIn": {
                 "loginSuccess": "STOP_SUCCESS",
                 "loginFailed": "Multimodal_Form_SignIn", 
-                "form_to_fill": "Form_Correction_SignIn", # RETOUR vers le correcteur spécialisé
+                "form_to_fill": "Form_Correction_SignIn", 
                 "on_login_page": "Method of LogIn",
                 "user_exist": "Method of LogIn"
             },
@@ -72,14 +71,14 @@ class CompteParams:
 
             "Form_LogIn": {
                 "execute_json": "HANDLE_JSON",
-                "fieldToComplete": "Form_LogIn", # Boucle pour remplir
+                "fieldToComplete": "Form_LogIn", 
                 "form_filled": "Submit_LogIn",
                 "formOkay": "Submit_LogIn",
                 "form_submitted": "Verification_LogIn",
-                "submitNotFound": "Multimodal_Form_LogIn" # Fallback
+                "submitNotFound": "Multimodal_Form_LogIn" 
             },
             "Form_Correction_LogIn": {
-                "execute_json": "Submit_LogIn", # Après correction, on soumet à nouveau
+                "execute_json": "Submit_LogIn", 
                 "submitNotFound": "Multimodal_Form_LogIn"
             },
             "Multimodal_Form_LogIn": {
@@ -91,13 +90,13 @@ class CompteParams:
             },
             "Submit_LogIn": {
                 "form_submitted": "Verification_LogIn",
-                "fieldToComplete": "Form_Correction_LogIn", # RETOUR pour correction
+                "fieldToComplete": "Form_Correction_LogIn", 
                 "submitNotFound": "Multimodal_Form_LogIn" 
             },
             "Verification_LogIn": {
                 "loginSuccess": "STOP_SUCCESS",
                 "loginFailed": "Multimodal_Form_LogIn", 
-                "form_to_fill": "Form_Correction_LogIn", # RETOUR pour correction
+                "form_to_fill": "Form_Correction_LogIn",
                 "on_login_page": "Method of LogIn"
             }
         }
@@ -141,8 +140,14 @@ class CompteParams:
         form_retry_count = 0
         multimodal_retry_count = 0
         correction_retry_count = 0
+        loop_steps = 0
         
         while current_intent and not current_intent.startswith("STOP_"):
+            loop_steps += 1
+            if loop_steps > 20:
+                logger.warning(f"[CompteParams] Global loop limit (20) reached. Force stopping with FAILURE.")
+                return "FAILURE"
+
             logger.info(f"\n [CompteParams] Étape : {current_intent}")
 
             if current_intent in ["Form_SignIn", "Form_LogIn"]:
@@ -162,9 +167,6 @@ class CompteParams:
                     logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Arrêt avec FAILURE.")
                     return "FAILURE"
             
-            if "Multimodal" in current_intent:
-               
-                pass 
             if "Form_Correction" in current_intent:
                 correction_retry_count += 1
                 if correction_retry_count > 3:
