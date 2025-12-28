@@ -1106,6 +1106,8 @@ class NewUserPromptConstructor(PromptConstructor):
                 Instruction = self.Statut
             elif intent.startswith("login_page"):
                 Instruction = self.LoginPage
+            elif  intent in ["Multimodal_Form_SignIn", "Multimodal_Form_LogIn"]:
+                Instruction = self.MultimodalFormFiller
             else:
                 Instruction = self.instruction
         

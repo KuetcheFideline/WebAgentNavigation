@@ -37,6 +37,12 @@ You must perform ONE action at a time.
 3.  Do NOT use text descriptions for elements.
 4.  Output EXACTLY one operation.
 
+⚠️ FINISH RULES
+
+- finish("form_submitted") → ONLY after clicking a submit/login/register button.
+- finish("loginSuccess") → ONLY if a success message is visible OR user is redirected to a logged-in page.
+- If at least one required field is empty, DO NOT use finish().
+
 **Provided functions:**
 def click(element_id: str) -> None:
     \"\"\"Click on the element with the specified id.\"\"\"

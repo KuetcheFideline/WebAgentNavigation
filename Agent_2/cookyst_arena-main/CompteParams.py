@@ -164,13 +164,13 @@ class CompteParams:
             
             if "Multimodal" in current_intent:
                 multimodal_retry_count += 1
-                if multimodal_retry_count > 3:
+                if multimodal_retry_count > 2:
                     logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Arrêt avec FAILURE.")
                     return "FAILURE"
             
             if "Form_Correction" in current_intent:
                 correction_retry_count += 1
-                if correction_retry_count > 3:
+                if correction_retry_count > 2:
                     logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Fallback vers Multimodal.")
                     if "SignIn" in current_intent:
                         current_intent = "Multimodal_Form_SignIn"
@@ -217,10 +217,7 @@ class CompteParams:
                 logger.info("[CompteParams] Gestion du popup Google...")
                 self.env.login_existing_account_popup()
                 obs, info = self.env.oldPage()
-                if "SignIn" in current_intent:
-                    current_intent = "Verification_SignIn"
-                else:
-                    current_intent = "Verification_LogIn"
+                current_intent = "STOP_SUCCESS"
                 continue
 
             next_step = self.workflow.get(current_intent, {}).get(signal)
@@ -249,6 +246,6 @@ class CompteParams:
             elif login_method == "classic":
                 return "SUCCESS_CLASSIC"
             else:
-                return "SUCCESS" # Fallback if method is unknown
+                return "SUCCESS" 
         
         return "FAILURE"
