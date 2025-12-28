@@ -612,7 +612,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
         # mark our own labels and get the images
         items = self.page.evaluate(label_marker_script, items)
-        # self.remove_image("output/")
+        self.remove_image("output/")
 
         # for idx, tab in enumerate(self.context.pages):
         #     try:

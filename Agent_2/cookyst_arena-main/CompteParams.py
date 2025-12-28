@@ -22,7 +22,7 @@ class CompteParams:
                 "noLoginMethod": "STOP_FAILURE"
             },
             "Google Login SignIn": {
-                "googleSelection": "Verification_SignIn",
+                "googleSelection": "STOP_SUCCESS",
                 "googleError": "STOP_FAILURE"
             },
             "Form_SignIn": {
@@ -137,6 +137,7 @@ class CompteParams:
     def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Register_page"):
         """Boucle principale de gestion du workflow."""
         current_intent = start_intent
+        login_method = "unknown"
         form_retry_count = 0
         multimodal_retry_count = 0
         correction_retry_count = 0
@@ -178,9 +179,9 @@ class CompteParams:
                     correction_retry_count = 0
                     continue
 
-            # Reset correction counter if we successfully move past correction/submit loop
-            if current_intent not in ["Form_Correction_SignIn", "Submit_SignIn", "Form_Correction_LogIn", "Submit_LogIn"]:
-                 correction_retry_count = 0
+            # # Reset correction counter if we successfully move past correction/submit loop
+            # if current_intent not in ["Form_Correction_SignIn", "Submit_SignIn", "Form_Correction_LogIn", "Submit_LogIn"]:
+            #      correction_retry_count = 0
 
             trajectory, meta_data, trace = self.task_execution_command(
                 obs, info, current_intent, max_steps, thresholds, self.env, self.agent, url, user
@@ -191,6 +192,17 @@ class CompteParams:
             logger.info(f"[CompteParams] Réponse brute de l'agent : {target_response}")
             signal = self.continuation(target_response)
             logger.info(f"[CompteParams] Signal reçu : {signal}")
+
+            if current_intent in ["Method of SignIn", "Method of LogIn"]:
+                if signal in ["google", "classic"]:
+                    login_method = signal
+                    logger.info(f"[CompteParams] Login Method Selected: {login_method}")
+
+            if signal in ["loginSuccess", "user_exist"]:
+                logger.info(f"[CompteParams] Login SUCCESS with method: {login_method}")
+            
+            if signal in ["googleError", "loginFailed"]:
+                logger.info(f"[CompteParams] Login FAILED with method: {login_method}")
             
             if isinstance(signal, tuple) and signal[0] == "execute_json":
                 self.execute_json_form(signal[1], url, user)
@@ -231,4 +243,12 @@ class CompteParams:
             
             current_intent = next_step
 
-        return "SUCCESS" if current_intent == "STOP_SUCCESS" else "FAILURE"
+        if current_intent == "STOP_SUCCESS":
+            if login_method == "google":
+                return "SUCCESS_GOOGLE"
+            elif login_method == "classic":
+                return "SUCCESS_CLASSIC"
+            else:
+                return "SUCCESS" # Fallback if method is unknown
+        
+        return "FAILURE"

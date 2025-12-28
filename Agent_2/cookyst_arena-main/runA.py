@@ -299,14 +299,16 @@ def load_sites_data():
                 return json.load(f)
         except Exception as e:
             logger.error(f"Error loading persistence file: {e}")
-    return {"Sites": [], "NoSites": []}
+    return {"Sites": [], "NoSites": [], "SitesGoogle": [], "SitesClassic": []}
 
-def save_sites_data(sites, no_sites):
+def save_sites_data(sites, no_sites, **kwargs):
     try:
         with open(PERSISTENCE_FILE, 'w') as f:
             json.dump({
                 "Sites": list(set(sites)), 
-                "NoSites": list(set(no_sites))
+                "NoSites": list(set(no_sites)),
+                "SitesGoogle": list(set(kwargs.get("sites_google", []))),
+                "SitesClassic": list(set(kwargs.get("sites_classic", [])))
             }, f, indent=4)
     except Exception as e:
         logger.error(f"Error saving persistence file: {e}")
@@ -342,6 +344,8 @@ def test(
     data = load_sites_data()
     Sites = data.get("Sites", [])
     NoSites = data.get("NoSites", [])
+    SitesGoogle = data.get("SitesGoogle", [])
+    SitesClassic = data.get("SitesClassic", [])
     for config_file in tqdm(config_file_list):
         initial_storage_state = None
         diff_filepath = None
@@ -393,15 +397,23 @@ def test(
                 "creation du compte "
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
                 result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Register_page")
-                if result == "SUCCESS":
+                if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                         Sites.append(url)
-                        save_sites_data(Sites, NoSites)
+                        if result == "SUCCESS_GOOGLE":
+                            SitesGoogle.append(url)
+                        elif result == "SUCCESS_CLASSIC":
+                            SitesClassic.append(url)
+                        
+                        save_sites_data(Sites, NoSites, sites_google=SitesGoogle, sites_classic=SitesClassic)
+                else:
+                    NoSites.append(url)
+                    save_sites_data(Sites, NoSites, sites_google=SitesGoogle, sites_classic=SitesClassic)
             initial_storage_state = env.get_all_storage_state()
             diff_filepath = storage_dir / "login" / f"{task_id}.json"
             env.save_storage(initial_storage_state, diff_filepath, url)
 
             
-            if result == "SUCCESS":
+            if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                
                 logger.info("Starting main execution...")
                 obs, info = env.oldPage()
