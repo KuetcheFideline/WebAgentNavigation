@@ -46,17 +46,32 @@ THEN:
 → switch_tab(new_tab_index)
 STOP.
 
-STEP 2 — ALREADY ON REGISTRATION PAGE
+STEP 2 — ALREADY ON REGISTRATION FLOW
+
 IF:
-- Email field visible
+- You see any indication relative to registration on the page
+
+AND EITHER:
+
+CASE A — Direct form:
+- An email input field is visible
 AND
-- Password field visible
+- A password input field is visible
 AND
-- Signup/Create-account submit button visible
+- A signup/create-account submit button is visible
+(All three in the same viewport)
+
+OR
+
+CASE B — Registration method choice:
+- The page asks the user to choose a registration method
+  (e.g. social login, email signup, multiple signup options)
+- The purpose of the page is clearly account creation
+- The user must select one option to continue registration
+
 THEN:
 → finish("on_registration_page")
-STOP.
-
+STOP
 STEP 3 — DIRECT SIGNUP LINK
 IF:
 - A visible element in header, footer, or main viewport
