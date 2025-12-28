@@ -385,9 +385,9 @@ def test(
             print(f"Environment reset test.{env}")
             diff_filepath = storage_dir / "login"/f"{task_id}.json"
 
-            initial_storage_state = env.get_all_storage_state()
             result = ""
-
+            initial_storage_state = env.get_all_storage_state()
+            
 
             if url in Sites :
                 print("compte deja creer sur ce site, verification du statut...")
@@ -408,9 +408,10 @@ def test(
                 else:
                     NoSites.append(url)
                     save_sites_data(Sites, NoSites, sites_google=SitesGoogle, sites_classic=SitesClassic)
-            initial_storage_state = env.get_all_storage_state()
             diff_filepath = storage_dir / "login" / f"{task_id}.json"
             env.save_storage(initial_storage_state, diff_filepath, url)
+            
+            initial_storage_state = env.get_all_storage_state()
 
             
             if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
