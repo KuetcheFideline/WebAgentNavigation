@@ -243,6 +243,11 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-es",
                 #        "password": "jsrj8ebf8lqy",                 
                 #    },
+                proxy={
+                       "server": "brd.superproxy.io:33335",
+                       "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy2",
+                       "password": "jr76tw4smz2h",                 
+                   }
 
                 )
 
