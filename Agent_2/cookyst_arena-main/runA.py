@@ -417,13 +417,13 @@ def test(
             if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                
                 logger.info("Starting main execution...")
-                obs, info = env.oldPage()
+                obs, info = env.new_page(url)
                 trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
                 
                 trace_result = {"id": task_id, "trace": trace}
                 with open(traces_dir / f"trace_{task_id}.json", "w") as f:
                     json.dump(trace_result, f, indent=4)
-
+                
                 final_storage_state = env.get_all_storage_state()
                 final_diff_filepath = storage_dir / f"{task_id}.json"
                 env.save_storage(final_storage_state, final_diff_filepath, url)
