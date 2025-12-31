@@ -254,7 +254,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                         "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
                         "password": "m63x39pd1ef5",                 
                     }
-
                 )
 
         storage_state = instance_config.get("storage_state", None)
@@ -448,10 +447,24 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "fail_error": "",
             "observation_metadata": observation_metadata,
             "name":images["name"],
-        } 
-
+        }
         
        return (observation, info)
+
+    def new_page(self,url):
+        self.page.goto(url,timeout=60000)
+        images = self.modify_page()
+        observation = self._get_obs()
+        observation_metadata = self._get_obs_metadata()
+        info = {
+            "page": DetachedPage(self.page.url, ""),
+            "fail_error": "",
+            "observation_metadata": observation_metadata,
+            "name":images["name"],
+        }
+        
+        return (observation, info)
+
     def save_trace(self, trace_path: str | Path) -> None:
         if self.save_trace_enabled:
             self.context.tracing.stop(path=trace_path)

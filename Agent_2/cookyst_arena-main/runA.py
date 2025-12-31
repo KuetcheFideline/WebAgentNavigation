@@ -98,6 +98,10 @@ def config() -> argparse.Namespace:
     parser.add_argument("--test_start_idx", type=int, default=3)
     parser.add_argument("--test_end_idx", type=int, default=1000)
     parser.add_argument("--sample", type=int, default=1)
+    
+    # Retry specific tasks
+    parser.add_argument("--retry_file", type=str, default=None, 
+                        help="Path to JSON file containing tasks to retry (format: {user_id: [task_ids]})")
    
     # Logging related
     parser.add_argument("--result_dir", type=str, default="")
@@ -417,16 +421,16 @@ def test(
             if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                
                 logger.info("Starting main execution...")
-                obs, info = env.oldPage()
+                obs, info = env.new_page(url)
                 trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
                 
                 trace_result = {"id": task_id, "trace": trace}
                 with open(traces_dir / f"trace_{task_id}.json", "w") as f:
                     json.dump(trace_result, f, indent=4)
-
-                final_storage_state = env.get_all_storage_state()
+                
+                # Sauvegarder le diff entre l'état initial (après login) et l'état final (après tâche)
                 final_diff_filepath = storage_dir / f"{task_id}.json"
-                env.save_storage(final_storage_state, final_diff_filepath, url)
+                env.save_storage(initial_storage_state, final_diff_filepath, url)
            
         except OpenAIError as e:
            
@@ -488,6 +492,33 @@ def dump_config(args: argparse.Namespace) -> None:
         logger.info(f"Dumped config to {config_file}")
 
 
+def load_retry_tasks(retry_file: str) -> dict:
+    """
+    Charge le fichier JSON contenant les tâches à relancer.
+    
+    Args:
+        retry_file: Chemin vers le fichier JSON
+        
+    Returns:
+        dict: {user_id: [task_ids]}
+    """
+    if not retry_file or not os.path.exists(retry_file):
+        return {}
+    
+    try:
+        with open(retry_file, 'r') as f:
+            data = json.load(f)
+            retry_tasks = data.get("retry_tasks", {})
+            logger.info(f"📋 Loaded retry tasks from {retry_file}")
+            logger.info(f"   - Users: {len(retry_tasks)}")
+            logger.info(f"   - Total tasks: {sum(len(tasks) for tasks in retry_tasks.values())}")
+            return retry_tasks
+    except Exception as e:
+        logger.error(f"Error loading retry file {retry_file}: {e}")
+        return {}
+
+
+
 if __name__ == "__main__":
     args = config()
     args.sleep_after_execution = 2.0
@@ -495,23 +526,52 @@ if __name__ == "__main__":
 
     test_file_list = []
     config_dir = Path("config_files") / args.connected
+    
+    # Charger les tâches à relancer si spécifié
+    retry_tasks = load_retry_tasks(args.retry_file) if args.retry_file else {}
+    
     if not config_dir.exists():
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
-        for user in os.listdir(config_dir) :
-            if user == args.country :
-                for i in range(args.user_start_idx,args.user_end_idx):
-
-                    for j in range(args.test_start_idx, args.test_end_idx):
+        if retry_tasks:
+            # MODE RETRY: Charger uniquement les tâches spécifiées dans retry_tasks.json
+            logger.info(" MODE RETRY: Chargement des tâches depuis le fichier de relance")
+            
+            for user_id, task_ids in retry_tasks.items():
+                # Parser user_id (format: FR_0249)
+                parts = user_id.split("_")
+                if len(parts) != 2:
+                    logger.warning(f"Invalid user_id format: {user_id}")
+                    continue
+                
+                country = parts[0]
+                user_idx = parts[1]
+                
+                if country != args.country:
+                    continue
+                
+                for task_id in task_ids:
+                    config_file = config_dir / country / user_idx / f"{task_id}.json"
+                    if config_file.exists():
+                        test_file_list.append(str(config_file))
+                    else:
+                        logger.warning(f"Config file not found: {config_file}")
+        else:
+            # MODE NORMAL: Itérer sur tous les utilisateurs et tâches
+            logger.info(" MODE NORMAL: Chargement de toutes les tâches")
+            
+            for user in os.listdir(config_dir):
+                if user == args.country:
+                    for i in range(args.user_start_idx, args.user_end_idx):
+                        for j in range(args.test_start_idx, args.test_end_idx):
                             formatted_id = f"{i:04}"
                             if j % args.sample == 0:
-                                config_file = config_dir / user /formatted_id / f"{j}.json"  
+                                config_file = config_dir / user / formatted_id / f"{j}.json"  
                                 if config_file.exists():
-                                   
                                     test_file_list.append(str(config_file))
 
-                                if "debug" not in args.result_dir:
-                                    test_file_list = get_unfinished(test_file_list, args.result_dir)
+                            if "debug" not in args.result_dir:
+                                test_file_list = get_unfinished(test_file_list, args.result_dir)
 
         if not test_file_list:
             logger.info("No tasks left to run.")
@@ -528,3 +588,4 @@ if __name__ == "__main__":
 
        
 	
+
