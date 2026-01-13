@@ -58,7 +58,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="html", help="Observation type")
     parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
     parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
-    parser.add_argument("--connected", type=str, default="Auth", help="Authentication status folder")
+    parser.add_argument("--connected", type=str, default="AUTH", help="Authentication status folder")
     parser.add_argument("--viewport_width", type=int, default=1920)
     parser.add_argument("--viewport_height", type=int, default=1080)
     parser.add_argument("--save_trace_enabled", action="store_true")
@@ -92,11 +92,11 @@ def config() -> argparse.Namespace:
 
 
     # Example config
-    parser.add_argument("--user_start_idx",type= int ,default=249)
-    parser.add_argument("--user_end_idx",type= int ,default=250)
+    parser.add_argument("--user_start_idx",type= int ,default=446)
+    parser.add_argument("--user_end_idx",type= int ,default=447)
 
-    parser.add_argument("--test_start_idx", type=int, default=3)
-    parser.add_argument("--test_end_idx", type=int, default=1000)
+    parser.add_argument("--test_start_idx", type=int, default=15)
+    parser.add_argument("--test_end_idx", type=int, default=68)
     parser.add_argument("--sample", type=int, default=1)
     
     # Retry specific tasks
@@ -243,6 +243,7 @@ def Continuation(target ):
     r"finish\(\s*['\"]verification_pending['\"]\s*\)",
     r"finish\(\s*['\"]user_exist['\"]\s*\)",
     r"finish\(\s*['\"]google_login_success['\"]\s*\)",
+    r"finish\(\s*['\"]google['\"]\s*\)",
 ] 
     
     equivalence = [
@@ -271,6 +272,7 @@ def Continuation(target ):
     "verificationPending",   # finish('verification_pending')
     "user_exist",
     "googleSelection",       # finish('google_login_success')
+    "google",                # finish('google')
 ] 
     json_match = re.search(r"finish\(\s*(\[[\s\S]*\])\s*\)", target)
     if json_match:

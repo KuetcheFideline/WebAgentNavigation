@@ -3,6 +3,22 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Form submitted or Google flow completed.
+Current task: 
+    - Confirm successful login or detect failure. 
+    IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register with Google" or a google image or a google icon, use #Operation: finish("google") instead of filling the form.
+
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for "Welcome", "Hello [Name]", or a profile picture that indicates a successful login.
+2. Look for error messages in red text (e.g., "Invalid password", "User already exists") that might not be in the HTML.
+3. Check for the absence of the "Login" button and the presence of a "Logout" or "Account" link in the image.
+
 🎯 PRIMARY OBJECTIVE: Confirm successful login, detect failure, or identify if more information is needed.
 
 You are a specialized assistant focused ONLY on validating login status.

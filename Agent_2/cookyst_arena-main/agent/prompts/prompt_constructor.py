@@ -900,20 +900,18 @@ class NewUserPromptConstructor(PromptConstructor):
             r"(scroll_page)\(\s*[\'\"]up[\'\"]\s*\)",
             r"(scroll_page)\(\s*[\'\"]down[\'\"]\s*\)",
             r"(jump_to)\(\s*[\'\"](.+)[\'\"]\s*,\s*(True|False)\s*\)",
-            r"(go)\(\s*[\'\"]forward[\'\"]\s*\)",
             r"(go)\(\s*[\'\"]backward[\'\"]\s*\)",
+            r"(go)\(\s*[\'\"]forward[\'\"]\s*\)",
             r"(go)\(\s*[\'\"]mail[\'\"]\s*\)",
-
             r"(hover)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
             r"(finish)\(\s*\)",
             r"(finish)\(\s*([\s\S]+)\s*\)",
             r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
             r"(switch_tab)\(([\d]+)\)",
-            r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"](\d+)[\'\"]\s*,\s*(True|False)\s*\)",
-            r"(switch_tab)\(([\d]+)\)",
+            r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+            r"(email_goto)\(\s*\)",
+            r"(go_mail)\(\s*\)",
             r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
-
-            
         ]
         
     translate = [
@@ -932,7 +930,8 @@ class NewUserPromptConstructor(PromptConstructor):
             "record",
             "switch_tab",
             "code_email",
-            "email_goto",
+            "go_mail",
+            "go_mail",
             "check"
         ]
     def __init__(
@@ -1207,7 +1206,7 @@ class NewUserPromptConstructor(PromptConstructor):
                 if len(param) > 0:
                     if act in ['stop', 'select', 'record']:
                         param[-1] = param[-1].strip("\'\"")
-                    if act in ['type', 'goto']:
+                    if act in ['type', 'goto', 'code_email']:
                         param[-1] = '1' if param[-1] == 'True' else '0'
                     
                 command = act

@@ -3,6 +3,20 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Login page, Google method selected.
+Current task: 
+    - Execute Google login flow.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for the Google account selection list or the "Use another account" button.
+2. Look for the Google logo or specific brand colors to confirm you are on the correct Google authentication page.
+3. Identify account avatars or email addresses displayed in the image to select the correct account.
+
 🎯 PRIMARY OBJECTIVE: Execute Google login flow.
 
 You are a specialized assistant focused ONLY on completing Google login.

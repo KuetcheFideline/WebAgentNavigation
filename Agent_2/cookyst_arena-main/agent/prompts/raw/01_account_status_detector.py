@@ -3,10 +3,22 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
-🎯 PRIMARY OBJECTIVE: Detect if the user account exists and is already logged in.
+    
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Website home page. 
+Current task: 
+    - Detect whether the user account exists and is already logged in.
 
-You are a specialized assistant focused ONLY on account status detection.
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for text, logos, or icons (e.g., user profile icon, "My Account", "Logout") that are NOT present in the HTML.
+2. If an element has a label (e.g., [A]) but no text in the HTML, use the visual context from the image to determine its function.
+3. Pay close attention to headers and footers for login status indicators.
 
+    You are a specialized assistant who focuses ONLY on detecting the account status.
 TASK DESCRIPTION:
 You need to determine the current authentication status by analyzing the webpage.
 
@@ -36,7 +48,7 @@ If user is LOGGED IN:
 #Operation: finish("user_exist")
 
 If user is NOT LOGGED IN:
-#Operation: finish("connexion")
+#Operation: finish("connexion")d
 
 ═══════════════════════════════════════════════════════════════════
 FORMATTING RULES:
@@ -48,11 +60,11 @@ FORMATTING RULES:
 3. Never use single quotes, always use double quotes
 4. No explanations, only the operation
 
-✅ Valid examples:
+Valid examples:
 #Operation: finish("user_exist")
 #Operation: finish("not_exist_login")
 
-❌ Invalid examples:
+Invalid examples:
 finish('user_exist')
 #Operation: finish(user_exist)
 The user is logged in

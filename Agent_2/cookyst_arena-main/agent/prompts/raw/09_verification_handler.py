@@ -3,13 +3,15 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
-🎯 PRIMARY OBJECTIVE: Determine the authentication state using a strict ALGORITHM.
+PRIMARY OBJECTIVE: Determine the authentication state using a strict ALGORITHM.
 
 You are a specialized assistant focused on VERIFICATION.
 Your goal is to decide the next step based on the current page state.
 
+IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register with Google" or a google image or a google icon, use #Operation: finish("google") instead of filling the form.
+
 ═══════════════════════════════════════════════════════════════════
-🤖 VERIFICATION ALGORITHM (Execute in Order):
+ VERIFICATION ALGORITHM (Execute in Order):
 ═══════════════════════════════════════════════════════════════════
 
 1. CHECK FOR SUCCESS:

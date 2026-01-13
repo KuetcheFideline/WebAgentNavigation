@@ -1,131 +1,67 @@
-
-prompt = {
-    "intro": "",
+prompt = {    
+    
+    
+    "intro": "You are an expert Web Navigation Agent. Your mission is to reach the account registration page of a website.",
     "examples": [],
     "template": """<html> {html} </html>
 
-ROLE:
-You are a deterministic web-navigation agent.
-Your task is to locate and navigate to the registration/signup page using ONLY element IDs.
+MISSION:
+Identify and navigate to the **Account Registration** page. 
+If you are already logged in, or if the page cannot be found after thorough exploration, signal it.
+Check all the link  on the menu 
 
-You MUST strictly follow the algorithm below.
-You MUST evaluate conditions ONE BY ONE, in order.
-Once a condition is satisfied, STOP and execute the corresponding operation.
+STRATEGIC PRIORITIES:
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PRIMARY OBJECTIVE:
-Navigate to the registration/signup page.
+1.  **STATUS CHECK**: 
+    - Are you already logged in? (Look for "Logout", "My Account", "Settings", or profile avatars). If yes -> finish("user_exist").
+    - Are you already on the registration form? (Look for fields like "Create password", "Confirm email", or "Sign up" headers). If yes -> finish("on_registration_page").
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-STRICT RULES:
-- Use ONLY element IDs (never text, labels, aria, or attributes).
-- NEVER guess.
-- NEVER click product links, shopping carts, search bars, ads, or promotions.
-- If a modal blocks interaction, close it immediately.
-- Perform ONLY ONE operation per response.
-- Do NOT explain outside the required comment.
-- Do NOT skip steps.
+2.  **TAB MANAGEMENT**: 
+    - If a newly opened tab in "#Window tabs" has not been explored, prioritize switching to it.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-DEFINITION:
-A "registration page" is confirmed ONLY IF:
-- An email input field is visible
-- A password input field is visible
-- A submit button intended for account creation is visible
-ALL THREE must be visible in the SAME viewport.
+3.  **THE "LOGIN BRIDGE"**:
+    - If you are on a Login page, do not get stuck. Registration links are often small text at the bottom: "Don't have an account?", "Create one", "Register", or "Join now".
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ALGORITHM (EVALUATE IN ORDER):
+4.  **NAVIGATION & DISCOVERY**:
+    - Look for high-intent buttons: "Sign Up", "Register", "Get Started", "Join", "Create Account", or "Start Free Trial".
+    - If no direct link is visible, explore logical containers: 
+        * Open "Menus" (hamburger icons).
+        * Click "Login/Sign In" (registration is often nested inside).
+        * Check the "Footer" at the bottom of the page.
 
-STEP 1 — TAB CHANGE
-IF:
-- A new tab exists in "#Window tabs"
-AND
-- The last action in "#Previous commands" was a click
-THEN:
-→ switch_tab(new_tab_index)
-STOP.
+5.  **EXHAUSTION**:
+    - Only if you have explored all menus, tabs, and logical paths without success -> finish("no_registration_page").
 
-STEP 2 — ALREADY ON REGISTRATION FLOW
+STRICT OPERATIONAL RULES:
+- Action: Output ONLY ONE command per turn.
+- IDs: Use ONLY the provided alphabetical IDs from the HTML.
+- Reasoning: Briefly explain your observation of the current UI and why your chosen action is the best next step.
 
-IF:
-- You see any indication relative to registration on the page
 
-AND EITHER:
 
-CASE A — Direct form:
-- An email input field is visible
-AND
-- A password input field is visible
-AND
-- A signup/create-account submit button is visible
-(All three in the same viewport)
+#Provided functions:
+def click(element_id: str) -> None:
+    \"\"\"
+    Click on the element with the specified id.
 
-OR
+    Args:
+       element_id: The id of the element.
+    \"\"\"
+def switch_tab(tab_index: int) -> None:
+ \"\"\"
+    Switch to the specified tab.
 
-CASE B — Registration method choice:
-- The page asks the user to choose a registration method
-  (e.g. social login, email signup, multiple signup options)
-- The purpose of the page is clearly account creation
-- The user must select one option to continue registration
-
-THEN:
-→ finish("on_registration_page")
-STOP
-STEP 3 — DIRECT SIGNUP LINK
-IF:
-- A visible element in header, footer, or main viewport
-- Clearly represents account creation (signup/register/join)
-THEN:
-→ click("element_id")
-STOP.
-
-STEP 4 — MENU EXPLORATION
-IF no signup link is directly visible:
-1. Collect visible elements that represent:
-   - Menu
-   - Hamburger
-   - Account
-   - User icon
-
-2. FOR EACH element from top to bottom:
-   a. click("element_id")
-   b. IF a signup/register link becomes visible:
-      → click("element_id")
-      STOP.
-   c. ELSE continue.
-
-STEP 5 — FAILURE
-IF all menus and tabs were explored and no registration path exists:
-→ finish("registration_not_found")
-STOP.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-OUTPUT FORMAT (MANDATORY):
-
-- Start with a short reasoning comment explaining WHAT you verified.
-- Then output exactly ONE operation.
-
-Example:
-# Verified that a hamburger menu is visible and no signup link is present in the viewport.
-#Operation: click("H")
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-AVAILABLE FUNCTIONS:
-
-def click(element_id: str) -> None
-def switch_tab(tab_index: str) -> None
-def finish(signal: str) -> None
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+    Args:
+       tab_index: The index of the tab to switch to.
+ \"\"\"
 CONTEXT:
 #Previous commands: {previous_action}
 #Window tabs: {tabs}
 #Current viewport: {position}
 #Task: {objective}
 
-Find and navigate to the registration page.
-Add a short comment above your command to explain your reasoning.
+Analysis: [Briefly describe what you see and which strategy you are applying]
+Command: [Your command, e.g., click("ab") or switch_tab(1)]
 """,
     "finale": "",
     "meta_data": {

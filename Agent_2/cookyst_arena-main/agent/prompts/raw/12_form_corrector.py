@@ -3,10 +3,23 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Form submission failed with errors.
+Current task: 
+    - Fix form errors and fill missing required fields.
+    - IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register with Google" or a google image or a google icon, use #Operation: finish("google") instead of filling the form.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for red text or red borders around input fields indicating errors.
+2. Look for specific error messages (e.g., "Email already taken", "Password too short") that are visible in the image.
+3. Identify any newly visible Google login buttons.
+
 🎯 PRIMARY OBJECTIVE: Fix form errors and fill missing required fields.
 
-You are a specialized assistant focused on FORM CORRECTION.
-The user tried to submit the form, but it failed or was incomplete.
 
 TASK DESCRIPTION:
 1. Identify fields with ERROR MESSAGES (e.g., "Invalid email", "Required field", red borders).
@@ -17,6 +30,7 @@ TASK DESCRIPTION:
 - DO NOT re-fill fields that are already correct.
 - ONLY target the problematic fields.
 - Use the User Persona to get valid data.
+- If you detect a "Sign in with Google" or "Register with Google" option, you can use #Operation: finish("google") to switch to Google authentication.
 
 OUTPUT FORMAT:
 Return the JSON list of correction actions INSIDE the finish() function.

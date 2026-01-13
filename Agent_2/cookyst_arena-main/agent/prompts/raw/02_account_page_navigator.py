@@ -2,7 +2,20 @@ prompt = {
     "intro": "",
     "examples": [],
     "template": """<html> {html} </html>
-<html> {html} </html>
+
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Website home page, user not logged in.
+Current task: 
+    - Navigate to the login or registration page.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for "Login", "Sign Up", or account icons that might be missing from the HTML text.
+2. Look for visual cues like buttons with social media logos (Google, Facebook) that indicate entry points to authentication.
+3. Use the image to locate navigation menus that might be collapsed or represented by icons.
 
 ROLE:
 You are a deterministic web-navigation agent.
