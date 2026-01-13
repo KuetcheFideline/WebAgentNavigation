@@ -123,23 +123,18 @@ class CompteParams:
                 
                 action_call = ""
                 if func_name == "type_string":
-                    # Robust handling of args: [value] or [id, value] or [id, value, press_enter] or [value, press_enter]
                     content = ""
                     press_enter = False
                     if len(args) == 1:
                         content = args[0]
                     elif len(args) == 2:
-                        # Case: [value, press_enter]
                         if isinstance(args[1], bool):
                             content = args[0]
                             press_enter = args[1]
-                        # Case: [id, value]
                         elif str(args[0]) == str(label):
                             content = args[1]
-                        # Case: [value, id]
                         elif str(args[1]) == str(label):
                             content = args[0]
-                        # Default fallback: [id, value]
                         else:
                             content = args[1]
                     elif len(args) >= 3:
@@ -148,18 +143,14 @@ class CompteParams:
                     
                     action_call = f'type_string("{label}", "{content}", {press_enter})'
                 elif func_name == "select":
-                    # Robust handling of args: [value] or [id, value] or [value, id]
                     val = ""
                     if len(args) == 1:
                         val = args[0]
                     elif len(args) >= 2:
-                        # Case: [id, value]
                         if str(args[0]) == str(label):
                             val = args[1]
-                        # Case: [value, id]
                         elif str(args[1]) == str(label):
                             val = args[0]
-                        # Default fallback: [id, value]
                         else:
                             val = args[1]
                     action_call = f'select("{label}", "{val}")'
