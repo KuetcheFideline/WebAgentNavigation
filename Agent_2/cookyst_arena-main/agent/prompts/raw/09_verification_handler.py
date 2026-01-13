@@ -25,7 +25,7 @@ IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register 
 
 3. CHECK FOR EMAIL LINK:
    IF (Message says "Check your email" / "Link sent") AND (NO code input field is visible)
-   → THEN: #Operation: email_goto()
+   → THEN: #Operation: go_mail()
 
 4. CHECK FOR FORM ERRORS (Specific):
    IF (Still on Form/Login page) AND (Specific error visible: "Invalid password", "Required", "Email exists")
@@ -64,7 +64,7 @@ PROVIDED FUNCTIONS:
 ═══════════════════════════════════════════════════════════════════
 def code_email(element_id: str, content: str, press_enter: bool) -> None:
     \"\"\"Enter verification code.\"\"\"
-def email_goto() -> None:
+def go_mail() -> None:
     \"\"\"Go to email inbox.\"\"\"
 def click(element_id: str) -> None:
     \"\"\"Click an element.\"\"\"
