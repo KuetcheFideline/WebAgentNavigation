@@ -398,11 +398,11 @@ def test(
             if url in Sites :
                 print("compte deja creer sur ce site, verification du statut...")
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
-                result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Statut")
+                result, auth_trace = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Statut")
             else  :
                 "creation du compte "
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
-                result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Register_page")
+                result, auth_trace = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Register_page")
                 if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                         Sites.append(url)
                         if result == "SUCCESS_GOOGLE":
@@ -414,6 +414,12 @@ def test(
                 else:
                     NoSites.append(url)
                     save_sites_data(Sites, NoSites, sites_google=SitesGoogle, sites_classic=SitesClassic)
+            
+            # Sauvegarder la trace d'authentification
+            if auth_trace:
+                auth_trace_result = {"id": task_id, "trace": auth_trace}
+                with open(traces_dir / f"trace_auth_{task_id}.json", "w") as f:
+                    json.dump(auth_trace_result, f, indent=4)
             diff_filepath = storage_dir / "login" / f"{task_id}.json"
             env.save_storage(initial_storage_state, diff_filepath, url)
             

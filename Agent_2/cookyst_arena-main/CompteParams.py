@@ -188,12 +188,13 @@ class CompteParams:
         multimodal_retry_count = 0
         correction_retry_count = 0
         loop_steps = 0
+        all_traces = []
         
         while current_intent and not current_intent.startswith("STOP_"):
             loop_steps += 1
             if loop_steps > 20:
                 logger.warning(f"[CompteParams] Global loop limit (20) reached. Force stopping with FAILURE.")
-                return "FAILURE"
+                return "FAILURE", all_traces
 
             logger.info(f"\n [CompteParams] Étape : {current_intent}")
 
@@ -212,7 +213,7 @@ class CompteParams:
                 multimodal_retry_count += 1
                 if multimodal_retry_count > 2:
                     logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Arrêt avec FAILURE.")
-                    return "FAILURE"
+                    return "FAILURE", all_traces
             
             if "Form_Correction" in current_intent:
                 correction_retry_count += 1
@@ -232,6 +233,7 @@ class CompteParams:
             trajectory, meta_data, trace = self.task_execution_command(
                 obs, info, current_intent, max_steps, thresholds, self.env, self.agent, url, user
             )
+            all_traces.extend(trace)
             
             
             target_response = trace[-1]["target"]
@@ -278,7 +280,7 @@ class CompteParams:
                      continue
                 
                 logger.warning(f"!!! [CompteParams] Pas de transition pour {current_intent} avec signal {signal}")
-                return "FAILURE"
+                return "FAILURE", all_traces
 
             last_obs_state = trajectory[-2]
             obs = last_obs_state["observation"]
@@ -288,10 +290,11 @@ class CompteParams:
 
         if current_intent == "STOP_SUCCESS":
             if login_method == "google":
-                return "SUCCESS_GOOGLE"
+                result = "SUCCESS_GOOGLE"
             elif login_method == "classic":
-                return "SUCCESS_CLASSIC"
+                result = "SUCCESS_CLASSIC"
             else:
-                return "SUCCESS" 
+                result = "SUCCESS" 
+            return result, all_traces
         
-        return "FAILURE"
+        return "FAILURE", all_traces
