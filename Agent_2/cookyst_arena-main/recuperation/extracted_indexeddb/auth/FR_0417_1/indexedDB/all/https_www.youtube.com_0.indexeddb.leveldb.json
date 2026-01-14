@@ -1,0 +1,3604 @@
+{
+  "site": "https_www.youtube.com_0.indexeddb.leveldb",
+  "profile": "FR_0417_1",
+  "auth_type": "auth",
+  "records_count": 22,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "actualName"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actualName": "yt-idb-test-do-not-use",
+        "publicName": "yt-idb-test-do-not-use",
+        "userIdentifier": {
+          "__type__": "Undefined"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actualName": "LogsDatabaseV2:V96d52bb3||",
+        "publicName": "LogsDatabaseV2",
+        "userIdentifier": "V96d52bb3||"
+      }
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 2,
+      "value": [
+        "status",
+        "interface",
+        "timestamp"
+      ]
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1763476702719",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "CgtmMm9xZWR4Y1VRdyjdifLIBjInCgJGUhIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiBH",
+            "X-Goog-Event-Time": "1763476702719",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251112.21.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 831575530,
+            "X-YouTube-Page-Label": "youtube.player.web_20251112_21_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1763476702211&flash=0&frm=2&u_tz=60&u_his=2&u_h=1440&u_w=2560&u_ah=1440&u_aw=2560&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C2560%2C0%2C1288%2C931%2C0%2C0&vis=1&wgl=true&ca_type=image"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "FR",
+                "clientName": 56,
+                "clientVersion": "1.20251112.21.00",
+                "configInfo": {
+                  "appInstallData": "CN2J8sgGEN68zhwQ8p3QHBDzkNAcEK21gBMQ-__PHBCDntAcELfq_hIQwY_QHBDjuM8cEMzfrgUQvJTQHBCsptAcEJbbzxwQzOvPHBC9tq4FENiW0BwQ3KDQHBDI988cEIHNzhwQ-ofQHBCU8s8cEL2ZsAUQiYPQHBCJsM4cEK2i0BwQoKfQHBC52c4cEJmNsQUQ9ZfQHBDa984cEJ7QsAUQu9nOHBCvotAcEJzXzxwQiIewBRDe6c8cEOWygBMQyIfQHBD8ss4cELKi0BwQjOnPHBDT4a8FELjkzhwQlffPHBCU_rAFEKil0BwQrtbPHBD2q7AFEJSv0BwQyfevBRCHrM4cEJOD0BwQvYqwBRDR4M8cEIKU0BwQi_fPHBDlpNAcEPOzgBMQn7uAExChqtAcEOyM0BwqSENBTVNNUlVxLVpxLURNZVVFdWdCdTlYd0N6S2dyQVFEemY4Rm9ZQUdvaTZrWXJNVjN5U05adllQN3pEenRnV2EydTRlSFFjPTAA"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.google.com/search?q=recaptcha+test&oq=recaptcha+&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIGCAAQRRg5MgwIARAAGEMYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgcIBhAAGIAEMgYIBxBFGDzSAQgzODAyajBqN6gCB7ACAfEFzPJz0HvLxcE&sourceid=chrome&ie=UTF-8"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1763476702215.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_eps",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702217.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_epe",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702455.0,
+                  "latencyActionTicked": {
+                    "tickName": "pe",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702456.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wes",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702124.0,
+                  "latencyActionTicked": {
+                    "tickName": "srt",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476701986.0,
+                  "latencyActionBaselined": {
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702026.0,
+                  "latencyActionTicked": {
+                    "tickName": "nreqs",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702124.0,
+                  "latencyActionTicked": {
+                    "tickName": "nress",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702137.0,
+                  "latencyActionTicked": {
+                    "tickName": "nrese",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476701989.0,
+                  "latencyActionTicked": {
+                    "tickName": "ndnss",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476701990.0,
+                  "latencyActionTicked": {
+                    "tickName": "ndnse",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476701990.0,
+                  "latencyActionTicked": {
+                    "tickName": "ntcps",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702025.0,
+                  "latencyActionTicked": {
+                    "tickName": "ntcpe",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476701999.0,
+                  "latencyActionTicked": {
+                    "tickName": "nstcps",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702025.0,
+                  "latencyActionTicked": {
+                    "tickName": "ntcpe",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702155.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffs",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702208.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffe",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702157.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pj",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702269.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pj",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702134.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pej",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702161.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pej",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702134.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pc",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702160.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pc",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702157.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_ecj",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702202.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_ecj",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702461.0,
+                  "latencyActionInfo": {
+                    "isNavigation": true,
+                    "actionType": "LATENCY_ACTION_EMBED_NO_VIDEO",
+                    "httpProtocol": "h2",
+                    "transportProtocol": "tcp",
+                    "isVisible": true,
+                    "loadType": "cold",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702466.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wee",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702488.0,
+                  "latencyActionTicked": {
+                    "tickName": "pot_isc",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "16"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702493.0,
+                  "screenCreated": {
+                    "csn": "myHFyPMtDoPufZed",
+                    "pageVe": {
+                      "veType": 16623,
+                      "youtubeData": {
+                        "servletData": {
+                          "serializedServletEventId": "3YQcadyvOob2-cAP6Zm-gQM"
+                        }
+                      }
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "21"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702494.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "myHFyPMtDoPufZed",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "21"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702494.0,
+                  "screenCreated": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "pageVe": {
+                      "veType": 32594
+                    },
+                    "implicitGesture": {
+                      "parentCsn": "myHFyPMtDoPufZed",
+                      "gesturedVe": {
+                        "veType": 16623
+                      },
+                      "gestureType": "INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED"
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "22"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702494.0,
+                  "visualElementHidden": {
+                    "csn": "myHFyPMtDoPufZed",
+                    "ve": {
+                      "veType": 16623
+                    },
+                    "eventType": 16
+                  },
+                  "context": {
+                    "lastActivityMs": "22"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702494.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "91McdqzGXOZQf5eR",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "22"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702495.0,
+                  "visualElementAttached": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "trackingParams": "CAAQru4BIhMIqf2P0_b7kAMVSJL0Bx3GHQNq"
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "22"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702497.0,
+                  "latencyActionTicked": {
+                    "tickName": "fs",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "25"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702505.0,
+                  "latencyActionTicked": {
+                    "tickName": "ftr",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "33"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702508.0,
+                  "visualElementAttached": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28240,
+                          "veCounter": 3
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "36"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702508.0,
+                  "visualElementShown": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "ve": {
+                      "veType": 28240,
+                      "veCounter": 3
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "36"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702508.0,
+                  "visualElementAttached": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28239,
+                          "veCounter": 4
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "36"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702508.0,
+                  "visualElementShown": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "ve": {
+                      "veType": 28239,
+                      "veCounter": 4
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "36"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702519.0,
+                  "visualElementAttached": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 139117,
+                          "veCounter": 17
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "47"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702520.0,
+                  "visualElementShown": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "ve": {
+                      "veType": 139117,
+                      "veCounter": 17
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "47"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702523.0,
+                  "visualElementAttached": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36842,
+                          "veCounter": 19
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "50"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702523.0,
+                  "visualElementShown": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "ve": {
+                      "veType": 36842,
+                      "veCounter": 19
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "50"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702527.0,
+                  "visualElementHidden": {
+                    "csn": "91McdqzGXOZQf5eR",
+                    "ve": {
+                      "veType": 28666,
+                      "veCounter": 24
+                    },
+                    "eventType": 8
+                  },
+                  "context": {
+                    "lastActivityMs": "55"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702537.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_pr",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "65"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702543.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_ar",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "71"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702545.0,
+                  "latencyActionInfo": {
+                    "serverTimeMs": 28,
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "73"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702550.0,
+                  "latencyActionInfo": {
+                    "clientPlaybackNonce": "Et4W0lOXSvYFQNF5",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "78"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702569.0,
+                  "idbTransactionEnded": {
+                    "objectStoreNames": "databases",
+                    "connectionHasUnknownAbortedTransaction": false,
+                    "duration": 2.0,
+                    "isSuccessful": true,
+                    "tryCount": 1,
+                    "tag": "IDB_TRANSACTION_TAG_UNKNOWN"
+                  },
+                  "context": {
+                    "lastActivityMs": "97"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702717.0,
+                  "finalPayload": {
+                    "csn": "91McdqzGXOZQf5eR"
+                  },
+                  "context": {
+                    "lastActivityMs": "244"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "3YQcadyvOob2-cAP6Zm-gQM",
+              "clientCounter": "20050"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1763476702719.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1763476702766",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "CgtmMm9xZWR4Y1VRdyjdifLIBjInCgJGUhIhEh0SGwsMDg8QERITFBUWFxgZGhscHR4fICEiIyQlJiBH",
+            "X-Goog-Event-Time": "1763476702766",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251112.21.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 831575530,
+            "X-YouTube-Page-Label": "youtube.player.web_20251112_21_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1763476702211&flash=0&frm=2&u_tz=60&u_his=2&u_h=1440&u_w=2560&u_ah=1440&u_aw=2560&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C2560%2C0%2C1288%2C931%2C0%2C0&vis=1&wgl=true&ca_type=image"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "FR",
+                "clientName": 56,
+                "clientVersion": "1.20251112.21.00",
+                "configInfo": {
+                  "appInstallData": "CN2J8sgGEN68zhwQ8p3QHBDzkNAcEK21gBMQ-__PHBCDntAcELfq_hIQwY_QHBDjuM8cEMzfrgUQvJTQHBCsptAcEJbbzxwQzOvPHBC9tq4FENiW0BwQ3KDQHBDI988cEIHNzhwQ-ofQHBCU8s8cEL2ZsAUQiYPQHBCJsM4cEK2i0BwQoKfQHBC52c4cEJmNsQUQ9ZfQHBDa984cEJ7QsAUQu9nOHBCvotAcEJzXzxwQiIewBRDe6c8cEOWygBMQyIfQHBD8ss4cELKi0BwQjOnPHBDT4a8FELjkzhwQlffPHBCU_rAFEKil0BwQrtbPHBD2q7AFEJSv0BwQyfevBRCHrM4cEJOD0BwQvYqwBRDR4M8cEIKU0BwQi_fPHBDlpNAcEPOzgBMQn7uAExChqtAcEOyM0BwqSENBTVNNUlVxLVpxLURNZVVFdWdCdTlYd0N6S2dyQVFEemY4Rm9ZQUdvaTZrWXJNVjN5U05adllQN3pEenRnV2EydTRlSFFjPTAA"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.google.com/search?q=recaptcha+test&oq=recaptcha+&gs_lcrp=EgZjaHJvbWUqDAgBEAAYQxiABBiKBTIGCAAQRRg5MgwIARAAGEMYgAQYigUyBwgCEAAYgAQyBwgDEAAYgAQyDAgEEAAYQxiABBiKBTIMCAUQABhDGIAEGIoFMgcIBhAAGIAEMgYIBxBFGDzSAQgzODAyajBqN6gCB7ACAfEFzPJz0HvLxcE&sourceid=chrome&ie=UTF-8"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1763476702727.0,
+                  "idbTransactionEnded": {
+                    "objectStoreNames": "LogsRequestsStore",
+                    "connectionHasUnknownAbortedTransaction": false,
+                    "duration": 1.0,
+                    "isSuccessful": true,
+                    "tryCount": 1,
+                    "tag": "IDB_TRANSACTION_TAG_UNKNOWN"
+                  },
+                  "context": {
+                    "lastActivityMs": "254"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702763.0,
+                  "latencyActionTicked": {
+                    "tickName": "mesv_s",
+                    "clientActionNonce": "rVpBZ92k4mKCDnGm"
+                  },
+                  "context": {
+                    "lastActivityMs": "290"
+                  }
+                },
+                {
+                  "eventTimeMs": 1763476702765.0,
+                  "finalPayload": {
+                    "csn": "91McdqzGXOZQf5eR"
+                  },
+                  "context": {
+                    "lastActivityMs": "292"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "3YQcadyvOob2-cAP6Zm-gQM",
+              "clientCounter": "20051"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1763476702766.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 4,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actualName": "LogsDatabaseV2:Vfc95a7ae||",
+        "publicName": "LogsDatabaseV2",
+        "userIdentifier": "Vfc95a7ae||"
+      }
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 2,
+      "value": [
+        "status",
+        "interface",
+        "timestamp"
+      ]
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 5,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actualName": "LogsDatabaseV2:V56ce6335||",
+        "publicName": "LogsDatabaseV2",
+        "userIdentifier": "V56ce6335||"
+      }
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 2,
+      "value": [
+        "status",
+        "interface",
+        "timestamp"
+      ]
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 6,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actualName": "LogsDatabaseV2:Ve80ba800||",
+        "publicName": "LogsDatabaseV2",
+        "userIdentifier": "Ve80ba800||"
+      }
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 2,
+      "value": [
+        "status",
+        "interface",
+        "timestamp"
+      ]
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1765739349441",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "CgtMRDRUS3FfTlJpNCjRlvzJBjIKCgJVUxIEGgAgRmLfAgrcAjE0LllUPUVGVlR2S2hFM1lrWDhDd21Oa01EV0Rpd2pMNHdQRnMtakp1YzVHbDVDNVR0SlRfWER3SDFKRVFPQXVQMFVSSFFVaDdJSGFHbkRWLVZpSVdHZ0NRQk84ZkxTVEp0alBneHlIbG5lVjNOQ0xfdHVjbVJOMVJudHhQazBmSnhzUnV1ODZtbXl3MmlfUlZnQ2dkMmJEYUQ0RGNKbmJVX1ozazRQczNZR25iRk56TlQ0NnF2Vi02YWdablJ2aFBDVXZPQS1wdldkWUFHS0JWYlUyZlFJbmZ6TWhCSVFKMkZnYlBxY3NkbjlHTnFtSzVWOTVYNnFQeXo4eGJtbTJWdjh3SmdBampBY0R2aGRLYXZ4S1U5N2xtU1JQM0xpQzVRdzRWbUtPaG1KY0lOOXlRaElUdHVndW5zZG5JaU1BMldXOHB5TDV6QzY4Qk4xbzVnalBRaEFmVkNjUQ%3D%3D",
+            "Authorization": "SAPISIDHASH 1765739349_19329fa36f70bad6acfe2653b7fa833853b3cbd1 SAPISID3PHASH 1765739349_19329fa36f70bad6acfe2653b7fa833853b3cbd1",
+            "X-Goog-AuthUser": "0",
+            "X-Origin": "https://www.youtube.com",
+            "X-Goog-Event-Time": "1765739349441",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251212.01.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 843559120,
+            "X-YouTube-Page-Label": "youtube.embeds.web_20251212_01_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1765739346377&flash=0&frm=2&u_tz=60&u_his=2&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1024%2C0%2C1928%2C1211%2C408%2C229&vis=1&wgl=true&ca_type=image&bid=ANyPxKq0uo_62zy45oE6sx-ZddcuBRixyU9MNPdpSLkpViz5S4ZDxNd0ElvXC5RKVL5ZGVis2q9_BKUJYTQi59AKGFjiNcLSQw"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "US",
+                "clientName": 56,
+                "clientVersion": "1.20251212.01.00",
+                "configInfo": {
+                  "appInstallData": "CNGW_MkGEMm70BwQqKXQHBCU8s8cEJWv0BwQzOvPHBCe0LAFEI2w0BwQr4bPHBDmh9AcEKa20BwQk4PQHBDyndAcELa1gBMQ3rzOHBC9mbAFEIeszhwQlffPHBCu1s8cEJbbzxwQ8rPQHBCU_rAFEPOzgBMQp5-pFxDM364FENiW0BwQiYPQHBCd188cEM6z0BwQgc3OHBCZjbEFEIzpzxwQyfevBRC9irAFEIv3zxwQt-r-EhDwtNAcELyzgBMQ2sHQHBC52c4cEI-50BwQ2vfOHBD2q7AFEIOe0BwQlLbQHBCaudAcEMGP0BwQ0eDPHBDatNAcELyk0BwQibDOHBCIh7AFELjkzhwQyPfPHBDT4a8FEOWk0BwQ_LLOHBC72c4cEN2g0BwQg6zQHBC7v9AcEL22rgUQx7bQHBC6rtAcEK-wgBMQyrHQHCpAQ0FNU0xCVXYtWnEtRE1lVUVvY09xZ0w2emZBTE1xQ3NCQVBOX3dXaGdBYWlMdDl3NUlNRzlnX3ZNUEsyQlIwSDAA"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.panini.fr/"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1765739346382.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_eps",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346383.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_epe",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346869.0,
+                  "latencyActionTicked": {
+                    "tickName": "pe",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346915.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wes",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345654.0,
+                  "latencyActionTicked": {
+                    "tickName": "srt",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345246.0,
+                  "latencyActionBaselined": {
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345569.0,
+                  "latencyActionTicked": {
+                    "tickName": "nreqs",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345654.0,
+                  "latencyActionTicked": {
+                    "tickName": "nress",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346020.0,
+                  "latencyActionTicked": {
+                    "tickName": "nrese",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346111.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffs",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346322.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffe",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345795.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pj",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346668.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pj",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345795.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pej",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346090.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pej",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345795.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pc",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346150.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pc",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345795.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_ecj",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346365.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_ecj",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346926.0,
+                  "latencyActionInfo": {
+                    "isNavigation": true,
+                    "actionType": "LATENCY_ACTION_VIDEO_PREVIEW",
+                    "httpProtocol": "h2",
+                    "transportProtocol": "tcp",
+                    "isVisible": true,
+                    "loadType": "cold",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346932.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wee",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347020.0,
+                  "screenCreated": {
+                    "csn": "b9nBvMLFcVHSRvwM",
+                    "pageVe": {
+                      "veType": 16623,
+                      "youtubeData": {
+                        "servletData": {
+                          "serializedServletEventId": "UQs_aa7VI-GK8uMP8aGA8Aw"
+                        }
+                      }
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "45"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347020.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "b9nBvMLFcVHSRvwM",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "46"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347020.0,
+                  "screenCreated": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "pageVe": {
+                      "veType": 32594
+                    },
+                    "implicitGesture": {
+                      "parentCsn": "b9nBvMLFcVHSRvwM",
+                      "gesturedVe": {
+                        "veType": 16623
+                      },
+                      "gestureType": "INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED"
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "46"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347021.0,
+                  "visualElementHidden": {
+                    "csn": "b9nBvMLFcVHSRvwM",
+                    "ve": {
+                      "veType": 16623
+                    },
+                    "eventType": 16
+                  },
+                  "context": {
+                    "lastActivityMs": "46"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347021.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "5LXy3MbDFdKoBKjq",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "46"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347021.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "trackingParams": "CAAQru4BIhMIlfDX0-O9kQMVJiAGAB0YVAXA"
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "46"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347027.0,
+                  "latencyActionTicked": {
+                    "tickName": "fs",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "53"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347037.0,
+                  "latencyActionTicked": {
+                    "tickName": "ftr",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "63"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347040.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28240,
+                          "veCounter": 3
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "66"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347040.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 28240,
+                      "veCounter": 3
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "66"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347041.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28239,
+                          "veCounter": 4
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "66"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347041.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 28239,
+                      "veCounter": 4
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "66"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347076.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 139117,
+                          "veCounter": 18
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "101"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347076.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 139117,
+                      "veCounter": 18
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "101"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347085.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36842,
+                          "veCounter": 20
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "110"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347085.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 36842,
+                      "veCounter": 20
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "110"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347089.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28663,
+                          "veCounter": 24
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "114"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347089.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 28663,
+                      "veCounter": 24
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "114"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347089.0,
+                  "visualElementHidden": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 28666,
+                      "veCounter": 25
+                    },
+                    "eventType": 8
+                  },
+                  "context": {
+                    "lastActivityMs": "115"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347099.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 23851,
+                          "veCounter": 8
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "125"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347100.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 23851,
+                      "veCounter": 8
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "125"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347100.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36925,
+                          "veCounter": 5
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "125"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347100.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 36925,
+                      "veCounter": 5
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "125"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347100.0,
+                  "visualElementAttached": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 16499,
+                          "veCounter": 37
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "125"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347100.0,
+                  "visualElementShown": {
+                    "csn": "5LXy3MbDFdKoBKjq",
+                    "ve": {
+                      "veType": 16499,
+                      "veCounter": 37
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "125"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347119.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_pr",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "144"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347122.0,
+                  "latencyActionInfo": {
+                    "serverTimeMs": 56,
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "147"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347193.0,
+                  "latencyActionInfo": {
+                    "clientPlaybackNonce": "w1cgtG1e6X0prW6p",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "219"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347434.0,
+                  "latencyActionTicked": {
+                    "tickName": "pot_ist",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "460"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347537.0,
+                  "clientError": {
+                    "errorMetadata": {
+                      "pageUrl": "https://www.youtube.com/embed/_LSV3WViDHI",
+                      "kvPairs": {
+                        "__type__": "JSArray",
+                        "values": [
+                          {
+                            "key": "client.name",
+                            "value": "WEB_EMBEDDED_PLAYER"
+                          },
+                          {
+                            "key": "client.jsfeat",
+                            "value": "es5"
+                          },
+                          {
+                            "key": "client.name",
+                            "value": "56"
+                          },
+                          {
+                            "key": "client.version",
+                            "value": "1.20251212.01.00"
+                          },
+                          {
+                            "key": "client.device.vendor",
+                            "value": "Google Inc."
+                          },
+                          {
+                            "key": "client.params.errorServiceSignature",
+                            "value": "msg=0&cb=2"
+                          },
+                          {
+                            "key": "client.params.serviceWorker",
+                            "value": "false"
+                          },
+                          {
+                            "key": "client.params.fscripts",
+                            "value": "0"
+                          },
+                          {
+                            "key": "server.name",
+                            "value": "WebFE"
+                          },
+                          {
+                            "key": "server.version",
+                            "value": "prod"
+                          },
+                          {
+                            "key": "client.player.version",
+                            "value": "1.20251209.02.00"
+                          }
+                        ],
+                        "properties": {}
+                      }
+                    },
+                    "stackTrace": {
+                      "isObfuscated": true,
+                      "browserStackInfo": {
+                        "stackTrace": "    at d.onerror (https://www.youtube.com/s/embeds/91b5a81b/www-embed-player.vflset/www-embed-player.js:832:30)",
+                        "filename": "https://www.youtube.com/embed/_LSV3WViDHI"
+                      }
+                    },
+                    "logMessage": {
+                      "level": "ERROR_LEVEL_WARNNING",
+                      "message": "EWLS",
+                      "errorClassName": "Error",
+                      "sampleWeight": 1
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "562"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "UQs_aa7VI-GK8uMP8aGA8Aw",
+              "clientCounter": "28120"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1765739349441.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1765739350564",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "Cgtxb2J1MElaVnhNcyjRlvzJBjIKCgJVUxIEGgAgPmLfAgrcAjE0LllUPWx4SkRnakV3cWNqaVhiYmhkM0NyZUpXb0xEOTZFdEE4YVNQeDVVVVlaNjJXUHFsTUhpLTY0S3kxQ0ktTFY4RWJVSzdURU9Rd29SYkxFNDhuRTV3eGYyVWlPWncxRVFyZUU4U2tudTRQU2hhUm9YNmh2SE1mNVVzZF93T0Y5M0pWTzRyUzQ2WFp5eV90dS1uUTBmQUF2cGtzZTdEb3h2V0lOSFNHLU5XYUpJbUlqdGl3dXNhdGVZRDd3YWthbnNIR3ZMM0t3bVlSU3psN2pqTDRkTVk3d3hNZENzUHJBMFRfbmtsSlQxd0lKN3E1a0pZOXJWQlktYTZEVmlFb29GLXdOSGx6NTFyMG1yWEktNnZzZkY1NHBqNWp4djZpbkRoeUZBREtXSkFzZTllTUlKMmljNWlmZ0NqazQtajdfU1BZYU52ZTBXamplUmNBVU1wb19DS2tyZw%3D%3D",
+            "Authorization": "SAPISIDHASH 1765739350_25e830152504f825bd59bb55ed5a8ee11fc2e88b SAPISID3PHASH 1765739350_25e830152504f825bd59bb55ed5a8ee11fc2e88b",
+            "X-Goog-AuthUser": "0",
+            "X-Origin": "https://www.youtube.com",
+            "X-Goog-Event-Time": "1765739350564",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251212.01.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 843559120,
+            "X-YouTube-Page-Label": "youtube.embeds.web_20251212_01_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1765739347141&flash=0&frm=2&u_tz=60&u_his=2&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1024%2C0%2C1928%2C1211%2C298%2C168&vis=1&wgl=true&ca_type=image&bid=ANyPxKoteL1B-IxE3h-plhO-mzimfKWfsRZ88Sa_ALffJmWJn21EuhYXTjJFYaXTJGyaTruKwFubSW0Cm8iftzDRbPU08ehdTw"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "US",
+                "clientName": 56,
+                "clientVersion": "1.20251212.01.00",
+                "configInfo": {
+                  "appInstallData": "CNGW_MkGELqu0BwQqJ-pFxD8ss4cEK7WzxwQpbbQHBDOs9AcENrB0BwQudnOHBDmh9AcEIiHsAUQndCwBRCU8s8cELyzgBMQi_fPHBC72c4cEMGP0BwQltvPHBCopdAcEMm70BwQ2vfOHBC-irAFELW1gBMQuMDQHBC8pNAcEIOs0BwQ87OAExCV988cEMe20BwQ5aTQHBCaudAcELjkzhwQyPfPHBCPwYATEL22rgUQ3rzOHBCU_rAFEMzrzxwQ2rTQHBCJsM4cELfq_hIQmY2xBRCBzc4cEJS20BwQ3aDQHBCc188cEI-50BwQg57QHBDM364FEIyw0BwQyfevBRC8v9AcENHgzxwQ2JbQHBCHrM4cEPKz0BwQiYPQHBCTg9AcEPKd0BwQ8bTQHBDk0qgXEJWv0BwQ9quwBRCM6c8cENPhrwUQvZmwBRCvsIATEOmV0BwQ16nQHCpEQ0FNU0xoVXQtWnEtRE1lVUVvY09xZ0w2emZBTE1xQ3NCQVBOX3dXaGdBYWlMdDl3NUlNRzlnX3ZNTFJDeHVzR0hRYz0wAA%3D%3D"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.panini.fr/"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1765739347150.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_eps",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347150.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_epe",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347872.0,
+                  "latencyActionTicked": {
+                    "tickName": "pe",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348040.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wes",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345687.0,
+                  "latencyActionTicked": {
+                    "tickName": "srt",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345245.0,
+                  "latencyActionBaselined": {
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345569.0,
+                  "latencyActionTicked": {
+                    "tickName": "nreqs",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345687.0,
+                  "latencyActionTicked": {
+                    "tickName": "nress",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346040.0,
+                  "latencyActionTicked": {
+                    "tickName": "nrese",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346158.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffs",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346332.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffe",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346182.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pj",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347651.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pj",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346181.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pej",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346730.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pej",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345819.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pc",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346702.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pc",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346182.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_ecj",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346749.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_ecj",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348044.0,
+                  "latencyActionInfo": {
+                    "isNavigation": true,
+                    "actionType": "LATENCY_ACTION_VIDEO_PREVIEW",
+                    "httpProtocol": "h2",
+                    "transportProtocol": "tcp",
+                    "isVisible": true,
+                    "loadType": "cold",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348047.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wee",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348154.0,
+                  "screenCreated": {
+                    "csn": "lrSXK2zfLYdlzVuL",
+                    "pageVe": {
+                      "veType": 16623,
+                      "youtubeData": {
+                        "servletData": {
+                          "serializedServletEventId": "UQs_aa3RI9bbhcIP2_vN2QU"
+                        }
+                      }
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "23"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348155.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "lrSXK2zfLYdlzVuL",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "24"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348155.0,
+                  "screenCreated": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "pageVe": {
+                      "veType": 32594
+                    },
+                    "implicitGesture": {
+                      "parentCsn": "lrSXK2zfLYdlzVuL",
+                      "gesturedVe": {
+                        "veType": 16623
+                      },
+                      "gestureType": "INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED"
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "24"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348155.0,
+                  "visualElementHidden": {
+                    "csn": "lrSXK2zfLYdlzVuL",
+                    "ve": {
+                      "veType": 16623
+                    },
+                    "eventType": 16
+                  },
+                  "context": {
+                    "lastActivityMs": "24"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348155.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "1yo0hJ48cFcAzTUx",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "24"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348155.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "trackingParams": "CAAQru4BIhMIgODX0-O9kQMVghsGAB0F8wrb"
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "24"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348160.0,
+                  "latencyActionTicked": {
+                    "tickName": "fs",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "29"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348170.0,
+                  "latencyActionTicked": {
+                    "tickName": "ftr",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "39"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348172.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28240,
+                          "veCounter": 3
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "41"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348172.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 28240,
+                      "veCounter": 3
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "41"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348172.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28239,
+                          "veCounter": 4
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "41"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348172.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 28239,
+                      "veCounter": 4
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "41"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348182.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 139117,
+                          "veCounter": 18
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "51"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348182.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 139117,
+                      "veCounter": 18
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "51"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348183.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36842,
+                          "veCounter": 20
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "52"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348183.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 36842,
+                      "veCounter": 20
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "53"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348186.0,
+                  "visualElementHidden": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 28666,
+                      "veCounter": 25
+                    },
+                    "eventType": 8
+                  },
+                  "context": {
+                    "lastActivityMs": "55"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348192.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 23851,
+                          "veCounter": 8
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348192.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 23851,
+                      "veCounter": 8
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348192.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36925,
+                          "veCounter": 5
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348192.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 36925,
+                      "veCounter": 5
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348192.0,
+                  "visualElementAttached": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 16499,
+                          "veCounter": 37
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348192.0,
+                  "visualElementShown": {
+                    "csn": "1yo0hJ48cFcAzTUx",
+                    "ve": {
+                      "veType": 16499,
+                      "veCounter": 37
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348195.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_pr",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "64"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348196.0,
+                  "latencyActionInfo": {
+                    "serverTimeMs": 58,
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "65"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348312.0,
+                  "latencyActionInfo": {
+                    "clientPlaybackNonce": "2bvzapjXrUzZkNFv",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "182"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348551.0,
+                  "latencyActionTicked": {
+                    "tickName": "pot_ist",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "420"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348618.0,
+                  "clientError": {
+                    "errorMetadata": {
+                      "pageUrl": "https://www.youtube.com/embed/G3tnXBRC51A",
+                      "kvPairs": {
+                        "__type__": "JSArray",
+                        "values": [
+                          {
+                            "key": "client.name",
+                            "value": "WEB_EMBEDDED_PLAYER"
+                          },
+                          {
+                            "key": "client.jsfeat",
+                            "value": "es5"
+                          },
+                          {
+                            "key": "client.name",
+                            "value": "56"
+                          },
+                          {
+                            "key": "client.version",
+                            "value": "1.20251212.01.00"
+                          },
+                          {
+                            "key": "client.device.vendor",
+                            "value": "Google Inc."
+                          },
+                          {
+                            "key": "client.params.errorServiceSignature",
+                            "value": "msg=0&cb=2"
+                          },
+                          {
+                            "key": "client.params.serviceWorker",
+                            "value": "false"
+                          },
+                          {
+                            "key": "client.params.fscripts",
+                            "value": "0"
+                          },
+                          {
+                            "key": "server.name",
+                            "value": "WebFE"
+                          },
+                          {
+                            "key": "server.version",
+                            "value": "prod"
+                          },
+                          {
+                            "key": "client.player.version",
+                            "value": "1.20251209.02.00"
+                          }
+                        ],
+                        "properties": {}
+                      }
+                    },
+                    "stackTrace": {
+                      "isObfuscated": true,
+                      "browserStackInfo": {
+                        "stackTrace": "    at d.onerror (https://www.youtube.com/s/embeds/91b5a81b/www-embed-player.vflset/www-embed-player.js:832:30)",
+                        "filename": "https://www.youtube.com/embed/G3tnXBRC51A"
+                      }
+                    },
+                    "logMessage": {
+                      "level": "ERROR_LEVEL_WARNNING",
+                      "message": "EWLS",
+                      "errorClassName": "Error",
+                      "sampleWeight": 1
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "487"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "UQs_aa3RI9bbhcIP2_vN2QU",
+              "clientCounter": "24130"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1765739350564.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1765739350610",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "CgtwbGJjcEJUTDVBUSjRlvzJBjIKCgJVUxIEGgAgNGLfAgrcAjE0LllUPVVQTkIwTUVNZV9fT3IyWDA1T1NtUFA0ekJDUndRczJOd29sT3dUeHZkajVIaE9aY194V3RRVlc1TzRjOXd0ZWNXQUlqYTF4SXJBNUk5R0E1Tlg2TGNHYjg5N0dMai1tSDhsVE1kNGpRSjJhNTJtRlN5d3p0Z0hESU1NdjlyVzVJQ3RjdUtJOUc5THhUZ2hUbHZ2Z3NkaGZqQmMtTHNWSXlWdTlNbjViQi1NcFg3VHM1MmtUc29BTUVMazdOb1VxU0Y4YktZdEVQZV9NT2c5bklUOWdYTEtiN0YtMHdxWm5JN2Jnb2p6Y1gtQlZlc182WFRDTTdfUmo0XzFySEF6QUtDVVlTa01VRzREbkRvZDVlc0xZTC02eXgyaU1DT2hfRmVySG9rNWpfakpwbFhQaHBJTUNxLU55Mks2aVA1a201el9tbWNmRFFYRUcySElrV3ZCZVdSZw%3D%3D",
+            "Authorization": "SAPISIDHASH 1765739350_25e830152504f825bd59bb55ed5a8ee11fc2e88b SAPISID3PHASH 1765739350_25e830152504f825bd59bb55ed5a8ee11fc2e88b",
+            "X-Goog-AuthUser": "0",
+            "X-Origin": "https://www.youtube.com",
+            "X-Goog-Event-Time": "1765739350610",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251212.01.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 843559120,
+            "X-YouTube-Page-Label": "youtube.embeds.web_20251212_01_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1765739347348&flash=0&frm=2&u_tz=60&u_his=2&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1024%2C0%2C1928%2C1211%2C298%2C168&vis=1&wgl=true&ca_type=image&bid=ANyPxKq78o4GQedkd-WCdWnKYtbRkmmptH9FPJr0h2L-YJHL7dsJX-LmSY1WXSzBUQdmkLj_5WbGCM_WKButCn4_4mc_LXBKAQ"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "US",
+                "clientName": 56,
+                "clientVersion": "1.20251212.01.00",
+                "configInfo": {
+                  "appInstallData": "CNGW_MkGELvZzhwQ2vfOHBCZjbEFEKudzxwQ0-GvBRC36v4SEIHNzhwQnNfPHBC7v9AcEPOzgBMQiYPQHBDxtNAcEJbbzxwQqKXQHBCU8s8cEI-50BwQrtbPHBC6rtAcEIv3zxwQpbbQHBCUttAcEPKz0BwQiIewBRDyndAcEJX3zxwQ_LLOHBCUg9AcEJq50BwQg6zQHBDLgLAFEM6z0BwQndCwBRDKu9AcEL6KsAUQ2JbQHBC52c4cEL2ZsAUQvbauBRCDntAcEIzpzxwQh6zOHBDM364FEOWk0BwQ0eDPHBDatNAcEN68zhwQ9quwBRDdoNAcELjkzhwQvKTQHBCJsM4cEMzrzxwQ5ofQHBCnn6kXEJT-sAUQ28HQHBDI988cEMGP0BwQvLOAExCVr9AcEMe20BwQjLDQHBDJ968FKkhDQU1TTUJVci1acS1ETGlVRW9ZT3FnTDZ6ZkFMTXFDc0JBUE5fd1doZ0FhaUx0OXc4bVRxSl9ZUDd6RHl0Z1cyNWdZZEJ3PT0wAA%3D%3D"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.panini.fr/"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1765739347351.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_eps",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347351.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_epe",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348021.0,
+                  "latencyActionTicked": {
+                    "tickName": "pe",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348095.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wes",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345916.0,
+                  "latencyActionTicked": {
+                    "tickName": "srt",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345244.0,
+                  "latencyActionBaselined": {
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345569.0,
+                  "latencyActionTicked": {
+                    "tickName": "nreqs",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345916.0,
+                  "latencyActionTicked": {
+                    "tickName": "nress",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346077.0,
+                  "latencyActionTicked": {
+                    "tickName": "nrese",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345384.0,
+                  "latencyActionTicked": {
+                    "tickName": "ntcps",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345569.0,
+                  "latencyActionTicked": {
+                    "tickName": "ntcpe",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345510.0,
+                  "latencyActionTicked": {
+                    "tickName": "nstcps",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739345569.0,
+                  "latencyActionTicked": {
+                    "tickName": "ntcpe",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346283.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffs",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346344.0,
+                  "latencyActionTicked": {
+                    "tickName": "wffe",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346211.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pj",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347664.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pj",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346210.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pej",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346916.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pej",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346210.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_pc",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346799.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_pc",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739346211.0,
+                  "latencyActionTicked": {
+                    "tickName": "rsf_ecj",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739347341.0,
+                  "latencyActionTicked": {
+                    "tickName": "rse_ecj",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348100.0,
+                  "latencyActionInfo": {
+                    "isNavigation": true,
+                    "actionType": "LATENCY_ACTION_VIDEO_PREVIEW",
+                    "httpProtocol": "h2",
+                    "transportProtocol": "tcp",
+                    "isVisible": true,
+                    "loadType": "cold",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348104.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_wee",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "-1"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348222.0,
+                  "screenCreated": {
+                    "csn": "GubLjjUAfG0o34qQ",
+                    "pageVe": {
+                      "veType": 16623,
+                      "youtubeData": {
+                        "servletData": {
+                          "serializedServletEventId": "UQs_afHOI7_Ep-oP2tKpwAs"
+                        }
+                      }
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "20"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348222.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "GubLjjUAfG0o34qQ",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "20"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348222.0,
+                  "screenCreated": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "pageVe": {
+                      "veType": 32594
+                    },
+                    "implicitGesture": {
+                      "parentCsn": "GubLjjUAfG0o34qQ",
+                      "gesturedVe": {
+                        "veType": 16623
+                      },
+                      "gestureType": "INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED"
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "21"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348223.0,
+                  "visualElementHidden": {
+                    "csn": "GubLjjUAfG0o34qQ",
+                    "ve": {
+                      "veType": 16623
+                    },
+                    "eventType": 16
+                  },
+                  "context": {
+                    "lastActivityMs": "21"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348223.0,
+                  "latencyActionInfo": {
+                    "clientScreenNonce": "WatOKeMI45MLYVN8",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "21"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348223.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "trackingParams": "CAAQru4BIhMIl_LX0-O9kQMV6s5JBx3VUxHt"
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "21"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348226.0,
+                  "latencyActionTicked": {
+                    "tickName": "fs",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "24"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348234.0,
+                  "latencyActionTicked": {
+                    "tickName": "ftr",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "32"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348236.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28240,
+                          "veCounter": 3
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "34"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348236.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 28240,
+                      "veCounter": 3
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "34"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348236.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 28239,
+                          "veCounter": 4
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "34"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348236.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 28239,
+                      "veCounter": 4
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "34"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348245.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 139117,
+                          "veCounter": 18
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "43"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348245.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 139117,
+                      "veCounter": 18
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "43"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348246.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36842,
+                          "veCounter": 20
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "44"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348246.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 36842,
+                      "veCounter": 20
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "45"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348249.0,
+                  "visualElementHidden": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 28666,
+                      "veCounter": 25
+                    },
+                    "eventType": 8
+                  },
+                  "context": {
+                    "lastActivityMs": "47"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348259.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 23851,
+                          "veCounter": 8
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "57"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348259.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 23851,
+                      "veCounter": 8
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "57"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348259.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 36925,
+                          "veCounter": 5
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "57"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348259.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 36925,
+                      "veCounter": 5
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "57"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348259.0,
+                  "visualElementAttached": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "parentVe": {
+                      "veType": 32594
+                    },
+                    "childVes": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "veType": 16499,
+                          "veCounter": 37
+                        }
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "57"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348259.0,
+                  "visualElementShown": {
+                    "csn": "WatOKeMI45MLYVN8",
+                    "ve": {
+                      "veType": 16499,
+                      "veCounter": 37
+                    },
+                    "eventType": 1
+                  },
+                  "context": {
+                    "lastActivityMs": "57"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348262.0,
+                  "latencyActionTicked": {
+                    "tickName": "ep_init_pr",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "61"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348265.0,
+                  "latencyActionInfo": {
+                    "serverTimeMs": 63,
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "63"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348325.0,
+                  "latencyActionInfo": {
+                    "clientPlaybackNonce": "V5fP4K-Fi12ZKS-E",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "123"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348607.0,
+                  "latencyActionTicked": {
+                    "tickName": "pot_ist",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "406"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739348674.0,
+                  "clientError": {
+                    "errorMetadata": {
+                      "pageUrl": "https://www.youtube.com/embed/uQOI0lZNxVk",
+                      "kvPairs": {
+                        "__type__": "JSArray",
+                        "values": [
+                          {
+                            "key": "client.name",
+                            "value": "WEB_EMBEDDED_PLAYER"
+                          },
+                          {
+                            "key": "client.jsfeat",
+                            "value": "2021"
+                          },
+                          {
+                            "key": "client.name",
+                            "value": "56"
+                          },
+                          {
+                            "key": "client.version",
+                            "value": "1.20251212.01.00"
+                          },
+                          {
+                            "key": "client.device.vendor",
+                            "value": "Google Inc."
+                          },
+                          {
+                            "key": "client.params.errorServiceSignature",
+                            "value": "msg=0&cb=2"
+                          },
+                          {
+                            "key": "client.params.serviceWorker",
+                            "value": "false"
+                          },
+                          {
+                            "key": "client.params.fscripts",
+                            "value": "0"
+                          },
+                          {
+                            "key": "server.name",
+                            "value": "WebFE"
+                          },
+                          {
+                            "key": "server.version",
+                            "value": "prod"
+                          },
+                          {
+                            "key": "client.player.version",
+                            "value": "1.20251209.02.00"
+                          }
+                        ],
+                        "properties": {}
+                      }
+                    },
+                    "stackTrace": {
+                      "isObfuscated": true,
+                      "browserStackInfo": {
+                        "stackTrace": "    at d.onerror (https://www.youtube.com/s/embeds/91b5a81b/www-embed-player-es6.vflset/www-embed-player-es6.js:519:24)",
+                        "filename": "https://www.youtube.com/embed/uQOI0lZNxVk"
+                      }
+                    },
+                    "logMessage": {
+                      "level": "ERROR_LEVEL_WARNNING",
+                      "message": "EWLS",
+                      "errorClassName": "Error",
+                      "sampleWeight": 1
+                    }
+                  },
+                  "context": {
+                    "lastActivityMs": "472"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "UQs_afHOI7_Ep-oP2tKpwAs",
+              "clientCounter": "7573"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1765739350610.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1765739355988",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "CgtwbGJjcEJUTDVBUSjRlvzJBjIKCgJVUxIEGgAgNGLfAgrcAjE0LllUPVVQTkIwTUVNZV9fT3IyWDA1T1NtUFA0ekJDUndRczJOd29sT3dUeHZkajVIaE9aY194V3RRVlc1TzRjOXd0ZWNXQUlqYTF4SXJBNUk5R0E1Tlg2TGNHYjg5N0dMai1tSDhsVE1kNGpRSjJhNTJtRlN5d3p0Z0hESU1NdjlyVzVJQ3RjdUtJOUc5THhUZ2hUbHZ2Z3NkaGZqQmMtTHNWSXlWdTlNbjViQi1NcFg3VHM1MmtUc29BTUVMazdOb1VxU0Y4YktZdEVQZV9NT2c5bklUOWdYTEtiN0YtMHdxWm5JN2Jnb2p6Y1gtQlZlc182WFRDTTdfUmo0XzFySEF6QUtDVVlTa01VRzREbkRvZDVlc0xZTC02eXgyaU1DT2hfRmVySG9rNWpfakpwbFhQaHBJTUNxLU55Mks2aVA1a201el9tbWNmRFFYRUcySElrV3ZCZVdSZw%3D%3D",
+            "Authorization": "SAPISIDHASH 1765739355_0ac8bc8c53639f2491f0d144994836cec80c9817 SAPISID3PHASH 1765739355_0ac8bc8c53639f2491f0d144994836cec80c9817",
+            "X-Goog-AuthUser": "0",
+            "X-Origin": "https://www.youtube.com",
+            "X-Goog-Event-Time": "1765739355988",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251212.01.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 843559120,
+            "X-YouTube-Page-Label": "youtube.embeds.web_20251212_01_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1765739347348&flash=0&frm=2&u_tz=60&u_his=2&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1024%2C0%2C1928%2C1211%2C298%2C168&vis=1&wgl=true&ca_type=image&bid=ANyPxKq78o4GQedkd-WCdWnKYtbRkmmptH9FPJr0h2L-YJHL7dsJX-LmSY1WXSzBUQdmkLj_5WbGCM_WKButCn4_4mc_LXBKAQ"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "US",
+                "clientName": 56,
+                "clientVersion": "1.20251212.01.00",
+                "configInfo": {
+                  "appInstallData": "CNGW_MkGELvZzhwQ2vfOHBCZjbEFEKudzxwQ0-GvBRC36v4SEIHNzhwQnNfPHBC7v9AcEPOzgBMQiYPQHBDxtNAcEJbbzxwQqKXQHBCU8s8cEI-50BwQrtbPHBC6rtAcEIv3zxwQpbbQHBCUttAcEPKz0BwQiIewBRDyndAcEJX3zxwQ_LLOHBCUg9AcEJq50BwQg6zQHBDLgLAFEM6z0BwQndCwBRDKu9AcEL6KsAUQ2JbQHBC52c4cEL2ZsAUQvbauBRCDntAcEIzpzxwQh6zOHBDM364FEOWk0BwQ0eDPHBDatNAcEN68zhwQ9quwBRDdoNAcELjkzhwQvKTQHBCJsM4cEMzrzxwQ5ofQHBCnn6kXEJT-sAUQ28HQHBDI988cEMGP0BwQvLOAExCVr9AcEMe20BwQjLDQHBDJ968FKkhDQU1TTUJVci1acS1ETGlVRW9ZT3FnTDZ6ZkFMTXFDc0JBUE5fd1doZ0FhaUx0OXc4bVRxSl9ZUDd6RHl0Z1cyNWdZZEJ3PT0wAA%3D%3D"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.panini.fr/"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1765739355975.0,
+                  "latencyActionTicked": {
+                    "tickName": "mesv_s",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "7774"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739355978.0,
+                  "latencyActionTicked": {
+                    "tickName": "qoes",
+                    "clientActionNonce": "vLlDBXrgeBFLT1co"
+                  },
+                  "context": {
+                    "lastActivityMs": "7776"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739355983.0,
+                  "finalPayload": {
+                    "csn": "WatOKeMI45MLYVN8"
+                  },
+                  "context": {
+                    "lastActivityMs": "7782"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "UQs_afHOI7_Ep-oP2tKpwAs",
+              "clientCounter": "7574"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1765739355988.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1765739356028",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "Cgtxb2J1MElaVnhNcyjRlvzJBjIKCgJVUxIEGgAgPmLfAgrcAjE0LllUPWx4SkRnakV3cWNqaVhiYmhkM0NyZUpXb0xEOTZFdEE4YVNQeDVVVVlaNjJXUHFsTUhpLTY0S3kxQ0ktTFY4RWJVSzdURU9Rd29SYkxFNDhuRTV3eGYyVWlPWncxRVFyZUU4U2tudTRQU2hhUm9YNmh2SE1mNVVzZF93T0Y5M0pWTzRyUzQ2WFp5eV90dS1uUTBmQUF2cGtzZTdEb3h2V0lOSFNHLU5XYUpJbUlqdGl3dXNhdGVZRDd3YWthbnNIR3ZMM0t3bVlSU3psN2pqTDRkTVk3d3hNZENzUHJBMFRfbmtsSlQxd0lKN3E1a0pZOXJWQlktYTZEVmlFb29GLXdOSGx6NTFyMG1yWEktNnZzZkY1NHBqNWp4djZpbkRoeUZBREtXSkFzZTllTUlKMmljNWlmZ0NqazQtajdfU1BZYU52ZTBXamplUmNBVU1wb19DS2tyZw%3D%3D",
+            "Authorization": "SAPISIDHASH 1765739356_3f74dc958e40107fbe2cef67b2292f04e7e51790 SAPISID3PHASH 1765739356_3f74dc958e40107fbe2cef67b2292f04e7e51790",
+            "X-Goog-AuthUser": "0",
+            "X-Origin": "https://www.youtube.com",
+            "X-Goog-Event-Time": "1765739356028",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251212.01.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 843559120,
+            "X-YouTube-Page-Label": "youtube.embeds.web_20251212_01_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1765739347141&flash=0&frm=2&u_tz=60&u_his=2&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1024%2C0%2C1928%2C1211%2C298%2C168&vis=1&wgl=true&ca_type=image&bid=ANyPxKoteL1B-IxE3h-plhO-mzimfKWfsRZ88Sa_ALffJmWJn21EuhYXTjJFYaXTJGyaTruKwFubSW0Cm8iftzDRbPU08ehdTw"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "US",
+                "clientName": 56,
+                "clientVersion": "1.20251212.01.00",
+                "configInfo": {
+                  "appInstallData": "CNGW_MkGELqu0BwQqJ-pFxD8ss4cEK7WzxwQpbbQHBDOs9AcENrB0BwQudnOHBDmh9AcEIiHsAUQndCwBRCU8s8cELyzgBMQi_fPHBC72c4cEMGP0BwQltvPHBCopdAcEMm70BwQ2vfOHBC-irAFELW1gBMQuMDQHBC8pNAcEIOs0BwQ87OAExCV988cEMe20BwQ5aTQHBCaudAcELjkzhwQyPfPHBCPwYATEL22rgUQ3rzOHBCU_rAFEMzrzxwQ2rTQHBCJsM4cELfq_hIQmY2xBRCBzc4cEJS20BwQ3aDQHBCc188cEI-50BwQg57QHBDM364FEIyw0BwQyfevBRC8v9AcENHgzxwQ2JbQHBCHrM4cEPKz0BwQiYPQHBCTg9AcEPKd0BwQ8bTQHBDk0qgXEJWv0BwQ9quwBRCM6c8cENPhrwUQvZmwBRCvsIATEOmV0BwQ16nQHCpEQ0FNU0xoVXQtWnEtRE1lVUVvY09xZ0w2emZBTE1xQ3NCQVBOX3dXaGdBYWlMdDl3NUlNRzlnX3ZNTFJDeHVzR0hRYz0wAA%3D%3D"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.panini.fr/"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1765739356011.0,
+                  "latencyActionTicked": {
+                    "tickName": "mesv_s",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "7880"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739356016.0,
+                  "latencyActionTicked": {
+                    "tickName": "qoes",
+                    "clientActionNonce": "pcoamWB7L8MeIe5i"
+                  },
+                  "context": {
+                    "lastActivityMs": "7885"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739356025.0,
+                  "finalPayload": {
+                    "csn": "1yo0hJ48cFcAzTUx"
+                  },
+                  "context": {
+                    "lastActivityMs": "7895"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "UQs_aa3RI9bbhcIP2_vN2QU",
+              "clientCounter": "24131"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1765739356028.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "url": "/youtubei/v1/log_event?alt=json",
+        "options": {
+          "headers": {
+            "X-Goog-Request-Time": "1765739356051",
+            "Content-Type": "application/json",
+            "X-Goog-Visitor-Id": "CgtMRDRUS3FfTlJpNCjRlvzJBjIKCgJVUxIEGgAgRmLfAgrcAjE0LllUPUVGVlR2S2hFM1lrWDhDd21Oa01EV0Rpd2pMNHdQRnMtakp1YzVHbDVDNVR0SlRfWER3SDFKRVFPQXVQMFVSSFFVaDdJSGFHbkRWLVZpSVdHZ0NRQk84ZkxTVEp0alBneHlIbG5lVjNOQ0xfdHVjbVJOMVJudHhQazBmSnhzUnV1ODZtbXl3MmlfUlZnQ2dkMmJEYUQ0RGNKbmJVX1ozazRQczNZR25iRk56TlQ0NnF2Vi02YWdablJ2aFBDVXZPQS1wdldkWUFHS0JWYlUyZlFJbmZ6TWhCSVFKMkZnYlBxY3NkbjlHTnFtSzVWOTVYNnFQeXo4eGJtbTJWdjh3SmdBampBY0R2aGRLYXZ4S1U5N2xtU1JQM0xpQzVRdzRWbUtPaG1KY0lOOXlRaElUdHVndW5zZG5JaU1BMldXOHB5TDV6QzY4Qk4xbzVnalBRaEFmVkNjUQ%3D%3D",
+            "Authorization": "SAPISIDHASH 1765739356_3f74dc958e40107fbe2cef67b2292f04e7e51790 SAPISID3PHASH 1765739356_3f74dc958e40107fbe2cef67b2292f04e7e51790",
+            "X-Goog-AuthUser": "0",
+            "X-Origin": "https://www.youtube.com",
+            "X-Goog-Event-Time": "1765739356051",
+            "X-YouTube-Client-Name": 56,
+            "X-YouTube-Client-Version": "1.20251212.01.00",
+            "X-YouTube-Device": "cbr=Chrome&cbrver=140.0.0.0&ceng=WebKit&cengver=537.36&cos=X11&cplatform=DESKTOP",
+            "X-YouTube-Page-CL": 843559120,
+            "X-YouTube-Page-Label": "youtube.embeds.web_20251212_01_RC00",
+            "X-YouTube-Utc-Offset": "60",
+            "X-YouTube-Time-Zone": "Europe/Paris",
+            "X-YouTube-Ad-Signals": "dt=1765739346377&flash=0&frm=2&u_tz=60&u_his=2&u_h=768&u_w=1024&u_ah=768&u_aw=1024&u_cd=24&bc=31&bih=-12245933&biw=-12245933&brdim=0%2C0%2C0%2C0%2C1024%2C0%2C1928%2C1211%2C408%2C229&vis=1&wgl=true&ca_type=image&bid=ANyPxKq0uo_62zy45oE6sx-ZddcuBRixyU9MNPdpSLkpViz5S4ZDxNd0ElvXC5RKVL5ZGVis2q9_BKUJYTQi59AKGFjiNcLSQw"
+          },
+          "method": "POST",
+          "postParams": {
+            "context": {
+              "client": {
+                "hl": "fr",
+                "gl": "US",
+                "clientName": 56,
+                "clientVersion": "1.20251212.01.00",
+                "configInfo": {
+                  "appInstallData": "CNGW_MkGEMm70BwQqKXQHBCU8s8cEJWv0BwQzOvPHBCe0LAFEI2w0BwQr4bPHBDmh9AcEKa20BwQk4PQHBDyndAcELa1gBMQ3rzOHBC9mbAFEIeszhwQlffPHBCu1s8cEJbbzxwQ8rPQHBCU_rAFEPOzgBMQp5-pFxDM364FENiW0BwQiYPQHBCd188cEM6z0BwQgc3OHBCZjbEFEIzpzxwQyfevBRC9irAFEIv3zxwQt-r-EhDwtNAcELyzgBMQ2sHQHBC52c4cEI-50BwQ2vfOHBD2q7AFEIOe0BwQlLbQHBCaudAcEMGP0BwQ0eDPHBDatNAcELyk0BwQibDOHBCIh7AFELjkzhwQyPfPHBDT4a8FEOWk0BwQ_LLOHBC72c4cEN2g0BwQg6zQHBC7v9AcEL22rgUQx7bQHBC6rtAcEK-wgBMQyrHQHCpAQ0FNU0xCVXYtWnEtRE1lVUVvY09xZ0w2emZBTE1xQ3NCQVBOX3dXaGdBYWlMdDl3NUlNRzlnX3ZNUEsyQlIwSDAA"
+                },
+                "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+                "connectionType": "CONN_CELLULAR_4G",
+                "browserName": "Chrome",
+                "browserVersion": "140.0.0.0",
+                "osName": "X11",
+                "platform": "DESKTOP"
+              },
+              "thirdParty": {
+                "embedUrl": "https://www.panini.fr/"
+              }
+            },
+            "events": {
+              "__type__": "JSArray",
+              "values": [
+                {
+                  "eventTimeMs": 1765739356042.0,
+                  "latencyActionTicked": {
+                    "tickName": "mesv_s",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "9067"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739356044.0,
+                  "latencyActionTicked": {
+                    "tickName": "qoes",
+                    "clientActionNonce": "g6DfvJ7xfYB0W_DB"
+                  },
+                  "context": {
+                    "lastActivityMs": "9069"
+                  }
+                },
+                {
+                  "eventTimeMs": 1765739356049.0,
+                  "finalPayload": {
+                    "csn": "5LXy3MbDFdKoBKjq"
+                  },
+                  "context": {
+                    "lastActivityMs": "9074"
+                  }
+                }
+              ],
+              "properties": {}
+            },
+            "serializedClientEventId": {
+              "serializedEventId": "UQs_aa7VI-GK8uMP8aGA8Aw",
+              "clientCounter": "28121"
+            }
+          },
+          "postBody": "",
+          "postBodyFormat": "JSON",
+          "withCredentials": true,
+          "compress": false
+        },
+        "timestamp": 1765739356051.0,
+        "status": "NEW",
+        "sendCount": 0,
+        "interface": 56
+      }
+    }
+  ]
+}
