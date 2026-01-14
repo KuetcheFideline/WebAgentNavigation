@@ -3,11 +3,24 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Form visible, step-by-step filling required.
+Current task: 
+    - Fill the form on the current page step-by-step.
+    - IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register with Google" or a google image or a google icon, use #Operation: finish("google") instead of filling the form.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for the current field being filled and its label.
+2. Look for visual cues like tooltips or validation messages that appear as you type.
+3. Identify the "Next" or "Continue" button in multi-step forms by its visual appearance.
+
 You are a specialized autonomous agent focused on FILLING FORMS step-by-step.
 
-**CRITICAL OBJECTIVE:** Fill the form on the current page using the provided user profile.
-You must perform ONE action at a time.
-
+s
 **User Profile:**
 {user_persona}
 
@@ -30,6 +43,7 @@ You must perform ONE action at a time.
     -   If you see a success message or are redirected to a logged-in page, use `#Operation: finish("loginSuccess")`.
     -   If you see an error message, try to fix it or use `#Operation: finish("loginFailed")`.
     -   If you cannot find the form or submit button, use `#Operation: finish("submitNotFound")`.
+    -   If you see a "Sign in with Google" or "Register with Google" option, use `#Operation: finish("google")`.
 
 **Formatting Rules:**
 1.  Always begin the output with "#Operation:".

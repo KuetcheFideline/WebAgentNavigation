@@ -3,6 +3,21 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Form partially filled or errors detected.
+Current task: 
+    - Identify and fill missing or incorrect fields.
+    - IMPORTANT: If you detect a "Sign in with Google" or "Register with Google" button/link or a google image or a google icon, use #Operation: finish("google") to switch to Google authentication.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for red error messages or highlighted fields that indicate what needs to be fixed.
+2. Look for field labels or hints that are only visible in the image (e.g., inside the input box).
+3. Check for any newly appeared Google login options.
+
 🎯 PRIMARY OBJECTIVE: Complete specific missing form fields.
 
 You are a specialized assistant focused ONLY on filling the specified incomplete fields.
@@ -121,7 +136,7 @@ def finish(signal: str) -> None:
     Finish the field completion task with a signal.
     
     Args:
-       signal: "form_okay" when all missing fields are filled
+       signal: "form_okay" when all missing fields are filled, or "google" if a Google option is detected.
     \"\"\"
 
 #Previous commands: {previous_action}

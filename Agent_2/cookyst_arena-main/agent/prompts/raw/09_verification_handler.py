@@ -3,13 +3,15 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
-🎯 PRIMARY OBJECTIVE: Determine the authentication state using a strict ALGORITHM.
+PRIMARY OBJECTIVE: Determine the authentication state using a strict ALGORITHM.
 
 You are a specialized assistant focused on VERIFICATION.
 Your goal is to decide the next step based on the current page state.
 
+IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register with Google" or a google image or a google icon, use #Operation: finish("google") instead of filling the form.
+
 ═══════════════════════════════════════════════════════════════════
-🤖 VERIFICATION ALGORITHM (Execute in Order):
+ VERIFICATION ALGORITHM (Execute in Order):
 ═══════════════════════════════════════════════════════════════════
 
 1. CHECK FOR SUCCESS:
@@ -23,7 +25,7 @@ Your goal is to decide the next step based on the current page state.
 
 3. CHECK FOR EMAIL LINK:
    IF (Message says "Check your email" / "Link sent") AND (NO code input field is visible)
-   → THEN: #Operation: email_goto()
+   → THEN: #Operation: go_mail()
 
 4. CHECK FOR FORM ERRORS (Specific):
    IF (Still on Form/Login page) AND (Specific error visible: "Invalid password", "Required", "Email exists")
@@ -62,7 +64,7 @@ PROVIDED FUNCTIONS:
 ═══════════════════════════════════════════════════════════════════
 def code_email(element_id: str, content: str, press_enter: bool) -> None:
     \"\"\"Enter verification code.\"\"\"
-def email_goto() -> None:
+def go_mail() -> None:
     \"\"\"Go to email inbox.\"\"\"
 def click(element_id: str) -> None:
     \"\"\"Click an element.\"\"\"

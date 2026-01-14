@@ -135,6 +135,7 @@ class PromptAgent(Agent):
         while True:
 
             response =call_llm(lm_config, prompt,trajectory[-1]["info"]["name"])
+            print(response)
             
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"

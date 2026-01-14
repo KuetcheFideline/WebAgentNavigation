@@ -3,6 +3,21 @@ prompt = {
     "examples": [],
     "template": """<html> {html} </html>
 
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Form filled.
+Current task: 
+    - Submit the form by clicking the correct button.
+    - IMPORTANT: If you detect a "Sign in with Google" or "Register with Google" button/link or a google image or a google icon, use #Operation: finish("google") to switch to Google authentication.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for the "Submit", "Register", or "Continue" button. Sometimes these are images or styled divs without clear HTML text.
+2. Look for visual feedback like error messages in red or green success checkmarks that might not be easily parsed from HTML.
+3. Identify any "Sign in with Google" options that might have appeared after filling the form.
+
 🎯 PRIMARY OBJECTIVE: Submit the form by clicking the correct button.
 
 You are a specialized assistant focused on FORM SUBMISSION.
@@ -17,6 +32,7 @@ TASK DESCRIPTION:
 - Do NOT re-fill the form.
 - If you see obvious errors (red text, "required"), signal "fieldToComplete" instead of clicking.
 - If you cannot find any submit button, signal "submitNotFound".
+- If you see a "Sign in with Google" or "Register with Google" option, signal "google".
 
 OUTPUT FORMAT:
 #Operation: click("BUTTON_ID")

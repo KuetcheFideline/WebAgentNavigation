@@ -254,7 +254,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 #         "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
                 #         "password": "m63x39pd1ef5",                 
                 #     }
-                )
+                 )
 
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
@@ -452,6 +452,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
        return (observation, info)
 
     def new_page(self,url):
+        time.sleep(10)
         self.page.goto(url,timeout=60000)
         images = self.modify_page()
         observation = self._get_obs()
@@ -715,10 +716,18 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
     
 
     def get_session_storage(self) -> dict:
-        return self.page.evaluate("() => Object.fromEntries(Object.entries(sessionStorage))")
+        try:
+            return self.page.evaluate("() => Object.fromEntries(Object.entries(sessionStorage))")
 
+        except Exception as e:
+            print(f"Impossible d'accéder au session storage  : {e}")
+            return {}
     def get_local_storage(self) -> dict:
-        return self.page.evaluate("() => Object.fromEntries(Object.entries(localStorage))")
+        try:
+            return self.page.evaluate("() => Object.fromEntries(Object.entries(localStorage))")
+        except Exception as e:
+            print(f"Impossible d'accéder à localStorage : {e}")
+            return {}
 
     def get_cookies(self) -> list:
         return self.context.cookies()

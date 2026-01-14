@@ -14,7 +14,8 @@ class CompteParams:
         self.workflow = {
             "Register_page": {
                 "on_registration_page": "Method of SignIn",
-                "registration_not_found": "STOP_FAILURE"
+                "registration_not_found": "STOP_FAILURE",
+                "user_exist": "STOP_SUCCESS",
             },
             "Method of SignIn": {
                 "google": "Google Login SignIn",
@@ -27,29 +28,34 @@ class CompteParams:
             },
             "Form_SignIn": {
                 "execute_json": "Submit_SignIn",
+                "google": "Google Login SignIn"
             },
             "Form_Correction_SignIn": {
                 "execute_json": "Submit_SignIn", 
-                "submitNotFound": "Multimodal_Form_SignIn"
+                "submitNotFound": "Multimodal_Form_SignIn",
+                "google": "Google Login SignIn"
             },
             "Multimodal_Form_SignIn": {
                  "form_submitted": "Verification_SignIn",
                  "loginSuccess": "STOP_SUCCESS",
                  "loginFailed": "Multimodal_Form_SignIn", 
                  "form_to_fill": "Multimodal_Form_SignIn",
-                 "submitNotFound": "Multimodal_Form_SignIn" 
+                 "submitNotFound": "Multimodal_Form_SignIn",
+                 "google": "Google Login SignIn"
             },
             "Submit_SignIn": {
                 "form_submitted": "Verification_SignIn",
                 "fieldToComplete": "Form_Correction_SignIn",
-                "submitNotFound": "Multimodal_Form_SignIn"
+                "submitNotFound": "Multimodal_Form_SignIn",
+                "google": "Google Login SignIn"
             },
             "Verification_SignIn": {
                 "loginSuccess": "STOP_SUCCESS",
                 "loginFailed": "Multimodal_Form_SignIn", 
                 "form_to_fill": "Form_Correction_SignIn", 
                 "on_login_page": "Method of LogIn",
-                "user_exist": "Method of LogIn"
+                "user_exist": "Method of LogIn",
+                "google": "Google Login SignIn"
             },
             
             "login_page" :{
@@ -75,29 +81,34 @@ class CompteParams:
                 "form_filled": "Submit_LogIn",
                 "formOkay": "Submit_LogIn",
                 "form_submitted": "Verification_LogIn",
-                "submitNotFound": "Multimodal_Form_LogIn" 
+                "submitNotFound": "Multimodal_Form_LogIn",
+                "google": "Google Login SignIn"
             },
             "Form_Correction_LogIn": {
                 "execute_json": "Submit_LogIn", 
-                "submitNotFound": "Multimodal_Form_LogIn"
+                "submitNotFound": "Multimodal_Form_LogIn",
+                "google": "Google Login SignIn"
             },
             "Multimodal_Form_LogIn": {
                  "form_submitted": "Verification_LogIn",
                  "loginSuccess": "STOP_SUCCESS",
                  "loginFailed": "Multimodal_Form_LogIn",
                  "form_to_fill": "Multimodal_Form_LogIn",
-                 "submitNotFound": "Multimodal_Form_LogIn"
+                 "submitNotFound": "Multimodal_Form_LogIn",
+                 "google": "Google Login SignIn"
             },
             "Submit_LogIn": {
                 "form_submitted": "Verification_LogIn",
                 "fieldToComplete": "Form_Correction_LogIn", 
-                "submitNotFound": "Multimodal_Form_LogIn" 
+                "submitNotFound": "Multimodal_Form_LogIn",
+                "google": "Google Login SignIn"
             },
             "Verification_LogIn": {
                 "loginSuccess": "STOP_SUCCESS",
                 "loginFailed": "Multimodal_Form_LogIn", 
                 "form_to_fill": "Form_Correction_LogIn",
-                "on_login_page": "Method of LogIn"
+                "on_login_page": "Method of LogIn",
+                "google": "Google Login SignIn"
             }
         }
 
@@ -112,10 +123,36 @@ class CompteParams:
                 
                 action_call = ""
                 if func_name == "type_string":
-                    content = args[1] if len(args) > 1 else (args[0] if len(args) > 0 else "")
-                    action_call = f'type_string("{label}", "{content}", True)'
+                    content = ""
+                    press_enter = False
+                    if len(args) == 1:
+                        content = args[0]
+                    elif len(args) == 2:
+                        if isinstance(args[1], bool):
+                            content = args[0]
+                            press_enter = args[1]
+                        elif str(args[0]) == str(label):
+                            content = args[1]
+                        elif str(args[1]) == str(label):
+                            content = args[0]
+                        else:
+                            content = args[1]
+                    elif len(args) >= 3:
+                        content = args[1]
+                        press_enter = args[2]
+                    
+                    action_call = f'type_string("{label}", "{content}", {press_enter})'
                 elif func_name == "select":
-                    val = args[1] if len(args) > 1 else (args[0] if len(args) > 0 else "")
+                    val = ""
+                    if len(args) == 1:
+                        val = args[0]
+                    elif len(args) >= 2:
+                        if str(args[0]) == str(label):
+                            val = args[1]
+                        elif str(args[1]) == str(label):
+                            val = args[0]
+                        else:
+                            val = args[1]
                     action_call = f'select("{label}", "{val}")'
                 elif func_name == "check":
                     action_call = f'check("{label}")'
@@ -142,12 +179,13 @@ class CompteParams:
         multimodal_retry_count = 0
         correction_retry_count = 0
         loop_steps = 0
+        all_traces = []
         
         while current_intent and not current_intent.startswith("STOP_"):
             loop_steps += 1
             if loop_steps > 20:
                 logger.warning(f"[CompteParams] Global loop limit (20) reached. Force stopping with FAILURE.")
-                return "FAILURE"
+                return "FAILURE", all_traces
 
             logger.info(f"\n [CompteParams] Étape : {current_intent}")
 
@@ -166,7 +204,7 @@ class CompteParams:
                 multimodal_retry_count += 1
                 if multimodal_retry_count > 2:
                     logger.warning(f"[CompteParams] Limite de tentatives (3) atteinte pour {current_intent}. Arrêt avec FAILURE.")
-                    return "FAILURE"
+                    return "FAILURE", all_traces
             
             if "Form_Correction" in current_intent:
                 correction_retry_count += 1
@@ -186,6 +224,7 @@ class CompteParams:
             trajectory, meta_data, trace = self.task_execution_command(
                 obs, info, current_intent, max_steps, thresholds, self.env, self.agent, url, user
             )
+            all_traces.extend(trace)
             
             
             target_response = trace[-1]["target"]
@@ -232,7 +271,7 @@ class CompteParams:
                      continue
                 
                 logger.warning(f"!!! [CompteParams] Pas de transition pour {current_intent} avec signal {signal}")
-                return "FAILURE"
+                return "FAILURE", all_traces
 
             last_obs_state = trajectory[-2]
             obs = last_obs_state["observation"]
@@ -242,10 +281,11 @@ class CompteParams:
 
         if current_intent == "STOP_SUCCESS":
             if login_method == "google":
-                return "SUCCESS_GOOGLE"
+                result = "SUCCESS_GOOGLE"
             elif login_method == "classic":
-                return "SUCCESS_CLASSIC"
+                result = "SUCCESS_CLASSIC"
             else:
-                return "SUCCESS" 
+                result = "SUCCESS" 
+            return result, all_traces
         
-        return "FAILURE"
+        return "FAILURE", all_traces

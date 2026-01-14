@@ -2,7 +2,23 @@ prompt = {
     "intro": "",
     "examples": [],
     "template": """<html> {html} </html>
-🎯 PRIMARY OBJECTIVE: Detect all form fields and list their filling actions.
+
+Overall objective:
+    - Create a valid user account on the website. 
+Current status:
+    - Registration/Login form visible.
+Current task: 
+    - Detect all form fields and list their filling actions.
+    - IMPORTANT: If you detect a button or link to "Sign in with Google" or "Register with Google" or a google image or a google icon, use #Operation: finish("google") instead of filling the form.
+
+═══════════════════════════════════════════════════════════════════
+VISUAL ANALYSIS:
+═══════════════════════════════════════════════════════════════════
+1. SCAN the image for form labels that might be missing from the HTML (e.g., placeholder text or icons inside inputs).
+2. Look for visual indicators of required fields (e.g., red asterisks *).
+3. Identify social login buttons (Google, etc.) by their logos in the image.
+
+PRIMARY OBJECTIVE: Detect all form fields and list their filling actions.
 
 You are a specialized assistant focused on form analysis.
 Only use the ID  of the element not the text 
