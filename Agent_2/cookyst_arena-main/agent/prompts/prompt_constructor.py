@@ -47,6 +47,7 @@ class PromptConstructor(object):
         self.Statut = json.load(open(Path("agent/prompts/jsons/01_account_status_detector.json")))
         self.LoginPage = json.load(open(Path("agent/prompts/jsons/02_account_page_navigator.json")))
         self.MultimodalFormFiller = json.load(open(Path("agent/prompts/jsons/multimodal_form_filler.json")))
+        self.UnifiedAccountCreator = json.load(open(Path("agent/prompts/jsons/unified_account_creator.json")))
         
         # Load new Form Corrector prompt dynamically
         spec = importlib.util.spec_from_file_location("form_corrector", "agent/prompts/raw/12_form_corrector.py")
@@ -735,6 +736,8 @@ class NewASPromptConstructor(PromptConstructor):
         # Determine which instruction to use based on intent
         if intent in ["Multimodal_Form_SignIn", "Multimodal_Form_LogIn"]:
             instruction = self.MultimodalFormFiller
+        elif intent in ["Unified_Account_Creation", "Statut", "Verification_SignIn"]:
+            instruction = self.UnifiedAccountCreator
         else:
             instruction = self.instruction
 

@@ -21,7 +21,7 @@ for file in os.listdir() :
             country = file.split("_")[0]
             user = file.split("_")[1]
             print(user)
-            n =len(os.listdir(os.path.join(os.getcwd(),file)))*3
+            n =len(os.listdir(os.path.join(os.getcwd(),file)))*7
             
             for f in os.listdir(os.path.join(os.getcwd(),file)) :
                 print(f)

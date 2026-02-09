@@ -954,6 +954,20 @@ def execute_scroll(direction: str, page: Page) -> None:
         )
 
 
+
+def all_link(page:Page) ->list :
+
+    links = page.eval_on_selector_all(
+        "a",
+        "elements=>elements.map(e =>e.href).filter(h=>h)"
+    )
+
+    return links 
+
+
+
+
+
 async def aexecute_scroll(direction: str, page: APage) -> None:
     # perform the action
     # code from natbot
@@ -1269,6 +1283,9 @@ async def aexecute_playwright_check(
     await locator.check()
 
 
+
+
+
 def execute_action(
     action: Action,
     page: Page,
@@ -1440,6 +1457,24 @@ def execute_action(
 
     return page
 
+
+
+
+def execute_specific_action(
+    page: Page,
+    browser_ctx: BrowserContext,
+    obseration_processor: ObservationProcessor,
+) :
+
+     
+
+    # avoir tous les liens du site  comment faire 
+    # le nombre de liens sur lequell on doit naviguer 
+    # aller sur chaque lien et scroller jus'qu' a la fin 
+
+
+
+    return page 
 
 async def aexecute_action(
     action: Action, page: APage, browser_ctx: ABrowserContext

@@ -32,9 +32,10 @@ STATE 1: SUCCESSFUL LOGIN
 Look for:
 - User profile visible (Name, Email, Avatar)
 - "My Account" / "Mon Compte"
-- "Logout" / "Déconnexion" button
-- Dashboard or Home page with personalized content
-- Success messages ("Login successful", "Compte créé")
+- "Logout" / "Sign out" / "Déconnexion" / "Se déconnecter" button
+- Dashboard / "Tableau de bord" / Home page with personalized content
+- Success messages ("Login successful", "Compte créé", "Bienvenue", "Welcome")
+- "Settings" / "Paramètres" / "Profile" / "Profil" links
 
 Action: #Operation: finish("login_success")
 

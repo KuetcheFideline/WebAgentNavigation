@@ -12,103 +12,28 @@ class CompteParams:
         self.continuation = continuation_func
         
         self.workflow = {
-            "Register_page": {
-                "on_registration_page": "Method of SignIn",
-                "registration_not_found": "STOP_FAILURE",
-                "user_exist": "STOP_SUCCESS",
-            },
-            "Method of SignIn": {
+            "Unified_Account_Creation": {
                 "google": "Google Login SignIn",
-                "classic": "Form_SignIn",
+                "form_submitted": "Verification_SignIn",
+                "user_exist": "STOP_SUCCESS",
+                "registration_not_found": "STOP_FAILURE",
                 "noLoginMethod": "STOP_FAILURE"
             },
             "Google Login SignIn": {
                 "googleSelection": "STOP_SUCCESS",
                 "googleError": "STOP_FAILURE"
             },
-            "Form_SignIn": {
-                "execute_json": "Submit_SignIn",
-                "google": "Google Login SignIn"
-            },
-            "Form_Correction_SignIn": {
-                "execute_json": "Submit_SignIn", 
-                "submitNotFound": "Multimodal_Form_SignIn",
-                "google": "Google Login SignIn"
-            },
-            "Multimodal_Form_SignIn": {
-                 "form_submitted": "Verification_SignIn",
-                 "loginSuccess": "STOP_SUCCESS",
-                 "loginFailed": "Multimodal_Form_SignIn", 
-                 "form_to_fill": "Multimodal_Form_SignIn",
-                 "submitNotFound": "Multimodal_Form_SignIn",
-                 "google": "Google Login SignIn"
-            },
-            "Submit_SignIn": {
-                "form_submitted": "Verification_SignIn",
-                "fieldToComplete": "Form_Correction_SignIn",
-                "submitNotFound": "Multimodal_Form_SignIn",
-                "google": "Google Login SignIn"
-            },
             "Verification_SignIn": {
                 "loginSuccess": "STOP_SUCCESS",
-                "loginFailed": "Multimodal_Form_SignIn", 
-                "form_to_fill": "Form_Correction_SignIn", 
-                "on_login_page": "Method of LogIn",
-                "user_exist": "Method of LogIn",
+                "loginFailed": "Unified_Account_Creation", 
+                "form_to_fill": "Unified_Account_Creation", 
+                "on_login_page": "Unified_Account_Creation",
+                "user_exist": "STOP_SUCCESS",
                 "google": "Google Login SignIn"
-            },
-            
-            "login_page" :{
-                "on_login_page":"Method of LogIn",
-                "login_not_found":"STOP_FAILURE"
-
             },
             "Statut": {
                 "user_exist": "STOP_SUCCESS",
-                "connexion": "login_page"
-            },
-            
-            "Method of LogIn": {
-                "google": "Google Login LogIn",
-                "classic": "Form_LogIn",
-                "noLoginMethod": "STOP_FAILURE"
-
-            },
-
-            "Form_LogIn": {
-                "execute_json": "HANDLE_JSON",
-                "fieldToComplete": "Form_LogIn", 
-                "form_filled": "Submit_LogIn",
-                "formOkay": "Submit_LogIn",
-                "form_submitted": "Verification_LogIn",
-                "submitNotFound": "Multimodal_Form_LogIn",
-                "google": "Google Login SignIn"
-            },
-            "Form_Correction_LogIn": {
-                "execute_json": "Submit_LogIn", 
-                "submitNotFound": "Multimodal_Form_LogIn",
-                "google": "Google Login SignIn"
-            },
-            "Multimodal_Form_LogIn": {
-                 "form_submitted": "Verification_LogIn",
-                 "loginSuccess": "STOP_SUCCESS",
-                 "loginFailed": "Multimodal_Form_LogIn",
-                 "form_to_fill": "Multimodal_Form_LogIn",
-                 "submitNotFound": "Multimodal_Form_LogIn",
-                 "google": "Google Login SignIn"
-            },
-            "Submit_LogIn": {
-                "form_submitted": "Verification_LogIn",
-                "fieldToComplete": "Form_Correction_LogIn", 
-                "submitNotFound": "Multimodal_Form_LogIn",
-                "google": "Google Login SignIn"
-            },
-            "Verification_LogIn": {
-                "loginSuccess": "STOP_SUCCESS",
-                "loginFailed": "Multimodal_Form_LogIn", 
-                "form_to_fill": "Form_Correction_LogIn",
-                "on_login_page": "Method of LogIn",
-                "google": "Google Login SignIn"
+                "connexion": "Unified_Account_Creation"
             }
         }
 
@@ -171,7 +96,7 @@ class CompteParams:
         
         return 0
 
-    def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Register_page"):
+    def run(self, obs, info, url, user, max_steps, thresholds, start_intent="Unified_Account_Creation"):
         """Boucle principale de gestion du workflow."""
         current_intent = start_intent
         login_method = "unknown"

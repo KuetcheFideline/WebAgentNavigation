@@ -1,5 +1,6 @@
 import json
 from datetime import datetime ,date
+import random
 import re
 import time
 import shutil
@@ -25,7 +26,7 @@ from playwright.sync_api import (
 import uuid
 from .utils import diff_dictionaries
 from .auto_login_with_google import connect_to_browser_and_login
-from .actions import Action, execute_action, get_action_space
+from .actions import Action, execute_action, get_action_space ,all_link
 from .processors import ObservationHandler, ObservationMetadata
 from .utils import (
     AccessibilityTree,
@@ -434,7 +435,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "observation_metadata": observation_metadata,
             "name":images["name"],
         } 
-        print("je suis passer et j'ai fais mon tafe")
  
         return (observation, info)
 
@@ -586,14 +586,67 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         return msg
 
 
+
+
+    def step_compare(self, num_links, base_url):
+        visited_urls = set()
+        count = 0
+        
+        while count < num_links:
+
+            links = all_link(self.page)
+            candidates = [u for u in links if u.startswith(base_url) and u not in visited_urls]
+            if not candidates :
+                 print("Plus de nouveaux liens trouvés.")
+
+            target_url  = random.choice(candidates)
+            print(f"Visite {count+1}/{num_links}: Clic sur {target_url}")
+
+            try:
+                found_element = False
+                
+                page_links = self.page.locator("a").all()
+                
+                for link_element in page_links:
+                    href_absolu = link_element.evaluate("node => node.href")
+                    
+                    if href_absolu == target_url:
+                        if link_element.is_visible():
+                            link_element.click() 
+                            found_element = True
+                            break
+                
+                if not found_element:
+                    print(f"Lien introuvable ou invisible pour le clic : {target_url}")
+                    visited_urls.add(target_url)
+                    continue
+                self.page.wait_for_load_state("domcontentloaded")
+                
+                page_height = self.page.evaluate("document.body.scrollHeight")
+                for i in range(0, page_height, 300):
+                    self.page.evaluate(f"window.scrollTo(0, {i})")
+                    time.sleep(0.05) 
+                self.page.wait_for_timeout(1000)
+                print("Retour...")
+                self.page.go_back()
+                self.page.wait_for_load_state("domcontentloaded")
+                visited_urls.add(target_url)
+
+                count += 1
+
+            except Exception as e:
+                visited_urls.add(target_url)
+
+                print(f"Erreur lors du clic ou de la navigation : {e}")
+                continue
+
+        return 0
+
     def remove_image(self, path):
-        # Liste tous les fichiers dans le répertoire spécifié
         files = os.listdir(path)
 
-        # Filtre les fichiers qui commencent par 'marked'
         marked_files = [file for file in files if file.startswith('marked')]
 
-        # Supprime tous les fichiers commençant par 'marked'
         for file in marked_files:
             os.remove(os.path.join(path, file))
 

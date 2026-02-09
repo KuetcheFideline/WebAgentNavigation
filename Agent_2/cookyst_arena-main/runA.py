@@ -95,8 +95,8 @@ def config() -> argparse.Namespace:
     parser.add_argument("--user_start_idx",type= int ,default=446)
     parser.add_argument("--user_end_idx",type= int ,default=447)
 
-    parser.add_argument("--test_start_idx", type=int, default=15)
-    parser.add_argument("--test_end_idx", type=int, default=68)
+    parser.add_argument("--test_start_idx", type=int, default=1)
+    parser.add_argument("--test_end_idx", type=int, default=70)
     parser.add_argument("--sample", type=int, default=1)
     
     # Retry specific tasks
@@ -402,7 +402,7 @@ def test(
             else  :
                 "creation du compte "
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
-                result, auth_trace = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Register_page")
+                result, auth_trace = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Unified_Account_Creation")
                 if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                         Sites.append(url)
                         if result == "SUCCESS_GOOGLE":

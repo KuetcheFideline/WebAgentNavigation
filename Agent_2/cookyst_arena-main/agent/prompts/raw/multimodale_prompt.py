@@ -164,7 +164,7 @@ post-login page), you MUST immediately terminate the task using: #Operation: fin
 #Window tabs: {tabs}
 
 #Current viewport (pages): {position}
-
+   
 #Task: {objective}
 
 You should output one command to interact with the current webpage.
