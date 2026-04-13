@@ -3,12 +3,20 @@ Browser Env action space.
 Inspited by Farama-Foundation/miniwob-plusplus
 """
 import ast
+import smtplib
 import random
 import re
 import string
 from enum import IntEnum
 from itertools import chain
 from typing import Any, TypedDict, Union, cast
+import imaplib 
+import email
+import time
+
+from urllib.parse import urlparse
+from bs4 import BeautifulSoup
+
 
 import numpy as np
 import numpy.typing as npt
@@ -147,6 +155,8 @@ def action2str(
                 action_str = f"page_focus [{action['page_number']}]"
             case ActionTypes.STOP:
                 action_str = f"stop [{action['answer']}]"
+            case ActionTypes.CHECK:
+                action_str = f"check [{element_id}] where [{element_id}] is {semantic_element}"
             case ActionTypes.NONE:
                 action_str = "none"
             case _:
@@ -190,6 +200,8 @@ def action2str(
             case ActionTypes.SELECT_OPTION:
                 option = action.get("option", "")
                 action_str = f"#Select# {label} {option}"
+            case ActionTypes.CHECK:
+                action_str = f"#Check# {label}"
             case ActionTypes.NONE:
                 action_str = "None"
             case _:
@@ -229,9 +241,14 @@ def action2str(
                 action_str = f"switch_tab('{action['page_number']}')"
             case ActionTypes.STOP:
                 if len(action['answer']) > 0:
-                    action_str = f"finish('{action['answer']}')"
+                    if action['answer'].strip().startswith('['):
+                        action_str = f"finish({action['answer']})"
+                    else:
+                        action_str = f"finish('{action['answer']}')"
                 else:
                     action_str = f"finish()"
+            case ActionTypes.CHECK:
+                action_str = f"check('{label}')"
             case ActionTypes.SELECT_OPTION:
                 option = action.get("option", "")
                 action_str = f"select('{label}', '{option}')"
@@ -358,7 +375,7 @@ class ActionTypes(IntEnum):
     STOP = 17
 
     def __str__(self) -> str:
-        return f"ACTION_TYPES.{self.name}"
+        return f"ActionTypes.{self.name}"
 
 
 @beartype
@@ -807,6 +824,8 @@ def create_our_type_action(
             "flag": flag,
         }
     )
+
+    print("Created our type action:", action) 
     return action
 
 
@@ -933,6 +952,20 @@ def execute_scroll(direction: str, page: Page) -> None:
         page.evaluate(
             "(document.scrollingElement || document.body).scrollTop = (document.scrollingElement || document.body).scrollTop + window.innerHeight * 0.8;"
         )
+
+
+
+def all_link(page:Page) ->list :
+
+    links = page.eval_on_selector_all(
+        "a",
+        "elements=>elements.map(e =>e.href).filter(h=>h)"
+    )
+
+    return links 
+
+
+
 
 
 async def aexecute_scroll(direction: str, page: APage) -> None:
@@ -1208,7 +1241,9 @@ async def aexecute_playwright_type(
     pw_action_args = [text] + pw_action_args  # text is the first argument
     await locator.type(*pw_action_args, **pw_action_kwargs)
 
+def execute_code_verification() :
 
+    pass
 def execute_playwright_select_option(
     locator_code: list[ParsedPlaywrightCode],
     page: Page,
@@ -1216,6 +1251,7 @@ def execute_playwright_select_option(
     pw_action_kwargs: dict[str, Any] = {},
 ) -> None:
     locator = locate(locator_code, page)
+
     # perform the action
     locator.select_option(*pw_action_args, **pw_action_kwargs)
 
@@ -1247,6 +1283,9 @@ async def aexecute_playwright_check(
     await locator.check()
 
 
+
+
+
 def execute_action(
     action: Action,
     page: Page,
@@ -1256,24 +1295,34 @@ def execute_action(
     """Execute the action on the ChromeDriver."""
     action_type = action["action_type"]
     match action_type:
+
         case ActionTypes.NONE:
+
             pass
 
         case ActionTypes.SCROLL:
+
+
             direction = "up" if "up" in action["direction"] else "down"
             execute_scroll(direction, page)
         case ActionTypes.KEY_PRESS:
+
+
             keys = action["key_comb"]
             execute_key_press(keys, page)
 
         case ActionTypes.MOUSE_CLICK:
+
             execute_mouse_click(action["coords"][0], action["coords"][1], page)
         case ActionTypes.MOUSE_HOVER:
+
             execute_mouse_hover(action["coords"][0], action["coords"][1], page)
         case ActionTypes.KEYBOARD_TYPE:
+
             execute_type(action["text"], page)
 
         case ActionTypes.CLICK:
+
             # check each kind of locator in order
             # TODO[shuyanzh]: order is temp now
             if action["element_id"]:
@@ -1294,6 +1343,7 @@ def execute_action(
             else:
                 raise ValueError("No proper locator found for click action")
         case ActionTypes.HOVER:
+
             if action["element_id"]:
                 element_id = action["element_id"]
                 element_center = obseration_processor.get_element_center(element_id)  # type: ignore[attr-defined]
@@ -1313,6 +1363,7 @@ def execute_action(
                     "No proper locator found for hover action"
                 )
         case ActionTypes.TYPE:
+
             if action["element_id"]:
                 element_id = action["element_id"]
                 element_center = obseration_processor.get_element_center(element_id)  # type: ignore[attr-defined]
@@ -1340,21 +1391,27 @@ def execute_action(
                 )
 
         case ActionTypes.PAGE_FOCUS:
+
             page = browser_ctx.pages[action["page_number"]]
             page.bring_to_front()
         case ActionTypes.NEW_TAB:
+
             page = browser_ctx.new_page()
             page.client = page.context.new_cdp_session(page)  # type: ignore[attr-defined]
         case ActionTypes.GO_BACK:
+
             page.go_back()
         case ActionTypes.GO_FORWARD:
+
             page.go_forward()
         case ActionTypes.GOTO_URL:
+
             if action["answer"] == "1":
                 page = browser_ctx.new_page()
                 page.client = page.context.new_cdp_session(page) 
             page.goto(action["url"])
         case ActionTypes.PAGE_CLOSE:
+
             page.close()
             if len(browser_ctx.pages) > 0:
                 page = browser_ctx.pages[-1]
@@ -1362,19 +1419,29 @@ def execute_action(
                 page = browser_ctx.new_page()
 
         case ActionTypes.SELECT_OPTION:
-            if action["pw_code"]:
-                parsed_code = parse_playwright_code(action["pw_code"])
-                locator_code = parsed_code[:-1]
-                pw_action_args = parsed_code[-1].get('arguments', [])
-                execute_playwright_select_option(locator_code, page, pw_action_args)
-            else:
-                raise NotImplementedError(
-                    "No proper locator found for select option action"
-                )
+            try:
+                if action["pw_code"]:
+                    parsed_code = parse_playwright_code(action["pw_code"])
+                    # print(f"parsed_code: {parsed_code}")
+                    locator_code = parsed_code[:-1]
+                    # print(f"locator_code: {locator_code}")
+                    pw_action_args = parsed_code[-1].get('arguments', [])
+                    # print(f"pw_action_args: {pw_action_args}")
+                    execute_playwright_select_option(locator_code, page, pw_action_args)
+                    print(" SELECT_OPTION EXECUTED SUCCESSFULLY")
+                else:
+                    raise NotImplementedError("No proper locator found for select option action")
+            except Exception as e:
+                print(f"EXCEPTION IN SELECT_OPTION: {type(e).__name__}: {e}")
+                import traceback
+                traceback.print_exc()
+                raise
         case ActionTypes.CHECK:
+
             if action["pw_code"]:
                 parsed_code = parse_playwright_code(action["pw_code"])
                 locator_code = parsed_code[:-1]
+                print(f"locator_code for CHECK: {locator_code}")
                 execute_playwright_check(locator_code, page)
             else:
                 raise NotImplementedError(
@@ -1383,9 +1450,31 @@ def execute_action(
 
         case _:
             raise ValueError(f"Unknown action type: {action_type}")
+        
+    
+    
+
 
     return page
 
+
+
+
+def execute_specific_action(
+    page: Page,
+    browser_ctx: BrowserContext,
+    obseration_processor: ObservationProcessor,
+) :
+
+     
+
+    # avoir tous les liens du site  comment faire 
+    # le nombre de liens sur lequell on doit naviguer 
+    # aller sur chaque lien et scroller jus'qu' a la fin 
+
+
+
+    return page 
 
 async def aexecute_action(
     action: Action, page: APage, browser_ctx: ABrowserContext
@@ -1518,18 +1607,32 @@ async def aexecute_action(
 
 
 def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
+    print(code)
+    match = re.search(
+    r"(page\.[a-zA-Z0-9_]+\([^)]*\)(?:\.[a-zA-Z0-9_]+\([^)]*\))*)",
+    code,)
+
+
+    
+    if match:
+        code = match.group(1)
+
+    print("==== CLEANED CODE ====")
+    print(code)
     # extract function calls
     if not code.startswith("page."):
         raise ValueError(
             f'Playwright action must start with "page.", but got {code}'
         )
-
+    
     regex = r"\.(?![^\(\)]*\))"
     chain = re.split(regex, code)[1:]
 
     parsed_chain = []
 
     for item in chain:
+        print("Parsing item:", repr(item))
+
         tree = ast.parse(item)
         funcs = []
         for node in ast.walk(tree):
@@ -1552,7 +1655,7 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
                         }
                     )
                 )
-
+    
         if len(funcs) != 1:
             raise ValueError(f"Fail to parse {item} in {code}")
 
@@ -1568,6 +1671,7 @@ def parse_playwright_code(code: str) -> list[ParsedPlaywrightCode]:
         parsed_chain.append(funcs[0])
 
     last_action = parsed_chain[-1]
+
     if last_action["function_name"] not in PLAYWRIGHT_ACTIONS:
         raise ValueError(
             f"Invalid playwright action {last_action},",
@@ -1656,8 +1760,223 @@ def create_playwright_action(playwright_code: str) -> Action:
     raise ActionParsingError(f"Unknown playwright action {action}")
 
 
+
+def receive_mail(url: str,user:str):
+    code = 0000 
+    Email = "chris.martin.gdpr@gmail.com"
+    Password = "fnhcgcqgbwwplwdx"
+    SERVEUR = 'imap.gmail.com'
+    url = urlparse(url).netloc
+    urls = url.split('.')[:-1]  
+
+    try:
+        mail = imaplib.IMAP4_SSL(SERVEUR)
+        mail.login(Email, Password)
+
+        mail.select('inbox')
+        start_time = time.time()
+        duration = 40
+        n = 0
+        code = ''
+        while n < time.time()-start_time<duration:  
+            status, data = mail.search(None, 'ALL') 
+            mail_ids = []
+            for block in data:
+                mail_ids += block.split()
+
+            n += 1
+          
+
+            mail_id = mail_ids[-10:]
+            for id in mail_id:
+                status, data = mail.fetch(id, '(RFC822)')
+
+                for response_part in data:
+                    if isinstance(response_part, tuple):
+                        message = email.message_from_bytes(response_part[1])
+                        mail_from = message['from']
+                        mail_subject = message['subject']
+                        mail_from_cleaned = re.sub(r'\s+', '', mail_from.lower())
+                        mail_to =message['To']                        
+
+
+
+                        if message.is_multipart():
+                            mail_content = ''
+                            for part in message.get_payload():
+                                if part.get_content_type() == 'text/plain':
+                                    mail_content += part.get_payload()
+                                elif  part.get_content_type() == 'text/html':
+                                   html_content = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+                                   soup = BeautifulSoup(html_content, 'html.parser')
+                                   cleane = soup.get_text()
+                                   clean_content = re.sub(r'\s+', ' ', cleane)  
+                                   mail_content= clean_content.strip()  
+                        else:
+                                mail_content = message.get_payload()
+                        
+
+                        mail_content_cleaned = re.sub(r'\s+', '', mail_content.lower())
+
+                        for j in urls:
+                            numeric_codes = re.search(r'\b\d{6,}\b', mail_content) 
+                            alpha_num = re.search(r'\b(?=\w*[A-Za-z])(?=\w*\d)\w{6,}\b', mail_content)
+                            alphamasj = re.search(r'\b[A-Z]{6,}\b', mail_content)
+
+ 
+
+
+                            if j.lower() in mail_from.lower() and user.lower() in mail_to.lower():
+
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+
+
+                            elif  j.lower() in mail_content and user.lower() in mail_to.lower():
+
+                                   
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+
+                            elif j.lower() in mail_from_cleaned and user.lower() in mail_to.lower():
+
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+
+                            elif j.lower() in mail_content_cleaned and user.lower() in mail_to.lower():
+
+                                if  numeric_codes :
+                                    code = numeric_codes.group(0)
+                                elif  alpha_num :
+                                  code = alpha_num.group(0)
+
+                                elif alphamasj :
+                                    code = alphamasj.group(0)
+                               
+                    
+            return str(code)  
+
+    except imaplib.IMAP4.error as e:
+        print("IMAP4 error:", e)
+    except Exception as e:
+        print("An error occurred:", e)
+
+
+def receive_link(url: str,user:str,Email = "chris.martin.gdpr@gmail.com", Password = "fnhcgcqgbwwplwdx"):
+    link  =  "https://mail.google.com/"
+
+
+    SERVEUR = 'imap.gmail.com'
+    url = urlparse(url).netloc
+    urls = url.split('.')[:-1]  
+
+    try:
+        mail = imaplib.IMAP4_SSL(SERVEUR)
+        mail.login(Email, Password)
+
+        mail.select('inbox')
+
+
+        start_time = time.time()
+        duration = 40 
+        n = 0
+        link= ''
+        
+        while time.time()-start_time <duration:   
+            status, data = mail.search(None, 'ALL') 
+            mail_ids = []
+            for block in data:
+                mail_ids += block.split()
+
+            n += 1
+          
+            mail_id = mail_ids[-10:]
+            for id in mail_id :
+                status, data = mail.fetch(id, '(RFC822)')
+
+                for response_part in data:
+                    if isinstance(response_part, tuple):
+                        message = email.message_from_bytes(response_part[1])
+                        mail_from = message['from']
+                        mail_subject = message['subject']
+                        mail_to =message['To']                        
+
+                        mail_from_cleaned = re.sub(r'\s+', '', mail_from.lower())
+                        
+
+
+
+                        if message.is_multipart():
+                            mail_content = ''
+                            for part in message.get_payload():
+                                if part.get_content_type() == 'text/plain':
+                                    mail_content += part.get_payload()
+                                elif  part.get_content_type() == 'text/html':
+                                   html_content = part.get_payload(decode=True).decode('utf-8', errors='ignore')
+                                   soup = BeautifulSoup(html_content, 'html.parser')
+                                   cleane = soup.get_text()
+                                   clean_content = re.sub(r'\s+', ' ', cleane)  
+                                   mail_content= clean_content.strip()  
+                        else :
+                                mail_content = message.get_payload()
+                        
+
+                        mail_content_cleaned = re.sub(r'\s+', '', mail_content.lower())
+                    for j in urls:
+                        
+                        match = re.search(r'(https?://|www\.)[^\s]+', mail_content)
+
+
+                        if j.lower() in mail_from.lower() and user.lower() in mail_to.lower():
+
+                                if match :
+                                    link = match.group(0) 
+
+                        elif  j.lower() in mail_content and user.lower() in mail_to.lower():
+                                
+                                   
+                                if match :
+                                    link = match.group(0)
+
+                        elif j.lower() in mail_from_cleaned and user.lower() in mail_to.lower():
+                                 
+                                if match :
+                                    link = match.group(0)
+                        elif j.lower() in mail_content_cleaned and user.lower() in mail_to.lower():
+                                
+                                 if match :
+                                
+                                    link = match.group(0)
+        return link 
+
+    except imaplib.IMAP4.error as e:
+        print("IMAP4 error:", e)
+    except Exception as e:
+        print("An error occurred:", e)
+
+
+
+
+
+
+
 @beartype
-def create_id_based_action(action_str: str) -> Action:
+def create_id_based_action(action_str: str,url :str,user:str) -> Action:
     """Main function to return individual id based action"""
     action_str = action_str.strip()
     action = (
@@ -1665,9 +1984,12 @@ def create_id_based_action(action_str: str) -> Action:
         if "[" in action_str
         else action_str.split()[0].strip()
     )
+    if "(" in action:
+        action = action.split("(")[0].strip()
+    print("je suis l'action :", action_str)
     match action:
         case "click":
-            match = re.search(r"click ?\[(\d+)\]", action_str)
+            match = re.search(r"click ?\[(.+)\]", action_str)
             if not match:
                 raise ActionParsingError(f"Invalid click action {action_str}")
             element_id = match.group(1)
@@ -1688,6 +2010,7 @@ def create_id_based_action(action_str: str) -> Action:
             )
             if not match:
                 raise ActionParsingError(f"Invalid type action {action_str}")
+            print("action²:", action_str)
             element_id, text, enter_flag = (
                 match.group(1),
                 match.group(2),
@@ -1732,12 +2055,24 @@ def create_id_based_action(action_str: str) -> Action:
                 raise ActionParsingError(
                     f"Invalid tab_focus action {action_str}"
                 )
-            page_number = int(match.group(1))
+            page_number = int(match.group(1)) - 1
+            return create_page_focus_action(page_number)
+        case "page_focus":
+            match = re.search(r"page_focus ?[\[\(](\d+)[\]\)]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid page_focus action {action_str}")
+            page_number = int(match.group(1)) - 1
+            return create_page_focus_action(page_number)
+        case "switch_tab":
+            match = re.search(r"switch_tab ?[\[\(](\d+)[\]\)]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid switch_tab action {action_str}")
+            page_number = int(match.group(1)) - 1
             return create_page_focus_action(page_number)
         case "close_tab":
             return create_page_close_action()
         case "stop":  # stop answer
-            match = re.search(r"stop ?\[(.+)\]", action_str)
+            match = re.search(r"stop ?\[([\s\S]+)\]", action_str)
             if not match:  # some tasks don't require an answer
                 answer = ""
             else:
@@ -1755,5 +2090,40 @@ def create_id_based_action(action_str: str) -> Action:
             match = re.search(r"record ?\[(.+)\]", action_str)
             text = match.group(1)
             return create_record_action(text)
+        case "code_email":
+            """Create code email action."""
+            
+            print("je recupere le code email")
+            if not (action_str.endswith("[0]") or action_str.endswith("[1]")):
+                action_str += " [1]"
+            match = re.search(
+                r"code_email ?\[(\d+)\] ?\[(.+)\] ?\[(\d+)\]", action_str
+            )
+            if not match:
+                raise ActionParsingError(f"Invalid type action {action_str}")
+            element_id, text0, enter_flag = (
+                match.group(1),
+                match.group(2),
+                match.group(3),
+            )
+            text =receive_mail(url,user)
+            enter_flag = True if enter_flag == "1" else False
+            if enter_flag:
+                text += "\n"
+            return create_our_type_action(text=text, element_id=element_id, flag=enter_flag)
+        case "go_mail":
+            url = receive_link(url,user)
+            return create_our_goto_url_action(url=url, flag=True)
+        case "check":
+            match = re.search(r"check ?\[(\d+)\]", action_str)
+            if not match:
+                raise ActionParsingError(f"Invalid check action {action_str}")
+            element_id = match.group(1)
+            # Utiliser pw_code pour créer l'action check
+            pw_code = f'page.get_by_test_id("{element_id}").check()'
+
+            print("returning check action with pw_code:", pw_code)
+            return create_click_action(element_id=element_id)
+            # return create_check_action(pw_code=pw_code)
 
     raise ActionParsingError(f"Invalid action {action_str}")

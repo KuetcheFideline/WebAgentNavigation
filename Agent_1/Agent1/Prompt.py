@@ -77,7 +77,7 @@ def Generate_Prompt():
 
                                 file+=1
                                 domaine = clean_domain(site)
-                                response = formatage_Prompt("./prompts/template.json",{"site":domaine,"start_url":site,"task_id":task_id,"topic":resources_elt,"intent_template":task_elt['task'].split(':')[0].strip() + " {{topic}} ","intent":task_elt['task'].split(':')[0].strip()+resources_elt,"require_login":"false" })
+                                response = formatage_Prompt("./prompts/template.json",{"site":domaine,"start_url":site,"task_id":task_id,"topic":resources_elt,"intent_template":task_elt['task'].split(':')[0].strip() +" {{topic}} ","intent":task_elt['task'].split(':')[0].strip() + " " +resources_elt,"require_login":"false" })
                                 filename = f"{elt}_task{task_id}_{domaine}_{file}.json"
                                 response_file = os.path.join(folder1, filename)
                       
@@ -92,7 +92,7 @@ def Generate_Prompt():
 
                                 file+=1
                                 domaine = clean_domain(site)
-                                response = formatage_Prompt("./prompts/template.json",{"site":domaine,"start_url":site,"task_id":task_id,"topic":resources_elt,"intent_template":task_elt['task'].split(':')[0].strip(),"intent":task_elt['task'].split(':')[0].strip()+resources_elt,"require_login":"true","login_selector":login})
+                                response = formatage_Prompt("./prompts/template.json",{"site":domaine,"start_url":site,"task_id":task_id,"topic":resources_elt,"intent_template":task_elt['task'].split(':')[0].strip(),"intent":task_elt['task'].split(':')[0].strip()+ " " +resources_elt,"require_login":"true","login_selector":login})
                                 filename = f"{elt}_task{task_id}_{domaine}_{file}.json"
                                 response_file = os.path.join(folder, filename)
                       

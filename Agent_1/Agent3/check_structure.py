@@ -1,0 +1,157 @@
+# import os
+# import json
+
+# # 📂 Dossier contenant les fichiers JSON
+# RESULTS_DIR = "results_batch1"
+
+# def check_json_structure(file_path):
+#     """Vérifie la structure d'un fichier JSON et compte les URLs."""
+#     with open(file_path, "r", encoding="utf-8") as f:
+#         try:
+#             data = json.load(f)
+#         except json.JSONDecodeError as e:
+#             return {"valid": False, "error": f"JSON invalide: {e}", "url_count": 0}
+
+#     # Vérification des clés
+#     expected_keys = {"sites", "tasks"}
+#     if not expected_keys.issubset(data.keys()):
+#         return {"valid": False, "error": f"Clés manquantes: {expected_keys - set(data.keys())}", "url_count": 0}
+
+#     # Vérification des types
+#     if not isinstance(data["sites"], list):
+#         return {"valid": False, "error": "La clé 'sites' n'est pas une liste", "url_count": 0}
+
+#     if not isinstance(data["tasks"], list):
+#         return {"valid": False, "error": "La clé 'tasks' n'est pas une liste", "url_count": 0}
+
+#     # Compte des URLs
+#     url_count = len(data["sites"])
+
+#     return {"valid": True, "error": None, "url_count": url_count}
+
+
+# def main():
+#     total_files = 0
+#     valid_files = 0
+#     invalid_files = 0
+#     total_urls = 0
+
+#     print("📊 Vérification de la structure des fichiers JSON...\n")
+#     for filename in os.listdir(RESULTS_DIR):
+#         if not filename.endswith(".json"):
+#             continue
+
+#         total_files += 1
+#         file_path = os.path.join(RESULTS_DIR, filename)
+#         result = check_json_structure(file_path)
+
+#         if result["valid"]:
+#             valid_files += 1
+#             total_urls += result["url_count"]
+#             print(f"✅ {filename} → OK ({result['url_count']} URLs)")
+#         else:
+#             invalid_files += 1
+#             print(f"❌ {filename} → {result['error']}")
+
+#     print("\n📌 Statistiques globales :")
+#     print(f" - Total fichiers analysés : {total_files}")
+#     print(f" - Fichiers valides       : {valid_files}")
+#     print(f" - Fichiers invalides     : {invalid_files}")
+#     print(f" - Total d'URLs trouvées  : {total_urls}")
+
+# if __name__ == "__main__":
+#     main()
+
+# import os
+# import json
+
+# RESULTS_DIR = "results_batch1"
+# VISITED_SITES_FILE = "./results_batch1/visited_sites.json"
+
+# def extract_visited_sites():
+#     visited = set()
+#     total_urls = 0
+#     total_files = 0
+
+#     print(f"📊 Scan des fichiers JSON dans {RESULTS_DIR}...\n")
+
+#     for filename in os.listdir(RESULTS_DIR):
+#         if not filename.endswith(".json"):
+#             continue
+
+#         filepath = os.path.join(RESULTS_DIR, filename)
+#         try:
+#             with open(filepath, "r", encoding="utf-8") as f:
+#                 data = json.load(f)
+#         except Exception as e:
+#             print(f"❌ {filename} → Erreur de lecture JSON : {e}")
+#             continue
+
+#         if "sites" in data and isinstance(data["sites"], list):
+#             urls = data["sites"]
+#             visited.update(urls)
+#             total_urls += len(urls)
+#             total_files += 1
+#             print(f"✅ {filename} → {len(urls)} URLs ajoutées")
+#         else:
+#             print(f"⚠️ {filename} → pas de clé 'sites' valide")
+
+#     # Sauvegarde dans le fichier final
+#     os.makedirs(os.path.dirname(VISITED_SITES_FILE), exist_ok=True)
+#     with open(VISITED_SITES_FILE, "w", encoding="utf-8") as f:
+#         json.dump(sorted(list(visited)), f, ensure_ascii=False, indent=2)
+
+#     print("\n📌 Statistiques globales :")
+#     print(f" - Fichiers JSON analysés : {total_files}")
+#     print(f" - Total d'URLs trouvées  : {total_urls}")
+#     print(f" - Total unique de sites  : {len(visited)}")
+#     print(f"✅ Liste sauvegardée dans {VISITED_SITES_FILE}")
+
+#     return visited
+
+
+# if __name__ == "__main__":
+#     extract_visited_sites()
+
+import os
+import json
+
+# Chemin du dossier contenant vos fichiers
+folder_path = "./results"  # à modifier selon votre dossier
+
+total_urls = 0
+
+# Parcourir tous les fichiers dans le dossier
+for filename in os.listdir(folder_path):
+    file_path = os.path.join(folder_path, filename)
+
+    # Vérifier que c'est bien un fichier et pas un dossier
+    if os.path.isfile(file_path):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                # Vérifier que la clé "sites" existe et est une liste
+                if "sites" in data and isinstance(data["sites"], list):
+                    total_urls += len(data["sites"])
+        except json.JSONDecodeError:
+            print(f"Erreur de lecture JSON dans le fichier {filename}, ignoré.")
+
+print(f"Nombre total d'URLs dans tous les fichiers : {total_urls}")
+
+
+
+
+folder_path = "./results/auth"  # dossier auth
+total_files = 0
+
+# Parcourir tous les fichiers dans le dossier
+for filename in os.listdir(folder_path):
+    file_path = os.path.join(folder_path, filename)
+
+    if os.path.isfile(file_path):
+        total_files += 1
+
+# Diviser par 3
+result = total_files / 3
+
+print(f"Nombre de fichiers dans ./results/auth divisé par 3 : {result}")

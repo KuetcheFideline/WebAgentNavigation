@@ -1,0 +1,47 @@
+{
+  "site": "https_h.online-metrix.net_0.indexeddb.leveldb",
+  "profile": "FR_0458",
+  "auth_type": "auth",
+  "records_count": 2,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "id": "tmx-sid1",
+        "publicKey": {
+          "__type__": "CryptoKey",
+          "algorithm_parameters": {
+            "crypto_key_algorithm": 14,
+            "named_curve_type": 1
+          },
+          "key_type": 1,
+          "extractable": true,
+          "usages": 1,
+          "key_data": "0Y0\\x13\\x06\\x07*\\x86H\\xCE=\\x02\\x01\\x06\\x08*\\x86H\\xCE=\\x03\\x01\\x07\\x03B\\x00\\x04B\\x91\\x93\\x90,\\xAB\\xA7T\\xBA\\xA5@ \\x84Q{\\x95\\xB2)\\xDA\\x0A@I\\x15\\x14dE\\xA8u\\xF1\\xAAlb\\xCC\\xDBD\\xEB\\xC2\\xCB\\x96z\\xB98\\xF3@\\xD0E\\x9CA\\xED\\x0DD\\x9B+\\x02\\xEDQ\\xD3\\x06\\x0DlH\\xF7\\x95\\x85"
+        },
+        "privateKey": {
+          "__type__": "CryptoKey",
+          "algorithm_parameters": {
+            "crypto_key_algorithm": 14,
+            "named_curve_type": 1
+          },
+          "key_type": 2,
+          "extractable": false,
+          "usages": 8,
+          "key_data": "0\\x81\\x87\\x02\\x01\\x000\\x13\\x06\\x07*\\x86H\\xCE=\\x02\\x01\\x06\\x08*\\x86H\\xCE=\\x03\\x01\\x07\\x04m0k\\x02\\x01\\x01\\x04 \\x82\\x8F{r\\xD5\\xC9\\x05\\x8F\\xD7t}\\xC0\\x83\\xA0\\xDCl\\xD2z\\x1B>\\x0C\\xFB\\xD1\\x90\\xB6\\xB1\\xE4p\\xED\\x0EK2\\xA1D\\x03B\\x00\\x04B\\x91\\x93\\x90,\\xAB\\xA7T\\xBA\\xA5@ \\x84Q{\\x95\\xB2)\\xDA\\x0A@I\\x15\\x14dE\\xA8u\\xF1\\xAAlb\\xCC\\xDBD\\xEB\\xC2\\xCB\\x96z\\xB98\\xF3@\\xD0E\\x9CA\\xED\\x0DD\\x9B+\\x02\\xEDQ\\xD3\\x06\\x0DlH\\xF7\\x95\\x85"
+        },
+        "createTime": 1770799262.0,
+        "type": "web:ecdsa"
+      }
+    }
+  ]
+}

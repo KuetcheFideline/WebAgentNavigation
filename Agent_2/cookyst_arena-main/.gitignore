@@ -2,7 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
 # C extensions
 *.so
 llms/providers/models
@@ -52,7 +51,6 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-
 # Translations
 *.mo
 *.pot
@@ -137,6 +135,7 @@ dmypy.json
 *tmp*
 
 .auth/*
+./config_files/NotAuth/*
 
 # local debug
 run.sh
@@ -160,6 +159,7 @@ config_files*/*7.json
 config_files*/*8.json
 config_files*/*9.json
 config_files*/test.json
+
 
 # Our Trash
 output/

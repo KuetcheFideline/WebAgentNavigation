@@ -2,7 +2,8 @@ import json
 import re
 from pathlib import Path
 from typing import Any, TypedDict
-
+import time 
+import importlib.util
 from browser_env import Action, ActionParsingError, Trajectory
 #from browser_env.env_config import URL_MAPPINGS
 from browser_env.utils import StateInfo
@@ -26,6 +27,8 @@ class PromptConstructor(object):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        orm_path :str |Path ,
+        banner_path :str|Path
     ):
         self.instruction_path = Path(instruction_path)
         self.obs_modality = "text"
@@ -33,6 +36,25 @@ class PromptConstructor(object):
         instruction = json.load(open(self.instruction_path))
         instruction["examples"] = [tuple(e) for e in instruction["examples"]]
         self.instruction: Instruction = instruction
+        self.autInstruction= json.load(open(Path("agent/prompts/jsons/Authentification.json")))
+        self.detectPageSIgn = json.load(open(Path("agent/prompts/jsons/11_registration_page_detector.json")))
+        self.MethodSignIn = json.load(open(Path("agent/prompts/jsons/03_login_method_detector.json")))
+        self.GoogleLogin = json.load(open(Path("agent/prompts/jsons/04_google_login_executor.json")))
+        self.Verification =json.load(open(Path("agent/prompts/jsons/10_login_success_validator.json")))
+        self.FormFIll = json.load(open(Path("agent/prompts/jsons/05_form_filler_generic.json")))
+        self.FortoComplire = json.load(open(Path("agent/prompts/jsons/07_form_field_completer.json")))
+        self.FormSubmit = json.load(open(Path("agent/prompts/jsons/08_form_submitter.json")))
+        self.Statut = json.load(open(Path("agent/prompts/jsons/01_account_status_detector.json")))
+        self.LoginPage = json.load(open(Path("agent/prompts/jsons/02_account_page_navigator.json")))
+        self.MultimodalFormFiller = json.load(open(Path("agent/prompts/jsons/multimodal_form_filler.json")))
+        self.UnifiedAccountCreator = json.load(open(Path("agent/prompts/jsons/unified_account_creator.json")))
+        
+        # Load new Form Corrector prompt dynamically
+        spec = importlib.util.spec_from_file_location("form_corrector", "agent/prompts/raw/12_form_corrector.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        self.FormCorrector = module.prompt
+
         self.tokenizer = tokenizer
 
     def get_lm_api_input(
@@ -125,6 +147,14 @@ class PromptConstructor(object):
     ) -> APIInput:
         raise NotImplementedError
 
+
+    def banner_construct(
+                 self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+        raise NotImplementedError
     # def map_url_to_real(self, url: str) -> str:
     #     """Map the urls to their real world counterparts"""
     #     for i, j in URL_MAPPINGS.items():
@@ -270,6 +300,7 @@ class MyPromptConstructor(PromptConstructor):
     """The agent will perform step-by-step reasoning before the answer"""
     operation = [
         r"#?(Click)#?\s*([0-9]+)",
+        r"(Check)\(\s*['\"]([A-Z]{1,3})['\"]\s*\)"
         r"#?(Type)#?\s*([0-9]+)\s+[\'\"]{0,1}([\s\S]+)[\'\"]{0,1}",
         r"#?(Select)#?\s*([0-9]+)\s+[\'\"]{0,1}(.+)[\'\"]{0,1}",
         r"#?(Scroll_up)#?",
@@ -287,6 +318,7 @@ class MyPromptConstructor(PromptConstructor):
     
     translate = [
         "click",
+        "check",
         "type",
         "select",
         "scroll [up]",
@@ -388,7 +420,7 @@ class MyPromptConstructor(PromptConstructor):
                     param = []
                 
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select']:
+                if act in ['click', 'hover', 'type', 'select','check']:
                     if len(param) == 0:
                         continue
                     
@@ -411,7 +443,7 @@ class MyPromptConstructor(PromptConstructor):
                     if len(param) > 0:
                         param[-1] = param[-1].strip("\'\"")
                         
-                if act in ['type']:
+                if act in ['type', 'code_email']:
                     print('In prompt constructer', param[-1])
                     if len(param) > 0:
                         param[-1] = param[-1].strip("\'\"")
@@ -421,7 +453,26 @@ class MyPromptConstructor(PromptConstructor):
                             param.append('1')
                         else:
                             param.append('0')
-                    
+                
+                if act == 'code_email':
+                    # Translate code_email to type
+                    command = "type"
+                    # param is [id, code, enter_flag]
+                    # type expects [id, text, enter_flag] (based on how type is constructed above)
+                    # We need to ensure param structure matches what type expects
+                    # The loop above for 'type' does: param[-1] handling.
+                    # So param is already [id, code, '0' or '1']
+                    for p in param:
+                        command += f" [{p}]"
+                    print(f"Translated code_email to: {command}")
+                    return command
+
+                if act == 'email_goto':
+                    # Translate email_goto to goto https://yopmail.com
+                    command = "goto [https://yopmail.com]"
+                    print(f"Translated email_goto to: {command}")
+                    return command
+
                 command = act
                 for p in param:
                     command += f" [{p}]"
@@ -525,9 +576,10 @@ class MyPromptConstructor(PromptConstructor):
 class NewASPromptConstructor(PromptConstructor):
     """The agent will perform step-by-step reasoning before the answer"""
     operation = [
+        
         r"(click)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
-        r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*,\s*(True|False)\s*\)",
-        r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*\)",
+        r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+        r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*\)",
         r"(scroll_page)\(\s*[\'\"]up[\'\"]\s*\)",
         r"(scroll_page)\(\s*[\'\"]down[\'\"]\s*\)",
         r"(jump_to)\(\s*[\'\"](.+)[\'\"]\s*,\s*(True|False)\s*\)",
@@ -535,9 +587,13 @@ class NewASPromptConstructor(PromptConstructor):
         r"(go)\(\s*[\'\"]forward[\'\"]\s*\)",
         r"(hover)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
         r"(finish)\(\s*\)",
-        r"(finish)\(\s*(.+)\s*\)",
+        r"(finish)\(\s*([\s\S]+)\s*\)",
         r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
-        r"(switch_tab)\([\d]+\)"
+        r"(switch_tab)\(([\d]+)\)",
+        r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
+        r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+        r"(email_goto)\(\s*\)",
+
     ]
     
     translate = [
@@ -554,6 +610,9 @@ class NewASPromptConstructor(PromptConstructor):
         "stop",
         "record",
         "page_focus",
+        "check",
+        "code_email",
+        "email_goto"
     ]
 
     def __init__(
@@ -561,10 +620,109 @@ class NewASPromptConstructor(PromptConstructor):
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        orm_path :str |Path,
+        banner_path:str |Path
+
     ):
-        super().__init__(instruction_path, lm_config, tokenizer)
+        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path),banner_path=Path(banner_path))
+        import os
+        print("Current working directory:", os.getcwd())
+
+        self.orm = json.load(open(orm_path))
+        self.banner = json.load(open(banner_path))
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.state = {}
+
+
+    def banner (
+                 self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+            state_info: StateInfo = trajectory[-1]
+
+            obs = state_info["observation"][self.obs_modality]
+
+
+    
+
+
+
+    def ORM (
+            self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+        
+
+        intro = self.orm["intro"]
+        examples = self.orm["examples"]
+        template = self.orm["template"]
+        keywords = self.orm["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-2]  # type: ignore[assignment]
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            obs = obs[:max_obs_length]
+
+        info = state_info["info"]
+        obs_metadata = info["observation_metadata"]["text"]
+        nodes = obs_metadata["obs_nodes_info"]
+        position_info = obs_metadata["position_info"]
+        html_parser = obs_metadata["html_parser"]
+        self.nodes = nodes
+        
+        page = info["page"]
+        url = page.url
+        #url = self.map_url_to_real(page.url)
+        position_bar = self._get_position_bar(position_info)
+        
+        history = meta_data["action_history"]
+        if len(history) == 1:
+            previous_action_str = "None"
+        else:
+            previous_action_str = '\n'.join(history[1:])
+            
+        
+        self.state.update({
+            "url": url,
+            "html": obs,
+            "html_parser": html_parser,
+            "segment": "None",
+            "operation": "None",
+        })
+        
+        current = template.format(
+            objective=intent,
+            url=url,
+            html=obs,
+            position=position_bar,
+            previous_action=previous_action_str,
+        )
+
+       
+        assert all([f"{{k}}" not in current for k in keywords])
+
+        # prompt = self.get_lm_api_input(intro, examples, current)
+
+        
+        return current
+
+        
+    def construct_Authenticate(
+        self,
+        trajectory: Trajectory,
+        intent: str,
+        meta_data: dict[str, Any] = {},
+    )->APIInput:    
+        print("je suis dans create account")
+
+
+
+   
+
 
     def construct(
         self,
@@ -572,11 +730,20 @@ class NewASPromptConstructor(PromptConstructor):
         intent: str,
         meta_data: dict[str, Any] = {},
     ) -> APIInput:
-        intro = self.instruction["intro"]
-        examples = self.instruction["examples"]
-        template = self.instruction["template"]
-        keywords = self.instruction["meta_data"]["keywords"]
-        finale = self.instruction["finale"]
+        
+        # Determine which instruction to use based on intent
+        if intent in ["Multimodal_Form_SignIn", "Multimodal_Form_LogIn"]:
+            instruction = self.MultimodalFormFiller
+        elif intent in ["Unified_Account_Creation", "Statut", "Verification_SignIn"]:
+            instruction = self.UnifiedAccountCreator
+        else:
+            instruction = self.instruction
+
+        intro = instruction["intro"]
+        examples = instruction["examples"]
+        template = instruction["template"]
+        keywords = instruction["meta_data"]["keywords"]
+        finale = instruction["finale"]
         state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
 
         obs = state_info["observation"][self.obs_modality]
@@ -612,14 +779,21 @@ class NewASPromptConstructor(PromptConstructor):
             "operation": "None",
         })
         
-        current = template.format(
-            objective=intent,
-            url=url,
-            html=obs,
-            position=position_bar,
-            previous_action=previous_action_str,
-            tabs=tabs_str,
-        )
+        # Prepare format arguments
+        format_args = {
+            "objective": intent,
+            "url": url,
+            "html": obs,
+            "position": position_bar,
+            "previous_action": previous_action_str,
+            "tabs": tabs_str,
+        }
+        
+        # Add user_persona if needed
+        if "user_persona" in keywords:
+            format_args["user_persona"] = meta_data.get("user_persona", "")
+
+        current = template.format(**format_args)
 
         assert all([f"{{k}}" not in current for k in keywords])
 
@@ -645,7 +819,7 @@ class NewASPromptConstructor(PromptConstructor):
                 
                 print(exact_act, param)
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select']:
+                if act in ['click', 'hover', 'type', 'select','check']:
                     if len(param) == 0:
                         continue
                     
@@ -666,9 +840,21 @@ class NewASPromptConstructor(PromptConstructor):
                 if len(param) > 0:
                     if act in ['stop', 'select', 'record']:
                         param[-1] = param[-1].strip("\'\"")
-                    if act in ['type', 'goto']:
+                    if act in ['type', 'goto', 'code_email']:
                         param[-1] = '1' if param[-1] == 'True' else '0'
                     
+                if act == 'code_email':
+                    command = "type"
+                    for p in param:
+                        command += f" [{p}]"
+                    print(f"Translated code_email to: {command}")
+                    return command
+                
+                if act == 'email_goto':
+                    command = "goto [https://yopmail.com]"
+                    print(f"Translated email_goto to: {command}")
+                    return command
+
                 command = act
                 for p in param:
                     command += f" [{p}]"
@@ -687,6 +873,19 @@ class NewASPromptConstructor(PromptConstructor):
         return f"{round(position, 1)} / {round(page_height, 1)}"
 
 
+     
+    @staticmethod
+    def _extract_intention(response, lang='en'):
+        if lang == 'en':
+            matches = re.findall(r"#Thinking Process:\s*(.+)\s*#Operation:", response)
+            print('[Try to match]', matches)
+        else:
+            matches = re.findall(r"#思考过程: (.+)", response)
+
+        if matches:
+            return matches[-1]
+        else:
+            return None
 
 class NewUserPromptConstructor(PromptConstructor):
      
@@ -697,18 +896,23 @@ class NewUserPromptConstructor(PromptConstructor):
     """The agent will perform step-by-step reasoning before the answer"""
     operation = [
             r"(click)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
-            r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*,\s*(True|False)\s*\)",
-            r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]+)[\'\"]\s*\)",
+            r"(type_string)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+            r"(select)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*\)",
             r"(scroll_page)\(\s*[\'\"]up[\'\"]\s*\)",
             r"(scroll_page)\(\s*[\'\"]down[\'\"]\s*\)",
             r"(jump_to)\(\s*[\'\"](.+)[\'\"]\s*,\s*(True|False)\s*\)",
             r"(go)\(\s*[\'\"]backward[\'\"]\s*\)",
             r"(go)\(\s*[\'\"]forward[\'\"]\s*\)",
+            r"(go)\(\s*[\'\"]mail[\'\"]\s*\)",
             r"(hover)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
             r"(finish)\(\s*\)",
-            r"(finish)\(\s*(.+)\s*\)",
+            r"(finish)\(\s*([\s\S]+)\s*\)",
             r"(record)\(\s*[\'\"](.+)[\'\"]\s*\)",
-            r"(switch_tab)\([\d]+\)"
+            r"(switch_tab)\(([\d]+)\)",
+            r"(code_email)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*,\s*[\'\"]([\s\S]*)[\'\"]\s*,\s*(True|False)\s*\)",
+            r"(email_goto)\(\s*\)",
+            r"(go_mail)\(\s*\)",
+            r"(check)\(\s*[\'\"]([A-Z]{1,3})[\'\"]\s*\)",
         ]
         
     translate = [
@@ -720,86 +924,200 @@ class NewUserPromptConstructor(PromptConstructor):
             "goto",
             "go_back",
             "go_forward",
+            "go_mail",
             "hover",
             "stop",
             "stop",
             "record",
-            "page_focus",
+            "switch_tab",
+            "code_email",
+            "go_mail",
+            "go_mail",
+            "check"
         ]
     def __init__(
         self,
         instruction_path: str | Path,
         lm_config: lm_config.LMConfig,
         tokenizer: Tokenizer,
+        orm_path :str |Path,
+        banner_path:str |Path
+
     ):
-        super().__init__(instruction_path, lm_config, tokenizer)
+        super().__init__(instruction_path, lm_config, tokenizer,orm_path = Path(orm_path),banner_path=banner_path)
+        import os
+        print("Current working directory:", os.getcwd())
+
+        self.orm = json.load(open(orm_path))
+        self.banner = json.load(open(banner_path))
         self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
         self.state = {}
-    
 
-    @staticmethod
 
-    def _format_persona_to_string(persona_data: dict[str, Any]) -> str:
-            """
-            Formate le dictionnaire user en une forme utilisable.
-            """ 
-            if not persona_data:
-                return " no user"
-            
-            persona_str = []
-
-            # Demographics
-            if 'demographics' in persona_data:
-               demo_str = "\n".join([f"  - {k.capitalize()}: {v}" for k, v in persona_data['demographics'].items()])
-               persona_str.append(f"### Demographics:\n{demo_str}")
-            
-            # Personality
-            if 'personality' in persona_data:
-                pers_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['personality'].items()])
-                persona_str.append(f"### Personality Scores:\n{pers_str}")
-                
-            # # Interests
-            if 'interests' in persona_data and persona_data['interests']: # On vérifie aussi que la liste n'est pas vide
-                
-                # --- DÉBUT DE LA CORRECTION ---
-                
-                # On extrait la valeur de la clé "topic" de chaque dictionnaire dans la liste.
-                # Exemple: [{'topic': 'Droit'}, {'topic': 'Politique'}] devient ['Droit', 'Politique']
-                topics_list = [interest['topic'] for interest in persona_data['interests']]
-                
-                # On peut maintenant joindre cette liste de chaînes de caractères.
-                interests_str = ", ".join(topics_list)
-                
-                # --- FIN DE LA CORRECTION ---
-                
-                persona_str.append(f"### Interests:\n  - {interests_str}")
-                
-            # Navigation Habits
-            if 'navigation_habits' in persona_data:
-                habits_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['navigation_habits'].items()])
-                persona_str.append(f"### Navigation Habits:\n{habits_str}")
-                
-            # Context
-            if 'context' in persona_data:
-                context_str = "\n".join([f"  - {k}: {v}" for k, v in persona_data['context'].items()])
-                persona_str.append(f"### Context:\n{context_str}")
-                
-            return "\n\n".join(persona_str)
-            
-
-    def construct(self,
+    def banner_construct (
+                 self,
                    trajectory:Trajectory,
                     intent:str,
                     meta_data:dict[str,Any] = {},
                     )->APIInput:
+             
+
+            intro = self.banner["intro"]
+            examples = self.banner["examples"]
+            template = self.banner["template"]
+
+            keywords = self.banner["meta_data"]["keywords"]
+            state_info: StateInfo = trajectory[-1]
+        
+            obs = state_info["observation"][self.obs_modality]
+            max_obs_length = self.lm_config.gen_config["max_obs_length"]
+
+            if max_obs_length:
+              obs = obs[:max_obs_length]
+            info = state_info["info"]
+            obs_metadata = info["observation_metadata"]["text"]
+            nodes = obs_metadata["obs_nodes_info"]
+            position_info = obs_metadata["position_info"]
+            html_parser = obs_metadata["html_parser"]
+            tabs_str = obs_metadata["tab_title"]
+            self.nodes = nodes
+            page = info["page"]
+            url = page.url
+            #url = self.map_url_to_local(page.url)
+            position_bar = self._get_position_bar(position_info)
+            
+            history = meta_data["action_history"]
+            if len(history) == 1:
+                previous_action_str = "None"
+            else:
+                previous_action_str = '\n'.join(history[1:])
+                
+            self.state.update({
+                "url": url,
+                "html": obs,
+                "html_parser": html_parser,
+                "segment": "None",
+                "operation": "None",
+            })
+        
+            
+            current = template.format(html=obs)
+
+
+            return current
+
+
+
+
+
+    def ORM (
+            self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any] = {},
+                    )->APIInput:
+        
+
+        intro = self.orm["intro"]
+        examples = self.orm["examples"]
+        template = self.orm["template"]
+        keywords = self.orm["meta_data"]["keywords"]
+        state_info: StateInfo = trajectory[-2]  # type: ignore[assignment]
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:
+            obs = obs[:max_obs_length]
+
+        info = state_info["info"]
+        obs_metadata = info["observation_metadata"]["text"]
+        nodes = obs_metadata["obs_nodes_info"]
+        position_info = obs_metadata["position_info"]
+        html_parser = obs_metadata["html_parser"]
+        self.nodes = nodes
+        
+        page = info["page"]
+        url = page.url
+        #url = self.map_url_to_real(page.url)
+        position_bar = self._get_position_bar(position_info)
+        
+        history = meta_data["action_history"]
+        if len(history) == 1:
+            previous_action_str = "None"
+        else:
+            previous_action_str = '\n'.join(history[1:])
+            
+        
+        self.state.update({
+            "url": url,
+            "html": obs,
+            "html_parser": html_parser,
+            "segment": "None",
+            "operation": "None",
+        })
+        
+        current = template.format(
+            objective=intent,
+            url=url,
+            html=obs,
+            position=position_bar,
+            previous_action=previous_action_str,
+        )
+
+       
+        assert all([f"{{k}}" not in current for k in keywords])
+
+
+        
+        return current
+
+
+
+
+   
+    
+    
+
+    def construct(self,
+                   trajectory:Trajectory,
+                    intent:str,
+                    meta_data:dict[str,Any]={},
+                    )->APIInput:
+            
             user_persona = meta_data.get("user_persona",{})
-            user_persona_str = self._format_persona_to_string(user_persona)
-            intro = self.instruction["intro"]
-            examples = self.instruction["examples"]
-            template = self.instruction["template"]
-            keywords = self.instruction["meta_data"]["keywords"]
-            finale = self.instruction["finale"]
-            state_info: StateInfo = trajectory[-1]  # type: ignore[assignment]
+            
+
+            if intent.startswith("Register"):
+                Instruction = self.detectPageSIgn
+            elif intent.startswith("Method"):
+                Instruction = self.MethodSignIn  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Google Login"):
+                Instruction = self.GoogleLogin  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Verification"):
+                Instruction = self.Verification  # Utilisé pour SignIn ET LogIn
+            elif intent.startswith("Form_Correction"):
+                Instruction = self.FormCorrector
+            elif intent.startswith("Form_SignIn") or intent.startswith("Form_LogIn"):
+                Instruction = self.FormFIll  # Utilisé pour les deux flux
+            elif intent.startswith("Submit_SignIn") or intent.startswith("Submit_LogIn"):
+                Instruction = self.FormSubmit  # Utilisé pour les deux flux
+            elif intent.startswith("Form_to_complete"):
+                Instruction = self.FortoComplire
+            elif intent.startswith("Statut"):
+                Instruction = self.Statut
+            elif intent.startswith("login_page"):
+                Instruction = self.LoginPage
+            elif  intent in ["Multimodal_Form_SignIn", "Multimodal_Form_LogIn"]:
+                Instruction = self.MultimodalFormFiller
+            else:
+                Instruction = self.instruction
+        
+          
+            intro = Instruction["intro"]
+            examples =  Instruction["examples"]
+            template =  Instruction["template"]
+            keywords =  Instruction["meta_data"]["keywords"]
+            finale =  Instruction["finale"]
+            state_info: StateInfo = trajectory[-1] 
 
             obs = state_info["observation"][self.obs_modality]
             max_obs_length = self.lm_config.gen_config["max_obs_length"]
@@ -834,10 +1152,9 @@ class NewUserPromptConstructor(PromptConstructor):
                 "operation": "None",
             })
         
-
             current = template.format(
-             html=obs,
-            user_persona=user_persona_str, # Injection de la persona formatée
+            html=obs,
+            user_persona=user_persona, # Injection de la persona formatée
             previous_action=previous_action_str,
             tabs=tabs_str,
             position=position_bar,
@@ -854,6 +1171,7 @@ class NewUserPromptConstructor(PromptConstructor):
         # self.state["intention"] = self._extract_intention(response)
         
         for regex, act in zip(self.operation, self.translate):
+            # print(f"Checking regex: {regex} for action: {act}")
             match = re.search(regex, response)
             if match:
                 m = match.groups()
@@ -861,15 +1179,17 @@ class NewUserPromptConstructor(PromptConstructor):
                     exact_act = m[0]
                     param = m[1:]
                 else:
+                    # print(m,"moi aussi je suis la dans le m")
                     exact_act = m
                     param = []
                 
-                print(exact_act, param)
                 param = list(param)
-                if act in ['click', 'hover', 'type', 'select']:
+                if act in ['click', 'hover', 'type', 'select','code_email','check']:
                     if len(param) == 0:
                         continue
                     
+
+
                     for node_id, node in self.nodes.items():
                         if node['label'] == param[0]:
                             label = param[0]
@@ -887,14 +1207,14 @@ class NewUserPromptConstructor(PromptConstructor):
                 if len(param) > 0:
                     if act in ['stop', 'select', 'record']:
                         param[-1] = param[-1].strip("\'\"")
-                    if act in ['type', 'goto']:
+                    if act in ['type', 'goto', 'code_email']:
                         param[-1] = '1' if param[-1] == 'True' else '0'
                     
                 command = act
                 for p in param:
                     command += f" [{p}]"
                 
-                print(command)
+                print(command,"je suis la commande a executer ")
                 return command
             
         raise ActionParsingError(
@@ -911,3 +1231,87 @@ class NewUserPromptConstructor(PromptConstructor):
             
 
    
+class DescribeImagePromptConstructor(PromptConstructor):
+    "the agent to describe the image first"
+    def __init__(
+        self,
+        instruction_path: str | Path,
+        lm_config: lm_config.LMConfig,
+        tokenizer: Tokenizer,
+    ):
+        super().__init__(instruction_path, lm_config, tokenizer)
+        self.answer_phrase = self.instruction["meta_data"]["answer_phrase"]
+        self.state = {}
+
+    @staticmethod
+    def _get_position_bar(data):
+        position = data.get("position", 0.0)
+        page_height = data.get("page_height", 1.0)
+        return f"{round(position, 1)} / {round(page_height, 1)}"
+
+    def construct(
+            self,
+            trajectory:Trajectory,  
+            intent:str,
+            meta_data:dict[str,Any] = {},
+            )->APIInput:    
+        
+
+        print(self.instruction["finale"])
+        
+        intro = self.instruction["intro"]
+        examples = self.instruction["examples"]
+        template = self.instruction["template"]
+        keywords = self.instruction["meta_data"]["keywords"]
+        finale = self.instruction["finale"]
+        state_info: StateInfo = trajectory[-1]  
+    
+        obs = state_info["observation"][self.obs_modality]
+        max_obs_length = self.lm_config.gen_config["max_obs_length"]
+        if max_obs_length:  
+            #obs = self.tokenizer.decode(self.tokenizer.encode(obs)[:max_obs_length])  # type: ignore[arg-type]
+            obs = obs[:max_obs_length]
+        
+        info = state_info["info"]
+        obs_metadata = info["observation_metadata"]["text"]
+        nodes = obs_metadata["obs_nodes_info"]
+        position_info = obs_metadata["position_info"]
+        html_parser = obs_metadata["html_parser"]
+        self.nodes = nodes
+        
+        page = info["page"]
+        url = page.url
+        position_bar = self._get_position_bar(position_info)
+        history = [f"{ix}. {his}" for ix, his in enumerate(meta_data["action_history"])]
+        if len(history) == 1:
+            previous_action_str = "None"
+        else:
+            previous_action_str = '\n'.join(history[1:])   
+        self.state.update({
+            "url": url,
+            "html": obs,
+            "html_parser": html_parser,
+            "segment": "None",
+            "operation": "None",
+        })
+
+        current = template.format(
+            objective=intent,
+            url=url,
+            html=obs,
+            position=position_bar,
+            previous_action=previous_action_str,
+        )   
+
+        assert all([f"{{{k}}}" not in current for k in keywords])
+
+        prompt = current + finale   
+
+        print("Using DescribeImagePromptConstructor")
+
+        return  prompt
+        
+        
+        # print(meta_data)clea
+            
+

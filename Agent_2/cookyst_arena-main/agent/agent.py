@@ -15,13 +15,13 @@ from browser_env.actions import (
     create_playwright_action,
 )
 from browser_env.utils import Observation, StateInfo
-from llms import (
+from llms .utils import (
     call_llm,
-    generate_from_huggingface_completion,
-    generate_from_openai_chat_completion,
-    generate_from_openai_completion,
-    lm_config,
+    call_orm,
+    call_banner
 )
+
+from llms.lm_config import LMConfig
 from llms.tokenizers import Tokenizer
 
 
@@ -123,26 +123,34 @@ class PromptAgent(Agent):
 
     @beartype
     def next_action(
-        self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
+        self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any] ,url :str
     ) -> Action:
+        user = meta_data["user_persona"]
+        user = user['id']
         prompt = self.prompt_constructor.construct(
             trajectory, intent, meta_data
         )
         lm_config = self.lm_config
         n = 0
         while True:
-            response = call_llm(lm_config, prompt)
+
+            response =call_llm(lm_config, prompt,trajectory[-1]["info"]["name"])
+            print(response)
+            
             force_prefix = self.prompt_constructor.instruction[
                 "meta_data"
             ].get("force_prefix", "")
+
             response = f"{force_prefix}{response}"
+
             n += 1
             try:
                 parsed_response = self.prompt_constructor.extract_action(
                     response
                 )
+                
                 if self.action_set_tag in ["id_html_tree", "id_html_nasc_tree", "id_accessibility_tree"]:
-                    action = create_id_based_action(parsed_response)
+                    action = create_id_based_action(parsed_response,url,user)
                 elif self.action_set_tag == "playwright":
                     action = create_playwright_action(parsed_response)
                 else:
@@ -152,12 +160,92 @@ class PromptAgent(Agent):
                 action["raw_prediction"] = response
                 break
             except ActionParsingError as e:
+                print(f"Action parsing error: {e}")
                 if n >= lm_config.gen_config["max_retry"]:
                     action = create_none_action()
                     action["raw_prediction"] = response
                     break
 
         return action
+    
+
+
+
+
+    def extract(self,text):
+
+        if text.strip().startswith("{"):
+            data = json.loads(text)
+            return data.get("response")
+        
+        if "response" in text:
+            return text.split(":")[1].strip().replace('"', '')
+
+        return None
+
+
+    def detect_banner(
+             self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any] ,url :str
+    
+            
+
+    ):
+        '''
+        le but de cette fonction est de detecter la  baniere des cookies sur les sites 
+
+        '''
+        prompt = self.prompt_constructor.banner_construct(
+            trajectory, intent, meta_data
+        )
+       
+        response_data = call_banner(prompt)
+        text =json.loads(response_data.output[0].content[0].text)
+        accept_all = text['click_paths']['accept_all']
+        configuration =text['click_paths']['configuration']
+
+        try :
+            response = self.prompt_constructor.extract_action(configuration)
+            print(response,"tout se passe mal")
+            if self.action_set_tag in ["id_html_tree", "id_html_nasc_tree", "id_accessibility_tree"]:
+                    action = create_id_based_action(response)
+                    print("je suis l'action",action)
+            elif self.action_set_tag == "playwright":
+                    action = create_playwright_action(response)
+                    print("je suis l'action",action)
+            else:
+                    raise ValueError(
+                        f"Unknown action type {self.action_set_tag}"
+                    )
+            action["raw_prediction"] = response
+        except ActionParsingError as e:
+                action = create_none_action()
+                action["raw_prediction"] = response
+        
+        return action 
+    
+        # configuration = 
+        
+        # if text == "no" or text =="NO" :
+        #     with open("./cache/not_banner.json",'a') as f :
+        #         f.write(url)
+
+        # [0]["content"][0]["text"]
+
+# Afficher uniquement la réponse
+
+
+
+
+    def describe_action (  self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
+    ) -> Action:
+        prompt = self.prompt_constructor.construct(
+            trajectory, intent, meta_data
+        )
+        lm_config = self.lm_config
+        n = 0
+        response = call_llm(lm_config, prompt)
+        
+        return response
 
     def check_action(
         self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any], target_action: str
@@ -200,7 +288,22 @@ class PromptAgent(Agent):
     
     def reset(self, test_config_file: str) -> None:
         pass
+     
+   
+    def verify_action(   self, trajectory: Trajectory, intent: str, meta_data: dict[str, Any]
+    ) ->str:
+        valid_items = [traj for traj in trajectory if isinstance(traj, dict) and "info" in traj and "name" in traj["info"]]
 
+        last_three_names = [traj["info"]["name"] for traj in valid_items[-3:]]
+
+        
+        
+        prompt = self.prompt_constructor.ORM(
+            trajectory, intent, meta_data
+        )
+        response =  call_orm (prompt,last_three_names)  
+
+        return response 
 
 def construct_agent(args: argparse.Namespace) -> Agent:
     llm_config = lm_config.construct_llm_config(args)
@@ -213,7 +316,7 @@ def construct_agent(args: argparse.Namespace) -> Agent:
             constructor_type = json.load(f)["meta_data"]["prompt_constructor"]
         tokenizer = Tokenizer(args.provider, args.model)
         prompt_constructor = eval(constructor_type)(
-            args.instruction_path, lm_config=llm_config, tokenizer=tokenizer
+            args.instruction_path, lm_config=llm_config, tokenizer=tokenizer , orm_path =args.orm_path, banner_path=args.banner_path
         )
         agent = PromptAgent(
             action_set_tag=args.action_set_tag,

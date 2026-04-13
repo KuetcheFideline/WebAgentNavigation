@@ -6,6 +6,7 @@ prompt = {
 You are a helpful assistant that can assist with web navigation tasks.
 You are given a simplified html webpage and a task description. 
 Your goal is to complete the task. You can perform the specified operations below to interact with the webpage.
+Use ONLY the element ID (e.g., "A", "B") from the HTML, never text descriptions.
 
 #Valid operations: - #Click# id: Click on the element with the specified id
 - #Scroll_up#: Scroll up 1 page.

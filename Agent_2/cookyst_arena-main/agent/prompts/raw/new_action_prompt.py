@@ -104,6 +104,7 @@ def finish(answer: Optional[str]) -> None:
 
 You should output one command to interact to the currrent webpage.
 You should add a brief comment to your command to explain your reasoning and thinking process.
+Use ONLY the element ID (e.g., "A", "B") from the HTML, never text descriptions.
 """,
    "finale": "",
 	"meta_data": {

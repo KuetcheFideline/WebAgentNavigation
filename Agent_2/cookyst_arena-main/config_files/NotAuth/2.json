@@ -2,15 +2,15 @@
   "sites": [
     "wikipedia"
   ],
-  "task_id": 811,
-  "require_login": false,
-  "start_url": "https://en.wikipedia.org",
+  "task_id": 817,
+  "require_login":true,
+  "start_url": "https://www.facebook.com/reg/",
   "geolocation": null,
-  "intent_template": "Search for the topic {{topic}} on Wikipedia.",
+  "intent_template": "remplir  ce formulaire ",
   "instantiation_dict": {
-    "topic": "quantum computing"
+    "topic": ""
   },
-  "intent": "Search for the topic quantum computing on Wikipedia.",
+  "intent": "remplir ce formulaire ",
   "require_reset": false,
   "eval": {
     "eval_types": [

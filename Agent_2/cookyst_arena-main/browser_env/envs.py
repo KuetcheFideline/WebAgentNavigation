@@ -1,7 +1,9 @@
 import json
 from datetime import datetime ,date
+import random
 import re
 import time
+import shutil
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
@@ -21,10 +23,10 @@ from playwright.sync_api import (
     expect,
     sync_playwright,
 )
-
+import uuid
 from .utils import diff_dictionaries
 from .auto_login_with_google import connect_to_browser_and_login
-from .actions import Action, execute_action, get_action_space
+from .actions import Action, execute_action, get_action_space ,all_link
 from .processors import ObservationHandler, ObservationMetadata
 from .utils import (
     AccessibilityTree,
@@ -82,6 +84,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
     def __init__(
         self,
         consent:str,
+        connect:str,
+        country:str,
+
         persistent:bool,
         max_page_length: int = 8192,
         headless: bool = True,
@@ -109,6 +114,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         #login_require = persistent
         self.context = None
         self.browser = None
+        self.country = country
+        self.connect = connect
 
         match observation_type:
             case "html" | "accessibility_tree":
@@ -143,6 +150,30 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             with open(storage_file, "w") as f:
                 json.dump({"cookies": [], "origins": []}, f)
 
+
+    def create_profil_user(self,user):
+        '''
+        cette fonction est utiliser pour configurer le navigateur en fonction de chaque utilsateur 
+        '''
+
+        datadir =os.path.join(os.getcwd(),f"browser_env/profiles/{self.connect.lower()}/{self.consent}/{user}")
+
+        base= os.path.join( os.getcwd(),"Navigateur/unauth_all_config")
+
+        if not os.path.exists(datadir):
+            os.makedirs(base, exist_ok=True)
+
+            shutil.copytree(base,datadir)
+        
+
+        return datadir            
+    
+    def create_account_with_google(self,start_url,email,password):
+        page = connect_to_browser_and_login(self.browser,login_url=start_url,email=email,password=password)
+        return page
+
+
+
     @beartype
     def setup(self, config_file: Path | None = None) -> None:
         self.context_manager = sync_playwright()
@@ -150,132 +181,145 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         """
         Ici le navigateur est lancé, donc c'est la qu'on charge les config et les extensions
         """
-        extensionPaths = {
-            "none":"browser_env/Consent-O-Matic/config/consent-accept-none",
-            "all":"browser_env/Consent-O-Matic/config/consent-accept-all",
-            "partial":"browser_env/Consent-O-Matic/config/consent-accept-partial",
-        }
-        persistent_chromium = {
-            "none":"browser_env/profiles/persistent/google-profile-none",
-            "all":"browser_env/profiles/persistent/google-profile-all",
-            "partial":"browser_env/profiles/persistent/google-profile-partial"
-        }
+        langue = {
+    'fr': 'fr-FR',
+    'en': 'en-GB',
+    'de': 'de-DE',
+    'es': 'es-ES',
+    'it': 'it-IT',
+    'nl': 'nl-NL',
+    'pt': 'pt-PT',
+    'pl': 'pl-PL',
+    'sv': 'sv-SE',
+    'dk': 'da-DK',
+    'fi': 'fi-FI',
+    'cs': 'cs-CZ',
+    'sk': 'sk-SK',
+    'ro': 'ro-RO',
+    'bg': 'bg-BG',
+    'el': 'el-GR',
+    'at': 'de-AT',  
+    'ie': 'en-IE',  
+    'se': 'sv-SE',  
+    'lu': 'fr-LU', 
+}
 
-        persistent_not_chromium = {
-            "none":"browser_env/profiles/not_persistent/google-profile-none",
-            "all":"browser_env/profiles/not_persistent/google-profile-all",
-            "partial":"browser_env/profiles/not_persistent/google-profile-partial"
-        }
-        storage = {
-            "all": {"storage_file": "state_accept_all.json"},
-            "none": {"storage_file": "state_reject_all.json"},
-            "partial": {"storage_file": "state_partial.json"}
-        }
-        selectedConset = extensionPaths[self.consent]
-        storage_dir="browser_env/profiles/storage_state"
-        self.storage_file = storage_file = os.path.join(storage_dir, storage[self.consent]["storage_file"])
-        self.initialize_storage_state(storage_file=storage_file)
+        match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
+        user =" test"
+        if match :
+            user = match.group(1)  
+        user = user.replace("/","_")
 
-                    # Charger le storage_state s'il existe
-        
-
+        userDataDir= self.create_profil_user(user)
         if config_file:
             with open(config_file, "r") as f:
                 instance_config = json.load(f)
         else:
             instance_config = {}
-        geolocation = instance_config.get("geolocation", None)
-        # login with google operation
-        login_require = instance_config.get("require_login",False)
-        login_url = instance_config.get("login_url",None)
-        login_selector = instance_config.get("login_selector",None)
-        self.login_require = login_require
-        if login_require:
-            profile_dictionary = persistent_chromium
-        else:
-            profile_dictionary = persistent_not_chromium
-        
-        selectedContext = profile_dictionary[self.consent]
-
-        
         
 
-            
+        extension_path = os.path.join(os.getcwd(),"Navigateur/Extension/auth_all/3.38_0")
+        recaptcha_path= os.path.join(os.getcwd(),"Navigateur/Extension/dknlfmjaanfblgfdfebhijalfmhmjjjo/0.5.2_0")
        
-        selectedContext = profile_dictionary[self.consent]
-
+        google_require = instance_config.get("google_login",False)
+        path_to_load = f"{extension_path},{recaptcha_path}"
         args_commun = [
             '--disable-blink-features=AutomationControlled',
             '--start-maximized',
             '--no-sandbox',
-            '--disable-dev-shm-usage',
-            f'--disable-extensions-except={selectedConset}',
-            f'--load-extension={selectedConset}'
-        ]
-        
-       
+            f"--disable-extensions-except={path_to_load}",
+                f"--load-extension={path_to_load}",
+                "--no-sandbox",
+                "--start-maximized",
+            ]
         self.browser = self.playwright.chromium.launch_persistent_context(
-            headless=False,
-            slow_mo=self.slow_mo, 
-            args=args_commun,
-            user_data_dir=selectedContext,
-            viewport=self.viewport_size,
-            geolocation=geolocation,
-            device_scale_factor=1,
-        )
+                    user_data_dir=userDataDir,
+                    headless=False,
+                    slow_mo=self.slow_mo,
+                    args=args_commun,
+                    viewport=self.viewport_size,
+                    locale=f"{langue[self.country]}",
+                
+                    proxy={
+                        "server": "brd.superproxy.io:33335",
+                        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy4",
+                        "password": "q6ifgwoj9z1e",                
+                    },
 
 
-        # if config_file:
-        #     with open(config_file, "r") as f:
-        #         instance_config = json.load(f)
-        # else:
-        #     instance_config = {}
-        """
-        Ici se sont les config du json de la tache qui sont extraits
-        """
-      
+
+                )
+
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
-
-
-        
-        
-
-        """
-        Creation d'un nouveau contexte de Navigateur
-
-        ici on rajoutera une condition pour lancer un context persistant comme on l'a fait avev gdpr_on_cookies 
-
-        ce context contiendra le compte de jean tagne 
-
-            - un parametre est ajouter dans ScriptBrowserEnv qui defini le type
-            - dans l'env on precise la configuration de consent omatic souhaité ( consent = none | partial | all)
-        """
-
-     
         self.context = self.browser
+
+        # --- SAFE INIT SCRIPTS ---
+
+        # 1. Nettoyage des traces internes de Playwright (totalement safe)
+        
+        self.context.add_init_script("""
+            (function() {
+                const blocked = ["playwright", "__pw"];
+                for (const key of Object.getOwnPropertyNames(window)) {
+                    if (blocked.some(b => key.toLowerCase().includes(b.toLowerCase()))) {
+                        try { delete window[key]; } catch {}
+                    }
+                }
+            })();
+        """)
+
+        # 2. Neutralisation propre du champ webdriver (standard dans tous les tests Selenium/Playwright)
+        self.context.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined,
+            });
+        """)
+
+        self.context.add_init_script("""
+            if (!window.navigator.chrome) {
+                window.navigator.chrome = { runtime: {} };
+            }
+        """)
+        # self.context.add_init_script("""
+        #     Object.defineProperty(window, 'devicePixelRatio', {
+        #         get: () => 1.0
+        #     });
+        # """)
+
+    
+
+        # 5. Plugins minimalistes mais non falsifiés (on évite les faux plugins)
+        self.context.add_init_script("""
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => [],
+            });
+        """)
+
             # for page in self.context.pages:
             #     try:
             #         page.close()
             #     except Exception as e:
             #         print(f"Could not close page: {e}")
-            # if login_require:
-            #     page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
-      
+        
         if self.save_trace_enabled:
             self.context.tracing.start(screenshots=True, snapshots=True)
+
         if start_url:
+
             start_urls = start_url.split(" |AND| ")
             created_pages=[]
             for url in start_urls:
-                if login_require :
-                    
-                    page = connect_to_browser_and_login(self.browser,login_url=login_url,login_selector=login_selector)
-                else:
-
+                if google_require :
                     page = self.context.new_page()
-                    page.goto(url)
+                    page.goto(url,timeout=90000)
 
+                    
+                else:
+                    page = self.context.new_page()
+                    page.goto(url,timeout=90000)
+
+             
                 client = page.context.new_cdp_session(
                     page
                 )
@@ -297,8 +341,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             client = self.page.context.new_cdp_session(self.page)
             if self.text_observation_type == "accessibility_tree":
                 client.send("Accessibility.enable")
-            self.page.client = client  # type: ignore
-
+            self.page.client = client 
         
 
     def get_page_client(self, page: Page) -> CDPSession:
@@ -307,12 +350,27 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         #     #return page.context.new_cdp_session(page)
         #     return page.client
         # else:
+        if not hasattr(page, "client"):
+            page.client = page.context.new_cdp_session(page)
         return page.client  # type: ignore
 
+
+   
     def _get_obs(self) -> dict[str, Observation]:
         obs = self.observation_handler.get_observation(
             self.page, self.get_page_client(self.page)
         )
+        
+        # Merge cached visual markers into obs_nodes_info
+        if hasattr(self, "cached_marker_items"):
+            for item in self.cached_marker_items:
+                label = item["label"]
+                self.observation_handler.action_processor.obs_nodes_info[label] = {
+                    "union_bound": item["union_bound"],
+                    "backend_id": item["backend_id"],
+                    "text": item["text"]
+                }
+                
         return obs
 
     def _get_obs_metadata(self) -> dict[str, ObservationMetadata]:
@@ -335,35 +393,70 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         if self.reset_finished:
             self.context_manager.__exit__()
 
+        
         if options is not None and "config_file" in options:
             config_file = Path(options["config_file"])
             if config_file.exists():
+
                 self.setup(config_file=config_file)
 
-                
+
+           
             else:
+
                 raise ValueError(f"Config file {config_file} does not exist.")
+                
         else:
+
             self.setup()
         self.reset_finished = True
 
+
+        
         if self.sleep_after_execution > 0:
             time.sleep(self.sleep_after_execution)
            
         images = self.modify_page()
 
-
         observation = self._get_obs()
+        
 
         observation_metadata = self._get_obs_metadata()
         info = {
             "page": DetachedPage(self.page.url, ""),
             "fail_error": "",
             "observation_metadata": observation_metadata,
-            "images": images,
+            "name":images["name"],
         } 
-
  
+        return (observation, info)
+
+    def oldPage(self) :
+       images = self.modify_page()
+       observation = self._get_obs()
+       observation_metadata = self._get_obs_metadata()
+       info = {
+            "page": DetachedPage(self.page.url, ""),
+            "fail_error": "",
+            "observation_metadata": observation_metadata,
+            "name":images["name"],
+        }
+        
+       return (observation, info)
+
+    def new_page(self,url):
+        time.sleep(10)
+        self.page.goto(url,timeout=60000)
+        images = self.modify_page()
+        observation = self._get_obs()
+        observation_metadata = self._get_obs_metadata()
+        info = {
+            "page": DetachedPage(self.page.url, ""),
+            "fail_error": "",
+            "observation_metadata": observation_metadata,
+            "name":images["name"],
+        }
+        
         return (observation, info)
 
     def save_trace(self, trace_path: str | Path) -> None:
@@ -374,8 +467,67 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         if self.reset_finished:
             self.context_manager.__exit__()
 
+
+    
+    def login_existing_account_popup(self) -> None:
+        labels = ["Suivant", "Next", "Continue", "Siguiente", "Continuer"]
+        
+        try:
+            # Sélectionner l'élément contenant l'adresse e-mail
+            self.page.locator('li:has-text("chris.martin.gdpr@gmail.com")').first.click()
+            time.sleep(5)
+            
+            # Remplir le champ du mot de passe
+            password_input = self.page.locator('input[type="password"][name="Passwd"]')
+            if password_input.is_visible():
+                password_input.fill("Password@2025_RGPD_Audit!")
+            time.sleep(1)
+            
+            # Cliquer sur le bouton "Suivant"
+            next_button = None
+            for label in labels:
+                loc = self.page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    next_button = loc
+                    break
+            
+            if next_button and next_button.is_visible():
+                next_button.click()
+            time.sleep(5)
+            
+            # Vérification du bouton "Continuer"
+            continue_button = None
+            for label in labels:
+                loc = self.page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    continue_button = loc
+                    break
+            
+            if continue_button:
+                continue_button.click()
+            time.sleep(5)
+            
+            # 3ème vérification pour un éventuel dernier bouton
+            last_button = None
+            for label in labels:
+                loc = self.page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    last_button = loc
+                    break
+            
+            if last_button:
+                last_button.click()
+            time.sleep(3)
+            
+        except Exception as error:
+            # Gestion des erreurs et récupération de la page active
+            pages = self.context.pages
+            print(pages[1])
+            self.page = pages[1]
+
+
     def step(
-        self, action: Action
+        self, action: Action, get_obs: bool = True
     ) -> tuple[dict[str, Observation], float, bool, bool, dict[str, Any]]:
         if not self.reset_finished:
             raise RuntimeError("Call reset first before calling step.")
@@ -383,6 +535,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         success = False
         fail_error = ""
         try:
+            print("Executing action:", action)
             self.page = execute_action(
                 action,
                 self.page,
@@ -391,13 +544,25 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             )
             success = True
         except Exception as e:
+            print(e,"l'erreir q")
             fail_error = str(e)
 
         # hard sleep TODO[shuyanzh] suboptimal, may need to check network
         if self.sleep_after_execution > 0:
             time.sleep(self.sleep_after_execution)
 
+        # Wait for page to be stable before modifying (prevents "Execution context destroyed" errors)
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=5000)
+        except Exception as e:
+            print(f"Page stability wait timeout (continuing anyway): {e}")
+            pass  # Continue even if timeout
+
+        if not get_obs:
+            return ({}, float(success), False, False, {})
+
         images = self.modify_page()
+
         
         observation = self._get_obs()
         observation_metadata = self._get_obs_metadata()
@@ -406,7 +571,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
             "page": DetachedPage(self.page.url, self.page.content()),
             "fail_error": fail_error,
             "observation_metadata": observation_metadata,
-            "images": images,
+            "name":images["name"],
+            
         }
         
         msg = (
@@ -418,15 +584,89 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         )
         return msg
 
+
+
+
+    def step_compare(self, num_links, base_url):
+        visited_urls = set()
+        count = 0
+        
+        while count < num_links:
+
+            links = all_link(self.page)
+            candidates = [u for u in links if u.startswith(base_url) and u not in visited_urls]
+            if not candidates :
+                 print("Plus de nouveaux liens trouvés.")
+
+            target_url  = random.choice(candidates)
+            print(f"Visite {count+1}/{num_links}: Clic sur {target_url}")
+
+            try:
+                found_element = False
+                
+                page_links = self.page.locator("a").all()
+                
+                for link_element in page_links:
+                    href_absolu = link_element.evaluate("node => node.href")
+                    
+                    if href_absolu == target_url:
+                        if link_element.is_visible():
+                            link_element.click() 
+                            found_element = True
+                            break
+                
+                if not found_element:
+                    print(f"Lien introuvable ou invisible pour le clic : {target_url}")
+                    visited_urls.add(target_url)
+                    continue
+                self.page.wait_for_load_state("domcontentloaded")
+                
+                page_height = self.page.evaluate("document.body.scrollHeight")
+                for i in range(0, page_height, 300):
+                    self.page.evaluate(f"window.scrollTo(0, {i})")
+                    time.sleep(0.05) 
+                self.page.wait_for_timeout(1000)
+                print("Retour...")
+                self.page.go_back()
+                self.page.wait_for_load_state("domcontentloaded")
+                visited_urls.add(target_url)
+
+                count += 1
+
+            except Exception as e:
+                visited_urls.add(target_url)
+
+                print(f"Erreur lors du clic ou de la navigation : {e}")
+                continue
+
+        return 0
+
+    def remove_image(self, path):
+        files = os.listdir(path)
+
+        marked_files = [file for file in files if file.startswith('marked')]
+
+        for file in marked_files:
+            os.remove(os.path.join(path, file))
+
+        print("Tous les fichiers 'marked' ont été supprimés.")
+        
+        return "Tous les fichiers 'marked' ont été supprimés."
+
+
+
+
     def modify_page(self):
-        self.page.wait_for_timeout(500)
+        self.page.wait_for_timeout(5000) 
         try:
             self.page.evaluate(remove_id_script)
         except:
             pass
         
-        img_bytes = self.page.screenshot(path="output/screenshot_raw.png")
-        raw_image = base64.b64encode(img_bytes).decode()
+        # OPTIMIZATION: Removed raw screenshot to save time
+        # img_bytes = self.page.screenshot(path="output/screenshot_raw.png")
+        # raw_image = base64.b64encode(img_bytes).decode()
+        raw_image = "" # Placeholder
         
         self.page.evaluate(mix_marker_script)
         self.page.wait_for_timeout(100)
@@ -449,14 +689,50 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         
         # mark our own labels and get the images
         items = self.page.evaluate(label_marker_script, items)
-        img_bytes = self.page.screenshot(path="output/marked.png")
+        self.remove_image("output/")
+
+        # for idx, tab in enumerate(self.context.pages):
+        #     try:
+        #         # Use a distinct name for each tab's screenshot
+        #         tab_screenshot_name = f"tab_{idx}_{uuid.uuid4().hex}.png"
+        #         tab.screenshot(path=f"output/{tab_screenshot_name}")
+        #     except Exception as e:
+        #         print(f"Failed to screenshot tab {idx}: {e}")
+
+        unique_name = f"marked_{uuid.uuid4().hex}.png"
+        # Increased timeout for the main screenshot to be safe
+        img_bytes = self.page.screenshot(path=f"output/{unique_name}", timeout=90000)
+
+
         marked_image = base64.b64encode(img_bytes).decode()
+
+        try:
+            self.page.wait_for_load_state("networkidle", timeout=5000)
+        except Exception as e:
+            print(f"Page stability wait timeout in modify_page (continuing): {e}")
+            pass
         
         self.page.evaluate(remove_label_mark_script)
         
+        # Update obs_nodes_info with visual markers
+        self.cached_marker_items = []
+        # for item in items:
+        #     if "label" in item:
+        #         label = item["label"]
+        #         rect = item.get("rect", {})
+        #         x, y, w, h = rect.get("x", 0), rect.get("y", 0), rect.get("width", 0), rect.get("height", 0)
+                
+        #         self.cached_marker_items.append({
+        #             "label": label,
+        #             "union_bound": [x, y, w, h],
+        #             "backend_id": str(item.get("backendNodeId", "")),
+        #             "text": item.get("text", "")
+        #         })
+
         return {
             "raw_image": raw_image,
             "marked_image": marked_image,
+            "name" :unique_name
         }
    
 
@@ -465,64 +741,26 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
        
 
 
-        
-    # def  save_cookies(self ,init, url ,path) :
-                    
-    #                 name = path + "cookies.json"
-                    
-    #         # sauvegarde des donnes des cookies         
-    #                 final = self.context.cookies()
-    #                 set_init = {tuple(sorted(d.items())) for d in init}
-    #                 set_final = {tuple(sorted(d.items())) for d in final}
-    #                 diff = set_final - set_init
-    #                 final_cookie = []
-    #                 for cookie in diff :
-    #                     cookie_dict = dict(cookie)
-    #                     cookie_dict['origin_url'] = url
-    #                     cookie_dict['creation_time'] = datetime.now().isoformat()
-    #                     final_cookie.append(cookie_dict)
-                
-                    
-                    
-    #                 if os.path.exists(name) and os.path.getsize(name) > 0:
-    #                     with open(name, 'r', encoding='utf-8') as f:
-    #                       try:
-    #                          cookies_list = json.load(f)
-    #                       except json.JSONDecodeError :
-    #                           cookies_list =[]
-    #                 else:
-    #                     cookies_list = []
-                    
-
-    #                 new = len(cookies_list)
-    #                 final_cookie.extend(cookies_list)
-
-    #                 try:
-                        
-    #                     with open(name, 'w', encoding='utf-8') as f:
-    #                         json.dump(final_cookie, f, indent=4, ensure_ascii=False)
-                        
-    #                     print(f"✅ {new} nouveau(x) cookie(s) ajouté(s).")
-
-    #                 except TypeError as e:
-    #                     print(f" Erreur de sérialisation JSON inattendue : {e}")
-    #                 except Exception as e:
-    #                     print(f"Erreur lors de l'écriture du fichier : {e}")
-                                
+       
     
 
     def get_session_storage(self) -> dict:
-        """Récupère le contenu du sessionStorage sous forme de dictionnaire."""
-        return self.page.evaluate("() => Object.fromEntries(Object.entries(sessionStorage))")
+        try:
+            return self.page.evaluate("() => Object.fromEntries(Object.entries(sessionStorage))")
 
+        except Exception as e:
+            print(f"Impossible d'accéder au session storage  : {e}")
+            return {}
     def get_local_storage(self) -> dict:
-        """Récupère le contenu du localStorage sous forme de dictionnaire."""
-        return self.page.evaluate("() => Object.fromEntries(Object.entries(localStorage))")
+        try:
+            return self.page.evaluate("() => Object.fromEntries(Object.entries(localStorage))")
+        except Exception as e:
+            print(f"Impossible d'accéder à localStorage : {e}")
+            return {}
 
     def get_cookies(self) -> list:
         return self.context.cookies()
     def get_all_storage_state(self) -> dict:
-        """Récupère l'état complet du stockage et le retourne."""
         return {
             "cookies": self.get_cookies(),
             "localStorage": self.get_local_storage(),
@@ -530,25 +768,22 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         }     
 
 
-   # N'oubliez pas d'avoir cette fonction d'aide définie quelque part
     def json_serializer(obj):
         if isinstance(obj, (datetime, date)):
             return obj.isoformat()
         raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
 
-    def save_storage(self, initial_state, file):
+    def save_storage(self, initial_state, file,url):
         """
         Compare l'état initial du stockage avec l'état final, 
         calcule la différence et la sauvegarde dans un fichier.
         """
-        print("Calcul et sauvegarde de la différence de stockage...")
         
         final_state = self.get_all_storage_state()
 
         local_storage_diff = diff_dictionaries(initial_state["localStorage"], final_state["localStorage"])
         session_storage_diff = diff_dictionaries(initial_state["sessionStorage"], final_state["sessionStorage"])
 
-        # --- CORRECTION ICI ---
         # On crée une clé sous forme de chaîne pour identifier un cookie
         initial_cookies = { f"{c.get('name', '')}|{c.get('domain', '')}|{c.get('path', '')}": c for c in initial_state["cookies"] }
         final_cookies = { f"{c.get('name', '')}|{c.get('domain', '')}|{c.get('path', '')}": c for c in final_state["cookies"] }
@@ -557,7 +792,9 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
         diff_report = {
             "metadata": {
+                "initial url": url,
                 "final_url": self.page.url,
+
                 "timestamp":datetime.now().isoformat()
             },
             "cookies": cookies_diff,
@@ -567,7 +804,6 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
         file = Path(file)
         file.parent.mkdir(parents=True, exist_ok=True)
         with open(file, 'w', encoding='utf-8') as f:
-        # Assuming `json_serializer` is an attribute of the class
             json.dump(diff_report, f, indent=4, default=getattr(self, 'json_serializer', str))
 
-        print(f"✅ Rapport de différence de stockage sauvegardé dans : {file}")
+        print(f"Rapport de différence de stockage sauvegardé dans : {file}")

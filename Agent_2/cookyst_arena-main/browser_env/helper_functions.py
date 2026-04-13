@@ -95,10 +95,8 @@ def get_action_description(
 ) -> str:
     """Generate the text version of the predicted actions to store in action history for prompt use.
     May contain hint information to recover from the failures"""
-    
     match action_set_tag:
         case "id_html_tree":
-            print("je suis ")
 
             # old_op_prompt = "Website: %s; Thinking process: %s; Html segment: %s; Operation: %s; Result: %s"
             op_prompt = "Html segment: %s; Operation: %s;"
@@ -143,13 +141,11 @@ def get_action_description(
             #     action_str,
             #     result,
             # )
-            print("je suis ")
             
             action_str = op_prompt % (
                 prompt_constructor.state["segment"],
                 action_str,
             )
-            print("je suis ")
         
         case "id_html_nasc_tree":
             op_prompt = "%s #HTML Segment: %s"

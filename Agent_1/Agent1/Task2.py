@@ -6,13 +6,15 @@ from bs4 import BeautifulSoup
 import csv
 import json
 
-from utils.utils import write_on_json ,get_site ,get_site_description ,read_from_json , extract_category,extract_result ,getEnd ,WriteIntervale,get_site_content
+from utils.error import  read_from_json , extract_category,extract_result ,getEnd ,WriteIntervale,get_site_content,append_json_to_list_file
 
 Agent1 = AIAgent1()
 
 def siteCategorisation(sites):
+    print(sites)
+
+
     for site in sites:
-        print(f"Traitement du site : {site}")
 
         try:
             description = get_site_content(site)
@@ -22,12 +24,24 @@ def siteCategorisation(sites):
                     site: description
                 }
             }
-
             prompt = Agent1.Promt_generation("Categorisation", data)
-            example = read_from_json("./prompts/ExampleCategorisation.json")
-            response = Agent1.call_lm(prompt, example)
-            result = extract_result(response.content, site)
-            
+
+            try :
+             example = read_from_json("./prompts/ExampleCategorisation.json")
+             response = Agent1.call_lm(prompt, example)
+
+            except Exception as e:
+                 print(f" Erreur lors de l'extraction des resultats  {site}  : {e}")
+                 append_json_to_list_file("./results/confidence.json", {"message":response.content ,"site": site, "error": str(e)})
+               
+
+            try:
+                result = extract_result(response.content, site)
+
+            except Exception as e:
+                 print(f" Erreur lors de l'extraction des resultats  {site}  : {e}")
+                 append_json_to_list_file("./results/confidence.json", {"message":response.content ,"site": site, "error": str(e)})
+            continue 
 
         except Exception as e:
             print(f" Erreur lors du traitement du site {site} : {e}")
@@ -41,17 +55,16 @@ def siteCategorisation(sites):
 
 
 
-
-
 def process_sites_in_batches():
-
-    with open("./results/confidence.json",'r',encoding='utf_8') as file :
+    with open("./results_10000/confidence.json", 'r', encoding='utf_8') as file:
         data = json.load(file)
         url = []
         for elt in data:
-            url.append(elt["url"])
+             for it  in elt:     
+                for key ,elt in it.items():
+                    url.append(key)  
+
         siteCategorisation(url)
-        
 
 
 

@@ -112,9 +112,9 @@ def detect_sigin(s_html):
         response_text  = call_grop_llama(final_prompt,Groq)
         # response_text = model.invoke(final_prompt)
         
-        print("\nModel Response:\n---\n" + response_text.content.strip() + "\n---")
+        print("\nModel Response:\n---\n" + response_text.strip() + "\n---")
         
-        parsed_data = parse_llm_response(response_text.content)
+        parsed_data = parse_llm_response(response_text)
         return parsed_data
 
     except Exception as e:

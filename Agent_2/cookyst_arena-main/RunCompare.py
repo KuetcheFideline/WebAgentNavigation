@@ -1,0 +1,435 @@
+import argparse
+import glob
+import json
+import logging
+import os
+import random
+import subprocess
+import tempfile
+import time
+from pathlib import Path
+import re
+from openai import OpenAIError
+from tqdm import tqdm
+import json5
+import nest_asyncio
+nest_asyncio.apply()
+
+from agent import (Agent, PromptAgent, TeacherForcingAgent,
+                   construct_agent)
+from agent.prompts import *
+from browser_env import (Action, ActionTypes, ScriptBrowserEnv, StateInfo,
+                         Trajectory, create_stop_action)
+from browser_env.actions import is_equivalent
+from browser_env.helper_functions import (RenderHelper,
+                                          get_action_description)
+from evaluation_harness import evaluator_router
+from utils.utils import load_persona_from_json
+from CompteParams import CompteParams
+
+# Configuration du logging
+LOG_FOLDER = "log_files"
+Path(LOG_FOLDER).mkdir(parents=True, exist_ok=True)
+LOG_FILE_NAME = f"{LOG_FOLDER}/log_{time.strftime('%Y%m%d%H%M%S', time.localtime())}_{random.randint(0, 10000)}.log"
+
+logger = logging.getLogger("logger")
+logger.setLevel(logging.INFO)
+
+# Empêcher les handlers de s'ajouter à chaque exécution
+if not logger.handlers:
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.DEBUG)
+    file_handler = logging.FileHandler(LOG_FILE_NAME)
+    file_handler.setLevel(logging.DEBUG)
+   
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    console_handler.setFormatter(formatter)
+    file_handler.setFormatter(formatter)
+
+    logger.addHandler(console_handler)
+    logger.addHandler(file_handler)
+
+
+def config() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Run end-to-end evaluation on the benchmark")
+    parser.add_argument("--render", action="store_true", help="Render the browser")
+    parser.add_argument("--slow_mo", type=int, default=0, help="Slow down the browser by the specified amount")
+    parser.add_argument("--action_set_tag", default="id_html_nasc_tree", help="Action type")
+    parser.add_argument("--observation_type", choices=["accessibility_tree", "html", "image"], default="html", help="Observation type")
+    parser.add_argument("--consent", choices=["all", "partial", "none"], default="all", help="consent-o-matic extension configuration")
+    parser.add_argument("--persistent", action=argparse.BooleanOptionalAction, default=False, help="Launch a persistent browser context")
+    parser.add_argument("--connected", type=str, default="AUTH", help="Authentication status folder")
+    parser.add_argument("--viewport_width", type=int, default=1920)
+    parser.add_argument("--viewport_height", type=int, default=1080)
+    parser.add_argument("--save_trace_enabled", action="store_true")
+    parser.add_argument("--sleep_after_execution", type=float, default=0.0)
+    parser.add_argument("--max_steps", type=int, default=30)
+    parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
+    parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
+    parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
+    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK','AT','IE','SE','LU'],default='FR')
+   
+    # Agent config
+    parser.add_argument("--agent_type", type=str, default="prompt")
+    parser.add_argument("--instruction_path", type=str, default="agents/prompts/state_action_agent.json")
+    parser.add_argument("--parsing_failure_th", help="Consecutive parsing failure threshold", type=int, default=3)
+    parser.add_argument("--repeating_action_failure_th", help="Consecutive repeating action threshold", type=int, default=5)
+   
+    # LM config
+    parser.add_argument("--provider", type=str, default="groq")
+    parser.add_argument("--model", type=str, default="gpt-3.5-turbo-0613")
+    parser.add_argument("--mode", type=str, default="chat")
+    parser.add_argument("--temperature", type=float, default=1.0)
+    parser.add_argument("--top_p", type=float, default=0.9)
+    parser.add_argument("--context_length", type=int, default=0)
+    parser.add_argument("--max_tokens", type=int, default=384)
+    parser.add_argument("--stop_token", type=str, default=None)
+    parser.add_argument("--cuda", type=str, default='0')
+    parser.add_argument("--max_retry", type=int, default=1)
+    parser.add_argument("--max_obs_length", type=int, default=1920)
+    parser.add_argument("--model_endpoint", help="huggingface model endpoint", type=str, default="")
+
+
+
+    # Example config
+    parser.add_argument("--user_start_idx",type= int ,default=446)
+    parser.add_argument("--user_end_idx",type= int ,default=447)
+
+    parser.add_argument("--test_start_idx", type=int, default=1)
+    parser.add_argument("--test_end_idx", type=int, default=70)
+    parser.add_argument("--sample", type=int, default=1)
+    
+    # Retry specific tasks
+    parser.add_argument("--retry_file", type=str, default=None, 
+                        help="Path to JSON file containing tasks to retry (format: {user_id: [task_ids]})")
+   
+    # Logging related
+    parser.add_argument("--result_dir", type=str, default="")
+    args = parser.parse_args()
+
+    if args.action_set_tag == "id_accessibility_tree" and args.observation_type not in ["accessibility_tree", "html"]:
+        raise ValueError(f"Action type {args.action_set_tag} is incompatible with observation type {args.observation_type}")
+
+    return args
+
+
+def early_stop(trajectory: Trajectory, max_steps: int, thresholds: dict[str, int]) -> tuple[bool, str]:
+    """Check whether to early stop."""
+    num_steps = (len(trajectory) - 1) / 2
+    if num_steps >= max_steps:
+        return True, f"Reach max steps {max_steps}"
+
+    # Case: parsing failure for k times
+    k = thresholds["parsing_failure"]
+    last_k_actions = trajectory[1::2][-k:]
+    if len(last_k_actions) >= k and all(a["action_type"] == ActionTypes.NONE for a in last_k_actions):
+        return True, f"Failed to parse actions for {k} times"
+
+    # Case: same action for k times
+    k = thresholds["repeating_action"]
+    action_seq = trajectory[1::2]
+    if not action_seq:
+        return False, ""
+
+    last_action = action_seq[-1]
+    if last_action["action_type"] != ActionTypes.TYPE:
+        last_k_actions = action_seq[-k:]
+        if len(last_k_actions) >= k and all(is_equivalent(a, last_action) for a in last_k_actions):
+            return True, f"Same action for {k} times"
+    else:
+        if sum(is_equivalent(a, last_action) for a in action_seq) >= k:
+            return True, f"Same typing action for {k} times"
+
+    return False, ""
+
+
+    
+
+def compare_execution(num_links :int ,env :ScriptBrowserEnv,url:str) -> int :
+
+
+   
+        links = env.step_compare(60 ,url)
+        print (" le nombre de fois que  je dois travailler sur le site ")
+
+
+
+    
+def save_storage_state(env, initial_storage_state, diff_filepath, url):
+    try:
+        if initial_storage_state:
+            env.save_storage(initial_storage_state, diff_filepath, url)
+    except Exception as storage_error:
+        logger.error(f"[Storage Save Error] {repr(storage_error)}")
+
+
+
+
+PERSISTENCE_FILE = "sites_data.json"
+
+def load_sites_data():
+    if os.path.exists(PERSISTENCE_FILE):
+        try:
+            with open(PERSISTENCE_FILE, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            logger.error(f"Error loading persistence file: {e}")
+    return {"Sites": [], "NoSites": [], "SitesGoogle": [], "SitesClassic": []}
+
+def save_sites_data(sites, no_sites, **kwargs):
+    try:
+        with open(PERSISTENCE_FILE, 'w') as f:
+            json.dump({
+                "Sites": list(set(sites)), 
+                "NoSites": list(set(no_sites)),
+                "SitesGoogle": list(set(kwargs.get("sites_google", []))),
+                "SitesClassic": list(set(kwargs.get("sites_classic", [])))
+            }, f, indent=4)
+    except Exception as e:
+        logger.error(f"Error saving persistence file: {e}")
+
+
+def test(
+    args: argparse.Namespace,
+    agent: Agent | PromptAgent | TeacherForcingAgent,
+    config_file_list: list[str],
+) -> None:
+    max_steps = args.max_steps
+    early_stop_thresholds = {
+        "parsing_failure": args.parsing_failure_th,
+        "repeating_action": args.repeating_action_failure_th,
+    }
+    
+
+
+    env = ScriptBrowserEnv(
+        persistent=args.persistent,
+        connect=args.connected,
+        consent=args.consent,
+        headless=not args.render,
+        slow_mo=args.slow_mo,
+        observation_type=args.observation_type,
+        current_viewport_only=args.current_viewport_only,
+        viewport_size={"width": args.viewport_width, "height": args.viewport_height},
+        save_trace_enabled=args.save_trace_enabled,
+        sleep_after_execution=args.sleep_after_execution,
+        country=args.country.lower()
+    )
+
+    data = load_sites_data()
+    Sites = data.get("Sites", [])
+    NoSites = data.get("NoSites", [])
+    SitesGoogle = data.get("SitesGoogle", [])
+    SitesClassic = data.get("SitesClassic", [])
+    for config_file in tqdm(config_file_list):
+        initial_storage_state = None
+        diff_filepath = None
+        match = re.search(r'/([A-Za-z]{2}/\d{4})',str(config_file))
+        user =" test"
+        if match :
+            user = match.group(1)  
+        user = user.replace("/","_")
+        
+        storage_dir = Path(args.result_dir) / user / "storage_state" / args.connected / args.consent
+        traces_dir = Path(args.result_dir) / user / "traces" / args.connected / args.consent
+        storage_dir.mkdir(parents=True, exist_ok=True)
+        (storage_dir / "login").mkdir(parents=True, exist_ok=True)
+        traces_dir.mkdir(parents=True, exist_ok=True)
+
+
+
+        try:
+            with open(config_file) as f:
+                _c = json.load(f)
+                intent = _c["intent"]
+                task_id = _c["task_id"]
+                url = _c["start_url"]
+
+                login = _c["require_login"]
+                google_login = _c["google_login"]
+                classic_login = False
+
+
+            if "map" in _c.get("sites", []):
+                continue
+           
+            logger.info(f"[Config file]: {config_file}")
+            agent.reset(config_file)
+
+            obs,info = env.reset(options= {"config_file":config_file})
+            print(f"Environment reset test.{env}")
+            diff_filepath = storage_dir / "login"/f"{task_id}.json"
+
+            initial_storage_state = env.get_all_storage_state()
+            logger.info("Starting main execution...")
+            trajectory, meta_data, trace =  compare_execution(num_links=60,env=env,url=url)
+            # task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
+                
+            trace_result = {"id": task_id, "trace": trace}
+            with open(traces_dir / f"trace_{task_id}.json", "w") as f:
+                json.dump(trace_result, f, indent=4)
+            
+            # Sauvegarder le diff entre l'état initial (après login) et l'état final (après tâche)
+            final_diff_filepath = storage_dir / f"{task_id}.json"
+            env.save_storage(initial_storage_state, final_diff_filepath, url)
+        
+        except OpenAIError as e:
+           
+            logger.error(f"[OpenAI Error] {repr(e)}")
+            if initial_storage_state is not None and diff_filepath is not None:
+                save_storage_state(env, initial_storage_state, diff_filepath, url)
+       
+        except Exception as e:
+            logger.error(f"[Unhandled Error] {repr(e)} for config file {config_file}")
+            import traceback
+            error_file = Path(args.result_dir) / "error.txt"
+            with open(error_file, "a") as f:
+                f.write(f"[Config file]: {config_file}\n")
+                f.write(f"[Unhandled Error] {repr(e)}\n")
+                f.write(traceback.format_exc() + "\n\n")
+            if initial_storage_state is not None and diff_filepath is not None:
+                save_storage_state(env, initial_storage_state, diff_filepath, url)
+
+       
+
+    env.close()
+
+
+def prepare(args: argparse.Namespace) -> None:
+    """Prepare environment for the test"""
+    from agent.prompts import to_json
+    to_json.run()
+
+    result_dir = args.result_dir
+    if not result_dir:
+        result_dir = f"cache/results_{time.strftime('%Y%m%d%H%M%S', time.localtime())}"
+   
+    args.result_dir = result_dir
+    Path(result_dir).mkdir(parents=True, exist_ok=True)
+    logger.info(f"Created result dir: {result_dir}")
+    with open(Path(result_dir) / "log_files.txt", "a+") as f:
+        f.write(f"{LOG_FILE_NAME}\n")
+
+
+def get_unfinished(config_files: list[str], result_dir: str) -> list[str]:
+    """Filter out tasks that have already been completed."""
+    result_files = glob.glob(f"{result_dir}/traces/trace_*.json")
+    completed_task_ids = {Path(f).stem.split("_")[1] for f in result_files}
+   
+    unfinished_configs = []
+    for config_file in config_files:
+        task_id = Path(config_file).stem
+        if task_id not in completed_task_ids:
+            unfinished_configs.append(config_file)
+    return unfinished_configs
+
+
+def dump_config(args: argparse.Namespace) -> None:
+    """Save the configuration of the run."""
+    config_file = Path(args.result_dir) / "config.json"
+    if not config_file.exists():
+        with open(config_file, "w") as f:
+            json.dump(vars(args), f, indent=4)
+        logger.info(f"Dumped config to {config_file}")
+
+
+def load_retry_tasks(retry_file: str) -> dict:
+    """
+    Charge le fichier JSON contenant les tâches à relancer.
+    
+    Args:
+        retry_file: Chemin vers le fichier JSON
+        
+    Returns:
+        dict: {user_id: [task_ids]}
+    """
+    if not retry_file or not os.path.exists(retry_file):
+        return {}
+    
+    try:
+        with open(retry_file, 'r') as f:
+            data = json.load(f)
+            retry_tasks = data.get("retry_tasks", {})
+            logger.info(f"📋 Loaded retry tasks from {retry_file}")
+            logger.info(f"   - Users: {len(retry_tasks)}")
+            logger.info(f"   - Total tasks: {sum(len(tasks) for tasks in retry_tasks.values())}")
+            return retry_tasks
+    except Exception as e:
+        logger.error(f"Error loading retry file {retry_file}: {e}")
+        return {}
+
+
+
+if __name__ == "__main__":
+    args = config()
+    args.sleep_after_execution = 2.0
+    prepare(args)
+
+    test_file_list = []
+    config_dir = Path("config_files") / args.connected
+    
+    # Charger les tâches à relancer si spécifié
+    retry_tasks = load_retry_tasks(args.retry_file) if args.retry_file else {}
+    
+    if not config_dir.exists():
+        logger.error(f"Configuration directory not found: {config_dir}")
+    else:
+        if retry_tasks:
+            # MODE RETRY: Charger uniquement les tâches spécifiées dans retry_tasks.json
+            logger.info(" MODE RETRY: Chargement des tâches depuis le fichier de relance")
+            
+            for user_id, task_ids in retry_tasks.items():
+                # Parser user_id (format: FR_0249)
+                parts = user_id.split("_")
+                if len(parts) != 2:
+                    logger.warning(f"Invalid user_id format: {user_id}")
+                    continue
+                
+                country = parts[0]
+                user_idx = parts[1]
+                
+                if country != args.country:
+                    continue
+                
+                for task_id in task_ids:
+                    config_file = config_dir / country / user_idx / f"{task_id}.json"
+                    if config_file.exists():
+                        test_file_list.append(str(config_file))
+                    else:
+                        logger.warning(f"Config file not found: {config_file}")
+        else:
+            # MODE NORMAL: Itérer sur tous les utilisateurs et tâches
+            logger.info(" MODE NORMAL: Chargement de toutes les tâches")
+            
+            for user in os.listdir(config_dir):
+                if user == args.country:
+                    for i in range(args.user_start_idx, args.user_end_idx):
+                        for j in range(args.test_start_idx, args.test_end_idx):
+                            formatted_id = f"{i:04}"
+                            if j % args.sample == 0:
+                                config_file = config_dir / user / formatted_id / f"{j}.json"  
+                                if config_file.exists():
+                                    test_file_list.append(str(config_file))
+
+                            if "debug" not in args.result_dir:
+                                test_file_list = get_unfinished(test_file_list, args.result_dir)
+
+        if not test_file_list:
+            logger.info("No tasks left to run.")
+        else:
+            logger.info(f"Total tasks to run: {len(test_file_list)}")
+            args.render = False
+            args.save_trace_enabled = True
+            args.current_viewport_only = True
+                                       
+            dump_config(args)
+            agent = construct_agent(args)
+
+            test(args, agent, test_file_list)
+
+       
+	
+<<<<<<< HEAD
+
+=======
+>>>>>>> e0e63be1f2 ( code a jour)
