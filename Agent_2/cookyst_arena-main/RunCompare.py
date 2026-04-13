@@ -429,4 +429,7 @@ if __name__ == "__main__":
 
        
 	
+<<<<<<< HEAD
 
+=======
+>>>>>>> e0e63be1f2 ( code a jour)

@@ -1763,8 +1763,6 @@ def create_playwright_action(playwright_code: str) -> Action:
 
 def receive_mail(url: str,user:str):
     code = 0000 
-    # Email = 'fideline.kuetche@facsciences-uy1.cm'
-    # Password = 'ncgtoauxnaubbsju '
     Email = "chris.martin.gdpr@gmail.com"
     Password = "fnhcgcqgbwwplwdx"
     SERVEUR = 'imap.gmail.com'

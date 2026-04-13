@@ -92,8 +92,8 @@ def config() -> argparse.Namespace:
 
 
     # Example config
-    parser.add_argument("--user_start_idx",type= int ,default=446)
-    parser.add_argument("--user_end_idx",type= int ,default=447)
+    parser.add_argument("--user_start_idx",type= int ,default=458)
+    parser.add_argument("--user_end_idx",type= int ,default=459)
 
     parser.add_argument("--test_start_idx", type=int, default=1)
     parser.add_argument("--test_end_idx", type=int, default=70)
@@ -423,23 +423,23 @@ def test(
             diff_filepath = storage_dir / "login" / f"{task_id}.json"
             env.save_storage(initial_storage_state, diff_filepath, url)
             
-            initial_storage_state = env.get_all_storage_state()
+            # initial_storage_state = env.get_all_storage_state()
 
             
-            if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
+            # if result == "SUCCESS" or result == "SUCCESS_GOOGLE" or result == "SUCCESS_CLASSIC":
                
-                logger.info("Starting main execution...")
-                obs, info = env.new_page(url)
-                trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
-                
-                trace_result = {"id": task_id, "trace": trace}
-                with open(traces_dir / f"trace_{task_id}.json", "w") as f:
-                    json.dump(trace_result, f, indent=4)
-                
-                # Sauvegarder le diff entre l'état initial (après login) et l'état final (après tâche)
-                final_diff_filepath = storage_dir / f"{task_id}.json"
-                env.save_storage(initial_storage_state, final_diff_filepath, url)
-           
+            logger.info("Starting main execution...")
+            # obs, info = env.new_page(url)
+            trajectory, meta_data, trace = task_execution_command(obs, info, intent, max_steps, early_stop_thresholds, env, agent, url, user)
+            
+            trace_result = {"id": task_id, "trace": trace}
+            with open(traces_dir / f"trace_{task_id}.json", "w") as f:
+                json.dump(trace_result, f, indent=4)
+            
+            # Sauvegarder le diff entre l'état initial (après login) et l'état final (après tâche)
+            final_diff_filepath = storage_dir / f"{task_id}.json"
+            env.save_storage(initial_storage_state, final_diff_filepath, url)
+        
         except OpenAIError as e:
            
             logger.error(f"[OpenAI Error] {repr(e)}")

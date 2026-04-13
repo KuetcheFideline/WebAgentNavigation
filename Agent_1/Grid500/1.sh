@@ -1,4 +1,3 @@
-ssh fkuetche@access.grid5000.fr
 
 ssh lyon
 

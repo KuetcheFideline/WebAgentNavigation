@@ -20,8 +20,6 @@ from urllib.parse import urlparse
 
 def receive_mail(url: str,user:str):
     code = 0000 
-    # Email = 'fideline.kuetche@facsciences-uy1.cm'
-    # Password = 'ncgtoauxnaubbsju '
     Email = "chris.martin.gdpr@gmail.com"
     Password = "fnhcgcqgbwwplwdx"
     SERVEUR = 'imap.gmail.com'
@@ -231,21 +229,3 @@ def receive_link(url: str, user:str,Email = "chris.martin.gdpr@gmail.com", Passw
         print("IMAP4 error:", e)
     except Exception as e:
         print("An error occurred:", e)
-
-
-
-
-
-
-
-
-print(receive_mail("https://fideline.kuetche@facsciences-uy1.cm.com/","DE_0045"),"DE_0045")
-
-
-print(receive_mail("https://fideline.kuetche@facsciences-uy1.cm/","DE_0046"),"DE_0046")
-
-
-
-print(receive_mail("https://fideline.kuetche@facsciences-uy1.cm","DE_0047"),"DE_0047")
-
-print(receive_link("https://fideline.kuetche@facsciences-uy1.cm","DE_0045"),"DE_0045")

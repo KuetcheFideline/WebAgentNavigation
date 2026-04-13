@@ -640,12 +640,10 @@ class NewASPromptConstructor(PromptConstructor):
                     intent:str,
                     meta_data:dict[str,Any] = {},
                     )->APIInput:
-            print("moi aussi je suis la ")
             state_info: StateInfo = trajectory[-1]
 
             obs = state_info["observation"][self.obs_modality]
 
-            print(obs,"kuetche ngoufack ")
 
     
 
