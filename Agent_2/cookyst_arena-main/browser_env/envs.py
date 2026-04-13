@@ -239,23 +239,16 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     args=args_commun,
                     viewport=self.viewport_size,
                     locale=f"{langue[self.country]}",
-                #     proxy={
-                #        "server": "brd.superproxy.io:33335",
-                #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-es",
-                #        "password": "jsrj8ebf8lqy",                 
-                #    },
-                # user 1
-                # proxy={
-                #        "server": "brd.superproxy.io:33335",
-                #        "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy2",
-                #        "password": "jr76tw4smz2h",                 
-                #    }
-                # proxy={
-                #         "server": "brd.superproxy.io:33335",
-                #         "username": "brd-customer-hl_8afd7fbc-zone-isp_proxy3",
-                #         "password": "m63x39pd1ef5",                 
-                #     }
-                 )
+                
+                    proxy={
+                        "server": "brd.superproxy.io:33335",
+                        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy4",
+                        "password": "q6ifgwoj9z1e",                
+                    },
+
+
+
+                )
 
         storage_state = instance_config.get("storage_state", None)
         start_url = instance_config.get("start_url", None)
@@ -476,55 +469,61 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
 
     
-    def login_existing_account_popup( self) -> None:
-            labels = ["Suivant", "Next", "Continue","Siguiente"]
-
-
-            try:
-                
-                self.page.locator('li:has-text("chris.martin.gdpr@gmail.com")').first.click()
-                time.sleep(5)
-                password_input = self.page.locator('input[type="password"][name="Passwd"]')
-                if password_input.is_visible():
-                    password_input.fill("Password@2025_RGPD_Audit!")
-                    time.sleep(1)
-                    next_button = None
-                    for label in labels:
-                        loc =self.page.locator(f'button:has-text("{label}")')
-                        if loc.is_visible():
-                            next_button = loc
-                            break
-                    if next_button.is_visible():
-                        next_button.click()
-                        time.sleep(5)
-                    continue_button = None
-                    for label in labels:
-                        loc = self.page.locator(f'button:has-text("{label}")')
-                        if loc.is_visible():
-                            continue_button = loc
-                            break
-
-                    if continue_button:
-                        continue_button.click()
-                        time.sleep(3)
-
-
-                else:
-                    continue_button = None
-                    for label in labels:
-                        loc = self.page.locator(f'button:has-text("{label}")')
-                        if loc.is_visible():
-                            continue_button = loc
-                            break
-
-                    if continue_button:
-                        continue_button.click()
-                        time.sleep(5)
-            except Exception as error:
-                pages = self.context.pages
-                print(pages[1])
-                self.page = pages[1]
- 
+    def login_existing_account_popup(self) -> None:
+        labels = ["Suivant", "Next", "Continue", "Siguiente", "Continuer"]
+        
+        try:
+            # Sélectionner l'élément contenant l'adresse e-mail
+            self.page.locator('li:has-text("chris.martin.gdpr@gmail.com")').first.click()
+            time.sleep(5)
+            
+            # Remplir le champ du mot de passe
+            password_input = self.page.locator('input[type="password"][name="Passwd"]')
+            if password_input.is_visible():
+                password_input.fill("Password@2025_RGPD_Audit!")
+            time.sleep(1)
+            
+            # Cliquer sur le bouton "Suivant"
+            next_button = None
+            for label in labels:
+                loc = self.page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    next_button = loc
+                    break
+            
+            if next_button and next_button.is_visible():
+                next_button.click()
+            time.sleep(5)
+            
+            # Vérification du bouton "Continuer"
+            continue_button = None
+            for label in labels:
+                loc = self.page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    continue_button = loc
+                    break
+            
+            if continue_button:
+                continue_button.click()
+            time.sleep(5)
+            
+            # 3ème vérification pour un éventuel dernier bouton
+            last_button = None
+            for label in labels:
+                loc = self.page.locator(f'button:has-text("{label}")')
+                if loc.is_visible():
+                    last_button = loc
+                    break
+            
+            if last_button:
+                last_button.click()
+            time.sleep(3)
+            
+        except Exception as error:
+            # Gestion des erreurs et récupération de la page active
+            pages = self.context.pages
+            print(pages[1])
+            self.page = pages[1]
 
 
     def step(

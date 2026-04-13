@@ -98,7 +98,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--test_start_idx", type=int, default=1)
     parser.add_argument("--test_end_idx", type=int, default=70)
     parser.add_argument("--sample", type=int, default=1)
-    
+
     # Retry specific tasks
     parser.add_argument("--retry_file", type=str, default=None, 
                         help="Path to JSON file containing tasks to retry (format: {user_id: [task_ids]})")
