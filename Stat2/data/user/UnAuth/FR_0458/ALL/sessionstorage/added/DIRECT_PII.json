@@ -1,0 +1,76 @@
+[
+  {
+    "task_id": "150",
+    "key": "arLastUrl",
+    "value": "https://www.lexpress.fr/sciences-sante/guerir-du-cancer-les-avancees-de-la-recherche-et-ce-qui-bloque-encore-R266ESTVP5CFPMVU5XKDCFSXFI/",
+    "value_length": 136,
+    "initial_url": "https://www.lexpress.fr",
+    "final_url": "https://www.lexpress.fr/sciences-sante/guerir-du-cancer-les-avancees-de-la-recherche-et-ce-qui-bloque-encore-R266ESTVP5CFPMVU5XKDCFSXFI/",
+    "timestamp": "2025-12-04T13:25:42.197723",
+    "_categories": [
+      "DIRECT_PII"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 136
+  },
+  {
+    "task_id": "304",
+    "key": "arLastUrl",
+    "value": "https://www.pourquoidocteur.fr/Articles/Question-d-actu/53329-Cancer-manger-choux-booster-l-efficacite-l-immunotherapie",
+    "value_length": 119,
+    "initial_url": "https://www.pourquoidocteur.fr",
+    "final_url": "https://www.pourquoidocteur.fr/",
+    "timestamp": "2025-12-04T16:26:14.331864",
+    "_categories": [
+      "DIRECT_PII"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 119
+  },
+  {
+    "task_id": "128",
+    "key": "Partials_UserInfos",
+    "value": "null",
+    "value_length": 4,
+    "initial_url": "https://www.bouyguestelecom.fr",
+    "final_url": "https://www.bouyguestelecom.fr/comparateur?produits=googlePixel10Pro",
+    "timestamp": "2025-12-04T12:54:56.664782",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 4,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Key name suggests user information storage, even if value is null, it is intended for PII.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "170",
+    "key": "user_pass",
+    "value": "",
+    "value_length": 0,
+    "initial_url": "https://www.carrefour.fr",
+    "final_url": "https://www.carrefour.fr/r/e-carte-coffret-cadeau/e-cartes?filters%5Bproduct.technical_non_food_attributes.character%5D%5B0%5D=Divertissement&noRedirect=1",
+    "timestamp": "2025-12-04T13:49:19.679581",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 0,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key 'user_pass' strongly indicates password storage, which is direct personal data.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

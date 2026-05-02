@@ -1,0 +1,102 @@
+[
+  {
+    "task_id": "685",
+    "key": "customer_postalCode",
+    "value": "59100",
+    "value_length": 5,
+    "initial_url": "https://www.camping-vagues-oceanes.com",
+    "final_url": "https://thelisresa.webcamp.fr/cart-details.php?PHPSESSID=r7seh5ti1u71jrthmvapbubnqa&lang=fr&camping=clicochic",
+    "timestamp": "2026-02-03T00:05:43.842581",
+    "_categories": [
+      "DIRECT_PII"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 5
+  },
+  {
+    "task_id": "384",
+    "key": "birthdates",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/l/sejour-tout-compris",
+    "timestamp": "2026-01-31T08:02:29.102533",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key 'birthdates' suggests storage of user birthdate data, which is direct personal data.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "399",
+    "key": "previous_user_profile",
+    "value": "VA",
+    "value_length": 2,
+    "initial_url": "https://www.cedeo.fr",
+    "final_url": "https://www.cedeo.fr/services-pour-les-particuliers",
+    "timestamp": "2026-01-31T09:07:24.880624",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.7,
+    "ai_explanation": "Key suggests storage of user profile data, which is personal data.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "559",
+    "key": "usernam",
+    "value": "",
+    "value_length": 0,
+    "initial_url": "http://revebebe.free.fr",
+    "final_url": "http://revebebe.free.fr/php56/fichaut.php?auteur=Richard+Wassel",
+    "timestamp": "2026-02-02T19:13:50.457539",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 0,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key strongly suggests username which is direct personal identifier, even if value is empty, the key indicates PII.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "685",
+    "key": "customer_civility",
+    "value": "Ms.",
+    "value_length": 3,
+    "initial_url": "https://www.camping-vagues-oceanes.com",
+    "final_url": "https://thelisresa.webcamp.fr/cart-details.php?PHPSESSID=r7seh5ti1u71jrthmvapbubnqa&lang=fr&camping=clicochic",
+    "timestamp": "2026-02-03T00:05:43.842581",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 3,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Value 'Ms.' is a personal title, directly identifying personal attribute, thus direct PII.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

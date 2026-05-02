@@ -1,0 +1,70 @@
+[
+  {
+    "task_id": "111",
+    "key": "sessionFapi",
+    "value": "/C-20720-asie/NW-2339-pays~asiearmenie",
+    "value_length": 38,
+    "initial_url": "https://www.nomade-aventure.com",
+    "final_url": "https://www.nomade-aventure.com/voyage-aventure/armenie/randonnee-armenie/arm50",
+    "timestamp": "2025-12-06T22:56:09.506587",
+    "_categories": [
+      "DIRECT_PII_KEYS"
+    ],
+    "_primary_category": "DIRECT_PII_KEYS",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 38
+  },
+  {
+    "task_id": "241",
+    "key": "_ct_traffic_source",
+    "value": "https://www.petitfute.com/adresse/ouetquandpartir/",
+    "value_length": 50,
+    "initial_url": "https://www.petitfute.com",
+    "final_url": "https://www.petitfute.com/v55912-archipel-fernando-de-noronha/actualite/m17-top-10-insolites-voyage/a21899-top-10-des-iles-paradisiaques-ou-hiverner-en-attendant-le-retour-du-soleil.html",
+    "timestamp": "2025-12-08T10:52:52.565109",
+    "_categories": [
+      "DIRECT_PII_KEYS"
+    ],
+    "_primary_category": "DIRECT_PII_KEYS",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 50
+  },
+  {
+    "task_id": "291",
+    "key": "booking",
+    "value": "{\"isComplete\":false,\"departure\":{\"date\":{\"datetime\":\"2025-12-09T12:43:14.813Z\",\"time\":null},\"station\":{\"title\":\"\",\"code\":\"\"}},\"arrival\":{\"date\":{\"datetime\":\"2025-12-10T12:43:14.813Z\",\"time\":null},\"station\":{\"title\":\"\",\"code\":\"\"}},\"price\":{\"awd\":\"\",\"base\":0,\"discount\":0,\"options\":0,\"final\":0},\"customer\":{\"civility\":\"MR\",\"birthday\":{\"day\":\"08\",\"month\":\"12\"},\"country\":75,\"permis\":{\"country\":75},\"card\":{\"type\":\"VISA\",\"expiration\":{\"month\":\"12\",\"year\":\"2025\"}}},\"insurance\":0,\"corporate\":0,\"oneway\":false,\"distance\":1000,\"options\":[],\"volume\":null,\"height\":null,\"width\":null,\"length\":null}",
+    "value_length": 588,
+    "initial_url": "https://www.avis.fr",
+    "final_url": "https://www.avis-utilitaires.fr/location-utilitaires/mm/renault/renault-trafic-frigorifique-4m-3-manuelle",
+    "timestamp": "2025-12-08T13:45:02.891225",
+    "_categories": [
+      "ID_SOLUTIONS_AND_EXCHANGES",
+      "LOCATION_AND_DEMOGRAPHICS",
+      "DIRECT_PII_KEYS"
+    ],
+    "_primary_category": "DIRECT_PII_KEYS",
+    "_is_json": true,
+    "_json_depth": 4,
+    "_size_bytes": 588
+  },
+  {
+    "task_id": "348",
+    "key": "res-home-data-whitelabel",
+    "value": "{\"lastName\":\"\",\"resSearch\":false,\"showRentalAgreement\":false,\"showEvRentalAgreement\":false,\"goldAnytimeRes\":false,\"checkLIS\":false,\"checkFPO\":false,\"buttonLIS\":false,\"buttonFPO\":false,\"showBothElements\":false,\"cdpVerificationFailed\":false,\"travelPurposeReq\":false,\"forceResHomePage\":\"\",\"href\":\"/rentacar/rest/home/form\",\"confirmationNumber\":\"\",\"arrivingUpdate\":\"\",\"defaultTab\":\"\",\"militaryClock\":1,\"majorAirport\":\"\",\"returnAtDifferentLocationCheckbox\":\"\",\"dropoffLocation\":\"\",\"inpPickupAutoFill\":\"Y\",\"inpPickupStateCode\":\"\",\"inpPickupCountryCode\":\"FR\",\"inpPickupSearchType\":\"30\",\"inpDropoffAutoFill\":\"\",\"inpDropoffStateCode\":\"\",\"inpDropoffCountryCode\":\"\",\"inpDropoffSearchType\":\"\",\"pickupHiddenEOAG\":\"\",\"dropoffHiddenEOAG\":\"\",\"memberOtherCdpField\":\"\",\"cdpField\":\"\",\"corporateRate\":\"\",\"officialTravel\":\"\",\"pcNumber\":\"\",\"typeInRateQuote\":\"\",\"cvNumber\":\"\",\"itNumber\":\"\",\"originalRqCheckBox\":\"\",\"checkDiscount\":\"\",\"affiliateMemberJoin\":\"\",\"affiliateMemberID\":\"\",\"affiliateCallCount\":0,\"hertzlinkActive\":false,\"companyId\":\"\",\"pickupDay\":\"09/12/2025\",\"pickupTime\":\"18:00\",\"dropoffDay\":\"\",\"dropoffTime\":\"18:00\",\"no1ClubNumber\":\"\",\"selectedCarType\":\"ACAR\",\"ageSelector\":\"\",\"redeemPoints\":\"\",\"fromLocationSearch\":false,\"recommendationBrowserInfo\":{\"appCodeName\":\"\",\"appName\":\"\",\"appVersion\":\"\",\"cookieEnabled\":false,\"language\":\"\",\"onLine\":false,\"platform\":\"\",\"product\":\"\",\"userAgent\":\"\",\"visitorId\":\"\"},\"pickupLocation\":\"Lyon, FR (6 locations)\",\"inpPickupHasSpecialInstruction\":\"N\",\"inpPickupIsServedBy\":\"\",\"inpPickupOptGoldAnytime\":\"\",\"pickupDayStandard\":\"2025/12/09\"}",
+    "value_length": 1560,
+    "initial_url": "https://www.hertz.fr",
+    "final_url": "https://www.hertz.fr/rentacar/reservation/",
+    "timestamp": "2025-12-08T16:47:37.216286",
+    "_categories": [
+      "IDENTITY_TRACKING",
+      "DIRECT_PII_KEYS",
+      "DEVICE_ENV"
+    ],
+    "_primary_category": "DIRECT_PII_KEYS",
+    "_is_json": true,
+    "_json_depth": 2,
+    "_size_bytes": 1560
+  }
+]

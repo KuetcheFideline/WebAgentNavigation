@@ -1,0 +1,354 @@
+{
+    "metadata": {
+        "initial url": "https://www.dealabs.com",
+        "final_url": "https://www.dealabs.com/",
+        "timestamp": "2026-01-30T15:26:55.027982"
+    },
+    "cookies": {
+        "added": {},
+        "removed": {
+            "guest_user_visit|www.dealabs.com|/": {
+                "name": "guest_user_visit",
+                "value": "1",
+                "domain": "www.dealabs.com",
+                "path": "/",
+                "expires": 1769783117.942489,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "Lax"
+            }
+        },
+        "modified": {
+            "psd_amuid2|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "psd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801319046.927448,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "psd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801319214.385035,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "stx_user_id|.sharethrough.com|/": {
+                "from": {
+                    "name": "stx_user_id",
+                    "value": "14a833a7-8763-4bf6-84c3-c59d6d02a6c2",
+                    "domain": ".sharethrough.com",
+                    "path": "/",
+                    "expires": 1772375026.960565,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "stx_user_id",
+                    "value": "14a833a7-8763-4bf6-84c3-c59d6d02a6c2",
+                    "domain": ".sharethrough.com",
+                    "path": "/",
+                    "expires": 1772375087.352871,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "OTP|.onetag-sys.com|/": {
+                "from": {
+                    "name": "OTP",
+                    "value": "t-Dg36URxddcMXzAdMscwZVOnGMB0Eu3ACfoCGsxP1w",
+                    "domain": ".onetag-sys.com",
+                    "path": "/",
+                    "expires": 1803969744,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "OTP",
+                    "value": "t-Dg36URxddcMXzAdMscwZVOnGMB0Eu3ACfoCGsxP1w",
+                    "domain": ".onetag-sys.com",
+                    "path": "/",
+                    "expires": 1803969891,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "pamuid2|.a-mo.net|/": {
+                "from": {
+                    "name": "pamuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801319046.927398,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "pamuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801319214.384925,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "amuid2|.a-mo.net|/": {
+                "from": {
+                    "name": "amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801319046.927342,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801319214.384834,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "receive-cookie-deprecation|prebid.media.net|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": "prebid.media.net",
+                    "path": "/",
+                    "expires": 1785335046.891578,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": "prebid.media.net",
+                    "path": "/",
+                    "expires": 1785335214.55709,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "tluid|.3lift.com|/": {
+                "from": {
+                    "name": "tluid",
+                    "value": "1905170778446518263508",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1777559046.724304,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "tluid",
+                    "value": "1905170778446518263508",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1777559193.955969,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "cto_bundle|.criteo.com|/openrtb_2_5/pbjs/auction": {
+                "from": {
+                    "name": "cto_bundle",
+                    "value": "_miIl19YamIlMkJXc2JsWVBBJTJCUlBuczRTWU03TTU3VyUyQk9yNHNUeGhhMm84aDJoRkZ5c0pLQTElMkY4alRscklZbEZvcmNGJTJGRGNFayUyQnFzWGQ4YkVuUEVJNjFFWXhyJTJGZTdSM09rczlxWjRZNjZWcGVNeXplM2l1VURhOEhsQ0kydmpJQ0ZHUlFCT1FGVGJiaTB4Y2hJUFJOYW56JTJGTHZRJTNEJTNE",
+                    "domain": ".criteo.com",
+                    "path": "/openrtb_2_5/pbjs/auction",
+                    "expires": 1803479046.890639,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "cto_bundle",
+                    "value": "icuemV9YamIlMkJXc2JsWVBBJTJCUlBuczRTWU03TVdHZmRpVElUSk9qQzBlY0pMY0FSRm5LJTJCdTZBTG1tNVcycHZnYVNLSWViM1U5dDlybVNOWnVBTDJkWXYlMkJFWU9qaDh2SFVxQ3V2T0ZKZSUyRkFDaTIlMkJIczR3OE5pRUJHdFJiUFF6SFFUSEdBeDQ0UnhPZ1k0NVVzcWFYQUhZUkV1T3clM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/openrtb_2_5/pbjs/auction",
+                    "expires": 1803479214.327524,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://dealabs.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "ar_debug|.doubleclick.net|/": {
+                "from": {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1772375035.53827,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1772375099.469381,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "uuid2|.adnxs.com|/": {
+                "from": {
+                    "name": "uuid2",
+                    "value": "8941735268146079714",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777559046.698656,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "uuid2",
+                    "value": "8941735268146079714",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777559214.157362,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "sd_amuid2|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "sd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801319046.927497,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "sd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801319214.385129,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "OAU|.opera.com|/": {
+                "from": {
+                    "name": "OAU",
+                    "value": "OPU987c6b811ad64b91801cb198fa90bc57",
+                    "domain": ".opera.com",
+                    "path": "/",
+                    "expires": 1801319035.611243,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "OAU",
+                    "value": "OPU987c6b811ad64b91801cb198fa90bc57",
+                    "domain": ".opera.com",
+                    "path": "/",
+                    "expires": 1801319096.754437,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "__amc|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "__amc",
+                    "value": "13_1769772076_1769783046",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801319046.927255,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__amc",
+                    "value": "21_1769772076_1769783214",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801319214.384666,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "ix_features": {
+                "from": "{\"expiry\":1769786646857,\"features\":{\"pbjs_allow_all_eids\":{\"activated\":true},\"pbjs_enable_multiformat\":{\"activated\":true}}}",
+                "to": "{\"expiry\":1769786794537,\"features\":{\"pbjs_allow_all_eids\":{\"activated\":true},\"pbjs_enable_multiformat\":{\"activated\":true}}}"
+            },
+            "ditu_session": {
+                "from": "{\"id\":\"MzxrVrEhLDup\",\"lastActivityTimestamp\":1769783050087}",
+                "to": "{\"id\":\"MzxrVrEhLDup\",\"lastActivityTimestamp\":1769783210669}"
+            },
+            "_-1139781892": {
+                "from": "{\"value\":4,\"created\":1769783025910}",
+                "to": "{\"value\":13,\"created\":1769783025910}"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "raven-rps": {
+                "from": "{\"c\":\"USD\",\"h\":65.90097781250515,\"n\":4,\"t\":0.0020304178442972203,\"x\":0.850952595882887}",
+                "to": "{\"c\":\"USD\",\"h\":44.50840764361552,\"n\":12,\"t\":0.006082529642827878,\"x\":0.6250093706655099}"
+            }
+        }
+    }
+}

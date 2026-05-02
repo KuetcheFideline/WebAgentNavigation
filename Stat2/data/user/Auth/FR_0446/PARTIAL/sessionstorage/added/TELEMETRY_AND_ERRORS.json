@@ -1,0 +1,103 @@
+[
+  {
+    "task_id": "271",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"a32f5210beda48c99fb5fce7c62e7f0c\",\"started\":1767639260470,\"lastActivity\":1767639350670,\"segmentId\":10,\"sampled\":\"buffer\"}",
+    "value_length": 128,
+    "initial_url": "https://www.legalstart.fr",
+    "final_url": "https://app.legalstart.fr/sign-up",
+    "timestamp": "2026-01-05T19:55:58.387329",
+    "_primary_category": "TELEMETRY_AND_ERRORS",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_sessionstorage.json",
+    "try_decoded_value": "{\"id\": \"a32f5210beda48c99fb5fce7c62e7f0c\", \"started\": 1767639260470, \"lastActivity\": 1767639350670, \"segmentId\": 10, \"sampled\": \"buffer\"}",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Key and JSON value indicate session replay data for error monitoring, fitting telemetry and error tracking."
+  },
+  {
+    "task_id": "0",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"82b15c309cb84bc6a859ef50be3eb778\",\"started\":1767374312762,\"lastActivity\":1767374332421,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_length": 127,
+    "initial_url": "https://www.legalstart.fr",
+    "final_url": "https://app.legalstart.fr/sign-up",
+    "timestamp": "2026-01-02T18:19:00.716746",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "TELEMETRY_AND_ERRORS",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 127,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key name 'sentryReplaySession' and JSON value with session timestamps indicate telemetry/error tracking session data.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "271",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"a32f5210beda48c99fb5fce7c62e7f0c\",\"started\":1767639260470,\"lastActivity\":1767639350670,\"segmentId\":10,\"sampled\":\"buffer\"}",
+    "value_length": 128,
+    "initial_url": "https://www.legalstart.fr",
+    "final_url": "https://app.legalstart.fr/sign-up",
+    "timestamp": "2026-01-05T19:55:58.387329",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "TELEMETRY_AND_ERRORS",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 128,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Value contains session replay data with id and timestamps, typical for error monitoring telemetry.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "313",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"50c077bfc26a4d3bbbfe7ca94f3f1f33\",\"started\":1767643650086,\"lastActivity\":1767643654346,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_length": 127,
+    "initial_url": "https://vol.lastminute.com",
+    "final_url": "https://www.fr.lastminute.com/s/flights/search/v2/results?itinerary.path%5B0%5D.departure=PAR&itinerary.path%5B0%5D.arrival=HKT&itinerary.path%5B0%5D.date=20260105&itinerary.path%5B1%5D.departure=HKT&itinerary.path%5B1%5D.arrival=PAR&itinerary.path%5B1%5D.date=20260106&itinerary.type=ROUND_TRIP&passengers.adults=1&passengers.childrenAges=2&flexDateDays=0&cabinClass=C&businessProfile=LASTMINUTEFR&bfSubSource=S02HPV10S10RR01&searchId=1kbtjwk7ang8w",
+    "timestamp": "2026-01-05T21:07:42.421191",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "TELEMETRY_AND_ERRORS",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 127,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Same as item 5, session replay data for telemetry and error tracking.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "457",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"2a8bed783a224934827875c87af70107\",\"started\":1767657978778,\"lastActivity\":1767658005685,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_length": 127,
+    "initial_url": "https://vol.lastminute.com",
+    "final_url": "https://www.fr.lastminute.com/s/flights/search/inspire/v1?departure=PAR&arrival=A&departureDate=20260109&returnDate=20260119&adults=1&childrenAges=2&cabinClass=C&businessProfile=LASTMINUTEFR&bfSubSource=S02HPV10S10RR01&openSearchId=1kbu57gogitxc",
+    "timestamp": "2026-01-06T01:06:54.812177",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "TELEMETRY_AND_ERRORS",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 127,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key 'sentryReplaySession' with JSON value containing session and activity data matches telemetry/error tracking.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

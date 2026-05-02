@@ -1,0 +1,101 @@
+[
+  {
+    "task_id": "222",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.nicematin.com",
+    "final_url": "https://connect.nicematin.com/authenticate?state=a7f1&redirect_uri=https://www.nicematin.com/user/connect",
+    "timestamp": "2026-01-02T12:26:56.984018",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "removed_sessionstorage.json"
+  },
+  {
+    "task_id": "422",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.nicematin.com",
+    "final_url": "https://connect.nicematin.com/authenticate?state=5d8d&redirect_uri=https://www.nicematin.com/user/connect",
+    "timestamp": "2025-12-31T06:14:11.190238",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "removed_sessionstorage.json"
+  },
+  {
+    "task_id": "475",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.assistance.bouyguestelecom.fr",
+    "final_url": "https://www.bouyguestelecom.fr/mon-compte",
+    "timestamp": "2025-12-31T06:42:05.860576",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "removed_sessionstorage.json"
+  },
+  {
+    "task_id": "378",
+    "key": "custEmail",
+    "value": "\"null\"",
+    "value_length": 6,
+    "initial_url": "https://www.vertbaudet.fr",
+    "final_url": "https://magasin.vertbaudet.fr/?_gl=1*1qlt6vo*_gcl_au*NzcwNjQwMzU2LjE3NjcxMjU0NTM.*FPAU*NzcwNjQwMzU2LjE3NjcxMjU0NTM.#intnavid=s_magasin",
+    "timestamp": "2025-12-31T05:56:29.162006",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 6,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Key name indicates it stores customer email, which is direct personal data, even if value is 'null'.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "417",
+    "key": "Partials_UserInfos",
+    "value": "null",
+    "value_length": 4,
+    "initial_url": "https://www.assistance.bouyguestelecom.fr",
+    "final_url": "https://www.bouyguestelecom.fr/mon-compte",
+    "timestamp": "2025-12-31T06:12:40.826399",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 4,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key name suggests storage of user information, which is direct personal data, though value is null.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "475",
+    "key": "Partials_UserInfos",
+    "value": "null",
+    "value_length": 4,
+    "initial_url": "https://www.assistance.bouyguestelecom.fr",
+    "final_url": "https://www.bouyguestelecom.fr/mon-compte",
+    "timestamp": "2025-12-31T06:42:05.860576",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 4,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Duplicate of item 4, key suggests user personal information storage.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "task_id": "442",
+    "key": "onesignal-pageview-count",
+    "value": "2",
+    "value_from": "1",
+    "value_to": "2",
+    "value_from_length": 1,
+    "value_to_length": 1,
+    "value_changed": true,
+    "initial_url": "https://reseauinternational.net",
+    "final_url": "https://reseauinternational.net/author/pacaw/",
+    "timestamp": "2025-12-30T15:16:12.293766",
+    "_categories": [
+      "BEHAVIORAL_DATA"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 1
+  },
+  {
+    "task_id": "132",
+    "key": "ebx_webtag_",
+    "value": "{\"referrer\":\"https://op.ina.fr/\",\"utmSource\":null}",
+    "value_from": "{\"referrer\":\"\",\"utmSource\":null}",
+    "value_to": "{\"referrer\":\"https://op.ina.fr/\",\"utmSource\":null}",
+    "value_from_length": 32,
+    "value_to_length": 50,
+    "value_changed": true,
+    "initial_url": "https://www.ina.fr",
+    "final_url": "https://www.ina.fr/inscription",
+    "timestamp": "2026-01-02T17:26:19.987699",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 50,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key and value indicate tracking of referrer and source parameters, typical for behavioral tracking.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "333",
+    "key": "previousUrl",
+    "value": "https://www.cedeo.fr/connexion",
+    "value_from": "https://www.cedeo.fr/",
+    "value_to": "https://www.cedeo.fr/connexion",
+    "value_from_length": 21,
+    "value_to_length": 30,
+    "value_changed": true,
+    "initial_url": "https://www.cedeo.fr",
+    "final_url": "https://www.cedeo.fr/connexion?destination=/",
+    "timestamp": "2025-12-30T13:43:46.118128",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 30,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key stores URLs indicating navigation history, typical behavioral data.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "336",
+    "key": "Hm_lpvt_l8liiv5vroi",
+    "value": "1767098869",
+    "value_from": "1767098776",
+    "value_to": "1767098869",
+    "value_from_length": 10,
+    "value_to_length": 10,
+    "value_changed": true,
+    "initial_url": "https://www.vfscan.com",
+    "final_url": "https://www.vfscan.com/safety-rules",
+    "timestamp": "2025-12-30T13:47:58.328659",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 10,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.85,
+    "ai_explanation": "Value is a timestamp likely used for tracking last page view or session timing.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "342",
+    "key": "previousUrl",
+    "value": "https://www.cedeo.fr/connexion",
+    "value_from": "https://www.cedeo.fr/",
+    "value_to": "https://www.cedeo.fr/connexion",
+    "value_from_length": 21,
+    "value_to_length": 30,
+    "value_changed": true,
+    "initial_url": "https://www.cedeo.fr",
+    "final_url": "https://www.cedeo.fr/connexion?destination=/",
+    "timestamp": "2025-12-30T14:04:46.895860",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 30,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Same as item 6, storing URLs indicating navigation history.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

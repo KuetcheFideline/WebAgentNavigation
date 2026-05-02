@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "105",
+    "key": "pushMST_lastUserPrompt",
+    "value": "1771980626202",
+    "value_length": 13,
+    "initial_url": "https://www.zimo.fr",
+    "final_url": "about:blank",
+    "timestamp": "2026-02-25T01:59:38.469144",
+    "_primary_category": "UX_AND_PERFORMANCE_ANALYTICS",
+    "_matched_subcategory": "metrics_tracking",
+    "_source_file": "removed_localstorage.json"
+  },
+  {
+    "task_id": "109",
+    "key": "perfmaker_settings",
+    "value": "{\"value\":{\"website\":{\"client_id\":\"20796\",\"live\":true,\"debug\":false,\"testing\":false,\"sidebarUrl\":\"\",\"tagUrl\":\"https://tag.perfmaker.net\",\"tagName\":\"perfmaker.2\",\"useGA\":false,\"gaFunc\":\"ga\",\"historicDelay\":0,\"enableCrossDomain\":false,\"enableOnLanding\":false,\"isAudit\":false,\"auditValue\":null,\"promocodeAutofill\":{\"inputSelector\":\"\",\"submitSelector\":\"\",\"showButtonSelector\":\"\"},\"productsRecommendations\":{\"awin\":{\"enabled\":false,\"limit\":0},\"pm\":{\"enabled\":false,\"limit\":0}},\"capping\":{\"count\":2,\"interval\":86400000},\"closebutton\":{\"template\":\"<a style=\\\"cursor: pointer; display: block; background-color: rgba(0,0,0,0.15) !important; color: rgba(255,255,255,0.35) !important; width: 40px; height: 40px; font-size: 16px;line-height: 40px;text-align: center;\\\">X</a>\"},\"cta\":{\"filterDuration\":3600,\"nbr\":2592000}},\"campaigns\":[{\"name\":\"BackButton Fixe\",\"id\":\"AZyKsMYA_QS5DBqybClq\",\"fields\":\"\",\"startTime\":1771853355,\"endTime\":2145913200,\"showAtStart\":false,\"showExitIntent\":false,\"showOnClose\":false,\"showOnCloseMsg\":\"\",\"showOnTimer\":false,\"showOnTimerTime\":0,\"showForcedTimer\":false,\"showForcedTimerTime\":0,\"showOnCustomEvent\":false,\"showOnCustomEventTitle\":\"\",\"navigationContext\":[{\"deviceType\":\"allDevices\",\"sessionEvent\":\"showAtStart\",\"titleParameter\":\"\",\"timeParameter\":0,\"deviceConditions\":{\"and\":[]}}],\"noCapping\":true,\"isSelfCapping\":false,\"perCampaignCapping\":{},\"showUrl\":[{\"url\":\".*\",\"condition\":\"regexp\",\"pageGroup\":\"_custom\"}],\"disableUrls\":[],\"isBubble\":false,\"hash\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\",\"sidebar\":{\"hash\":\"da39a3ee5e6b4b0d3255bfef95601890afd80709\",\"template\":null},\"globalScript\":\"\",\"globalCss\":\"\",\"stages\":[],\"embbedInstagramVideos\":[],\"lottery\":{\"parameters\":{\"keys\":[],\"limitedQuantities\":false,\"defaultPrize\":\"\"},\"prizes\":[]},\"width\":\"350px\",\"promoCode\":null,\"noPriority\":false,\"params\":{\"isSelfCappingSession\":false},\"isAbTesting\":false,\"abTestingGroup\":\"\",\"abTestingPosition\":0,\"seedValue\":false,\"isTesting\":false,\"isDraft\":true,\"draftFlag\":\"backbuttonFixe\",\"callbacks\":[],\"auditValue\":0,\"customEventsClose\":[],\"postClickConditions\":[],\"productsRecoConditions\":[],\"promocodeConfigId\":\"\",\"timeSinceLastOrder\":0,\"timeSinceLastOrderSign\":\"lt\",\"trafficSources\":[],\"browsers\":[],\"additionalConditions\":[],\"conditions\":{\"and\":[{\"not\":{\"node\":{\"CAMPAIGNS_CLICKED\":{\"and\":[{\"equal\":{\"id\":\"AZyKsMYA_QS5DBqybClq\"}},{\"equal\":{\"clickType\":\"DISMISS_CAMPAIGN\"}}]}}}},{\"or\":[{\"and\":[]}]},{\"regexp\":{\"URL\":[\".*.*#backbuttonFixe\"]}},{\"not\":{\"regexp\":{\"URL\":[]}}},{\"and\":[]},{\"and\":[]},{\"or\":[{\"and\":[{\"and\":[{\"equal\":{\"IS_CAMPAIGN_DISPLAYED\":false}}]}]}]}]}}],\"dataCollect\":[{\"clear\":false,\"condition\":{\"regexp\":{\"URL\":[\".*\"]}},\"name\":\"BASKET\",\"persist\":true,\"value\":[{\"checkMissing\":false,\"clear\":false,\"condition\":null,\"keepPrevious\":0,\"name\":\"total\",\"storeUrl\":false,\"value\":{\"type\":\"DOM_ELT\",\"regexFilter\":\"\",\"attribute\":\"innerText\",\"selector\":\".total-section:last-child div:last-child\"}},{\"checkMissing\":false,\"clear\":false,\"condition\":null,\"name\":\"ITEMS\",\"storeUrl\":false,\"keepPrevious\":0,\"container\":\"\",\"storageContainer\":\"\",\"storageKey\":\"\",\"groupName\":\"\",\"value\":[{\"clear\":false,\"condition\":null,\"name\":\"product_name\",\"value\":{\"type\":\"DOM_ELT\",\"regexFilter\":\"\",\"attribute\":\"textContent\",\"selector\":\"product_name\"}},{\"clear\":false,\"condition\":null,\"name\":\"product_price\",\"value\":{\"type\":\"DOM_ELT\",\"regexFilter\":\"\",\"attribute\":\"textContent\",\"selector\":\"product_price\"}},{\"clear\":false,\"condition\":null,\"name\":\"product_quantity\",\"value\":{\"type\":\"DOM_ELT\",\"regexFilter\":\"\",\"attribute\":\"value\",\"selector\":\"product_quantity\"}},{\"clear\":false,\"condition\":null,\"name\":\"product_img\",\"value\":{\"type\":\"DOM_ELT\",\"regexFilter\":\"\",\"attribute\":\"src\",\"selector\":\"product_img\"}},{\"clear\":false,\"condition\":null,\"name\":\"product_link\",\"value\":{\"type\":\"DOM_ELT\",\"regexFilter\":\"\",\"attribute\":\"href\",\"selector\":\"product_link\"}}]}]},{\"name\":\"TRACKING\",\"value\":[{\"name\":\"UTM_SOURCE\",\"persist\":true,\"value\":{\"type\":\"URL_PARAM\",\"name\":\"utm_source\"}},{\"name\":\"UTM_MEDIUM\",\"persist\":true,\"value\":{\"type\":\"URL_PARAM\",\"name\":\"utm_medium\"}},{\"name\":\"UTM_CAMPAIGN\",\"persist\":true,\"value\":{\"type\":\"URL_PARAM\",\"name\":\"utm_campaign\"}},{\"name\":\"UTM_TERM\",\"persist\":true,\"value\":{\"type\":\"URL_PARAM\",\"name\":\"utm_term\"}},{\"name\":\"UTM_CONTENT\",\"persist\":true,\"value\":{\"type\":\"URL_PARAM\",\"name\":\"utm_content\"}}]},{\"clear\":false,\"condition\":null,\"name\":\"EMAILS\",\"persist\":false,\"value\":[]},{\"name\":\"ABGROUP\",\"value\":[]},{\"name\":\"AUDIT\",\"condition\":{\"not\":{\"exist\":\"AUDIT\"}},\"value\":{\"type\":\"SEED\",\"max\":100},\"persist\":true},{\"name\":\"AUDIT_BOOL\",\"condition\":{\"and\":[{\"exist\":\"AUDIT\"},{\"gt\":{\"AUDIT\":null}}]},\"value\":false,\"persist\":true}],\"hash\":\"ad4a6d36b6ade2ed6724b1c1de260ebe0f5260b7\",\"customEvents\":{\"urls\":[],\"buttons\":[]}},\"expDate\":1803517753170}",
+    "value_length": 4740,
+    "initial_url": "https://www.billetreduc.com",
+    "final_url": "chrome-error://chromewebdata/",
+    "timestamp": "2026-02-25T02:27:49.881008",
+    "_primary_category": "UX_AND_PERFORMANCE_ANALYTICS",
+    "_matched_subcategory": "audit_tracking",
+    "_source_file": "removed_localstorage.json"
+  },
+  {
+    "task_id": "122",
+    "key": "_cs_cu",
+    "value": "https://www.but-cuisines.fr/",
+    "value_length": 28,
+    "initial_url": "https://www.but-cuisines.fr",
+    "final_url": "about:blank",
+    "timestamp": "2026-02-25T04:26:46.359030",
+    "_primary_category": "UX_AND_PERFORMANCE_ANALYTICS",
+    "_matched_subcategory": "contentsquare",
+    "_source_file": "removed_localstorage.json"
+  }
+]

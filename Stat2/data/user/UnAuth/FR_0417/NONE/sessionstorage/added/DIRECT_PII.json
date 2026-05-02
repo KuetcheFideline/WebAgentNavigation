@@ -1,0 +1,110 @@
+[
+  {
+    "task_id": "90",
+    "key": "AI_buffer",
+    "value": "[\"{\\\"time\\\":\\\"2025-12-04T09:33:48.415Z\\\",\\\"iKey\\\":\\\"8f65d673-8040-4b08-8a4a-08630d20f9f6\\\",\\\"name\\\":\\\"Microsoft.ApplicationInsights.8f65d67380404b088a4a08630d20f9f6.RemoteDependency\\\",\\\"tags\\\":{\\\"ai.user.id\\\":\\\"ZUtpEmff3Vna0Liu8Soi08\\\",\\\"ai.session.id\\\":\\\"sUHYOIlVLA0yhrxP6oGjrC\\\",\\\"ai.device.id\\\":\\\"browser\\\",\\\"ai.device.type\\\":\\\"Browser\\\",\\\"ai.operation.name\\\":\\\"/v2/clientarea\\\",\\\"ai.operation.id\\\":\\\"49c3b0ac10544d9287dd03437da89dc1\\\",\\\"ai.internal.sdkVersion\\\":\\\"javascript:2.8.18\\\"},\\\"data\\\":{\\\"baseType\\\":\\\"RemoteDependencyData\\\",\\\"baseData\\\":{\\\"id\\\":\\\"|49c3b0ac10544d9287dd03437da89dc1.663f4a2e2bd64716.\\\",\\\"ver\\\":2,\\\"name\\\":\\\"GET https://api-adresse.data.gouv.fr/search/?q=688, avenue Thérèse Robin\\\\\\\\\\\\\\\\n Roubaix\\\\\\\\\\\\\\\\nFrance&limit=15&type=housenumber\\\",\\\"resultCode\\\":\\\"0\\\",\\\"duration\\\":\\\"00:00:01.287\\\",\\\"success\\\":false,\\\"data\\\":\\\"GET https://api-adresse.data.gouv.fr/search/?q=688, avenue Thérèse Robin\\\\\\\\\\\\\\\\n Roubaix\\\\\\\\\\\\\\\\nFrance&limit=15&type=housenumber\\\",\\\"target\\\":\\\"api-adresse.data.gouv.fr\\\",\\\"type\\\":\\\"Ajax\\\",\\\"properties\\\":{\\\"HttpMethod\\\":\\\"GET\\\"},\\\"measurements\\\":{}}}}\"]",
+    "value_length": 1103,
+    "initial_url": "https://www.billetreduc.com",
+    "final_url": "https://www.billetreduc.com/v2/clientarea#/Authentication?redirect=%2Fcommandes",
+    "timestamp": "2025-12-04T10:33:51.710277",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "address_full",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "90",
+    "key": "AI_buffer",
+    "value": "[\"{\\\"time\\\":\\\"2025-12-04T09:33:48.415Z\\\",\\\"iKey\\\":\\\"8f65d673-8040-4b08-8a4a-08630d20f9f6\\\",\\\"name\\\":\\\"Microsoft.ApplicationInsights.8f65d67380404b088a4a08630d20f9f6.RemoteDependency\\\",\\\"tags\\\":{\\\"ai.user.id\\\":\\\"ZUtpEmff3Vna0Liu8Soi08\\\",\\\"ai.session.id\\\":\\\"sUHYOIlVLA0yhrxP6oGjrC\\\",\\\"ai.device.id\\\":\\\"browser\\\",\\\"ai.device.type\\\":\\\"Browser\\\",\\\"ai.operation.name\\\":\\\"/v2/clientarea\\\",\\\"ai.operation.id\\\":\\\"49c3b0ac10544d9287dd03437da89dc1\\\",\\\"ai.internal.sdkVersion\\\":\\\"javascript:2.8.18\\\"},\\\"data\\\":{\\\"baseType\\\":\\\"RemoteDependencyData\\\",\\\"baseData\\\":{\\\"id\\\":\\\"|49c3b0ac10544d9287dd03437da89dc1.663f4a2e2bd64716.\\\",\\\"ver\\\":2,\\\"name\\\":\\\"GET https://api-adresse.data.gouv.fr/search/?q=688, avenue Thérèse Robin\\\\\\\\\\\\\\\\n Roubaix\\\\\\\\\\\\\\\\nFrance&limit=15&type=housenumber\\\",\\\"resultCode\\\":\\\"0\\\",\\\"duration\\\":\\\"00:00:01.287\\\",\\\"success\\\":false,\\\"data\\\":\\\"GET https://api-adresse.data.gouv.fr/search/?q=688, avenue Thérèse Robin\\\\\\\\\\\\\\\\n Roubaix\\\\\\\\\\\\\\\\nFrance&limit=15&type=housenumber\\\",\\\"target\\\":\\\"api-adresse.data.gouv.fr\\\",\\\"type\\\":\\\"Ajax\\\",\\\"properties\\\":{\\\"HttpMethod\\\":\\\"GET\\\"},\\\"measurements\\\":{}}}}\"]",
+    "value_length": 1103,
+    "initial_url": "https://www.billetreduc.com",
+    "final_url": "https://www.billetreduc.com/v2/clientarea#/Authentication?redirect=%2Fcommandes",
+    "timestamp": "2025-12-04T10:33:51.710277",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "city",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "68",
+    "key": "usernam",
+    "value": "",
+    "value_length": 0,
+    "initial_url": "http://revebebe.free.fr",
+    "final_url": "http://revebebe.free.fr/histoires/rvb232/reve23272.html",
+    "timestamp": "2025-12-04T09:55:49.296734",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 0,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key suggests username which is direct personal data, even if value is empty.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "314",
+    "key": "birthdates",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/d",
+    "timestamp": "2025-12-04T15:13:53.156856",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Key name 'birthdates' directly indicates personal data related to date of birth, even if empty array.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "314",
+    "key": "children",
+    "value": "0",
+    "value_length": 1,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/d",
+    "timestamp": "2025-12-04T15:13:53.156856",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 1,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Key 'children' likely refers to number of children, a personal demographic data point.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "314",
+    "key": "adults",
+    "value": "2",
+    "value_length": 1,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/d",
+    "timestamp": "2025-12-04T15:13:53.156856",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 1,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Key 'adults' likely refers to number of adults, a personal demographic data point.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

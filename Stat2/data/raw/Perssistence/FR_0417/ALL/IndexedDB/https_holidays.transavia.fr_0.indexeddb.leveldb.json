@@ -1,0 +1,1794 @@
+{
+  "site": "https_holidays.transavia.fr_0.indexeddb.leveldb",
+  "profile": "FR_0418",
+  "auth_type": "auth",
+  "records_count": 56,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "60caf7920bee082be1cc8d07c56eafb2eb399721df48db8d8a16d0d80164841a"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {},
+                "subscriptionNative": {
+                  "triggers": {}
+                },
+                "applicationName": "Transavia Holidays",
+                "customDomain": "https://holidays.transavia.fr/",
+                "notificationDefaultUrl": "https://holidays.transavia.fr/",
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BNldGF_HLKqS7JST55YBXDXpeIXGA7ikTmvOC--db5KoMLPLIBzU6pEeUcVDRxD94uaTOJb-VQMKH20IY5VLNT8",
+                "serviceWorkerUrl": "static/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "static/wonderpush.min.html",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "notificationIcon": "https://cdn.by.wonderpush.com/upload/01i0lrgilqni2jo2/f3523f426f0e62df2c9e7a27aef92047f67383bb/v1/small",
+                "plugins": {
+                  "geojs": {
+                    "__type__": "Null"
+                  },
+                  "ecommerce": {
+                    "__type__": "Null"
+                  },
+                  "tag-auto": {
+                    "blacklist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "whitelist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "numTopics": 3,
+                    "minViews": 2,
+                    "topicList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        "maroc",
+                        "grece",
+                        "tunisie",
+                        "espagne",
+                        "italie",
+                        "turquie",
+                        "portugal",
+                        "egypte",
+                        "malte",
+                        "emirats-arabe-unis",
+                        "hongrie",
+                        "croatie",
+                        "circuit",
+                        "city-break",
+                        "famille",
+                        "spa",
+                        "tout-inclus",
+                        "allemagne",
+                        "autriche",
+                        "emirats-arabes-unis",
+                        "republique-tcheque",
+                        "coups-de-coeur",
+                        "surclassement",
+                        "pays-nordiques",
+                        "europe-est",
+                        "afrique-nord",
+                        "capitales-eu",
+                        "bassin-med",
+                        "orient",
+                        "all-in",
+                        "iles-med",
+                        ""
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "sponsored-notifications": {
+                    "__type__": "Null"
+                  }
+                },
+                "resubscribe": true
+              },
+              "byOriginDefaults": {
+                "https://holidays.transavia.fr": {
+                  "serviceWorkerUrl": "static/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                  "frameUrl": "static/wonderpush.min.html",
+                  "notificationDefaultUrl": "https://holidays.transavia.fr/",
+                  "notificationIcon": "https://cdn.by.wonderpush.com/upload/01i0lrgilqni2jo2/f3523f426f0e62df2c9e7a27aef92047f67383bb/v1/small",
+                  "applicationName": "Transavia Holidays",
+                  "customDomain": "https://holidays.transavia.fr/"
+                }
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "automaticActions": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "version": 1764778479263.0
+          },
+          "version": "1764778479263",
+          "fetchDate": 1770086793773.0,
+          "maxAge": 0,
+          "minAge": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 4,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {},
+                "subscriptionNative": {
+                  "triggers": {}
+                },
+                "applicationName": "Transavia Holidays",
+                "customDomain": "https://holidays.transavia.fr/",
+                "notificationDefaultUrl": "https://holidays.transavia.fr/",
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BNldGF_HLKqS7JST55YBXDXpeIXGA7ikTmvOC--db5KoMLPLIBzU6pEeUcVDRxD94uaTOJb-VQMKH20IY5VLNT8",
+                "serviceWorkerUrl": "static/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "static/wonderpush.min.html",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "notificationIcon": "https://cdn.by.wonderpush.com/upload/01i0lrgilqni2jo2/f3523f426f0e62df2c9e7a27aef92047f67383bb/v1/small",
+                "plugins": {
+                  "geojs": {
+                    "__type__": "Null"
+                  },
+                  "ecommerce": {
+                    "__type__": "Null"
+                  },
+                  "tag-auto": {
+                    "blacklist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "whitelist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "numTopics": 3,
+                    "minViews": 2,
+                    "topicList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "maroc",
+                        "1": "grece",
+                        "2": "tunisie",
+                        "3": "espagne",
+                        "4": "italie",
+                        "5": "turquie",
+                        "6": "portugal",
+                        "7": "egypte",
+                        "8": "malte",
+                        "9": "emirats-arabe-unis",
+                        "10": "hongrie",
+                        "11": "croatie",
+                        "12": "circuit",
+                        "13": "city-break",
+                        "14": "famille",
+                        "15": "spa",
+                        "16": "tout-inclus",
+                        "17": "allemagne",
+                        "18": "autriche",
+                        "19": "emirats-arabes-unis",
+                        "20": "republique-tcheque",
+                        "21": "coups-de-coeur",
+                        "22": "surclassement",
+                        "23": "pays-nordiques",
+                        "24": "europe-est",
+                        "25": "afrique-nord",
+                        "26": "capitales-eu",
+                        "27": "bassin-med",
+                        "28": "orient",
+                        "29": "all-in",
+                        "30": "iles-med",
+                        "31": ""
+                      }
+                    }
+                  },
+                  "sponsored-notifications": {
+                    "__type__": "Null"
+                  }
+                },
+                "resubscribe": true
+              },
+              "byOriginDefaults": {
+                "https://holidays.transavia.fr": {
+                  "serviceWorkerUrl": "static/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                  "frameUrl": "static/wonderpush.min.html",
+                  "notificationDefaultUrl": "https://holidays.transavia.fr/",
+                  "notificationIcon": "https://cdn.by.wonderpush.com/upload/01i0lrgilqni2jo2/f3523f426f0e62df2c9e7a27aef92047f67383bb/v1/small",
+                  "applicationName": "Transavia Holidays",
+                  "customDomain": "https://holidays.transavia.fr/"
+                }
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "automaticActions": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "version": 1764778479263.0
+          },
+          "version": "1764778479263",
+          "fetchDate": 1770086793773.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1764778479263"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 5,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 6,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 7,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 8,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 9,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770086793805.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://holidays.transavia.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 10,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770086793820.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 11,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1770086793820.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 12,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770086793820.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 13,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770086793823.0,
+        "untilDate": 1770087093823.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 14,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770086793820.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 15,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770086793824.0,
+        "elapsedTime": 300000,
+        "untilDate": 1770087093824.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 16,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 17,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 18,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 19,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1770086793820.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770086793824.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770087093824.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1770086793820.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770086793824.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770087093824.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 20,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "879869a0-29cd-49c1-8965-02c03ab083e7-19c21650265"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 21,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "viewsByTopic": {
+          "tunisie": {
+            "__type__": "JSArray",
+            "values": [
+              1770086794082.0
+            ],
+            "properties": {}
+          },
+          "": {
+            "__type__": "JSArray",
+            "values": [
+              1770086794082.0
+            ],
+            "properties": {}
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 22,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086801586.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 23,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1770086793820.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770086793824.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770087093824.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "type": "browsedOffer",
+            "actionDate": 1770086794084.0,
+            "custom": {
+              "string_name": "Hotel Skanes Serail & Aquapark",
+              "date_expiration": "2026-12-31",
+              "string_id": "2499",
+              "string_location": "Monastir - Tunisie",
+              "string_url": "holidays.transavia.fr/fr-FR/2499-hotel-skanes-serail-aquapark"
+            },
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1770086793820.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770086793824.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770087093824.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "type": "browsedOffer",
+            "actionDate": 1770086794084.0,
+            "custom": {
+              "string_name": "Hotel Skanes Serail & Aquapark",
+              "date_expiration": "2026-12-31",
+              "string_id": "2499",
+              "string_location": "Monastir - Tunisie",
+              "string_url": "holidays.transavia.fr/fr-FR/2499-hotel-skanes-serail-aquapark"
+            },
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 24,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "_triggersInfo": {
+          "resetDate": 1770086794086.0,
+          "resetVisits": 1,
+          "resetPages": 1
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 25,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {},
+          "serverState": {},
+          "putAccumulator": {},
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 26,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {},
+          "serverState": {},
+          "putAccumulator": {},
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 27,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {},
+          "serverState": {},
+          "putAccumulator": {},
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 28,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 29,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086806588.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 30,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086811590.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 31,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086816593.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 32,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086821595.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 33,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 34,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086826596.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 35,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086831597.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 36,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086836599.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 37,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086841601.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 38,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 39,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086846605.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 40,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086851607.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 41,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086856609.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 42,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086861610.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 43,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086866613.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 44,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 45,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086871619.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 46,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086876624.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 47,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086881629.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 48,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086886632.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 49,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086891638.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 50,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 51,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086896643.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 52,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086901647.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 53,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086906652.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 54,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770086793803.0,
+            "lastDate": 1770086793803.0
+          }
+        },
+        "permissionState": "prompt",
+        "requestHappening": {
+          "version": 1,
+          "sinceDate": 1770086794086.0,
+          "expirationDate": 1770086911656.0,
+          "withUserActivation": {
+            "__type__": "Undefined"
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 55,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    }
+  ]
+}

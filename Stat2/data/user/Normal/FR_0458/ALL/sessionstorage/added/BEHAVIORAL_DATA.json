@@ -1,0 +1,107 @@
+[
+  {
+    "task_id": "79",
+    "key": "rIntervals",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.tomsguide.fr",
+    "final_url": "https://www.tomsguide.fr/category/test/",
+    "timestamp": "2026-02-24T22:56:09.134318",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Key name suggests timing or interval data; value is an empty array, consistent with behavioral timing metrics.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "79",
+    "key": "arTimestamps",
+    "value": "[1771970144190]",
+    "value_length": 15,
+    "initial_url": "https://www.tomsguide.fr",
+    "final_url": "https://www.tomsguide.fr/category/test/",
+    "timestamp": "2026-02-24T22:56:09.134318",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 15,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key name and numeric timestamp value indicate tracking of user activity timing, fitting behavioral data.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "93",
+    "key": "better_page_views",
+    "value": "3",
+    "value_length": 1,
+    "initial_url": "https://www.huffingtonpost.fr",
+    "final_url": "https://www.huffingtonpost.fr/",
+    "timestamp": "2026-02-25T07:23:20.242619",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 1,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Key and numeric value represent a count of page views, a typical behavioral metric.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "94",
+    "key": "QSI_HistorySession",
+    "value": "https%3A%2F%2Fwww.zooplus.fr%2F~1772001076341",
+    "value_length": 45,
+    "initial_url": "https://www.zooplus.fr",
+    "final_url": "https://www.zooplus.fr/shop/top_marques",
+    "timestamp": "2026-02-25T07:40:10.950631",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 45,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.85,
+    "ai_explanation": "Value is a URL encoded string with a timestamp, indicating session history tracking, a behavioral data type.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "94",
+    "key": "QSI_History",
+    "value": "{\"BlurTime\":0,\"FocusTime\":373}",
+    "value_length": 30,
+    "initial_url": "https://www.zooplus.fr",
+    "final_url": "https://www.zooplus.fr/shop/top_marques",
+    "timestamp": "2026-02-25T07:40:10.950631",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 30,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Value contains focus and blur times, which are behavioral metrics related to user interaction.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

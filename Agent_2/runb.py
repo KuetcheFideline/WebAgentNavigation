@@ -187,16 +187,6 @@ def test(
                     
                 else:
                     try:
-                       
-        #                 # detection de la baniere 
-
-        #                 banner = agent.detect_banner(trajectory, intent, meta_data,url)
-        #                 break
-
-        #             except Exception as e :
-        #                  print(e)
-        # except Exception as e :
-        #     print(e)
                         prompt = agent.prompt_constructor.construct(trajectory, intent, meta_data)
                         action = agent.next_action(trajectory, intent, meta_data=meta_data)
                         # description = agent.describe_action(trajectory, intent, meta_data=meta_data)
@@ -237,13 +227,11 @@ def test(
                     trajectory.append(create_stop_action("Terminated"))
                     break
             
-            # --- LOGIQUE DE SAUVEGARDE PLACÉE ICI (DANS LE TRY) ---
             orm = agent.verify_action(trajectory,intent,meta_data)
             response_text = orm.output[0].content[0].text
             result = {"id": task_id, "trace": trace,"verdict" :response_text }
 
 
-            # Correction de la construction du chemin
             storage_dir = Path(args.result_dir) / "storage_state" / args.connected / args.consent
             diff_filepath = storage_dir / f"{task_id}.json"
 
@@ -350,7 +338,6 @@ if __name__ == "__main__":
         logger.info("No tasks left to run.")
     else:
         logger.info(f"Total tasks to run: {len(test_file_list)}")
-        # Override args for test run
         args.render = False
         args.save_trace_enabled = True
         args.current_viewport_only = True

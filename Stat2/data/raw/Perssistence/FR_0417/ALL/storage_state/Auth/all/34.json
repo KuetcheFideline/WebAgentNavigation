@@ -1,0 +1,607 @@
+{
+    "metadata": {
+        "initial url": "https://www.flunch.fr",
+        "final_url": "https://www.flunch.fr/restaurant/tous-les-restaurants-flunch",
+        "timestamp": "2026-01-30T13:30:53.922224"
+    },
+    "cookies": {
+        "added": {
+            "__Secure-BUCKET|.google.fr|/": {
+                "name": "__Secure-BUCKET",
+                "value": "COoE",
+                "domain": ".google.fr",
+                "path": "/",
+                "expires": 1785328080.220813,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "SEARCH_SAMESITE|.google.fr|/": {
+                "name": "SEARCH_SAMESITE",
+                "value": "CgQIg6AB",
+                "domain": ".google.fr",
+                "path": "/",
+                "expires": 1785328080.220759,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Strict"
+            },
+            "PHPSESSID|www.flunch.fr|/": {
+                "name": "PHPSESSID",
+                "value": "aqp45vdbkef8m62od9ghmp6oa1",
+                "domain": "www.flunch.fr",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "flunch_fr|www.flunch.fr|/": {
+                "name": "flunch_fr",
+                "value": "%7B%22firstRestaurant%22%3A%22FLUNCH%20LEERS%22%2C%22firstRestaurantZip%22%3A%2259115%22%2C%22lastRestaurant%22%3A%22FLUNCH%20LEERS%22%2C%22lastRestaurantZip%22%3A%2259115%22%7D",
+                "domain": "www.flunch.fr",
+                "path": "/",
+                "expires": 1803471584.37002,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "client.access-token|www.flunch.fr|/": {
+                "name": "client.access-token",
+                "value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsIjoiRiIsImNsaWVudF9pZCI6IjlwR1ExelM2VXd1UDJVQ0NkaXpoaHd4L0NqSjJmVUNSaWo3K3I2SmtITjg9IiwiY2xtX3VzZXJfaWQiOiJNUS9Ia1cyVEtudWxpSmRmeXV4SCtRPT0iLCJleHAiOjE3Njk4MzYyMzAsImdyYW50X3R5cGUiOiJjbGllbnRfY3JlZGVudGlhbHMiLCJqdGkiOiJyYTRuc01EdXU1UWxpWmlxMVZ6dXVRTVlpRFEiLCJwcm9ncmFtX2NvZGUiOiJGTFVOQ0giLCJwcm9ncmFtX2lkIjoxNTEsInNjb3BlIjpbImIyYiJdLCJ2ZXJzaW9uIjoiMTczOTgwMTc2ODg1MCJ9.dHmnU3JTLFlEWh1wnHpqDdbOGV7tUBRUFRMOMd82iP6-JbjUaSh3nEKyt4AAugZG42pylRvbV_NKy0So8CwpK9QjEVeWxZ3EFxpXEqsBqsuniOQ9rRXGPOFzEup-vv-Ewutllq7xKyU-Syuv012b4OviTy8jSpMmaqUN9eaoAsblzh7dlgZo-wtf_9GliC4R8lfWj38N1EjsGK1lFCSd4WILPC0BnG0HZ4dghtA3jTcWUn7XAUjcXWR4jJP2hmf6V3YAsi-Fv9tc3dFTYZ727ER9Hw-HPsf5EAJI_TDnPGOWzJZC3x4cndldqTttlvG7S1z7jtOBPtkvC5ZMxgg3IA",
+                "domain": "www.flunch.fr",
+                "path": "/",
+                "expires": 1769836231.110266,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "flu_store|www.flunch.fr|/": {
+                "name": "flu_store",
+                "value": "8bd419fab82260097310628904250ec3",
+                "domain": "www.flunch.fr",
+                "path": "/",
+                "expires": 1772368234.950047,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "__Secure-STRP|.google.fr|/": {
+                "name": "__Secure-STRP",
+                "value": "AD6DogvWmPnP6nHQaPnOWjXe_0Dt6RW0IgPT2ZZiNOHIAhCJxeutO96mgiywXphQwfPpCDHCKvtoC3DCXOea7-_gLlUPiqTefZTe",
+                "domain": ".google.fr",
+                "path": "/",
+                "expires": 1769776380.220677,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Strict"
+            }
+        },
+        "removed": {
+            "cf_chl_rc_ni|getintopc.com|/": {
+                "name": "cf_chl_rc_ni",
+                "value": "3",
+                "domain": "getintopc.com",
+                "path": "/",
+                "expires": 1769775742,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None",
+                "partitionKey": "https://getintopc.com",
+                "_crHasCrossSiteAncestor": false
+            },
+            "__cf_bm|.snigelweb.com|/": {
+                "name": "__cf_bm",
+                "value": "jmkFu1OUQbjsD.uboTWZR1Zg67kOIblxPyjOTxpT2gc-1769774390-1.0.1.1-84qL45YkqtgQ50771OJ4PY8WrZSOgkZKsbTXc2wbURVojz.4pEM8qS5SAeTpzcKEO7wd621O7Gd9K4ebhQnHGwXPZthqFMSzwDofOPFnhtY",
+                "domain": ".snigelweb.com",
+                "path": "/",
+                "expires": 1769776190.453977,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "xnet|lecoinporno.fr|/": {
+                "name": "xnet",
+                "value": "1",
+                "domain": "lecoinporno.fr",
+                "path": "/",
+                "expires": 1769775768,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "_clsk|.flunch.fr|/": {
+                "name": "_clsk",
+                "value": "zmz9lz%5E1769775507416%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+                "domain": ".flunch.fr",
+                "path": "/",
+                "expires": 1769861907,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "kndctr_8AD56F28618A50850A495FB6_AdobeOrg_cluster|.cloudflare.com|/": {
+                "name": "kndctr_8AD56F28618A50850A495FB6_AdobeOrg_cluster",
+                "value": "va6",
+                "domain": ".cloudflare.com",
+                "path": "/",
+                "expires": 1769776002,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "fig_session_started|.lefigaro.fr|/": {
+                "name": "fig_session_started",
+                "value": "true",
+                "domain": ".lefigaro.fr",
+                "path": "/",
+                "expires": 1769775701.576698,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "newu|.sddan.com|/": {
+                "name": "newu",
+                "value": "1",
+                "domain": ".sddan.com",
+                "path": "/",
+                "expires": 1769776150.824217,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "__cf_bm|.qualified.com|/": {
+                "name": "__cf_bm",
+                "value": "lYx9h0zcX5g0m0gJy8cstC_qG0.KW3Mr.qPR.hoWWcw-1769774178-1.0.1.1-egHG3DyIw86a87_aafgA484SF3BC7xkalprk_bkaozD5ifz2bRmBAcIcTN5xjixHfdhskp0aUwttiSI.5ECbckrMan4ddEOVpTFoarJQldA",
+                "domain": ".qualified.com",
+                "path": "/",
+                "expires": 1769775979.132156,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "techcookie|.sddan.com|/": {
+                "name": "techcookie",
+                "value": "1",
+                "domain": ".sddan.com",
+                "path": "/",
+                "expires": 1769775550.52901,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "__cf_bm|.greenweez.com|/": {
+                "name": "__cf_bm",
+                "value": "DQl5iT1QbdhgtmK1UdUVlrHAvklra91Zk6jC_TDmrBg-1769774132-1.0.1.1-lq8JhrE.QeRqDV5GVTeuzdK56oK2uLAjr1f1P0NLH.G0bKRlWyx2sI3ull0K7ZN3SQLH00FaScPIy2zOfD5K4CbScbeqtVtUZg.n7qLmrD8",
+                "domain": ".greenweez.com",
+                "path": "/",
+                "expires": 1769775932.33582,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "__cf_bm|.www.cloudflare.com|/": {
+                "name": "__cf_bm",
+                "value": "qFHoAxfyhb.r2mPc0aKWMQz6XwL9jvZohBhWfnO89ho-1769774153-1.0.1.1-HZ6HARHT3UqExt_pV55._g41TBcH6NhKUlk4xJkklx7lBgu0kY_PjDw26rNhpBu6lrhlHNvYgsyPqdVQEawUdIBivegEfEr89UyDCSmph0ldobTjP4ucsb96WCUdmlw_",
+                "domain": ".www.cloudflare.com",
+                "path": "/",
+                "expires": 1769775953.694156,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "modified": {
+            "ABTasty|.flunch.fr|/": {
+                "from": {
+                    "name": "ABTasty",
+                    "value": "uid=ys027dmbmht0fvdp&fst=1767037431702&pst=1767104150918&cst=1769775502702&ns=3&pvt=3&pvis=1&th=732464.910028.3.1.3.1.1767037431707.1769775502708.1.3",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1801251831,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "ABTasty",
+                    "value": "uid=ys027dmbmht0fvdp&fst=1767037431702&pst=1767104150918&cst=1769775502702&ns=3&pvt=11&pvis=9&th=732464.910028.5.3.3.1.1767037431707.1769775694273.1.3",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1801251831,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_ga_0FH18EMC3Z|.flunch.fr|/": {
+                "from": {
+                    "name": "_ga_0FH18EMC3Z",
+                    "value": "GS2.1.s1769775505$o3$g0$t1769775505$j60$l0$h1869114259",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1804335505.738624,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_0FH18EMC3Z",
+                    "value": "GS2.1.s1769775505$o3$g1$t1769776240$j12$l0$h1869114259",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1804336240.37237,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_pk_ses.3.eecc|.www.flunch.fr|/": {
+                "from": {
+                    "name": "_pk_ses.3.eecc",
+                    "value": "1",
+                    "domain": ".www.flunch.fr",
+                    "path": "/",
+                    "expires": 1769777302,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_pk_ses.3.eecc",
+                    "value": "1",
+                    "domain": ".www.flunch.fr",
+                    "path": "/",
+                    "expires": 1769778039,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "FPID|.flunch.fr|/": {
+                "from": {
+                    "name": "FPID",
+                    "value": "FPID2.2.PaF3L3gv%2BXywU4kyQfCQAvcQgj6bF9fq9Z4ZpnYTo8U%3D.1767037431",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1804335506.113204,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "FPID",
+                    "value": "FPID2.2.PaF3L3gv%2BXywU4kyQfCQAvcQgj6bF9fq9Z4ZpnYTo8U%3D.1767037431",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1804336240.720182,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "ABTastySession|.flunch.fr|/": {
+                "from": {
+                    "name": "ABTastySession",
+                    "value": "mrasn=&lp=https%253A%252F%252Fwww.flunch.fr%252F",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1769777302,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "ABTastySession",
+                    "value": "mrasn=&lp=https%253A%252F%252Fwww.flunch.fr%252F",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1769778040,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "mics_vlz-flu-19|www.flunch.fr|/": {
+                "from": {
+                    "name": "mics_vlz-flu-19",
+                    "value": "aNTYxYmQyY2MtZWY4Ni00MzhhLTlmMTgtZDYyMmFkMWZmZjE0",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1785327508,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "mics_vlz-flu-19",
+                    "value": "aNTYxYmQyY2MtZWY4Ni00MzhhLTlmMTgtZDYyMmFkMWZmZjE0",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1785328242,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "mics_lts|www.flunch.fr|/": {
+                "from": {
+                    "name": "mics_lts",
+                    "value": "1769774958237",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1785413910,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "mics_lts",
+                    "value": "1769774958237",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1785328242,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "browser_id|www.flunch.fr|/": {
+                "from": {
+                    "name": "browser_id",
+                    "value": "c871c450-e4e8-11f0-a700-9fc853ed7606",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1801664185.725031,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "browser_id",
+                    "value": "c871c450-e4e8-11f0-a700-9fc853ed7606",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1803472234.949724,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "st_audience_clientId|.flunch.fr|/": {
+                "from": {
+                    "name": "st_audience_clientId",
+                    "value": "0d4b6b55-59ff-428f-96c6-1347b764a7c0",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1803471502,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "st_audience_clientId",
+                    "value": "0d4b6b55-59ff-428f-96c6-1347b764a7c0",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1803472238,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "FPGSID|.flunch.fr|/": {
+                "from": {
+                    "name": "FPGSID",
+                    "value": "1.1769775505.1769775505.G-0FH18EMC3Z.As9R50TUL-UBkadXPZVJlw",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1769777306.113381,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict"
+                },
+                "to": {
+                    "name": "FPGSID",
+                    "value": "1.1769775505.1769776224.G-0FH18EMC3Z.As9R50TUL-UBkadXPZVJlw",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1769777306.490992,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Strict"
+                }
+            },
+            "st_audience_sessionId|.flunch.fr|/": {
+                "from": {
+                    "name": "st_audience_sessionId",
+                    "value": "a913b989-c838-46aa-b146-9055bdec8374",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1769776402,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "st_audience_sessionId",
+                    "value": "a913b989-c838-46aa-b146-9055bdec8374",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1769777138,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "vlzc|web.valiuz.com|/": {
+                "from": {
+                    "name": "vlzc",
+                    "value": "nAVZkApvsXZu3V5IQP4CTPOtmiQZrtvc",
+                    "domain": "web.valiuz.com",
+                    "path": "/",
+                    "expires": 1803903508.127394,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "vlzc",
+                    "value": "nAVZkApvsXZu3V5IQP4CTPOtmiQZrtvc",
+                    "domain": "web.valiuz.com",
+                    "path": "/",
+                    "expires": 1803904242.773957,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "mics_vid|www.flunch.fr|/": {
+                "from": {
+                    "name": "mics_vid",
+                    "value": "153790601815",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1785413910,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "mics_vid",
+                    "value": "153790601815",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1785328242,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "vlz_uid|www.flunch.fr|/": {
+                "from": {
+                    "name": "vlz_uid",
+                    "value": "nAVZkApvsXZu3V5IQP4CTPOtmiQZrtvc",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1803903505,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "vlz_uid",
+                    "value": "nAVZkApvsXZu3V5IQP4CTPOtmiQZrtvc",
+                    "domain": "www.flunch.fr",
+                    "path": "/",
+                    "expires": 1803904240,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_ga|.flunch.fr|/": {
+                "from": {
+                    "name": "_ga",
+                    "value": "GA1.1.602448983.1767037431",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1804335505.739239,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga",
+                    "value": "GA1.1.602448983.1767037431",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1804336240.373417,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_fbp|.flunch.fr|/": {
+                "from": {
+                    "name": "_fbp",
+                    "value": "fb.1.1767037431496.223945652661427915",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1777551505,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_fbp",
+                    "value": "fb.1.1767037431496.223945652661427915",
+                    "domain": ".flunch.fr",
+                    "path": "/",
+                    "expires": 1777552241,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "NID|.google.fr|/": {
+                "from": {
+                    "name": "NID",
+                    "value": "527=FIZVMF62RsEPMOBZkfE5Pxxns2GLw9zP0KC5Ax7MXjaLoOR9LW_ZM1BabH3Q-tXgTFQZj6udQCdwNNszN_dXscLvZPoCgKovUZUrZ2czlG3odoDpmBEFGLN9MAdXQC7-LE-RXmuHMb8wtMLSlxrb1iuTjWjKHO6MhchnJZ3aTRKh93FbS4vE3Pyh03h6q9kOlA7U_vCCvOXXMIfk0-jJL80SF2WtinyTubxi_5yEf4EkksnIJ-IZ9IrdpxL4KpM",
+                    "domain": ".google.fr",
+                    "path": "/",
+                    "expires": 1782822273.59096,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "NID",
+                    "value": "528=OSspp4JlwVdH2V86rYrVaO20JSUxeurZFPjweCJJypGll_XK4EYcV8w2cBHHTygVYq69nfFYF1SIT6BOwgog24XaJLdiq26U4ZY-ioLdJYUnqw0964kWb28ryD74sa1pT4Slv0-1BbPpkAAcDHePqipgcDTvGiuRoMJYfjKB5J_m3u2qq_JIHu3q3MJLvrgoC_zfvDB-87dxB3AmT51rnaUihcOrxNnKISobMUmOKRsWOyRTybBeSLQlBLHLslb9EoMCDpyBaW4CfPRJm8e__g",
+                    "domain": ".google.fr",
+                    "path": "/",
+                    "expires": 1782822274.220782,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "ABTastyData": {
+                "from": "{\"VisitedPages\":[{\"url\":\"https://www.flunch.fr/\",\"visite\":1,\"time\":1767037431703,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/\",\"visite\":2,\"time\":1767104150918,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/\",\"visite\":3,\"time\":1769775502702,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"}]}",
+                "to": "{\"VisitedPages\":[{\"url\":\"https://www.flunch.fr/\",\"visite\":1,\"time\":1767037431703,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/\",\"visite\":2,\"time\":1767104150918,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/\",\"visite\":3,\"time\":1769775502702,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/\",\"visite\":3,\"time\":1769775592931,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/programme-de-fidelite/\",\"visite\":3,\"time\":1769775627233,\"title\":\"Programme de fid\u00e9lit\u00e9 - Flunch.fr\"},{\"url\":\"https://www.flunch.fr/\",\"visite\":3,\"time\":1769775694269,\"title\":\"Restaurants flunch : la carte et les actus des restaurants\"},{\"url\":\"https://www.flunch.fr/restaurant/\",\"visite\":3,\"time\":1769776040447,\"title\":\"Restaurant Flunch -\"},{\"url\":\"https://www.flunch.fr/la-carte/dejeuner-diner/\",\"visite\":3,\"time\":1769776108660,\"title\":\"D\u00e9jeuner, D\u00eener - Flunch.fr\"},{\"url\":\"https://www.flunch.fr/restaurant/leers/flunch-leers\",\"visite\":3,\"time\":1769776135109,\"title\":\"Restaurant Flunch Leers (59) : Adresse, Horaires et Contact\"},{\"url\":\"https://www.flunch.fr/restaurant/\",\"visite\":3,\"time\":1769776224329,\"title\":\"Restaurant Flunch -\"},{\"url\":\"https://www.flunch.fr/restaurant/tous-les-restaurants-flunch\",\"visite\":3,\"time\":1769776240731,\"title\":\"Tous les restaurants flunch - Restaurant Flunch\"}]}"
+            },
+            "elementor": {
+                "from": "{\"__expiration\":{},\"pageViews\":4,\"sessions\":4}",
+                "to": "{\"__expiration\":{},\"pageViews\":12,\"sessions\":4}"
+            },
+            "_gcl_ls": {
+                "from": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":3,\"timeouts\":0,\"creationTimeMs\":1769775508551},\"expires\":1777551508551}}",
+                "to": "{\"schema\":\"gcl\",\"version\":1,\"gcl_ctr\":{\"value\":{\"value\":11,\"timeouts\":0,\"creationTimeMs\":1769776241824},\"expires\":1777552241824}}"
+            },
+            "topicsLastReferenceTime": {
+                "from": "1769775505491",
+                "to": "1769776241074"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "_mediarithmics": {
+                "from": "{\"vlz-flu-19\":{\"dXNlcl9hZ2VudF9pZD12ZWM6MTUzNzkwNjAxODE1\":{\"ts\":1769775508182,\"scriptsLength\":0}}}",
+                "to": "{\"vlz-flu-19\":{\"dXNlcl9hZ2VudF9pZD12ZWM6MTUzNzkwNjAxODE1\":{\"ts\":1769775508182,\"scriptsLength\":0},\"dXNlcl9hZ2VudF9pZD1pbnM6dmx6LWZsdS0xOTphTlRZeFltUXlZMk10WldZNE5pMDBNemhoTFRsbU1UZ3RaRFl5TW1Ga01XWm1aakUw\":{\"ts\":1769775595579,\"scriptsLength\":0}}}"
+            },
+            "mcssids": {
+                "from": "{\"vlz-flu-19\":[{\"$user_agent_id\":\"dev:vlz-id:nAVZkApvsXZu3V5IQP4CTPOtmiQZrtvc\",\"$type\":\"USER_AGENT\"},{\"$user_agent_id\":\"vec:153790601815\",\"$type\":\"USER_AGENT\"},{\"$user_agent_id\":\"ins:vlz-flu-19:aNTYxYmQyY2MtZWY4Ni00MzhhLTlmMTgtZDYyMmFkMWZmZjE0\",\"$expiration_ts\":1785327508168,\"$type\":\"USER_AGENT\"}]}",
+                "to": "{\"vlz-flu-19\":[{\"$user_agent_id\":\"dev:vlz-id:nAVZkApvsXZu3V5IQP4CTPOtmiQZrtvc\",\"$type\":\"USER_AGENT\"},{\"$user_agent_id\":\"ins:vlz-flu-19:aNTYxYmQyY2MtZWY4Ni00MzhhLTlmMTgtZDYyMmFkMWZmZjE0\",\"$expiration_ts\":1785327508168,\"$type\":\"USER_AGENT\"},{\"$user_agent_id\":\"vec:153790601815\",\"$type\":\"USER_AGENT\"}]}"
+            }
+        }
+    }
+}

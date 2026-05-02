@@ -1,0 +1,50 @@
+[
+  {
+    "field_path": "[80].options.postParams.events.values[60].clientError.stackTrace.browserStackInfo.stackTrace",
+    "value": "    at d.onerror (https://www.youtube.com/s/embeds/c7971ad3/www-embed-player.vflset/www-embed-player.js:832:30)",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "stackTrace",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Stack trace string related to client error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#80",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[80].options.postParams.events.values[60].clientError.logMessage.level",
+    "value": "ERROR_LEVEL_WARNNING",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "level",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Log message level indicating error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#80",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[80].options.postParams.events.values[60].clientError.logMessage.message",
+    "value": "EWLS",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "message",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Log message string related to error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#80",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[80].options.postParams.events.values[60].clientError.logMessage.errorClassName",
+    "value": "Error",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "errorClassName",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Error class name string related to error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#80",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  }
+]

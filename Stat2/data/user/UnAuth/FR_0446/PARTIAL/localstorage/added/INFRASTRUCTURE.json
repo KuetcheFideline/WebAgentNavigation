@@ -1,0 +1,51 @@
+[
+  {
+    "task_id": "279",
+    "key": "awswaf_token_refresh_timestamp",
+    "value": "1765197124061",
+    "value_length": 13,
+    "initial_url": "https://www.monnuage.fr",
+    "final_url": "https://sp.booking.com/searchresults.fr.html?label=57335476&aid=1172825&ss=France&ssne=France&ssne_untouched=France&efdco=1&lang=fr&src=country&dest_id=73&dest_type=country&group_adults=2&no_rooms=1&group_children=1&age=0&sb_travel_purpose=leisure&sb_lp=1&nflt=ht_id%3D205%3Bht_id%3D201%3Bht_id%3D204",
+    "timestamp": "2025-12-08T13:37:42.277272",
+    "_primary_category": "INFRASTRUCTURE",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_localstorage.json",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Value is a timestamp likely used for token refresh management, a technical counter."
+  },
+  {
+    "task_id": "279",
+    "key": "aws_waf_token_challenge_attempts",
+    "value": "{\"attempts\":1,\"lastAttemptTimestamp\":1765182433131}",
+    "value_length": 51,
+    "initial_url": "https://www.monnuage.fr",
+    "final_url": "https://sp.booking.com/searchresults.fr.html?label=57335476&aid=1172825&ss=France&ssne=France&ssne_untouched=France&efdco=1&lang=fr&src=country&dest_id=73&dest_type=country&group_adults=2&no_rooms=1&group_children=1&age=0&sb_travel_purpose=leisure&sb_lp=1&nflt=ht_id%3D205%3Bht_id%3D201%3Bht_id%3D204",
+    "timestamp": "2025-12-08T13:37:42.277272",
+    "_primary_category": "INFRASTRUCTURE",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_localstorage.json",
+    "try_decoded_value": "{\"attempts\": 1, \"lastAttemptTimestamp\": 1765182433131}",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Value tracks number of attempts and last attempt timestamp, indicating technical counters."
+  },
+  {
+    "task_id": "281",
+    "key": "ak_ax",
+    "value": "-1",
+    "value_length": 2,
+    "initial_url": "https://www.okvoyage.com",
+    "final_url": "https://www.hotels.com/Hotel-Search?adults=2&regionId=6049560&clickref=1110lGHGoS8&rffrid=aff.hcom.US.038.000.1011l45458.kwrd=1110lGHGoS8&affcid=HCOM-US.DIRECT.PHG.1011l45458&afflid=1110lGHGoS8&affdtl=PHG.1110lGHGoS8.&affdtl=PHG.1110lGHGoS8.",
+    "timestamp": "2025-12-08T13:46:41.433529",
+    "_primary_category": "INFRASTRUCTURE",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_localstorage.json",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Value is a numeric flag (-1), likely a technical status or counter."
+  }
+]

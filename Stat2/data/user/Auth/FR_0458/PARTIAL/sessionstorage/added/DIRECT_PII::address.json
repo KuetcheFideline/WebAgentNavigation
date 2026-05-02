@@ -1,0 +1,58 @@
+[
+  {
+    "task_id": "29",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.cic.fr",
+    "final_url": "https://www.cic.fr/fr/authentification.html",
+    "timestamp": "2025-12-30T22:07:55.216539",
+    "_categories": [
+      "LOCATION_AND_DEMOGRAPHICS",
+      "USER_PREFERENCES",
+      "DIRECT_PII::address",
+      "IDENTITY_TRACKING",
+      "SENSITIVE_LOCATION_PII"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": true,
+    "_json_depth": 2,
+    "_size_bytes": 433
+  },
+  {
+    "task_id": "161",
+    "key": "current-ip",
+    "value": "158.46.138.103",
+    "value_length": 14,
+    "initial_url": "https://www.bouyguestelecom.fr",
+    "final_url": "https://www.bouyguestelecom.fr/panier",
+    "timestamp": "2025-12-31T01:26:49.757449",
+    "_categories": [
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 14
+  },
+  {
+    "task_id": "206",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.mgen.fr",
+    "final_url": "https://www.mgen.fr/login-adherent/",
+    "timestamp": "2025-12-31T02:46:35.821183",
+    "_categories": [
+      "LOCATION_AND_DEMOGRAPHICS",
+      "USER_PREFERENCES",
+      "DIRECT_PII::address",
+      "IDENTITY_TRACKING",
+      "SENSITIVE_LOCATION_PII"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": true,
+    "_json_depth": 2,
+    "_size_bytes": 433
+  }
+]

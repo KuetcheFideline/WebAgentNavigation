@@ -48,7 +48,7 @@ with sync_playwright() as p:
 
     page.goto("https://reservaviajes.centraldevacaciones.com/user/signup.xhtml?keepurl=true&url=")
     
-    captcha_sitekey = page.query_selector("div.g-recaptcha")  # Recherche de la div contenant le CAPTCHA
+    captcha_sitekey = page.query_selector("div.g-recaptcha") 
     if captcha_sitekey:
         sitekey = captcha_sitekey.get_attribute('data-sitekey')
         print("Sitekey trouvé :", sitekey)

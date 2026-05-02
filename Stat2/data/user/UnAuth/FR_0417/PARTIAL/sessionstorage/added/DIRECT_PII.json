@@ -1,0 +1,71 @@
+[
+  {
+    "task_id": "84",
+    "key": "birthdates",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/r/guilin/y?adults=1&children=0",
+    "timestamp": "2025-12-03T23:59:59.620841",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_sessionstorage.json",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key 'birthdates' explicitly refers to personal data (birth dates), which is direct personal identifiable information."
+  },
+  {
+    "task_id": "314",
+    "key": "birthdates",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/r/tignes/w/exclusive-collection-space?adults=2&children=0",
+    "timestamp": "2025-12-04T03:37:19.670464",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_sessionstorage.json",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key 'birthdates' explicitly indicates personal data related to dates of birth, which is direct PII."
+  },
+  {
+    "task_id": "339",
+    "key": "usernam",
+    "value": "",
+    "value_length": 0,
+    "initial_url": "http://revebebe.free.fr",
+    "final_url": "http://revebebe.free.fr/cache/actual.html",
+    "timestamp": "2025-12-04T03:55:15.181885",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_sessionstorage.json",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key 'usernam' (likely 'username') is direct personal identifier data."
+  },
+  {
+    "task_id": "84",
+    "key": "birthdates",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/r/guilin/y?adults=1&children=0",
+    "timestamp": "2025-12-03T23:59:59.620841",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key explicitly references birthdates, which is direct personal identifiable information.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

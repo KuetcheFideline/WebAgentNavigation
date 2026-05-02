@@ -1,0 +1,23 @@
+[
+  {
+    "task_id": "0",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"b3f69998ef9d4696b4dda98cab1616ba\",\"started\":1767374336884,\"lastActivity\":1767374340786,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_length": 127,
+    "initial_url": "https://www.legalstart.fr",
+    "final_url": "https://app.legalstart.fr/sign-up",
+    "timestamp": "2026-01-02T18:19:14.092245",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "TELEMETRY_AND_ERRORS",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 127,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key name includes 'sentry' which is a known error monitoring tool; value contains session and activity timestamps related to error telemetry.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

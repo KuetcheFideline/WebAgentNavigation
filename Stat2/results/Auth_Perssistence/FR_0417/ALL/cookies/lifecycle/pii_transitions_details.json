@@ -1,0 +1,3087 @@
+[
+  {
+    "key": "_interaction_resume.legacy.sig|accounts.clubmed.com|/authorize/YgDhna9mal_7Ho0HBXXQk",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → BEHAVIORAL_DATA::interaction_tracking",
+    "value_initial": "6NoPxeePUnK2PMzrFKPEzi_MBII",
+    "value_final": "6NoPxeePUnK2PMzrFKPEzi_MBII",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_interaction.legacy.sig|accounts.clubmed.com|/interaction/YgDhna9mal_7Ho0HBXXQk",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → BEHAVIORAL_DATA::interaction_tracking",
+    "value_initial": "jEjTkQ5scH6VQc898nzq5kg1zzM",
+    "value_final": "jEjTkQ5scH6VQc898nzq5kg1zzM",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_interaction.legacy.sig|accounts.clubmed.com|/interaction/gP0lYGkqML_HgqkIa7vl-",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → BEHAVIORAL_DATA::interaction_tracking",
+    "value_initial": "vW2scn31aKSpwjwSHc-Nnt7ya1I",
+    "value_final": "vW2scn31aKSpwjwSHc-Nnt7ya1I",
+    "num_events": 3,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_interaction_resume.legacy.sig|accounts.clubmed.com|/authorize/gP0lYGkqML_HgqkIa7vl-",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → BEHAVIORAL_DATA::interaction_tracking",
+    "value_initial": "oNIxnKqOSANsmNX0UnGDpxKCTo8",
+    "value_final": "oNIxnKqOSANsmNX0UnGDpxKCTo8",
+    "num_events": 3,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "KC_RESTART|auth.sezane.com|/auth/realms/customer/",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → SESSION_MANAGEMENT::keycloak",
+    "value_initial": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhOTM2ZjE4Yy03NDQyLTQxZmMtYjVkNS04Y2MxYjBkOTgxMTkifQ.eyJjaWQiOiJ3ZWIiLCJwdHkiOiJvcGVuaWQtY29ubmVjdCIsInJ1cmkiOiJodHRwczovL3d3dy5zZXphbmUuY29tL2ZyLWZyL2Nvbm5lY3Qva2V5Y2xvYWsvY2hlY2siLCJhY3QiOiJBVVRIRU5USUNBVEUiLCJub3RlcyI6eyJzY29wZSI6ImVtYWlsIG9wZW5pZCBwcm9maWxlIG9mZmxpbmVfYWNjZXNzIHBob25lIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnNlemFuZS5jb20vYXV0aC9yZWFsbXMvY3VzdG9tZXIiLCJyZXNwb25zZV90eXBlIjoiY29kZSIsImNsaWVudF9yZXF1ZXN0X3BhcmFtX3RoZW1lIjoic2V6YW5lIiwiY2xpZW50X3JlcXVlc3RfcGFyYW1fYXBwcm92YWxfcHJvbXB0IjoiYXV0byIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vd3d3LnNlemFuZS5jb20vZnItZnIvY29ubmVjdC9rZXljbG9hay9jaGVjayIsInN0YXRlIjoiNzg4MmRlODc2YjEzMzRkMjliODBmOTliOTNmMzZlNTkifX0.VYYw2Pm4-73lg0YxarfljMqGwbK3l5E5HHOX-01ueqA",
+    "value_final": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJhOTM2ZjE4Yy03NDQyLTQxZmMtYjVkNS04Y2MxYjBkOTgxMTkifQ.eyJjaWQiOiJ3ZWIiLCJwdHkiOiJvcGVuaWQtY29ubmVjdCIsInJ1cmkiOiJodHRwczovL3d3dy5zZXphbmUuY29tL2ZyLWZyL2Nvbm5lY3Qva2V5Y2xvYWsvY2hlY2siLCJhY3QiOiJBVVRIRU5USUNBVEUiLCJub3RlcyI6eyJzY29wZSI6ImVtYWlsIG9wZW5pZCBwcm9maWxlIG9mZmxpbmVfYWNjZXNzIHBob25lIiwiaXNzIjoiaHR0cHM6Ly9hdXRoLnNlemFuZS5jb20vYXV0aC9yZWFsbXMvY3VzdG9tZXIiLCJyZXNwb25zZV90eXBlIjoiY29kZSIsImNsaWVudF9yZXF1ZXN0X3BhcmFtX3RoZW1lIjoic2V6YW5lIiwiY2xpZW50X3JlcXVlc3RfcGFyYW1fYXBwcm92YWxfcHJvbXB0IjoiYXV0byIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vd3d3LnNlemFuZS5jb20vZnItZnIvY29ubmVjdC9rZXljbG9hay9jaGVjayIsInN0YXRlIjoiNTE3OWJmZTUyNDE5ODllNmY3Y2FjMWRkZmQ0ZDhlZjMifX0._7mn4ZmLQ8kdklB6EjVgm_pl511eZNta2e8ws4lpvfs",
+    "num_events": 46,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "etuix|.armandthiery.fr|/",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → ID_SOLUTIONS_AND_EXCHANGES::index_exchange",
+    "value_initial": "jDjs_SV0Vxt50X_OulM78NQatRVvFElSF50l7v9.o7AcNcp7L.xALA--",
+    "value_final": "jDjs_SV0Vxt50X_OulM78NQatRVvFElSF50l7v9.o7AcNcp7L.xALA--",
+    "num_events": 12,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "DISSESSIONOauthOidcServerSupport|op.ina.fr|/",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → SECURITY_AND_BOT_MITIGATION::oauth",
+    "value_initial": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6IjVkMjUxODcyLTlmNGMtNDI5MS1iYjBiLTkwMGVmMzczNjI1ZSJ9.ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJRMEpETFVoVE5URXlJaXdpWTNSNUlqb2lTbGRVSWl3aWRIbHdJam9pU2xkVUlpd2lhMmxrSWpvaU5EUTNZVEF5WkRFdFpEQmlZaTAwTkRabExXSXhNMlF0WmpJeVlXVm1ORFUwTVdZMUluMC4ubUVMb0lnN3IwM0JRWXJUaEtna21ody5BZ2xudE4yeVNnM2NyakllclRaQTFyWFhMTFhzczFaVHBJdjgtTXVTQ19fVERXNS1iUWFFNnZZejB5V25Sb1NmWWxxRE5WejEwb0ZyVTFTSmhjLUVZNUxXQWoyMU5zU0FLdWt5djNzQk9UOS1EbjJ2bmxrZWlBSjRNYTlvSmtsR05MRUlBVjBYcVJHNTV5NmJ1a1ZMWnFNeDBjMjZ5T0hhd3ctLVRPRWd5X1d2Q3NVX3FwcVFydENhdmJmUlBScS1jMlFUTHd4YTl4Y3JMdFIxVmNJNmFBLnJKVDhMUXVkRHV5b05YSlQwX29TaS1FMVJCZVBwdnc4dF9iN2R3Sm5HVnM.n3KF001A3fkYtoJtn9awR9BvnOiEESZK8U1pMNTKJb31I69NX8_igkYskKl2X9ELMRpVbIakHuErwLbnfL6ORQ",
+    "value_final": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCIsImtpZCI6IjFhY2Q2MDIyLTE1Y2ItNGY2Ny04NTQ0LTczODc4ZWZlNTliZSJ9.ZXlKaGJHY2lPaUprYVhJaUxDSmxibU1pT2lKQk1qVTJRMEpETFVoVE5URXlJaXdpWTNSNUlqb2lTbGRVSWl3aWRIbHdJam9pU2xkVUlpd2lhMmxrSWpvaU5tTTNZalZqWmpJdE9Ua3dPUzAwTW1ReExXRmtNREl0WkdNMk9ESmxNMkkzWm1aakluMC4uc21fOTNLR21nMFZXc1lScTNnazJwdy5kYncwdEJRUUY4Q2VOOHU5Z0RUTHNDRFVIelFTeGo0LXo1OXdhTy00ZEFCcFF4Y0RFclR5SHlxMFI2ZEJ6Skw4bzJxOU92MjRVc01VeHp3R1pZWGw0WUtaSG5oUjZxblYyWUlvS25Tb0QwQXRxM3hqbEV0blByUHBLa3hwM0tjV182bkdWSjBtX2NNWDlvb1N2RDRvZXoxWmZyUUxOWXR5UVpONlNYYzJwVUFQT0wya0c3NEJ2VXUyVlgxNkNzSFpuN3VnRlNDS21WVGpLVHhKWkNFeGZ3Llh3Q29rZHVyN1ZfX0hlWWZ4RERVd2IwYjA2cDRmS3FFZXYtdHBxWHBoenM.jLruDJPRvbMXiyE_5cAy1YuOny0wese151fQMy_xPTXGVbvwl7fQxxvZee1gwXdK04vH6o1PbKzSi_3at-OQHQ",
+    "num_events": 36,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "userInfoCookie|auth.sezane.com|/",
+    "transition": "DIRECT_PII::email_exact → DIRECT_PII_KEYS::full_name_key",
+    "value_initial": "{\"email\":\"chris.martin.gdpr+FR_0417@gmail.com\",\"title\":\"2\",\"birthDateDay\":\"26\",\"birthDateMonth\":\"11\",\"birthDateYear\":\"2005\",\"userName\":\"\"}",
+    "value_final": "{\"email\":\"chris.martin.gdpr+FR_0417@gmail.com\",\"title\":\"2\",\"birthDateDay\":\"26\",\"birthDateMonth\":\"11\",\"birthDateYear\":\"2005\",\"userName\":\"\"}",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "locale|accounts.clubmed.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → USER_PREFERENCES::language",
+    "value_initial": "fr-FR",
+    "value_final": "fr-FR",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE|op.ina.fr|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → USER_PREFERENCES::language",
+    "value_initial": "fr-FR",
+    "value_final": "fr-FR",
+    "num_events": 9,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "locale|.easyrencontre.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → USER_PREFERENCES::language",
+    "value_initial": "694b81ea1b9bb36a7e1db580618a399a38d1212e5b6cc46a54d4c49317359199fa4f59ce081f0a72576eb6f2cfb83b385f6a52ea029e21d4207e22bbd26b5161",
+    "value_final": "694b81ea1b9bb36a7e1db580618a399a38d1212e5b6cc46a54d4c49317359199fa4f59ce081f0a72576eb6f2cfb83b385f6a52ea029e21d4207e22bbd26b5161",
+    "num_events": 3,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "locale|.nextsocialsoft.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → USER_PREFERENCES::language",
+    "value_initial": "da17b30d0c2adf8fff7a4f953466615dc1571d15a6d90c92f59c40b37727a7a5d5ad41c2105a0364321c25b53378a21b77ca471f93265b0271c1c3b207e968f7",
+    "value_final": "da17b30d0c2adf8fff7a4f953466615dc1571d15a6d90c92f59c40b37727a7a5d5ad41c2105a0364321c25b53378a21b77ca471f93265b0271c1c3b207e968f7",
+    "num_events": 3,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "CookieConsent|buycycle.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → CONSENT_AND_PRIVACY::consent_management",
+    "value_initial": "{stamp:%27SBVfdshieH8M889jV/gztyLgEDK75J6EJXaLBmR3BXhJGLSi5oG1GA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27implied%27%2Cver:5%2Cutc:1767096167445%2Cregion:%27fr%27}",
+    "value_final": "{stamp:%27SBVfdshieH8M889jV/gztyLgEDK75J6EJXaLBmR3BXhJGLSi5oG1GA==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27implied%27%2Cver:5%2Cutc:1767096167445%2Cregion:%27fr%27}",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "aawp-country|www.docteur-fitness.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → DIRECT_PII_KEYS::country_key",
+    "value_initial": "FR",
+    "value_final": "FR",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "bscookie|.www.linkedin.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::linkedin_extended → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "\"v=1&20251229145937466edb1f-e0af-4e0a-807b-1e5db31daab5AQH-ifCGaWSIMCcT9_TTT0bMF5ZQra4v\"",
+    "value_final": "\"v=1&20251229145937466edb1f-e0af-4e0a-807b-1e5db31daab5AQH-ifCGaWSIMCcT9_TTT0bMF5ZQra4v\"",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "bscookie|.fr.linkedin.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::linkedin_extended → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "\"v=1&2025122914593463fa61f4-3231-4733-8be6-af3eea932d54AQEdwQq1NXSIjpb4pvZDH-ki16UGEWnE\"",
+    "value_final": "\"v=1&2025122914593463fa61f4-3231-4733-8be6-af3eea932d54AQEdwQq1NXSIjpb4pvZDH-ki16UGEWnE\"",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "cto_bundle|.criteo.com|/openrtb_2_5/pbjs/auction",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "Iu2V_19UUFB3d1RsVzlCTGU3RjRGaVJDS0xOa1EwJTJCbyUyRjJyakFlTXZFVzZhQlElMkZieHVadE85bWxYWUJZQjVRRlRQMDNWM3R0SWRXaTU1TmJKUGJhV2lqT2JWSWtNOVBMVTIxMzJqY2VTa0wzZGNjZGtOcEFrWm5NYiUyQmtFMzN1QyUyQnBSQ0NMV2liSHdiTE5DMm94NWM4ciUyQk8yVWclM0QlM0Q",
+    "value_final": "BIHblF95cEFMa0xQeG9rJTJGUWFvQSUyRmVDeVZ0cSUyQmJFaVpCeG9DOTBFY2J5cms3S2xHdWdEazVPUW0xQjJvam5qYXF2UzZUcmFDSkx6NDdMSG9NZHoyUm1tWTlRbFRBV2FUS1Q3M3FBNVE0dGQ3VlFIR0NmT2pPdHF5MFBJNjB3Vlc4WEpjZUM5bkQ1JTJGSkoySFhUU2pmRVlRQzYlMkZRJTNEJTNE",
+    "num_events": 42,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "mics_vid|lemagdesanimaux.ouest-france.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::mediarithmics → UX_AND_PERFORMANCE_ANALYTICS::adobe_analytics",
+    "value_initial": "153790601815",
+    "value_final": "153790601815",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "mics_vid|.mediarithmics.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::mediarithmics → UX_AND_PERFORMANCE_ANALYTICS::adobe_analytics",
+    "value_initial": "153790601815",
+    "value_final": "153790601815",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "cto_bundle|.ouest-france.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "nsxSH19SUTk1anZtc0prdlcySSUyQlRCSFNSOU16SmJjWEpxbGxjTUElMkJwRlNnU3hHb2IlMkJWNWRVUyUyQnNPJTJCa3BheURqRWlCQUY5RWw4SzR3b1dMM3pkR0RIZEFjaWQyWGpubnFxVHV5bm9MZWlsWm41Nmc0d08yTkJ6eWxRM3RZV3hNVkhyQjZqakpmYWxzT2w4NGpQaEVibUpmQ3JnJTNEJTNE",
+    "value_final": "nsxSH19SUTk1anZtc0prdlcySSUyQlRCSFNSOU16SmJjWEpxbGxjTUElMkJwRlNnU3hHb2IlMkJWNWRVUyUyQnNPJTJCa3BheURqRWlCQUY5RWw4SzR3b1dMM3pkR0RIZEFjaWQyWGpubnFxVHV5bm9MZWlsWm41Nmc0d08yTkJ6eWxRM3RZV3hNVkhyQjZqakpmYWxzT2w4NGpQaEVibUpmQ3JnJTNEJTNE",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "cto_bundle|.passagedudesir.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "-GEz3V9sZ3NYdkJDeSUyRmtnRUh4NGsyODNlWEdYNGhFek1NRXE5ODdWZEdiYzlFeWYyYkRBNldUNDlRUDlwS2Z0eEJsTFhzeHZ5SjRldEdvZFhVS2NXVlFVSFJKSlExViUyRnFTZkoxUEZnYk1xQmh2WWR3bkdReFBMJTJCSnMyMmRLQklNVUc5THdOQjd5dFMzb0wwRyUyRnNJWEY0ZjZNUSUzRCUzRA",
+    "value_final": "Rx3Bpl9sZ3NYdkJDeSUyRmtnRUh4NGsyODNlWEdBZVk0ZDVMdUtON2lKTXUwdFVLeUI2SyUyQko2OVRuY2l5UDJSSCUyQnMzbVhOS1F5ZXdaN0M2RG1xYllRMmowdVVnWUx4OFN6RGJXd25LSkZJUjdJVjQlMkJ2OTJLSTRlT3VQZ0FsenFrekNsMmJ5M2hJaFNlOFRYdFRlT05BUkpSWFRBQSUzRCUzRA",
+    "num_events": 8,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.atom.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "kz44R19ZcktXSDRmbW9uZ21ZTUxlMmNyJTJGTWRuWkxXUjI4cDRUR1hhTlpiSnM3aEZlSlV1ODRlNlVrb050RyUyRlRDMFUycTdwcTFaZzlTUFA0T0s1YXFRdGJhNlE5MjN3NElOSDdsUTJqNm9GazVrMUtoYW9GUkVTZXpzVDFrWkxaVHVrMEZWbzBBNEJVWUdIUDN6JTJCaiUyQjFCT09JQSUzRCUzRA",
+    "value_final": "fd8ocl9ZcktXSDRmbW9uZ21ZTUxlMmNyJTJGTVN2UjFIdGx1TFJ4N2pWSk9LVFNMVXd6d0FFOElCd3p6dGlOZ0U2OTdvbEtlb21Xc0UlMkJlTVkwZVBhUWlHYmw1MmF2T3BTZ2VDMzhtY0g2WVpuSXpSb1dWcGMwJTJCWiUyQm9kb2N1MGc0dUF0VENLc3FTUTU3VkppbjRuZmx6eW5CNTlhdyUzRCUzRA",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pcid|.cache-cache.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22browserId%22%3A%22mjriuw0zodai2jv4%22%2C%22_t%22%3A%22mzfxsddf%7Cmjriuw1f%22%7D",
+    "value_final": "%7B%22browserId%22%3A%22mjriuw0zodai2jv4%22%2C%22_t%22%3A%22mzfxsddf%7Cmjriuw1f%22%7D",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_1469|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23583-c9df47c2-cf85-49fd-8808-499b1798614b%20",
+    "value_final": "23583-c9df47c2-cf85-49fd-8808-499b1798614b%20",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.judgehype.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "MpFxS19oclVPS3c5SWs5STU5WVFMNXY1OEMxZWZZeDRlaW9tRnZoZW9RMlRycmhGUFRVWDVEbEZqMFAwRHVITm9BdGwxd3c0ZW8xVjF1QVdScnBHVUhmV1lLWUIzcUE0bThFaUVjNUlUTUJWbHZzeXBaaXlIJTJCbGNCUFJ2dDVaJTJGV09zWkpwR3VQcEdTTjJPeUpsUkVZNUslMkJNWEElM0QlM0Q",
+    "value_final": "TNrSsV9FWjg2cmhvNlhqT3loM0V5bGJjd3MyRGV2Mm9OQ3NrckhYczlmekxzJTJCVkx2aWRwamMyOXZyJTJCSmRQSnlzNWJ0YnpTa25XUUhyUUptMXhPZTIyYXVCYWM4c2tLQ1ZhJTJCZWtrV1JFJTJGd2tKeGkxeVltbUR6QmpvTDRTc0VGb1gwcUx5OVR3VWJxejI4Mk8zbWU5aXVtaXdvUSUzRCUzRA",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pcid|.mutavie.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22browserId%22%3A%22mjslvpgrc1t52sjz%22%2C%22_t%22%3A%22mzh0tpx8%7Cmjslw8l8%22%7D",
+    "value_final": "%7B%22browserId%22%3A%22mjslvpgrc1t52sjz%22%2C%22_t%22%3A%22mzh0tpx8%7Cmjslw8l8%22%7D",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "rl_page_init_referrer|.mym.fans|/",
+    "transition": "NAVIGATION_HISTORY::referrer_data → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "RS_ENC_v3_Imh0dHBzOi8vbGVjb2lucG9ybm8uZnIvIg%3D%3D",
+    "value_final": "RS_ENC_v3_Imh0dHBzOi8vbGVjb2lucG9ybm8uZnIvIg%3D%3D",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "tc_pageCounter|.cache-cache.fr|/",
+    "transition": "NAVIGATION_HISTORY::page_tracking → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "2",
+    "value_final": "3",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "rxvt|.mutavie.fr|/",
+    "transition": "NAVIGATION_HISTORY::rxvt → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1767102108139|1767100304473",
+    "value_final": "1770074386915|1770072533510",
+    "num_events": 7,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.armandthiery.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "",
+    "value_final": "",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_hjSession_3511593|.akeostore.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6ImE4MjUyNzc4LTNiZTUtNDMxMS1hNzFiLWQyN2I3ZTgxODMyNCIsImMiOjE3NjcwMTU2NDMxMTcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "value_final": "eyJpZCI6IjAzOTc1NGFlLWIyMmQtNGQzOC04MjlkLWU1YWNlYjNlMmI3YSIsImMiOjE3NzAwOTI4NjUzNzgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+    "num_events": 195,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSessionUser_3511593|.akeostore.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjNlMzc3YjkyLWVhNDUtNTU5NS04ZmQ1LTRlMTY0MDdhZTU0YSIsImNyZWF0ZWQiOjE3NjcwMTU2NDMxMTYsImV4aXN0aW5nIjpmYWxzZX0=",
+    "value_final": "eyJpZCI6IjNlMzc3YjkyLWVhNDUtNTU5NS04ZmQ1LTRlMTY0MDdhZTU0YSIsImNyZWF0ZWQiOjE3NjcwMTU2NDMxMTYsImV4aXN0aW5nIjp0cnVlfQ==",
+    "num_events": 65,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.play-in.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "ft2fut%5E2%5Eg29%5E1%5E2189",
+    "value_final": "ft2fut%5E2%5Eg29%5E1%5E2189",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_clsk|.play-in.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "144gl2d%5E1767015986601%5E3%5E1%5Ei.clarity.ms%2Fcollect",
+    "value_final": "dn48p0%5E1770088196550%5E2%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 12,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSessionUser_3200599|.mym.fans|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjFmM2IwZWY5LTRjMjEtNWU0Yy04YzhlLWQ2ODlkMDBmYTRkZSIsImNyZWF0ZWQiOjE3NjcwMjI4Njg3MzgsImV4aXN0aW5nIjpmYWxzZX0=",
+    "value_final": "eyJpZCI6IjFmM2IwZWY5LTRjMjEtNWU0Yy04YzhlLWQ2ODlkMDBmYTRkZSIsImNyZWF0ZWQiOjE3NjcwMjI4Njg3MzgsImV4aXN0aW5nIjp0cnVlfQ==",
+    "num_events": 39,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_hjSession_3200599|.mym.fans|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6ImM4ZmU3YjRhLWRkZTItNDFmNi1iMzZmLTA2YzQ0ZTJjMTIzMSIsImMiOjE3NjcwMjI4Njg3MzksInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "value_final": "eyJpZCI6IjM1ZTUxMDQ0LTJhYWItNDU5MS1iNGM3LWE0NTczNjQ0YmExMCIsImMiOjE3NjcwMjgxMTE5MDQsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+    "num_events": 65,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_hjSession_3818445|.passagedudesir.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6ImU4YWIzZjA5LThmOWItNDkxMS04NjViLTQ3ZjcyMWY5NWVjZCIsImMiOjE3NjcwMzI3MDU0NjIsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "value_final": "eyJpZCI6ImY3MDRmMmVhLWI2NmYtNGZmOC04Yzk2LTk3ZjNiZWYwMTMwZSIsImMiOjE3NzAwMzkzMDc2NzAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+    "num_events": 130,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.passagedudesir.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "4y4mqv%5E1767032705652%5E1%5E1%5Ei.clarity.ms%2Fcollect",
+    "value_final": "mozaj3%5E1770039299786%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 10,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSessionUser_3818445|.passagedudesir.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6ImJmMjA5N2FlLWZjZjYtNTAwMC05N2JlLWUzMTZlMDVmYTI3ZCIsImNyZWF0ZWQiOjE3NjcwMzI3MDU0NjAsImV4aXN0aW5nIjpmYWxzZX0=",
+    "value_final": "eyJpZCI6ImJmMjA5N2FlLWZjZjYtNTAwMC05N2JlLWUzMTZlMDVmYTI3ZCIsImNyZWF0ZWQiOjE3NjcwMzI3MDU0NjAsImV4aXN0aW5nIjp0cnVlfQ==",
+    "num_events": 52,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.passagedudesir.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "1gzdfgo%5E2%5Eg29%5E1%5E2189",
+    "value_final": "1gzdfgo%5E2%5Eg29%5E1%5E2189",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_clsk|.atom.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "1nhpoej%5E1767034425306%5E2%5E1%5Ef.clarity.ms%2Fcollect",
+    "value_final": "eb06p0%5E1769778082841%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.atom.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "18wluhp%5E2%5Eg29%5E1%5E2189",
+    "value_final": "18wluhp%5E2%5Eg35%5E1%5E2189",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.mk2.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "u7t1v1%5E2%5Eg29%5E1%5E2189",
+    "value_final": "",
+    "num_events": 4,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_clsk|.mk2.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "",
+    "value_final": "1ogbyvu%5E1770090722158%5E3%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 12,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ty_ead|.but.fr|/",
+    "transition": "BEHAVIORAL_DATA::url_list → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJkYXRlTGFzdFZpc2l0IjoxNzY3MDIzNzYzODgyLCJsYXN0VHAiOnsicmVmZXJyZXIiOiJodHRwczovL3d3dy5idXQuZnIvIiwidGFyZ2V0IjoiaHR0cHM6Ly93d3cuYnV0LmZyLyJ9LCJjdXJyZW50Q2FtcGFpZ24iOnsiZGF0ZSI6MTc2NzAyMzcyNzgxMCwicmVmZXJyZXIiOiJodHRwczovL3d3dy5idXQuZnIvIiwidGFyZ2V0IjoiaHR0cHM6Ly93d3cuYnV0LmZyLyJ9fQ==",
+    "value_final": "eyJkYXRlTGFzdFZpc2l0IjoxNzY3MDIzNzYzODgyLCJsYXN0VHAiOnsicmVmZXJyZXIiOiJodHRwczovL3d3dy5idXQuZnIvIiwidGFyZ2V0IjoiaHR0cHM6Ly93d3cuYnV0LmZyLyJ9LCJjdXJyZW50Q2FtcGFpZ24iOnsiZGF0ZSI6MTc2NzAyMzcyNzgxMCwicmVmZXJyZXIiOiJodHRwczovL3d3dy5idXQuZnIvIiwidGFyZ2V0IjoiaHR0cHM6Ly93d3cuYnV0LmZyLyJ9fQ==",
+    "num_events": 22,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "c-tag|.realsrv.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "%7B%22tag-iframe-link%22%3A%22v6%7C%7CFRA%7C4801028%7C126998370%7C0%7C900x1600%7C97%7C48%7C110%7C15%7C0%7C0%7C0%7C46399938%7C3012874%7C2988507%7C0%7C1%7C0%7C0%7C0%7C0%7C1%7C0%7C0%7C1%7C0%7Cf5cd688edbd269dd6fc216b96c361059%7C0%7Csexetag.com%7C1920x1080%7C%7C16%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C1767016522%7C%7C%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C1%7C0%7C0%7Csyndication.realsrv.com%7C%7C%7C%7C%7C0%7Ce4e5c612efec30e260b03282d54ca44f%7Cok%22%7D",
+    "value_final": "%7B%22tag-iframe-link%22%3A%22v6%7C%7CMEX%7C4801028%7C81923188%7C0%7C900x1600%7C97%7C48%7C110%7C15%7C0%7C0%7C0%7C7049%7C3520887%7C3531673%7C0%7C0%7C2%7C2%7C0%7C0%7C1%7C0%7C0%7C1%7Cf27a365404ddc5ae44fd7751319be7d2%7Cfb7e5f162c2257d3a479e4df4da580c0%7C0%7Csexetag.com%7C1920x1080%7C%7C72%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C1770088840%7C%7C%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C0%7C1%7C0%7C0%7Csyndication.realsrv.com%7C%7C%7C%7Csexetag.com%7C0%7C8142238735c896777321d04e1df8f6be%7Cok%22%7D",
+    "num_events": 13,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_snrs_sb|.lesciseauxmagiques.fr|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "ssuid:595f2f57-30f3-4a89-94b7-4b2c5ce9ed73&leaves:1767030464",
+    "value_final": "ssuid:2d7f058d-c28a-4c98-b9cd-bac8ead55a9f&leaves:1770096763",
+    "num_events": 11,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "dtPC|.mutavie.fr|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "3$100304469_331h-vRRKFFMHKAOOPHBRGHFKRWCMBOPEQTANR-0e0",
+    "value_final": "3$72584563_784h-vFMQFSQBPQRVIRLJJSQSSGKPRPGSFGPNS-0e0",
+    "num_events": 5,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_scid|.passagedudesir.fr|/",
+    "transition": "IDENTITY_TRACKING::snapchat_pixel → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "8cd975ca-2755-45fe-c615-491635ef73fc",
+    "value_final": "8cd975ca-2755-45fe-c615-491635ef73fc",
+    "num_events": 48,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|pbs-front.mediasquare.fr|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJydWJpY29uIjp7InVpZCI6Ik1KUjdLNDBNLTExLUlCV1giLCJleHBpcmVzIjoiMjAyNi0wMS0xMlQyMDozNDo0Mi41NjAyMDc1NDMrMDE6MDAifX0sImJkYXkiOiIyMDI1LTEyLTI5VDIwOjM0OjQyLjU2MDIwNzMzMiswMTowMCJ9",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJhZGYiOnsidWlkIjoiMjg4NDg5MDA5ODk5MjE5NDc4OSIsImV4cGlyZXMiOiIyMDI2LTAyLTEzVDIxOjAxOjM2LjU1NDM1MTk4NyswMTowMCJ9LCJhZG54cyI6eyJ1aWQiOiI4ODMwMzM0MzY3NTU2Nzc5OTUwIiwiZXhwaXJlcyI6IjIwMjYtMDItMTZUMTU6MzY6MTYuODczOTQ1ODkrMDE6MDAifSwicHVibWF0aWMiOnsidWlkIjoiODc4OENCNDQtMzcwOS00RDA0LThGRUQtRDIxREI0RThCMkU5IiwiZXhwaXJlcyI6IjIwMjYtMDItMTdUMDQ6MDM6MTkuODI1NTQ3NDQ2KzAxOjAwIn0sInJ1Ymljb24iOnsidWlkIjoiTUpSN0s0ME0tMTEtSUJXWCIsImV4cGlyZXMiOiIyMDI2LTAyLTE0VDAyOjA3OjQ3LjkzODgzODc5MSswMTowMCJ9LCJzbWFydGFkc2VydmVyIjp7InVpZCI6IjY1MjM1MjI0NzY5MDM1MTk4NzIiLCJleHBpcmVzIjoiMjAyNi0wMi0xNlQxNTozNzozNy40NDQzMDQzNjErMDE6MDAifX0sImJkYXkiOiIyMDI1LTEyLTI5VDIwOjM0OjQyLjU2MDIwNzMzMiswMTowMCJ9",
+    "num_events": 36,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amuid2|.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 252,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sd_amuid2|.sync.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 108,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|.pixad.com.tr|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJhZGZvcm0iOnsiZXhwaXJlcyI6IjIwMjYtMDEtMjlUMTI6NTQ6NTIuMzA1WiIsInVpZCI6IjI4ODQ4OTAwOTg5OTIxOTQ3ODkifSwiYm10bSI6eyJleHBpcmVzIjoiMjAyNi0wMS0yOVQxMjo1NDo1Mi4zMjZaIiwidWlkIjoiY2NhMTI5ODQtMWY2ZC00Y2RiLTg0NjgtOTkxN2NiMmQwZDA2In19fQ==",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJhZGZvcm0iOnsiZXhwaXJlcyI6IjIwMjYtMDEtMjlUMTI6NTQ6NTIuMzA1WiIsInVpZCI6IjI4ODQ4OTAwOTg5OTIxOTQ3ODkifSwiYm10bSI6eyJleHBpcmVzIjoiMjAyNi0wMS0yOVQxMjo1NDo1Mi4zMjZaIiwidWlkIjoiY2NhMTI5ODQtMWY2ZC00Y2RiLTg0NjgtOTkxN2NiMmQwZDA2In19fQ==",
+    "num_events": 12,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "XSRF-TOKEN|op.ina.fr|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → SECURITY_AND_BOT_MITIGATION::anti_csrf",
+    "value_initial": "abeb073e-5458-4fc7-9ab1-9320ef08f52f",
+    "value_final": "f693e618-62db-4176-bf36-ca99aac94a82",
+    "num_events": 36,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "atid|.xiti.com|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → UX_AND_PERFORMANCE_ANALYTICS::atinternet",
+    "value_initial": "019B6F62-D7F7-78EE-805A-9A9BFBC32ED5",
+    "value_final": "019B6F62-D7F7-78EE-805A-9A9BFBC32ED5",
+    "num_events": 12,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "rl_page_init_referring_domain|.mym.fans|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "RS_ENC_v3_ImxlY29pbnBvcm5vLmZyIg%3D%3D",
+    "value_final": "RS_ENC_v3_ImxlY29pbnBvcm5vLmZyIg%3D%3D",
+    "num_events": 3,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_sp_ses.4a23|www.passagedudesir.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "*",
+    "value_final": "*",
+    "num_events": 10,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sp_marketingses.9b2a|.passagedudesir.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "*",
+    "value_final": "*",
+    "num_events": 7,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pmStorage|www.passagedudesir.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → DIRECT_PII::email_exact",
+    "value_initial": "{\"etid\":null,\"pid\":\"3474A1BC3E5AF19B\",\"referer\":null,\"cc_statistics\":false,\"cc_marketing\":false,\"gacid\":null,\"gacid_source\":null,\"uid\":null,\"gclid\":null,\"fbp\":null,\"fbc\":null,\"cip\":\"0.0.0.0\",\"gbraid\":\"\",\"wbraid\":\"\",\"ga4SessionId\":\"FWX7RK72ZR:1767032703\",\"ga4SessionNumber\":\"FWX7RK72ZR:1\",\"em_md5\":null,\"em_sha256\":null,\"em\":null}",
+    "value_final": "{\"etid\":285967831,\"pid\":\"3474A1BC3E5AF19B\",\"referer\":null,\"cc_statistics\":true,\"cc_marketing\":true,\"gacid\":\"GA1.1.1060995678.1767032704\",\"gacid_source\":\"gacookie\",\"uid\":null,\"gclid\":null,\"fbp\":\"fb.1.1767032704491.2065416024\",\"fbc\":null,\"cip\":\"0.0.0.0\",\"gbraid\":\"\",\"wbraid\":\"\",\"ga4SessionId\":\"FWX7RK72ZR:1770039288\",\"ga4SessionNumber\":\"FWX7RK72ZR:7\",\"em_md5\":null,\"em_sha256\":null,\"em\":\"chris.martin.gdpr+fr_0417@gmail.com\"}",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "apx_seg32031868|trk.adbutter.net|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "1",
+    "value_final": "8",
+    "num_events": 5,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pb_rtb_ev|.contextweb.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "3-22d2|7GB.0.1|7TZ.0.1",
+    "value_final": "3-2305|2N.0|7GB.8.1|3oy.0|4is.8|7TY.0|7I7.h.1",
+    "num_events": 8,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "XSRF-TOKEN|www.operadeparis.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → SECURITY_AND_BOT_MITIGATION::anti_csrf",
+    "value_initial": "eyJpdiI6IkE5RE5xY0d4R3MxOHNYQ0Y4cGJDMlE9PSIsInZhbHVlIjoia0lRcFgwQmdWRnpnaDQ5aW1iUFAyY3RSb2JBbk00cHZJa2VXbzBTYXlJY2psYTBsdGp5cENqUG81dllhTFN4enNpdi9jWFdUVGEvVzhMVXJiNUlsTWRNSitIbFBINUpUOUc0dDBFV3loK1Boc1hkVU1IbkhoKy9OblB6RytpeXMiLCJtYWMiOiI3ODFiZThjMjhlNmFlYmJlMDA0NDlmY2ZhZWUzODM4MDgyYzcwMzMxZGIxZDZiMjNkNzZmMmI3ZGFlMzBlNWQwIiwidGFnIjoiIn0%3D",
+    "value_final": "eyJpdiI6Ik5ocHBmMEZLZnlnSWxtMHZpUXlqdVE9PSIsInZhbHVlIjoiUFk1Z0M1VnEwZXlDK1BjZ1RIM056Vzc2ZzhHNUs1ajczR3Z5NHhSZ2UvRDljc3M5OHdPWk56dmF3aWk1NFZZZ0w4elpERGY2V0Mrc0xEWUxHci9RV0thempER3hmVnJvNjJmUGo2WmdaVks1TU5adFJTK01SditPVWttaVNWNVYiLCJtYWMiOiI1OTAxNDczN2QwNGVmMmFlNWZkYjU1MTUyMDM2N2JiMTMyZTFkYmU2YmQwZjFkMGJlN2UzYmZjYzJkN2MzNjQ5IiwidGFnIjoiIn0%3D",
+    "num_events": 60,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "didomi_but|www.but.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → CONSENT_AND_PRIVACY::didomi",
+    "value_initial": "eyJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiaWFiOjI3OCIsImlhYjozMTYiLCJpYWI6MTEyNiIsImlhYjoyMSIsImlhYjoxMDI5IiwiaWFiOjE1NSIsImlhYjoxMjYiLCJpYWI6MjE1IiwiaWFiOjMyIiwiaWFiOjkxIiwiZGlkb21pOmdvb2dsZSIsImRpZG9taTpmYWNlYm9vayIsImM6b3JhbmdlIiwiYzpwaW50ZXJlc3QiLCJjOmxlYm9uY29pLUprYmJFell4IiwiYzptZXVibGVzZnItelByVlZYUjYiLCJjOnRoYW5reW91LTJlVjdxTGNOIiwiYzphdmVudG1lZGktUFFIeHk5UE4iLCJjOmNsaWMyYnV5LVVjVVlSQzJhIiwiYzphZGljdGl6LVh4cWhBWmR4IiwiYzp2ZWFzeWJsLVhMQUt5aEZoIiwiYzpyZXNwb25zeXMtaFRlbnhqUWMiLCJjOmZvcnRlci1rUHlqNnRrTSIsImM6b3JhbmdlZnJhLVIyMmNtRERBIiwiYzpvY3RpcGFzLTNNVGhmWDI0IiwiYzptaWdodHloaXYtS0hnR3hUS3ciLCJjOnNtYXJ0dHJpYi1nQzdBaTdoUiIsImM6Y29udGVudHNxdWFyZSIsImM6YmluZy1hZHMiLCJjOmFiLXRhc3R5IiwiYzphYnRhc3R5Mi1pempKUk1FaSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpvbGFwaWMiLCJjOmZsaXhtZWRpYSIsImM6aW5maW5pdHktdHJhY2tpbmciLCJjOnRyYWRlZG91YmxlciIsImM6bWljcm9zb2Z0LWFuYWx5dGljcyIsImM6c25hcGluYy15aFluSlpmVCIsImM6dGlrdG9rLUtaQVVRTFo5IiwiYzptZXRhYWRzLXhLZWNCcGdjIiwiIl19fQ==",
+    "value_final": "eyJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiaWFiOjI3OCIsImlhYjozMTYiLCJpYWI6MTEyNiIsImlhYjoyMSIsImlhYjoxMDI5IiwiaWFiOjE1NSIsImlhYjoxMjYiLCJpYWI6MjE1IiwiaWFiOjMyIiwiaWFiOjkxIiwiZGlkb21pOmdvb2dsZSIsImRpZG9taTpmYWNlYm9vayIsImM6b3JhbmdlIiwiYzpwaW50ZXJlc3QiLCJjOmxlYm9uY29pLUprYmJFell4IiwiYzptZXVibGVzZnItelByVlZYUjYiLCJjOnRoYW5reW91LTJlVjdxTGNOIiwiYzphdmVudG1lZGktUFFIeHk5UE4iLCJjOmNsaWMyYnV5LVVjVVlSQzJhIiwiYzphZGljdGl6LVh4cWhBWmR4IiwiYzp2ZWFzeWJsLVhMQUt5aEZoIiwiYzpyZXNwb25zeXMtaFRlbnhqUWMiLCJjOmZvcnRlci1rUHlqNnRrTSIsImM6b3JhbmdlZnJhLVIyMmNtRERBIiwiYzpvY3RpcGFzLTNNVGhmWDI0IiwiYzptaWdodHloaXYtS0hnR3hUS3ciLCJjOnNtYXJ0dHJpYi1nQzdBaTdoUiIsImM6Y29udGVudHNxdWFyZSIsImM6YmluZy1hZHMiLCJjOmFiLXRhc3R5IiwiYzphYnRhc3R5Mi1pempKUk1FaSIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpvbGFwaWMiLCJjOmZsaXhtZWRpYSIsImM6aW5maW5pdHktdHJhY2tpbmciLCJjOnRyYWRlZG91YmxlciIsImM6bWljcm9zb2Z0LWFuYWx5dGljcyIsImM6c25hcGluYy15aFluSlpmVCIsImM6dGlrdG9rLUtaQVVRTFo5IiwiYzptZXRhYWRzLXhLZWNCcGdjIiwiIl19fQ==",
+    "num_events": 12,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "NEXT_LOCALE|www.play-in.com|/",
+    "transition": "DEVICE_ENV::language → USER_PREFERENCES::language",
+    "value_initial": "en",
+    "value_final": "en",
+    "num_events": 4,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "localeDomain|.stripchat.com|/",
+    "transition": "DEVICE_ENV::language → USER_PREFERENCES::language",
+    "value_initial": "fr",
+    "value_final": "fr",
+    "num_events": 4,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_locale|mym.fans|/",
+    "transition": "DEVICE_ENV::language → USER_PREFERENCES::language",
+    "value_initial": "fr",
+    "value_final": "fr",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "tc_cj_v2_cmp|.cache-cache.fr|/",
+    "transition": "CONSENT_AND_PRIVACY::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "",
+    "value_final": "",
+    "num_events": 3,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "tc_cj_v2|.cache-cache.fr|/",
+    "transition": "CONSENT_AND_PRIVACY::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "_rn_lh%5BfyfcheZZZ222H%25%20%29%294%21%20-H%7D*%28ZZZKQPQJMNQMOLJJZZZ%5D",
+    "value_final": "_rn_lh%5BfyfcheZZZ222H%25%20%29%294%21%20-H%7D*%28ZZZKQPSRMMKSRPNSZZZ%5D",
+    "num_events": 5,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "tc_cj_v2_med|.cache-cache.fr|/",
+    "transition": "CONSENT_AND_PRIVACY::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "",
+    "value_final": "",
+    "num_events": 3,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "beyable-rgr|.passagedudesir.fr|/",
+    "transition": "USER_PREFERENCES::ai_refined → DIRECT_PII::ai_refined",
+    "value_initial": "1",
+    "value_final": "1$bey$Y2hyaXMubWFydGluLmdkcHIrRlJfMDQxN0BnbWFpbC5jb20=",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "cart|www.passagedudesir.fr|/",
+    "transition": "USER_PREFERENCES::ai_refined → APP_STATE_STORAGE::ai_refined",
+    "value_initial": "hWN71sZPPAiBlkZPvbJwA7La%3Fkey%3D27e26cc643e3f1629507037c0f14cab4",
+    "value_final": "hWN71sZPPAiBlkZPvbJwA7La%3Fkey%3D27e26cc643e3f1629507037c0f14cab4",
+    "num_events": 2,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_px3|.protechts.net|/",
+    "transition": "SECURITY_AND_BOT_MITIGATION::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "7582941541b8ff1fca1f9507251232ec615de2ba68ddd82758a222b72d61bcf0:e7F68NZxfeOjRS8guyvMdb3KzsJ2yV7IUVe42P1ao9zhh5guI2mDW/0cP3sPKKJG0NWL6F7TYukK/0rrXpzbeg==:1000:qh+kRtAxCUJXot4omHtQWjxOeZYaRsW0tSBITB0lGYxaGB3qdmThiErNMmO5InaTgPiUpMbuIkhmnClMquCQH7GzrijKx4XgmO0aYb1ifMMo1Bw0Sx55VAUfoinw0ov8nfiqFvV2LfSOXnU9yHZVGi6WkWkepPf2KmRXc5+7B0jOL2aLd0EYwJvVoHtK+rrI1K8NAtbltVuTI6QCFJPpyiqPuC0ahDGeRzYTSoU/FH8UzSzs8WoyIw7bhLy8/blAfk4vLKQbeO235kRTLypb67CDz0Ft7AIHC5/jWaxCtX0yVk6CGl8qZx4cq9i6EfGzO6GYnqdzs3oX94FKBvwFRYmMvmD87MWXF9jrQQloRHo=",
+    "value_final": "858a39b766d2f8ffb9cd9110b6537e92d96d9df974f2de381f72fcc0e9f19ec6:gz6GV20jNR1kaaxdCLIausoYPNPysn3sr414rSD6XFP8ZIPvDfUkqTn7N5sgi/RIUm8yf7cNlbzrbLoqRPCpNg==:1000:hczETnQRIpQuytb/0w6OvDIF1c8QiiUdfPhsUAqLjdNfZCluDlN7V5v7V0KBaq/h1eWtrI7XInF3lsPtxZSrbYm/tvsJUnR95k+9FiDeW9RoZ+jpjtYn2HJ7k2NYev2+Vv7WCWu+veEfb/9OLaDCG0pvsOfvtjjtPwEFoMTTblC5r/VvajWBcc5nsTrdKBTApeUp5twbvXRFJSK+4UnUWrlnidN9aXscKBhtOVSBnF8/LkXunTqwr/FJNYlUJFWLDmVSFGWTzu0hKOAD6h7u0ldJtHv77k5qEuKdNCfksz0BaUI7SRcohH+BvWAWABz7ILQKaOgrWM4g0Lf1OLOkS4D8/EzHTMuhEpG1+RFf04Krqe5HZR3GzuiNQnxgBqtadzpzrUvRdrqlBsmtiOaaNOnQneIf/8d3tDWVV2E7OwE3f1RqVK1za8UDFTVvsDXEAQahwFWrnCOwF80F7zCFSHS8+fHFCHRjDGcydSb+rWS2Hf0Q7YSYvZna8gpfI+ms",
+    "num_events": 16,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "aaaaaaaaa4ae696d436dc495289463b35a25fcf0a_loc|.passagedudesir.fr|/",
+    "transition": "SENSITIVE_LOCATION_PII::ai_refined → LOCATION_AND_DEMOGRAPHICS::ai_refined",
+    "value_initial": "48.8558$bey$2.3494$bey$Paris Department$bey$Paris$bey$FR$bey$20",
+    "value_final": "20.9908$bey$-86.9392$bey$Quintana Roo$bey$Cancún$bey$MX$bey$100",
+    "num_events": 10,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_sv3_0|.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING.generic_ids::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_sv3_11|.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING.generic_ids::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_sv3_4|.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING.generic_ids::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ttp|.panini.fr|/",
+    "transition": "TECHNICAL_PASSWORDS::jwt_token → IDENTITY_TRACKING::tiktok_stack",
+    "value_initial": "01KDZMF2KNAXTZ6S95T7CR1W6E_.tt.1",
+    "value_final": "01KDZMF2KNAXTZ6S95T7CR1W6E_.tt.1",
+    "num_events": 24,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "CookieConsent|www.mk2.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → CONSENT_AND_PRIVACY::consent_management",
+    "value_initial": "{stamp:%27Laitpjkbr+0VqMjwaFV3yhvn4jqWd36K1WH+jCZpIuBHfydE/dcj9A==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1767031989646%2Cregion:%27fr%27}",
+    "value_final": "{stamp:%27+/ALZl5ZuImUbJnID9CWR1jI79+Bct5+vD6iCfgEBkucrNnmy7Hrgw==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cmethod:%27explicit%27%2Cver:1%2Cutc:1767102875215%2Cregion:%27ro%27}",
+    "num_events": 4,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "__rtbh.uid|www.clubmed.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::rtb_house → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22unknown%22%2C%22expiryDate%22%3A%222026-12-29T13%3A16%3A05.862Z%22%7D",
+    "value_final": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22unknown%22%2C%22expiryDate%22%3A%222027-02-02T14%3A30%3A51.868Z%22%7D",
+    "num_events": 12,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "t_gid|.taboola.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::taboola_outbrain → IDENTITY_TRACKING::googl_stack",
+    "value_initial": "676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68",
+    "value_final": "676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68",
+    "num_events": 44,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "t_pt_gid|.taboola.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::taboola_outbrain → IDENTITY_TRACKING::googl_stack",
+    "value_initial": "676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68",
+    "value_final": "676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68",
+    "num_events": 26,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "TDID|.adsrvr.org|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::the_trade_desk → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "be58bfb0-247c-4a18-a029-397c23dfd1d5",
+    "value_final": "be58bfb0-247c-4a18-a029-397c23dfd1d5",
+    "num_events": 299,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pprv|.egora.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::rossel_advertising → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCIxIjp7Im1vZGUiOiJvcHQtaW4ifSwiMiI6eyJtb2RlIjoib3B0LWluIn0sIjMiOnsibW9kZSI6Im9wdC1pbiJ9LCI0Ijp7Im1vZGUiOiJvcHQtaW4ifSwiNSI6eyJtb2RlIjoib3B0LWluIn0sIjYiOnsibW9kZSI6Im9wdC1pbiJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjpudWxsLCJfdCI6Im16Zm1oZWs0fG1qcjdqeDg0In0%3D",
+    "value_final": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6Im9wdC1pbiJ9LCIxIjp7Im1vZGUiOiJvcHQtaW4ifSwiMiI6eyJtb2RlIjoib3B0LWluIn0sIjMiOnsibW9kZSI6Im9wdC1pbiJ9LCI0Ijp7Im1vZGUiOiJvcHQtaW4ifSwiNSI6eyJtb2RlIjoib3B0LWluIn0sIjYiOnsibW9kZSI6Im9wdC1pbiJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjpudWxsLCJfdCI6Im16Zm1oZWs0fG1qcjdqeDg0In0%3D",
+    "num_events": 84,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pcid|.egora.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22browserId%22%3A%22mjr7jx7yt00iz3by%22%2C%22_t%22%3A%22mzfmhekz%7Cmjr7jx8z%22%7D",
+    "value_final": "%7B%22browserId%22%3A%22mjr7jx7yt00iz3by%22%2C%22_t%22%3A%22mzfmhekz%7Cmjr7jx8z%22%7D",
+    "num_events": 14,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pprv|.ina.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::rossel_advertising → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6Im9wdC1pbiJ9LCIxIjp7Im1vZGUiOiJvcHQtaW4ifSwiMiI6eyJtb2RlIjoib3B0LWluIn0sIjMiOnsibW9kZSI6Im9wdC1pbiJ9LCI0Ijp7Im1vZGUiOiJvcHQtaW4ifSwiNSI6eyJtb2RlIjoib3B0LWluIn0sIjYiOnsibW9kZSI6Im9wdC1pbiJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjEiOiJBRCIsIjIiOiJDUCIsIjMiOiJQUiIsIjQiOiJQUiIsIjUiOiJQUiIsIjYiOiJBRCIsIjciOiJETCJ9LCJfdCI6Im16Zm1wYmR0fG1qcjdydTF0In0%3D",
+    "value_final": "eyJjb25zZW50Ijp7IjAiOnsibW9kZSI6ImVzc2VudGlhbCJ9LCI3Ijp7Im1vZGUiOiJvcHQtaW4ifX0sInB1cnBvc2VzIjp7IjAiOiJBTSIsIjciOiJETCJ9LCJfdCI6Im16Zm1wYmR0fG1qcjdydTF0In0%3D",
+    "num_events": 24,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uuid2|.adnxs.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::appnexus_xandr → IDENTITY_TRACKING::generic_adtech",
+    "value_initial": "8830334367556779950",
+    "value_final": "8830334367556779950",
+    "num_events": 96,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "___iat_gid|.insurads.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::taboola_outbrain → IDENTITY_TRACKING::googl_stack",
+    "value_initial": "A5B9F23561B3D157",
+    "value_final": "A5B9F23561B3D157",
+    "num_events": 6,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "bcookie|.linkedin.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::linkedin_extended → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "\"v=2&0278dff4-13a8-4777-8216-61a16f6944be\"",
+    "value_final": "\"v=2&0278dff4-13a8-4777-8216-61a16f6944be\"",
+    "num_events": 38,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.criteo.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "u3gDhV8lMkJCQ2c3VDJhbXpJMyUyRllCVm1mbG9JVEszVmdmJTJCQ2c2YURnMkhnd0k1UFFrN3F0Q3g2dzRxUlc4dDNKenVHRGNBeFV4OENtMndUWDBPdkt3WkNmMGJiajdZRmQlMkZ5JTJCbEhYUk93bzhZNWpsaXdnWnBORzdBT2g5Vm15WVRnOWdxYkowT3hYJTJCZzZ5QnFhbWJhMDV6QSUyQk9NUSUzRCUzRA",
+    "value_final": "OceiLl9yakMlMkZEJTJGUkRpVXROV002a2NRem9qM3h4aVEwNU03ZFdaeTZXRUlNMUgxeWF2RFVteU52QzQ1YnlaaktaTkhlSHFaM3VmbE5DMlZpQnE3WG1wTTlaaFVHTTdHMjV6Y0luUzEyWlhmaDlwRkdHR1d1RktZMUpveEdsRERDVzBUdHZNdlk5RTNWQUk3dWw0MGJqcWNscWxBJTNEJTNE",
+    "num_events": 70,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.lesciseauxmagiques.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "_Y0p7V9ERDJUQkxBdFVLYm5xQUNiNGo2NGFLTFNxSU1NNEppSWlFbDhDanBrOHNnS2htMjdYZHFOMTVidXpUbjRGMjNBS0VMdm5EQWZPbXpRYjR2UkVhTlczUUpGJTJCR0RqZXh5MDVkRHNoam1RYTMzVTRSSEdiJTJCcGRlY2pXZ0FMdFlLVEhjVUlzODM4MlZvYTg5VDdkdTU3eHh5VmZJQ3NoSjc2NDQlMkZCZnNYOVJNZDglM0Q",
+    "value_final": "08b-lF9ERDJUQkxBdFVLYm5xQUNiNGo2NGFNcFNMMk9Uak8wSEhNVUt3VUJwekpNaHl0dldxTWd0NmFLRiUyRlhDTHU2c1ozMUFnVndUeG9qa0lEJTJGUWNSM3RFNGI3ZFd3T2dyaEpDdlI5STJDQW5oWTczWVFnY0kwUEdHZHVtSUFwQ3V1OHRNUXhwcjZNcGFzMml4Mk1RNWZ0TTVFekZFM3Q2MHlsbzNFdUE5djRVNjcwJTNE",
+    "num_events": 12,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cmp_firstid_consented|.capital.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::first_id → CONSENT_AND_PRIVACY::consent_management",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "obuid|.outbrain.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::taboola_outbrain → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "cf549a9d-114a-4aa1-af15-63cad58f1127",
+    "value_final": "cf549a9d-114a-4aa1-af15-63cad58f1127",
+    "num_events": 91,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "zc|.zeotap.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::zeotap → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "66b5bb40-0dba-40f6-7558-856bb07dddf3",
+    "value_final": "66b5bb40-0dba-40f6-7558-856bb07dddf3",
+    "num_events": 36,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.glisshop.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "kg4oLV9yVW83Y3B1d2pXMWglMkZMV1gwMmpmOXJDWEl6ZjNCWmpKRlE5eDVPTUtta0VZV2hQYXJZWFZyZEh2Z212WHdOWG4wM2VmR1VWZnZvc3VCYWZZS3cxV0pXTVJkaWo4aEltNURqRlQzS1klMkJOQlgxVDhVWTE4alVSeTM2TlNNelVWNEUwR25qZHJYVHk1UmxRVnVnWDRPcU9nJTNEJTNE",
+    "value_final": "kg4oLV9yVW83Y3B1d2pXMWglMkZMV1gwMmpmOXJDWEl6ZjNCWmpKRlE5eDVPTUtta0VZV2hQYXJZWFZyZEh2Z212WHdOWG4wM2VmR1VWZnZvc3VCYWZZS3cxV0pXTVJkaWo4aEltNURqRlQzS1klMkJOQlgxVDhVWTE4alVSeTM2TlNNelVWNEUwR25qZHJYVHk1UmxRVnVnWDRPcU9nJTNEJTNE",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "cto_bundle|.europosters.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "lkTTyF91c0JxZGRadWE1ZU1sZDNwM1BlT0dLRXpQVFVRUWZPTXVWbG96MkJLbnhaNGdpdWw5Nk9leTRlRldCZE1HQVNqNyUyQjklMkZLZU1IMGlHSFFja0lESiUyRkdTN3hKMnVDWHg0cjJNUlU2R2pyY3VTNkd4T0JNQlM2NGdEMWVRRGZUOUolMkZ6aWxqVXZ6bzJ0TDNiZ0FUd0NtNUk3ZyUzRCUzRA",
+    "value_final": "Bv0fj191c0JxZGRadWE1ZU1sZDNwM1BlT0dGTVNKc2NUNEJqR0JHVHdoaGFzY1FxJTJCZldnd3RtbTZVYzA1VEhiZ2V6UlByJTJCQ2NJcFdBUEdPQU40Ym5jaE92QjlqekdTcXl0biUyQlpLdSUyQmklMkZ2Y3NTYXh2SzhPR0glMkZhZmh6Wml6RFM1bVdQUEVGMFhUTkZmN0VtMVo3YzJ5Y2hMekElM0QlM0Q",
+    "num_events": 10,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sbjs_session|.topsitestreaming.info|/",
+    "transition": "NAVIGATION_HISTORY::session_journey → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "pgs%3D2%7C%7C%7Ccpg%3Dhttps%3A%2F%2Ftopsitestreaming.info%2Fajouter-un-site%2F",
+    "value_final": "pgs%3D1%7C%7C%7Ccpg%3Dhttps%3A%2F%2Ftopsitestreaming.info%2F",
+    "num_events": 18,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__utmt|.abkingdom.com|/",
+    "transition": "NAVIGATION_HISTORY::ga_extended → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 10,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "rl_page_init_referrer|.les-transferts.com|/",
+    "transition": "NAVIGATION_HISTORY::referrer_data → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "RS_ENC_v3_IiRkaXJlY3Qi",
+    "value_final": "%22https%3A%2F%2Fwww.les-transferts.com%2Frumeurs-transferts%2F%22",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSession_5001254|.monsieur-meuble.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjU3ZTVkNzQxLWE2NzYtNDNiMi1hYmQ1LTgyNDUwYWNjN2M4ZCIsImMiOjE3NjcwMTcyNjA4MTYsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+    "value_final": "eyJpZCI6IjUyODg1YmJhLTExM2EtNGY0YS1hOGNjLTk2Y2NiNWQwZDE0NSIsImMiOjE3NzAwNjA1OTEzOTMsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+    "num_events": 78,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.glisshop.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "13perfy%5E1767371256706%5E2%5E1%5Ei.clarity.ms%2Fcollect",
+    "value_final": "176ktdf%5E1769814281988%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSession_2464332|.buycycle.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6Ijc2NzYzNDdkLTdiZDktNDk0OS05MDBmLWY1YWE4NDZiMGQwMSIsImMiOjE3NjcwOTYxNDY5MzgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "value_final": "eyJpZCI6Ijc2NzYzNDdkLTdiZDktNDk0OS05MDBmLWY1YWE4NDZiMGQwMSIsImMiOjE3NjcwOTYxNDY5MzgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "num_events": 13,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_clsk|.les-transferts.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "b524mx%5E1767103968881%5E3%5E1%5Ei.clarity.ms%2Fcollect",
+    "value_final": "1a8hrkv%5E1770060048202%5E10%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.billetreduc.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "145nkxl%5E1767106649743%5E2%5E1%5Eq.clarity.ms%2Fcollect",
+    "value_final": "lmfsn8%5E1770076617342%5E4%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 12,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "capping|www.sexetag.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "%5B%5D",
+    "value_final": "%7B%22176%22%3A%5B1770031031%5D%2C%22173%22%3A%5B1770031031%5D%7D",
+    "num_events": 14,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "___iat_ses|.nostalgie.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "A5B9F23561B3D157",
+    "value_final": "A5B9F23561B3D157",
+    "num_events": 5,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "___nrbic|.les-transferts.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "2|t8365a|t81rts|t83645|08cd2ccd-938a-46db-8d6d-a237633d01a8|%5B%5D|true|3|https%3A%2F%2Fwww.les-transferts.com%2F||2024-07-30T15%3A31%3A39%2B02%3A00|",
+    "value_final": "2|t9uj2f|t9p69m|t9uiw0|77df2206-1b7a-4aa1-a587-78b85a4da1c4|%5B%5D|true|10|https%3A%2F%2Fwww.les-transferts.com%2F||2024-07-30T15%3A31%3A39%2B02%3A00|",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "___nrbi|.les-transferts.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "2|t81rts|0ac18a7c-3d2f-4c28-9268-d5bdb5d87535|%5B%5D|t83645|2|||",
+    "value_final": "2|t81rts|0ac18a7c-3d2f-4c28-9268-d5bdb5d87535|%5B%5D|t9uiw0|6|||",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "st_csd|.seedtag.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1767107502222:1767107502222",
+    "value_final": "1769794432078:1769794432078",
+    "num_events": 2,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "st_cs|.seedtag.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "I1fhhr4VT02FpO0OVzaXpGGaF3uWwe738kkmbiMZAWofPPHwP6X1edL4pENDgPkC7jobTSgzlQgKKF3CtAdcPx3Zgd8lnSo+gbFNMqBTc2GDiEdSp5Qka9XpfgASkuaCbgwsLLU4fIloGqGFQ3gT1TWbw8HsEbRP8MaST9NSl3WZZHj+hUDj+xZMUhI9hc/8dZK6qnbNQ2jl/rIBaU5sMKH1qOpi1Lyo71i9hFzxgfZURZENR7UoKVxnB/zkxx7YoX53ueVpmJzgknEVsDgxhieK4/hoQlTNTkQCN7B60hbn34xOoCFhEi7RRipdb+MpZh6HJ792sphgokKEkchZDoQPU3+IGIz6zqH1fG7OpFOU/W9+jinfyRsQvwtebsyJWlXaGzgnKOZuFRGY+ViS2JFs+Zv5EpyCHgE2V56n5rkxxJ7wXZoH5ZyBkzkV93CX+nXbxF6mifNOvsXNjaLXcFh63ghaIirQffRw/EoU8VzTFB05OJmf+b+rpC1h3bUM7K0Hx6EH2/flinadqdE5qnYfhFiqmjtPp+IX0oXH1V8U5D3RPwYngq/nNlbud7dWv6NZvprA5IYgWPAENwFVuC8IyZuAQMxJiGG0lVlAPkPjEvTqWSs4BPPtEhmkuFeGJCgMwux1T4jxiQ/24QXHivRdtpzWfKrPDYxJfYVvJ94=",
+    "value_final": "q2XOPmBfipvfk6QCrKDd1GgjUqi/XvEJlzoy5Slci8Wgf1kYeoII2ZP78GuMrZSrdmIZf+CRUgiKrbpBAyk8kh+2n7QBX+G56CRCSWuPZoYHvy0RWIkms7ypbNKx6e2VDdLjhsjV+wr5s9HSvqyY4KpJrCd3ro1gI4HnUxKfHNo3qSWpJUO001OrmOsFVYrqm61Fpj5tCHyqCWavvcXgDolPeZi/WuAWyHAmS/5kXnegCVqFyyKza11LJsk9GB5m4Qs26ASTPfJJeAD7mZ26EmR0HEM/0/Bjhes2ihBIuR4nYR3Z6W3CPIUD1GASplRKDTFJ0WxmaBX3Y0dZ9z2cTMAcaspyIvalKcy2n9ugUmPK+qNPWJy+vrtfg0fNzeCIoPaz6Zr4aBBsKRkjh28SjusRRCHSFF6q96vqLrQ9IPbGml/vcA0DBg7uNbotM2MmeknhRIMTI/tBJtM9S/cwuvDj5YvPykqGAzeu2dciM19+K9GA2U+dZW2TtZ4i7y2DoT0UTF5z1Zd+WGDPRcXsgGg5Qs5UsBEKvadLLO7HAIoH+83+Zu9GPSj1LggZtrQ8QY3ROvLquSqzIsVbviW5V7SQURuf3AQjdv5Y4NbeP1owWoCVJoxluotkeQoYm3TXrUB461fncoJIgvAZ7EmZdHvmC90xvp7B9c+k+2TAau+xP0DQXEUTGEfxhXKuHFWmbnzCSTsMc1LWh/Ls7xxIAdIOqc8uXvyOJeLlHN2UFqSvcMvMrQ0YhhEKTwBogx5QpdnANpjEFPVK6Z0GIJxa46UDs8qJ+e9YQ85LdrMWjanNSQILPJQhuEpP4X4ty2aGBK4FkjSWSIydg0gMFOD3BOzYrfWI500CjEcSF6G+FqGvenBlXtpBxXLpTZxVGbcOwfjddg4RejZejnKZ/t3uQt5HTt1O8CLAIsi1f1RU728=",
+    "num_events": 2,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sp|.playvod.com|/",
+    "transition": "IDENTITY_TRACKING::cluster_session → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "0d2a2c2f-51f0-cfb4-7127-826e7d429b19",
+    "value_final": "0d2a2c2f-51f0-cfb4-7127-826e7d429b19",
+    "num_events": 72,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KADUSERCOOKIE|.pubmatic.com|/",
+    "transition": "IDENTITY_TRACKING::vendor_specific_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "8788CB44-3709-4D04-8FED-D21DB4E8B2E9",
+    "value_final": "8788CB44-3709-4D04-8FED-D21DB4E8B2E9",
+    "num_events": 144,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sd_amuid2|.prebid.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 228,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "psd_amuid2|.prebid.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 144,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pamuid2|.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 156,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|.prebid-server.pbstck.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJhZG54cyI6eyJ1aWQiOiI4ODMwMzM0MzY3NTU2Nzc5OTUwIiwiZXhwaXJlcyI6IjIwMjYtMDEtMTJUMTk6MzQ6NDEuODYyNjkzMDY3WiJ9LCJyaWNoYXVkaWVuY2UiOnsidWlkIjoiNzllOWVlMWYtZDI3NC00ZjA2LWJhMzEtMXp6MTc2NzAzMDMyNCIsImV4cGlyZXMiOiIyMDI2LTAxLTEyVDE3OjU3OjMzLjU1NTQyMjQxMVoifSwicnViaWNvbiI6eyJ1aWQiOiJNSlI3SzQwTS0xMS1JQldYIiwiZXhwaXJlcyI6IjIwMjYtMDEtMTJUMTk6MzQ6MzguOTAzODQzNTU5WiJ9LCJzbWFydGFkc2VydmVyIjp7InVpZCI6IjY1MjM1MjI0NzY5MDM1MTk4NzIiLCJleHBpcmVzIjoiMjAyNi0wMS0xMlQxOTozNDozOS4yMzg1NDg0NzJaIn19fQ==",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJhZG54cyI6eyJ1aWQiOiI4ODMwMzM0MzY3NTU2Nzc5OTUwIiwiZXhwaXJlcyI6IjIwMjYtMDEtMTJUMTk6MzQ6NDEuODYyNjkzMDY3WiJ9LCJyaWNoYXVkaWVuY2UiOnsidWlkIjoiNzllOWVlMWYtZDI3NC00ZjA2LWJhMzEtMXp6MTc2NzAzMDMyNCIsImV4cGlyZXMiOiIyMDI2LTAxLTEyVDE3OjU3OjMzLjU1NTQyMjQxMVoifSwicnViaWNvbiI6eyJ1aWQiOiJNSlI3SzQwTS0xMS1JQldYIiwiZXhwaXJlcyI6IjIwMjYtMDEtMTJUMTk6MzQ6MzguOTAzODQzNTU5WiJ9LCJzbWFydGFkc2VydmVyIjp7InVpZCI6IjY1MjM1MjI0NzY5MDM1MTk4NzIiLCJleHBpcmVzIjoiMjAyNi0wMS0xMlQxOTozNDozOS4yMzg1NDg0NzJaIn19fQ==",
+    "num_events": 12,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "psd_amuid2|.sync.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 84,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "avcid-ris-uid|.richaudience.com|/",
+    "transition": "IDENTITY_TRACKING::generic_ids → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "LklxEU4cC",
+    "value_final": "ZwveDZ9ck",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ajs_anonymous_id|.sezane.com|/",
+    "transition": "IDENTITY_TRACKING::segment_io → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "ab4a5e2c-9ce6-4575-8490-2bc84513f66a",
+    "value_final": "ab4a5e2c-9ce6-4575-8490-2bc84513f66a",
+    "num_events": 72,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ttp|.billetreduc.com|/",
+    "transition": "IDENTITY_TRACKING::tiktok_stack → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "KId00n6WKlEuokVKZwIgkAVRfVA",
+    "value_final": "KId00n6WKlEuokVKZwIgkAVRfVA.tt.1",
+    "num_events": 39,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pamuid2|.a-mx.com|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "num_events": 48,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amuid2|.a-mx.com|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "num_events": 48,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "expressiosession|www.expressio.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → SESSION_MANAGEMENT::ai_refined",
+    "value_initial": "dqedikf53rt300rfbuq5a0uubpgrhgr4",
+    "value_final": "s7am1marnqbi27tpi5fof2c1sm1264bi",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "_snrs_p|.lesciseauxmagiques.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "host:lesciseauxmagiques.fr&permUuid:89988065-eb4f-43e7-9151-428bde945218&uuid:89988065-eb4f-43e7-9151-428bde945218&identityHash:&user_hash:&init:1767012833&last:1767012833&current:1767030463&uniqueVisits:1&allVisits:2&globalControlGroup:false",
+    "value_final": "host:lesciseauxmagiques.fr&permUuid:89988065-eb4f-43e7-9151-428bde945218&uuid:89988065-eb4f-43e7-9151-428bde945218&identityHash:-1405117122&user_hash:&init:1767012833&last:1770032965.451&current:1770096762&uniqueVisits:3&allVisits:19&globalControlGroup:false",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_shopify_essential|www.passagedudesir.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → SECURITY_AND_BOT_MITIGATION::ai_refined",
+    "value_initial": ":AZtrVq1nAAH_t0dKo3YBpLpnf3dX1eLpCL-WdtFPZ9WHcnBDtNvyRzBcJ4XfRj_R_DS9ZjpUHHT_Ata9h9jmGLFgaU9PsoXX0WE6ihYYoz_Di1um96oa68JcWCmyp4m0wsrv_G7RN36KLWzI_DjZHwGp9WrTcChq2tgre6MEqUITSYrYCKgY8yA8QhbnICSPT_JBL6oSN7ZhhJX-zDU60X2AvSovKrXDzDkGD5PQJwYhrS3mwkQo2Dn1SnyNYna51vgez6d8iRIvb4OlgbUDmpXGndtwkrXNdYQJ66AvW-e7q9chsY_COGm4m7r-ePKPYdMxnXKcpqce-jd0jsjfKfflpho8B8KD1vwHygI673bHz9sO-T61nXoEZFtLQfMfcXujUngJ2iUNCQTg9iorHtZ_x3_S9MZrAgNUz61IQBdI6udVupLCVyrmikTCcSdBm86F_hQdx4Aby7Fz7lGyryUQeGGE-GHcjRkHp3zP7wOCjEPFhW4pcr8Kg3ajYFbZrA:",
+    "value_final": ":AZtrVq1nAAEA5fSmUOXJrnQ3oQDhTX6vr2CCNb_utMkKodDtqFME7QvBUZWRwZoUVoRNUGoh3ih_yhtwCYl0uz4kWDogKOV9WCpUTYwnuIQpzsIGb_cIAukEkF_ELN6NhatgV72AkryRwJ0ZhdwjR4lqhYtQYecpSyh0MC7gtOe7gH6bhGRzGkGDUOzUdh66rtNZ7E0GCSoz8W8hCdyjMrvoha98kPi6uWVVrUgz37Cz6eHsfaV7LxeFP7JHyEGf5zBzlkvlcDdJ7aqvP6PcYz4U0rOrOzIjEn6V4xnXqdNk7bHl6SyvIbOebKS4RTPEtKCjPg_j7Oe9b6SUNGV10LwZD8N4JEJEopBVnPEnkEgXXx1RL-ua13YRSniD6MslpnB3Zmc7yHr03IKSkcZJ9zBW-zOmoTYaoPcu-974dXsa3pajYMlw0eNo-Z5K5TamqOsa2Ie0VjTzeIaGWp4BhCA-bn8jCa7P:",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pb_rtb_ev_part|.contextweb.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "3-22d2|7GB.0.1|7TZ.0.1",
+    "value_final": "3-2305|2N.0|7GB.8.1|3oy.0|4is.8|7TY.0|7I7.h.1",
+    "num_events": 8,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "aaaaaaaaaa836e9f867514c72901ae6ef42eccfe1_v|.aubert.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1.2.31746.H:1:1$bey$G:1:1....$:$.D$b$1767029939788",
+    "value_final": "5.24.3531062.H:1:6$bey$G:0:2$bey$C:1:13$bey$FP:1:3....$:$.C$b$1770082615420",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "aaaaaaaaaa836e9f867514c72901ae6ef42eccfe1_cs|.aubert.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "NjhkODgxYmUtYjNlNy00MDQzLTg5YzAtNTdhYjAzZWZjOGNlJGJleWNzJGI3NjNiZjMwLWViYWUtNGQ0MS1iZTQ1LTk3MDc4OTFlMjI3MQ==",
+    "value_final": "NjhkODgxYmUtYjNlNy00MDQzLTg5YzAtNTdhYjAzZWZjOGNlJGJleWNzJDc5OTY4MTg2LTFiNWYtNDAxOC1hY2RlLThiZTBhMWQzMjk2NiRiZXljcyRhZDg4ZTc4YS1kNjRlLTQ3NTYtOTAwYS1mMmIzZWQwNjMyMGMkYmV5Y3MkZDYzMTUyZTMtMDhkYi00NmU3LWFjZmEtYTFiYTM0MjhmODQy",
+    "num_events": 11,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "6701_ut|.newsroom.bi|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 3,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "didomi_token|.ouest-france.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "eyJ1c2VyX2lkIjoiMTliNmIzN2QtZTE5NS02OGNmLWI2YmItZTg4NGYxODY3MWY1IiwiY3JlYXRlZCI6IjIwMjUtMTItMjlUMTc6NDY6MjIuMTA1WiIsInVwZGF0ZWQiOiIyMDI1LTEyLTI5VDE3OjQ2OjMyLjczN1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmFidGFzdHljLU1ZVUpyd2VVIiwiYzpzaXBhcHVibGktNnFoOWl6Y24iLCJjOnBvb29sLVZ5aENpdDdOIiwiYzpyZXNlYXV4c28tWldYSGtnZmUiLCJjOnNpcGFvdWVzdC1LVnhnSGdkUSIsImM6c2lwYW91ZXN0LU1MUjhabnlXIiwiYzpzaXBhb3Vlc3QtREpyTmJqSFciLCJjOnNpcGFvdWVzdC1EaEc3azlLYiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImFuYWx5dGljcy16RnJueW1ERSIsInB1YmxpY2l0ZS05bUtCQTZkQyIsImF1dG9wcm9tby1WNFdENDlGdCIsInBhcnRhZ2Vzcy14WFpEd1lpaiIsImFmZmljaGVyZC1IYWJ5SFpmZCIsImFmZmljaGVyZC05N3dOQ2ttNCIsImNvbnRlbnVzYy16TWVnaUZLQiIsInB1YmxpY2l0ZS1OV1hpcHo2TSJdfSwidmVyc2lvbiI6Mn0=",
+    "value_final": "eyJ1c2VyX2lkIjoiMTliNmIzN2QtZTE5NS02OGNmLWI2YmItZTg4NGYxODY3MWY1IiwiY3JlYXRlZCI6IjIwMjUtMTItMjlUMTc6NDY6MjIuMTA1WiIsInVwZGF0ZWQiOiIyMDI1LTEyLTI5VDE3OjQ2OjMyLjczN1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmFidGFzdHljLU1ZVUpyd2VVIiwiYzpzaXBhcHVibGktNnFoOWl6Y24iLCJjOnBvb29sLVZ5aENpdDdOIiwiYzpyZXNlYXV4c28tWldYSGtnZmUiLCJjOnNpcGFvdWVzdC1LVnhnSGdkUSIsImM6c2lwYW91ZXN0LU1MUjhabnlXIiwiYzpzaXBhb3Vlc3QtREpyTmJqSFciLCJjOnNpcGFvdWVzdC1EaEc3azlLYiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSIsImFuYWx5dGljcy16RnJueW1ERSIsInB1YmxpY2l0ZS05bUtCQTZkQyIsImF1dG9wcm9tby1WNFdENDlGdCIsInBhcnRhZ2Vzcy14WFpEd1lpaiIsImFmZmljaGVyZC1IYWJ5SFpmZCIsImFmZmljaGVyZC05N3dOQ2ttNCIsImNvbnRlbnVzYy16TWVnaUZLQiIsInB1YmxpY2l0ZS1OV1hpcHo2TSJdfSwidmVyc2lvbiI6Mn0=",
+    "num_events": 13,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "keep_alive|www.passagedudesir.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → DIRECT_PII_KEYS::postal_code_key",
+    "value_initial": "eyJ2IjoyLCJ0cyI6MTc2NzAzMjg2NjQ4OCwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0IjoxMTEsIm5tIjowLCJtcyI6MCwibWoiOjAsIm1zcCI6MCwidmMiOjAsImNwIjowLCJyYyI6MCwia2oiOjAsImtpIjowLCJzcyI6MCwic2oiOjAsInNzbSI6MCwic3AiOjAsInRzIjowLCJ0aiI6MCwidHAiOjAsInRzbSI6MH0sInNlcyI6eyJwIjoxMywicyI6MTc2NzAzMjQwMjE4MiwiZCI6NDUwfX0%3D",
+    "value_final": "eyJ2IjoyLCJ0cyI6MTc2NzA5OTk0MjExOSwiZW52Ijp7IndkIjowLCJ1YSI6MSwiY3YiOjEsImJyIjoxfSwiYmh2Ijp7Im1hIjowLCJjYSI6MCwia2EiOjAsInNhIjowLCJrYmEiOjAsInRhIjowLCJ0Ijo0Miwibm0iOjAsIm1zIjowLCJtaiI6MCwibXNwIjowLCJ2YyI6MCwiY3AiOjAsInJjIjowLCJraiI6MCwia2kiOjAsInNzIjowLCJzaiI6MCwic3NtIjowLCJzcCI6MCwidHMiOjAsInRqIjowLCJ0cCI6MCwidHNtIjowfSwic2VzIjp7InAiOjcsInMiOjE3NjcwOTk3Njg4MjYsImQiOjE2Mn19",
+    "num_events": 34,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "AWSALBTGCORS|judgehype.substack.com|/",
+    "transition": "APP_STATE_STORAGE::base64_json → INFRASTRUCTURE::load_balancer",
+    "value_initial": "EYmQIHYOuB5KgRMw57sbDfp9927egLS7sK4QfmT1VXCpKIWtCwKKaRvfbNjg8M/vqjgUvexxDtUKv44mgHl30vBEN1FGeP5UvkwnNzdE9N9N3tSGcWQSaxa9euRtOe0z1S2c0U+i65SLapQw/IrDiiIRDW4RD9TVOMr7qhvZBrrV",
+    "value_final": "mbrwN3VF6SGVrmWGs0LirXwnDNdskRPvB0slA7uBy5aYCalO/jVBDoBWNNapaDq5RtvXbYiYTvYr66Kz6SDr4B5bS3yTkl7bAnIF9Uvc0BzUElGBYFVjzF+p46jKUqw5KaSYFPFF0TxHssvqfc8dEbpqyiLnH93w6Hli5rDnh/aC",
+    "num_events": 15,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "didomi_token|.judgehype.com|/",
+    "transition": "APP_STATE_STORAGE::base64_json → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "eyJ1c2VyX2lkIjoiMTliNmI5YTYtZTU1ZS02ZmU0LTgxYTMtN2JlZDFhNzU4OThhIiwiY3JlYXRlZCI6IjIwMjUtMTItMjlUMTk6MzQ6MDEuNTU3WiIsInVwZGF0ZWQiOiIyMDI1LTEyLTI5VDE5OjM0OjM2LjIxMloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwic2FsZXNmb3JjZSIsImFtYXpvbiIsImM6dGFwYWRpbmMtVkRUVVVjS3ciLCJjOmViYXlpbmMtYk5HcmlrUXciLCJjOnVucnVseWdyby1uS3lMcWRLaSIsImM6aW5zdGFncmFtIiwiYzpvcmFjbGVkYXQtejJjcEtDWXQiLCJjOnNwb3R4aW5jLVhKRVJHOHAyIiwiYzppcHJvc3BlY3QtcUppdEZQRUIiLCJjOmFpZGVtdGVjaC1hMnJXeEdSMyIsImM6eW91dHViZSIsImM6dHJpYmFsLWZ1c2lvbiIsImM6YWR0aGVvcmVuLUJQUGRjVEZuIiwiYzpncm91cG11ay1tRkJyTHlBNCIsImM6Z29sZGVuYmVlLVo5YXgyeFlDIiwiYzpzYW1zdW5nYWQtZWNNR0RhSkgiLCJjOmRpZG9taSIsImM6YXdpbi05NjR6TFl0OCIsImM6YmluZy1hZHMiLCJjOnlhaG9vLWFkLWV4Y2hhbmdlIiwiYzpzcG90eGluYy13aUNFZkx5biIsImM6bmV0cmF0aW5ncy1zaXRlY2Vuc3VzIiwiYzphbXBsaWZmeS1xYUtxTTJKZiIsImM6bWFpbmFkdnMtOHhEY21WOUEiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6c2lyZGF0YWNvLXk3emk3RUpiIiwiYzpncmF2YXRhciIsImM6YWRvYmUtdGFnbWFuYWdlciIsImM6ZXhlbGF0ZSIsImM6eWFob28tYW5hbHl0aWNzIiwiYzphZHZlcnRpc2luZ2NvbSIsImM6cXVhbnRjYXN0LW1lYXN1cmVtZW50IiwiYzp0cnVzdGUtY29uc2VudCIsImM6ZXEtYWR2ZXJ0aXNpbmciLCJjOnN5bmFjb3IiLCJjOmFkb3Rtb2IiLCJjOmF2b2NldHN5cy1xN1Zka3ByYiIsImM6bWljcm9zb2Z0IiwiYzp1cHdhdmVpbmMtNkNxWUxpUlEiLCJjOm1ldHJpeGxhYi1pUEpoa1BQUCIsImM6b3JhY2xlYWR2LXF6eEpkUHFKIiwiYzphbWF6b25hZC1pTVVxOE5nWiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJnZW9sb2NhdGlvbl9kYXRhIiwiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6MiwiYWMiOiJERGFBYUFGa0FZZ0I3Z0lrZ1NpQXEtQmlzRFU0SFRnUlNnb0hCUVdERFlBQS5ERGFBYUFGa0FZZ0I3Z0lrZ1NpQXEtQmlzRFU0SFRnUlNnb0hCUVdERFlBQSJ9",
+    "value_final": "eyJ1c2VyX2lkIjoiMTliNmI5YTYtZTU1ZS02ZmU0LTgxYTMtN2JlZDFhNzU4OThhIiwiY3JlYXRlZCI6IjIwMjUtMTItMjlUMTk6MzQ6MDEuNTU3WiIsInVwZGF0ZWQiOiIyMDI1LTEyLTI5VDE5OjM0OjM2LjIxMloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwic2FsZXNmb3JjZSIsImFtYXpvbiIsImM6dGFwYWRpbmMtVkRUVVVjS3ciLCJjOmViYXlpbmMtYk5HcmlrUXciLCJjOnVucnVseWdyby1uS3lMcWRLaSIsImM6aW5zdGFncmFtIiwiYzpvcmFjbGVkYXQtejJjcEtDWXQiLCJjOnNwb3R4aW5jLVhKRVJHOHAyIiwiYzppcHJvc3BlY3QtcUppdEZQRUIiLCJjOmFpZGVtdGVjaC1hMnJXeEdSMyIsImM6eW91dHViZSIsImM6dHJpYmFsLWZ1c2lvbiIsImM6YWR0aGVvcmVuLUJQUGRjVEZuIiwiYzpncm91cG11ay1tRkJyTHlBNCIsImM6Z29sZGVuYmVlLVo5YXgyeFlDIiwiYzpzYW1zdW5nYWQtZWNNR0RhSkgiLCJjOmRpZG9taSIsImM6YXdpbi05NjR6TFl0OCIsImM6YmluZy1hZHMiLCJjOnlhaG9vLWFkLWV4Y2hhbmdlIiwiYzpzcG90eGluYy13aUNFZkx5biIsImM6bmV0cmF0aW5ncy1zaXRlY2Vuc3VzIiwiYzphbXBsaWZmeS1xYUtxTTJKZiIsImM6bWFpbmFkdnMtOHhEY21WOUEiLCJjOmdvb2dsZWFuYS00VFhuSmlnUiIsImM6c2lyZGF0YWNvLXk3emk3RUpiIiwiYzpncmF2YXRhciIsImM6YWRvYmUtdGFnbWFuYWdlciIsImM6ZXhlbGF0ZSIsImM6eWFob28tYW5hbHl0aWNzIiwiYzphZHZlcnRpc2luZ2NvbSIsImM6cXVhbnRjYXN0LW1lYXN1cmVtZW50IiwiYzp0cnVzdGUtY29uc2VudCIsImM6ZXEtYWR2ZXJ0aXNpbmciLCJjOnN5bmFjb3IiLCJjOmFkb3Rtb2IiLCJjOmF2b2NldHN5cy1xN1Zka3ByYiIsImM6bWljcm9zb2Z0IiwiYzp1cHdhdmVpbmMtNkNxWUxpUlEiLCJjOm1ldHJpeGxhYi1pUEpoa1BQUCIsImM6b3JhY2xlYWR2LXF6eEpkUHFKIiwiYzphbWF6b25hZC1pTVVxOE5nWiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJnZW9sb2NhdGlvbl9kYXRhIiwiZGV2aWNlX2NoYXJhY3RlcmlzdGljcyJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6MiwiYWMiOiJERGFBYUFGa0FZZ0I3Z0lrZ1NpQXEtQmlzRFU0SFRnUlNnb0hCUVdERFlBQS5ERGFBYUFGa0FZZ0I3Z0lrZ1NpQXEtQmlzRFU0SFRnUlNnb0hCUVdERFlBQSJ9",
+    "num_events": 13,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "XSRF-TOKEN|www.cinetrafic.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → SECURITY_AND_BOT_MITIGATION::anti_csrf",
+    "value_initial": "eyJpdiI6IjluWEI4TXhOb1p0RWJZbEh2QVZyWVE9PSIsInZhbHVlIjoiMjBTM2xMam1kbTE3MnFKVGcrWU1rMmV6bFJ2VVBnV0hhQXVVcnBCbGFpd0tzN3gwd1lYWktrOGw0U0JZS0NkMCIsIm1hYyI6ImYyYjVmMTUwYzgwZDcyN2E0NjFiZDc3N2FlNTNjNGY4MjU2YTIyMWMzMGFmMmUzOTQzNTY4YWI2YWJiZGE0MDQifQ%3D%3D",
+    "value_final": "eyJpdiI6IkhUM2M3YnE3S2I2MnJPYkgxbHVtT2c9PSIsInZhbHVlIjoiYzFCRnVmNVV3MTVSOWpiVHB2M2UrOFo4ckJPM0RQeXR2d3hCM2xvdDVpTzRLblZ5K2dVZlY0cnlvOTU2XC9ITkUiLCJtYWMiOiJjMTAzNDI0ZWIxNmUwODk3YzYyZTRmMjRjNzk1YjJhZjM3ZTY0YjAxN2I1ZWEwODBkNGUyNzI5ZGZhMGIwMmM0In0%3D",
+    "num_events": 96,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "CHCK|holahupa.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → INFRASTRUCTURE::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "NSC_JOvrvzr4drlbudicr3ezmze3ryg2icM|www.malakoffhumanis.com|/",
+    "transition": "SECURITY_AND_BOT_MITIGATION::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "ffffffff0952eadb45525d5f4f58455e445a4a421efb",
+    "value_final": "ffffffff0952eadb45525d5f4f58455e445a4a421efb",
+    "num_events": 13,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "lidc|.linkedin.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::linkedin_extended → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "\"b=VGST09:s=V:r=V:a=V:p=V:g=3343:u=1:x=1:i=1767014231:t=1767100631:v=2:sig=AQGOoBx_GhCMzKLjBs5IWX68Ze_saJXS\"",
+    "value_final": "\"b=VGST03:s=V:r=V:a=V:p=V:g=3654:u=1:x=1:i=1770086522:t=1770172922:v=2:sig=AQHSkUMTvRuYP-LD-qn8ZyJgit6s12DL\"",
+    "num_events": 4,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__utmt|.france-troc.com|/",
+    "transition": "NAVIGATION_HISTORY::ga_extended → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 9,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pathName|buycycle.com|/",
+    "transition": "NAVIGATION_HISTORY::path_tracking → USER_PREFERENCES::ai_refined",
+    "value_initial": "%2Ffr-fr",
+    "value_final": "%2Ffr-fr",
+    "num_events": 2,
+    "phases": [
+      "auth"
+    ]
+  },
+  {
+    "key": "bey_segment_71b15b91_info|.aubert.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1_1767029939851",
+    "value_final": "0_1770082616261",
+    "num_events": 5,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ajs_anonymous_id|lesciseauxmagiques.fr|/",
+    "transition": "IDENTITY_TRACKING::segment_io → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "ed878569-6d44-4d1a-98c9-81c378087288",
+    "value_final": "319fa028-bd19-48d5-8092-0e513bdf0e64",
+    "num_events": 84,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "gig_canary|cdns.eu1.gigya.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → SECURITY_AND_BOT_MITIGATION::ai_refined",
+    "value_initial": "next",
+    "value_final": "latest",
+    "num_events": 7,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cart|vertigovitalitywieldable.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cart_p|vertigovitalitywieldable.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "2",
+    "value_final": "2",
+    "num_events": 6,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "section_data_ids|www.pharmashopi.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "{%22customer%22:1767101724%2C%22compare-products%22:1767101724%2C%22last-ordered-items%22:1767101724%2C%22cart%22:1767101724%2C%22directory-data%22:1767101724%2C%22captcha%22:1767101724%2C%22instant-purchase%22:1767101724%2C%22loggedAsCustomer%22:1767101724%2C%22persistent%22:1767101724%2C%22review%22:1767101724%2C%22payments%22:1767101724%2C%22wishlist%22:1767101724%2C%22aw-afptc-promo%22:1767101724%2C%22amga4_event_pool%22:1767101724%2C%22rewards%22:1767101724%2C%22cartpopup%22:1767101724%2C%22recently_viewed_product%22:1767101724%2C%22recently_compared_product%22:1767101724%2C%22product_data_storage%22:1767101724%2C%22paypal-billing-agreement%22:1767101724}",
+    "value_final": "{%22cart%22:1770092714%2C%22directory-data%22:1770092714%2C%22aw-afptc-promo%22:1770092714%2C%22cartpopup%22:1770092714}",
+    "num_events": 5,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "bc-geolocation-data|www.les-transferts.com|/",
+    "transition": "DIRECT_PII_KEYS::geolocation → LOCATION_AND_DEMOGRAPHICS::ai_refined",
+    "value_initial": "FR-France-IDF-%C3%8Ele_de_France-Paris",
+    "value_final": "MX-Mexico-ROO-Quintana%20Roo-Canc%C3%BAn",
+    "num_events": 7,
+    "phases": [
+      "auth",
+      "perssistence"
+    ]
+  },
+  {
+    "key": "locale|www.fastslots.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → USER_PREFERENCES::language",
+    "value_initial": "fr-FR",
+    "value_final": "fr-FR",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "country|www.fastslots.com|/",
+    "transition": "LOCATION_AND_DEMOGRAPHICS::general_loc → DIRECT_PII_KEYS::country_key",
+    "value_initial": "MX",
+    "value_final": "MX",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_1278|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23329-31ae297d-d696-454e-9c53-b857d30476e9&KRTB&23498-31ae297d-d696-454e-9c53-b857d30476e9",
+    "value_final": "23329-31ae297d-d696-454e-9c53-b857d30476e9&KRTB&23498-31ae297d-d696-454e-9c53-b857d30476e9",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_27|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "16735-uid:893c6952-cbc2-4900-a5d5-387c10acd2b8",
+    "value_final": "16735-uid:893c6952-cbc2-4900-a5d5-387c10acd2b8",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_964|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "20918-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1&KRTB&23354-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1&KRTB&23415-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1&KRTB&23422-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1",
+    "value_final": "20918-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1&KRTB&23354-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1&KRTB&23415-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1&KRTB&23422-cuid_85da04f0-fdd3-11f0-a333-42010ab2fff1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_1466|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23578-a041b191-bf9a-4fd9-924a-0bdce2f8ce34&KRTB&23592-a041b191-bf9a-4fd9-924a-0bdce2f8ce34",
+    "value_final": "23578-a041b191-bf9a-4fd9-924a-0bdce2f8ce34&KRTB&23592-a041b191-bf9a-4fd9-924a-0bdce2f8ce34",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_22|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "14911-3224660669439294060&KRTB&23150-3224660669439294060&KRTB&23527-3224660669439294060&KRTB&23629-3224660669439294060",
+    "value_final": "14911-3224660669439294060&KRTB&23150-3224660669439294060&KRTB&23527-3224660669439294060&KRTB&23629-3224660669439294060",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_740|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23053-6952C10EFFCA554B86A28936_&KRTB&23460-6952C10EFFCA554B86A28936_&KRTB&23518-6952C10EFFCA554B86A28936_&KRTB&23654-6952C10EFFCA554B86A28936_",
+    "value_final": "23053-6952C10EFFCA554B86A28936_&KRTB&23460-6952C10EFFCA554B86A28936_&KRTB&23518-6952C10EFFCA554B86A28936_&KRTB&23654-6952C10EFFCA554B86A28936_",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_466|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "16530-cca12984-1f6d-4cdb-8468-9917cb2d0d06&KRTB&23280-cca12984-1f6d-4cdb-8468-9917cb2d0d06",
+    "value_final": "16530-cca12984-1f6d-4cdb-8468-9917cb2d0d06&KRTB&23280-cca12984-1f6d-4cdb-8468-9917cb2d0d06",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_80|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "16514-CAESED5cocWChXp0z_EbWm5KObM&KRTB&22987-CAESED5cocWChXp0z_EbWm5KObM&KRTB&23025-CAESED5cocWChXp0z_EbWm5KObM&KRTB&23386-CAESED5cocWChXp0z_EbWm5KObM",
+    "value_final": "16514-CAESEIEh4ZkE6o9jrma_WwLtGQI&KRTB&22987-CAESEIEh4ZkE6o9jrma_WwLtGQI&KRTB&23025-CAESEIEh4ZkE6o9jrma_WwLtGQI&KRTB&23386-CAESEIEh4ZkE6o9jrma_WwLtGQI",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_904|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23554-iNS9fWKvCXms9g4T8opSaQ&KRTB&23586-iNS9fWKvCXms9g4T8opSaQ&KRTB&23702-iNS9fWKvCXms9g4T8opSaQ",
+    "value_final": "23554-iNS9fWKvCXms9g4T8opSaQ&KRTB&23586-iNS9fWKvCXms9g4T8opSaQ&KRTB&23702-iNS9fWKvCXms9g4T8opSaQ",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_32|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "11175-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed&KRTB&22715-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed&KRTB&23519-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed&KRTB&23632-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed",
+    "value_final": "11175-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed&KRTB&22715-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed&KRTB&23519-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed&KRTB&23632-AQAGRZcVn8JIrgJ0035sAQEBAQEBAQCdDouXnQEBAJ0Oi5ed",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_57|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "22776-8830334367556779950&KRTB&23339-8830334367556779950",
+    "value_final": "22776-8830334367556779950&KRTB&23339-8830334367556779950",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_1465|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23572-A2162136632386021941",
+    "value_final": "23572-A2162136632386021941",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_594|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "17105-RX-f0df1a5f-4561-4d50-afb1-b06534a4ffa4-003&KRTB&17107-RX-f0df1a5f-4561-4d50-afb1-b06534a4ffa4-003",
+    "value_final": "17105-RX-f0df1a5f-4561-4d50-afb1-b06534a4ffa4-003&KRTB&17107-RX-f0df1a5f-4561-4d50-afb1-b06534a4ffa4-003",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_632|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23041-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk&KRTB&23047-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk&KRTB&23234-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk&KRTB&23361-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk",
+    "value_final": "23041-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk&KRTB&23047-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk&KRTB&23234-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk&KRTB&23361-DElx-3HT8TbUVmJ-U1YCuhgHWCGnR7d2EGD7EpQEpGk",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_1097|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "23028-eadadc71-bfb4-4520-81db-f50cfcd10554",
+    "value_final": "23028-eadadc71-bfb4-4520-81db-f50cfcd10554",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "consent_piano_disallow|madelen.ina.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → CONSENT_AND_PRIVACY::consent_management",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pcid|.bonoboplanet.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22browserId%22%3A%22ml19o1j630qyly8d%22%2C%22_t%22%3A%22n0poliwe%7Cml19o1ke%22%7D",
+    "value_final": "%7B%22browserId%22%3A%22ml19o1j630qyly8d%22%2C%22_t%22%3A%22n0poliwe%7Cml19o1ke%22%7D",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.aliexpress.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "pfshrl9ZTzYzREVwRGh6cHVQbTl5QkxrY2p3b0cydkcwYWg1UCUyQnRsTG5KZXRmZDM0UVN1aGlBUzd4YVpJWjN1dGxZdDVESFpOSSUyQkJ2czJ2JTJCZU1xSUF4eThDNVdyU2J0MkdENEFnckZoY3B1MkhKYU10NW8yODVMb1NFOHh0QVJWYVh5NXpqWGxyZlZJM1BPNWNoNW9CQ0VORlElM0QlM0Q",
+    "value_final": "xKMs7l9ZTzYzREVwRGh6cHVQbTl5QkxrY2p6RWpMOFJNbSUyRmpmeiUyQjNqSXZadXRRa2NiQXJRZE1yZGVHa0VtJTJGRUdlSFRhNVBUcTV5d0NSNTI5eVBZYWxBNHJ1eFJUc2Z2Nmo1ZHBnV3NOTlhsJTJGM2ZxUFliNkRMc0FjM1hzdmZRamExRW9UQXFiN1hSbldsMmVRQ3ZPQ2Jld2NVdyUzRCUzRA",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_391|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "22924-2884890098992194789&KRTB&23231-2884890098992194789&KRTB&23263-2884890098992194789&KRTB&23481-2884890098992194789",
+    "value_final": "22924-2884890098992194789&KRTB&23231-2884890098992194789&KRTB&23263-2884890098992194789&KRTB&23481-2884890098992194789",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "KRTBCOOKIE_377|.pubmatic.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::pubmatic → IDENTITY_TRACKING::microsoft_stack",
+    "value_initial": "6810-be58bfb0-247c-4a18-a029-397c23dfd1d5&KRTB&22918-be58bfb0-247c-4a18-a029-397c23dfd1d5&KRTB&22926-be58bfb0-247c-4a18-a029-397c23dfd1d5&KRTB&23031-be58bfb0-247c-4a18-a029-397c23dfd1d5",
+    "value_final": "6810-be58bfb0-247c-4a18-a029-397c23dfd1d5&KRTB&22918-be58bfb0-247c-4a18-a029-397c23dfd1d5&KRTB&22926-be58bfb0-247c-4a18-a029-397c23dfd1d5&KRTB&23031-be58bfb0-247c-4a18-a029-397c23dfd1d5",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.les-transferts.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "wq2CE19xUTU0YTVOJTJGcThnNnhPZHQ4MXQwOEZqTlZQaCUyQks1WTNRZW5oSVp3SkZLM0pQbEJPREc4eFFIJTJCeE1TUE5yTzVBZ3EzMkhNa3NlRCUyRmFJSllOU05WdUZWNWNvT1JmN0RNVVFianFIUExLRnclMkI2V3FIWm1rQk56eHYxZUVOYm9FRklLUGlDalhOOTdpbFNpJTJGMUR4ZFlNUXFpTjV3b2lWM0J5anJnNDBPb2xaWHclM0Q",
+    "value_final": "wq2CE19xUTU0YTVOJTJGcThnNnhPZHQ4MXQwOEZqTlZQaCUyQks1WTNRZW5oSVp3SkZLM0pQbEJPREc4eFFIJTJCeE1TUE5yTzVBZ3EzMkhNa3NlRCUyRmFJSllOU05WdUZWNWNvT1JmN0RNVVFianFIUExLRnclMkI2V3FIWm1rQk56eHYxZUVOYm9FRklLUGlDalhOOTdpbFNpJTJGMUR4ZFlNUXFpTjV3b2lWM0J5anJnNDBPb2xaWHclM0Q",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pcid|.vibs.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22browserId%22%3A%22ml5on11fpd4qmz2r%22%2C%22_t%22%3A%22n0u3kie0%7Cml5on120%22%7D",
+    "value_final": "%7B%22browserId%22%3A%22ml5on11fpd4qmz2r%22%2C%22_t%22%3A%22n0u3kie0%7Cml5on120%22%7D",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__rtbh.uid|www.vibs.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::rtb_house → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22%22%2C%22expiryDate%22%3A%222027-02-02T21%3A29%3A36.978Z%22%7D",
+    "value_final": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22%22%2C%22expiryDate%22%3A%222027-02-02T21%3A29%3A36.978Z%22%7D",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.transavia.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "pvKr3l9KSG5SJTJCS1pVR2cwQWpwcDF6QWV2VmMlMkJhblVnM1dqM09CT2ppNFdHNnZwSHNUJTJGZHJsUWxlenVkZjRmOEh2dWNCUSUyRlMzWElvVnNWdTF3M2dIeVFweWlOdm94NVlhQlpFSlRzaDRqR3NJSUUzU0ZCeDdHS1F4RXF5VnpwOGwyTUlyaFY3JTJCdnhLZm1jRCUyQmxnTTRaeDJRWXclM0QlM0Q",
+    "value_final": "pvKr3l9KSG5SJTJCS1pVR2cwQWpwcDF6QWV2VmMlMkJhblVnM1dqM09CT2ppNFdHNnZwSHNUJTJGZHJsUWxlenVkZjRmOEh2dWNCUSUyRlMzWElvVnNWdTF3M2dIeVFweWlOdm94NVlhQlpFSlRzaDRqR3NJSUUzU0ZCeDdHS1F4RXF5VnpwOGwyTUlyaFY3JTJCdnhLZm1jRCUyQmxnTTRaeDJRWXclM0QlM0Q",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.lefigaro.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "4Quu919yYW1EcmlkMSUyRnUzSThTMEE5eUozSkIwWklHNURoJTJGZSUyQkRnMzJHS1lPRXpoQm5vT3hDJTJCa2o3Tk04ZExNRzd1eXFxM0hYNzRyMlI0dG1CZ0lXM1lCazZ1U0Zia2ZJZ3klMkJPNHd1YUx4bXkwaUFERW9JUXpOS0RDVmNXb2JBNSUyQjZRbA",
+    "value_final": "4Quu919yYW1EcmlkMSUyRnUzSThTMEE5eUozSkIwWklHNURoJTJGZSUyQkRnMzJHS1lPRXpoQm5vT3hDJTJCa2o3Tk04ZExNRzd1eXFxM0hYNzRyMlI0dG1CZ0lXM1lCazZ1U0Zia2ZJZ3klMkJPNHd1YUx4bXkwaUFERW9JUXpOS0RDVmNXb2JBNSUyQjZRbA",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.coffreo.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "cikarz%5E2%5Eg35%5E0%5E2221",
+    "value_final": "cikarz%5E2%5Eg35%5E0%5E2221",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.coffreo.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "127is8t%5E1769772852292%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "127is8t%5E1769772852292%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "CLID|www.clarity.ms|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "9b338f3939304c0aadc9fdb0c928f38c.20260130.20270130",
+    "value_final": "9b338f3939304c0aadc9fdb0c928f38c.20260130.20270203",
+    "num_events": 36,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSessionUser_6506502|.list.am|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjE2NzFlOWI2LWJiMzEtNTM0Ni1hNDZkLTNkY2U4MzZhODllZiIsImNyZWF0ZWQiOjE3Njk3ODU0NTM2ODUsImV4aXN0aW5nIjpmYWxzZX0=",
+    "value_final": "eyJpZCI6IjE2NzFlOWI2LWJiMzEtNTM0Ni1hNDZkLTNkY2U4MzZhODllZiIsImNyZWF0ZWQiOjE3Njk3ODU0NTM2ODUsImV4aXN0aW5nIjpmYWxzZX0=",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSession_6506502|.list.am|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjQ0ZjFlMTc0LWJmOTYtNDI0Mi1hODkyLWZjYWZjMTdiMGI4NCIsImMiOjE3Njk3ODU0NTM2ODcsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+    "value_final": "eyJpZCI6IjBhODZiNjYzLTI2NWYtNDY4MC05MTlkLWJjMmE2OWYwNjZjYSIsImMiOjE3NzAwNjI0MjI3NzQsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+    "num_events": 78,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|www.billetreduc.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "1w2ltje%5E1769794432105%5E32%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "lmfsn8%5E1770076618841%5E4%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 8,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.www.billetreduc.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "1w2ltje%5E1769794430823%5E32%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "lmfsn8%5E1770076617342%5E4%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 8,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSessionUser_5246726|.bonoboplanet.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6ImIyOWM0MmQ0LTQ2MTctNWQxMC05YTRmLWNhMGQwN2NhMDNhYyIsImNyZWF0ZWQiOjE3Njk4MDA4MTE0NTgsImV4aXN0aW5nIjpmYWxzZX0=",
+    "value_final": "eyJpZCI6ImIyOWM0MmQ0LTQ2MTctNWQxMC05YTRmLWNhMGQwN2NhMDNhYyIsImNyZWF0ZWQiOjE3Njk4MDA4MTE0NTgsImV4aXN0aW5nIjpmYWxzZX0=",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSession_5246726|.bonoboplanet.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjZlZDA3MWE5LTgzNWYtNDQ4Ny1hZWVhLTUwYzY3NGE0YTFlNiIsImMiOjE3Njk4MDA4MTE0NjEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "value_final": "eyJpZCI6IjZlZDA3MWE5LTgzNWYtNDQ4Ny1hZWVhLTUwYzY3NGE0YTFlNiIsImMiOjE3Njk4MDA4MTE0NjEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.pharmashopi.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "lpns3b%5E2%5Eg35%5E0%5E2221",
+    "value_final": "lpns3b%5E2%5Eg35%5E0%5E2221",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.pharmashopi.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "1yrdcm6%5E1769815338886%5E2%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "18lcnc0%5E1770092776587%5E6%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSessionUser_391767|.trustpilot.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6ImIyMTFjNDAwLTI0NWMtNTIzMi04ZDU0LWMxNjM5MzQ1YzA3YiIsImNyZWF0ZWQiOjE3Njk4MzM4MjE1ODksImV4aXN0aW5nIjpmYWxzZX0=",
+    "value_final": "eyJpZCI6ImIyMTFjNDAwLTI0NWMtNTIzMi04ZDU0LWMxNjM5MzQ1YzA3YiIsImNyZWF0ZWQiOjE3Njk4MzM4MjE1ODksImV4aXN0aW5nIjpmYWxzZX0=",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_hjSession_391767|.trustpilot.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "eyJpZCI6IjEwODJlNTc0LTc5MzYtNDg5Mi04MGFkLWM1NWYwMDBjNjQwMiIsImMiOjE3Njk4MzM4MjE1OTEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "value_final": "eyJpZCI6IjEwODJlNTc0LTc5MzYtNDg5Mi04MGFkLWM1NWYwMDBjNjQwMiIsImMiOjE3Njk4MzM4MjE1OTEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+    "num_events": 26,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.godaddy.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "l8gdh6%5E1769849336683%5E1%5E0%5Ey.clarity.ms%2Fcollect",
+    "value_final": "l8gdh6%5E1769849336683%5E1%5E0%5Ey.clarity.ms%2Fcollect",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.godaddy.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "9348xm%5E2%5Eg36%5E0%5E2222",
+    "value_final": "9348xm%5E2%5Eg36%5E0%5E2222",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.toscane-boutique.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "aqjold%5E1769805604073%5E4%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "1dkh1wz%5E1770086284180%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 10,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "qv97e8ad59|pornobonito.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1769782881",
+    "value_final": "1769782881",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "qv4ffddbb5|pornobonito.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1769782518",
+    "value_final": "1769782518",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "qv32eb7484|pornobonito.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1769782832",
+    "value_final": "1769782832",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ANONCHK|.c.clarity.ms|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__hssrc|.avis-verifies.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "nabSegmentation|fr.avis-verifies.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → DIRECT_PII_KEYS::location_data",
+    "value_initial": "%7B%22activeSegments%22%3A%7B%7D%2C%22geo%22%3A%7B%22location%22%3A%22%22%2C%22ipAddress%22%3A%22%22%2C%22lastUpdate%22%3A%22%22%7D%2C%22firstVisit%22%3A1769838710233%7D",
+    "value_final": "%7B%22activeSegments%22%3A%7B%7D%2C%22geo%22%3A%7B%22location%22%3A%22%22%2C%22ipAddress%22%3A%22%22%2C%22lastUpdate%22%3A%22%22%7D%2C%22firstVisit%22%3A1769838710233%7D",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__uc-v|.rule34pornvids.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__ctr_popunder_pgs|.rule34pornvids.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "35d3005c9441a02b3b18f7033137dfcf",
+    "value_final": "c2f192833e8bf5c21237045ba736e7f9",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "stg_traffic_source_priority|www.patrinat.fr|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "abLdr|cdn.taboola.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "1",
+    "value_final": "23",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ph_phc_LK9Fi9WObZgKe9UOOrGPeauqElkdlWYiyncKEc0JfUW_posthog|.la-france-mutualiste.fr|/",
+    "transition": "BEHAVIORAL_DATA::url_list → DEVICE_ENV::posthog",
+    "value_initial": "%7B%22%24device_id%22%3A%22019c1067-1c29-7292-b6df-61c2779cd39b%22%2C%22distinct_id%22%3A%22019c1067-1c29-7292-b6df-61c2779cd39b%22%2C%22%24sesid%22%3A%5B1769801720295%2C%22019c1067-232b-72af-a5a2-41deeacbc58e%22%2C1769801720295%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fwww.malakoffhumanis.com%2F%22%2C%22u%22%3A%22https%3A%2F%2Fwww.la-france-mutualiste.fr%2Fsimulateurs%2Fassurance-vie%3Futm_source%3Dmhu%26utm_medium%3Dmh-digital%26utm_campaign%3Dmh-site-ctataboffer%26utm_term%3Dact2-simul-taboffer%26utm_content%3Dcta-taboffer%26utm_diff%3D%22%7D%7D",
+    "value_final": "%7B%22%24device_id%22%3A%22019c1067-1c29-7292-b6df-61c2779cd39b%22%2C%22distinct_id%22%3A%22019c1067-1c29-7292-b6df-61c2779cd39b%22%2C%22%24sesid%22%3A%5B1769801720295%2C%22019c1067-232b-72af-a5a2-41deeacbc58e%22%2C1769801720295%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fwww.malakoffhumanis.com%2F%22%2C%22u%22%3A%22https%3A%2F%2Fwww.la-france-mutualiste.fr%2Fsimulateurs%2Fassurance-vie%3Futm_source%3Dmhu%26utm_medium%3Dmh-digital%26utm_campaign%3Dmh-site-ctataboffer%26utm_term%3Dact2-simul-taboffer%26utm_content%3Dcta-taboffer%26utm_diff%3D%22%7D%7D",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "fidsdk_consent|.ocine.fr|/",
+    "transition": "IDENTITY_TRACKING::publisher_ids → CONSENT_AND_PRIVACY::consent_management",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ws8_kraemer-pferdesport_02-02_sid|www.kraemer.at|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "\"157c4823803713e1e3f5d36cdd2fcf08\"",
+    "value_final": "\"157c4823803713e1e3f5d36cdd2fcf08\"",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sd_amuid2|.usw1-sync.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__103_cid|.bfmio.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "cca12984-1f6d-4cdb-8468-9917cb2d0d06",
+    "value_final": "cca12984-1f6d-4cdb-8468-9917cb2d0d06",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "psd_amuid2|.usw1-sync.a-mo.net|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__191_cid|.bfmio.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "eadadc71-bfb4-4520-81db-f50cfcd10554",
+    "value_final": "eadadc71-bfb4-4520-81db-f50cfcd10554",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "iqm.retarget.uid|.pxl.iqm.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "eadadc71-bfb4-4520-81db-f50cfcd10554",
+    "value_final": "eadadc71-bfb4-4520-81db-f50cfcd10554",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sid|.flowerbooms.com|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "e066d3ff-fe02-11f0-838b-e80337d1bfde",
+    "value_final": "e066d3ff-fe02-11f0-838b-e80337d1bfde",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__hssc|.ina.fr|/",
+    "transition": "IDENTITY_TRACKING::hubspot → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "230545603.2.1769798047401",
+    "value_final": "230545603.2.1769798047401",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sid|www.bonoboplanet.com|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "elZygyLf6Pr8WNNYTrImKPEzzoREsviVPOw",
+    "value_final": "elZygyLf6Pr8WNNYTrImKPEzzoREsviVPOw",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|.pbs.yahoo.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJydWJpY29uIjp7InVpZCI6Ik1KUjdLNDBNLTExLUlCV1giLCJleHBpcmVzIjoiMjAyNi0wMi0xM1QyMDoxMjo0Ny4xOTMzNDk4ODVaIn19fQ==",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJydWJpY29uIjp7InVpZCI6Ik1KUjdLNDBNLTExLUlCV1giLCJleHBpcmVzIjoiMjAyNi0wMi0xM1QyMDoxMjo0Ny4xOTMzNDk4ODVaIn19fQ==",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "yabs-sid|mc.yandex.ru|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "159328561769819647",
+    "value_final": "159328561769819647",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ajs_anonymous_id|.trustpilot.com|/",
+    "transition": "IDENTITY_TRACKING::segment_io → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "26585ddb-a6b8-449d-b554-0a12cf8263f4",
+    "value_final": "26585ddb-a6b8-449d-b554-0a12cf8263f4",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amplitude_idundefinedtrustpilot.com|.trustpilot.com|/",
+    "transition": "IDENTITY_TRACKING::amplitude → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==",
+    "value_final": "eyJvcHRPdXQiOmZhbHNlLCJzZXNzaW9uSWQiOm51bGwsImxhc3RFdmVudFRpbWUiOm51bGwsImV2ZW50SWQiOjAsImlkZW50aWZ5SWQiOjAsInNlcXVlbmNlTnVtYmVyIjowfQ==",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amplitude_id_67f7b7e6c8cb1b558b0c5bda2f747b07trustpilot.com|.trustpilot.com|/",
+    "transition": "IDENTITY_TRACKING::amplitude → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "eyJkZXZpY2VJZCI6IjI2NTg1ZGRiLWE2YjgtNDQ5ZC1iNTU0LTBhMTJjZjgyNjNmNCIsInVzZXJJZCI6bnVsbCwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNzY5ODMzODI4NTM2LCJsYXN0RXZlbnRUaW1lIjoxNzY5ODMzOTQ4MDE0LCJldmVudElkIjo3LCJpZGVudGlmeUlkIjoxLCJzZXF1ZW5jZU51bWJlciI6OH0=",
+    "value_final": "eyJkZXZpY2VJZCI6IjI2NTg1ZGRiLWE2YjgtNDQ5ZC1iNTU0LTBhMTJjZjgyNjNmNCIsInVzZXJJZCI6bnVsbCwib3B0T3V0IjpmYWxzZSwic2Vzc2lvbklkIjoxNzY5ODMzODI4NTM2LCJsYXN0RXZlbnRUaW1lIjoxNzY5ODMzOTQ4MDE0LCJldmVudElkIjo3LCJpZGVudGlmeUlkIjoxLCJzZXF1ZW5jZU51bWJlciI6OH0=",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__hssc|.avis-verifies.com|/",
+    "transition": "IDENTITY_TRACKING::hubspot → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "69704527.1.1769838736030",
+    "value_final": "69704527.1.1770075152324",
+    "num_events": 36,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|adserv-sfo3.snigelweb.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJyaXNlIjp7InVpZCI6Ilp3dmVEWjljayIsImV4cGlyZXMiOiIyMDI2LTAyLTE0VDA4OjM2OjA0LjQzOTQ4OTE0OFoifSwidmlkYXpvbyI6eyJ1aWQiOiJmN2VhMDU0MS1iNTQ1LWEzN2UtMDMyMy1mN2I0MDZiMmFkMjgiLCJleHBpcmVzIjoiMjAyNi0wMi0xNFQwODozNjowMC45NTk3NzczOTdaIn19fQ==",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJyaXNlIjp7InVpZCI6Ilp3dmVEWjljayIsImV4cGlyZXMiOiIyMDI2LTAyLTE0VDA4OjM2OjA0LjQzOTQ4OTE0OFoifSwidmlkYXpvbyI6eyJ1aWQiOiJmN2VhMDU0MS1iNTQ1LWEzN2UtMDMyMy1mN2I0MDZiMmFkMjgiLCJleHBpcmVzIjoiMjAyNi0wMi0xNFQwODozNjowMC45NTk3NzczOTdaIn19fQ==",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ttp|.clubmed.fr|/",
+    "transition": "IDENTITY_TRACKING::tiktok_stack → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "01KGEQV84W75K2TB86ZEKX18QG_.tt.1",
+    "value_final": "01KGEQV84W75K2TB86ZEKX18QG_.tt.1",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amuid2|.rtb.mx|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pamuid2|.rtb.mx|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|.ow.pubmatic.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJhbXgiOnsidWlkIjoiMTZjNzg3M2QtMTliMC00ZWQwLWFjNDgtNDE3ODNmMmI3YmM4IiwiZXhwaXJlcyI6IjIwMjYtMDItMTZUMTA6MzU6MTMuMDk0ODU1NTk1WiJ9fX0=",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJhbXgiOnsidWlkIjoiMTZjNzg3M2QtMTliMC00ZWQwLWFjNDgtNDE3ODNmMmI3YmM4IiwiZXhwaXJlcyI6IjIwMjYtMDItMTZUMjA6NTM6MzcuNzEwMjQ2MjczWiJ9fX0=",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amuid2|.sptag2.com|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "f7cd7b1f-64d8-40a3-8450-ede388115aba",
+    "value_final": "f7cd7b1f-64d8-40a3-8450-ede388115aba",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "amuid2|.amxrtb.com|/",
+    "transition": "IDENTITY_TRACKING::microsoft_stack → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "value_final": "16c7873d-19b0-4ed0-ac48-41783f2b7bc8",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sid|www.vibs.com|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "kXMPMRxyEYXjSEaAZ8g_bIFy5TgR2Gt221E",
+    "value_final": "kXMPMRxyEYXjSEaAZ8g_bIFy5TgR2Gt221E",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "Wysistat|madame.lefigaro.fr|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "0.5431278946592315_1769773902543%C2%A71%C2%A71769773902543%C2%A71%C2%A71769773902%C2%A70.5431278946592315_1769773902543%C2%A71803901902543",
+    "value_final": "0.07333984345014033_1770087723293%C2%A71%C2%A71770087788758%C2%A71%C2%A71770087723%C2%A70.5431278946592315_1769773902543%C2%A71803901902543",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "splclk|.alevco.de|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → IDENTITY_TRACKING.generic_ids::ai_refined",
+    "value_initial": "6679901f1e299b5cbb23ffd7",
+    "value_final": "6679901f1e299b5cbb23ffd7",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "done_redirects297|.onaudience.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ym_visorc|.mycloudz.cc|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "b",
+    "value_final": "b",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "force_popunder_is_fired|.rule34pornvids.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "force_popunder_is_fired|.topxxxpornvids.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ref_custom_href|rule34pornvids.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "%2F%2Frule34pornvids.com%2F%3Futm_source%3Din_in_tubesexychaud.com",
+    "value_final": "%2F%2Frule34pornvids.com%2F%3Futm_source%3Din_in_tubesexychaud.com",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "done_redirects236|.onaudience.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-banner|.lustysextube.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "NMN2m-NMN2_Mobile_header_300x100--IMAG-SBID",
+    "value_final": "NMN2m-NMN2_Mobile_header_300x100--IMAG-SBID",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-interstitial|.rule34pornvids.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "NMN-NMN_FPI_Desk--IMAG-SBID",
+    "value_final": "NMN-NMN_FPI_Desk--IMAG-SBID",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__ref-popunder|.rule34pornvids.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "utm_source%3D",
+    "value_final": "utm_source%3D",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-native|.lustysextube.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "NMN2-NMN2_NativeNTV_1x2_Desk--IMAG-SBID",
+    "value_final": "NMN2-NMN2_NativeNTV_1x2_Desk--IMAG-SBID",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-adblock-native|.lustysextube.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-adblock-banner|.lustysextube.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-native|.rule34pornvids.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "NMN-NMN_NativeNTV_1x2_Desk--IMAG-SBID",
+    "value_final": "NMN-NMN_NativeNTV_1x2_Desk--IMAG-SBID",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "iq_u_key|.iqzone.com|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "a041b191-bf9a-4fd9-924a-0bdce2f8ce34",
+    "value_final": "a041b191-bf9a-4fd9-924a-0bdce2f8ce34",
+    "num_events": 11,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "otad_key|.ottadvisors.com|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "5b6f4006-a0cc-4bc6-9df0-c71e74749dc6",
+    "value_final": "5b6f4006-a0cc-4bc6-9df0-c71e74749dc6",
+    "num_events": 11,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "pili_key|.pinklion.io|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "baf062ab-49ec-4c0c-903e-c3edebfd09f0",
+    "value_final": "baf062ab-49ec-4c0c-903e-c3edebfd09f0",
+    "num_events": 11,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "XSRF-TOKEN|www.aliexpress.com|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → SECURITY_AND_BOT_MITIGATION::anti_csrf",
+    "value_initial": "5ec1bd52-be38-40f2-8b7f-cb0f0ab6afbc",
+    "value_final": "5ec1bd52-be38-40f2-8b7f-cb0f0ab6afbc",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_td_global|.in.treasuredata.com|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → DEVICE_ENV::browser_info",
+    "value_initial": "46c5eac6-7117-4cca-b7a2-459479a95952",
+    "value_final": "46c5eac6-7117-4cca-b7a2-459479a95952",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "websale_useragreement_optoutunchecked_googleCaptcha|www.kramer.fr|/",
+    "transition": "APP_STATE_STORAGE::feature_flags_opts → DEVICE_ENV::browser_info",
+    "value_initial": "\"yes\"",
+    "value_final": "\"yes\"",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "websale_useragreement_optoutunchecked_consentAll|www.kramer.fr|/",
+    "transition": "APP_STATE_STORAGE::feature_flags_opts → CONSENT_AND_PRIVACY::consent_management",
+    "value_initial": "\"yes\"",
+    "value_final": "\"yes\"",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "didomi_token|.ina.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "eyJ1c2VyX2lkIjoiMTljMTAyZWEtNTIyMS02Y2IyLWExZTgtNDFiZGQ4Zjk3NzhhIiwiY3JlYXRlZCI6IjIwMjYtMDEtMzBUMTg6MzM6MzguMzM4WiIsInVwZGF0ZWQiOiIyMDI2LTAxLTMwVDE4OjM0OjI0LjkyOFoiLCJ2ZXJzaW9uIjoyLCJwdXJwb3NlcyI6eyJlbmFibGVkIjpbImdlb2xvY2F0aW9uX2RhdGEiLCJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiYXVkaWVuY2VtLWhKeGFlR3JSIl19LCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6aHVic3BvdCIsImM6aHVic3BvdC1mb3JtcyIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpwaWFub2h5YnItUjNWS0MycjQiLCJjOm1pY3Jvc29mdCJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSIsImM6Yml0bW92aW4tSE03Z0R3a0UiXX0sImFjIjoiQ1htQUdBRmtDSklKZVFBQS5DWG1BR0FGa0NKSUplUUFBIn0=",
+    "value_final": "eyJ1c2VyX2lkIjoiMTljMTAyZWEtNTIyMS02Y2IyLWExZTgtNDFiZGQ4Zjk3NzhhIiwiY3JlYXRlZCI6IjIwMjYtMDEtMzBUMTg6MzM6MzguMzM4WiIsInVwZGF0ZWQiOiIyMDI2LTAxLTMwVDE4OjM0OjI0LjkyOFoiLCJ2ZXJzaW9uIjoyLCJwdXJwb3NlcyI6eyJlbmFibGVkIjpbImdlb2xvY2F0aW9uX2RhdGEiLCJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiYXVkaWVuY2VtLWhKeGFlR3JSIl19LCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwidHdpdHRlciIsImM6aHVic3BvdCIsImM6aHVic3BvdC1mb3JtcyIsImM6Z29vZ2xlYW5hLTRUWG5KaWdSIiwiYzpwaWFub2h5YnItUjNWS0MycjQiLCJjOm1pY3Jvc29mdCJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSIsImM6Yml0bW92aW4tSE03Z0R3a0UiXX0sImFjIjoiQ1htQUdBRmtDSklKZVFBQS5DWG1BR0FGa0NKSUplUUFBIn0=",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "didomi_token|.frameina.com|/",
+    "transition": "APP_STATE_STORAGE::base64_json → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "eyJ1c2VyX2lkIjoiMTljMTM0MWQtYjU4Ny02YWM5LTgwZjEtMjE5YmJiZTYyOTM2IiwiY3JlYXRlZCI6IjIwMjYtMDEtMzFUMDg6NTM6MjkuMDQ4WiIsInVwZGF0ZWQiOiIyMDI2LTAxLTMxVDA4OjUzOjM5LjMwNVoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiYzpwaWFub2h5YnItUjNWS0MycjQiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiYXVkaWVuY2VtLWhKeGFlR3JSIl19LCJ2ZXJzaW9uIjoyfQ==",
+    "value_final": "eyJ1c2VyX2lkIjoiMTljMTM0MWQtYjU4Ny02YWM5LTgwZjEtMjE5YmJiZTYyOTM2IiwiY3JlYXRlZCI6IjIwMjYtMDEtMzFUMDg6NTM6MjkuMDQ4WiIsInVwZGF0ZWQiOiIyMDI2LTAxLTMxVDA4OjUzOjM5LjMwNVoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiYzpwaWFub2h5YnItUjNWS0MycjQiXX0sInB1cnBvc2VzIjp7ImVuYWJsZWQiOlsiYXVkaWVuY2VtLWhKeGFlR3JSIl19LCJ2ZXJzaW9uIjoyfQ==",
+    "num_events": 13,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ABTest_ab_local_pay_method_browser_lang_key|.stripchat.com|/",
+    "transition": "DEVICE_ENV::language → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "B_901",
+    "value_final": "B_901",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "NEXT_LOCALE|www.fastslots.com|/",
+    "transition": "DEVICE_ENV::language → USER_PREFERENCES::language",
+    "value_initial": "fr",
+    "value_final": "fr",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cookie_consent|madelen.ina.fr|/",
+    "transition": "CONSENT_AND_PRIVACY::consent_management → USER_PREFERENCES::privacy",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "euconsent-v2|.ina.fr|/",
+    "transition": "CONSENT_AND_PRIVACY::tcf_v2 → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "CQe140AQe140AAHABBENCPFsAP_AAEPgAAqIJsQBgAQADLAXmAxkCMwE2ATYgCAAgAGWAvMCbAAA.IJsQBgAQADLAXmAxkCMwE2AA.f_gACHwAAAAA",
+    "value_final": "CQe140AQe140AAHABBENCPFsAP_AAEPgAAqIJsQBgAQADLAXmAxkCMwE2ATYgCAAgAGWAvMCbAAA.IJsQBgAQADLAXmAxkCMwE2AA.f_gACHwAAAAA",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "Age|tubesexychaud.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → DIRECT_PII_KEYS::age_key",
+    "value_initial": "1",
+    "value_final": "1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-adblock-native|.topxxxpornvids.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-banner|.rule34pornvids.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "NMNm-NMN_Mobile_header_300x100--IMAG-SBID",
+    "value_final": "NMNm-NMN_Mobile_header_300x100--IMAG-SBID",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__netsp|.vibs.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "\"false\"",
+    "value_final": "\"false\"",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__spot_code-adblock-native|.rule34pornvids.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "0",
+    "value_final": "0",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__ref-popunder|.lustysextube.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "utm_source%3D",
+    "value_final": "utm_source%3D",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ABTest_ab_ctry_top_v2_key|.stripchat.com|/",
+    "transition": "UX_AND_PERFORMANCE_ANALYTICS::ab_testing_generic → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "A_901",
+    "value_final": "A_901",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ABTest_ab_improve_mistakes_sign_up_key|.stripchat.com|/",
+    "transition": "UX_AND_PERFORMANCE_ANALYTICS::ab_testing_generic → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "B_901",
+    "value_final": "B_901",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ABTest_ab_autotranslate_private_chats_users_key|.stripchat.com|/",
+    "transition": "UX_AND_PERFORMANCE_ANALYTICS::ab_testing_generic → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "B_901",
+    "value_final": "B_901",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ABTest_ab_avp_thumb_prev_key|.stripchat.com|/",
+    "transition": "UX_AND_PERFORMANCE_ANALYTICS::ab_testing_generic → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "A_901",
+    "value_final": "A_901",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ABTest_ab_streaming_cdn_2_tencet_in_br_50_key|.stripchat.com|/",
+    "transition": "UX_AND_PERFORMANCE_ANALYTICS::ab_testing_generic → TECHNICAL_PASSWORDS::api_keys",
+    "value_initial": "X_901",
+    "value_final": "X_901",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_abck|.godaddy.com|/",
+    "transition": "UX_AND_PERFORMANCE_ANALYTICS::ab_testing_generic → SECURITY_AND_BOT_MITIGATION::akamai_bot",
+    "value_initial": "68C1D153666DADA39487A6293F4D2ABC~-1~YAAQOZcwF5sgmtybAQAACo89Ew/0e6EO7cQL0hkiTkDjN7JeVfbr9bXy9bqJMVYWGbCfv+2LqTu1nEH+bKyAzXMnmY9KibunxyXPn3VGCv9dgrdokYqE+jYZwa8IYTMwM981oP0ZyCfsTJC7TNFaG1UWXpU38ayCOJl2zv4n60BSvMIhboXbstcIy6aE58uUNVWypRNt1sb6cDmUHuQN4usbBrP++nFCQbfcEPMaYQUVvnROaVxpCCj7zauv9FzV4WhNHlN9GUFLpq45MC2us4cGrl+tTEMQXtcNHceRldn5CycBvNzI3Tde4AEoUlZgxjDkba2aElEDsrR/QcyqfQlNrmT9tYDNDs/V4hdH9sVZjhftQCJguKWee5y/Khzf0BtlvXQQHVZhVRDLYDzG9IUK5X/chQWHoXKskNVIb7nB6TCo1jStjnqDCCogyDoBUaJ4v0Jbl9H1ajDzt1Nzm3rSFwErlABXqYSPRQgKjg8Ah4qSLdHhAahHtmLEfrCmARd02KDJnUOmk19b3xYLmUZWQknZJwUysgoH9vYhkW96Z8hpyEGpUiDOmBhRq/dLMg5NmYWP11mwr3SZpLFW9AcciB2eAmMhK0bObE+UhEN1CpA=~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fwxNV3PcKsyRPtAz+1JtrD4OEdxkZ1ttf5jIcgvaOoVdcFi64iLMyMpgXjV9OZmCTWRXPzw41wGLg6yNTCo7JkCYwDcztDtnR%2fl0~-1",
+    "value_final": "68C1D153666DADA39487A6293F4D2ABC~-1~YAAQOZcwF5sgmtybAQAACo89Ew/0e6EO7cQL0hkiTkDjN7JeVfbr9bXy9bqJMVYWGbCfv+2LqTu1nEH+bKyAzXMnmY9KibunxyXPn3VGCv9dgrdokYqE+jYZwa8IYTMwM981oP0ZyCfsTJC7TNFaG1UWXpU38ayCOJl2zv4n60BSvMIhboXbstcIy6aE58uUNVWypRNt1sb6cDmUHuQN4usbBrP++nFCQbfcEPMaYQUVvnROaVxpCCj7zauv9FzV4WhNHlN9GUFLpq45MC2us4cGrl+tTEMQXtcNHceRldn5CycBvNzI3Tde4AEoUlZgxjDkba2aElEDsrR/QcyqfQlNrmT9tYDNDs/V4hdH9sVZjhftQCJguKWee5y/Khzf0BtlvXQQHVZhVRDLYDzG9IUK5X/chQWHoXKskNVIb7nB6TCo1jStjnqDCCogyDoBUaJ4v0Jbl9H1ajDzt1Nzm3rSFwErlABXqYSPRQgKjg8Ah4qSLdHhAahHtmLEfrCmARd02KDJnUOmk19b3xYLmUZWQknZJwUysgoH9vYhkW96Z8hpyEGpUiDOmBhRq/dLMg5NmYWP11mwr3SZpLFW9AcciB2eAmMhK0bObE+UhEN1CpA=~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2fwxNV3PcKsyRPtAz+1JtrD4OEdxkZ1ttf5jIcgvaOoVdcFi64iLMyMpgXjV9OZmCTWRXPzw41wGLg6yNTCo7JkCYwDcztDtnR%2fl0~-1",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "auth_token|.odysee.com|/",
+    "transition": "SECURITY_AND_BOT_MITIGATION::auth_security → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "FgCabNKYHwknSC7MDJe6NqUZNDmdCNBZ",
+    "value_final": "FgCabNKYHwknSC7MDJe6NqUZNDmdCNBZ",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "acc_token|www.habitatetjardin.com|/",
+    "transition": "DIRECT_PII::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "dfjiewfiw",
+    "value_final": "dfjiewfiw",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "mics_vid|www.flunch.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::mediarithmics → UX_AND_PERFORMANCE_ANALYTICS::adobe_analytics",
+    "value_initial": "153790601815",
+    "value_final": "153790601815",
+    "num_events": 8,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__rtbh.uid|www.billetreduc.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::rtb_house → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22unknown%22%2C%22expiryDate%22%3A%222027-01-30T17%3A33%3A48.575Z%22%7D",
+    "value_final": "%7B%22eventType%22%3A%22uid%22%2C%22id%22%3A%22unknown%22%2C%22expiryDate%22%3A%222027-02-02T23%3A56%3A56.421Z%22%7D",
+    "num_events": 8,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_pcid|.malakoffhumanis.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::piano_io → IDENTITY_TRACKING::tracking_ids",
+    "value_initial": "%7B%22browserId%22%3A%22mjrgmx60g1zfsotr%22%2C%22_t%22%3A%22mzfvkfed%7Cmjrgmy2d%22%7D",
+    "value_final": "%7B%22browserId%22%3A%22mjrgmx60g1zfsotr%22%2C%22_t%22%3A%22mzfvkfed%7Cmjrgmy2d%22%7D",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.windfinder.com|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "590A7F8wRkwyU1JHeHJxazQ3QUd4SlZpTmdFQXB3QyUyRjVFVmtkc2tFREpxMTRRNERGY1h4cUladnY0NVd2d0tCazZCRkcwOWx4MmJDVmtsZDF0NDdEMyUyRmdkMVVMVHFoREtCckJBaWlBVWVQaHgwd2FzMVV2dmU3MGdsUnFkOTVjcUdTSE9PJTJGUERCQ1MzOXlDeXklMkI1d2dHdmYlMkJBJTNEJTNE",
+    "value_final": "590A7F8wRkwyU1JHeHJxazQ3QUd4SlZpTmdFQXB3QyUyRjVFVmtkc2tFREpxMTRRNERGY1h4cUladnY0NVd2d0tCazZCRkcwOWx4MmJDVmtsZDF0NDdEMyUyRmdkMVVMVHFoREtCckJBaWlBVWVQaHgwd2FzMVV2dmU3MGdsUnFkOTVjcUdTSE9PJTJGUERCQ1MzOXlDeXklMkI1d2dHdmYlMkJBJTNEJTNE",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cto_bundle|.cinetrafic.fr|/",
+    "transition": "ID_SOLUTIONS_AND_EXCHANGES::criteo_extended → IDENTITY_TRACKING::criteo",
+    "value_initial": "cp0ngl9aalo1UUpPaXFYc1lJQkQwVTNnNkhmWDRnbU5PVnBkcXlzJTJGSDFPdyUyQjVjTW52Q0xEQkg3VEl6TVBjdHd4bGQ5N3JzYU11M2FRNDNFaFl6MSUyRjd4Q0VhUlpUaU14U2JKNnNKcGZSbXdWOFlhalNHNzF2STNLOXlXR1BSMkFxMGRSS2JWYVZ6JTJCcHBiNXdJJTJCZVB6TFhtdDB3JTNEJTNE",
+    "value_final": "cp0ngl9aalo1UUpPaXFYc1lJQkQwVTNnNkhmWDRnbU5PVnBkcXlzJTJGSDFPdyUyQjVjTW52Q0xEQkg3VEl6TVBjdHd4bGQ5N3JzYU11M2FRNDNFaFl6MSUyRjd4Q0VhUlpUaU14U2JKNnNKcGZSbXdWOFlhalNHNzF2STNLOXlXR1BSMkFxMGRSS2JWYVZ6JTJCcHBiNXdJJTJCZVB6TFhtdDB3JTNEJTNE",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.flunch.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "zmz9lz%5E1769775507416%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "pqknv0%5E1770050332101%5E3%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 8,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.riuparis.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "4oht54%5E1769810133366%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "1s9p269%5E1770061377764%5E5%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.toscane-boutique.fr|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "q1ex3g%5E2%5Eg36%5E0%5E2221",
+    "value_final": "q1ex3g%5E2%5Eg39%5E0%5E2221",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clsk|.asdecarreaux.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "sxvjvq%5E1769822701590%5E6%5E1%5Ey.clarity.ms%2Fcollect",
+    "value_final": "18aciwu%5E1770027356309%5E1%5E1%5Ey.clarity.ms%2Fcollect",
+    "num_events": 6,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_bc44ef631|pornobonito.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "LWsjVXeJ0Z%7C1%7C1767029976%7C1769782881%7C5%7C2%7C",
+    "value_final": "LWsjVXeJ0Z%7C1%7C1767029976%7C1769799234%7C6%7C2%7C",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cfz_amplitude|.cloudflare.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "%7B%22TTin_event_id%22%3A%7B%22v%22%3A%222%22%2C%22e%22%3A1801310166265%7D%2C%22TTin_device_id%22%3A%7B%22v%22%3A%220586184e-4144-48f9-b206-f5d85a877f26%22%2C%22e%22%3A1801310166265%7D%7D",
+    "value_final": "%7B%22TTin_event_id%22%3A%7B%22v%22%3A%2222%22%2C%22e%22%3A1801606761187%7D%2C%22TTin_device_id%22%3A%7B%22v%22%3A%220586184e-4144-48f9-b206-f5d85a877f26%22%2C%22e%22%3A1801310166265%7D%7D",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "sb_count_b98244c45f85d38da93ff3a4b2961e00|javseen.tv|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "2",
+    "value_final": "3",
+    "num_events": 7,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uncs|stoppedcrag.com|/",
+    "transition": "BEHAVIORAL_DATA::ai_refined → INFRASTRUCTURE::ai_refined",
+    "value_initial": "2",
+    "value_final": "2",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_biz_pendingA|.cloudflare.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → BEHAVIORAL_DATA::ai_refined",
+    "value_initial": "%5B%5D",
+    "value_final": "%5B%5D",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "st_audience_clientId|.flunch.fr|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "0d4b6b55-59ff-428f-96c6-1347b764a7c0",
+    "value_final": "0d4b6b55-59ff-428f-96c6-1347b764a7c0",
+    "num_events": 48,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ga|.cloudflare.com|/",
+    "transition": "IDENTITY_TRACKING::googl_stack → TECHNICAL_PASSWORDS::jwt_token",
+    "value_initial": "GA1.1.940e7e18-6a8f-441e-b603-27e317f85759",
+    "value_final": "GA1.1.940e7e18-6a8f-441e-b603-27e317f85759",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "uids|.adnxs.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJ0ZW1wVUlEcyI6eyJydWJpY29uIjp7InVpZCI6IjEiLCJleHBpcmVzIjoiMjAyNi0wNC0zMFQxNTozMzoxMVoifX0sImJpcnRoZGF5IjoiMjAyNS0xMi0yOVQxMzo0MjozN1oifQ==",
+    "value_final": "eyJ0ZW1wVUlEcyI6eyJhZG54cyI6eyJ1aWQiOiI4ODMwMzM0MzY3NTU2Nzc5OTUwIiwiZXhwaXJlcyI6IjIwMjYtMDItMTZUMTA6MzU6MTIuOTQ0ODM4NDg4WiJ9LCJhbXgiOnsidWlkIjoiMTZjNzg3M2QtMTliMC00ZWQwLWFjNDgtNDE3ODNmMmI3YmM4IiwiZXhwaXJlcyI6IjIwMjYtMDItMTZUMjA6NTM6MzcuNjY1NTkwODI3WiJ9LCJydWJpY29uIjp7InVpZCI6IjEiLCJleHBpcmVzIjoiMjAyNi0wNC0zMFQxNTozMzoxMVoifSwidHJpcGxlbGlmdCI6eyJ1aWQiOiIxIiwiZXhwaXJlcyI6IjIwMjYtMDUtMDFUMDE6MDc6MzlaIn19fQ==",
+    "num_events": 38,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "__io_cid|.bfmio.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "be58bfb0-247c-4a18-a029-397c23dfd1d5",
+    "value_final": "be58bfb0-247c-4a18-a029-397c23dfd1d5",
+    "num_events": 48,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "trkcg_sid|.www.riuparis.fr|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "62fe60b959243fb1a968e30e334b0eb2e00ea7eddd5ed71f7b4de4a56a9f61a6",
+    "value_final": "18b8db98cbf9d4101fc95ce3562f19b16cbd05a9238f2c1868158201c86a414b",
+    "num_events": 14,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_ga_SSCONFIG|.lesfurets.com|/",
+    "transition": "IDENTITY_TRACKING::googl_stack → APP_STATE_STORAGE::app_state",
+    "value_initial": "GS2.1.s1769815989$o1$g1$t1769816085$j58$l0$h1309105209",
+    "value_final": "GS2.1.s1769815989$o1$g1$t1769816085$j58$l0$h1309105209",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "ktcid|.kargo.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "83f05576-bbc6-0aa7-5b22-9904329ea882",
+    "value_final": "83f05576-bbc6-0aa7-5b22-9904329ea882",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "SID|.google.com|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "g.a0006QgOxhglvIdkwSXOmyFG69otOQIEAlHEX-VEhs1eVyPQAq6hOvzIf99ACLJ9QmSzlVmQBQACgYKATkSARESFQHGX2MiWBpW4mjghMes5idNeLPIBxoVAUF8yKrtY3OSZXHmB0l8N9ZV9NuJ0076",
+    "value_final": "g.a0006QgOxhglvIdkwSXOmyFG69otOQIEAlHEX-VEhs1eVyPQAq6hOvzIf99ACLJ9QmSzlVmQBQACgYKATkSARESFQHGX2MiWBpW4mjghMes5idNeLPIBxoVAUF8yKrtY3OSZXHmB0l8N9ZV9NuJ0076",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cid|.sojern.com|/",
+    "transition": "IDENTITY_TRACKING::tracking_ids → IDENTITY_TRACKING::uuid_format",
+    "value_initial": "f0036be0-75b9-464c-aed4-524676b6f686",
+    "value_final": "f0036be0-75b9-464c-aed4-524676b6f686",
+    "num_events": 24,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "PrestaShop-4951e564d9bc5022c0cf72765283e127|.www.habitatetjardin.com|/",
+    "transition": "IDENTITY_TRACKING::ai_refined → USER_PREFERENCES::ai_refined",
+    "value_initial": "def50200bbf9ddf3d7dc8c5a2852c8dcf5b1f95a8940c64248706475e1eb0c8525e21a388a74493dc63b4aebf22ccbb441b7766ef0f0169c162718e37f19f28878a2b75637f7cbc850c76a5254e151308646bd22de4a109d66f2a9dcaaff5afb9579f5ce6bd5717a32a7103e95e525ebf1895b522486ae8796ae235c3e1914107a5f415333e3fdc08aa8a47345bcf7908e5a810ecc3ae727284f9ba6a0e38e438c3aca78fec64fdcaf6253fbcd6346a3cc4b89cb734863a7c86cd168f02a9a3fa1280d6a4c85741aca2adecc3b398b2fe96c0e3e23792981503f9ab1f586997a3a69f30f77e3e0a6f06335953953dd07a1f7684efe38074036074fc2495fa1",
+    "value_final": "def502009fc9a6bba99a10a8bbc8df4c3f49ea5452717e480e90b0bf4b454840d54fea209bff6d635423a1f09c7d6c385036195f06c3e7d1e8815207dc3e6c563a7bf008d35372d4031de5ee37780cdd27a2a26433d22d60627ff068b594b6737d230ae0cbc1c3cd555a188fa0a041e0fc138ebfb6977efd2e0d0c9d4fc63ddb5b4d3dcc0c122ddc510cefb21cc090e0daaddd913291851c19c214a223a3ee1fe9300910806dc3bc12c847e3f513dacd7c4d8c2b32c3ca3487acdd3889c35bd838bf06b550844dc2ad7607bff9ad593045ff251a47d52985bdb0e94e244f80277096be11fb73508d0e24e5de9bcf76089e3b25fe6af40314b0aead30916bf705cb9560266f81a33eecc616b497356300207a8e334fa82cbb26892b9758fb5223fea7c5dc7863a6de6a4772fc7a24b253a7bba65a270e169118aec76b9c1dce977a56d7edd6c85d804336e398",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "PrestaShop-22ceafd26056750a7d0ca3b669510b00|.ma-credence-deco.com|/",
+    "transition": "SESSION_MANAGEMENT::ai_refined → IDENTITY_TRACKING::ai_refined",
+    "value_initial": "def5020080750247c87fc147b9e1e1f6c42e2362e58aa71183bfdd494a34fe7887bee3b1b4348666afab3324fa086763ba4c43c1cc66e38fd45de9b04af0872dee4b2264b054373a8bfb73853bcfa2b52b5afccf0174926a5fe0c47c341acb8b7a42af70a2e0b99902a9b08dae3e5bb32398d62ff680042b99d5a0c5a294fae51d9894ea82065ac1638db1284028b0340ed99b6f34a12def681655565afee70857bf50380709eb2577ae119124ed0196c721cb0cf54222eb1a6ea23b6ece30113d718c9a407acd4ebb127cace41bcbf1c9035ad6d62bb1554a3eef34e4d617149e12a1d38aa6c5e9ae415bd4cdc705511abe09bc80153a161876ebf85ad88462240ac3a6cb40d2b7da7c47a895a7fd36c1e7c89c3628c4e7b0dede1d61bcafb6c141b02537e9599599552fac96a09652f3aa56e822038f78a4e77f83662b853429af2b05a71a4e033308149221862c81d2023ee90354015e1b3378e76f1293860a81fed813b1f6d50766223b0d249e2b43435b26f543854e960d8c209d82f07f1ed09d0c52d6109fc5630bab2e3a77913e2faa3a09e6fb9369097837913a399f493e58df75a5d6",
+    "value_final": "def50200bdb30b082fb62c172856a79d35b4b8d5d1206efe7bf6ea2814cb25fbfc322b9f2ec917e840b9aa3a7c5327e6d87194ad2df7329b08cf0674eb7b6f0b73cafeb12b45bb2baad5260fc0d64309caf6b06473b1f82aaa57c8600b60879a42e7d9f497883346740a1ab82754f5b2e598653ba4ca40aae50ae8424c33a93b95592838bb9f3e08b2da782d0b1410256d91bb9eae2b8619bc7214fe850b21afe41dc58ae1b869e16ae1cbfe5cee24f8fdb64272462ae172b34970a721f4ae1675e38240de865f55d7f250146eacf685b40c0a5df182072303d2e09e3c136808ffc75d49349bddd643fef521c2ceaea259606afc87fea1eaed894ff9cc814f069eaf4664f5066d90e2a8747a2485707f1c245f84ef98b8cf992d0967901ef5766928ccfc6a087106d02b72686d67a0d98aad8cee2144723fefe31e29497d3aabc0b7056f4c95e8342cece2ec6526b17d3760a2037e5d48166c69add736b544322074de49e6fbd3f5337b02b8cef5dcfb557d90aa7552f0eb1f8bf7a4fd9df5d58d9025d8d48938896d4d1fcb2a6162846507a5d77bca9fd06e61397ffcb31f661ae92f7470674c482f78a498188283a48fbab8e9",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "PrestaShop-d64407984706b2566fd990b75af06d6a|.www.asdecarreaux.com|/",
+    "transition": "APP_STATE_STORAGE::ai_refined → SESSION_MANAGEMENT::ai_refined",
+    "value_initial": "def5020034cc5e6ab6a899bf483d11079317d32e279269587594380e074e58291b8a45e8db76330ee50d6abec6773d040032cf16d94c45199ce7630acf538a18d86693c4806d30c8a9a75c0a73001d17ec11bd51abdb296c5a8b9d7310747e7ff1a4e9df1ff35f21d0856b5caf3fe288ea39668c18eaf77fa7d0aa25096668b0f36fc9cb70fa13ca2b0f51894f69a5dcd95e18ad544079e5a760cc696dc10f0056359a4ed463f7743ed69af958928bde646fd229528f0753015e6dc6ff0d33879b73ea2af38dfa0069df1b90e6b821e41d4ecad48ae51ae49dca719ff56bb378561f424a4cf3708a232c53ce2c604a3e2948a3f1ffc0ac568356ea056ce23e48d7c7bac98c032a22587a682ba13436fdef71c0666d21ad11b4f86dbf837cf7e5c5d5e46a81357fc811b1f7ae1390961a866805588f4f15087dbd555515492f13d4fd8c1ae687dc624f3bde86127d625b1936388a7e6420e83494296d37c1f49af92a527ae82a80ab41d279c19a816e6ec75cbbadccb59bec24242f3852fbedea3d6ba3bdf9aec33f9147459e28ab81dc232c36f709dac6f377e954d4f2173c81e516ded25b3ca8e7f533c823c8d8fec4d38e075ee786e18b73f0c46517c6537fa78299d6f2b0ea5776cb739fcb2a0d2d61f0d023b5edd3a4268bb26a4be1dd71cedf9320b797f1f183f8e95cf06fb90066b2518eda14e440a4b2a5f757348f5e661c1d6092b6aceb4f0f06687b19c6ef9724c6e3f2bbc3be1c1e8c778480e7d4b47b5125148d868a",
+    "value_final": "def5020029b9b5c9929b009d9f0765d85b4e9f9ed26ddb84a3ed4dc7f57dd18a63b905a8209a37f97a809be32beda9facd1cc936bf36d901d41af5c7729b5ff725e69938f2fca8cd809d943d9a51825ebcccdc4ec87c87cb619c3325e7951e317411bf141063cfe60687d6acfbc3ccdc52d874e15d3641d69006038bc2f3006d99253076e2d815baa40515a8bee225667e2534a81d972fa3b1e4de74173e439e19e31c2793c6e2e1b77b7c16372fce0611a527190fd1c22d92db10cbdbc040b265848e89ea15c14f81ff18ce7f9b38d126916c5cb763bb7cf250fab473f7b4094a62d3462d5e7bf971bec068992b7393f11715f0def2fed7921ed77e27f4c79e3f940f972c799b7303b05a53f292d21d7f6eba1bbd11ef9b8c7a9b40814d918c5dfab6686011091d377d8b87d302311dc534400f92a888c5cb652d48010d041812412e6859c3b79c1b7528e784e5f6c4fa69cd9cc1f151ee25492a397d42f8405e60347ccadd453d7c029e28e12d26bf91ba6b66f3f1bdd94dd6989f3039f0dab90a8f78a3e00b70f15e769cfeddbc070840b7edaafc22d912d08aaff54c6ce99fed706f8d52cc87fc804d05573f7efef7d4516a2162f89c15d1f68f92cab168d9090ec9d0ecbb947d54f8c2228588ea953d7e5cb3c3b93ed274823d242bf2f59d38b70182fbf6bcb8a8409d4d348399dd33c527d1bc76f5967cfd7f996a2b83d3f33232cccbc5b9a6bb903a852fecc9a2b92056acdb9d0fd8379b255a6d3c681cf8fc213c6be1f07560d9aa3ed046407b17f0e4582da858f7035b4e621d7e2818b77d680852ce154ccd750b3db4e5b74cc879a92cd4c389b8b9dffd5dafe39bea3d05dc2dba1e6b2d73cf0103bdbc2fbfb4e05c40f9fd83bba0001bdd27267e0de09ce3d81b5210dcf0f74541f6b5d61db1b30f3b2eeb9f8728b0e3457f1666e3971e86302c00f59ea9fd51e604bf41eb2c5f4be256a7f5eef2ec3a2c42dc35ea3f9939ac68ace8f2715b",
+    "num_events": 3,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_shopify_s|.passagedudesir.fr|/",
+    "transition": "IDENTITY_TRACKING::uuid_format → APP_STATE_STORAGE::shopify_session",
+    "value_initial": "1accb0a6-4ef6-42c1-a5c3-a8d889d529ca",
+    "value_final": "d30b3308-e82b-4fc2-8669-fa8a9bff1ed0",
+    "num_events": 108,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "didomi_token|.ocine.fr|/",
+    "transition": "APP_STATE_STORAGE::base64_json → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "eyJ1c2VyX2lkIjoiMTliNmJiZjEtYjY1Ni02NWFiLTkxMjYtM2I1Y2U4YTkxNDZjIiwiY3JlYXRlZCI6IjIwMjUtMTItMjlUMjA6MTQ6MDUuMTU3WiIsInVwZGF0ZWQiOiIyMDI2LTAxLTMxVDAwOjExOjI2LjAxN1oiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpkbXB3ZWJlZGktblRCSEFrNDQiLCJjOmFtYXpvbnRhbS1lWTRpTjROViIsImM6c25hcGNoYXQtaFcyck1KZlkiLCJjOnRpa3Rvay1XYnlwQTNaZCIsImM6ZmFjZWJvb2std0RpR25KV1YiLCJjOmdvb2dsZWFuYS1YTXFhZ2F3YSIsImM6YWN0aXRvLVppY1VLUUdrIiwiYzpsZWFkc21vbmktcERtWFR6WU0iLCJjOmdvb2dsZWFuYS00VFhuSmlnUiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6MiwiYWMiOiJDTEdBQ0NMRS5DTEdBQ0NMRSJ9",
+    "value_final": "eyJ1c2VyX2lkIjoiMTliNmJiZjEtYjY1Ni02NWFiLTkxMjYtM2I1Y2U4YTkxNDZjIiwiY3JlYXRlZCI6IjIwMjUtMTItMjlUMjA6MTQ6MDUuMTU3WiIsInVwZGF0ZWQiOiIyMDI2LTAyLTAyVDE2OjE5OjM3LjI0NloiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzpkbXB3ZWJlZGktblRCSEFrNDQiLCJjOmFtYXpvbnRhbS1lWTRpTjROViIsImM6c25hcGNoYXQtaFcyck1KZlkiLCJjOnRpa3Rvay1XYnlwQTNaZCIsImM6ZmFjZWJvb2std0RpR25KV1YiLCJjOmdvb2dsZWFuYS1YTXFhZ2F3YSIsImM6YWN0aXRvLVppY1VLUUdrIiwiYzpsZWFkc21vbmktcERtWFR6WU0iLCJjOmdvb2dsZWFuYS00VFhuSmlnUiJdfSwicHVycG9zZXMiOnsiZW5hYmxlZCI6WyJkZXZpY2VfY2hhcmFjdGVyaXN0aWNzIiwiZ2VvbG9jYXRpb25fZGF0YSJdfSwidmVuZG9yc19saSI6eyJlbmFibGVkIjpbImdvb2dsZSJdfSwidmVyc2lvbiI6MiwiYWMiOiJDTEdBQ0NMRS5DTEdBQ0NMRSJ9",
+    "num_events": 26,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "GlobalE_Analytics|.sezane.com|/",
+    "transition": "DEVICE_ENV::browser_info → DIRECT_PII_KEYS::user_id_key",
+    "value_initial": "%7B%22merchantId%22%3A%22811%22%2C%22shopperCountryCode%22%3A%22MX%22%2C%22cdn%22%3A%22https%3A%2F%2Fwebservices.global-e.com%2F%22%2C%22clientId%22%3A%229a0c84d9-51fe-430c-82d7-42524629151e%22%2C%22sessionId%22%3A%22f060be17-a435-4add-92aa-77eba45409a7%22%2C%22sessionIdExpiry%22%3A1769774166593%2C%22configurations%22%3A%7B%22eventSendingStrategy%22%3A0%7D%2C%22featureToggles%22%3A%7B%22FT_3DA%22%3Afalse%2C%22FT_3DA_UTM_SOURCE_LIST%22%3A%5B%5D%2C%22FT_3DA_STORAGE_LIFETIME%22%3A4320%2C%22FT_BF_GOOGLE_ADS%22%3Afalse%2C%22FT_BF_GOOGLE_ADS_LIFETIME%22%3A30%2C%22isOperatedByGlobalE%22%3Atrue%7D%2C%22lockBrowsingStartOnSessionId%22%3A%22f060be17-a435-4add-92aa-77eba45409a7%22%2C%22dataUpdatedAt%22%3A1769772366594%7D",
+    "value_final": "%7B%22merchantId%22%3A%22811%22%2C%22shopperCountryCode%22%3A%22MX%22%2C%22cdn%22%3A%22https%3A%2F%2Fwebservices.global-e.com%2F%22%2C%22clientId%22%3A%229a0c84d9-51fe-430c-82d7-42524629151e%22%2C%22sessionId%22%3A%2216ad606a-ec3e-4378-8f87-808996383724%22%2C%22sessionIdExpiry%22%3A1770068445596%2C%22configurations%22%3A%7B%22eventSendingStrategy%22%3A0%7D%2C%22featureToggles%22%3A%7B%22FT_3DA%22%3Afalse%2C%22FT_3DA_UTM_SOURCE_LIST%22%3A%5B%5D%2C%22FT_3DA_STORAGE_LIFETIME%22%3A4320%2C%22FT_BF_GOOGLE_ADS%22%3Afalse%2C%22FT_BF_GOOGLE_ADS_LIFETIME%22%3A30%2C%22isOperatedByGlobalE%22%3Atrue%7D%2C%22lockBrowsingStartOnSessionId%22%3A%2216ad606a-ec3e-4378-8f87-808996383724%22%2C%22dataUpdatedAt%22%3A1770066645596%7D",
+    "num_events": 8,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "cookiesplus|www.habitatetjardin.com|/",
+    "transition": "USER_PREFERENCES::ai_refined → CONSENT_AND_PRIVACY::ai_refined",
+    "value_initial": "%7B%22consent_mode%22%3A%7B%22cookiesplus-finality-11%22%3A%7B%22consent_type%22%3A%7B%22analytics_storage%22%3A%22true%22%7D%7D%2C%22cookiesplus-finality-12%22%3A%7B%22consent_type%22%3A%7B%22ad_storage%22%3A%22true%22%2C%22ad_user_data%22%3A%22true%22%2C%22ad_personalization%22%3A%22true%22%2C%22personalization_storage%22%3A%22true%22%7D%7D%7D%2C%22C_P_DISPLAY_MODAL%22%3Afalse%2C%22consents%22%3A%7B%22cookiesplus-finality-11%22%3A%22off%22%2C%22cookiesplus-finality-12%22%3A%22off%22%7D%2C%22consent_date%22%3A%222026-01-30%2014%3A06%22%2C%22consent_hash%22%3A%222c69d32c5324a76cc22d7bfbe168d519-b3b6d8b7%22%7D",
+    "value_final": "%7B%22consent_mode%22%3A%7B%22cookiesplus-finality-11%22%3A%7B%22consent_type%22%3A%7B%22analytics_storage%22%3A%22true%22%7D%7D%2C%22cookiesplus-finality-12%22%3A%7B%22consent_type%22%3A%7B%22ad_storage%22%3A%22true%22%2C%22ad_user_data%22%3A%22true%22%2C%22ad_personalization%22%3A%22true%22%2C%22personalization_storage%22%3A%22true%22%7D%7D%7D%2C%22C_P_DISPLAY_MODAL%22%3Afalse%2C%22consents%22%3A%7B%22cookiesplus-finality-11%22%3A%22off%22%2C%22cookiesplus-finality-12%22%3A%22off%22%7D%2C%22consent_date%22%3A%222026-01-30+14%3A06%22%2C%22consent_hash%22%3A%222c69d32c5324a76cc22d7bfbe168d519-b3b6d8b7%22%7D",
+    "num_events": 4,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "_clck|.glisshop.com|/",
+    "transition": "BEHAVIORAL_DATA::vendor_session_replay → UX_AND_PERFORMANCE_ANALYTICS::hotjar_clarity",
+    "value_initial": "11xe5mt%5E2%5Eg35%5E1%5E2193",
+    "value_final": "11xe5mt%5E2%5Eg35%5E1%5E2193",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "SID|.youtube.com|/",
+    "transition": "IDENTITY_TRACKING::generic_adtech → TECHNICAL_PASSWORDS::auth_tokens",
+    "value_initial": "g.a0005AgOxrnTVCYD98Nrv3PryQ4Rak42BaAAhtIapmqhoRk3KqvV7ZvQH7uEXtwRrRsb-4_0pQACgYKAagSARESFQHGX2MipOzFd42By13QttqxJKEdERoVAUF8yKqhfsm5iEnjY4qlX1EmYXq70076",
+    "value_final": "g.a0005AgOxrnTVCYD98Nrv3PryQ4Rak42BaAAhtIapmqhoRk3KqvV7ZvQH7uEXtwRrRsb-4_0pQACgYKAagSARESFQHGX2MipOzFd42By13QttqxJKEdERoVAUF8yKqhfsm5iEnjY4qlX1EmYXq70076",
+    "num_events": 2,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "admin_hdm_session|www.honda.mx|/",
+    "transition": "IDENTITY_TRACKING::rails_sessions → APP_STATE_STORAGE::base64_json",
+    "value_initial": "eyJpdiI6InZtWm03QTdySDJvKzJ4UFVZVlBNRXc9PSIsInZhbHVlIjoiTmk5elNWcEVPN2szaXcyTWpQczRsZlJFcEFoSjdMMzI3VEU4Q1lYdWQ5aXNXdTZWUnh4dVJzcE5NSkVQV0xjMFNVWWhneFZrZEw3ZnE5K1FhZUlzMXdYRkxHN3VOTmN2Z0h2cXI4U3JFTkVrbVpBMnplbTdMSjd6OERQVmh2cTEiLCJtYWMiOiJjODc1OGU1OGIxYTA3NWQ3MTJkMmMwZjRlZmViMWI4MzZkYTBlMTE5OWYwYTYwMjI2MTc5Njg2ODQ5MzFkZTI2IiwidGFnIjoiIn0%3D",
+    "value_final": "eyJpdiI6InZtWm03QTdySDJvKzJ4UFVZVlBNRXc9PSIsInZhbHVlIjoiTmk5elNWcEVPN2szaXcyTWpQczRsZlJFcEFoSjdMMzI3VEU4Q1lYdWQ5aXNXdTZWUnh4dVJzcE5NSkVQV0xjMFNVWWhneFZrZEw3ZnE5K1FhZUlzMXdYRkxHN3VOTmN2Z0h2cXI4U3JFTkVrbVpBMnplbTdMSjd6OERQVmh2cTEiLCJtYWMiOiJjODc1OGU1OGIxYTA3NWQ3MTJkMmMwZjRlZmViMWI4MzZkYTBlMTE5OWYwYTYwMjI2MTc5Njg2ODQ5MzFkZTI2IiwidGFnIjoiIn0%3D",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  },
+  {
+    "key": "XSRF-TOKEN|www.honda.mx|/",
+    "transition": "APP_STATE_STORAGE::base64_json → SECURITY_AND_BOT_MITIGATION::anti_csrf",
+    "value_initial": "eyJpdiI6InVvWTlZeEVJWlZMZ1MrRHFVU1QwR3c9PSIsInZhbHVlIjoiUUlSd01oK0ZCSTRoSjdmVEM1WHA4RE40bHdDV3dZYnNBSU1iU0hsRk9mTDlyKzRBUlR5VXRRUEt4Sllza0dJdlBDUWhLL1BHMHNFQzVvcE5DdmtGM2dreE5aZ3FLUW1jajRXZGNxNVJ3Mm0vWFZabkpLbUVhM2NDd0w3K0poWXQiLCJtYWMiOiIyMDgzMjg1YmMwOTQ2MGY0NmQ1NDAzYTBmOTZkOTU3NDMxOWI1NGVmMjMxNzg4YTFmMDY3YjQxMDgxNTE1N2QxIiwidGFnIjoiIn0%3D",
+    "value_final": "eyJpdiI6InVvWTlZeEVJWlZMZ1MrRHFVU1QwR3c9PSIsInZhbHVlIjoiUUlSd01oK0ZCSTRoSjdmVEM1WHA4RE40bHdDV3dZYnNBSU1iU0hsRk9mTDlyKzRBUlR5VXRRUEt4Sllza0dJdlBDUWhLL1BHMHNFQzVvcE5DdmtGM2dreE5aZ3FLUW1jajRXZGNxNVJ3Mm0vWFZabkpLbUVhM2NDd0w3K0poWXQiLCJtYWMiOiIyMDgzMjg1YmMwOTQ2MGY0NmQ1NDAzYTBmOTZkOTU3NDMxOWI1NGVmMjMxNzg4YTFmMDY3YjQxMDgxNTE1N2QxIiwidGFnIjoiIn0%3D",
+    "num_events": 12,
+    "phases": [
+      "perssistence"
+    ]
+  }
+]

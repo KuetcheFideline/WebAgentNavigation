@@ -1,0 +1,1234 @@
+{
+  "site": "https_www.egora.fr_0.indexeddb.leveldb",
+  "profile": "FR_0417",
+  "auth_type": "auth",
+  "records_count": 54,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "6cc604ecbdbf11e51b5a1e84bf5481c020e3eeca539046196b3c76795bb43c46"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {
+                  "triggers": {
+                    "delay": 3000
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "positiveButtonBackgroundColor": "rgba(223,52,58,1)"
+                },
+                "subscriptionNative": {},
+                "applicationName": "Egora",
+                "customDomain": "https://www.egora.fr/",
+                "notificationDefaultUrl": "https://www.egora.fr/",
+                "notificationIcon": "https://www.egora.fr/themes/custom/egora/logo.svg",
+                "subscriptionBell": {
+                  "color": "rgba(223,52,58,1)"
+                },
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BDFSWhECl5WqTDPdtFScxgeUZl5RowvysrUANJq5oBjP4HZKLNHKUhtS-IEjV627kw1M5J5s9N1iZlOhNLAnofQ",
+                "serviceWorkerUrl": "themes/custom/egora/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "themes/custom/egora/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749804000913.0
+          },
+          "version": "1749804000913",
+          "fetchDate": 1771946645540.0,
+          "maxAge": 0,
+          "minAge": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 4,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {
+                  "triggers": {
+                    "delay": 3000
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "positiveButtonBackgroundColor": "rgba(223,52,58,1)"
+                },
+                "subscriptionNative": {},
+                "applicationName": "Egora",
+                "customDomain": "https://www.egora.fr/",
+                "notificationDefaultUrl": "https://www.egora.fr/",
+                "notificationIcon": "https://www.egora.fr/themes/custom/egora/logo.svg",
+                "subscriptionBell": {
+                  "color": "rgba(223,52,58,1)"
+                },
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BDFSWhECl5WqTDPdtFScxgeUZl5RowvysrUANJq5oBjP4HZKLNHKUhtS-IEjV627kw1M5J5s9N1iZlOhNLAnofQ",
+                "serviceWorkerUrl": "themes/custom/egora/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "themes/custom/egora/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749804000913.0
+          },
+          "version": "1749804000913",
+          "fetchDate": 1771946645540.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749804000913"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 5,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 6,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 7,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 8,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1771946645574.0,
+            "lastDate": 1771946645574.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 9,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1771946645590.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.egora.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 10,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946645592.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 11,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1771946645592.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 12,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946645592.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 13,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1771946645595.0,
+        "untilDate": 1771946945595.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 14,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946645592.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 15,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1771946645596.0,
+        "elapsedTime": 300000,
+        "untilDate": 1771946945596.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 16,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 17,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 18,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 19,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1771946645592.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1771946645596.0,
+              "elapsedTime": 300000,
+              "untilDate": 1771946945596.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1771946645592.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1771946645596.0,
+              "elapsedTime": 300000,
+              "untilDate": 1771946945596.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 20,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "badgeShown": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 21,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "60ea4470-9e57-4776-a497-3a630666382f-19c9040188a"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 22,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {
+                  "triggers": {
+                    "delay": 3000
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "positiveButtonBackgroundColor": "rgba(223,52,58,1)"
+                },
+                "subscriptionNative": {},
+                "applicationName": "Egora",
+                "customDomain": "https://www.egora.fr/",
+                "notificationDefaultUrl": "https://www.egora.fr/",
+                "notificationIcon": "https://www.egora.fr/themes/custom/egora/logo.svg",
+                "subscriptionBell": {
+                  "color": "rgba(223,52,58,1)"
+                },
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BDFSWhECl5WqTDPdtFScxgeUZl5RowvysrUANJq5oBjP4HZKLNHKUhtS-IEjV627kw1M5J5s9N1iZlOhNLAnofQ",
+                "serviceWorkerUrl": "themes/custom/egora/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "themes/custom/egora/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749804000913.0
+          },
+          "version": "1749804000913",
+          "fetchDate": 1771946645540.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749804000913"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 23,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {
+                  "triggers": {
+                    "delay": 3000
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "positiveButtonBackgroundColor": "rgba(223,52,58,1)"
+                },
+                "subscriptionNative": {},
+                "applicationName": "Egora",
+                "customDomain": "https://www.egora.fr/",
+                "notificationDefaultUrl": "https://www.egora.fr/",
+                "notificationIcon": "https://www.egora.fr/themes/custom/egora/logo.svg",
+                "subscriptionBell": {
+                  "color": "rgba(223,52,58,1)"
+                },
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BDFSWhECl5WqTDPdtFScxgeUZl5RowvysrUANJq5oBjP4HZKLNHKUhtS-IEjV627kw1M5J5s9N1iZlOhNLAnofQ",
+                "serviceWorkerUrl": "themes/custom/egora/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "themes/custom/egora/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749804000913.0
+          },
+          "version": "1749804000913",
+          "fetchDate": 1771946646542.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749804000913"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 24,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "_triggersInfo": {
+          "resetDate": 1771946648667.0,
+          "resetVisits": 1,
+          "resetPages": 1
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 25,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1771946645596.0,
+        "untilDate": 1771947185596.0,
+        "elapsedTime": 540000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 26,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946977351.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 27,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "6cc604ecbdbf11e51b5a1e84bf5481c020e3eeca539046196b3c76795bb43c46"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 28,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 29,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 30,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 31,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1771946645574.0,
+            "lastDate": 1771946983027.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 32,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1771946983030.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.egora.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 33,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946983033.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 34,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 35,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946984075.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 36,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "6cc604ecbdbf11e51b5a1e84bf5481c020e3eeca539046196b3c76795bb43c46"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 37,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 38,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 39,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 40,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1771946645574.0,
+            "lastDate": 1771946986534.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 41,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1771946986581.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.egora.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 42,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946986586.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 43,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 44,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946988628.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 45,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "6cc604ecbdbf11e51b5a1e84bf5481c020e3eeca539046196b3c76795bb43c46"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 46,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 47,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 48,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 49,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1771946645574.0,
+            "lastDate": 1771946991059.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 50,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1771946991213.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.egora.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 51,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946991414.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 52,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 53,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1771946995804.0
+    }
+  ]
+}

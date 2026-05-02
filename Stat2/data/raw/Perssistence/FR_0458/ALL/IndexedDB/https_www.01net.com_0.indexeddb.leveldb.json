@@ -1,0 +1,3561 @@
+{
+  "site": "https_www.01net.com_0.indexeddb.leveldb",
+  "profile": "FR_0459",
+  "auth_type": "auth",
+  "records_count": 209,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "applicationName": "01net",
+                "notificationDefaultUrl": "https://www.01net.com/",
+                "customDomain": "https://www.01net.com/",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 10000
+                  }
+                },
+                "subscriptionDialog": {
+                  "triggers": {
+                    "minPages": 3
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "backgroundColor": "rgba(255,255,255,1)",
+                  "positiveButtonBackgroundColor": "rgba(27,168,238,1)"
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BFVt6cnlS91Qlb2ajuaKTVUnP5QI37BLcllZEbvP16s80KPYe-HZJTHMY-DMKvG5tT8QHrgwMqKXauFtwr6Ttiw",
+                "notificationIcon": "https://www.01net.com/android-chrome-512x512.png"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749802956731.0
+          },
+          "version": "1749802956731",
+          "fetchDate": 1767143181250.0,
+          "maxAge": 0,
+          "minAge": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 4,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "applicationName": "01net",
+                "notificationDefaultUrl": "https://www.01net.com/",
+                "customDomain": "https://www.01net.com/",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 10000
+                  }
+                },
+                "subscriptionDialog": {
+                  "triggers": {
+                    "minPages": 3
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "backgroundColor": "rgba(255,255,255,1)",
+                  "positiveButtonBackgroundColor": "rgba(27,168,238,1)"
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BFVt6cnlS91Qlb2ajuaKTVUnP5QI37BLcllZEbvP16s80KPYe-HZJTHMY-DMKvG5tT8QHrgwMqKXauFtwr6Ttiw",
+                "notificationIcon": "https://www.01net.com/android-chrome-512x512.png"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749802956731.0
+          },
+          "version": "1749802956731",
+          "fetchDate": 1767143181250.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749802956731"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 5,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 6,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "userId": {
+          "__type__": "Null"
+        },
+        "updateDate": 1767143181265.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 7,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 8,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 9,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767143181265.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 10,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767143181268.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 11,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1767143181268.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 12,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767143181268.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 13,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1767143181270.0,
+        "untilDate": 1767143481270.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 14,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767143181268.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 15,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1767143181270.0,
+        "elapsedTime": 300000,
+        "untilDate": 1767143481270.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 16,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 17,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 18,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 19,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 20,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "bf414f11-97fd-4133-89a6-961af4e125cf-19b71f10bda"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 21,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "state": false,
+        "updateDate": 1767143189710.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 22,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767143207240.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 23,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 24,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 25,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 26,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 27,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767143208891.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 28,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767143208893.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 29,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 30,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 31,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 32,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 33,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 34,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767155672176.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 35,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767143208893.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 36,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155672179.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 37,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1767155672179.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 38,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155672179.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 39,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1767155672182.0,
+        "untilDate": 1767155972182.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 40,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155672179.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 41,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1767155672182.0,
+        "elapsedTime": 300000,
+        "untilDate": 1767155972182.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 42,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 43,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 44,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 45,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 46,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155684446.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 47,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 48,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 49,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 50,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 51,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767155685388.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 52,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155685390.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 53,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 54,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155696253.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 55,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 56,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 5
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 57,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 58,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 59,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767155697152.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 60,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155697165.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 61,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 62,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 63,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 6
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 64,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 65,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 66,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767158603947.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 67,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767155697165.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 68,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767158603994.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 69,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1767158603994.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 70,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767158603994.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 71,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1767158603997.0,
+        "untilDate": 1767158903997.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 72,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767158603994.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 73,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1767158604003.0,
+        "elapsedTime": 300000,
+        "untilDate": 1767158904003.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 74,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 75,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 76,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 77,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1767158603994.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767158604003.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767158904003.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 3,
+              "last1days": 3,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 3,
+              "last90days": 3
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          },
+          {
+            "actionDate": 1767158603994.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767158604003.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767158904003.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 3,
+              "last1days": 3,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 3,
+              "last90days": 3
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 78,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767158621583.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 79,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 80,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 7
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 81,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.41.2"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 82,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 83,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1767158622852.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 84,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767158622950.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 85,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 86,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 87,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "applicationName": "01net",
+                "notificationDefaultUrl": "https://www.01net.com/",
+                "customDomain": "https://www.01net.com/",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 10000
+                  }
+                },
+                "subscriptionDialog": {
+                  "triggers": {
+                    "minPages": 3
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "backgroundColor": "rgba(255,255,255,1)",
+                  "positiveButtonBackgroundColor": "rgba(27,168,238,1)"
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BFVt6cnlS91Qlb2ajuaKTVUnP5QI37BLcllZEbvP16s80KPYe-HZJTHMY-DMKvG5tT8QHrgwMqKXauFtwr6Ttiw",
+                "notificationIcon": "https://www.01net.com/android-chrome-512x512.png"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749802956731.0
+          },
+          "version": "1749802956731",
+          "fetchDate": 1769824141011.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749802956731"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 88,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "applicationName": "01net",
+                "notificationDefaultUrl": "https://www.01net.com/",
+                "customDomain": "https://www.01net.com/",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 10000
+                  }
+                },
+                "subscriptionDialog": {
+                  "triggers": {
+                    "minPages": 3
+                  },
+                  "hidePoweredBy": true,
+                  "closeSnooze": 43200000,
+                  "negativeSnooze": 604800000,
+                  "backgroundColor": "rgba(255,255,255,1)",
+                  "positiveButtonBackgroundColor": "rgba(27,168,238,1)"
+                },
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BFVt6cnlS91Qlb2ajuaKTVUnP5QI37BLcllZEbvP16s80KPYe-HZJTHMY-DMKvG5tT8QHrgwMqKXauFtwr6Ttiw",
+                "notificationIcon": "https://www.01net.com/android-chrome-512x512.png"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "version": 1749802956731.0
+          },
+          "version": "1749802956731",
+          "fetchDate": 1769824141011.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749802956731"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 89,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 8
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 90,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 91,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 92,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1769824141046.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 93,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1767158622950.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 94,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824141052.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 95,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1769824141052.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 96,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824141052.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 97,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1769824141054.0,
+        "untilDate": 1769824441054.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 98,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824141052.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 99,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1769824141054.0,
+        "elapsedTime": 300000,
+        "untilDate": 1769824441054.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 100,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 101,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 102,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 103,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1769824141052.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1769824141054.0,
+              "elapsedTime": 300000,
+              "untilDate": 1769824441054.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 4,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 3,
+              "last60days": 4,
+              "last90days": 4
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          },
+          {
+            "actionDate": 1767158603994.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767158604003.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767158904003.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 3,
+              "last1days": 3,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 3,
+              "last90days": 3
+            }
+          },
+          {
+            "actionDate": 1769824141052.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1769824141054.0,
+              "elapsedTime": 300000,
+              "untilDate": 1769824441054.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 4,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 3,
+              "last60days": 4,
+              "last90days": 4
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 104,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824168235.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 105,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 106,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 9
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 107,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 108,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 109,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1769824184588.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 110,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824184593.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 111,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 112,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824193742.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 113,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 114,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 10
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 115,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 116,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 117,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1769824202716.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 118,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824202720.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 119,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 120,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824269709.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 121,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 122,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 11
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 123,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 124,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 125,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1769824276810.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 126,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824276815.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 127,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 128,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 129,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 12
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 130,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 131,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 5
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 132,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770080723214.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 133,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1769824276815.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 134,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080723221.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 135,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1770080723221.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 136,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080723221.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 137,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770080723223.0,
+        "untilDate": 1770081023223.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 138,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080723221.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 139,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770080723224.0,
+        "elapsedTime": 300000,
+        "untilDate": 1770081023224.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 140,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 5
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 141,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 142,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 143,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1770080723221.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770080723224.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770081023224.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 5,
+              "last1days": 1,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 5,
+              "last90days": 5
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          },
+          {
+            "actionDate": 1767158603994.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767158604003.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767158904003.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 3,
+              "last1days": 3,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 3,
+              "last90days": 3
+            }
+          },
+          {
+            "actionDate": 1769824141052.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1769824141054.0,
+              "elapsedTime": 300000,
+              "untilDate": 1769824441054.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 4,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 3,
+              "last60days": 4,
+              "last90days": 4
+            }
+          },
+          {
+            "actionDate": 1770080723221.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770080723224.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770081023224.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 5,
+              "last1days": 1,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 5,
+              "last90days": 5
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 144,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080744154.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 145,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 146,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 13
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 147,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 148,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 149,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770080746940.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 150,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080746944.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 151,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 152,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080776732.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 153,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 154,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 14
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 155,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 156,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 157,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770080779344.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 158,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080779348.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 159,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 160,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080821892.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 161,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 162,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 15
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 163,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 164,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 165,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770102589536.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 166,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770080821892.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 167,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770102589602.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 168,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1770102589602.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 169,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770102589602.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 170,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770102589607.0,
+        "untilDate": 1770102889607.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 171,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770102589602.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 172,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770102589607.0,
+        "elapsedTime": 300000,
+        "untilDate": 1770102889607.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 173,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 6
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 174,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 175,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 176,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1770102589602.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770102589607.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770102889607.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 6,
+              "last1days": 2,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 6,
+              "last90days": 6
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          },
+          {
+            "actionDate": 1767158603994.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767158604003.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767158904003.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 3,
+              "last1days": 3,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 3,
+              "last90days": 3
+            }
+          },
+          {
+            "actionDate": 1769824141052.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1769824141054.0,
+              "elapsedTime": 300000,
+              "untilDate": 1769824441054.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 4,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 3,
+              "last60days": 4,
+              "last90days": 4
+            }
+          },
+          {
+            "actionDate": 1770080723221.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770080723224.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770081023224.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 5,
+              "last1days": 1,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 5,
+              "last90days": 5
+            }
+          },
+          {
+            "actionDate": 1770102589602.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770102589607.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770102889607.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 6,
+              "last1days": 2,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 6,
+              "last90days": 6
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 177,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770102618576.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 178,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 179,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 16
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 180,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 181,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 182,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770102626188.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 183,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770102626194.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 184,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 185,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 186,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 17
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 187,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 188,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 189,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770121044391.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 190,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770102626194.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 191,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770121044418.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 192,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1770121044418.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 193,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770121044418.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 194,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770121044424.0,
+        "untilDate": 1770121344424.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 195,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770121044418.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 196,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770121044431.0,
+        "elapsedTime": 300000,
+        "untilDate": 1770121344431.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 197,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 7
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 198,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 199,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 200,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1770121044418.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770121044431.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770121344431.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 7,
+              "last1days": 3,
+              "last3days": 4,
+              "last7days": 4,
+              "last15days": 4,
+              "last30days": 4,
+              "last60days": 7,
+              "last90days": 7
+            }
+          },
+          {
+            "actionDate": 1767143181268.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767143181270.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767143481270.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1767155672179.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767155672182.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767155972182.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 2,
+              "last1days": 2,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 2,
+              "last90days": 2
+            }
+          },
+          {
+            "actionDate": 1767158603994.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1767158604003.0,
+              "elapsedTime": 300000,
+              "untilDate": 1767158904003.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 3,
+              "last1days": 3,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 3,
+              "last90days": 3
+            }
+          },
+          {
+            "actionDate": 1769824141052.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1769824141054.0,
+              "elapsedTime": 300000,
+              "untilDate": 1769824441054.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 4,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 3,
+              "last60days": 4,
+              "last90days": 4
+            }
+          },
+          {
+            "actionDate": 1770080723221.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770080723224.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770081023224.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 5,
+              "last1days": 1,
+              "last3days": 2,
+              "last7days": 2,
+              "last15days": 2,
+              "last30days": 2,
+              "last60days": 5,
+              "last90days": 5
+            }
+          },
+          {
+            "actionDate": 1770102589602.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770102589607.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770102889607.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 6,
+              "last1days": 2,
+              "last3days": 3,
+              "last7days": 3,
+              "last15days": 3,
+              "last30days": 3,
+              "last60days": 6,
+              "last90days": 6
+            }
+          },
+          {
+            "actionDate": 1770121044418.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770121044431.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770121344431.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 7,
+              "last1days": 3,
+              "last3days": 4,
+              "last7days": 4,
+              "last15days": 4,
+              "last30days": 4,
+              "last60days": 7,
+              "last90days": 7
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 201,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770121083468.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 202,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "95246dc45eebb45050aeb99a801edc049b3b069715be6725d2895df421ad5898",
+        "userId": {
+          "__type__": "Null"
+        },
+        "customDomain": "https://www.01net.com/app/plugins/wonderpush-web-push-notifications/assets/sdk/",
+        "frameUrl": "wp.html",
+        "requiresUserConsent": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 203,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 18
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 204,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 205,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 206,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1767143181265.0,
+            "lastDate": 1770121086552.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 207,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770121086557.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 208,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "task_id": "244",
+    "key": "lastSelogerSearches",
+    "value": "[{\"link\":\"https://www.seloger.com/classified-search?distributionTypes=Buy,Buy_Auction,Compulsory_Auction&estateTypes=House,Apartment&locations=AD09FR42\",\"title\":\"Maisons et appartements à vendre – Paris 17ème arrondissement, 75017\",\"timestamp\":\"2026-01-05T22:06:33.228Z\",\"criteria\":{\"locations\":{\"mapping\":[{\"id\":\"AD09FR42\"}]}}}]",
+    "value_length": 329,
+    "initial_url": "https://www.seloger.com",
+    "final_url": "https://www.seloger-bureaux-commerces.com/#?CMP=INT_Head_LO_7",
+    "timestamp": "2026-01-31T05:00:58.189172",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "postal_code_area",
+    "_source_file": "removed_localstorage.json"
+  },
+  {
+    "task_id": "459",
+    "key": "userEmail",
+    "value": "",
+    "value_length": 0,
+    "initial_url": "https://www.ircem.com",
+    "final_url": "https://www.info-retraite.fr/portail-services/login",
+    "timestamp": "2026-01-31T19:26:49.291073",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "removed_localstorage.json",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key name explicitly indicates user email, a direct personal identifier."
+  }
+]

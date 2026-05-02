@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "53",
+    "key": "gscs",
+    "value": "{\"$start\":1764836229044,\"source\":\"https://sundayapp.io/\",\"landing\":\"https://sundayapp.com/\",\"pageNum\":2,\"lastVisit\":1764836245660,\"server\":{\"id\":\"66ba1bf03dd0023f\",\"user_id\":\"66ba1bf03de5cc7d\",\"time\":1764836229367,\"token\":\"1764836229.42ff4246c639b7e0f02c7210dd757177.b06b715b0d7c1b7841a6755e9409a623\",\"geo\":{\"ip\":\"178.171.21.125\",\"geopath\":\"146869:148179:\",\"geoname_id\":1880252,\"longitude\":103.8554,\"latitude\":1.3036,\"postal_code\":\"18\",\"city\":\"Singapore\",\"country\":\"Singapore\",\"country_code\":\"SG\",\"timezone\":\"Asia/Singapore\"},\"ua\":{\"platform\":\"Desktop\",\"os\":\"Linux/Unix\",\"os_family\":\"Linux\",\"browser\":\"Chrome\",\"browser_family\":\"Chrome\",\"browser_version\":\"140.0.0\",\"device\":\"Other\"},\"utm\":{},\"timedelta\":-58},\"id\":\"66ba1bf03dd0023f\"}",
+    "value_length": 732,
+    "initial_url": "https://sundayapp.io",
+    "final_url": "https://sundayapp.com/smart-handheld/",
+    "timestamp": "2025-12-04T09:17:58.169418",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_localstorage.json"
+  },
+  {
+    "task_id": "85",
+    "key": "tealium_timing",
+    "value": "{\"domain\":\"www.linkedin.com\",\"pathname\":\"/jobs/search\",\"query_string\":\"keywords=Services+%C3%80+La+Communaut%C3%A9+Et+Services+Sociaux+Roubaix&location=Roubaix&geoId=&trk=public_jobs_jobs-search-bar_search-submit\",\"timestamp\":1764840208144,\"dns\":0,\"connect\":0,\"response\":3,\"dom_loading_to_interactive\":54,\"dom_interactive_to_complete\":318,\"load\":7,\"time_to_first_byte\":513,\"front_end\":390,\"fetch_to_response\":513,\"fetch_to_complete\":906,\"fetch_to_interactive\":588}",
+    "value_length": 464,
+    "initial_url": "https://fr.linkedin.com",
+    "final_url": "https://www.linkedin.com/onboarding/start/handle-confirmation/new/?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fsearch%3Fkeywords%3DServices%2B%25C3%2580%2BLa%2BCommunaut%25C3%25A9%2BEt%2BServices%2BSociaux%2BRoubaix%26location%3DRoubaix%26geoId%3D%26trk%3Dpublic_jobs_jobs-search-bar_search-submit&source=jobs_registration",
+    "timestamp": "2025-12-04T10:25:39.590047",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "city",
+    "_source_file": "added_localstorage.json"
+  },
+  {
+    "task_id": "240",
+    "key": "butcuisines.geoloc",
+    "value": "{\"zipcode\":59100,\"latitude\":null,\"longitude\":null,\"timestamp\":1764850857844}",
+    "value_length": 76,
+    "initial_url": "https://www.but-cuisines.fr",
+    "final_url": "https://www.but-cuisines.fr/",
+    "timestamp": "2025-12-04T13:23:01.738054",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "postal_code_area",
+    "_source_file": "added_localstorage.json"
+  }
+]

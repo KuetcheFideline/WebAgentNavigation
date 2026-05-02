@@ -1,0 +1,110 @@
+[
+  {
+    "field_path": "[0].options.postParams.events.values[63].clientError.stackTrace.browserStackInfo.stackTrace",
+    "value": "    at d.onerror (https://www.youtube.com/s/embeds/40c655de/www-embed-player.vflset/www-embed-player.js:832:30)",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "stackTrace",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Stack trace string related to client error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#0",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[0].options.postParams.events.values[63].clientError.stackTrace.browserStackInfo.filename",
+    "value": "https://www.youtube.com/embed/mQzfHA_FOIU?si=_jUqMXl1nABbYXFU",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "filename",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Filename URL related to error stack trace telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#0",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[0].options.postParams.events.values[63].clientError.logMessage.level",
+    "value": "ERROR_LEVEL_WARNNING",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "level",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Log message level indicating error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#0",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[0].options.postParams.events.values[63].clientError.logMessage.message",
+    "value": "EWLS",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "message",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Log message string related to error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#0",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[0].options.postParams.events.values[63].clientError.logMessage.errorClassName",
+    "value": "Error",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "errorClassName",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Error class name string related to error telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#0",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[15].options.postParams.events.values[55].clientError.stackTrace.browserStackInfo.stackTrace",
+    "value": "    at d.onerror (https://www.youtube.com/s/embeds/40c655de/www-embed-player-es6.vflset/www-embed-player-es6.js:519:24)",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "stackTrace",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Stack trace of client error for telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#15",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[25].options.postParams.events.values[62].clientError.stackTrace.browserStackInfo.stackTrace",
+    "value": "    at d.onerror (https://www.youtube.com/s/embeds/2e796aed/www-embed-player.vflset/www-embed-player.js:832:30)",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "stackTrace",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Stack trace for telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[27].options.postParams.events.values[57].clientError.stackTrace.browserStackInfo.stackTrace",
+    "value": "    at d.onerror (https://www.youtube.com/s/embeds/da6a6a67/www-embed-player.vflset/www-embed-player.js:832:30)",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "stackTrace",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Stack trace for telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#27",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[30].options.postParams.events.values[59].clientError.stackTrace.browserStackInfo.stackTrace",
+    "value": "    at d.onerror (https://www.youtube.com/s/embeds/da6a6a67/www-embed-player.vflset/www-embed-player.js:832:30)",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "stackTrace",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Stack trace for telemetry.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#30",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  }
+]

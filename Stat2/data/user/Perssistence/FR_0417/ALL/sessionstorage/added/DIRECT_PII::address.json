@@ -1,0 +1,88 @@
+[
+  {
+    "task_id": "353",
+    "key": "TP.um",
+    "value": "{\"ua\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\",\"rf\":\"https://www.couteauxduchef.com/\",\"said\":\"26585ddb-a6b8-449d-b554-0a12cf8263f4\",\"uuid\":\"42961c09-4641-4446-9cb5-38891d4f3c67\",\"uuidSrc\":\"ls\",\"cmh\":\"947f46a8e6d6a5f9cfeeb18482b82a0f\",\"l\":\"browserLanguage=fr-fr;systemLanguage=NA;userLanguage=NA\",\"tz\":-60,\"f\":\"9,19,73,103,230,280,283,303,305,306,332,425,426,502,576,582,586,591,636,637,640,652,681,737,746,749,750,813,818,849,850,865,875,913,920,931,965,1018,1057,1106,1138,1139,1142,1197,1198\",\"rtc\":{\"mediaDevices\":[{\"kind\":\"audioinput\",\"deviceId\":\"\"},{\"kind\":\"audiooutput\",\"deviceId\":\"\"}],\"ipAddresses\":[]}}",
+    "value_length": 673,
+    "initial_url": "https://www.couteauxduchef.com",
+    "final_url": "https://fr.trustpilot.com/review/couteauxduchef.com",
+    "timestamp": "2026-01-31T05:35:12.323226",
+    "_categories": [
+      "IDENTITY_TRACKING",
+      "DIRECT_PII::address",
+      "DEVICE_ENV",
+      "SUSPICIOUS_VALUES"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": true,
+    "_json_depth": 4,
+    "_size_bytes": 673
+  },
+  {
+    "task_id": "685",
+    "key": "customer_city",
+    "value": "Roubaix",
+    "value_length": 7,
+    "initial_url": "https://www.camping-vagues-oceanes.com",
+    "final_url": "https://thelisresa.webcamp.fr/cart-details.php?PHPSESSID=r7seh5ti1u71jrthmvapbubnqa&lang=fr&camping=clicochic",
+    "timestamp": "2026-02-03T00:05:43.842581",
+    "_categories": [
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 7
+  },
+  {
+    "task_id": "685",
+    "key": "customer_address2",
+    "value": "Roubaix",
+    "value_length": 7,
+    "initial_url": "https://www.camping-vagues-oceanes.com",
+    "final_url": "https://thelisresa.webcamp.fr/cart-details.php?PHPSESSID=r7seh5ti1u71jrthmvapbubnqa&lang=fr&camping=clicochic",
+    "timestamp": "2026-02-03T00:05:43.842581",
+    "_categories": [
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 7
+  },
+  {
+    "task_id": "685",
+    "key": "customer_address",
+    "value": "688, avenue Thérèse Robin",
+    "value_length": 25,
+    "initial_url": "https://www.camping-vagues-oceanes.com",
+    "final_url": "https://thelisresa.webcamp.fr/cart-details.php?PHPSESSID=r7seh5ti1u71jrthmvapbubnqa&lang=fr&camping=clicochic",
+    "timestamp": "2026-02-03T00:05:43.842581",
+    "_categories": [
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 27
+  },
+  {
+    "task_id": "843",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"Mexico\",\"country_iso_code\":\"MX\",\"state\":\"Quintana Roo\",\"state_iso_code\":\"ROO\",\"city\":\"Cancún\",\"city_id\":3531673,\"city_confidence\":-1,\"postal_code\":\"77500\",\"latitude\":21.1757,\"longitude\":-86.8489,\"accuracy_radius\":100,\"time_zone\":\"America/Cancun\",\"least_specific_subdivision\":{\"name\":\"Quintana Roo\",\"iso_code\":\"ROO\"},\"most_specific_subdivision\":{\"name\":\"Quintana Roo\",\"iso_code\":\"ROO\"},\"ip_address\":\"66.227.92.225\"}",
+    "value_length": 431,
+    "initial_url": "http://evene.lefigaro.fr",
+    "final_url": "https://www.lefigaro.fr/bons-plans/voyage/vacances-au-soleil-3-destinations-pour-moins-de-200-euros-code-promo-a-duree-limitee-20260202",
+    "timestamp": "2026-02-03T03:48:28.256189",
+    "_categories": [
+      "LOCATION_AND_DEMOGRAPHICS",
+      "USER_PREFERENCES",
+      "SENSITIVE_LOCATION_PII",
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": true,
+    "_json_depth": 2,
+    "_size_bytes": 432
+  }
+]

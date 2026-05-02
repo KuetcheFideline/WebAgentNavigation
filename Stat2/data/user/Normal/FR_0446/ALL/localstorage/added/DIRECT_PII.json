@@ -1,0 +1,31 @@
+[
+  {
+    "task_id": "38",
+    "key": "__sid_suggestions-hotels",
+    "value": "w-fr-78.112.62.219-74c987a7c11e14edf988007dcd378420-17708919746682026-02-12 11:02:41suggestions-hotels",
+    "value_length": 102,
+    "initial_url": "https://www.monnuage.fr",
+    "final_url": "https://www.monnuage.fr/a-voir/royaume_uni/ecosse/edimbourg#google_vignette",
+    "timestamp": "2026-02-12T12:29:53.143628",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_localstorage.json"
+  },
+  {
+    "task_id": "54",
+    "key": "applicationData",
+    "value": "{\"propertyId\":\"331634008\",\"clientOrigin\":null,\"householdType\":null,\"totalIncome\":null,\"desiredMovingDate\":null,\"tenants\":[],\"children\":[],\"termOfUse\":false}",
+    "value_length": 156,
+    "initial_url": "https://fr.foncia.com",
+    "final_url": "https://fr.foncia.com/location/strasbourg-67/appartement/331634008.htm",
+    "timestamp": "2026-02-12T14:31:00.937489",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ai_refined",
+    "_source_file": "added_localstorage.json",
+    "try_decoded_value": "{\"propertyId\": \"331634008\", \"clientOrigin\": null, \"householdType\": null, \"totalIncome\": null, \"desiredMovingDate\": null, \"tenants\": [], \"children\": [], \"termOfUse\": false}",
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Value contains householdType, totalIncome, tenants, children which are user profile data."
+  }
+]

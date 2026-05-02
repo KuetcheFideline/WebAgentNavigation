@@ -1,0 +1,131 @@
+[
+  {
+    "field_path": "[25].geoLocation.ip",
+    "name": "ip",
+    "value": "66.227.92.225",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[138].geoLocation.ip",
+    "name": "ip",
+    "value": "66.227.92.225",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[141].geoLocation.ip",
+    "name": "ip",
+    "value": "66.227.92.225",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[217].geoLocation.ip",
+    "name": "ip",
+    "value": "66.227.92.225",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[218].geoLocation.ip",
+    "name": "ip",
+    "value": "66.227.92.225",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[25].geoLocation.area_code",
+    "value": "0",
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json",
+    "name": "area_code",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Area code is location-related personal data.",
+    "record_id": "https_www.sortiraparis.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[25].geoLocation.organization",
+    "value": "AS199527 UAB Bite Lietuva",
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json",
+    "name": "organization",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Organization name related to IP geolocation, considered personal data.",
+    "record_id": "https_www.sortiraparis.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[25].geoLocation.organization_name",
+    "value": "UAB Bite Lietuva",
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json",
+    "name": "organization_name",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Organization name related to IP geolocation, considered personal data.",
+    "record_id": "https_www.sortiraparis.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[25].geoLocation.country_code3",
+    "value": "MEX",
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json",
+    "name": "country_code3",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "3-letter country code related to geolocation personal data.",
+    "record_id": "https_www.sortiraparis.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[25].geoLocation.asn",
+    "value": 199527,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json",
+    "name": "asn",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Autonomous System Number related to IP geolocation, personal data.",
+    "record_id": "https_www.sortiraparis.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[25].geoLocation.accuracy",
+    "value": 100,
+    "source_file": "https_www.sortiraparis.com_0.indexeddb.leveldb.json",
+    "name": "accuracy",
+    "ai_categorized": true,
+    "ai_confidence": 0.7,
+    "ai_explanation": "Accuracy metric related to geolocation personal data.",
+    "record_id": "https_www.sortiraparis.com_0.indexeddb.leveldb.json#25",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[123].innertubeResponse.desktopTopbarRenderer.topbarButtons.values[2].topbarMenuButtonRenderer.avatar.thumbnails.values[0].url",
+    "value": "https://yt3.googleusercontent.com/yti/ANjgQV8cOH857ezBQn6YA-lShGPFDJzKpLMPzyoNnkfn_P0=s88-c-k-c0x00ffffff-no-rj-mo",
+    "source_file": "https_www.youtube.com_0.indexeddb.leveldb.json",
+    "name": "url",
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "URL to user avatar image, considered direct personal data.",
+    "record_id": "https_www.youtube.com_0.indexeddb.leveldb.json#123",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  }
+]

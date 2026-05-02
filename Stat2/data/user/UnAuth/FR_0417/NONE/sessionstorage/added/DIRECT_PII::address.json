@@ -1,0 +1,36 @@
+[
+  {
+    "task_id": "90",
+    "key": "AI_buffer",
+    "value": "[\"{\\\"time\\\":\\\"2025-12-04T09:33:48.415Z\\\",\\\"iKey\\\":\\\"8f65d673-8040-4b08-8a4a-08630d20f9f6\\\",\\\"name\\\":\\\"Microsoft.ApplicationInsights.8f65d67380404b088a4a08630d20f9f6.RemoteDependency\\\",\\\"tags\\\":{\\\"ai.user.id\\\":\\\"ZUtpEmff3Vna0Liu8Soi08\\\",\\\"ai.session.id\\\":\\\"sUHYOIlVLA0yhrxP6oGjrC\\\",\\\"ai.device.id\\\":\\\"browser\\\",\\\"ai.device.type\\\":\\\"Browser\\\",\\\"ai.operation.name\\\":\\\"/v2/clientarea\\\",\\\"ai.operation.id\\\":\\\"49c3b0ac10544d9287dd03437da89dc1\\\",\\\"ai.internal.sdkVersion\\\":\\\"javascript:2.8.18\\\"},\\\"data\\\":{\\\"baseType\\\":\\\"RemoteDependencyData\\\",\\\"baseData\\\":{\\\"id\\\":\\\"|49c3b0ac10544d9287dd03437da89dc1.663f4a2e2bd64716.\\\",\\\"ver\\\":2,\\\"name\\\":\\\"GET https://api-adresse.data.gouv.fr/search/?q=688, avenue Thérèse Robin\\\\\\\\\\\\\\\\n Roubaix\\\\\\\\\\\\\\\\nFrance&limit=15&type=housenumber\\\",\\\"resultCode\\\":\\\"0\\\",\\\"duration\\\":\\\"00:00:01.287\\\",\\\"success\\\":false,\\\"data\\\":\\\"GET https://api-adresse.data.gouv.fr/search/?q=688, avenue Thérèse Robin\\\\\\\\\\\\\\\\n Roubaix\\\\\\\\\\\\\\\\nFrance&limit=15&type=housenumber\\\",\\\"target\\\":\\\"api-adresse.data.gouv.fr\\\",\\\"type\\\":\\\"Ajax\\\",\\\"properties\\\":{\\\"HttpMethod\\\":\\\"GET\\\"},\\\"measurements\\\":{}}}}\"]",
+    "value_length": 1103,
+    "initial_url": "https://www.billetreduc.com",
+    "final_url": "https://www.billetreduc.com/v2/clientarea#/Authentication?redirect=%2Fcommandes",
+    "timestamp": "2025-12-04T10:33:51.710277",
+    "_categories": [
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 1107
+  },
+  {
+    "task_id": "279",
+    "key": "pmTempStorage",
+    "value": "{\"etid\":null,\"pid\":\"3474A1BC3E5AF19B\",\"referer\":null,\"cc_statistics\":false,\"cc_marketing\":false,\"gacid\":null,\"gacid_source\":null,\"uid\":null,\"gclid\":null,\"fbp\":null,\"fbc\":null,\"cip\":\"0.0.0.0\",\"gbraid\":\"\",\"wbraid\":\"\",\"ga4SessionId\":null,\"ga4SessionNumber\":null,\"em_md5\":null,\"em_sha256\":null,\"em\":null}",
+    "value_length": 300,
+    "initial_url": "https://www.passagedudesir.fr",
+    "final_url": "https://www.passagedudesir.fr/collections/sextoy-clitoridien",
+    "timestamp": "2025-12-04T14:15:37.774034",
+    "_categories": [
+      "IDENTITY_TRACKING",
+      "BEHAVIORAL_DATA",
+      "DIRECT_PII::address"
+    ],
+    "_primary_category": "DIRECT_PII::address",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 300
+  }
+]

@@ -1,0 +1,250 @@
+[
+  {
+    "field_path": "[1].value.email",
+    "name": "email",
+    "value": "chris.martin.gdpr@gmail.com",
+    "matched_subcategory": "email_username",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[1].value.displayName",
+    "name": "displayName",
+    "value": "Chris Martin",
+    "matched_subcategory": "full_name",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[1].value.providerData.values[0].displayName",
+    "name": "displayName",
+    "value": "Chris Martin",
+    "matched_subcategory": "full_name",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[1].value.providerData.values[0].email",
+    "name": "email",
+    "value": "chris.martin.gdpr@gmail.com",
+    "matched_subcategory": "email_username",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[11].value.email",
+    "name": "email",
+    "value": "chris.martin.gdpr@gmail.com",
+    "matched_subcategory": "email_username",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[11].value.displayName",
+    "name": "displayName",
+    "value": "Chris Martin",
+    "matched_subcategory": "full_name",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[11].value.providerData.values[0].displayName",
+    "name": "displayName",
+    "value": "Chris Martin",
+    "matched_subcategory": "full_name",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[11].value.providerData.values[0].email",
+    "name": "email",
+    "value": "chris.martin.gdpr@gmail.com",
+    "matched_subcategory": "email_username",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[28].geoLocation.ip",
+    "name": "ip",
+    "value": "158.46.138.103",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[68].geoLocation.ip",
+    "name": "ip",
+    "value": "158.46.138.103",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[1].value.emailVerified",
+    "value": true,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "emailVerified",
+    "try_decoded_value": "True",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Boolean field related to user identity verification, linked to user profile.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#1",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[1].value.photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "URL to user photo, direct personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#1",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[1].value.providerData.values[0].providerId",
+    "value": "google.com",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "providerId",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "String identifying authentication provider, linked to user identity.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#1",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[1].value.providerData.values[0].photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "URL to user photo from provider, direct personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#1",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[11].value.emailVerified",
+    "value": true,
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "emailVerified",
+    "try_decoded_value": "True",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Boolean field related to user identity verification, linked to user profile.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#11",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[11].value.photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "URL to user photo, direct personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#11",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[11].value.providerData.values[0].providerId",
+    "value": "google.com",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "providerId",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "String identifying authentication provider, linked to user identity.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#11",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[11].value.providerData.values[0].photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "URL to user photo from provider, direct personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#11",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[3].serializedConfig.fetchDate",
+    "value": 1767129886430.0,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json",
+    "name": "fetchDate",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Timestamp representing fetch date, personal data related to user session lifecycle.",
+    "record_id": "https_www.01net.com_0.indexeddb.leveldb.json#3",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[1].value.photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Field contains a URL to a user photo, considered personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#1",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[1].value.providerData.values[0].photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Field contains a URL to a user photo, considered personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#1",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[11].value.photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Field contains a URL to a user photo, considered personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#11",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[11].value.providerData.values[0].photoURL",
+    "value": "https://lh3.googleusercontent.com/a/ACg8ocKOl8kXRdxydpfkwfUirsh4SC8RWjWLyv501S2mbP48QP0GCQ=s96-c",
+    "source_file": "https_www.lespompeuses.com_0.indexeddb.leveldb.json",
+    "name": "photoURL",
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "Field contains a URL to a user photo, considered personal data.",
+    "record_id": "https_www.lespompeuses.com_0.indexeddb.leveldb.json#11",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  }
+]

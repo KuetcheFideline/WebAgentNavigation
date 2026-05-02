@@ -1,0 +1,938 @@
+{
+    "metadata": {
+        "initial url": "https://lesciseauxmagiques.fr",
+        "final_url": "chrome-error://chromewebdata/",
+        "timestamp": "2026-02-24T23:26:26.081636"
+    },
+    "cookies": {
+        "added": {
+            "_gcl_au|.lesciseauxmagiques.fr|/": {
+                "name": "_gcl_au",
+                "value": "1.1.1557598128.1771962885",
+                "domain": ".lesciseauxmagiques.fr",
+                "path": "/",
+                "expires": 1779738885,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "_snrs_params|.lesciseauxmagiques.fr|/": {
+                "name": "_snrs_params",
+                "value": "{\"snrs_cp\":\"5d195cf9-403a-4503-8ca6-372cb308aab3\",\"snrs_var\":\"17082160\",\"utm_campaign\":\"pop_up_patron_gratis_usuarios_disabled\",\"utm_medium\":\"dynamic_iteration\",\"utm_source\":\"automation\",\"utm_term\":\"popup_patron\"}",
+                "domain": ".lesciseauxmagiques.fr",
+                "path": "/",
+                "expires": 1772229516,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "removed": {
+            "__cf_bm|.acsta.net|/": {
+                "name": "__cf_bm",
+                "value": "4dNI9P4KCy294dG7UaXAtJhwTFQebcrxqO6Si_3TZ1U-1771962786-1.0.1.1-dhI34D29KPg0ehovQQXWuC3JgjcR.hwZsqOFcBRC2xSLx402f1pYrsCmPg1FSxC5HjGKj0SCWO4h6hT8iEnc8iebQurHynKECfUvRtWER9s",
+                "domain": ".acsta.net",
+                "path": "/",
+                "expires": 1771964586.826013,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "vdzj1_c3365055|.kueezrtb.com|/prebid/multi": {
+                "name": "vdzj1_c3365055",
+                "value": "Poi11UBgfN2YEyWVLmAXBzxGNyALJHRvGUVQdwA6d0FmM2ZzV1R2UWx2S29uY3tUB3oQdWdPZGE0dFUEfgM4Jk9jZGJ2U154VGB1TWB0eWBRVSpUPXdMZWNhIFAHLFBpdx9mY2Z0UlBsHntzSmA3YHpWXn9TOnNNZWFhdl9QKAE8I0p1end0VFYoBmt3HWVhYyYFBCgFYXFMNDRsegVEYhBvdko0YWMnUVF6BGx0TmA3NnoBAiwLPHRbe3RjcVVeL1RtIU4xNzRxUFIsBWogS2JlNydFSmwEYXMcb2NmJFMDKAFvcU1ibmx6XgV8AGxnVXVgZnUGUH9Ta3EaYzBnI1YEeQQ6ckw1YDNgS0R4AW4kTDIwZHYEUigAOHQbYGA2dVJSKAR7aVthZWIjUgB9UW0mTTFkNHMFUXhRbnBNMTR3bkVQfFRsckE2bm0nBAN8BGpwG2FvNHJUUHsQdWdPZGE0dwFTegM4Jk9jZGJ2U154VGF3SWF0eWBRVXlTb3dBMmc0IVFSfAVtcUFhMGxyU1Rsb3VnGjgjOzZFXH4eeyIdJyR3eBwbYhAqIAokPzosRVxsBW9xHzZhYXNKXytXPGhKNjJkb1AHL1d0fEg1N2xwAVV5BTxyW3t0Ni0JCCtRLSwWOR8xYF1EeAVvch9mMjB1AlF7AmtwGzJvbHNQAnoGezg=",
+                "domain": ".kueezrtb.com",
+                "path": "/prebid/multi",
+                "expires": 1771963523.736767,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "vdzj1_ed184012|.kueezrtb.com|/prebid/multi": {
+                "name": "vdzj1_ed184012",
+                "value": "FrI13G0lX7XhMy926OPBIcOUUsBigLShAMFGUGXj4Cb1AsQQFXVSp1Bl9tVW5RLEkKBANtaxJaYQU7WnVIXAEHf3UID20EalB1TwABV3tlHE5uBG8Je0tbAgcuJAZYagBsXHVPXwsGe3ASQHoBa18sTwsKU34mU1psBW9ceUEPVA9/cwJOdBVuWykfXQADfXIEDm9WOgp9S18DA3xxBVp6G3pefk5YBw5+fwENOwFsWnpNDQoAKXRVCmsVdEp7SglUAn11VF5vATwKLx8OCgJ6JFJVYFV6RG9PCgFVeHFVWm8Dbl18Tg5TVXchVA5hUmlKYVsPCgAqfwVfPgM9Dn5PDQYDd34IVTsFal1vVRsEBXgmBl05BWwLeR8LUwctcAYPbwI6XitbFRAAfHBRWT1RaVwuTV8AV34lB1o7AG1cK08bHhR5dAcNbVFrC3kaDVQELnZSW25Ub115H1sQGm1xA1s5Aj5deUhYUQB7dQdYbA9uDnVLCQQUY2UGX2oPOQ55HQ5UVy50B1g6AGsNf0wKUFNtGhxOO1gtBjlbAwIabSBUHCoVYhMwVRtBUzw0WQM2FWJKek8NVFd4cwFBYVI9DWBKWFYHYnBRDT0aYVkvGAAAUHxwBwlvFXRKLhZXXFMsM1kDNn48SndbDwdTeSZWXWADPFF4H1tRD3Z3Bw1vBGpYbwQ=",
+                "domain": ".kueezrtb.com",
+                "path": "/prebid/multi",
+                "expires": 1771963579.940812,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "_gat_gtag_UA_55974369_1|.ocine.fr|/": {
+                "name": "_gat_gtag_UA_55974369_1",
+                "value": "1",
+                "domain": ".ocine.fr",
+                "path": "/",
+                "expires": 1771962873,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "__cf_bm|.getjad.io|/": {
+                "name": "__cf_bm",
+                "value": "xoAayZilnwJJT1Z6Zu4GoQVGgzl8ls9Uw7BrLypFmpA-1771962750-1.0.1.1-PHLW4XgRW9BXYi8JoXJ277oSqWjr98bfxBb3zPWPp9ydLl0TFYmJPz2BwDwmsyh94Ab2a7SOQJzhXT9k5yKxya358G23YWAUpl37iPBLDWY",
+                "domain": ".getjad.io",
+                "path": "/",
+                "expires": 1771964550.805079,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "modified": {
+            "_li_ss|i.liadm.com|/s": {
+                "from": {
+                    "name": "_li_ss",
+                    "value": "CrcBCgYI-QEQ_xwKBgj3ARD_HAoFCAoQ_xwKBgjdARD_HAoGCPgBEP8cCgYIgQEQ_xwKBQgMEIkdCgYI9QEQ_xwKBQgLEP8cCgYI4wEQ_xwKBgikARD_HAoGCLMBEP8cCgYIiQEQ_xwKBgilARD_HAoGCIACEIEdCgYI4QEQ_xwKBgiiARD_HAoGCP8BEP8cCgkI_____wcQiR0KBgiHAhD_HAoGCNIBEP8cCgUIfhD_HAoGCIgBEP8c",
+                    "domain": "i.liadm.com",
+                    "path": "/s",
+                    "expires": 1774554855.150873,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_li_ss",
+                    "value": "CrcBCgYI-QEQ_xwKBgj3ARD_HAoFCAoQ_xwKBgjdARD_HAoGCPgBEP8cCgYIgQEQ_xwKBQgMEIkdCgYI9QEQ_xwKBQgLEP8cCgYI4wEQ_xwKBgikARD_HAoGCLMBEP8cCgYIiQEQ_xwKBgilARD_HAoGCIACEIEdCgYI4QEQ_xwKBgiiARD_HAoGCP8BEP8cCgkI_____wcQiR0KBgiHAhD_HAoGCNIBEP8cCgUIfhD_HAoGCIgBEP8c",
+                    "domain": "i.liadm.com",
+                    "path": "/s",
+                    "expires": 1774563463.018966,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "data-c|.media.net|/": {
+                "from": {
+                    "name": "data-c",
+                    "value": "k-k5t-iQG33T93A2zQiE2VMJopQixnT7wGAjRg7A~~3",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1774495292.247801,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "data-c",
+                    "value": "k-k5t-iQG33T93A2zQiE2VMJopQixnT7wGAjRg7A~~3",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1774563461.944532,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "dpm|.dpm.demdex.net|/": {
+                "from": {
+                    "name": "dpm",
+                    "value": "06489606174916148350617099101830552022",
+                    "domain": ".dpm.demdex.net",
+                    "path": "/",
+                    "expires": 1787514855.197148,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "dpm",
+                    "value": "06489606174916148350617099101830552022",
+                    "domain": ".dpm.demdex.net",
+                    "path": "/",
+                    "expires": 1787523462.788211,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "tluidp|.3lift.com|/": {
+                "from": {
+                    "name": "tluidp",
+                    "value": "2692932833093967572816",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1779738857.20201,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://lesciseauxmagiques.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "tluidp",
+                    "value": "2692932833093967572816",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1779747464.366499,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://lesciseauxmagiques.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "status|.postrelease.com|/": {
+                "from": {
+                    "name": "status",
+                    "value": "0",
+                    "domain": ".postrelease.com",
+                    "path": "/",
+                    "expires": 1803498855.117262,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "status",
+                    "value": "0",
+                    "domain": ".postrelease.com",
+                    "path": "/",
+                    "expires": 1803507462.79958,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "data-c-ts|.media.net|/": {
+                "from": {
+                    "name": "data-c-ts",
+                    "value": "1771903292",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1774495292.247889,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "data-c-ts",
+                    "value": "1771971461",
+                    "domain": ".media.net",
+                    "path": "/",
+                    "expires": 1774563461.945063,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "CMID|.casalemedia.com|/": {
+                "from": {
+                    "name": "CMID",
+                    "value": "aYs6OlVbLTsANfeRALAVOwAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1803498854.222184,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "CMID",
+                    "value": "aYs6OlVbLTsANfeRALAVOwAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1803507462.183164,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "PrestaShop-28dad869c18a539da365e7e68fda0d11|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "PrestaShop-28dad869c18a539da365e7e68fda0d11",
+                    "value": "def50200eaaf952431e64785711dd0333609e89e1c53f65db84e4942c707be1b59eba9a13dd1b20ec7dfddaf779d91ffbd9e3bb75d916545a73504577ccf3e4c2c196255f028701e1837ae39245f1dd9d63eccdc5d74397da82dc7c4e11acbf8ea29d27de048d78b09e0840ac033492533e1ce2bf4b15c4474b53cd43a5dac7c9d28b0a4013992add34eb86d965c58129c9030f02624c10bf31ff5e9711f",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1773690822.994882,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "PrestaShop-28dad869c18a539da365e7e68fda0d11",
+                    "value": "def502007aae1335e14f6125db332cacf78e57c0d4c0034c2d988a692b3204d745b86d76bec83142d1d421dfc49cbbf5f7838e93f80eb1d5504f4529913876fe6afb529be282ddbded6899ca23d13b880d37b1735f2648f607c88d16650badba977bcc9bfaa44d6e317b7fe7f27aa72f118037bf4943a1303e73c19bbb0aab82769d9e616457867c9b94cefeecf1d6eb340cf3f526ba0a8d3d70a404601f202a34e0575ec5a7d0dccfd4f656084716fb5ef9ba23346f4803e63f",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1773699971.33708,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "__cf_bm|.snrcdn.net|/": {
+                "from": {
+                    "name": "__cf_bm",
+                    "value": "c43RXZxIREBj9cXDA1lqAoz1Fe9Qe6SFGpVGGJVcH.g-1771962833-1.0.1.1-oyqjFE72gy0IrpMZFNtt60SPXBjQqiWSFnFWiqr39KN2i9BnNW1ZEagmYWD_4b1_tXU1mm4UlpbzUCeDV9BdyEip_CwwqSy3hXBS1qPrXbk",
+                    "domain": ".snrcdn.net",
+                    "path": "/",
+                    "expires": 1771964633.954987,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__cf_bm",
+                    "value": "ah3PiekvwJNV9DaQwCRDL2rOyc5iYnrGzV2Mn4fqb3A-1771971231-1.0.1.1-.jiZsRxWUGsrQn2PQCZjdUCVdNDosSDfbQYEvViyEya1WXivE_iTe54gY4KfjjtQbIMA50lRmhmZIx9mzFe0FSXsWU0AUXTiLHDV2tx9KKY",
+                    "domain": ".snrcdn.net",
+                    "path": "/",
+                    "expires": 1771973031.995723,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_snrs_sa|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_snrs_sa",
+                    "value": "ssuid:f9ae8f30-ca4d-492e-a48f-5b8ee63fcc02&appear:1771962831&sessionVisits:1",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1771964632,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_snrs_sa",
+                    "value": "ssuid:495f3fb2-7dcf-41ef-932a-98c0b0115969&appear:1771970316&sessionVisits:42",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1771973779,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "v1_151|.revcontent.com|/": {
+                "from": {
+                    "name": "v1_151",
+                    "value": "1",
+                    "domain": ".revcontent.com",
+                    "path": "/",
+                    "expires": 1774554856.192655,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "v1_151",
+                    "value": "1",
+                    "domain": ".revcontent.com",
+                    "path": "/",
+                    "expires": 1774563463.683335,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "lidid|.liadm.com|/": {
+                "from": {
+                    "name": "lidid",
+                    "value": "1220e789-efa1-40c8-b564-5663908a81d0",
+                    "domain": ".liadm.com",
+                    "path": "/",
+                    "expires": 1806522855.151607,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "lidid",
+                    "value": "1220e789-efa1-40c8-b564-5663908a81d0",
+                    "domain": ".liadm.com",
+                    "path": "/",
+                    "expires": 1806531463.019364,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "umeh|.360yield.com|/": {
+                "from": {
+                    "name": "umeh",
+                    "value": "!42,0,1833035269,-1!313,0,1833899381,-1!40,0,1833035267,-1!540,0,1833035375,-1!55,1,1834476410,1771406210!340,1,1833612417,1771406217!545,0,1833612410,-1!191,0,1833035272,-1!368,0,1833035269,-1!38,0,1834111293,-1!524,0,1833899268,-1!566,3,1833612410,1771406210",
+                    "domain": ".360yield.com",
+                    "path": "/",
+                    "expires": 1779679293.257574,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "umeh",
+                    "value": "!42,0,1833035269,-1!313,0,1833899381,-1!40,0,1833035267,-1!540,0,1833035375,-1!55,1,1834476410,1771406210!340,1,1833612417,1771406217!545,0,1833612410,-1!191,0,1833035272,-1!368,0,1833035269,-1!38,0,1834179106,-1!524,0,1833899268,-1!566,3,1833612410,1771406210",
+                    "domain": ".360yield.com",
+                    "path": "/",
+                    "expires": 1779747106.208077,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_snrs_sb|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_snrs_sb",
+                    "value": "ssuid:f9ae8f30-ca4d-492e-a48f-5b8ee63fcc02&leaves:1771962832",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1771964632,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_snrs_sb",
+                    "value": "ssuid:495f3fb2-7dcf-41ef-932a-98c0b0115969&leaves:1771971979",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1771973779,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_ga_PXCDK5FNGY|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_ga_PXCDK5FNGY",
+                    "value": "GS2.1.s1771962831$o1$g0$t1771962841$j60$l0$h1600782506",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806522841.096782,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_PXCDK5FNGY",
+                    "value": "GS2.1.s1771970311$o2$g1$t1771971985$j4$l0$h946761",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806531985.821138,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_ga|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_ga",
+                    "value": "GA1.1.1394219255.1771962832",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806522840.988641,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga",
+                    "value": "GA1.1.1394219255.1771962832",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806531979.783725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_snrs_p|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_snrs_p",
+                    "value": "host:lesciseauxmagiques.fr&permUuid:3687487c-9dfc-4eab-9b89-2a1702899daf&uuid:3687487c-9dfc-4eab-9b89-2a1702899daf&identityHash:&user_hash:&init:1771962832&last:1771962832&current:1771962832&uniqueVisits:1&allVisits:1&globalControlGroup:true",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806522832,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_snrs_p",
+                    "value": "host:lesciseauxmagiques.fr&permUuid:3687487c-9dfc-4eab-9b89-2a1702899daf&uuid:3687487c-9dfc-4eab-9b89-2a1702899daf&identityHash:&user_hash:&init:1771962832&last:1771962832&current:1771971978&uniqueVisits:1&allVisits:45&globalControlGroup:false",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806531980,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "demdex|.demdex.net|/": {
+                "from": {
+                    "name": "demdex",
+                    "value": "06489606174916148350617099101830552022",
+                    "domain": ".demdex.net",
+                    "path": "/",
+                    "expires": 1787514855.194701,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "demdex",
+                    "value": "06489606174916148350617099101830552022",
+                    "domain": ".demdex.net",
+                    "path": "/",
+                    "expires": 1787523462.787289,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "id|.doubleclick.net|/": {
+                "from": {
+                    "name": "id",
+                    "value": "OPT_OUT",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1806522797.264133,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "id",
+                    "value": "OPT_OUT",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1806531982.096617,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_snrs_puuid|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_snrs_puuid",
+                    "value": "3687487c-9dfc-4eab-9b89-2a1702899daf",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806522832,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_snrs_puuid",
+                    "value": "3687487c-9dfc-4eab-9b89-2a1702899daf",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806531979,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "v2_151|.revcontent.com|/": {
+                "from": {
+                    "name": "v2_151",
+                    "value": "k-aGL0FAG33T93A2zQiE2VMJopQizXO0dXlgci4A",
+                    "domain": ".revcontent.com",
+                    "path": "/",
+                    "expires": 1774554856.192961,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "v2_151",
+                    "value": "k-aGL0FAG33T93A2zQiE2VMJopQizXO0dXlgci4A",
+                    "domain": ".revcontent.com",
+                    "path": "/",
+                    "expires": 1774563463.683601,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_fbp|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_fbp",
+                    "value": "fb.1.1771962844908.45937989679374338",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1779738844,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_fbp",
+                    "value": "fb.1.1771962844908.45937989679374338",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1779747980,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "hubspotutk|lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "hubspotutk",
+                    "value": "578e894dd9e1209c4d4160331338cc57",
+                    "domain": "lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1787514830,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "hubspotutk",
+                    "value": "578e894dd9e1209c4d4160331338cc57",
+                    "domain": "lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1787523982,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__cf_bm|.hubspot.com|/": {
+                "from": {
+                    "name": "__cf_bm",
+                    "value": "1GVklbX48sLWJclzJPxcyriDSI8NykEnYuM7ijjDbBM-1771962832-1.0.1.1-jW6tps_5t0LFXDQjPLgP.mExxWQyNN0PlNGcabdt1kIz1p05npiFISC46n8AQ2GEY1MQNYstNZgrg20_.RabuN0jEL7GIsdnfQMlPX0MH_o",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": 1771964632.406448,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__cf_bm",
+                    "value": "4ZY.gmyhquB_cddM3EHf4DlcPY9L8yBOZN9uduiy9RE-1771971235-1.0.1.1-97eJ5aj.WA88rEc2My4ZudH1Ojmn0JTp3xdWO1zkF3KiaHZ2T6K0V5I5pnaztq_SUYwZ7Lgd.rIJT8lDEQFdBf_4isdw86YiMAGY4QLK3P8",
+                    "domain": ".hubspot.com",
+                    "path": "/",
+                    "expires": 1771973036.055586,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "um|.360yield.com|/": {
+                "from": {
+                    "name": "um",
+                    "value": "!42,NErmzLUdgS58Hfp3Yb5CmdCknh11ecNfX92pIZJkneUveRxS1L8P71Mb-aJsAMw13mS4SQ,1772036869!313,uAGM6bP-EZ0VDZaGhtS268ldQ97j7v4.euV44XYhxN1GHHWhtt5ylvW6fFmoiXvt5UiAncCdpasANYVVVjhBEtWl-iMl0qtMuSwbdIVFtLaz-8xm,1778603381!40,eUYINBGOncOA7RFWZMHfbuxMnUlyEfthKCMKdnfd-Bo-oEMkJFGPYGfCOpzYLD83q.tVaQ,1778603267!191,0CNmGu47jTvpuvqo43qznEx7yf-Pq31R7qknms-AyEDwLg6Dscj4D5JJ4zBchTUUNc66mP09c-Aeu-7rrEJPQLmphMk,1779180416!38,NLeCVk7Ml.b81D1zror7732pD7BHBXI6n4INzM9lNdllpiD0JhMzTHUeAV-I9FCTj5--OyHXsDIvWoGqK6xI3G9OnY0,1779679293!540,XE12jl6kJCQopYTLmpiIjrHoFeCXHyxLt6-YrNc7yZ9gwHXfY0BZhmmebAVDdEjUJ1MUIoIosocMHcIIxoH5V3K3d8r7Y8TTwqPuEX5IrnrHK7X0Ftgn8pO5R.apNgTaNIxvaw,1778603375!524,RhvylSn0UvoIlkbDBK2BPQRjs0-203ff-BV2LbSoKeLOT0F1-n2sLVTmf5GdUgQEkjxyug,1778603268",
+                    "domain": ".360yield.com",
+                    "path": "/",
+                    "expires": 1779679293.257497,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "um",
+                    "value": "!42,NErmzLUdgS58Hfp3Yb5CmdCknh11ecNfX92pIZJkneUveRxS1L8P71Mb-aJsAMw13mS4SQ,1772036869!313,uAGM6bP-EZ0VDZaGhtS268ldQ97j7v4.euV44XYhxN1GHHWhtt5ylvW6fFmoiXvt5UiAncCdpasANYVVVjhBEtWl-iMl0qtMuSwbdIVFtLaz-8xm,1778603381!40,eUYINBGOncOA7RFWZMHfbuxMnUlyEfthKCMKdnfd-Bo-oEMkJFGPYGfCOpzYLD83q.tVaQ,1778603267!191,0CNmGu47jTvpuvqo43qznEx7yf-Pq31R7qknms-AyEDwLg6Dscj4D5JJ4zBchTUUNc66mP09c-Aeu-7rrEJPQLmphMk,1779180416!38,NLeCVtSq2QCncDj0HMytMW9DN5zfIst9mc5wkZTG5Mgd4kKIcMX.Kh6qZNISh4STMOthwjvtfyXRCtQSCHu.0XHsnlM,1779747106!540,XE12jl6kJCQopYTLmpiIjrHoFeCXHyxLt6-YrNc7yZ9gwHXfY0BZhmmebAVDdEjUJ1MUIoIosocMHcIIxoH5V3K3d8r7Y8TTwqPuEX5IrnrHK7X0Ftgn8pO5R.apNgTaNIxvaw,1778603375!524,RhvylSn0UvoIlkbDBK2BPQRjs0-203ff-BV2LbSoKeLOT0F1-n2sLVTmf5GdUgQEkjxyug,1778603268",
+                    "domain": ".360yield.com",
+                    "path": "/",
+                    "expires": 1779747106.20793,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_snrs_uuid|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "_snrs_uuid",
+                    "value": "3687487c-9dfc-4eab-9b89-2a1702899daf",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806522832,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_snrs_uuid",
+                    "value": "3687487c-9dfc-4eab-9b89-2a1702899daf",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806531979,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "visitor|.postrelease.com|/": {
+                "from": {
+                    "name": "visitor",
+                    "value": "a22ae61e-3ee3-4a1a-8bf7-903e70ed5f2d",
+                    "domain": ".postrelease.com",
+                    "path": "/",
+                    "expires": 1803498855.110893,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "visitor",
+                    "value": "a22ae61e-3ee3-4a1a-8bf7-903e70ed5f2d",
+                    "domain": ".postrelease.com",
+                    "path": "/",
+                    "expires": 1803507462.799327,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "cto_bundle|.criteo.com|/": {
+                "from": {
+                    "name": "cto_bundle",
+                    "value": "nyhHcF9QUk1iNFpaOWxJeG9GZFo3S0M1UjU3RTd3Yklic3IxZXpFaUNvelFKJTJCNFZmdGZEMUNRRCUyQnVLRllFWWNkWmQwRk4lMkJNNnRvZ1FrSmJVTUpCVVIydlJSN3hEYmpyS2h6cFglMkZ6RGxlZElzZXVCU3oySGlwekV3WklqcE1mS3dmakJablI3ZWI3RWluWlNZRGdJZUg1VEJNUSUzRCUzRA",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1805658857.970184,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://lesciseauxmagiques.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "cto_bundle",
+                    "value": "My92e183Z3ElMkZBT1olMkZHYWFDVHpmZTFIbDRvTng3NHNraUhYN0QlMkZCRUI4VDJRWUxjakpRYkMwWVprSW0zcWs5UzMxNmJXTjdYWkNORTJSZWJWQTdFUzBoUEpvNnFOOGpsc2J2YnVRN3pxOTRuUnhGN0YxZGxPcGpiaSUyRlE4UmNJUHA4Tzl5c3BuUWViN2ElMkZXajdScEZxM3VNaVRnJTNEJTNE",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1805667983.35536,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://lesciseauxmagiques.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "tluid|.3lift.com|/": {
+                "from": {
+                    "name": "tluid",
+                    "value": "2692932833093967572816",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1779738857.206667,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "tluid",
+                    "value": "2692932833093967572816",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1779747464.367373,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "CMPRO|.casalemedia.com|/": {
+                "from": {
+                    "name": "CMPRO",
+                    "value": "5145",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1779738854.222487,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "CMPRO",
+                    "value": "5145",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1779747462.183881,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "__hstc|lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "__hstc",
+                    "value": "254217751.578e894dd9e1209c4d4160331338cc57.1771962830795.1771962830795.1771962830795.1",
+                    "domain": "lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1787514830,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__hstc",
+                    "value": "254217751.578e894dd9e1209c4d4160331338cc57.1771962830795.1771962830795.1771970324734.2",
+                    "domain": "lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1787523982,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "ab|.agkn.com|/": {
+                "from": {
+                    "name": "ab",
+                    "value": "0001%3AHYBS0rayC6FYghrrSMi%2FiW%2Fj0d5uASYi",
+                    "domain": ".agkn.com",
+                    "path": "/",
+                    "expires": 1803498857.915573,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ab",
+                    "value": "0001%3AHYBS0rayC6FYghrrSMi%2FiW%2Fj0d5uASYi",
+                    "domain": ".agkn.com",
+                    "path": "/",
+                    "expires": 1803507465.563159,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "t_gid|.taboola.com|/": {
+                "from": {
+                    "name": "t_gid",
+                    "value": "c698b229-560e-42f3-baf8-8d9223d26358-tuct1084bfae",
+                    "domain": ".taboola.com",
+                    "path": "/",
+                    "expires": 1803498856.510676,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "t_gid",
+                    "value": "c698b229-560e-42f3-baf8-8d9223d26358-tuct1084bfae",
+                    "domain": ".taboola.com",
+                    "path": "/",
+                    "expires": 1803507463.791523,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "__cf_bm|.x-data.producthackers.com|/": {
+                "from": {
+                    "name": "__cf_bm",
+                    "value": "OaX9HDiAX_8j.dg3T2t6dmqbrw28H9jziK4h96nZ7I4-1771962829-1.0.1.1-kchl.PUUMgn8ydDWoEKUwJ2BqW0TFsI1lK91KJswnXJfdttVlp4m7FWbfQfj21m1hc4.Wn1cmQB0G27ckGSGXqEswyfL9BMDmoSMLBx_EdI",
+                    "domain": ".x-data.producthackers.com",
+                    "path": "/",
+                    "expires": 1771964630.003315,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__cf_bm",
+                    "value": "74Am0FIPs8tG6CIbi90tVOUcEYaIGz0uNd5CN9wi9fs-1771971214-1.0.1.1-ywtR_KEOlJdpq90vOq08N.MoaoJm4_8LGepbjYGo.EgA6oMlKw2OzwgGSWyPYiS2pzUIIr.rLEgmLcgJqC.2_LLPpp7GHq6pKshqa06.qUo",
+                    "domain": ".x-data.producthackers.com",
+                    "path": "/",
+                    "expires": 1771973014.815178,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "cto_bundle|.lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "cto_bundle",
+                    "value": "GqxdDl9qQldReVFudlJiRjFoSHVMVE1ZOXdzN3NnN3VwdEtjM2NwaVNjdTVaamVsbTNKaEZGV29hUGFrR2NaJTJGcm1ZcVJhZDREdnlPT0tkaGwlMkYlMkJubEh6STY2JTJGUUpTRXFGVTc1Wjh3UG5TbUJHelVxTkM4OFJaSUlzUG1FdHBWT01pVWhBNXdJR3NZdjJWQVFLZnFuT255NlFidTUwQ3QwQW4lMkZQRXRhWVU0Z1hWJTJCd3MlM0Q",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806126849,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "cto_bundle",
+                    "value": "x0AdnF9qQldReVFudlJiRjFoSHVMVE1ZOXd2cmQwWDd6ZmpMMlU3VU1uJTJCdnJLYVJOeENHd2hOVlRadmZlSHNRdjdKenF3OTNieDBMWnk1bGM4OHRuJTJGR0hIbzV1YXd0aFdiSkRJVHhNNXJCZlpxbXdaeXJqdDVQRmZEdDE2Z3BiJTJCMkZhR255YzJQR2VMMnpVT1VjS01CenNCSHFQTTVJS0M5ZmxYJTJGdWVqMGxXRWNTdyUzRA",
+                    "domain": ".lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1806135982,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "t_pt_gid|.taboola.com|/": {
+                "from": {
+                    "name": "t_pt_gid",
+                    "value": "c698b229-560e-42f3-baf8-8d9223d26358-tuct1084bfae",
+                    "domain": ".taboola.com",
+                    "path": "/",
+                    "expires": 1803498856.511993,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://lesciseauxmagiques.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "t_pt_gid",
+                    "value": "c698b229-560e-42f3-baf8-8d9223d26358-tuct1084bfae",
+                    "domain": ".taboola.com",
+                    "path": "/",
+                    "expires": 1803507463.791773,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://lesciseauxmagiques.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "__hssc|lesciseauxmagiques.fr|/": {
+                "from": {
+                    "name": "__hssc",
+                    "value": "254217751.1.1771962830795",
+                    "domain": "lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1771964630,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__hssc",
+                    "value": "254217751.33.1771970324734",
+                    "domain": "lesciseauxmagiques.fr",
+                    "path": "/",
+                    "expires": 1771973782,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {},
+        "removed": {
+            "synerise-traffic-storage": "{}",
+            "oct8ne-url-//lesciseauxmagiques.fr/": "{\"value\":\"[\\\"https://lesciseauxmagiques.fr/\\\"]\"}",
+            "cto_bundle": "GqxdDl9qQldReVFudlJiRjFoSHVMVE1ZOXdzN3NnN3VwdEtjM2NwaVNjdTVaamVsbTNKaEZGV29hUGFrR2NaJTJGcm1ZcVJhZDREdnlPT0tkaGwlMkYlMkJubEh6STY2JTJGUUpTRXFGVTc1Wjh3UG5TbUJHelVxTkM4OFJaSUlzUG1FdHBWT01pVWhBNXdJR3NZdjJWQVFLZnFuT255NlFidTUwQ3QwQW4lMkZQRXRhWVU0Z1hWJTJCd3MlM0Q",
+            "snr-wp-state": "permissionSaved:0&subscriptionSaved:0&subscription:unknown&permission:default&uuid:3687487c-9dfc-4eab-9b89-2a1702899daf",
+            "lastExternalReferrerTime": "1771962844632",
+            "_snrs_dc_delay_": "{\"5d195cf9-403a-4503-8ca6-372cb308aab3\":{\"value\":1771962953047,\"expires\":1771963133047}}",
+            "oct8neApi-viewed-pages": "{\"value\":\"{\\\"totalVieweds\\\":1,\\\"lastViewed\\\":\\\"https://lesciseauxmagiques.fr/\\\"}\"}",
+            "oct8neApi-site-time": "{\"value\":\"28\"}",
+            "i18nextLng": "fr-FR",
+            "topicsLastReferenceTime": "1771962846381",
+            "oct8neApi-triggers-not-launched": "{\"value\":\"[{\\\"agents\\\":true,\\\"bots\\\":true,\\\"allowedDepts\\\":\\\"1819\\\",\\\"forceAssignToAgents\\\":false,\\\"id\\\":10686,\\\"aggressive\\\":false,\\\"properties\\\":{\\\"action\\\":\\\"onlyMessage\\\",\\\"canned\\\":\\\"<b>\u00a1Hola!&nbsp;</b><b>\u00bfNecesitas ayuda?</b><div><b><br></b></div><div><b>Productos, Pedidos, Dudas,...</b></div>\\\",\\\"status\\\":\\\"Just Looking\\\",\\\"popup\\\":null,\\\"checkTime\\\":true,\\\"pendingCheckDomain\\\":false}}]\"}",
+            "_snrs_profile_config": "{\"profile\":{\"subdomain\":\"ude8gel1qegk7xsz2lbfmblh\"},\"recognizeBy\":[{\"name\":\"email\"}],\"dataMarker\":[],\"signedIdentifiedActions\":[],\"resetUUID\":{\"fieldName\":\"email\",\"mode\":\"always\"},\"notifications\":[],\"cookieMatchers\":[],\"snrsProfileConfigExpire\":1771962832076}",
+            "lastExternalReferrer": "empty"
+        },
+        "modified": {}
+    },
+    "sessionStorage": {
+        "added": {},
+        "removed": {
+            "oct8ne-checkdomain-result-fr-FR": "{\"value\":\"{\\\"StatusDomain\\\":true,\\\"StatusSearchBoxDesktop\\\":false,\\\"StatusTrackingBarDesktop\\\":false,\\\"StatusAskExpertDesktop\\\":true,\\\"StatusLiveChatDesktop\\\":true,\\\"StatusPinCodeDesktop\\\":true,\\\"StatusVipDesktop\\\":false,\\\"StatusSearchBoxMobile\\\":false,\\\"StatusTrackingBarMobile\\\":false,\\\"StatusAskExpertMobile\\\":true,\\\"StatusLiveChatMobile\\\":true,\\\"StatusPinCodeMobile\\\":false,\\\"StatusVipMobile\\\":false,\\\"VipSectionLayoutDesktop\\\":null,\\\"VipSectionLayoutMobile\\\":null,\\\"AllowedDepartmentsId\\\":\\\"1819\\\",\\\"ConnectedAgents\\\":false,\\\"ConnectedBot\\\":true,\\\"IsDevice\\\":false,\\\"IsIpad\\\":false,\\\"ErrorMessage\\\":null,\\\"Visitor\\\":\\\"\\\",\\\"BkgColor\\\":\\\"#E1E1E1\\\",\\\"TextColor\\\":\\\"#000000\\\",\\\"ListTriggers\\\":[{\\\"Id\\\":10686,\\\"Title\\\":\\\"Bienvenida\\\",\\\"Description\\\":null,\\\"JsonText\\\":\\\"{\\\\\\\"operator\\\\\\\":\\\\\\\"and\\\\\\\",\\\\\\\"aggressive\\\\\\\":false,\\\\\\\"conditions\\\\\\\":[[\\\\\\\"siteTime\\\\\\\",\\\\\\\">\\\\\\\",\\\\\\\"5\\\\\\\"]],\\\\\\\"agents\\\\\\\":true,\\\\\\\"bots\\\\\\\":true,\\\\\\\"forceAssignToAgents\\\\\\\":false,\\\\\\\"desktop\\\\\\\":true,\\\\\\\"mobile\\\\\\\":true,\\\\\\\"popup\\\\\\\":{ \\\\\\\"styles\\\\\\\":null,\\\\\\\"imageUrl\\\\\\\":null, \\\\\\\"pageElementId\\\\\\\" : null},\\\\\\\"action\\\\\\\":[\\\\\\\"onlyMessage\\\\\\\",\\\\\\\"<b>\u00a1Hola!&nbsp;</b><b>\u00bfNecesitas ayuda?</b><div><b><br></b></div><div><b>Productos, Pedidos, Dudas,...</b></div>\\\\\\\",\\\\\\\"Just Looking\\\\\\\"]}\\\",\\\"AllowedDepartments\\\":\\\"1819\\\",\\\"Enable\\\":false,\\\"ChatAlertsType\\\":null,\\\"Deleted\\\":false,\\\"ScaffoldTrigger\\\":null,\\\"Departments\\\":null}],\\\"CheckoutSuccess\\\":null,\\\"CheckoutConfirm\\\":null,\\\"Edition\\\":2,\\\"Expired\\\":false,\\\"CookieMode\\\":2,\\\"ShowSearch\\\":true,\\\"ShowCoviewer\\\":true,\\\"ShowSendSummary\\\":true,\\\"BlockOct8ne\\\":false,\\\"PositionChatMobileMinimized\\\":\\\"bottom:10%;right:5%\\\",\\\"PositionChatDesktopMinimal\\\":null,\\\"AddToCartProtocol\\\":null,\\\"Platform\\\":\\\"prestashop\\\",\\\"IntegrationsGA\\\":{\\\"GAEnteredoct8ne\\\":true,\\\"GAAttendedByAgent\\\":true,\\\"GAContactFormViewed\\\":true,\\\"GASelectedDepartment\\\":true,\\\"GAClickAddToCart\\\":true,\\\"GAViewedProduct\\\":true,\\\"GAGoodRating\\\":true,\\\"GABadRating\\\":true,\\\"GAReturningVisitor\\\":true,\\\"GAAddedTag\\\":false,\\\"GAVisitorProductView\\\":false,\\\"GAAgentProductSuggested\\\":false},\\\"SettingsLiveChat\\\":{\\\"BackgroundColorLC\\\":\\\"#E1E1E1\\\",\\\"TextColorLC\\\":\\\"#000000\\\",\\\"TextOn\\\":\\\"Preg\u00fantanos\\\",\\\"TextOff\\\":\\\"Contactez-nous\\\"},\\\"MinimizedMobileChatWidget\\\":true,\\\"AllowTriggers\\\":true,\\\"AllowIntegrations\\\":true,\\\"ShowAddToCart\\\":true,\\\"ReferenceTimeAFK\\\":21600000,\\\"DisplayNewVisor\\\":true,\\\"MinimizedDesktopChatWidget\\\":false,\\\"IsLeftHanded\\\":false,\\\"ChatAlertsType\\\":\\\"{\\\\\\\"type\\\\\\\":\\\\\\\"CALLOUTS\\\\\\\"}\\\",\\\"CalloutsHideSeconds\\\":10,\\\"CheckAgentsTB\\\":false,\\\"CheckAgentsLC\\\":false,\\\"EvaluateBotLaunchConditions\\\":true,\\\"BotLaunchConditions\\\":\\\"{ \\\\\\\"operator\\\\\\\":\\\\\\\"and\\\\\\\",\\\\\\\"conditions\\\\\\\":[[\\\\\\\"pageUrl\\\\\\\",\\\\\\\"contains\\\\\\\",\\\\\\\"/es/\\\\\\\"]]}\\\",\\\"ApiUtilsFile\\\":null,\\\"ChatStyle\\\":4,\\\"WebsiteId\\\":605}\",\"expiration\":1771963129642}",
+            "oct8ne-active-tab-id": "{\"value\":\"1771962828489\"}"
+        },
+        "modified": {}
+    }
+}

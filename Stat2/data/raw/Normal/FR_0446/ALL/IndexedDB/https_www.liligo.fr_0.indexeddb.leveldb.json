@@ -1,0 +1,5856 @@
+{
+  "site": "https_www.liligo.fr_0.indexeddb.leveldb",
+  "profile": "FR_0446",
+  "auth_type": "auth",
+  "records_count": 196,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 3,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {},
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 6000,
+                    "snooze": 604800000,
+                    "urlFilters": {
+                      "whiteList": {
+                        "__type__": "JSArray",
+                        "values": [
+                          "www.liligo.fr/ou-partir",
+                          "https://www.liligo.fr/hotels.html",
+                          "https://www.liligo.fr/ou-partir/ete",
+                          "https://www.liligo.fr/ou-partir/aout",
+                          "https://www.liligo.fr/magazine-voyage/",
+                          "https://www.liligo.fr/trains",
+                          "https://www.liligo.fr/ou-partir/automne",
+                          "https://www.liligo.fr/ou-partir/octobre"
+                        ],
+                        "properties": {}
+                      }
+                    }
+                  },
+                  "message": "Soyez les premiers à découvrir nos bons plans, astuces voyage et offres partenaires !",
+                  "positiveButton": "S'inscrire",
+                  "negativeButton": "Plus tard"
+                },
+                "applicationName": "Liligo",
+                "customDomain": "https://www.liligo.fr/",
+                "notificationDefaultUrl": "https://www.liligo.fr/",
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BG3c3JZcQqp6mGkJeCkK87zlSwMkzKaEBtrl0SL8UdQFzDzxgXr3kTUm083y90D6BZ-3VJKtXp4uAnOYIdGGAAM",
+                "subscriptionBell": {
+                  "color": "#ff5600",
+                  "bellIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/4ee40a10da278832f1f24bd5e1be2517c57f3934",
+                  "subscribeInviteText": "Soyez les premiers à découvrir nos astuces voyage, bons plans et offres partenaires !",
+                  "urlFilters": {
+                    "blackList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        "https://www.liligo.fr/"
+                      ],
+                      "properties": {}
+                    },
+                    "whiteList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        "https://www.liligo.fr/location-voiture"
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "hideWhenSubscribed": true,
+                  "distanceFromTheEdge": 3,
+                  "subscribedText": "Merci de votre inscription, à bientôt !"
+                },
+                "notificationIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/da734787f812aaa5481b8aaf533be3919742cc8a/v1/small",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "plugins": {
+                  "geojs": {},
+                  "ecommerce": {
+                    "__type__": "Null"
+                  },
+                  "tag-auto": {
+                    "blacklist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "whitelist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "numTopics": 4,
+                    "minViews": 2,
+                    "topicList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        "compagnies-ferroviaires",
+                        "location-voiture",
+                        "hotels",
+                        "istanbul",
+                        "bangkok",
+                        "barcelone",
+                        "marrakech",
+                        "casablanca",
+                        "rabat",
+                        "alger",
+                        "tunis",
+                        "madrid",
+                        "fort-de-france",
+                        "saint-denis-de-la-reunion",
+                        "pointe-a-pitre",
+                        "train",
+                        "rome",
+                        "dubai",
+                        "lisbonne",
+                        "porto",
+                        "nice",
+                        "paris",
+                        "dakar",
+                        "new-york",
+                        "marseille",
+                        "ajaccio",
+                        "majorque"
+                      ],
+                      "properties": {}
+                    }
+                  },
+                  "sponsored-notifications": {
+                    "__type__": "Null"
+                  }
+                },
+                "serviceWorkerUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "automaticActions": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "version": 1749806184456.0
+          },
+          "version": "1749806184456",
+          "fetchDate": 1770952775388.0,
+          "maxAge": 0,
+          "minAge": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 4,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {},
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 6000,
+                    "snooze": 604800000,
+                    "urlFilters": {
+                      "whiteList": {
+                        "__type__": "JSArray",
+                        "values": [
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          }
+                        ],
+                        "properties": {
+                          "0": "www.liligo.fr/ou-partir",
+                          "1": "https://www.liligo.fr/hotels.html",
+                          "2": "https://www.liligo.fr/ou-partir/ete",
+                          "3": "https://www.liligo.fr/ou-partir/aout",
+                          "4": "https://www.liligo.fr/magazine-voyage/",
+                          "5": "https://www.liligo.fr/trains",
+                          "6": "https://www.liligo.fr/ou-partir/automne",
+                          "7": "https://www.liligo.fr/ou-partir/octobre"
+                        }
+                      }
+                    }
+                  },
+                  "message": "Soyez les premiers à découvrir nos bons plans, astuces voyage et offres partenaires !",
+                  "positiveButton": "S'inscrire",
+                  "negativeButton": "Plus tard"
+                },
+                "applicationName": "Liligo",
+                "customDomain": "https://www.liligo.fr/",
+                "notificationDefaultUrl": "https://www.liligo.fr/",
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BG3c3JZcQqp6mGkJeCkK87zlSwMkzKaEBtrl0SL8UdQFzDzxgXr3kTUm083y90D6BZ-3VJKtXp4uAnOYIdGGAAM",
+                "subscriptionBell": {
+                  "color": "#ff5600",
+                  "bellIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/4ee40a10da278832f1f24bd5e1be2517c57f3934",
+                  "subscribeInviteText": "Soyez les premiers à découvrir nos astuces voyage, bons plans et offres partenaires !",
+                  "urlFilters": {
+                    "blackList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "https://www.liligo.fr/"
+                      }
+                    },
+                    "whiteList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "https://www.liligo.fr/location-voiture"
+                      }
+                    }
+                  },
+                  "hideWhenSubscribed": true,
+                  "distanceFromTheEdge": 3,
+                  "subscribedText": "Merci de votre inscription, à bientôt !"
+                },
+                "notificationIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/da734787f812aaa5481b8aaf533be3919742cc8a/v1/small",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "plugins": {
+                  "geojs": {},
+                  "ecommerce": {
+                    "__type__": "Null"
+                  },
+                  "tag-auto": {
+                    "blacklist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "whitelist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "numTopics": 4,
+                    "minViews": 2,
+                    "topicList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "compagnies-ferroviaires",
+                        "1": "location-voiture",
+                        "2": "hotels",
+                        "3": "istanbul",
+                        "4": "bangkok",
+                        "5": "barcelone",
+                        "6": "marrakech",
+                        "7": "casablanca",
+                        "8": "rabat",
+                        "9": "alger",
+                        "10": "tunis",
+                        "11": "madrid",
+                        "12": "fort-de-france",
+                        "13": "saint-denis-de-la-reunion",
+                        "14": "pointe-a-pitre",
+                        "15": "train",
+                        "16": "rome",
+                        "17": "dubai",
+                        "18": "lisbonne",
+                        "19": "porto",
+                        "20": "nice",
+                        "21": "paris",
+                        "22": "dakar",
+                        "23": "new-york",
+                        "24": "marseille",
+                        "25": "ajaccio",
+                        "26": "majorque"
+                      }
+                    }
+                  },
+                  "sponsored-notifications": {
+                    "__type__": "Null"
+                  }
+                },
+                "serviceWorkerUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "automaticActions": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "version": 1749806184456.0
+          },
+          "version": "1749806184456",
+          "fetchDate": 1770952775388.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749806184456"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 5,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 6,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 7,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 8,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770952777840.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 9,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770952777931.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 10,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770952777951.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 11,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "actionDate": 1770952777951.0,
+        "reporting": {
+          "attributionReason": "recentNotificationOpened"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 12,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770952777951.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 13,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770952777989.0,
+        "untilDate": 1770953077989.0,
+        "elapsedTime": 300000.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 14,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770952777951.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 15,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770952777995.0,
+        "elapsedTime": 300000,
+        "untilDate": 1770953077995.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 16,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 17,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 18,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 19,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "__type__": "JSArray",
+        "values": [
+          {
+            "actionDate": 1770952777951.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770952777995.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770953077995.0
+            },
+            "type": "@VISIT",
+            "collapsing": "last",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          },
+          {
+            "actionDate": 1770952777951.0,
+            "reporting": {
+              "attributionReason": "recentNotificationOpened"
+            },
+            "presence": {
+              "fromDate": 1770952777995.0,
+              "elapsedTime": 300000,
+              "untilDate": 1770953077995.0
+            },
+            "type": "@VISIT",
+            "occurrences": {
+              "allTime": 1,
+              "last1days": 1,
+              "last3days": 1,
+              "last7days": 1,
+              "last15days": 1,
+              "last30days": 1,
+              "last60days": 1,
+              "last90days": 1
+            }
+          }
+        ],
+        "properties": {}
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 20,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "lastFetchDate": 1770952778194.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 21,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "badgeShown": true
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 22,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "9e28f5e4-b597-4002-9a3e-8abeec2fca1d-19c5502e1fb"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 23,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {},
+          "serverState": {},
+          "putAccumulator": {},
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 24,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {},
+          "serverState": {},
+          "putAccumulator": {},
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 25,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {},
+          "serverState": {},
+          "putAccumulator": {},
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 26,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 27,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {},
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 6000,
+                    "snooze": 604800000,
+                    "urlFilters": {
+                      "whiteList": {
+                        "__type__": "JSArray",
+                        "values": [
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          }
+                        ],
+                        "properties": {
+                          "0": "www.liligo.fr/ou-partir",
+                          "1": "https://www.liligo.fr/hotels.html",
+                          "2": "https://www.liligo.fr/ou-partir/ete",
+                          "3": "https://www.liligo.fr/ou-partir/aout",
+                          "4": "https://www.liligo.fr/magazine-voyage/",
+                          "5": "https://www.liligo.fr/trains",
+                          "6": "https://www.liligo.fr/ou-partir/automne",
+                          "7": "https://www.liligo.fr/ou-partir/octobre"
+                        }
+                      }
+                    }
+                  },
+                  "message": "Soyez les premiers à découvrir nos bons plans, astuces voyage et offres partenaires !",
+                  "positiveButton": "S'inscrire",
+                  "negativeButton": "Plus tard"
+                },
+                "applicationName": "Liligo",
+                "customDomain": "https://www.liligo.fr/",
+                "notificationDefaultUrl": "https://www.liligo.fr/",
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BG3c3JZcQqp6mGkJeCkK87zlSwMkzKaEBtrl0SL8UdQFzDzxgXr3kTUm083y90D6BZ-3VJKtXp4uAnOYIdGGAAM",
+                "subscriptionBell": {
+                  "color": "#ff5600",
+                  "bellIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/4ee40a10da278832f1f24bd5e1be2517c57f3934",
+                  "subscribeInviteText": "Soyez les premiers à découvrir nos astuces voyage, bons plans et offres partenaires !",
+                  "urlFilters": {
+                    "blackList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "https://www.liligo.fr/"
+                      }
+                    },
+                    "whiteList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "https://www.liligo.fr/location-voiture"
+                      }
+                    }
+                  },
+                  "hideWhenSubscribed": true,
+                  "distanceFromTheEdge": 3,
+                  "subscribedText": "Merci de votre inscription, à bientôt !"
+                },
+                "notificationIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/da734787f812aaa5481b8aaf533be3919742cc8a/v1/small",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "plugins": {
+                  "geojs": {},
+                  "ecommerce": {
+                    "__type__": "Null"
+                  },
+                  "tag-auto": {
+                    "blacklist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "whitelist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "numTopics": 4,
+                    "minViews": 2,
+                    "topicList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "compagnies-ferroviaires",
+                        "1": "location-voiture",
+                        "2": "hotels",
+                        "3": "istanbul",
+                        "4": "bangkok",
+                        "5": "barcelone",
+                        "6": "marrakech",
+                        "7": "casablanca",
+                        "8": "rabat",
+                        "9": "alger",
+                        "10": "tunis",
+                        "11": "madrid",
+                        "12": "fort-de-france",
+                        "13": "saint-denis-de-la-reunion",
+                        "14": "pointe-a-pitre",
+                        "15": "train",
+                        "16": "rome",
+                        "17": "dubai",
+                        "18": "lisbonne",
+                        "19": "porto",
+                        "20": "nice",
+                        "21": "paris",
+                        "22": "dakar",
+                        "23": "new-york",
+                        "24": "marseille",
+                        "25": "ajaccio",
+                        "26": "majorque"
+                      }
+                    }
+                  },
+                  "sponsored-notifications": {
+                    "__type__": "Null"
+                  }
+                },
+                "serviceWorkerUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "automaticActions": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "version": 1749806184456.0
+          },
+          "version": "1749806184456",
+          "fetchDate": 1770952775388.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749806184456"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 28,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "lastFetchDate": 1770952778194.0,
+        "geoLocation": {
+          "accuracy": 200,
+          "area_code": "0",
+          "asn": 15557,
+          "city": "Lyon",
+          "continent_code": "EU",
+          "country": "France",
+          "country_code": "FR",
+          "country_code3": "FRA",
+          "ip": "78.112.62.219",
+          "latitude": "45.748",
+          "longitude": "4.85",
+          "organization": "AS15557 Societe Francaise Du Radiotelephone - SFR SA",
+          "organization_name": "Societe Francaise Du Radiotelephone - SFR SA",
+          "region": "Rhône-Alpes",
+          "timezone": "Europe/Paris"
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 29,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "serializedConfig": {
+          "data": {
+            "supportLevels": {
+              "optIn": {
+                "accessToken": true,
+                "internalEvents": true,
+                "customEvents": true
+              },
+              "optOut": {
+                "accessToken": false,
+                "internalEvents": false,
+                "customEvents": false
+              }
+            },
+            "options": {
+              "defaults": {
+                "subscriptionDialog": {},
+                "subscriptionNative": {
+                  "triggers": {
+                    "delay": 6000,
+                    "snooze": 604800000,
+                    "urlFilters": {
+                      "whiteList": {
+                        "__type__": "JSArray",
+                        "values": [
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          },
+                          {
+                            "__type__": "Undefined"
+                          }
+                        ],
+                        "properties": {
+                          "0": "www.liligo.fr/ou-partir",
+                          "1": "https://www.liligo.fr/hotels.html",
+                          "2": "https://www.liligo.fr/ou-partir/ete",
+                          "3": "https://www.liligo.fr/ou-partir/aout",
+                          "4": "https://www.liligo.fr/magazine-voyage/",
+                          "5": "https://www.liligo.fr/trains",
+                          "6": "https://www.liligo.fr/ou-partir/automne",
+                          "7": "https://www.liligo.fr/ou-partir/octobre"
+                        }
+                      }
+                    }
+                  },
+                  "message": "Soyez les premiers à découvrir nos bons plans, astuces voyage et offres partenaires !",
+                  "positiveButton": "S'inscrire",
+                  "negativeButton": "Plus tard"
+                },
+                "applicationName": "Liligo",
+                "customDomain": "https://www.liligo.fr/",
+                "notificationDefaultUrl": "https://www.liligo.fr/",
+                "manifestUrl": "https://cdn.by.wonderpush.com/sdk/1.1.33.14/wonderpush-manifest.json",
+                "applicationServerKey": "BG3c3JZcQqp6mGkJeCkK87zlSwMkzKaEBtrl0SL8UdQFzDzxgXr3kTUm083y90D6BZ-3VJKtXp4uAnOYIdGGAAM",
+                "subscriptionBell": {
+                  "color": "#ff5600",
+                  "bellIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/4ee40a10da278832f1f24bd5e1be2517c57f3934",
+                  "subscribeInviteText": "Soyez les premiers à découvrir nos astuces voyage, bons plans et offres partenaires !",
+                  "urlFilters": {
+                    "blackList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "https://www.liligo.fr/"
+                      }
+                    },
+                    "whiteList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "https://www.liligo.fr/location-voiture"
+                      }
+                    }
+                  },
+                  "hideWhenSubscribed": true,
+                  "distanceFromTheEdge": 3,
+                  "subscribedText": "Merci de votre inscription, à bientôt !"
+                },
+                "notificationIcon": "https://cdn.by.wonderpush.com/upload/01he01au1v6oii2d/da734787f812aaa5481b8aaf533be3919742cc8a/v1/small",
+                "allowedSubscriptionDomains": {
+                  "__type__": "JSArray",
+                  "values": [],
+                  "properties": {}
+                },
+                "plugins": {
+                  "geojs": {},
+                  "ecommerce": {
+                    "__type__": "Null"
+                  },
+                  "tag-auto": {
+                    "blacklist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "whitelist": {
+                      "__type__": "JSArray",
+                      "values": [],
+                      "properties": {}
+                    },
+                    "numTopics": 4,
+                    "minViews": 2,
+                    "topicList": {
+                      "__type__": "JSArray",
+                      "values": [
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        },
+                        {
+                          "__type__": "Undefined"
+                        }
+                      ],
+                      "properties": {
+                        "0": "compagnies-ferroviaires",
+                        "1": "location-voiture",
+                        "2": "hotels",
+                        "3": "istanbul",
+                        "4": "bangkok",
+                        "5": "barcelone",
+                        "6": "marrakech",
+                        "7": "casablanca",
+                        "8": "rabat",
+                        "9": "alger",
+                        "10": "tunis",
+                        "11": "madrid",
+                        "12": "fort-de-france",
+                        "13": "saint-denis-de-la-reunion",
+                        "14": "pointe-a-pitre",
+                        "15": "train",
+                        "16": "rome",
+                        "17": "dubai",
+                        "18": "lisbonne",
+                        "19": "porto",
+                        "20": "nice",
+                        "21": "paris",
+                        "22": "dakar",
+                        "23": "new-york",
+                        "24": "marseille",
+                        "25": "ajaccio",
+                        "26": "majorque"
+                      }
+                    }
+                  },
+                  "sponsored-notifications": {
+                    "__type__": "Null"
+                  }
+                },
+                "serviceWorkerUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush-worker-loader.min.js?webKey=${webKey}",
+                "frameUrl": "magazine-voyage/wp-content/themes/liligo-blogs/wonderpush/wonderpush.min.html"
+              },
+              "override": {}
+            },
+            "pluginsRegistry": {
+              "tag-switch": {
+                "shortVersions": {
+                  "1": "1.1.5",
+                  "1.0": "1.0.1",
+                  "latest": "1.1.5",
+                  "1.1": "1.1.5"
+                }
+              },
+              "optin-automatic": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "optin-dialog": {
+                "shortVersions": {
+                  "1": "1.3.15",
+                  "1.3": "1.3.15",
+                  "1.2": "1.2.0",
+                  "1.1": "1.1.2",
+                  "1.0": "1.0.0",
+                  "latest": "1.3.15"
+                }
+              },
+              "optin-switch": {
+                "shortVersions": {
+                  "1": "1.0.5",
+                  "1.0": "1.0.5",
+                  "latest": "1.0.5"
+                }
+              },
+              "optin-bell": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.15",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "shopify": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.0",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "geojs": {
+                "shortVersions": {
+                  "1": "1.0.2",
+                  "1.0": "1.0.2",
+                  "latest": "1.0.2"
+                }
+              },
+              "ecommerce": {
+                "shortVersions": {
+                  "1": "1.0.15",
+                  "1.0": "1.0.15",
+                  "latest": "1.0.15"
+                }
+              },
+              "tag-auto": {
+                "shortVersions": {
+                  "1": "1.0.7",
+                  "1.0": "1.0.7",
+                  "latest": "1.0.7"
+                }
+              },
+              "sponsored-notifications": {
+                "shortVersions": {
+                  "1": "1.1.3",
+                  "1.0": "1.0.11",
+                  "latest": "1.1.3",
+                  "1.1": "1.1.3"
+                }
+              },
+              "debug-permission": {
+                "shortVersions": {
+                  "1": "1.2.0",
+                  "1.0": "1.0.0",
+                  "latest": "1.2.0",
+                  "1.1": "1.1.0",
+                  "1.2": "1.2.0"
+                }
+              },
+              "optin-blurb": {
+                "shortVersions": {
+                  "1": "1.0.1",
+                  "1.0": "1.0.1",
+                  "latest": "1.0.1"
+                }
+              }
+            },
+            "inAppConfig": {
+              "campaigns": {
+                "__type__": "JSArray",
+                "values": [],
+                "properties": {}
+              }
+            },
+            "automaticActions": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "version": 1749806184456.0
+          },
+          "version": "1749806184456",
+          "fetchDate": 1770952778393.0,
+          "maxAge": 0,
+          "minAge": 0
+        },
+        "highestVersion": "1749806184456"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 30,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            }
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 31,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 32,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770952794187.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 33,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 34,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 35,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 36,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 2
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 37,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770952803360.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 38,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770952803411.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 39,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770952803451.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 40,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 41,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 42,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 43,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 44,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 45,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 46,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 47,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 48,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 49,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 50,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 51,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 52,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 53,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 54,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 55,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 56,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770952987654.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 57,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 58,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 59,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 60,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 3
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 61,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953007439.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 62,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953007460.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 63,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953007552.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 64,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 65,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 66,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "viewsByTopic": {
+          "rome": {
+            "__type__": "JSArray",
+            "values": [
+              1770953007845.0
+            ],
+            "properties": {}
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 67,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 68,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 69,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 70,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 71,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 72,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 73,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953010561.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 74,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 75,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 76,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 77,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 4
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 78,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953014432.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 79,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953014462.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 80,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953014486.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 81,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 82,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 83,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 84,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 85,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 86,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 87,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 88,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 89,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "fromDate": 1770952777995.0,
+        "untilDate": 1770953318004.0,
+        "elapsedTime": 540009.0
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 90,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 91,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 92,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 93,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 94,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953100138.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 95,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 96,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 5
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 97,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 98,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 5
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 99,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953114282.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 100,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953114405.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 101,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953114512.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 102,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 103,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 104,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "viewsByTopic": {
+          "rome": {
+            "__type__": "JSArray",
+            "values": [
+              {
+                "__type__": "Undefined"
+              }
+            ],
+            "properties": {
+              "0": 1770953007845.0
+            }
+          },
+          "saint-denis-de-la-reunion": {
+            "__type__": "JSArray",
+            "values": [
+              1770953114869.0
+            ],
+            "properties": {}
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 105,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 106,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 107,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 108,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 109,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 110,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 111,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953118264.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 112,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 113,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 6
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 114,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 115,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 6
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 116,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953125918.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 117,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953126562.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 118,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953126667.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 119,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 120,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 121,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 122,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 123,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 124,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 125,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 126,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 127,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953136828.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 128,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 129,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 7
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 130,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 131,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 7
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 132,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953144415.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 133,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953144438.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 134,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953144454.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 135,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 136,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 137,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 138,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 139,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 140,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 141,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 142,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 143,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953152550.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 144,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 145,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 8
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 146,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 147,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 8
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 148,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953168763.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 149,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953168790.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 150,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953168848.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 151,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 152,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 153,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 154,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 155,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 156,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 157,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 158,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 159,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953174835.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 160,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 161,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 9
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 162,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 163,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 9
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 164,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953183081.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 165,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953183100.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 166,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953183119.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 167,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 168,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 169,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "viewsByTopic": {
+          "rome": {
+            "__type__": "JSArray",
+            "values": [
+              {
+                "__type__": "Undefined"
+              }
+            ],
+            "properties": {
+              "0": 1770953007845.0
+            }
+          },
+          "saint-denis-de-la-reunion": {
+            "__type__": "JSArray",
+            "values": [
+              {
+                "__type__": "Undefined"
+              }
+            ],
+            "properties": {
+              "0": 1770953114869.0
+            }
+          },
+          "barcelone": {
+            "__type__": "JSArray",
+            "values": [
+              1770953183230.0
+            ],
+            "properties": {}
+          }
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 170,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 171,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 172,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 173,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 174,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 175,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 176,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953185530.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 177,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "webKey": "cb3e0d2b1abb5a6415a3b8db54b6d4bf03e0452c7c8f7fe33a5dc15c4e354857"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 178,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 10
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 179,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": "1.1.42.0"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 180,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 10
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 181,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "version": 3,
+        "initialPermissionState": "prompt",
+        "statsByState": {
+          "prompt": {
+            "count": 1,
+            "hadSession": false,
+            "sinceDate": 1770952777840.0,
+            "lastDate": 1770953189509.0
+          }
+        },
+        "permissionState": "prompt"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 182,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "permission": "default",
+        "date": 1770953189517.0,
+        "checkVersion": 5,
+        "sdkVersion": "1.1.42.0",
+        "browserName": "Chrome",
+        "browserVersion": "140.0.0.0",
+        "browserVersionMajor": 140,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+        "isSecureContext": true,
+        "framed": false,
+        "origin": "https://www.liligo.fr",
+        "runMode": "website"
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 183,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953189525.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 184,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 185,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "window": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        },
+        "serviceWorker": {
+          "__type__": "JSArray",
+          "values": [],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 186,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 187,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 188,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 189,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 190,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 191,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "": {
+          "_syncStateVersion": 1,
+          "sdkState": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "serverState": {},
+          "putAccumulator": {
+            "tags": {
+              "__type__": "JSArray",
+              "values": [],
+              "properties": {}
+            },
+            "string_city": "Lyon",
+            "string_country": "France",
+            "string_country_code3": "FRA",
+            "string_country_code": "FR",
+            "string_region": "Rhône-Alpes"
+          },
+          "inflightDiff": {},
+          "inflightPutAccumulator": {},
+          "scheduledPatchCall": true,
+          "inflightPatchCallDeadline": 0
+        }
+      }
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 192,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953203851.0
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 183,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": 1770953189525.0
+    }
+  ]
+}

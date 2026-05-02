@@ -1,0 +1,648 @@
+{
+    "metadata": {
+        "initial url": "https://www.caisse-epargne.fr",
+        "final_url": "https://www.caisse-epargne.fr/souscrire/livrets-epargne/livretJeune",
+        "timestamp": "2026-01-31T00:08:59.574988"
+    },
+    "cookies": {
+        "added": {
+            "LSESSIONID|.caisse-epargne.fr|/": {
+                "name": "LSESSIONID",
+                "value": "eyJpIjoiVkQ3aXlTMERyTjJnR2t4bnJORk1pUT09IiwiZSI6Ik1qZWtoaGwzczZwUDRtaEpzS3c5eDZRQWNWNUxseG9kaTd4RFJXcElMNDEzb2xWV2pXUytNazQyVVwvalc3OHUrTWNOMHBsNm5qXC84aFhta1NcL1wvNk80a2NZeXlGbHQ4UkpxXC80XC9DTjJMNTRLZU52NXNqMU1CZE8yV3U5QmZRUXhiSlJDWkgzWWxQbTZZekFaOVU0SVVxdz09In0%3D.5f9b16a6b7ea4751.ODRhZDg5NmFhZWI2NGVmMTljOTY3MTUyM2I2OTM5MmQ4M2FjMDc4NjgxY2VmY2I1YmNlNzliNjE0ZTc1NDgyYQ%3D%3D",
+                "domain": ".caisse-epargne.fr",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "s_cc|.caisse-epargne.fr|/": {
+                "name": "s_cc",
+                "value": "true",
+                "domain": ".caisse-epargne.fr",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "_uetsid|.caisse-epargne.fr|/": {
+                "name": "_uetsid",
+                "value": "5c7829a0fe3011f099752dbf6f219797",
+                "domain": ".caisse-epargne.fr",
+                "path": "/",
+                "expires": 1769900811,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "aacodeimmo|www.icgauth.caisse-epargne.fr|/": {
+                "name": "aacodeimmo",
+                "value": "",
+                "domain": "www.icgauth.caisse-epargne.fr",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "aacodeimmo|www.caisse-epargne.fr|/": {
+                "name": "aacodeimmo",
+                "value": "NAT",
+                "domain": "www.caisse-epargne.fr",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "tmsParams|.caisse-epargne.fr|/": {
+                "name": "tmsParams",
+                "value": "enableTagXandr639%3DON%3B%20enableTagLeBonCoin173%3DON",
+                "domain": ".caisse-epargne.fr",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Strict"
+            }
+        },
+        "removed": {
+            "_dd_s|www.latribune.fr|/": {
+                "name": "_dd_s",
+                "value": "rum=0&expire=1769814349706",
+                "domain": "www.latribune.fr",
+                "path": "/",
+                "expires": 1769814361,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Strict"
+            }
+        },
+        "modified": {
+            "__uzmf|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmf",
+                    "value": "7f9000cb268c06-adff-4a44-b128-286eb0d2fcf01-17698143305170-002f193a4f5d39c3f6710",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.940067,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmf",
+                    "value": "7f90005d10f635-fd1d-4345-b5b8-42b0bda84c431-17698144055790-00251651fda8c143e0410",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.98314,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__ssuzjsr0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__ssuzjsr0",
+                    "value": "a9be0cd8e",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__ssuzjsr0",
+                    "value": "a9be0cd8e",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "AWSALB|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "AWSALB",
+                    "value": "t6ZAukAWqfulYdpEkJmz9UjvGlh05pKHDTdmAQKCed6MJTjmctS4U2AfdPd3ndqsTOuTlSJ2IAwGCIViDaNjSdNi3Tr7iSfxBDJXfIwBgqTGgUbcOzBke80Xy5K3",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1770417398.940345,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "AWSALB",
+                    "value": "A5X1i4PipCyMpkPTCyrthhjAyvtHAli72WRS2G5OIC1A9j9gpsbBq8ZNo3vPYtWUmzpn/TY/b44fUpzil+Wvibo69IEtRl2Jl2oArjz2CC9lJQyFeA8Mwf0Xx57p",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1770417391.983291,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_fbp|.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "_fbp",
+                    "value": "fb.1.1767134057436.889474451100906714",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1774932079,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_fbp",
+                    "value": "fb.1.1767134057436.889474451100906714",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1777590411,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmb|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmb",
+                    "value": "1769814330",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.938868,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmb",
+                    "value": "1769814405",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.982866,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmlj0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmlj0",
+                    "value": "oDWEy5Hgj90DK4W5PdFKjR3qmVJMEecU4VzEEcE5RzI=",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmlj0",
+                    "value": "oDWEy5Hgj90DK4W5PdFKjR3qmVJMEecU4VzEEcE5RzI=",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "utag_main|.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "utag_main",
+                    "value": "v_id:019b7165c9b8000c5053608cc65d00065001e05d00bd0$_sn:2$_se:8$_ss:0$_st:1767157878424$vapi_domain:caisse-epargne.fr$ses_id:1767155934720%3Bexp-session$_pn:3%3Bexp-session",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1798692078,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "utag_main",
+                    "value": "v_id:019b7165c9b8000c5053608cc65d00065001e05d00bd0$_sn:3$_se:4$_ss:0$_st:1769816241662$vapi_domain:caisse-epargne.fr$ses_id:1769814408490%3Bexp-session$_pn:3%3Bexp-session",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1801350441,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "uzmxj|.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "uzmxj",
+                    "value": "7f9000bdfb6800-f99b-4d0a-8a97-51decb4c49243-17671340547552680278583-18636a7585f98b1619",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "uzmxj",
+                    "value": "7f9000f2440d70-85f7-40a4-9833-80f5051b4ed63-17671340547552680352933-ff6b2049e9f59d0122",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmbj0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmbj0",
+                    "value": "1767134054",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmbj0",
+                    "value": "1767134054",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "AWSALBCORS|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "AWSALBCORS",
+                    "value": "t6ZAukAWqfulYdpEkJmz9UjvGlh05pKHDTdmAQKCed6MJTjmctS4U2AfdPd3ndqsTOuTlSJ2IAwGCIViDaNjSdNi3Tr7iSfxBDJXfIwBgqTGgUbcOzBke80Xy5K3",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1770417398.94046,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "AWSALBCORS",
+                    "value": "A5X1i4PipCyMpkPTCyrthhjAyvtHAli72WRS2G5OIC1A9j9gpsbBq8ZNo3vPYtWUmzpn/TY/b44fUpzil+Wvibo69IEtRl2Jl2oArjz2CC9lJQyFeA8Mwf0Xx57p",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1770417391.983359,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "uzmx|.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "uzmx",
+                    "value": "7f9000bdfb6800-f99b-4d0a-8a97-51decb4c49241-17698143305170-0f7a79661628f00310",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.940223,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "uzmx",
+                    "value": "7f9000f2440d70-85f7-40a4-9833-80f5051b4ed61-17698144055790-c22a02818598943610",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.983231,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmcj0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmcj0",
+                    "value": "918721036905",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmcj0",
+                    "value": "801351096450",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_MFB_|.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "_MFB_",
+                    "value": "fHwzfHx8W118fHw3OS4zMzU4MTgwNjE3MjAyNXw=",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1798260078,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_MFB_",
+                    "value": "fHwxfHx8W118fHwxOC45OTMyOTE3MTEyNjQ5MTZ8",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1800918447,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmc|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmc",
+                    "value": "674521087687",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.939041,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmc",
+                    "value": "818881097750",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.983025,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__ssds|.www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__ssds",
+                    "value": "0",
+                    "domain": ".www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362732,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__ssds",
+                    "value": "0",
+                    "domain": ".www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "navigation_prospect|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "navigation_prospect",
+                    "value": "%7B%22market%22%3A%22particuliers%22%2C%22region%22%3A%22national%22%7D",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1803942332,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "navigation_prospect",
+                    "value": "%7B%22market%22%3A%22particuliers%22%2C%22region%22%3A%22national%22%7D",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1803942407,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmaj0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmaj0",
+                    "value": "cb268c06-adff-4a44-b128-286eb0d2fcf0",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmaj0",
+                    "value": "5d10f635-fd1d-4345-b5b8-42b0bda84c43",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzma|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzma",
+                    "value": "cb268c06-adff-4a44-b128-286eb0d2fcf0",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.938606,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzma",
+                    "value": "5d10f635-fd1d-4345-b5b8-42b0bda84c43",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.982717,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_uetvid|.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "_uetvid",
+                    "value": "ad69b620e5cf11f09f17edd7253f28ba",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1800851950,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_uetvid",
+                    "value": "ad69b620e5cf11f09f17edd7253f28ba",
+                    "domain": ".caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1803510411,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmdj0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmdj0",
+                    "value": "1769814333",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmdj0",
+                    "value": "1769814407",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmd|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmd",
+                    "value": "1769814330",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.939969,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmd",
+                    "value": "1769814405",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.983099,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzmfj0|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzmfj0",
+                    "value": "7f9000cb268c06-adff-4a44-b128-286eb0d2fcf03-17671340547552680278583-00227baeeb815a4807a10",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362733,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzmfj0",
+                    "value": "7f90005d10f635-fd1d-4345-b5b8-42b0bda84c433-17671340547552680352933-002ed048ecb6113a6ad10",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785362807,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uzme|www.caisse-epargne.fr|/": {
+                "from": {
+                    "name": "__uzme",
+                    "value": "3646",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539130.938957,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "__uzme",
+                    "value": "3085",
+                    "domain": "www.caisse-epargne.fr",
+                    "path": "/",
+                    "expires": 1785539205.982978,
+                    "httpOnly": true,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {
+            "li_adsId": "4aace9ab-0ed5-431c-a6bd-7d1856ef3a08"
+        },
+        "removed": {},
+        "modified": {
+            "_uetsid": {
+                "from": "ad6992a0e5cf11f0abcd8dc87ffb010d",
+                "to": "5c7829a0fe3011f099752dbf6f219797"
+            },
+            "mfb.actor.beta.s.session__Mfb_ud": {
+                "from": "{\"Code_etab\":\"NAT\",\"pages_applicationName\":\"wordpress\",\"PageName\":\"quotidien : compte de depot : ouvrir compte\",\"Environnement\":\"prod\",\"pageType\":\"produit\",\"nomDeSite\":\"caisse epargne\",\"_context\":{\"privacyMode\":false,\"_page\":{\"url\":\"/comptes-cartes/ouvrir-compte/\",\"storageDuration\":30}},\"produitCode\":\"ouvrir compte\"}",
+                "to": "{\"Code_etab\":\"NAT\",\"pages_applicationName\":\"wordpress\",\"PageName\":\"epargne : epargne monetaire : livret jeune\",\"Environnement\":\"prod\",\"pageType\":\"produit\",\"nomDeSite\":\"caisse epargne\",\"productsNom\":[\"livret jeune\"],\"topDetentionPro\":\"non\",\"topDetentionPart\":\"non\",\"produitCode\":\"livret jeune\",\"_context\":{\"privacyMode\":false,\"_page\":{\"url\":\"/epargner/livret-jeune/\",\"storageDuration\":30}}}"
+            },
+            "mfb.actor.beta.s.ttl": {
+                "from": "1767159616169",
+                "to": "1769818020746"
+            },
+            "_uetvid_exp": {
+                "from": "Mon, 25 Jan 2027 04:39:10 GMT",
+                "to": "Wed, 24 Feb 2027 23:06:51 GMT"
+            },
+            "mfb.actor.beta.s.random_percent": {
+                "from": "17.96660189262568",
+                "to": "10.420378075718906"
+            },
+            "mfb.actor.beta.s.pagesVisited": {
+                "from": "{\"/\":2,\"/comptes-cartes/ouvrir-compte/\":3}",
+                "to": "{\"/epargner/livret-jeune/\":2}"
+            },
+            "topicsLastReferenceTime": {
+                "from": "1767155950528",
+                "to": "1769814411634"
+            },
+            "mfb.actor.beta.s.nbp": {
+                "from": "5",
+                "to": "2"
+            },
+            "mfb.actor.beta.pagesHistory": {
+                "from": "{\"visitedPages\":[{\"url\":\"/\",\"time\":1767134055551,\"idSession\":1},{\"url\":\"/\",\"time\":1767134056776,\"idSession\":1},{\"url\":\"/\",\"time\":1767134056786,\"idSession\":1},{\"url\":\"/\",\"time\":1767134056792,\"idSession\":1},{\"url\":\"/\",\"time\":1767134056800,\"idSession\":1},{\"url\":\"/\",\"time\":1767134056962,\"idSession\":1},{\"url\":\"/\",\"time\":1767134057077,\"idSession\":1},{\"url\":\"/\",\"time\":1767155935767,\"idSession\":2},{\"url\":\"/\",\"time\":1767155949072,\"idSession\":2},{\"url\":\"/comptes-cartes/ouvrir-compte/\",\"time\":1767155950317,\"idSession\":2},{\"url\":\"/comptes-cartes/ouvrir-compte/\",\"time\":1767156016121,\"idSession\":2},{\"url\":\"/comptes-cartes/ouvrir-compte/\",\"time\":1767156016168,\"idSession\":2}]}",
+                "to": "{\"visitedPages\":[{\"url\":\"/epargner/livret-jeune/\",\"time\":1769814410449,\"idSession\":1},{\"url\":\"/epargner/livret-jeune/\",\"time\":1769814420746,\"idSession\":1}]}"
+            },
+            "_uetsid_exp": {
+                "from": "Thu, 01 Jan 2026 04:39:10 GMT",
+                "to": "Sat, 31 Jan 2026 23:06:51 GMT"
+            },
+            "mfb.actor.beta.s.startDateTimeOnSite": {
+                "from": "1767155935766",
+                "to": "1769814410448"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {}
+    }
+}

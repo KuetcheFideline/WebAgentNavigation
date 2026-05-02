@@ -1,0 +1,920 @@
+{
+    "metadata": {
+        "initial url": "https://www.tomsguide.fr",
+        "final_url": "https://www.tomsguide.fr/category/guide-dachat/guides-dachat-maison-connectee/",
+        "timestamp": "2026-02-02T23:30:27.926417"
+    },
+    "cookies": {
+        "added": {
+            "5331_s|.newsroom.bi|/": {
+                "name": "5331_s",
+                "value": "2cc05f7b-4410-4140-ad54-2509748c4989",
+                "domain": ".newsroom.bi",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "removed": {
+            "csent|.sddan.com|/": {
+                "name": "csent",
+                "value": "CQe140AQe140ABcAKCFRCQFoAP_gAEPgABi4JXNR_C__aWFj-Tb3QftkeYxP19hjrsQhBgaJgywFzLPC4JwVwmE4NEzIpqIKmAIAu3RBIQBlHIjUBQCAKIgBoSDMaESEIAAAJ6BkgAMRAmNICFxNmwljGQAZwnp9UhcRmQ4NRNrMQMzgCYBHlSI5NkQhAJiRAQcIDbP0YAABAAAAQggAEACAAAAAAAAIAlAAAABIAAEAABBK4AEwUKiCAsCAAIAAwggQAKCsIAIBAEAACQMEAACYIAHAGACgwmQAgBAABBAAAAEGAAIAAAIAEIgAAAIBACBAIFAACABAAAAAQMAAAAIEQAAAEBkCEMACAAKABIyAIAMCUAAIIACAgQAAIEEIAAghgAABESAQAAAAAEAAAAIAAAAEAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAA",
+                "domain": ".sddan.com",
+                "path": "/",
+                "expires": 1770071278.728036,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "_pk_ses.25.439c|ent.seine-et-marne.fr|/": {
+                "name": "_pk_ses.25.439c",
+                "value": "1",
+                "domain": "ent.seine-et-marne.fr",
+                "path": "/",
+                "expires": 1770071383,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "__cf_bm|.ent77.seine-et-marne.fr|/": {
+                "name": "__cf_bm",
+                "value": "N4xGNck1IIcqXT7Xy0JSQA8PcFPrsoVX08eC27M1XQo-1770069566-1.0.1.1-UzKBS79W_qgjncMXORJ0YJwyDGzl95ecxIXweSeRg2ZTeAR.tJ_MLgmiuflJwQW82TiBOcxUnMzB8OCTAunDstMSs0g.HFknuiAofv9WWnI",
+                "domain": ".ent77.seine-et-marne.fr",
+                "path": "/",
+                "expires": 1770071366.626276,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "_pk_ses.20.e4cf|www.seine-et-marne.fr|/": {
+                "name": "_pk_ses.20.e4cf",
+                "value": "1",
+                "domain": "www.seine-et-marne.fr",
+                "path": "/",
+                "expires": 1770071392,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            }
+        },
+        "modified": {
+            "_ga_QNK8NDRSJ2|.tomsguide.fr|/": {
+                "from": {
+                    "name": "_ga_QNK8NDRSJ2",
+                    "value": "GS2.1.s1769818128$o2$g1$t1769818143$j45$l0$h0",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1804378143.996861,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_QNK8NDRSJ2",
+                    "value": "GS2.1.s1770071252$o3$g1$t1770071296$j16$l0$h0",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1804631296.242747,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "SDDAN|.sddan.com|/": {
+                "from": {
+                    "name": "SDDAN",
+                    "value": "20260130_268ea8644cfacf4d00cefde4d615cfe8",
+                    "domain": ".sddan.com",
+                    "path": "/",
+                    "expires": 1801607218.727741,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "SDDAN",
+                    "value": "20260130_268ea8644cfacf4d00cefde4d615cfe8",
+                    "domain": ".sddan.com",
+                    "path": "/",
+                    "expires": 1801607298.592653,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "audit_p|.rubiconproject.com|/": {
+                "from": {
+                    "name": "audit_p",
+                    "value": "1|yQuirGeEF6CJAbdIBCSmQmTTK2DU0KWqElRGyRsfUfiBWqgM6HxUYUIkYvZZDgaRWUYGteO/ygcKjBg7PDK8DiYbB5SW5XQ3bCBbZQR6ZzxK3erJVg2YeEZe892xAckJCur5zz5F73trFeFciBIcHTWA6Y9xzgTuGY4EN9QjPJsCZQeGeHp4k5sXMxtQBim8pjF5qk/3zfvZGC0MWOqzdhNVSrk/628DaSm+Oom7JiVu/l0dZ1VFO03OYGmoobl7",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1801607223.887045,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://tomsguide.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "audit_p",
+                    "value": "1|yQuirGeEF6CJAbdIBCSmQmTTK2DU0KWqElRGyRsfUfhkTIGUsY3QMkIkYvZZDgaRWUYGteO/ygcKjBg7PDK8DiYbB5SW5XQ3bCBbZQR6ZzxK3erJVg2YeEZe892xAckJCur5zz5F73trFeFciBIcHTWA6Y9xzgTuGY4EN9QjPJsCZQeGeHp4k5sXMxtQBim8pjF5qk/3zfvZGC0MWOqzdhNVSrk/628DaSm+Oom7JiVu/l0dZ1VFO03OYGmoobl7",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1801607302.406581,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://tomsguide.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "___nrbi|.tomsguide.fr|/": {
+                "from": {
+                    "name": "___nrbi",
+                    "value": "2|t9p7e7|9acdc648-fdc3-4848-bfe8-3f25734fd4f1|%5B%5D|t9pceo|2|||",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1785366529,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "___nrbi",
+                    "value": "2|t9p7e7|9acdc648-fdc3-4848-bfe8-3f25734fd4f1|%5B%5D|t9urpw|3|||",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1785619675,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "5331_ut|.newsroom.bi|/": {
+                "from": {
+                    "name": "5331_ut",
+                    "value": "0",
+                    "domain": ".newsroom.bi",
+                    "path": "/",
+                    "expires": 1772410144.587003,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "5331_ut",
+                    "value": "0",
+                    "domain": ".newsroom.bi",
+                    "path": "/",
+                    "expires": 1772663296.535125,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "dpm|.dpm.demdex.net|/": {
+                "from": {
+                    "name": "dpm",
+                    "value": "49247995091449078474214288619289122349",
+                    "domain": ".dpm.demdex.net",
+                    "path": "/",
+                    "expires": 1785622731.281031,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "dpm",
+                    "value": "49247995091449078474214288619289122349",
+                    "domain": ".dpm.demdex.net",
+                    "path": "/",
+                    "expires": 1785623396.201035,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "5331_u|.newsroom.bi|/": {
+                "from": {
+                    "name": "5331_u",
+                    "value": "9acdc648-fdc3-4848-bfe8-3f25734fd4f1",
+                    "domain": ".newsroom.bi",
+                    "path": "/",
+                    "expires": 1785370144.586836,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "5331_u",
+                    "value": "9acdc648-fdc3-4848-bfe8-3f25734fd4f1",
+                    "domain": ".newsroom.bi",
+                    "path": "/",
+                    "expires": 1785623296.535014,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "IDSYNC|.analytics.yahoo.com|/": {
+                "from": {
+                    "name": "IDSYNC",
+                    "value": "\"19h0~2tfw:18z8~2tfw:19gg~2tfw:19gq~2u0p:173h~2tfz:19gp~2u0d:19gv~2u0e:18y4~2tg0:19h1~2u0b:19h3~2u0i:19h5~2u2l:19h2~2u0b:18yl~2u0b:19gz~2u0b:19ad~2u0c:175s~2u0d:18y3~2u0k:19bu~2u0l:19h8~2u2m:195n~2u2m\"",
+                    "domain": ".analytics.yahoo.com",
+                    "path": "/",
+                    "expires": 1801607230.879454,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "IDSYNC",
+                    "value": "\"19h0~2tfw:18z8~2tfw:19gg~2tfw:19gq~2u2m:173h~2tfz:19gp~2u0d:19gv~2u0e:18y4~2tg0:19h1~2u0b:19h3~2u0i:19h5~2u2l:19h2~2u0b:18yl~2u0b:19gz~2u0b:19ad~2u0c:175s~2u0d:18y3~2u0k:19bu~2u0l:19h8~2u2m:195n~2u2m\"",
+                    "domain": ".analytics.yahoo.com",
+                    "path": "/",
+                    "expires": 1801607396.199909,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "anj|.adnxs.com|/": {
+                "from": {
+                    "name": "anj",
+                    "value": "dTM7k!M40N@MM`]p<H$yr_/sS4XUuMbxcoX1.0aHs'UJ(c>Y5haWvh^*GBr2JT<ika%t:7R!Av-:lK?8RZ1t<o'wFCJM[O8+_7>H(jv6PsBw$3jo<A!:F=C-i6wL1<cqO[J[h5.S'zX6KP/ZxbCl-LX(=2?m]/Bj2=1!/#Q8GgQ@tRF:K'W'RF8a<+ryHu=f1>Q5l6PDvNt53oB-fF7z80v9s@uROw)b_g<0u)D]ts3fh^Ep_Fc!L*GRWtv[y5sF/nb_[@B'@lwTt'[FmS1aONhyUy*DF)m3LuPx`PuYtGKMaOMgw^-mX6ZHWKP?1hMP1BXE]3fbI>:Ts[sOfZ@^A#pmjZFda!pl>DHR85O5@Mb4kI_hDo>6#WE#@vO:pv]$9A[nA6IGkeyA>ue-^==]KtYz%XYIGCn_Jc0WL)5^o3UVim1$GB<ORFJbTs<<PDd(P*a<!@dUIS@rvL!OEY`YOFW!oG(TcF#s79f'*mo?$GC:berBCj/o_eE/_EMGL3BXB?rca`9e)?5AykMb+KU<'[doO/45Xnbl58jPt8@k!p.D[O-le/!@fo`y+v*MZKI6Wjt'e$KhA#fBPSo*(XUAQ_2y$f0EjM$t)`:B*du9oah-/p@IxVFlyS4+FKP1VOcNHF7#WV#3vXI+bbuL0FdIYfsVJ9V#92'tq+1#d3+830YpUnN]@w-cec0.(dQO64lyNsNmhlD86rm/a#cCCZM05#dvQVWs]:o7V1f9x3zl*uo#U35(^(cYr17CiPxk`CO*S]Jc2<.g<hzv2Q:QOoy%8)idcYy'1h!?85L#'!XE'%B(/wwGWy?f(c9jF0q!KfQ+/wD:IZDyZ4od%hbSVev)aA.17J)wF=tBL2]4S4OoQzhY6xUOOWi:c`(J/#=mtiY8]I<C?)?svbJ*DOQ<>tBNxwW07Dbx`CnWu>bCV64!%1.%QT^@H7/zt$UEOmONV-KGT(qD23BY9jfcA)bSGcJ*p?Cx5Ne_R/_avBjLqsobHVZIE':Jj)YyCi`A:KoS'ssB@Vvs^r9bgo*!oep8S>w3R-'4=3F.bV^[28K5PVFQ!Kmp$7Xv!OG^OlBl1Y#7wN'ADHR!Y^8hP`rSMi)L^1lQFceh]5eLW)KY-iu2sh4)Z$YCt4XoG!_TP)6kV$m3?a+M)ztTV)w>[/blf7A9fIm*c+##^VfKKoKutY5GGs7I0LAl$0$WD4OSH4+>9D$xvg<dJPA@5r(iy1eydkWFj%]:M=Y^-vFWuY2--VW@(@<f>g/p:xDa0mDPgakDOj6?YlFgfcD9Z/eqH5/2lI3s@15$WN-1'mNRy^l+c[?Pp5e2n-PQ%P+g-cv5C^wsAm*ZS@AkuU2z1#1JD=h'4x@cD^l6Vm:5=:tE=4GVgbarR:Kq'c#-OyBgInEjHqzaIB1.E3bJiM*rZ(BJy.0F$t`7u*3S._-:<s3v%/uKjB0tMo!ZBBw#Z[KEvG1UohG]WNivQu$MQB`U7_*h9[ZUZgaH9DPVIB$FnCB+FURioE9GCeSbFarE:/Z1bMQ)Xb^')4P=hsN0qYo4+B(lh?M014>)lRIVSW=rd3-5)oDP.)[4SbB/o%Iq!avFY-u2-+l#fbuV7yVN#@ka?298.b<ef)8)bG#5bg7l)qO5=02<BkwUu3:gO=dFX!]XLzh/UnD#>ijbc6Zi<DX/>.Tfa4UW1lhPXZiV+/oDhGG@2Dw.n52uS@W_di3[88Fd8?:At3#o4QlsO^oNTT4ms-r>'af`QPSEv7-jyXtk+6R9]aQd<(Q'4fz:?aRWgiAfP4hudNfvrgTg6[Q/@2c1C[b(0<=`_B%$?-f>[iH_'ZXOXwIAltt@4)vlX`i458[-`M_-1Pky@k`Cbf>lU(ShJ)HnfqtgsbKOs__0/3HkGb*Oia5!:A0DB6sJ6f:Ps[5z)7^vOVaYHQg''erEj.[2*4XqNz^6QQQP7QDS/MVcG7WVli3:>7)TQ6F>M[)Nwv::'1_SVFfYtKALa.YX17?__L$5#6@A`ZVXBuLP9kAo/qWcMO'hmdvvd[06=vu/g+Xm]*l^sp'AXvhjuvA$In>V?oM'A:CypM+F4fsffIjJ'S3>GYC2vbit>G9VFOTTd?as)Gyr^6R9iu$a3y:]/LSHuQ7.3Hxl!Qq[n.B*BTDjl)!7[*WcP>y'^)dW>Lmb1NX)jDU-/KvBLJu]o:kM0F:ocn%cQ+B2Dl6$#D@.3`]/-i^lm`qpy0BJt<!`r.@>vVNM/^s.NcmiYF2Jb)$rPI'+U<F2C'[vg5HGswZNiF$ANq#o!@vf#9ojO#E-m`eM0-5#p)RM+`J0X/R)tnp4*FG)dLJG)#'opX?'#Mtc3(lKnb]H[Rpx1)-?Jh9GqDL9'JcIv9G]637kAiE8wSILRMstxv[8nrX<MzoZJ>L/j'JsageBEKY4IrEz_G29]11VM/kRLM(79$GH7$0@@8b3BrTu5k6[RVVt2wK<:DZK9OZH0LH]F'x9VBE-yIMjH15'@^JLJIeE^[bD.5x6O$?gN.*)sz4`R",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777847219.94809,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "anj",
+                    "value": "dTM7k!M40N@M`l_p<Gzxr_/[54XUuMbxcoX$lv?%ml[5uMd5I$aWvh^*GBr2JT<ika%t:7R!Av-:lK?8Q4aJM6:Q.I-DJ1M$*NO0(jv6PsBw$3jo<A!:F=C-i6wL1<cqO[J[h5.S'zX6KSSrJbG8Zas.7=Ba#0=T00ow'D*4f7S_n3Gpgiehj`b=pr7eCO%8l'^_$hQlU]0r_PNfro+-0FmAtqn#0x:FqamM.w#(2a%Rtb<j]uG=.@#W[NF5DBLo0]:L.j`9E:fAGx'M/Dd#[>]c-8eKl3M#s6R'UT(=pB)e#^smbgrepr]Z(**4)=x>8y##u?09.@Y-:b1BV60xNjCFj-Z%i4S819]#GBwMw6M['#9#OO_C%i2(67$nTLmuJ!^KUv9ddtMQS>5i#]320$P*74#mHJEm%s(DT<sv$VAozu<P.[ibL[69O`AQwgBa^cTv/yFGrCOxa*c9mP(^qDT`pC!lnO$R<@aMMc=%Kj.zxL.VQ'hIC***6C-S@sY3sq?gw=oA!+6NdHWaC5Ux!OAF1jLMby4)]nma1b9^v$pTS5CrC:n@4?yFZ>.S^?Upmb8gmL5Cda0*Q00^s:O%7`^?S?-n=O@5o>.vypB<r%enSbS=aThgMb_F6`?(gBUogSC4e#StvxYTbz=DmuoHC2_^F(wD6K['sz=*m9Il(W`'5Cn5NK*o_mnUze8Jv9^`5p?a<*Qn$Dx(P6ZDG+jRT>dXZx=S!N?(T*DPf(V6!3:^7Lfm[6Pa_Bv!)Tkt+1b9ucoe7#%nVm`X?/STC>ZjbR)bct[V/C)^q'Yn#$eo([B/2[66r>6`d78Q!?J%vH6.N*Q['?4X?PsTPGoDg0PY*wgw6L!=:[M1J!m(jPqY?iFggQ79V%bFzVo'oioCzOB)M9Cm#lY5/[y95B*ebp0[.if0Ix/vNRE(TnlPSMni1'xKA?n!ho0agF-j2EikT/S[6nG3qDbY=0b`i#2AiI!rCcJj-ADWtCb9QnOS57IKJzv*XP<_vn)dy/vIm:f[Nb^n^J9zsy#h?Dr3_yYF6@?JdIAz(q*AG3dVj_XgVxDsdkHZI[g15UH[sg#YdV90@5u9WEV4Vl1B`Q:7UdorE_]OmPBaGs1k8r<Aie<0@'2nA=g#kUC'XeD7<:8WX8n!!N^r%*TQ<3:L+NEzjDmO0xrKj:Vn)RFcf9sM3qKkPE#]gfd'E(:sov)%hE%LX1.K=sPLrK1<in0F4YjKDFFrhuce)/o8.hnnYvMKh:v+LLV2JnSeJUaBFu%uJQ]^$Wa:C.DB#ROJu!]XZl9F'tK3.!Fl6@DUJH)okhH9cBE+!Ohym5GcGX^t$<XD(A(C<Qhw(i3EZ_=7%p#[MCC.jm>m%zqtV+s+5PmZX8I_Vdt3iD0L:k2fH$%[T)$L@ii@HSi4+P+tGlYGz/3>1<ZS8uLkZ/3S^b/N+2Qmlu3KV_Ut[w(G%scSpa(=X[^a-(=ta^XaQZN9#^L4)7Dcf=tQAAhM@95v14VH5NL:Gn<-y/Z2b94]#K4JRna(k3m[aVnAxv@z4=89y?bFNrUn6Y@I5JIQ9b<4`5^=aFdQr8OZrib0l$iQ:Nk_N]Fg?(.iXSH!nW6%qMNNNj2q1*=A0oYnN#YQ]Z^>CEYFRJeX-k*/_al>VlM=h>YTKNZ<o!Es.p3!k-MCCXkF[_+Nc(<pmw>h6_tf>y'l'T)!L551[8NSG5UL<@KqppUI+Y/q7SK]WMiq+:M!Kla0uX+V3lJZ^YDVOq?1j>:jfrwqw'G(H5=d?4G!xYANiNdyU^6Ih)]Ds5nq5LR0t9/$q*'?G(9I(Mg4zl3'=3M+OC723]uZFTf/dbr]Qbwf4Et>BDhyr8VhzXY-NuH5!8w`YaxiW@nA8LSs)JC$y0vQA<*H+W@*0Gj57SiKJOSr1<yauA%Y#hSCDpMh)a:#+%g@`r$%<R5zwm]9UVvc78p@Q!e!nh`^q`QiP?iXNq8(mbN?0c5It?V3Ru/?S'bX]-^4PWiWR7#f70XB%v2.pLS=y`M7UNZB$I?gQNnls8zDKwh>K:I.B2Y_wzoJpgtQP.fk*Ej#vgD#8dnYI4?ulw?@c3GAl*MXIdIyMCIhm`BEfO<aN-w$MCYV]%$eca`iJ-(e/sFl`lBu%gxJ)qy^rprUY2(qbNBjjB?@5[.mq$nWZIOdwjf2qJiE47M2d6LlIYG7sRUaHs#RvR0MQs-#(82uONVA'rAItlVdo#2cORZgJi1#wV1/laNO*GHrr*.6nMyJ9St$h6?r33Eh-P55Kg47<:sGTJM#8=thYX2G)tDNrkSuQ'X(NSepCTvO/Z2pufwHQi[`_*6aRQ(74D:<#9`PlOIzb__hm:i8Rg:)-Q^qMkUbADH`sZ[1Tnyt@.a-5E31P/wBpqX>gke1mxPLuikt2Hm:_hkJr`.Fh@:BLq$-7o:Ez*n_$8@Q[Dg8Sca-^0k?NTjMT-fwDK>fbX1T3Nj?A15>D7MyEKaP)LMiqG[l9Au[.3Vwb-m$0h@g8aMy$xSw]LNB[5)Gs",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777847299.525368,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "___nrbic|.tomsguide.fr|/": {
+                "from": {
+                    "name": "___nrbic",
+                    "value": "2|t9pceo|t9p7e7|t9pceo|e6b387f3-dfcf-4b47-8fb3-4d00dfd723fd|%5B%5D|true|1|https%3A%2F%2Fwww.tomsguide.fr%2F|||",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1785366529,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "___nrbic",
+                    "value": "2|t9urqh|t9pceo|t9urpw|2cc05f7b-4410-4140-ad54-2509748c4989|%5B%5D|true|2|https%3A%2F%2Fwww.tomsguide.fr%2F|||",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1785619675,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "R2B2ID|hb.r2b2.cz|/": {
+                "from": {
+                    "name": "R2B2ID",
+                    "value": "0697cb14-83be-7000-9892-31f31ba447f3",
+                    "domain": "hb.r2b2.cz",
+                    "path": "/",
+                    "expires": 1771280822.557154,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "R2B2ID",
+                    "value": "0697cb14-83be-7000-9892-31f31ba447f3",
+                    "domain": "hb.r2b2.cz",
+                    "path": "/",
+                    "expires": 1771280901.529968,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "demdex|.demdex.net|/": {
+                "from": {
+                    "name": "demdex",
+                    "value": "49247995091449078474214288619289122349",
+                    "domain": ".demdex.net",
+                    "path": "/",
+                    "expires": 1785622731.280888,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "demdex",
+                    "value": "49247995091449078474214288619289122349",
+                    "domain": ".demdex.net",
+                    "path": "/",
+                    "expires": 1785623396.200985,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_ga|.tomsguide.fr|/": {
+                "from": {
+                    "name": "_ga",
+                    "value": "GA1.1.2044693182.1769811631",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1804378128.06014,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga",
+                    "value": "GA1.1.2044693182.1769811631",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1804631274.123907,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "receive-cookie-deprecation|.rubiconproject.com|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1777847223.887247,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://tomsguide.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1777847302.406981,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://tomsguide.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "receive-cookie-deprecation|.d.adroll.com|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".d.adroll.com",
+                    "path": "/",
+                    "expires": 1803909120.828039,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://numerama.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".d.adroll.com",
+                    "path": "/",
+                    "expires": 1804199393.458076,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://tomsguide.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "__adroll|.d.adroll.com|/": {
+                "from": {
+                    "name": "__adroll",
+                    "value": "1debdc0d8364dab52b05c93ec4944652-a_1769781120",
+                    "domain": ".d.adroll.com",
+                    "path": "/",
+                    "expires": 1803909120.827997,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__adroll",
+                    "value": "1debdc0d8364dab52b05c93ec4944652-a_1769781120",
+                    "domain": ".d.adroll.com",
+                    "path": "/",
+                    "expires": 1804199393.457846,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "CMID|.casalemedia.com|/": {
+                "from": {
+                    "name": "CMID",
+                    "value": "aVQ6UbmqPC8AN69dAixEkQAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1801606733.879317,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "CMID",
+                    "value": "aVQ6UbmqPC8AN69dAixEkQAA",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1801607397.816496,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "5331_lv|.newsroom.bi|/": {
+                "from": {
+                    "name": "5331_lv",
+                    "value": "1769811631",
+                    "domain": ".newsroom.bi",
+                    "path": "/",
+                    "expires": 1772410144.586968,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "5331_lv",
+                    "value": "1769818128",
+                    "domain": ".newsroom.bi",
+                    "path": "/",
+                    "expires": 1772663296.535101,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "tuuid|.betweendigital.com|/": {
+                "from": {
+                    "name": "tuuid",
+                    "value": "0da40725-6e60-526d-8db1-3323e4e57655",
+                    "domain": ".betweendigital.com",
+                    "path": "/",
+                    "expires": 1801607222.554771,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "tuuid",
+                    "value": "0da40725-6e60-526d-8db1-3323e4e57655",
+                    "domain": ".betweendigital.com",
+                    "path": "/",
+                    "expires": 1801607301.387647,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "receive-cookie-deprecation|.adroll.com|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adroll.com",
+                    "path": "/",
+                    "expires": 1803909120.828082,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://numerama.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".adroll.com",
+                    "path": "/",
+                    "expires": 1804199393.458174,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://tomsguide.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "dc|.betweendigital.com|/": {
+                "from": {
+                    "name": "dc",
+                    "value": "lux1",
+                    "domain": ".betweendigital.com",
+                    "path": "/",
+                    "expires": 1801607222.554567,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "dc",
+                    "value": "lux1",
+                    "domain": ".betweendigital.com",
+                    "path": "/",
+                    "expires": 1801607301.387583,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "audit|.rubiconproject.com|/": {
+                "from": {
+                    "name": "audit",
+                    "value": "1|yQuirGeEF6CJAbdIBCSmQmTTK2DU0KWqElRGyRsfUfiBWqgM6HxUYUIkYvZZDgaRWUYGteO/ygcKjBg7PDK8DiYbB5SW5XQ3bCBbZQR6ZzxK3erJVg2YeEZe892xAckJCur5zz5F73trFeFciBIcHTWA6Y9xzgTuGY4EN9QjPJsCZQeGeHp4k5sXMxtQBim8pjF5qk/3zfvZGC0MWOqzdhNVSrk/628DaSm+Oom7JiVu/l0dZ1VFO03OYGmoobl7",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1801607223.887216,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "audit",
+                    "value": "1|yQuirGeEF6CJAbdIBCSmQmTTK2DU0KWqElRGyRsfUfhkTIGUsY3QMkIkYvZZDgaRWUYGteO/ygcKjBg7PDK8DiYbB5SW5XQ3bCBbZQR6ZzxK3erJVg2YeEZe892xAckJCur5zz5F73trFeFciBIcHTWA6Y9xzgTuGY4EN9QjPJsCZQeGeHp4k5sXMxtQBim8pjF5qk/3zfvZGC0MWOqzdhNVSrk/628DaSm+Oom7JiVu/l0dZ1VFO03OYGmoobl7",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1801607302.406908,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "lidid|.liadm.com|/": {
+                "from": {
+                    "name": "lidid",
+                    "value": "fd5f4355-714b-49fa-ac3e-147437053c8e",
+                    "domain": ".liadm.com",
+                    "path": "/",
+                    "expires": 1804630733.505961,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "lidid",
+                    "value": "fd5f4355-714b-49fa-ac3e-147437053c8e",
+                    "domain": ".liadm.com",
+                    "path": "/",
+                    "expires": 1804631396.397226,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "ut|.betweendigital.com|/": {
+                "from": {
+                    "name": "ut",
+                    "value": "aYEktgAF91h53ooHqxXSUq68HJs2uqo4h3RWZg==",
+                    "domain": ".betweendigital.com",
+                    "path": "/",
+                    "expires": 1801607222.554877,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ut",
+                    "value": "aYElBQADbujvftiS1zhYiR_OnNl-uPC4P4Za1g==",
+                    "domain": ".betweendigital.com",
+                    "path": "/",
+                    "expires": 1801607301.387673,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "ar_debug|.doubleclick.net|/": {
+                "from": {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1772407884.039634,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ar_debug",
+                    "value": "1",
+                    "domain": ".doubleclick.net",
+                    "path": "/",
+                    "expires": 1772663366.469553,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "khaos|.rubiconproject.com|/": {
+                "from": {
+                    "name": "khaos",
+                    "value": "MJT25ZQR-6-3QH7",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1801607223.887137,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "khaos",
+                    "value": "MJT25ZQR-6-3QH7",
+                    "domain": ".rubiconproject.com",
+                    "path": "/",
+                    "expires": 1801607302.406754,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "grvt_id_third|.agrvt.com|/": {
+                "from": {
+                    "name": "grvt_id_third",
+                    "value": "3701824332257987586",
+                    "domain": ".agrvt.com",
+                    "path": "/",
+                    "expires": 1801607222.640953,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "grvt_id_third",
+                    "value": "3701824332257987586",
+                    "domain": ".agrvt.com",
+                    "path": "/",
+                    "expires": 1801607302.59105,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "uuid2|.adnxs.com|/": {
+                "from": {
+                    "name": "uuid2",
+                    "value": "8941735268146079714",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777847221.793144,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "uuid2",
+                    "value": "8941735268146079714",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777847396.206533,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_knxq_|.brand-display.com|/": {
+                "from": {
+                    "name": "_knxq_",
+                    "value": "b7b606a9-36d7-0581-d037ff1a.1767357330.1.1769790777.1767357330",
+                    "domain": ".brand-display.com",
+                    "path": "/",
+                    "expires": 1804350777.848541,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_knxq_",
+                    "value": "b7b606a9-36d7-0581-d037ff1a.1767357330.2.1770071396.1769790777",
+                    "domain": ".brand-display.com",
+                    "path": "/",
+                    "expires": 1804631396.186601,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "compass_uid|.tomsguide.fr|/": {
+                "from": {
+                    "name": "compass_uid",
+                    "value": "9acdc648-fdc3-4848-bfe8-3f25734fd4f1",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1785366529,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "compass_uid",
+                    "value": "9acdc648-fdc3-4848-bfe8-3f25734fd4f1",
+                    "domain": ".tomsguide.fr",
+                    "path": "/",
+                    "expires": 1785619675,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "__adroll_shared|.adroll.com|/": {
+                "from": {
+                    "name": "__adroll_shared",
+                    "value": "1debdc0d8364dab52b05c93ec4944652-a_1769781120",
+                    "domain": ".adroll.com",
+                    "path": "/",
+                    "expires": 1803909120.828116,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__adroll_shared",
+                    "value": "1debdc0d8364dab52b05c93ec4944652-a_1769781120",
+                    "domain": ".adroll.com",
+                    "path": "/",
+                    "expires": 1804199393.45837,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "ad-privacy|.amazon-adsystem.com|/": {
+                "from": {
+                    "name": "ad-privacy",
+                    "value": "0",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1804629261.936338,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ad-privacy",
+                    "value": "0",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1804631395.970877,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_li_ss|i.liadm.com|/s": {
+                "from": {
+                    "name": "_li_ss",
+                    "value": "CocBCgYI-QEQ5xwKBgj3ARDoHAoFCAoQ5xwKBgikARDnHAoGCN0BEOccCgYI4QEQ5xwKBgiBARDnHAoFCAwQ8RwKBgj1ARDnHAoGCKIBEOccCgUICxDnHAoGCIkBEOocCgYIpQEQ5xwKCQj_____BxDxHAoGCIcCEOgcCgYI0gEQ6BwKBQh-EOgc",
+                    "domain": "i.liadm.com",
+                    "path": "/s",
+                    "expires": 1772662733.50586,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_li_ss",
+                    "value": "CocBCgYI-QEQ5xwKBgj3ARDoHAoFCAoQ5xwKBgikARDnHAoGCN0BEOccCgYI4QEQ5xwKBgiBARDnHAoFCAwQ8RwKBgj1ARDnHAoGCKIBEOccCgUICxDnHAoGCIkBEOocCgYIpQEQ5xwKCQj_____BxDxHAoGCIcCEOgcCgYI0gEQ6BwKBQh-EOgc",
+                    "domain": "i.liadm.com",
+                    "path": "/s",
+                    "expires": 1772663396.397113,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "A3|.yahoo.com|/": {
+                "from": {
+                    "name": "A3",
+                    "value": "d=AQABBFI6VGkCEPfzj-QKQrERnYYIDg3nL3EFEgEBAQGLVWleaeWnJm0A_eMDAA&S=AQAAApgAACy7Pup_Ze23nBRtDMI",
+                    "domain": ".yahoo.com",
+                    "path": "/",
+                    "expires": 1801628830.879726,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "A3",
+                    "value": "d=AQABBFI6VGkCEPfzj-QKQrERnYYIDg3nL3EFEgEBAQGLVWleaeWnJm0A_eMDAA&S=AQAAApgAACy7Pup_Ze23nBRtDMI",
+                    "domain": ".yahoo.com",
+                    "path": "/",
+                    "expires": 1801628996.199993,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_uid|.fwmrm.net|/": {
+                "from": {
+                    "name": "_uid",
+                    "value": "umv0c77_7590359204989617929",
+                    "domain": ".fwmrm.net",
+                    "path": "/",
+                    "expires": 1785623231.287584,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_uid",
+                    "value": "umv0c77_7590359204989617929",
+                    "domain": ".fwmrm.net",
+                    "path": "/",
+                    "expires": 1785623302.418086,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "CMPRO|.casalemedia.com|/": {
+                "from": {
+                    "name": "CMPRO",
+                    "value": "1116",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1777846733.879514,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "CMPRO",
+                    "value": "1116",
+                    "domain": ".casalemedia.com",
+                    "path": "/",
+                    "expires": 1777847397.816721,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "ad-id|.amazon-adsystem.com|/": {
+                "from": {
+                    "name": "ad-id",
+                    "value": "A2PSor5iOUdftOdEFT3wCDU",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1790891661.936245,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ad-id",
+                    "value": "A2PSor5iOUdftOdEFT3wCDU",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1790893795.97077,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "id5id_v2_7991871247858222": {
+                "from": "{\"data\":{\"response\":{\"signature\":\"ID5_AqJbKBPskOHyKkM7iCQSKWs8eAbpKB0gA4VzKIscV5SzgAKrDaxie09LbJIULYwut2zUagmBhxBk9i4JVYuqOEX0I_kC9JVE_PnJclgrHPRG_7OB9dQncb8QVAaHM8mqxrx_v-hnd7okTYVT6V0kn7KNPVmNeOP7gN7lALXEw76vIr1o2uc\",\"created_at\":\"2025-12-30T20:47:13.891Z\",\"id5_consent\":true,\"original_uid\":\"ID5*O7Guf11p343q_HXgN4yv6uBge13qknkBZsjuxb1a3M3__2mBJLdaAAEBCmlUOlEAgsIJMlO1SY0G0JvMXNEpJYLDNOOoblqx8J9yGbXj1NWCxG9Td0g987Ww91U372GMgsXJWJ9zkvbwsfKIAEZHrISGUAtoVeaF0-B85-7Zs1-CxhnJlmTyZN4NHWES1fyJgsrCvfTov_Db9dCzAWM0a4LMJC-upSGhFIWFx5JWF26CkbTwUXo1MRXh0JgqB4sqgtSZB2EY2WA1VG5ntmXfzIKXJglJda1KEsrkj9YLSFyCmHjOe6rn9-vy1BAGEef9gpnan-jqbN5m6xOVkCGfJoLZwqTsSfI9-_fnDurcOxiC2khOyCuXQ9X8F_koo9vogqGpMKfKDovMcWk5jjc0LYLj77TM480cgY3LE22vWkeCpaW949vYtghSRqk3EEAkguVbiFxVCO9NBSwdqvezNYKmWrfyRwCkF-26do8d28eCqcmbmxBQb_h6kSb7N0DigunIvWdT0wwUrx9eGJRm4oLqFUjfp0rnMPuhUDXSETCCriBz0MiaIoX3s-qUTJ3_gq8RgPd2EEIbR10AigJQrYKyOa-GWgLcHZ4ghW4sAB-Cts6Y_ogd3sYe8LskCmUsgrc82K6cT_aI-EElToEtEIK5dNEwIrlxegPc-aNnTNSCukMspvokySGHRPijer1Ogruw2OzlpasRyBv7K2I3a4K-U_JgX0u3A2r5rF3qhmuCvzlrNXfd24bttn7qt-L8\",\"universal_uid\":\"ID5*XRTPu-RG0hLEohhqAnl85RIGmNAITZVWVbxL5xCjaFz__2mBJLdaAAEBCmlUOlEAgsJ23mLAMTNyu7ML9FaYXILDjhUH06Fm9sl5ATaiyjOCxLzT2CpxNtm7Yk4ctSKmgsXb7HuMLRlaJ0tsn_17yISGIdKFCmrafOQfQHEYQvqCxrIq73TgV77clto71SYkgspI6NcIo_q4rKUmLlt1RYLMNVhQ_XucE8AQta3I3uGCkYrlm2T5iksEAGd75UfngtQFp8aJJV-0-g98ZTQAx4KX3T6fLwpkaSM8RVVhIeWCmJsUpxbN6lOG6WK45DUNgplfuAi-ImTlxaP-ipwnpILZjxNPwC4WdRz51oewbrWC2l2XiJTqSXXa84OcsXI3gqHyJKm33LzrkPsPx9ESA4Ljq8hbQnkJ4cgC4Eak9OCCpdTR6NL7om6kQ5tmNqODguVom-c15PZ7pHrJ5HNCB4KmHKtOasDfGv66s9Vk2MaCqTGAxfjs3t1jxGgAMsvugum-ZXNoaHtmJJ1NsN8k-4LqGkwnjM9eARusk0npVpOCriTyM8H9aTfcJ66dl59zgq-HKJD9wv6avaPPm5ORsIKydGHEwxd9SS6DRkhb__eCtsS_9PX46dnpU0C_D92_greH2ooVIaV5dmpKcWbJmoK5iL70gnLfKp8mVR1x8cGCumWWaoH0iTGrbJWOPC_XgruCuSVo4k1JtbyKlb36UIK-7azzwjdd6DFd9yVghUCCv_EJDNsaxMBWpNeT4MWB\",\"link_type\":2,\"cascade_needed\":true,\"privacy\":{\"jurisdiction\":\"gdpr\",\"id5_consent\":true},\"ext\":{\"linkType\":2,\"pba\":\"i+S8PrhsLkamA6FBqE0P2FCUIPpg5M5WuoXyfgoq4iF0hDoNZ7dCte+xf3BdYrwt0Ez27O1xVmJNkug0UUwKIA==\"},\"cache_control\":{\"max_age_sec\":7200},\"ids\":{\"id5id\":{\"eid\":{\"source\":\"id5-sync.com\",\"uids\":[{\"id\":\"ID5*XRTPu-RG0hLEohhqAnl85RIGmNAITZVWVbxL5xCjaFz__2mBJLdaAAEBCmlUOlEAgsJ23mLAMTNyu7ML9FaYXILDjhUH06Fm9sl5ATaiyjOCxLzT2CpxNtm7Yk4ctSKmgsXb7HuMLRlaJ0tsn_17yISGIdKFCmrafOQfQHEYQvqCxrIq73TgV77clto71SYkgspI6NcIo_q4rKUmLlt1RYLMNVhQ_XucE8AQta3I3uGCkYrlm2T5iksEAGd75UfngtQFp8aJJV-0-g98ZTQAx4KX3T6fLwpkaSM8RVVhIeWCmJsUpxbN6lOG6WK45DUNgplfuAi-ImTlxaP-ipwnpILZjxNPwC4WdRz51oewbrWC2l2XiJTqSXXa84OcsXI3gqHyJKm33LzrkPsPx9ESA4Ljq8hbQnkJ4cgC4Eak9OCCpdTR6NL7om6kQ5tmNqODguVom-c15PZ7pHrJ5HNCB4KmHKtOasDfGv66s9Vk2MaCqTGAxfjs3t1jxGgAMsvugum-ZXNoaHtmJJ1NsN8k-4LqGkwnjM9eARusk0npVpOCriTyM8H9aTfcJ66dl59zgq-HKJD9wv6avaPPm5ORsIKydGHEwxd9SS6DRkhb__eCtsS_9PX46dnpU0C_D92_greH2ooVIaV5dmpKcWbJmoK5iL70gnLfKp8mVR1x8cGCumWWaoH0iTGrbJWOPC_XgruCuSVo4k1JtbyKlb36UIK-7azzwjdd6DFd9yVghUCCv_EJDNsaxMBWpNeT4MWB\",\"atype\":1,\"ext\":{\"linkType\":2,\"pba\":\"i+S8PrhsLkamA6FBqE0P2FCUIPpg5M5WuoXyfgoq4iF0hDoNZ7dCte+xf3BdYrwt0Ez27O1xVmJNkug0UUwKIA==\"}}]}}},\"tags\":{\"id\":\"y\"}},\"responseTimestamp\":1770071223207,\"consents\":{\"gdpr\":true,\"gdpr_consent\":\"CQe140AQe140ABcAKCFRCQFoAP_gAEPgABi4JXNR_C__aWFj-Tb3QftkeYxP19hjrsQhBgaJgywFzLPC4JwVwmE4NEzIpqIKmAIAu3RBIQBlHIjUBQCAKIgBoSDMaESEIAAAJ6BkgAMRAmNICFxNmwljGQAZwnp9UhcRmQ4NRNrMQMzgCYBHlSI5NkQhAJiRAQcIDbP0YAABAAAAQggAEACAAAAAAAAIAlAAAABIAAEAABBK4AEwUKiCAsCAAIAAwggQAKCsIAIBAEAACQMEAACYIAHAGACgwmQAgBAABBAAAAEGAAIAAAIAEIgAAAIBACBAIFAACABAAAAAQMAAAAIEQAAAEBkCEMACAAKABIyAIAMCUAAIIACAgQAAIEEIAAghgAABESAQAAAAAEAAAAIAAAAEAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAA\"},\"nb\":0},\"expireAt\":1771367223209}",
+                "to": "{\"data\":{\"response\":{\"signature\":\"ID5_AqJbKBPskOHyKkM7iCQSKWs8eAbpKB0gA4VzKIscV5SzgAKrDaxie09LbJIULYwut2zUagmBhxBk9i4JVYuqOEX0I_kC9JVE_PnJclgrHPRG_7OB9dQncb8QVAaHM8mqxrx_v-hnd7okTYVT6V0kn7KNPVmNeOP7gN7lALXEw76vIr1o2uc\",\"created_at\":\"2025-12-30T20:47:13.891Z\",\"id5_consent\":true,\"original_uid\":\"ID5*O7Guf11p343q_HXgN4yv6uBge13qknkBZsjuxb1a3M3__2mBJLdaAAEBCmlUOlEAgsIJMlO1SY0G0JvMXNEpJYLDNOOoblqx8J9yGbXj1NWCxG9Td0g987Ww91U372GMgsXJWJ9zkvbwsfKIAEZHrISGUAtoVeaF0-B85-7Zs1-CxhnJlmTyZN4NHWES1fyJgsrCvfTov_Db9dCzAWM0a4LMJC-upSGhFIWFx5JWF26CkbTwUXo1MRXh0JgqB4sqgtSZB2EY2WA1VG5ntmXfzIKXJglJda1KEsrkj9YLSFyCmHjOe6rn9-vy1BAGEef9gpnan-jqbN5m6xOVkCGfJoLZwqTsSfI9-_fnDurcOxiC2khOyCuXQ9X8F_koo9vogqGpMKfKDovMcWk5jjc0LYLj77TM480cgY3LE22vWkeCpaW949vYtghSRqk3EEAkguVbiFxVCO9NBSwdqvezNYKmWrfyRwCkF-26do8d28eCqcmbmxBQb_h6kSb7N0DigunIvWdT0wwUrx9eGJRm4oLqFUjfp0rnMPuhUDXSETCCriBz0MiaIoX3s-qUTJ3_gq8RgPd2EEIbR10AigJQrYKyOa-GWgLcHZ4ghW4sAB-Cts6Y_ogd3sYe8LskCmUsgrc82K6cT_aI-EElToEtEIK5dNEwIrlxegPc-aNnTNSCukMspvokySGHRPijer1Ogruw2OzlpasRyBv7K2I3a4K-U_JgX0u3A2r5rF3qhmuCvzlrNXfd24bttn7qt-L8\",\"universal_uid\":\"ID5*XRTPu-RG0hLEohhqAnl85RIGmNAITZVWVbxL5xCjaFz__2mBJLdaAAEBCmlUOlEAgsJ23mLAMTNyu7ML9FaYXILDjhUH06Fm9sl5ATaiyjOCxLzT2CpxNtm7Yk4ctSKmgsXb7HuMLRlaJ0tsn_17yISGIdKFCmrafOQfQHEYQvqCxrIq73TgV77clto71SYkgspI6NcIo_q4rKUmLlt1RYLMNVhQ_XucE8AQta3I3uGCkYrlm2T5iksEAGd75UfngtQFp8aJJV-0-g98ZTQAx4KX3T6fLwpkaSM8RVVhIeWCmJsUpxbN6lOG6WK45DUNgplfuAi-ImTlxaP-ipwnpILZjxNPwC4WdRz51oewbrWC2l2XiJTqSXXa84OcsXI3gqHyJKm33LzrkPsPx9ESA4Ljq8hbQnkJ4cgC4Eak9OCCpdTR6NL7om6kQ5tmNqODguVom-c15PZ7pHrJ5HNCB4KmHKtOasDfGv66s9Vk2MaCqTGAxfjs3t1jxGgAMsvugum-ZXNoaHtmJJ1NsN8k-4LqGkwnjM9eARusk0npVpOCriTyM8H9aTfcJ66dl59zgq-HKJD9wv6avaPPm5ORsIKydGHEwxd9SS6DRkhb__eCtsS_9PX46dnpU0C_D92_greH2ooVIaV5dmpKcWbJmoK5iL70gnLfKp8mVR1x8cGCumWWaoH0iTGrbJWOPC_XgruCuSVo4k1JtbyKlb36UIK-7azzwjdd6DFd9yVghUCCv_EJDNsaxMBWpNeT4MWB\",\"link_type\":2,\"cascade_needed\":true,\"privacy\":{\"jurisdiction\":\"gdpr\",\"id5_consent\":true},\"ext\":{\"linkType\":2,\"pba\":\"i+S8PrhsLkamA6FBqE0P2FCUIPpg5M5WuoXyfgoq4iF0hDoNZ7dCte+xf3BdYrwt0Ez27O1xVmJNkug0UUwKIA==\"},\"cache_control\":{\"max_age_sec\":7200},\"ids\":{\"id5id\":{\"eid\":{\"source\":\"id5-sync.com\",\"uids\":[{\"id\":\"ID5*XRTPu-RG0hLEohhqAnl85RIGmNAITZVWVbxL5xCjaFz__2mBJLdaAAEBCmlUOlEAgsJ23mLAMTNyu7ML9FaYXILDjhUH06Fm9sl5ATaiyjOCxLzT2CpxNtm7Yk4ctSKmgsXb7HuMLRlaJ0tsn_17yISGIdKFCmrafOQfQHEYQvqCxrIq73TgV77clto71SYkgspI6NcIo_q4rKUmLlt1RYLMNVhQ_XucE8AQta3I3uGCkYrlm2T5iksEAGd75UfngtQFp8aJJV-0-g98ZTQAx4KX3T6fLwpkaSM8RVVhIeWCmJsUpxbN6lOG6WK45DUNgplfuAi-ImTlxaP-ipwnpILZjxNPwC4WdRz51oewbrWC2l2XiJTqSXXa84OcsXI3gqHyJKm33LzrkPsPx9ESA4Ljq8hbQnkJ4cgC4Eak9OCCpdTR6NL7om6kQ5tmNqODguVom-c15PZ7pHrJ5HNCB4KmHKtOasDfGv66s9Vk2MaCqTGAxfjs3t1jxGgAMsvugum-ZXNoaHtmJJ1NsN8k-4LqGkwnjM9eARusk0npVpOCriTyM8H9aTfcJ66dl59zgq-HKJD9wv6avaPPm5ORsIKydGHEwxd9SS6DRkhb__eCtsS_9PX46dnpU0C_D92_greH2ooVIaV5dmpKcWbJmoK5iL70gnLfKp8mVR1x8cGCumWWaoH0iTGrbJWOPC_XgruCuSVo4k1JtbyKlb36UIK-7azzwjdd6DFd9yVghUCCv_EJDNsaxMBWpNeT4MWB\",\"atype\":1,\"ext\":{\"linkType\":2,\"pba\":\"i+S8PrhsLkamA6FBqE0P2FCUIPpg5M5WuoXyfgoq4iF0hDoNZ7dCte+xf3BdYrwt0Ez27O1xVmJNkug0UUwKIA==\"}}]}}},\"tags\":{\"id\":\"y\"}},\"responseTimestamp\":1770071223207,\"consents\":{\"gdpr\":true,\"gdpr_consent\":\"CQe140AQe140ABcAKCFRCQFoAP_gAEPgABi4JXNR_C__aWFj-Tb3QftkeYxP19hjrsQhBgaJgywFzLPC4JwVwmE4NEzIpqIKmAIAu3RBIQBlHIjUBQCAKIgBoSDMaESEIAAAJ6BkgAMRAmNICFxNmwljGQAZwnp9UhcRmQ4NRNrMQMzgCYBHlSI5NkQhAJiRAQcIDbP0YAABAAAAQggAEACAAAAAAAAIAlAAAABIAAEAABBK4AEwUKiCAsCAAIAAwggQAKCsIAIBAEAACQMEAACYIAHAGACgwmQAgBAABBAAAAEGAAIAAAIAEIgAAAIBACBAIFAACABAAAAAQMAAAAIEQAAAEBkCEMACAAKABIyAIAMCUAAIIACAgQAAIEEIAAghgAABESAQAAAAAEAAAAIAAAAEAAAAAAAAAAAAAAAAAAAgAIAAAAAAAAA\"},\"nb\":8},\"expireAt\":1771367388133}"
+            },
+            "id5id_cached_consent_data_exp": {
+                "from": "Wed, 04 Mar 2026 22:27:02 GMT",
+                "to": "Wed, 04 Mar 2026 22:29:48 GMT"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {
+            "adroll_flgs": "1",
+            "adroll_dqs": "pv=35710236192.43456&arrfrr=https%3A%2F%2Fwww.tomsguide.fr%2Fcategory%2Fguide-dachat%2Fguides-dachat-maison-connectee%2F",
+            "___nrbic": "{\"lastBeat\":1770071273,\"previousVisit\":1769818128,\"currentVisitStarted\":1770071252,\"sessionId\":\"2cc05f7b-4410-4140-ad54-2509748c4989\",\"sessionVars\":[],\"visitedInThisSession\":true,\"pagesViewed\":2,\"landingPage\":\"https://www.tomsguide.fr/\"}",
+            "compass_rfv_5331": "{\"rfv\":{\"rfv\":9.88,\"r\":2,\"f\":2,\"v\":2},\"ts\":\"2026-02-02T22:27:54.985Z\"}",
+            "___nrbi": "{\"firstVisit\":1769811631,\"userId\":\"9acdc648-fdc3-4848-bfe8-3f25734fd4f1\",\"userVars\":[],\"futurePreviousVisit\":1770071252,\"timesVisited\":3}"
+        },
+        "removed": {},
+        "modified": {}
+    }
+}

@@ -1,0 +1,723 @@
+{
+    "metadata": {
+        "initial url": "https://blaguesdujour.com",
+        "final_url": "https://blaguesdujour.com/consultant/",
+        "timestamp": "2026-01-30T19:32:42.594547"
+    },
+    "cookies": {
+        "added": {
+            "__157_cid|.bfmio.com|/": {
+                "name": "__157_cid",
+                "value": "y-vubMuh5E2pIYp8pTr1kE1fml9pV1P_wiBBotskiy1g--~A",
+                "domain": ".bfmio.com",
+                "path": "/",
+                "expires": 1801333794.007773,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "HAPLB8G|.go.sonobi.com|/": {
+                "name": "HAPLB8G",
+                "value": "s86196|aXz4t",
+                "domain": ".go.sonobi.com",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "pi|.pubmatic.com|/": {
+                "name": "pi",
+                "value": "156307:3",
+                "domain": ".pubmatic.com",
+                "path": "/",
+                "expires": 1769884134.813326,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "__157_exp|.bfmio.com|/": {
+                "name": "__157_exp",
+                "value": "1",
+                "domain": ".bfmio.com",
+                "path": "/",
+                "expires": 1770402594.008035,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "INGRESSCOOKIE|bh.contextweb.com|/": {
+                "name": "INGRESSCOOKIE",
+                "value": "e7695b5c5e13fe46",
+                "domain": "bh.contextweb.com",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "callback|.id5-sync.com|/": {
+                "name": "callback",
+                "value": "https%3A%2F%2Fsync.taboola.com%2Fsg%2Fid5-network%2F1%2Frtb-h%2F%3Ftaboola_hm%3D%7BID5UID%7D",
+                "domain": ".id5-sync.com",
+                "path": "/",
+                "expires": 1769798049.355781,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "removed": {
+            "__cf_bm|.vimeo.com|/": {
+                "name": "__cf_bm",
+                "value": "meaW8hBU5N2o_lneubiiqwIcDWgPETXMOTHL31b5zas-1769795950-1.0.1.1-aNGUEayGKrwtooE6FPs2DPLFI4Uh7gRONKidX7wYTOSmO3iOuQJdvJqrVwJg8GU_",
+                "domain": ".vimeo.com",
+                "path": "/",
+                "expires": 1769797750.737557,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "modified": {
+            "pamuid2|.a-mo.net|/": {
+                "from": {
+                    "name": "pamuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801323519.718348,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "pamuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801333810.732415,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "A3|.yahoo.com|/": {
+                "from": {
+                    "name": "A3",
+                    "value": "d=AQABBE2FUmkCEAF2nPqXuKpt_R5PVTw3jS0FEgEBAQHWU2lcaeWnJm0A_eMDAA&S=AQAAAjzu9eENxf_jipn2uMkf5YQ",
+                    "domain": ".yahoo.com",
+                    "path": "/",
+                    "expires": 1801344835.934374,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "A3",
+                    "value": "d=AQABBE2FUmkCEAF2nPqXuKpt_R5PVTw3jS0FEgEBAQHWU2lcaeWnJm0A_eMDAA&S=AQAAAjzu9eENxf_jipn2uMkf5YQ",
+                    "domain": ".yahoo.com",
+                    "path": "/",
+                    "expires": 1801355393.710199,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "bh|.yandex.ru|/": {
+                "from": {
+                    "name": "bh",
+                    "value": "EigiTm90PUE/QnJhbmQiO3Y9IjI0IiwgIkNocm9taXVtIjt2PSIxNDAiGgN4ODYiDTE0MC4wLjczMzkuMTYqAj8wOgciTGludXgiQgU2LjguMEoCNjRSNyJOb3Q9QT9CcmFuZCI7dj0iMjQuMC4wLjAiLCJDaHJvbWl1bSI7dj0iMTQwLjAuNzMzOS4xNiJgy/DzywZqGdzK6YgO8qy3pQv7+vDnDev//fYP/rzPhwg=",
+                    "domain": ".yandex.ru",
+                    "path": "/",
+                    "expires": 1804357707,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "bh",
+                    "value": "EigiTm90PUE/QnJhbmQiO3Y9IjI0IiwgIkNocm9taXVtIjt2PSIxNDAiGgN4ODYiDTE0MC4wLjczMzkuMTYqAj8wOgciTGludXgiQgU2LjguMEoCNjRSNyJOb3Q9QT9CcmFuZCI7dj0iMjQuMC4wLjAiLCJDaHJvbWl1bSI7dj0iMTQwLjAuNzMzOS4xNiJg2/DzywZqGdzK6YgO8qy3pQv7+vDnDev//fYP/rzPhwg=",
+                    "domain": ".yandex.ru",
+                    "path": "/",
+                    "expires": 1804357723,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "id5|.id5-sync.com|/": {
+                "from": {
+                    "name": "id5",
+                    "value": "b1a56677-777c-7b66-8d37-de9e902fb8ed#1767012839818#51",
+                    "domain": ".id5-sync.com",
+                    "path": "/",
+                    "expires": 1777568450.702164,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "id5",
+                    "value": "b1a56677-777c-7b66-8d37-de9e902fb8ed#1767012839818#52",
+                    "domain": ".id5-sync.com",
+                    "path": "/",
+                    "expires": 1777573749.355182,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "amuid2|.a-mo.net|/": {
+                "from": {
+                    "name": "amuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801323519.718304,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "amuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801333810.732355,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "vf|.contextweb.com|/": {
+                "from": {
+                    "name": "vf",
+                    "value": "7",
+                    "domain": ".contextweb.com",
+                    "path": "/",
+                    "expires": 1769817600.449176,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "vf",
+                    "value": "10",
+                    "domain": ".contextweb.com",
+                    "path": "/",
+                    "expires": 1769817601.123786,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "chkChromeAb67Sec|.pubmatic.com|/": {
+                "from": {
+                    "name": "chkChromeAb67Sec",
+                    "value": "29",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1777564227.099795,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "chkChromeAb67Sec",
+                    "value": "30",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1777573734.813373,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "taboola_session_id|.taboola.com|/blaguesdujour-blaguesdujour/": {
+                "from": {
+                    "name": "taboola_session_id",
+                    "value": "v2_aebb0b5560c896dddc00f4ce86b69e89_676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68_1769797708_1769797708_CIi3jgYQ5adXGPLQp4HBMyABKAMwmAE4qNoLQMmUEEjKmdsDUP___________wFYAGAFaLfes_2gjPuZVXABgAEAiAEA",
+                    "domain": ".taboola.com",
+                    "path": "/blaguesdujour-blaguesdujour/",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "taboola_session_id",
+                    "value": "v2_aebb0b5560c896dddc00f4ce86b69e89_676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68_1769797708_1769797785_CIi3jgYQ5adXGLPTqIHBMyACKAMwmAE4qNoLQMmUEEjKmdsDUP___________wFYAGAFaLfes_2gjPuZVXABgAEAiAEA",
+                    "domain": ".taboola.com",
+                    "path": "/blaguesdujour-blaguesdujour/",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "__io_cid|.bfmio.com|/": {
+                "from": {
+                    "name": "__io_cid",
+                    "value": "be58bfb0-247c-4a18-a029-397c23dfd1d5",
+                    "domain": ".bfmio.com",
+                    "path": "/",
+                    "expires": 1801329349.400474,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__io_cid",
+                    "value": "be58bfb0-247c-4a18-a029-397c23dfd1d5",
+                    "domain": ".bfmio.com",
+                    "path": "/",
+                    "expires": 1801333794.008107,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "cto_bundle|.criteo.com|/": {
+                "from": {
+                    "name": "cto_bundle",
+                    "value": "2HmK-V9BTE1PUnF2bHBMUGhRN0o4bEtJY2M2NG10WWxGZ0hzcEhiQ281TGdydDR1aXRQNFpVMExvVzBxYkJZTU5Pa1lpWUQlMkZ5Q2EyQlAzbnB0NDNIbHBUbWpKQlNDbGhtS1Q1ZmdzMVZ3ZlJ2M1puT2tuSmY4NzJ5cG5qR3dJckRtMEMwVUFscGxyaUtHdUduUjE5ZXdBeGN1USUzRCUzRA",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1803493707.650072,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "cto_bundle",
+                    "value": "5rC0gV95VzVnNjlxbzBjRUtwWHRDRHRVOTBvRkJrd0piSzhCTGNTRUpjem9PSCUyRkwyTjVlY3NlTWdlMGlDWkxvSHlZeUpUY3h3OGlNSWhCRzNtOURvMFZYYVpqYldsSWo5NWZNeHVyRFNPcHFhTVFHWDBIOU9TWUlpS0hEOWJzOVNvWFMlMkZQZ240N1Iza003M0ZHeEJ5OTAwOG93JTNEJTNE",
+                    "domain": ".criteo.com",
+                    "path": "/",
+                    "expires": 1803493726.496213,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "sd_amuid2|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "sd_amuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801323519.718453,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "sd_amuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801333810.7325,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "3pi|.id5-sync.com|/": {
+                "from": {
+                    "name": "3pi",
+                    "value": "2#1767023949462#-593401132|3#1769774407274#2024269977|1221#1767097039302#1521609968|966#1767097038226#-344205131|264#1767023949721#654919771#be58bfb0-247c-4a18-a029-397c23dfd1d5|10#1767100821823#627608284#2884890098992194789|203#1767023948608#1521451042#277db786-329c-4b7f-b1c9-ac54e47d793b|1227#1767105818581#-241549239|1228#1767093466760#-241549239|846#1767107394387#-649331608|464#1769787504406#-1765019570#676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68|18#1767031150307#203423690|19#1767107315469#-1920721803|916#1767097038593#-1245216383|155#1767100822030#687798644#AAOXeE7SpQsAAAGkW_DCRg|1245#1767031053846#-241549239|285#1767107254927#137874722#MJR7K40M-11-IBWX|286#1767107353927#891862149|224#1767031149342#-1652254675#3224660669439294060|102#1767093343784#-1946318444|104#1767100822321#614130544#cca12984-1f6d-4cdb-8468-9917cb2d0d06|170#1767023949227#-1746841660|108#1767023950058#177073994|112#1767031054597#-1146917999#B2F7D939102CFA7A|693#1767023948961#-2024103427|181#1767034048474#-241549239|821#1767093373149#189964400|441#1767107223090#2060785750#e_0a83de60-705c-497e-b9d1-0423ace01b7a|122#1767093439487#-328895124|826#1767093439677#-1330366285#2fd31a13-5cca-43f0-a07f-5ac980359e6b-6952c117-4652|123#1767100821500#-1214927007|124#1767012840313#-1245216383|1149#1767097039302#-1788844200|1406#1767107315091#-241549239|1854#1769787508247#2015747630",
+                    "domain": ".id5-sync.com",
+                    "path": "/",
+                    "expires": 1777568450.702291,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "3pi",
+                    "value": "2#1767023949462#-593401132|3#1769774407274#2024269977|1221#1767097039302#1521609968|966#1767097038226#-344205131|264#1767023949721#654919771#be58bfb0-247c-4a18-a029-397c23dfd1d5|10#1767100821823#627608284#2884890098992194789|203#1767023948608#1521451042#277db786-329c-4b7f-b1c9-ac54e47d793b|1227#1767105818581#-241549239|1228#1767093466760#-241549239|846#1767107394387#-649331608|464#1769797749124#-1765019570#676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68|18#1767031150307#203423690|19#1767107315469#-1920721803|916#1767097038593#-1245216383|155#1767100822030#687798644#AAOXeE7SpQsAAAGkW_DCRg|1245#1767031053846#-241549239|285#1767107254927#137874722#MJR7K40M-11-IBWX|286#1767107353927#891862149|224#1767031149342#-1652254675#3224660669439294060|102#1767093343784#-1946318444|104#1767100822321#614130544#cca12984-1f6d-4cdb-8468-9917cb2d0d06|170#1767023949227#-1746841660|108#1767023950058#177073994|112#1767031054597#-1146917999#B2F7D939102CFA7A|693#1767023948961#-2024103427|181#1767034048474#-241549239|821#1767093373149#189964400|441#1767107223090#2060785750#e_0a83de60-705c-497e-b9d1-0423ace01b7a|122#1767093439487#-328895124|826#1767093439677#-1330366285#2fd31a13-5cca-43f0-a07f-5ac980359e6b-6952c117-4652|123#1767100821500#-1214927007|124#1767012840313#-1245216383|1149#1767097039302#-1788844200|1406#1767107315091#-241549239|1854#1769787508247#2015747630",
+                    "domain": ".id5-sync.com",
+                    "path": "/",
+                    "expires": 1777573749.35546,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "V|.contextweb.com|/": {
+                "from": {
+                    "name": "V",
+                    "value": "part_MpOtAB0Z8XLJ",
+                    "domain": ".contextweb.com",
+                    "path": "/",
+                    "expires": 1800898279.692877,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "V",
+                    "value": "part_MpOtAB0Z8XLJ",
+                    "domain": ".contextweb.com",
+                    "path": "/",
+                    "expires": 1800901851.124009,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "receive-cookie-deprecation|.yandex.ru|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".yandex.ru",
+                    "path": "/",
+                    "expires": 1801333706,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".yandex.ru",
+                    "path": "/",
+                    "expires": 1801333738,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "sp|.quantserve.com|/": {
+                "from": {
+                    "name": "sp",
+                    "value": "CgkIoqMGEgMQrREKCgi1rt8EEgMQrREKCQjoqwYSAxCtEQoICIkNEgMQrREKCgi0rt8EEgMQrREKCQi5igMSAxCtEQoJCI3dARIDEK0RCgkI7LIGEgMQrREKCQjRpgISAxCtEQoJCL-BAxIDEK0RCggI2WUSAxCtEQoKCLOu3wQSAxCtEQoJCL27BhIDEK0RCgkI5e8GEgMQrREKCQjNswYSAxCtEQoJCNyJBhIDEK0RCgkIye4GEgMQrREKCQju6AYSAxCtEQoJCPu2BhIDEK0RCgkIhf8CEgMQrREKBwgLEgMQrREKCQig7gYSAxCtEQoJCIKtAxIDEK0RCgkI3q8GEgMQrREKCQiAswYSAxCtEQoICJJxEgMQrREKCQi87AYSAxCtEQoICJ4NEgMQrREKCQi_zAYSAxCtEQ==",
+                    "domain": ".quantserve.com",
+                    "path": "/",
+                    "expires": 1777569351.004454,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "sp",
+                    "value": "CgoIta7fBBIDEK0RCgkI0aYCEgMQrREKCQjNswYSAxCtEQoICJ4NEgMQrREKCQi_gQMSAxCtEQoJCIKtAxIDEK0RCggIknESAxCtEQoJCOyyBhIDEK0RCggI2WUSAxCtEQoKCLOu3wQSAxCtEQoJCOXvBhIDEK0RCgkI-7YGEgMQrREKCgi0rt8EEgMQrREKCQi9uwYSAxCtEQoJCOirBhIDEK0RCgkIjd0BEgMQrREKCQjciQYSAxCtEQoJCICzBhIDEK0RCgkIye4GEgMQrREKCQi_zAYSAxCtEQoICIkNEgMQrREKCQjerwYSAxCtEQoJCLzsBhIDEK0RCgkIoqMGEgMQrREKCQi5igMSAxCtEQoJCO7oBhIDEK0RCgkIhf8CEgMQrREKBwgLEgMQrREKCQig7gYSAxCtEQ==",
+                    "domain": ".quantserve.com",
+                    "path": "/",
+                    "expires": 1777573734.922961,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "__amc|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "__amc",
+                    "value": "13_1767100367_1769787519",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801323519.718186,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__amc",
+                    "value": "16_1767100367_1769797810",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801333810.732273,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_ga|.blaguesdujour.com|/": {
+                "from": {
+                    "name": "_ga",
+                    "value": "GA1.1.1200948283.1767030315",
+                    "domain": ".blaguesdujour.com",
+                    "path": "/",
+                    "expires": 1804357706.41376,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga",
+                    "value": "GA1.1.1200948283.1767030315",
+                    "domain": ".blaguesdujour.com",
+                    "path": "/",
+                    "expires": 1804357723.242296,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "__uis|.go.sonobi.com|/": {
+                "from": {
+                    "name": "__uis",
+                    "value": "c31e342b-556a-46eb-aac8-23c7adec20d7",
+                    "domain": ".go.sonobi.com",
+                    "path": "/",
+                    "expires": 1801323518.433025,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__uis",
+                    "value": "c31e342b-556a-46eb-aac8-23c7adec20d7",
+                    "domain": ".go.sonobi.com",
+                    "path": "/",
+                    "expires": 1801333811.165006,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_ga_26JPMGD18Y|.blaguesdujour.com|/": {
+                "from": {
+                    "name": "_ga_26JPMGD18Y",
+                    "value": "GS2.1.s1769797706$o4$g0$t1769797706$j60$l0$h0",
+                    "domain": ".blaguesdujour.com",
+                    "path": "/",
+                    "expires": 1804357706.413272,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_26JPMGD18Y",
+                    "value": "GS2.1.s1769797706$o4$g1$t1769797723$j43$l0$h0",
+                    "domain": ".blaguesdujour.com",
+                    "path": "/",
+                    "expires": 1804357723.241857,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "psd_amuid2|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "psd_amuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801323519.718407,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "psd_amuid2",
+                    "value": "a353ef14-e2c8-4f01-9562-d42b2bfb3eac",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801333810.732468,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "__bfio_sync|.bfmio.com|/": {
+                "from": {
+                    "name": "__bfio_sync",
+                    "value": "FA95AB94573388771263244C1F00257F",
+                    "domain": ".bfmio.com",
+                    "path": "/",
+                    "expires": 1770046698.986844,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__bfio_sync",
+                    "value": "907F49F913C3F429753052E784345BCC",
+                    "domain": ".bfmio.com",
+                    "path": "/",
+                    "expires": 1770056944.337407,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "IDSYNC|.analytics.yahoo.com|/": {
+                "from": {
+                    "name": "IDSYNC",
+                    "value": "\"19gg~2u0f:19h1~2u0c:19gq~2tf5:18z8~2u0f:19h2~2u0b:19gp~2tf6:19gv~2tf7:19gz~2u0c:19ad~2u0c:19h4~2u0f:19cx~2u0f:1967~2u0f\"",
+                    "domain": ".analytics.yahoo.com",
+                    "path": "/",
+                    "expires": 1801323235.934305,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "IDSYNC",
+                    "value": "\"19gg~2u0f:19h1~2u0c:19gq~2tf5:18z8~2u0f:19h2~2u0b:19gp~2tf6:19gv~2tf7:19gz~2u0c:19ad~2u0c:19h4~2u0f:19cx~2u0f:1967~2u0f:19gk~2u0i\"",
+                    "domain": ".analytics.yahoo.com",
+                    "path": "/",
+                    "expires": 1801333793.71013,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "receive-cookie-deprecation|prebid.media.net|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": "prebid.media.net",
+                    "path": "/",
+                    "expires": 1785339518.854198,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": "prebid.media.net",
+                    "path": "/",
+                    "expires": 1785349950.11444,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "t_gid|.taboola.com|/": {
+                "from": {
+                    "name": "t_gid",
+                    "value": "676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68",
+                    "domain": ".taboola.com",
+                    "path": "/",
+                    "expires": 1801333711.152619,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "t_gid",
+                    "value": "676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68",
+                    "domain": ".taboola.com",
+                    "path": "/",
+                    "expires": 1801333954.87449,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "KADUSERCOOKIE|.pubmatic.com|/": {
+                "from": {
+                    "name": "KADUSERCOOKIE",
+                    "value": "8788CB44-3709-4D04-8FED-D21DB4E8B2E9",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1801324227.099321,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "KADUSERCOOKIE",
+                    "value": "8788CB44-3709-4D04-8FED-D21DB4E8B2E9",
+                    "domain": ".pubmatic.com",
+                    "path": "/",
+                    "expires": 1801333734.813347,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "receive-cookie-deprecation|.smartadserver.com|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".smartadserver.com",
+                    "path": "/",
+                    "expires": 1785339520.538952,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".smartadserver.com",
+                    "path": "/",
+                    "expires": 1785349812.452132,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://blaguesdujour.com",
+                    "_crHasCrossSiteAncestor": true
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "_ym95043459_lastHit": {
+                "from": "1769787491123",
+                "to": "1769797737879"
+            },
+            "blaguesdujour-network:session-data": {
+                "from": "v2_aebb0b5560c896dddc00f4ce86b69e89_676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68_1769797708_1769797708_CIi3jgYQ5adXGPLQp4HBMyABKAMwmAE4qNoLQMmUEEjKmdsDUP___________wFYAGAFaLfes_2gjPuZVXABgAEAiAEA",
+                "to": "v2_aebb0b5560c896dddc00f4ce86b69e89_676b3653-cec3-4676-b197-2012e8216d2c-tuct104bff68_1769797708_1769797785_CIi3jgYQ5adXGLPTqIHBMyACKAMwmAE4qNoLQMmUEEjKmdsDUP___________wFYAGAFaLfes_2gjPuZVXABgAEAiAEA"
+            },
+            "_ym95043459:0_reqNum": {
+                "from": "10",
+                "to": "12"
+            },
+            "_ym95043459_il": {
+                "from": "\"Blagues du jour\"",
+                "to": "\"Suivante Gliss\u00e9 devant la fontaine\""
+            },
+            "tbl_rtus_id": {
+                "from": "TXDYXV9YUXF1ZXdEUEE5WnFiVjIwOWI0MVh5RkllN1RDdDJ2UEdvTTliUnBHZFhvJTNE",
+                "to": "5SV0Ll9YUXF1ZXdEUEE5WnFiVjIwOWI0MVglMkZuQklWZ2k5QmdrYkRncTBsM3N0S00lM0Q"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {
+            "tbl-vignette": "1"
+        },
+        "removed": {},
+        "modified": {
+            "arTimestamps": {
+                "from": "[1769797701028]",
+                "to": "[1769797720821]"
+            },
+            "arLastUrl": {
+                "from": "https://blaguesdujour.com/",
+                "to": "https://blaguesdujour.com/consultant/"
+            }
+        }
+    }
+}

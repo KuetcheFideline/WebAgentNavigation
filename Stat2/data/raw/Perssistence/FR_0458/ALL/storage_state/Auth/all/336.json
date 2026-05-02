@@ -1,0 +1,532 @@
+{
+    "metadata": {
+        "initial url": "https://www.planet.fr",
+        "final_url": "https://www.planet.fr/aides-humaines-toilette-a-domicile-des-personnes-agees-comment-beneficier-dune-aide.2980342.816757.html",
+        "timestamp": "2026-02-03T00:38:15.543209"
+    },
+    "cookies": {
+        "added": {
+            "_lr_geo_location|www.planet.fr|/": {
+                "name": "_lr_geo_location",
+                "value": "MX",
+                "domain": "www.planet.fr",
+                "path": "/",
+                "expires": 1770248198.033662,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "_lr_geo_location_state|www.planet.fr|/": {
+                "name": "_lr_geo_location_state",
+                "value": "ROO",
+                "domain": "www.planet.fr",
+                "path": "/",
+                "expires": 1770248198.033553,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            },
+            "gv|s.seedtag.com|/": {
+                "name": "gv",
+                "value": "-",
+                "domain": "s.seedtag.com",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            },
+            "popin_showed|www.planet.fr|/": {
+                "name": "popin_showed",
+                "value": "1",
+                "domain": "www.planet.fr",
+                "path": "/",
+                "expires": 1770159600,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            }
+        },
+        "removed": {},
+        "modified": {
+            "uid|.adform.net|/": {
+                "from": {
+                    "name": "uid",
+                    "value": "6284030571579428521",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1775255224.551615,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "uid",
+                    "value": "6284030571579428521",
+                    "domain": ".adform.net",
+                    "path": "/",
+                    "expires": 1775259354.600347,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "st_ssp|.seedtag.com|/": {
+                "from": {
+                    "name": "st_ssp",
+                    "value": "Y291bnRyeV9uYW1lPUZyYW5jZSZjb3VudHJ5X2lzbzI9RlImY291bnRyeV9pc28zPUZSQSZyZWdpb25fbmFtZT1QYXJpcyBEZXBhcnRtZW50JnJlZ2lvbl9pc28yPTc1JmNpdHlfaWQ9Mjk4ODUwNyZjaXR5X25hbWU9UGFyaXMmbG9uZ2l0dWRlPTIuMzQ5NCZsYXRpdHVkZT00OC44NTU4JnppcD03NTAwMQ==",
+                    "domain": ".seedtag.com",
+                    "path": "/",
+                    "expires": 1772667290.726661,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "st_ssp",
+                    "value": "Y291bnRyeV9uYW1lPUZyYW5jZSZjb3VudHJ5X2lzbzI9RlImY291bnRyeV9pc28zPUZSQSZyZWdpb25fbmFtZT1QYXJpcyBEZXBhcnRtZW50JnJlZ2lvbl9pc28yPTc1JmNpdHlfaWQ9Mjk4ODUwNyZjaXR5X25hbWU9UGFyaXMmbG9uZ2l0dWRlPTIuMzQ5NCZsYXRpdHVkZT00OC44NTU4JnppcD03NTAwMQ==",
+                    "domain": ".seedtag.com",
+                    "path": "/",
+                    "expires": 1772667394.240507,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "psd_amuid2|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "psd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801611290.874973,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "psd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801611354.731637,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "sp|.quantserve.com|/": {
+                "from": {
+                    "name": "sp",
+                    "value": "CgkI5e8GEgMQrREKCQiF_wISAxCtEQoJCI3dARIDEK0RCgkI7LIGEgMQrREKCQi9uwYSAxCtEQoICJJxEgMQrREKCgi0rt8EEgMQrhEKCQi_gQMSAxCtEQoICNllEgMQrREKCQiAswYSAxCtEQoJCKKjBhIDEK0RCgkI0aYCEgMQrREKCAiJDRIDEK0RCgkIuYoDEgMQrREKCQi_zAYSAxCuEQoICJ4NEgMQrREKCQj7tgYSAxCuEQoJCMnuBhIDEK0RCgkIgq0DEgMQrREKCQjciQYSAxCuEQoHCAsSAxCuEQoJCKDuBhIDEK0RCgkI7ugGEgMQrREKCQi87AYSAxCtEQoJCOirBhIDEK0RCgoIs67fBBIDEK4RCgkIzbMGEgMQrREKCQjerwYSAxCtEQ==",
+                    "domain": ".quantserve.com",
+                    "path": "/",
+                    "expires": 1777851283.399683,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "sp",
+                    "value": "CgkIv8wGEgMQrhEKCQjl7wYSAxCtEQoJCICzBhIDEK0RCggIiQ0SAxCtEQoICNllEgMQrREKCQiiowYSAxCtEQoJCN6vBhIDEK0RCgkI6KsGEgMQrREKCAiScRIDEK0RCgkIgq0DEgMQrREKCQjciQYSAxCuEQoJCO7oBhIDEK0RCgkIvOwGEgMQrREKCgizrt8EEgMQrhEKCQjRpgISAxCtEQoICJ4NEgMQrREKCQj7tgYSAxCuEQoKCLSu3wQSAxCuEQoJCOyyBhIDEK0RCgcICxIDEK4RCgkIoO4GEgMQrREKCQjNswYSAxCtEQoJCIX_AhIDEK0RCgkIuYoDEgMQrREKCQjJ7gYSAxCtEQoJCI3dARIDEK0RCgkIvbsGEgMQrREKCQi_gQMSAxCtEQ==",
+                    "domain": ".quantserve.com",
+                    "path": "/",
+                    "expires": 1777851397.52218,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "ivid_dev|www.planet.fr|/": {
+                "from": {
+                    "name": "ivid_dev",
+                    "value": "557bf13f-e779-448a-8730-da22402b3c15",
+                    "domain": "www.planet.fr",
+                    "path": "/",
+                    "expires": 1803771282,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ivid_dev",
+                    "value": "557bf13f-e779-448a-8730-da22402b3c15",
+                    "domain": "www.planet.fr",
+                    "path": "/",
+                    "expires": 1803771372,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "mautic_referer_id|mtc.planet.fr|/": {
+                "from": {
+                    "name": "mautic_referer_id",
+                    "value": "404184531",
+                    "domain": "mtc.planet.fr",
+                    "path": "/",
+                    "expires": 1770077084.441971,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "mautic_referer_id",
+                    "value": "404184643",
+                    "domain": "mtc.planet.fr",
+                    "path": "/",
+                    "expires": 1770077172.586271,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "xxuid|.nexx360.io|/": {
+                "from": {
+                    "name": "xxuid",
+                    "value": "26fea8c0-82fe-4165-a993-f976948ce57b",
+                    "domain": ".nexx360.io",
+                    "path": "/",
+                    "expires": 1777851291.084223,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "xxuid",
+                    "value": "26fea8c0-82fe-4165-a993-f976948ce57b",
+                    "domain": ".nexx360.io",
+                    "path": "/",
+                    "expires": 1777851322.344853,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "receive-cookie-deprecation|.3lift.com|/": {
+                "from": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1777849372.007091,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://abcbourse.com",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "receive-cookie-deprecation",
+                    "value": "1",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1777851354.573393,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "pamuid2|.a-mo.net|/": {
+                "from": {
+                    "name": "pamuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801611290.874822,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "pamuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801611354.731512,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "amuid2|.a-mo.net|/": {
+                "from": {
+                    "name": "amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801611290.874722,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".a-mo.net",
+                    "path": "/",
+                    "expires": 1801611339.230415,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_D9J|.flashtalking.com|/": {
+                "from": {
+                    "name": "_D9J",
+                    "value": "cd9cf5eb64d24810a069ccbdc2916373",
+                    "domain": ".flashtalking.com",
+                    "path": "/",
+                    "expires": 1801609313.722772,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "_D9J",
+                    "value": "cd9cf5eb64d24810a069ccbdc2916373",
+                    "domain": ".flashtalking.com",
+                    "path": "/",
+                    "expires": 1801611315.512664,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_ga|.planet.fr|/": {
+                "from": {
+                    "name": "_ga",
+                    "value": "GA1.1.896156052.1767128629",
+                    "domain": ".planet.fr",
+                    "path": "/",
+                    "expires": 1804635281.357616,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga",
+                    "value": "GA1.1.896156052.1767128629",
+                    "domain": ".planet.fr",
+                    "path": "/",
+                    "expires": 1804635372.444535,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "tluid|.3lift.com|/": {
+                "from": {
+                    "name": "tluid",
+                    "value": "1905170778446518263508",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1777849372.007382,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "tluid",
+                    "value": "1905170778446518263508",
+                    "domain": ".3lift.com",
+                    "path": "/",
+                    "expires": 1777851354.573611,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "cto_bundle|.criteo.com|/openrtb_2_5/pbjs/auction": {
+                "from": {
+                    "name": "cto_bundle",
+                    "value": "rFwKFl95RTZHaW1BdmdxT1J2aURUejVCQUNyRWRoVGFnZjk1NGZYczl0TFgzSGZvWWJxeElBY0RrOXBwWVFQeTFBWkhjR2Z0RzRKaXNIT1dtWXBNJTJGJTJGSWV5ajBOSlI4cks3NVEyTzBlNjVjMHNyYUp2blJKQkJHdSUyRmQ4SzB5eW5VNDFSUUNmbWNya2RkaUZtT1lsRlFkRlBXb1ElM0QlM0Q",
+                    "domain": ".criteo.com",
+                    "path": "/openrtb_2_5/pbjs/auction",
+                    "expires": 1803771290.877135,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                },
+                "to": {
+                    "name": "cto_bundle",
+                    "value": "AYJnFF95RTZHaW1BdmdxT1J2aURUejVCQUN2MXVZeDNVNGNFaTFCTmdjVEdQOVg4Y0FVRnBxeXZGSHB2VmJDb0tUOTlGWGZlN1BwRmhBbFBYSGN4bU1uS0FSNHJZdmhNM2RHdERZVkdIcHhla01yRWRUVzA1ekhWMkZNcVJGaWxqd0syU2J1QnZHa3pzd2czN01Bd3NNejJkJTJCdyUzRCUzRA",
+                    "domain": ".criteo.com",
+                    "path": "/openrtb_2_5/pbjs/auction",
+                    "expires": 1803771340.298796,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None",
+                    "partitionKey": "https://planet.fr",
+                    "_crHasCrossSiteAncestor": true
+                }
+            },
+            "Wysistat|www.planet.fr|/": {
+                "from": {
+                    "name": "Wysistat",
+                    "value": "0.2016706141374467_1770075280280%C2%A71%C2%A71770075280280%C2%A71%C2%A71770075280%C2%A70.6438943285613962_1767128628398%C2%A71801256628398",
+                    "domain": "www.planet.fr",
+                    "path": "/",
+                    "expires": 1801256628,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "Wysistat",
+                    "value": "0.2016706141374467_1770075280280%C2%A71%C2%A71770075372178%C2%A71%C2%A71770075280%C2%A70.6438943285613962_1767128628398%C2%A71801256628398",
+                    "domain": "www.planet.fr",
+                    "path": "/",
+                    "expires": 1801256628,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_ga_754N387H7L|.planet.fr|/": {
+                "from": {
+                    "name": "_ga_754N387H7L",
+                    "value": "GS2.1.s1770075281$o4$g1$t1770075293$j48$l0$h0",
+                    "domain": ".planet.fr",
+                    "path": "/",
+                    "expires": 1804635293.914456,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_754N387H7L",
+                    "value": "GS2.1.s1770075281$o4$g1$t1770075372$j29$l0$h0",
+                    "domain": ".planet.fr",
+                    "path": "/",
+                    "expires": 1804635372.443526,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "uuid2|.adnxs.com|/": {
+                "from": {
+                    "name": "uuid2",
+                    "value": "8941735268146079714",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777851290.766618,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "uuid2",
+                    "value": "8941735268146079714",
+                    "domain": ".adnxs.com",
+                    "path": "/",
+                    "expires": 1777851340.429248,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "sd_amuid2|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "sd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801611290.875094,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "sd_amuid2",
+                    "value": "f0864e55-acbb-4d03-99d3-c6354c13a61c",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801611354.731748,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "__amc|.prebid.a-mo.net|/": {
+                "from": {
+                    "name": "__amc",
+                    "value": "36_1769802560_1770075290",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801611290.874494,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "__amc",
+                    "value": "41_1769802560_1770075354",
+                    "domain": ".prebid.a-mo.net",
+                    "path": "/",
+                    "expires": 1801611354.731265,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "st_uid|.seedtag.com|/": {
+                "from": {
+                    "name": "st_uid",
+                    "value": "019b7103-c993-77bd-8a93-62858b2358a2",
+                    "domain": ".seedtag.com",
+                    "path": "/",
+                    "expires": 1801611290.726595,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "st_uid",
+                    "value": "019b7103-c993-77bd-8a93-62858b2358a2",
+                    "domain": ".seedtag.com",
+                    "path": "/",
+                    "expires": 1801611394.24044,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {
+            "_qcses_p-PFW5FesqXn206": "{\"lastEvent\":1770075396056,\"sid\":\"e9d67ede-e882-458d-840b-5204a26968ac\",\"engagementState\":{\"eventsCount\":1}}",
+            "geo-location": "{\"data\":\"{\\\"country\\\":\\\"MX\\\",\\\"region\\\":\\\"ROO\\\"}\",\"expire\":1770161796296}"
+        },
+        "removed": {},
+        "modified": {
+            "ivi_ids": {
+                "from": "{\"dev\":\"557bf13f-e779-448a-8730-da22402b3c15\",\"ts\":1770075282794}",
+                "to": "{\"dev\":\"557bf13f-e779-448a-8730-da22402b3c15\",\"ts\":1770075372688}"
+            },
+            "__wpfvdk": {
+                "from": "1770075282692",
+                "to": "1770075372597"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {}
+    }
+}

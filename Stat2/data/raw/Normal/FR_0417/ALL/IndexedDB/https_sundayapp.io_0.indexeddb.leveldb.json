@@ -1,0 +1,93 @@
+{
+  "site": "https_sundayapp.io_0.indexeddb.leveldb",
+  "profile": "FR_0417",
+  "auth_type": "auth",
+  "records_count": 10,
+  "data": [
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 0,
+      "value": null
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "lastSentHeartbeatDate": {
+          "__type__": "Undefined"
+        },
+        "heartbeats": {
+          "__type__": "JSArray",
+          "values": [
+            {
+              "date": "2026-02-24",
+              "agent": "fire-core/0.14.8 fire-core-esm2020/0.14.8 fire-js/ fire-fst/4.11.0 fire-fst-esm2020/4.11.0 fire-js-all-app/12.9.0"
+            }
+          ],
+          "properties": {}
+        }
+      }
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "key"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "key"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "key"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "id"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "time"
+    },
+    {
+      "__type__": "IDBKeyPath",
+      "offset": 3,
+      "type": 1,
+      "value": "key"
+    },
+    {
+      "__type__": "ObjectStoreDataValue",
+      "version": 2,
+      "blob_size": null,
+      "blob_offset": null,
+      "value": {
+        "key": "last_flush_timestamp",
+        "value": "1771945809309"
+      }
+    },
+    {
+      "__type__": "BlobJournal",
+      "offset": 0,
+      "entries": [
+        {
+          "__type__": "BlobJournalEntry",
+          "offset": 0,
+          "database_id": 1,
+          "blob_number": 1
+        }
+      ]
+    }
+  ]
+}

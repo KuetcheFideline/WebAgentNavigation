@@ -1,0 +1,72 @@
+[
+  {
+    "task_id": "25",
+    "key": "onesignal-pageview-count",
+    "value": "77",
+    "value_from": "1",
+    "value_to": "77",
+    "value_from_length": 1,
+    "value_to_length": 2,
+    "value_changed": true,
+    "initial_url": "https://www.kanpai.fr",
+    "final_url": "https://www.kanpai.fr/",
+    "timestamp": "2026-02-12T08:47:57.416876",
+    "_categories": [
+      "BEHAVIORAL_DATA"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 2
+  },
+  {
+    "task_id": "54",
+    "key": "wisepops-pageview_id",
+    "value": "1770901905746",
+    "value_from": "1770901837470",
+    "value_to": "1770901905746",
+    "value_from_length": 13,
+    "value_to_length": 13,
+    "value_changed": true,
+    "initial_url": "https://fr.foncia.com",
+    "final_url": "https://fr.foncia.com/location/strasbourg-67/appartement/331634008.htm",
+    "timestamp": "2026-02-12T14:31:00.937489",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 13,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "The key 'wisepops-pageview_id' and numeric value indicate a page view tracking identifier related to user session behavior.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "98",
+    "key": "sentryReplaySession",
+    "value": "{\"id\":\"944ca25ac9b74ebba14a03bb82c4f0ed\",\"started\":1771470309343,\"lastActivity\":1771470309981,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_from": "{\"id\":\"944ca25ac9b74ebba14a03bb82c4f0ed\",\"started\":1771470304376,\"lastActivity\":1771404669469,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_to": "{\"id\":\"944ca25ac9b74ebba14a03bb82c4f0ed\",\"started\":1771470309343,\"lastActivity\":1771470309981,\"segmentId\":0,\"sampled\":\"buffer\"}",
+    "value_from_length": 127,
+    "value_to_length": 127,
+    "value_changed": true,
+    "initial_url": "https://www.lesiteimmo.com",
+    "final_url": "https://www.lesiteimmo.com/",
+    "timestamp": "2026-02-19T04:05:16.076688",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 127,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.95,
+    "ai_explanation": "The key 'sentryReplaySession' and JSON value with session timestamps and activity indicate session replay tracking, a form of behavioral data.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

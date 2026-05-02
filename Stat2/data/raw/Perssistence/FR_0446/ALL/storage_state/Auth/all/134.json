@@ -1,0 +1,661 @@
+{
+    "metadata": {
+        "initial url": "https://www.easyjet.com",
+        "final_url": "https://www.easyjet.com/fr/vols-pas-chers/nouvelles-destinations",
+        "timestamp": "2026-01-30T21:49:02.477562"
+    },
+    "cookies": {
+        "added": {
+            "rl_page_init_referring_domain|.flightconnections.easyjet.com|/": {
+                "name": "rl_page_init_referring_domain",
+                "value": "RS_ENC_v3_Ind3dy5lYXN5amV0LmNvbSI%3D",
+                "domain": ".flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801341404,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "rl_trait|.flightconnections.easyjet.com|/": {
+                "name": "rl_trait",
+                "value": "RS_ENC_v3_eyJjdXJyZW5jeSI6IkVVUiIsImlzTW9iaWxlIjpmYWxzZSwibG9jYWxlIjoiZnIiLCJvcmlnaW5hbFJlZmVycmVyIjoiaHR0cHM6Ly93d3cuZWFzeWpldC5jb20vIiwicGFydG5lciI6ImVhc3lqZXQiLCJyZXNpZGVuY3kiOiJHQiIsImV4cGVyaW1lbnQuMjAyNXE0LXNhbWUtY2Fycmllci1vbmx5IjoidmFyaWFudENvbnRyb2wifQ%3D%3D",
+                "domain": ".flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801341404,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "rl_page_init_referrer|.flightconnections.easyjet.com|/": {
+                "name": "rl_page_init_referrer",
+                "value": "RS_ENC_v3_Imh0dHBzOi8vd3d3LmVhc3lqZXQuY29tLyI%3D",
+                "domain": ".flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801341404,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "ms-destinationguidesapp-pod|www.easyjet.com|/": {
+                "name": "ms-destinationguidesapp-pod",
+                "value": "blue|dub",
+                "domain": "www.easyjet.com",
+                "path": "/",
+                "expires": -1,
+                "httpOnly": true,
+                "secure": true,
+                "sameSite": "Strict"
+            },
+            "x-dohop-user-id|flightconnections.easyjet.com|/": {
+                "name": "x-dohop-user-id",
+                "value": "9f2ca191-3a7f-4a4a-a0fc-aa868738dcb0",
+                "domain": "flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801365046.965812,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "rl_anonymous_id|.flightconnections.easyjet.com|/": {
+                "name": "rl_anonymous_id",
+                "value": "RS_ENC_v3_ImUwNmJjZTRiLWYyYWYtNGNlYi1iNWMzLTFlMTY1MzE3ZmU2NiI%3D",
+                "domain": ".flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801341404,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "rl_session|.flightconnections.easyjet.com|/": {
+                "name": "rl_session",
+                "value": "RS_ENC_v3_eyJhdXRvVHJhY2siOnRydWUsInRpbWVvdXQiOjE4MDAwMDAsImV4cGlyZXNBdCI6MTc2OTgwNzIwNDkxMSwiaWQiOjE3Njk4MDUzMDUyODIsInNlc3Npb25TdGFydCI6ZmFsc2V9",
+                "domain": ".flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801341404,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "experiment.2025q4-same-carrier-only|flightconnections.easyjet.com|/": {
+                "name": "experiment.2025q4-same-carrier-only",
+                "value": "variantControl",
+                "domain": "flightconnections.easyjet.com",
+                "path": "/",
+                "expires": 1801365046.965706,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "Lax"
+            },
+            "datadome|.easyjet.com|/": {
+                "name": "datadome",
+                "value": "uvRXZk01_7_pfWi5r8nkQ4_F5BW_QINQEk79sA~1WtdPFq0dIitnC6N_XHUDJQj2s2LElXuqHixPFWsCQ7abrZl77ha2BFil9f9q4DCRd3RKQFUF0CJTBNsPsakPfYpE",
+                "domain": ".easyjet.com",
+                "path": "/",
+                "expires": 1801342132,
+                "httpOnly": false,
+                "secure": false,
+                "sameSite": "Lax"
+            }
+        },
+        "removed": {
+            "uids|.adscale.de|/": {
+                "name": "uids",
+                "value": "eyJ0ZW1wVUlEcyI6eyJhZGZvcm0iOnsidWlkIjoiNDIyMTk2NDcyNjg1ODM3ODc4OSJ9LCJhZG54cyI6eyJ1aWQiOiI4MjExMDU0OTgxNTg0NTkyMzk2In0sImNyaXRlbyI6eyJ1aWQiOiJrLU10VHgxZUw5SkRnaWpqYlRwSXBUbjVnMGNwSTRKbU1ZMkpyejFnIn0sImltcHJvdmVkaWdpdGFsIjp7InVpZCI6ImEzYmNlMmUwLTUxZDAtNDE3NC1iYzQzLWRlNzMyOTljMTIwZSJ9LCJtZWRpYW5ldCI6eyJ1aWQiOiI0MTAzNzc4NTQzMjQwODg3MDAwVjEwIn0sIm9wZW54Ijp7InVpZCI6IjliMTVjZmU3LTNjZjUtNGNjNy04YmZhLTQzODhhOTQ0ZGRiNyJ9LCJvcmJpZGRlciI6eyJ1aWQiOiJjYTI3NjQxZi00YzQ5LTQ5YTEtOTk5Mi1hYTFjMzBkZjE5ZTUub3JiaWRkZXJfX18ifSwicHVibWF0aWMiOnsidWlkIjoiMDZCNkUzQjYtMzQ3Ri00MDVDLUE2MkYtQTcwMkJFN0Y1QjFBIn0sInJ1Ymljb24iOnsidWlkIjoiTUpYNjZVWUctMjItUE5MIn0sInNlZWR0YWciOnsidWlkIjoiMDE5YjgwNTktNDM4Zi03MDVjLTlmNjUtOTg5NjBhODVjZjFmIn0sInNoYXJldGhyb3VnaCI6eyJ1aWQiOiI5NmE1MmY3NS1lODMyLTRlOWYtYjdjOC1hNjFmMjU1NzE2NGUifSwic21hcnRhZHNlcnZlciI6eyJ1aWQiOiI3Mzk0ODAwNDI3MzM0ODgwODM4In0sInRyaXBsZWxpZnQiOnsidWlkIjoiNDQ4NDA2MzkxNDIyMTg2NzQ2NzExMyJ9fX0=",
+                "domain": ".adscale.de",
+                "path": "/",
+                "expires": 1769805620.005324,
+                "httpOnly": false,
+                "secure": true,
+                "sameSite": "None"
+            }
+        },
+        "modified": {
+            "_ga_123136L579|.easyjet.com|/": {
+                "from": {
+                    "name": "_ga_123136L579",
+                    "value": "GS2.1.s1769804928$o5$g0$t1769804928$j60$l0$h206576866",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1804364928.685826,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_123136L579",
+                    "value": "GS2.1.s1769804928$o5$g1$t1769805926$j60$l0$h206576866",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1804365928.031667,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "CMSPOD|www.easyjet.com|/": {
+                "from": {
+                    "name": "CMSPOD",
+                    "value": "dub-sc1-blue",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769812124.476176,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "CMSPOD",
+                    "value": "dub-sc1-blue",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769813125.367932,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_ga_RQJDCQFJCZ|.easyjet.com|/": {
+                "from": {
+                    "name": "_ga_RQJDCQFJCZ",
+                    "value": "GS2.1.s1769804927$o5$g1$t1769804974$j60$l0$h0",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1804364974.875712,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga_RQJDCQFJCZ",
+                    "value": "GS2.1.s1769804927$o5$g1$t1769805955$j60$l0$h0",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1804365955.413952,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "bm_sz|.easyjet.com|/": {
+                "from": {
+                    "name": "bm_sz",
+                    "value": "BBAD84D453E7DCEC97100AABFD0E7ACB~YAAQo/PaF46xTwqcAQAAA++XEB5JLgJFanQtbhX0PHfIb97wYlFVR4J1Ln89mGx+ncoOxNSwbtgSV7DAhwAMAedHG5Eiy6TjkvUbK77B5AbTHqyi+hoUzFhRgQ6BP3qJOgVV5BDftsfnyS9EeSxdhafi4d2I/Oxwf2PoW7YoX+Qjp82mIgzV+jvSUcv5kyvaKZfm8JgPDjv39iKyyTPqcFwxFc2ADWSIEkEw6no5GpBkSraSPF4aao4buGENRPGB1ZnIXvrVOqc8mda++3oHjqkXvJLpQW2t82cMZfkB6w3pssqtSqe6YSvcZxRcY/guMe4oaCZgVqYlpZDIaNNrWrhEwQf7UAVQ72pZimaLE3TdFIGgMlF7jBehfDweUS73ldIXIlcmO9xVgYdXUukn3g+3Wg==~4274244~3752259",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769819318.698628,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "bm_sz",
+                    "value": "BBAD84D453E7DCEC97100AABFD0E7ACB~YAAQnfPaF2inl9ebAQAAOSmnEB6mcv9UotPclg0nwmfqijGlJtJqfjrPJYMkPOAoe6ss/jLezfI9ofXnsJpzd74Vv39Jkg9acRrc4WMeIHusJ48KXxxM2eplY5WwPtjWHGUp2YDEQ8azomq+NjJy7IFa7P5PLrbSvWiIy3hcu5o7xLXLkCjtKxWVUM2ZNgl538Ebq8ZK2n6ZPVrl4qz9U5hpm2EON7cZ2fseNeSQ5A6iRYOir47UpVhuv8LwfS9f8XOIyOMU1TCgvvNZ+MjShGu2lOcwCgYhZ8/5DWGgDAwUx80Sg8KDLMRVAG3tfkc5JbcPSo7A/ifBDrxVIZj/Tf2V+Bzz3RuXYrDFjo0AKXj8FFvC7cwYyWIi7kfuoptwyguycotexzY7LXuJnUrcAMwXXKHII40S/iZ2T1HVsWXe00Q=~4274244~3752259",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769819318.641979,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_splunk_rum_sid|www.easyjet.com|/": {
+                "from": {
+                    "name": "_splunk_rum_sid",
+                    "value": "%7B%22expiresAt%22%3A1769805824486%2C%22id%22%3A%2285531f37d165b28bba0ff7c4ebc24e98%22%2C%22startTime%22%3A1769804924485%7D",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769805824.486246,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict"
+                },
+                "to": {
+                    "name": "_splunk_rum_sid",
+                    "value": "%7B%22expiresAt%22%3A1769806814363%2C%22id%22%3A%2285531f37d165b28bba0ff7c4ebc24e98%22%2C%22startTime%22%3A1769804924485%2C%22inactive%22%3Afalse%7D",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806815.356213,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Strict"
+                }
+            },
+            "ad-privacy|.amazon-adsystem.com|/": {
+                "from": {
+                    "name": "ad-privacy",
+                    "value": "0",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1804364930.236303,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ad-privacy",
+                    "value": "0",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1804365928.82835,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_abck|.easyjet.com|/": {
+                "from": {
+                    "name": "_abck",
+                    "value": "C35F667B02B1E5728B40CF4F8AE4434D~-1~YAAQo/PaF9i1TwqcAQAAbeyYEA8Yx4RHmNyNNbzk2Bjw7eUx9ATgOAjAf1SNdDjnEZbBWpb8VfVx+JiWTZPi9SGs3Wu8Kr+a+GHynr2386WhSmCpv5o8psUdWAZRfCl1Hxb/+9uwykkNKumCPNpDiPgduQAHh4psjWdF2x93oj3ZF8nZmP44/OFcMP1zNkpIeTFqPOXkNSkzcI0/VcadI+1Hj6FhhvMNl7HgP9V6/i6vgeUwLP+ExoF+O5gXyyJxHJctO4QDFC7CxxoL03OWPR7rs68iIMqHixlJ80YQqxgLDDtiAM+E/FdyDgjx9ZWAFZ4hm/0JKRuBb0WWPuMxDnzSwFtQwLgKKjNeSKoo44X12Gn/ZxCbtyL0NI9oRjmAfLiqb1tOkMa76br6fjOyYxgW/ttLOQOyJ9tZOcdj094TlBrGq/N3PbezhtffEmJVdW5Uyk6QBtJcOamEhJF8GKH6avNL8aIJJJc9gPsNUGtHMZBp9HeAUurDOuMftUewspRhWG0SvyejO4U2gLEYP4G72hueNPgbr0+ivfbGj1r1XH5O5P/BNnRfft1NlDpC49LiO3BZxqUD2FW2TzG/c/Wpi18d+2TrBo3YkVWw/PxiIuu+emvpnreB6IvIOAb94Ewpegt8/+oFmiPxUSNP/MjzfKLjoBuetbTiuck/2T70FP8/5+66fZmA+HRJPcg7cRTubSlr+sDDYrQxec37Fhz34eVYtaNjI3OHMXKPdmFXS5wy84b3x4aezn4PW9Ny6Hba7HKvU7e7AViRy0rJNMLIqqxmaB3xeG2F1VS/p6NOWxq1BCcJFuNJyCJgRCA+V+QEyL7rPiwKxfVzgAf1dPhtGc/xpKqSY6EslgOOIDSqlwOb12ss7BEwrBKImf8QjbvCBRrJK1AKX60pPFDYaQQumrdrZBy2X2MIGsqnkNp+FFCZN7X4TaDbH/Z+CFBzBFLPJM3Y1HspC4WtqNp+fVCtKXNEndPAlw3UPqKjBqvAfvMFhphiKKXTO9WmJFawNJuFkmnzZCZp+gNJxrsHgLuTp2USEsZKObk=~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f3X1q1yXcCDJPhj3jOtV9larWyPq8ePJa+lsxTAn%2f%2fIzEcb80gEqXhoN+S+4XGBV44BrGiNv880mVZYznnU7KkE8d5x3+553nwauBvSqFZnlzJOt+46NZigJhFqk6a+p+qmV0RM%3d~1769805043",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1801340983.576897,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_abck",
+                    "value": "C35F667B02B1E5728B40CF4F8AE4434D~-1~YAAQnfPaF+zdl9ebAQAASxuqEA9kTEahdxcLKYEw/rvvP1OHZUAnXXWQdd2Uv98MgTvKH1G5w6Roovuuwj/tjRcO57s7OGi6fJAYSc7JdOBQT0z1rF2ynKmS/R/jjPLs+T8oT9zNoslABjSHENAlq6/wRsxo0QUCRJNaZjhNgPJWnTeQtRJpfdHkgDQ0451q/NaTPbDEABtC59nHwPG2bX/X13ObUxMVywq1EYWscPrg43fxCs9ing/SmkJAq+sSFodsVeRoPaoqkxqyQJkaTGkbr6CKYutbQob0IstcS7q1lyu2zMUJrwgvkrsRRSCR4JJ304cT9WJ7OmumGdWOWPVoIC3Ps6MtMSw0NjqLJkOuFMlz7plSnP0JsOgu7m13dLurztPK6QTCkPyjEeDvsFUVOYNvsdWA3/AlNr6bSISJh4kaOvoCtmGJpsqAbM6t6gqFjLBTT67bNsS043SZzSm76W+nq4935sikZOJAqC2/IvN7TbLef8TAOE3Gu4VXZuxQNQsXaiQHY/DvaB1MytwX4sY8Gz27OzwbZ/zN96tkeu7rk+m7LeMynPYwXzqvcyNYU/HUIUuAI0TXDDIKemzmZaM4kr9diq0eNDZIpi0Jsb163ZP3Wu6+6KZmjRLAsK7iol50gUA3eAepgLarr2QxqddcL/OEIXtMaBcXe+uk2532HKCyVEywfRlrM+kuF/9Hy6GpNEX1sB+uIkj5zZ8UsBhjFVsY0lWkAMeRjYw3UnRz2OtYslZoZuI7tLUTrIr68paVDtcLA38X9qkMLp/mrleKmiP0hz0x61B6gOlis/ZeGdHkNE1b2ehLbvkRXbp2OYJxQRq5DfuZOGPhffaTr/UC//jX/SJ8EMoETavwBzmoEBfa5sDN9JS+bAN4e6PKz6Y0d2VX2g+WfbSL9tE5Yy4HfLWgN8uuEeRHXCaF0lKX39wFbFW1Zdwzy9zxNnlDAzzwmaQHDSJL0+X8RNZexE00FGHShCu0Quw/byKTm52k27jCdhxB1peutMkKewlIyFIlQ07/zGwrbf8Qwnf4lc5D6Y9qV6sHYi4lLSDj2rnUYIbOP8aAV1U5FjSx3kLklQ==~-1~-1~-1~AAQAAAAF%2f%2f%2f%2f%2f2ABy8SlBUh8n14n00gIlGG59uw5uzPDRt1QmnZmc1gqzbZpx13osF%2fwOP3KQoM2lPBCYqv41RQd89O5GcrdOx%2fM5vUGLj%2flemM+vcDGarfi49q55b7XgXNiLdTzFiuJFAyYiQoaUnlJMu3T4zKWqS0nG%2fl6oKwhHBxAZqVqVQ%3d%3d~1769806169",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1801342109.68495,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "DA-Antiforgery-C|.easyjet.com|/": {
+                "from": {
+                    "name": "DA-Antiforgery-C",
+                    "value": "CfDJ8AA4BFQvFcBKkPd8NdDUBJPmUohOkn6ST_LPCokLmwMQnrS16t0rVI_2EaNew4q4ZMrdrPnsVbeNTITEZATukhnBrBvzliaDjzGCqRNA5w8yDHzk8-G4Unl-Ta0ZUEtXLEFKKGZLhtj8aUdfrxRrgJY",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "DA-Antiforgery-C",
+                    "value": "CfDJ8AA4BFQvFcBKkPd8NdDUBJPt5ffv2kjsrMLSroeMTJnmCTPRc_mp0m0r4Ayi0q1T21Da9fEJOmsKxf0h-1xFCtMauPhF3drqNcXtlK3lpi9hP_TkGZNYAKzcd71EZmBszf7a0vWVEaUje85_mL4R1Lo",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": -1,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "bm_sv|.easyjet.com|/": {
+                "from": {
+                    "name": "bm_sv",
+                    "value": "998A1F5CAE355FE17803E9943C359168~YAAQo/PaFwayTwqcAQAAlQWYEB4NNuFAC30UO+rkk2JdXKmOC7tkaeS/QBfmZLT0pppzq/ALMFjhbW8/yYjLOW3g8kyOrdnA6R9+uLLoz5KoMx9FB5s50wBkYZlNMonDFHCNpVeoCI/0YMA3PRCMv8dtHdMMj+7RnucmpF5Pkzs1VQJo5hxONpHCeEF9qqmOIPjk8ZSU4nro1nWPgfW1b+3bgS2z6sxVgKJHIj7lHRpPEx76mFNvJNbRR3upDssOdQ==~1",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769812118.476284,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "bm_sv",
+                    "value": "998A1F5CAE355FE17803E9943C359168~YAAQnfPaFxmql9ebAQAASEunEB44ouRYmmQFSccYMcJNnLu0Jn8GUCf7uklvdGfo34dNmqJhSvSexhecXRY3AAQdSAwXLNSYVMzmiqR/V/s+ycfxDpmjme90hvCqv5/hpwCew9v0TMkxHHx805qb1fTD7zJtbw6+w4FbIHqHLMMXjc9h5yKIK3MvqkPLPQzxuT14S2yI9RhV3pCOw5z+Y3yx73HeSEYqPII/Cd6CqvrUOej3StimVcVI0MpAYoJmRA==~1",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769812118.368159,
+                    "httpOnly": false,
+                    "secure": true,
+                    "sameSite": "Lax"
+                }
+            },
+            "66310|www.easyjet.com|/": {
+                "from": {
+                    "name": "66310",
+                    "value": "3",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "66310",
+                    "value": "3",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769807724,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_uetvid|.easyjet.com|/": {
+                "from": {
+                    "name": "_uetvid",
+                    "value": "a01f90e0e7ff11f0a826579d14ab9204",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1803500931,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_uetvid",
+                    "value": "a01f90e0e7ff11f0a826579d14ab9204",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1803501927,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "63882|www.easyjet.com|/": {
+                "from": {
+                    "name": "63882",
+                    "value": "Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/140.0.0.0%20Safari/537.36",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "63882",
+                    "value": "Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/140.0.0.0%20Safari/537.36",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769807724,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "66312|www.easyjet.com|/": {
+                "from": {
+                    "name": "66312",
+                    "value": "",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "66312",
+                    "value": "",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769807724,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "ad-id|.amazon-adsystem.com|/": {
+                "from": {
+                    "name": "ad-id",
+                    "value": "AwcHhvFwcEmpvebOINCYm0E",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1790886530.23458,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                },
+                "to": {
+                    "name": "ad-id",
+                    "value": "AwcHhvFwcEmpvebOINCYm0E",
+                    "domain": ".amazon-adsystem.com",
+                    "path": "/",
+                    "expires": 1790887528.827864,
+                    "httpOnly": true,
+                    "secure": true,
+                    "sameSite": "None"
+                }
+            },
+            "_uetsid|.easyjet.com|/": {
+                "from": {
+                    "name": "_uetsid",
+                    "value": "76cf3f40fdec11f0a8d63b6537b5aa1e",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769891331,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_uetsid",
+                    "value": "76cf3f40fdec11f0a8d63b6537b5aa1e",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769892327,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "66311|www.easyjet.com|/": {
+                "from": {
+                    "name": "66311",
+                    "value": "5",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "66311",
+                    "value": "5",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769807724,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_cs_s|.easyjet.com|/": {
+                "from": {
+                    "name": "_cs_s",
+                    "value": "1.5.U.9.1769806788995",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769806788,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_cs_s",
+                    "value": "2.5.U.9.1769807855526",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1769807855,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_cs_id|.easyjet.com|/": {
+                "from": {
+                    "name": "_cs_id",
+                    "value": "c16490c2-ad6c-a3ff-ec04-dd4214794d8e.1767374567.5.1769804928.1769804928.1758104552.1801538567513.1.x",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1801538567,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_cs_id",
+                    "value": "c16490c2-ad6c-a3ff-ec04-dd4214794d8e.1767374567.5.1769805928.1769804928.1758104552.1801538567513.1.x",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1801538567,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_ga|.easyjet.com|/": {
+                "from": {
+                    "name": "_ga",
+                    "value": "GA1.1.451248618.1767374548",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1804364928.686647,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_ga",
+                    "value": "GA1.1.451248618.1767374548",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1804365928.03326,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "64199|www.easyjet.com|/": {
+                "from": {
+                    "name": "64199",
+                    "value": "NO_ID",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "64199",
+                    "value": "NO_ID",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769807724,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "_fbp|.easyjet.com|/": {
+                "from": {
+                    "name": "_fbp",
+                    "value": "fb.1.1767374568633.822324135867722048",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1777580929,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "_fbp",
+                    "value": "fb.1.1767374568633.822324135867722048",
+                    "domain": ".easyjet.com",
+                    "path": "/",
+                    "expires": 1777581928,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            },
+            "66309|www.easyjet.com|/": {
+                "from": {
+                    "name": "66309",
+                    "value": "60",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769806725,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                },
+                "to": {
+                    "name": "66309",
+                    "value": "60",
+                    "domain": "www.easyjet.com",
+                    "path": "/",
+                    "expires": 1769807724,
+                    "httpOnly": false,
+                    "secure": false,
+                    "sameSite": "Lax"
+                }
+            }
+        }
+    },
+    "localStorage": {
+        "added": {},
+        "removed": {},
+        "modified": {
+            "64199": {
+                "from": "{\"expires\":1769806725247,\"value\":\"NO_ID\"}",
+                "to": "{\"expires\":1769807724397,\"value\":\"NO_ID\"}"
+            },
+            "66309": {
+                "from": "{\"expires\":1769806725248,\"value\":60}",
+                "to": "{\"expires\":1769807724398,\"value\":\"60\"}"
+            },
+            "topicsLastReferenceTime": {
+                "from": "1769804929657",
+                "to": "1769805928714"
+            },
+            "63882": {
+                "from": "{\"expires\":1769806725244,\"value\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}",
+                "to": "{\"expires\":1769807724395,\"value\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"}"
+            },
+            "_uetsid_exp": {
+                "from": "Sat, 31 Jan 2026 20:28:51 GMT",
+                "to": "Sat, 31 Jan 2026 20:45:27 GMT"
+            },
+            "66310": {
+                "from": "{\"expires\":1769806725249,\"value\":3}",
+                "to": "{\"expires\":1769807724404,\"value\":\"3\"}"
+            },
+            "_uetvid_exp": {
+                "from": "Wed, 24 Feb 2027 20:28:51 GMT",
+                "to": "Wed, 24 Feb 2027 20:45:27 GMT"
+            },
+            "66312": {
+                "from": "{\"expires\":1769806725250,\"value\":\"\"}",
+                "to": "{\"expires\":1769807724413,\"value\":\"\"}"
+            },
+            "66311": {
+                "from": "{\"expires\":1769806725250,\"value\":5}",
+                "to": "{\"expires\":1769807724410,\"value\":\"5\"}"
+            }
+        }
+    },
+    "sessionStorage": {
+        "added": {
+            "destinationGuidesGtmCoreParameters": "{\"businessChannel\":\"Website\",\"businessType\":\"Airline: Direct Seat-Only\",\"checkedInStatus\":\"\",\"checkInOpen\":\"\",\"environment\":\"Prod\",\"loggedInStatus\":\"No\",\"pageCategory\":\"Destination Guide_Generic: Country\",\"pageLanguage\":\"FR-FR\",\"pageName\":\"Destination Guide_Country: Nouvelles destinations|FR-FR\",\"pageReferral\":\"https://www.easyjet.com/fr/\",\"pageUrl\":\"https://www.easyjet.com/fr/vols-pas-chers/nouvelles-destinations\",\"referralPageCategory\":\"{\\\"value\\\":\\\"Global\\\",\\\"expiration\\\":null}\",\"referralPageName\":\"{\\\"value\\\":\\\"Homepage | FR-FR\\\",\\\"expiration\\\":null}\",\"responsivePagebreakView\":\"Extra Wide\",\"screenOrientation\":\"Landscape\",\"siteVersion\":\"MA|v15.2\",\"testVariant\":\"\",\"timestamp\":\"2026-01-30_21:45:22\",\"userId\":\"\"}"
+        },
+        "removed": {},
+        "modified": {
+            "dimension11": {
+                "from": "{\"value\":\"Global\",\"expiration\":null}",
+                "to": "{\"value\":\"Destination Guide_Generic: Country\",\"expiration\":null}"
+            },
+            "gtm_pageViewCount": {
+                "from": "1",
+                "to": "2"
+            },
+            "dimension10": {
+                "from": "{\"value\":\"Homepage | FR-FR\",\"expiration\":null}",
+                "to": "{\"value\":\"Destination Guide_Country: Nouvelles destinations|FR-FR\",\"expiration\":null}"
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "task_id": "83",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris\",\"iso_code\":\"75\"},\"ip_address\":\"178.171.21.125\"}",
+    "value_length": 420,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/d/asie",
+    "timestamp": "2025-12-03T23:39:30.955701",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "314",
+    "key": "birthdates",
+    "value": "[]",
+    "value_length": 2,
+    "initial_url": "https://www.clubmed.fr",
+    "final_url": "https://www.clubmed.fr/r/peisey-vallandry/w?adults=3&children=0&start_date=2025-12-02&end_date=2025-12-09",
+    "timestamp": "2025-12-04T03:19:56.245898",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key name 'birthdates' directly indicates personal data category even if value is empty array.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "427",
+    "key": "previous_user_profile",
+    "value": "VA",
+    "value_length": 2,
+    "initial_url": "https://www.cedeo.fr",
+    "final_url": "https://www.cedeo.fr/services-pro",
+    "timestamp": "2025-12-04T04:47:12.320431",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "DIRECT_PII",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 2,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.7,
+    "ai_explanation": "Key contains 'user_profile' indicating possible personal data storage, even if value is short.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

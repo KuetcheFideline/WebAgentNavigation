@@ -1,0 +1,59 @@
+[
+  {
+    "field_path": "[52].geoLocation.ip",
+    "name": "ip",
+    "value": "158.46.138.103",
+    "matched_subcategory": "ip_address",
+    "match_type": "value",
+    "decoded_value": null,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json"
+  },
+  {
+    "field_path": "[3].serializedConfig.fetchDate",
+    "value": 1764846162473.0,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json",
+    "name": "fetchDate",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Timestamp value, considered personal data as it relates to user session.",
+    "record_id": "https_www.planet.fr_0.indexeddb.leveldb.json#3",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[4].serializedConfig.fetchDate",
+    "value": 1764846162473.0,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json",
+    "name": "fetchDate",
+    "ai_categorized": true,
+    "ai_confidence": 0.8,
+    "ai_explanation": "Timestamp value related to user session, considered personal data.",
+    "record_id": "https_www.planet.fr_0.indexeddb.leveldb.json#4",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[3].serializedConfig.fetchDate",
+    "value": 1764846162473.0,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json",
+    "name": "fetchDate",
+    "ai_categorized": true,
+    "ai_confidence": 0.7,
+    "ai_explanation": "Timestamp numeric value, considered direct PII key.",
+    "record_id": "https_www.planet.fr_0.indexeddb.leveldb.json#3",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  },
+  {
+    "field_path": "[4].serializedConfig.fetchDate",
+    "value": 1764846162473.0,
+    "source_file": "https_www.planet.fr_0.indexeddb.leveldb.json",
+    "name": "fetchDate",
+    "ai_categorized": true,
+    "ai_confidence": 0.7,
+    "ai_explanation": "Timestamp numeric value, considered direct PII key.",
+    "record_id": "https_www.planet.fr_0.indexeddb.leveldb.json#4",
+    "matched_subcategory": "ai_context_aware",
+    "match_type": "ai_analysis"
+  }
+]

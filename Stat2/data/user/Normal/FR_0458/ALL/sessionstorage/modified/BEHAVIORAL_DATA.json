@@ -1,0 +1,102 @@
+[
+  {
+    "task_id": "47",
+    "key": "alert_pro_counter",
+    "value": "{\"counterVal\":0,\"expirationDate\":\"2026-02-24T14:35:01.119Z\",\"dateMessage\":null,\"message\":null,\"idAlerte\":null,\"closed\":false}",
+    "value_from": "{\"counterVal\":0,\"expirationDate\":\"2026-02-24T14:15:01.118Z\",\"dateMessage\":null,\"message\":null,\"idAlerte\":null,\"closed\":false}",
+    "value_to": "{\"counterVal\":0,\"expirationDate\":\"2026-02-24T14:35:01.119Z\",\"dateMessage\":null,\"message\":null,\"idAlerte\":null,\"closed\":false}",
+    "value_from_length": 125,
+    "value_to_length": 125,
+    "value_changed": true,
+    "initial_url": "https://professionnels.sg.fr",
+    "final_url": "https://professionnels.sg.fr/",
+    "timestamp": "2026-02-24T15:31:09.679389",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 125,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 0.9,
+    "ai_explanation": "Key name and JSON value indicate a counter with expiration and message state, typical for tracking user interaction or alert state in session.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "94",
+    "key": "com.adobe.reactor.core.visitorTracking.pagesViewed",
+    "value": "5",
+    "value_from": "1",
+    "value_to": "5",
+    "value_from_length": 1,
+    "value_to_length": 1,
+    "value_changed": true,
+    "initial_url": "https://www.zooplus.fr",
+    "final_url": "https://www.zooplus.fr/shop/top_marques",
+    "timestamp": "2026-02-25T07:40:10.950631",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 0,
+    "_size_bytes": 1,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key explicitly references visitor tracking and pages viewed count, indicating behavioral data.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "94",
+    "key": "previousPageData",
+    "value": "{\"url\":\"https://www.zooplus.fr/shop/top_marques\",\"name\":\"Category\"}",
+    "value_from": "{\"url\":\"https://www.zooplus.fr/\",\"name\":\"Homepage\"}",
+    "value_to": "{\"url\":\"https://www.zooplus.fr/shop/top_marques\",\"name\":\"Category\"}",
+    "value_from_length": 51,
+    "value_to_length": 67,
+    "value_changed": true,
+    "initial_url": "https://www.zooplus.fr",
+    "final_url": "https://www.zooplus.fr/shop/top_marques",
+    "timestamp": "2026-02-25T07:40:10.950631",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": true,
+    "_json_depth": 1,
+    "_size_bytes": 67,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key and JSON value contain URL and page name, representing user navigation behavior.",
+    "_matched_subcategory": "ai_refined"
+  },
+  {
+    "task_id": "94",
+    "key": "com.adobe.reactor.core.visitorTracking.trafficSource",
+    "value": "https://www.zooplus.fr/",
+    "value_from": "",
+    "value_to": "https://www.zooplus.fr/",
+    "value_from_length": 0,
+    "value_to_length": 23,
+    "value_changed": true,
+    "initial_url": "https://www.zooplus.fr",
+    "final_url": "https://www.zooplus.fr/shop/top_marques",
+    "timestamp": "2026-02-25T07:40:10.950631",
+    "_categories": [
+      "UNCATEGORIZED"
+    ],
+    "_primary_category": "BEHAVIORAL_DATA",
+    "_is_json": false,
+    "_json_depth": 0,
+    "_size_bytes": 23,
+    "ai_processed": true,
+    "ai_categorized": true,
+    "ai_confidence": 1.0,
+    "ai_explanation": "Key references visitor tracking and traffic source URL, indicating behavioral data about user session source.",
+    "_matched_subcategory": "ai_refined"
+  }
+]

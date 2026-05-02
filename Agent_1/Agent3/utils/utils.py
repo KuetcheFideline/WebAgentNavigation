@@ -122,13 +122,10 @@ def sanitize_filename(name: str) -> str:
     if not isinstance(name, str):
         name = str(name)
         
-    # Remplace les slashes et autres caractères invalides par un underscore
     name = re.sub(r'[\\/*?:"<>|]', "_", name)
     
-    # Supprime les points et espaces superflus au début et à la fin
     name = name.strip('. ')
     
-    # Optionnel : si le nom est vide après nettoyage, on retourne un nom par défaut
     if not name:
         return "uncategorized_invalid_name"
         
@@ -213,7 +210,6 @@ def extract_result(result, site, fil):
                 json.dump(category_data, f, indent=2, ensure_ascii=False)
             print(f"Succès: URL {site} ajoutée")
 
-        # Formater les tâches dans les dossiers correspondants
         with open("./prompts/template.json", 'r', encoding='utf-8') as f:
             template = json.load(f)
 
@@ -263,7 +259,6 @@ def extract_result(result, site, fil):
             json.dump(dume, f, ensure_ascii=False, indent=2)
 
 
-#    time.sleep(10)
 
 def extract_category(result,result_dir:str="results"):
 
@@ -282,8 +277,6 @@ def extract_category(result,result_dir:str="results"):
                 try:
                     print("exist file")
                     category_data = json.load(f)
-                    #print(category_data["sites"])
-                    #print(result)
                     if result["url"] not in category_data["sites"]:
                         print("not In")
                         category_data["sites"].append(result["url"])
@@ -370,7 +363,6 @@ def extract_json_from_output(output: str) -> dict:
         json.JSONDecodeError: If the extracted JSON is invalid.
     """
     try:
-        # Use regex to find JSON content between ```json and ```
         json_pattern = r'```json\s*([\s\S]*?)\s*```'
         match = re.search(json_pattern, output)
         
@@ -378,10 +370,8 @@ def extract_json_from_output(output: str) -> dict:
             print("No JSON found within ```json ``` markers")
             return {}
             
-        # Extract the JSON string from the matched group
         json_str = match.group(1)
         
-        # Parse the JSON string into a Python dictionary
         return json.loads(json_str)
     except json.JSONDecodeError as e:
         print(f"Error parsing JSON: {e}")
@@ -395,8 +385,6 @@ def add_task_to_category_json(file,res):
         try:
             print("exist file")
             category_data = json.load(f)
-            #print(category_data["tasks"])
-            #print(res["tasks"])
             
             category_data["tasks"].append(res["tasks"])
                     
@@ -594,7 +582,7 @@ def append_json_to_list_file(file_path, new_data_list):
             try:
                 existing_data = json.load(f)
             except json.JSONDecodeError:
-                pass  # Le fichier est corrompu, il sera écrasé
+                pass  
 
     existing_data.extend(new_data_list)
 

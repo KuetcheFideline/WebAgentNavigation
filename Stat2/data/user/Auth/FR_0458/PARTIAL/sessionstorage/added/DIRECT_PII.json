@@ -1,0 +1,62 @@
+[
+  {
+    "task_id": "27",
+    "key": "hbv:bundle:client-context",
+    "value": "{\"fetchTime\":1767350466365,\"value\":{\"ip\":\"158.46.138.103\",\"ua\":{\"browser\":{\"name\":\"Chrome\",\"version\":\"140.0.0.0\"},\"device\":{},\"engine\":{\"name\":\"Blink\",\"version\":\"140.0.0.0\"},\"os\":{\"name\":\"Linux\"},\"cpu\":{\"architecture\":\"amd64\"}},\"geo\":{\"country\":{\"name\":\"France\",\"iso\":\"FR\",\"alpha3\":\"FRA\",\"region\":\"EMEA\",\"isEu\":true},\"city\":{\"name\":\"Paris\",\"zip\":\"75001\"},\"subdivisions\":[{\"name\":\"Île-de-France\",\"iso\":\"IDF\"},{\"name\":\"Paris\",\"iso\":\"75\"}],\"location\":{\"accuracyRadius\":20,\"latitude\":48.8323,\"longitude\":2.4075,\"timeZone\":\"Europe/Paris\"}},\"cxn\":\"Corporate\"}}",
+    "value_length": 554,
+    "initial_url": "https://www.sudouest.fr",
+    "final_url": "https://profil.sudouest.fr/login/?SSO_Context=https%3A%2F%2Fwww.sudouest.fr%2F",
+    "timestamp": "2026-01-02T11:41:16.573955",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "29",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.cic.fr",
+    "final_url": "https://www.cic.fr/fr/authentification.html",
+    "timestamp": "2025-12-30T22:07:55.216539",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "161",
+    "key": "current-ip",
+    "value": "158.46.138.103",
+    "value_length": 14,
+    "initial_url": "https://www.bouyguestelecom.fr",
+    "final_url": "https://www.bouyguestelecom.fr/panier",
+    "timestamp": "2025-12-31T01:26:49.757449",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "206",
+    "key": "ABTastyGeoloc",
+    "value": "{\"country_name\":\"France\",\"country_iso_code\":\"FR\",\"state\":\"Île-de-France\",\"state_iso_code\":\"IDF\",\"city\":\"Paris\",\"city_id\":2988507,\"city_confidence\":-1,\"postal_code\":\"75001\",\"latitude\":48.8558,\"longitude\":2.3494,\"accuracy_radius\":20,\"time_zone\":\"Europe/Paris\",\"least_specific_subdivision\":{\"name\":\"Île-de-France\",\"iso_code\":\"IDF\"},\"most_specific_subdivision\":{\"name\":\"Paris Department\",\"iso_code\":\"75\"},\"ip_address\":\"158.46.138.103\"}",
+    "value_length": 431,
+    "initial_url": "https://www.mgen.fr",
+    "final_url": "https://www.mgen.fr/login-adherent/",
+    "timestamp": "2025-12-31T02:46:35.821183",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_sessionstorage.json"
+  },
+  {
+    "task_id": "358",
+    "key": "hbv:bundle:client-context",
+    "value": "{\"fetchTime\":1767155973050,\"value\":{\"ip\":\"158.46.138.103\",\"ua\":{\"browser\":{\"name\":\"Chrome\",\"version\":\"140.0.0.0\"},\"device\":{},\"engine\":{\"name\":\"Blink\",\"version\":\"140.0.0.0\"},\"os\":{\"name\":\"Linux\"},\"cpu\":{\"architecture\":\"amd64\"}},\"geo\":{\"country\":{\"name\":\"France\",\"iso\":\"FR\",\"alpha3\":\"FRA\",\"region\":\"EMEA\",\"isEu\":true},\"city\":{\"name\":\"Paris\",\"zip\":\"75001\"},\"subdivisions\":[{\"name\":\"Île-de-France\",\"iso\":\"IDF\"},{\"name\":\"Paris\",\"iso\":\"75\"}],\"location\":{\"accuracyRadius\":20,\"latitude\":48.8323,\"longitude\":2.4075,\"timeZone\":\"Europe/Paris\"}},\"cxn\":\"Corporate\"}}",
+    "value_length": 554,
+    "initial_url": "https://www.sudouest.fr",
+    "final_url": "https://profil.sudouest.fr/lost-password/?sendResult=true&UrlOk=&isForPasswordMigration=",
+    "timestamp": "2025-12-31T05:42:54.808141",
+    "_primary_category": "DIRECT_PII",
+    "_matched_subcategory": "ip_address",
+    "_source_file": "added_sessionstorage.json"
+  }
+]
