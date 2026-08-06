@@ -5,10 +5,7 @@ import requests
 import os
 
 keys = [
-    # "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",
-    # "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",
-    os.environ["GROQ_API_KEY"]
-    
+    os.environ.get("GROQ_API_KEY", "")
 ]
 
 api_manager =APIKeyManager(

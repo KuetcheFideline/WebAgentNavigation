@@ -175,6 +175,17 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
 
     @beartype
     def setup(self, config_file: Path | None = None) -> None:
+        # Fermer proprement le contexte Playwright précédent s'il existe.
+        # Chaque sync_playwright().__enter__() crée une boucle asyncio interne.
+        # Sans __exit__(), cette boucle reste "running" et bloque tous les appels
+        # Playwright Sync dans les tâches suivantes.
+        if hasattr(self, 'context_manager') and self.context_manager is not None:
+            try:
+                self.context_manager.__exit__(None, None, None)
+            except Exception:
+                pass
+            self.context_manager = None
+
         self.context_manager = sync_playwright()
         self.playwright = self.context_manager.__enter__()
         """
@@ -231,6 +242,7 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                 "--no-sandbox",
                 "--start-maximized",
             ]
+        country_code = self.country.lower()
         self.browser = self.playwright.chromium.launch_persistent_context(
                     user_data_dir=userDataDir,
                     headless=False,
@@ -240,8 +252,8 @@ class ScriptBrowserEnv(Env[dict[str, Observation], Action]):
                     locale=f"{langue[self.country]}",
                 #     proxy={
                 #        "server": "brd.superproxy.io:33335",
-                #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-es",
-                #        "password": "jsrj8ebf8lqy",                 
+                #        "username": f"brd-customer-hl_8afd7fbc-zone-isp_proxy1-country-{country_code}",
+                #        "password": "jsrj8ebf8lqy",
                 #    },
 
                 )

@@ -12,8 +12,8 @@ import re
 from openai import OpenAIError
 from tqdm import tqdm
 import json5
-import nest_asyncio
-nest_asyncio.apply()
+# import nest_asyncio
+# nest_asyncio.apply()
 
 from agent import (Agent, PromptAgent, TeacherForcingAgent,
                    construct_agent)
@@ -27,6 +27,7 @@ from evaluation_harness import evaluator_router
 from utils.utils import load_persona_from_json
 from CompteParams import CompteParams
 
+
 # Configuration du logging
 LOG_FOLDER = "log_files"
 Path(LOG_FOLDER).mkdir(parents=True, exist_ok=True)
@@ -34,6 +35,7 @@ LOG_FILE_NAME = f"{LOG_FOLDER}/log_{time.strftime('%Y%m%d%H%M%S', time.localtime
 
 logger = logging.getLogger("logger")
 logger.setLevel(logging.INFO)
+
 
 # Empêcher les handlers de s'ajouter à chaque exécution
 if not logger.handlers:
@@ -67,7 +69,7 @@ def config() -> argparse.Namespace:
     parser.add_argument("--orm_path" ,type=str ,default="agent/prompts/jsons/orm_prompt.json")
     parser.add_argument("--banner_path",type=str ,default="agent/prompts/jsons/banner.json")
     parser.add_argument("--c", action="store_true", help="Only capture the current viewport")
-    parser.add_argument("--country", type=str,choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK','AT','IE','SE','LU'],default='FR')
+    parser.add_argument("--country", type=str, choices=['FI', 'FR', 'PL', 'PT', 'ES', 'SV', 'IT', 'EN', 'NL', 'DE', 'DK', 'AT', 'IE', 'SE', 'LU', 'all', 'ALL'], default='FR')
    
     # Agent config
     parser.add_argument("--agent_type", type=str, default="prompt")
@@ -92,8 +94,8 @@ def config() -> argparse.Namespace:
 
 
     # Example config
-    parser.add_argument("--user_start_idx",type= int ,default=249)
-    parser.add_argument("--user_end_idx",type= int ,default=250)
+    parser.add_argument("--user_start_idx", type=int, default=0)
+    parser.add_argument("--user_end_idx", type=int, default=10000)
 
     parser.add_argument("--test_start_idx", type=int, default=3)
     parser.add_argument("--test_end_idx", type=int, default=1000)
@@ -363,6 +365,13 @@ def test(
         if match :
             user = match.group(1)  
         user = user.replace("/","_")
+
+        # Mettre à jour le pays dans l'env avec le vrai code pays du fichier de config.
+        # Quand --country all est utilisé, env.country vaut 'all' à la création, ce qui
+        # fait planter la lookup dans le dict langue[]. On extrait le code pays du chemin.
+        country_match = re.search(r'/([A-Za-z]{2})/\d{4}/', str(config_file))
+        if country_match:
+            env.country = country_match.group(1).lower()
         
         storage_dir = Path(args.result_dir) / user / "storage_state" / args.connected / args.consent
         traces_dir = Path(args.result_dir) / user / "traces" / args.connected / args.consent
@@ -498,20 +507,28 @@ if __name__ == "__main__":
     if not config_dir.exists():
         logger.error(f"Configuration directory not found: {config_dir}")
     else:
-        for user in os.listdir(config_dir) :
-            if user == args.country :
-                for i in range(args.user_start_idx,args.user_end_idx):
-
-                    for j in range(args.test_start_idx, args.test_end_idx):
-                            formatted_id = f"{i:04}"
+        for country_dir in sorted(os.listdir(config_dir)):
+            if args.country.lower() == "all" or country_dir.lower() == args.country.lower():
+                country_path = config_dir / country_dir
+                if not country_path.is_dir():
+                    continue
+                for user_folder in sorted(os.listdir(country_path)):
+                    user_path = country_path / user_folder
+                    if not user_path.is_dir():
+                        continue
+                    try:
+                        user_id = int(user_folder)
+                    except ValueError:
+                        continue
+                    if args.user_start_idx <= user_id < args.user_end_idx:
+                        for j in range(args.test_start_idx, args.test_end_idx):
                             if j % args.sample == 0:
-                                config_file = config_dir / user /formatted_id / f"{j}.json"  
+                                config_file = user_path / f"{j}.json"
                                 if config_file.exists():
-                                   
                                     test_file_list.append(str(config_file))
 
-                                if "debug" not in args.result_dir:
-                                    test_file_list = get_unfinished(test_file_list, args.result_dir)
+        if "debug" not in args.result_dir:
+            test_file_list = get_unfinished(test_file_list, args.result_dir)
 
         if not test_file_list:
             logger.info("No tasks left to run.")
