@@ -407,17 +407,23 @@ def test(
             result = ""
 
 
-            if url in Sites :
+            if args.connected == "NotAUTH":
+                # Pas de login requis en mode NotAUTH → on exécute directement l'intent
+                result = "SUCCESS"
+            elif url in NoSites:
+                print("impossible de creer un compte sur ce site")
+                continue
+            elif url in Sites:
                 print("compte deja creer sur ce site, verification du statut...")
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
                 result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Statut")
-            else  :
-                "creation du compte "
+            else:
+                print("creation du compte sur ce site")
                 engine = CompteParams(env, agent, task_execution_command, Continuation)
                 result = engine.run(obs, info, url, user, max_steps, early_stop_thresholds, start_intent="Register_page")
                 if result == "SUCCESS":
-                        Sites.append(url)
-                        save_sites_data(Sites, NoSites)
+                    Sites.append(url)
+                    save_sites_data(Sites, NoSites)
             initial_storage_state = env.get_all_storage_state()
             diff_filepath = storage_dir / "login" / f"{task_id}.json"
             env.save_storage(initial_storage_state, diff_filepath, url)
